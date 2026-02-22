@@ -1,0 +1,7 @@
+# Compiled binaries
+src/smaug
+src/*.o
+
+# Logs and temporary files
+log/
+system/*.log
