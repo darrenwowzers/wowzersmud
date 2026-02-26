@@ -93,6 +93,8 @@ if ( !str_cmp( word, (literal) ) )     \
 /* Macro taken from DOTD codebase. Fcloses a file, then nulls its pointer for safety. */
 #define FCLOSE(fp)  fclose((fp)); (fp)=NULL;
 
+typedef short int       sh_int;
+
 /*
  * Structure types.
  */
@@ -165,6 +167,41 @@ typedef struct vault_data VAULT_DATA;
 typedef void DO_FUN( CHAR_DATA * ch, const char *argument );
 typedef ch_ret SPELL_FUN( int sn, int level, CHAR_DATA * ch, void *vo );
 typedef bool SPEC_FUN( CHAR_DATA * ch );
+
+
+/* ============================================
+   WOW CLASSIC POWER SYSTEM
+   ============================================ */
+typedef enum
+{
+    POWER_MANA      = 0,
+    POWER_RAGE      = 1,
+    POWER_FOCUS     = 2,
+    POWER_ENERGY    = 3,
+    POWER_HAPPINESS = 4,
+    MAX_POWER_TYPES = 5
+} power_types;
+/* ============================================
+   WOW CLASSIC FACTIONS
+   ============================================ */
+typedef enum
+{
+    FACTION_NEUTRAL      = 0,
+    FACTION_ALLIANCE  = 1,
+    FACTION_HORDE     = 2
+} faction_types;
+
+typedef enum {
+    ITEM_POOR = 0, ITEM_COMMON = 1, ITEM_UNCOMMON = 2, ITEM_RARE = 3, ITEM_EPIC = 4, ITEM_LEGENDARY = 5
+} item_quality_types;
+
+typedef struct cooldown_data COOLDOWN_DATA;
+struct cooldown_data {
+    COOLDOWN_DATA * next;
+    COOLDOWN_DATA * prev;
+    int sn;
+    int duration;
+};
 
 #define DUR_CONV	23.333333333333333333333333
 #define HIDDEN_TILDE	'*'
@@ -2219,6 +2256,17 @@ struct char_data
    CHAR_DATA *retell;
    CHAR_DATA *switched;
    CHAR_DATA *mount;
+sh_int          power_type;
+    sh_int          power[MAX_POWER_TYPES];     
+    sh_int          max_power[MAX_POWER_TYPES]; 
+    time_t          last_power_tick;
+    sh_int          combo_points;
+    CHAR_DATA * combo_target;
+    sh_int          faction;
+    COOLDOWN_DATA * first_cooldown;
+    COOLDOWN_DATA * last_cooldown;
+    sh_int          gcd;
+    bool            is_auto_attacking;
    HHF_DATA *hunting;
    HHF_DATA *fearing;
    HHF_DATA *hating;
@@ -2467,6 +2515,8 @@ struct obj_index_data
    const char *short_descr;
    const char *description;
    const char *action_desc;
+   sh_int gcd;
+   sh_int max_durability;
    int value[6];
    int vnum;
    int serial;
