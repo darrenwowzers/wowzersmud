@@ -731,7 +731,7 @@ short calculate_age( CHAR_DATA * ch )
 
 /*
  * Retrieve character's current strength.
- */
+ 
 short get_curr_str( CHAR_DATA * ch )
 {
    short max;
@@ -747,10 +747,15 @@ short get_curr_str( CHAR_DATA * ch )
 
    return URANGE( 3, ch->perm_str + ch->mod_str, max );
 }
+*/
+
+// Hansth - Wowzer strength
+int get_curr_str( CHAR_DATA *ch ) { return URANGE( 0, ch->perm_stat[STAT_STR] + ch->mod_stat[STAT_STR], 10000 ); }
+
 
 /*
  * Retrieve character's current intelligence.
- */
+ 
 short get_curr_int( CHAR_DATA * ch )
 {
    short max;
@@ -766,10 +771,15 @@ short get_curr_int( CHAR_DATA * ch )
 
    return URANGE( 3, ch->perm_int + ch->mod_int, max );
 }
+*/
+
+// Hansth - Wowzer intelligince
+int get_curr_int( CHAR_DATA *ch ) { return URANGE( 0, ch->perm_stat[STAT_INT] + ch->mod_stat[STAT_INT], 10000 ); }
+
 
 /*
  * Retrieve character's current wisdom.
- */
+ 
 short get_curr_wis( CHAR_DATA * ch )
 {
    short max;
@@ -785,10 +795,14 @@ short get_curr_wis( CHAR_DATA * ch )
 
    return URANGE( 3, ch->perm_wis + ch->mod_wis, max );
 }
+*/
+
+// Hansth - Wowzer Spirit
+int get_curr_spi( CHAR_DATA *ch ) { return URANGE( 0, ch->perm_stat[STAT_SPI] + ch->mod_stat[STAT_SPI], 10000 ); }
 
 /*
  * Retrieve character's current dexterity.
- */
+
 short get_curr_dex( CHAR_DATA * ch )
 {
    short max;
@@ -804,10 +818,14 @@ short get_curr_dex( CHAR_DATA * ch )
 
    return URANGE( 3, ch->perm_dex + ch->mod_dex, max );
 }
+*/
+
+// Hansth - Wowzer Agility
+int get_curr_agi( CHAR_DATA *ch ) { return URANGE( 0, ch->perm_stat[STAT_AGI] + ch->mod_stat[STAT_AGI], 10000 ); }
 
 /*
  * Retrieve character's current constitution.
- */
+ 
 short get_curr_con( CHAR_DATA * ch )
 {
    short max;
@@ -823,10 +841,14 @@ short get_curr_con( CHAR_DATA * ch )
 
    return URANGE( 3, ch->perm_con + ch->mod_con, max );
 }
+*/
+
+// Hansth - Wowzer Stamina
+int get_curr_sta( CHAR_DATA *ch ) { return URANGE( 0, ch->perm_stat[STAT_STA] + ch->mod_stat[STAT_STA], 10000 ); }
 
 /*
  * Retrieve character's current charisma.
- */
+ 
 short get_curr_cha( CHAR_DATA * ch )
 {
    short max;
@@ -843,9 +865,9 @@ short get_curr_cha( CHAR_DATA * ch )
    return URANGE( 3, ch->perm_cha + ch->mod_cha, max );
 }
 
-/*
+
  * Retrieve character's current luck.
- */
+ 
 short get_curr_lck( CHAR_DATA * ch )
 {
    short max;
@@ -861,6 +883,8 @@ short get_curr_lck( CHAR_DATA * ch )
 
    return URANGE( 3, ch->perm_lck + ch->mod_lck, max );
 }
+*/
+
 
 /*
  * Retrieve a character's carry capacity.
@@ -886,7 +910,7 @@ int can_carry_n( CHAR_DATA * ch )
       ++penalty;
    if( get_eq_char( ch, WEAR_SHIELD ) )
       ++penalty;
-   return URANGE( 5, ( ch->level + 15 ) / 5 + get_curr_dex( ch ) - 13 - penalty, 20 );
+   return URANGE( 5, ( ch->level + 15 ) / 5 + get_curr_agi( ch ) - 13 - penalty, 20 );
 }
 
 /*
@@ -1076,6 +1100,17 @@ void modify_skill( CHAR_DATA * ch, int sn, int mod, bool fAdd )
          ch->pcdata->learned[sn] = URANGE( 0, ch->pcdata->learned[sn] + mod, GET_ADEPT( ch, sn ) );
    }
 }
+
+// Wowzer calculation for max hp/mana
+void calc_max_hp_mana( CHAR_DATA *ch )
+{
+    if ( IS_NPC(ch) ) return;
+    int base_hp = class_table[ch->Class]->base_hp + (ch->level * class_table[ch->Class]->hp_per_level);
+    ch->max_hit = base_hp + (get_curr_sta(ch) * 10);
+    if ( ch->power_type == POWER_MANA )
+        ch->max_power[POWER_MANA] = class_table[ch->Class]->base_mana + (get_curr_int(ch) * 15);
+}
+
 
 /*
  * Apply or remove an affect to a character.
@@ -4809,10 +4844,11 @@ maximum penalty will only be half that of the other clan types.
 
    ms = 10 - abs( ch->mental_state );
 
-   if( ( number_percent(  ) - get_curr_lck( ch ) + 13 - ms ) + deity_factor <= percent )
+   if( ( number_percent(  ) - ms ) + deity_factor <= percent ) // Removed call for luck -Hansth
       return TRUE;
    else
       return FALSE;
+
 }
 
 bool chance_attrib( CHAR_DATA * ch, short percent, short attrib )
@@ -4831,7 +4867,7 @@ bool chance_attrib( CHAR_DATA * ch, short percent, short attrib )
    else
       deity_factor = 0;
 
-   if( number_percent(  ) - get_curr_lck( ch ) + 13 - attrib + 13 + deity_factor <= percent )
+   if( number_percent(  ) - attrib + 13 + deity_factor <= percent ) // Removed call for luck -Hansth
       return TRUE;
    else
       return FALSE;
@@ -5068,7 +5104,7 @@ bool empty_obj( OBJ_DATA * obj, OBJ_DATA * destobj, ROOM_INDEX_DATA * destroom )
 void better_mental_state( CHAR_DATA * ch, int mod )
 {
    int c = URANGE( 0, abs( mod ), 20 );
-   int con = get_curr_con( ch );
+   int con = get_curr_sta( ch );
 
    c += number_percent(  ) < con ? 1 : 0;
 
@@ -5084,7 +5120,7 @@ void better_mental_state( CHAR_DATA * ch, int mod )
 void worsen_mental_state( CHAR_DATA * ch, int mod )
 {
    int c = URANGE( 0, abs( mod ), 20 );
-   int con = get_curr_con( ch );
+   int con = get_curr_sta( ch );
 
    c -= number_percent(  ) < con ? 1 : 0;
    if( c < 1 )

@@ -232,10 +232,10 @@ void do_score( CHAR_DATA* ch, const char* argument )
    else
       snprintf( buf, MAX_STRING_LENGTH, "%s", "that of an avatar" );
    if( ch->level > 24 )
-      pager_printf( ch, "WIS  : %2.2d(%2.2d)      Armor: %4.4d, %s\r\n",
-                    get_curr_wis( ch ), ch->perm_wis, GET_AC( ch ), buf );
+      pager_printf( ch, "SPI  : %2.2d      Armor: %4.4d, %s\r\n",
+                    get_curr_spi( ch ), GET_AC( ch ), buf );
    else
-      pager_printf( ch, "WIS  : %2.2d(%2.2d)      Armor: %s \r\n", get_curr_wis( ch ), ch->perm_wis, buf );
+      pager_printf( ch, "SPI  : %2.2d      Armor: %s \r\n", get_curr_spi( ch ), buf );
 
    if( ch->alignment > 900 )
       snprintf( buf, MAX_STRING_LENGTH, "%s", "devout" );
@@ -256,11 +256,11 @@ void do_score( CHAR_DATA* ch, const char* argument )
    else
       snprintf( buf, MAX_STRING_LENGTH, "%s", "fiendish" );
    if( ch->level < 10 )
-      pager_printf( ch, "DEX  : %2.2d(%2.2d)      Align: %-20.20s    Items: %5.5d   (max %5.5d)\r\n",
-                    get_curr_dex( ch ), ch->perm_dex, buf, ch->carry_number, can_carry_n( ch ) );
+      pager_printf( ch, "AGI  : %2.2d      Align: %-20.20s    Items: %5.5d   (max %5.5d)\r\n",
+                    get_curr_agi( ch ), buf, ch->carry_number, can_carry_n( ch ) );
    else
-      pager_printf( ch, "DEX  : %2.2d(%2.2d)      Align: %+4.4d, %-14.14s   Items: %5.5d   (max %5.5d)\r\n",
-                    get_curr_dex( ch ), ch->perm_dex, ch->alignment, buf, ch->carry_number, can_carry_n( ch ) );
+      pager_printf( ch, "AGI  : %2.2d      Align: %+4.4d, %-14.14s   Items: %5.5d   (max %5.5d)\r\n",
+                    get_curr_agi( ch ), ch->alignment, buf, ch->carry_number, can_carry_n( ch ) );
 
    switch ( ch->position )
    {
@@ -307,13 +307,13 @@ void do_score( CHAR_DATA* ch, const char* argument )
          snprintf( buf, MAX_STRING_LENGTH, "%s", "sitting" );
          break;
    }
-   pager_printf( ch, "CON  : %2.2d(%2.2d)      Pos'n: %-21.21s  Weight: %5.5d (max %7.7d)\r\n",
-                 get_curr_con( ch ), ch->perm_con, buf, ch->carry_weight, can_carry_w( ch ) );
+   pager_printf( ch, "STA  : %2.2d      Pos'n: %-21.21s  Weight: %5.5d (max %7.7d)\r\n",
+                 get_curr_sta( ch ), buf, ch->carry_weight, can_carry_w( ch ) );
 
    /*
     * Fighting style support -haus
     */
-   pager_printf( ch, "CHA  : %2.2d(%2.2d)      Wimpy: %-5d      ", get_curr_cha( ch ), ch->perm_cha, ch->wimpy );
+   pager_printf( ch, "Wimpy: %-5d      ", ch->wimpy );
 
    switch ( ch->style )
    {
@@ -334,8 +334,6 @@ void do_score( CHAR_DATA* ch, const char* argument )
          break;
    }
    pager_printf( ch, "Style: %-10.10s\r\n", buf );
-
-   pager_printf( ch, "LCK  : %2.2d(%2.2d) \r\n", get_curr_lck( ch ), ch->perm_lck );
 
    pager_printf( ch, "Glory: %4.4d(%4.4d) \r\n", ch->pcdata->quest_curr, ch->pcdata->quest_accum );
 
@@ -1217,12 +1215,12 @@ void do_statreport( CHAR_DATA* ch, const char* argument )
              ch->perm_str, ch->perm_wis, ch->perm_int, ch->perm_dex, ch->perm_con, ch->perm_cha, ch->perm_lck );
    act( AT_REPORT, buf, ch, NULL, NULL, TO_ROOM );
 
-   ch_printf( ch, "Your current stats: %-2d str %-2d wis %-2d int %-2d dex %-2d con %-2d cha %-2d lck.\r\n",
-              get_curr_str( ch ), get_curr_wis( ch ), get_curr_int( ch ),
-              get_curr_dex( ch ), get_curr_con( ch ), get_curr_cha( ch ), get_curr_lck( ch ) );
-   snprintf( buf, MAX_STRING_LENGTH, "$n's current stats: %-2d str %-2d wis %-2d int %-2d dex %-2d con %-2d cha %-2d lck.",
-             get_curr_str( ch ), get_curr_wis( ch ), get_curr_int( ch ),
-             get_curr_dex( ch ), get_curr_con( ch ), get_curr_cha( ch ), get_curr_lck( ch ) );
+   ch_printf( ch, "Your current stats: %-2d str %-2d spi %-2d int %-2d agi %-2d sta.\r\n",
+              get_curr_str( ch ), get_curr_spi( ch ), get_curr_int( ch ),
+              get_curr_agi( ch ), get_curr_sta( ch ));
+   snprintf( buf, MAX_STRING_LENGTH, "$n's current stats: %-2d str %-2d spi %-2d int %-2d agi %-2d sta.",
+             get_curr_str( ch ), get_curr_spi( ch ), get_curr_int( ch ),
+             get_curr_agi( ch ), get_curr_sta( ch ));
    act( AT_REPORT, buf, ch, NULL, NULL, TO_ROOM );
 }
 
@@ -1245,9 +1243,9 @@ void do_stat( CHAR_DATA* ch, const char* argument )
    ch_printf( ch, "Your base stats:    %-2d str %-2d wis %-2d int %-2d dex %-2d con %-2d cha %-2d lck.\r\n",
               ch->perm_str, ch->perm_wis, ch->perm_int, ch->perm_dex, ch->perm_con, ch->perm_cha, ch->perm_lck );
 
-   ch_printf( ch, "Your current stats: %-2d str %-2d wis %-2d int %-2d dex %-2d con %-2d cha %-2d lck.\r\n",
-              get_curr_str( ch ), get_curr_wis( ch ), get_curr_int( ch ),
-              get_curr_dex( ch ), get_curr_con( ch ), get_curr_cha( ch ), get_curr_lck( ch ) );
+   ch_printf( ch, "Your current stats: %-2d str %-2d spi %-2d int %-2d agi %-2d sta.\r\n",
+              get_curr_str( ch ), get_curr_spi( ch ), get_curr_int( ch ),
+              get_curr_agi( ch ), get_curr_sta( ch ));
 }
 
 void do_report( CHAR_DATA* ch, const char* argument )

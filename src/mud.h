@@ -649,6 +649,14 @@ struct lmsg_data
    short type;
 };
 
+/* Wowzer stats, replacing dnd -Hansth */
+#define STAT_STR 0
+#define STAT_AGI 1
+#define STAT_STA 2
+#define STAT_INT 3
+#define STAT_SPI 4
+#define MAX_STATS 5
+
 /*
  * Ban Types --- Shaddai
  */
@@ -1087,6 +1095,9 @@ struct class_type
    short hp_max;  /* Max hp gained on leveling  */
    bool fMana; /* Class gains mana on level  */
    short exp_base;   /* Class base exp    */
+   int base_hp; // Wowzer bases -Hansth
+   int hp_per_level; // Wowzer bases -Hansth
+   int base_mana; // Wowzer bases -Hansth
 };
 
 /* race dedicated stuff */
@@ -2256,7 +2267,12 @@ struct char_data
    CHAR_DATA *retell;
    CHAR_DATA *switched;
    CHAR_DATA *mount;
-sh_int          power_type;
+/*  Wowzer inspired stats and secondary stat chance, attack power. -Hansth */
+    sh_int perm_stat[MAX_STATS];
+    sh_int mod_stat[MAX_STATS];
+    sh_int crit_chance, hit_chance, dodge_chance, parry_chance, block_chance;
+    int    attack_power;
+    sh_int          power_type;
     sh_int          power[MAX_POWER_TYPES];     
     sh_int          max_power[MAX_POWER_TYPES]; 
     time_t          last_power_tick;
@@ -3332,7 +3348,7 @@ do								\
 #define IS_AWAKE(ch)		((ch)->position > POS_SLEEPING)
 #define GET_AC(ch)		((ch)->armor				    \
 				    + ( IS_AWAKE(ch)			    \
-				    ? dex_app[get_curr_dex(ch)].defensive   \
+				    ? dex_app[get_curr_agi(ch)].defensive   \
 				    : 0 )				    \
 				    + VAMP_AC(ch))
 #define GET_HITROLL(ch)		((ch)->hitroll				    \
@@ -4805,13 +4821,22 @@ int get_exp_worth( CHAR_DATA * ch );
 int exp_level( CHAR_DATA * ch, short level );
 short get_trust( CHAR_DATA * ch );
 short calculate_age( CHAR_DATA * ch );
-short get_curr_str( CHAR_DATA * ch );
+/*short get_curr_str( CHAR_DATA * ch );
 short get_curr_int( CHAR_DATA * ch );
 short get_curr_wis( CHAR_DATA * ch );
 short get_curr_dex( CHAR_DATA * ch );
 short get_curr_con( CHAR_DATA * ch );
 short get_curr_cha( CHAR_DATA * ch );
 short get_curr_lck( CHAR_DATA * ch );
+*/
+
+// Wowzer 5 stats - Hansth
+int get_curr_str( CHAR_DATA *ch );
+int get_curr_agi( CHAR_DATA *ch );
+int get_curr_sta( CHAR_DATA *ch );
+int get_curr_int( CHAR_DATA *ch );
+int get_curr_spi( CHAR_DATA *ch );
+
 bool can_take_proto( CHAR_DATA * ch );
 int can_carry_n( CHAR_DATA * ch );
 int can_carry_w( CHAR_DATA * ch );

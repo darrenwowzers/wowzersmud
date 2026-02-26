@@ -2468,7 +2468,7 @@ void send_ansi_title( CHAR_DATA * ch )
          BUFF[num++] = c;
       FCLOSE( rpfile );
       BUFF[num] = '\0';
-      write_to_buffer( ch->desc, BUFF, num );
+      ch_printf( ch, "%s", BUFF );
    }
 }
 
@@ -3515,9 +3515,9 @@ void do_languages( CHAR_DATA* ch, const char* argument )
          return;
       }
       /*
-       * 0..16 cha = 2 pracs, 17..25 = 1 prac. -- Altrag 
+       * Changed to reflect Wowzer 5 stats -Hansth
        */
-      prac = 2 - ( get_curr_cha( ch ) / 17 );
+      prac = 2 - ( get_curr_int( ch ) / 17 );
       if( ch->practice < prac )
       {
          act( AT_TELL, "$n tells you 'You do not have enough practices.'", sch, NULL, ch, TO_VICT );
@@ -3527,7 +3527,7 @@ void do_languages( CHAR_DATA* ch, const char* argument )
       /*
        * Max 12% (5 + 4 + 3) at 24+ int and 21+ wis. -- Altrag 
        */
-      prct = 5 + ( get_curr_int( ch ) / 6 ) + ( get_curr_wis( ch ) / 7 );
+      prct = 5 + ( get_curr_int( ch ) / 6 ) + ( get_curr_spi( ch ) / 7 );
       ch->pcdata->learned[sn] += prct;
       ch->pcdata->learned[sn] = UMIN( ch->pcdata->learned[sn], 99 );
       SET_BIT( ch->speaks, lang_array[lang] );

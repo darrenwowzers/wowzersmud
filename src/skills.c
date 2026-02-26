@@ -2091,7 +2091,7 @@ void do_gouge( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   schance = ( ( get_curr_dex( victim ) - get_curr_dex( ch ) ) * 10 ) + 10;
+   schance = ( ( get_curr_agi( victim ) - get_curr_agi( ch ) ) * 10 ) + 10;
    if( !IS_NPC( ch ) && !IS_NPC( victim ) )
       schance += sysdata.gouge_plr_vs_plr;
    if( victim->fighting && victim->fighting->who != ch )
@@ -2108,7 +2108,7 @@ void do_gouge( CHAR_DATA* ch, const char* argument )
             af.location = APPLY_HITROLL;
             af.modifier = -6;
             if( !IS_NPC( victim ) && !IS_NPC( ch ) )
-               af.duration = ( ch->level + 10 ) / get_curr_con( victim );
+               af.duration = ( ch->level + 10 ) / get_curr_sta( victim );
             else
                af.duration = 3 + ( ch->level / 15 );
             af.bitvector = meb( AFF_BLIND );
@@ -2265,7 +2265,7 @@ void do_detrap( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   percent = number_percent(  ) - ( ch->level / 15 ) - ( get_curr_lck( ch ) - 16 );
+   percent = number_percent(  ) - ( ch->level / 15 ) - ( get_curr_agi( ch ) - 16 );
 
    separate_obj( obj );
    if( !can_use_skill( ch, percent, gsn_detrap ) )
@@ -2649,7 +2649,7 @@ void do_steal( CHAR_DATA* ch, const char* argument )
 
    WAIT_STATE( ch, skill_table[gsn_steal]->beats );
    percent = number_percent(  ) + ( IS_AWAKE( victim ) ? 10 : -50 )
-      - ( get_curr_lck( ch ) - 15 ) + ( get_curr_lck( victim ) - 13 );
+      - ( get_curr_agi( ch ) - 15 ) + ( get_curr_agi( victim ) - 13 );
 
    /*
     * Changed the level check, made it 10 levels instead of five and made the 
@@ -2832,7 +2832,7 @@ void do_pounce( CHAR_DATA * ch, const char *argument )
       return;
    }
 
-   percent = number_percent(  ) - ( get_curr_lck( ch ) - 14 ) + ( get_curr_lck( victim ) - 13 );
+   percent = number_percent(  ) - ( get_curr_agi( ch ) - 14 ) + ( get_curr_agi( victim ) - 13 );
 
    check_attacker( ch, victim );
 
@@ -2924,7 +2924,7 @@ void do_backstab( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   percent = number_percent(  ) - ( get_curr_lck( ch ) - 14 ) + ( get_curr_lck( victim ) - 13 );
+   percent = number_percent(  ) - ( get_curr_agi( ch ) - 14 ) + ( get_curr_agi( victim ) - 13 );
 
    check_attacker( ch, victim );
    WAIT_STATE( ch, skill_table[gsn_backstab]->beats );
@@ -3018,7 +3018,7 @@ void do_rescue( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   percent = number_percent(  ) - ( get_curr_lck( ch ) - 14 ) - ( get_curr_lck( victim ) - 16 );
+   percent = number_percent(  ) - ( get_curr_agi( ch ) - 14 ) - ( get_curr_agi( victim ) - 16 );
 
    WAIT_STATE( ch, skill_table[gsn_rescue]->beats );
    if( !can_use_skill( ch, percent, gsn_rescue ) )
@@ -3124,7 +3124,7 @@ void do_meditate( CHAR_DATA * ch, const char *argument )
          break;
    }
 
-   percent = UMAX( 1, number_percent(  ) + get_curr_wis( ch ) - 10 );
+   percent = UMAX( 1, number_percent(  ) + get_curr_spi( ch ) - 10 );
    if( can_use_skill( ch, percent, gsn_meditate ) )
    {
       learn_from_success( ch, gsn_meditate );
@@ -3230,7 +3230,7 @@ void do_trance( CHAR_DATA * ch, const char *argument )
          break;
    }
 
-   percent = UMAX( 1, number_percent(  ) + get_curr_wis( ch ) - 10 );
+   percent = UMAX( 1, number_percent(  ) + get_curr_spi( ch ) - 10 );
    if( can_use_skill( ch, percent, gsn_trance ) )
    {
       learn_from_success( ch, gsn_trance );
@@ -3484,8 +3484,8 @@ void do_bash( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   schance = ( ( ( get_curr_dex( victim ) + get_curr_str( victim ) )
-                 - ( get_curr_dex( ch ) + get_curr_str( ch ) ) ) * 10 ) + 10;
+   schance = ( ( ( get_curr_agi( victim ) + get_curr_str( victim ) )
+                 - ( get_curr_agi( ch ) + get_curr_str( ch ) ) ) * 10 ) + 10;
    if( !IS_NPC( ch ) && !IS_NPC( victim ) )
       schance += sysdata.bash_plr_vs_plr;
    if( victim->fighting && victim->fighting->who != ch )
@@ -3548,8 +3548,8 @@ void do_stun( CHAR_DATA* ch, const char* argument )
    else
       fail = saves_para_petri( schance, victim );
 
-   schance = ( ( ( get_curr_dex( victim ) + get_curr_str( victim ) )
-                 - ( get_curr_dex( ch ) + get_curr_str( ch ) ) ) * 10 ) + 10;
+   schance = ( ( ( get_curr_agi( victim ) + get_curr_str( victim ) )
+                 - ( get_curr_agi( ch ) + get_curr_str( ch ) ) ) * 10 ) + 10;
    /*
     * harder for player to stun another player 
     */
@@ -3814,7 +3814,7 @@ void do_disarm( CHAR_DATA* ch, const char* argument )
    }
 
    WAIT_STATE( ch, skill_table[gsn_disarm]->beats );
-   percent = number_percent(  ) + victim->level - ch->level - ( get_curr_lck( ch ) - 15 ) + ( get_curr_lck( victim ) - 15 );
+   percent = number_percent(  ) + victim->level - ch->level - ( get_curr_agi( ch ) - 15 ) + ( get_curr_agi( victim ) - 15 );
    if( !can_see_obj( ch, obj ) )
       percent += 10;
    if( can_use_skill( ch, ( percent * 3 / 2 ), gsn_disarm ) )
@@ -4407,7 +4407,7 @@ void do_aid( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   percent = number_percent(  ) - ( get_curr_lck( ch ) - 13 );
+   percent = number_percent(  ) - ( get_curr_agi( ch ) - 13 );
    WAIT_STATE( ch, skill_table[gsn_aid]->beats );
    if( !can_use_skill( ch, percent, gsn_aid ) )
    {
@@ -4634,7 +4634,7 @@ bool check_tumble( CHAR_DATA * ch, CHAR_DATA * victim )
    if( IS_NPC( victim ) )
       chances = UMIN( 60, 2 * victim->level );
    else
-      chances = ( int )( LEARNED( victim, gsn_tumble ) / mod_tumble_by + ( get_curr_dex( victim ) - 13 ) );
+      chances = ( int )( LEARNED( victim, gsn_tumble ) / mod_tumble_by + ( get_curr_agi( victim ) - 13 ) );
    if( chances != 0 && victim->morph )
       chances += victim->morph->tumble;
    if( !chance( victim, chances + victim->level - ch->level ) )
@@ -4725,7 +4725,7 @@ void do_poison_weapon( CHAR_DATA* ch, const char* argument )
    /*
     * Great, we have the ingredients...but is the thief smart enough? 
     */
-   if( !IS_NPC( ch ) && get_curr_wis( ch ) < 16 )
+   if( !IS_NPC( ch ) && get_curr_spi( ch ) < 16 )
    {
       send_to_char( "You can't quite remember what to do...\r\n", ch );
       return;
@@ -4733,14 +4733,14 @@ void do_poison_weapon( CHAR_DATA* ch, const char* argument )
    /*
     * And does the thief have steady enough hands? 
     */
-   if( !IS_NPC( ch ) && ( ( get_curr_dex( ch ) < 17 ) || ch->pcdata->condition[COND_DRUNK] > 0 ) )
+   if( !IS_NPC( ch ) && ( ( get_curr_agi( ch ) < 17 ) || ch->pcdata->condition[COND_DRUNK] > 0 ) )
    {
       send_to_char( "Your hands aren't steady enough to properly mix the poison.\r\n", ch );
       return;
    }
    WAIT_STATE( ch, skill_table[gsn_poison_weapon]->beats );
 
-   percent = ( number_percent(  ) - get_curr_lck( ch ) - 14 );
+   percent = ( number_percent(  ) - get_curr_agi( ch ) - 14 );
 
    /*
     * Check the skill percentage 
@@ -5049,7 +5049,7 @@ bool check_grip( CHAR_DATA * ch, CHAR_DATA * victim )
    /*
     * Consider luck as a factor 
     */
-   schance += ( 2 * ( get_curr_lck( victim ) - 13 ) );
+   schance += ( 2 * ( get_curr_agi( victim ) - 13 ) );
 
    if( number_percent(  ) >= schance + victim->level - ch->level )
    {
@@ -5128,7 +5128,7 @@ void do_circle( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   percent = number_percent(  ) - ( get_curr_lck( ch ) - 16 ) + ( get_curr_lck( victim ) - 13 );
+   percent = number_percent(  ) - ( get_curr_agi( ch ) - 16 ) + ( get_curr_agi( victim ) - 13 );
 
    check_attacker( ch, victim );
    WAIT_STATE( ch, skill_table[gsn_circle]->beats );
@@ -6238,7 +6238,7 @@ void do_slice( CHAR_DATA* ch, const char* argument )
    {
       send_to_char( "You fail to slice the meat properly.\r\n", ch );
       learn_from_failure( ch, gsn_slice );   /* Just in case they die :> */
-      if( number_percent(  ) + ( get_curr_dex( ch ) - 13 ) < 10 )
+      if( number_percent(  ) + ( get_curr_agi( ch ) - 13 ) < 10 )
       {
          act( AT_BLOOD, "You cut yourself!", ch, NULL, NULL, TO_CHAR );
          damage( ch, ch, ch->level, gsn_slice );

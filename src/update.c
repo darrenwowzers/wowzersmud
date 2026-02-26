@@ -69,10 +69,10 @@ void advance_level( CHAR_DATA * ch )
    snprintf( buf, MAX_STRING_LENGTH, "the %s", title_table[ch->Class][ch->level][ch->sex == SEX_FEMALE ? 1 : 0] );
    set_title( ch, buf );
 
-   add_hp = con_app[get_curr_con( ch )].hitp + number_range( class_table[ch->Class]->hp_min, class_table[ch->Class]->hp_max );
-   add_mana = class_table[ch->Class]->fMana ? number_range( 2, ( 2 * get_curr_int( ch ) + get_curr_wis( ch ) ) / 8 ) : 0;
-   add_move = number_range( 5, ( get_curr_con( ch ) + get_curr_dex( ch ) ) / 4 );
-   add_prac = wis_app[get_curr_wis( ch )].practice;
+   add_hp = con_app[get_curr_sta( ch )].hitp + number_range( class_table[ch->Class]->hp_min, class_table[ch->Class]->hp_max );
+   add_mana = class_table[ch->Class]->fMana ? number_range( 2, ( 2 * get_curr_int( ch ) + get_curr_spi( ch ) ) / 8 ) : 0;
+   add_move = number_range( 5, ( get_curr_sta( ch ) + get_curr_agi( ch ) ) / 4 );
+   add_prac = wis_app[get_curr_spi( ch )].practice;
 
    add_hp = UMAX( 1, add_hp );
    add_mana = UMAX( 0, add_mana );
@@ -234,10 +234,10 @@ int hit_gain( CHAR_DATA * ch )
          case POS_STUNNED:
             return 1;
          case POS_SLEEPING:
-            gain += ( int )( get_curr_con( ch ) * 2.0 );
+            gain += ( int )( get_curr_sta( ch ) * 2.0 );
             break;
          case POS_RESTING:
-            gain += ( int )( get_curr_con( ch ) * 1.25 );
+            gain += ( int )( get_curr_sta( ch ) * 1.25 );
             break;
       }
 
@@ -337,10 +337,10 @@ int move_gain( CHAR_DATA * ch )
          case POS_STUNNED:
             return 1;
          case POS_SLEEPING:
-            gain += ( int )( get_curr_dex( ch ) * 4.5 );
+            gain += ( int )( get_curr_agi( ch ) * 4.5 );
             break;
          case POS_RESTING:
-            gain += ( int )( get_curr_dex( ch ) * 2.5 );
+            gain += ( int )( get_curr_agi( ch ) * 2.5 );
             break;
       }
 
@@ -1869,7 +1869,7 @@ void drunk_randoms( CHAR_DATA * ch )
       check_social( ch, "drool", "" );
    else if( number_percent(  ) < ( 2 * drunk / 20 ) )
       check_social( ch, "fart", "" );
-   else if( drunk > ( 10 + ( get_curr_con( ch ) / 5 ) ) && number_percent(  ) < ( 2 * drunk / 18 ) )
+   else if( drunk > ( 10 + ( get_curr_sta( ch ) / 5 ) ) && number_percent(  ) < ( 2 * drunk / 18 ) )
    {
       for( vch = ch->in_room->first_person; vch; vch = vch->next_in_room )
          if( number_percent(  ) < 10 )

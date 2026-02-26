@@ -735,19 +735,13 @@ int rd_parse( CHAR_DATA * ch, int level, char *texp )
             return get_curr_int( ch );
          case 'W':
          case 'w':
-            return get_curr_wis( ch );
-         case 'X':
-         case 'x':
-            return get_curr_dex( ch );
+            return get_curr_spi( ch );
+         case 'D':
+         case 'd':
+            return get_curr_agi( ch );
          case 'C':
          case 'c':
-            return get_curr_con( ch );
-         case 'A':
-         case 'a':
-            return get_curr_cha( ch );
-         case 'U':
-         case 'u':
-            return get_curr_lck( ch );
+            return get_curr_sta( ch );
          case 'Y':
          case 'y':
             return calculate_age( ch );
@@ -2197,7 +2191,7 @@ bool can_charm( CHAR_DATA * ch )
 {
    if( IS_NPC( ch ) || IS_IMMORTAL( ch ) )
       return TRUE;
-   if( ( ( get_curr_cha( ch ) / 3 ) + 1 ) > ch->pcdata->charmies )
+   if( ( ( get_curr_sta( ch ) / 3 ) + 1 ) > ch->pcdata->charmies )
       return TRUE;
    return FALSE;
 }
@@ -3749,7 +3743,7 @@ ch_ret spell_remove_trap( int sn, int level, CHAR_DATA * ch, void *vo )
       return rSPELL_FAILED;
    }
 
-   if( !chance( ch, 70 + get_curr_wis( ch ) ) )
+   if( !chance( ch, 70 + get_curr_spi( ch ) ) )
    {
       send_to_char( "Ooops!\r\n", ch );
       retcode = spring_trap( ch, trap );
@@ -4680,7 +4674,7 @@ ch_ret spell_farsight( int sn, int level, CHAR_DATA * ch, void *vo )
    char_from_room( ch );
    char_to_room( ch, original );
 
-   if( chance_attrib( victim, 20, get_curr_wis( victim ) ) && !IS_PKILL( ch ) )
+   if( chance_attrib( victim, 20, get_curr_spi( victim ) ) && !IS_PKILL( ch ) )
       send_to_char( "You get an uneasy feeling that you are being watched.\r\n", victim );
    return rNONE;
 }
@@ -6013,7 +6007,7 @@ ch_ret spell_obj_inv( int sn, int level, CHAR_DATA * ch, void *vo )
 
             default:
             case SP_NONE:
-               if( ch->level - obj->level < 10 || obj->cost > ch->level * get_curr_int( ch ) * get_curr_wis( ch ) )
+               if( ch->level - obj->level < 10 || obj->cost > ch->level * get_curr_int( ch ) * get_curr_spi( ch ) )
                {
                   failed_casting( skill, ch, NULL, obj );
                   return rNONE;
@@ -6029,7 +6023,7 @@ ch_ret spell_obj_inv( int sn, int level, CHAR_DATA * ch, void *vo )
                break;
 
             case SP_GREATER:
-               if( ch->level - obj->level < 5 || obj->cost > ch->level * 10 * get_curr_int( ch ) * get_curr_wis( ch ) )
+               if( ch->level - obj->level < 5 || obj->cost > ch->level * 10 * get_curr_int( ch ) * get_curr_spi( ch ) )
                {
                   failed_casting( skill, ch, NULL, obj );
                   return rNONE;
@@ -6037,7 +6031,7 @@ ch_ret spell_obj_inv( int sn, int level, CHAR_DATA * ch, void *vo )
                break;
 
             case SP_MAJOR:
-               if( ch->level - obj->level < 0 || obj->cost > ch->level * 50 * get_curr_int( ch ) * get_curr_wis( ch ) )
+               if( ch->level - obj->level < 0 || obj->cost > ch->level * 50 * get_curr_int( ch ) * get_curr_spi( ch ) )
                {
                   failed_casting( skill, ch, NULL, obj );
                   return rNONE;

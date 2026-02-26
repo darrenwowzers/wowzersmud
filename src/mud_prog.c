@@ -1397,7 +1397,7 @@ int mprog_do_ifcheck( const char *ifcheck, CHAR_DATA * mob, CHAR_DATA * actor, O
       }
       if( !str_cmp( chck, "wis" ) )
       {
-         return mprog_veval( get_curr_wis( chkchar ), opr, atoi( rval ), mob );
+         return mprog_veval( get_curr_spi( chkchar ), opr, atoi( rval ), mob );
       }
       if( !str_cmp( chck, "int" ) )
       {
@@ -1405,19 +1405,11 @@ int mprog_do_ifcheck( const char *ifcheck, CHAR_DATA * mob, CHAR_DATA * actor, O
       }
       if( !str_cmp( chck, "dex" ) )
       {
-         return mprog_veval( get_curr_dex( chkchar ), opr, atoi( rval ), mob );
+         return mprog_veval( get_curr_agi( chkchar ), opr, atoi( rval ), mob );
       }
       if( !str_cmp( chck, "con" ) )
       {
-         return mprog_veval( get_curr_con( chkchar ), opr, atoi( rval ), mob );
-      }
-      if( !str_cmp( chck, "cha" ) )
-      {
-         return mprog_veval( get_curr_cha( chkchar ), opr, atoi( rval ), mob );
-      }
-      if( !str_cmp( chck, "lck" ) )
-      {
-         return mprog_veval( get_curr_lck( chkchar ), opr, atoi( rval ), mob );
+         return mprog_veval( get_curr_sta( chkchar ), opr, atoi( rval ), mob );
       }
    }
 

@@ -2068,9 +2068,9 @@ void do_mstat( CHAR_DATA* ch, const char* argument )
                        IS_NPC( victim ) ? victim->pIndexData->count : 1,
                        IS_NPC( victim ) ? victim->pIndexData->killed : victim->pcdata->mdeaths + victim->pcdata->pdeaths );
    pager_printf_color( ch,
-                       "&cStr: &C%2d&c )( Int: &C%2d&c )( Wis: &C%2d&c )( Dex: &C%2d&c )( Con: &C%2d&c )( Cha: &C%2d&c )( Lck: &C%2d&c\r\n",
-                       get_curr_str( victim ), get_curr_int( victim ), get_curr_wis( victim ), get_curr_dex( victim ),
-                       get_curr_con( victim ), get_curr_cha( victim ), get_curr_lck( victim ) );
+                       "&cStr: &C%2d&c )( Int: &C%2d&c )( Spi: &C%2d&c )( Agi: &C%2d&c )( Sta: &C%2d&c\r\n",
+                       get_curr_str( victim ), get_curr_int( victim ), get_curr_spi( victim ), get_curr_agi( victim ),
+                       get_curr_sta( victim )); // Added new Wowzer 5 stats -Hansth
    pager_printf_color( ch, "&cLevel   : &P%-2d              ", victim->level );
    if( IS_NPC( victim ) )
       pager_printf_color( ch, "&c(&w%-2.2d&c)         ", victim->pIndexData->level );
