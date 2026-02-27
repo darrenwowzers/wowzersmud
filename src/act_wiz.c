@@ -5855,18 +5855,18 @@ void do_newbieset( CHAR_DATA* ch, const char* argument )
    obj = create_object( get_obj_index( OBJ_VNUM_SCHOOL_BANNER ), 1 );
    obj_to_char( obj, victim );
 
-   if( ( victim->Class == CLASS_MAGE ) || ( victim->Class == CLASS_THIEF )
-       || ( victim->Class == CLASS_VAMPIRE ) || ( victim->Class == CLASS_AUGURER ) )
+   if( ( victim->Class == CLASS_MAGE ) || ( victim->Class == CLASS_ROGUE )
+       || ( victim->Class == CLASS_SHAMAN ) || ( victim->Class == CLASS_WARLOCK ) )
    {
       obj = create_object( get_obj_index( OBJ_VNUM_SCHOOL_DAGGER ), 1 );
       obj_to_char( obj, victim );
    }
-   else if( ( victim->Class == CLASS_CLERIC ) || ( victim->Class == CLASS_DRUID ) )
+   else if( ( victim->Class == CLASS_PRIEST ) || ( victim->Class == CLASS_DRUID ) )
    {
       obj = create_object( get_obj_index( OBJ_VNUM_SCHOOL_MACE ), 1 );
       obj_to_char( obj, victim );
    }
-   else if( ( victim->Class == CLASS_WARRIOR ) || ( victim->Class == CLASS_RANGER ) || ( victim->Class == CLASS_PALADIN ) )
+   else if( ( victim->Class == CLASS_WARRIOR ) || ( victim->Class == CLASS_HUNTER ) || ( victim->Class == CLASS_PALADIN ) )
    {
       obj = create_object( get_obj_index( OBJ_VNUM_SCHOOL_SWORD ), 1 );
       obj_to_char( obj, victim );

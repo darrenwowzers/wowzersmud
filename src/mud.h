@@ -892,17 +892,43 @@ struct lck_app_type
 };
 
 /* the races */
-typedef enum
+/*typedef enum
 {
    RACE_HUMAN, RACE_ELF, RACE_DWARF, RACE_HALFLING, RACE_PIXIE, RACE_VAMPIRE,
    RACE_HALF_OGRE, RACE_HALF_ORC, RACE_HALF_TROLL, RACE_HALF_ELF, RACE_GITH,
    RACE_DROW, RACE_SEA_ELF, RACE_LIZARDMAN, RACE_GNOME
+} race_types;*/
+
+/* ============================================
+   WOWZER: RACES  -Hansth
+   ============================================ */
+typedef enum
+{
+   RACE_HUMAN, RACE_DWARF, RACE_NIGHT_ELF, RACE_GNOME,
+   RACE_ORC, RACE_UNDEAD, RACE_TAUREN, RACE_TROLL
 } race_types;
 
 /* npc races */
 #define	RACE_DRAGON	    32
 
-#define CLASS_NONE     -1 /* For skill/spells according to guild */
+/* ============================================
+   WOWZER: CLASSES  -Hansth
+   ============================================ */
+
+/* Define the specific classes */
+#define CLASS_NONE       -1
+#define CLASS_WARRIOR     0
+#define CLASS_PALADIN     1
+#define CLASS_HUNTER      2
+#define CLASS_ROGUE       3
+#define CLASS_PRIEST      4
+#define CLASS_SHAMAN      5
+#define CLASS_MAGE        6
+#define CLASS_WARLOCK     7
+#define CLASS_DRUID       8
+
+/*
+#define CLASS_NONE     -1  For skill/spells according to guild 
 #define CLASS_MAGE      0
 #define CLASS_CLERIC    1
 #define CLASS_THIEF     2
@@ -910,10 +936,12 @@ typedef enum
 #define CLASS_VAMPIRE   4
 #define CLASS_DRUID     5
 #define CLASS_RANGER    6
-#define CLASS_AUGURER   7 /* 7-7-96 SB */
-#define CLASS_PALADIN   8 /* 7-7-96 SB */
+#define CLASS_AUGURER   7  7-7-96 SB 
+#define CLASS_PALADIN   8  7-7-96 SB 
 #define CLASS_NEPHANDI  9
-#define CLASS_SAVAGE    10
+#define CLASS_SAVAGE    10*/
+
+
 
 /*
  * Languages -- Altrag
@@ -3338,9 +3366,8 @@ do								\
 #define GET_TIME_PLAYED(ch)     (((ch)->played + (current_time - (ch)->logon)) / 3600)
 #define CAN_CAST(ch)		((ch)->Class != 2 && (ch)->Class != 3)
 
-#define IS_VAMPIRE(ch)		(!IS_NPC(ch)				    \
-				&& ((ch)->race==RACE_VAMPIRE		    \
-				||  (ch)->Class==CLASS_VAMPIRE))
+#define IS_VAMPIRE(ch)		( 0 )
+				    
 #define IS_GOOD(ch)		((ch)->alignment >= 350)
 #define IS_EVIL(ch)		((ch)->alignment <= -350)
 #define IS_NEUTRAL(ch)		(!IS_GOOD(ch) && !IS_EVIL(ch))

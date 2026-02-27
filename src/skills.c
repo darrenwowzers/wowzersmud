@@ -1917,7 +1917,7 @@ void learn_from_success( CHAR_DATA * ch, int sn )
          gain = 1000 * sklvl;
          if( ch->Class == CLASS_MAGE )
             gain *= 5;  /* h, mage upgrade */
-         if( ch->Class == CLASS_CLERIC )
+         if( ch->Class == CLASS_PRIEST )
             gain *= 2;  /* h, mage upgrade */
          set_char_color( AT_WHITE, ch );
          ch_printf( ch, "You are now an adept of %s!  You gain %d bonus experience!\r\n", skill_table[sn]->name, gain );
@@ -1927,7 +1927,7 @@ void learn_from_success( CHAR_DATA * ch, int sn )
          gain = 20 * sklvl;
          if( ch->Class == CLASS_MAGE )
             gain *= 6;  /* h, mage upgrade */
-         if( ch->Class == CLASS_CLERIC )
+         if( ch->Class == CLASS_PRIEST )
             gain *= 3;  /* h, mage upgrade */
          if( !ch->fighting && sn != gsn_hide && sn != gsn_sneak )
          {
@@ -3104,16 +3104,12 @@ void do_meditate( CHAR_DATA * ch, const char *argument )
       case SECT_WATER_NOSWIM:
       case SECT_UNDERWATER:
       case SECT_OCEANFLOOR:
-         if( ch->race == RACE_SEA_ELF )
-            managain += 3;
-         else if( !IS_AFFECTED( ch, AFF_AQUA_BREATH ) )
+         if( !IS_AFFECTED( ch, AFF_AQUA_BREATH ) )
             managain -= 2;
          break;
 
       case SECT_AIR:
-         if( ch->race == RACE_PIXIE )
-            managain += 3;
-         else if( !IS_AFFECTED( ch, AFF_FLYING ) )
+         if( !IS_AFFECTED( ch, AFF_FLYING ) )
             managain -= 2;
          break;
 
@@ -3210,16 +3206,12 @@ void do_trance( CHAR_DATA * ch, const char *argument )
       case SECT_WATER_NOSWIM:
       case SECT_UNDERWATER:
       case SECT_OCEANFLOOR:
-         if( ch->race == RACE_SEA_ELF )
-            managain += 3;
-         else if( !IS_AFFECTED( ch, AFF_AQUA_BREATH ) )
+         if( !IS_AFFECTED( ch, AFF_AQUA_BREATH ) )
             managain -= 2;
          break;
 
       case SECT_AIR:
-         if( ch->race == RACE_PIXIE )
-            managain += 3;
-         else if( !IS_AFFECTED( ch, AFF_FLYING ) )
+         if( !IS_AFFECTED( ch, AFF_FLYING ) )
             managain -= 2;
          break;
 
@@ -4623,7 +4615,7 @@ bool check_tumble( CHAR_DATA * ch, CHAR_DATA * victim )
    int chances;
    int mod_tumble_by;
 
-   if( victim->Class != CLASS_THIEF || !IS_AWAKE( victim ) )
+   if( victim->Class != CLASS_ROGUE || !IS_AWAKE( victim ) )
       return FALSE;
    if( !IS_NPC( victim ) && !( victim->pcdata->learned[gsn_tumble] > 0 ) )
       return FALSE;

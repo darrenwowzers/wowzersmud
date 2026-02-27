@@ -1468,7 +1468,7 @@ void do_look( CHAR_DATA * ch, const char *argument )
        */
       if( pexit->to_room
           && ( IS_AFFECTED( ch, AFF_SCRYING )
-               || ch->Class == CLASS_THIEF || IS_SET( pexit->exit_info, EX_xLOOK ) || get_trust( ch ) >= LEVEL_IMMORTAL ) )
+               || ch->Class == CLASS_ROGUE || IS_SET( pexit->exit_info, EX_xLOOK ) || get_trust( ch ) >= LEVEL_IMMORTAL ) )
       {
          if( !IS_SET( pexit->exit_info, EX_xLOOK ) && get_trust( ch ) < LEVEL_IMMORTAL )
          {
@@ -1483,7 +1483,7 @@ void do_look( CHAR_DATA * ch, const char *argument )
                int percent = LEARNED( ch, skill_lookup( "scry" ) );
                if( !percent )
                {
-                  if( ch->Class == CLASS_THIEF )
+                  if( ch->Class == CLASS_ROGUE )
                      percent = 95;
                   else
                      percent = 55;  /* 95 was too good -Thoric */

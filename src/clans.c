@@ -2868,7 +2868,6 @@ void do_shove( CHAR_DATA* ch, const char* argument )
    bool nogo;
    ROOM_INDEX_DATA *to_room;
    int schance = 0;
-   int race_bonus = 0;
    short temp;
 
    argument = one_argument( argument, arg );
@@ -2968,80 +2967,11 @@ void do_shove( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-/* Check for class, assign percentage based on that. */
-   if( ch->Class == CLASS_WARRIOR )
-      schance = 70;
-   if( ch->Class == CLASS_VAMPIRE )
-      schance = 65;
-   if( ch->Class == CLASS_RANGER )
-      schance = 60;
-   if( ch->Class == CLASS_DRUID )
-      schance = 45;
-   if( ch->Class == CLASS_CLERIC )
-      schance = 35;
-   if( ch->Class == CLASS_THIEF )
-      schance = 30;
-   if( ch->Class == CLASS_MAGE )
-      schance = 15;
-   if( ch->Class == CLASS_AUGURER )
-      schance = 20;
-   if( ch->Class == CLASS_PALADIN )
-      schance = 55;
-   if( ch->Class == CLASS_NEPHANDI )
-      schance = 20;
-   if( ch->Class == CLASS_SAVAGE )
-      schance = 70;
-
 /* Add 3 points to chance for every str point above 15, subtract for below 15 */
 
    schance += ( ( get_curr_str( ch ) - 15 ) * 3 );
 
    schance += ( ch->level - victim->level );
-
-/* Check for race, adjust percentage based on that. */
-   if( ch->race == RACE_ELF )
-      race_bonus = -3;
-
-   if( ch->race == RACE_DWARF )
-      race_bonus = 3;
-
-   if( ch->race == RACE_HALFLING )
-      race_bonus = -5;
-
-   if( ch->race == RACE_PIXIE )
-      race_bonus = -7;
-
-   if( ch->race == RACE_HALF_OGRE )
-      race_bonus = 5;
-
-   if( ch->race == RACE_HALF_ORC )
-      race_bonus = 7;
-
-   if( ch->race == RACE_HALF_TROLL )
-      race_bonus = 10;
-
-   if( ch->race == RACE_HALF_ELF )
-      race_bonus = -2;
-
-   if( ch->race == RACE_GITH )
-      race_bonus = -2;
-
-   if( ch->race == RACE_PIXIE )
-      race_bonus = -7;
-
-   if( ch->race == RACE_DROW )
-      race_bonus = 1;
-
-   if( ch->race == RACE_SEA_ELF )
-      race_bonus = -1;
-
-   if( ch->race == RACE_LIZARDMAN )
-      race_bonus = 4;
-
-   if( ch->race == RACE_GNOME )
-      race_bonus = -2;
-
-   schance += race_bonus;
 
    if( schance < number_percent(  ) )
    {
@@ -3074,7 +3004,6 @@ void do_drag( CHAR_DATA* ch, const char* argument )
    ROOM_INDEX_DATA *to_room;
    bool nogo;
    int schance = 0;
-   int race_bonus = 0;
 
    argument = one_argument( argument, arg );
    argument = one_argument( argument, arg2 );
@@ -3196,54 +3125,12 @@ void do_drag( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-/* Check for class, assign percentage based on that. */
-   if( ch->Class == CLASS_WARRIOR )
-      schance = 70;
-   if( ch->Class == CLASS_VAMPIRE )
-      schance = 65;
-   if( ch->Class == CLASS_RANGER )
-      schance = 60;
-   if( ch->Class == CLASS_DRUID )
-      schance = 45;
-   if( ch->Class == CLASS_CLERIC )
-      schance = 35;
-   if( ch->Class == CLASS_THIEF )
-      schance = 30;
-   if( ch->Class == CLASS_MAGE )
-      schance = 15;
-
 /* Add 3 points to chance for every str point above 15, subtract for 
 below 15 */
 
    schance += ( ( get_curr_str( ch ) - 15 ) * 3 );
 
    schance += ( ch->level - victim->level );
-
-   if( ch->race == 1 )
-      race_bonus = -3;
-
-   if( ch->race == 2 )
-      race_bonus = 3;
-
-   if( ch->race == 3 )
-      race_bonus = -5;
-
-   if( ch->race == 4 )
-      race_bonus = -7;
-
-   if( ch->race == 6 )
-      race_bonus = 5;
-
-   if( ch->race == 7 )
-      race_bonus = 7;
-
-   if( ch->race == 8 )
-      race_bonus = 10;
-
-   if( ch->race == 9 )
-      race_bonus = -2;
-
-   schance += race_bonus;
 
    if( schance < number_percent(  ) )
    {

@@ -1892,18 +1892,19 @@ bool write_to_descriptor_old( int desc, const char *txt, int length )
 
 void show_title( DESCRIPTOR_DATA * d )
 {
-   CHAR_DATA *ch;
+   CHAR_DATA *ch = d->character;;
 
-   ch = d->character;
+//   ch = d->character;
+ xSET_BIT( ch->act, PLR_ANSI );
 
    if( !IS_SET( ch->pcdata->flags, PCFLAG_NOINTRO ) )
    {
       if( xIS_SET( ch->act, PLR_RIP ) )
-         send_rip_title( ch );
+         send_ansi_title( ch );
       else if( xIS_SET( ch->act, PLR_ANSI ) )
          send_ansi_title( ch );
       else
-         send_ascii_title( ch );
+         send_ansi_title( ch );
    }
    else
    {
@@ -2371,11 +2372,6 @@ void nanny_get_new_class( DESCRIPTOR_DATA * d, const char *argument )
    buf[0] = '\0';
    for( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
    {
-      if( iRace != RACE_VAMPIRE
-          && race_table[iRace]->race_name && race_table[iRace]->race_name[0] != '\0'
-          && !IS_SET( race_table[iRace]->class_restriction, 1 << ch->Class )
-          && str_cmp( race_table[iRace]->race_name, "unused" ) )
-      {
          if( iRace > 0 )
          {
             if( strlen( buf ) + strlen( race_table[iRace]->race_name ) > 77 )
@@ -2388,7 +2384,6 @@ void nanny_get_new_class( DESCRIPTOR_DATA * d, const char *argument )
                strlcat( buf, " ", MAX_STRING_LENGTH );
          }
          strlcat( buf, race_table[iRace]->race_name, MAX_STRING_LENGTH );
-      }
    }
    strlcat( buf, "]\r\n: ", MAX_STRING_LENGTH );
    write_to_buffer( d, buf, 0 );
@@ -2431,7 +2426,6 @@ void nanny_get_new_race( DESCRIPTOR_DATA * d, const char *argument )
 
    if( iRace == MAX_PC_RACE
        || !race_table[iRace]->race_name || race_table[iRace]->race_name[0] == '\0'
-       || iRace == RACE_VAMPIRE
        || IS_SET( race_table[iRace]->class_restriction, 1 << ch->Class )
        || !str_cmp( race_table[iRace]->race_name, "unused" ) )
    {
@@ -2469,6 +2463,7 @@ void nanny_get_want_ripansi( DESCRIPTOR_DATA * d, const char *argument )
          break;
       case 'n':
       case 'N':
+	 xREMOVE_BIT( ch->act, PLR_ANSI);
          break;
       default:
          write_to_buffer( d, "Invalid selection.\r\nRIP, ANSI or NONE? ", 0 );
