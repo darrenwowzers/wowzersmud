@@ -903,6 +903,8 @@ void game_loop( void )
             if( d->character && d->character->wait > 0 )
             {
                --d->character->wait;
+if ( d->character->gcd && d->character->wait > 0 )
+    --d->character->gcd;
                continue;
             }
 
@@ -2298,7 +2300,8 @@ void nanny_get_new_sex( DESCRIPTOR_DATA * d, char *argument )
                strlcat( buf, "\r\n", MAX_STRING_LENGTH );
                write_to_buffer( d, buf, 0 );
                buf[0] = '\0';
-            }
+         
+   }
             else
                strlcat( buf, " ", MAX_STRING_LENGTH );
          }
@@ -2438,6 +2441,66 @@ void nanny_get_new_race( DESCRIPTOR_DATA * d, const char *argument )
       write_to_buffer( d, "That race is not currently available.\r\nWhat is your race? ", 0 );
       return;
    }
+
+/* ============================================
+      WOW CLASSIC: RACE/CLASS RESTRICTIONS
+      ============================================ */
+   bool race_ok = TRUE;
+
+   switch ( ch->race )
+   {
+       case RACE_HUMAN:
+           if ( ch->Class == CLASS_HUNTER || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
+           break;
+       case RACE_DWARF:
+           if ( ch->Class == CLASS_MAGE || ch->Class == CLASS_WARLOCK || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
+           break;
+       case RACE_NIGHT_ELF:
+           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_MAGE || ch->Class == CLASS_WARLOCK || ch->Class == CLASS_SHAMAN ) race_ok = FALSE;
+           break;
+       case RACE_GNOME:
+           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_HUNTER || ch->Class == CLASS_PRIEST || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
+           break;
+       case RACE_ORC:
+           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_PRIEST || ch->Class == CLASS_MAGE || ch->Class == CLASS_DRUID ) race_ok = FALSE;
+           break;
+       case RACE_UNDEAD:
+           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_HUNTER || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
+           break;
+       case RACE_TAUREN:
+           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_ROGUE || ch->Class == CLASS_PRIEST || ch->Class == CLASS_MAGE || ch->Class == CLASS_WARLOCK ) race_ok = FALSE;
+           break;
+       case RACE_TROLL:
+           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_WARLOCK || ch->Class == CLASS_DRUID ) race_ok = FALSE;
+           break;
+   }
+
+   if ( !race_ok )
+   {
+       write_to_buffer( d, "That race and class combination is now allowed on Wowzers Mud.\r\n", 0 );
+       write_to_buffer( d, "Please choose another race: ", 0 );
+       return;
+   }
+
+   /* ============================================
+      WOW CLASSIC: FACTION ASSIGNMENT
+      ============================================ */
+   if ( ch->race == RACE_HUMAN || ch->race == RACE_DWARF || 
+        ch->race == RACE_NIGHT_ELF || ch->race == RACE_GNOME )
+   {
+       ch->faction = FACTION_ALLIANCE;
+   }
+   else if ( ch->race == RACE_ORC || ch->race == RACE_UNDEAD || 
+             ch->race == RACE_TAUREN || ch->race == RACE_TROLL )
+   {
+       ch->faction = FACTION_HORDE;
+   }
+   else
+   {
+       ch->faction = FACTION_NEUTRAL;
+   }
+
+
 
    write_to_buffer( d, "\r\nWould you like RIP, ANSI or no graphic/color support, (R/A/N)? ", 0 );
    d->connected = CON_GET_WANT_RIPANSI;
