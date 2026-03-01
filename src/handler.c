@@ -5380,3 +5380,50 @@ void check_switch( CHAR_DATA * ch, bool possess )
    }
    do_return( ch->switched, "" );
 }
+
+/* ============================================
+   WOW CLASSIC: DERIVED STAT MATH
+   ============================================ */
+int get_max_health( CHAR_DATA *ch )
+{
+    int base_health;
+    int bonus_health;
+
+    /* NPCs just use their generated max_hit */
+    if ( IS_NPC(ch) )
+        return ch->max_hit;
+
+    /* Base health is their raw ch->max_hit rolled at level up */
+    base_health = ch->max_hit;
+    
+    /* WoW Classic Formula: 1 Stamina = 10 Health */
+    /* Adjust get_curr_sta(ch) if your stat getter is named differently! */
+    bonus_health = get_curr_sta(ch) * 10; 
+
+    return base_health + bonus_health;
+}
+
+int get_max_mana( CHAR_DATA *ch )
+{
+    int base_mana;
+    int bonus_mana;
+
+    /* NPCs just use their generated max_mana */
+    if ( IS_NPC(ch) )
+        return ch->max_mana;
+
+    /* Only calculate if their class actually uses Mana */
+    if ( ch->power_type != POWER_MANA )
+        return 0;
+
+    /* Base mana is their raw ch->max_mana rolled at level up */
+    base_mana = ch->max_mana;
+    
+    /* WoW Classic Formula: 1 Intellect = 15 Mana */
+    /* Adjust get_curr_int(ch) if your stat getter is named differently! */
+    bonus_mana = get_curr_int(ch) * 15;
+
+    return base_mana + bonus_mana;
+}
+
+
