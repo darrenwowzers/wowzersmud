@@ -168,6 +168,23 @@ typedef void DO_FUN( CHAR_DATA * ch, const char *argument );
 typedef ch_ret SPELL_FUN( int sn, int level, CHAR_DATA * ch, void *vo );
 typedef bool SPEC_FUN( CHAR_DATA * ch );
 
+/* ============================================
+   WOW CLASSIC: SYSTEM LIMITS
+   ============================================ */
+#define MAX_BUYBACK         12
+#define MAX_PROFESSIONS     2
+#define MAX_FLIGHT_NODES    100
+
+/* ============================================
+   WOW CLASSIC: FORWARD DECLARATIONS
+   ============================================ */
+typedef struct party_data       PARTY_DATA;
+typedef struct instance_data    INSTANCE_DATA;
+typedef struct bg_data          BG_DATA;
+typedef struct quest_data       QUEST_DATA;
+typedef struct guild_data       GUILD_DATA;
+typedef struct instance_lockout INSTANCE_LOCKOUT;
+
 
 /* ============================================
    WOW CLASSIC POWER SYSTEM
@@ -194,6 +211,14 @@ typedef enum
 typedef enum {
     ITEM_POOR = 0, ITEM_COMMON = 1, ITEM_UNCOMMON = 2, ITEM_RARE = 3, ITEM_EPIC = 4, ITEM_LEGENDARY = 5
 } item_quality_types;
+
+typedef enum { 
+    ARMOR_CLOTH = 0, 
+    ARMOR_LEATHER = 1, 
+    ARMOR_MAIL = 2, 
+    ARMOR_PLATE = 3, 
+    ARMOR_SHIELD = 4 
+} armor_types;
 
 typedef struct cooldown_data COOLDOWN_DATA;
 struct cooldown_data {
@@ -2307,10 +2332,25 @@ struct char_data
     sh_int          combo_points;
     CHAR_DATA * combo_target;
     sh_int          faction;
+PARTY_DATA * party;               /* Pointer to group/raid */
+    INSTANCE_DATA * in_instance;         /* Pointer to current dungeon */
+    BG_DATA * in_bg;               /* Pointer to active Battleground */
+    sh_int              flight_timer;        /* Pulses until mount lands */
+    int                 flight_dest;         /* VNUM of destination */
     COOLDOWN_DATA * first_cooldown;
     COOLDOWN_DATA * last_cooldown;
     sh_int          gcd;
     bool            is_auto_attacking;
+
+/* Mob AI Tracking -Hansth */
+    sh_int              enrage_timer;        /* Pulses until wipe mechanic */
+    sh_int              telegraph_timer;     /* Pulses until AoE hits */
+    int                 telegraph_spell;     /* Spell VNUM being cast */
+    CHAR_DATA * telegraph_target;    /* Who the boss is targeting */
+    ROOM_INDEX_DATA * telegraph_room;      /* Room targeted by AoE */
+    struct reset_data * spawn_node;          /* The node that spawned this mob */
+
+
    HHF_DATA *hunting;
    HHF_DATA *fearing;
    HHF_DATA *hating;
@@ -2460,6 +2500,52 @@ struct pc_data
    GAME_BOARD_DATA *game_board;
    NUISANCE_DATA *nuisance;   /* New Nuisance structure */
    KILLED_DATA killed[MAX_KILLTRACK];
+
+/* ============================================
+       WOW CLASSIC: ECONOMY & INVENTORY
+       ============================================ */
+    OBJ_DATA * buyback_items[MAX_BUYBACK]; /* The 12-slot vendor buyback buffer */
+    OBJ_DATA * first_bank_item;            /* Personal bank vault */
+    OBJ_DATA * last_bank_item;
+    int                 bank_gold;
+    sh_int              bank_slots;                 /* Purchasable bag slots */
+
+    /* ============================================
+       WOW CLASSIC: PROFESSIONS & SKILLS
+       ============================================ */
+    sh_int              profession_skill[MAX_PROFESSIONS]; /* 1-300 skill level */
+    sh_int              primary_professions;               /* Max 2 */
+
+    /* ============================================
+       WOW CLASSIC: QUEST ENGINE
+       ============================================ */
+    QUEST_DATA * first_quest;                /* Active quest log */
+    QUEST_DATA * last_quest;
+    sh_int              active_quests;              /* Hard cap at 20 */
+    int                 completed_quests[1000];     /* Array of finished quest VNUMs */
+
+    /* ============================================
+       WOW CLASSIC: SOCIAL & PVP
+       ============================================ */
+    GUILD_DATA * guild;                      /* Pointer to player's guild */
+    sh_int              guild_rank;                 /* 0 (GM) to 9 (Initiate) */
+    int                 honor_points;               /* Currency for PvP gear */
+    int                 honorable_kills;
+    sh_int              bg_kills;                   /* Session stats for BG scoreboard */
+    sh_int              bg_deaths;
+    sh_int              bg_flags_captured;
+
+    /* ============================================
+       WOW CLASSIC: INSTANCE LOCKOUTS
+       ============================================ */
+    INSTANCE_LOCKOUT * first_lockout;              /* Raid lockouts (e.g., Molten Core) */
+    INSTANCE_LOCKOUT * last_lockout;
+
+    /* ============================================
+       WOW CLASSIC: TRAVEL
+       ============================================ */
+    bool                known_flights[MAX_FLIGHT_NODES]; /* Discovered flight paths */
+
    const char *homepage;
    const char *pointing;
    const char *clan_name;
@@ -3435,6 +3521,9 @@ do								\
 			      (npulse+((ch)->pcdata->nuisance->flags-4)+ \
                		      ch->pcdata->nuisance->power)): \
 			      UMAX((ch)->wait, (npulse)))
+
+#define PULSE_GCD                 6   /* 1.5 seconds at 4 pulses/sec */
+#define GCD_STATE(ch, npulse)     ((ch)->gcd = UMAX((ch)->gcd, (npulse))) // -Hansth global cool down
 
 #define EXIT(ch, door)		( get_exit( (ch)->in_room, door ) )
 
