@@ -2696,6 +2696,14 @@ void extract_char( CHAR_DATA * ch, bool fPull )
          wch->reply = NULL;
       if( wch->retell == ch )
          wch->retell = NULL;
+/* ============================================
+   Wowzers Mud: COMBO TARGET SAFETY WIPE -Hansth
+   ============================================ */
+        if ( wch->combo_target == ch )
+        {
+            wch->combo_target = NULL;
+            wch->combo_points = 0;
+        }
    }
 
    UNLINK( ch, first_char, last_char, next, prev );
