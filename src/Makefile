@@ -18,7 +18,7 @@ CC      = g++
 W_FLAGS = -Wall -Wshadow -Wformat-security -Wpointer-arith -Wcast-align -Wredundant-decls
 
 C_FLAGS = -g2 -include bsd/string.h $(W_FLAGS) $(M_FLAGS) $(SOLARIS_FLAG) $(PROF) $(EXPORT_SYMBOLS)
-L_FLAGS = -lbsd -ldl $(M_FLAGS) $(PROF) $(SOLARIS_LINK) -lz $(NEED_DL)
+L_FLAGS = -lbsd -ldl $(M_FLAGS) $(PROF) $(SOLARIS_LINK) -lz $(NEED_DL) -rdynamic
 
 #D_FLAGS : For the DNS Slave process. No need in linking all the extra libs for this.
 D_FLAGS = -std=c++11 -g2 -O $(M_FLAGS) $(PROF) $(SOLARIS_LINK)
