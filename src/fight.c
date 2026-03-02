@@ -2248,6 +2248,19 @@ ch_ret damage( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt )
     */
    victim->hit -= dam;
 
+/* ============================================
+       Wowzers Mud: RAGE GENERATION ON HIT -Hansth
+       ============================================ */
+    if ( !IS_NPC(ch) && ch->power_type == POWER_RAGE )
+    {
+        /* Generate a base of 5 Rage per successful hit, plus a little extra for big crits! -Hansth */
+        ch->mana += 5 + (dam / 20); 
+
+        /* Cap it so it doesn't overflow -Hansth */
+        if ( ch->mana > get_max_mana(ch) )
+            ch->mana = get_max_mana(ch);
+    }
+
    /*
     * Get experience based on % of damage done       -Thoric
     */
