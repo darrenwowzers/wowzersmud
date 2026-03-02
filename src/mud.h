@@ -4957,6 +4957,9 @@ int get_curr_spi( CHAR_DATA *ch );
 int get_max_health( CHAR_DATA *ch );
 int get_max_mana( CHAR_DATA *ch );
 
+// Attack power calc -Hansth
+int get_attack_power( CHAR_DATA *ch );
+
 bool can_take_proto( CHAR_DATA * ch );
 int can_carry_n( CHAR_DATA * ch );
 int can_carry_w( CHAR_DATA * ch );

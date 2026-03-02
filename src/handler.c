@@ -5426,4 +5426,29 @@ int get_max_mana( CHAR_DATA *ch )
     return base_mana + bonus_mana;
 }
 
+/* ============================================
+   Wowzers Mud: ATTACK POWER CALCULATION -Hansth
+   ============================================ */
+int get_attack_power( CHAR_DATA *ch )
+{
+    int ap = 0;
+
+    /* NPCs get a simple scaled AP based on level -Hansth */
+    if ( IS_NPC(ch) )
+        return ch->level * 5; 
+
+    /* Everyone gets 2 AP per point of Strength -Hansth */
+    ap = get_curr_str(ch) * 2;
+
+    /* Rogues and Hunters also get 1 AP per point of Agility -Hansth */
+    if ( ch->Class == CLASS_ROGUE || ch->Class == CLASS_HUNTER )
+    {
+        ap += get_curr_agi(ch);
+    }
+
+    return ap;
+}
+
+
+
 
