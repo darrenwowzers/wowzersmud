@@ -338,7 +338,7 @@ void do_score( CHAR_DATA* ch, const char* argument )
    pager_printf( ch, "Glory: %4.4d(%4.4d) \r\n", ch->pcdata->quest_curr, ch->pcdata->quest_accum );
 
    pager_printf( ch, "PRACT: %3.3d         Hitpoints: %-5d of %5d   Pager: (%c) %3d    AutoExit(%c)\r\n",
-                 ch->practice, ch->hit, ch->max_hit,
+                 ch->practice, ch->hit, get_max_health(ch),
                  IS_SET( ch->pcdata->flags, PCFLAG_PAGERON ) ? 'X' : ' ',
                  ch->pcdata->pagerlen, xIS_SET( ch->act, PLR_AUTOEXIT ) ? 'X' : ' ' );
 
@@ -347,11 +347,11 @@ void do_score( CHAR_DATA* ch, const char* argument )
                     ch->exp, ch->pcdata->condition[COND_BLOODTHIRST], 10 + ch->level, ch->pcdata->mkills,
                     xIS_SET( ch->act, PLR_AUTOLOOT ) ? 'X' : ' ' );
    else if( ch->Class == CLASS_WARRIOR )
-      pager_printf( ch, "XP   : %-9d                               MKills:  %-5.5d    AutoLoot(%c)\r\n",
-                    ch->exp, ch->pcdata->mkills, xIS_SET( ch->act, PLR_AUTOLOOT ) ? 'X' : ' ' );
+      pager_printf( ch, "XP   : %-9d       Mana: %-5d of %5d    MKills:  %-5.5d    AutoLoot(%c)\r\n",
+                    ch->exp, ch->mana, get_max_mana(ch), ch->pcdata->mkills, xIS_SET( ch->act, PLR_AUTOLOOT ) ? 'X' : ' ' );
    else
       pager_printf( ch, "XP   : %-9d        Mana: %-5d of %5d   MKills:  %-5.5d    AutoLoot(%c)\r\n",
-                    ch->exp, ch->mana, ch->max_mana, ch->pcdata->mkills, xIS_SET( ch->act, PLR_AUTOLOOT ) ? 'X' : ' ' );
+                    ch->exp, ch->mana, get_max_mana(ch), ch->pcdata->mkills, xIS_SET( ch->act, PLR_AUTOLOOT ) ? 'X' : ' ' );
 
    pager_printf( ch, "GOLD : %-13s    Move: %-5d of %5d   Mdeaths: %-5.5d    AutoSac (%c)\r\n",
                  num_punct( ch->gold ), ch->move, ch->max_move, ch->pcdata->mdeaths, xIS_SET( ch->act,
