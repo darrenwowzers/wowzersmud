@@ -4359,3 +4359,32 @@ void do_slay( CHAR_DATA* ch, const char* argument )
    set_cur_char( victim );
    raw_kill( ch, victim );
 }
+
+/* ============================================
+   Wowzers Mud: COMBO POINT GENERATOR -Hansth
+   ============================================ */
+void add_combo_points( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+    /* Only Rogues get combo points! -Hansth */
+    if ( IS_NPC(ch) || ch->Class != CLASS_ROGUE )
+        return;
+
+    /* If they hit a brand new target, reset points to 1 -Hansth */
+    if ( ch->combo_target != victim )
+    {
+        ch->combo_target = victim;
+        ch->combo_points = 1;
+        send_to_char( "You focus on a new target and begin building combo points.\r\n", ch );
+    }
+    else
+    {
+        /* Otherwise, add a point up to a maximum of 5 -Hansth */
+        if ( ch->combo_points < 5 )
+        {
+            ch->combo_points++;
+        }
+    }
+
+    /* Visually show the Rogue their current points -Hansth */
+    ch_printf( ch, "&YCombo Points: &W%d&Y/5&w\r\n", ch->combo_points );
+}

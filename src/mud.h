@@ -4959,6 +4959,7 @@ int get_max_mana( CHAR_DATA *ch );
 
 // Attack power calc -Hansth
 int get_attack_power( CHAR_DATA *ch );
+void add_combo_points( CHAR_DATA *ch, CHAR_DATA *victim );
 
 bool can_take_proto( CHAR_DATA * ch );
 int can_carry_n( CHAR_DATA * ch );
