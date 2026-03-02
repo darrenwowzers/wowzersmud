@@ -1250,6 +1250,11 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
    if( prof_bonus )
       dam += prof_bonus / 4;
 
+/* ============================================
+      Wowzers Mud: ATTACK POWER DAMAGE SCALING -Hansth
+      ============================================ */
+   dam += (get_attack_power(ch) / 10);
+
    /*
     * Calculate Damage Modifiers from Victim's Fighting Style
     */
