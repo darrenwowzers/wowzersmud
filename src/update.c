@@ -926,22 +926,51 @@ void char_update( void )
          ch_save = NULL;
 
 /* ============================================
-         Wowzers Mud: REGENERATION CAPS -Hansth
+         Wowzers Mud: RESOURCE REGENERATION -Hansth
          ============================================ */
       if( ch->position >= POS_STUNNED )
       {
          if( ch->hit < get_max_health( ch ) )
             ch->hit += hit_gain( ch );
 
-         if( ch->mana < get_max_mana( ch ) )
-            ch->mana += mana_gain( ch );
+         /* Handle different power types -Hansth */
+         if ( !IS_NPC(ch) && ch->power_type == POWER_RAGE )
+         {
+             /* Rage slowly decays out of combat -Hansth */
+             if ( ch->position != POS_FIGHTING )
+                 ch->mana -= 5; 
+         }
+         else if ( !IS_NPC(ch) && ch->power_type == POWER_ENERGY )
+         {
+             /* Energy regenerates very fast -Hansth */
+             ch->mana += 20; 
+         }
+         else if( ch->mana < get_max_mana( ch ) )
+         {
+             /* Normal mana regenerates using the standard formula -Hansth */
+             ch->mana += mana_gain( ch ); 
+         }
 
          if( ch->move < ch->max_move )
             ch->move += move_gain( ch );
       }
 
+      /* Enforce Ceilings and Floors -Hansth */
+      if( ch->hit > get_max_health( ch ) )
+         ch->hit = get_max_health( ch );
+         
+      if( ch->mana > get_max_mana( ch ) )
+         ch->mana = get_max_mana( ch );
+      else if ( ch->mana < 0 )
+         ch->mana = 0; /* Prevents Rage from dropping below 0 -Hansth */
+         
+      if( ch->move > ch->max_move )
+         ch->move = ch->max_move;
+
       if( ch->position == POS_STUNNED )
          update_pos( ch );
+
+
       /*
        * Expire variables 
        */
