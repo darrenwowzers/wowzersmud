@@ -6573,3 +6573,56 @@ void do_cook( CHAR_DATA* ch, const char* argument )
    }
    learn_from_success( ch, gsn_cook );
 }
+
+/* ============================================
+   Wowzers Mud: SINISTER STRIKE SKILL -Hansth
+   ============================================ */
+void do_sinister_strike( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    int dam;
+
+    /* Only Rogues can use this! -Hansth */
+    if ( IS_NPC(ch) || ch->Class != CLASS_ROGUE )
+    {
+        send_to_char( "Huh?\r\n", ch );
+        return;
+    }
+
+    /* You must be fighting someone to strike them -Hansth */
+    if ( ( victim = who_fighting( ch ) ) == NULL )
+    {
+        send_to_char( "You aren't fighting anyone.\r\n", ch );
+        return;
+    }
+
+    /* Check if they have enough Energy (Costs 45 Energy) -Hansth */
+    if ( ch->power_type == POWER_ENERGY && ch->mana < 45 )
+    {
+        send_to_char( "You don't have enough energy!\r\n", ch );
+        return;
+    }
+
+    /* Deduct the Energy -Hansth */
+    if ( ch->power_type == POWER_ENERGY )
+    {
+        ch->mana -= 45;
+    }
+
+    /* Calculate Damage: Base + Attack Power Bonus -Hansth */
+    dam = 15 + (get_attack_power(ch) / 10); 
+
+    /* Send the combat messages to the room -Hansth */
+    act( AT_YELLOW, "You viciously strike $N with a Sinister Strike!", ch, NULL, victim, TO_CHAR );
+    act( AT_YELLOW, "$n viciously strikes $N with a Sinister Strike!", ch, NULL, victim, TO_NOTVICT );
+
+    /* Deal the actual damage -Hansth */
+    damage( ch, victim, dam, TYPE_UNDEFINED );
+    
+    /* Generate the Combo Point! -Hansth */
+    add_combo_points( ch, victim );
+    
+    /* Put them in a brief global cooldown (Wait State) -Hansth */
+    WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+}
+
