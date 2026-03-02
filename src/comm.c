@@ -2351,6 +2351,26 @@ void nanny_get_new_class( DESCRIPTOR_DATA * d, const char *argument )
              && !str_prefix( arg, class_table[iClass]->who_name ) )
          {
             ch->Class = iClass;
+/* ============================================
+       Wowzers Mud: POWER TYPE ASSIGNMENT -Hansth
+       ============================================ */
+    if ( ch->Class == CLASS_WARRIOR )
+    {
+        ch->power_type = POWER_RAGE;
+        ch->max_mana = 100; /* Rage caps at 100 -Hansth */
+        ch->mana = 0;       /* Warriors start with 0 Rage -Hansth */
+    }
+    else if ( ch->Class == CLASS_ROGUE )
+    {
+        ch->power_type = POWER_ENERGY;
+        ch->max_mana = 100; /* Energy caps at 100 -Hansth */
+        ch->mana = 100;     /* Rogues start with full Energy -Hansth */
+    }
+    else
+    {
+        ch->power_type = POWER_MANA;
+        /* Mana is rolled normally by the Smaug engine -Hansth */
+    }
             break;
          }
       }
