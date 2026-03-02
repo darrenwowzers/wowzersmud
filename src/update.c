@@ -925,12 +925,15 @@ void char_update( void )
       else
          ch_save = NULL;
 
+/* ============================================
+         Wowzers Mud: REGENERATION CAPS -Hansth
+         ============================================ */
       if( ch->position >= POS_STUNNED )
       {
-         if( ch->hit < ch->max_hit )
+         if( ch->hit < get_max_health( ch ) )
             ch->hit += hit_gain( ch );
 
-         if( ch->mana < ch->max_mana )
+         if( ch->mana < get_max_mana( ch ) )
             ch->mana += mana_gain( ch );
 
          if( ch->move < ch->max_move )
@@ -939,7 +942,6 @@ void char_update( void )
 
       if( ch->position == POS_STUNNED )
          update_pos( ch );
-
       /*
        * Expire variables 
        */
