@@ -941,16 +941,16 @@ typedef enum
    ============================================ */
 
 /* Define the specific classes */
-#define CLASS_NONE       -1
-#define CLASS_WARRIOR     0
-#define CLASS_PALADIN     1
-#define CLASS_HUNTER      2
-#define CLASS_ROGUE       3
-#define CLASS_PRIEST      4
-#define CLASS_SHAMAN      5
-#define CLASS_MAGE        6
-#define CLASS_WARLOCK     7
-#define CLASS_DRUID       8
+#define CLASS_NONE         -1
+#define CLASS_MAGE          0
+#define CLASS_PRIEST        1
+#define CLASS_ROGUE         2
+#define CLASS_WARRIOR       3
+#define CLASS_SHAMAN        4
+#define CLASS_DRUID         5
+#define CLASS_HUNTER        6
+#define CLASS_WARLOCK       7
+#define CLASS_PALADIN       8
 
 /*
 #define CLASS_NONE     -1  For skill/spells according to guild 
@@ -3108,6 +3108,7 @@ extern short gsn_style_standard;
 extern short gsn_style_aggressive;
 extern short gsn_style_berserk;
 
+extern sh_int gsn_sinister_strike; // Sinister Strike skill for Rogues on Wowzers Mud -Hansth
 extern short gsn_detrap;
 extern short gsn_backstab;
 extern short gsn_circle;

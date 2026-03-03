@@ -714,7 +714,7 @@ void do_hotboot( CHAR_DATA* ch, const char* argument )
     */
    perror( "do_hotboot: execl" );
 
-   sysdata.dlHandle = dlopen( NULL, RTLD_LAZY );
+   sysdata.dlHandle = dlopen( NULL, RTLD_LAZY | RTLD_GLOBAL );
    if( !sysdata.dlHandle )
    {
       bug( "FATAL ERROR: %s: Unable to reopen system executable handle!", __func__ );

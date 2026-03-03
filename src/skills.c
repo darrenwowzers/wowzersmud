@@ -6574,10 +6574,17 @@ void do_cook( CHAR_DATA* ch, const char* argument )
    learn_from_success( ch, gsn_cook );
 }
 
+/* Ensure the symbol is visible to dlsym and uses C linkage -Hansth */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /* ============================================
    Wowzers Mud: SINISTER STRIKE SKILL -Hansth
    ============================================ */
-void do_sinister_strike( CHAR_DATA *ch, char *argument )
+/* Ensure the symbol is visible to dlsym -Hansth */
+__attribute__((visibility("default")))
+void do_sinister_strike( CHAR_DATA *ch, const char *argument )
 {
     CHAR_DATA *victim;
     int dam;
@@ -6585,7 +6592,7 @@ void do_sinister_strike( CHAR_DATA *ch, char *argument )
     /* Only Rogues can use this! -Hansth */
     if ( IS_NPC(ch) || ch->Class != CLASS_ROGUE )
     {
-        send_to_char( "Huh?\r\n", ch );
+        ch_printf( ch, "Huh? What do you think you are a Rogue? Your class is %d, but CLASS_ROGUE is %d.\r\n", ch->Class, CLASS_ROGUE );
         return;
     }
 
@@ -6617,7 +6624,7 @@ void do_sinister_strike( CHAR_DATA *ch, char *argument )
     act( AT_YELLOW, "$n viciously strikes $N with a Sinister Strike!", ch, NULL, victim, TO_NOTVICT );
 
     /* Deal the actual damage -Hansth */
-    damage( ch, victim, dam, TYPE_UNDEFINED );
+    damage( ch, victim, dam, gsn_sinister_strike );
     
     /* Generate the Combo Point! -Hansth */
     add_combo_points( ch, victim );
@@ -6626,3 +6633,8 @@ void do_sinister_strike( CHAR_DATA *ch, char *argument )
     WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
 }
 
+
+
+#ifdef __cplusplus
+}
+#endif

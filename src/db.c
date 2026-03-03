@@ -115,6 +115,7 @@ short gsn_sneak;
 short gsn_steal;
 short gsn_gouge;
 short gsn_poison_weapon;
+sh_int gsn_sinister_strike; // Sinister Strike for rogues -Hansth
 
 /* thief & warrior */
 short gsn_disarm;
@@ -328,7 +329,7 @@ void boot_db( bool fCopyOver )
     * Open up a handle to the executable's symbol table for later use
     * when working with commands
     */
-   sysdata.dlHandle = dlopen( NULL, RTLD_LAZY );
+   sysdata.dlHandle = dlopen( NULL, RTLD_LAZY | RTLD_GLOBAL );
    if( !sysdata.dlHandle )
    {
       log_string( "dl: Error opening local system executable as handle, please check compile flags." );
@@ -571,6 +572,7 @@ void boot_db( bool fCopyOver )
       ASSIGN_GSN( gsn_style_aggressive, "aggressive style" );
       ASSIGN_GSN( gsn_style_berserk, "berserk style" );
 
+      ASSIGN_GSN( gsn_sinister_strike, "sinister strike" ); //Sinister Strike for Rogues -Hansth
       ASSIGN_GSN( gsn_pugilism, "pugilism" );
       ASSIGN_GSN( gsn_long_blades, "long blades" );
       ASSIGN_GSN( gsn_short_blades, "short blades" );

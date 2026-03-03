@@ -73,6 +73,10 @@ DO_FUN *skill_function( const char *name )
    DWORD error;
 #endif
 
+/* Hardcode manual mapping for Sinister Strike -Hansth */
+   if ( !str_cmp( name, "do_sinister_strike" ) ) 
+      return do_sinister_strike;
+
    funHandle = dlsym( sysdata.dlHandle, name );
    if( ( error = dlerror(  ) ) )
    {

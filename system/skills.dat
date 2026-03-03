@@ -78,7 +78,7 @@ Hitvict      A vaporous cloud of acidic mist forms around you.~
 Hitroom      A vaporous cloud of acidic mist forms around $N.~
 Missvict     You fail to conjure the acidic vapors.~
 Affect       '(l*4)+8' 26 'acidmist' 34
-Minlevel     41
+Minlevel     51
 End
 
 #SKILL
@@ -161,7 +161,7 @@ Rounds       12
 Code         spell_animate_dead
 Dammsg       ~
 Wearoff      !Animate Dead!~
-Minlevel     42
+Minlevel     23
 End
 
 #SKILL
@@ -360,7 +360,7 @@ Rounds       8
 Code         do_bite
 Dammsg       bite~
 Wearoff      !Bite!~
-Minlevel     11
+Minlevel     51
 End
 
 #SKILL
@@ -441,7 +441,7 @@ Dammsg       blasphemy~
 Wearoff      You are no longer afflicted by the curse of the Nephandi!~
 Hitchar      You utter a curse against the Gods and bring their wrath upon
 
-$N!~
+$N!~
 Hitvict      $n has BLASPHEMED you!~
 Hitroom      $n utters Edaj and infuriates the Gods!~
 Dice         50d1~
@@ -559,7 +559,7 @@ Minpos       105
 Rounds       12
 Code         do_bloodlet
 Dammsg       ~
-Minlevel     11
+Minlevel     51
 End
 
 #SKILL
@@ -597,7 +597,7 @@ Minpos       112
 Rounds       24
 Code         do_broach
 Dammsg       ~
-Minlevel     41
+Minlevel     51
 End
 
 #SKILL
@@ -929,7 +929,7 @@ Hitchar      You call upon the Gods to invoke the power of fire!~
 Hitroom      $n invokes the power of fire!~
 Dice         L~
 Value        30
-Minlevel     6
+Minlevel     1
 End
 
 #SKILL
@@ -1124,6 +1124,19 @@ Minlevel     12
 End
 
 #SKILL
+Name         defensive style~
+Type         Skill
+Info         0
+Flags        0
+Rounds       4
+Code         spell_null
+Dammsg       ~
+Wearoff      !defensive style!~
+Teachers     10340 3004~
+Minlevel     1
+End
+
+#SKILL
 Name         dehydrate~
 Type         Spell
 Info         855
@@ -1143,19 +1156,6 @@ Affect       'l*5' 64 '-10' -1
 Affect       '' 26 'dehydration' -1
 Affect       '' 60 '95' -1
 Minlevel     24
-End
-
-#SKILL
-Name         defensive style~
-Type         Skill
-Info         0
-Flags        0
-Rounds       4
-Code         spell_null
-Dammsg       ~
-Wearoff      !defensive style!~
-Teachers     10340 3004~
-Minlevel     1
 End
 
 #SKILL
@@ -1194,7 +1194,7 @@ Wearoff      Your leathery skin grows thinner as your spell wanes.~
 Hitvict      Your skin becomes thick and leathery, similar to that of a demon.~
 Hitroom      $N's skin becomes thick and leathery, similar to that of a demon.~
 Affect       'l*23' 27 '64' -1
-Minlevel     20
+Minlevel     14
 End
 
 #SKILL
@@ -1306,7 +1306,7 @@ Rounds       12
 Code         spell_detect_poison
 Dammsg       ~
 Wearoff      !Detect Poison!~
-Minlevel     5
+Minlevel     4
 End
 
 #SKILL
@@ -1378,7 +1378,7 @@ Rounds       24
 Code         spell_disenchant_weapon
 Dammsg       ~
 Wearoff      !Disenchant Weapon!~
-Minlevel     0
+Minlevel     51
 End
 
 #SKILL
@@ -1487,7 +1487,7 @@ Mana         5
 Rounds       12
 Code         spell_charm_person
 Dammsg       ~
-Minlevel     14
+Minlevel     51
 End
 
 #SKILL
@@ -1611,7 +1611,7 @@ Misschar     You swing your elbow in a vicious arc intended to obliterate your t
 Missvict     $n swings $s elbow in a vicious arc fully intent on obliterating you, but fortunately misses.~
 Missroom     $n swings $s elbow in a vicious arc, intent on obliterating $s target, but misses altogether.~
 Dice         l/2 { 25~
-Minlevel     15
+Minlevel     18
 End
 
 #SKILL
@@ -1949,7 +1949,7 @@ Rounds       10
 Code         do_feed
 Dammsg       bite~
 Wearoff      !Feed!~
-Minlevel     3
+Minlevel     51
 End
 
 #SKILL
@@ -2116,7 +2116,7 @@ Hitchar      $N begins to float in mid-air...~
 Hitvict      You begin to float in mid-air...~
 Hitroom      $N begins to float in mid-air...~
 Affect       'l*24' 26 'float' 21
-Minlevel     1
+Minlevel     5
 End
 
 #SKILL
@@ -2308,7 +2308,7 @@ Misschar     You clench a clawed fist in anger as $N escapes your grasp.~
 Missroom     $n grimaces at $N, clenching a clawed fist in anger...~
 Immchar      $N is unphased by your grasp...~
 Dice         (7d4*i)+20~
-Minlevel     50
+Minlevel     51
 End
 
 #SKILL
@@ -2381,7 +2381,7 @@ Rounds       12
 Code         spell_harm
 Dammsg       harm spell~
 Wearoff      !Harm!~
-Minlevel     13
+Minlevel     15
 End
 
 #SKILL
@@ -2522,7 +2522,7 @@ Hitchar      You call a storm of ice!~
 Hitroom      $n calls an ice storm!~
 Dice         100d20~
 Affect       '30' 1 '-1' -1
-Minlevel     50
+Minlevel     51
 End
 
 #SKILL
@@ -2649,7 +2649,7 @@ Hitchar      $N's eyes dart about as they grow accustomed to infravision.~
 Hitvict      Heat appears red through your eyes.~
 Hitroom      $N's eyes dart about as they grow accustomed to infravision.~
 Affect       'l*24' 26 'infravision' 9
-Minlevel     1
+Minlevel     4
 End
 
 #SKILL
@@ -2807,7 +2807,7 @@ Misschar     You leap into the air attempting to kick $N with both feet, but mis
 Missvict     $n leaps into the air attempting to kick you with both feet, but misses and falls flat on $s rump.~
 Missroom     $n leaps into the air attempting to kick $N with both feet, but misses and falls flat on $s rump.~
 Dice         l/2 { 35~
-Minlevel     18
+Minlevel     20
 End
 
 #SKILL
@@ -2845,15 +2845,15 @@ Code         spell_smaug
 Dammsg       ~
 Wearoff      Your levitation spell wears off and you return to the
 
-ground.~
+ground.~
 Hitchar      You slowly rise into the air.~
 Hitvict      Your feet slowly rise off of the ground.~
 Hitroom      $N bows $S head in concentration and $S feet rise off the
 
-ground.~
+ground.~
 Misschar     You concentrate heavily, but your feet stay anchored to the
 
-earth.~
+earth.~
 Affect       'l*23' 26 'floating' 21
 Minlevel     27
 End
@@ -3129,7 +3129,7 @@ Wearoff      Your form becomes once again solid.~
 Hitvict      You assume a lucent form...~
 Hitroom      $N's form grows lucent...~
 Affect       'l*5' 26 'pass_door' 20
-Minlevel     18
+Minlevel     51
 End
 
 #SKILL
@@ -3143,7 +3143,7 @@ Rounds       12
 Code         do_mistwalk
 Dammsg       ~
 Wearoff      !Mist Walk!~
-Minlevel     31
+Minlevel     51
 End
 
 #SKILL
@@ -3246,7 +3246,7 @@ Dammsg       occular explosium~
 Hitchar      You nearly cause $N's eyes to explode!~
 Hitvict      Blood spurts from your eye sockets as you experience the pain
 
-of occular explosium!~
+of occular explosium!~
 Dice         20d1~
 Components   v+49~
 Affect       '' 60 '95' -1
@@ -3270,7 +3270,7 @@ Hitvict      Your eyes blaze like coals, filling your sight with unseen forms.~
 Hitroom      $N's eyes burn like coals in the darkness.~
 Affect       'l*14' 26 'detect_hidden' 5
 Affect       'l*14' 26 'detect_invis' 3
-Minlevel     12
+Minlevel     51
 End
 
 #SKILL
@@ -3395,6 +3395,22 @@ Minlevel     16
 End
 
 #SKILL
+Name         pestilence~
+Type         Spell
+Info         1864
+Flags        0
+Minpos       111
+Slot         95
+Mana         60
+Rounds       10
+Code         spell_smaug
+Dammsg       ~
+Value        453
+Components   v482 v2072~
+Minlevel     50
+End
+
+#SKILL
 Name         pick lock~
 Type         Skill
 Info         0
@@ -3415,22 +3431,6 @@ Flags        0
 Code         spell_null
 Dammsg       ~
 Minlevel     1
-End
-
-#SKILL
-Name         pestilence~
-Type         Spell
-Info         1864
-Flags        0
-Minpos       111
-Slot         95
-Mana         60
-Rounds       10
-Code         spell_smaug
-Dammsg       ~
-Value        453
-Components   v482 v2072~
-Minlevel     50
 End
 
 #SKILL
@@ -3483,7 +3483,7 @@ Rounds       20
 Code         spell_poison
 Dammsg       poison~
 Wearoff      You feel less sick.~
-Minlevel     6
+Minlevel     8
 End
 
 #SKILL
@@ -3557,7 +3557,7 @@ Rounds       12
 Guild        99
 Code         do_pounce
 Dammsg       pounce~
-Minlevel     5
+Minlevel     51
 End
 
 #SKILL
@@ -3714,7 +3714,7 @@ Hitvict      You feel your pulse quicken!~
 Missvict     You fail to gather enough magic to perform this spell.~
 Affect       'l+50' 26 'quickening' -1
 Affect       'l+50' 2 '+2' -1
-Minlevel     51
+Minlevel     21
 End
 
 #SKILL
@@ -4103,23 +4103,6 @@ Minlevel     15
 End
 
 #SKILL
-Name         seduction~
-Type         Spell
-Info         0
-Flags        0
-Target       1
-Minpos       110
-Mana         75
-Rounds       20
-Code         spell_charm_person
-Dammsg       ~
-Hitchar      $N has fallen prey to your seduction!~
-Hitvict      $n has seduced you against your will!~
-Components   v@13~
-Minlevel     18
-End
-
-#SKILL
 Name         search~
 Type         Skill
 Info         0
@@ -4140,6 +4123,23 @@ Minpos       105
 Code         spell_null
 Dammsg       ~
 Minlevel     5
+End
+
+#SKILL
+Name         seduction~
+Type         Spell
+Info         0
+Flags        0
+Target       1
+Minpos       110
+Mana         75
+Rounds       20
+Code         spell_charm_person
+Dammsg       ~
+Hitchar      $N has fallen prey to your seduction!~
+Hitvict      $n has seduced you against your will!~
+Components   v@13~
+Minlevel     18
 End
 
 #SKILL
@@ -4259,7 +4259,21 @@ Dammsg       shriek~
 Hitchar      Unfettered anguish explodes from your throat in an ear piercing wail!~
 Hitroom      The screams of lost souls erupt from $n, shattering all those around!~
 Dice         l~
-Minlevel     35
+Minlevel     51
+End
+
+#SKILL
+Name         sinister strike~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+Minpos       109
+Rounds       12
+Code         do_sinister_strike
+Dammsg       sinister strike~
+Wearoff      !Sinister Strike!~
+Minlevel     51
 End
 
 #SKILL
@@ -4274,7 +4288,7 @@ Rounds       12
 Code         spell_sleep
 Dammsg       ~
 Wearoff      You feel less tired.~
-Minlevel     12
+Minlevel     14
 End
 
 #SKILL
@@ -4994,11 +5008,32 @@ Hitchar      Your steps become silent and your form hidden.~
 Hitvict      Your steps become silent and your form hidden.~
 Misschar     You clumsily attempt to mask your footsteps and hide in
 
-shadows.~
+shadows.~
 Missvict     You attempt to mask your footsteps.~
 Affect       'l*6' 26 'sneak' 15
 Affect       'l*6' 26 'hide' 16
 Minlevel     17
+End
+
+#SKILL
+Name         venomous touch~
+Type         Spell
+Info         398
+Flags        0
+Target       1
+Minpos       112
+Mana         5
+Rounds       12
+Code         spell_poison
+Dammsg       ~
+Wearoff      The venom in your blood is finally purged.~
+Hitchar      Toxic venom passes into the body of $N.~
+Hitvict      You shiver as $n reaches towards you and infuses you with toxic venom!~
+Hitroom      $N shivers as $n infuses $M body with toxic venom.~
+Misschar     You reach a hand toward $N, but $E evades your venomous
+
+touch.~
+Minlevel     5
 End
 
 #SKILL
@@ -5019,28 +5054,7 @@ Hitvict      A noxious vapor cloud forms around you.~
 Hitroom      A noxious vapor cloud forms around $N.~
 Missvict     You fail to create the noxious cloud.~
 Affect       '(l*4)+8' 26 'venomshield' 35
-Minlevel     29
-End
-
-#SKILL
-Name         venomous touch~
-Type         Spell
-Info         398
-Flags        0
-Target       1
-Minpos       112
-Mana         5
-Rounds       12
-Code         spell_poison
-Dammsg       ~
-Wearoff      The venom in your blood is finally purged.~
-Hitchar      Toxic venom passes into the body of $N.~
-Hitvict      You shiver as $n reaches towards you and infuses you with toxic venom!~
-Hitroom      $N shivers as $n infuses $M body with toxic venom.~
-Misschar     You reach a hand toward $N, but $E evades your venomous
-
-touch.~
-Minlevel     5
+Minlevel     51
 End
 
 #SKILL
@@ -5102,7 +5116,7 @@ Affect       '12' 18 '-(l/8)' -1
 Affect       '12' 19 '-(l/8)' -1
 Affect       '12' 24 'l/18' -1
 Affect       '12' 31 '-1' -1
-Minlevel     13
+Minlevel     51
 End
 
 #SKILL
@@ -5172,7 +5186,7 @@ Rounds       12
 Code         spell_word_of_recall
 Dammsg       ~
 Wearoff      !Word of Recall!~
-Minlevel     12
+Minlevel     5
 End
 
 #SKILL
