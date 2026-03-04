@@ -119,6 +119,25 @@ typedef struct note_data NOTE_DATA;
 typedef struct board_data BOARD_DATA;
 typedef struct obj_data OBJ_DATA;
 typedef struct obj_index_data OBJ_INDEX_DATA;
+/* ===========================================
+   Wowzers Mud: Account System
+   =========================================== */
+#define MAX_ACCOUNT_CHARS 10
+
+typedef struct account_data ACCOUNT_DATA;
+
+struct account_data
+{
+   const char *name;
+   const char *pwd;
+   const char *character[MAX_ACCOUNT_CHARS];
+};
+
+/* account.c */
+ACCOUNT_DATA *load_account( const char *name );
+void save_account( ACCOUNT_DATA *account );
+void free_account( ACCOUNT_DATA *account );
+
 typedef struct pc_data PC_DATA;
 typedef struct plane_data PLANE_DATA;
 typedef struct reset_data RESET_DATA;
@@ -795,8 +814,9 @@ struct project_data
  */
 typedef enum
 {
-   CON_GET_NAME = -99,
-   CON_GET_OLD_PASSWORD, CON_CONFIRM_NEW_NAME,
+   CON_GET_ACCOUNT = -99,
+   CON_GET_ACCOUNT_PWD, CON_CONFIRM_ACCOUNT_PWD, CON_ACCOUNT_MENU,
+   CON_GET_NAME, CON_GET_OLD_PASSWORD, CON_CONFIRM_NEW_NAME,
    CON_GET_NEW_PASSWORD, CON_CONFIRM_NEW_PASSWORD,
    CON_GET_NEW_SEX, CON_GET_NEW_CLASS, CON_READ_MOTD,
    CON_GET_NEW_RACE, CON_GET_EMULATION,
@@ -844,7 +864,8 @@ struct descriptor_data
    DESCRIPTOR_DATA *prev;
    DESCRIPTOR_DATA *snoop_by;
    CHAR_DATA *character;
-   CHAR_DATA *original;
+ACCOUNT_DATA * account;        /* Wowzers Account Tracker */   
+CHAR_DATA *original;
    struct mccp_data *mccp; /* Mud Client Compression Protocol */
    bool can_compress;
    const char *host;
@@ -4470,6 +4491,7 @@ DECLARE_SPELL_FUN( spell_sacral_divinity );
  *
  */
 #define PLAYER_DIR  "../player/"   /* Player files         */
+#define ACCOUNT_DIR "../account/"  /* Wowzers Account files */
 #define BACKUP_DIR  "../backup/"   /* Backup Player files   */
 #define GOD_DIR     "../gods/"     /* God Info Dir         */
 #define BOARD_DIR   "../boards/"   /* Board data dir    */

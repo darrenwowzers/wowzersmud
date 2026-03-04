@@ -4969,8 +4969,8 @@ resides in a chamber which prevents the usage of magic...
          /     |      |  |      |   \____/    \_____/     ***************
         / 
 
-SmaugFUSS 1.9 changes by Samson. Other bugfixes and changes provided by
-various members of the SMAUG community. Their contributions are greatly
+{gSmaugFUSS 1.9{w changes by Samson. Other bugfixes and changes provided by
+{Gva{Rrious members of the SMAUG community. Their contributions are greatly
 appreciated.
 SMAUG 1.4 written by Thoric (Derek Snider) with Altrag, Blodkai, Haus, Narn,
 Scryn, Swordbearer, Tricops, Gorog, Rennard, Grishnakh, Fireblade and Nivek.
@@ -4978,7 +4978,7 @@ Original MERC 2.1 code by Hatchet, Furey, and Kahn.
 Original DikuMUD code by:
 Hans Stærfeldt, Katja Nyboe, Tom Madsen, Michael Seifert && Sebastian Hammer
 
-Enter your character's name, or type new: ~
+Enter your Wowzers Mud Account Name: ~
 
 1 GRIP~
 This skill is automatic, once practiced.  The skill causes you to grip

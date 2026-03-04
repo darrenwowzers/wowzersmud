@@ -132,6 +132,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA * d );
  * Other local functions (OS-independent).
  */
 bool check_parse_name( const char *name, bool newchar );
+void account_menu( DESCRIPTOR_DATA *d ); // Wowzers Mud account system -Hansth
 short check_reconnect( DESCRIPTOR_DATA * d, const char *name, bool fConn );
 short check_playing( DESCRIPTOR_DATA * d, const char *name, bool kick );
 int main( int argc, char **argv );
@@ -1112,7 +1113,7 @@ void new_descriptor( int new_desc )
    CREATE( dnew, DESCRIPTOR_DATA, 1 );
    dnew->next = NULL;
    dnew->descriptor = desc;
-   dnew->connected = CON_GET_NAME;
+   dnew->connected = CON_GET_ACCOUNT;
    dnew->outsize = 2000;
    dnew->idle = 0;
    dnew->lines = 0;
@@ -2069,26 +2070,13 @@ void nanny_get_name( DESCRIPTOR_DATA * d, char *argument )
       }
    }
 
-   if( fOld )
-   {
-      if( d->newstate != 0 )
-      {
-         write_to_buffer( d, "That name is already taken. Please choose another: ", 0 );
-         d->connected = CON_GET_NAME;
-         d->character->desc = NULL;
-         free_char( d->character ); /* Big Memory Leak before --Shaddai */
-         d->character = NULL;
-         return;
-      }
-
-      /*
-       * Old player
-       */
-      write_to_buffer( d, "Password: ", 0 );
-      write_to_buffer( d, (const char *)echo_off_str, 0 );
-      d->connected = CON_GET_OLD_PASSWORD;
-      return;
-   }
+if( fOld )
+         {
+            write_to_buffer( d, "That character name is already taken. Please choose another.\r\nNew Character Name: ", 0 );
+            free_char( ch );
+            d->character = NULL;
+            return;
+         }
    else
    {
       /*
@@ -2186,16 +2174,31 @@ void nanny_confirm_new_name( DESCRIPTOR_DATA * d, char *argument )
 
    ch = d->character;
 
-   switch ( *argument )
-   {
-      case 'y':
-      case 'Y':
-         buffer_printf( d,
-                   "\r\nMake sure to use a password that won't be easily guessed by someone else."
-                   "\r\nPick a good password for %s: %s", ch->name, echo_off_str );
-         d->connected = CON_GET_NEW_PASSWORD;
-         break;
+switch ( *argument )
+         {
+            case 'y':
+            case 'Y':
+               write_to_buffer( d, "New character.\r\nWhat is your sex (M/F/N)? ", 0 );
+               d->connected = CON_GET_NEW_SEX;
 
+               /* Instantly link the new character to the Wowzers Account */
+               if ( d->account )
+               {
+                  int i;
+                  for ( i = 0; i < MAX_ACCOUNT_CHARS; i++ )
+                  {
+                     if ( !d->account->character[i] )
+                     {
+                        d->account->character[i] = STRALLOC( ch->name );
+                        break;
+                     }
+                  }
+                  save_account( d->account );
+               }
+
+               if( sysdata.NO_NAME_RESOLVING )
+                  sysdata.NO_NAME_RESOLVING = FALSE;
+               break;
       case 'n':
       case 'N':
          write_to_buffer( d, "Ok, what IS it, then? ", 0 );
@@ -2821,6 +2824,43 @@ void nanny_delete_char( DESCRIPTOR_DATA * d, const char *argument )
    }
 }
 
+
+/* ===========================================
+   Wowzers Mud: Account Menu
+   =========================================== */
+void account_menu( DESCRIPTOR_DATA *d )
+{
+    char buf[MAX_STRING_LENGTH];
+    int i;
+
+    /* Clears the screen and moves cursor to top left */
+    write_to_buffer( d, "\033[2J\033[1;1H", 0 ); 
+    
+    write_to_buffer( d, "\r\n&B=========================================================&w\r\n", 0 );
+    write_to_buffer( d, "                 &W WOWZERS MUD ACCOUNT&w\r\n", 0 );
+    write_to_buffer( d, "&B=========================================================&w\r\n\r\n", 0 );
+
+    for ( i = 0; i < MAX_ACCOUNT_CHARS; i++ )
+    {
+        if ( d->account->character[i] && d->account->character[i][0] != '\0' )
+        {
+            snprintf( buf, MAX_STRING_LENGTH, " &Y%2d&w. %s\r\n", i + 1, d->account->character[i] );
+            write_to_buffer( d, buf, 0 );
+        }
+        else
+        {
+            snprintf( buf, MAX_STRING_LENGTH, " &Y%2d&w. [ Empty ]\r\n", i + 1 );
+            write_to_buffer( d, buf, 0 );
+        }
+    }
+
+    write_to_buffer( d, "\r\n &W[&YC&W]&reate a new character\r\n", 0 );
+    write_to_buffer( d, " &W[&YQ&W]&ruit\r\n", 0 );
+    write_to_buffer( d, "&B=========================================================&w\r\n", 0 );
+    write_to_buffer( d, "Select an option: ", 0 );
+}
+
+
 /*
  * Deal with sockets that haven't logged in yet.
  */
@@ -2836,8 +2876,161 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
          close_socket( d, TRUE );
          return;
 
+case CON_GET_ACCOUNT:
+      {
+         char arg[MAX_INPUT_LENGTH];
+         strlcpy( arg, argument, MAX_INPUT_LENGTH );
+
+         if( arg[0] == '\0' )
+         {
+            close_socket( d, FALSE );
+            return;
+         }
+
+         arg[0] = UPPER( arg[0] );
+         if( !check_parse_name( arg, TRUE ) )
+         {
+            write_to_buffer( d, "Illegal name, try another.\r\nAccount Name: ", 0 );
+            return;
+         }
+
+         d->account = load_account( arg );
+
+         if( d->account )
+         {
+            write_to_buffer( d, "Password: ", 0 );
+            write_to_buffer( d, (const char *)echo_off_str, 0 );
+            d->connected = CON_GET_ACCOUNT_PWD;
+         }
+         else
+         {
+            write_to_buffer( d, "Account not found. Let's create it!\r\nChoose a Password: ", 0 );
+            write_to_buffer( d, (const char *)echo_off_str, 0 );
+
+            CREATE( d->account, ACCOUNT_DATA, 1 );
+            d->account->name = STRALLOC( arg );
+            d->account->pwd  = NULL;
+            for( int i = 0; i < MAX_ACCOUNT_CHARS; i++ )
+               d->account->character[i] = NULL;
+
+            d->connected = CON_CONFIRM_ACCOUNT_PWD;
+         }
+         break;
+      }
+
+      case CON_GET_ACCOUNT_PWD:
+         write_to_buffer( d, "\r\n", 2 );
+         if( argument[0] == '\0' )
+         {
+            write_to_buffer( d, "Login break.\r\n", 0 );
+            close_socket( d, FALSE );
+            return;
+         }
+
+         if( str_cmp( sha256_crypt( argument ), d->account->pwd ) )
+         {
+            write_to_buffer( d, "Wrong password.\r\nAccount Name: ", 0 );
+            write_to_buffer( d, (const char *)echo_on_str, 0 );
+            free_account( d->account );
+            d->account = NULL;
+            d->connected = CON_GET_ACCOUNT;
+            return;
+         }
+
+         write_to_buffer( d, (const char *)echo_on_str, 0 );
+         d->connected = CON_ACCOUNT_MENU;
+         account_menu( d );
+         break;
+
+      case CON_CONFIRM_ACCOUNT_PWD:
+         write_to_buffer( d, "\r\n", 2 );
+         if( argument[0] == '\0' )
+         {
+            write_to_buffer( d, "Password cannot be blank.\r\nNew Password: ", 0 );
+            return;
+         }
+
+         d->account->pwd = STRALLOC( sha256_crypt( argument ) );
+         save_account( d->account );
+
+         write_to_buffer( d, (const char *)echo_on_str, 0 );
+         write_to_buffer( d, "\r\nAccount successfully created!\r\n", 0 );
+         d->connected = CON_ACCOUNT_MENU;
+         account_menu( d );
+         break;
+
+case CON_ACCOUNT_MENU:
+         if( argument[0] == '\0' )
+         {
+            account_menu( d );
+            return;
+         }
+
+         if( UPPER( argument[0] ) == 'Q' )
+         {
+            write_to_buffer( d, "Farewell.\r\n", 0 );
+            close_socket( d, FALSE );
+            return;
+         }
+
+         if( UPPER( argument[0] ) == 'C' )
+         {
+            int count = 0;
+            for( int i = 0; i < MAX_ACCOUNT_CHARS; i++ )
+               if( d->account->character[i] )
+                  count++;
+
+            if( count >= MAX_ACCOUNT_CHARS )
+            {
+               write_to_buffer( d, "\r\nYour account is full.\r\n", 0 );
+               account_menu( d );
+               return;
+            }
+            write_to_buffer( d, "\r\nWhat do you wish to name your new character? ", 0 );
+            d->connected = CON_GET_NAME;
+            return;
+         }
+
+         if( is_number( argument ) )
+         {
+            int slot = atoi( argument ) - 1;
+            if( slot < 0 || slot >= MAX_ACCOUNT_CHARS || !d->account->character[slot] )
+            {
+               write_to_buffer( d, "Invalid choice.\r\n", 0 );
+               account_menu( d );
+               return;
+            }
+
+            /* Valid character selected, load them into the world! */
+            bool loadOld = load_char_obj( d, (char *)d->account->character[slot], FALSE, FALSE );
+            CHAR_DATA *lch = d->character;
+
+            if( !loadOld || !lch )
+            {
+               write_to_buffer( d, "Error loading character.\r\n", 0 );
+               account_menu( d );
+               return;
+            }
+
+            if( xIS_SET( lch->act, PLR_DENY ) )
+            {
+               log_printf( "Denying access to %s@%s.", lch->name, d->host );
+               write_to_descriptor( d, "You are denied access.\r\n", 0 );
+               close_socket( d, FALSE );
+               return;
+            }
+
+            write_to_buffer( d, "\r\nPress [ENTER] ", 0 );
+            d->connected = CON_READ_MOTD;
+            return;
+         }
+
+         write_to_buffer( d, "Invalid choice.\r\n", 0 );
+         account_menu( d );
+         break;
+
       case CON_GET_NAME:
-         nanny_get_name( d, argument );
+        nanny_get_name( d, argument );
          break;
 
       case CON_GET_OLD_PASSWORD:
