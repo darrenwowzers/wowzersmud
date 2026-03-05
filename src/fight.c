@@ -32,7 +32,6 @@ int align_compute( CHAR_DATA * gch, CHAR_DATA * victim );
 ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt );
 int obj_hitroll( OBJ_DATA * obj );
 void show_condition( CHAR_DATA * ch, CHAR_DATA * victim );
-
 bool loot_coins_from_corpse( CHAR_DATA * ch, OBJ_DATA * corpse )
 {
    OBJ_DATA *content, *content_next;
@@ -454,6 +453,12 @@ void violence_update( void )
       mprog_fight_trigger( ch, victim );
       if( char_died( ch ) || char_died( victim ) )
          continue;
+
+/* Wowzers Mud: Evaluate Threat Table and Shift Aggro */
+      if ( IS_NPC( ch ) )
+      {
+          update_aggro( ch );
+      }
 
       /*
        * NPC special attack flags            -Thoric
@@ -2293,6 +2298,15 @@ ch_ret damage( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt )
             ch->mana = get_max_mana(ch);
     }
 
+/* ============================================
+      Wowzers Mud: THREAT GENERATION
+      ============================================ */
+   if ( dam > 0 )
+   {
+       /* 1 Damage = 1 Threat */
+       add_threat( ch, victim, dam );
+   }
+
    /*
     * Get experience based on % of damage done       -Thoric
     */
@@ -3437,7 +3451,7 @@ void death_cry( CHAR_DATA * ch )
 OBJ_DATA *raw_kill( CHAR_DATA * ch, CHAR_DATA * victim )
 {
    OBJ_DATA *corpse_to_return = NULL;
-
+   THREAT_DATA *threat, *threat_next;
    if( !victim )
    {
       bug( "%s: null victim!", __func__ );
@@ -3454,6 +3468,14 @@ OBJ_DATA *raw_kill( CHAR_DATA * ch, CHAR_DATA * victim )
    }
 
    stop_fighting( victim, TRUE );
+
+/* Wowzers Mud: Wipe the Threat Table to prevent memory leaks! */
+   for( threat = victim->first_threat; threat; threat = threat_next )
+   {
+       threat_next = threat->next;
+       UNLINK( threat, victim->first_threat, victim->last_threat, next, prev );
+       DISPOSE( threat );
+   }
 
    /*
     * Take care of morphed characters 
@@ -4418,4 +4440,112 @@ void add_combo_points( CHAR_DATA *ch, CHAR_DATA *victim )
 
     /* Visually show the Rogue their current points -Hansth */
     ch_printf( ch, "&YCombo Points: &W%d&Y/5&w\r\n", ch->combo_points );
+}
+
+/* ============================================
+   Wowzers Mud: Threat Management
+   ============================================ */
+
+/* Adds threat to a victim's threat table */
+void add_threat( CHAR_DATA *ch, CHAR_DATA *victim, int amount )
+{
+    THREAT_DATA *threat_node;
+    bool found = FALSE;
+
+    /* Only NPCs track threat, and we don't track NPC vs NPC threat for now */
+    if ( !IS_NPC(victim) || IS_NPC(ch) )
+        return;
+
+    /* Don't track threat for dead people */
+    if ( char_died(ch) || char_died(victim) )
+        return;
+
+    /* Search the table to see if they are already on it */
+    for ( threat_node = victim->first_threat; threat_node; threat_node = threat_node->next )
+    {
+        if ( threat_node->who == ch )
+        {
+            threat_node->threat += amount;
+            found = TRUE;
+            break;
+        }
+    }
+
+    /* If they aren't on the table, create a new entry */
+    if ( !found )
+    {
+        CREATE( threat_node, THREAT_DATA, 1 );
+        threat_node->who = ch;
+        threat_node->threat = amount;
+        LINK( threat_node, victim->first_threat, victim->last_threat, next, prev );
+    }
+}
+
+/* Scans the threat table and shifts aggro if necessary */
+void update_aggro( CHAR_DATA *ch )
+{
+    THREAT_DATA *threat_node;
+    THREAT_DATA *highest_node = NULL;
+    int highest_threat = -1;
+    int current_threat = 0;
+
+    if ( !IS_NPC(ch) || !ch->fighting )
+        return;
+
+    /* Find the highest threat on the table */
+    for ( threat_node = ch->first_threat; threat_node; threat_node = threat_node->next )
+    {
+        /* Ignore players who died or left the room */
+        if ( !threat_node->who || char_died(threat_node->who) || threat_node->who->in_room != ch->in_room )
+            continue;
+
+        /* Track the threat of the person we are currently fighting */
+        if ( threat_node->who == who_fighting(ch) )
+            current_threat = threat_node->threat;
+
+        /* Track who has the absolute highest threat */
+        if ( threat_node->threat > highest_threat )
+        {
+            highest_threat = threat_node->threat;
+            highest_node = threat_node;
+        }
+    }
+
+    /* If we found someone, and it's not who we are currently fighting, see if they pulled aggro! */
+    if ( highest_node && highest_node->who != who_fighting(ch) )
+    {
+        /* WoW mechanics: You need 110% of the current target's threat to pull aggro in melee range! */
+        if ( highest_threat > (current_threat * 11) / 10 )
+        {
+            act( AT_ACTION, "$n turns $s attention towards $N!", ch, NULL, highest_node->who, TO_NOTVICT );
+            act( AT_ACTION, "$n turns $s attention towards YOU!", ch, NULL, highest_node->who, TO_VICT );
+            
+            stop_fighting( ch, FALSE );
+            set_fighting( ch, highest_node->who );
+        }
+    }
+}
+
+/* ============================================
+   Wowzers Mud: Healer Threat Generation
+   ============================================ */
+void add_heal_threat( CHAR_DATA *healer, CHAR_DATA *victim, int amount )
+{
+    CHAR_DATA *vch;
+    int heal_threat = amount / 2; /* 1 point of healing = 0.5 threat */
+
+    /* If it healed for 0, or an NPC is healing, ignore it */
+    if ( heal_threat <= 0 || IS_NPC(healer) ) 
+        return;
+
+    /* Loop through everyone in the room */
+    for ( vch = healer->in_room->first_person; vch; vch = vch->next_in_room )
+    {
+        /* If this is an NPC, and they are fighting the person who just got healed... */
+        if ( IS_NPC(vch) && who_fighting(vch) == victim )
+        {
+            /* Add threat to that specific monster's table! */
+            add_threat( healer, vch, heal_threat );
+        }
+    }
 }

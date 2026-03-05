@@ -1519,6 +1519,13 @@ void do_cast( CHAR_DATA* ch, const char* argument )
             return;
          }
 
+/* Wowzers Global Cooldown Check  -Hansth */
+if( ch->gcd > 0 )
+{
+    send_to_char( "Ability is not ready yet.\r\n", ch );
+    return;
+}
+
          if( skill->spell_fun == spell_null )
          {
             send_to_char( "That's not a spell!\r\n", ch );
@@ -1700,7 +1707,7 @@ void do_cast( CHAR_DATA* ch, const char* argument )
 
    if( !dont_wait )
       WAIT_STATE( ch, skill->beats );
-
+GCD_STATE( ch, PULSE_GCD ); //GCD for Wowzers -Hansth
    /*
     * Getting ready to cast... check for spell components  -Thoric
     */
@@ -5709,6 +5716,13 @@ ch_ret spell_affectchar( int sn, int level, CHAR_DATA * ch, void *vo )
                victim->hit = URANGE( 0, victim->hit + ( !IS_NPC( ch ) && IS_NPC( victim ) ? af.modifier / 4 : af.modifier ), victim->max_hit );
 
                update_pos( victim );
+               /* ============================================
+                  Wowzers Mud: Healer Threat Hook
+                  ============================================ */
+               if ( af.modifier > 0 )
+               {
+                   add_heal_threat( ch, victim, af.modifier );
+               }
                if( ( af.modifier > 0 && ch->fighting && ch->fighting->who == victim )
                    || ( af.modifier > 0 && victim->fighting && victim->fighting->who == ch ) )
                {

@@ -105,6 +105,7 @@ typedef struct watch_data WATCH_DATA;
 typedef struct ban_data BAN_DATA;
 typedef struct extracted_char_data EXTRACT_CHAR_DATA;
 typedef struct char_data CHAR_DATA;
+typedef struct threat_data THREAT_DATA;
 typedef struct hunt_hate_fear HHF_DATA;
 typedef struct fighting_data FIGHT_DATA;
 typedef struct descriptor_data DESCRIPTOR_DATA;
@@ -157,6 +158,16 @@ typedef struct mob_prog_act_list MPROG_ACT_LIST;
 typedef struct editor_data EDITOR_DATA;
 typedef struct teleport_data TELEPORT_DATA;
 typedef struct timer_data TIMER;
+/*
+ * Wowzers Mud: Threat Table Data
+ */
+struct threat_data
+{
+    THREAT_DATA * next;
+    THREAT_DATA * prev;
+    CHAR_DATA * who;         /* The character who generated the threat */
+    int              threat;      /* The numerical threat value */
+};
 typedef struct godlist_data GOD_DATA;
 typedef struct system_data SYSTEM_DATA;
 typedef struct smaug_affect SMAUG_AFF;
@@ -2373,7 +2384,8 @@ PARTY_DATA * party;               /* Pointer to group/raid */
     ROOM_INDEX_DATA * telegraph_room;      /* Room targeted by AoE */
     struct reset_data * spawn_node;          /* The node that spawned this mob */
 
-
+   THREAT_DATA * first_threat;    /* Wowzers Mud: Threat Table */
+   THREAT_DATA * last_threat;
    HHF_DATA *hunting;
    HHF_DATA *fearing;
    HHF_DATA *hating;
@@ -4815,6 +4827,9 @@ ch_ret projectile_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * wield, OBJ
 short ris_damage( CHAR_DATA * ch, short dam, int ris );
 ch_ret damage( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt );
 void update_pos( CHAR_DATA * victim );
+void add_threat( CHAR_DATA *ch, CHAR_DATA *victim, int amount );
+void update_aggro( CHAR_DATA *ch );
+void add_heal_threat( CHAR_DATA *healer, CHAR_DATA *victim, int amount );
 void set_fighting( CHAR_DATA * ch, CHAR_DATA * victim );
 void stop_fighting( CHAR_DATA * ch, bool fBoth );
 void free_fight( CHAR_DATA * ch );
