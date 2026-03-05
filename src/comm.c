@@ -902,14 +902,15 @@ void game_loop( void )
             if( ( d->connected == CON_PLAYING || d->character != NULL ) && d->ifd != -1 && FD_ISSET( d->ifd, &in_set ) )
                process_dns( d );
 
+/* Wowzers Mud: Decrement the Global Cooldown */
+            if( d->character && d->character->gcd > 0 )
+               --d->character->gcd;
+
             if( d->character && d->character->wait > 0 )
             {
                --d->character->wait;
-if ( d->character->gcd && d->character->wait > 0 )
-    --d->character->gcd;
                continue;
             }
-
             read_from_buffer( d );
             if( d->incomm[0] != '\0' )
             {

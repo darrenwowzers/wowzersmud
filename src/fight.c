@@ -1062,7 +1062,7 @@ short off_shld_lvl( CHAR_DATA * ch, CHAR_DATA * victim )
 ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
 {
    OBJ_DATA *wield;
-   int victim_ac, thac0, thac0_00, thac0_32, plusris, dam, diceroll, attacktype, cnt, prof_bonus, prof_gsn = -1;
+   int plusris, dam, attacktype, cnt, prof_bonus, prof_gsn = -1;
    ch_ret retcode = rNONE;
    static bool dual_flip = FALSE;
 
@@ -1163,71 +1163,86 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
          dt += wield->value[3];
    }
 
-   /*
-    * Calculate to-hit-armor-class-0 versus armor.
-    */
-   if( IS_NPC( ch ) )
+/* ============================================
+      Wowzers Mud: Single-Roll Attack Table
+      ============================================ */
+   int roll = number_range( 1, 10000 );
+   int chance_miss = 500;  /* Base 5.00% Miss */
+   int chance_dodge = 500 + ( get_curr_agi(victim) * 2 ); /* 5% + victim Agility scaling */
+   int chance_parry = 500; /* Base 5.00% Parry */
+   int chance_crit = 500 + ( get_curr_agi(ch) * 5 ); /* 5% + attacker Agility scaling */
+   
+   int level_diff = victim->level - ch->level;
+   int current_cap = 0;
+   bool is_crit = FALSE;
+   bool is_glancing = FALSE;
+
+   /* WoW Classic Level Difference Adjustments (+0.2% per level difference) */
+   if ( level_diff > 0 )
    {
-      thac0_00 = ch->mobthac0;
-      thac0_32 = 0;
-   }
-   else
-   {
-      thac0_00 = class_table[ch->Class]->thac0_00;
-      thac0_32 = class_table[ch->Class]->thac0_32;
-   }
-   thac0 = interpolate( ch->level, thac0_00, thac0_32 ) - GET_HITROLL( ch );
-   victim_ac = UMAX( -19, ( int )( GET_AC( victim ) / 10 ) );
-
-   /*
-    * if you can't see what's coming... 
-    */
-   if( wield && !can_see_obj( victim, wield ) )
-      victim_ac += 1;
-   if( !can_see( ch, victim ) )
-      victim_ac -= 4;
-
-   /*
-    * "learning" between combatants.  Takes the intelligence difference,
-    * and multiplies by the times killed to make up a learning bonus
-    * given to whoever is more intelligent     -Thoric
-    * (basically the more intelligent one "learns" the other's fighting style)
-    */
-   if( ch->fighting && ch->fighting->who == victim )
-   {
-      short times = ch->fighting->timeskilled;
-
-      if( times )
-      {
-         short intdiff = get_curr_int( ch ) - get_curr_int( victim );
-
-         if( intdiff != 0 )
-            victim_ac += ( intdiff * times ) / 10;
-      }
+       chance_miss  += level_diff * 20;
+       chance_dodge += level_diff * 20;
+       chance_parry += level_diff * 20;
+       chance_crit  -= level_diff * 20;
    }
 
-   /*
-    * Weapon proficiency bonus 
-    */
-   victim_ac += prof_bonus;
+   /* Prevent negative crit chances */
+   if ( chance_crit < 0 ) chance_crit = 0;
 
-   /*
-    * The moment of excitement!
-    */
-   while( ( diceroll = number_bits( 5 ) ) >= 20 )
-      ;
-
-   if( diceroll == 0 || ( diceroll != 19 && diceroll < thac0 - victim_ac ) )
+   /* 1. Evaluate Miss */
+   current_cap += chance_miss;
+   if ( roll <= current_cap )
    {
-      /*
-       * Miss. 
-       */
-      if( prof_gsn != -1 )
-         learn_from_failure( ch, prof_gsn );
+      if( prof_gsn != -1 ) learn_from_failure( ch, prof_gsn );
+      damage( ch, victim, 0, dt ); /* Damage of 0 triggers the miss message */
+      tail_chain(  );
+      return rNONE;
+   }
+
+   /* 2. Evaluate Dodge */
+   current_cap += chance_dodge;
+   if ( roll <= current_cap )
+   {
+      if( prof_gsn != -1 ) learn_from_failure( ch, prof_gsn );
+      act( AT_SKILL, "$N dodges your attack.", ch, NULL, victim, TO_CHAR );
+      act( AT_SKILL, "You dodge $n's attack.", ch, NULL, victim, TO_VICT );
       damage( ch, victim, 0, dt );
       tail_chain(  );
       return rNONE;
    }
+
+   /* 3. Evaluate Parry (Only if victim has a weapon or is a monster) */
+   if ( get_eq_char(victim, WEAR_WIELD) != NULL || IS_NPC(victim) )
+   {
+       current_cap += chance_parry;
+       if ( roll <= current_cap )
+       {
+          if( prof_gsn != -1 ) learn_from_failure( ch, prof_gsn );
+          act( AT_SKILL, "$N parries your attack.", ch, NULL, victim, TO_CHAR );
+          act( AT_SKILL, "You parry $n's attack.", ch, NULL, victim, TO_VICT );
+          damage( ch, victim, 0, dt );
+          tail_chain(  );
+          return rNONE;
+       }
+   }
+
+   /* 4. Evaluate Glancing Blow (Only white-hits against mobs 3+ levels higher) */
+   if ( !IS_NPC(ch) && IS_NPC(victim) && level_diff >= 3 )
+   {
+       current_cap += 2000; /* 20.00% flat chance for glancing */
+       if ( roll <= current_cap )
+           is_glancing = TRUE;
+   }
+
+   /* 5. Evaluate Crit (Cannot crit on a glancing blow!) */
+   if ( !is_glancing )
+   {
+       current_cap += chance_crit;
+       if ( roll <= current_cap )
+           is_crit = TRUE;
+   }
+   
+   /* If the roll exceeds all caps, it's a standard hit. Proceed below! */
 
    /*
     * Hit.
@@ -1254,6 +1269,23 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
       Wowzers Mud: ATTACK POWER DAMAGE SCALING -Hansth
       ============================================ */
    dam += (get_attack_power(ch) / 10);
+
+/* ============================================
+      Wowzers Mud: CRIT & GLANCING MODIFIERS
+      ============================================ */
+   if ( is_crit )
+   {
+       dam *= 2; /* Double damage for critical hits */
+       set_char_color( AT_YELLOW, ch );
+       send_to_char( "CRITICAL HIT!\r\n", ch );
+   }
+   else if ( is_glancing )
+   {
+       dam = (dam * 70) / 100; /* 30% damage reduction for glancing blows */
+       set_char_color( AT_GREY, ch );
+       send_to_char( "Glancing blow...\r\n", ch );
+   }
+
 
    /*
     * Calculate Damage Modifiers from Victim's Fighting Style
@@ -3992,7 +4024,7 @@ void do_kill( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+   ch->gcd = PULSE_GCD;
    check_attacker( ch, victim );
    multi_hit( ch, victim, TYPE_UNDEFINED );
 }
@@ -4066,8 +4098,7 @@ void do_murder( CHAR_DATA* ch, const char* argument )
    {
       log_printf_plus( LOG_NORMAL, ch->level, "%s: murder %s.", ch->name, victim->name );
    }
-
-   WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+ch->gcd = PULSE_GCD;
    snprintf( buf, MAX_STRING_LENGTH, "Help!  I am being attacked by %s!", IS_NPC( ch ) ? ch->short_descr : ch->name );
    if( IS_PKILL( victim ) )
       do_wartalk( victim, buf );

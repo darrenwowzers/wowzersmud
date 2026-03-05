@@ -363,6 +363,7 @@ extern bool DONT_UPPER;
 
 #define PULSE_PER_SECOND sysdata.pulsepersec
 #define PULSE_VIOLENCE   sysdata.pulseviolence
+#define PULSE_GCD        6     /* 1.5 Seconds (4 pulses per second) */
 #define PULSE_MOBILE     sysdata.pulsemobile
 #define PULSE_TICK       sysdata.pulsetick
 #define PULSE_AREA       (60 * sysdata.pulsepersec)
@@ -3545,7 +3546,6 @@ do								\
                		      ch->pcdata->nuisance->power)): \
 			      UMAX((ch)->wait, (npulse)))
 
-#define PULSE_GCD                 6   /* 1.5 seconds at 4 pulses/sec */
 #define GCD_STATE(ch, npulse)     ((ch)->gcd = UMAX((ch)->gcd, (npulse))) // -Hansth global cool down
 
 #define EXIT(ch, door)		( get_exit( (ch)->in_room, door ) )
