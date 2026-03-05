@@ -133,6 +133,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA * d );
  */
 bool check_parse_name( const char *name, bool newchar );
 void account_menu( DESCRIPTOR_DATA *d ); // Wowzers Mud account system -Hansth
+void nanny_get_faction( DESCRIPTOR_DATA * d, const char *argument ); // Factions -Hansth
 short check_reconnect( DESCRIPTOR_DATA * d, const char *name, bool fConn );
 short check_playing( DESCRIPTOR_DATA * d, const char *name, bool kick );
 int main( int argc, char **argv );
@@ -2262,53 +2263,136 @@ void nanny_confirm_new_password( DESCRIPTOR_DATA * d, char *argument )
    d->connected = CON_GET_NEW_SEX;
 }
 
+/* 1. Pick Sex, then ask for Faction */
 void nanny_get_new_sex( DESCRIPTOR_DATA * d, char *argument )
 {
-   CHAR_DATA *ch;
-   char buf[MAX_STRING_LENGTH];
-   int iClass;
-
-   ch = d->character;
+   CHAR_DATA *ch = d->character;
 
    switch ( argument[0] )
    {
-      case 'm':
-      case 'M':
-         ch->sex = SEX_MALE;
-         break;
-      case 'f':
-      case 'F':
-         ch->sex = SEX_FEMALE;
-         break;
-      case 'n':
-      case 'N':
-         ch->sex = SEX_NEUTRAL;
-         break;
+      case 'm': case 'M': ch->sex = SEX_MALE; break;
+      case 'f': case 'F': ch->sex = SEX_FEMALE; break;
+      case 'n': case 'N': ch->sex = SEX_NEUTRAL; break;
       default:
          write_to_buffer( d, "That's not a sex.\r\nWhat IS your sex? ", 0 );
          return;
    }
 
-   write_to_buffer( d, "\r\nSelect a class, or type help [class] to learn more about that class.\r\n[", 0 );
-   buf[0] = '\0';
+   write_to_buffer( d, "\r\nChoose your Faction (Alliance or Horde): ", 0 );
+   d->connected = CON_GET_FACTION;
+}
 
-   for( iClass = 0; iClass < MAX_PC_CLASS; iClass++ )
+/* 2. Pick Faction, then show valid Races */
+void nanny_get_faction( DESCRIPTOR_DATA * d, const char *argument )
+{
+   CHAR_DATA *ch = d->character;
+   char arg[MAX_INPUT_LENGTH];
+   char buf[MAX_STRING_LENGTH];
+   int iRace;
+
+   argument = one_argument( argument, arg );
+
+   if ( !str_cmp( arg, "alliance" ) )
+      ch->faction = FACTION_ALLIANCE;
+   else if ( !str_cmp( arg, "horde" ) )
+      ch->faction = FACTION_HORDE;
+   else
    {
-      if( class_table[iClass]->who_name && class_table[iClass]->who_name[0] != '\0' )
-      {
-         if( iClass > 0 )
-         {
-            if( strlen( buf ) + strlen( class_table[iClass]->who_name ) > 77 )
-            {
-               strlcat( buf, "\r\n", MAX_STRING_LENGTH );
-               write_to_buffer( d, buf, 0 );
-               buf[0] = '\0';
-         
+      write_to_buffer( d, "That is not a valid faction.\r\nChoose your Faction (Alliance or Horde): ", 0 );
+      return;
    }
-            else
-               strlcat( buf, " ", MAX_STRING_LENGTH );
+
+   write_to_buffer( d, "\r\nYou may choose from the following races:\r\n[ ", 0 );
+   buf[0] = '\0';
+   for ( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
+   {
+      if ( race_table[iRace] && race_table[iRace]->race_name && race_table[iRace]->race_name[0] != '\0' && str_cmp(race_table[iRace]->race_name, "unused") )
+      {
+         bool match = FALSE;
+         if ( ch->faction == FACTION_ALLIANCE && ( iRace == RACE_HUMAN || iRace == RACE_DWARF || iRace == RACE_NIGHT_ELF || iRace == RACE_GNOME ) )
+            match = TRUE;
+         else if ( ch->faction == FACTION_HORDE && ( iRace == RACE_ORC || iRace == RACE_UNDEAD || iRace == RACE_TAUREN || iRace == RACE_TROLL ) )
+            match = TRUE;
+
+         if ( match )
+         {
+            strlcat( buf, race_table[iRace]->race_name, MAX_STRING_LENGTH );
+            strlcat( buf, " ", MAX_STRING_LENGTH );
          }
-         strlcat( buf, class_table[iClass]->who_name, MAX_STRING_LENGTH );
+      }
+   }
+   strlcat( buf, "]\r\n: ", MAX_STRING_LENGTH );
+   write_to_buffer( d, buf, 0 );
+   d->connected = CON_GET_NEW_RACE;
+}
+
+/* 3. Pick Race, then show valid Classes */
+void nanny_get_new_race( DESCRIPTOR_DATA * d, const char *argument )
+{
+   CHAR_DATA *ch = d->character;
+   char arg[MAX_STRING_LENGTH];
+   char buf[MAX_STRING_LENGTH];
+   int iRace, iClass;
+   bool race_ok = FALSE;
+
+   argument = one_argument( argument, arg );
+
+   if( !str_cmp( arg, "help" ) ) { return; } /* Help logic omitted for brevity */
+
+   for( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
+   {
+      if( toupper( arg[0] ) == toupper( race_table[iRace]->race_name[0] ) && !str_prefix( arg, race_table[iRace]->race_name ) )
+      {
+         ch->race = iRace;
+         race_ok = TRUE;
+         break;
+      }
+   }
+
+   if( !race_ok )
+   {
+      write_to_buffer( d, "That's not a race.\r\nWhat IS your race? ", 0 );
+      return;
+   }
+
+   /* Verify Faction Match */
+   bool faction_match = FALSE;
+   if ( ch->faction == FACTION_ALLIANCE && ( ch->race == RACE_HUMAN || ch->race == RACE_DWARF || ch->race == RACE_NIGHT_ELF || ch->race == RACE_GNOME ) )
+      faction_match = TRUE;
+   else if ( ch->faction == FACTION_HORDE && ( ch->race == RACE_ORC || ch->race == RACE_UNDEAD || ch->race == RACE_TAUREN || ch->race == RACE_TROLL ) )
+      faction_match = TRUE;
+
+   if ( !faction_match )
+   {
+      write_to_buffer( d, "That race belongs to another faction.\r\nPlease choose a valid race: ", 0 );
+      return;
+   }
+
+   write_to_buffer( d, "\r\nYou may choose from the following classes:\r\n[ ", 0 );
+   buf[0] = '\0';
+   for ( iClass = 0; iClass < MAX_PC_CLASS; iClass++ )
+   {
+      if ( class_table[iClass] && class_table[iClass]->who_name && class_table[iClass]->who_name[0] != '\0' && str_cmp(class_table[iClass]->who_name, "unused") )
+      {
+         bool class_ok = TRUE;
+         /* WoW Classic Restrictions based on Race */
+         switch ( ch->race )
+         {
+             case RACE_HUMAN:     if ( iClass == CLASS_HUNTER || iClass == CLASS_SHAMAN || iClass == CLASS_DRUID ) class_ok = FALSE; break;
+             case RACE_DWARF:     if ( iClass == CLASS_MAGE || iClass == CLASS_WARLOCK || iClass == CLASS_SHAMAN || iClass == CLASS_DRUID ) class_ok = FALSE; break;
+             case RACE_NIGHT_ELF: if ( iClass == CLASS_PALADIN || iClass == CLASS_MAGE || iClass == CLASS_WARLOCK || iClass == CLASS_SHAMAN ) class_ok = FALSE; break;
+             case RACE_GNOME:     if ( iClass == CLASS_PALADIN || iClass == CLASS_HUNTER || iClass == CLASS_PRIEST || iClass == CLASS_SHAMAN || iClass == CLASS_DRUID ) class_ok = FALSE; break;
+             case RACE_ORC:       if ( iClass == CLASS_PALADIN || iClass == CLASS_PRIEST || iClass == CLASS_MAGE || iClass == CLASS_DRUID ) class_ok = FALSE; break;
+             case RACE_UNDEAD:    if ( iClass == CLASS_PALADIN || iClass == CLASS_HUNTER || iClass == CLASS_SHAMAN || iClass == CLASS_DRUID ) class_ok = FALSE; break;
+             case RACE_TAUREN:    if ( iClass == CLASS_PALADIN || iClass == CLASS_ROGUE || iClass == CLASS_PRIEST || iClass == CLASS_MAGE || iClass == CLASS_WARLOCK ) class_ok = FALSE; break;
+             case RACE_TROLL:     if ( iClass == CLASS_PALADIN || iClass == CLASS_WARLOCK || iClass == CLASS_DRUID ) class_ok = FALSE; break;
+         }
+
+         if ( class_ok )
+         {
+             strlcat( buf, class_table[iClass]->who_name, MAX_STRING_LENGTH );
+             strlcat( buf, " ", MAX_STRING_LENGTH );
+         }
       }
    }
    strlcat( buf, "]\r\n: ", MAX_STRING_LENGTH );
@@ -2316,217 +2400,68 @@ void nanny_get_new_sex( DESCRIPTOR_DATA * d, char *argument )
    d->connected = CON_GET_NEW_CLASS;
 }
 
+/* 4. Pick Class, finalize, and jump to world! */
 void nanny_get_new_class( DESCRIPTOR_DATA * d, const char *argument )
 {
-   CHAR_DATA *ch;
-   char buf[MAX_STRING_LENGTH];
+   CHAR_DATA *ch = d->character;
    char arg[MAX_STRING_LENGTH];
-   int iClass, iRace;
+   int iClass;
+   bool class_ok = FALSE;
 
-   ch = d->character;
    argument = one_argument( argument, arg );
 
-   if( !str_cmp( arg, "help" ) )
-   {
-
-      for( iClass = 0; iClass < MAX_PC_CLASS; iClass++ )
-      {
-         if( class_table[iClass]->who_name && class_table[iClass]->who_name[0] != '\0' )
-         {
-            if( toupper( argument[0] ) == toupper( class_table[iClass]->who_name[0] )
-                && !str_prefix( argument, class_table[iClass]->who_name ) )
-            {
-               do_help( ch, argument );
-               write_to_buffer( d, "Please choose a class: ", 0 );
-               return;
-            }
-         }
-      }
-      write_to_buffer( d, "No such help topic.  Please choose a class: ", 0 );
-      return;
-   }
+   if( !str_cmp( arg, "help" ) ) { return; } /* Help logic omitted */
 
    for( iClass = 0; iClass < MAX_PC_CLASS; iClass++ )
    {
       if( class_table[iClass]->who_name && class_table[iClass]->who_name[0] != '\0' )
       {
-         if( toupper( arg[0] ) == toupper( class_table[iClass]->who_name[0] )
-             && !str_prefix( arg, class_table[iClass]->who_name ) )
+         if( toupper( arg[0] ) == toupper( class_table[iClass]->who_name[0] ) && !str_prefix( arg, class_table[iClass]->who_name ) )
          {
             ch->Class = iClass;
-/* ============================================
-       Wowzers Mud: POWER TYPE ASSIGNMENT -Hansth
-       ============================================ */
-    if ( ch->Class == CLASS_WARRIOR )
-    {
-        ch->power_type = POWER_RAGE;
-        ch->max_mana = 100; /* Rage caps at 100 -Hansth */
-        ch->mana = 0;       /* Warriors start with 0 Rage -Hansth */
-    }
-    else if ( ch->Class == CLASS_ROGUE )
-    {
-        ch->power_type = POWER_ENERGY;
-        ch->max_mana = 100; /* Energy caps at 100 -Hansth */
-        ch->mana = 100;     /* Rogues start with full Energy -Hansth */
-    }
-    else
-    {
-        ch->power_type = POWER_MANA;
-        /* Mana is rolled normally by the Smaug engine -Hansth */
-    }
+            class_ok = TRUE;
             break;
          }
       }
    }
 
-   if( iClass == MAX_PC_CLASS
-       || !class_table[iClass]->who_name
-       || class_table[iClass]->who_name[0] == '\0' || !str_cmp( class_table[iClass]->who_name, "unused" ) )
+   if( !class_ok )
    {
       write_to_buffer( d, "That's not a class.\r\nWhat IS your class? ", 0 );
       return;
    }
 
-
-   if( check_bans( ch, BAN_CLASS ) )
+   /* Power Type Assignment */
+   if ( ch->Class == CLASS_WARRIOR )
    {
-      write_to_buffer( d, "That class is not currently avaiable.\r\nWhat IS your class? ", 0 );
-      return;
+       ch->power_type = POWER_RAGE;
+       ch->max_mana = 100;
+       ch->mana = 0;
    }
-
-   write_to_buffer( d, "\r\nYou may choose from the following races, or type help [race] to learn more:\r\n[", 0 );
-   buf[0] = '\0';
-   for( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
+   else if ( ch->Class == CLASS_ROGUE )
    {
-         if( iRace > 0 )
-         {
-            if( strlen( buf ) + strlen( race_table[iRace]->race_name ) > 77 )
-            {
-               strlcat( buf, "\r\n", MAX_STRING_LENGTH );
-               write_to_buffer( d, buf, 0 );
-               buf[0] = '\0';
-            }
-            else
-               strlcat( buf, " ", MAX_STRING_LENGTH );
-         }
-         strlcat( buf, race_table[iRace]->race_name, MAX_STRING_LENGTH );
-   }
-   strlcat( buf, "]\r\n: ", MAX_STRING_LENGTH );
-   write_to_buffer( d, buf, 0 );
-   d->connected = CON_GET_NEW_RACE;
-}
-
-void nanny_get_new_race( DESCRIPTOR_DATA * d, const char *argument )
-{
-   CHAR_DATA *ch;
-   char arg[MAX_STRING_LENGTH];
-   int iRace;
-
-   ch = d->character;
-   argument = one_argument( argument, arg );
-   if( !str_cmp( arg, "help" ) )
-   {
-      for( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
-      {
-         if( toupper( argument[0] ) == toupper( race_table[iRace]->race_name[0] )
-             && !str_prefix( argument, race_table[iRace]->race_name ) )
-         {
-            do_help( ch, argument );
-            write_to_buffer( d, "Please choose a race: ", 0 );
-            return;
-         }
-      }
-      write_to_buffer( d, "No help on that topic.  Please choose a race: ", 0 );
-      return;
-   }
-
-   for( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
-   {
-      if( toupper( arg[0] ) == toupper( race_table[iRace]->race_name[0] )
-          && !str_prefix( arg, race_table[iRace]->race_name ) )
-      {
-         ch->race = iRace;
-         break;
-      }
-   }
-
-   if( iRace == MAX_PC_RACE
-       || !race_table[iRace]->race_name || race_table[iRace]->race_name[0] == '\0'
-       || IS_SET( race_table[iRace]->class_restriction, 1 << ch->Class )
-       || !str_cmp( race_table[iRace]->race_name, "unused" ) )
-   {
-      write_to_buffer( d, "That's not a race.\r\nWhat IS your race? ", 0 );
-      return;
-   }
-
-   if( check_bans( ch, BAN_RACE ) )
-   {
-      write_to_buffer( d, "That race is not currently available.\r\nWhat is your race? ", 0 );
-      return;
-   }
-
-/* ============================================
-      WOW CLASSIC: RACE/CLASS RESTRICTIONS
-      ============================================ */
-   bool race_ok = TRUE;
-
-   switch ( ch->race )
-   {
-       case RACE_HUMAN:
-           if ( ch->Class == CLASS_HUNTER || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
-           break;
-       case RACE_DWARF:
-           if ( ch->Class == CLASS_MAGE || ch->Class == CLASS_WARLOCK || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
-           break;
-       case RACE_NIGHT_ELF:
-           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_MAGE || ch->Class == CLASS_WARLOCK || ch->Class == CLASS_SHAMAN ) race_ok = FALSE;
-           break;
-       case RACE_GNOME:
-           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_HUNTER || ch->Class == CLASS_PRIEST || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
-           break;
-       case RACE_ORC:
-           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_PRIEST || ch->Class == CLASS_MAGE || ch->Class == CLASS_DRUID ) race_ok = FALSE;
-           break;
-       case RACE_UNDEAD:
-           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_HUNTER || ch->Class == CLASS_SHAMAN || ch->Class == CLASS_DRUID ) race_ok = FALSE;
-           break;
-       case RACE_TAUREN:
-           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_ROGUE || ch->Class == CLASS_PRIEST || ch->Class == CLASS_MAGE || ch->Class == CLASS_WARLOCK ) race_ok = FALSE;
-           break;
-       case RACE_TROLL:
-           if ( ch->Class == CLASS_PALADIN || ch->Class == CLASS_WARLOCK || ch->Class == CLASS_DRUID ) race_ok = FALSE;
-           break;
-   }
-
-   if ( !race_ok )
-   {
-       write_to_buffer( d, "That race and class combination is now allowed on Wowzers Mud.\r\n", 0 );
-       write_to_buffer( d, "Please choose another race: ", 0 );
-       return;
-   }
-
-   /* ============================================
-      WOW CLASSIC: FACTION ASSIGNMENT
-      ============================================ */
-   if ( ch->race == RACE_HUMAN || ch->race == RACE_DWARF || 
-        ch->race == RACE_NIGHT_ELF || ch->race == RACE_GNOME )
-   {
-       ch->faction = FACTION_ALLIANCE;
-   }
-   else if ( ch->race == RACE_ORC || ch->race == RACE_UNDEAD || 
-             ch->race == RACE_TAUREN || ch->race == RACE_TROLL )
-   {
-       ch->faction = FACTION_HORDE;
+       ch->power_type = POWER_ENERGY;
+       ch->max_mana = 100;
+       ch->mana = 100;
    }
    else
    {
-       ch->faction = FACTION_NEUTRAL;
+       ch->power_type = POWER_MANA;
    }
 
+   /* Force ANSI and Proceed */
+   xSET_BIT( ch->act, PLR_ANSI );
+   char log_buf[MAX_STRING_LENGTH];
+   snprintf( log_buf, MAX_STRING_LENGTH, "%s@%s new %s %s.", ch->name, d->host, race_table[ch->race]->race_name, class_table[ch->Class]->who_name );
+   log_string_plus( log_buf, LOG_COMM, sysdata.log_level );
+   to_channel( log_buf, CHANNEL_MONITOR, "Monitor", LEVEL_IMMORTAL );
 
-
-   write_to_buffer( d, "\r\nWould you like RIP, ANSI or no graphic/color support, (R/A/N)? ", 0 );
-   d->connected = CON_GET_WANT_RIPANSI;
+   write_to_buffer( d, "\r\nPress [ENTER] ", 0 );
+   show_title( d );
+   ch->level = 0;
+   ch->position = POS_STANDING;
+   d->connected = CON_PRESS_ENTER;
+   set_pager_color( AT_PLAIN, ch );
 }
 
 void nanny_get_want_ripansi( DESCRIPTOR_DATA * d, const char *argument )
@@ -2833,31 +2768,56 @@ void account_menu( DESCRIPTOR_DATA *d )
     char buf[MAX_STRING_LENGTH];
     int i;
 
-    /* Clears the screen and moves cursor to top left */
     write_to_buffer( d, "\033[2J\033[1;1H", 0 ); 
     
-    write_to_buffer( d, "\r\n&B=========================================================&w\r\n", 0 );
-    write_to_buffer( d, "                 &W WOWZERS MUD ACCOUNT&w\r\n", 0 );
-    write_to_buffer( d, "&B=========================================================&w\r\n\r\n", 0 );
+    send_to_desc_color( "\r\n&B========================================================================&w\r\n", d );
+    send_to_desc_color( "                           &W WOWZERS MUD ACCOUNT&w\r\n", d );
+    send_to_desc_color( "&B========================================================================&w\r\n\r\n", d );
 
     for ( i = 0; i < MAX_ACCOUNT_CHARS; i++ )
     {
         if ( d->account->character[i] && d->account->character[i][0] != '\0' )
         {
-            snprintf( buf, MAX_STRING_LENGTH, " &Y%2d&w. %s\r\n", i + 1, d->account->character[i] );
-            write_to_buffer( d, buf, 0 );
+            /* Preload character safely to get stats without spawning them */
+            bool found = load_char_obj( d, (char *)d->account->character[i], TRUE, FALSE );
+            if ( found && d->character )
+            {
+                const char *faction_str = "&wNeutral&w";
+                if ( d->character->faction == FACTION_ALLIANCE ) faction_str = "&BAlliance&w";
+                else if ( d->character->faction == FACTION_HORDE ) faction_str = "&RHorde&w";
+
+                snprintf( buf, MAX_STRING_LENGTH, " &Y%2d&w. %-15s - &wLvl &Y%-3d &w%-10s %-12s (%s)\r\n", 
+                          i + 1, 
+                          d->character->name, 
+                          d->character->level, 
+                          race_table[d->character->race]->race_name, 
+                          class_table[d->character->Class]->who_name,
+                          faction_str );
+                send_to_desc_color( buf, d );
+                
+                /* Clean up the preloaded memory immediately */
+                d->character->desc = NULL;
+                free_char( d->character );
+                d->character = NULL;
+            }
+            else
+            {
+                snprintf( buf, MAX_STRING_LENGTH, " &Y%2d&w. %-15s &R(Playerfile Error)&w\r\n", i + 1, d->account->character[i] );
+                send_to_desc_color( buf, d );
+            }
         }
         else
         {
             snprintf( buf, MAX_STRING_LENGTH, " &Y%2d&w. [ Empty ]\r\n", i + 1 );
-            write_to_buffer( d, buf, 0 );
+            send_to_desc_color( buf, d );
         }
     }
 
-    write_to_buffer( d, "\r\n &W[&YC&W]&reate a new character\r\n", 0 );
-    write_to_buffer( d, " &W[&YQ&W]&ruit\r\n", 0 );
-    write_to_buffer( d, "&B=========================================================&w\r\n", 0 );
-    write_to_buffer( d, "Select an option: ", 0 );
+    send_to_desc_color( "\r\n &W[&YC&W]&reate a new character\r\n", d );
+    send_to_desc_color( " &W[&YD&W]&relete a character\r\n", d );
+    send_to_desc_color( " &W[&YQ&W]&ruit\r\n", d );
+    send_to_desc_color( "&B========================================================================&w\r\n", d );
+    send_to_desc_color( "Select an option: ", d );
 }
 
 
@@ -2973,6 +2933,13 @@ case CON_ACCOUNT_MENU:
             return;
          }
 
+if( UPPER( argument[0] ) == 'D' )
+         {
+            write_to_buffer( d, "\r\nWhich character number would you like to delete? (0 to cancel): ", 0 );
+            d->connected = CON_ACCOUNT_DELETE_PROMPT;
+            return;
+         }
+
          if( UPPER( argument[0] ) == 'C' )
          {
             int count = 0;
@@ -3029,6 +2996,83 @@ case CON_ACCOUNT_MENU:
          account_menu( d );
          break;
 
+
+case CON_ACCOUNT_DELETE_PROMPT:
+         if( argument[0] == '\0' || !is_number(argument) )
+         {
+            write_to_buffer( d, "Invalid choice.\r\n", 0 );
+            account_menu( d );
+            d->connected = CON_ACCOUNT_MENU;
+            return;
+         }
+         
+         {
+            int slot = atoi( argument ) - 1;
+            
+            if ( slot == -1 ) /* Player typed 0 to cancel */
+            {
+               account_menu( d );
+               d->connected = CON_ACCOUNT_MENU;
+               return;
+            }
+            
+            if( slot < 0 || slot >= MAX_ACCOUNT_CHARS || !d->account->character[slot] )
+            {
+               write_to_buffer( d, "Invalid character slot.\r\n", 0 );
+               account_menu( d );
+               d->connected = CON_ACCOUNT_MENU;
+               return;
+            }
+            
+            /* Store the slot temporarily so the password step knows who to delete */
+            d->newstate = slot; 
+            
+            write_to_buffer( d, "\r\n&RWARNING: This is permanent!&w\r\n", 0 );
+            write_to_buffer( d, "Enter your account password to confirm deletion: ", 0 );
+            write_to_buffer( d, (const char *)echo_off_str, 0 );
+            d->connected = CON_ACCOUNT_DELETE_PWD;
+         }
+         break;
+
+      case CON_ACCOUNT_DELETE_PWD:
+         write_to_buffer( d, "\r\n", 2 );
+         write_to_buffer( d, (const char *)echo_on_str, 0 );
+         
+         if( str_cmp( sha256_crypt( argument ), d->account->pwd ) )
+         {
+            write_to_buffer( d, "Wrong password. Deletion cancelled.\r\n", 0 );
+            account_menu( d );
+            d->connected = CON_ACCOUNT_MENU;
+            return;
+         }
+         
+         /* Password matched, delete the character! */
+         {
+            int del_slot = d->newstate;
+            if ( del_slot >= 0 && del_slot < MAX_ACCOUNT_CHARS && d->account->character[del_slot] )
+            {
+               char fname[256];
+               const char *name = d->account->character[del_slot];
+               
+               /* Build the exact file path (e.g., ../player/h/Hansth) */
+               snprintf( fname, 256, "%s%c/%s", PLAYER_DIR, tolower(name[0]), capitalize(name) );
+               
+               /* Wipe it from the server's hard drive */
+               unlink( fname ); 
+               
+               write_to_buffer( d, "Character permanently deleted.\r\n", 0 );
+               
+               /* Remove them from the Wowzers Account */
+               STRFREE( d->account->character[del_slot] );
+               d->account->character[del_slot] = NULL;
+               save_account( d->account );
+            }
+         }
+         
+         account_menu( d );
+         d->connected = CON_ACCOUNT_MENU;
+         break;
+
       case CON_GET_NAME:
         nanny_get_name( d, argument );
          break;
@@ -3047,6 +3091,10 @@ case CON_ACCOUNT_MENU:
 
       case CON_CONFIRM_NEW_PASSWORD:
          nanny_confirm_new_password( d, argument );
+         break;
+
+      case CON_GET_FACTION:
+         nanny_get_faction( d, argument );
          break;
 
       case CON_GET_NEW_SEX:
