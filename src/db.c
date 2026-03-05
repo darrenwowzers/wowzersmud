@@ -4587,25 +4587,25 @@ void make_wizlist(  )
          switch ( ilevel )
          {
             case MAX_LEVEL - 0:
-               towizfile( " Supreme Entity" );
+               towizfile( " Chief Game Master" );
                break;
             case MAX_LEVEL - 1:
-               towizfile( " Infinite" );
+               towizfile( " Deputy Chief Game Master" );
                break;
             case MAX_LEVEL - 2:
-               towizfile( " Eternal" );
+               towizfile( " Greater Game Masters" );
                break;
             case MAX_LEVEL - 3:
-               towizfile( " Ancient" );
+               towizfile( " Game Masters" );
                break;
             case MAX_LEVEL - 4:
-               towizfile( " Exalted Gods" );
+               towizfile( " Lesser Game Masters" );
                break;
             case MAX_LEVEL - 5:
-               towizfile( " Ascendant Gods" );
+               towizfile( " Demi Game Masters" );
                break;
             case MAX_LEVEL - 6:
-               towizfile( " Greater Gods" );
+               towizfile( " Interns" );
                break;
             case MAX_LEVEL - 7:
                towizfile( " Gods" );

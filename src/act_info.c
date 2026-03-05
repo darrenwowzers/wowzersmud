@@ -2962,37 +2962,37 @@ void do_who( CHAR_DATA* ch, const char* argument )
          default:
             break;
          case MAX_LEVEL - 0:
-            Class = "Supreme Entity";
+            Class = "Chief Game Master";
             break;
          case MAX_LEVEL - 1:
-            Class = "Infinite";
+            Class = "Deputy Chief Game Master";
             break;
          case MAX_LEVEL - 2:
-            Class = "Eternal";
+            Class = "Greater Game Master";
             break;
          case MAX_LEVEL - 3:
-            Class = "Ancient";
+            Class = "Game Master";
             break;
          case MAX_LEVEL - 4:
-            Class = "Exalted God";
+            Class = "Lesser Game Master";
             break;
          case MAX_LEVEL - 5:
-            Class = "Ascendant God";
+            Class = "Demi Game Master";
             break;
          case MAX_LEVEL - 6:
-            Class = "Greater God";
+            Class = "Intern";
             break;
          case MAX_LEVEL - 7:
-            Class = "God";
+            Class = "Intern";
             break;
          case MAX_LEVEL - 8:
-            Class = "Lesser God";
+            Class = "Intern";
             break;
          case MAX_LEVEL - 9:
-            Class = "Immortal";
+            Class = "Intern";
             break;
          case MAX_LEVEL - 10:
-            Class = "Demi God";
+            Class = "Intern";
             break;
          case MAX_LEVEL - 11:
             Class = "Savior";
@@ -3103,22 +3103,49 @@ void do_who( CHAR_DATA* ch, const char* argument )
       else
          council_name[0] = '\0';
 
-      if( xIS_SET( wch->act, PLR_WIZINVIS ) )
-         snprintf( invis_str, MAX_INPUT_LENGTH, "(%d) ", wch->pcdata->wizinvis );
+if( xIS_SET( wch->act, PLR_WIZINVIS ) )
+         snprintf( invis_str, MAX_INPUT_LENGTH, "&w(Invis %d) ", wch->pcdata->wizinvis );
       else
          invis_str[0] = '\0';
-      int bc = snprintf( buf, MAX_STRING_LENGTH, "%*s%-15s %s%s%s%s%s%s%s%s.%s%s%s\r\n",
+
+      /* =========================================
+         WOWZERS MUD: WoW Style WHO List
+         ========================================= */
+      const char *faction_str = "&w Neutral  ";
+      if ( wch->faction == FACTION_ALLIANCE ) faction_str = "&B Alliance ";
+      else if ( wch->faction == FACTION_HORDE )   faction_str = "&R  Horde   ";
+
+      const char *race_str = "Unknown";
+      if ( wch->race >= 0 && wch->race < MAX_PC_RACE && race_table[wch->race] )
+         race_str = race_table[wch->race]->race_name;
+
+      /* Pad the middle section so it aligns perfectly in columns */
+      char class_race_buf[MAX_STRING_LENGTH];
+      if ( wch->level >= LEVEL_IMMORTAL )
+      {
+         snprintf( class_race_buf, MAX_STRING_LENGTH, "&Y%-28s&w", Class );
+      }
+      else
+      {
+         snprintf( class_race_buf, MAX_STRING_LENGTH, "&wLvl &Y%2d &w%-10s &C%-10s&w", 
+                   wch->level, capitalize(race_str), class_table[wch->Class]->who_name );
+      }
+
+      int bc = snprintf( buf, MAX_STRING_LENGTH, "%*s&w[&W%s&w] <&W%s&w> %s%s%s%s%s%s&W%s%s%s%s%s\r\n",
                 ( fGroup ? whogr->indent : 0 ), "",
-                Class,
+                ( wch->level >= LEVEL_IMMORTAL ) ? "&Y WM STAFF " : faction_str,
+                class_race_buf,
                 invis_str,
-                ( wch->desc && wch->desc->connected ) ? "[WRITING] " : "",
-                xIS_SET( wch->act, PLR_AFK ) ? "[AFK] " : "",
-                xIS_SET( wch->act, PLR_ATTACKER ) ? "(ATTACKER) " : "",
-                xIS_SET( wch->act, PLR_KILLER ) ? "(KILLER) " : "",
-                xIS_SET( wch->act, PLR_THIEF ) ? "(THIEF) " : "",
+                ( wch->desc && wch->desc->connected ) ? "&R[WRITING] &w" : "",
+                xIS_SET( wch->act, PLR_AFK ) ? "&Y[AFK] &w" : "",
+                xIS_SET( wch->act, PLR_ATTACKER ) ? "&R(ATTACKER) &w" : "",
+                xIS_SET( wch->act, PLR_KILLER ) ? "&R(KILLER) &w" : "",
+                xIS_SET( wch->act, PLR_THIEF ) ? "&R(THIEF) &w" : "",
                 char_name, wch->pcdata->title, extra_title, clan_name, council_name );
+                
       if( bc < 0 )
          bug( "%s: Output buffer error!:", __func__ ); // Shut up GCC 8.
+
 
       /*
        * This is where the old code would display the found player to the ch.
@@ -3246,15 +3273,14 @@ void do_who( CHAR_DATA* ch, const char* argument )
       DISPOSE( cur_who );
    }
 
-   if( first_imm )
+if( first_imm )
    {
       if( !ch )
          fprintf( whoout, "%s",
-                  "\r\n-----------------------------------[ IMMORTALS ]-----------------------------\r\n\r\n" );
+                  "\r\n-----------------------------------[ **ADMIN** ]-----------------------------\r\n\r\n" );
       else
-         send_to_pager( "\r\n-----------------------------------[ IMMORTALS ]------------------------------\r\n\r\n", ch );
+         send_to_pager( "\r\n&Y-----------------------------------[ **ADMIN** ]-----------------------------&w\r\n\r\n", ch );
    }
-
    for( cur_who = first_imm; cur_who; cur_who = next_who )
    {
       if( !ch )

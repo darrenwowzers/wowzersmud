@@ -2508,7 +2508,7 @@ void nanny_press_enter( DESCRIPTOR_DATA * d, const char *argument )
 
    ch = d->character;
 
-   if( chk_watch( get_trust( ch ), ch->name, d->host ) ) /*  --Gorog */
+   if( chk_watch( get_trust( ch ), ch->name, d->host ) ) 
       SET_BIT( ch->pcdata->flags, PCFLAG_WATCH );
    else
       REMOVE_BIT( ch->pcdata->flags, PCFLAG_WATCH );
@@ -2517,10 +2517,17 @@ void nanny_press_enter( DESCRIPTOR_DATA * d, const char *argument )
    if( xIS_SET( ch->act, PLR_RIP ) )
       send_rip_screen( ch );
    if( xIS_SET( ch->act, PLR_ANSI ) )
-      send_to_pager( "\033[2J", ch );
+      send_to_pager( "\033[2J\033[1;1H", ch ); /* Clear screen and home cursor */
    else
       send_to_pager( "\014", ch );
+   
    set_pager_color( AT_PLAIN, ch );
+   
+   /* Wowzers Mud: MMO-Style Announcement Header */
+   send_to_pager( "&B========================================================================&w\r\n", ch );
+   send_to_pager( "                  &W WOWZERS MUD - REALM ANNOUNCEMENTS &w\r\n", ch );
+   send_to_pager( "&B========================================================================&w\r\n\r\n", ch );
+
    if( IS_IMMORTAL( ch ) )
       do_help( ch, "imotd" );
    if( ch->level == LEVEL_AVATAR )
@@ -2529,7 +2536,10 @@ void nanny_press_enter( DESCRIPTOR_DATA * d, const char *argument )
       do_help( ch, "motd" );
    if( ch->level == 0 )
       do_help( ch, "nmotd" );
-   send_to_pager( "\r\nPress [ENTER] ", ch );
+
+   /* Wowzers Mud: MMO-Style Announcement Footer */
+   send_to_pager( "\r\n&B========================================================================&w\r\n", ch );
+   send_to_pager( "&YPress [ENTER] to enter the world...&w ", ch );
    d->connected = CON_READ_MOTD;
 }
 
@@ -2539,6 +2549,7 @@ void nanny_read_motd( DESCRIPTOR_DATA * d, const char *argument )
    char buf[MAX_STRING_LENGTH];
    ch = d->character;
 
+   write_to_buffer( d, "\033[2J\033[1;1H", 0 );
    buffer_printf( d, "\r\nWelcome to %s...\r\n", sysdata.mud_name );
 
    add_char( ch );
