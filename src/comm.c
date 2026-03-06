@@ -4189,37 +4189,39 @@ void display_prompt( DESCRIPTOR_DATA * d )
                case 'U':
                   pstat = sysdata.maxplayers;
                   break;
-
             /* ============================================
                Wowzers Mud: FINAL UNIQUE PROMPT TOKENS -Hansth
                ============================================ */
-            case 'e': /* %e - Current Energy (Rogue Only) */
-               snprintf( buf, MAX_STRING_LENGTH, "%d", ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE ) ? ch->mana : 0 );
+            case 'e': /* %e - Current Energy */
+               pstat = ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE ) ? ch->mana : 0;
                break;
 
-            case 'j': /* %j - Current Rage (Warrior Only) */
-               snprintf( buf, MAX_STRING_LENGTH, "%d", ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR ) ? ch->mana : 0 );
+            case 'j': /* %j - Current Rage */
+               pstat = ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR ) ? ch->mana : 0;
                break;
 
-            case 'J': /* %J - Combo Points (Rogue Only) */
-               snprintf( buf, MAX_STRING_LENGTH, "%d", ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE ) ? ch->combo_points : 0 );
+            case 'J': /* %J - Combo Points */
+               pstat = ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE ) ? ch->combo_points : 0;
                break;
 
-            case 'k': /* %k - Smart Resource Value (Current Mana/Energy/Rage) */
-               snprintf( buf, MAX_STRING_LENGTH, "%d", ch->mana );
+            case 'k': /* %k - Smart Resource Value */
+               pstat = ch->mana;
                break;
 
-            case 'K': /* %K - Smart Resource Type (M/E/R) */
+            case 'K': /* %K - Smart Resource Type (E, R, or M) */
                if ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE )
-                  snprintf( buf, MAX_STRING_LENGTH, "E" );
+                  strlcpy( pbuf, "E", MAX_STRING_LENGTH );
                else if ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR )
-                  snprintf( buf, MAX_STRING_LENGTH, "R" );
+                  strlcpy( pbuf, "R", MAX_STRING_LENGTH );
                else
-                  snprintf( buf, MAX_STRING_LENGTH, "M" );
+                  strlcpy( pbuf, "M", MAX_STRING_LENGTH );
                break;
 
-            case 'z': /* %z - GCD Status Indicator (* if active) */
-               snprintf( buf, MAX_STRING_LENGTH, "%s", ch->gcd > 0 ? "&R*&w" : "" );
+            case 'z': /* %z - GCD Status Indicator */
+               if ( ch->gcd > 0 )
+                  strlcpy( pbuf, "&R*&w", MAX_STRING_LENGTH );
+               else
+                  strlcpy( pbuf, "", MAX_STRING_LENGTH );
                break;
 
                case 'v':
