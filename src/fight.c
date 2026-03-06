@@ -372,15 +372,55 @@ void violence_update( void )
       if( char_died( ch ) )
          continue;
 
-      /*
+/*
        * We need spells that have shorter durations than an hour.
        * So a melee round sounds good to me... -Thoric
        */
       for( paf = ch->first_affect; paf; paf = paf_next )
       {
          paf_next = paf->next;
+         
          if( paf->duration > 0 )
+         {
             paf->duration--;
+
+            /* ============================================
+               Wowzers Mud: DoT and HoT Engine
+               ============================================ */
+            if ( paf->location == APPLY_DOT )
+            {
+                if ( paf->modifier > 0 )
+                {
+                    skill = get_skilltype( paf->type );
+                    set_char_color( AT_BLOOD, ch );
+                    
+                    if ( skill )
+                        ch_printf( ch, "You suffer %d damage from %s.\r\n", paf->modifier, skill->name );
+                    else
+                        ch_printf( ch, "You suffer %d damage from your afflictions.\r\n", paf->modifier );
+                    
+                    /* The damage() function safely handles death, logs, and corpse creation! */
+                    if ( damage( ch, ch, paf->modifier, paf->type ) == rCHAR_DIED || char_died(ch) )
+                        break; /* Break the affect loop immediately so we don't crash on a dead body */
+                }
+            }
+            else if ( paf->location == APPLY_HOT )
+            {
+                if ( paf->modifier > 0 && ch->hit < ch->max_hit )
+                {
+                    skill = get_skilltype( paf->type );
+                    set_char_color( AT_MAGIC, ch );
+                    
+                    if ( skill )
+                        ch_printf( ch, "You are healed for %d health from %s.\r\n", paf->modifier, skill->name );
+                    else
+                        ch_printf( ch, "You are healed for %d health.\r\n", paf->modifier );
+                        
+                    ch->hit = UMIN( ch->max_hit, ch->hit + paf->modifier );
+                    update_pos( ch );
+                }
+            }
+         }
          else if( paf->duration < 0 )
             ;
          else

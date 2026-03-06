@@ -1604,19 +1604,43 @@ bool is_affected( CHAR_DATA * ch, int sn )
  * Limitations put in place by Thoric, they may be high... but at least
  * they're there :)
  */
+
 void affect_join( CHAR_DATA * ch, AFFECT_DATA * paf )
 {
    AFFECT_DATA *paf_old;
+   int max_stacks = 1; /* Default WoW behavior: Refresh duration, do not stack effect */
+   int base_mod = paf->modifier;
+
+   /* ============================================
+      Wowzers Mud: Define max stacks for specific abilities
+      ============================================ */
+   if ( paf->type == skill_lookup("sunder armor") )
+       max_stacks = 5;
+   else if ( paf->type == skill_lookup("deadly poison") )
+       max_stacks = 5;
+   /* You can easily add more stacking abilities here as you build them! */
 
    for( paf_old = ch->first_affect; paf_old; paf_old = paf_old->next )
    {
       if( paf_old->type == paf->type )
       {
-         paf->duration = UMIN( 1000000, paf->duration + paf_old->duration );
+         /* WoW Mechanic: Refresh duration to the new application's duration */
+         paf->duration = paf->duration; 
+
+         /* WoW Mechanic: Add modifiers, but cap at max_stacks */
          if( paf->modifier )
-            paf->modifier = UMIN( 5000, paf->modifier + paf_old->modifier );
+         {
+            paf->modifier = paf_old->modifier + base_mod;
+            
+            /* Cap the modifier safely, handling both positive and negative values */
+            if ( abs(paf->modifier) > abs(base_mod * max_stacks) )
+                paf->modifier = base_mod * max_stacks;
+         }
          else
+         {
             paf->modifier = paf_old->modifier;
+         }
+
          affect_remove( ch, paf_old );
          break;
       }
