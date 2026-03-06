@@ -1208,7 +1208,7 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
          dt += wield->value[3];
    }
 
-/* ============================================
+   /* ============================================
       Wowzers Mud: Single-Roll Attack Table
       ============================================ */
    int roll = number_range( 1, 10000 );
@@ -1216,11 +1216,21 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
    int chance_dodge = 500 + ( get_curr_agi(victim) * 2 ); /* 5% + victim Agility scaling */
    int chance_parry = 500; /* Base 5.00% Parry */
    int chance_crit = 500 + ( get_curr_agi(ch) * 5 ); /* 5% + attacker Agility scaling */
-   
+
+   /* ============================================
+      Wowzers Mud: BERSERKER STANCE & CAT FORM CRIT BONUS
+      ============================================ */
+   if ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR && ch->style == STYLE_BERSERK )
+       chance_crit += 300; /* Flat +3% Crit Chance */
+       
+   if ( !IS_NPC(ch) && ch->Class == CLASS_DRUID && ch->form == FORM_CAT )
+       chance_crit += 500; /* Flat +5% Crit Chance for Cats */
+
    int level_diff = victim->level - ch->level;
    int current_cap = 0;
    bool is_crit = FALSE;
    bool is_glancing = FALSE;
+
 
    /* WoW Classic Level Difference Adjustments (+0.2% per level difference) */
    if ( level_diff > 0 )
@@ -1310,12 +1320,12 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
    if( prof_bonus )
       dam += prof_bonus / 4;
 
-/* ============================================
+   /* ============================================
       Wowzers Mud: ATTACK POWER DAMAGE SCALING -Hansth
       ============================================ */
    dam += (get_attack_power(ch) / 10);
 
-/* ============================================
+   /* ============================================
       Wowzers Mud: CRIT & GLANCING MODIFIERS
       ============================================ */
    if ( is_crit )
@@ -1332,29 +1342,27 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
    }
 
 
-   /*
-    * Calculate Damage Modifiers from Victim's Fighting Style
-    */
-   if( victim->position == POS_BERSERK )
-      dam = ( int )( 1.2 * dam );
-   else if( victim->position == POS_AGGRESSIVE )
-      dam = ( int )( 1.1 * dam );
-   else if( victim->position == POS_DEFENSIVE )
-      dam = ( int )( .85 * dam );
-   else if( victim->position == POS_EVASIVE )
-      dam = ( int )( .8 * dam );
+   /* ============================================
+      Wowzers Mud: WARRIOR STANCE DAMAGE MODIFIERS -Hansth
+      ============================================ */
+   
+/* Attacker Stance Modifiers */
+   if ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR )
+   {
+       if ( ch->style == STYLE_DEFENSIVE || ch->position == POS_DEFENSIVE )
+           dam = (dam * 90) / 100; /* 10% damage penalty */
+   }
 
-   /*
-    * Calculate Damage Modifiers from Attacker's Fighting Style
-    */
-   if( ch->position == POS_BERSERK )
-      dam = ( int )( 1.2 * dam );
-   else if( ch->position == POS_AGGRESSIVE )
-      dam = ( int )( 1.1 * dam );
-   else if( ch->position == POS_DEFENSIVE )
-      dam = ( int )( .85 * dam );
-   else if( ch->position == POS_EVASIVE )
-      dam = ( int )( .8 * dam );
+/* Victim Stance Modifiers */
+   if ( !IS_NPC(victim) )
+   {
+       if ( (victim->Class == CLASS_WARRIOR && (victim->style == STYLE_DEFENSIVE || victim->position == POS_DEFENSIVE))
+         || (victim->Class == CLASS_DRUID && victim->form == FORM_BEAR) )
+           dam = (dam * 90) / 100; /* 10% damage reduction for Defensive and Bear */
+           
+       else if ( victim->Class == CLASS_WARRIOR && (victim->style == STYLE_BERSERK || victim->position == POS_BERSERK) )
+           dam = (dam * 110) / 100; /* 10% extra damage taken */
+   }
 
    if( !IS_NPC( ch ) && ch->pcdata->learned[gsn_enhanced_damage] > 0 )
    {
@@ -4500,6 +4508,18 @@ void add_threat( CHAR_DATA *ch, CHAR_DATA *victim, int amount )
     if ( char_died(ch) || char_died(victim) )
         return;
 
+    /* ============================================
+       Wowzers Mud: TANK THREAT MODS
+       ============================================ */
+    if ( !IS_NPC(ch) )
+    {
+        if ( (ch->Class == CLASS_WARRIOR && ch->style == STYLE_DEFENSIVE)
+          || (ch->Class == CLASS_DRUID && ch->form == FORM_BEAR) )
+        {
+            amount = (amount * 130) / 100; /* 130% Threat Generation */
+        }
+    }
+
     /* Search the table to see if they are already on it */
     for ( threat_node = victim->first_threat; threat_node; threat_node = threat_node->next )
     {
@@ -4589,3 +4609,4 @@ void add_heal_threat( CHAR_DATA *healer, CHAR_DATA *victim, int amount )
         }
     }
 }
+

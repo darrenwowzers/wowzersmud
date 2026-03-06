@@ -6260,197 +6260,6 @@ void do_slice( CHAR_DATA* ch, const char* argument )
    learn_from_success( ch, gsn_slice );
 }
 
-/*------------------------------------------------------------ 
- *  Fighting Styles - haus
- */
-void do_style( CHAR_DATA * ch, const char *argument )
-{
-   char arg[MAX_INPUT_LENGTH];
-/*  char buf[MAX_INPUT_LENGTH];
-    int percent; */
-
-   if( IS_NPC( ch ) )
-      return;
-
-   one_argument( argument, arg );
-   if( arg[0] == '\0' )
-   {
-      ch_printf_color( ch, "&wAdopt which fighting style?  (current:  %s&w)\r\n",
-                       ch->style == STYLE_BERSERK ? "&Rberserk" :
-                       ch->style == STYLE_AGGRESSIVE ? "&Raggressive" :
-                       ch->style == STYLE_DEFENSIVE ? "&Ydefensive" :
-                       ch->style == STYLE_EVASIVE ? "&Yevasive" : "standard" );
-      return;
-   }
-
-   if( !str_prefix( arg, "evasive" ) )
-   {
-      if( ch->level < skill_table[gsn_style_evasive]->skill_level[ch->Class] )
-      {
-         send_to_char( "You have not yet learned enough to fight evasively.\r\n", ch );
-         return;
-      }
-      WAIT_STATE( ch, skill_table[gsn_style_evasive]->beats );
-      if( number_percent(  ) < LEARNED( ch, gsn_style_evasive ) )
-      {
-         /*
-          * success 
-          */
-         if( ch->fighting )
-         {
-            ch->position = POS_EVASIVE;
-            learn_from_success( ch, gsn_style_evasive );
-            if( IS_PKILL( ch ) )
-               act( AT_ACTION, "$n falls back into an evasive stance.", ch, NULL, NULL, TO_ROOM );
-         }
-         ch->style = STYLE_EVASIVE;
-         send_to_char( "You adopt an evasive fighting style.\r\n", ch );
-         return;
-      }
-      else
-      {
-         /*
-          * failure 
-          */
-         send_to_char( "You nearly trip in a lame attempt to adopt an evasive fighting style.\r\n", ch );
-         return;
-      }
-   }
-   else if( !str_prefix( arg, "defensive" ) )
-   {
-      if( ch->level < skill_table[gsn_style_defensive]->skill_level[ch->Class] )
-      {
-         send_to_char( "You have not yet learned enough to fight defensively.\r\n", ch );
-         return;
-      }
-      WAIT_STATE( ch, skill_table[gsn_style_defensive]->beats );
-      if( number_percent(  ) < LEARNED( ch, gsn_style_defensive ) )
-      {
-         /*
-          * success 
-          */
-         if( ch->fighting )
-         {
-            ch->position = POS_DEFENSIVE;
-            learn_from_success( ch, gsn_style_defensive );
-            if( IS_PKILL( ch ) )
-               act( AT_ACTION, "$n moves into a defensive posture.", ch, NULL, NULL, TO_ROOM );
-         }
-         ch->style = STYLE_DEFENSIVE;
-         send_to_char( "You adopt a defensive fighting style.\r\n", ch );
-         return;
-      }
-      else
-      {
-         /*
-          * failure 
-          */
-         send_to_char( "You nearly trip in a lame attempt to adopt a defensive fighting style.\r\n", ch );
-         return;
-      }
-   }
-   else if( !str_prefix( arg, "standard" ) )
-   {
-      if( ch->level < skill_table[gsn_style_standard]->skill_level[ch->Class] )
-      {
-         send_to_char( "You have not yet learned enough to fight in the standard style.\r\n", ch );
-         return;
-      }
-      WAIT_STATE( ch, skill_table[gsn_style_standard]->beats );
-      if( number_percent(  ) < LEARNED( ch, gsn_style_standard ) )
-      {
-         /*
-          * success 
-          */
-         if( ch->fighting )
-         {
-            ch->position = POS_FIGHTING;
-            learn_from_success( ch, gsn_style_standard );
-            if( IS_PKILL( ch ) )
-               act( AT_ACTION, "$n switches to a standard fighting style.", ch, NULL, NULL, TO_ROOM );
-         }
-         ch->style = STYLE_FIGHTING;
-         send_to_char( "You adopt a standard fighting style.\r\n", ch );
-         return;
-      }
-      else
-      {
-         /*
-          * failure 
-          */
-         send_to_char( "You nearly trip in a lame attempt to adopt a standard fighting style.\r\n", ch );
-         return;
-      }
-   }
-   else if( !str_prefix( arg, "aggressive" ) )
-   {
-      if( ch->level < skill_table[gsn_style_aggressive]->skill_level[ch->Class] )
-      {
-         send_to_char( "You have not yet learned enough to fight aggressively.\r\n", ch );
-         return;
-      }
-      WAIT_STATE( ch, skill_table[gsn_style_aggressive]->beats );
-      if( number_percent(  ) < LEARNED( ch, gsn_style_aggressive ) )
-      {
-         /*
-          * success 
-          */
-         if( ch->fighting )
-         {
-            ch->position = POS_AGGRESSIVE;
-            learn_from_success( ch, gsn_style_aggressive );
-            if( IS_PKILL( ch ) )
-               act( AT_ACTION, "$n assumes an aggressive stance.", ch, NULL, NULL, TO_ROOM );
-         }
-         ch->style = STYLE_AGGRESSIVE;
-         send_to_char( "You adopt an aggressive fighting style.\r\n", ch );
-         return;
-      }
-      else
-      {
-         /*
-          * failure 
-          */
-         send_to_char( "You nearly trip in a lame attempt to adopt an aggressive fighting style.\r\n", ch );
-         return;
-      }
-   }
-   else if( !str_prefix( arg, "berserk" ) )
-   {
-      if( ch->level < skill_table[gsn_style_berserk]->skill_level[ch->Class] )
-      {
-         send_to_char( "You have not yet learned enough to fight as a berserker.\r\n", ch );
-         return;
-      }
-      WAIT_STATE( ch, skill_table[gsn_style_berserk]->beats );
-      if( number_percent(  ) < LEARNED( ch, gsn_style_berserk ) )
-      {
-         /*
-          * success 
-          */
-         if( ch->fighting )
-         {
-            ch->position = POS_BERSERK;
-            learn_from_success( ch, gsn_style_berserk );
-            if( IS_PKILL( ch ) )
-               act( AT_ACTION, "$n enters a wildly aggressive style.", ch, NULL, NULL, TO_ROOM );
-         }
-         ch->style = STYLE_BERSERK;
-         send_to_char( "You adopt a berserk fighting style.\r\n", ch );
-         return;
-      }
-      else
-      {
-         /*
-          * failure 
-          */
-         send_to_char( "You nearly trip in a lame attempt to adopt a berserk fighting style.\r\n", ch );
-         return;
-      }
-   }
-
-   send_to_char( "Adopt which fighting style?\r\n", ch );
-}
 
 /*  New check to see if you can use skills to support morphs --Shaddai */
 bool can_use_skill( CHAR_DATA * ch, int percent, int gsn )
@@ -6580,6 +6389,85 @@ extern "C" {
 #endif
 
 /* ============================================
+   Wowzers Mud: WARRIOR STANCES (Replaces do_style) -Hansth
+   ============================================ */
+__attribute__((visibility("default")))
+void do_stance( CHAR_DATA *ch, const char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+
+    if ( IS_NPC(ch) || ch->Class != CLASS_WARRIOR )
+    {
+        send_to_char( "Only warriors possess the martial discipline to change stances.\r\n", ch );
+        return;
+    }
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+        ch_printf( ch, "You are currently in %s.\r\n", 
+                   ch->style == STYLE_FIGHTING  ? "Battle Stance" :
+                   ch->style == STYLE_DEFENSIVE ? "Defensive Stance" :
+                   ch->style == STYLE_BERSERK   ? "Berserker Stance" : "no stance" );
+        send_to_char( "Syntax: stance <battle|defensive|berserker>\r\n", ch );
+        return;
+    }
+
+    if ( ch->gcd > 0 )
+    {
+        send_to_char( "You are not ready yet.\r\n", ch );
+        return;
+    }
+
+    if ( !str_prefix( arg, "battle" ) )
+    {
+        if ( ch->style == STYLE_FIGHTING )
+        {
+            send_to_char( "You are already in Battle Stance.\r\n", ch );
+            return;
+        }
+        ch->style = STYLE_FIGHTING;
+        if( ch->fighting ) ch->position = POS_FIGHTING;
+        act( AT_YELLOW, "You shift your weight into a balanced Battle Stance.", ch, NULL, NULL, TO_CHAR );
+        act( AT_YELLOW, "$n shifts $s weight into a balanced Battle Stance.", ch, NULL, NULL, TO_ROOM );
+    }
+    else if ( !str_prefix( arg, "defensive" ) )
+    {
+        if ( ch->style == STYLE_DEFENSIVE )
+        {
+            send_to_char( "You are already in Defensive Stance.\r\n", ch );
+            return;
+        }
+        ch->style = STYLE_DEFENSIVE;
+        if( ch->fighting ) ch->position = POS_DEFENSIVE;
+        act( AT_YELLOW, "You lower your weapon and enter a Defensive Stance.", ch, NULL, NULL, TO_CHAR );
+        act( AT_YELLOW, "$n lowers $s weapon and enters a Defensive Stance.", ch, NULL, NULL, TO_ROOM );
+    }
+    else if ( !str_prefix( arg, "berserker" ) )
+    {
+        if ( ch->style == STYLE_BERSERK )
+        {
+            send_to_char( "You are already in Berserker Stance.\r\n", ch );
+            return;
+        }
+        ch->style = STYLE_BERSERK;
+        if( ch->fighting ) ch->position = POS_BERSERK;
+        act( AT_RED, "You unleash your rage and enter a Berserker Stance!", ch, NULL, NULL, TO_CHAR );
+        act( AT_RED, "$n unleashes $s rage and enters a Berserker Stance!", ch, NULL, NULL, TO_ROOM );
+    }
+    else
+    {
+        send_to_char( "Valid stances are: battle, defensive, berserker.\r\n", ch );
+        return;
+    }
+
+    /* Swapping stances triggers the Global Cooldown */
+    ch->gcd = PULSE_GCD;
+}
+
+
+/* ============================================
    Wowzers Mud: SINISTER STRIKE SKILL -Hansth
    ============================================ */
 /* Ensure the symbol is visible to dlsym -Hansth */
@@ -6633,7 +6521,158 @@ void do_sinister_strike( CHAR_DATA *ch, const char *argument )
     WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
 }
 
+/* ============================================
+   Wowzers Mud: DRUID SHAPESHIFT -Hansth
+   ============================================ */
+__attribute__((visibility("default")))
+void do_shapeshift( CHAR_DATA *ch, const char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
 
+    if ( IS_NPC(ch) || ch->Class != CLASS_DRUID )
+    {
+        send_to_char( "Only Druids possess an intrinsic connection to the wilds.\r\n", ch );
+        return;
+    }
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+        ch_printf( ch, "You are currently in %s.\r\n", 
+                   ch->form == FORM_BEAR ? "Bear Form" :
+                   ch->form == FORM_CAT  ? "Cat Form" : "Caster Form" );
+        send_to_char( "Syntax: shapeshift <bear|cat|caster>\r\n", ch );
+        return;
+    }
+
+    if ( ch->gcd > 0 )
+    {
+        send_to_char( "You are not ready yet.\r\n", ch );
+        return;
+    }
+
+    if ( !str_prefix( arg, "bear" ) )
+    {
+        if ( ch->form == FORM_BEAR )
+        {
+            send_to_char( "You are already in Bear Form.\r\n", ch );
+            return;
+        }
+        ch->form = FORM_BEAR;
+        ch->power_type = POWER_RAGE;
+        ch->mana = 0; /* Shifting to Bear resets your Rage to 0 */
+        
+        act( AT_YELLOW, "Your skin erupts into fur as you shapeshift into a massive Bear!", ch, NULL, NULL, TO_CHAR );
+        act( AT_YELLOW, "$n lets out a thunderous roar and shifts into a massive Bear!", ch, NULL, NULL, TO_ROOM );
+    }
+    else if ( !str_prefix( arg, "cat" ) )
+    {
+        if ( ch->form == FORM_CAT )
+        {
+            send_to_char( "You are already in Cat Form.\r\n", ch );
+            return;
+        }
+        ch->form = FORM_CAT;
+        ch->power_type = POWER_ENERGY;
+        ch->mana = 0; /* Shifting to Cat resets your Energy to 0 */
+        
+        act( AT_YELLOW, "Your body shrinks and contorts as you shapeshift into a sleek Cat!", ch, NULL, NULL, TO_CHAR );
+        act( AT_YELLOW, "$n drops to all fours and shifts into a sleek Cat!", ch, NULL, NULL, TO_ROOM );
+    }
+    else if ( !str_prefix( arg, "caster" ) )
+    {
+        if ( ch->form == FORM_CASTER )
+        {
+            send_to_char( "You are already in your natural form.\r\n", ch );
+            return;
+        }
+        ch->form = FORM_CASTER;
+        ch->power_type = POWER_MANA;
+        /* Mana is deliberately left alone here so you don't get free mana by shifting! */
+        
+        act( AT_YELLOW, "You release your connection to the wilds and revert to your natural form.", ch, NULL, NULL, TO_CHAR );
+        act( AT_YELLOW, "$n's animal form melts away, revealing $s natural shape.", ch, NULL, NULL, TO_ROOM );
+    }
+    else
+    {
+        send_to_char( "Valid forms are: bear, cat, caster.\r\n", ch );
+        return;
+    }
+
+    /* Shapeshifting triggers the Global Cooldown */
+    ch->gcd = PULSE_GCD;
+}
+
+/* ============================================
+   Wowzers Mud: EVISCERATE SKILL -Hansth
+   ============================================ */
+/* Ensure the symbol is visible to dlsym -Hansth */
+__attribute__((visibility("default")))
+void do_eviscerate( CHAR_DATA *ch, const char *argument )
+{
+    CHAR_DATA *victim;
+    int dam;
+
+    /* Only Rogues can use this! -Hansth */
+    if ( IS_NPC(ch) || ch->Class != CLASS_ROGUE )
+    {
+        send_to_char( "You are not a rogue.\r\n", ch );
+        return;
+    }
+
+    /* Check if they are on the Global Cooldown -Hansth */
+    if ( ch->gcd > 0 )
+    {
+        send_to_char( "You are not ready yet.\r\n", ch );
+        return;
+    }
+
+    /* You must be fighting someone to eviscerate them -Hansth */
+    if ( ( victim = who_fighting( ch ) ) == NULL )
+    {
+        send_to_char( "You aren't fighting anyone.\r\n", ch );
+        return;
+    }
+
+    /* Check for combo points on the current target -Hansth */
+    if ( ch->combo_target != victim || ch->combo_points <= 0 )
+    {
+        send_to_char( "You have no combo points on that target.\r\n", ch );
+        return;
+    }
+
+    /* Check if they have enough Energy (Costs 35 Energy) -Hansth */
+    if ( ch->power_type == POWER_ENERGY && ch->mana < 35 )
+    {
+        send_to_char( "You don't have enough energy!\r\n", ch );
+        return;
+    }
+
+    /* Deduct the Energy -Hansth */
+    if ( ch->power_type == POWER_ENERGY )
+    {
+        ch->mana -= 35;
+    }
+
+    /* Calculate Damage: Base + (Combo Points * Level Scaling) + AP Scaling -Hansth */
+    dam = 10 + ( ch->combo_points * (ch->level / 2) ) + ( (get_attack_power(ch) / 10) * ch->combo_points );
+
+    /* Send the combat messages -Hansth */
+    set_char_color( AT_BLOOD, ch );
+    ch_printf( ch, "You eviscerate %s for %d damage! (%d combo points)\r\n", 
+               IS_NPC(victim) ? victim->short_descr : victim->name, dam, ch->combo_points );
+               
+    act( AT_BLOOD, "$n viciously eviscerates you!", ch, NULL, victim, TO_VICT );
+    act( AT_BLOOD, "$n viciously eviscerates $N!", ch, NULL, victim, TO_NOTVICT );
+
+    /* Consume the points and trigger the Global Cooldown -Hansth */
+    ch->combo_points = 0;
+    ch->gcd = PULSE_GCD; 
+
+    /* Deal the actual damage (Uses TYPE_UNDEFINED unless you add gsn_eviscerate) -Hansth */
+    damage( ch, victim, dam, TYPE_UNDEFINED );
+}
 
 #ifdef __cplusplus
 }

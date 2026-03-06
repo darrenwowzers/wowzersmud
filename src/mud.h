@@ -205,6 +205,11 @@ typedef bool SPEC_FUN( CHAR_DATA * ch );
 #define MAX_PROFESSIONS     2
 #define MAX_FLIGHT_NODES    100
 
+/* Wowzers Mud: Druid Forms */
+#define FORM_CASTER         0
+#define FORM_BEAR           1
+#define FORM_CAT            2
+
 /* ============================================
    WOW CLASSIC: FORWARD DECLARATIONS
    ============================================ */
@@ -2364,6 +2369,7 @@ struct char_data
     sh_int          max_power[MAX_POWER_TYPES]; 
     time_t          last_power_tick;
     sh_int          combo_points;
+    short           form;  /* Wowzers Mud: Druid Shapeshift Form */
     CHAR_DATA * combo_target;
     sh_int          faction;
 PARTY_DATA * party;               /* Pointer to group/raid */
@@ -3144,6 +3150,7 @@ extern short gsn_style_aggressive;
 extern short gsn_style_berserk;
 
 extern sh_int gsn_sinister_strike; // Sinister Strike skill for Rogues on Wowzers Mud -Hansth
+extern sh_int gsn_eviscerate; // Eviscerate skill for Rogues on Wowzers Mud -Hansth
 extern short gsn_detrap;
 extern short gsn_backstab;
 extern short gsn_circle;
@@ -4057,6 +4064,7 @@ DECLARE_DO_FUN( do_journal );
 DECLARE_DO_FUN( do_khistory );
 DECLARE_DO_FUN( do_kick );
 DECLARE_DO_FUN( do_kill );
+DECLARE_DO_FUN( do_eviscerate );
 DECLARE_DO_FUN( do_languages );
 DECLARE_DO_FUN( do_last );
 DECLARE_DO_FUN( do_laws );
