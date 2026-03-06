@@ -116,6 +116,7 @@ short gsn_steal;
 short gsn_gouge;
 short gsn_poison_weapon;
 sh_int gsn_sinister_strike; // Sinister Strike for rogues -Hansth
+sh_int gsn_eviscerate; // Eviscerate finisher for rogues -Hansth
 
 /* thief & warrior */
 short gsn_disarm;
@@ -383,7 +384,6 @@ void boot_db( bool fCopyOver )
    sysdata.save_frequency = 20;  /* minutes */
    sysdata.bestow_dif = 5;
    sysdata.check_imm_host = 1;
-   sysdata.morph_opt = 1;
    sysdata.save_pets = 0;
    sysdata.pk_loot = 1;
    sysdata.pk_channels = 1;
@@ -573,6 +573,8 @@ void boot_db( bool fCopyOver )
       ASSIGN_GSN( gsn_style_berserk, "berserk style" );
 
       ASSIGN_GSN( gsn_sinister_strike, "sinister strike" ); //Sinister Strike for Rogues -Hansth
+      ASSIGN_GSN( gsn_eviscerate, "eviscerate" ); //Eviscerate finisher for Rogues -Hansth
+
       ASSIGN_GSN( gsn_pugilism, "pugilism" );
       ASSIGN_GSN( gsn_long_blades, "long blades" );
       ASSIGN_GSN( gsn_short_blades, "short blades" );
@@ -761,12 +763,6 @@ void boot_db( bool fCopyOver )
 
    log_string( "Loading Projects" );
    load_projects(  );
-
-   /*
-    * Morphs MUST be loaded after class and race tables are set up --Shaddai 
-    */
-   log_string( "Loading Morphs" );
-   load_morphs(  );
 
    log_string( "Loading Housing System, Home Accessories Data, and Home Auctioning System" );
    load_homedata();
@@ -2971,7 +2967,6 @@ void clear_char( CHAR_DATA * ch )
    ch->alloc_ptr = NULL;
    ch->spare_ptr = NULL;
    ch->mount = NULL;
-   ch->morph = NULL;
    xCLEAR_BITS( ch->affected_by );
    ch->logon = current_time;
    ch->armor = 100;
@@ -3030,9 +3025,6 @@ void free_char( CHAR_DATA * ch )
 
    if( ch->desc )
       bug( "%s: char still has descriptor.", __func__ );
-
-   if( ch->morph )
-      DISPOSE( ch->morph );
 
    while( ( obj = ch->last_carrying ) != NULL )
       extract_obj( obj );
@@ -8429,7 +8421,6 @@ void save_sysdata( SYSTEM_DATA sys )
       fprintf( fp, "BanSiteLevel   %d\n", sys.ban_site_level );
       fprintf( fp, "BanRaceLevel   %d\n", sys.ban_race_level );
       fprintf( fp, "BanClassLevel  %d\n", sys.ban_class_level );
-      fprintf( fp, "MorphOpt       %d\n", sys.morph_opt );
       fprintf( fp, "PetSave	     %d\n", sys.save_pets );
       fprintf( fp, "Pkloot	        %d\n", sys.pk_loot );
       fprintf( fp, "Pkchannels     %d\n", sys.pk_channels );
@@ -8540,7 +8531,6 @@ void fread_sysdata( SYSTEM_DATA * sys, FILE * fp )
          case 'M':
             KEY( "Maxholiday", sys->maxholiday, fread_number( fp ) );	
             KEY( "Monthsperyear", sys->monthsperyear, fread_number( fp ) );
-            KEY( "MorphOpt", sys->morph_opt, fread_number( fp ) );
             KEY( "Msetplayer", sys->level_mset_player, fread_number( fp ) );
             KEY( "MudName", sys->mud_name, fread_string_nohash( fp ) );
             KEY( "Muse", sys->muse_level, fread_number( fp ) );

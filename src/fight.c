@@ -3525,15 +3525,6 @@ OBJ_DATA *raw_kill( CHAR_DATA * ch, CHAR_DATA * victim )
        DISPOSE( threat );
    }
 
-   /*
-    * Take care of morphed characters 
-    */
-   if( victim->morph )
-   {
-      do_unmorph_char( victim );
-      return raw_kill( ch, victim );
-   }
-
    mprog_death_trigger( ch, victim );
    if( char_died( victim ) )
       return NULL;
@@ -4039,12 +4030,6 @@ void do_kill( CHAR_DATA* ch, const char* argument )
    if( ( victim = get_char_room( ch, arg ) ) == NULL )
    {
       send_to_char( "They aren't here.\r\n", ch );
-      return;
-   }
-
-   if( IS_NPC( victim ) && victim->morph )
-   {
-      send_to_char( "This creature appears strange to you.  Look upon it more closely before attempting to kill it.", ch );
       return;
    }
 

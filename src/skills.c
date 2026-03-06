@@ -4552,8 +4552,6 @@ bool check_parry( CHAR_DATA * ch, CHAR_DATA * victim )
     * Put in the call to chance() to allow penalties for misaligned
     * clannies.  
     */
-   if( chances != 0 && victim->morph )
-      chances += victim->morph->parry;
 
    if( !chance( victim, chances + victim->level - ch->level ) )
    {
@@ -4587,9 +4585,6 @@ bool check_dodge( CHAR_DATA * ch, CHAR_DATA * victim )
       chances = UMIN( 60, 2 * victim->level );
    else
       chances = ( int )( LEARNED( victim, gsn_dodge ) / sysdata.dodge_mod );
-
-   if( chances != 0 && victim->morph != NULL )
-      chances += victim->morph->dodge;
 
    /*
     * Consider luck as a factor 
@@ -4627,8 +4622,6 @@ bool check_tumble( CHAR_DATA * ch, CHAR_DATA * victim )
       chances = UMIN( 60, 2 * victim->level );
    else
       chances = ( int )( LEARNED( victim, gsn_tumble ) / mod_tumble_by + ( get_curr_agi( victim ) - 13 ) );
-   if( chances != 0 && victim->morph )
-      chances += victim->morph->tumble;
    if( !chance( victim, chances + victim->level - ch->level ) )
       return FALSE;
    if( !IS_NPC( victim ) && !IS_SET( victim->pcdata->flags, PCFLAG_GAG ) )
@@ -6260,8 +6253,7 @@ void do_slice( CHAR_DATA* ch, const char* argument )
    learn_from_success( ch, gsn_slice );
 }
 
-
-/*  New check to see if you can use skills to support morphs --Shaddai */
+/* Cleaned up can_use_skill for Wowzers Mud */
 bool can_use_skill( CHAR_DATA * ch, int percent, int gsn )
 {
    bool check = FALSE;
@@ -6269,15 +6261,10 @@ bool can_use_skill( CHAR_DATA * ch, int percent, int gsn )
       check = TRUE;
    else if( !IS_NPC( ch ) && percent < LEARNED( ch, gsn ) )
       check = TRUE;
-   else if( ch->morph && ch->morph->morph && ch->morph->morph->skills &&
-            ch->morph->morph->skills[0] != '\0' &&
-            is_name( skill_table[gsn]->name, ch->morph->morph->skills ) && percent < 85 )
-      check = TRUE;
-   if( ch->morph && ch->morph->morph && ch->morph->morph->no_skills &&
-       ch->morph->morph->no_skills[0] != '\0' && is_name( skill_table[gsn]->name, ch->morph->morph->no_skills ) )
-      check = FALSE;
+
    if( skill_table[gsn]->guild == 99 && !IS_NPC( ch ) && !IS_SET( ch->pcdata->flags, PCFLAG_DEADLY ) )
       check = FALSE;
+      
    return check;
 }
 

@@ -113,8 +113,6 @@ typedef struct exit_data EXIT_DATA;
 typedef struct extra_descr_data EXTRA_DESCR_DATA;
 typedef struct help_data HELP_DATA;
 typedef struct mob_index_data MOB_INDEX_DATA;
-typedef struct char_morph CHAR_MORPH;
-typedef struct morph_data MORPH_DATA;
 typedef struct nuisance_data NUISANCE_DATA;
 typedef struct note_data NOTE_DATA;
 typedef struct board_data BOARD_DATA;
@@ -494,112 +492,6 @@ struct extended_bitvector
 #define ONLY_PKILL  	1
 #define ONLY_PEACEFULL  2
 
-struct char_morph
-{
-   MORPH_DATA *morph;
-   EXT_BV affected_by;  /* New affected_by added */
-   EXT_BV no_affected_by;  /* Prevents affects from being added */
-   int no_immune; /* Prevents Immunities */
-   int no_resistant; /* Prevents resistances */
-   int no_suscept;   /* Prevents Susceptibilities */
-   int immune; /* Immunities added */
-   int resistant; /* Resistances added */
-   int suscept;   /* Suscepts added */
-   int timer;  /* How much time is left */
-   short ac;
-   short blood;
-   short cha;
-   short con;
-   short damroll;
-   short dex;
-   short dodge;
-   short hit;
-   short hitroll;
-   short inte;
-   short lck;
-   short mana;
-   short move;
-   short parry;
-   short saving_breath;
-   short saving_para_petri;
-   short saving_poison_death;
-   short saving_spell_staff;
-   short saving_wand;
-   short str;
-   short tumble;
-   short wis;
-};
-
-struct morph_data
-{
-   MORPH_DATA *next; /* Next morph file */
-   MORPH_DATA *prev; /* Previous morph file */
-   const char *blood;   /* Blood added vamps only */
-   const char *damroll;
-   const char *deity;
-   const char *description;
-   const char *help; /* What player sees for info on morph */
-   const char *hit;  /* Hitpoints added */
-   const char *hitroll;
-   const char *key_words;  /* Keywords added to your name */
-   const char *long_desc;  /* New long_desc for player */
-   const char *mana; /* Mana added not for vamps */
-   const char *morph_other;   /* What others see when you morph */
-   const char *morph_self; /* What you see when you morph */
-   const char *move; /* Move added */
-   const char *name; /* Name used to polymorph into this */
-   const char *short_desc; /* New short desc for player */
-   const char *no_skills;  /* Prevented Skills */
-   const char *skills;
-   const char *unmorph_other; /* What others see when you unmorph */
-   const char *unmorph_self;  /* What you see when you unmorph */
-   EXT_BV affected_by;  /* New affected_by added */
-   int Class;  /* Classes not allowed to use this */
-   int defpos; /* Default position */
-   EXT_BV no_affected_by;  /* Prevents affects from being added */
-   int no_immune; /* Prevents Immunities */
-   int no_resistant; /* Prevents resistances */
-   int no_suscept;   /* Prevents Susceptibilities */
-   int immune; /* Immunities added */
-   int resistant; /* Resistances added */
-   int suscept;   /* Suscepts added */
-   int obj[3]; /* Object needed to morph you */
-   int race;   /* Races not allowed to use this */
-   int timer;  /* Timer for how long it lasts */
-   int used;   /* How many times has this morph been used */
-   int vnum;   /* Unique identifier */
-   short ac;
-   short bloodused;  /* Amount of blood morph requires Vamps only */
-   short cha;  /* Amount Cha gained/Lost */
-   short con;  /* Amount of Con gained/Lost */
-   short dayfrom; /* Starting Day you can morph into this */
-   short dayto;   /* Ending Day you can morph into this */
-   short dex;  /* Amount of dex added */
-   short dodge;   /* Percent of dodge added IE 1 = 1% */
-   short favourused; /* Amount of favour to morph */
-   short gloryused;  /* Amount of glory used to morph */
-   short hpused;  /* Amount of hps used to morph */
-   short inte; /* Amount of Int gained/lost */
-   short lck;  /* Amount of Lck gained/lost */
-   short level;   /* Minimum level to use this morph */
-   short manaused;   /* Amount of mana used to morph */
-   short moveused;   /* Amount of move used to morph */
-   short parry;   /* Percent of parry added IE 1 = 1% */
-   short pkill;   /* Pkill Only, Peacefull Only or Both */
-   short saving_breath; /* Below are saving adjusted */
-   short saving_para_petri;
-   short saving_poison_death;
-   short saving_spell_staff;
-   short saving_wand;
-   short sex;  /* The sex that can morph into this */
-   short str;  /* Amount of str gained lost */
-   short timefrom;   /* Hour starting you can morph */
-   short timeto;  /* Hour ending that you can morph */
-   short tumble;  /* Percent of tumble added IE 1 = 1% */
-   short wis;  /* Amount of Wis gained/lost */
-   bool no_cast;  /* Can you cast a spell to morph into it */
-   bool objuse[3];   /* Objects needed to morph */
-};
 
 /*
  * Tongues / Languages structures
@@ -865,7 +757,7 @@ typedef enum
    SUB_OBJ_LONG, SUB_OBJ_EXTRA, SUB_MOB_LONG, SUB_MOB_DESC, SUB_ROOM_DESC,
    SUB_ROOM_EXTRA, SUB_ROOM_EXIT_DESC, SUB_WRITING_NOTE, SUB_MPROG_EDIT,
    SUB_HELP_EDIT, SUB_WRITING_MAP, SUB_PERSONAL_BIO, SUB_REPEATCMD,
-   SUB_RESTRICTED, SUB_DEITYDESC, SUB_MORPH_DESC, SUB_MORPH_HELP,
+   SUB_RESTRICTED, SUB_DEITYDESC,
    SUB_PROJ_DESC, SUB_NEWS_POST, SUB_NEWS_EDIT, SUB_JOURNAL_WRITE,
    /*
     * timer types ONLY below this point 
@@ -2421,7 +2313,6 @@ PARTY_DATA * party;               /* Pointer to group/raid */
    EDITOR_DATA *editor;
    TIMER *first_timer;
    TIMER *last_timer;
-   CHAR_MORPH *morph;
    const char *name;
    const char *short_descr;
    const char *long_descr;
@@ -2932,7 +2823,6 @@ struct system_data
    short deadly_exp_mod;  /* Deadly char exp mod */
    short save_frequency;   /* How old to autosave someone */
    short check_imm_host;   /* Do we check immortal's hosts? */
-   short morph_opt;  /* Do we optimize morph's? */
    short save_pets;  /* Do pets save? */
    short pk_channels;  /* Turn off all public channels but clantalk and wartalk for pkillers */
    short pk_silence;   /* Turn off even clantalk and wartalk */
@@ -3651,10 +3541,6 @@ do								\
 				( IS_NPC(ch) ? (ch)->short_descr	\
 				: (ch)->name ) : "someone" )
 
-#define MORPHPERS(ch, looker)   ( can_see( (looker), (ch) ) ?           \
-                                (ch)->morph->morph->short_desc       \
-                                : "someone" )
-
 #define log_string(txt)		( log_string_plus( (txt), LOG_NORMAL, LEVEL_LOG ) )
 #define dam_message(ch, victim, dam, dt)	( new_dam_message((ch), (victim), (dam), (dt), NULL) )
 
@@ -4051,8 +3937,6 @@ DECLARE_DO_FUN( do_idea );
 DECLARE_DO_FUN( do_ignore );
 DECLARE_DO_FUN( do_immortalize );
 DECLARE_DO_FUN( do_immtalk );
-DECLARE_DO_FUN( do_imm_morph );
-DECLARE_DO_FUN( do_imm_unmorph );
 DECLARE_DO_FUN( do_induct );
 DECLARE_DO_FUN( do_installarea );
 DECLARE_DO_FUN( do_instaroom );
@@ -4103,11 +3987,6 @@ DECLARE_DO_FUN( do_mistwalk );
 DECLARE_DO_FUN( do_mix );
 DECLARE_DO_FUN( do_mlist );
 DECLARE_DO_FUN( do_mobinvade );
-DECLARE_DO_FUN( do_morphcreate );
-DECLARE_DO_FUN( do_morphdestroy );
-DECLARE_DO_FUN( do_morphlist );
-DECLARE_DO_FUN( do_morphset );
-DECLARE_DO_FUN( do_morphstat );
 DECLARE_DO_FUN( do_mortalize );
 DECLARE_DO_FUN( do_mount );
 DECLARE_DO_FUN( do_mset );
@@ -4384,8 +4263,6 @@ DECLARE_DO_FUN( do_mpstat );
 DECLARE_DO_FUN( do_opstat );
 DECLARE_DO_FUN( do_rpstat );
 DECLARE_DO_FUN( do_mptransfer );
-DECLARE_DO_FUN( do_mpmorph );
-DECLARE_DO_FUN( do_mpunmorph );
 DECLARE_DO_FUN( do_mpnuisance );
 DECLARE_DO_FUN( do_mpunnuisance );
 DECLARE_DO_FUN( do_mpbodybag );
@@ -4544,7 +4421,6 @@ DECLARE_SPELL_FUN( spell_sacral_divinity );
 #define DEITY_LIST      "deity.lst" /* List of deities      */
 #define CLASS_LIST      "class.lst" /* List of classes      */
 #define RACE_LIST       "race.lst"  /* List of races     */
-#define MORPH_FILE      "morph.dat" /* For morph data */
 #define BOARD_FILE      "boards.txt"   /* For bulletin boards   */
 #define SHUTDOWN_FILE   "shutdown.txt" /* For 'shutdown'  */
 #define IMM_HOST_FILE   SYSTEM_DIR "immortal.host" /* For stoping hackers */
@@ -4918,33 +4794,6 @@ void check_planes( PLANE_DATA * p );
 void set_title( CHAR_DATA * ch, const char *title );
 const char *get_class( CHAR_DATA * ch );
 const char *get_race( CHAR_DATA * ch );
-
-/* polymorph.c */
-void fwrite_morph_data( CHAR_DATA * ch, FILE * fp );
-void fread_morph_data( CHAR_DATA * ch, FILE * fp );
-void clear_char_morph( CHAR_MORPH * morph );
-CHAR_MORPH *make_char_morph( MORPH_DATA * morph );
-void free_char_morph( CHAR_MORPH * morph );
-char *race_string( int bitvector );
-char *class_string( int bitvector );
-void setup_morph_vnum( void );
-void unmorph_all( MORPH_DATA * morph );
-MORPH_DATA *get_morph( const char *arg );
-MORPH_DATA *get_morph_vnum( int arg );
-int do_morph_char( CHAR_DATA * ch, MORPH_DATA * morph );
-MORPH_DATA *find_morph( CHAR_DATA * ch, const char *target, bool is_cast );
-void do_unmorph_char( CHAR_DATA * ch );
-void send_morph_message( CHAR_DATA * ch, MORPH_DATA * morph, bool is_morph );
-bool can_morph( CHAR_DATA * ch, MORPH_DATA * morph, bool is_cast );
-void do_morph( CHAR_DATA * ch, MORPH_DATA * morph );
-void do_unmorph( CHAR_DATA * ch );
-void save_morphs( void );
-void fwrite_morph( FILE * fp, MORPH_DATA * morph );
-void load_morphs( void );
-MORPH_DATA *fread_morph( FILE * fp );
-void free_morph( MORPH_DATA * morph );
-void morph_defaults( MORPH_DATA * morph );
-void sort_morphs( void );
 
 /* skills.c */
 bool can_use_skill( CHAR_DATA * ch, int percent, int gsn );
