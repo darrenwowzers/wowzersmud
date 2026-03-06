@@ -79,7 +79,6 @@ void free_watchlist( void );
 void free_projects( void );
 void free_bans( void );
 void free_clans( void );
-void free_morphs( void );
 void free_deities( void );
 void free_all_planes( void );
 void free_councils( void );
@@ -169,9 +168,6 @@ void cleanup_memory( void )
 
    fprintf( stdout, "%s", "Ban Data.\n" );
    free_bans(  );
-
-   fprintf( stdout, "%s", "Morph Data.\n" );
-   free_morphs(  );
 
    /*
     * Commands 
@@ -1026,11 +1022,6 @@ void game_loop( void )
       gettimeofday( &last_time, NULL );
       current_time = ( time_t ) last_time.tv_sec;
    }
-   /*
-    * Save morphs so can sort later. --Shaddai 
-    */
-   if( sysdata.morph_opt )
-      save_morphs(  );
 
    fflush( stderr ); /* make sure strerr is flushed */
 }
@@ -3377,14 +3368,6 @@ const char *obj_short( OBJ_DATA * obj )
 
 #define NAME(ch)        ( IS_NPC(ch) ? ch->short_descr : ch->name )
 
-const char *MORPHNAME( CHAR_DATA * ch )
-{
-   if( ch->morph && ch->morph->morph && ch->morph->morph->short_desc != NULL )
-      return ch->morph->morph->short_desc;
-   else
-      return NAME( ch );
-}
-
 char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch, const void *arg1, const void *arg2, int flags )
 {
    static const char *const he_she[] = { "it", "he", "she" };
@@ -4206,6 +4189,38 @@ void display_prompt( DESCRIPTOR_DATA * d )
                case 'U':
                   pstat = sysdata.maxplayers;
                   break;
+
+            /* ============================================
+               Wowzers Mud: FINAL UNIQUE PROMPT TOKENS -Hansth
+               ============================================ */
+            case 'e': /* %e - Current Energy (Rogue Only) */
+               snprintf( buf, MAX_STRING_LENGTH, "%d", ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE ) ? ch->mana : 0 );
+               break;
+
+            case 'j': /* %j - Current Rage (Warrior Only) */
+               snprintf( buf, MAX_STRING_LENGTH, "%d", ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR ) ? ch->mana : 0 );
+               break;
+
+            case 'J': /* %J - Combo Points (Rogue Only) */
+               snprintf( buf, MAX_STRING_LENGTH, "%d", ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE ) ? ch->combo_points : 0 );
+               break;
+
+            case 'k': /* %k - Smart Resource Value (Current Mana/Energy/Rage) */
+               snprintf( buf, MAX_STRING_LENGTH, "%d", ch->mana );
+               break;
+
+            case 'K': /* %K - Smart Resource Type (M/E/R) */
+               if ( !IS_NPC(ch) && ch->Class == CLASS_ROGUE )
+                  snprintf( buf, MAX_STRING_LENGTH, "E" );
+               else if ( !IS_NPC(ch) && ch->Class == CLASS_WARRIOR )
+                  snprintf( buf, MAX_STRING_LENGTH, "R" );
+               else
+                  snprintf( buf, MAX_STRING_LENGTH, "M" );
+               break;
+
+            case 'z': /* %z - GCD Status Indicator (* if active) */
+               snprintf( buf, MAX_STRING_LENGTH, "%s", ch->gcd > 0 ? "&R*&w" : "" );
+               break;
 
                case 'v':
                   pstat = ch->move;
