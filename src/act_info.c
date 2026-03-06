@@ -807,42 +807,25 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
       strlcat( buf, "(Mount) ", MAX_STRING_LENGTH );
    if( victim->desc && victim->desc->connected == CON_EDITING )
       strlcat( buf, "(Writing) ", MAX_STRING_LENGTH );
-   if( victim->morph != NULL )
-      strlcat( buf, "(Morphed) ", MAX_STRING_LENGTH );
-
    set_char_color( AT_PERSON, ch );
-   if( ( victim->position == victim->defposition && victim->long_descr[0] != '\0' )
-       || ( victim->morph && victim->morph->morph && victim->morph->morph->defpos == victim->position ) )
-   {
-      if( victim->morph != NULL )
-      {
-         if( !IS_IMMORTAL( ch ) )
-         {
-            if( victim->morph->morph != NULL )
-               strlcat( buf, victim->morph->morph->long_desc, MAX_STRING_LENGTH );
-            else
-               strlcat( buf, victim->long_descr, MAX_STRING_LENGTH );
-         }
-         else
-         {
-            strlcat( buf, PERS( victim, ch ), MAX_STRING_LENGTH );
-            if( !IS_NPC( victim ) && !xIS_SET( ch->act, PLR_BRIEF ) )
-               strlcat( buf, victim->pcdata->title, MAX_STRING_LENGTH );
-            strlcat( buf, ".\r\n", MAX_STRING_LENGTH );
-         }
-      }
-      else
-         strlcat( buf, victim->long_descr, MAX_STRING_LENGTH );
-      send_to_char( buf, ch );
-      show_visible_affects_to_char( victim, ch );
-      return;
-   }
+if( victim->long_descr[0] != '\0' )
+    {
+        strlcat( buf, victim->long_descr, MAX_STRING_LENGTH );
+        send_to_char( buf, ch );
+        show_visible_affects_to_char( victim, ch );
+        return;
+    }
    else
    {
-      if( victim->morph != NULL && victim->morph->morph != NULL && !IS_IMMORTAL( ch ) )
-         strlcat( buf, MORPHPERS( victim, ch ), MAX_STRING_LENGTH );
-      else
-         strlcat( buf, PERS( victim, ch ), MAX_STRING_LENGTH );
+    /* ============================================
+       Wowzers Mud: DRUID SHAPESHIFT ROOM VISUALS
+       ============================================ */
+    if ( !IS_NPC(victim) && victim->Class == CLASS_DRUID && victim->form == FORM_BEAR )
+        strlcat( buf, "A massive bear", MAX_STRING_LENGTH );
+    else if ( !IS_NPC(victim) && victim->Class == CLASS_DRUID && victim->form == FORM_CAT )
+        strlcat( buf, "A sleek cat", MAX_STRING_LENGTH );
+    else
+        strlcat( buf, PERS( victim, ch ), MAX_STRING_LENGTH );
    }
 
    if( !IS_NPC( victim ) && !xIS_SET( ch->act, PLR_BRIEF ) )
@@ -991,24 +974,17 @@ void show_char_to_char_1( CHAR_DATA * victim, CHAR_DATA * ch )
          act( AT_ACTION, "$n looks at $mself.", ch, NULL, victim, TO_NOTVICT );
    }
 
-   if( victim->description[0] != '\0' )
-   {
-      if( victim->morph != NULL && victim->morph->morph != NULL )
-         send_to_char( victim->morph->morph->description, ch );
-      else
-         send_to_char( victim->description, ch );
-   }
-   else
-   {
-      if( victim->morph != NULL && victim->morph->morph != NULL )
-         send_to_char( victim->morph->morph->description, ch );
-      else if( IS_NPC( victim ) )
-         act( AT_PLAIN, "You see nothing special about $M.", ch, NULL, victim, TO_CHAR );
-      else if( ch != victim )
-         act( AT_PLAIN, "$E isn't much to look at...", ch, NULL, victim, TO_CHAR );
-      else
-         act( AT_PLAIN, "You're not much to look at...", ch, NULL, NULL, TO_CHAR );
-   }
+    /* ============================================
+       Wowzers Mud: DRUID SHAPESHIFT DIRECT LOOK
+       ============================================ */
+    if ( !IS_NPC(victim) && victim->Class == CLASS_DRUID && victim->form == FORM_BEAR )
+        send_to_char( "A massive bear stands before you, radiating primal rage.\r\n", ch );
+    else if ( !IS_NPC(victim) && victim->Class == CLASS_DRUID && victim->form == FORM_CAT )
+        send_to_char( "A sleek cat crouches here, its eyes darting with predatory focus.\r\n", ch );
+    else if( victim->description[0] != '\0' )
+        send_to_char( victim->description, ch );
+    else
+        send_to_char( "You see nothing special about them.\r\n", ch );
 
    show_race_line( ch, victim );
    show_condition( ch, victim );

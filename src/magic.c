@@ -2851,24 +2851,12 @@ ch_ret spell_dispel_magic( int sn, int level, CHAR_DATA * ch, void *vo )
    return rNONE;
 }
 
-ch_ret spell_polymorph( int sn, int level, CHAR_DATA * ch, void *vo )
+/* * Wowzers Mud: Mage CC - To be built later -Hansth */
+ch_ret spell_polymorph( int sn, int level, CHAR_DATA *ch, void *vo )
 {
-   MORPH_DATA *morph;
-   SKILLTYPE *skill = get_skilltype( sn );
-
-   morph = find_morph( ch, target_name, TRUE );
-   if( !morph )
-   {
-      send_to_char( "You can't morph into anything like that!\r\n", ch );
-      return rSPELL_FAILED;
-   }
-   if( !do_morph_char( ch, morph ) )
-   {
-      failed_casting( skill, ch, NULL, NULL );
-      return rSPELL_FAILED;
-   }
-   return rNONE;
-}
+    send_to_char( "This spell is currently undergoing a Mage CC overhaul.\r\n", ch );
+    return rSPELL_FAILED;
+} 
 
 ch_ret spell_earthquake( int sn, int level, CHAR_DATA * ch, void *vo )
 {
@@ -3320,27 +3308,17 @@ ch_ret spell_identify( int sn, int level, CHAR_DATA * ch, void *vo )
          immune_casting( skill, ch, victim, NULL );
          return rSPELL_FAILED;
       }
-
-      /*
-       * If they are morphed or a NPC use the appropriate short_desc otherwise
-       * * use their name -- Shaddai
-       */
-      if( victim->morph && victim->morph->morph )
-         name = capitalize( victim->morph->morph->short_desc );
-      else if( IS_NPC( victim ) )
+      if( IS_NPC( victim ) )
          name = capitalize( victim->short_descr );
       else
          name = victim->name;
 
-      ch_printf( ch, "%s appears to be between level %d and %d.\r\n",
-                 name, victim->level - ( victim->level % 5 ), victim->level - ( victim->level % 5 ) + 5 );
-
-      if( IS_NPC( victim ) && victim->morph )
-         ch_printf( ch, "%s appears to truly be %s.\r\n",
-                    name, ( ch->level > victim->level + 10 ) ? victim->name : "someone else" );
-
-      ch_printf( ch, "%s looks like %s, and follows the ways of the %s.\r\n",
-                 name, aoran( get_race( victim ) ), get_class( victim ) );
+/* WoW-Style Identify Output -Hansth */
+    ch_printf( ch, "Name: %s\r\n", victim->name );
+    ch_printf( ch, "Level: %d  Race: %s  Class: %s\r\n",
+               victim->level,
+               race_table[victim->race]->race_name,
+               class_table[victim->Class]->who_name );
 
       if( ( chance( ch, 50 ) && ch->level >= victim->level + 10 ) || IS_IMMORTAL( ch ) )
       {
