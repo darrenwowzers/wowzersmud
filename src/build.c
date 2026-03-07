@@ -3624,6 +3624,30 @@ void do_oset( CHAR_DATA* ch, const char* argument )
       return;
    }
 
+   /* ============================================
+      Wowzers Mud: OSET ITEM RARITY -Hansth
+      ============================================ */
+   if ( !str_cmp( arg2, "rarity" ) )
+   {
+      int rarity = atoi( arg3 );
+      
+      if ( rarity < RARITY_COMMON || rarity > RARITY_ARTIFACT )
+      {
+         send_to_char( "Rarity must be a value from 0 to 5.\r\n", ch );
+         send_to_char( "0=Common, 1=Uncommon, 2=Rare, 3=Epic, 4=Legendary, 5=Artifact\r\n", ch );
+         return;
+      }
+      
+      obj->rarity = rarity;
+      
+      /* Update prototype if modifying a prototype item -Hansth */
+      if ( IS_OBJ_STAT( obj, ITEM_PROTOTYPE ) )
+         obj->pIndexData->rarity = rarity;
+         
+      send_to_char( "Item rarity set successfully.\r\n", ch );
+      return;
+   }
+
    if( !str_cmp( arg2, "cost" ) )
    {
       if( !can_omodify( ch, obj ) )
@@ -6450,6 +6474,11 @@ void fwrite_fuss_object( FILE * fpout, OBJ_INDEX_DATA * pObjIndex, bool install 
       fprintf( fpout, "Flags    %s~\n", ext_flag_string( &pObjIndex->extra_flags, o_flags ) );
    if( pObjIndex->wear_flags )
       fprintf( fpout, "WFlags   %s~\n", flag_string( pObjIndex->wear_flags, w_flags ) );
+   /* ============================================
+      Wowzers Mud: SAVE ITEM RARITY -Hansth
+      ============================================ */
+   if ( pObjIndex->rarity > 0 )
+      fprintf( fpout, "Rarity   %d\n", pObjIndex->rarity );
 
    val0 = pObjIndex->value[0];
    val1 = pObjIndex->value[1];

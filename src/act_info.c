@@ -266,6 +266,7 @@ void look_sky( CHAR_DATA * ch )
 char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort )
 {
    static char buf[MAX_STRING_LENGTH];
+   char r_code[10]; /* Holds the rarity color code -Hansth */
    bool glowsee = FALSE;
 
    /*
@@ -276,6 +277,7 @@ char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort )
       glowsee = TRUE;
 
    buf[0] = '\0';
+   
    if( IS_OBJ_STAT( obj, ITEM_INVIS ) )
       strlcat( buf, "(Invis) ", MAX_STRING_LENGTH );
    if( ( IS_AFFECTED( ch, AFF_DETECT_EVIL ) || ch->Class == CLASS_PALADIN ) && IS_OBJ_STAT( obj, ITEM_EVIL ) )
@@ -309,19 +311,40 @@ char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort )
    if( ( IS_AFFECTED( ch, AFF_DETECTTRAPS ) || xIS_SET( ch->act, PLR_HOLYLIGHT ) ) && is_trapped( obj ) )
       strlcat( buf, "(Trap) ", MAX_STRING_LENGTH );
 
+   /* ============================================
+      Wowzers Mud: Dynamic Rarity Coloring -Hansth
+      ============================================ */
+   switch( obj->rarity )
+   {
+      default:               strlcpy( r_code, "&w", 10 ); break; /* Common */
+      case RARITY_UNCOMMON:  strlcpy( r_code, "&G", 10 ); break; /* Green */
+      case RARITY_RARE:      strlcpy( r_code, "&B", 10 ); break; /* Blue */
+      case RARITY_EPIC:      strlcpy( r_code, "&P", 10 ); break; /* Purple */
+      case RARITY_LEGENDARY: strlcpy( r_code, "&O", 10 ); break; /* Orange */
+      case RARITY_ARTIFACT:  strlcpy( r_code, "&Y", 10 ); break; /* Gold */
+   }
+
    if( fShort )
    {
       if( glowsee && ( IS_NPC( ch ) || !xIS_SET( ch->act, PLR_HOLYLIGHT ) ) )
          strlcpy( buf, "the faint glow of something", MAX_STRING_LENGTH );
       else if( obj->short_descr )
+      {
+         strlcat( buf, r_code, MAX_STRING_LENGTH );
          strlcat( buf, obj->short_descr, MAX_STRING_LENGTH );
+         strlcat( buf, "&w", MAX_STRING_LENGTH );
+      }
    }
    else
    {
       if( glowsee && ( IS_NPC( ch ) || !xIS_SET( ch->act, PLR_HOLYLIGHT ) ) )
          strlcpy( buf, "You see the faint glow of something nearby.", MAX_STRING_LENGTH );
       else if( obj->description )
+      {
+         strlcat( buf, r_code, MAX_STRING_LENGTH );
          strlcat( buf, obj->description, MAX_STRING_LENGTH );
+         strlcat( buf, "&w", MAX_STRING_LENGTH );
+      }
    }
    return buf;
 }

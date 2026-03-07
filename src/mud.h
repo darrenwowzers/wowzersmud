@@ -1746,6 +1746,16 @@ typedef enum
 #define ITEM_LIGHTNING_BLADE  BV06
 #define ITEM_PKDISARMED       BV07  /* Maybe temporary, not a perma flag */
 
+/* ============================================
+   Wowzers Mud: ITEM RARITY LEVELS
+   ============================================ */
+#define RARITY_COMMON     0  /* White */
+#define RARITY_UNCOMMON   1  /* Green */
+#define RARITY_RARE       2  /* Blue */
+#define RARITY_EPIC       3  /* Purple */
+#define RARITY_LEGENDARY  4  /* Orange */
+#define RARITY_ARTIFACT   5  /* Gold */
+
 /* Lever/dial/switch/button/pullchain flags */
 #define TRIG_UP			BV00
 #define TRIG_UNLOCK		BV01
@@ -2586,6 +2596,7 @@ struct obj_index_data
    int rent;   /* Unused */
    int magic_flags;  /*Need more bitvectors for spells - Scryn */
    int wear_flags;
+   short rarity;
    short count;
    short weight;
    short layers;
@@ -2617,6 +2628,7 @@ struct obj_data
    const char *description;
    const char *action_desc;
    const char *owner;
+   short rarity;
    short item_type;
    short mpscriptpos;
    EXT_BV extra_flags;
@@ -4092,7 +4104,6 @@ DECLARE_DO_FUN( do_retire );
 DECLARE_DO_FUN( do_retiredtalk );
 DECLARE_DO_FUN( do_retran );
 DECLARE_DO_FUN( do_return );
-DECLARE_DO_FUN( do_revert );
 DECLARE_DO_FUN( do_rip );
 DECLARE_DO_FUN( do_rlist );
 DECLARE_DO_FUN( do_rloop );

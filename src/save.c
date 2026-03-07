@@ -328,8 +328,6 @@ void save_char_obj( CHAR_DATA * ch )
       bool ferr;
 
       fwrite_char( ch, fp );
-      if( ch->morph )
-         fwrite_morph_data( ch, fp );
       if( ch->first_carrying )
          fwrite_obj( ch, ch->last_carrying, fp, 0, OS_CARRY, ch->pcdata->hotboot );
       if( sysdata.save_pets && ch->pcdata->pet )
@@ -728,6 +726,11 @@ void fwrite_obj( CHAR_DATA * ch, OBJ_DATA * obj, FILE * fp, int iNest, short os_
       fprintf( fp, "Timer        %d\n", obj->timer );
    if( obj->cost != obj->pIndexData->cost )
       fprintf( fp, "Cost         %d\n", obj->cost );
+    /* ============================================
+       Wowzers Mud: Save Item Rarity -Hansth
+       ============================================ */
+   if ( obj->rarity > 0 )
+      fprintf( fp, "Rarity       %d\n", obj->rarity );
    if( obj->value[0] || obj->value[1] || obj->value[2] || obj->value[3] || obj->value[4] || obj->value[5] )
       fprintf( fp, "Values       %d %d %d %d %d %d\n",
                obj->value[0], obj->value[1], obj->value[2], obj->value[3], obj->value[4], obj->value[5] );
@@ -809,7 +812,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover
    ch->name = NULL;
    if( d->host )
       ch->pcdata->recent_site = STRALLOC( d->host );
-   ch->act = multimeb( PLR_BLANK, PLR_COMBINE, PLR_PROMPT, -1 );
+   ch->act = multimeb( PLR_BLANK, PLR_COMBINE, PLR_PROMPT, PLR_ANSI, -1 );
    ch->perm_str = 13;
    ch->perm_int = 13;
    ch->perm_wis = 13;
@@ -846,7 +849,6 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover
    ch->pcdata->last_ignored = NULL;
    ch->pcdata->tell_history = NULL; /* imm only lasttell cmnd */
    ch->pcdata->lt_index = 0;  /* last tell index */
-   ch->morph = NULL;
    ch->pcdata->hotboot = FALSE;  /* Never changed except when PC is saved during hotboot save */
 
    found = FALSE;
@@ -908,8 +910,6 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover
          }
          else if( !strcmp( word, "OBJECT" ) )   /* Objects  */
             fread_obj( ch, fp, OS_CARRY );
-         else if( !strcmp( word, "MorphData" ) )   /* Morphs */
-            fread_morph_data( ch, fp );
          else if( !strcmp( word, "COMMENT" ) )
             fread_comment( ch, fp );   /* Comments */
          else if( !strcmp( word, "MOBILE" ) )
@@ -2225,6 +2225,8 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
          case 'R':
             KEY( "Room", room, get_room_index( fread_number( fp ) ) );
             KEY( "Rvnum", obj->room_vnum, fread_number( fp ) );
+            /* Wowzers Mud: Load Instance Rarity -Hansth */
+            KEY( "Rarity", obj->rarity, fread_number( fp ) );
             break;
 
          case 'S':

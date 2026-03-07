@@ -6672,6 +6672,13 @@ void fread_fuss_object( FILE * fp, AREA_DATA * tarea )
             KEY( "Long", pObjIndex->description, fread_string( fp ) );
             break;
 
+         case 'R':
+            /* ============================================
+               Wowzers Mud: Load Prototype Rarity -Hansth
+               ============================================ */
+            KEY( "Rarity", pObjIndex->rarity, fread_number( fp ) );
+            break;
+
          case 'S':
             KEY( "Short", pObjIndex->short_descr, fread_string( fp ) );
             if( !str_cmp( word, "Spells" ) )

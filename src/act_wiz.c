@@ -1858,6 +1858,7 @@ void do_ostat( CHAR_DATA* ch, const char* argument )
    ch_printf_color( ch, "&cWear_loc: &w%d\r\n", obj->wear_loc );
    ch_printf_color( ch, "&cCost: &Y%d  ", obj->cost );
    ch_printf_color( ch, "&cRent: &w%d  ", obj->pIndexData->rent );
+   ch_printf( ch, "Rarity: %d\r\n", obj->rarity );  /* Wowzers Mud: Display Item Rarity -Hansth */
    send_to_char_color( "&cTimer: ", ch );
    if( obj->timer > 0 )
       ch_printf_color( ch, "&R%d  ", obj->timer );
@@ -2157,14 +2158,6 @@ void do_mstat( CHAR_DATA* ch, const char* argument )
                              victim->pcdata->nuisance->flags, MAX_NUISANCE_STAGE, victim->pcdata->nuisance->power,
                              ctime( &victim->pcdata->nuisance->set_time ) );
       }
-   }
-   if( victim->morph )
-   {
-      if( victim->morph->morph )
-         pager_printf_color( ch, "&cMorphed as : (&C%d&c) &C%s    &cTimer: &C%d\r\n",
-                             victim->morph->morph->vnum, victim->morph->morph->short_desc, victim->morph->timer );
-      else
-         pager_printf_color( ch, "&cMorphed as: Morph was deleted.\r\n" );
    }
    pager_printf_color( ch, "&cAffected by: &C%s\r\n", affect_bit_name( &victim->affected_by ) );
    pager_printf_color( ch, "&cSpeaks: &w%d   &cSpeaking: &w%d   &cExperience: &w%d",
@@ -6911,7 +6904,6 @@ void do_cset( CHAR_DATA* ch, const char* argument )
       pager_printf_color( ch, "&wAutosave frequency (minutes):  &W%d\r\n", sysdata.save_frequency );
       pager_printf_color( ch, "  &wMax level difference bestow:  &W%-7d", sysdata.bestow_dif );
       pager_printf_color( ch, "&wChecking Imm_host is:          &W%s\r\n", ( sysdata.check_imm_host ) ? "ON" : "off" );
-      pager_printf_color( ch, "  &wMorph Optimization is:        &W%-7s", ( sysdata.morph_opt ) ? "ON" : "off" );
       pager_printf_color( ch, "&wSaving Pets is:                &W%s\r\n", (sysdata.save_pets) ? "ON" : "off" );
       pager_printf_color( ch, "  &wPkill looting is:             &W%-7s", (sysdata.pk_loot) ? "ON" : "off" );
       pager_printf_color( ch, "&wPkill_channels are:            &W%s\r\n", (sysdata.pk_channels) ? "ON" : "off" );
@@ -7310,13 +7302,6 @@ void do_cset( CHAR_DATA* ch, const char* argument )
          send_to_char( "Pkill looting is disabled.  (use cset pkloot 1 to enable)\r\n", ch );
          sysdata.pk_loot = FALSE;
       }
-   }
-   else if( !str_cmp( arg, "morph_opt" ) )
-   {
-      if( level )
-         sysdata.morph_opt = TRUE;
-      else
-         sysdata.morph_opt = FALSE;
    }
    else if( !str_cmp( arg, "mset_player" ) )
       sysdata.level_mset_player = level;
