@@ -1691,18 +1691,6 @@ ch_ret projectile_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * wield, OBJ
    if( prof_bonus )
       dam += prof_bonus / 4;
 
-   /*
-    * Calculate Damage Modifiers from Victim's Fighting Style
-    */
-   if( victim->position == POS_BERSERK )
-      dam = ( int )( 1.2 * dam );
-   else if( victim->position == POS_AGGRESSIVE )
-      dam = ( int )( 1.1 * dam );
-   else if( victim->position == POS_DEFENSIVE )
-      dam = ( int )( .85 * dam );
-   else if( victim->position == POS_EVASIVE )
-      dam = ( int )( .8 * dam );
-
    if( !IS_NPC( ch ) && ch->pcdata->learned[gsn_enhanced_damage] > 0 )
    {
       dam += ( int )( dam * LEARNED( ch, gsn_enhanced_damage ) / 120 );
@@ -2092,28 +2080,6 @@ ch_ret damage( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt )
           */
          if( IS_NPC( victim ) && victim->fighting )
             victim->position = POS_FIGHTING;
-         else if( victim->fighting )
-         {
-            switch ( victim->style )
-            {
-               case ( STYLE_EVASIVE ):
-                  victim->position = POS_EVASIVE;
-                  break;
-               case ( STYLE_DEFENSIVE ):
-                  victim->position = POS_DEFENSIVE;
-                  break;
-               case ( STYLE_AGGRESSIVE ):
-                  victim->position = POS_AGGRESSIVE;
-                  break;
-               case ( STYLE_BERSERK ):
-                  victim->position = POS_BERSERK;
-                  break;
-               default:
-                  victim->position = POS_FIGHTING;
-            }
-
-         }
-
       }
 
       if( victim->position > POS_STUNNED )
@@ -3212,29 +3178,7 @@ void set_fighting( CHAR_DATA * ch, CHAR_DATA * victim )
       fight->timeskilled = times_killed( ch, victim );
    ch->num_fighting = 1;
    ch->fighting = fight;
-   /*
-    * ch->position = POS_FIGHTING; 
-    */
-   if( IS_NPC( ch ) )
-      ch->position = POS_FIGHTING;
-   else
-      switch ( ch->style )
-      {
-         case ( STYLE_EVASIVE ):
-            ch->position = POS_EVASIVE;
-            break;
-         case ( STYLE_DEFENSIVE ):
-            ch->position = POS_DEFENSIVE;
-            break;
-         case ( STYLE_AGGRESSIVE ):
-            ch->position = POS_AGGRESSIVE;
-            break;
-         case ( STYLE_BERSERK ):
-            ch->position = POS_BERSERK;
-            break;
-         default:
-            ch->position = POS_FIGHTING;
-      }
+   ch->position = POS_FIGHTING;
    victim->num_fighting++;
    if( victim->switched && IS_AFFECTED( victim->switched, AFF_POSSESS ) )
    {
@@ -4071,9 +4015,7 @@ void do_kill( CHAR_DATA* ch, const char* argument )
       return;
    }
 
-   if( ch->position == POS_FIGHTING
-       || ch->position == POS_EVASIVE
-       || ch->position == POS_DEFENSIVE || ch->position == POS_AGGRESSIVE || ch->position == POS_BERSERK )
+   if( ch->position == POS_FIGHTING )
    {
       send_to_char( "You do the best you can!\r\n", ch );
       return;
@@ -4132,9 +4074,7 @@ void do_murder( CHAR_DATA* ch, const char* argument )
       }
    }
 
-   if( ch->position == POS_FIGHTING
-       || ch->position == POS_EVASIVE
-       || ch->position == POS_DEFENSIVE || ch->position == POS_AGGRESSIVE || ch->position == POS_BERSERK )
+   if( ch->position == POS_FIGHTING )
    {
       send_to_char( "You do the best you can!\r\n", ch );
       return;
@@ -4223,9 +4163,7 @@ void do_flee( CHAR_DATA* ch, const char* argument )
 
    if( !who_fighting( ch ) )
    {
-      if( ch->position == POS_FIGHTING
-          || ch->position == POS_EVASIVE
-          || ch->position == POS_DEFENSIVE || ch->position == POS_AGGRESSIVE || ch->position == POS_BERSERK )
+      if( ch->position == POS_FIGHTING )
       {
          if( ch->mount )
             ch->position = POS_MOUNTED;
