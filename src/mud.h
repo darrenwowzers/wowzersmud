@@ -118,6 +118,12 @@ typedef struct note_data NOTE_DATA;
 typedef struct board_data BOARD_DATA;
 typedef struct obj_data OBJ_DATA;
 typedef struct obj_index_data OBJ_INDEX_DATA;
+/* ============================================
+   Wowzers Mud: Loot Roll Typedefs -Hansth
+   ============================================ */
+typedef struct loot_roll_data      LOOT_ROLL_DATA;
+typedef struct roll_member_data    ROLL_MEMBER_DATA;
+
 /* ===========================================
    Wowzers Mud: Account System
    =========================================== */
@@ -1746,6 +1752,12 @@ typedef enum
 #define ITEM_LIGHTNING_BLADE  BV06
 #define ITEM_PKDISARMED       BV07  /* Maybe temporary, not a perma flag */
 
+/* Loot Roll States */
+#define ROLL_PENDING    0
+#define ROLL_PASS       1
+#define ROLL_GREED      2
+#define ROLL_NEED       3
+
 /* ============================================
    Wowzers Mud: ITEM RARITY LEVELS
    ============================================ */
@@ -2602,6 +2614,28 @@ struct obj_index_data
    short layers;
    short level;
    short item_type;
+};
+
+/* ============================================
+   Wowzers Mud: Loot Roll Structures -Hansth
+   ============================================ */
+struct roll_member_data
+{
+   ROLL_MEMBER_DATA * next;
+   ROLL_MEMBER_DATA * prev;
+   CHAR_DATA * ch;           /* The player rolling */
+   short              roll_type;    /* Pending, Pass, Greed, or Need */
+   short              roll_value;   /* Their 1-100 roll result */
+};
+
+struct loot_roll_data
+{
+   LOOT_ROLL_DATA * next;
+   LOOT_ROLL_DATA * prev;
+   OBJ_DATA * obj;          /* The item being rolled on */
+   ROLL_MEMBER_DATA * first_member; /* Linked list of players eligible */
+   ROLL_MEMBER_DATA * last_member;
+   int                timer;        /* Ticks remaining until auto-pass */
 };
 
 /*
@@ -3691,6 +3725,14 @@ extern struct system_data sysdata;
 extern int top_vroom;
 extern int top_herb;
 
+
+/* Wowzers Mud: Loot Roll Globals */
+extern LOOT_ROLL_DATA * first_loot_roll;
+extern LOOT_ROLL_DATA * last_loot_roll;
+/* Wowzers Mud: Loot Roll Functions */
+bool start_loot_roll( OBJ_DATA *obj, CHAR_DATA *killer );
+void roll_update( void );
+
 extern CMDTYPE *command_hash[126];
 
 extern struct class_type *class_table[MAX_CLASS];
@@ -3929,6 +3971,7 @@ DECLARE_DO_FUN( do_gold );
 DECLARE_DO_FUN( do_goto );
 DECLARE_DO_FUN( do_gouge );
 DECLARE_DO_FUN( do_grapple );
+DECLARE_DO_FUN( do_greed );
 DECLARE_DO_FUN( do_group );
 DECLARE_DO_FUN( do_gtell );
 DECLARE_DO_FUN( do_guilds );
@@ -4009,6 +4052,7 @@ DECLARE_DO_FUN( do_muse );
 DECLARE_DO_FUN( do_music );
 DECLARE_DO_FUN( do_mwhere );
 DECLARE_DO_FUN( do_name );
+DECLARE_DO_FUN( do_need );
 DECLARE_DO_FUN( do_newbiechat );
 DECLARE_DO_FUN( do_newbieset );
 DECLARE_DO_FUN( do_news );
@@ -4045,6 +4089,7 @@ DECLARE_DO_FUN( do_outcast );
 DECLARE_DO_FUN( do_oowner );
 DECLARE_DO_FUN( do_pager );
 DECLARE_DO_FUN( do_pardon );
+DECLARE_DO_FUN( do_pass );
 DECLARE_DO_FUN( do_password );
 DECLARE_DO_FUN( do_pcrename );
 DECLARE_DO_FUN( do_peace );

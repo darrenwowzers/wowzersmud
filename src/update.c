@@ -996,19 +996,6 @@ void char_update( void )
       }
 
       /*
-       * Morph timer expires 
-       */
-      if( ch->morph )
-      {
-         if( ch->morph->timer > 0 )
-         {
-            --ch->morph->timer;
-            if( ch->morph->timer == 0 )
-               do_unmorph_char( ch );
-         }
-      }
-
-      /*
        * To make people with a nuisance's flags life difficult 
        * * --Shaddai
        */
@@ -2103,6 +2090,7 @@ void update_handler( void )
    if( --pulse_second <= 0 )
    {
       pulse_second = PULSE_PER_SECOND;
+      roll_update(); /* Wowzers Mud: Tick down the Loot Rolls! -Hansth */
       char_check(  );
       check_dns(  );
       reboot_check( 0 );

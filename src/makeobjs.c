@@ -1,3 +1,4 @@
+
 /****************************************************************************
  * [S]imulated [M]edieval [A]dventure multi[U]ser [G]ame      |   \\._.//   *
  * -----------------------------------------------------------|   (0...0)   *
@@ -207,14 +208,27 @@ OBJ_DATA *make_corpse( CHAR_DATA * ch, CHAR_DATA * killer )
       obj_from_char( obj );
       if( IS_OBJ_STAT( obj, ITEM_INVENTORY ) || IS_OBJ_STAT( obj, ITEM_DEATHROT ) )
          extract_obj( obj );
-      else if( IS_OBJ_STAT( obj, ITEM_DEATHDROP ) )
+else if( IS_OBJ_STAT( obj, ITEM_DEATHDROP ) )
       {
          obj_to_room( obj, ch->in_room );
          oprog_drop_trigger( ch, obj );   /* mudprogs */
       }
       else
+      {
+         /* ============================================
+            Wowzers Mud: Loot Roll Intercept -Hansth
+            ============================================ */
+         /* If it is an NPC dying, killed by a PC, and the item is Uncommon (2) or higher... */
+         if ( IS_NPC(ch) && killer && !IS_NPC(killer) && obj->rarity >= 2 )
+         {
+            if ( start_loot_roll( obj, killer ) )
+               continue; /* Skip obj_to_obj! The item is now held in limbo! */
+         }
+
+         /* Standard loot drop for solo players or Common/Poor items */
          obj_to_obj( obj, corpse );
-   }
+      }
+    }
    return obj_to_room( corpse, ch->in_room );
 }
 

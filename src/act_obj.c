@@ -3339,3 +3339,249 @@ void do_rolldie( CHAR_DATA* ch, const char* argument )
       free( face_seen_table );
 }
 /*dice chance deal throw*/
+
+/* ============================================
+   Wowzers Mud: Need/Greed Loot Roll Engine -Hansth
+   ============================================ */
+
+/* Concrete global variables for the Loot Engine */
+LOOT_ROLL_DATA * first_loot_roll = NULL;
+LOOT_ROLL_DATA * last_loot_roll = NULL;
+
+/* Helper function to check if a roll is finished and resolve it -Hansth */
+void check_roll_resolution( LOOT_ROLL_DATA *roll )
+{
+   ROLL_MEMBER_DATA *member;
+   ROLL_MEMBER_DATA *winner = NULL;
+   int highest_roll = 0;
+   int winning_type = ROLL_PASS;
+
+   /* 1. Check if we are still waiting on anyone */
+   for ( member = roll->first_member; member; member = member->next )
+   {
+      if ( member->roll_type == ROLL_PENDING )
+         return; /* Someone hasn't rolled yet! Abort and wait. */
+   }
+
+   /* 2. Everyone has chosen. Calculate winner! */
+   /* First, check if anyone rolled NEED */
+   for ( member = roll->first_member; member; member = member->next )
+   {
+      if ( member->roll_type == ROLL_NEED )
+      {
+         if ( winning_type != ROLL_NEED || member->roll_value > highest_roll )
+         {
+            winner = member;
+            highest_roll = member->roll_value;
+            winning_type = ROLL_NEED;
+         }
+      }
+   }
+
+   /* 3. If no one needed, check GREED */
+   if ( !winner )
+   {
+      for ( member = roll->first_member; member; member = member->next )
+      {
+         if ( member->roll_type == ROLL_GREED )
+         {
+            if ( winning_type != ROLL_GREED || member->roll_value > highest_roll )
+            {
+               winner = member;
+               highest_roll = member->roll_value;
+               winning_type = ROLL_GREED;
+            }
+         }
+      }
+   }
+
+   /* 4. Distribute the item */
+   if ( winner )
+   {
+      ch_printf( winner->ch, "&YYou won the roll for %s! (%d %s)&w\r\n", 
+         roll->obj->short_descr, highest_roll, winning_type == ROLL_NEED ? "Need" : "Greed" );
+      
+      act( AT_YELL, "$n won the roll for $p!", winner->ch, roll->obj, NULL, TO_ROOM );
+      
+      /* Physically transfer the item to the winner */
+      obj_to_char( roll->obj, winner->ch );
+   }
+   else
+   {
+      /* Everyone passed! Drop it on the ground */
+      if ( roll->first_member && roll->first_member->ch->in_room )
+      {
+          obj_to_room( roll->obj, roll->first_member->ch->in_room );
+          act( AT_ACTION, "Everyone passed on $p. It falls to the ground.", 
+               roll->first_member->ch, roll->obj, NULL, TO_ROOM );
+          ch_printf( roll->first_member->ch, "Everyone passed on %s. It falls to the ground.\r\n", 
+               roll->obj->short_descr );
+      }
+   }
+
+   /* 5. Memory Cleanup (Prevent memory leaks!) */
+   UNLINK( roll, first_loot_roll, last_loot_roll, next, prev );
+   
+   while ( ( member = roll->first_member ) != NULL )
+   {
+      UNLINK( member, roll->first_member, roll->last_member, next, prev );
+      DISPOSE( member );
+   }
+   DISPOSE( roll );
+}
+
+void handle_loot_roll( CHAR_DATA *ch, short roll_choice )
+{
+   LOOT_ROLL_DATA *roll;
+   ROLL_MEMBER_DATA *member;
+   bool found_roll = FALSE;
+
+   /* Find the first roll this player is involved in that is still pending */
+   for ( roll = first_loot_roll; roll; roll = roll->next )
+   {
+      for ( member = roll->first_member; member; member = member->next )
+      {
+         if ( member->ch == ch && member->roll_type == ROLL_PENDING )
+         {
+            found_roll = TRUE;
+            member->roll_type = roll_choice;
+
+            if ( roll_choice == ROLL_PASS )
+            {
+               ch_printf( ch, "You passed on %s.\r\n", roll->obj->short_descr );
+               act( AT_ACTION, "$n passes on $p.", ch, roll->obj, NULL, TO_ROOM );
+            }
+            else
+            {
+               /* Generate the 1-100 roll! */
+               member->roll_value = number_range( 1, 100 );
+               
+               ch_printf( ch, "You rolled %d for %s on %s.\r\n", 
+                  member->roll_value, 
+                  (roll_choice == ROLL_NEED) ? "Need" : "Greed", 
+                  roll->obj->short_descr );
+                  
+               act( AT_ACTION, "$n rolls for $p.", ch, roll->obj, NULL, TO_ROOM );
+            }
+
+            /* Check if this was the last person we were waiting on */
+            check_roll_resolution( roll );
+            return; /* We only handle one pending roll at a time */
+         }
+      }
+   }
+
+   if ( !found_roll )
+      send_to_char( "You have no pending loot rolls right now.\r\n", ch );
+}
+
+/* ============================================
+   Wowzers Mud: Start Loot Roll -Hansth
+   ============================================ */
+bool start_loot_roll( OBJ_DATA *obj, CHAR_DATA *killer )
+{
+   CHAR_DATA *gch;
+   LOOT_ROLL_DATA *roll;
+   ROLL_MEMBER_DATA *member;
+   bool grouped = FALSE;
+
+   /* 1. Check if the killer is actually in a group */
+   for ( gch = killer->in_room->first_person; gch; gch = gch->next_in_room )
+   {
+      if ( gch != killer && is_same_group( killer, gch ) && !IS_NPC( gch ) )
+      {
+         grouped = TRUE;
+         break;
+      }
+   }
+
+   if ( !grouped )
+      return FALSE; /* Solo player! Let the item go to the corpse normally. */
+
+   /* 2. Create the Roll Event */
+   CREATE( roll, LOOT_ROLL_DATA, 1 );
+   roll->obj = obj;
+   roll->first_member = NULL;
+   roll->last_member = NULL;
+   roll->timer = 30; /* Optional: We can hook this into update.c later for AFK auto-passes */
+
+   /* 3. Add eligible group members to the roll */
+   for ( gch = killer->in_room->first_person; gch; gch = gch->next_in_room )
+   {
+      if ( is_same_group( killer, gch ) && !IS_NPC( gch ) )
+      {
+         CREATE( member, ROLL_MEMBER_DATA, 1 );
+         member->ch = gch;
+         member->roll_type = ROLL_PENDING;
+         member->roll_value = 0;
+         LINK( member, roll->first_member, roll->last_member, next, prev );
+         
+         /* Broadcast the popup window! */
+         ch_printf( gch, "\r\n&Y[Loot]: %s has dropped! Type 'need', 'greed', or 'pass'.&w\r\n", obj->short_descr );
+      }
+   }
+
+   LINK( roll, first_loot_roll, last_loot_roll, next, prev );
+   return TRUE; /* Roll successfully started! */
+}
+
+/* ============================================
+   Wowzers Mud: Loot Roll AFK Timer -Hansth
+   ============================================ */
+void roll_update( void )
+{
+   LOOT_ROLL_DATA *roll, *roll_next;
+   ROLL_MEMBER_DATA *member;
+   bool forced_pass;
+
+   for ( roll = first_loot_roll; roll; roll = roll_next )
+   {
+      /* Grab the next pointer BEFORE resolving, in case this roll gets deleted! */
+      roll_next = roll->next;
+
+      /* Decrement the timer (Called once per second) */
+      if ( --roll->timer <= 0 )
+      {
+         forced_pass = FALSE;
+
+         /* Force anyone who hasn't rolled to pass */
+         for ( member = roll->first_member; member; member = member->next )
+         {
+            if ( member->roll_type == ROLL_PENDING )
+            {
+               member->roll_type = ROLL_PASS;
+               if ( member->ch )
+               {
+                  ch_printf( member->ch, "&R[Loot]: You took too long and automatically passed on %s.&w\r\n", roll->obj->short_descr );
+               }
+               forced_pass = TRUE;
+            }
+         }
+
+         /* If we forced passes, trigger the resolution to give out the loot! */
+         if ( forced_pass )
+         {
+            check_roll_resolution( roll );
+         }
+      }
+   }
+}
+
+/* The actual player commands - Visible to dlsym */
+__attribute__((visibility("default")))
+void do_need( CHAR_DATA *ch, const char *argument )
+{
+   handle_loot_roll( ch, ROLL_NEED );
+}
+
+__attribute__((visibility("default")))
+void do_greed( CHAR_DATA *ch, const char *argument )
+{
+   handle_loot_roll( ch, ROLL_GREED );
+}
+
+__attribute__((visibility("default")))
+void do_pass( CHAR_DATA *ch, const char *argument )
+{
+   handle_loot_roll( ch, ROLL_PASS );
+}
