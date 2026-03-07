@@ -6645,22 +6645,17 @@ void do_eviscerate( CHAR_DATA *ch, const char *argument )
     /* Calculate Damage: Base + (Combo Points * Level Scaling) + AP Scaling -Hansth */
     dam = 10 + ( ch->combo_points * (ch->level / 2) ) + ( (get_attack_power(ch) / 10) * ch->combo_points );
 
-    /* Send the combat messages -Hansth */
+    /* Echo the combo point consumption! -Hansth */
     set_char_color( AT_BLOOD, ch );
-    ch_printf( ch, "You eviscerate %s for %d damage! (%d combo points)\r\n", 
-               IS_NPC(victim) ? victim->short_descr : victim->name, dam, ch->combo_points );
-               
-    act( AT_BLOOD, "$n viciously eviscerates you!", ch, NULL, victim, TO_VICT );
-    act( AT_BLOOD, "$n viciously eviscerates $N!", ch, NULL, victim, TO_NOTVICT );
+    ch_printf( ch, "You consume %d combo points!\r\n", ch->combo_points );
 
     /* Consume the points and trigger the Global Cooldown -Hansth */
     ch->combo_points = 0;
     ch->gcd = PULSE_GCD; 
 
-    /* Deal the actual damage (Uses TYPE_UNDEFINED unless you add gsn_eviscerate) -Hansth */
-    damage( ch, victim, dam, TYPE_UNDEFINED );
+    /* Deal the actual damage using our new GSN! -Hansth */
+    damage( ch, victim, dam, gsn_eviscerate );
 }
-
 #ifdef __cplusplus
 }
 #endif

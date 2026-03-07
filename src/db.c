@@ -116,7 +116,7 @@ short gsn_steal;
 short gsn_gouge;
 short gsn_poison_weapon;
 sh_int gsn_sinister_strike; // Sinister Strike for rogues -Hansth
-sh_int gsn_eviscerate; // Eviscerate finisher for rogues -Hansth
+short gsn_eviscerate; // Eviscerate finisher for rogues -Hansth
 
 /* thief & warrior */
 short gsn_disarm;
