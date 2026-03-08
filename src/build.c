@@ -1213,7 +1213,7 @@ void do_mset( CHAR_DATA* ch, const char* argument )
          send_to_char( "Syntax: mset <victim> <field>  <value>\r\n", ch );
       send_to_char( "\r\n", ch );
       send_to_char( "Field being one of:\r\n", ch );
-      send_to_char( "  str int wis dex con cha lck sex class\r\n", ch );
+      send_to_char( "  str int wis dex con cha lck sex class faction\r\n", ch );
       send_to_char( "  gold hp mana move practice align race\r\n", ch );
       send_to_char( "  hitroll damroll armor affected level\r\n", ch );
       send_to_char( "  thirst drunk full blood flags\r\n", ch );
@@ -1548,6 +1548,39 @@ void do_mset( CHAR_DATA* ch, const char* argument )
       victim->race = value;
       if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
          victim->pIndexData->race = value;
+      return;
+   }
+
+/* ============================================
+      Wowzers Mud: Faction Toggle -Hansth
+      ============================================ */
+   if( !str_cmp( arg2, "faction" ) )
+   {
+      if( !can_mmodify( ch, victim ) )
+         return;
+
+      if ( !str_cmp( arg3, "alliance" ) )
+         value = FACTION_ALLIANCE;
+      else if ( !str_cmp( arg3, "horde" ) )
+         value = FACTION_HORDE;
+      else if ( !str_cmp( arg3, "neutral" ) )
+         value = FACTION_NEUTRAL;
+      else
+      {
+         send_to_char( "Invalid faction. Please use: alliance, horde, or neutral.\r\n", ch );
+         return;
+      }
+
+      victim->faction = value;
+      
+      /* Update the prototype if editing a proto-mob! */
+    //  if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
+    //     victim->pIndexData->faction = value;
+         
+      ch_printf( ch, "You have set %s's faction to %s.\r\n", 
+         victim->name, 
+         value == FACTION_ALLIANCE ? "Alliance" : 
+         (value == FACTION_HORDE ? "Horde" : "Neutral") );
       return;
    }
 

@@ -2722,6 +2722,8 @@ void nanny_read_motd( DESCRIPTOR_DATA * d, const char *argument )
       act( AT_ACTION, "$N returns with you to the realms.", ch, NULL, ch->pcdata->pet, TO_CHAR );
    }
    do_look( ch, "auto" );
+   /* Wowzers Mud: Global Login Announcement -Hansth */
+   info_chan( "&W%s has entered the realm.", ch->name );
    mail_count( ch );
    check_loginmsg( ch );
 

@@ -378,6 +378,8 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
    fprintf( fp, "Sex          %d\n", ch->sex );
    fprintf( fp, "Class        %d\n", ch->Class );
    fprintf( fp, "Race         %d\n", ch->race );
+   /* Wowzers Mud: Save Faction -Hansth */
+   fprintf( fp, "Faction      %d\n", ch->faction );
    fprintf( fp, "Age          %d %d %d %d\n",
             ch->pcdata->age_bonus, ch->pcdata->day, ch->pcdata->month, ch->pcdata->year );
    fprintf( fp, "Languages    %d %d\n", ch->speaks, ch->speaking );
@@ -1307,6 +1309,8 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
              * 'E' was moved to after 'S' 
              */
          case 'F':
+            /* Wowzers Mud: Load Faction -Hansth */
+            KEY( "Faction", ch->faction, fread_number( fp ) );
             KEY( "Favor", ch->pcdata->favor, fread_number( fp ) );
             if( !strcmp( word, "Filename" ) )
             {

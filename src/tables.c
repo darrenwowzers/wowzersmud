@@ -77,6 +77,10 @@ DO_FUN *skill_function( const char *name )
    if ( !str_cmp( name, "do_sinister_strike" ) ) 
       return do_sinister_strike;
 
+/* Wowzers Mud: Failsafe command routing -Hansth */
+   if ( !str_cmp( name, "do_alliance" ) ) return do_alliance;
+   if ( !str_cmp( name, "do_horde" ) ) return do_horde;
+
    funHandle = dlsym( sysdata.dlHandle, name );
    if( ( error = dlerror(  ) ) )
    {
