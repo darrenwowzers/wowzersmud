@@ -1093,7 +1093,6 @@ void do_mset( CHAR_DATA* ch, const char* argument )
    char char1, char2;
    CHAR_DATA *victim;
    int value;
-   int minattr, maxattr;
    bool lockvictim;
    const char *origarg = argument;
 
@@ -1265,17 +1264,6 @@ void do_mset( CHAR_DATA* ch, const char* argument )
    if( lockvictim )
       ch->dest_buf = victim;
 
-   if( IS_NPC( victim ) )
-   {
-      minattr = 1;
-      maxattr = 25;
-   }
-   else
-   {
-      minattr = 3;
-      maxattr = 18;
-   }
-
    if( !str_cmp( arg2, "on" ) )
    {
       CHECK_SUBRESTRICTED( ch );
@@ -1300,108 +1288,42 @@ void do_mset( CHAR_DATA* ch, const char* argument )
    if( atoi( arg3 ) < -1 && value == -1 )
       value = atoi( arg3 );
 
-   if( !str_cmp( arg2, "str" ) )
+   /* ============================================
+      Wowzers Mud: MSET WoW Primary Stats -Hansth
+      ============================================ */
+   if ( !str_cmp( arg2, "str" ) || !str_cmp( arg2, "strength" ) )
    {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Strength range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_str = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_str = value;
+      if ( value < 0 || value > 9999 ) { send_to_char( "Stat range is 0 to 9999.\r\n", ch ); return; }
+      victim->perm_stat[STAT_STR] = value;
+      ch_printf( ch, "Strength set to %d.\r\n", value );
       return;
    }
-
-   if( !str_cmp( arg2, "int" ) )
+   if ( !str_cmp( arg2, "agi" ) || !str_cmp( arg2, "agility" ) )
    {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Intelligence range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_int = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_int = value;
+      if ( value < 0 || value > 9999 ) { send_to_char( "Stat range is 0 to 9999.\r\n", ch ); return; }
+      victim->perm_stat[STAT_AGI] = value;
+      ch_printf( ch, "Agility set to %d.\r\n", value );
       return;
    }
-
-   if( !str_cmp( arg2, "wis" ) )
+   if ( !str_cmp( arg2, "sta" ) || !str_cmp( arg2, "stamina" ) )
    {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Wisdom range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_wis = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_wis = value;
+      if ( value < 0 || value > 9999 ) { send_to_char( "Stat range is 0 to 9999.\r\n", ch ); return; }
+      victim->perm_stat[STAT_STA] = value;
+      ch_printf( ch, "Stamina set to %d.\r\n", value );
       return;
    }
-
-   if( !str_cmp( arg2, "dex" ) )
+   if ( !str_cmp( arg2, "int" ) || !str_cmp( arg2, "intellect" ) )
    {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Dexterity range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_dex = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_dex = value;
+      if ( value < 0 || value > 9999 ) { send_to_char( "Stat range is 0 to 9999.\r\n", ch ); return; }
+      victim->perm_stat[STAT_INT] = value;
+      ch_printf( ch, "Intellect set to %d.\r\n", value );
       return;
    }
-
-   if( !str_cmp( arg2, "con" ) )
+   if ( !str_cmp( arg2, "spi" ) || !str_cmp( arg2, "spirit" ) )
    {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Constitution range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_con = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_con = value;
-      return;
-   }
-
-   if( !str_cmp( arg2, "cha" ) )
-   {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Charisma range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_cha = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_cha = value;
-      return;
-   }
-
-   if( !str_cmp( arg2, "lck" ) )
-   {
-      if( !can_mmodify( ch, victim ) )
-         return;
-      if( value < minattr || value > maxattr )
-      {
-         ch_printf( ch, "Luck range is %d to %d.\r\n", minattr, maxattr );
-         return;
-      }
-      victim->perm_lck = value;
-      if( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
-         victim->pIndexData->perm_lck = value;
+      if ( value < 0 || value > 9999 ) { send_to_char( "Stat range is 0 to 9999.\r\n", ch ); return; }
+      victim->perm_stat[STAT_SPI] = value;
+      ch_printf( ch, "Spirit set to %d.\r\n", value );
       return;
    }
 
@@ -3678,6 +3600,29 @@ void do_oset( CHAR_DATA* ch, const char* argument )
          obj->pIndexData->rarity = rarity;
          
       send_to_char( "Item rarity set successfully.\r\n", ch );
+      return;
+   }
+
+/* ============================================
+      Wowzers Mud: OSET ITEM SET -Hansth
+      ============================================ */
+   if ( !str_cmp( arg2, "itemset" ) )
+   {
+      int set_id = atoi( arg3 );
+      
+      if ( set_id < 0 )
+      {
+         send_to_char( "Item Set ID must be 0 (None) or higher.\r\n", ch );
+         return;
+      }
+      
+      obj->item_set = set_id;
+      
+      /* Update prototype if modifying a prototype item -Hansth */
+      if ( IS_OBJ_STAT( obj, ITEM_PROTOTYPE ) )
+         obj->pIndexData->item_set = set_id;
+         
+      ch_printf( ch, "Item Set ID successfully changed to %d.\r\n", set_id );
       return;
    }
 
@@ -6512,7 +6457,9 @@ void fwrite_fuss_object( FILE * fpout, OBJ_INDEX_DATA * pObjIndex, bool install 
       ============================================ */
    if ( pObjIndex->rarity > 0 )
       fprintf( fpout, "Rarity   %d\n", pObjIndex->rarity );
-
+   /* Wowzers Mud: SAVE ITEM SET -Hansth */
+   if ( pObjIndex->item_set > 0 )
+      fprintf( fpout, "ItemSet  %d\n", pObjIndex->item_set );
    val0 = pObjIndex->value[0];
    val1 = pObjIndex->value[1];
    val2 = pObjIndex->value[2];
@@ -6637,10 +6584,13 @@ void fwrite_fuss_mobile( FILE * fpout, MOB_INDEX_DATA * pMobIndex, bool install 
    fprintf( fpout, "Stats3     %d %d %d\n", pMobIndex->damnodice, pMobIndex->damsizedice, pMobIndex->damplus );
    fprintf( fpout, "Stats4     %d %d %d %d %d\n",
             pMobIndex->height, pMobIndex->weight, pMobIndex->numattacks, pMobIndex->hitroll, pMobIndex->damroll );
-   fprintf( fpout, "Attribs    %d %d %d %d %d %d %d\n",
-            pMobIndex->perm_str,
-            pMobIndex->perm_int,
-            pMobIndex->perm_wis, pMobIndex->perm_dex, pMobIndex->perm_con, pMobIndex->perm_cha, pMobIndex->perm_lck );
+
+/* Wowzers Mud: WoW Mobile Stats -Hansth */
+   fprintf( fpout, "Stats       %d %d %d %d %d\n",
+            pMobIndex->perm_stat[STAT_STR], pMobIndex->perm_stat[STAT_AGI], 
+            pMobIndex->perm_stat[STAT_STA], pMobIndex->perm_stat[STAT_INT], 
+            pMobIndex->perm_stat[STAT_SPI] );
+
    fprintf( fpout, "Saves      %d %d %d %d %d\n",
             pMobIndex->saving_poison_death,
             pMobIndex->saving_wand, pMobIndex->saving_para_petri, pMobIndex->saving_breath, pMobIndex->saving_spell_staff );

@@ -390,6 +390,9 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
               && ch->was_in_room ) ? ch->was_in_room->vnum : ch->in_room->vnum );
 
    fprintf( fp, "HpManaMove   %d %d %d %d %d %d\n", ch->hit, ch->max_hit, ch->mana, ch->max_mana, ch->move, ch->max_move );
+   /* Wowzers Mud: Advanced Currencies -Hansth */
+   fprintf( fp, "Honor        %d\n", ch->pcdata->honor_points );
+   fprintf( fp, "Conquest     %d\n", ch->pcdata->conquest_points );
    fprintf( fp, "Gold         %d\n", ch->gold );
    fprintf( fp, "Exp          %d\n", ch->exp );
    fprintf( fp, "Height          %d\n", ch->height );
@@ -728,6 +731,9 @@ void fwrite_obj( CHAR_DATA * ch, OBJ_DATA * obj, FILE * fp, int iNest, short os_
       fprintf( fp, "Timer        %d\n", obj->timer );
    if( obj->cost != obj->pIndexData->cost )
       fprintf( fp, "Cost         %d\n", obj->cost );
+   /* Wowzers Mud: Item Sets -Hansth */
+   if ( obj->item_set > 0 )
+      fprintf( fp, "ItemSet      %d\n", obj->item_set );
     /* ============================================
        Wowzers Mud: Save Item Rarity -Hansth
        ============================================ */
@@ -1237,8 +1243,10 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
             }
 
             KEY( "Class", ch->Class, fread_number( fp ) );
-
-            /*
+            /* Wowzers Mud: Advanced Currencies -Hansth */
+            KEY( "Conquest", ch->pcdata->conquest_points, fread_number( fp ) );
+   
+         /*
              * Load color values - Samson 9-29-98 
              */
             if( !str_cmp( word, "Colors" ) )
@@ -1362,6 +1370,7 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
 
             KEY( "Hitroll", ch->hitroll, fread_number( fp ) );
             KEY( "Homepage", ch->pcdata->homepage, fread_string_nohash( fp ) );
+            KEY( "Honor", ch->pcdata->honor_points, fread_number( fp ) );
 
             if( !strcmp( word, "Homeowner" ) )
             {
@@ -2194,6 +2203,8 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
 
          case 'I':
             KEY( "ItemType", obj->item_type, fread_number( fp ) );
+            /* Wowzers Mud: Item Sets -Hansth */
+            KEY( "ItemSet", obj->item_set, fread_number( fp ) );
             break;
 
          case 'L':

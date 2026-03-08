@@ -1117,8 +1117,8 @@ void calc_max_hp_mana( CHAR_DATA *ch )
  */
 void affect_modify( CHAR_DATA * ch, AFFECT_DATA * paf, bool fAdd )
 {
-   OBJ_DATA *WPos, *DPos, *MPos, *ToDrop;
-   int WWeight, DWeight, MWeight, ToDropW;
+//   OBJ_DATA *WPos, *DPos, *MPos, *ToDrop;
+//   int WWeight, DWeight, MWeight, ToDropW;
    int mod;
    struct skill_type *skill;
    ch_ret retcode;
@@ -1470,7 +1470,7 @@ void affect_modify( CHAR_DATA * ch, AFFECT_DATA * paf, bool fAdd )
    /*
     * Check for weapon wielding.
     * Guard against recursion (for weapons with affects).
-    */
+    
    ToDrop = WPos = get_eq_char( ch, WEAR_WIELD );
    ToDropW = WWeight = WPos ? get_obj_weight( WPos ) : 0;
    DWeight = MWeight = 0;
@@ -1489,10 +1489,6 @@ void affect_modify( CHAR_DATA * ch, AFFECT_DATA * paf, bool fAdd )
    }
 
    if( !IS_NPC( ch ) && saving_char != ch
-       /*
-        * &&  (wield = get_eq_char(ch, WEAR_WIELD) ) != NULL
-        * &&   get_obj_weight(wield) > str_app[get_curr_str(ch)].wield ) 
-        */
        && ( WWeight + DWeight + MWeight ) > str_app[get_curr_str( ch )].wield )
    {
       static int depth;
@@ -1505,7 +1501,7 @@ void affect_modify( CHAR_DATA * ch, AFFECT_DATA * paf, bool fAdd )
          unequip_char( ch, ToDrop );
          depth--;
       }
-   }
+   }*/
 }
 
 /*
@@ -1772,24 +1768,6 @@ void update_aris( CHAR_DATA * ch )
    if( ch->in_room ) /* non-existant char booboo-fix --TRI */
       for( paf = ch->in_room->first_affect; paf; paf = paf->next )
          aris_affect( ch, paf );
-
-   /*
-    * Add in effects for polymorph 
-    */
-   if( ch->morph )
-   {
-      xSET_BITS( ch->affected_by, ch->morph->affected_by );
-      SET_BIT( ch->immune, ch->morph->immune );
-      SET_BIT( ch->resistant, ch->morph->resistant );
-      SET_BIT( ch->susceptible, ch->morph->suscept );
-      /*
-       * Right now only morphs have no_ things --Shaddai 
-       */
-      xSET_BITS( ch->no_affected_by, ch->morph->no_affected_by );
-      SET_BIT( ch->no_immune, ch->morph->no_immune );
-      SET_BIT( ch->no_resistant, ch->morph->no_resistant );
-      SET_BIT( ch->no_susceptible, ch->morph->no_suscept );
-   }
 
    /*
     * If they were hiding before, make them hiding again 
@@ -2155,6 +2133,83 @@ int apply_ac( OBJ_DATA * obj, int iWear )
    return 0;
 }
 
+/* ============================================
+   Wowzers Mud: Item Set Counter -Hansth
+   ============================================ */
+int count_set_pieces( CHAR_DATA *ch, int set_id )
+{
+   OBJ_DATA *obj;
+   int count = 0;
+
+   if ( !ch || set_id <= 0 )
+      return 0;
+
+   /* Loop through everything the player is carrying */
+   for ( obj = ch->first_carrying; obj; obj = obj->next_content )
+   {
+      /* If it is actively equipped AND matches the set ID, count it! */
+      if ( obj->wear_loc != WEAR_NONE && obj->item_set == set_id )
+         count++;
+   }
+
+   return count;
+}
+
+/* ============================================
+   Wowzers Mud: Update Item Set Bonuses -Hansth
+   ============================================ */
+void update_set_bonuses( CHAR_DATA *ch )
+{
+   int defias_count, devout_count, lightforge_count, gladiator_count;
+
+   if ( IS_NPC(ch) )
+      return;
+
+   /* 1. Strip away all existing set bonuses first to ensure a clean slate */
+   /* (Add any specific bonus variables here, like attack_power or crit_chance) */
+   ch->mod_stat[STAT_STR] = 0;
+   ch->mod_stat[STAT_AGI] = 0;
+   ch->mod_stat[STAT_STA] = 0;
+   ch->mod_stat[STAT_INT] = 0;
+   ch->mod_stat[STAT_SPI] = 0;
+
+   /* 2. Count current pieces */
+   defias_count     = count_set_pieces( ch, ITEM_SET_DEFIAS_LEATHER );
+   devout_count     = count_set_pieces( ch, ITEM_SET_DEVOUT );
+   lightforge_count = count_set_pieces( ch, ITEM_SET_LIGHTFORGE );
+   gladiator_count  = count_set_pieces( ch, ITEM_SET_GLADIATOR );
+
+   /* 3. Apply Defias Leather Bonuses */
+   if ( defias_count >= 3 )
+      ch->mod_stat[STAT_AGI] += 5;  /* 3-Piece Bonus: +5 Agility */
+   if ( defias_count >= 5 )
+      ch->mod_stat[STAT_STA] += 10; /* 5-Piece Bonus: +10 Stamina */
+
+   /* 4. Apply Westfall Devout Bonuses */
+   if ( devout_count >= 3 )
+      ch->mod_stat[STAT_INT] += 8;
+   if ( devout_count >= 5 )
+      ch->mod_stat[STAT_SPI] += 12;
+
+   /* 5. Apply Lightforge Armor Bonuses */
+   if ( lightforge_count >= 3 )
+      ch->mod_stat[STAT_STR] += 15;
+   if ( lightforge_count >= 5 )
+      ch->mod_stat[STAT_STA] += 20;
+
+   /* 6. Apply Gladiator's Pursuit Bonuses */
+   if ( gladiator_count >= 3 )
+   {
+      ch->mod_stat[STAT_STA] += 25;
+      /* Example of adding combat stats: ch->crit_chance += 2; */
+   }
+   if ( gladiator_count >= 5 )
+   {
+      ch->mod_stat[STAT_STR] += 30;
+      ch->mod_stat[STAT_AGI] += 30;
+   }
+}
+
 /*
  * Find a piece of eq on a character.
  * Will pick the top layer if clothing is layered.		-Thoric
@@ -2232,6 +2287,8 @@ void equip_char( CHAR_DATA * ch, OBJ_DATA * obj, int iWear )
    if( loading_char != ch
        && obj->item_type == ITEM_LIGHT && ( obj->value[2] != 0 || IS_SET( obj->value[3], PIPE_LIT ) ) && ch->in_room )
       ++ch->in_room->light;
+/* Wowzers Mud: Update Set Bonuses on Equip -Hansth */
+   update_set_bonuses( ch );
 }
 
 /*
@@ -2278,6 +2335,8 @@ void unequip_char( CHAR_DATA * ch, OBJ_DATA * obj )
    if( obj->item_type == ITEM_LIGHT
        && ( obj->value[2] != 0 || IS_SET( obj->value[3], PIPE_LIT ) ) && ch->in_room && ch->in_room->light > 0 )
       --ch->in_room->light;
+/* Wowzers Mud: Update Set Bonuses on Unequip -Hansth */
+   update_set_bonuses( ch );
 }
 
 /*

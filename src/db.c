@@ -1243,13 +1243,12 @@ void load_mobiles( AREA_DATA * tarea, FILE * fp )
 
       if( letter == 'C' )  /* Realms complex mob   -Thoric */
       {
-         pMobIndex->perm_str = fread_number( fp );
-         pMobIndex->perm_int = fread_number( fp );
-         pMobIndex->perm_wis = fread_number( fp );
-         pMobIndex->perm_dex = fread_number( fp );
-         pMobIndex->perm_con = fread_number( fp );
-         pMobIndex->perm_cha = fread_number( fp );
-         pMobIndex->perm_lck = fread_number( fp );
+         /* Wowzers Mud: Load WoW Stats -Hansth */
+         pMobIndex->perm_stat[STAT_STR] = fread_number( fp );
+         pMobIndex->perm_stat[STAT_INT] = fread_number( fp );
+         pMobIndex->perm_stat[STAT_SPI] = fread_number( fp );
+         pMobIndex->perm_stat[STAT_AGI] = fread_number( fp );
+         pMobIndex->perm_stat[STAT_STA] = fread_number( fp );
          pMobIndex->saving_poison_death = fread_number( fp );
          pMobIndex->saving_wand = fread_number( fp );
          pMobIndex->saving_para_petri = fread_number( fp );
@@ -1340,13 +1339,12 @@ void load_mobiles( AREA_DATA * tarea, FILE * fp )
       }
       else
       {
-         pMobIndex->perm_str = 13;
-         pMobIndex->perm_dex = 13;
-         pMobIndex->perm_int = 13;
-         pMobIndex->perm_wis = 13;
-         pMobIndex->perm_cha = 13;
-         pMobIndex->perm_con = 13;
-         pMobIndex->perm_lck = 13;
+         /* Wowzers Mud: Default WoW Stats -Hansth */
+         pMobIndex->perm_stat[STAT_STR] = 13;
+         pMobIndex->perm_stat[STAT_AGI] = 13;
+         pMobIndex->perm_stat[STAT_STA] = 13;
+         pMobIndex->perm_stat[STAT_INT] = 13;
+         pMobIndex->perm_stat[STAT_SPI] = 13;
          pMobIndex->race = 0;
          pMobIndex->Class = 3;
          pMobIndex->xflags = 0;
@@ -2717,14 +2715,12 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA * pMobIndex )
    mob->mobthac0 = pMobIndex->mobthac0;
    mob->hitplus = pMobIndex->hitplus;
    mob->damplus = pMobIndex->damplus;
-
-   mob->perm_str = pMobIndex->perm_str;
-   mob->perm_dex = pMobIndex->perm_dex;
-   mob->perm_wis = pMobIndex->perm_wis;
-   mob->perm_int = pMobIndex->perm_int;
-   mob->perm_con = pMobIndex->perm_con;
-   mob->perm_cha = pMobIndex->perm_cha;
-   mob->perm_lck = pMobIndex->perm_lck;
+   /* Wowzers Mud: Copy WoW Stats -Hansth */
+   {
+      int stat;
+      for ( stat = 0; stat < MAX_STATS; stat++ )
+         mob->perm_stat[stat] = pMobIndex->perm_stat[stat];
+   }
    mob->hitroll = pMobIndex->hitroll;
    mob->damroll = pMobIndex->damroll;
    mob->race = pMobIndex->race;
@@ -5560,13 +5556,12 @@ MOB_INDEX_DATA *make_mobile( int vnum, int cvnum, const char *name )
       pMobIndex->position = POS_STANDING;
       pMobIndex->defposition = POS_STANDING;
       pMobIndex->sex = 0;
-      pMobIndex->perm_str = 13;
-      pMobIndex->perm_dex = 13;
-      pMobIndex->perm_int = 13;
-      pMobIndex->perm_wis = 13;
-      pMobIndex->perm_cha = 13;
-      pMobIndex->perm_con = 13;
-      pMobIndex->perm_lck = 13;
+      /* Wowzers Mud: Base WoW Stats -Hansth */
+      pMobIndex->perm_stat[STAT_STR] = 13;
+      pMobIndex->perm_stat[STAT_AGI] = 13;
+      pMobIndex->perm_stat[STAT_STA] = 13;
+      pMobIndex->perm_stat[STAT_INT] = 13;
+      pMobIndex->perm_stat[STAT_SPI] = 13;
       pMobIndex->race = 0;
       pMobIndex->Class = 3;
       pMobIndex->xflags = 0;
@@ -5605,13 +5600,12 @@ MOB_INDEX_DATA *make_mobile( int vnum, int cvnum, const char *name )
       pMobIndex->position = cMobIndex->position;
       pMobIndex->defposition = cMobIndex->defposition;
       pMobIndex->sex = cMobIndex->sex;
-      pMobIndex->perm_str = cMobIndex->perm_str;
-      pMobIndex->perm_dex = cMobIndex->perm_dex;
-      pMobIndex->perm_int = cMobIndex->perm_int;
-      pMobIndex->perm_wis = cMobIndex->perm_wis;
-      pMobIndex->perm_cha = cMobIndex->perm_cha;
-      pMobIndex->perm_con = cMobIndex->perm_con;
-      pMobIndex->perm_lck = cMobIndex->perm_lck;
+      /* Wowzers Mud: Copy WoW Stats -Hansth */
+       {
+          int stat;
+          for ( stat = 0; stat < MAX_STATS; stat++ )
+             pMobIndex->perm_stat[stat] = cMobIndex->perm_stat[stat];
+       }
       pMobIndex->race = cMobIndex->race;
       pMobIndex->Class = cMobIndex->Class;
       pMobIndex->xflags = cMobIndex->xflags;
@@ -6664,6 +6658,11 @@ void fread_fuss_object( FILE * fp, AREA_DATA * tarea )
             }
             break;
 
+         case 'I':
+	    /* Wowzers Mud: Item Sets -Hansth */
+            KEY( "ItemSet", pObjIndex->item_set, fread_number( fp ) );
+	    break;
+
          case 'K':
             KEY( "Keywords", pObjIndex->name, fread_string( fp ) );
             break;
@@ -7157,26 +7156,40 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
                break;
             }
 
-            if( !str_cmp( word, "Attribs" ) )
+            /* ============================================
+               Wowzers Mud: Legacy & Modern Stat Loader -Hansth
+               ============================================ */
+            if( !str_cmp( word, "Attribs" ) || !str_cmp( word, "Stats" ) )
             {
                char *ln = fread_line( fp );
-               int x1, x2, x3, x4, x5, x6, x7;
+               int x1 = 0, x2 = 0, x3 = 0, x4 = 0, x5 = 0, x6 = 0, x7 = 0;
+               
+               /* sscanf returns the number of variables it successfully found */
+               int matched = sscanf( ln, "%d %d %d %d %d %d %d", &x1, &x2, &x3, &x4, &x5, &x6, &x7 );
 
-               x1 = x2 = x3 = x4 = x5 = x6 = x7 = 0;
-               sscanf( ln, "%d %d %d %d %d %d %d", &x1, &x2, &x3, &x4, &x5, &x6, &x7 );
-
-               pMobIndex->perm_str = x1;
-               pMobIndex->perm_int = x2;
-               pMobIndex->perm_wis = x3;
-               pMobIndex->perm_dex = x4;
-               pMobIndex->perm_con = x5;
-               pMobIndex->perm_cha = x6;
-               pMobIndex->perm_lck = x7;
+               if ( matched >= 7 )
+               {
+                  /* Old D&D Format (7 stats): Str Int Wis Dex Con Cha Lck */
+                  pMobIndex->perm_stat[STAT_STR] = x1;
+                  pMobIndex->perm_stat[STAT_INT] = x2;
+                  pMobIndex->perm_stat[STAT_SPI] = x3; /* Wis -> Spirit */
+                  pMobIndex->perm_stat[STAT_AGI] = x4; /* Dex -> Agility */
+                  pMobIndex->perm_stat[STAT_STA] = x5; /* Con -> Stamina */
+                  /* Charisma (x6) and Luck (x7) are discarded */
+               }
+               else
+               {
+                  /* New WoW Format (5 stats): Str Agi Sta Int Spi */
+                  pMobIndex->perm_stat[STAT_STR] = x1;
+                  pMobIndex->perm_stat[STAT_AGI] = x2;
+                  pMobIndex->perm_stat[STAT_STA] = x3;
+                  pMobIndex->perm_stat[STAT_INT] = x4;
+                  pMobIndex->perm_stat[STAT_SPI] = x5;
+               }
 
                fMatch = TRUE;
                break;
             }
-            break;
 
          case 'B':
             if( !str_cmp( word, "Bodyparts" ) )

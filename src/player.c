@@ -126,14 +126,15 @@ void do_worth( CHAR_DATA* ch, const char* argument )
    pager_printf( ch, "|Glory: %-4d |Weight: %-9d |Style: %-13s |Gold: %-14s |\r\n",
                  ch->pcdata->quest_curr, ch->carry_weight, buf, num_punct( ch->gold ) );
    send_to_pager( " ----------------------------------------------------------------------------\r\n", ch );
+/* Wowzers Mud: Advanced Currencies injected into empty spaces -Hansth */
    if( ch->level < 15 && !IS_PKILL( ch ) )
-      pager_printf( ch, "|            |Hitroll: -------- |Damroll: ----------- |                     |\r\n" );
+      pager_printf( ch, "|Honor: %-5d |Hitroll: -------- |Damroll: ----------- |Conquest: %-10d |\r\n",
+                    ch->pcdata->honor_points, ch->pcdata->conquest_points );
    else
-      pager_printf( ch, "|            |Hitroll: %-8d |Damroll: %-11d |                     |\r\n", GET_HITROLL( ch ),
-                    GET_DAMROLL( ch ) );
+      pager_printf( ch, "|Honor: %-5d |Hitroll: %-8d |Damroll: %-11d |Conquest: %-10d |\r\n", 
+                    ch->pcdata->honor_points, GET_HITROLL( ch ), GET_DAMROLL( ch ), ch->pcdata->conquest_points );
    send_to_pager( " ----------------------------------------------------------------------------\r\n", ch );
 }
-
 
 /* ============================================
    Wowzers Mud: BORDERED SCORE DASHBOARD -Hansth
@@ -421,6 +422,29 @@ void do_equipment( CHAR_DATA* ch, const char* argument )
 
    if( !found )
       send_to_char( "Nothing.\r\n", ch );
+/* ============================================
+      Wowzers Mud: Display Active Item Sets -Hansth
+      ============================================ */
+   {
+      int defias_count     = count_set_pieces( ch, ITEM_SET_DEFIAS_LEATHER );
+      int devout_count     = count_set_pieces( ch, ITEM_SET_DEVOUT );
+      int lightforge_count = count_set_pieces( ch, ITEM_SET_LIGHTFORGE );
+      int gladiator_count  = count_set_pieces( ch, ITEM_SET_GLADIATOR );
+
+      if ( defias_count > 0 || devout_count > 0 || lightforge_count > 0 || gladiator_count > 0 )
+      {
+         send_to_char( "\r\n&Y--- Active Item Sets ---&w\r\n", ch );
+         
+         if ( defias_count > 0 )
+            ch_printf( ch, "&O Defias Leather&w (%d/5 pieces)\r\n", defias_count );
+         if ( devout_count > 0 )
+            ch_printf( ch, "&O Westfall Devout&w (%d/5 pieces)\r\n", devout_count );
+         if ( lightforge_count > 0 )
+            ch_printf( ch, "&O Lightforge Armor&w (%d/5 pieces)\r\n", lightforge_count );
+         if ( gladiator_count > 0 )
+            ch_printf( ch, "&O Gladiator's Pursuit&w (%d/5 pieces)\r\n", gladiator_count );
+      }
+   }
 }
 
 void set_title( CHAR_DATA * ch, const char *title )

@@ -1768,6 +1768,15 @@ typedef enum
 #define RARITY_LEGENDARY  4  /* Orange */
 #define RARITY_ARTIFACT   5  /* Gold */
 
+/* ============================================
+   Wowzers Mud: Item Set Constants -Hansth
+   ============================================ */
+#define ITEM_SET_NONE             0
+#define ITEM_SET_DEFIAS_LEATHER   1
+#define ITEM_SET_DEVOUT           2
+#define ITEM_SET_LIGHTFORGE       3
+#define ITEM_SET_GLADIATOR        4
+
 /* Lever/dial/switch/button/pullchain flags */
 #define TRIG_UP			BV00
 #define TRIG_UNLOCK		BV01
@@ -2179,6 +2188,8 @@ struct mob_index_data
    short killed;
    short sex;
    short level;
+   /* Wowzers Mud: WoW Mobile Stats -Hansth */
+   sh_int perm_stat[MAX_STATS];
    EXT_BV act;
    EXT_BV affected_by;
    short alignment;
@@ -2211,11 +2222,9 @@ struct mob_index_data
    short damroll;
    short perm_str;
    short perm_int;
-   short perm_wis;
-   short perm_dex;
-   short perm_con;
-   short perm_cha;
-   short perm_lck;
+   short perm_agi;
+   short perm_sta;
+   short perm_spi;
    short saving_poison_death;
    short saving_wand;
    short saving_para_petri;
@@ -2536,6 +2545,8 @@ struct pc_data
    short quest_curr; /* current number of quest points */
    int quest_accum;  /* quest points accumulated in players life */
    short favor;   /* deity favor */
+   /* Wowzers Mud: Advanced Currencies -Hansth */
+   int conquest_points;
    short charmies;   /* Number of Charmies */
    int auth_state;
    time_t release_date; /* Auto-helling.. Altrag */
@@ -2608,7 +2619,8 @@ struct obj_index_data
    int rent;   /* Unused */
    int magic_flags;  /*Need more bitvectors for spells - Scryn */
    int wear_flags;
-   short rarity;
+   short rarity;             /* Wowzers Mud: Item Rarity -Hansth */
+   short item_set;           /* Wowzers Mud: Item Set ID -Hansth */
    short count;
    short weight;
    short layers;
@@ -2662,7 +2674,8 @@ struct obj_data
    const char *description;
    const char *action_desc;
    const char *owner;
-   short rarity;
+   short rarity;           /* Wowzers Mud: Item Rarity -Hansth */
+   int item_set;           /* Wowzers Mud: Item Set ID -Hansth */
    short item_type;
    short mpscriptpos;
    EXT_BV extra_flags;
@@ -4937,6 +4950,8 @@ void obj_from_char( OBJ_DATA * obj );
 int apply_ac( OBJ_DATA * obj, int iWear );
 OD *get_eq_char( CHAR_DATA * ch, int iWear );
 void equip_char( CHAR_DATA * ch, OBJ_DATA * obj, int iWear );
+void update_set_bonuses( CHAR_DATA *ch );
+int count_set_pieces ( CHAR_DATA *ch, int set_id );
 void unequip_char( CHAR_DATA * ch, OBJ_DATA * obj );
 int count_obj_list( OBJ_INDEX_DATA * pObjIndex, OBJ_DATA * list );
 void obj_from_room( OBJ_DATA * obj );
