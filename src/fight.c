@@ -3440,6 +3440,49 @@ void death_cry( CHAR_DATA * ch )
    ch->in_room = was_in_room;
 }
 
+/* ============================================
+   Wowzers Mud: Reputation on Kill -Hansth
+   ============================================ */
+void award_reputation( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+   int i;
+
+   if ( !ch || !victim || IS_NPC( ch ) || !IS_NPC( victim ) )
+      return;
+
+   /* 1. Killing a Defias Brotherhood Member */
+   if ( victim->rep_faction == FACTION_DEFIAS )
+   {
+      ch->pcdata->reputation[FACTION_DEFIAS] -= 25;
+      ch->pcdata->reputation[FACTION_STORMWIND] += 25;
+      ch_printf( ch, "&YYour standing with the Defias Brotherhood has decreased by 25.&w\r\n" );
+      ch_printf( ch, "&YYour standing with Stormwind has increased by 25.&w\r\n" );
+   }
+
+   /* 2. Killing a Stormwind Guard/Citizen */
+   if ( victim->rep_faction == FACTION_STORMWIND )
+   {
+      ch->pcdata->reputation[FACTION_STORMWIND] -= 100;
+      ch->pcdata->reputation[FACTION_DEFIAS] += 25;
+      ch_printf( ch, "&YYour standing with Stormwind has decreased by 100.&w\r\n" );
+      ch_printf( ch, "&YYour standing with the Defias Brotherhood has increased by 25.&w\r\n" );
+   }
+
+   /* 3. Killing a Scarlet Crusade Member */
+   if ( victim->rep_faction == FACTION_SCARLET )
+   {
+      ch->pcdata->reputation[FACTION_SCARLET] -= 25;
+      ch_printf( ch, "&YYour standing with the Scarlet Crusade has decreased by 25.&w\r\n" );
+   }
+   
+   /* Cap the maximum and minimum values so they don't break the WoW tiers */
+   for ( i = 0; i < MAX_FACTIONS; i++ )
+   {
+      if ( ch->pcdata->reputation[i] > 42999 ) ch->pcdata->reputation[i] = 42999;
+      if ( ch->pcdata->reputation[i] < -42999 ) ch->pcdata->reputation[i] = -42999;
+   }
+}
+
 OBJ_DATA *raw_kill( CHAR_DATA * ch, CHAR_DATA * victim )
 {
    OBJ_DATA *corpse_to_return = NULL;
@@ -3482,6 +3525,9 @@ OBJ_DATA *raw_kill( CHAR_DATA * ch, CHAR_DATA * victim )
       return NULL;
 
    corpse_to_return = make_corpse( victim, ch );
+   /* Wowzers Mud: Award Reputation -Hansth */
+   if ( ch )
+   award_reputation( ch, victim );
    if( victim->in_room->sector_type == SECT_OCEANFLOOR
        || victim->in_room->sector_type == SECT_UNDERWATER
        || victim->in_room->sector_type == SECT_WATER_SWIM || victim->in_room->sector_type == SECT_WATER_NOSWIM )

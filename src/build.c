@@ -1327,6 +1327,48 @@ void do_mset( CHAR_DATA* ch, const char* argument )
       return;
    }
 
+   /* ============================================
+      Wowzers Mud: MSET Reputation & Faction -Hansth
+      ============================================ */
+   if ( !str_cmp( arg2, "repfaction" ) )
+   {
+      if ( value < 0 || value >= MAX_FACTIONS )
+      {
+         ch_printf( ch, "Faction range is 0 to %d.\r\n", MAX_FACTIONS - 1 );
+         return;
+      }
+      victim->rep_faction = value;
+      if ( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
+         victim->pIndexData->rep_faction = value;
+      ch_printf( ch, "Reputation Faction set to %d.\r\n", value );
+      return;
+   }
+
+   if ( !str_cmp( arg2, "stormwind" ) && !IS_NPC( victim ) )
+   {
+      victim->pcdata->reputation[FACTION_STORMWIND] = value;
+      ch_printf( ch, "%s's Stormwind rep set to %d.\r\n", victim->name, value );
+      return;
+   }
+   if ( !str_cmp( arg2, "orgrimmar" ) && !IS_NPC( victim ) )
+   {
+      victim->pcdata->reputation[FACTION_ORGRIMMAR] = value;
+      ch_printf( ch, "%s's Orgrimmar rep set to %d.\r\n", victim->name, value );
+      return;
+   }
+   if ( !str_cmp( arg2, "defias" ) && !IS_NPC( victim ) )
+   {
+      victim->pcdata->reputation[FACTION_DEFIAS] = value;
+      ch_printf( ch, "%s's Defias rep set to %d.\r\n", victim->name, value );
+      return;
+   }
+   if ( !str_cmp( arg2, "scarlet" ) && !IS_NPC( victim ) )
+   {
+      victim->pcdata->reputation[FACTION_SCARLET] = value;
+      ch_printf( ch, "%s's Scarlet Crusade rep set to %d.\r\n", victim->name, value );
+      return;
+   }
+
    if( !str_cmp( arg2, "sav1" ) )
    {
       if( !can_mmodify( ch, victim ) )
@@ -3315,6 +3357,32 @@ void do_oset( CHAR_DATA* ch, const char* argument )
             obj->name = STRALLOC( buf );
          }
       }
+      return;
+   }
+
+   /* ============================================
+      Wowzers Mud: OSET Reputation Requirements -Hansth
+      ============================================ */
+   if ( !str_cmp( arg2, "reqfaction" ) )
+   {
+      if ( value < 0 || value >= MAX_FACTIONS )
+      {
+         ch_printf( ch, "Faction range is 0 to %d.\r\n", MAX_FACTIONS - 1 );
+         return;
+      }
+      obj->req_faction = value;
+      if ( IS_OBJ_STAT( obj, ITEM_PROTOTYPE ) )
+         obj->pIndexData->req_faction = value;
+      ch_printf( ch, "Required Faction set to %d.\r\n", value );
+      return;
+   }
+
+   if ( !str_cmp( arg2, "reqrep" ) )
+   {
+      obj->req_rep = value;
+      if ( IS_OBJ_STAT( obj, ITEM_PROTOTYPE ) )
+         obj->pIndexData->req_rep = value;
+      ch_printf( ch, "Required Reputation Level set to %d.\r\n", value );
       return;
    }
 
@@ -6443,6 +6511,11 @@ void fwrite_fuss_object( FILE * fpout, OBJ_INDEX_DATA * pObjIndex, bool install 
    fprintf( fpout, "Vnum     %d\n", pObjIndex->vnum );
    fprintf( fpout, "Keywords %s~\n", pObjIndex->name );
    fprintf( fpout, "Type     %s~\n", o_types[pObjIndex->item_type] );
+   /* Wowzers Mud: Save Reputation Requirements -Hansth */
+   if ( pObjIndex->req_faction > 0 )
+      fprintf( fpout, "ReqFaction  %d\n", pObjIndex->req_faction );
+   if ( pObjIndex->req_rep > 0 )
+      fprintf( fpout, "ReqRep      %d\n", pObjIndex->req_rep );
    fprintf( fpout, "Short    %s~\n", pObjIndex->short_descr );
    if( pObjIndex->description && pObjIndex->description[0] != '\0' )
       fprintf( fpout, "Long     %s~\n", pObjIndex->description );
@@ -6590,6 +6663,10 @@ void fwrite_fuss_mobile( FILE * fpout, MOB_INDEX_DATA * pMobIndex, bool install 
             pMobIndex->perm_stat[STAT_STR], pMobIndex->perm_stat[STAT_AGI], 
             pMobIndex->perm_stat[STAT_STA], pMobIndex->perm_stat[STAT_INT], 
             pMobIndex->perm_stat[STAT_SPI] );
+
+/* Wowzers Mud: Save Mob Faction -Hansth */
+   if ( pMobIndex->rep_faction > 0 )
+      fprintf( fpout, "RepFaction     %d\n", pMobIndex->rep_faction );
 
    fprintf( fpout, "Saves      %d %d %d %d %d\n",
             pMobIndex->saving_poison_death,

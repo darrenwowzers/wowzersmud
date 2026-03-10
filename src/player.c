@@ -32,6 +32,21 @@ void do_gold( CHAR_DATA* ch, const char* argument )
    ch_printf( ch, "You have %s gold pieces.\r\n", num_punct( ch->gold ) );
 }
 
+/* ============================================
+   Wowzers Mud: Reputation String Helper -Hansth
+   ============================================ */
+const char *get_rep_rank( int rep )
+{
+   if ( rep >= REP_EXALTED ) return "&YExalted&w";
+   if ( rep >= REP_REVERED ) return "&ORevered&w";
+   if ( rep >= REP_HONORED ) return "&GHonored&w";
+   if ( rep >= REP_FRIENDLY ) return "&gFriendly&w";
+   if ( rep >= REP_NEUTRAL ) return "&wNeutral&w";
+   if ( rep >= REP_UNFRIENDLY ) return "&OUnfriendly&w";
+   if ( rep >= REP_HOSTILE ) return "&RHostile&w";
+   return "&zHated&w";
+}
+
 void do_worth( CHAR_DATA* ch, const char* argument )
 {
    char buf[MAX_STRING_LENGTH];
@@ -133,6 +148,19 @@ void do_worth( CHAR_DATA* ch, const char* argument )
    else
       pager_printf( ch, "|Honor: %-5d |Hitroll: %-8d |Damroll: %-11d |Conquest: %-10d |\r\n", 
                     ch->pcdata->honor_points, GET_HITROLL( ch ), GET_DAMROLL( ch ), ch->pcdata->conquest_points );
+   send_to_pager( " ----------------------------------------------------------------------------\r\n", ch );
+/* ============================================
+      Wowzers Mud: Reputation Display -Hansth
+      ============================================ */
+   send_to_pager( "\r\n&W--- Reputations -----------------------------------------------------------&w\r\n", ch );
+   pager_printf( ch, " Stormwind:       %-22s (%d)\r\n", 
+                 get_rep_rank( ch->pcdata->reputation[FACTION_STORMWIND] ), ch->pcdata->reputation[FACTION_STORMWIND] );
+   pager_printf( ch, " Orgrimmar:       %-22s (%d)\r\n", 
+                 get_rep_rank( ch->pcdata->reputation[FACTION_ORGRIMMAR] ), ch->pcdata->reputation[FACTION_ORGRIMMAR] );
+   pager_printf( ch, " Defias B'hood:   %-22s (%d)\r\n", 
+                 get_rep_rank( ch->pcdata->reputation[FACTION_DEFIAS] ), ch->pcdata->reputation[FACTION_DEFIAS] );
+   pager_printf( ch, " Scarlet Crusade: %-22s (%d)\r\n", 
+                 get_rep_rank( ch->pcdata->reputation[FACTION_SCARLET] ), ch->pcdata->reputation[FACTION_SCARLET] );
    send_to_pager( " ----------------------------------------------------------------------------\r\n", ch );
 }
 

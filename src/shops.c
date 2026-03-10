@@ -542,7 +542,22 @@ void do_buy( CHAR_DATA* ch, const char* argument )
          return;
       }
 
-      if( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
+      /* ============================================
+         Wowzers Mud: Quartermaster Requirement -Hansth
+         ============================================ */
+      if ( obj->pIndexData->req_faction > 0 )
+      {
+         int required_faction = obj->pIndexData->req_faction;
+         int required_rep     = obj->pIndexData->req_rep;
+
+         if ( ch->pcdata->reputation[required_faction] < required_rep )
+         {
+            act( AT_TELL, "$n tells you 'I cannot sell that to you. You are not respected enough by my faction.'", keeper, NULL, ch, TO_VICT );
+            return;
+         }
+      }
+   
+   if( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
       {
          send_to_char( "You can't carry that many items.\r\n", ch );
          return;

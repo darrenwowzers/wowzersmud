@@ -393,6 +393,11 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
    /* Wowzers Mud: Advanced Currencies -Hansth */
    fprintf( fp, "Honor        %d\n", ch->pcdata->honor_points );
    fprintf( fp, "Conquest     %d\n", ch->pcdata->conquest_points );
+   /* Wowzers Mud: Save Reputation Array -Hansth */
+   fprintf( fp, "Reputation   %d %d %d %d %d\n",
+            ch->pcdata->reputation[0], ch->pcdata->reputation[1],
+            ch->pcdata->reputation[2], ch->pcdata->reputation[3],
+            ch->pcdata->reputation[4] );
    fprintf( fp, "Gold         %d\n", ch->gold );
    fprintf( fp, "Exp          %d\n", ch->exp );
    fprintf( fp, "Height          %d\n", ch->height );
@@ -725,6 +730,11 @@ void fwrite_obj( CHAR_DATA * ch, OBJ_DATA * obj, FILE * fp, int iNest, short os_
       fprintf( fp, "ItemType     %d\n", obj->item_type );
    if( obj->weight != obj->pIndexData->weight )
       fprintf( fp, "Weight       %d\n", obj->weight );
+   /* Wowzers Mud: Save Reputation Requirements -Hansth */
+   if ( obj->req_faction > 0 )
+      fprintf( fp, "ReqFaction   %d\n", obj->req_faction );
+   if ( obj->req_rep > 0 )
+      fprintf( fp, "ReqRep       %d\n", obj->req_rep );
    if( obj->level )
       fprintf( fp, "Level        %d\n", obj->level );
    if( obj->timer )
@@ -1635,6 +1645,23 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
             break;
 
          case 'R':
+         /* Wowzers Mud: Load Reputation Array -Hansth */
+         if ( !str_cmp( word, "Reputation" ) )
+         {
+            char *ln = fread_line( fp );
+            int r0 = 0, r1 = 0, r2 = 0, r3 = 0, r4 = 0;
+            
+            sscanf( ln, "%d %d %d %d %d", &r0, &r1, &r2, &r3, &r4 );
+            
+            ch->pcdata->reputation[0] = r0;
+            ch->pcdata->reputation[1] = r1;
+            ch->pcdata->reputation[2] = r2;
+            ch->pcdata->reputation[3] = r3;
+            ch->pcdata->reputation[4] = r4;
+            
+            fMatch = TRUE;
+            break;
+         }
             KEY( "Race", ch->race, fread_number( fp ) );
             KEY( "Rank", ch->pcdata->rank, fread_string_nohash( fp ) );
             KEY( "Resistant", ch->resistant, fread_number( fp ) );
@@ -2242,6 +2269,9 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
             KEY( "Rvnum", obj->room_vnum, fread_number( fp ) );
             /* Wowzers Mud: Load Instance Rarity -Hansth */
             KEY( "Rarity", obj->rarity, fread_number( fp ) );
+            /* Wowzers Mud: Load Reputation Requirements -Hansth */
+            KEY( "ReqFaction", obj->req_faction, fread_number( fp ) );
+            KEY( "ReqRep",     obj->req_rep,     fread_number( fp ) );
             break;
 
          case 'S':

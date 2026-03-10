@@ -6676,6 +6676,9 @@ void fread_fuss_object( FILE * fp, AREA_DATA * tarea )
                Wowzers Mud: Load Prototype Rarity -Hansth
                ============================================ */
             KEY( "Rarity", pObjIndex->rarity, fread_number( fp ) );
+            /* Wowzers Mud: Load Reputation Requirements -Hansth */
+            KEY( "ReqFaction", pObjIndex->req_faction, fread_number( fp ) );
+            KEY( "ReqRep",     pObjIndex->req_rep,     fread_number( fp ) );
             break;
 
          case 'S':
@@ -7263,7 +7266,6 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
                fMatch = TRUE;
                break;
             }
-
             KEY( "Desc", pMobIndex->description, fread_string( fp ) );
             break;
 
@@ -7330,7 +7332,10 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
             break;
 
          case 'R':
-            if( !str_cmp( word, "Race" ) )
+
+           KEY( "RepFaction", pMobIndex->rep_faction, fread_number( fp ) );
+
+           if( !str_cmp( word, "Race" ) )
             {
                short race = get_npc_race( fread_flagstring( fp ) );
 

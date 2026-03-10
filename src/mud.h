@@ -215,6 +215,28 @@ typedef bool SPEC_FUN( CHAR_DATA * ch );
 #define FORM_CAT            2
 
 /* ============================================
+   Wowzers Mud: Factions & Reputation -Hansth
+   ============================================ */
+#define MAX_FACTIONS           5
+
+/* Faction IDs */
+#define FACTION_NONE           0
+#define FACTION_STORMWIND      1
+#define FACTION_ORGRIMMAR      2
+#define FACTION_DEFIAS         3
+#define FACTION_SCARLET        4
+
+/* WoW Classic Reputation Thresholds */
+#define REP_EXALTED        42000
+#define REP_REVERED        21000
+#define REP_HONORED         9000
+#define REP_FRIENDLY        3000
+#define REP_NEUTRAL            0
+#define REP_UNFRIENDLY     -3000
+#define REP_HOSTILE        -6000
+#define REP_HATED         -36000
+
+/* ============================================
    WOW CLASSIC: FORWARD DECLARATIONS
    ============================================ */
 typedef struct party_data       PARTY_DATA;
@@ -2190,6 +2212,9 @@ struct mob_index_data
    short level;
    /* Wowzers Mud: WoW Mobile Stats -Hansth */
    sh_int perm_stat[MAX_STATS];
+   /* Wowzers Mud: Mob Faction -Hansth */
+   short rep_faction;
+   short faction;   
    EXT_BV act;
    EXT_BV affected_by;
    short alignment;
@@ -2295,6 +2320,7 @@ struct char_data
     short           form;  /* Wowzers Mud: Druid Shapeshift Form */
     CHAR_DATA * combo_target;
     sh_int          faction;
+    sh_int          rep_faction;
 PARTY_DATA * party;               /* Pointer to group/raid */
     INSTANCE_DATA * in_instance;         /* Pointer to current dungeon */
     BG_DATA * in_bg;               /* Pointer to active Battleground */
@@ -2545,6 +2571,8 @@ struct pc_data
    short quest_curr; /* current number of quest points */
    int quest_accum;  /* quest points accumulated in players life */
    short favor;   /* deity favor */
+   /* Wowzers Mud: Reputation Array -Hansth */
+   int reputation[MAX_FACTIONS];
    /* Wowzers Mud: Advanced Currencies -Hansth */
    int conquest_points;
    short charmies;   /* Number of Charmies */
@@ -2621,6 +2649,9 @@ struct obj_index_data
    int wear_flags;
    short rarity;             /* Wowzers Mud: Item Rarity -Hansth */
    short item_set;           /* Wowzers Mud: Item Set ID -Hansth */
+   /* Wowzers Mud: Reputation Requirements -Hansth */
+   short req_faction;
+   int req_rep;
    short count;
    short weight;
    short layers;
@@ -2676,6 +2707,9 @@ struct obj_data
    const char *owner;
    short rarity;           /* Wowzers Mud: Item Rarity -Hansth */
    int item_set;           /* Wowzers Mud: Item Set ID -Hansth */
+   /* Wowzers Mud: Reputation Requirements -Hansth */
+   short req_faction;
+   int req_rep;
    short item_type;
    short mpscriptpos;
    EXT_BV extra_flags;
