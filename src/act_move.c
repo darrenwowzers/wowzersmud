@@ -2446,11 +2446,12 @@ void do_climb( CHAR_DATA* ch, const char* argument )
 }
 
 /*
- * "enter" something (moves through an exit)			-Thoric
+ * "enter" something (moves through an exit or portal) -Thoric / Hansth
  */
 void do_enter( CHAR_DATA* ch, const char* argument )
 {
    EXIT_DATA *pexit;
+   OBJ_DATA *portal;
 
    if( argument[0] == '\0' )
    {
@@ -2472,11 +2473,58 @@ void do_enter( CHAR_DATA* ch, const char* argument )
       return;
    }
 
+   /* 1. Check for normal room exits first */
    if( ( pexit = find_door( ch, argument, TRUE ) ) != NULL && IS_SET( pexit->exit_info, EX_xENTER ) )
    {
       move_char( ch, pexit, 0 );
       return;
    }
+
+   /* ============================================
+      Wowzers Mud: Object Portals & Faction Lock -Hansth
+      ============================================ */
+   /* 2. Check for physical portal objects on the ground */
+   if ( ( portal = get_obj_here( ch, argument ) ) != NULL )
+   {
+      if ( portal->item_type != ITEM_PORTAL )
+      {
+         send_to_char( "You cannot enter that.\r\n", ch );
+         return;
+      }
+
+      /* 3. Reputation Faction Lock */
+      if ( portal->req_faction > 0 && !IS_NPC( ch ) )
+      {
+         int required_faction = portal->req_faction;
+         int required_rep     = portal->req_rep;
+
+         if ( ch->pcdata->reputation[required_faction] < required_rep )
+         {
+            act( AT_MAGIC, "The portal flares violently and rejects you! You are not trusted by this faction.", ch, NULL, NULL, TO_CHAR );
+            act( AT_MAGIC, "The portal flares violently and repels $n!", ch, NULL, NULL, TO_ROOM );
+            return;
+         }
+      }
+
+      /* 4. Execute the Teleport */
+      ROOM_INDEX_DATA *pRoomIndex = get_room_index( portal->value[0] );
+      if ( !pRoomIndex )
+      {
+         send_to_char( "This portal seems to be unstable and leads to nowhere.\r\n", ch );
+         return;
+      }
+
+      act( AT_MAGIC, "You step into $p and vanish!", ch, portal, NULL, TO_CHAR );
+      act( AT_MAGIC, "$n steps into $p and vanishes!", ch, portal, NULL, TO_ROOM );
+      
+      char_from_room( ch );
+      char_to_room( ch, pRoomIndex );
+      
+      act( AT_MAGIC, "$n steps out of a glowing portal!", ch, NULL, NULL, TO_ROOM );
+      do_look( ch, "auto" );
+      return;
+   }
+
    send_to_char( "You cannot enter that.\r\n", ch );
    return;
 }

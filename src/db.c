@@ -7269,6 +7269,11 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
             KEY( "Desc", pMobIndex->description, fread_string( fp ) );
             break;
 
+	 case 'F':
+            /* Wowzers Mud: Load Flight Node -Hansth */
+             KEY( "FlightNode", pMobIndex->flight_node, fread_number( fp ) );
+	    break;
+
          case 'G':
             if( !str_cmp( word, "Gender" ) )
             {

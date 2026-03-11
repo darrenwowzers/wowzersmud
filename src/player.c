@@ -933,3 +933,231 @@ void do_favor( CHAR_DATA * ch, const char *argument )
 
    ch_printf( ch, "%s considers you to be %s.\r\n", ch->pcdata->deity->name, buf );
 }
+
+/* ============================================
+   Wowzers Mud: Transportation Network -Hansth
+   ============================================ */
+const char *get_flight_name( int node )
+{
+   switch( node )
+   {
+      case FLIGHT_STORMWIND: return "Stormwind City";
+      case FLIGHT_IRONFORGE: return "Ironforge";
+      case FLIGHT_BOOTY_BAY: return "Booty Bay";
+      case FLIGHT_GROMGOL:   return "Grom'gol Base Camp";
+      case FLIGHT_ORGRIMMAR: return "Orgrimmar";
+   }
+   return "Unknown Destination";
+}
+
+int get_flight_vnum( int node )
+{
+   switch( node )
+   {
+      case FLIGHT_STORMWIND: return 11000; 
+      case FLIGHT_IRONFORGE: return 21000;
+      case FLIGHT_BOOTY_BAY: return 24802;
+      case FLIGHT_GROMGOL:   return 24000;
+      case FLIGHT_ORGRIMMAR: return 25000;
+   }
+   return 2; /* Limbo / Safe Room fallback */
+}
+
+/* IMPORTANT: Calculates the cost in gold to fly between two nodes */
+int get_flight_cost( int from_node, int to_node )
+{
+   if ( from_node == to_node ) 
+      return 0;
+      
+   /* You can expand this later to charge 100g for cross-continent, etc. */
+   return 50; /* Flat 50 gold fee for all flights */
+}
+
+void do_flight( CHAR_DATA *ch, const char *argument )
+{
+   CHAR_DATA *master;
+   bool found = FALSE;
+   int i, dest_node = 0;
+
+   if ( IS_NPC( ch ) )
+      return;
+
+   /* 1. Find the flightmaster in the room */
+   for ( master = ch->in_room->first_person; master; master = master->next_in_room )
+   {
+      if ( IS_NPC( master ) && master->flight_node > 0 )
+      {
+         found = TRUE;
+         break;
+      }
+   }
+
+   if ( !found )
+   {
+      send_to_char( "There is no flightmaster here to assist you.\r\n", ch );
+      return;
+   }
+
+   /* 2. Discover the current node if not already known */
+   if ( !ch->pcdata->known_flights[master->flight_node] )
+   {
+      ch->pcdata->known_flights[master->flight_node] = TRUE;
+      ch_printf( ch, "&GYou have discovered a new flight path: %s!&w\r\n", get_flight_name( master->flight_node ) );
+   }
+
+   /* 3. Show the flight menu if they didn't type a destination */
+   if ( argument[0] == '\0' || !str_cmp( argument, "list" ) )
+   {
+      act( AT_SAY, "$n tells you, 'Where would you like to fly today?'", master, NULL, ch, TO_VICT );
+      send_to_char( "\r\n&Y--- Available Flight Paths ---&w\r\n", ch );
+for ( i = 1; i < MAX_FLIGHT_NODES; i++ )
+      {
+         if ( ch->pcdata->known_flights[i] )
+         {
+            if ( i == master->flight_node )
+               ch_printf( ch, "  &W%-20s &g[You are here]&w\r\n", get_flight_name( i ) );
+            else
+               ch_printf( ch, "  &W%-20s &Y[%d gold]&w\r\n", get_flight_name( i ), get_flight_cost( master->flight_node, i ) );
+         }
+      }
+      send_to_char( "&Y------------------------------&w\r\n", ch );
+      send_to_char( "Syntax: flight <destination>\r\n", ch );
+      return;
+   }
+
+   /* 4. Find the destination they typed */
+   for ( i = 1; i < MAX_FLIGHT_NODES; i++ )
+   {
+      if ( ch->pcdata->known_flights[i] && !str_prefix( argument, get_flight_name( i ) ) )
+      {
+         dest_node = i;
+         break;
+      }
+   }
+
+   if ( dest_node == 0 )
+   {
+      act( AT_SAY, "$n tells you, 'I cannot fly you there. You either haven't discovered it, or it doesn't exist.'", master, NULL, ch, TO_VICT );
+      return;
+   }
+
+   if ( dest_node == master->flight_node )
+   {
+      act( AT_SAY, "$n tells you, 'You are already here! Grab a drink and relax.'", master, NULL, ch, TO_VICT );
+      return;
+   }
+
+/* 4.5 Payment Check */
+   int cost = get_flight_cost( master->flight_node, dest_node );
+   if ( ch->gold < cost )
+   {
+      char buf[MAX_STRING_LENGTH];
+      snprintf( buf, MAX_STRING_LENGTH, "$n tells you, 'You need %d gold to fly to %s. Come back when your coin purse is heavier.'", cost, get_flight_name( dest_node ) );
+      act( AT_SAY, buf, master, NULL, ch, TO_VICT );
+      return;
+   }
+
+   /* Deduct the gold */
+   ch->gold -= cost;
+   ch_printf( ch, "&YYou hand %d gold to %s.&w\r\n", cost, master->short_descr );
+
+   /* 5. Teleportation */
+   ROOM_INDEX_DATA *location = get_room_index( get_flight_vnum( dest_node ) );
+   if ( !location )
+   {
+      send_to_char( "That destination is currently closed for repairs (Invalid VNUM).\r\n", ch );
+      return;
+   }
+
+   act( AT_ACTION, "$n pays $N and climbs aboard a massive gryphon, soaring into the sky!", ch, NULL, master, TO_ROOM );
+   ch_printf( ch, "&YYou climb aboard the gryphon and take to the skies, flying to %s!&w\r\n", get_flight_name( dest_node ) );
+   
+   char_from_room( ch );
+   char_to_room( ch, location );
+   
+   act( AT_ACTION, "A massive gryphon lands, and $n climbs off.", ch, NULL, NULL, TO_ROOM );
+   do_look( ch, "auto" );
+}
+
+/* ============================================
+   Wowzers Mud: WoW Mount System -Hansth
+   ============================================ */
+void do_callmount( CHAR_DATA *ch, const char *argument )
+{
+   OBJ_DATA *obj;
+   CHAR_DATA *mob;
+   MOB_INDEX_DATA *pMobIndex;
+
+   if ( IS_NPC( ch ) ) return;
+
+   if ( argument[0] == '\0' )
+   {
+      send_to_char( "Summon which mount?\r\n", ch );
+      return;
+   }
+
+   if ( ch->mount )
+   {
+      send_to_char( "You are already mounted!\r\n", ch );
+      return;
+   }
+
+   if ( ( obj = get_obj_carry( ch, argument ) ) == NULL )
+   {
+      send_to_char( "You do not have that mount in your inventory.\r\n", ch );
+      return;
+   }
+
+   /* We use ITEM_TREASURE with Value 1 = 99 as our custom "Mount Item" flag */
+   if ( obj->item_type != ITEM_TREASURE || obj->value[1] != 99 )
+   {
+      send_to_char( "That is not a summonable mount.\r\n", ch );
+      return;
+   }
+
+   /* WoW Outdoors Check */
+   if ( xIS_SET( ch->in_room->room_flags, ROOM_INDOORS ) || ch->in_room->sector_type == SECT_INSIDE )
+   {
+      send_to_char( "You cannot summon a mount indoors.\r\n", ch );
+      return;
+   }
+
+   /* Value 0 holds the mob VNUM */
+   if ( ( pMobIndex = get_mob_index( obj->value[0] ) ) == NULL )
+   {
+      send_to_char( "This mount item is broken (invalid mob VNUM).\r\n", ch );
+      return;
+   }
+
+   /* Summon the mount and force the player onto it */
+   mob = create_mobile( pMobIndex );
+   char_to_room( mob, ch->in_room );
+   
+   xSET_BIT( mob->act, ACT_MOUNTABLE );
+   
+   ch->position = POS_MOUNTED;
+   ch->mount = mob;
+
+   act( AT_ACTION, "You use $p and summon $N, instantly leaping onto its back!", ch, obj, mob, TO_CHAR );
+   act( AT_ACTION, "$n summons $N and instantly leaps onto its back!", ch, NULL, mob, TO_ROOM );
+}
+
+void do_dismiss_mount( CHAR_DATA *ch, const char *argument )
+{
+   CHAR_DATA *mount;
+
+   if ( ( mount = ch->mount ) == NULL )
+   {
+      send_to_char( "You aren't riding anything right now.\r\n", ch );
+      return;
+   }
+
+   /* Safely detach the player from the mob before destroying it */
+   ch->position = POS_STANDING;
+   ch->mount = NULL;
+
+   act( AT_ACTION, "You leap off $N, and it vanishes into the ether.", ch, NULL, mount, TO_CHAR );
+   act( AT_ACTION, "$n leaps off $N, and the mount vanishes into the ether.", ch, NULL, mount, TO_ROOM );
+
+   extract_char( mount, TRUE );
+}

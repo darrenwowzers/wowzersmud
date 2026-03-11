@@ -237,6 +237,17 @@ typedef bool SPEC_FUN( CHAR_DATA * ch );
 #define REP_HATED         -36000
 
 /* ============================================
+   Wowzers Mud: Flight Paths -Hansth
+   ============================================ */
+/* Flight Node IDs */
+#define FLIGHT_NONE            0
+#define FLIGHT_STORMWIND       1
+#define FLIGHT_IRONFORGE       2
+#define FLIGHT_BOOTY_BAY       3
+#define FLIGHT_GROMGOL         4
+#define FLIGHT_ORGRIMMAR       5
+
+/* ============================================
    WOW CLASSIC: FORWARD DECLARATIONS
    ============================================ */
 typedef struct party_data       PARTY_DATA;
@@ -2215,6 +2226,8 @@ struct mob_index_data
    /* Wowzers Mud: Mob Faction -Hansth */
    short rep_faction;
    short faction;   
+   /* Wowzers Mud: Flightmaster Node ID -Hansth */
+   short flight_node;
    EXT_BV act;
    EXT_BV affected_by;
    short alignment;
@@ -2321,6 +2334,7 @@ struct char_data
     CHAR_DATA * combo_target;
     sh_int          faction;
     sh_int          rep_faction;
+    short           flight_node; /* Wowzers Mud: Flightmaster Node ID -Hansth */
 PARTY_DATA * party;               /* Pointer to group/raid */
     INSTANCE_DATA * in_instance;         /* Pointer to current dungeon */
     BG_DATA * in_bg;               /* Pointer to active Battleground */
@@ -2573,7 +2587,7 @@ struct pc_data
    short favor;   /* deity favor */
    /* Wowzers Mud: Reputation Array -Hansth */
    int reputation[MAX_FACTIONS];
-   /* Wowzers Mud: Advanced Currencies -Hansth */
+/* Wowzers Mud: Advanced Currencies -Hansth */
    int conquest_points;
    short charmies;   /* Number of Charmies */
    int auth_state;
@@ -3931,6 +3945,7 @@ DECLARE_DO_FUN( do_bstat );
 DECLARE_DO_FUN( do_bug );
 DECLARE_DO_FUN( do_bury );
 DECLARE_DO_FUN( do_buy );
+DECLARE_DO_FUN( do_callmount );
 DECLARE_DO_FUN( do_cast );
 DECLARE_DO_FUN( do_cedit );
 DECLARE_DO_FUN( do_channels );
@@ -3974,6 +3989,7 @@ DECLARE_DO_FUN( do_dig );
 DECLARE_DO_FUN( do_disarm );
 DECLARE_DO_FUN( do_disconnect );
 DECLARE_DO_FUN( do_dismiss );
+DECLARE_DO_FUN( do_dismiss_mount ); //Hansth
 DECLARE_DO_FUN( do_dismount );
 DECLARE_DO_FUN( do_dmesg );
 DECLARE_DO_FUN( do_dnd );
@@ -4001,6 +4017,7 @@ DECLARE_DO_FUN( do_fire );
 DECLARE_DO_FUN( do_fixchar );
 DECLARE_DO_FUN( do_fixed );
 DECLARE_DO_FUN( do_flee );
+DECLARE_DO_FUN( do_flight ); //Hansth
 DECLARE_DO_FUN( do_foldarea );
 DECLARE_DO_FUN( do_follow );
 DECLARE_DO_FUN( do_for );

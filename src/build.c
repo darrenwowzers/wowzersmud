@@ -1328,6 +1328,23 @@ void do_mset( CHAR_DATA* ch, const char* argument )
    }
 
    /* ============================================
+      Wowzers Mud: MSET Flight Node -Hansth
+      ============================================ */
+   if ( !str_cmp( arg2, "flightnode" ) )
+   {
+      if ( value < 0 || value >= MAX_FLIGHT_NODES )
+      {
+         ch_printf( ch, "Flight node range is 0 to %d.\r\n", MAX_FLIGHT_NODES - 1 );
+         return;
+      }
+      victim->flight_node = value;
+      if ( IS_NPC( victim ) && xIS_SET( victim->act, ACT_PROTOTYPE ) )
+         victim->pIndexData->flight_node = value;
+      ch_printf( ch, "Flight Node set to %d.\r\n", value );
+      return;
+   }
+
+   /* ============================================
       Wowzers Mud: MSET Reputation & Faction -Hansth
       ============================================ */
    if ( !str_cmp( arg2, "repfaction" ) )
@@ -6667,6 +6684,9 @@ void fwrite_fuss_mobile( FILE * fpout, MOB_INDEX_DATA * pMobIndex, bool install 
 /* Wowzers Mud: Save Mob Faction -Hansth */
    if ( pMobIndex->rep_faction > 0 )
       fprintf( fpout, "RepFaction     %d\n", pMobIndex->rep_faction );
+/* Wowzers Mud: Save Flight Node -Hansth */
+   if ( pMobIndex->flight_node > 0 )
+      fprintf( fpout, "FlightNode  %d\n", pMobIndex->flight_node );
 
    fprintf( fpout, "Saves      %d %d %d %d %d\n",
             pMobIndex->saving_poison_death,

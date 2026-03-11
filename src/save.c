@@ -398,6 +398,13 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
             ch->pcdata->reputation[0], ch->pcdata->reputation[1],
             ch->pcdata->reputation[2], ch->pcdata->reputation[3],
             ch->pcdata->reputation[4] );
+   /* Wowzers Mud: Save Flight Paths -Hansth */
+   fprintf( fp, "Flights      " );
+   for ( int i = 0; i < MAX_FLIGHT_NODES; i++ )
+   {
+      fprintf( fp, "%d", ch->pcdata->known_flights[i] ? 1 : 0 );
+   }
+   fprintf( fp, "\n" );
    fprintf( fp, "Gold         %d\n", ch->gold );
    fprintf( fp, "Exp          %d\n", ch->exp );
    fprintf( fp, "Height          %d\n", ch->height );
@@ -1327,6 +1334,21 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
              * 'E' was moved to after 'S' 
              */
          case 'F':
+          /* Wowzers Mud: Load Flight Paths -Hansth */
+         if ( !str_cmp( word, "Flights" ) )
+         {
+            char *ln = fread_line( fp );
+            for ( int i = 0; i < MAX_FLIGHT_NODES; i++ )
+            {
+               /* Make sure we don't read past the end of the line */
+               if ( ln[i] == '\0' || ln[i] == '\n' || ln[i] == '\r' )
+                  break;
+                  
+               ch->pcdata->known_flights[i] = ( ln[i] == '1' ) ? TRUE : FALSE;
+            }
+            fMatch = TRUE;
+            break;
+         }
             /* Wowzers Mud: Load Faction -Hansth */
             KEY( "Faction", ch->faction, fread_number( fp ) );
             KEY( "Favor", ch->pcdata->favor, fread_number( fp ) );
