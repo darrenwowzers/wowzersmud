@@ -1530,6 +1530,13 @@ void affect_to_char( CHAR_DATA * ch, AFFECT_DATA * paf )
    paf_new->location = paf->location;
    paf_new->modifier = paf->modifier;
    paf_new->bitvector = paf->bitvector;
+   /* ============================================
+      Wowzers Mud: Auto-Inherit Aura Type -Hansth
+      ============================================ */
+   if ( paf->type >= 0 && paf->type < num_skills )
+      paf_new->aura_type = skill_table[paf->type]->aura_type;
+   else
+      paf_new->aura_type = paf->aura_type;
 
    affect_modify( ch, paf_new, TRUE );
 

@@ -585,20 +585,23 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
          }
    }
 
-   for( paf = ch->first_affect; paf; paf = paf->next )
-   {
-      if( paf->type >= 0 && ( skill = get_skilltype( paf->type ) ) == NULL )
-         continue;
+for( paf = ch->first_affect; paf; paf = paf->next )
+{
+   if( paf->type >= 0 && ( skill = get_skilltype( paf->type ) ) == NULL )
+      continue;
 
-      if( paf->type >= 0 && paf->type < TYPE_PERSONAL )
-         fprintf( fp, "AffectData   '%s' %3d %3d %3d %s\n",
-                  skill->name, paf->duration, paf->modifier, paf->location, print_bitvector( &paf->bitvector ) );
-      else
-         fprintf( fp, "Affect       %3d %3d %3d %3d %s\n",
-                  paf->type, paf->duration, paf->modifier, paf->location, print_bitvector( &paf->bitvector ) );
-   }
+   if( paf->type >= 0 && paf->type < TYPE_PERSONAL )
+      fprintf( fp, "AffectData   '%s' %3d %3d %3d %s\n",
+               skill->name, paf->duration, paf->modifier, paf->location, print_bitvector( &paf->bitvector ) );
+   else
+      fprintf( fp, "Affect       %3d %3d %3d %3d %s\n",
+               paf->type, paf->duration, paf->modifier, paf->location, print_bitvector( &paf->bitvector ) );
 
-   track = URANGE( 2, ( ( ch->level + 3 ) * MAX_KILLTRACK ) / LEVEL_AVATAR, MAX_KILLTRACK );
+   /* Wowzers Mud: Save Aura Type -Hansth */
+   if ( paf->aura_type > 0 )
+      fprintf( fp, "AuraType     %d\n", paf->aura_type );
+}
+track = URANGE( 2, ( ( ch->level + 3 ) * MAX_KILLTRACK ) / LEVEL_AVATAR, MAX_KILLTRACK );
    for( sn = 0; sn < track; sn++ )
    {
       if( ch->pcdata->killed[sn].vnum == 0 )
@@ -1177,6 +1180,15 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
                fMatch = TRUE;
                break;
             }
+
+         /* Wowzers Mud: Load Aura Type -Hansth */
+         if ( !strcmp( word, "AuraType" ) )
+         {
+            if ( ch->last_affect )
+               ch->last_affect->aura_type = fread_number( fp );
+            fMatch = TRUE;
+            break;
+         }
 
             if( file_ver < 5 )
                find_old_age( ch );

@@ -234,6 +234,29 @@ static int bsearch_skill_prefix( const char *name, int first, int top )
    }
 }
 
+/* ============================================
+   Wowzers Mud: Strip Specific Aura Type -Hansth
+   ============================================ */
+bool strip_aura( CHAR_DATA *ch, int aura_type )
+{
+   AFFECT_DATA *paf;
+   AFFECT_DATA *paf_next;
+   bool found = FALSE;
+
+   for( paf = ch->first_affect; paf; paf = paf_next )
+   {
+      paf_next = paf->next;
+      
+      if( paf->aura_type == aura_type )
+      {
+         affect_remove( ch, paf );
+         found = TRUE;
+         break; /* WoW Style: Only remove ONE effect per cast! */
+      }
+   }
+   return found;
+}
+
 /*
  * Perform a binary search on a section of the skill table	-Thoric
  * Each different section of the skill table is sorted alphabetically
@@ -3642,49 +3665,21 @@ ch_ret spell_poison( int sn, int level, CHAR_DATA * ch, void *vo )
    return rNONE;
 }
 
-ch_ret spell_remove_curse( int sn, int level, CHAR_DATA * ch, void *vo )
+/* Mage/Priest Remove Curse: Removes 1 Curse (WoW Aura Engine) */
+ch_ret spell_remove_curse( int sn, int level, CHAR_DATA *ch, void *vo )
 {
-   OBJ_DATA *obj;
-   CHAR_DATA *victim = ( CHAR_DATA * ) vo;
-   SKILLTYPE *skill = get_skilltype( sn );
+   CHAR_DATA *victim = (CHAR_DATA *) vo;
 
-   if( IS_SET( victim->immune, RIS_MAGIC ) )
+   if ( strip_aura( victim, AURA_CURSE ) )
    {
-      immune_casting( skill, ch, victim, NULL );
-      return rSPELL_FAILED;
+      act( AT_MAGIC, "You shatter the dark curse afflicting $N.", ch, NULL, victim, TO_CHAR );
+      act( AT_MAGIC, "The dark curse afflicting you shatters into dust.", ch, NULL, victim, TO_VICT );
+      act( AT_MAGIC, "$n shatters the dark curse afflicting $N.", ch, NULL, victim, TO_NOTVICT );
+      return rNONE;
    }
 
-   if( is_affected( victim, gsn_curse ) )
-   {
-      affect_strip( victim, gsn_curse );
-      set_char_color( AT_MAGIC, victim );
-      send_to_char( "The weight of your curse is lifted.\r\n", victim );
-      if( ch != victim )
-      {
-         act( AT_MAGIC, "You dispel the curses afflicting $N.", ch, NULL, victim, TO_CHAR );
-         act( AT_MAGIC, "$n's dispels the curses afflicting $N.", ch, NULL, victim, TO_NOTVICT );
-      }
-   }
-   else if( victim->first_carrying )
-   {
-      for( obj = victim->first_carrying; obj; obj = obj->next_content )
-         if( !obj->in_obj && ( IS_OBJ_STAT( obj, ITEM_NOREMOVE ) || IS_OBJ_STAT( obj, ITEM_NODROP ) ) )
-         {
-            if( IS_OBJ_STAT( obj, ITEM_NOREMOVE ) )
-               xREMOVE_BIT( obj->extra_flags, ITEM_NOREMOVE );
-            if( IS_OBJ_STAT( obj, ITEM_NODROP ) )
-               xREMOVE_BIT( obj->extra_flags, ITEM_NODROP );
-            set_char_color( AT_MAGIC, victim );
-            send_to_char( "You feel a burden released.\r\n", victim );
-            if( ch != victim )
-            {
-               act( AT_MAGIC, "You dispel the curses afflicting $N.", ch, NULL, victim, TO_CHAR );
-               act( AT_MAGIC, "$n's dispels the curses afflicting $N.", ch, NULL, victim, TO_NOTVICT );
-            }
-            return rNONE;
-         }
-   }
-   return rNONE;
+   send_to_char( "They are not afflicted by any curses.\r\n", ch );
+   return rSPELL_FAILED;
 }
 
 ch_ret spell_remove_trap( int sn, int level, CHAR_DATA * ch, void *vo )
@@ -6625,4 +6620,27 @@ ch_ret spell_midas_touch( int sn, int level, CHAR_DATA * ch, void *vo )
    send_to_char( "You transmogrify the item to gold!\r\n", ch );
 
    return rNONE;
+}
+
+/* Paladin Cleanse: Removes 1 Poison, 1 Disease, 1 Magic */
+ch_ret spell_cleanse( int sn, int level, CHAR_DATA *ch, void *vo )
+{
+   CHAR_DATA *victim = (CHAR_DATA *) vo;
+   bool cured = FALSE;
+
+   /* Run the stripper for all three types */
+   if ( strip_aura( victim, AURA_POISON ) ) cured = TRUE;
+   if ( strip_aura( victim, AURA_DISEASE ) ) cured = TRUE;
+   if ( strip_aura( victim, AURA_MAGIC ) ) cured = TRUE;
+
+   if ( cured )
+   {
+      act( AT_MAGIC, "A cleansing light washes over $N, purifying $S ailments.", ch, NULL, victim, TO_NOTVICT );
+      act( AT_MAGIC, "A cleansing light washes over you, purifying your ailments.", ch, NULL, victim, TO_VICT );
+      act( AT_MAGIC, "Your cleansing light purifies $N.", ch, NULL, victim, TO_CHAR );
+      return rNONE;
+   }
+
+   send_to_char( "They have no ailments that you can cleanse.\r\n", ch );
+   return rSPELL_FAILED;
 }

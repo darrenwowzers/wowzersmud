@@ -814,6 +814,19 @@ Minlevel     51
 End
 
 #SKILL
+Name         cleanse~
+Type         Spell
+Info         0
+Flags        0
+Target       1
+Minpos       112
+Mana         30
+Code         spell_cleanse
+Dammsg       (null)~
+Minlevel     51
+End
+
+#SKILL
 Name         cleave~
 Type         Skill
 Info         0
@@ -1775,6 +1788,17 @@ Dammsg       ~
 Wearoff      !evasive style!~
 Teachers     10340 3004~
 Minlevel     1
+End
+
+#SKILL
+Name         eviscerate~
+Type         Skill
+Info         0
+Flags        0
+Minpos       109
+Code         do_eviscerate
+Dammsg       evisceration~
+Minlevel     5
 End
 
 #SKILL
@@ -3475,6 +3499,7 @@ Name         poison~
 Type         Spell
 Info         0
 Flags        131072
+AuraType     3
 Target       1
 Minpos       112
 Slot         33

@@ -741,6 +741,9 @@ void fwrite_skill( FILE * fpout, SKILLTYPE * skill )
    fprintf( fpout, "Type         %s\n", skill_tname[skill->type] );
    fprintf( fpout, "Info         %d\n", skill->info );
    fprintf( fpout, "Flags        %d\n", skill->flags );
+   /* Wowzers Mud: Save Aura Type -Hansth */
+   if ( skill->aura_type > 0 )
+      fprintf( fpout, "AuraType     %d\n", skill->aura_type );
    if( skill->target )
       fprintf( fpout, "Target       %d\n", skill->target );
    /*
@@ -1080,7 +1083,9 @@ SKILLTYPE *fread_skill( FILE * fp )
                break;
             }
             KEY( "Alignment", skill->alignment, fread_number( fp ) );
-            break;
+            /* Wowzers Mud: Load Aura Type -Hansth */
+            KEY( "AuraType", skill->aura_type, fread_number( fp ) );
+         break;
 
          case 'C':
             if( !str_cmp( word, "Class" ) )

@@ -237,6 +237,16 @@ typedef bool SPEC_FUN( CHAR_DATA * ch );
 #define REP_HATED         -36000
 
 /* ============================================
+   Wowzers Mud: Aura Types (Buffs/Debuffs) -Hansth
+   ============================================ */
+#define AURA_NONE          0
+#define AURA_MAGIC         1
+#define AURA_CURSE         2
+#define AURA_POISON        3
+#define AURA_DISEASE       4
+#define AURA_PHYSICAL      5  /* For Bleeds, Hamstring, etc. */
+
+/* ============================================
    Wowzers Mud: Flight Paths -Hansth
    ============================================ */
 /* Flight Node IDs */
@@ -1364,6 +1374,8 @@ struct affect_data
    short location;
    int modifier;
    EXT_BV bitvector;
+   /* Wowzers Mud: Aura/Dispel Type -Hansth */
+   short aura_type;
 };
 
 /*
@@ -3114,6 +3126,8 @@ struct skill_type
    const char *teachers;   /* Skill requires a special teacher */
    char participants;   /* # of required participants */
    struct timerset userec; /* Usage record         */
+   /* Wowzers Mud: Skill Aura Type -Hansth */
+   short aura_type;
 };
 
 /* how many items to track.... prevent repeat auctions */
@@ -3911,6 +3925,7 @@ DECLARE_DO_FUN( do_answer );
 DECLARE_DO_FUN( do_apply );
 DECLARE_DO_FUN( do_appraise );
 DECLARE_DO_FUN( do_areas );
+DECLARE_DO_FUN( do_auras ); //Hansth
 DECLARE_DO_FUN( do_aset );
 DECLARE_DO_FUN( do_ask );
 DECLARE_DO_FUN( do_astat );
@@ -4501,6 +4516,8 @@ DECLARE_SPELL_FUN( spell_midas_touch );
 DECLARE_SPELL_FUN( spell_bethsaidean_touch );
 DECLARE_SPELL_FUN( spell_expurgation );
 DECLARE_SPELL_FUN( spell_sacral_divinity );
+DECLARE_SPELL_FUN( spell_cleanse );
+
 
 /*
  * Data files used by the server.
@@ -4991,6 +5008,7 @@ bool nifty_is_name_prefix( const char *str, const char *namelist );
 void affect_modify( CHAR_DATA * ch, AFFECT_DATA * paf, bool fAdd );
 void affect_to_char( CHAR_DATA * ch, AFFECT_DATA * paf );
 void affect_remove( CHAR_DATA * ch, AFFECT_DATA * paf );
+bool strip_aura( CHAR_DATA *ch, int aura_type ); //Hansth
 void affect_strip( CHAR_DATA * ch, int sn );
 bool is_affected( CHAR_DATA * ch, int sn );
 void affect_join( CHAR_DATA * ch, AFFECT_DATA * paf );

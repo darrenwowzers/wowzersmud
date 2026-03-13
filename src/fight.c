@@ -1497,6 +1497,35 @@ ch_ret one_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
    if( dam == 0 )
       return retcode;
 
+   /* ============================================
+      Wowzers Mud: WoW Weapon Poison Procs -Hansth
+      ============================================ */
+   if ( wield && xIS_SET( wield->extra_flags, ITEM_POISONED ) )
+   {
+      /* 20% flat proc rate (Classic WoW baseline) */
+      if ( number_percent( ) <= 20 )
+      {
+         int poison_sn = wield->value[5];
+
+         /* Fallback to standard poison if no specific spell is set */
+         if ( poison_sn <= 0 || poison_sn >= num_skills )
+            poison_sn = skill_lookup( "poison" );
+
+         if ( poison_sn > 0 && skill_table[poison_sn]->spell_fun )
+         {
+            act( AT_POISON, "&GYour weapon's poison coats $N!&w", ch, NULL, victim, TO_CHAR );
+            act( AT_POISON, "&G$n's weapon coats you in poison!&w", ch, NULL, victim, TO_VICT );
+            
+            /* Fire the exact spell directly at the target */
+            retcode = (*skill_table[poison_sn]->spell_fun) ( poison_sn, ch->level, ch, victim );
+            
+            /* Safety check in case the poison killed them instantly! */
+            if( retcode != rNONE || char_died( ch ) || char_died( victim ) )
+               return retcode;
+         }
+      }
+   }
+
    /*
     * Weapon spell support            -Thoric
     * Each successful hit casts a spell
