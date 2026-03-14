@@ -80,6 +80,17 @@ DO_FUN *skill_function( const char *name )
 /* Wowzers Mud: Failsafe command routing -Hansth */
    if ( !str_cmp( name, "do_alliance" ) ) return do_alliance;
    if ( !str_cmp( name, "do_horde" ) ) return do_horde;
+   if ( !str_cmp( name, "do_questlog" ) ) return do_questlog;
+   if ( !str_cmp( name, "do_qset" ) ) return do_qset; /* Add this! */
+/* Wowzers Mud: Failsafe command routing -Hansth */
+   if ( !str_cmp( name, "do_alliance" ) ) return do_alliance;
+   if ( !str_cmp( name, "do_horde" ) ) return do_horde;
+   if ( !str_cmp( name, "do_questlog" ) ) return do_questlog;
+   if ( !str_cmp( name, "do_qset" ) ) return do_qset;
+   if ( !str_cmp( name, "do_qedit" ) ) return do_qedit; /* Add this! */
+
+
+
 
    funHandle = dlsym( sysdata.dlHandle, name );
    if( ( error = dlerror(  ) ) )

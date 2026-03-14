@@ -160,6 +160,48 @@ bool is_fearing( CHAR_DATA * ch, CHAR_DATA * victim )
    return TRUE;
 }
 
+/* ============================================
+   Wowzers Mud: Quest Kill Tracker -Hansth
+   ============================================ */
+void update_quest_kill( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+   QUEST_DATA *pQuest;
+
+   /* Safety check: We only care if a Player killed an NPC */
+   if ( !ch || IS_NPC( ch ) || !victim || !IS_NPC( victim ) )
+      return;
+
+   for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+   {
+      /* Only check quests that are currently In Progress */
+      if ( pQuest->state == 0 )
+      {
+         /* TEST QUEST 100: Requires killing Mob VNUM 200 (e.g. a Boar) */
+         if ( pQuest->vnum == 100 && victim->pIndexData->vnum == 10415 ) 
+         {
+            /* They need 5 kills total */
+            if ( pQuest->obj_count[0] < 5 )
+            {
+               pQuest->obj_count[0]++;
+               
+               /* Flash the yellow WoW-style update on their screen */
+               ch_printf( ch, "\r\n&YQuest Update: %s slain: %d/5&w\r\n", 
+                          victim->short_descr, pQuest->obj_count[0] );
+
+               /* Did that final kill complete the objective? */
+               if ( pQuest->obj_count[0] >= 5 )
+               {
+                  pQuest->state = 1; /* 1 = Ready to Turn In */
+                  send_to_char( "&W*** Quest [100] is ready to turn in! ***&w\r\n", ch );
+               }
+               save_char_obj( ch );
+               return; /* Stop looping once we process the kill */
+            }
+         }
+      }
+   }
+}
+
 void stop_hunting( CHAR_DATA * ch )
 {
    if( ch->hunting )
@@ -3532,6 +3574,10 @@ OBJ_DATA *raw_kill( CHAR_DATA * ch, CHAR_DATA * victim )
    }
 
    stop_fighting( victim, TRUE );
+
+/* Wowzers Mud: Check for Quest Objectives before the corpse is made */
+   if ( ch && !IS_NPC( ch ) )
+      update_quest_kill( ch, victim );
 
 /* Wowzers Mud: Wipe the Threat Table to prevent memory leaks! */
    for( threat = victim->first_threat; threat; threat = threat_next )

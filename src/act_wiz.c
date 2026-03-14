@@ -11431,3 +11431,79 @@ void do_message( CHAR_DATA *ch, const char *argument )
       return;
    }
 }
+
+/* ============================================
+   Wowzers Mud: Immortal Quest Tool -Hansth
+   ============================================ */
+void do_qset( CHAR_DATA *ch, const char *argument )
+{
+   char arg1[MAX_INPUT_LENGTH];
+   char arg2[MAX_INPUT_LENGTH];
+   char arg3[MAX_INPUT_LENGTH];
+   char arg4[MAX_INPUT_LENGTH];
+   CHAR_DATA *victim;
+   QUEST_DATA *pQuest;
+   int vnum, state, obj1 = 0;
+   bool found = FALSE;
+
+   argument = one_argument( argument, arg1 );
+   argument = one_argument( argument, arg2 );
+   argument = one_argument( argument, arg3 );
+   argument = one_argument( argument, arg4 );
+
+   if ( arg1[0] == '\0' || arg2[0] == '\0' || arg3[0] == '\0' )
+   {
+      send_to_char( "&YSyntax: &Wqset <player> <quest_vnum> <state> [obj_count]\r\n", ch );
+      send_to_char( "&YStates: &W0 = In Progress, 1 = Ready, 2 = Completed\r\n", ch );
+      return;
+   }
+
+   if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
+   {
+      send_to_char( "They aren't here.\r\n", ch );
+      return;
+   }
+
+   if ( IS_NPC( victim ) )
+   {
+      send_to_char( "NPCs cannot have quests.\r\n", ch );
+      return;
+   }
+
+   vnum = atoi( arg2 );
+   state = atoi( arg3 );
+   
+   if ( arg4[0] != '\0' )
+      obj1 = atoi( arg4 );
+
+   /* Check if the player already has this quest in their log */
+   for ( pQuest = victim->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+   {
+      if ( pQuest->vnum == vnum )
+      {
+         found = TRUE;
+         pQuest->state = state;
+         pQuest->obj_count[0] = obj1;
+         ch_printf( ch, "Updated %s's Quest [%d] to state %d, obj counter: %d.\r\n", victim->name, vnum, state, obj1 );
+         break;
+      }
+   }
+
+   /* If they don't have it, create a new entry */
+   if ( !found )
+   {
+      CREATE( pQuest, QUEST_DATA, 1 );
+      pQuest->vnum = vnum;
+      pQuest->state = state;
+      pQuest->obj_count[0] = obj1;
+      pQuest->obj_count[1] = 0;
+      pQuest->obj_count[2] = 0;
+      pQuest->obj_count[3] = 0;
+      
+      LINK( pQuest, victim->pcdata->first_quest, victim->pcdata->last_quest, next, prev );
+      ch_printf( ch, "Added Quest [%d] to %s's log at state %d, obj counter: %d.\r\n", vnum, victim->name, state, obj1 );
+   }
+
+   /* Save the player so the data persists */
+   save_char_obj( victim );
+}

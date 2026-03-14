@@ -85,6 +85,51 @@ const char *const where_name[] = {
    "<BUG Inform Nivek>  "
 };
 
+/* ============================================
+   Wowzers Mud: Quest Visual Indicators -Hansth
+   ============================================ */
+const char *get_quest_indicator( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+   QUEST_DATA *pQuest;
+   bool has_quest = FALSE;
+   bool completed_quest = FALSE;
+
+   /* Only NPCs have quests, and Immortals don't need to see the markers */
+   if ( !IS_NPC( victim ) || IS_IMMORTAL( ch ) )
+      return "";
+
+   /* * TEMPORARY TEST LOGIC: 
+    * We will pretend Mob VNUM 3001 (usually the Mayor/Healer in Smaug) 
+    * is handing out Quest ID: 100.
+    */
+   if ( victim->pIndexData->vnum == 11001 )
+   {
+      /* Check the player's log to see if they already have it */
+      for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+      {
+         if ( pQuest->vnum == 100 )
+         {
+            has_quest = TRUE;
+            if ( pQuest->state == 1 ) /* 1 = Ready to Turn In */
+               completed_quest = TRUE;
+            break;
+         }
+      }
+
+      /* If they are ready to turn it in, show the ? */
+      if ( completed_quest )
+         return "&Y?&w ";
+      
+      /* If they don't have it at all, show the ! */
+      if ( !has_quest )
+         return "&Y!&w ";
+         
+      /* If they have it but aren't done, show nothing (or a silver ? later) */
+   }
+
+   return "";
+}
+
 /*
 StarMap was written by Nebseni of Clandestine MUD and ported to Smaug
 by Desden, el Chaman Tibetano.
@@ -831,7 +876,12 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
    if( victim->desc && victim->desc->connected == CON_EDITING )
       strlcat( buf, "(Writing) ", MAX_STRING_LENGTH );
    set_char_color( AT_PERSON, ch );
-if( victim->long_descr[0] != '\0' )
+
+      /* Wowzers Mud: Inject the Quest Marker! */
+      if ( !IS_NPC( ch ) )
+         strcat( buf, get_quest_indicator( ch, victim ) );
+
+   if( victim->long_descr[0] != '\0' )
     {
         strlcat( buf, victim->long_descr, MAX_STRING_LENGTH );
         send_to_char( buf, ch );
@@ -5190,4 +5240,210 @@ void do_version( CHAR_DATA* ch, const char* argument )
       ch_printf( ch, "Compiled on %s at %s.\r\n", __DATE__, __TIME__ );
 
 
+}
+
+/* ============================================
+   Wowzers Mud: The Quest UI & Handshake -Hansth
+   ============================================ */
+void do_questlog( CHAR_DATA *ch, const char *argument )
+{
+   QUEST_DATA *pQuest;
+   char arg1[MAX_INPUT_LENGTH];
+   char arg2[MAX_INPUT_LENGTH];
+   CHAR_DATA *victim;
+
+   if ( IS_NPC( ch ) )
+      return;
+
+   argument = one_argument( argument, arg1 );
+   argument = one_argument( argument, arg2 );
+
+   /* 1. View the Logbook */
+   if ( arg1[0] == '\0' )
+   {
+      send_to_char( "\r\n&Y---[ &WQuest Log &Y]---&w\r\n", ch );
+      
+      if ( !ch->pcdata->first_quest )
+      {
+         send_to_char( "  &wYour quest log is currently empty.\r\n", ch );
+         send_to_char( "&Y-------------------&w\r\n", ch );
+         return;
+      }
+
+      for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+      {
+         ch_printf( ch, "  &c[&W%5d&c] &wStatus: ", pQuest->vnum );
+         
+         if ( pQuest->state == 0 )
+            send_to_char( "&RIn Progress&w\r\n", ch );
+         else if ( pQuest->state == 1 )
+            send_to_char( "&GReady to Turn In&w\r\n", ch );
+         else
+            send_to_char( "&wCompleted/Failed\r\n", ch );
+      }
+      send_to_char( "&Y-------------------&w\r\n", ch );
+      return;
+   }
+
+   /* 2. Abandon a Quest */
+   if ( !str_cmp( arg1, "abandon" ) )
+   {
+      int qvnum;
+      
+      if ( arg2[0] == '\0' )
+      {
+         send_to_char( "Which quest ID do you want to abandon?\r\n", ch );
+         return;
+      }
+      
+      qvnum = atoi( arg2 );
+      
+      for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+      {
+         if ( pQuest->vnum == qvnum )
+         {
+            UNLINK( pQuest, ch->pcdata->first_quest, ch->pcdata->last_quest, next, prev );
+            DISPOSE( pQuest );
+            ch_printf( ch, "&wYou have abandoned Quest [%d].\r\n", qvnum );
+            save_char_obj( ch );
+            return;
+         }
+      }
+      send_to_char( "You aren't on that quest.\r\n", ch );
+      return;
+   }
+
+   /* 3. Accept a Quest */
+   if ( !str_cmp( arg1, "accept" ) )
+   {
+      if ( arg2[0] == '\0' )
+      {
+         send_to_char( "Accept a quest from whom?\r\n", ch );
+         return;
+      }
+
+      if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
+      {
+         send_to_char( "They aren't here.\r\n", ch );
+         return;
+      }
+
+      if ( !IS_NPC( victim ) )
+      {
+         send_to_char( "You can only accept quests from NPCs.\r\n", ch );
+         return;
+      }
+
+      /* Check if this is our designated Quest Giver! (Change VNUM if needed) */
+      if ( victim->pIndexData->vnum == 11001 ) 
+      {
+         bool has_quest = FALSE;
+
+         /* Check if the player already has it */
+         for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+         {
+            if ( pQuest->vnum == 100 )
+               has_quest = TRUE;
+         }
+
+         if ( has_quest )
+         {
+            send_to_char( "You are already on that quest.\r\n", ch );
+            return;
+         }
+
+         /* Give them the quest! */
+         CREATE( pQuest, QUEST_DATA, 1 );
+         pQuest->vnum = 100;
+         pQuest->state = 0;
+         pQuest->obj_count[0] = 0;
+         pQuest->obj_count[1] = 0;
+         pQuest->obj_count[2] = 0;
+         pQuest->obj_count[3] = 0;
+
+         LINK( pQuest, ch->pcdata->first_quest, ch->pcdata->last_quest, next, prev );
+         
+         ch_printf( ch, "&Y%s says: 'I need you to handle a dangerous task for me...'\r\n", victim->short_descr );
+         send_to_char( "\r\n&W*** You have accepted Quest [100]! ***\r\n", ch );
+         save_char_obj( ch );
+         return;
+      }
+
+      send_to_char( "They don't have any quests for you right now.\r\n", ch );
+      return;
+   }
+
+/* 4. Complete a Quest */
+   if ( !str_cmp( arg1, "complete" ) )
+   {
+      if ( arg2[0] == '\0' )
+      {
+         send_to_char( "Complete a quest with whom?\r\n", ch );
+         return;
+      }
+
+      if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
+      {
+         send_to_char( "They aren't here.\r\n", ch );
+         return;
+      }
+
+      if ( !IS_NPC( victim ) )
+      {
+         send_to_char( "You can only turn in quests to NPCs.\r\n", ch );
+         return;
+      }
+
+      /* Is this our designated Quest Giver? (Change VNUM to match your NPC) */
+      if ( victim->pIndexData->vnum == 11001 )
+      {
+         bool found_quest = FALSE;
+
+         for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+         {
+            if ( pQuest->vnum == 100 )
+            {
+               found_quest = TRUE;
+
+               /* Check if they actually finished the objectives */
+               if ( pQuest->state == 1 ) 
+               {
+                  /* Lock the quest as Completed */
+                  pQuest->state = 2;
+                  
+                  /* Hand out the Loot and XP! */
+                  ch->gold += 500;
+                  gain_exp( ch, 2500 ); 
+                  
+                  ch_printf( ch, "&Y%s says: 'Excellent work! Here is your reward.'\r\n", victim->short_descr );
+                  send_to_char( "\r\n&W*** You have completed Quest [100]! ***\r\n", ch );
+                  send_to_char( "&YYou receive 500 gold and 2500 experience points!&w\r\n", ch );
+                  
+                  save_char_obj( ch );
+                  return;
+               }
+               else if ( pQuest->state == 0 )
+               {
+                  ch_printf( ch, "&Y%s says: 'You haven't finished the task yet!'\r\n", victim->short_descr );
+                  return;
+               }
+               else if ( pQuest->state == 2 )
+               {
+                  ch_printf( ch, "&Y%s says: 'You already did this for me. I have nothing more for you.'\r\n", victim->short_descr );
+                  return;
+               }
+            }
+         }
+
+         if ( !found_quest )
+            send_to_char( "You don't have any business with them right now.\r\n", ch );
+            
+         return;
+      }
+
+      send_to_char( "They don't have any rewards for you right now.\r\n", ch );
+      return;
+   }
+
+send_to_char( "&YSyntax: &Wquestlog [accept <mob> | abandon <id> | complete <mob>]\r\n", ch );
 }

@@ -17,10 +17,70 @@
 
 #include <ctype.h>
 #include <stdio.h>
+#include <stdarg.h>
 #include <string.h>
 #include <bsd/string.h>
 #include <time.h>
 #include "mud.h"
+
+/* ============================================
+   Wowzers Mud: Cross-Faction Scrambler -Hansth
+   ============================================ */
+char *scramble_text( const char *argument, int faction )
+{
+   static char buf[MAX_STRING_LENGTH];
+   char word[MAX_INPUT_LENGTH];
+   const char *src = argument;
+   char *dest = buf;
+   int word_len;
+
+   /* Our WoW Dictionaries! */
+   const char *orcish_short[] = { "Kek", "Zug", "Bur", "Lok", "Mok", "Grom" };
+   const char *orcish_long[]  = { "Ogar", "Dabu", "Mankrik", "Lok'tar", "Kosh'harg" };
+   const char *common_short[] = { "Lo", "Ru", "Ma", "Tor", "Bor", "Ko" };
+   const char *common_long[]  = { "Modan", "Anosh", "Kaba", "Lordaeron", "Tirion" };
+
+   buf[0] = '\0';
+
+   while ( *src != '\0' )
+   {
+      /* Keep spaces and punctuation exactly as typed */
+      while ( *src != '\0' && !(*src >= 'a' && *src <= 'z') && !(*src >= 'A' && *src <= 'Z') )
+      {
+         *dest++ = *src++;
+      }
+      if ( *src == '\0' ) break;
+
+      /* Grab the actual word */
+      word_len = 0;
+      while ( *src != '\0' && ( (*src >= 'a' && *src <= 'z') || (*src >= 'A' && *src <= 'Z') ) )
+      {
+         word[word_len++] = *src++;
+      }
+      word[word_len] = '\0';
+
+      /* Hash the word to pick a consistent gibberish replacement */
+      int hash = ( word[0] + word_len ) % 5;
+      const char *replacement;
+
+      if ( faction == FACTION_HORDE ) 
+      {
+         if ( word_len <= 3 ) replacement = orcish_short[hash % 6];
+         else replacement = orcish_long[hash % 5];
+      }
+      else 
+      {
+         if ( word_len <= 3 ) replacement = common_short[hash % 6];
+         else replacement = common_long[hash % 5];
+      }
+
+      /* Copy replacement to destination buffer */
+      strcpy( dest, replacement );
+      dest += strlen( replacement );
+   }
+   *dest = '\0';
+   return buf;
+}
 
 bool in_same_house( CHAR_DATA * ch, CHAR_DATA * vch );
 
@@ -733,6 +793,32 @@ void to_channel( const char *argument, int channel, const char *verb, short leve
    }
 }
 
+/* ============================================
+   Wowzers Mud: Global Info Channel -Hansth
+   ============================================ */
+void info_chan( const char *fmt, ... )
+{
+   char buf[MAX_STRING_LENGTH];
+   va_list args;
+   DESCRIPTOR_DATA *d;
+
+   /* Format the string like printf -Hansth */
+   va_start( args, fmt );
+   vsnprintf( buf, MAX_STRING_LENGTH, fmt, args );
+   va_end( args );
+
+   /* Send it to every connected player */
+   for( d = first_descriptor; d; d = d->next )
+   {
+      if( d->connected == CON_PLAYING && d->character )
+      {
+         /* You can change AT_YELLOW to AT_IMMORT or whatever color fits your UI! */
+         set_char_color( AT_YELLOW, d->character );
+         ch_printf( d->character, "&Y[Info]&W: %s&w\r\n", buf );
+      }
+   }
+}
+
 void do_chat( CHAR_DATA* ch, const char* argument )
 {
    if( NOT_AUTHED( ch ) )
@@ -876,14 +962,70 @@ void do_shout( CHAR_DATA* ch, const char* argument )
    WAIT_STATE( ch, 12 );
 }
 
+/* ============================================
+   Wowzers Mud: Cross-Faction Yell -Hansth
+   ============================================ */
 void do_yell( CHAR_DATA* ch, const char* argument )
 {
+   DESCRIPTOR_DATA *d;
+
    if( NOT_AUTHED( ch ) )
    {
       send_to_char( "Huh?\r\n", ch );
       return;
    }
-   talk_channel( ch, drunk_speech( argument, ch ), CHANNEL_YELL, "yell" );
+
+   if ( argument[0] == '\0' )
+   {
+      send_to_char( "Yell what?\r\n", ch );
+      return;
+   }
+
+   /* Make sure they aren't in a silenced room */
+   if ( xIS_SET( ch->in_room->room_flags, ROOM_SILENCE ) || xIS_SET( ch->in_room->room_flags, ROOM_NOYELL ) )
+   {
+      send_to_char( "You can't do that here.\r\n", ch );
+      return;
+   }
+
+   /* Echo to the sender */
+   act( AT_YELL, "You yell '$t'", ch, drunk_speech( argument, ch ), NULL, TO_CHAR );
+
+   /* Broadcast to everyone in the same area */
+   for( d = first_descriptor; d; d = d->next )
+   {
+      if( d->connected == CON_PLAYING
+          && d->character != ch
+          && d->character->in_room
+          && d->character->in_room->area == ch->in_room->area
+          && !xIS_SET( d->character->in_room->room_flags, ROOM_SILENCE )
+          && !xIS_SET( d->character->in_room->room_flags, ROOM_NOYELL ) )
+      {
+         CHAR_DATA *vch = d->character;
+         bool understood = TRUE;
+         const char *sbuf = argument;
+
+         /* Check if they share a faction or bypass the barrier */
+         if ( IS_IMMORTAL(ch) || IS_IMMORTAL(vch) || IS_NPC(ch) || IS_NPC(vch) || 
+              ch->faction == vch->faction || 
+              ch->faction == FACTION_NEUTRAL || vch->faction == FACTION_NEUTRAL )
+         {
+            sbuf = argument;
+         }
+         else
+         {
+            sbuf = scramble_text( argument, ch->faction );
+            understood = FALSE;
+         }
+
+         sbuf = drunk_speech( sbuf, ch );
+
+         if ( understood )
+            act( AT_YELL, "$n yells '$t'", ch, sbuf, vch, TO_VICT );
+         else
+            act( AT_YELL, "$n yells in [Language] '$t'", ch, sbuf, vch, TO_VICT );
+      }
+   }
 }
 
 void do_immtalk( CHAR_DATA* ch, const char* argument )
@@ -1150,16 +1292,6 @@ void do_say( CHAR_DATA* ch, const char* argument )
    CHAR_DATA *vch;
    EXT_BV actflags;
    int arglen;
-#ifndef SCRAMBLE
-   int speaking = -1, lang;
-
-   for( lang = 0; lang_array[lang] != LANG_UNKNOWN; lang++ )
-      if( ch->speaking & lang_array[lang] )
-      {
-         speaking = lang;
-         break;
-      }
-#endif
 
    if( argument[0] == '\0' )
    {
@@ -1207,38 +1339,57 @@ void do_say( CHAR_DATA* ch, const char* argument )
          }
       }
 
-#ifndef SCRAMBLE
-      if( speaking != -1 && ( !IS_NPC( ch ) || ch->speaking ) )
-      {
-         int speakswell = UMIN( knows_language( vch, ch->speaking, ch ),
-                                knows_language( ch, ch->speaking, vch ) );
+      /* ============================================
+         Wowzers Mud: Cross-Faction Language Barrier -Hansth
+         ============================================ */
+      bool understood = TRUE;
 
-         if( speakswell < 75 )
-            sbuf = translate( speakswell, argument, lang_names[speaking] );
+
+/* TEMPORARY DEBUG LINE - REMOVE LATER */
+//      ch_printf( ch, "&Y[Debug Bypasses] ch_imm: %d | vch_imm: %d | ch_npc: %d | vch_npc: %d | ch_fac: %d | vch_fac: %d&w\r\n", 
+//                 IS_IMMORTAL(ch), IS_IMMORTAL(vch), IS_NPC(ch), IS_NPC(vch), ch->faction, vch->faction );
+
+      /* Check if they share a faction or bypass the barrier */
+      if ( IS_IMMORTAL(vch) || IS_NPC(ch) || IS_NPC(vch) || 
+           ch->faction == vch->faction || 
+           ch->faction == FACTION_NEUTRAL || vch->faction == FACTION_NEUTRAL )
+      {
+         sbuf = argument;
       }
-#else
-      if( !knows_language( vch, ch->speaking, ch ) && ( !IS_NPC( ch ) || ch->speaking != 0 ) )
-         sbuf = scramble( argument, ch->speaking );
-#endif
+      else
+      {
+         sbuf = scramble_text( argument, ch->faction );
+         understood = FALSE;
+      }
+
+      /* Apply drunken slurring if necessary! */
       sbuf = drunk_speech( sbuf, ch );
 
       MOBtrigger = FALSE;
       switch( lastchar )
       {
          case '?':
-            act( AT_SAY, "$n wonders '$t'", ch, sbuf, vch, TO_VICT );
+            if ( understood )
+               act( AT_SAY, "$n asks '$t'", ch, sbuf, vch, TO_VICT );
+            else
+               act( AT_SAY, "$n asks in [Language] '$t'", ch, sbuf, vch, TO_VICT );
             break;
 
-        case '!':
-            act( AT_SAY, "$n exclaims '$t'", ch, sbuf, vch, TO_VICT );
+         case '!':
+            if ( understood )
+               act( AT_SAY, "$n exclaims '$t'", ch, sbuf, vch, TO_VICT );
+            else
+               act( AT_SAY, "$n exclaims in [Language] '$t'", ch, sbuf, vch, TO_VICT );
             break;
 
-        default:
-            act( AT_SAY, "$n says '$t'", ch, sbuf, vch, TO_VICT );
+         default:
+            if ( understood )
+               act( AT_SAY, "$n says '$t'", ch, sbuf, vch, TO_VICT );
+            else
+               act( AT_SAY, "$n says in [Language] '$t'", ch, sbuf, vch, TO_VICT );
             break;
       }
-   }
-
+}
    ch->act = actflags;
    MOBtrigger = FALSE;
    switch( lastchar )
@@ -1308,6 +1459,17 @@ void do_whisper( CHAR_DATA* ch, const char* argument )
    if( ( victim = get_char_room( ch, arg ) ) == NULL )
    {
       send_to_char( "They aren't here.\r\n", ch );
+      return;
+   }
+
+   /* ============================================
+      Wowzers Mud: Block Cross-Faction Whispers -Hansth
+      ============================================ */
+   if ( !IS_IMMORTAL(ch) && !IS_IMMORTAL(victim) && !IS_NPC(ch) && !IS_NPC(victim) &&
+        ch->faction != victim->faction &&
+        ch->faction != FACTION_NEUTRAL && victim->faction != FACTION_NEUTRAL )
+   {
+      send_to_char( "You cannot communicate with the opposing faction.\r\n", ch );
       return;
    }
 
@@ -1531,6 +1693,17 @@ void do_tell( CHAR_DATA* ch, const char* argument )
        || ( !NOT_AUTHED( ch ) && NOT_AUTHED( victim ) && !IS_IMMORTAL( ch ) ) )
    {
       send_to_char( "They aren't here.\r\n", ch );
+      return;
+   }
+
+   /* ============================================
+      Wowzers Mud: Block Cross-Faction Tells -Hansth
+      ============================================ */
+   if ( !IS_IMMORTAL(ch) && !IS_IMMORTAL(victim) && !IS_NPC(ch) && !IS_NPC(victim) &&
+        ch->faction != victim->faction &&
+        ch->faction != FACTION_NEUTRAL && victim->faction != FACTION_NEUTRAL )
+   {
+      send_to_char( "You cannot communicate with the opposing faction.\r\n", ch );
       return;
    }
 
@@ -2391,7 +2564,8 @@ void do_quit( CHAR_DATA* ch, const char* argument )
    act( AT_SAY, "A strange voice says, 'We await your return, $n...'", ch, NULL, NULL, TO_CHAR );
    act( AT_BYE, "$n has left the game.", ch, NULL, NULL, TO_CANSEE );
    set_char_color( AT_GREY, ch );
-
+   /* Wowzers Mud: Global Logout Announcement -Hansth */
+   info_chan( "&w%s has left the realm.", ch->name );
    snprintf( log_buf, MAX_STRING_LENGTH, "%s has quit (Room %d).", ch->name, ( ch->in_room ? ch->in_room->vnum : -1 ) );
    quitting_char = ch;
    if( ch->level >= LEVEL_HERO && !ch->pcdata->pet ) /* Pet crash fix */
@@ -3585,4 +3759,76 @@ void do_racetalk( CHAR_DATA* ch, const char* argument )
       return;
    }
    talk_channel( ch, argument, CHANNEL_RACETALK, "racetalk" );
+}
+
+
+/* ============================================
+   Wowzers Mud: Faction Chat Channels -Hansth
+   ============================================ */
+__attribute__((visibility("default")))
+void do_alliance( CHAR_DATA *ch, const char *argument )
+{
+   DESCRIPTOR_DATA *d;
+
+   /* Must be Alliance or Immortal! */
+   if ( ch->faction != FACTION_ALLIANCE && !IS_IMMORTAL(ch) )
+   {
+      send_to_char( "You are not a member of the Alliance!\r\n", ch );
+      return;
+   }
+
+   if ( argument[0] == '\0' )
+   {
+      send_to_char( "What do you want to say to the Alliance?\r\n", ch );
+      return;
+   }
+
+   /* Echo to the sender */
+   ch_printf( ch, "&B[Alliance] %s: %s&w\r\n", ch->name, argument );
+
+   /* Broadcast to the faction */
+   for ( d = first_descriptor; d; d = d->next )
+   {
+      if ( d->connected == CON_PLAYING && d->character && d->character != ch )
+      {
+         if ( d->character->faction == FACTION_ALLIANCE || IS_IMMORTAL(d->character) )
+         {
+            ch_printf( d->character, "&B[Alliance] %s: %s&w\r\n", ch->name, argument );
+         }
+      }
+   }
+}
+
+__attribute__((visibility("default")))
+void do_horde( CHAR_DATA *ch, const char *argument )
+{
+   DESCRIPTOR_DATA *d;
+
+   /* Must be Horde or Immortal! */
+   if ( ch->faction != FACTION_HORDE && !IS_IMMORTAL(ch) )
+   {
+      send_to_char( "You are not a member of the Horde!\r\n", ch );
+      return;
+   }
+
+   if ( argument[0] == '\0' )
+   {
+      send_to_char( "What do you want to say to the Horde?\r\n", ch );
+      return;
+   }
+
+   /* Echo to the sender */
+   ch_printf( ch, "&R[Horde] %s: %s&w\r\n", ch->name, argument );
+
+   /* Broadcast to the faction */
+   for ( d = first_descriptor; d; d = d->next )
+   {
+      if ( d->connected == CON_PLAYING && d->character && d->character != ch )
+      {
+         if ( d->character->faction == FACTION_HORDE || IS_IMMORTAL(d->character) )
+         {
+            ch_printf( d->character, "&R[Horde] %s: %s&w\r\n", ch->name, argument );
+         }
+      }
+   }
 }

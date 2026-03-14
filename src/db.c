@@ -229,6 +229,8 @@ AREA_DATA *first_asort;
 AREA_DATA *last_asort;
 AREA_DATA *first_bsort;
 AREA_DATA *last_bsort;
+QUEST_INDEX_DATA *first_quest_index = NULL;
+QUEST_INDEX_DATA *last_quest_index = NULL;
 
 SYSTEM_DATA sysdata;
 
@@ -411,6 +413,9 @@ void boot_db( bool fCopyOver )
 
    log_string( "Loading socials" );
    load_socials(  );
+
+   log_string( "Loading quests..." );
+   load_quests(  );
 
    log_string( "Loading skill table" );
    load_skill_table(  );
@@ -9464,4 +9469,175 @@ void check_loginmsg( CHAR_DATA * ch )
          save_loginmsg(  );
       }
    }
+}
+
+
+/* ============================================
+   Wowzers Mud: Quest File I/O -Hansth
+   ============================================ */
+void save_quests( void )
+{
+   QUEST_INDEX_DATA *pQuest;
+   FILE *fp;
+   char filename[256];
+
+   snprintf( filename, 256, "%s%s", SYSTEM_DIR, "quests.dat" );
+
+   if ( ( fp = fopen( filename, "w" ) ) == NULL )
+   {
+      bug( "%s: fopen", __func__ );
+      perror( filename );
+      return;
+   }
+
+   for ( pQuest = first_quest_index; pQuest; pQuest = pQuest->next )
+   {
+      fprintf( fp, "#QUEST\n" );
+      fprintf( fp, "Vnum        %d\n", pQuest->vnum );
+      fprintf( fp, "Name        %s~\n", pQuest->name );
+      fprintf( fp, "Description %s~\n", pQuest->description );
+      fprintf( fp, "TurninMsg   %s~\n", pQuest->turnin_msg );
+      fprintf( fp, "Giver       %d\n", pQuest->quest_giver );
+      fprintf( fp, "Turnin      %d\n", pQuest->quest_turnin );
+      fprintf( fp, "ObjVnum     %d %d %d %d\n", pQuest->obj_vnum[0], pQuest->obj_vnum[1], pQuest->obj_vnum[2], pQuest->obj_vnum[3] );
+      fprintf( fp, "ObjCount    %d %d %d %d\n", pQuest->obj_count[0], pQuest->obj_count[1], pQuest->obj_count[2], pQuest->obj_count[3] );
+      fprintf( fp, "RewardGold  %d\n", pQuest->reward_gold );
+      fprintf( fp, "RewardExp   %d\n", pQuest->reward_exp );
+      fprintf( fp, "RewardItem  %d\n", pQuest->reward_item );
+      fprintf( fp, "End\n\n" );
+   }
+   fprintf( fp, "#END\n" );
+   FCLOSE( fp );
+}
+
+void load_quests( void )
+{
+   FILE *fp;
+   char filename[256];
+
+   snprintf( filename, 256, "%s%s", SYSTEM_DIR, "quests.dat" );
+
+   if ( ( fp = fopen( filename, "r" ) ) == NULL )
+      return; /* File just doesn't exist yet, which is fine on first boot! */
+
+   for ( ; ; )
+   {
+      char letter;
+      const char *word; /* Changed to const char* to satisfy the C++ compiler */
+
+      letter = fread_letter( fp );
+      if ( letter == '*' )
+      {
+         fread_to_eol( fp );
+         continue;
+      }
+
+      if ( letter != '#' )
+      {
+         bug( "%s: # not found.", __func__ );
+         break;
+      }
+
+      word = fread_word( fp );
+
+      if ( !str_cmp( word, "QUEST" ) )
+      {
+         QUEST_INDEX_DATA *pQuest;
+         bool fMatch;
+
+         CREATE( pQuest, QUEST_INDEX_DATA, 1 );
+         pQuest->vnum = 0;
+         pQuest->name = NULL;
+         pQuest->description = NULL;
+         pQuest->turnin_msg = NULL;
+
+         for ( ; ; )
+         {
+            word = feof( fp ) ? "End" : fread_word( fp );
+            fMatch = FALSE;
+
+            switch ( UPPER( word[0] ) )
+            {
+               case '*':
+                  fMatch = TRUE;
+                  fread_to_eol( fp );
+                  break;
+
+               case 'D':
+                  KEY( "Description", pQuest->description, fread_string_nohash( fp ) );
+                  break;
+
+               case 'E':
+                  if ( !str_cmp( word, "End" ) )
+                  {
+                     LINK( pQuest, first_quest_index, last_quest_index, next, prev );
+                     fMatch = TRUE;
+                     break;
+                  }
+                  break;
+
+               case 'G':
+                  KEY( "Giver", pQuest->quest_giver, fread_number( fp ) );
+                  break;
+
+               case 'N':
+                  KEY( "Name", pQuest->name, fread_string_nohash( fp ) );
+                  break;
+
+               case 'O':
+                  if ( !str_cmp( word, "ObjVnum" ) )
+                  {
+                     pQuest->obj_vnum[0] = fread_number( fp );
+                     pQuest->obj_vnum[1] = fread_number( fp );
+                     pQuest->obj_vnum[2] = fread_number( fp );
+                     pQuest->obj_vnum[3] = fread_number( fp );
+                     fMatch = TRUE;
+                     break;
+                  }
+                  if ( !str_cmp( word, "ObjCount" ) )
+                  {
+                     pQuest->obj_count[0] = fread_number( fp );
+                     pQuest->obj_count[1] = fread_number( fp );
+                     pQuest->obj_count[2] = fread_number( fp );
+                     pQuest->obj_count[3] = fread_number( fp );
+                     fMatch = TRUE;
+                     break;
+                  }
+                  break;
+
+               case 'R':
+                  KEY( "RewardExp", pQuest->reward_exp, fread_number( fp ) );
+                  KEY( "RewardGold", pQuest->reward_gold, fread_number( fp ) );
+                  KEY( "RewardItem", pQuest->reward_item, fread_number( fp ) );
+                  break;
+
+               case 'T':
+                  KEY( "Turnin", pQuest->quest_turnin, fread_number( fp ) );
+                  KEY( "TurninMsg", pQuest->turnin_msg, fread_string_nohash( fp ) );
+                  break;
+
+               case 'V':
+                  KEY( "Vnum", pQuest->vnum, fread_number( fp ) );
+                  break;
+            }
+
+            if ( !fMatch )
+            {
+               bug( "load_quests: no match: %s", word );
+               fread_to_eol( fp );
+            }
+            if ( !str_cmp( word, "End" ) )
+               break;
+         }
+         continue;
+      }
+      else if ( !str_cmp( word, "END" ) )
+         break;
+      else
+      {
+         bug( "%s: bad section.", __func__ );
+         continue;
+      }
+   }
+   FCLOSE( fp );
 }

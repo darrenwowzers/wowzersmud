@@ -9736,3 +9736,115 @@ void do_alinks( CHAR_DATA* ch, const char* argument )
    else
       send_to_char( "&wNo links exists.\r\n", ch );
 }
+
+/* ============================================
+   Wowzers Mud: Quest Builder Tool (qedit) -Hansth
+   ============================================ */
+
+/* Helper function to find a quest in the master list */
+QUEST_INDEX_DATA *get_quest_index( int vnum )
+{
+   QUEST_INDEX_DATA *pQuest;
+   for ( pQuest = first_quest_index; pQuest; pQuest = pQuest->next )
+   {
+      if ( pQuest->vnum == vnum )
+         return pQuest;
+   }
+   return NULL;
+}
+
+void do_qedit( CHAR_DATA *ch, const char *argument )
+{
+   char arg1[MAX_INPUT_LENGTH];
+   char arg2[MAX_INPUT_LENGTH];
+   QUEST_INDEX_DATA *pQuest;
+   int vnum;
+
+   if ( IS_NPC( ch ) )
+      return;
+
+   argument = one_argument( argument, arg1 );
+   argument = one_argument( argument, arg2 );
+
+   if ( arg1[0] == '\0' )
+   {
+      send_to_char( "&YSyntax: &Wqedit create <vnum>\r\n", ch );
+      send_to_char( "&YSyntax: &Wqedit <vnum> <field> <value>\r\n", ch );
+      send_to_char( "&YFields: &Wname, desc, giver, turnin, gold, exp\r\n", ch );
+      return;
+   }
+
+   /* 1. Create a brand new quest */
+   if ( !str_cmp( arg1, "create" ) )
+   {
+      vnum = atoi( arg2 );
+      if ( vnum <= 0 )
+      {
+         send_to_char( "You must provide a valid positive vnum.\r\n", ch );
+         return;
+      }
+      if ( get_quest_index( vnum ) != NULL )
+      {
+         send_to_char( "A quest with that VNUM already exists!\r\n", ch );
+         return;
+      }
+
+      CREATE( pQuest, QUEST_INDEX_DATA, 1 );
+      pQuest->vnum = vnum;
+      pQuest->name = strdup( "New Blank Quest" );
+      pQuest->description = strdup( "A blank quest waiting to be written." );
+      pQuest->turnin_msg = strdup( "Thank you for completing this." );
+      pQuest->quest_giver = 0;
+      pQuest->quest_turnin = 0;
+      pQuest->reward_gold = 0;
+      pQuest->reward_exp = 0;
+      
+      /* Initialize the objective arrays to 0 */
+      pQuest->obj_vnum[0] = 0; pQuest->obj_count[0] = 0;
+      
+      LINK( pQuest, first_quest_index, last_quest_index, next, prev );
+      ch_printf( ch, "&GSuccess! Quest [%d] created in memory.&w\r\n", vnum );
+      return;
+   }
+
+/* Save the database! */
+if ( !str_cmp( arg1, "save" ) )
+{
+   save_quests();
+   send_to_char( "&GQuest database saved to disk!&w\r\n", ch );
+   return;
+}
+
+   /* 2. Edit an existing quest */
+   vnum = atoi( arg1 );
+   if ( ( pQuest = get_quest_index( vnum ) ) == NULL )
+   {
+      send_to_char( "Quest not found. You must 'qedit create' it first.\r\n", ch );
+      return;
+   }
+
+   if ( !str_cmp( arg2, "name" ) )
+   {
+      if ( pQuest->name ) DISPOSE( pQuest->name );
+      pQuest->name = strdup( argument );
+      ch_printf( ch, "Quest %d name set to: %s\r\n", vnum, pQuest->name );
+      return;
+   }
+   
+   if ( !str_cmp( arg2, "giver" ) )
+   {
+      pQuest->quest_giver = atoi( argument );
+      ch_printf( ch, "Quest %d giver set to Mob VNUM: %d\r\n", vnum, pQuest->quest_giver );
+      return;
+   }
+
+   if ( !str_cmp( arg2, "gold" ) )
+   {
+      pQuest->reward_gold = atoi( argument );
+      ch_printf( ch, "Quest %d will now reward %d gold.\r\n", vnum, pQuest->reward_gold );
+      return;
+   }
+
+   do_qedit( ch, "" ); /* Show syntax if they typed a bad field */
+}
+

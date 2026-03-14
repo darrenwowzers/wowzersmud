@@ -1041,8 +1041,6 @@ char *check_cmd_flags( CHAR_DATA * ch, CMDTYPE * cmd )
 
    if( IS_AFFECTED( ch, AFF_POSSESS ) && IS_SET( cmd->flags, CMD_FLAG_POSSESS ) )
       snprintf( cmd_flag_buf, MAX_STRING_LENGTH, "You can't %s while you are possessing someone!\r\n", cmd->name );
-   else if( ch->morph != NULL && IS_SET( cmd->flags, CMD_FLAG_POLYMORPHED ) )
-      snprintf( cmd_flag_buf, MAX_STRING_LENGTH, "You can't %s while you are polymorphed!\r\n", cmd->name );
    else
       cmd_flag_buf[0] = '\0';
 

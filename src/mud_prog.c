@@ -946,10 +946,6 @@ int mprog_do_ifcheck( const char *ifcheck, CHAR_DATA * mob, CHAR_DATA * actor, O
       {
          return ( chkchar->position == POS_MOUNTED );
       }
-      if( !str_cmp( chck, "ismorphed" ) )
-      {
-         return ( chkchar->morph != NULL ) ? TRUE : FALSE;
-      }
       if( !str_cmp( chck, "isnuisance" ) )
       {
          return ( !IS_NPC( chkchar ) ? chkchar->pcdata->nuisance ? TRUE : FALSE : FALSE );
@@ -1144,14 +1140,6 @@ int mprog_do_ifcheck( const char *ifcheck, CHAR_DATA * mob, CHAR_DATA * actor, O
          if( IS_NPC( chkchar ) )
             return mprog_seval( npc_race[chkchar->race], opr, rval, mob );
          return mprog_seval( ( char * )race_table[chkchar->race]->race_name, opr, rval, mob );
-      }
-      if( !str_cmp( chck, "morph" ) )
-      {
-         if( chkchar->morph == NULL )
-            return FALSE;
-         if( chkchar->morph->morph == NULL )
-            return FALSE;
-         return mprog_veval( chkchar->morph->morph->vnum, opr, atoi(rval), mob );
       }
       if( !str_cmp( chck, "nuisance" ) )
       {

@@ -1161,3 +1161,48 @@ void do_dismiss_mount( CHAR_DATA *ch, const char *argument )
 
    extract_char( mount, TRUE );
 }
+
+/* ============================================
+   Wowzers Mud: Active Auras & Effects -Hansth
+   ============================================ */
+void do_auras( CHAR_DATA *ch, const char *argument )
+{
+   AFFECT_DATA *paf;
+   bool found = FALSE;
+
+   if ( IS_NPC( ch ) )
+      return;
+
+   send_to_char( "\r\n&Y--- Active Auras & Effects ---&w\r\n", ch );
+
+   for ( paf = ch->first_affect; paf; paf = paf->next )
+   {
+      /* Safety check for valid skill types */
+      if ( paf->type < 0 || paf->type >= num_skills )
+         continue;
+
+      found = TRUE;
+      const char *aura_color = "&w";
+      const char *aura_name = "Physical";
+
+      /* Color code based on WoW Dispel categories */
+      switch ( paf->aura_type )
+      {
+         case AURA_MAGIC:   aura_color = "&C"; aura_name = "Magic";   break; /* Cyan */
+         case AURA_CURSE:   aura_color = "&P"; aura_name = "Curse";   break; /* Purple */
+         case AURA_POISON:  aura_color = "&G"; aura_name = "Poison";  break; /* Green */
+         case AURA_DISEASE: aura_color = "&O"; aura_name = "Disease"; break; /* Orange/Brown */
+         case AURA_PHYSICAL:aura_color = "&R"; aura_name = "Bleed";   break; /* Red */
+         default:           aura_color = "&W"; aura_name = "Standard";break; /* White */
+      }
+
+      /* Example Output:  [Poison  ] Deadly Poison (Duration: 5 ticks) */
+      ch_printf( ch, " %s[%-8s]&w %-20s &g(Duration: %d ticks)&w\r\n",
+         aura_color, aura_name, skill_table[paf->type]->name, paf->duration );
+   }
+
+   if ( !found )
+      send_to_char( " &WYou currently have no active buffs or debuffs.&w\r\n", ch );
+
+   send_to_char( "&Y------------------------------&w\r\n", ch );
+}

@@ -621,6 +621,19 @@ track = URANGE( 2, ( ( ch->level + 3 ) * MAX_KILLTRACK ) / LEVEL_AVATAR, MAX_KIL
       fprintf( fp, "\n" );
    }
 
+/* Wowzers Mud: Save Quest Log -Hansth */
+   if ( ch->pcdata->first_quest )
+   {
+      QUEST_DATA *pQuest;
+      for ( pQuest = ch->pcdata->first_quest; pQuest; pQuest = pQuest->next )
+      {
+         fprintf( fp, "QuestLog     %d %d %d %d %d %d\n", 
+            pQuest->vnum, pQuest->state, 
+            pQuest->obj_count[0], pQuest->obj_count[1], 
+            pQuest->obj_count[2], pQuest->obj_count[3] );
+      }
+   }
+
    fprintf( fp, "End\n\n" );
 }
 
@@ -1677,6 +1690,30 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
                break;
             }
             break;
+
+	 case 'Q':
+         /* Wowzers Mud: Load Quest Log -Hansth */
+         if ( !str_cmp( word, "QuestLog" ) )
+         {
+            QUEST_DATA *pQuest;
+            CREATE( pQuest, QUEST_DATA, 1 );
+            
+            line = fread_line( fp );
+            x1 = x2 = x3 = x4 = x5 = x6 = 0;
+            sscanf( line, "%d %d %d %d %d %d", &x1, &x2, &x3, &x4, &x5, &x6 );
+            
+            pQuest->vnum = x1;
+            pQuest->state = x2;
+            pQuest->obj_count[0] = x3;
+            pQuest->obj_count[1] = x4;
+            pQuest->obj_count[2] = x5;
+            pQuest->obj_count[3] = x6;
+
+            LINK( pQuest, ch->pcdata->first_quest, ch->pcdata->last_quest, next, prev );
+            fMatch = TRUE;
+            break;
+         }
+	 break;
 
          case 'R':
          /* Wowzers Mud: Load Reputation Array -Hansth */

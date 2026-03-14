@@ -74,7 +74,7 @@ void do_eat( CHAR_DATA* ch, const char* argument )
       act( AT_PLAIN, "$n takes $p from $P.", ch, obj, obj->in_obj, TO_ROOM );
    }
 
-   if( ch->fighting && number_percent(  ) > ( get_curr_dex( ch ) * 2 + 47 ) )
+   if( ch->fighting && number_percent(  ) > ( get_curr_agi( ch ) * 2 + 47 ) )
    {
       snprintf( buf, MAX_STRING_LENGTH, "%s",
                 ( ch->in_room->sector_type == SECT_UNDERWATER ||
@@ -265,7 +265,7 @@ void do_quaff( CHAR_DATA* ch, const char* argument )
    /*
     * If fighting, chance of dropping potion         -Thoric
     */
-   if( ch->fighting && number_percent(  ) > ( get_curr_dex( ch ) * 2 + 48 ) )
+   if( ch->fighting && number_percent(  ) > ( get_curr_agi( ch ) * 2 + 48 ) )
    {
       act( AT_MAGIC, "$n fumbles $p and shatters it into fragments.", ch, obj, NULL, TO_ROOM );
       if( !hgflag )

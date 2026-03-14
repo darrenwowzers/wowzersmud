@@ -1259,6 +1259,15 @@ void do_sset( CHAR_DATA* ch, const char* argument )
          }
          return;
       }
+
+   /* Wowzers Mud: Sset Aura Type -Hansth */
+   if ( !str_cmp( arg2, "auratype" ) )
+   {
+      skill->aura_type = atoi( argument );
+      send_to_char( "Aura type set.\r\n", ch );
+      return;
+   }
+
       if( !str_cmp( arg2, "classtype" ) )
       {
          int x = get_sclass( argument );

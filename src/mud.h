@@ -41,8 +41,8 @@
 
 using namespace std;
 
-#define CODENAME "SmaugFUSS"
-#define CODEVERSION "1.9.8"
+#define CODENAME "WowzersMUD"
+#define CODEVERSION "1.17"
 
 // Backward compatibility for snippets and such.
 #define mudstrlcpy strlcpy
@@ -143,6 +143,50 @@ ACCOUNT_DATA *load_account( const char *name );
 void save_account( ACCOUNT_DATA *account );
 void free_account( ACCOUNT_DATA *account );
 
+/* ============================================
+   Wowzers Mud: The Quest Engine -Hansth
+   ============================================ */
+struct quest_data
+{
+   struct quest_data *next;
+   struct quest_data *prev;
+   int vnum;            /* The unique ID of the quest */
+   int state;           /* 0 = Active, 1 = Complete, 2 = Failed */
+   int obj_count[4];    /* Track progress for up to 4 objectives */
+};
+
+/* ============================================
+   Wowzers Mud: Master Quest Template -Hansth
+   ============================================ */
+typedef struct quest_index_data QUEST_INDEX_DATA; /* The crucial introduction! */
+
+struct quest_index_data
+{
+   QUEST_INDEX_DATA *next;
+   QUEST_INDEX_DATA *prev;
+   int     vnum;              /* The Quest ID */
+   char * name;              /* e.g., "A Threat Within" */
+   char * description;       /* The story text */
+   char * turnin_msg;        /* What the NPC says when you finish it */
+   int     quest_giver;       /* VNUM of the NPC who hands it out */
+   int     quest_turnin;      /* VNUM of the NPC who takes it back */
+   
+   /* Objectives: Up to 4 different requirements */
+   int     obj_vnum[4];       /* VNUM of the mob to kill (or item to get later) */
+   int     obj_count[4];      /* How many do they need? */
+   
+   /* Rewards */
+   int     reward_gold;
+   int     reward_exp;
+   int     reward_item;       /* VNUM of an item reward */
+};
+
+extern QUEST_INDEX_DATA *first_quest_index;
+extern QUEST_INDEX_DATA *last_quest_index;
+QUEST_INDEX_DATA *get_quest_index( int vnum );
+void save_quests( void );
+void load_quests( void );
+
 typedef struct pc_data PC_DATA;
 typedef struct plane_data PLANE_DATA;
 typedef struct reset_data RESET_DATA;
@@ -203,7 +247,7 @@ typedef ch_ret SPELL_FUN( int sn, int level, CHAR_DATA * ch, void *vo );
 typedef bool SPEC_FUN( CHAR_DATA * ch );
 
 /* ============================================
-   WOW CLASSIC: SYSTEM LIMITS
+   Wowzers Mud: SYSTEM LIMITS
    ============================================ */
 #define MAX_BUYBACK         12
 #define MAX_PROFESSIONS     2
@@ -226,7 +270,7 @@ typedef bool SPEC_FUN( CHAR_DATA * ch );
 #define FACTION_DEFIAS         3
 #define FACTION_SCARLET        4
 
-/* WoW Classic Reputation Thresholds */
+/* Wowzers Mud Reputation Thresholds */
 #define REP_EXALTED        42000
 #define REP_REVERED        21000
 #define REP_HONORED         9000
@@ -258,18 +302,19 @@ typedef bool SPEC_FUN( CHAR_DATA * ch );
 #define FLIGHT_ORGRIMMAR       5
 
 /* ============================================
-   WOW CLASSIC: FORWARD DECLARATIONS
+   Wowzers Mud: FORWARD DECLARATIONS
    ============================================ */
 typedef struct party_data       PARTY_DATA;
 typedef struct instance_data    INSTANCE_DATA;
 typedef struct bg_data          BG_DATA;
 typedef struct quest_data       QUEST_DATA;
+typedef struct quest_index_data QUEST_INDEX_DATA;
 typedef struct guild_data       GUILD_DATA;
 typedef struct instance_lockout INSTANCE_LOCKOUT;
 
 
 /* ============================================
-   WOW CLASSIC POWER SYSTEM
+   Wowzers Mud POWER SYSTEM
    ============================================ */
 typedef enum
 {
@@ -280,8 +325,9 @@ typedef enum
     POWER_HAPPINESS = 4,
     MAX_POWER_TYPES = 5
 } power_types;
+
 /* ============================================
-   WOW CLASSIC FACTIONS
+   Wowzers Mud FACTIONS
    ============================================ */
 typedef enum
 {
@@ -2516,8 +2562,8 @@ struct pc_data
    NUISANCE_DATA *nuisance;   /* New Nuisance structure */
    KILLED_DATA killed[MAX_KILLTRACK];
 
-/* ============================================
-       WOW CLASSIC: ECONOMY & INVENTORY
+    /* ============================================
+       Wowzers Mud: ECONOMY & INVENTORY
        ============================================ */
     OBJ_DATA * buyback_items[MAX_BUYBACK]; /* The 12-slot vendor buyback buffer */
     OBJ_DATA * first_bank_item;            /* Personal bank vault */
@@ -2526,21 +2572,21 @@ struct pc_data
     sh_int              bank_slots;                 /* Purchasable bag slots */
 
     /* ============================================
-       WOW CLASSIC: PROFESSIONS & SKILLS
+       Wowzers Mud: PROFESSIONS & SKILLS
        ============================================ */
     sh_int              profession_skill[MAX_PROFESSIONS]; /* 1-300 skill level */
     sh_int              primary_professions;               /* Max 2 */
 
     /* ============================================
-       WOW CLASSIC: QUEST ENGINE
+       Wowzers Mud: QUEST ENGINE
        ============================================ */
     QUEST_DATA * first_quest;                /* Active quest log */
     QUEST_DATA * last_quest;
-    sh_int              active_quests;              /* Hard cap at 20 */
-    int                 completed_quests[1000];     /* Array of finished quest VNUMs */
+    //sh_int              active_quests;              /* Hard cap at 20 */
+    //int                 completed_quests[1000];     /* Array of finished quest VNUMs */
 
     /* ============================================
-       WOW CLASSIC: SOCIAL & PVP
+       Wowzers Mud: SOCIAL & PVP
        ============================================ */
     GUILD_DATA * guild;                      /* Pointer to player's guild */
     sh_int              guild_rank;                 /* 0 (GM) to 9 (Initiate) */
@@ -2551,13 +2597,13 @@ struct pc_data
     sh_int              bg_flags_captured;
 
     /* ============================================
-       WOW CLASSIC: INSTANCE LOCKOUTS
+       Wowzers Mud: INSTANCE LOCKOUTS
        ============================================ */
     INSTANCE_LOCKOUT * first_lockout;              /* Raid lockouts (e.g., Molten Core) */
     INSTANCE_LOCKOUT * last_lockout;
 
     /* ============================================
-       WOW CLASSIC: TRAVEL
+       Wowzers Mud: TRAVEL
        ============================================ */
     bool                known_flights[MAX_FLIGHT_NODES]; /* Discovered flight paths */
 
@@ -4193,6 +4239,9 @@ DECLARE_DO_FUN( do_qpset );
 DECLARE_DO_FUN( do_qpstat );
 DECLARE_DO_FUN( do_quaff );
 DECLARE_DO_FUN( do_quest );
+DECLARE_DO_FUN( do_questlog );
+DECLARE_DO_FUN( do_qset );
+DECLARE_DO_FUN( do_qedit );
 DECLARE_DO_FUN( do_qui );
 DECLARE_DO_FUN( do_quit );
 DECLARE_DO_FUN( do_racetalk );
@@ -4856,6 +4905,7 @@ void update_aggro( CHAR_DATA *ch );
 void add_heal_threat( CHAR_DATA *healer, CHAR_DATA *victim, int amount );
 void set_fighting( CHAR_DATA * ch, CHAR_DATA * victim );
 void stop_fighting( CHAR_DATA * ch, bool fBoth );
+void update_quest_kill( CHAR_DATA *ch, CHAR_DATA *victim );
 void free_fight( CHAR_DATA * ch );
 CD *who_fighting( CHAR_DATA * ch );
 void check_killer( CHAR_DATA * ch, CHAR_DATA * victim );
