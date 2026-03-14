@@ -1185,101 +1185,10 @@ void char_update( void )
                xREMOVE_BIT( ch->affected_by, AFF_RECURRINGSPELL );
          }
 
-         if( ch->mental_state >= 30 )
-         {
-            switch ( ( ch->mental_state + 5 ) / 10 )
-            {
-               case 3:
-                  send_to_char( "You feel feverish.\r\n", ch );
-                  act( AT_ACTION, "$n looks kind of out of it.", ch, NULL, NULL, TO_ROOM );
-                  break;
-               case 4:
-                  send_to_char( "You do not feel well at all.\r\n", ch );
-                  act( AT_ACTION, "$n doesn't look too good.", ch, NULL, NULL, TO_ROOM );
-                  break;
-               case 5:
-                  send_to_char( "You need help!\r\n", ch );
-                  act( AT_ACTION, "$n looks like $e could use your help.", ch, NULL, NULL, TO_ROOM );
-                  break;
-               case 6:
-                  send_to_char( "Seekest thou a cleric.\r\n", ch );
-                  act( AT_ACTION, "Someone should fetch a healer for $n.", ch, NULL, NULL, TO_ROOM );
-                  break;
-               case 7:
-                  send_to_char( "You feel reality slipping away...\r\n", ch );
-                  act( AT_ACTION, "$n doesn't appear to be aware of what's going on.", ch, NULL, NULL, TO_ROOM );
-                  break;
-               case 8:
-                  send_to_char( "You begin to understand... everything.\r\n", ch );
-                  act( AT_ACTION, "$n starts ranting like a madman!", ch, NULL, NULL, TO_ROOM );
-                  break;
-               case 9:
-                  send_to_char( "You are ONE with the universe.\r\n", ch );
-                  act( AT_ACTION, "$n is ranting on about 'the answer', 'ONE' and other mumbo-jumbo...", ch, NULL, NULL,
-                       TO_ROOM );
-                  break;
-               case 10:
-                  send_to_char( "You feel the end is near.\r\n", ch );
-                  act( AT_ACTION, "$n is muttering and ranting in tongues...", ch, NULL, NULL, TO_ROOM );
-                  break;
-            }
-         }
-
-         if( ch->mental_state <= -30 )
-         {
-            switch ( ( abs( ch->mental_state ) + 5 ) / 10 )
-            {
-               case 10:
-                  if( ch->position > POS_SLEEPING )
-                  {
-                     if( ( ch->position == POS_STANDING
-                           || ch->position < POS_FIGHTING ) && number_percent(  ) + 10 < abs( ch->mental_state ) )
-                        do_sleep( ch, "" );
-                     else
-                        send_to_char( "You're barely conscious.\r\n", ch );
-                  }
-                  break;
-               case 9:
-                  if( ch->position > POS_SLEEPING )
-                  {
-                     if( ( ch->position == POS_STANDING
-                           || ch->position < POS_FIGHTING ) && ( number_percent(  ) + 20 ) < abs( ch->mental_state ) )
-                        do_sleep( ch, "" );
-                     else
-                        send_to_char( "You can barely keep your eyes open.\r\n", ch );
-                  }
-                  break;
-               case 8:
-                  if( ch->position > POS_SLEEPING )
-                  {
-                     if( ch->position < POS_SITTING && ( number_percent(  ) + 30 ) < abs( ch->mental_state ) )
-                        do_sleep( ch, "" );
-                     else
-                        send_to_char( "You're extremely drowsy.\r\n", ch );
-                  }
-                  break;
-               case 7:
-                  if( ch->position > POS_RESTING )
-                     send_to_char( "You feel very unmotivated.\r\n", ch );
-                  break;
-               case 6:
-                  if( ch->position > POS_RESTING )
-                     send_to_char( "You feel sedated.\r\n", ch );
-                  break;
-               case 5:
-                  if( ch->position > POS_RESTING )
-                     send_to_char( "You feel sleepy.\r\n", ch );
-                  break;
-               case 4:
-                  if( ch->position > POS_RESTING )
-                     send_to_char( "You feel tired.\r\n", ch );
-                  break;
-               case 3:
-                  if( ch->position > POS_RESTING )
-                     send_to_char( "You could use a rest.\r\n", ch );
-                  break;
-            }
-         }
+      /* ============================================
+         Wowzers Mud: Disable Mental State -Hansth
+         ============================================ */
+         ch->mental_state = 0;
 
          if( ch->timer > 24 )
             do_quit( ch, "" );
@@ -1897,6 +1806,9 @@ void drunk_randoms( CHAR_DATA * ch )
  */
 void hallucinations( CHAR_DATA * ch )
 {
+/* Wowzers Mud: Disable hallucinations completely -Hansth */
+   return;
+
    if( ch->mental_state >= 30 && number_bits( 5 - ( ch->mental_state >= 50 ) - ( ch->mental_state >= 75 ) ) == 0 )
    {
       const char *t;
