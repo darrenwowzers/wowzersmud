@@ -355,7 +355,20 @@ char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort )
       strlcat( buf, "(PROTO) ", MAX_STRING_LENGTH );
    if( ( IS_AFFECTED( ch, AFF_DETECTTRAPS ) || xIS_SET( ch->act, PLR_HOLYLIGHT ) ) && is_trapped( obj ) )
       strlcat( buf, "(Trap) ", MAX_STRING_LENGTH );
-
+   /* ============================================
+      Wowzers Mud: Soulbinding Visual Tags -Hansth
+      ============================================ */
+   if ( obj->soulbound && obj->soulbound[0] != '\0' )
+   {
+      strlcat( buf, "&P[Soulbound]&w ", MAX_STRING_LENGTH );
+   }
+   else
+   {
+      if ( IS_OBJ_STAT( obj, ITEM_BOP ) )
+         strlcat( buf, "&P[BoP]&w ", MAX_STRING_LENGTH );
+      if ( IS_OBJ_STAT( obj, ITEM_BOE ) )
+         strlcat( buf, "&P[BoE]&w ", MAX_STRING_LENGTH );
+   }
    /* ============================================
       Wowzers Mud: Dynamic Rarity Coloring -Hansth
       ============================================ */
