@@ -92,6 +92,22 @@ void get_obj( CHAR_DATA * ch, OBJ_DATA * obj, OBJ_DATA * container )
       return;
    }
 
+   /* ============================================
+      Wowzers Mud: Soulbinding Get Checks -Hansth
+      ============================================ */
+   if ( obj->soulbound && obj->soulbound[0] != '\0' && str_cmp( obj->soulbound, ch->name ) && !IS_IMMORTAL(ch) )
+   {
+      ch_printf( ch, "%s is soulbound to someone else.\r\n", obj->short_descr );
+      return;
+   }
+
+   /* Bind on Pickup (BoP) */
+   if ( !IS_NPC( ch ) && IS_OBJ_STAT( obj, ITEM_BOP ) && ( !obj->soulbound || obj->soulbound[0] == '\0' ) )
+   {
+      obj->soulbound = STRALLOC( ch->name );
+      act( AT_MAGIC, "$p binds to your soul!", ch, obj, NULL, TO_CHAR );
+   }
+
    if( IS_SET( obj->magic_flags, ITEM_PKDISARMED ) && !IS_NPC( ch ) )
    {
       if( CAN_PKILL( ch ) && !get_timer( ch, TIMER_PKILLED ) )
@@ -1266,6 +1282,13 @@ void do_give( CHAR_DATA* ch, const char* argument )
       return;
    }
 
+   /* Wowzers Mud: Prevent trading soulbound items -Hansth */
+   if ( obj->soulbound && obj->soulbound[0] != '\0' && !IS_IMMORTAL(ch) )
+   {
+      ch_printf( ch, "You cannot trade %s because it is soulbound to you.\r\n", obj->short_descr );
+      return;
+   }
+
    if( victim->carry_number + ( get_obj_number( obj ) / obj->count ) > can_carry_n( victim ) )
    {
       act( AT_PLAIN, "$N has $S hands full.", ch, NULL, victim, TO_CHAR );
@@ -1538,6 +1561,23 @@ void wear_obj( CHAR_DATA * ch, OBJ_DATA * obj, bool fReplace, short wear_bit )
    short bit, tmp;
 
    separate_obj( obj );
+
+   /* ============================================
+      Wowzers Mud: Soulbinding Wear Checks -Hansth
+      ============================================ */
+   if ( obj->soulbound && obj->soulbound[0] != '\0' && str_cmp( obj->soulbound, ch->name ) && !IS_IMMORTAL(ch) )
+   {
+      ch_printf( ch, "You cannot equip %s; it is soulbound to someone else.\r\n", obj->short_descr );
+      return;
+   }
+
+   /* Bind on Equip (BoE) */
+   if ( !IS_NPC( ch ) && IS_OBJ_STAT( obj, ITEM_BOE ) && ( !obj->soulbound || obj->soulbound[0] == '\0' ) )
+   {
+      obj->soulbound = STRALLOC( ch->name );
+      act( AT_MAGIC, "$p binds to your soul as you equip it!", ch, obj, NULL, TO_CHAR );
+   }
+
    if( get_trust( ch ) < obj->level )
    {
       ch_printf( ch, "You must be level %d to use this object.\r\n", obj->level );

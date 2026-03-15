@@ -702,6 +702,8 @@ void fwrite_obj( CHAR_DATA * ch, OBJ_DATA * obj, FILE * fp, int iNest, short os_
       fprintf( fp, "ShortDescr   %s~\n", obj->short_descr );
    if( obj->description && ( !obj->pIndexData->description || str_cmp( obj->description, obj->pIndexData->description ) ) )
       fprintf( fp, "Description  %s~\n", obj->description );
+   if ( obj->soulbound && obj->soulbound[0] != '\0' ) //Hansth
+      fprintf( fp, "Soulbound    %s~\n", obj->soulbound );
    if( obj->action_desc && ( !obj->pIndexData->action_desc || str_cmp( obj->action_desc, obj->pIndexData->action_desc ) ) )
       fprintf( fp, "ActionDesc   %s~\n", obj->action_desc );
    if( obj->owner && obj->owner[0] != '\0' )
@@ -2347,7 +2349,7 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
 
          case 'S':
             KEY( "ShortDescr", obj->short_descr, fread_string( fp ) );
-
+            KEY( "Soulbound", obj->soulbound, fread_string_nohash( fp ) ); //Hansth
             if( !strcmp( word, "Spell" ) )
             {
                int iValue;

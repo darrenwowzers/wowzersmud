@@ -2790,6 +2790,7 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA * pObjIndex, int level )
    obj->short_descr = QUICKLINK( pObjIndex->short_descr );
    obj->description = QUICKLINK( pObjIndex->description );
    obj->action_desc = QUICKLINK( pObjIndex->action_desc );
+   obj->soulbound = NULL;
    obj->owner = STRALLOC( "" );
    obj->item_type = pObjIndex->item_type;
    obj->extra_flags = pObjIndex->extra_flags;

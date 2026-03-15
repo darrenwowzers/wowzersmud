@@ -1830,7 +1830,7 @@ typedef enum
    ITEM_HIDDEN, ITEM_POISONED, ITEM_COVERING, ITEM_DEATHROT, ITEM_BURIED,
    ITEM_PROTOTYPE, ITEM_NOLOCATE, ITEM_GROUNDROT, ITEM_LOOTABLE, ITEM_PERSONAL,
    ITEM_MULTI_INVOKE, ITEM_ENCHANTED, ITEM_PERMANENT, ITEM_NOFILL, ITEM_DEATHDROP,
-   ITEM_SKINNED, MAX_ITEM_FLAG
+   ITEM_SKINNED, ITEM_BOP, ITEM_BOE, MAX_ITEM_FLAG
 } item_extra_flags;
 
 /* Magic flags - extra extra_flags for objects that are used in spells */
@@ -2776,6 +2776,7 @@ struct obj_data
    const char *short_descr;
    const char *description;
    const char *action_desc;
+   const char * soulbound;    /* Wowzers Mud: Tracks who this item is bound to -Hansth */
    const char *owner;
    short rarity;           /* Wowzers Mud: Item Rarity -Hansth */
    int item_set;           /* Wowzers Mud: Item Set ID -Hansth */

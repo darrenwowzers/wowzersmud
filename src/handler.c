@@ -4692,6 +4692,7 @@ void free_obj( OBJ_DATA * obj )
       }
    }
    STRFREE( obj->name );
+   STRFREE( obj->soulbound ); //Hansth
    STRFREE( obj->description );
    STRFREE( obj->short_descr );
    STRFREE( obj->action_desc );
