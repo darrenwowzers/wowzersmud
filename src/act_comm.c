@@ -1346,10 +1346,6 @@ void do_say( CHAR_DATA* ch, const char* argument )
       bool understood = TRUE;
 
 
-/* TEMPORARY DEBUG LINE - REMOVE LATER */
-//      ch_printf( ch, "&Y[Debug Bypasses] ch_imm: %d | vch_imm: %d | ch_npc: %d | vch_npc: %d | ch_fac: %d | vch_fac: %d&w\r\n", 
-//                 IS_IMMORTAL(ch), IS_IMMORTAL(vch), IS_NPC(ch), IS_NPC(vch), ch->faction, vch->faction );
-
       /* Check if they share a faction or bypass the barrier */
       if ( IS_IMMORTAL(vch) || IS_NPC(ch) || IS_NPC(vch) || 
            ch->faction == vch->faction || 
@@ -3471,61 +3467,13 @@ void talk_auction( char *argument )
     }
 }
 
-/*
- * Language support functions. -- Altrag
- * 07/01/96
- *
- * Modified to return how well the language is known 04/04/98 - Thoric
- * Currently returns 100% for known languages... but should really return
- * a number based on player's wisdom (maybe 50+((25-wisdom)*2) ?)
- */
-int knows_language( CHAR_DATA * ch, int language, CHAR_DATA * cch )
+int knows_language( CHAR_DATA *ch, int language, CHAR_DATA *cch )
 {
-   short sn;
-
-   if( !IS_NPC( ch ) && IS_IMMORTAL( ch ) )
-      return 100;
-   if( IS_NPC( ch ) && !ch->speaks )   /* No langs = knows all for npcs */
-      return 100;
-   if( IS_NPC( ch ) && IS_SET( ch->speaks, ( language & ~LANG_CLAN ) ) )
-      return 100;
-   /*
-    * everyone KNOWS common tongue 
-    */
-   if( IS_SET( language, LANG_COMMON ) )
-      return 100;
-
-   if( language & LANG_CLAN )
-   {
-      /*
-       * Clan = common for mobs.. snicker.. -- Altrag 
-       */
-      if( IS_NPC( ch ) || IS_NPC( cch ) )
-         return 100;
-      if( IS_IMMORTAL( ch ) )
-         return 100;
-      if( ch->pcdata->clan == cch->pcdata->clan && ch->pcdata->clan != NULL )
-         return 100;
-   }
-
-   if( !IS_NPC( ch ) )
-   {
-      int lang;
-
-      /*
-       * Racial languages for PCs 
-       */
-      if( IS_SET( race_table[ch->race]->language, language ) )
-         return 100;
-
-      for( lang = 0; lang_array[lang] != LANG_UNKNOWN; lang++ )
-         if( IS_SET( language, lang_array[lang] ) && IS_SET( ch->speaks, lang_array[lang] ) )
-         {
-            if( ( sn = skill_lookup( lang_names[lang] ) ) != -1 )
-               return ch->pcdata->learned[sn];
-         }
-   }
-   return 0;
+   /* ============================================
+      Wowzers Mud: PATCH 5.24.2 - Gut D&D Linguistics -Hansth
+      (Faction scrambling is now handled manually in do_say/do_yell)
+      ============================================ */
+   return 100; 
 }
 
 bool can_learn_lang( CHAR_DATA * ch, int language )

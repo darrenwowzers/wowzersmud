@@ -921,6 +921,11 @@ int can_carry_w( CHAR_DATA * ch )
    if( !IS_NPC( ch ) && ch->level >= LEVEL_IMMORTAL )
       return 1000000;
 
+      /* ============================================
+         Wowzers Mud: PATCH 5.24.3 - Strip item weights
+         ============================================ */
+      return 3200000; /* Infinite weight limit, inventory is now slot-based only! */
+
    if( IS_NPC( ch ) && xIS_SET( ch->act, ACT_IMMORTAL ) )
       return 1000000;
 

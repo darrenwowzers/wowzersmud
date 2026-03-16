@@ -385,7 +385,11 @@ void gain_condition( CHAR_DATA * ch, int iCond, int value )
 
    if( value == 0 || IS_NPC( ch ) || ch->level >= LEVEL_IMMORTAL || NOT_AUTHED( ch ) )
       return;
-
+   /* ============================================
+      Wowzers Mud: PATCH 5.24.1 - Gut Hunger/Thirst
+      ============================================ */
+   if ( iCond == COND_FULL || iCond == COND_THIRST )
+      return;
    condition = ch->pcdata->condition[iCond];
    if( iCond == COND_BLOODTHIRST )
       ch->pcdata->condition[iCond] = URANGE( 0, condition + value, 10 + ch->level );
