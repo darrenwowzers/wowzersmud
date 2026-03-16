@@ -22,6 +22,7 @@
 #include <bsd/string.h>
 #include <time.h>
 #include "mud.h"
+#include <sys/stat.h>
 
 /* ============================================
    Wowzers Mud: Cross-Faction Scrambler -Hansth
@@ -3831,4 +3832,274 @@ void do_horde( CHAR_DATA *ch, const char *argument )
          }
       }
    }
+}
+
+/* ============================================
+   Wowzers Mud: Offline Mailbox System -Hansth
+   PATCH 4.18.2 - Mail Command Interface
+   ============================================ */
+void do_mail( CHAR_DATA *ch, const char *argument )
+{
+   char arg[MAX_INPUT_LENGTH];
+   MAIL_DATA *mail;
+   int count = 0;
+
+   if ( IS_NPC( ch ) )
+      return;
+
+   argument = one_argument( argument, arg );
+
+   /* Command: MAIL or MAIL LIST */
+   if ( arg[0] == '\0' || !str_cmp( arg, "list" ) )
+   {
+      if ( !ch->pcdata->first_mail )
+      {
+         send_to_char( "Your mailbox is completely empty.\r\n", ch );
+         return;
+      }
+
+      send_to_char( "&WNum  Sender          Subject&w\r\n", ch );
+      send_to_char( "&W------------------------------------------------&w\r\n", ch );
+      
+      for ( mail = ch->pcdata->first_mail; mail; mail = mail->next )
+      {
+         count++;
+         ch_printf( ch, "&W%3d&w> &Y%-15s &W%s&w", 
+            count, mail->sender, mail->subject );
+            
+         /* Visual indicator for attachments */
+         if ( mail->gold > 0 || mail->item )
+            ch_printf( ch, " &G[Attachment]&w" );
+            
+         send_to_char( "\r\n", ch );
+      }
+      return;
+   }
+
+/* ============================================
+      Command: MAIL SEND <target> <gold> <item> <subject>
+      ============================================ */
+   if ( !str_cmp( arg, "send" ) )
+   {
+      char target[MAX_INPUT_LENGTH];
+      char gold_str[MAX_INPUT_LENGTH];
+      char item_str[MAX_INPUT_LENGTH];
+      char filename[256];
+      CHAR_DATA *victim;
+      OBJ_DATA *item = NULL;
+      int gold = 0;
+      bool loaded = FALSE; /* Tracks if we had to load them offline */
+
+      argument = one_argument( argument, target );
+      argument = one_argument( argument, gold_str );
+      argument = one_argument( argument, item_str );
+
+      if ( target[0] == '\0' || gold_str[0] == '\0' || item_str[0] == '\0' || argument[0] == '\0' )
+      {
+         send_to_char( "Syntax: mail send <player> <gold> <item_keyword | none> <Subject>\r\n", ch );
+         send_to_char( "Example: mail send Hansth 500 sword Here is your cut of the loot!\r\n", ch );
+         return;
+      }
+
+      /* Patch 4.18.2: The Offline Router */
+      if ( ( victim = get_char_world( ch, target ) ) == NULL )
+      {
+         DESCRIPTOR_DATA *d;
+         struct stat fst;
+
+         target[0] = UPPER(target[0]);
+         snprintf( filename, 256, "%s%c/%s", PLAYER_DIR, tolower(target[0]), target );
+
+         if ( stat( filename, &fst ) == -1 )
+         {
+            send_to_char( "No player by that name exists.\r\n", ch );
+            return;
+         }
+
+         /* Spin up a temporary ghost descriptor to load the file */
+         CREATE( d, DESCRIPTOR_DATA, 1 );
+         d->next = NULL;
+         d->prev = NULL;
+         d->connected = CON_GET_NAME;
+         d->outsize = 2000;
+         CREATE( d->outbuf, char, d->outsize );
+
+         loaded = load_char_obj( d, target, FALSE, FALSE );
+         if ( !loaded )
+         {
+            send_to_char( "Error loading that player's file.\r\n", ch );
+            DISPOSE( d->outbuf );
+            DISPOSE( d );
+            return;
+         }
+         
+         /* Detach the ghost from the descriptor */
+         victim = d->character;
+         d->character = NULL;
+         victim->desc = NULL;
+         DISPOSE( d->outbuf );
+         DISPOSE( d );
+      }
+
+      if ( IS_NPC( victim ) )
+      {
+         send_to_char( "You cannot send mail to NPCs.\r\n", ch );
+         if ( loaded ) free_char( victim );
+         return;
+      }
+
+      gold = atoi( gold_str );
+      if ( gold < 0 || ch->gold < gold )
+      {
+         send_to_char( "You don't have that much gold.\r\n", ch );
+         if ( loaded ) free_char( victim );
+         return;
+      }
+
+      if ( str_cmp( item_str, "none" ) )
+      {
+         if ( ( item = get_obj_carry( ch, item_str ) ) == NULL )
+         {
+            send_to_char( "You are not carrying that item.\r\n", ch );
+            if ( loaded ) free_char( victim );
+            return;
+         }
+
+         /* Patch 4.18.1: Soulbinding Roadblocks! */
+         if ( item->soulbound && item->soulbound[0] != '\0' && str_cmp( item->soulbound, victim->name ) )
+         {
+            ch_printf( ch, "You cannot mail %s; it is soulbound to you.\r\n", item->short_descr );
+            if ( loaded ) free_char( victim );
+            return;
+         }
+      }
+
+      /* Build the Physical Letter */
+      CREATE( mail, MAIL_DATA, 1 );
+      mail->sender    = STRALLOC( ch->name );
+      mail->subject   = STRALLOC( argument );
+      mail->body      = STRALLOC( "No body text. (Sent via quick-mail)" );
+      mail->gold      = gold;
+      mail->sent_date = current_time;
+      mail->item      = item;
+
+      /* Transfer Gold and Item into the void */
+      if ( gold > 0 )
+         ch->gold -= gold;
+      if ( item )
+         obj_from_char( item );
+
+      /* Attach to Victim's Mailbox */
+      LINK( mail, victim->pcdata->first_mail, victim->pcdata->last_mail, next, prev );
+
+      if ( !loaded )
+         send_to_char( "&YYou have new mail! Type 'mail' to check your inbox.&w\r\n", victim );
+
+      ch_printf( ch, "Mail sent to %s.\r\n", victim->name );
+
+      /* Force an immediate save to protect the item from server crashes */
+      save_char_obj( ch );
+      save_char_obj( victim );
+
+      /* If they were offline, destroy the ghost we summoned */
+      if ( loaded )
+         free_char( victim );
+         
+      return;
+   }
+
+   /* ============================================
+      Command: MAIL READ <number>
+      ============================================ */
+   if ( !str_cmp( arg, "read" ) )
+   {
+      int num = atoi( argument );
+      int i = 0;
+
+      if ( num <= 0 )
+      {
+         send_to_char( "Read which message number?\r\n", ch );
+         return;
+      }
+
+      for ( mail = ch->pcdata->first_mail; mail; mail = mail->next )
+      {
+         if ( ++i == num ) break;
+      }
+
+      if ( !mail )
+      {
+         send_to_char( "You don't have a message with that number.\r\n", ch );
+         return;
+      }
+
+      ch_printf( ch, "&WFrom:    &Y%s\r\n", mail->sender );
+      ch_printf( ch, "&WDate:    &w%s", ctime( &mail->sent_date ) ); /* ctime automatically adds a newline */
+      ch_printf( ch, "&WSubject: &w%s\r\n", mail->subject );
+      send_to_char( "&W------------------------------------------------&w\r\n", ch );
+      ch_printf( ch, "%s\r\n", mail->body );
+      send_to_char( "&W------------------------------------------------&w\r\n", ch );
+
+      if ( mail->gold > 0 )
+         ch_printf( ch, "&YAttached Gold: &w%d\r\n", mail->gold );
+      if ( mail->item )
+         ch_printf( ch, "&GAttached Item: &w%s\r\n", mail->item->short_descr );
+
+      send_to_char( "\r\nType &Wmail take <number>&w to claim attachments and delete the letter.\r\n", ch );
+      return;
+   }
+
+   /* ============================================
+      Command: MAIL TAKE <number>
+      ============================================ */
+   if ( !str_cmp( arg, "take" ) )
+   {
+      int num = atoi( argument );
+      int i = 0;
+
+      if ( num <= 0 )
+      {
+         send_to_char( "Take from which message number?\r\n", ch );
+         return;
+      }
+
+      for ( mail = ch->pcdata->first_mail; mail; mail = mail->next )
+      {
+         if ( ++i == num ) break;
+      }
+
+      if ( !mail )
+      {
+         send_to_char( "You don't have a message with that number.\r\n", ch );
+         return;
+      }
+
+      /* Claim Gold */
+      if ( mail->gold > 0 )
+      {
+         ch_printf( ch, "&YYou loot %d gold from the letter.&w\r\n", mail->gold );
+         ch->gold += mail->gold;
+      }
+
+      /* Claim Item */
+      if ( mail->item )
+      {
+         ch_printf( ch, "&GYou loot %s from the letter.&w\r\n", mail->item->short_descr );
+         obj_to_char( mail->item, ch );
+      }
+
+      /* Destroy Letter and Memory */
+      UNLINK( mail, ch->pcdata->first_mail, ch->pcdata->last_mail, next, prev );
+      STRFREE( mail->sender );
+      STRFREE( mail->subject );
+      STRFREE( mail->body );
+      DISPOSE( mail );
+
+      send_to_char( "The empty letter crumbles to dust.\r\n", ch );
+      save_char_obj( ch );
+      return;
+   }
+
+   /* Catch-all for incorrect syntax (We will add the rest of the commands here next!) */
+   send_to_char( "Syntax: mail list\r\n", ch );
 }

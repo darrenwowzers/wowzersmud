@@ -3081,6 +3081,21 @@ void free_char( CHAR_DATA * ch )
          DISPOSE( temp );
       }
 
+      /* Wowzers Mud: Free Mailbox Memory -Hansth */
+      {
+         MAIL_DATA *mail, *mail_next;
+         for ( mail = ch->pcdata->first_mail; mail; mail = mail_next )
+         {
+            mail_next = mail->next;
+            STRFREE( mail->sender );
+            STRFREE( mail->subject );
+            STRFREE( mail->body );
+            if ( mail->item )
+               extract_obj( mail->item );
+            DISPOSE( mail );
+         }
+      }
+
       STRFREE( ch->pcdata->filename );
       STRFREE( ch->pcdata->deity_name );
       STRFREE( ch->pcdata->clan_name );

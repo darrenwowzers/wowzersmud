@@ -118,6 +118,8 @@ typedef struct note_data NOTE_DATA;
 typedef struct board_data BOARD_DATA;
 typedef struct obj_data OBJ_DATA;
 typedef struct obj_index_data OBJ_INDEX_DATA;
+
+typedef struct mail_data MAIL_DATA; //Hansth
 /* ============================================
    Wowzers Mud: Loot Roll Typedefs -Hansth
    ============================================ */
@@ -2548,6 +2550,21 @@ struct ignore_data
 /* Max number of people you can ignore at once */
 #define MAX_IGN		6
 
+/* ============================================
+   Wowzers Mud: Offline Mailbox System -Hansth
+   ============================================ */
+struct mail_data
+{
+   MAIL_DATA * next;
+   MAIL_DATA * prev;
+   const char * sender;
+   const char * subject;
+   const char * body;
+   int          gold;
+   OBJ_DATA * item;       /* The physical item attached to the mail */
+   time_t       sent_date;
+};
+
 /*
  * Data which only PC's have.
  */
@@ -2577,7 +2594,10 @@ struct pc_data
     sh_int              profession_skill[MAX_PROFESSIONS]; /* 1-300 skill level */
     sh_int              primary_professions;               /* Max 2 */
 
-    /* ============================================
+    MAIL_DATA * first_mail; //Hansth
+    MAIL_DATA * last_mail;  
+
+  /* ============================================
        Wowzers Mud: QUEST ENGINE
        ============================================ */
     QUEST_DATA * first_quest;                /* Active quest log */
@@ -4148,6 +4168,7 @@ DECLARE_DO_FUN( do_log );
 DECLARE_DO_FUN( do_look );
 DECLARE_DO_FUN( do_loop );
 DECLARE_DO_FUN( do_low_purge );
+DECLARE_DO_FUN( do_mail );
 DECLARE_DO_FUN( do_mailroom );
 DECLARE_DO_FUN( do_make );
 DECLARE_DO_FUN( do_makeadminlist );
@@ -5201,6 +5222,7 @@ ch_ret chain_spells( int sn, int level, CHAR_DATA * ch, void *vo, short chain );
 #define OS_CARRY	0
 #define OS_CORPSE	1
 #define OS_VAULT 2
+#define OS_MAIL 10 //Hansth
 void save_char_obj( CHAR_DATA * ch );
 bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover );
 void set_alarm( long seconds );

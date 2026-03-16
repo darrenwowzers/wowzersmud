@@ -330,6 +330,16 @@ void save_char_obj( CHAR_DATA * ch )
       fwrite_char( ch, fp );
       if( ch->first_carrying )
          fwrite_obj( ch, ch->last_carrying, fp, 0, OS_CARRY, ch->pcdata->hotboot );
+      /* Wowzers Mud: Save physical items inside mail -Hansth */
+      if ( ch->pcdata && ch->pcdata->first_mail )
+      {
+         MAIL_DATA *mail;
+         for ( mail = ch->pcdata->first_mail; mail; mail = mail->next )
+         {
+            if ( mail->item )
+               fwrite_obj( ch, mail->item, fp, 0, OS_MAIL, FALSE ); /* Added FALSE -Hansth  */
+         }
+      }
       if( sysdata.save_pets && ch->pcdata->pet )
          fwrite_mobile( fp, ch->pcdata->pet );
       if( ch->variables )
@@ -634,6 +644,19 @@ track = URANGE( 2, ( ( ch->level + 3 ) * MAX_KILLTRACK ) / LEVEL_AVATAR, MAX_KIL
       }
    }
 
+   /* ============================================
+      Wowzers Mud: Save Mailbox -Hansth
+      ============================================ */
+   if ( ch->pcdata->first_mail )
+   {
+      MAIL_DATA *mail;
+      for ( mail = ch->pcdata->first_mail; mail; mail = mail->next )
+      {
+         fprintf( fp, "Mail         %s~ %s~ %s~ %d %ld\n",
+                  mail->sender, mail->subject, mail->body, mail->gold, (long)mail->sent_date );
+      }
+   }
+
    fprintf( fp, "End\n\n" );
 }
 
@@ -687,9 +710,15 @@ void fwrite_obj( CHAR_DATA * ch, OBJ_DATA * obj, FILE * fp, int iNest, short os_
       return;
 
    /*
-    * Corpse saving. -- Altrag 
+    * Corpse saving. -- Altrag
+    * Mail saving.   -- Hansth
     */
-   fprintf( fp, ( os_type == OS_CORPSE ? "#CORPSE\n" : "#OBJECT\n" ) );
+   if ( os_type == OS_CORPSE )
+      fprintf( fp, "#CORPSE\n" );
+   else if ( os_type == OS_MAIL )
+      fprintf( fp, "#MAILOBJ\n" );
+   else
+      fprintf( fp, "#OBJECT\n" );
 
    fprintf( fp, "Version      %d\n", SAVEVERSION );
    if( iNest )
@@ -953,6 +982,11 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover
          }
          else if( !strcmp( word, "OBJECT" ) )   /* Objects  */
             fread_obj( ch, fp, OS_CARRY );
+         else if( !str_cmp( word, "MAILOBJ" ) )
+         {
+         fread_obj( ch, fp, OS_MAIL );
+         continue;
+         }
          else if( !strcmp( word, "COMMENT" ) )
             fread_comment( ch, fp );   /* Comments */
          else if( !strcmp( word, "MOBILE" ) )
@@ -1571,6 +1605,21 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
             KEY( "MDeaths", ch->pcdata->mdeaths, fread_number( fp ) );
             KEY( "Mentalstate", ch->mental_state, fread_number( fp ) );
             KEY( "MGlory", ch->pcdata->quest_accum, fread_number( fp ) );
+         /* Wowzers Mud: Load Mailbox -Hansth */
+         if ( !str_cmp( word, "Mail" ) )
+         {
+            MAIL_DATA *mail;
+            CREATE( mail, MAIL_DATA, 1 );
+            mail->sender    = fread_string( fp );
+            mail->subject   = fread_string( fp );
+            mail->body      = fread_string( fp );
+            mail->gold      = fread_number( fp );
+            mail->sent_date = fread_number( fp );
+            mail->item      = NULL; /* We will wire up the physical items next! */            
+            LINK( mail, ch->pcdata->first_mail, ch->pcdata->last_mail, next, prev );
+            fMatch = TRUE;
+            break;
+         }
             KEY( "Minsnoop", ch->pcdata->min_snoop, fread_number( fp ) );
             KEY( "MKills", ch->pcdata->mkills, fread_number( fp ) );
             KEY( "Mobinvis", ch->mobinvis, fread_number( fp ) );
@@ -2216,6 +2265,26 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
                   ++physicalobjects;
                   if( file_ver > 1 || obj->wear_loc < -1 || obj->wear_loc >= MAX_WEAR )
                      obj->wear_loc = -1;
+
+                  /* ============================================
+                     Wowzers Mud: Attach physical item to mail -Hansth
+                     ============================================ */
+                  if( os_type == OS_MAIL )
+                  {
+                     if( ch && ch->pcdata )
+                     {
+                        MAIL_DATA *mail;
+                        for( mail = ch->pcdata->first_mail; mail; mail = mail->next )
+                        {
+                           if( !mail->item )
+                           {
+                              mail->item = obj;
+                              break;
+                           }
+                        }
+                     }
+                  }
+                  else
                   /*
                    * Corpse saving. -- Altrag 
                    */
@@ -2349,7 +2418,7 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
 
          case 'S':
             KEY( "ShortDescr", obj->short_descr, fread_string( fp ) );
-            KEY( "Soulbound", obj->soulbound, fread_string_nohash( fp ) ); //Hansth
+            KEY( "Soulbound", obj->soulbound, fread_string( fp ) ); //Hansth
             if( !strcmp( word, "Spell" ) )
             {
                int iValue;
