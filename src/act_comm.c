@@ -4051,3 +4051,113 @@ void do_mail( CHAR_DATA *ch, const char *argument )
    /* Catch-all for incorrect syntax (We will add the rest of the commands here next!) */
    send_to_char( "Syntax: mail list\r\n", ch );
 }
+
+/* ============================================
+   Wowzers Mud: The AH/Mailbox Interface -Hansth
+   A dedicated function for the server to quietly deliver items and gold 
+   to offline players without needing a command parser.
+   ============================================ */
+
+
+/* ============================================
+   Wowzers Mud: The AH/Mailbox Interface -Hansth
+   Fully Asynchronous Delivery Engine (v4.18.4)
+   ============================================ */
+void ah_mail_delivery( const char *sender, const char *target, OBJ_DATA *item, int gold, const char *subject, const char *body )
+{
+   CHAR_DATA *vch;
+   CHAR_DATA *victim = NULL;
+   MAIL_DATA *mail;
+   bool loaded = FALSE;
+   char receiver_name[MAX_INPUT_LENGTH];
+   char filename[256];
+
+   if ( !target || target[0] == '\0' ) return;
+
+   /* Standardize the name -Hansth */
+   strlcpy( receiver_name, target, MAX_INPUT_LENGTH );
+   receiver_name[0] = UPPER(receiver_name[0]);
+
+   /* 1. Manual Online Check -Hansth */
+   for ( vch = first_char; vch; vch = vch->next )
+   {
+      if ( !IS_NPC(vch) && !str_cmp( vch->name, receiver_name ) )
+      {
+         victim = vch;
+         break;
+      }
+   }
+
+   /* 2. The Ghost Loader: If they are offline, load their file -Hansth */
+   if ( !victim )
+   {
+      DESCRIPTOR_DATA *d;
+      struct stat fst;
+
+      snprintf( filename, 256, "%s%c/%s", PLAYER_DIR, tolower(receiver_name[0]), receiver_name );
+
+      if ( stat( filename, &fst ) == -1 )
+      {
+         if ( item ) extract_obj( item ); 
+         return;
+      }
+
+      /* Isolated Ghost Setup -Hansth */
+      CREATE( d, DESCRIPTOR_DATA, 1 );
+      d->connected = CON_GET_NAME;
+      CREATE( d->outbuf, char, 2048 );
+
+      loaded = load_char_obj( d, receiver_name, FALSE, FALSE );
+
+      if ( !loaded || !d->character )
+      {
+         if ( item ) extract_obj( item );
+         if ( d->character ) free_char( d->character );
+         DISPOSE( d->outbuf );
+         DISPOSE( d );
+         return;
+      }
+
+      victim = d->character;
+      d->character = NULL;
+      victim->desc = NULL;
+
+      /* DO NOT UNLINK manually here! free_char handles it native to Smaug! -Hansth */
+
+      DISPOSE( d->outbuf );
+      DISPOSE( d );
+   }
+
+   /* Safety Catch -Hansth */
+   if ( !victim || !victim->pcdata )
+   {
+      if ( item ) extract_obj( item );
+      if ( loaded ) free_char( victim );
+      return;
+   }
+
+   /* 3. Create and Link the Mail Structure -Hansth */
+   CREATE( mail, MAIL_DATA, 1 );
+   
+   mail->sender    = STRALLOC( sender );
+   mail->subject   = STRALLOC( subject );
+   mail->body      = STRALLOC( body );
+   mail->gold      = gold;
+   mail->item      = item;
+   mail->sent_date = current_time;
+
+   LINK( mail, victim->pcdata->first_mail, victim->pcdata->last_mail, next, prev );
+
+   /* 4. The Final Hand-off -Hansth */
+   if ( loaded )
+   {
+      /* If loaded offline, save the file to hard drive and free the memory -Hansth */
+      save_char_obj( victim );
+      free_char( victim );
+   }
+   else
+   {
+      /* If online, notify them. The MUD loop will handle the saving. -Hansth */
+      send_to_char( "&Y[Auction House]: You have new mail!&w\r\n", victim );
+   }
+}
