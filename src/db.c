@@ -6869,7 +6869,11 @@ void fread_fuss_object( FILE * fp, AREA_DATA * tarea )
                   wflags = one_argument( wflags, flag );
                   value = get_wflag( flag );
                   if( value < 0 || value > 31 )
-                     bug( "%s: Unknown wear flag: %s", __func__, flag );
+                  {
+                  /* Wowzers Mud: Silently ignore legacy 'none' wear flag without log spam -Hansth */
+                  if ( str_cmp( flag, "none" ) )
+                        bug( "%s: Unknown wear flag: %s", __func__, flag );
+                  }
                   else
                      SET_BIT( pObjIndex->wear_flags, 1 << value );
                }
