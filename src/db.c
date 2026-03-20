@@ -6870,8 +6870,8 @@ void fread_fuss_object( FILE * fp, AREA_DATA * tarea )
                   value = get_wflag( flag );
                   if( value < 0 || value > 31 )
                   {
-                  /* Wowzers Mud: Silently ignore legacy 'none' wear flag without log spam -Hansth */
-                  if ( str_cmp( flag, "none" ) )
+                     /* Wowzers Mud: Silently ignore legacy 'none' and 'shoulders' flags -Hansth */
+                     if ( str_cmp( flag, "none" ) && str_cmp( flag, "shoulders" ) )
                         bug( "%s: Unknown wear flag: %s", __func__, flag );
                   }
                   else
@@ -7263,7 +7263,7 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
 
                if( Class < 0 || Class >= MAX_NPC_CLASS )
                {
-                  bug( "%s: vnum %d: Mob has invalid Class! Defaulting to warrior.", __func__, pMobIndex->vnum );
+                  /* Wowzers Mud: Silenced invalid class spam until const.c arrays are fully updated --Hansth */
                   Class = get_npc_class( "warrior" );
                }
 
@@ -7395,7 +7395,7 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
 
                if( race < 0 || race >= MAX_NPC_RACE )
                {
-                  bug( "%s: vnum %d: Mob has invalid race! Defaulting to monster.", __func__, pMobIndex->vnum );
+                  /* Wowzers Mud: Silenced invalid race spam until const.c arrays are fully updated --Hansth */
                   race = get_npc_race( "monster" );
                }
 
@@ -7491,46 +7491,12 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
                break;
             }
 
-            if( !str_cmp( word, "Speaks" ) )
+            /* Bypass legacy linguistics completely -Hansth */
+            if ( !str_cmp( word, "Speaks" ) || !str_cmp( word, "Speaking" ) )
             {
-               const char *speaks = fread_flagstring( fp );
-
-               while( speaks[0] != '\0' )
-               {
-                  speaks = one_argument( speaks, flag );
-                  value = get_langnum( flag );
-                  if( value < 0 || value > 31 )
-                     bug( "%s: Unknown speaks language: %s", __func__, flag );
-                  else
-                     SET_BIT( pMobIndex->speaks, 1 << value );
-               }
-
-               if( !pMobIndex->speaks )
-                  pMobIndex->speaks = LANG_COMMON;
-
-               fMatch = TRUE;
-               break;
-            }
-
-            if( !str_cmp( word, "Speaking" ) )
-            {
-               const char *speaking = fread_flagstring( fp );
-
-               while( speaking[0] != '\0' )
-               {
-                  speaking = one_argument( speaking, flag );
-                  value = get_langnum( flag );
-                  if( value < 0 || value > 31 )
-                     bug( "%s: Unknown speaking language: %s", __func__, flag );
-          	      else
-                     SET_BIT( pMobIndex->speaking, 1 << value );
-               }
-
-               if( !pMobIndex->speaking )
-                  pMobIndex->speaking = LANG_COMMON;
-
-               fMatch = TRUE;
-               break;
+                fread_to_eol( fp ); 
+                fMatch = TRUE;
+                break;
             }
 
             if( !str_cmp( word, "Specfun" ) )
