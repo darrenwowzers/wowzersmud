@@ -532,6 +532,9 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
    if( ch->pcdata->release_date )
       fprintf( fp, "Helled       %d %s~\n", ( int )ch->pcdata->release_date, ch->pcdata->helled_by );
    fprintf( fp, "PKills       %d\n", ch->pcdata->pkills );
+/* Wowzers MUD: Save the player's active instance -Hansth */
+   if ( ch->pcdata->instance_id > 0 )
+      fprintf( fp, "InstanceID   %d\n", ch->pcdata->instance_id );
    fprintf( fp, "PDeaths      %d\n", ch->pcdata->pdeaths );
    if( get_timer( ch, TIMER_PKILLED ) && ( get_timer( ch, TIMER_PKILLED ) > 0 ) )
       fprintf( fp, "PTimer       %d\n", get_timer( ch, TIMER_PKILLED ) );
@@ -878,6 +881,8 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover
    loading_char = ch;
 
    CREATE( ch->pcdata, PC_DATA, 1 );
+   /* Wowzers MUD: Ensure new players start outside of instances -Hansth */
+   ch->pcdata->instance_id = 0;
    d->character = ch;
    ch->desc = d;
    ch->pcdata->filename = STRALLOC( name );
@@ -1562,6 +1567,8 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload, bool copyover )
                break;
             }
             KEY( "IllegalPK", ch->pcdata->illegal_pk, fread_number( fp ) );
+            /* Wowzers MUD: Load the active instance -Hansth */
+            KEY( "InstanceID", ch->pcdata->instance_id, fread_number( fp ) );
             KEY( "Immune", ch->immune, fread_number( fp ) );
             break;
 
@@ -2266,6 +2273,19 @@ void fread_obj( CHAR_DATA * ch, FILE * fp, short os_type )
                   if( file_ver > 1 || obj->wear_loc < -1 || obj->wear_loc >= MAX_WEAR )
                      obj->wear_loc = -1;
 
+
+                  /* ============================================
+                     Wowzers Mud: Attach physical item to Auction -Hansth
+                     ============================================ */
+                  if( os_type == OS_AUCTION )
+                  {
+                     if( last_ah && !last_ah->item )
+                        last_ah->item = obj;
+                     /* Silently allow container contents to load without throwing bugs! */
+                  }
+                  else
+
+
                   /* ============================================
                      Wowzers Mud: Attach physical item to mail -Hansth
                      ============================================ */
@@ -2705,7 +2725,12 @@ void fwrite_mobile( FILE * fp, CHAR_DATA * mob )
       fprintf( fp, "Description %s~\n", mob->description );
    fprintf( fp, "Position %d\n", mob->position );
    fprintf( fp, "Flags %s\n", print_bitvector( &mob->act ) );
-   if( mob->first_carrying )
+   /* Wowzers Mud: Save Mob Faction */
+   if ( mob->faction == FACTION_ALLIANCE )
+      fprintf( fp, "Faction  Alliance\n" );
+   else if ( mob->faction == FACTION_HORDE )
+      fprintf( fp, "Faction  Horde\n" ); 
+  if( mob->first_carrying )
       fwrite_obj( mob, mob->last_carrying, fp, 0, OS_CARRY, FALSE );
    fprintf( fp, "EndMobile\n" );
    re_equip_char( mob );
@@ -2839,6 +2864,20 @@ CHAR_DATA *fread_mobile( FILE * fp )
 
          case 'F':
             KEY( "Flags", mob->act, fread_bitvector( fp ) );
+            if ( !str_cmp( word, "Faction" ) )
+            {
+                char *f_str = fread_word( fp );
+                
+                if ( !str_cmp( f_str, "Alliance" ) )
+                    mob->faction = FACTION_ALLIANCE; // Use your actual macro/variable
+                else if ( !str_cmp( f_str, "Horde" ) )
+                    mob->faction = FACTION_HORDE;
+                else
+                    mob->faction = FACTION_NEUTRAL;
+                
+                fMatch = TRUE;
+                break;
+            }
             break;
 
          case 'L':
@@ -2872,6 +2911,13 @@ CHAR_DATA *fread_mobile( FILE * fp )
             break;
 
          case 'S':
+            /* Bypass legacy linguistics -Hansth*/
+            if ( !str_cmp( word, "Speaks" ) || !str_cmp( word, "Speaking" ) )
+            {
+                fread_number( fp ); 
+                fMatch = TRUE;
+                break;
+            }
             if( !str_cmp( word, "Short" ) )
             {
                if( mob->short_descr )
@@ -2935,4 +2981,84 @@ void read_char_mobile( char *argument )
    if( !mob )
       bug( "%s: failed to fread_mobile.", __func__ );
    FCLOSE( fp );
+}
+
+/* ============================================
+   Wowzers Mud: PATCH 4.18.3 - Auction House I/O
+   ============================================ */
+void save_auctions( void )
+{
+   FILE *fp;
+   AH_DATA *ah;
+
+   if ( ( fp = fopen( SYSTEM_DIR "auction.dat", "w" ) ) == NULL )
+   {
+      bug( "%s: cannot open auction.dat for writing", __func__ );
+      return;
+   }
+
+   for ( ah = first_ah; ah; ah = ah->next )
+   {
+      fprintf( fp, "#AUCTION\n" );
+      fprintf( fp, "Seller   %s~\n", ah->seller );
+      if ( ah->buyer )
+         fprintf( fp, "Buyer    %s~\n", ah->buyer );
+      fprintf( fp, "Bid      %d\n", ah->bid );
+      fprintf( fp, "Buyout   %d\n", ah->buyout );
+      fprintf( fp, "Expires  %ld\n", (long)ah->expires );
+      
+      if ( ah->item )
+         fwrite_obj( NULL, ah->item, fp, 0, OS_AUCTION, FALSE );
+         
+      fprintf( fp, "End\n\n" );
+   }
+   fprintf( fp, "#END\n" );
+   fclose( fp );
+}
+
+void load_auctions( void )
+{
+   FILE *fp;
+   char letter;
+   char *word;
+   AH_DATA *ah = NULL;
+
+   if ( ( fp = fopen( SYSTEM_DIR "auction.dat", "r" ) ) == NULL )
+      return; /* No file yet, which is completely fine! */
+
+   for ( ; ; )
+   {
+      letter = fread_letter( fp );
+      if ( letter == '*' ) { fread_to_eol( fp ); continue; }
+      if ( letter != '#' ) { bug( "%s: # not found.", __func__ ); break; }
+
+      word = fread_word( fp );
+
+      if ( !str_cmp( word, "AUCTION" ) )
+      {
+         CREATE( ah, AH_DATA, 1 );
+         ah->seller  = NULL;
+         ah->buyer   = NULL;
+         ah->item    = NULL;
+         ah->bid     = 0;
+         ah->buyout  = 0;
+         ah->expires = 0;
+         LINK( ah, first_ah, last_ah, next, prev );
+         
+         for ( ; ; )
+         {
+            word = fread_word( fp );
+            if ( !str_cmp( word, "End" ) ) break;
+            else if ( !str_cmp( word, "Seller" ) )  ah->seller  = fread_string( fp );
+            else if ( !str_cmp( word, "Buyer" ) )   ah->buyer   = fread_string( fp );
+            else if ( !str_cmp( word, "Bid" ) )     ah->bid     = fread_number( fp );
+            else if ( !str_cmp( word, "Buyout" ) )  ah->buyout  = fread_number( fp );
+            else if ( !str_cmp( word, "Expires" ) ) ah->expires = fread_number( fp );
+            else if ( !str_cmp( word, "#OBJECT" ) )  fread_obj( NULL, fp, OS_AUCTION );
+         }
+      }
+      else if ( !str_cmp( word, "END" ) ) break;
+      else { bug( "%s: bad section: %s.", __func__, word ); break; }
+   }
+   fclose( fp );
 }

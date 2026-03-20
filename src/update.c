@@ -1970,6 +1970,7 @@ void update_handler( void )
    {
       pulse_area = number_range( PULSE_AREA / 2, 3 * PULSE_AREA / 2 );
       area_update(  );
+      instance_update(  ); /* Fires the instance garbage collection -Hansth */
    }
 
    if( --pulse_mobile <= 0 )

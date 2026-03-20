@@ -2448,6 +2448,7 @@ void do_climb( CHAR_DATA* ch, const char* argument )
 /*
  * "enter" something (moves through an exit or portal) -Thoric / Hansth
  */
+
 void do_enter( CHAR_DATA* ch, const char* argument )
 {
    EXIT_DATA *pexit;
@@ -2492,7 +2493,7 @@ void do_enter( CHAR_DATA* ch, const char* argument )
          return;
       }
 
-      /* 3. Reputation Faction Lock */
+      /* 3. Reputation Faction Lock -Hansth */
       if ( portal->req_faction > 0 && !IS_NPC( ch ) )
       {
          int required_faction = portal->req_faction;
@@ -2506,20 +2507,71 @@ void do_enter( CHAR_DATA* ch, const char* argument )
          }
       }
 
-      /* 4. Execute the Teleport */
-      ROOM_INDEX_DATA *pRoomIndex = get_room_index( portal->value[0] );
+/* ============================================
+         Wowzers Mud: Instancing Portal Hook -Hansth
+         ============================================ */
+      /* 4. Execute the Teleport or Cloner Engine */
+      ROOM_INDEX_DATA *pRoomIndex = NULL;
+
+      if ( portal->value[2] == 1 )
+      {
+         int start_vnum = portal->value[0];
+         int end_vnum   = portal->value[1];
+         /* Identify the group leader (or yourself if solo) -Hansth */
+         CHAR_DATA *leader = (ch->leader ? ch->leader : (ch->master ? ch->master : ch));
+
+         /* REBOOT FIX: If ID is set, check if it's still valid in memory */
+         if ( leader->pcdata->instance_id > 0 )
+         {
+            pRoomIndex = get_room_index( leader->pcdata->instance_id );
+            if ( !pRoomIndex )
+            {
+               /* Memory is gone! Clear the leader's dead ID so we can re-gen -Hansth */
+               leader->pcdata->instance_id = 0;
+            }
+         }
+
+         /* If the leader doesn't have a valid instance, build one for the whole group! */
+         if ( !IS_NPC( ch ) && leader->pcdata->instance_id == 0 )
+         {
+            char buf[MAX_STRING_LENGTH];
+            INSTANCE_DATA *instance;
+
+            sprintf( buf, "%s's Instance", leader->name );
+            
+            /* Spin up the Cloner Engine -Hansth */
+            instance = create_instance( buf, start_vnum, end_vnum );
+            
+            if ( instance )
+            {
+               leader->pcdata->instance_id = instance->internal_id;
+               send_to_char( "&BThe portal shimmers as a private instance is generated for your group...&w\r\n", ch );
+               /* Re-fetch the room index now that it exists */
+               pRoomIndex = get_room_index( leader->pcdata->instance_id );
+            }
+         }
+         
+         /* Sync the current player's ID to the leader's ID */
+         ch->pcdata->instance_id = leader->pcdata->instance_id;
+      }
+      else
+      {
+         /* Normal, non-instanced standard portal logic */
+         pRoomIndex = get_room_index( portal->value[0] );
+      }
+   
       if ( !pRoomIndex )
       {
          send_to_char( "This portal seems to be unstable and leads to nowhere.\r\n", ch );
          return;
       }
 
+      /* The physical act of moving the character -Hansth */
       act( AT_MAGIC, "You step into $p and vanish!", ch, portal, NULL, TO_CHAR );
       act( AT_MAGIC, "$n steps into $p and vanishes!", ch, portal, NULL, TO_ROOM );
-      
       char_from_room( ch );
       char_to_room( ch, pRoomIndex );
-      
+
       act( AT_MAGIC, "$n steps out of a glowing portal!", ch, NULL, NULL, TO_ROOM );
       do_look( ch, "auto" );
       return;

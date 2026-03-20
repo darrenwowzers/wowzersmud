@@ -1,0 +1,15 @@
+#QUEST
+Vnum        100
+Name        A Threat Within~
+Description A blank quest waiting to be written.~
+TurninMsg   Thank you for completing this.~
+Giver       11001
+Turnin      0
+ObjVnum     0 0 0 0
+ObjCount    0 0 0 0
+RewardGold  5
+RewardExp   0
+RewardItem  0
+End
+
+#END

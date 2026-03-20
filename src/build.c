@@ -79,7 +79,7 @@ const char *const o_flags[] = {
    "donation", "clanobject", "clancorpse", "antivampire", "antidruid",
    "hidden", "poisoned", "covering", "deathrot", "buried", "prototype",
    "nolocate", "groundrot", "lootable", "personal", "multi_invoke", "enchanted",
-   "permanent", "nofill", "deathdrop", "skinned"
+   "permanent", "nofill", "deathdrop", "skinned", "bop", "boe"
 };
 
 const char *const w_flags[] = {
@@ -6687,14 +6687,9 @@ void fwrite_fuss_mobile( FILE * fpout, MOB_INDEX_DATA * pMobIndex, bool install 
 /* Wowzers Mud: Save Flight Node -Hansth */
    if ( pMobIndex->flight_node > 0 )
       fprintf( fpout, "FlightNode  %d\n", pMobIndex->flight_node );
-
-   fprintf( fpout, "Saves      %d %d %d %d %d\n",
+      fprintf( fpout, "Saves      %d %d %d %d %d\n",
             pMobIndex->saving_poison_death,
             pMobIndex->saving_wand, pMobIndex->saving_para_petri, pMobIndex->saving_breath, pMobIndex->saving_spell_staff );
-   if( pMobIndex->speaks )
-      fprintf( fpout, "Speaks     %s~\n", flag_string( pMobIndex->speaks, lang_names ) );
-   if( pMobIndex->speaking )
-      fprintf( fpout, "Speaking   %s~\n", flag_string( pMobIndex->speaking, lang_names ) );
    if( pMobIndex->xflags )
       fprintf( fpout, "Bodyparts  %s~\n", flag_string( pMobIndex->xflags, part_flags ) );
    if( pMobIndex->resistant )

@@ -5252,4 +5252,12 @@ Affect       '' 60 '400' -1
 Minlevel     45
 End
 
+#SKILL
+Name         questlog~
+Type         Cmd
+Info         0
+Flags        0
+Code         do_questlog
+End
+
 #END

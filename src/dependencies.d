@@ -1,3 +1,5 @@
+o/account.o: account.c mud.h color.h dns.h hotboot.h calendar.h weather.h \
+ liquids.h
 o/act_comm.o: act_comm.c mud.h color.h dns.h hotboot.h calendar.h weather.h \
  liquids.h
 o/act_info.o: act_info.c mud.h color.h dns.h hotboot.h calendar.h weather.h \
@@ -75,8 +77,6 @@ o/planes.o: planes.c mud.h color.h dns.h hotboot.h calendar.h weather.h \
  liquids.h
 o/player.o: player.c mud.h color.h dns.h hotboot.h calendar.h weather.h \
  liquids.h
-o/polymorph.o: polymorph.c mud.h color.h dns.h hotboot.h calendar.h \
- weather.h liquids.h
 o/renumber.o: renumber.c mud.h color.h dns.h hotboot.h calendar.h weather.h \
  liquids.h
 o/reset.o: reset.c mud.h color.h dns.h hotboot.h calendar.h weather.h \

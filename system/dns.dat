@@ -1,1 +1,31 @@
+#CACHE
+IP		2001:56a:f5d9:2f00:bc15:59e6:7a53:c0b8~
+Name		node-1w7jra259id5h9r0f81e4biyg.ipv6.telus.net~
+Time		1772986311
+End
+
+#CACHE
+IP		2001:56a:f5d9:2f00:ed6a:3959:1492:2b57~
+Name		node-1w7jra259id5i0r9jcnfbh55j.ipv6.telus.net~
+Time		1773123321
+End
+
+#CACHE
+IP		2001:56a:f5d9:2f00:596b:1a32:8fb7:26ba~
+Name		node-1w7jra259id5frqgsrjk2sam2.ipv6.telus.net~
+Time		1773193860
+End
+
+#CACHE
+IP		206.75.91.74~
+Name		206.75.91.74~
+Time		1773244971
+End
+
+#CACHE
+IP		75.152.198.140~
+Name		75.152.198.140~
+Time		1773876537
+End
+
 #END

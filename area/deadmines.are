@@ -1,0 +1,1857 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         The Deadmines~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       15 25 0 60
+Economy      0 31250000
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       12900
+Keywords   defias miner human~
+Short      a Defias Miner~
+Long       A Defias Miner swings his pickaxe against the rocky wall.
+~
+Desc       Covered in dirt and sweat, this miner is working tirelessly to expand
+the tunnels beneath Moonbrook. He wears the signature red bandana of
+the Defias Brotherhood.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 16 0 0 200 800
+Stats2     16 16 160
+Stats3     2 5 15
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12901
+Keywords   defias taskmaster overseer~
+Short      a Defias Taskmaster~
+Long       A Defias Taskmaster cracks a heavy leather whip, barking orders.
+~
+Desc       A brutal overseer who ensures the miners never stop working. He is
+heavily scarred and looks eager to turn his whip on an intruder.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 18 0 0 350 1200
+Stats2     18 18 180
+Stats3     3 6 18
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12902
+Keywords   rhahk'zor ogre boss deadmines~
+Short      Rhahk'Zor~
+Long       Rhahk'Zor the Ogre guards the heavy wooden doors.
+~
+Desc       "VanCleef pay good for your heads!" This massive, dim-witted ogre
+serves as the first major line of defense for the Brotherhood. He
+hefts a giant, splintered wooden maul.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 20 0 0 1500 4000
+Stats2     20 20 400
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12903
+Keywords   defias evoker mage human~
+Short      a Defias Evoker~
+Long       A Defias Evoker weaves a spell, her hands glowing with fire.
+~
+Desc       The Brotherhood employs rogue mages to protect their more sensitive
+operations. She wears a red bandana and robes smelling of burnt ozone.
+~
+Race       Human~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Female~
+Actflags   npc aggressive stayarea~
+Stats1     0 17 0 0 250 900
+Stats2     17 17 300
+Stats3     3 8 20
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12904
+Keywords   goblin woodcarver defias~
+Short      a Goblin Woodcarver~
+Long       A Goblin Woodcarver frantically saws through a thick wooden plank.
+~
+Desc       Hired by the Defias to build their ultimate weapon, these goblins
+are heavily armed with sharp tools and a terrible attitude.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 18 0 0 300 1000
+Stats2     18 18 200
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12905
+Keywords   sneed shredder goblin boss~
+Short      Sneed's Shredder~
+Long       Sneed sits inside a massive, grinding lumber shredder, laughing wildly.
+~
+Desc       "I'm gonna cut you down to size!" Sneed pilots a terrifying goblin
+machine equipped with spinning buzz saws and heavy iron plating.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 21 0 0 2000 6000
+Stats2     21 21 500
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12906
+Keywords   gilnid goblin boss smelter~
+Short      Gilnid~
+Long       Gilnid the Goblin stands before a roaring furnace, barking orders.
+~
+Desc       "Time is money, and you're out of both!" Gilnid oversees the smelting
+of the stolen Westfall resources. He wears a heavy leather apron and
+wields a glowing-hot smelting hammer with terrifying speed.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 22 0 0 2500 7000
+Stats2     22 22 600
+Stats3     6 12 35
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12907
+Keywords   goblin craftsman worker defias~
+Short      a Goblin Craftsman~
+Long       A Goblin Craftsman wipes soot from his goggles, looking for a fight.
+~
+Desc       These goblins are highly skilled metallurgists and engineers, but they
+are also heavily armed and extremely dangerous when cornered.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 18 0 0 300 1200
+Stats2     18 18 200
+Stats3     3 6 18
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12908
+Keywords   defias pirate human guard~
+Short      a Defias Pirate~
+Long       A Defias Pirate leans against the cavern wall, sharpening a cutlass.
+~
+Desc       The closer you get to the underground docks, the more of VanCleef's
+naval crew you encounter. This pirate wears a red bandana and smells
+strongly of rum and sea salt.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 19 0 0 400 1500
+Stats2     19 19 300
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12909
+Keywords   defias rioter human~
+Short      a Defias Rioter~
+Long       A Defias Rioter screams a battle cry and charges forward.
+~
+Desc       Driven to banditry by poverty and anger, this human fights with reckless
+abandon for the Brotherhood. They wield a crude mace and carry a battered
+shield.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Female~
+Actflags   npc aggressive stayarea~
+Stats1     0 17 0 0 250 1000
+Stats2     17 17 180
+Stats3     3 6 16
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12910
+Keywords   mr smite tauren boss first mate~
+Short      Mr. Smite~
+Long       Mr. Smite the Tauren First Mate crosses his massive arms.
+~
+Desc       "You there! Check out that noise!" Mr. Smite is a massive, incredibly
+strong tauren who serves as VanCleef's enforcer. He carries a huge
+hammer and has a disturbing fondness for stunning his enemies.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 23 0 0 3000 8000
+Stats2     23 23 700
+Stats3     6 12 35
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12911
+Keywords   captain greenskin goblin boss~
+Short      Captain Greenskin~
+Long       Captain Greenskin stands near the ship's wheel, barking orders.
+~
+Desc       A vile, greedy goblin who captains the Defias Juggernaut. He wields a
+heavy staff and commands the ship's cannons, dreaming of the day they
+will sail into Stormwind Harbor and burn it to the ground.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 24 0 0 3500 9000
+Stats2     24 24 800
+Stats3     7 14 38
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12912
+Keywords   cookie murloc cook boss~
+Short      Cookie~
+Long       Cookie the Murloc stirs a highly questionable bubbling cauldron.
+~
+Desc       "Mrgglglbrlg rmrmgllg mrgggggl!" The ship's cook is a murloc who managed
+to survive on the ship by making stew out of whoever fell overboard. He
+wields a massive wooden stirring rod like a club.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 23 0 0 2500 7000
+Stats2     23 23 600
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12913
+Keywords   edwin vancleef boss mastermind leader defias~
+Short      Edwin VanCleef~
+Long       Edwin VanCleef stands in the shadows, blades drawn.
+~
+Desc       "Fools! Our cause is righteous!" The mastermind behind the Defias
+Brotherhood. Once a master stonemason who helped rebuild Stormwind, he
+was betrayed by the nobility and now seeks complete, ruthless vengeance.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 26 0 0 5000 12000
+Stats2     26 26 1000
+Stats3     8 16 45
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12914
+Keywords   defias blackguard elite human guard~
+Short      a Defias Blackguard~
+Long       A Defias Blackguard stands at attention, protecting the ship.
+~
+Desc       The absolute elite guards of the Brotherhood. Hand-picked by VanCleef,
+they wear heavy black armor and strike with deadly precision.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 22 0 0 1000 3000
+Stats2     22 22 400
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12915
+Keywords   defias squallshaper mage human~
+Short      a Defias Squallshaper~
+Long       A Defias Squallshaper gathers a ball of frost in his hands.
+~
+Desc       These renegade mages provide magical artillery for the Juggernaut. They
+control the winds and waves to ensure the ship can escape the cove.
+~
+Race       Human~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 21 0 0 800 2500
+Stats2     21 21 500
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12916
+Keywords   defias buccaneer human pirate~
+Short      a Defias Buccaneer~
+Long       A Defias Buccaneer swings from a rigging rope, ready to fight.
+~
+Desc       A hardened pirate of the high seas, now confined to an underground
+cavern. He is restless, angry, and highly dangerous.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 20 0 0 600 2000
+Stats2     20 20 300
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12917
+Keywords   defias deckhand human worker~
+Short      a Defias Deckhand~
+Long       A Defias Deckhand scrubs the bloodstained wooden deck.
+~
+Desc       The lowest rung of the pirate crew. They handle the menial labor on the
+ship but will gladly take up arms to defend their captain.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc aggressive stayarea~
+Stats1     0 18 0 0 400 1500
+Stats2     18 18 200
+Stats3     3 6 18
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12918
+Keywords   defias companion female human~
+Short      a Defias Companion~
+Long       A Defias Companion lounges near the captain's quarters.
+~
+Desc       She keeps the crew's morale high and their cups full. However, she hides
+a poisoned dagger beneath her fine clothes.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Female~
+Actflags   npc aggressive stayarea~
+Stats1     0 19 0 0 450 1600
+Stats2     19 19 250
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12919
+Keywords   ship parrot bird pet~
+Short      a ship's parrot~
+Long       A brightly colored parrot squawks loudly from a barrel.
+~
+Desc       "SQUAWK! Intruders! SQUAWK!" This annoying bird acts as an alarm system
+for the pirate crew.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc stayarea wimpy~
+Stats1     0 5 0 0 50 100
+Stats2     5 5 50
+Stats3     1 2 5
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     12900
+Keywords red bandana defias mask~
+Type     armor~
+Short    a Red Defias Bandana~
+Long     A blood-red bandana rests here, abandoned by a rogue.~
+WFlags   take head~
+Values   4 0 0 0 0 0
+Stats    10 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12901
+Keywords pickaxe rusted mining miner pick~
+Type     weapon~
+Short    a rusted mining pick~
+Long     A heavy, dull mining pick has been dropped on the cavern floor.~
+WFlags   take wield~
+Values   0 6 10 11 0 0
+Stats    15 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12902
+Keywords rhahk'zor hammer maul heavy ogre~
+Type     weapon~
+Short    Rhahk'Zor's Hammer~
+Long     A massive, splintered tree trunk banded with iron lies here.~
+WFlags   take wield~
+Values   0 12 20 7 0 0
+Stats    20 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12903
+Keywords taskmaster whip leather~
+Type     weapon~
+Short    a taskmaster's whip~
+Long     A cruel leather whip tipped with metal barbs is coiled here.~
+WFlags   take wield~
+Values   0 5 12 4 0 0
+Stats    8 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12904
+Keywords buzz saw circular shredder blade sneed~
+Type     weapon~
+Short    a Buzz Saw Blade~
+Long     A massive, bloody circular saw blade rests here.~
+WFlags   take wield~
+Values   0 10 18 3 0 0
+Stats    18 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12905
+Keywords boots heavy iron defias~
+Type     armor~
+Short    Heavy Defias Boots~
+Long     A pair of heavy, iron-toed leather boots sit here.~
+WFlags   take feet~
+Values   6 0 0 0 0 0
+Stats    12 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12906
+Keywords hammer smelting glowing gilnid~
+Type     weapon~
+Short    a glowing smelting hammer~
+Long     A heavy blacksmith's hammer, glowing white-hot at the head, rests here.~
+WFlags   take wield~
+Values   0 12 18 3 0 0
+Stats    18 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12907
+Keywords barrel powder blasting defias~
+Type     treasure~
+Short    a barrel of blasting powder~
+Long     A wooden barrel marked with a skull and crossbones is here, smelling of sulfur.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    10 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12908
+Keywords ring gilnid gold golden~
+Type     armor~
+Short    Gilnid's Golden Ring~
+Long     A heavy, ostentatious golden ring has been dropped in the dirt.~
+WFlags   take finger~
+Values   3 0 0 0 0 0
+Stats    2 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12909
+Keywords cannonball iron heavy round~
+Type     treasure~
+Short    a heavy iron cannonball~
+Long     A perfectly round, incredibly heavy iron cannonball sits in a pile.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    25 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12910
+Keywords smite mighty hammer massive~
+Type     weapon~
+Short    Smite's Mighty Hammer~
+Long     A truly massive, incredibly heavy iron hammer lies here.~
+WFlags   take wield~
+Values   0 15 25 3 0 0
+Stats    20 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12911
+Keywords emberstone staff glowing red~
+Type     staff~
+Short    the Emberstone Staff~
+Long     A long wooden staff topped with a glowing, red-hot emberstone is here.~
+WFlags   take wield~
+Values   0 10 15 -1 0 0
+Stats    10 600 60 0 0
+Spells   'aqua breath'
+#ENDOBJECT
+
+#OBJECT
+Vnum     12912
+Keywords cookie stirring rod wooden club~
+Type     weapon~
+Short    Cookie's Stirring Rod~
+Long     A massive, soup-stained wooden rod lies discarded on the ground.~
+WFlags   take wield~
+Values   0 10 18 7 0 0
+Stats    8 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12913
+Keywords corsair overshirt silk blue~
+Type     armor~
+Short    a Corsair's Overshirt~
+Long     A finely woven blue silk pirate's shirt has been left here.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    5 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12914
+Keywords cruel barb sword curved jagged~
+Type     weapon~
+Short    the Cruel Barb~
+Long     A wickedly curved sword with a jagged, tearing edge rests here.~
+WFlags   take wield~
+Values   0 12 20 3 0 0
+Stats    12 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12915
+Keywords cape brotherhood black cloak defias~
+Type     armor~
+Short    the Cape of the Brotherhood~
+Long     A dark, flowing black cape bearing the symbol of the Defias lies here.~
+WFlags   take neck~
+Values   5 0 0 0 0 0
+Stats    4 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12916
+Keywords blackened defias armor leather dark~
+Type     armor~
+Short    Blackened Defias Armor~
+Long     A suit of dark, incredibly tough boiled leather armor rests here.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    10 900 90 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12917
+Keywords head vancleef severed edwin~
+Type     treasure~
+Short    the Head of Edwin VanCleef~
+Long     The severed head of the Defias Kingpin stares blankly from the dirt.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12918
+Keywords unsent letter parchment folded sealed~
+Type     scroll~
+Short    an unsent letter~
+Long     A sealed, folded parchment sits here, detailing plans to burn Stormwind.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 50 5 0 0
+Spells   'identify' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     12919
+Keywords pirate rum bottle glass drink~
+Type     drinkcon~
+Short    a bottle of pirate's rum~
+Long     A dark glass bottle filled with potent, spiced rum is here.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     12900
+Name     &dThe Deadmines - Instance Portal&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You have stepped through the swirling instance portal deep beneath the
+Moonbrook barn. The air here is damp and smells of undisturbed earth
+and black powder. The tunnel slopes sharply downward into the dark.
+~
+#EXIT
+Direction down~
+ToRoom    12901
+Desc      The tunnel descends deeper into the mines.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12901
+Name     &dThe Dusty Tunnels&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The walls of this narrow tunnel are supported by rotting wooden beams.
+The sound of pickaxes striking stone echoes faintly from the east. The
+Defias Brotherhood has been busy excavating these old shafts.
+~
+#EXIT
+Direction east~
+ToRoom    12902
+Desc      The tunnel continues east.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    12900
+Desc      The path back to the instance portal.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12902
+Name     &dCart Track Crossing&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Rusted iron cart tracks crisscross the stone floor here. Several wooden
+mine carts sit abandoned, filled with useless rubble. The tracks lead
+northward into a wider excavation area.
+~
+#EXIT
+Direction north~
+ToRoom    12903
+Desc      The tracks lead north.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12901
+Desc      The dusty tunnel leading back.
+~
+#ENDEXIT
+
+Reset M 0 12901 4 12902
+  Reset E 0 12903 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12903
+Name     &dThe Excavation Site&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The tunnel widens into a larger staging area. Torches sputter on the
+walls, casting long, dancing shadows. Evokers and miners coordinate
+their efforts here, moving massive amounts of stone to clear a path
+deeper into the mountain.
+~
+#EXIT
+Direction east~
+ToRoom    12904
+Desc      A heavy wooden barricade blocks the way east.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12902
+Desc      The cart track crossing.
+~
+#ENDEXIT
+
+Reset M 0 12900 6 12903
+  Reset E 0 12900 1 6
+  Reset E 0 12901 1 16
+Reset M 0 12903 4 12903
+  Reset E 0 12900 1 6
+#ENDROOM
+
+#ROOM
+Vnum     12904
+Name     &dThe Ogre's Guard Post&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The tunnel ends in a massive chamber sealed by enormous, iron-banded
+wooden doors. The ground is littered with chewed bones and broken
+mining equipment. This is the domain of the Brotherhood's brute enforcer.
+~
+#EXIT
+Direction east~
+ToRoom    12905
+Desc      The heavy wooden doors lead to the Mast Room.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12903
+Desc      The excavation site.
+~
+#ENDEXIT
+
+Reset M 0 12902 2 12904
+  Reset E 0 12902 1 16
+Reset M 0 12904 6 12904
+#ENDROOM
+
+#ROOM
+Vnum     12905
+Name     &dThe Heavy Wooden Doors&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You have passed Rhahk'Zor's guard post. The immense wooden doors have
+been forced open, revealing a breathtakingly large subterranean cavern.
+A complex network of wooden walkways hangs suspended in the dark.
+~
+#EXIT
+Direction east~
+ToRoom    12906
+Desc      You step out onto the upper walkway.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12904
+Desc      The ogre's guard post.
+~
+#ENDEXIT
+
+Reset M 0 12904 6 12905
+#ENDROOM
+
+#ROOM
+Vnum     12906
+Name     &OThe Mast Room - Upper Walkway&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You stand on a rickety wooden platform suspended high above the cavern
+floor. Huge gaps in the planks reveal a dizzying drop. Below, you can
+see dozens of goblins and Defias members working on massive wooden masts.
+~
+#EXIT
+Direction south~
+ToRoom    12907
+Desc      The walkway continues south.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12905
+Desc      The heavy doors.
+~
+#ENDEXIT
+
+Reset M 0 12900 6 12906
+Reset M 0 12904 6 12906
+#ENDROOM
+
+#ROOM
+Vnum     12907
+Name     &OThe Mast Room - Winding Ramp&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The wooden walkway spirals downwards along the cavern wall. The sound
+of buzzing saws and shouting goblins grows significantly louder. The
+sheer scale of the Defias operation is beginning to become clear.
+~
+#EXIT
+Direction north~
+ToRoom    12906
+Desc      The upper walkway.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12908
+Desc      The ramp descends to the cavern floor.
+~
+#ENDEXIT
+
+Reset M 0 12901 4 12907
+  Reset E 0 12903 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12908
+Name     &OThe Mast Room - Cavern Floor&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You have reached the bottom of the cavern. Massive tree trunks, stripped
+of their bark, lie everywhere. Defias workers and goblin engineers are
+frantically shaping the wood for some massive, unseen project.
+~
+#EXIT
+Direction east~
+ToRoom    12909
+Desc      A pathway leads toward the Lumber Mill.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    12907
+Desc      The ramp leading back up.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12909
+Name     &OThe Lumber Mill Bridge&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A sturdy stone bridge spans a deep chasm within the cavern. On the
+other side, you can see a massive, multi-level wooden structure built
+into the rock. Black smoke billows from its chimneys.
+~
+#EXIT
+Direction east~
+ToRoom    12910
+Desc      The entrance to the Lumber Mill.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12908
+Desc      The Mast Room floor.
+~
+#ENDEXIT
+
+Reset M 0 12900 6 12909
+  Reset E 0 12901 1 16
+Reset M 0 12903 4 12909
+#ENDROOM
+
+#ROOM
+Vnum     12910
+Name     &OThe Lumber Mill - Main Floor&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The noise here is deafening. Enormous waterwheels power massive
+grinding gears and saws. Goblins rush about with planks of wood. In the
+center of the room, a massive mechanical shredder is currently powered
+down, but its pilot looks eager for a fight.
+~
+#EXIT
+Direction west~
+ToRoom    12909
+Desc      The bridge back to the Mast Room.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    12911
+Desc      A ramp leads up to the Shredder platform.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12911
+Name     &OSneed's Shredder Platform&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This elevated platform overlooks the entire Lumber Mill. It is covered
+in grease, sawdust, and scattered tools. Sneed controls the lumber
+production from here, strapped tightly into his lethal, blade-covered
+machine.
+~
+#EXIT
+Direction east~
+ToRoom    12912
+Desc      A door leads toward the Goblin Foundry.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12910
+Desc      The ramp leads down to the main floor.
+~
+#ENDEXIT
+
+Reset M 0 12905 2 12911
+  Reset E 0 12904 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12912
+Name     &OTunnel to the Foundry&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Leaving the deafening saws of the Lumber Mill behind, this tunnel grows
+increasingly hotter the further east you walk. The walls glow with the
+faint orange light of molten metal.
+~
+#EXIT
+Direction west~
+ToRoom    12911
+Desc      Sneed's platform.
+~
+#ENDEXIT
+
+Reset M 0 12907 4 12912
+#ENDROOM
+
+#ROOM
+Vnum     12913
+Name     &RThe Goblin Foundry - Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You step out of the tunnel and into a blistering wave of heat. The
+Foundry is massive, lit entirely by the hellish orange glow of open
+smelting pits. The air is thick with ash and the metallic tang of
+melting iron.
+~
+#EXIT
+Direction east~
+ToRoom    12914
+Desc      The main floor of the Foundry.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12912
+Desc      The tunnel leading back to the Lumber Mill.
+~
+#ENDEXIT
+
+Reset M 0 12909 4 12913
+#ENDROOM
+
+#ROOM
+Vnum     12914
+Name     &RThe Goblin Foundry - Main Floor&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Rivers of molten metal run through heavy stone trenches on either side
+of you. Goblin craftsmen are working furiously, pouring the metal into
+molds to create weapons, armor, and massive iron plates for an unknown
+project.
+~
+#EXIT
+Direction north~
+ToRoom    12915
+Desc      Gilnid's personal forge.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    12916
+Desc      The rear exit of the Foundry.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12913
+Desc      The entrance of the Foundry.
+~
+#ENDEXIT
+
+Reset M 0 12907 4 12914
+#ENDROOM
+
+#ROOM
+Vnum     12915
+Name     &RGilnid's Forge&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This raised stone platform overlooks the rest of the Foundry. The largest
+and hottest furnace in the cavern roars here. Gilnid, the goblin
+overseer, stands here directing the flow of molten iron and screaming
+at his subordinates.
+~
+#EXIT
+Direction south~
+ToRoom    12914
+Desc      The main floor of the Foundry.
+~
+#ENDEXIT
+
+Reset M 0 12906 2 12915
+  Reset E 0 12906 1 16
+  Reset E 0 12908 1 1
+#ENDROOM
+
+#ROOM
+Vnum     12916
+Name     &RThe Foundry Rear Exit&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The heat begins to dissipate slightly as you reach the eastern edge of
+the Foundry. The stone trenches of molten iron stop here, giving way
+to a dark, natural cavern path that slopes steeply downward.
+~
+#EXIT
+Direction east~
+ToRoom    12917
+Desc      The cavern descends into the darkness.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12914
+Desc      The main floor of the Foundry.
+~
+#ENDEXIT
+
+Reset M 0 12918 2 12916
+#ENDROOM
+
+#ROOM
+Vnum     12917
+Name     &dCavern Descent&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The path winds sharply downward. The walls here are slick with moisture,
+and the orange glow of the Foundry is entirely swallowed by the shadows.
+You can hear the faint, echoing sound of water lapping against stone far
+below.
+~
+#EXIT
+Direction east~
+ToRoom    12918
+Desc      The path continues to descend.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12916
+Desc      The rear exit of the Foundry.
+~
+#ENDEXIT
+
+Reset M 0 12909 4 12917
+#ENDROOM
+
+#ROOM
+Vnum     12918
+Name     &dDefias Checkpoint&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The tunnel widens into a small cavern. A makeshift barricade of wooden
+crates and barrels has been set up here to protect the approach to the
+docks. Defias Pirates stand guard, eyeing the shadows suspiciously.
+~
+#EXIT
+Direction north~
+ToRoom    12919
+Desc      A small side cave holding explosive supplies.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    12920
+Desc      The tunnel opens up toward a massive door.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12917
+Desc      The cavern descent.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12919
+Name     &dThe Powder Room&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This small, dry offshoot of the main cavern is heavily guarded. Stacks
+of wooden barrels marked with skull and crossbones line the walls. The
+smell of sulfur and black powder is overwhelmingly strong here. One wrong
+spark could collapse the entire mountain.
+~
+#EXIT
+Direction south~
+ToRoom    12918
+Desc      The Defias checkpoint.
+~
+#ENDEXIT
+
+Reset M 0 12914 4 12919
+Reset M 0 12908 4 12919
+Reset O 0 12907 1 12919
+#ENDROOM
+
+#ROOM
+Vnum     12920
+Name     &dApproach to the Docks&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The narrow tunnel opens up into an impossibly large subterranean cavern.
+The salty smell of the ocean is unmistakable now. Ahead of you, the
+path is completely blocked by a structure of colossal proportions.
+~
+#EXIT
+Direction east~
+ToRoom    12921
+Desc      A massive iron cannon points at a closed door.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12918
+Desc      The Defias checkpoint.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12921
+Name     &OThe Defias Cannon&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A massive, black iron cannon sits in the center of the path, aimed
+point-blank at a colossal ironclad door to the east. Several heavy
+cannonballs and empty powder kegs are scattered around its base. It
+looks like it was dragged down here for a very specific purpose.
+~
+#EXIT
+Direction east~
+ToRoom    12922
+Desc      The towering Ironclad Door.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12920
+Desc      The approach tunnel.
+~
+#ENDEXIT
+
+Reset O 0 12909 3 12921
+#ENDROOM
+
+#ROOM
+Vnum     12922
+Name     &dThe Ironclad Door&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You stand before the shattered, burning remains of a pair of doors so
+massive they defy logic. The smell of the blasted black powder hangs
+heavy in the air. Through the smoking breach, you can hear the lapping
+of water and the shouts of pirates.
+~
+#EXIT
+Direction east~
+ToRoom    12923
+Desc      You step through the blasted doorway into the Cove.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12921
+Desc      The Defias Cannon.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12923
+Name     &cIronclad Cove - Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You step through the ruined doors and your breath catches. You are standing
+in an impossibly massive underground cove. A subterranean saltwater lake
+stretches out before you. Moored at the far docks is an enormous, fully
+constructed warship: The Defias Juggernaut.
+~
+#EXIT
+Direction east~
+ToRoom    12924
+Desc      The path winds down to the water's edge.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12922
+Desc      The shattered Ironclad Doors.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12924
+Name     &cIronclad Cove - Water's Edge&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The rocky path meets the calm, dark water of the underground lake. To
+the south, a sturdy wooden dock extends out toward the towering warship.
+Defias pirates patrol the area, highly alerted by the explosion.
+~
+#EXIT
+Direction south~
+ToRoom    12925
+Desc      The beginning of the wooden docks.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12923
+Desc      The entrance of the cove.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12925
+Name     &OThe Wooden Docks - Start&d~
+Sector   city~
+Desc     You step onto the creaking wooden planks of the docks. Heavy ropes and
+mooring cleats line the edges. The sheer size of the Juggernaut looming
+ahead is intimidating.
+~
+#EXIT
+Direction north~
+ToRoom    12924
+Desc      The water's edge.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12926
+Desc      The docks continue toward the ship.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12926
+Name     &OThe Wooden Docks - Center&d~
+Sector   city~
+Desc     This wide section of the docks serves as a staging area for loading cargo
+onto the ship. Dozens of crates are stacked here. A massive tauren stands
+in the center of the docks, blocking the path forward.
+~
+#EXIT
+Direction north~
+ToRoom    12925
+Desc      The start of the docks.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12927
+Desc      The end of the docks, near the gangplank.
+~
+#ENDEXIT
+
+Reset M 0 12910 2 12926
+  Reset E 0 12910 1 16
+Reset M 0 12908 4 12926
+#ENDROOM
+
+#ROOM
+Vnum     12927
+Name     &OThe Wooden Docks - End&d~
+Sector   city~
+Desc     You stand at the very end of the wooden docks. The massive black hull of
+the Defias Juggernaut rises straight up like a wooden wall. A heavy,
+reinforced gangplank stretches upwards, connecting the docks to the
+main deck of the ship.
+~
+#EXIT
+Direction north~
+ToRoom    12926
+Desc      The center of the docks.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    12941
+Desc      A small, hidden path runs along the shoreline.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    12928
+Desc      Climb the gangplank to the ship.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12928
+Name     &OThe Defias Juggernaut - Gangplank&d~
+Sector   city~
+Desc     You are walking up the steep, swaying gangplank. Below you is the dark,
+freezing water of the cove. Above you, heavily armed pirates wait to
+repel boarders.
+~
+#EXIT
+Direction up~
+ToRoom    12929
+Desc      The main deck of the ship.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12927
+Desc      The docks below.
+~
+#ENDEXIT
+
+Reset M 0 12916 6 12928
+#ENDROOM
+
+#ROOM
+Vnum     12929
+Name     &OThe Defias Juggernaut - Main Deck (Aft)&d~
+Sector   city~
+Desc     You step onto the pristine wooden deck of the warship. The engineering
+is flawless, a testament to VanCleef's skill as a stonemason and builder.
+To the north, the deck stretches forward. Behind you are the stairs up
+to the captain's wheel.
+~
+#EXIT
+Direction north~
+ToRoom    12930
+Desc      The midship deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    12933
+Desc      The captain's wheel.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12928
+Desc      The gangplank.
+~
+#ENDEXIT
+
+Reset M 0 12916 6 12929
+#ENDROOM
+
+#ROOM
+Vnum     12930
+Name     &OThe Defias Juggernaut - Main Deck (Midship)&d~
+Sector   city~
+Desc     The center of the ship is dominated by the massive central mast. Ropes
+and rigging stretch up into the darkness of the cavern ceiling. Defias
+Squallshapers channel magic here, preparing to summon the winds needed
+to sail the ship out of the mountain.
+~
+#EXIT
+Direction north~
+ToRoom    12931
+Desc      The forward deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12929
+Desc      The aft deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12936
+Desc      A hatch leads down to the lower decks.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12931
+Name     &OThe Defias Juggernaut - Main Deck (Forward)&d~
+Sector   city~
+Desc     The deck begins to narrow here as it approaches the bow. Several heavy
+ballistae are mounted to the rails, pointed toward the cave entrance.
+~
+#EXIT
+Direction north~
+ToRoom    12932
+Desc      The bow of the ship.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12930
+Desc      The midship deck.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12932
+Name     &OThe Defias Juggernaut - Bow&d~
+Sector   city~
+Desc     You stand at the very front of the ship. A beautifully carved wooden
+figurehead looks out over the dark waters. From here, you have a perfect
+view of the colossal cavern that hides the Defias fleet.
+~
+#EXIT
+Direction south~
+ToRoom    12931
+Desc      The forward deck.
+~
+#ENDEXIT
+
+Reset M 0 12916 6 12932
+Reset M 0 12915 2 12932
+#ENDROOM
+
+#ROOM
+Vnum     12933
+Name     &OThe Defias Juggernaut - Captain's Wheel&d~
+Sector   city~
+Desc     This raised platform at the rear of the ship holds the massive wooden
+steering wheel. Captain Greenskin stands here, looking down at the deck
+with a scowl. A set of elegant wooden doors to the east leads into the
+captain's cabin.
+~
+#EXIT
+Direction east~
+ToRoom    12934
+Desc      The entrance to the captain's cabin.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12929
+Desc      The aft main deck.
+~
+#ENDEXIT
+
+Reset M 0 12911 2 12933
+  Reset E 0 12911 1 16
+Reset M 0 12917 6 12933
+#ENDROOM
+
+#ROOM
+Vnum     12934
+Name     &OThe Defias Juggernaut - Cabin Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     You step into a richly furnished antechamber. Fine rugs and looted
+paintings from Westfall adorn the walls. Defias Companions lounge here,
+guarding the final set of doors that lead to the mastermind himself.
+~
+#EXIT
+Direction east~
+ToRoom    12935
+Desc      VanCleef's personal quarters.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12933
+Desc      The captain's wheel outside.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12935
+Name     &OVanCleef's Cabin&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Defias Brotherhood. Architectural blueprints for Stormwind
+City are pinned to the walls alongside tactical maps outlining its
+destruction. Edwin VanCleef stands here in the shadows, his cruel
+blades drawn and ready.
+~
+#EXIT
+Direction west~
+ToRoom    12934
+Desc      The cabin entrance.
+~
+#ENDEXIT
+
+Reset M 0 12913 2 12935
+  Reset E 0 12914 1 16
+  Reset E 0 12915 1 3
+  Reset E 0 12916 1 5
+Reset O 0 12918 1 12935
+#ENDROOM
+
+#ROOM
+Vnum     12936
+Name     &OThe Defias Juggernaut - Lower Deck&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You climb down the ladder into the claustrophobic lower deck of the ship.
+The ceiling is low, forcing you to stoop. This is the gun deck, where the
+ship's massive firepower is housed.
+~
+#EXIT
+Direction north~
+ToRoom    12937
+Desc      The port cannon deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12938
+Desc      The starboard cannon deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    12930
+Desc      The main deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12939
+Desc      The cargo hold.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12937
+Name     &OThe Defias Juggernaut - Cannon Deck (Port)&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Row upon row of heavy black iron cannons face out of the open gunports.
+Stacks of cannonballs and powder kegs sit ready. It is clear that this
+ship was built to besiege a city.
+~
+#EXIT
+Direction south~
+ToRoom    12936
+Desc      The center of the lower deck.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     12938
+Name     &OThe Defias Juggernaut - Cannon Deck (Starboard)&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     More heavy cannons line the starboard side. The sheer weight of the iron
+here makes the entire deck groan slightly as the ship rocks in the
+underground waters.
+~
+#EXIT
+Direction north~
+ToRoom    12936
+Desc      The center of the lower deck.
+~
+#ENDEXIT
+
+Reset M 0 12917 6 12938
+#ENDROOM
+
+#ROOM
+Vnum     12939
+Name     &OThe Defias Juggernaut - Cargo Hold&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You descend into the dark, damp belly of the ship. The cargo hold is
+packed to the ceiling with stolen grain, weapons, and gold from the
+plundered farms of Westfall.
+~
+#EXIT
+Direction up~
+ToRoom    12936
+Desc      The lower deck.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    12940
+Desc      A small hatch leads to the bilge.
+~
+#ENDEXIT
+
+Reset O 0 12919 4 12939
+#ENDROOM
+
+#ROOM
+Vnum     12940
+Name     &OThe Defias Juggernaut - Bilge&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You are at the very bottom of the ship, below the waterline. Seawater
+sloshes ankle-deep around your boots. It smells foul and stagnant down
+here.
+~
+#EXIT
+Direction up~
+ToRoom    12939
+Desc      The cargo hold.
+~
+#ENDEXIT
+
+Reset M 0 12919 2 12940
+Reset M 0 12917 6 12940
+#ENDROOM
+
+#ROOM
+Vnum     12941
+Name     &cIronclad Cove - Hidden Shore&d~
+Sector   field~
+Desc     Following a small, muddy path around the edge of the water from the docks,
+you discover a secluded, sandy shore. A bubbling cauldron sits over a fire.
+This is where Cookie, the ship's murloc chef, prepares the crew's meals.
+~
+#EXIT
+Direction east~
+ToRoom    12942
+Desc      A tunnel leading out of the cove.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    12927
+Desc      The end of the wooden docks.
+~
+#ENDEXIT
+
+Reset M 0 12912 2 12941
+  Reset E 0 12912 1 16
+Reset M 0 12914 4 12941
+#ENDROOM
+
+#ROOM
+Vnum     12942
+Name     &dIronclad Cove - Secret Exit&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A small, natural tunnel opens up in the rock face just past the shore.
+You can smell fresh air and feel a breeze coming from the east. This
+must be the secret exit that leads out to the western shores of Westfall.
+~
+#EXIT
+Direction west~
+ToRoom    12941
+Desc      Cookie's hidden shore.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ENDAREA

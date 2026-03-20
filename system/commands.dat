@@ -41,7 +41,6 @@ Log         0
 Flags       1
 End
 
-
 #COMMAND
 Name        ;~
 Code        do_gtell
@@ -63,41 +62,6 @@ Name        accessories~
 Code        do_accessories
 Position    104
 Level       5
-Log         0
-End
-
-#COMMAND
-Name        homebuy~
-Code        do_homebuy
-Position    104
-Level       5
-Log         0
-Flags       1
-End
-
-#COMMAND
-Name        house~
-Code        do_house
-Position    104
-Level       5
-Log         0
-Flags       1
-End
-
-#COMMAND
-Name        residence~
-Code        do_residence
-Position    104
-Level       53
-Log         0
-Flags       1
-End
-
-#COMMAND
-Name        retiredtalk~
-Code        do_retiredtalk
-Position    100
-Level       50
 Log         0
 End
 
@@ -257,6 +221,22 @@ Name        aecho~
 Code        do_aecho
 Position    100
 Level       54
+Log         0
+End
+
+#COMMAND
+Name        alliance~
+Code        do_alliance
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        auras~
+Code        do_auras
+Position    100
+Level       1
 Log         0
 End
 
@@ -621,6 +601,14 @@ Log         0
 End
 
 #COMMAND
+Name        callmount~
+Code        do_callmount
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
 Name        down~
 Code        do_down
 Position    112
@@ -659,7 +647,6 @@ Code        do_delet
 Position    100
 Level       0
 Log         0
-Flags       0
 End
 
 #COMMAND
@@ -668,7 +655,6 @@ Code        do_delete
 Position    100
 Level       0
 Log         1
-Flags       0
 End
 
 #COMMAND
@@ -1021,6 +1007,14 @@ Log         0
 End
 
 #COMMAND
+Name        flight~
+Code        do_flight
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
 Name        get~
 Code        do_get
 Position    106
@@ -1123,6 +1117,40 @@ Log         0
 End
 
 #COMMAND
+Name        greed~
+Code        do_greed
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        groupsummon~
+Code        do_groupsummon
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        homebuy~
+Code        do_homebuy
+Position    104
+Level       5
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        house~
+Code        do_house
+Position    104
+Level       5
+Log         0
+Flags       1
+End
+
+#COMMAND
 Name        help~
 Code        do_help
 Position    100
@@ -1208,6 +1236,14 @@ Code        do_hotboot
 Position    100
 Level       60
 Log         1
+End
+
+#COMMAND
+Name        horde~
+Code        do_horde
+Position    100
+Level       1
+Log         0
 End
 
 #COMMAND
@@ -1326,6 +1362,22 @@ Log         0
 End
 
 #COMMAND
+Name        instancereset~
+Code        do_instance_reset
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        imready~
+Code        do_ready
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
 Name        journal~
 Code        do_journal
 Position    100
@@ -1393,7 +1445,7 @@ End
 Name        languages~
 Code        do_languages
 Position    106
-Level       0
+Level       65
 Log         0
 End
 
@@ -1480,51 +1532,11 @@ Log         0
 End
 
 #COMMAND
-Name        morph~
-Code        do_imm_morph
-Position    100
-Level       51
-Log         0
-End
-
-#COMMAND
 Name        mobinvade~
 Code        do_mobinvade
 Position    100
 Level       60
 Log         1
-End
-
-#COMMAND
-Name        morphstat~
-Code        do_morphstat
-Position    100
-Level       51
-Log         0
-End
-
-#COMMAND
-Name        morphcreate~
-Code        do_morphcreate
-Position    100
-Level       51
-Log         0
-End
-
-#COMMAND
-Name        morphset~
-Code        do_morphset
-Position    100
-Level       51
-Log         0
-End
-
-#COMMAND
-Name        morphdestroy~
-Code        do_morphdestroy
-Position    100
-Level       51
-Log         0
 End
 
 #COMMAND
@@ -1806,9 +1818,9 @@ End
 
 #COMMAND
 Name        mail~
-Code        do_mailroom
+Code        do_mail
 Position    106
-Level       0
+Level       1
 Log         0
 End
 
@@ -2118,24 +2130,6 @@ Flags       1
 End
 
 #COMMAND
-Name        mpmorph~
-Code        do_mpmorph
-Position    100
-Level       1
-Log         0
-Flags       1
-End
-
-#COMMAND
-Name        mpunmorph~
-Code        do_mpunmorph
-Position    100
-Level       1
-Log         0
-Flags       1
-End
-
-#COMMAND
 Name        mpunnuisance~
 Code        do_mpunnuisance
 Position    100
@@ -2160,14 +2154,6 @@ Position    100
 Level       1
 Log         0
 Flags       1
-End
-
-#COMMAND
-Name        morphlist~
-Code        do_morphlist
-Position    100
-Level       51
-Log         0
 End
 
 #COMMAND
@@ -2364,6 +2350,14 @@ Log         1
 End
 
 #COMMAND
+Name        need~
+Code        do_need
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
 Name        oowner~
 Code        do_oowner
 Position    100
@@ -2517,7 +2511,7 @@ End
 Name        password~
 Code        do_password
 Position    100
-Level       0
+Level       1
 Log         2
 End
 
@@ -2657,6 +2651,47 @@ Name        qpstat~
 Code        do_qpstat
 Position    100
 Level       54
+Log         0
+End
+
+#COMMAND
+Name        questlog~
+Code        do_questlog
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        qset~
+Code        do_qset
+Position    100
+Level       65
+Log         0
+End
+
+#COMMAND
+Name        qedit~
+Code        do_qedit
+Position    100
+Level       60
+Log         0
+End
+
+#COMMAND
+Name        residence~
+Code        do_residence
+Position    104
+Level       53
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        retiredtalk~
+Code        do_retiredtalk
+Position    100
+Level       50
 Log         0
 End
 
@@ -2964,14 +2999,6 @@ Log         0
 End
 
 #COMMAND
-Name        revert~
-Code        do_revert
-Position    100
-Level       0
-Log         0
-End
-
-#COMMAND
 Name        roster~
 Code        do_roster
 Position    100
@@ -2984,6 +3011,14 @@ Name        rloop~
 Code        do_rloop
 Position    100
 Level       54
+Log         0
+End
+
+#COMMAND
+Name        readycheck~
+Code        do_readycheck
+Position    100
+Level       1
 Log         0
 End
 
@@ -3345,7 +3380,7 @@ End
 Name        speak~
 Code        do_speak
 Position    106
-Level       0
+Level       65
 Log         0
 End
 
@@ -3420,14 +3455,6 @@ Code        do_scatter
 Position    100
 Level       61
 Log         1
-End
-
-#COMMAND
-Name        style~
-Code        do_style
-Position    105
-Level       1
-Log         0
 End
 
 #COMMAND
@@ -3543,6 +3570,22 @@ Log         0
 End
 
 #COMMAND
+Name        shapeshift~
+Code        do_shapeshift
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        stance~
+Code        do_stance
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
 Name        tell~
 Code        do_tell
 Position    106
@@ -3650,14 +3693,6 @@ Log         0
 End
 
 #COMMAND
-Name        unmorph~
-Code        do_imm_unmorph
-Position    100
-Level       51
-Log         0
-End
-
-#COMMAND
 Name        unlock~
 Code        do_unlock
 Position    106
@@ -3710,6 +3745,14 @@ Name        unbolt~
 Code        do_unbolt
 Position    100
 Level       0
+Log         0
+End
+
+#COMMAND
+Name        unmount~
+Code        do_dismiss_mount
+Position    100
+Level       1
 Log         0
 End
 

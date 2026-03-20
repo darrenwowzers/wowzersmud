@@ -1,0 +1,209 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Stormwind~
+Author       Builder~
+WeatherX     0
+WeatherY     0
+Ranges       1 50 0 60
+Economy      0 31250000
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       11000
+Keywords   guard stormwind footman~
+Short      a Stormwind Footman~
+Long       A Stormwind Footman stands at attention, clad in gleaming armor.
+~
+Desc       This guard wears the blue and gold tabard of Stormwind. He watches the
+crowds carefully, keeping a firm grip on his polished halberd. He looks
+ready to defend the Alliance at a moment's notice.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11001
+Keywords   auctioneer jaxon~
+Short      Auctioneer Jaxon~
+Long       Auctioneer Jaxon stands behind the counter, calling out bids.
+~
+Desc       Dressed in fine silken clothes, Jaxon speaks at a rapid-fire pace, organizing
+the chaotic flow of commerce that passes through the capital city.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Stats       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11000
+Keywords halberd guard standard~
+Type     weapon~
+Short    a standard-issue Stormwind halberd~
+Long     A standard-issue Stormwind halberd rests here.~
+WFlags   take wield~
+Values   0 10 15 3 0 0
+Stats    10 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11001
+Keywords tabard blue gold stormwind~
+Type     armor~
+Short    a blue and gold Stormwind tabard~
+Long     A folded blue and gold tabard has been left here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     11000
+Name     &YThe Gates of Stormwind&d~
+Sector   city~
+Desc     Towering stone statues of legendary heroes flank the massive entry bridge.
+The Valley of Heroes stretches out behind you, while the bustling, paved
+streets of the Trade District lie just ahead. The majestic white walls of
+the city rise high into the sky, adorned with the blue and gold banners of
+the Alliance.
+~
+#EXIT
+Direction north~
+ToRoom    11001
+Desc      The paved streets of the Trade District await.
+~
+#ENDEXIT
+
+Reset M 1 11000 2 11000
+  Reset E 0 11000 1 16
+  Reset E 0 11001 1 12
+Reset O 0 11002 1 11000
+#ENDROOM
+
+#ROOM
+Vnum     11001
+Name     &YThe Trade District Square&d~
+Sector   city~
+Desc     You stand in the heart of Stormwind's mercantile center. Cobblestone paths
+branch out in several directions, lined with bustling shops, inns, and the
+constant chatter of citizens and adventurers alike. To the east stands the
+grand Stormwind Bank, and to the west lies the local Auction House. The
+air smells of fresh bread from a nearby vendor and the ozone of passing
+mages.
+~
+#EXIT
+Direction north~
+ToRoom    11004
+Desc      The street continues deeper into the Trade District.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    11002
+Desc      The grand pillars of the Stormwind Bank invite you in.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    11000
+Desc      The Gates of Stormwind lead out of the city.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    11003
+Desc      The sounds of shouting and commerce echo from the Auction House.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     11002
+Name     &YThe Stormwind Bank&d~
+Sector   inside~
+Flags    indoors~
+Desc     Polished marble floors and heavily reinforced teller cages dominate this
+imposing structure. Goblins and humans alike operate behind the counters,
+managing the wealth of the Alliance. Heavy iron vaults are visible in the
+back, guarded heavily by elite footmen.
+~
+#EXIT
+Direction west~
+ToRoom    11001
+Desc      You see the bustling Trade District Square.
+~
+#ENDEXIT
+
+Reset M 0 11000 2 11002
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11003
+Name     &YThe Stormwind Auction House&d~
+Sector   inside~
+Flags    indoors~
+Desc     It is incredibly loud in here. Adventurers from all over Azeroth stand
+around shouting prices, inspecting weapons, and trading raw materials.
+A raised dais at the back of the room holds several well-dressed
+auctioneers who are frantically keeping track of bids and buy-outs.
+~
+#EXIT
+Direction east~
+ToRoom    11001
+Desc      You see the bustling Trade District Square.
+~
+#ENDEXIT
+
+Reset M 0 11001 1 11003
+#ENDROOM
+
+#ROOM
+Vnum     11004
+Name     &YTrade District - North Walk&d~
+Sector   city~
+Desc     The cobblestone street narrows slightly here as it winds toward the darker,
+quieter alleyways of the city. A small cheese shop sits to the right, and
+a vendor selling brightly colored flowers stands by a small fountain. The
+bustle of the main square is slightly muted here.
+~
+#EXIT
+Direction south~
+ToRoom    11001
+Desc      The Trade District Square lies to the south.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ENDAREA

@@ -40,6 +40,9 @@ void mprog_read_programs( FILE * fp, MOB_INDEX_DATA * pMobIndex );
 void oprog_read_programs( FILE * fp, OBJ_INDEX_DATA * pObjIndex );
 void rprog_read_programs( FILE * fp, ROOM_INDEX_DATA * pRoomIndex );
 
+/* External reset function needed for instance generation */
+void reset_room( ROOM_INDEX_DATA *room );
+
 /*
  * Globals.
  */
@@ -57,6 +60,11 @@ LMSG_DATA *last_lmsg;
 SHOP_DATA *first_shop;
 SHOP_DATA *last_shop;
 
+/* Wowzers MUD: Global Instance Tracking Lists -Hansth */
+INSTANCE_DATA * first_instance = NULL;
+INSTANCE_DATA * last_instance  = NULL;
+int             top_instance_vnum = 0;
+
 REPAIR_DATA *first_repair;
 REPAIR_DATA *last_repair;
 
@@ -72,6 +80,10 @@ EXTRACT_CHAR_DATA *extracted_char_queue;
 CHAR_DATA *first_char;
 CHAR_DATA *last_char;
 const char *help_greeting;
+
+/* Wowzers Mud: Global AH Master List */
+AH_DATA *first_ah;
+AH_DATA *last_ah;
 
 OBJ_DATA *first_object;
 OBJ_DATA *last_object;
@@ -470,6 +482,8 @@ void boot_db( bool fCopyOver )
    last_object = NULL;
    first_char = NULL;
    last_char = NULL;
+   first_ah = NULL; //Hansth
+   last_ah  = NULL; //Hansth
    first_area = NULL;
    first_area_name = NULL; /* Used for alphanum. sort */
    last_area_name = NULL;
@@ -738,6 +752,9 @@ void boot_db( bool fCopyOver )
 
    log_string( "Loading boards" );
    load_boards(  );
+
+   log_string( "Loading Auction House..." );
+   load_auctions();
 
    log_string( "Loading vault list" );
    load_vaults( );
@@ -9656,4 +9673,481 @@ void load_quests( void )
       }
    }
    FCLOSE( fp );
+}
+
+/* ============================================
+   Wowzers Mud: Dynamic Room Cloner -Hansth
+   ============================================ */
+ROOM_INDEX_DATA *clone_room( ROOM_INDEX_DATA *pRoomIndex, int new_vnum, INSTANCE_DATA *instance )
+{
+   ROOM_INDEX_DATA *pNewRoom;
+   int iHash;
+
+   if ( !pRoomIndex )
+   {
+      bug( "%s: NULL pRoomIndex passed! -Hansth", __func__ );
+      return NULL;
+   }
+
+   /* Allocate the fresh memory for the clone -Hansth */
+   CREATE( pNewRoom, ROOM_INDEX_DATA, 1 );
+
+   /* Copy the core room data over -Hansth */
+   pNewRoom->vnum = new_vnum;
+   pNewRoom->name = STRALLOC( pRoomIndex->name );
+   pNewRoom->description = STRALLOC( pRoomIndex->description );
+   pNewRoom->room_flags = pRoomIndex->room_flags;
+   pNewRoom->sector_type = pRoomIndex->sector_type;
+   pNewRoom->light = pRoomIndex->light;
+   pNewRoom->max_weight = pRoomIndex->max_weight;
+   pNewRoom->area = pRoomIndex->area; /* Tie it to the same base area -Hansth */
+
+   /* Link the room to our new Instance Tracker! -Hansth */
+   pNewRoom->instance = instance;
+
+   /* Standard Smaug Empty Initialization -Hansth */
+   pNewRoom->first_person = NULL;
+   pNewRoom->last_person = NULL;
+   pNewRoom->first_content = NULL;
+   pNewRoom->last_content = NULL;
+   pNewRoom->first_extradesc = NULL;
+   pNewRoom->last_extradesc = NULL;
+   
+   /* Init the reset pointers so we can attach cloned resets -Hansth */
+   pNewRoom->first_reset = NULL;
+   pNewRoom->last_reset = NULL;
+
+   /* We are not cloning exits just yet, that requires a second pass 
+      after all the rooms in the instance are generated -Hansth */
+   pNewRoom->first_exit = NULL;
+   pNewRoom->last_exit = NULL;
+
+   /* Add the new room to Smaug's global hash table so players can actually 
+      stand in it and the update loop can process it -Hansth */
+   iHash = new_vnum % MAX_KEY_HASH;
+   pNewRoom->next = room_index_hash[iHash];
+   room_index_hash[iHash] = pNewRoom;
+
+   return pNewRoom;
+}
+
+/* ============================================
+   Wowzers Mud: The Instance Generator -Hansth
+   ============================================ */
+INSTANCE_DATA *create_instance( const char *name, int start_vnum, int end_vnum )
+{
+   INSTANCE_DATA *instance;
+   ROOM_INDEX_DATA *pRoom;
+   ROOM_INDEX_DATA *pNewRoom;
+   EXIT_DATA *pexit;
+   EXIT_DATA *pnewexit;
+   int vnum, new_vnum;
+   int offset;
+
+   /* 1. Find a massive empty block of VNUMs (Starting at 1,000,000) -Hansth */
+   offset = 1000000;
+   while ( get_room_index( offset ) )
+   {
+      offset += 1000; /* Jump in blocks of 1000 to find free space -Hansth */
+   }
+
+   /* 2. Create the Instance Tracker -Hansth */
+   CREATE( instance, INSTANCE_DATA, 1 );
+   instance->name          = STRALLOC( name );
+   instance->template_vnum = start_vnum;
+   instance->start_vnum    = offset;
+   instance->end_vnum      = offset + (end_vnum - start_vnum);
+   instance->internal_id   = offset; /* Use the starting VNUM as the unique ID -Hansth */
+   instance->num_players   = 0;
+   instance->expires       = current_time + 3600; /* Defaults to 1 hour empty before collapse -Hansth */
+
+   /* 3. PASS ONE: Clone the Physical Rooms -Hansth */
+   for ( vnum = start_vnum; vnum <= end_vnum; vnum++ )
+   {
+      if ( ( pRoom = get_room_index( vnum ) ) != NULL )
+      {
+         new_vnum = offset + ( vnum - start_vnum );
+         clone_room( pRoom, new_vnum, instance );
+      }
+   }
+
+   /* 4. PASS TWO: Wire the Doors Together -Hansth */
+   for ( vnum = start_vnum; vnum <= end_vnum; vnum++ )
+   {
+      if ( ( pRoom = get_room_index( vnum ) ) != NULL )
+      {
+         new_vnum = offset + ( vnum - start_vnum );
+         pNewRoom = get_room_index( new_vnum );
+
+         if ( !pNewRoom ) continue;
+
+         for ( pexit = pRoom->first_exit; pexit; pexit = pexit->next )
+         {
+            /* Only clone doors that lead to other rooms INSIDE this specific instance -Hansth */
+            if ( pexit->to_room && pexit->to_room->vnum >= start_vnum && pexit->to_room->vnum <= end_vnum )
+            {
+               int target_vnum = offset + ( pexit->to_room->vnum - start_vnum );
+               ROOM_INDEX_DATA *to_room = get_room_index( target_vnum );
+
+               if ( to_room )
+               {
+                  pnewexit = make_exit( pNewRoom, to_room, pexit->vdir );
+                  if ( pexit->keyword )     pnewexit->keyword     = STRALLOC( pexit->keyword );
+                  if ( pexit->description ) pnewexit->description = STRALLOC( pexit->description );
+                  pnewexit->key         = pexit->key;
+                  pnewexit->exit_info   = pexit->exit_info;
+               }
+            }
+         }
+      }
+   }
+
+/* 5. PASS THREE: Populate the Instance via Hard Spawn -Hansth */
+for ( vnum = start_vnum; vnum <= end_vnum; vnum++ )
+{
+   if ( ( pRoom = get_room_index( vnum ) ) != NULL )
+   {
+      new_vnum = offset + ( vnum - start_vnum );
+      pNewRoom = get_room_index( new_vnum );
+
+      if ( !pNewRoom ) continue;
+
+      RESET_DATA *pReset, *pSub;
+
+      /* Pass 3a: Top-level resets (Mobiles and Objects) */
+      for ( pReset = pRoom->first_reset; pReset; pReset = pReset->next )
+      {
+         switch ( UPPER(pReset->command) )
+         {
+            case 'M': /* Mobile */
+            {
+               MOB_INDEX_DATA *pMobIndex = get_mob_index( pReset->arg1 );
+               if ( pMobIndex )
+               {
+                  CHAR_DATA *last_mob = create_mobile( pMobIndex );
+                  char_to_room( last_mob, pNewRoom );
+                  
+                  /* Pass 3b: Process nested Mob resets (Equip and Give) */
+                  for ( pSub = pReset->first_reset; pSub; pSub = pSub->next )
+                  {
+                     if ( UPPER(pSub->command) == 'E' )
+                     {
+                        OBJ_INDEX_DATA *pObjIndex = get_obj_index( pSub->arg1 );
+                        if ( pObjIndex )
+                        {
+                           int obj_level = pObjIndex->level > 0 ? pObjIndex->level : last_mob->level;
+                           OBJ_DATA *obj = create_object( pObjIndex, UMAX( 1, obj_level ) );
+                           obj_to_char( obj, last_mob );
+                           equip_char( last_mob, obj, pSub->arg3 );
+                           if ( obj->wear_loc == -1 ) obj->wear_loc = pSub->arg3;
+                        }
+                     }
+                     else if ( UPPER(pSub->command) == 'G' )
+                     {
+                        OBJ_INDEX_DATA *pObjIndex = get_obj_index( pSub->arg1 );
+                        if ( pObjIndex )
+                        {
+                           int obj_level = pObjIndex->level > 0 ? pObjIndex->level : last_mob->level;
+                           OBJ_DATA *obj = create_object( pObjIndex, UMAX( 1, obj_level ) );
+                           obj_to_char( obj, last_mob );
+                        }
+                     }
+                  }
+               }
+               break;
+            }
+
+            case 'O': /* Object in Room */
+            {
+               OBJ_INDEX_DATA *pObjIndex = get_obj_index( pReset->arg1 );
+               if ( pObjIndex )
+               {
+                  OBJ_DATA *last_obj = create_object( pObjIndex, UMAX( 1, pObjIndex->level ) );
+                  obj_to_room( last_obj, pNewRoom );
+
+                  /* Pass 3c: Process nested Object resets (Put) */
+                  for ( pSub = pReset->first_reset; pSub; pSub = pSub->next )
+                  {
+                     if ( UPPER(pSub->command) == 'P' )
+                     {
+                        OBJ_INDEX_DATA *pSubIndex = get_obj_index( pSub->arg1 );
+                        if ( pSubIndex )
+                        {
+                           OBJ_DATA *obj = create_object( pSubIndex, UMAX( 1, last_obj->level ) );
+                           obj_to_obj( obj, last_obj );
+                        }
+                     }
+                  }
+               }
+               break;
+            }
+         }
+      }
+   }
+}
+
+   /* 5. Add to the MUD's Global Active Instance List -Hansth */
+   LINK( instance, first_instance, last_instance, next, prev );
+
+   return instance;
+}
+
+/* ============================================
+   Wowzers Mud: Instance Cleanup -Hansth
+   ============================================ */
+void delete_instance( INSTANCE_DATA *instance )
+{
+   ROOM_INDEX_DATA *room;
+   CHAR_DATA *ch, *ch_next;
+   int vnum;
+
+   if ( !instance ) return;
+
+   /* Pass 1: Clear out all rooms */
+   for ( vnum = instance->start_vnum; vnum <= instance->end_vnum; vnum++ )
+   {
+      if ( ( room = get_room_index( vnum ) ) != NULL )
+      {
+         /* Safely relocate any stray players (linkdead, logged out, etc) */
+         for ( ch = room->first_person; ch; ch = ch_next )
+         {
+            ch_next = ch->next_in_room;
+            if ( !IS_NPC( ch ) )
+            {
+               send_to_char( "\r\n&RThe instance has collapsed around you!&w\r\n", ch );
+               char_from_room( ch );
+               /* Send them to the default safe room/temple */
+               char_to_room( ch, get_room_index( ROOM_VNUM_TEMPLE ) ); 
+               do_look( ch, "auto" );
+            }
+         }
+         
+         /* Smaug's delete_room handles extracting mobs, objects, and freeing room memory */
+         delete_room( room );
+      }
+   }
+
+   /* Pass 2: Unlink and free the instance structure */
+   UNLINK( instance, first_instance, last_instance, next, prev );
+   if ( instance->name ) STRFREE( instance->name );
+   DISPOSE( instance );
+}
+
+/* ============================================
+   Wowzers Mud: Instance Update Loop -Hansth
+   ============================================ */
+void instance_update( void )
+{
+   INSTANCE_DATA *instance, *instance_next;
+   ROOM_INDEX_DATA *room;
+   CHAR_DATA *ch;
+   bool has_players;
+   int vnum;
+
+   for ( instance = first_instance; instance; instance = instance_next )
+   {
+      instance_next = instance->next;
+      has_players = FALSE;
+
+      /* Scan the instance for any active players */
+      for ( vnum = instance->start_vnum; vnum <= instance->end_vnum; vnum++ )
+      {
+         if ( ( room = get_room_index( vnum ) ) != NULL )
+         {
+            for ( ch = room->first_person; ch; ch = ch->next_in_room )
+            {
+               if ( !IS_NPC( ch ) )
+               {
+                  has_players = TRUE;
+                  break;
+               }
+            }
+         }
+         if ( has_players ) break; /* Found someone, stop scanning this instance */
+      }
+
+      /* If players are inside, refresh the expiration timer (e.g., 1 hour from now) */
+      if ( has_players )
+      {
+         instance->expires = current_time + 3600; 
+      }
+      /* If it's empty AND the timer has popped, nuke it */
+      else if ( current_time > instance->expires )
+      {
+         delete_instance( instance );
+      }
+   }
+}
+
+/* Helper function to find an instance by its ID -Hansth */
+INSTANCE_DATA *find_instance( int id )
+{
+   INSTANCE_DATA *instance;
+
+   for ( instance = first_instance; instance; instance = instance->next )
+   {
+      if ( instance->internal_id == id )
+         return instance;
+   }
+   return NULL;
+}
+
+void do_instance_reset( CHAR_DATA *ch, const char *argument )
+{
+    INSTANCE_DATA *instance = NULL;
+
+    if ( IS_NPC(ch) ) return;
+
+    /* 1. If we are physically inside an instance, use that pointer */
+    if ( ch->in_instance )
+    {
+        instance = ch->in_instance;
+    }
+    /* 2. Otherwise, look up the instance by the ID saved on the player */
+    else if ( ch->pcdata->instance_id != 0 )
+    {
+        instance = find_instance( ch->pcdata->instance_id );
+    }
+
+    if ( !instance )
+    {
+        send_to_char( "You do not have an active instance to reset.\r\n", ch );
+        return;
+    }
+
+    /* 3. WoW Rule: Only the group leader can reset */
+    if ( ch->leader && ch->leader != ch )
+    {
+        send_to_char( "Only the group leader can reset the instance.\r\n", ch );
+        return;
+    }
+
+    /* 4. Destruction */
+    send_to_char( "&RYou focus your power and collapse the instance...&w\r\n", ch );
+    
+    /* delete_instance handles the room purges and booting players out */
+    delete_instance( instance );
+
+    /* 5. Cleanup the IDs */
+    ch->pcdata->instance_id = 0;
+    ch->in_instance = NULL;
+
+    send_to_char( "&GInstance successfully reset.&w\r\n", ch );
+}
+
+/* Started by the leader to see who is at their keyboard -Hansth */
+void do_readycheck( CHAR_DATA *ch, const char *argument )
+{
+    CHAR_DATA *gch;
+
+    if ( IS_NPC(ch) ) return;
+
+    /* Only the leader can start a ready check */
+    if ( ch->leader && ch->leader != ch )
+    {
+        send_to_char( "Only the group leader can start a ready check.\r\n", ch );
+        return;
+    }
+
+    send_to_char( "&WYou have started a Ready Check.&w\r\n", ch );
+
+    /* Reset status and notify everyone in the group */
+    for ( gch = first_char; gch; gch = gch->next )
+    {
+        if ( is_same_group( ch, gch ) && !IS_NPC(gch) )
+        {
+            gch->pcdata->ready = FALSE;
+            
+            if ( gch == ch )
+                ch->pcdata->ready = TRUE;
+            else
+            {
+                /* Notify each member individually since TO_GROUP doesn't exist */
+                ch_printf( gch, "&W%s has started a Ready Check! Type 'ready' to confirm!&w\r\n", ch->name );
+            }
+        }
+    }
+    return;
+}
+
+/* Used by group members to confirm they are ready -Hansth */
+void do_ready( CHAR_DATA *ch, const char *argument )
+{
+    CHAR_DATA *gch;
+
+    if ( IS_NPC(ch) ) return;
+
+    if ( !ch->leader && !ch->master )
+    {
+        send_to_char( "You aren't even in a group!\r\n", ch );
+        return;
+    }
+
+    ch->pcdata->ready = TRUE;
+    send_to_char( "&GYou are marked as READY.&w\r\n", ch );
+    
+    /* Loop through and notify the whole group */
+    for ( gch = first_char; gch; gch = gch->next )
+    {
+        if ( is_same_group( ch, gch ) && !IS_NPC(gch) && gch != ch )
+        {
+            ch_printf( gch, "&G[Ready Check] %s is READY!&w\r\n", ch->name );
+        }
+    }
+
+    return;
+}
+
+void do_groupsummon( CHAR_DATA *ch, const char *argument )
+{
+    CHAR_DATA *gch;
+    int count = 0;
+
+    if ( IS_NPC(ch) ) return;
+
+    /* 1. Only the leader can initiate the summon */
+    if ( ch->leader && ch->leader != ch )
+    {
+        send_to_char( "Only the group leader can summon the party.\r\n", ch );
+        return;
+    }
+
+    /* 2. Loop through all players to find group members */
+    for ( gch = first_char; gch; gch = gch->next )
+    {
+        if ( is_same_group( ch, gch ) && !IS_NPC(gch) && gch != ch )
+        {
+            /* 3. Only summon those who passed the Ready Check */
+            if ( !gch->pcdata->ready )
+            {
+                ch_printf( ch, "&Y[Summon] %s is not marked as READY and was skipped.&w\r\n", gch->name );
+                continue;
+            }
+
+            /* Don't summon if they are already in the room */
+            if ( gch->in_room == ch->in_room )
+                continue;
+
+            /* 4. The Teleportation Logic */
+            act( AT_MAGIC, "$n is engulfed in a swirling blue portal!", gch, NULL, NULL, TO_ROOM );
+            char_from_room( gch );
+            char_to_room( gch, ch->in_room );
+            act( AT_MAGIC, "$n arrives through a swirling blue portal!", gch, NULL, NULL, TO_ROOM );
+            
+            /* 5. Sync instance data if the leader is already inside */
+            gch->pcdata->instance_id = ch->pcdata->instance_id;
+            gch->in_instance = ch->in_instance;
+
+            ch_printf( gch, "&BYou have been summoned to %s by your group leader.&w\r\n", ch->name );
+            do_look( gch, "auto" );
+            count++;
+        }
+    }
+
+    if ( count > 0 )
+        ch_printf( ch, "&GSuccessfully summoned %d group members.&w\r\n", count );
+    else
+        send_to_char( "No ready group members were found to summon.\r\n", ch );
+
+    return;
 }

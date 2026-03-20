@@ -119,7 +119,11 @@ typedef struct board_data BOARD_DATA;
 typedef struct obj_data OBJ_DATA;
 typedef struct obj_index_data OBJ_INDEX_DATA;
 
+typedef struct instance_data INSTANCE_DATA; //Hansth - instances!
+
 typedef struct mail_data MAIL_DATA; //Hansth
+typedef struct ah_data AH_DATA; //Hansth
+
 /* ============================================
    Wowzers Mud: Loot Roll Typedefs -Hansth
    ============================================ */
@@ -1249,6 +1253,9 @@ struct roster_data
    int kills;
    int deaths;
 };
+
+/* Wowzers Mud: AH/Mailbox Interface -Hansth */
+void ah_mail_delivery( const char *sender, const char *target, OBJ_DATA *item, int gold, const char *subject, const char *body );
 
 struct clan_data
 {
@@ -2397,6 +2404,7 @@ struct char_data
     short           flight_node; /* Wowzers Mud: Flightmaster Node ID -Hansth */
 PARTY_DATA * party;               /* Pointer to group/raid */
     INSTANCE_DATA * in_instance;         /* Pointer to current dungeon */
+    INSTANCE_DATA *find_instance( int id );//Hansth
     BG_DATA * in_bg;               /* Pointer to active Battleground */
     sh_int              flight_timer;        /* Pulses until mount lands */
     int                 flight_dest;         /* VNUM of destination */
@@ -2565,6 +2573,21 @@ struct mail_data
    time_t       sent_date;
 };
 
+/* ============================================
+   Wowzers Mud: PATCH 4.18.3 - Auction House -Hansth
+   ============================================ */
+struct ah_data
+{
+   AH_DATA * next;
+   AH_DATA * prev;
+   OBJ_DATA * item;       /* The physical item sitting in the AH */
+   const char * seller;     /* Name of the player selling it */
+   const char * buyer;      /* Name of the current highest bidder */
+   int         bid;        /* Current highest bid */
+   int         buyout;     /* Price for instant purchase */
+   time_t      expires;    /* Real-world timestamp of when it ends */
+};
+
 /*
  * Data which only PC's have.
  */
@@ -2578,6 +2601,8 @@ struct pc_data
    GAME_BOARD_DATA *game_board;
    NUISANCE_DATA *nuisance;   /* New Nuisance structure */
    KILLED_DATA killed[MAX_KILLTRACK];
+
+bool ready; /* Hansth - Ready Check Flag */
 
     /* ============================================
        Wowzers Mud: ECONOMY & INVENTORY
@@ -2596,6 +2621,8 @@ struct pc_data
 
     MAIL_DATA * first_mail; //Hansth
     MAIL_DATA * last_mail;  
+
+    int             instance_id;  /* Tracks which dynamic instance they belong to -Hansth */
 
   /* ============================================
        Wowzers Mud: QUEST ENGINE
@@ -2889,6 +2916,23 @@ struct reset_data
 #define BIT_RESET_TOGGLE		BV31
 #define BIT_RESET_FREEBITS	  0x3FFF0000   /* For reference */
 
+
+/* ============================================
+   Wowzers Mud: Instancing Engine -Hansth
+   ============================================ */
+struct instance_data
+{
+   INSTANCE_DATA * next;
+   INSTANCE_DATA * prev;
+   const char * name;         /* e.g., "The Deadmines" */
+   int             template_vnum;/* The base VNUM of the zone (e.g., 5000) */
+   int             internal_id;  /* Unique ID for this specific run */
+   int             start_vnum;   /* Where this clone's VNUMs begin (e.g., 1000000) */
+   int             end_vnum;     /* Where this clone's VNUMs end */
+   time_t          expires;      /* When the instance collapses if empty */
+   int             num_players;  /* How many players are currently inside */
+};
+
 /*
  * Area definition.
  */
@@ -3093,6 +3137,7 @@ struct room_index_data
    short mpscriptpos;
    short tele_delay;
    short tunnel;  /* max people that will fit */
+   INSTANCE_DATA * instance;     /* NULL if a normal room, points to instance if a clone */
 };
 
 /*
@@ -3926,6 +3971,8 @@ extern PROJECT_DATA *first_project;
 extern PROJECT_DATA *last_project;
 extern OBJ_DATA *first_object;
 extern OBJ_DATA *last_object;
+extern AH_DATA *first_ah; //Hansth
+extern AH_DATA *last_ah; //Hansth
 extern CLAN_DATA *first_clan;
 extern CLAN_DATA *last_clan;
 extern COUNCIL_DATA *first_council;
@@ -3934,6 +3981,9 @@ extern DEITY_DATA *first_deity;
 extern DEITY_DATA *last_deity;
 extern AREA_DATA *first_area;
 extern AREA_DATA *last_area;
+extern INSTANCE_DATA * first_instance;
+extern INSTANCE_DATA * last_instance;
+extern int top_instance_vnum; /* Tracks the highest dynamically assigned VNUM -Hansth */
 extern AREA_DATA *first_build;
 extern AREA_DATA *last_build;
 extern AREA_DATA *first_asort;
@@ -4120,6 +4170,7 @@ DECLARE_DO_FUN( do_gouge );
 DECLARE_DO_FUN( do_grapple );
 DECLARE_DO_FUN( do_greed );
 DECLARE_DO_FUN( do_group );
+DECLARE_DO_FUN( do_groupsummon );
 DECLARE_DO_FUN( do_gtell );
 DECLARE_DO_FUN( do_guilds );
 DECLARE_DO_FUN( do_guildtalk );
@@ -4142,6 +4193,7 @@ DECLARE_DO_FUN( do_immortalize );
 DECLARE_DO_FUN( do_immtalk );
 DECLARE_DO_FUN( do_induct );
 DECLARE_DO_FUN( do_installarea );
+DECLARE_DO_FUN( do_instance_reset );//Hansth
 DECLARE_DO_FUN( do_instaroom );
 DECLARE_DO_FUN( do_instazone );
 DECLARE_DO_FUN( do_inventory );
@@ -4487,6 +4539,8 @@ DECLARE_DO_FUN( do_mpmusic );
 DECLARE_DO_FUN( do_mpmusicaround );
 DECLARE_DO_FUN( do_mpmusicat );
 DECLARE_DO_FUN( do_mpplace );
+DECLARE_DO_FUN( do_readycheck );//Hansth
+DECLARE_DO_FUN( do_ready );//Hansth
 
 /*
  * Spell functions.
@@ -4744,6 +4798,10 @@ void load_boards( void );
 BD *get_board( OBJ_DATA * obj );
 void free_note( NOTE_DATA * pnote );
 
+/* auction house -Hansth */
+void save_auctions( void );
+void load_auctions( void );
+
 /* build.c */
 const char *flag_string( int bitvector, const char *const flagarray[] );
 const char *ext_flag_string( EXT_BV * bitvector, const char *const flagarray[] );
@@ -4845,6 +4903,7 @@ void show_file( CHAR_DATA * ch, const char *filename );
 void show_file_vnum( CHAR_DATA *ch, const char *filename, int lo, int hi );
 void boot_db( bool fCopyOver );
 void area_update( void );
+void instance_update ( void ); /* Wowzers Instancing -Hansth */
 void add_char( CHAR_DATA * ch );
 CD *create_mobile( MOB_INDEX_DATA * pMobIndex );
 OD *create_object( OBJ_INDEX_DATA * pObjIndex, int level );
@@ -4854,6 +4913,8 @@ const char *get_extra_descr( const char *name, EXTRA_DESCR_DATA * ed );
 MID *get_mob_index( int vnum );
 OID *get_obj_index( int vnum );
 RID *get_room_index( int vnum );
+RID *clone_room( RID *pRoomIndex, int new_vnum, INSTANCE_DATA *instance ); /* -Hansth */
+INSTANCE_DATA *create_instance( const char *name, int start_vnum, int end_vnum ); /* -Hansth */
 char fread_letter( FILE * fp );
 int fread_number( FILE * fp );
 EXT_BV fread_bitvector( FILE * fp );
@@ -5223,6 +5284,7 @@ ch_ret chain_spells( int sn, int level, CHAR_DATA * ch, void *vo, short chain );
 #define OS_CORPSE	1
 #define OS_VAULT 2
 #define OS_MAIL 10 //Hansth
+#define OS_AUCTION 15 //Hansth
 void save_char_obj( CHAR_DATA * ch );
 bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload, bool copyover );
 void set_alarm( long seconds );

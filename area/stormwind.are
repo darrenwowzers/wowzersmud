@@ -1,0 +1,1830 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Stormwind~
+Author       Builder~
+WeatherX     0
+WeatherY     0
+Ranges       1 50 0 60
+Economy      0 31250000
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       11000
+Keywords   guard stormwind footman~
+Short      a Stormwind Footman~
+Long       A Stormwind Footman stands at attention, clad in gleaming armor.
+~
+Desc       This guard wears the blue and gold tabard of Stormwind. He watches the
+crowds carefully, keeping a firm grip on his polished halberd. He looks
+ready to defend the Alliance at a moment's notice.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11002
+Keywords   steven bartender blue recluse~
+Short      Steven the Bartender~
+Long       Steven wipes down the counter of the Blue Recluse, waiting for an order.
+~
+Desc       A jovial man with a slightly stained apron. He keeps the drinks flowing
+for the mages and warlocks who frequent his establishment. He looks like
+he hears a lot of secrets.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11003
+Keywords   guard mage stormwind quarter~
+Short      a Mage Quarter Guard~
+Long       A Stormwind Guard patrols here, wearing a slightly singed tabard.
+~
+Desc       Tasked with patrolling the volatile Mage Quarter, this guard keeps a
+wary eye out for rogue elementals, summoned demons, and drunk warlocks.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11004
+Keywords   gakin darkbinder warlock trainer~
+Short      Gakin the Darkbinder~
+Long       Gakin the Darkbinder stands in the shadows, whispering incantations.
+~
+Desc       Dressed in dark, heavy robes, Gakin teaches the dark arts to those
+brave—or foolish—enough to seek power in the shadows. He smells of
+brimstone and old blood.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11001
+Keywords   auctioneer jaxon~
+Short      Auctioneer Jaxon~
+Long       Auctioneer Jaxon stands behind the counter, calling out bids.
+~
+Desc       Dressed in fine silken clothes, Jaxon speaks at a rapid-fire pace, organizing
+the chaotic flow of commerce that passes through the capital city.
+~
+Race       Human~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs       0 0 0 0 0
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11005
+Keywords   lord grayson shadowbreaker paladin trainer~
+Short      Lord Grayson Shadowbreaker~
+Long       Lord Grayson Shadowbreaker stands here in gleaming plate armor.
+~
+Desc       A venerable and respected Paladin of the Silver Hand. He stands tall
+and proud, ready to instruct the next generation of holy warriors in
+the ways of the Light.
+~
+Race       human~
+Class      paladin~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11006
+Keywords   brother crowley priest trainer~
+Short      Brother Crowley~
+Long       Brother Crowley offers a warm, welcoming smile to all who pass.
+~
+Desc       Dressed in pristine white robes accented with gold, Brother Crowley
+is a beacon of comfort and spiritual guidance in Stormwind. He teaches
+initiates how to mend wounds and smite the wicked.
+~
+Race       human~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 1500 15000
+Stats2     60 60 800
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11007
+Keywords   stormwind orphan child~
+Short      a Stormwind Orphan~
+Long       A small orphan runs around the square, chasing a loose chicken.
+~
+Desc       Dressed in slightly oversized, patched clothing, this child of Stormwind
+resides in the local orphanage. Despite their circumstances, they seem
+full of energy and mischief.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea wimpy~
+Stats1     0 1 0 0 10 20
+Stats2     1 1 10
+Stats3     1 4 1
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11008
+Keywords   guard cathedral holy~
+Short      a Cathedral Guard~
+Long       A Cathedral Guard keeps a solemn watch over the holy grounds.
+~
+Desc       Clad in heavier plate than the standard city watch, and wearing a tabard
+emblazoned with the holy symbol of the Light, this guard ensures the
+sanctity of the Cathedral Square is maintained.
+~
+Race       human~
+Class      paladin~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1200 6000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11009
+Keywords   grimand elmore blacksmith weaponsmith dwarf~
+Short      Grimand Elmore~
+Long       Grimand Elmore hammers rhythmically away at a glowing piece of steel.
+~
+Desc       Covered in soot, sweat, and scorch marks, this stout dwarf is one of the
+finest weaponsmiths in Stormwind. He eyes your gear critically, as if
+calculating exactly how much he could improve it.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11010
+Keywords   guard dwarven district ironforge~
+Short      a Dwarven District Guard~
+Long       A heavily armored dwarven guard patrols the smoky streets.
+~
+Desc       Sent from Ironforge to help keep the peace in their designated quarter
+of Stormwind, this guard wears incredibly thick plate armor and carries
+a massive battleaxe. 
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11011
+Keywords   innkeeper thunderbrew golden keg bartender~
+Short      Innkeeper Thunderbrew~
+Long       Innkeeper Thunderbrew slides a frothy mug of stout down the bar.
+~
+Desc       A boisterous and red-faced dwarf who runs the Golden Keg tavern. He
+is quick to laugh, quicker to drink, and doesn't tolerate brawls that
+endanger his expensive casks.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11012
+Keywords   master mathias shaw rogue trainer si7~
+Short      Master Mathias Shaw~
+Long       Master Mathias Shaw stands quietly in the shadows, observing everything.
+~
+Desc       The enigmatic leader of SI:7, Stormwind's elite intelligence and
+assassination guild. He wears dark, immaculately crafted leather armor
+and possesses a gaze that makes you feel entirely exposed.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 5000 25000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11013
+Keywords   si7 assassin guard hidden~
+Short      an SI:7 Assassin~
+Long       An SI:7 Assassin leans against the wall, flipping a poisoned dagger.
+~
+Desc       Clad in midnight-black leather, this operative is tasked with securing
+the SI:7 compound. They move with lethal grace and silence.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11014
+Keywords   barkeep kendor kabonka pig whistle~
+Short      Kendor Kabonka~
+Long       Kendor Kabonka wipes down a table at the Pig and Whistle.
+~
+Desc       A rugged, no-nonsense barkeep who has seen enough bar brawls and
+shady deals to last a lifetime. He keeps a heavy club behind the bar
+just in case the patrons get too rowdy.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11015
+Keywords   target dummy training wooden~
+Short      a training target dummy~
+Long       A battered, heavily armored wooden target dummy stands here.~
+Desc       Constructed of dense wood, stuffed with straw, and reinforced with
+scrap iron plates, this dummy is built to take a massive beating from
+initiates practicing their lethal strikes.
+~
+Race       golem~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 30000 30000
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11016
+Keywords   highlord bolvar fordragon regent~
+Short      Highlord Bolvar Fordragon~
+Long       Highlord Bolvar Fordragon stands tall before the empty throne.
+~
+Desc       Serving as the Regent Lord of Stormwind in the King's absence, Bolvar
+is a legendary paladin and a staunch defender of the Alliance. He wears
+resplendent, heavy golden armor and watches the throne room with a
+protective, unwavering gaze.
+~
+Race       human~
+Class      paladin~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 10000 50000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    20 18 18 18 18 18 18
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11017
+Keywords   lady katrana prestor noble~
+Short      Lady Katrana Prestor~
+Long       Lady Katrana Prestor stands near the throne, smiling serenely.
+~
+Desc       A high-ranking noblewoman of Stormwind, Lady Prestor advises Bolvar on
+matters of state. She is dressed in an elegant, flowing gown of black
+and crimson. There is something unsettlingly sharp about her eyes.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 20000 60000
+Stats2     65 65 1000
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    18 20 20 20 18 18 18
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11018
+Keywords   guard royal stormwind keep elite~
+Short      a Royal Guard~
+Long       An elite Stormwind Royal Guard stands at attention here.
+~
+Desc       Chosen from the finest veterans of the Alliance military, these guards
+wear pristine, heavily enchanted plate armor. They are tasked with the
+protection of the Keep and its inhabitants, and they do not tolerate
+foolishness.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 2500 12000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11019
+Keywords   battlemaster honor guardsman~
+Short      an Alliance Battlemaster~
+Long       An Alliance Battlemaster barks orders and coordinates troop movements.
+~
+Desc       This seasoned veteran organizes the battlegrounds for the Alliance. He
+is covered in scars and wears a tabard displaying his high military rank.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11020
+Keywords   guard valley heroes sentry~
+Short      a Valley Sentry~
+Long       A Valley Sentry patrols the grand bridge, keeping the path clear.
+~
+Desc       Wearing the classic blue and gold of the Alliance, this guard is tasked
+with ensuring the safety of visitors admiring the grand statues of the
+Sons of Lothar.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11021
+Keywords   squire young boy aspiring~
+Short      a young squire~
+Long       A young squire stands here, gazing up at the statues in awe.
+~
+Desc       Dressed in a simple tunic and breeches, this boy dreams of one day
+becoming a great paladin or warrior and having his own statue carved
+in stone.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea wimpy~
+Stats1     0 5 0 0 50 200
+Stats2     5 5 50
+Stats3     1 5 5
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11002
+Keywords wine glass dalaran red~
+Type     drinkcon~
+Short    a glass of Dalaran Red wine~
+Long     A half-empty glass of dark red wine sits here.~
+WFlags   take hold~
+Values   10 10 2 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11003
+Keywords staff glowing mage~
+Type     weapon~
+Short    a glowing mage staff~
+Long     A staff radiating faint arcane energy leans against the wall.~
+WFlags   take wield~
+Values   0 5 10 11 0 0
+Stats    5 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11004
+Keywords grimoire dark book~
+Type     treasure~
+Short    a dark, leather-bound grimoire~
+Long     A dark grimoire bound in strange leather hums with chaotic energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    3 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11000
+Keywords halberd guard standard~
+Type     weapon~
+Short    a standard-issue Stormwind halberd~
+Long     A standard-issue Stormwind halberd rests here.~
+WFlags   take wield~
+Values   0 10 15 3 0 0
+Stats    10 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11001
+Keywords tabard blue gold stormwind~
+Type     armor~
+Short    a blue and gold Stormwind tabard~
+Long     A folded blue and gold tabard has been left here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11005
+Keywords holy symbol light silver~
+Type     armor~
+Short    a silver symbol of the Light~
+Long     A polished silver symbol of the Holy Light has been dropped here.~
+WFlags   take neck~
+Values   2 0 0 0 0 0
+Stats    1 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11006
+Keywords hammer shadowbreaker massive two-handed~
+Type     weapon~
+Short    a massive, two-handed holy hammer~
+Long     A massive paladin's hammer rests heavily on the ground.~
+WFlags   take wield~
+Values   0 15 25 7 0 0
+Stats    20 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11007
+Keywords donation box wooden~
+Type     container~
+Short    a wooden donation box~
+Long     A sturdy wooden donation box sits here, requesting alms for the orphans.~
+WFlags   none~
+Values   100 0 0 0 0 0
+Stats    50 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11008
+Keywords heavy steel hammer blacksmithing~
+Type     weapon~
+Short    a heavy steel blacksmithing hammer~
+Long     A heavy steel blacksmithing hammer rests near the forge.~
+WFlags   take wield~
+Values   0 10 15 7 0 0
+Stats    8 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11009
+Keywords pint thunderbrew stout dark ale~
+Type     drinkcon~
+Short    a pint of Thunderbrew Stout~
+Long     A frothy, overflowing pint of dark stout has been left here.~
+WFlags   take hold~
+Values   15 15 3 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11010
+Keywords shield iron heavy dwarven~
+Type     armor~
+Short    a heavy dwarven iron shield~
+Long     A thick iron shield bearing the crest of Ironforge lies here.~
+WFlags   take shield~
+Values   10 0 0 0 0 0
+Stats    15 1500 150 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11011
+Keywords dagger si7 steel sharp rogue~
+Type     weapon~
+Short    an SI:7 issue steel dagger~
+Long     A perfectly balanced, razor-sharp steel dagger has been dropped here.~
+WFlags   take wield~
+Values   0 5 12 11 0 0
+Stats    5 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11012
+Keywords ale pig whistle mug~
+Type     drinkcon~
+Short    a mug of Pig and Whistle Ale~
+Long     A greasy wooden mug filled with cheap, potent ale sits here.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11013
+Keywords cowl shadow leather dark~
+Type     armor~
+Short    a dark leather shadow cowl~
+Long     A hood of dark, supple leather lies discarded in the shadows.~
+WFlags   take head~
+Values   5 0 0 0 0 0
+Stats    2 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11014
+Keywords halberd royal golden elite~
+Type     weapon~
+Short    a golden Royal Halberd~
+Long     A masterfully forged halberd of gold and steel leans against the wall.~
+WFlags   take wield~
+Values   0 15 25 3 0 0
+Stats    20 2000 200 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11015
+Keywords amulet onyx dragon black~
+Type     armor~
+Short    an Onyx Dragon amulet~
+Long     A warm, black amulet shaped like a dragon scale has been dropped here.~
+WFlags   take neck~
+Values   2 0 0 0 0 0
+Stats    10 5000 500 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11016
+Keywords tapestry banner lion stormwind grand~
+Type     furniture~
+Short    a grand Stormwind Lion tapestry~
+Long     A massive tapestry bearing the golden lion of Stormwind hangs here.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    50 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11017
+Keywords petal flower peacebloom white~
+Type     trash~
+Short    a white peacebloom petal~
+Long     A pure white petal from a peacebloom flower rests on the stone.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     11000
+Name     &YThe Gates of Stormwind&d~
+Sector   city~
+Desc     Towering stone walls rise high into the sky, adorned with the blue and
+gold banners of the Alliance. The paved streets of the Trade District lie
+just ahead to the north. To the south, the awe-inspiring bridge known as
+the Valley of Heroes stretches out toward Elwynn Forest.
+~
+#EXIT
+Direction north~
+ToRoom    11001
+Desc      The paved streets of the Trade District await.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11042
+Desc      The grand Valley of Heroes bridge spans the water.
+~
+#ENDEXIT
+Reset M 0 11000 2 11000
+  Reset E 1 11000 10 16
+  Reset E 1 11001 10 12
+#ENDROOM
+
+#ROOM
+Vnum     11001
+Name     &YThe Trade District Square&d~
+Sector   city~
+Desc     You stand in the heart of Stormwind's mercantile center. Cobblestone paths
+branch out in several directions, lined with bustling shops, inns, and the
+constant chatter of citizens and adventurers alike. To the east stands the
+grand Stormwind Bank, and to the west lies the local Auction House. The
+air smells of fresh bread from a nearby vendor and the ozone of passing
+mages.
+~
+#EXIT
+Direction north~
+ToRoom    11004
+Desc      The street continues deeper into the Trade District.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    11002
+Desc      The grand pillars of the Stormwind Bank invite you in.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    11000
+Desc      The Gates of Stormwind lead out of the city.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    11003
+Desc      The sounds of shouting and commerce echo from the Auction House.
+~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     11002
+Name     &YThe Stormwind Bank&d~
+Sector   inside~
+Flags    indoors~
+Desc     Polished marble floors and heavily reinforced teller cages dominate this
+imposing structure. Goblins and humans alike operate behind the counters,
+managing the wealth of the Alliance. Heavy iron vaults are visible in the
+back, guarded heavily by elite footmen.
+~
+#EXIT
+Direction west~
+ToRoom    11001
+Desc      You see the bustling Trade District Square.
+~
+#ENDEXIT
+
+Reset M 0 11000 2 11002
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11003
+Name     &YThe Stormwind Auction House&d~
+Sector   inside~
+Flags    indoors~
+Desc     It is incredibly loud in here. Adventurers from all over Azeroth stand
+around shouting prices, inspecting weapons, and trading raw materials.
+A raised dais at the back of the room holds several well-dressed
+auctioneers who are frantically keeping track of bids and buy-outs.
+~
+#EXIT
+Direction east~
+ToRoom    11001
+Desc      You see the bustling Trade District Square.
+~
+#ENDEXIT
+
+Reset M 0 11001 1 11003
+#ENDROOM
+
+#ROOM
+Vnum     11004
+Name     &YTrade District - North Walk&d~
+Sector   city~
+Desc     The cobblestone street narrows slightly here as it winds toward the darker,
+quieter alleyways of the city. A small cheese shop sits to the right, and
+a vendor selling brightly colored flowers stands by a small fountain. The
+bustle of the main square is slightly muted here.
+~
+#EXIT
+Direction north~
+ToRoom    11013
+Desc      A pristine white bridge crosses the canals toward the Cathedral.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11023
+Desc      A heavy stone bridge crosses into the smoky Dwarven District.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11001
+Desc      The Trade District Square lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11005
+Desc      A stone bridge crosses the canals toward the Mage Quarter.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11005
+Name     &cThe Stormwind Canals&d~
+Sector   city~
+Desc     You stand upon a sturdy stone bridge arching over the clear, flowing
+waters of the Stormwind Canals. The rhythmic sound of water lapping
+against stone provides a peaceful backdrop. To the east lies the bustling
+Trade District, while the scent of ozone and arcane magic drifts from
+the Mage Quarter to the west.
+~
+#EXIT
+Direction east~
+ToRoom    11004
+Desc      The Trade District awaits.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11006
+Desc      The cobblestones turn a deep purple as you enter the Mage Quarter.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11006
+Name     &CMage Quarter - Entrance&d~
+Sector   city~
+Desc     The atmosphere here is markedly different from the rest of the city. The
+air hums with a faint, static electricity. Blue and purple banners hang
+from the towers, and the citizens walking by wear robes of varying
+intricacy. To the south, you hear the lively sounds of a busy tavern.
+~
+#EXIT
+Direction east~
+ToRoom    11005
+Desc      The bridge leads back over the canals.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11007
+Desc      The sign of the Blue Recluse hangs over a heavy oak door.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11008
+Desc      The street opens up into the central square of the Mage Quarter.
+~
+#ENDEXIT
+Reset M 0 11003 2 11006
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11007
+Name     &YThe Blue Recluse&d~
+Sector   inside~
+Flags    indoors~
+Desc     This cozy tavern is a favorite haunt for the city's magical practitioners.
+Floating candles illuminate the room, casting dancing shadows on the wood
+paneled walls. Robed figures sit huddled in booths, whispering in strange
+tongues and nursing drinks.
+~
+#EXIT
+Direction north~
+ToRoom    11006
+Desc      The street of the Mage Quarter awaits outside.
+~
+#ENDEXIT
+Reset M 0 11002 1 11007
+  Reset E 1 11002 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11008
+Name     &CMage Quarter - Central Square&d~
+Sector   city~
+Desc     You stand in the vibrant heart of the Mage Quarter. The cobblestones
+form an intricate arcane rune on the ground. To the west, a spiraling
+ramp leads up to the majestic Wizard's Sanctum. To the south, a darker,
+narrower alley winds toward a less reputable establishment.
+~
+#EXIT
+Direction east~
+ToRoom    11006
+Desc      The street leads back toward the canals.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11010
+Desc      An alley leads toward a gloomy looking building.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11009
+Desc      The entrance to the Wizard's Sanctum towers before you.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11012
+Desc      The path winds upward toward the Stormwind Park.
+~
+#ENDEXIT
+Reset M 0 11003 2 11008
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11009
+Name     &WThe Wizard's Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand inside the grand tower of the Wizard's Sanctum. Arcane
+runes glow softly on the walls, and the air is thick with the smell of
+parchment and ozone. A magical portal shimmers faintly in the center
+of the room, connecting Stormwind to distant lands.
+~
+#EXIT
+Direction east~
+ToRoom    11008
+Desc      The central square lies outside the tower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11010
+Name     &dThe Slaughtered Lamb&d~
+Sector   inside~
+Flags    indoors~
+Desc     The atmosphere here is oppressive. The lighting is dim, provided only
+by a few sputtering torches. The patrons here speak in hushed, secretive
+voices, and they watch you with suspicious eyes. A set of creaky wooden
+stairs leads down into the darkness of the crypts.
+~
+#EXIT
+Direction north~
+ToRoom    11008
+Desc      The central square provides a welcome escape from the gloom.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11011
+Desc      The stairs descend into the cold crypts.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11011
+Name     &dThe Crypts of the Slaughtered Lamb&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air down here is freezing cold and smells of rotting earth and
+brimstone. Skulls line the stone walls. This is the hidden sanctuary of
+Stormwind's warlock coven, where dark bargains are struck and forbidden
+magic is practiced away from the prying eyes of the guards.
+~
+#EXIT
+Direction up~
+ToRoom    11010
+Desc      The stairs lead back up to the tavern.
+~
+#ENDEXIT
+Reset M 0 11004 1 11011
+  Reset E 1 11004 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11012
+Name     &GPathway to the Park&d~
+Sector   city~
+Desc     The arcane hum of the Mage Quarter begins to fade as the cobblestones
+give way to a dirt path lined with vibrant green grass and tall, ancient
+trees. A cool breeze blows from the west, carrying the scent of blooming
+flowers and the distant sound of the ocean.
+~
+#EXIT
+Direction south~
+ToRoom    11008
+Desc      The central square of the Mage Quarter.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11013
+Name     &WBridge to the Cathedral Square&d~
+Sector   city~
+Desc     You are walking across a wide, arching bridge made of polished white stone.
+Beneath you, the Stormwind Canals flow quietly. Ahead to the north, the
+magnificent spires of the Cathedral of Light rise into the sky, a beacon
+of hope and faith for the Alliance.
+~
+#EXIT
+Direction north~
+ToRoom    11014
+Desc      The entrance to Cathedral Square.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11004
+Desc      The Trade District awaits.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11014
+Name     &WCathedral Square - Entrance&d~
+Sector   city~
+Desc     The air here feels cleaner, and the general noise of the city is replaced
+by hushed, respectful tones and the distant sound of chanting choirs.
+The paving stones are pristine white marble. To the north lies the central
+fountain of the square.
+~
+#EXIT
+Direction north~
+ToRoom    11015
+Desc      A beautiful fountain sits in the center of the square.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11013
+Desc      The bridge leads back over the canals.
+~
+#ENDEXIT
+Reset M 0 11008 2 11014
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11015
+Name     &WCathedral Square - The Light's Fountain&d~
+Sector   city~
+Desc     A massive, tiered fountain dominates the center of the square. Crystal
+clear water cascades down its marble basins, catching the sunlight and
+creating faint rainbows. Citizens sit on the edges, praying or enjoying
+the peaceful atmosphere.
+~
+#EXIT
+Direction north~
+ToRoom    11019
+Desc      The grand steps of the Cathedral of Light.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11017
+Desc      The eastern walk of the square.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11014
+Desc      The entrance to the square.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11018
+Desc      The western walk, leading toward the Orphanage.
+~
+#ENDEXIT
+Reset M 0 11007 3 11015
+Reset M 0 11007 3 11015
+#ENDROOM
+
+#ROOM
+Vnum     11016
+Name     &YStormwind City Orphanage&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large, somewhat cluttered building is a haven for children who lost
+their parents during the various wars that have plagued Azeroth. Small
+beds are lined up against the walls, and toys are scattered across the
+floor. It is loud, chaotic, but filled with love.
+~
+#EXIT
+Direction east~
+ToRoom    11018
+Desc      The western walk of Cathedral Square.
+~
+#ENDEXIT
+Reset O 0 11007 1 11016
+Reset M 0 11007 3 11016
+#ENDROOM
+
+#ROOM
+Vnum     11017
+Name     &WCathedral Square - East Walk&d~
+Sector   city~
+Desc     You walk along the eastern edge of the square. To your right, high stone
+walls separate the holy grounds from the rest of the city. A few vendors
+here silently peddle candles, holy water, and religious texts.
+~
+#EXIT
+Direction west~
+ToRoom    11015
+Desc      The central fountain of the square.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11018
+Name     &WCathedral Square - West Walk&d~
+Sector   city~
+Desc     You walk along the western edge of the square. The sounds of children
+laughing and shouting can be heard from a building just to the west.
+Paladins in training can often be seen jogging through this area.
+~
+#EXIT
+Direction east~
+ToRoom    11015
+Desc      The central fountain of the square.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11016
+Desc      The doors to the Stormwind Orphanage are wide open.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11019
+Name     &WSteps of the Cathedral of Light&d~
+Sector   city~
+Desc     Wide, sweeping marble stairs lead up to the towering oak doors of the
+Cathedral of Light. Flanking the doors are massive statues of heroes who
+fell defending humanity. Looking back south, you have a breathtaking
+view of the entire square and the fountain below.
+~
+#EXIT
+Direction north~
+ToRoom    11020
+Desc      The grand nave of the Cathedral beckons.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11015
+Desc      The central fountain of the square.
+~
+#ENDEXIT
+Reset M 0 11008 2 11019
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11020
+Name     &WThe Cathedral of Light - Nave&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the Cathedral is awe-inspiring. Massive stained glass
+windows cast kaleidoscopic colors across the rows of polished wooden
+pews. The ceiling arches impossibly high overhead. The air is thick
+with incense, and the echoing chants of priests fill the holy hall.
+~
+#EXIT
+Direction north~
+ToRoom    11021
+Desc      The main altar of the Cathedral.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11019
+Desc      The steps leading back outside.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11022
+Desc      A dark stairwell leads into the catacombs.
+~
+#ENDEXIT
+Reset M 0 11006 1 11020
+  Reset E 1 11005 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11021
+Name     &WThe Cathedral of Light - Altar&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand before the grand altar of the Light. A massive tome rests
+upon a golden podium. This is the heart of the Silver Hand in Stormwind,
+where the highest ranking Paladins and Priests convene to bless troops,
+heal the sick, and plan their crusades against the darkness.
+~
+#EXIT
+Direction south~
+ToRoom    11020
+Desc      The grand nave of the Cathedral.
+~
+#ENDEXIT
+Reset M 0 11005 1 11021
+  Reset E 1 11006 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11022
+Name     &dCathedral Catacombs - Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air immediately grows cold and stale as you descend beneath the
+Cathedral. Dust coats the stone floor, and the faint light from upstairs
+barely penetrates the gloom. These catacombs hold the remains of the
+city's most revered archbishops and heroes.
+~
+#EXIT
+Direction up~
+ToRoom    11020
+Desc      The light of the nave beckons from above.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11023
+Name     &cBridge to the Dwarven District&d~
+Sector   city~
+Desc     The air grows tangibly warmer and thicker with soot as you cross this
+heavy, reinforced stone bridge. The rhythmic clang of metal striking
+metal echoes from the east, drowning out the gentle flow of the canals
+below. A paved walkway runs south along the canal toward Old Town.
+~
+#EXIT
+Direction east~
+ToRoom    11024
+Desc      The smoggy heart of the Dwarven District.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11029
+Desc      The canal walk winds down toward the gritty streets of Old Town.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11004
+Desc      The Trade District.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11024
+Name     &ODwarven District - Main Avenue&d~
+Sector   city~
+Desc     You are standing in the sweltering, noisy heart of the Dwarven District.
+Soot stains the cobblestones, and the air smells strongly of sulfur, hot
+iron, and roasted meats. To the north is the open-air forge, to the south
+lies the local tavern, and to the east stands a massive, mechanized gate.
+~
+#EXIT
+Direction north~
+ToRoom    11026
+Desc      The intense heat of the blacksmith's forge radiates from here.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11027
+Desc      A massive gear-shaped doorway leads into the Deeprun Tram.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11025
+Desc      The Golden Keg tavern beckons with the smell of ale.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11023
+Desc      The bridge leads back to the Trade District.
+~
+#ENDEXIT
+Reset M 0 11010 2 11024
+  Reset E 1 11000 10 16
+  Reset E 1 11010 10 11
+#ENDROOM
+
+#ROOM
+Vnum     11025
+Name     &OThe Golden Keg&d~
+Sector   inside~
+Flags    indoors~
+Desc     This tavern is considerably rowdier and louder than the others in the
+city. The ceilings are low, the wooden tables are heavily scarred by axes
+and spilled ale, and an enormous fire roars in the hearth. Dwarves and
+humans alike share tales of battle and boast of their latest kills.
+~
+#EXIT
+Direction north~
+ToRoom    11024
+Desc      The smoky avenue of the Dwarven District.
+~
+#ENDEXIT
+Reset M 0 11011 1 11025
+  Reset E 1 11009 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11026
+Name     &RThe Open Forge&d~
+Sector   city~
+Desc     The heat in this open-air plaza is almost unbearable. Massive anvils
+and roaring furnaces dominate the space, surrounded by racks of glowing
+weapons and cooling armor. Sparks fly continuously into the air as the
+city's finest smiths ply their trade for the Alliance war machine.
+~
+#EXIT
+Direction south~
+ToRoom    11024
+Desc      The main avenue of the district.
+~
+#ENDEXIT
+Reset M 0 11009 1 11026
+  Reset E 1 11008 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11027
+Name     &WDeeprun Tram - Entrance Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand inside a massive, vaulted chamber filled with whirring gears,
+hissing steam pipes, and the smell of grease. This marvel of gnomish
+engineering connects Stormwind directly to Ironforge. A wide mechanical
+ramp descends deeper underground toward the boarding platforms.
+~
+#EXIT
+Direction west~
+ToRoom    11024
+Desc      The main avenue of the Dwarven District.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11028
+Desc      The ramp leads down to the tram platforms.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11028
+Name     &WDeeprun Tram - Stormwind Platform&d~
+Sector   inside~
+Flags    indoors~
+Desc     You are deep beneath the city. An enormous glass tube stretches out to
+the north, disappearing into the dark depths of the ocean. The metal
+platform shudders periodically as high-speed trams rocket into the
+station, carrying passengers between the two great capitals.
+~
+#EXIT
+Direction up~
+ToRoom    11027
+Desc      The ramp leads up to the city streets.
+~
+#ENDEXIT
+Reset M 0 11010 2 11028
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11029
+Name     &cCanals - East Walk&d~
+Sector   city~
+Desc     You are walking along the eastern edge of the Stormwind Canals. To the
+north lies the smog and clamor of the Dwarven District, while to the
+south, the cobblestones grow uneven and cracked, marking the borders
+of Old Town. To the east, a massive, heavily guarded bridge leads to
+the awe-inspiring Stormwind Keep.
+~
+#EXIT
+Direction north~
+ToRoom    11023
+Desc      The bridge connecting the Trade and Dwarven districts.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11036
+Desc      The Great Bridge to Stormwind Keep.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11030
+Desc      The unkempt streets of Old Town.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11030
+Name     &OOld Town - Main Street&d~
+Sector   city~
+Desc     The pristine, organized feel of the Trade District is entirely absent
+here. Old Town is a maze of narrow streets, cramped buildings, and
+suspicious characters. Street urchins dart through the alleys, and the
+smell of cheap ale drifts from a boisterous tavern to the east.
+~
+#EXIT
+Direction north~
+ToRoom    11029
+Desc      The walk along the canals.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11031
+Desc      The Pig and Whistle tavern is packed with rowdy patrons.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11032
+Desc      A narrow, winding alleyway leads deeper into Old Town.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11031
+Name     &OThe Pig and Whistle&d~
+Sector   inside~
+Flags    indoors~
+Desc     This two-story tavern is infamous throughout Stormwind. It serves as
+a gathering place for mercenaries, off-duty guards, and those looking
+to buy items that might have recently 'fallen off a wagon'. The floor
+is sticky, and the air is thick with smoke and questionable rumors.
+~
+#EXIT
+Direction west~
+ToRoom    11030
+Desc      The main street of Old Town.
+~
+#ENDEXIT
+Reset M 0 11014 1 11031
+  Reset E 1 11012 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11032
+Name     &dOld Town - Winding Alley&d~
+Sector   city~
+Desc     The street narrows considerably here, choked by tall, overhanging
+buildings that block out most of the sunlight. The shadows seem almost
+alive. At the end of the alley to the east stands a highly secure,
+nondescript stone building guarded by lethal-looking individuals.
+~
+#EXIT
+Direction north~
+ToRoom    11030
+Desc      The main street of Old Town.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11033
+Desc      The heavily guarded entrance to SI:7.
+~
+#ENDEXIT
+Reset M 0 11013 2 11032
+  Reset E 1 11011 10 16
+  Reset E 1 11013 10 6
+#ENDROOM
+
+#ROOM
+Vnum     11033
+Name     &dSI:7 Headquarters - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     You have stepped into the clandestine headquarters of Stormwind's
+intelligence agency, SI:7. The atmosphere is tense and quiet.
+Operatives clean weapons, read encoded missives, and train relentlessly.
+To the north is a training hall, and a flight of stairs leads up.
+~
+#EXIT
+Direction north~
+ToRoom    11034
+Desc      The sounds of blades striking wood come from the training hall.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11032
+Desc      The winding alleyway outside.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11035
+Desc      Stairs lead up to the master's office.
+~
+#ENDEXIT
+Reset M 0 11013 2 11033
+  Reset E 1 11011 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11034
+Name     &dSI:7 Headquarters - Training Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large, sparsely furnished room is dedicated to the deadly arts.
+Racks of throwing knives, poisons, and lockpicks line the walls. In
+the center of the room sit heavy wooden target dummies, used by
+rogues to practice their ambushes and vital strikes.
+~
+#EXIT
+Direction south~
+ToRoom    11033
+Desc      The entrance hall.
+~
+#ENDEXIT
+Reset M 0 11015 1 11034
+#ENDROOM
+
+#ROOM
+Vnum     11035
+Name     &dMaster Mathias Shaw's Office&d~
+Sector   inside~
+Flags    indoors~
+Desc     This office is surprisingly spartan for the leader of such a powerful
+organization. A large desk is covered in maps of Azeroth with various
+red markers detailing enemy movements. The windows are shuttered,
+plunging the room into perpetual twilight.
+~
+#EXIT
+Direction down~
+ToRoom    11033
+Desc      The stairs lead back down to the main hall.
+~
+#ENDEXIT
+Reset M 0 11012 1 11035
+  Reset E 1 11011 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11036
+Name     &WThe Great Bridge to the Keep&d~
+Sector   city~
+Desc     You are crossing a breathtaking stone bridge suspended high above the
+water. Blue and gold banners flap violently in the wind. The sheer scale
+of Stormwind Keep looms ahead to the east, its high towers touching the
+clouds. You can feel the weight of history in the massive stone blocks
+beneath your feet.
+~
+#EXIT
+Direction east~
+ToRoom    11037
+Desc      The Keep's courtyard awaits.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11029
+Desc      The canal walk between the districts.
+~
+#ENDEXIT
+Reset M 0 11018 2 11036
+  Reset E 1 11014 10 16
+Reset M 0 11018 2 11036
+  Reset E 1 11014 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11037
+Name     &WStormwind Keep - Courtyard&d~
+Sector   city~
+Desc     You have entered the secure courtyard of Stormwind Keep. The ground is
+paved in flawless white marble. Statues of legendary kings and heroes
+line the walls, standing as silent sentinels. Directly ahead is the
+grand entrance to the Royal Gallery, leading into the heart of the keep.
+~
+#EXIT
+Direction east~
+ToRoom    11038
+Desc      The towering doors to the Royal Gallery.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11036
+Desc      The Great Bridge leading back to the city proper.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11038
+Name     &WStormwind Keep - Royal Gallery&d~
+Sector   inside~
+Flags    indoors~
+Desc     This vast, echoing hallway is lined with rich crimson carpets and priceless
+tapestries depicting the great victories of the Alliance. Polished suits
+of armor stand at attention in the alcoves. To the east lies the Throne
+Room, to the north is the Royal Library, and to the south is the War Room.
+~
+#EXIT
+Direction north~
+ToRoom    11040
+Desc      The quiet calm of the Royal Library.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11039
+Desc      The magnificent Throne Room of Stormwind.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11041
+Desc      The sounds of tactical planning echo from the War Room.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11037
+Desc      The Keep's courtyard.
+~
+#ENDEXIT
+Reset O 0 11016 1 11038
+Reset M 0 11018 2 11038
+  Reset E 1 11014 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11039
+Name     &WStormwind Keep - Throne Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     This chamber commands absolute respect. Sunlight streams through massive
+stained-glass windows, illuminating the royal blue carpets that lead up
+to an empty, gilded throne. Noblemen, advisors, and elite guards stand
+in quiet discussion. The air is heavy with politics and power.
+~
+#EXIT
+Direction west~
+ToRoom    11038
+Desc      The Royal Gallery.
+~
+#ENDEXIT
+Reset M 0 11016 1 11039
+Reset M 0 11017 1 11039
+  Reset E 1 11015 10 3
+Reset M 0 11018 2 11039
+  Reset E 1 11014 10 16
+Reset M 0 11018 2 11039
+  Reset E 1 11014 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11040
+Name     &WStormwind Keep - Royal Library&d~
+Sector   inside~
+Flags    indoors~
+Desc     The scent of old parchment and leather binding fills the air. Floor-to-
+ceiling bookshelves line the walls, containing the accumulated knowledge
+of human history, arcane theory, and theological texts. Scholars speak
+in hushed whispers, studying by the light of magical orbs.
+~
+#EXIT
+Direction south~
+ToRoom    11038
+Desc      The Royal Gallery.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11041
+Name     &WStormwind Keep - War Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive wooden table dominates the center of this room, entirely
+covered by a highly detailed map of Azeroth. Wooden figurines representing
+Horde and Alliance armies are scattered across it. High-ranking officers
+shout orders, read scouting reports, and plan the defense of the realm.
+~
+#EXIT
+Direction north~
+ToRoom    11038
+Desc      The Royal Gallery.
+~
+#ENDEXIT
+Reset M 0 11019 1 11041
+#ENDROOM
+
+#ENDAREA
