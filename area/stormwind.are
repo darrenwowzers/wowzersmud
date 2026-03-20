@@ -2,7 +2,7 @@
 #AREADATA
 Version      1
 Name         Stormwind~
-Author       Builder~
+Author       Feenom~
 WeatherX     0
 WeatherY     0
 Ranges       1 50 0 60
@@ -1825,6 +1825,99 @@ Desc      The Royal Gallery.
 ~
 #ENDEXIT
 Reset M 0 11019 1 11041
+#ENDROOM
+
+#ROOM
+Vnum     11042
+Name     &YValley of Heroes - North Bridge&d~
+Sector   city~
+Desc     You are walking along the colossal stone bridge that serves as the main
+artery into Stormwind. Flanking you are two impossibly massive stone
+statues. To the west stands Ranger Captain Alleria Windrunner, and to the
+east stands Force Commander Danath Trollbane. The wind howls through
+the canyon here.
+~
+#EXIT
+Direction north~
+ToRoom    11000
+Desc      The great gates of Stormwind City.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11043
+Desc      The center of the grand bridge.
+~
+#ENDEXIT
+Reset M 0 11020 2 11042
+  Reset E 1 11000 10 16
+Reset M 0 11021 1 11042
+#ENDROOM
+
+#ROOM
+Vnum     11043
+Name     &YValley of Heroes - Center&d~
+Sector   city~
+Desc     The center of the grand bridge is dominated by the most prominent statue
+of them all: General Turalyon, his stone sword raised high in eternal
+defiance. The roaring waterfalls on either side of the bridge create a
+constant, thunderous roar that fills the valley.
+~
+#EXIT
+Direction north~
+ToRoom    11042
+Desc      The northern span of the bridge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11044
+Desc      The southern span of the bridge.
+~
+#ENDEXIT
+Reset O 0 11017 1 11043
+#ENDROOM
+
+#ROOM
+Vnum     11044
+Name     &YValley of Heroes - South Bridge&d~
+Sector   city~
+Desc     The southern end of the bridge marks the transition from the wild forests
+of Elwynn to the civilized heart of humanity. Two more colossal statues
+stand guard here: Archmage Khadgar to the west, and Kurdran Wildhammer
+atop his gryphon to the east.
+~
+#EXIT
+Direction north~
+ToRoom    11043
+Desc      The center of the grand bridge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11045
+Desc      The dirt path leading into Elwynn Forest.
+~
+#ENDEXIT
+Reset M 0 11020 2 11044
+  Reset E 1 11000 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11045
+Name     &GElwynn Forest - City Outskirts&d~
+Sector   field~
+Desc     The grand cobblestones of Stormwind give way to the worn dirt paths of
+Elwynn Forest. Towering pines and oaks surround the valley entrance.
+Looking north, the sheer scale of the Valley of Heroes and the white
+walls of Stormwind is enough to take a traveler's breath away.
+~
+#EXIT
+Direction north~
+ToRoom    11044
+Desc      The Valley of Heroes bridge begins here.
+~
+#ENDEXIT
 #ENDROOM
 
 #ENDAREA

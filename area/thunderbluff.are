@@ -1,0 +1,3374 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Thunder Bluff~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 50 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       15000
+Keywords   thunder bluff brave guard tauren~
+Short      a Thunder Bluff Brave~
+Long       A massive Thunder Bluff Brave stands guard, a totem strapped to his back.
+~
+Desc       Standing nearly eight feet tall, this tauren warrior radiates calm
+strength. He watches the mesa with a peaceful but unwavering vigilance,
+ready to defend his tribe at a moment's notice.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15001
+Keywords   cairne bloodhoof high chieftain leader~
+Short      Cairne Bloodhoof~
+Long       High Chieftain Cairne Bloodhoof surveys the horizon thoughtfully.
+~
+Desc       The venerated leader of the united Tauren tribes. Though age has
+greyed his fur, Cairne possesses a legendary physical strength matched
+only by his deep, spiritual wisdom. He wields a massive, rune-carved
+halberd.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 70 0 0 60000 120000
+Stats2     70 70 1500
+Stats3     10 20 40
+Stats4     0 0 0 0 0
+Attribs    20 20 20 20 20 20 20
+Saves      0 0 0 0 0
+Speaks     common taurahe orcish~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15002
+Keywords   baine bloodhoof son tauren~
+Short      Baine Bloodhoof~
+Long       Baine Bloodhoof stands proudly at his father's side.
+~
+Desc       The son of Cairne and the future leader of the Tauren. He is a paragon
+of his people's virtues, displaying both fierce courage in battle and a
+profound respect for the Earthmother.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 25000 50000
+Stats2     65 65 1000
+Stats3     6 15 30
+Stats4     0 0 0 0 0
+Attribs    20 15 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15003
+Keywords   auctioneer stouthoof tauren~
+Short      Auctioneer Stouthoof~
+Long       Auctioneer Stouthoof calls for bids with a deep, booming voice.
+~
+Desc       Despite the usually calm demeanor of his people, Stouthoof enjoys the
+fast-paced environment of the Thunder Bluff Auction House, organizing
+trades between the Horde races with efficiency.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15004
+Keywords   innkeeper pala tauren~
+Short      Innkeeper Pala~
+Long       Innkeeper Pala offers a warm smile and a bowl of fresh water.
+~
+Desc       Pala runs the central inn of the mesa. She is a maternal figure to many
+young warriors and takes great pride in ensuring that weary travelers
+find rest and good food under her roof.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15005
+Keywords   banker bullrun tauren guard~
+Short      Banker Bullrun~
+Long       Banker Bullrun stands protectively in front of the stone vault.
+~
+Desc       A thick-set, incredibly sturdy tauren who handles the wealth of the
+city. He takes his job very seriously, and his massive arms suggest that
+robbing this bank would be a fatal mistake.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15006
+Keywords   wind rider master tal wind~
+Short      Tal the Wind Rider Master~
+Long       Tal feeds a piece of raw meat to a hungry Wind Rider.
+~
+Desc       Perched at the highest peak of the Central Mesa, Tal manages the
+city's aerial transportation. He smells of wind, feathers, and old leather.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15007
+Keywords   tauren child young calf~
+Short      a young tauren calf~
+Long       A young tauren calf runs past, chasing a prairie dog.
+~
+Desc       Playful and energetic, the children of Thunder Bluff are given free
+rein to explore the safety of the high mesas.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea wimpy~
+Stats1     0 5 0 0 50 200
+Stats2     5 5 50
+Stats3     1 5 5
+Stats4     0 0 0 0 0
+Attribs    12 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15008
+Keywords   wandering kodo beast mount~
+Short      a wandering kodo~
+Long       A massive kodo lumbers slowly across the grass, chewing cud.
+~
+Desc       A beast of burden and a trusted companion of the Tauren. Its thick,
+leathery hide protects it from the elements, and its slow pace belies
+an incredible physical power.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 40 0 0 2000 6000
+Stats2     40 40 400
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    20 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15009
+Keywords   elevator guard tauren watcher~
+Short      an Elevator Guard~
+Long       An Elevator Guard watches the wooden platform ascend the mesa.
+~
+Desc       Stationed at the base and the peak of the Great Elevators, these guards
+ensure that only friends of the Horde set foot upon the sacred mesas
+of Thunder Bluff.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15010
+Keywords   keltor bloodhoof warrior trainer tauren~
+Short      Keltor Bloodhoof~
+Long       Keltor Bloodhoof stands here, analyzing the stances of the trainees.
+~
+Desc       A massive, heavily scarred tauren veteran. He trains the braves of
+Thunder Bluff in the arts of arms and armor, emphasizing overwhelming
+strength and unbreakable endurance.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15011
+Keywords   holt thunderhorn hunter trainer tauren~
+Short      Holt Thunderhorn~
+Long       Holt Thunderhorn strings a massive yew bow with effortless grace.
+~
+Desc       Holt is a master of the hunt. He understands the balance of nature and
+teaches his students how to track prey across the Barrens and strike
+from afar with lethal precision.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15012
+Keywords   tamed prairie wolf pet beast~
+Short      a tamed prairie wolf~
+Long       A large, tamed prairie wolf sits obediently beside its master.
+~
+Desc       This wolf has been raised by the hunters of Thunder Bluff. It is loyal,
+fierce, and possesses senses far sharper than any tauren.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1000 4000
+Stats2     40 40 400
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    16 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15013
+Keywords   turak runetotem weaponsmith master~
+Short      Turak Runetotem~
+Long       Turak Runetotem inspects the edge of a newly forged axe.
+~
+Desc       A master weaponsmith who specializes in the heavy, crushing weapons
+favored by the tauren. He works with quiet, focused intensity.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15014
+Keywords   guard hunter rise brave tauren~
+Short      a Hunter Rise Brave~
+Long       A Hunter Rise Brave patrols the edge of the mesa.
+~
+Desc       Tasked with the defense of the martial district, this brave is armed
+with a heavy spear and a thick hide shield.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15015
+Keywords   uthan stillwater survival fishing trainer~
+Short      Uthan Stillwater~
+Long       Uthan Stillwater rests by a small fire, carving a piece of bone.
+~
+Desc       A venerable tauren who teaches the younger generation how to survive
+in the harsh wilderness, find fresh water, and fish the lakes of Mulgore.
+~
+Race       tauren~
+Class      warrior~
+Position   sitting~
+DefPos     sitting~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15016
+Keywords   ansekhwa leatherworker trainer~
+Short      Ansekhwa~
+Long       Ansekhwa forcefully stretches a kodo hide over a wooden frame.
+~
+Desc       She creates the durable leather armor that the hunters and braves rely
+on. Her hands are stained from the natural dyes of the plains.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15017
+Keywords   target dummy straw training~
+Short      a training dummy~
+Long       A heavily battered training dummy made of straw and wood stands here.~
+Desc       This dummy has absorbed thousands of blows from aspiring warriors and
+hunters. It is covered in slash marks and embedded arrows.
+~
+Race       golem~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 30000 30000
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15018
+Keywords   young brave trainee tauren~
+Short      a young brave~
+Long       A young brave swings a wooden training sword with clumsy enthusiasm.
+~
+Desc       Determined to prove himself to his elders, this young tauren practices
+day and night. He lacks technique but makes up for it with raw power.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea wimpy~
+Stats1     0 15 0 0 200 800
+Stats2     15 15 150
+Stats3     2 5 8
+Stats4     0 0 0 0 0
+Attribs    14 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15019
+Keywords   tawny wind rider roaming mount beast~
+Short      a tawny wind rider~
+Long       A tawny wind rider rests here, preening its massive wings.~
+Desc       Though usually kept at the roost, this majestic creature sometimes
+wanders the rises. It is incredibly intelligent and fiercely loyal.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 40 0 0 1000 4000
+Stats2     40 40 400
+Stats3     4 8 15
+Stats4     0 0 0 0 0
+Attribs    16 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15020
+Keywords   hamuul runetotem archdruid tauren~
+Short      Archdruid Hamuul Runetotem~
+Long       Archdruid Hamuul Runetotem stands in quiet reverence of the earth.
+~
+Desc       A venerated leader among the Tauren and one of the highest-ranking
+druids in the world. Hamuul possesses a deep, booming voice and an aura
+of profound, natural peace. He wears robes woven from living vines.
+~
+Race       tauren~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 5000 25000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    18 20 20 20 20 18 18
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15021
+Keywords   sheal runetotem druid trainer female~
+Short      Sheal Runetotem~
+Long       Sheal Runetotem gently tends to a patch of glowing wildvine.
+~
+Desc       Sheal guides the young druids of the Horde, teaching them how to shift
+their forms and harness the healing powers of nature. She smells of rain
+and crushed pine needles.
+~
+Race       tauren~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 18 18 18 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15022
+Keywords   beram skychaser shaman trainer~
+Short      Beram Skychaser~
+Long       Beram Skychaser listens to the whispers of the wind.
+~
+Desc       A master of the elements. Beram trains the shaman of Thunder Bluff,
+instructing them on how to plant totems and call down the fury of the
+storm or the stillness of the earth.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    15 15 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15023
+Keywords   spirit walker mystic tauren ethereal~
+Short      a Spirit Walker~
+Long       An ethereal Spirit Walker drifts silently across the grass.
+~
+Desc       These rare tauren exist halfway between the physical world and the
+spirit realm. They appear slightly translucent, their eyes glowing with
+a blinding white light.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 18 18 18 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15024
+Keywords   magatha grimtotem elder crone~
+Short      Magatha Grimtotem~
+Long       Magatha Grimtotem watches the rise with a cold, calculating gaze.
+~
+Desc       The Elder Crone of the Grimtotem tribe. Unlike Cairne, she believes
+the Tauren should forcefully dominate Kalimdor. She is deeply steeped
+in dark shamanism and political treachery.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 4000 20000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    15 20 20 20 15 15 15
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15025
+Keywords   forsaken apothecary chemist undead~
+Short      a Forsaken Apothecary~
+Long       A Forsaken Apothecary takes a sample of the glowing pool water.
+~
+Desc       Sent from the Undercity by Sylvanas, this undead chemist is studying
+the magical properties of the Pools of Vision. The Tauren tolerate him,
+but they certainly do not trust him.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15026
+Keywords   clarice foster emissary forsaken~
+Short      Clarice Foster~
+Long       Clarice Foster stands awkwardly among the Tauren mystics.
+~
+Desc       An undead emissary trying to maintain diplomatic ties with Thunder
+Bluff. She looks highly out of place in her dark, gothic robes amidst
+the bright, natural setting of the rise.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15027
+Keywords   water elemental pure guardian~
+Short      a pure water elemental~
+Long       A shifting construct of pure water guards the deep pools.
+~
+Desc       Summoned by the shamans to protect the sacred waters of the cave, this
+elemental is a swirling vortex of liquid and raw magical power.
+~
+Race       elemental~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15028
+Keywords   guard spirit rise brave tauren~
+Short      a Spirit Rise Brave~
+Long       A Spirit Rise Brave stands silently, ensuring peace is maintained.
+~
+Desc       These guards are less aggressive than those on Hunter Rise, relying
+on their imposing presence and quiet authority to keep order among the
+spellcasters and visitors.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15029
+Keywords   tauren initiate shaman young~
+Short      a Tauren Initiate~
+Long       A young initiate sits cross-legged, trying to spark a flame.
+~
+Desc       A student of the elements, working hard to master the basics of
+shamanic magic. They look deeply frustrated as a small puff of smoke
+is all they manage to produce.
+~
+Race       tauren~
+Class      mage~
+Position   sitting~
+DefPos     sitting~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 15 0 0 200 800
+Stats2     15 15 150
+Stats3     2 5 8
+Stats4     0 0 0 0 0
+Attribs    10 13 13 13 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15030
+Keywords   kador cloudsong lorekeeper elder~
+Short      Elder Kador Cloudsong~
+Long       Elder Kador Cloudsong recites the ancient tales of the Earthmother.
+~
+Desc       A venerated historian of the Tauren people. His fur is snow-white with
+age, and his voice carries the rhythmic, soothing cadence of a master
+storyteller. 
+~
+Race       tauren~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 18 18 18 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15031
+Keywords   thrag dawnstrider enchanting trainer~
+Short      Thrag Dawnstrider~
+Long       Thrag Dawnstrider crushes a glowing crystal into fine powder.
+~
+Desc       Thrag has mastered the delicate art of enchanting. He is deeply focused,
+binding the raw magical essence of the world into weapons and armor.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 18 18 18 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15032
+Keywords   kitha earthweaver tailoring trainer~
+Short      Kitha Earthweaver~
+Long       Kitha Earthweaver sews a beautiful pattern into a bolt of mageweave.
+~
+Desc       A skilled tailor who weaves the spiritual beliefs of her people directly
+into the garments she creates. Her tent is filled with colorful fabrics
+and spools of enchanted thread.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15033
+Keywords   tauren drummer rhythm~
+Short      a Tauren Drummer~
+Long       A Tauren Drummer beats a steady, hypnotic rhythm on a kodo hide drum.
+~
+Desc       Providing the heartbeat of the mesa, this drummer plays without resting,
+creating a continuous, comforting sound that echoes across the rise.
+~
+Race       tauren~
+Class      warrior~
+Position   sitting~
+DefPos     sitting~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 45 0 0 1200 6000
+Stats2     45 45 450
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15034
+Keywords   wandering ancestor spirit ghost~
+Short      a Wandering Ancestor~
+Long       The translucent spirit of a Tauren Ancestor walks peacefully here.
+~
+Desc       The veil between worlds is thin on Elder Rise. This spirit watches over
+the living, offering silent guidance to those wise enough to listen.
+~
+Race       undead~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 2000 8000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 18 18 18 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15035
+Keywords   guard elder rise brave tauren~
+Short      an Elder Rise Guard~
+Long       An Elder Rise Guard stands respectfully near the tribal elders.
+~
+Desc       Tasked with protecting the most vulnerable and revered members of the
+tribe, this guard is exceptionally vigilant.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1800 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15036
+Keywords   wise grandmother elder tauren~
+Short      a Wise Grandmother~
+Long       A Wise Grandmother sits quietly, weaving a small basket.
+~
+Desc       She has seen countless seasons pass over Mulgore. The younger tauren
+often come to her for advice on matters of the heart and spirit.
+~
+Race       tauren~
+Class      cleric~
+Position   sitting~
+DefPos     sitting~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 40 0 0 800 4000
+Stats2     40 40 400
+Stats3     4 8 15
+Stats4     0 0 0 0 0
+Attribs    10 18 18 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15037
+Keywords   mulgore eagle bird flying~
+Short      a Mulgore Eagle~
+Long       A massive Mulgore Eagle rests on a wooden perch here.
+~
+Desc       A proud, incredibly sharp-eyed bird of prey that nests along the edges
+of the high mesas. 
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 30 0 0 500 2000
+Stats2     30 30 300
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    15 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15038
+Keywords   peacekeeper elite guard tauren~
+Short      a Peacekeeper~
+Long       A heavily armed Peacekeeper patrols the rise.
+~
+Desc       Only the most level-headed and physically imposing braves are chosen
+as Peacekeepers. They ensure that no violence occurs on this sacred ground.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 2500 10000
+Stats2     60 60 600
+Stats3     6 12 25
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       15039
+Keywords   bena alchemy trainer apothecary~
+Short      Bena Winterhoof~
+Long       Bena Winterhoof grinds a handful of earthroot in a stone mortar.
+~
+Desc       A master of herbalism and alchemy. She brews the potions and elixirs
+that empower the Horde's warriors and heal their wounds.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 16 16 16 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#OBJECT
+Vnum     15000
+Keywords totem massive pole carved wood~
+Type     furniture~
+Short    a massive carved totem pole~
+Long     A towering wooden totem, intricately carved with eagles and kodos, stands here.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    500 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15001
+Keywords halberd tauren heavy blade~
+Type     weapon~
+Short    a heavy Tauren halberd~
+Long     A massive, incredibly heavy halberd designed for a tauren rests here.~
+WFlags   take wield~
+Values   0 15 20 3 0 0
+Stats    18 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15002
+Keywords shield kodo hide stretched thick~
+Type     armor~
+Short    a thick kodo hide shield~
+Long     A large, round shield made of stretched kodo hide lies in the grass.~
+WFlags   take shield~
+Values   10 0 0 0 0 0
+Stats    12 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15003
+Keywords peace pipe ceremonial wooden~
+Type     treasure~
+Short    a ceremonial peace pipe~
+Long     A long wooden pipe decorated with colorful feathers has been left here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15004
+Keywords tabard thunder bluff brown totem~
+Type     armor~
+Short    a Thunder Bluff tabard~
+Long     A brown tabard bearing the totem crest of Thunder Bluff sits here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15005
+Keywords roasted quail bird meat food~
+Type     food~
+Short    a roasted plainstrider quail~
+Long     A perfectly roasted quail, seasoned with Mulgore spices, rests on a plate.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15006
+Keywords horn spring water drink~
+Type     drinkcon~
+Short    a horn of spring water~
+Long     A carved kodo horn filled with crystal clear water sits here.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15007
+Keywords headdress feathers ceremonial chieftain~
+Type     armor~
+Short    a feathered ceremonial headdress~
+Long     A majestic headdress made of vibrant eagle feathers lies here.~
+WFlags   take head~
+Values   5 0 0 0 0 0
+Stats    3 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15008
+Keywords spear bloodhoof rune carved~
+Type     weapon~
+Short    a rune-carved Bloodhoof spear~
+Long     A magnificent hunting spear carved with ancient runes rests in the dirt.~
+WFlags   take wield~
+Values   0 18 24 11 0 0
+Stats    20 1500 150 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15009
+Keywords strongbox iron heavy bank~
+Type     container~
+Short    a heavy iron strongbox~
+Long     A massive, reinforced iron strongbox is bolted securely to the floor.~
+WFlags   none~
+Values   500 13 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15010
+Keywords bow hunting yew horn tipped~
+Type     weapon~
+Short    a horn-tipped hunting bow~
+Long     A beautifully crafted hunting bow tipped with kodo horn lies here.~
+WFlags   take wield~
+Values   0 8 12 4 0 0
+Stats    5 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15011
+Keywords totem mace heavy wooden tauren~
+Type     weapon~
+Short    a heavy wooden totem mace~
+Long     A massive, blunt totem designed to be swung as a weapon rests here.~
+WFlags   take wield~
+Values   0 12 18 7 0 0
+Stats    15 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15012
+Keywords tunic leather kodo thick~
+Type     armor~
+Short    a thick kodo leather tunic~
+Long     A heavy tunic made from cured kodo leather has been dropped here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    8 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15013
+Keywords bundle arrows iron tipped~
+Type     weapon~
+Short    a bundle of iron-tipped arrows~
+Long     A bundle of straight, iron-tipped arrows sits on the ground.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15014
+Keywords knife skinning bone handle~
+Type     weapon~
+Short    a bone-handled skinning knife~
+Long     A razor-sharp skinning knife with a carved bone handle lies here.~
+WFlags   take wield~
+Values   0 4 8 11 0 0
+Stats    3 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15015
+Keywords meat wolf roasted steak food~
+Type     food~
+Short    a roasted wolf steak~
+Long     A sizzling, perfectly roasted wolf steak smells delicious.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    2 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15016
+Keywords scrap training dummy straw~
+Type     trash~
+Short    a scrap of a training dummy~
+Long     A handful of straw and splintered wood has been swept into a pile.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15017
+Keywords hook fishing bone carved~
+Type     treasure~
+Short    a carved bone fishing hook~
+Long     A small, sharp fishing hook carved from bone glints in the light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15018
+Keywords horn hunting kodo blowing~
+Type     treasure~
+Short    a kodo hunting horn~
+Long     A large kodo horn fashioned into a signaling instrument rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15019
+Keywords rack tanning wooden large~
+Type     furniture~
+Short    a large wooden tanning rack~
+Long     A massive wooden rack used for stretching and curing hides stands here.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15020
+Keywords staff archdruid living wood~
+Type     staff~
+Short    the Archdruid's Staff~
+Long     A heavy wooden staff wrapped in living, blooming vines rests here.~
+WFlags   take wield~
+Values   0 10 15 11 0 0
+Stats    15 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15021
+Keywords herb wildvine purple glowing~
+Type     treasure~
+Short    a sprig of glowing wildvine~
+Long     A rare, faintly glowing purple herb has been dropped in the grass.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15022
+Keywords totem water carved blue shaman~
+Type     armor~
+Short    a carved water totem~
+Long     A small wooden totem painted with blue waves lies here.~
+WFlags   take hold~
+Values   2 0 0 0 0 0
+Stats    5 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15023
+Keywords horn grimtotem black painted~
+Type     treasure~
+Short    a black Grimtotem horn~
+Long     A kodo horn painted pitch black with menacing red symbols sits here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    3 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15024
+Keywords vial purified water crystal clear~
+Type     potion~
+Short    a vial of purified water~
+Long     A glass vial filled with incredibly clear, pure water rests here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 15 2 0 0
+Spells   'cure light' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     15025
+Keywords dreamcatcher feathers leather woven~
+Type     treasure~
+Short    a woven dreamcatcher~
+Long     A beautifully woven dreamcatcher adorned with eagle feathers hangs here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15026
+Keywords robes ceremonial kodo hide white~
+Type     armor~
+Short    white ceremonial robes~
+Long     A soft, pristine set of white leather robes has been left here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    4 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15027
+Keywords vial plague sludge toxic~
+Type     potion~
+Short    a toxic plague vial~
+Long     A sealed vial of dangerous, bubbling green sludge sits on the ground.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 50 5 0 0
+Spells   'poison' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     15028
+Keywords crystal blue glowing light cave~
+Type     light~
+Short    a glowing blue cave crystal~
+Long     A chunk of raw crystal emits a soothing blue light.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15029
+Keywords pouch medicine leather herbs~
+Type     container~
+Short    a leather medicine pouch~
+Long     A small leather pouch smelling strongly of mixed herbs is here.~
+WFlags   take hold~
+Values   20 0 0 0 0 0
+Stats    2 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15030
+Keywords drum ceremonial kodo hide large~
+Type     furniture~
+Short    a large ceremonial drum~
+Long     A massive drum made of stretched kodo hide and painted with runes is here.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15031
+Keywords dust strange glowing enchanting~
+Type     treasure~
+Short    a pile of strange dust~
+Long     A small pile of sparkling, magically charged dust sits on the table.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15032
+Keywords bolt wool cloth soft~
+Type     treasure~
+Short    a bolt of soft wool~
+Long     A perfectly rolled bolt of warm, durable wool has been left here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15033
+Keywords scroll lorekeeper parchment ancient~
+Type     scroll~
+Short    a Lorekeeper's scroll~
+Long     An ancient parchment detailing the history of the Tauren lies here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 100 10 0 0
+Spells   'identify' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     15034
+Keywords burner incense iron sweet~
+Type     furniture~
+Short    an iron incense burner~
+Long     A small iron brazier burns sweet-smelling sage and cedar.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    50 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15035
+Keywords dreamcatcher feathered large~
+Type     treasure~
+Short    a large feathered dreamcatcher~
+Long     An intricately woven dreamcatcher hangs from a wooden post.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15036
+Keywords totem ancestors carved wood~
+Type     furniture~
+Short    the Totem of the Ancestors~
+Long     A heavily weathered wooden totem, centuries old, stands proudly here.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    500 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15037
+Keywords cup tea herbal warm~
+Type     drinkcon~
+Short    a cup of herbal tea~
+Long     A small clay cup filled with soothing, warm herbal tea rests here.~
+WFlags   take hold~
+Values   5 5 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15038
+Keywords stick walking elder wooden~
+Type     weapon~
+Short    an elder's walking stick~
+Long     A polished wooden walking stick, worn smooth by years of use, lies here.~
+WFlags   take wield~
+Values   0 5 10 7 0 0
+Stats    3 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     15039
+Keywords pit fire glowing communal~
+Type     furniture~
+Short    a glowing fire pit~
+Long     A large ring of stones contains a warmly glowing, communal fire.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    200 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     15000
+Name     &GBase of the Great Elevators&d~
+Sector   field~
+Desc     You stand on the golden, rolling plains of Mulgore. Towering hundreds
+of feet above you is the awe-inspiring Central Mesa of Thunder Bluff.
+A massive wooden platform, operated by immense ropes and counterweights,
+waits to carry travelers to the city above.
+~
+#EXIT
+Direction up~
+ToRoom    15001
+Desc      You step onto the massive wooden elevator platform.
+~
+#ENDEXIT
+Reset M 0 15009 2 15000
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15001
+Name     &OInside the Great Elevator&d~
+Sector   city~
+Desc     The massive wooden platform creaks and sways slightly as it ascends the
+sheer rock face of the mesa. The view of Mulgore expanding below you is
+breathtaking. The wind whips fiercely as you approach the peak.
+~
+#EXIT
+Direction up~
+ToRoom    15002
+Desc      The elevator locks into place at the top of the mesa.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    15000
+Desc      The elevator descends back to the plains of Mulgore.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15002
+Name     &GTop of the Elevators&d~
+Sector   city~
+Desc     You step off the elevator and onto the lush, green grass of Thunder Bluff's
+Central Mesa. The air here is thin, crisp, and smells of sweetgrass and
+woodsmoke. To the north, a towering totem pole marks the center of the
+city's main square.
+~
+#EXIT
+Direction north~
+ToRoom    15003
+Desc      The bustling Totem Square.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    15001
+Desc      The Great Elevator awaits.
+~
+#ENDEXIT
+Reset M 0 15009 2 15002
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15003
+Name     &GTotem Square&d~
+Sector   city~
+Desc     This is the heart of the Central Mesa. A massive, masterfully carved
+totem pole towers into the sky, representing the unity of the Tauren
+tribes. Tauren, Orcs, and Trolls mingle peacefully here. Pathways
+branch out in all directions.
+~
+#EXIT
+Direction north~
+ToRoom    15006
+Desc      The northern path across the grass.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15008
+Desc      The path winds toward the Auction House.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15002
+Desc      The top of the Great Elevators.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15014
+Desc      The path winds toward the Wind Rider Roost.
+~
+#ENDEXIT
+Reset O 0 15000 1 15003
+Reset M 0 15000 2 15003
+  Reset E 1 15001 10 16
+Reset M 0 15007 2 15003
+#ENDROOM
+
+#ROOM
+Vnum     15004
+Name     &GThunder Bluff Bank&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large, open-air tent is constructed of thick kodo hides stretched
+over heavy timber. It serves as the bank for the city. Despite the
+lack of stone walls, the wealth of the Horde is well protected here by
+several very large, very well-armed guards.
+~
+#EXIT
+Direction east~
+ToRoom    15006
+Desc      The northern walk of the Central Mesa.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    15005
+Desc      A ramp leads down into a secure earthen cellar.
+~
+#ENDEXIT
+Reset M 0 15005 1 15004
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15005
+Name     &dThunder Bluff Bank Vault&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Carved directly into the earth of the mesa, this cool, dry cellar holds
+the heavy iron strongboxes that contain the city's reserves of gold and
+valuable resources. 
+~
+#EXIT
+Direction up~
+ToRoom    15004
+Desc      The main banking tent.
+~
+#ENDEXIT
+Reset O 0 15009 3 15005
+#ENDROOM
+
+#ROOM
+Vnum     15006
+Name     &GCentral Mesa - North Walk&d~
+Sector   city~
+Desc     The soft grass of the mesa is worn down into a distinct path here.
+To the west is the large hide tent of the Thunder Bluff Bank, and to
+the north, a rope bridge stretches precariously across the open sky
+toward Spirit Rise.
+~
+#EXIT
+Direction north~
+ToRoom    15018
+Desc      The rope bridge to Spirit Rise.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15003
+Desc      Totem Square.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15004
+Desc      The Thunder Bluff Bank.
+~
+#ENDEXIT
+Reset M 0 15008 1 15006
+#ENDROOM
+
+#ROOM
+Vnum     15007
+Name     &GThunder Bluff Auction House&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large tent is surprisingly noisy compared to the rest of the city.
+Merchants and adventurers from across Kalimdor gather here to trade
+goods. A raised wooden platform holds the auctioneers, who bark out
+bids over the low rumble of the crowd.
+~
+#EXIT
+Direction west~
+ToRoom    15008
+Desc      The eastern walk of the Central Mesa.
+~
+#ENDEXIT
+Reset M 0 15003 1 15007
+#ENDROOM
+
+#ROOM
+Vnum     15008
+Name     &GCentral Mesa - East Walk&d~
+Sector   city~
+Desc     The wind blows gently across the eastern side of the mesa. To the east
+sits the busy Auction House tent, and further east, a massive rope
+bridge connects to Elder Rise. To the south, the smell of roasted
+meat drifts from the local inn.
+~
+#EXIT
+Direction east~
+ToRoom    15007
+Desc      The entrance to the Auction House.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15011
+Desc      The path continues toward the Inn.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15003
+Desc      Totem Square.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15009
+Name     &GBloodhoof Village Inn - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The largest tent on the Central Mesa, the inn is a welcoming haven
+for all travelers. The floor is covered in soft, woven rugs, and the
+air is warm and inviting. 
+~
+#EXIT
+Direction north~
+ToRoom    15011
+Desc      The path leading back to the mesa proper.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15010
+Desc      The central hearth of the inn.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15010
+Name     &GBloodhoof Village Inn - Hearth&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, circular fire pit dominates the center of the room. A massive
+iron spit slowly turns a roasting plainstrider. Tauren sit on colorful
+cushions, sharing stories, drinking water from hollowed horns, and
+smoking ceremonial pipes.
+~
+#EXIT
+Direction north~
+ToRoom    15009
+Desc      The entrance to the inn.
+~
+#ENDEXIT
+Reset M 0 15004 1 15010
+  Reset E 1 15005 10 17
+Reset O 0 15003 2 15010
+#ENDROOM
+
+#ROOM
+Vnum     15011
+Name     &GCentral Mesa - South Walk&d~
+Sector   city~
+Desc     The path winds along the southern edge of the Central Mesa. To the
+south is the entrance to the Bloodhoof Village Inn. To the west,
+a prominent tent flanked by massive totems marks the dwelling of the
+High Chieftain.
+~
+#EXIT
+Direction north~
+ToRoom    15008
+Desc      The eastern walk of the mesa.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15009
+Desc      The entrance to the Inn.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15012
+Desc      The entrance to Cairne's tent.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15012
+Name     &GThe Chieftain's Tent - Entrance&d~
+Sector   field~
+Desc     Two massive, intricately carved totems flank the entrance to the largest
+and most ornate tent in Thunder Bluff. Elite Bloodhoof Braves stand guard
+here, ensuring that the High Chieftain is not disturbed without good
+reason.
+~
+#EXIT
+Direction east~
+ToRoom    15011
+Desc      The southern walk of the mesa.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15013
+Desc      You step inside the Chieftain's tent.
+~
+#ENDEXIT
+Reset M 0 15000 2 15012
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15013
+Name     &GThe Chieftain's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the tent is surprisingly humble. There is no gilded
+throne, only a large, woven mat upon the earth. Maps of Mulgore and
+the Barrens are spread across a low wooden table. High Chieftain
+Cairne Bloodhoof stands here, exuding a quiet, immense power.
+~
+#EXIT
+Direction east~
+ToRoom    15012
+Desc      The entrance back to the mesa.
+~
+#ENDEXIT
+Reset M 0 15001 1 15013
+  Reset E 1 15008 10 16
+  Reset E 1 15007 10 6
+Reset M 0 15002 1 15013
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15014
+Name     &GCentral Mesa - West Walk&d~
+Sector   city~
+Desc     The grass here gives way to a sturdy wooden ramp that spirals upward
+around a massive central pillar of stone. This is the base of the
+Wind Rider Roost, the highest point in all of Thunder Bluff.
+~
+#EXIT
+Direction east~
+ToRoom    15003
+Desc      Totem Square.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    15015
+Desc      The ramp leads up toward the roost.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15017
+Desc      A rope bridge connects to Hunter Rise.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15015
+Name     &GThe Wind Rider Roost - Base&d~
+Sector   city~
+Desc     You are ascending a wide wooden ramp that spirals around a towering
+stone pinnacle. The wind whips fiercely here, pulling at your clothes.
+Above you, you can hear the shrieks of the mighty Wind Riders.
+~
+#EXIT
+Direction up~
+ToRoom    15016
+Desc      The ramp continues to the peak.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    15014
+Desc      The ramp leads down to the mesa.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15016
+Name     &GThe Wind Rider Roost - Peak&d~
+Sector   city~
+Desc     You stand at the very apex of Thunder Bluff. The view is unparalleled;
+you can see for miles across the golden plains of Mulgore. Several
+large, tawny Wind Riders rest on wooden perches, waiting for passengers.
+~
+#EXIT
+Direction down~
+ToRoom    15015
+Desc      The ramp winds back down.
+~
+#ENDEXIT
+Reset M 0 15006 1 15016
+#ENDROOM
+
+#ROOM
+Vnum     15017
+Name     &ORope Bridge to Hunter Rise&d~
+Sector   city~
+Desc     A long bridge made of thick hemp rope and wooden planks stretches
+across the terrifying drop between the Central Mesa and Hunter Rise
+to the west. The bridge sways heavily in the wind, a true test of
+balance for those crossing.
+~
+#EXIT
+Direction east~
+ToRoom    15014
+Desc      The Central Mesa.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15020
+Desc      The martial grounds of Hunter Rise.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15018
+Name     &ORope Bridge to Spirit Rise&d~
+Sector   city~
+Desc     This swaying rope bridge connects the Central Mesa to the mysterious
+Spirit Rise to the north. The air flowing from the north smells strongly
+of incense and ancient magic, a stark contrast to the dust of the plains.
+~
+#EXIT
+Direction north~
+ToRoom    15040
+Desc      The grassy landing of Spirit Rise.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15006
+Desc      The Central Mesa.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15019
+Name     &ORope Bridge to Elder Rise&d~
+Sector   city~
+Desc     You are carefully crossing a wide rope bridge suspended thousands of
+feet in the air. This bridge connects the Central Mesa to Elder Rise
+in the east, the seat of wisdom and history for the Tauren people.
+~
+#EXIT
+Direction east~
+ToRoom    15060
+Desc      The landing of Elder Rise.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15008
+Desc      The Central Mesa.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15020
+Name     &GHunter Rise - Bridge Landing&d~
+Sector   city~
+Desc     You step off the swaying rope bridge onto the solid, grassy earth of
+Hunter Rise. The sound of clashing weapons and roaring beasts immediately
+replaces the gentle hum of the Central Mesa. To the west lies the main
+camp of the martial trainers.
+~
+#EXIT
+Direction east~
+ToRoom    15017
+Desc      The rope bridge leading back to the Central Mesa.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15021
+Desc      The bustling main camp of Hunter Rise.
+~
+#ENDEXIT
+Reset M 0 15014 2 15020
+  Reset E 1 15011 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15021
+Name     &GHunter Rise - Main Camp&d~
+Sector   city~
+Desc     This open area serves as the central hub for the rise. Several large
+tents are pitched around a roaring communal fire. Braves and hunters
+gather here to swap stories of their conquests and prepare their gear
+for the next excursion into the Barrens.
+~
+#EXIT
+Direction north~
+ToRoom    15022
+Desc      The imposing entrance to the Warrior's Lodge.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15020
+Desc      The landing near the rope bridge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15023
+Desc      The open archway of the Hunter's Hall.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15025
+Desc      A dirt path leading to the training ring.
+~
+#ENDEXIT
+Reset M 0 15018 2 15021
+#ENDROOM
+
+#ROOM
+Vnum     15022
+Name     &GThe Warrior's Lodge&d~
+Sector   inside~
+Flags    indoors~
+Desc     Heavy kodo hides insulate this large tent, creating a warm, focused
+environment. Weapon racks line the walls, holding massive totems and
+heavy axes. Keltor Bloodhoof stands in the center, analyzing the forms
+of his students with a critical eye.
+~
+#EXIT
+Direction south~
+ToRoom    15021
+Desc      The main camp of Hunter Rise.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15024
+Desc      The intense heat of the weapon forge.
+~
+#ENDEXIT
+Reset M 0 15010 1 15022
+  Reset E 1 15011 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15023
+Name     &GThe Hunter's Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     Trophies of massive plainstriders, thunder lizards, and lions adorn the
+wooden supports of this open-air hall. The hunters here are quiet and
+methodical, carefully fletching arrows and tending to their animal
+companions.
+~
+#EXIT
+Direction north~
+ToRoom    15021
+Desc      The main camp of Hunter Rise.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15036
+Desc      A small tent dedicated to bow crafting.
+~
+#ENDEXIT
+Reset M 0 15011 1 15023
+  Reset E 1 15010 10 16
+Reset M 0 15012 2 15023
+#ENDROOM
+
+#ROOM
+Vnum     15024
+Name     &OTurak's Weapon Forge&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heat in this small alcove is intense. A large stone forge burns
+with brightly glowing coals. Turak Runetotem works tirelessly here,
+striking red-hot iron into shape. The rhythmic clanging of his hammer
+echoes across the rise.
+~
+#EXIT
+Direction east~
+ToRoom    15022
+Desc      The Warrior's Lodge.
+~
+#ENDEXIT
+Reset M 0 15013 1 15024
+  Reset E 1 15011 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15025
+Name     &GTraining Ring - Edge&d~
+Sector   city~
+Desc     The grass here has been completely worn away, leaving a large circle of
+hard-packed dirt. This is where the warriors and braves of Thunder Bluff
+spar. The energy is intense, filled with the sounds of heavy impacts and
+bellowed war cries.
+~
+#EXIT
+Direction east~
+ToRoom    15021
+Desc      The main camp.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15031
+Desc      A path winding along the southern edge.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15026
+Desc      The center of the training ring.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    15030
+Desc      A path leading toward the northern overlook.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15026
+Name     &OTraining Ring - Center&d~
+Sector   city~
+Desc     You stand in the very center of the training ring. Several battered
+target dummies are set up here for practicing strikes and archery.
+Sweat and dust mingle in the air as trainees push themselves to their
+absolute physical limits.
+~
+#EXIT
+Direction east~
+ToRoom    15025
+Desc      The edge of the training ring.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15028
+Desc      A path leading to the western cliff edge.
+~
+#ENDEXIT
+Reset M 0 15017 1 15026
+Reset M 0 15017 1 15026
+Reset M 0 15018 2 15026
+Reset O 0 15016 3 15026
+#ENDROOM
+
+#ROOM
+Vnum     15027
+Name     &GThe Leatherworker's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     The pungent smell of tanning solutions and cured leather is overpowering
+here. Large racks holding stretched hides dominate the space. Ansekhwa
+works meticulously, transforming raw skins into the durable armor her
+people rely upon.
+~
+#EXIT
+Direction east~
+ToRoom    15031
+Desc      The southern path.
+~
+#ENDEXIT
+Reset M 0 15016 1 15027
+  Reset E 1 15014 10 16
+Reset O 0 15019 1 15027
+#ENDROOM
+
+#ROOM
+Vnum     15028
+Name     &GHunter Rise - Western Cliff&d~
+Sector   city~
+Desc     You stand at the far western edge of Hunter Rise. The drop off here is
+sheer, plummeting hundreds of feet down to the plains below. The wind is
+unobstructed and incredibly strong, carrying the scent of rain from the
+distant horizon.
+~
+#EXIT
+Direction east~
+ToRoom    15026
+Desc      The center of the training ring.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    15029
+Desc      The beast pens.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15037
+Desc      The edge of the rise continues southward.
+~
+#ENDEXIT
+Reset M 0 15014 2 15028
+  Reset E 1 15011 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15029
+Name     &GThe Beast Pens&d~
+Sector   city~
+Desc     A large, fenced-in area built right to the edge of the cliff. It serves
+as a temporary holding pen for tamed beasts and occasionally houses
+injured Wind Riders. The ground is heavily trampled and smells of animal
+musk and hay.
+~
+#EXIT
+Direction south~
+ToRoom    15028
+Desc      The western cliff.
+~
+#ENDEXIT
+Reset M 0 15012 2 15029
+Reset M 0 15019 1 15029
+#ENDROOM
+
+#ROOM
+Vnum     15030
+Name     &GHunter Rise - Northern Overlook&d~
+Sector   city~
+Desc     The northern edge of the rise offers a spectacular view of the rolling
+plains of Mulgore. A small campfire crackles cheerfully here, providing
+warmth against the chill high-altitude winds.
+~
+#EXIT
+Direction south~
+ToRoom    15025
+Desc      The edge of the training ring.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15032
+Desc      Uthan's campfire.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15031
+Name     &GHunter Rise - Southern Path&d~
+Sector   city~
+Desc     This path winds quietly along the southern curve of the rise, keeping
+a safe distance from the chaotic training ring. To the west is the busy
+tent of the leatherworker.
+~
+#EXIT
+Direction north~
+ToRoom    15025
+Desc      The edge of the training ring.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15027
+Desc      The Leatherworker's tent.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15032
+Name     &OUthan's Campfire&d~
+Sector   city~
+Desc     A serene spot near the northern edge. Uthan Stillwater sits comfortably
+by the fire, offering advice on survival and the patience required for
+fishing. A few wooden racks hold drying fish nearby.
+~
+#EXIT
+Direction east~
+ToRoom    15030
+Desc      The northern overlook.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15033
+Desc      A quiet meditation spot.
+~
+#ENDEXIT
+Reset M 0 15015 1 15032
+Reset O 0 15015 2 15032
+#ENDROOM
+
+#ROOM
+Vnum     15033
+Name     &GQuiet Meditation Spot&d~
+Sector   city~
+Desc     Tucked away in the northwest corner, this small patch of grass is a
+favorite for warriors seeking a moment of peace and mental clarity before
+a difficult trial or hunt.
+~
+#EXIT
+Direction east~
+ToRoom    15032
+Desc      Uthan's campfire.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15034
+Name     &GThe Brave's Rest&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, communal tent serving as the barracks for the braves stationed
+on Hunter Rise. Simple woven mats serve as beds, and the personal
+belongings of the warriors are stored neatly in wooden chests.
+~
+#EXIT
+Direction east~
+ToRoom    15037
+Desc      The edge of the rise.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15035
+Name     &OMeat Curing Racks&d~
+Sector   city~
+Desc     Several tall wooden structures stand here, draped with strips of kodo
+and plainstrider meat. The dry wind and smoke from nearby fires preserve
+the meat perfectly, providing rations for long journeys.
+~
+#EXIT
+Direction north~
+ToRoom    15037
+Desc      The edge of the rise.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15036
+Name     &GThe Bowyer's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     This small tent is littered with wood shavings and feathers. The finest
+hunting bows in Thunder Bluff are crafted and strung here, utilizing
+flexible yew wood and strong sinew.
+~
+#EXIT
+Direction east~
+ToRoom    15023
+Desc      The Hunter's Hall.
+~
+#ENDEXIT
+Reset O 0 15010 1 15036
+Reset O 0 15013 2 15036
+#ENDROOM
+
+#ROOM
+Vnum     15037
+Name     &GHunter Rise - Southwestern Edge&d~
+Sector   city~
+Desc     The grass here is lush and green, untouched by the heavy footfalls of
+the training ring. The massive watchtower rises to the south, casting a
+long shadow over the area.
+~
+#EXIT
+Direction north~
+ToRoom    15028
+Desc      The western cliff.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15035
+Desc      The meat curing racks.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15034
+Desc      The Brave's Rest barracks.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15038
+Desc      The base of the watchtower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15038
+Name     &GBase of the Watchtower&d~
+Sector   city~
+Desc     You stand at the foot of a towering wooden structure built to give the
+tauren a commanding view of the surrounding plains. A spiraling wooden
+ladder leads up to the observation deck.
+~
+#EXIT
+Direction west~
+ToRoom    15037
+Desc      The edge of the rise.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    15039
+Desc      Climb the ladder to the watchtower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15039
+Name     &GHunter Rise Watchtower&d~
+Sector   city~
+Desc     The wind howls violently up here. You have a 360-degree view of Mulgore,
+able to spot a kodo herd or an incoming centaur raiding party from miles
+away. A large ceremonial horn rests on a wooden stand, ready to be blown
+in times of danger.
+~
+#EXIT
+Direction down~
+ToRoom    15038
+Desc      Descend back to the rise.
+~
+#ENDEXIT
+Reset O 0 15018 1 15039
+#ENDROOM
+
+#ROOM
+Vnum     15040
+Name     &GSpirit Rise - Bridge Landing&d~
+Sector   city~
+Desc     You step off the rope bridge onto the soft, exceptionally green grass
+of Spirit Rise. The atmosphere here is profoundly peaceful. To the
+north, the path winds toward a central gathering of beautifully painted
+tents and totems.
+~
+#EXIT
+Direction north~
+ToRoom    15041
+Desc      The central totem of the rise.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15018
+Desc      The rope bridge back to the Central Mesa.
+~
+#ENDEXIT
+Reset M 0 15028 2 15040
+#ENDROOM
+
+#ROOM
+Vnum     15041
+Name     &GSpirit Rise - Central Totem&d~
+Sector   city~
+Desc     A massive, ancient totem pole stands in the center of the rise, carved
+with the likenesses of animal spirits. Braziers burn sweet-smelling
+herbs, creating a thin veil of smoke that drifts lazily through the air.
+~
+#EXIT
+Direction north~
+ToRoom    15049
+Desc      The path toward the northern overlook.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15050
+Desc      The eastern walk of the rise.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15040
+Desc      The bridge landing.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15046
+Desc      The western path toward the Druids.
+~
+#ENDEXIT
+Reset M 0 15029 2 15041
+#ENDROOM
+
+#ROOM
+Vnum     15042
+Name     &OThe Elder Crone's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     This tent feels noticeably colder and less welcoming than the others.
+The hides are dyed a dark, ominous black, marking it as the domain of
+the Grimtotem tribe. Magatha Grimtotem stands inside, watching you
+suspiciously.
+~
+#EXIT
+Direction east~
+ToRoom    15046
+Desc      The western path of the rise.
+~
+#ENDEXIT
+Reset M 0 15024 1 15042
+  Reset E 1 15023 10 17
+#ENDROOM
+
+#ROOM
+Vnum     15043
+Name     &GArchdruid's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     Living vines and blooming flowers grow directly out of the hides that
+make up this large tent. The air is fresh and vibrant with natural
+energy. Archdruid Hamuul Runetotem resides here, serving as the
+spiritual compass for the Tauren.
+~
+#EXIT
+Direction west~
+ToRoom    15050
+Desc      The eastern walk of the rise.
+~
+#ENDEXIT
+Reset M 0 15020 1 15043
+  Reset E 1 15020 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15044
+Name     &GShamanic Circle&d~
+Sector   city~
+Desc     A large circle of smooth stones is laid out on the grass. Small totems
+representing earth, fire, water, and air are placed at the cardinal
+directions. Shaman trainees sit here in deep meditation, seeking
+communion with the elements.
+~
+#EXIT
+Direction north~
+ToRoom    15046
+Desc      The western path of the rise.
+~
+#ENDEXIT
+Reset M 0 15022 1 15044
+  Reset E 1 15022 10 17
+#ENDROOM
+
+#ROOM
+Vnum     15045
+Name     &OCave Entrance&d~
+Sector   city~
+Desc     A dark, natural cave mouth opens up in the rocky center of the mesa.
+A spiraling stone path leads downwards into the depths of the earth.
+The faint sound of dripping water and a cool, damp breeze drift up
+from the darkness below.
+~
+#EXIT
+Direction south~
+ToRoom    15050
+Desc      The eastern walk of the rise.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    15051
+Desc      Descend into the Pools of Vision.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15046
+Name     &GSpirit Rise - Western Path&d~
+Sector   city~
+Desc     The grass path winds along the western side of the rise. To the south
+is the Shamanic Circle, and to the west stands the dark, imposing tent
+of the Grimtotem leader.
+~
+#EXIT
+Direction north~
+ToRoom    15047
+Desc      A lush, overgrown grove.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15041
+Desc      The central totem.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15044
+Desc      The Shamanic Circle.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15042
+Desc      The Elder Crone's Tent.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15047
+Name     &GDruid's Meditation Grove&d~
+Sector   field~
+Desc     This corner of the rise has been carefully cultivated into a miniature
+forest. Ancient trees provide deep shade, and rare herbs grow in
+abundance. It is a place of healing and learning for the druids.
+~
+#EXIT
+Direction south~
+ToRoom    15046
+Desc      The western path.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15048
+Desc      The edge of the western cliff.
+~
+#ENDEXIT
+Reset M 0 15021 1 15047
+  Reset E 1 15026 10 5
+Reset O 0 15021 3 15047
+#ENDROOM
+
+#ROOM
+Vnum     15048
+Name     &GSpirit Rise - Western Cliff Edge&d~
+Sector   city~
+Desc     You stand at the sheer western edge of Thunder Bluff. The wind howls
+up from the plains below, carrying the distant calls of plainstriders.
+The view of the setting sun from here is legendary.
+~
+#EXIT
+Direction east~
+ToRoom    15047
+Desc      The Druid's Grove.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15049
+Name     &GSpirit Rise - Northern Overlook&d~
+Sector   city~
+Desc     The northern tip of Spirit Rise looks out over the vast expanse of the
+Barrens to the northeast. A few wooden benches have been placed here
+for those who wish to sit and ponder the mysteries of the Earthmother.
+~
+#EXIT
+Direction south~
+ToRoom    15041
+Desc      The central totem.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15059
+Desc      A quiet clearing.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15058
+Desc      The Spirit Lodge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15050
+Name     &GSpirit Rise - Eastern Walk&d~
+Sector   city~
+Desc     The path winds along the eastern half of the rise. To the east is the
+vibrant, living tent of the Archdruid. To the north, a dark cave mouth
+leads down into the subterranean pools.
+~
+#EXIT
+Direction north~
+ToRoom    15045
+Desc      The entrance to the caves.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15043
+Desc      The Archdruid's tent.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15057
+Desc      The Healing Lodge.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15041
+Desc      The central totem.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15051
+Name     &dDescent into the Earth&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You are walking down a spiraling, natural ramp carved into the rock
+of the mesa. The air grows noticeably cooler and more humid with every
+step. Faint, bioluminescent fungus provides a dim, eerie light.
+~
+#EXIT
+Direction up~
+ToRoom    15045
+Desc      The cave entrance above.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    15052
+Desc      The cavern opens up below.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15052
+Name     &CPools of Vision - Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You step off the ramp into a massive subterranean cavern located deep
+inside the mesa. The sound of gentle, flowing water echoes off the
+walls. Glowing crystals are embedded in the rock, casting a magical
+blue light over the area.
+~
+#EXIT
+Direction north~
+ToRoom    15053
+Desc      The main crystal pool.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    15051
+Desc      The ramp leads back to the surface.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15053
+Name     &CPools of Vision - The Crystal Pool&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A large, impossibly clear pool of water dominates the center of the
+cavern. The water glows with a soft, internal magic. Tauren mystics
+stare into the depths, seeking visions of the future and communion
+with the spirits.
+~
+#EXIT
+Direction east~
+ToRoom    15054
+Desc      The Forsaken encampment.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15052
+Desc      The entrance of the caverns.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15056
+Desc      The deeper waters.
+~
+#ENDEXIT
+Reset O 0 15028 2 15053
+#ENDROOM
+
+#ROOM
+Vnum     15054
+Name     &dPools of Vision - Forsaken Camp&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A small, highly incongruous camp has been set up here by emissaries
+from the Undercity. Alchemical equipment and bubbling vials clash with
+the natural, spiritual atmosphere of the caves.
+~
+#EXIT
+Direction north~
+ToRoom    15055
+Desc      A dark, unlit cavern.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15053
+Desc      The crystal pool.
+~
+#ENDEXIT
+Reset M 0 15025 1 15054
+Reset M 0 15026 1 15054
+Reset O 0 15027 1 15054
+#ENDROOM
+
+#ROOM
+Vnum     15055
+Name     &dPools of Vision - Dark Cavern&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The glowing crystals do not reach this far into the caves. It is pitch
+black, and the air is perfectly still. The Tauren avoid this area, claiming
+the spirits here are restless and unhappy.
+~
+#EXIT
+Direction south~
+ToRoom    15054
+Desc      The Forsaken camp.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15056
+Name     &CPools of Vision - Deep Water&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The pool is incredibly deep here. A powerful Water Elemental stands
+guard over the sacred liquid, ensuring that it is not defiled by those
+who do not respect the Earthmother.
+~
+#EXIT
+Direction east~
+ToRoom    15053
+Desc      The crystal pool.
+~
+#ENDEXIT
+Reset M 0 15027 1 15056
+#ENDROOM
+
+#ROOM
+Vnum     15057
+Name     &GHealing Lodge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long tent filled with simple woven beds. The air smells strongly of
+medicinal herbs and clean water. Sick or injured members of the tribe
+are brought here to be tended to by the druids and shaman.
+~
+#EXIT
+Direction north~
+ToRoom    15050
+Desc      The eastern walk of the rise.
+~
+#ENDEXIT
+Reset O 0 15029 1 15057
+#ENDROOM
+
+#ROOM
+Vnum     15058
+Name     &GThe Spirit Lodge&d~
+Sector   inside~
+Flags    indoors~
+Desc     This tent is adorned with countless dreamcatchers and wind chimes. It
+is the dwelling of the Spirit Walkers, those tauren who have completely
+dedicated their lives to crossing the veil between the living and the dead.
+~
+#EXIT
+Direction east~
+ToRoom    15049
+Desc      The northern overlook.
+~
+#ENDEXIT
+Reset M 0 15023 1 15058
+  Reset E 1 15024 10 17
+Reset O 0 15025 3 15058
+#ENDROOM
+
+#ROOM
+Vnum     15059
+Name     &GQuiet Clearing&d~
+Sector   city~
+Desc     A small, unremarkable clearing of grass near the northern edge. It is
+quiet and out of the way, offering a private place to rest away from
+the chanting of the main square.
+~
+#EXIT
+Direction west~
+ToRoom    15049
+Desc      The northern overlook.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15060
+Name     &GElder Rise - Bridge Landing&d~
+Sector   city~
+Desc     You step off the massive rope bridge onto Elder Rise. The atmosphere
+is incredibly calm. Gentle drumming echoes from the center of the
+mesa, and the smell of burning sage purifies the air.
+~
+#EXIT
+Direction east~
+ToRoom    15061
+Desc      The main walk of the rise.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15019
+Desc      The bridge leading back to the Central Mesa.
+~
+#ENDEXIT
+Reset M 0 15035 2 15060
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15061
+Name     &GElder Rise - Main Walk&d~
+Sector   city~
+Desc     The grassy path splits here, leading through a series of beautifully
+decorated tents. To the north lies the enclave of the city's
+enchanters and tailors. To the east, the path opens up into the
+Ancestral Bonfire.
+~
+#EXIT
+Direction north~
+ToRoom    15064
+Desc      The crafting tents.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15062
+Desc      The glowing Ancestral Bonfire.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15068
+Desc      A path winding toward the southern peak.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15060
+Desc      The bridge landing.
+~
+#ENDEXIT
+Reset M 0 15038 1 15061
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15062
+Name     &GThe Ancestral Bonfire&d~
+Sector   city~
+Desc     A massive, perpetually burning fire pit dominates the center of Elder
+Rise. Tauren gather around the flames at all hours, sharing the history
+of their tribes. The air shimmers with the heat and the faint, glowing
+presence of ancestral spirits.
+~
+#EXIT
+Direction north~
+ToRoom    15063
+Desc      The Tent of the Lorekeepers.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15070
+Desc      The Drummer's Circle.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15073
+Desc      Grandmother's Tent.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15061
+Desc      The main walk.
+~
+#ENDEXIT
+Reset O 0 15039 1 15062
+Reset M 0 15034 1 15062
+#ENDROOM
+
+#ROOM
+Vnum     15063
+Name     &GThe Tent of the Lorekeepers&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls of this tent are painted with the sprawling history of the
+Tauren people, depicting their endless hunt and their battles against
+the centaur. Elder Cloudsong sits here, surrounded by ancient scrolls.
+~
+#EXIT
+Direction south~
+ToRoom    15062
+Desc      The Ancestral Bonfire.
+~
+#ENDEXIT
+Reset M 0 15030 1 15063
+  Reset E 1 15038 10 16
+Reset O 0 15033 2 15063
+#ENDROOM
+
+#ROOM
+Vnum     15064
+Name     &GThe Weaver's Hut&d~
+Sector   inside~
+Flags    indoors~
+Desc     Colorful bolts of cloth and intricate dreamcatchers hang from the ceiling.
+Kitha Earthweaver works the loom here, producing the fine robes and
+garments utilized by the spellcasters of the Horde.
+~
+#EXIT
+Direction east~
+ToRoom    15065
+Desc      The Mystic's Alcove.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15061
+Desc      The main walk of the rise.
+~
+#ENDEXIT
+Reset M 0 15032 1 15064
+Reset O 0 15032 3 15064
+Reset O 0 15035 2 15064
+#ENDROOM
+
+#ROOM
+Vnum     15065
+Name     &GThe Mystic's Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air in this small tent crackles with residual magic. Glowing dust
+covers the workbenches. This is the domain of Thrag Dawnstrider,
+where the art of enchanting is taught to those with the focus to
+manipulate raw essence.
+~
+#EXIT
+Direction west~
+ToRoom    15064
+Desc      The Weaver's Hut.
+~
+#ENDEXIT
+Reset M 0 15031 1 15065
+Reset O 0 15031 4 15065
+#ENDROOM
+
+#ROOM
+Vnum     15066
+Name     &GElder Rise - Southern Overlook&d~
+Sector   city~
+Desc     You stand at the southern edge of the rise. The drop is dizzying, and
+the view stretches out across the golden fields of Bloodhoof Village
+far below.
+~
+#EXIT
+Direction north~
+ToRoom    15068
+Desc      The path winds back toward the center.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15067
+Desc      The Alchemist's Den.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15067
+Name     &GThe Alchemist's Den&d~
+Sector   inside~
+Flags    indoors~
+Desc     Glass vials bubble over small fires, filling the tent with the earthy
+smell of crushed roots and potent herbs. Bena Winterhoof works here,
+instructing initiates in the creation of powerful elixirs.
+~
+#EXIT
+Direction west~
+ToRoom    15066
+Desc      The southern overlook.
+~
+#ENDEXIT
+Reset M 0 15039 1 15067
+#ENDROOM
+
+#ROOM
+Vnum     15068
+Name     &GPath to the Peak&d~
+Sector   city~
+Desc     The ground slopes upward here, leading toward the highest point on
+Elder Rise. The sounds of the bonfire begin to fade, replaced by the
+whistling of the wind.
+~
+#EXIT
+Direction north~
+ToRoom    15061
+Desc      The main walk.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15066
+Desc      The southern overlook.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    15069
+Desc      The highest peak of Elder Rise.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15069
+Name     &GThe Highest Peak&d~
+Sector   city~
+Desc     You stand atop a rocky outcropping that overlooks the entire mesa.
+This isolated spot is often used by the elders when they need absolute
+solitude to commune with the Earthmother.
+~
+#EXIT
+Direction down~
+ToRoom    15068
+Desc      The path back down.
+~
+#ENDEXIT
+Reset M 0 15037 1 15069
+#ENDROOM
+
+#ROOM
+Vnum     15070
+Name     &GDrummer's Circle&d~
+Sector   city~
+Desc     Several large, ceremonial drums are set up in a circle here. A dedicated
+tauren drummer beats a slow, rhythmic pulse that provides the heartbeat
+for all of Thunder Bluff. It is a deeply calming sound.
+~
+#EXIT
+Direction north~
+ToRoom    15071
+Desc      The Spirit Walk.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15062
+Desc      The Ancestral Bonfire.
+~
+#ENDEXIT
+Reset M 0 15033 1 15070
+Reset O 0 15030 1 15070
+#ENDROOM
+
+#ROOM
+Vnum     15071
+Name     &GThe Spirit Walk&d~
+Sector   city~
+Desc     The grass here is lush and untrampled. Translucent ancestral spirits
+often drift along this path, checking on the descendants they left
+behind. The air is cool and smells of rain.
+~
+#EXIT
+Direction east~
+ToRoom    15072
+Desc      The Monument to the Fallen.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15070
+Desc      The Drummer's Circle.
+~
+#ENDEXIT
+Reset M 0 15034 2 15071
+#ENDROOM
+
+#ROOM
+Vnum     15072
+Name     &GMonument to the Fallen&d~
+Sector   city~
+Desc     A grand, incredibly old totem stands here, carved with the names of
+every tribe that was lost to the centaur wars before the Horde arrived.
+It is a place of profound respect and mourning.
+~
+#EXIT
+Direction west~
+ToRoom    15071
+Desc      The Spirit Walk.
+~
+#ENDEXIT
+Reset O 0 15036 1 15072
+#ENDROOM
+
+#ROOM
+Vnum     15073
+Name     &GGrandmother's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     This tent feels like a home. It is warm, smells of herbal tea, and is
+filled with comfortable woven mats. A wise grandmother sits here,
+offering counsel to any who seek her wisdom.
+~
+#EXIT
+Direction north~
+ToRoom    15062
+Desc      The Ancestral Bonfire.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    15074
+Desc      A quiet garden.
+~
+#ENDEXIT
+Reset M 0 15036 1 15073
+Reset O 0 15037 1 15073
+#ENDROOM
+
+#ROOM
+Vnum     15074
+Name     &GThe Quiet Garden&d~
+Sector   field~
+Desc     A beautifully maintained garden of rare Mulgore flowers and herbs.
+It is completely silent here, sheltered from the wind by the
+surrounding tents.
+~
+#EXIT
+Direction east~
+ToRoom    15075
+Desc      The Eagle's Roost.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15073
+Desc      Grandmother's Tent.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15075
+Name     &GEagle's Roost&d~
+Sector   city~
+Desc     The cliff edge here is sheer and highly dangerous. Several massive nests
+have been built into the rock face below, home to the majestic Mulgore
+Eagles that circle the city.
+~
+#EXIT
+Direction south~
+ToRoom    15076
+Desc      The eastern cliff edge.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15074
+Desc      The Quiet Garden.
+~
+#ENDEXIT
+Reset M 0 15037 1 15075
+#ENDROOM
+
+#ROOM
+Vnum     15076
+Name     &GElder Rise - Eastern Cliff&d~
+Sector   city~
+Desc     The easternmost point of Thunder Bluff. The sun rises over the Barrens
+from this vantage point, casting long, golden shadows across the entire
+mesa. It is breathtaking.
+~
+#EXIT
+Direction north~
+ToRoom    15075
+Desc      The Eagle's Roost.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15077
+Desc      A meditation point.
+~
+#ENDEXIT
+Reset M 0 15038 1 15076
+  Reset E 1 15001 10 16
+#ENDROOM
+
+#ROOM
+Vnum     15077
+Name     &GMeditation Point&d~
+Sector   city~
+Desc     A small, isolated patch of grass right on the edge of the cliff. An
+iron incense burner provides a sweet, calming smoke that drifts out
+over the open plains below.
+~
+#EXIT
+Direction north~
+ToRoom    15076
+Desc      The eastern cliff.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    15078
+Desc      The Council Tent.
+~
+#ENDEXIT
+Reset O 0 15034 1 15077
+#ENDROOM
+
+#ROOM
+Vnum     15078
+Name     &GThe Council Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, open tent where the elders of the various tribes meet to
+discuss matters of state before presenting their thoughts to Cairne.
+It is empty at the moment, waiting for the next gathering.
+~
+#EXIT
+Direction east~
+ToRoom    15077
+Desc      The Meditation Point.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    15079
+Desc      The very edge of the mesa.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     15079
+Name     &GEdge of the Mesa&d~
+Sector   city~
+Desc     The path dead-ends here at a sheer drop. The wind is incredibly strong,
+and the view of the winding road leading down to Bloodhoof Village is
+crystal clear from this height.
+~
+#EXIT
+Direction north~
+ToRoom    15078
+Desc      The Council Tent.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

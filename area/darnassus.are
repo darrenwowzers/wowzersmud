@@ -1,0 +1,1247 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Darnassus~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 60 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       11800
+Keywords   sentinel guard darnassus night elf~
+Short      a Darnassus Sentinel~
+Long       A tall Night Elf Sentinel stands guard here, watching the shadows.
+~
+Desc       Clad in traditional, revealing purple and silver armor, this elite
+warrior wields a deadly three-bladed moonglaive. She moves with a fluid,
+lethal grace that only comes from centuries of training.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11801
+Keywords   tyrande whisperwind high priestess boss leader~
+Short      High Priestess Tyrande Whisperwind~
+Long       High Priestess Tyrande Whisperwind radiates the pure light of Elune.
+~
+Desc       The chosen of Elune and the leader of the Night Elves. She is incredibly
+ancient and powerful, possessing both the serene grace of a priestess and
+the lethal instincts of a master huntress.
+~
+Race       elf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 70 0 0 50000 100000
+Stats2     70 70 1500
+Stats3     10 20 40
+Stats4     0 0 0 0 0
+Attribs    20 20 20 20 20 20 20
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11802
+Keywords   fandral staghelm archdruid boss leader~
+Short      Archdruid Fandral Staghelm~
+Long       Archdruid Fandral Staghelm paces here, his brow furrowed in anger.
+~
+Desc       The fiery, abrasive leader of the Cenarion Circle in Malfurion's absence.
+He believes the Night Elves must take aggressive action to secure their
+place in the world, often putting him at odds with Tyrande.
+~
+Race       elf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 68 0 0 40000 80000
+Stats2     68 68 1200
+Stats3     8 15 35
+Stats4     0 0 0 0 0
+Attribs    18 20 18 18 18 18 18
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11803
+Keywords   auctioneer golothas elf~
+Short      Auctioneer Golothas~
+Long       Auctioneer Golothas organizes bids with a quiet, calm efficiency.
+~
+Desc       Unlike the loud, chaotic auctioneers of Stormwind and Orgrimmar,
+Golothas handles trade in Darnassus with whispered negotiations and
+precise bookkeeping.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11804
+Keywords   banker ulthir guard elf~
+Short      Banker Ulthir~
+Long       Banker Ulthir stands carefully before the vault of the ancients.
+~
+Desc       Tasked with protecting the wealth of the Kaldorei, Ulthir relies on
+ancient wards and his own martial prowess to keep thieves at bay.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11805
+Keywords   innkeeper saelienne elf~
+Short      Innkeeper Saelienne~
+Long       Innkeeper Saelienne offers a warm smile and a place to rest.
+~
+Desc       She ensures that visitors to the Terrace of Craftsmen have a peaceful
+place to lay their heads after a long day of travel.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11806
+Keywords   darnassian nightsaber mount cat~
+Short      a Darnassian Nightsaber~
+Long       A sleek, muscular Nightsaber prowls quietly here.~
+Desc       The favored mount of the Night Elves. These massive, intelligent felines
+move completely silently through the forests of Teldrassil.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1000 4000
+Stats2     40 40 400
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    18 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11807
+Keywords   erion shadewhisper hunter trainer elf~
+Short      Erion Shadewhisper~
+Long       Erion Shadewhisper carefully examines the fletching on an arrow.
+~
+Desc       A master of the hunt. He trains initiates in the art of survival, tracking,
+and the mastery of the beasts that roam the forests.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11808
+Keywords   syurna rogue trainer elf~
+Short      Syurna~
+Long       Syurna blends almost perfectly into the surrounding shadows.
+~
+Desc       A lethal assassin who trains the rogues of Darnassus. She teaches them
+to move unseen, strike without warning, and utilize deadly poisons.
+~
+Race       elf~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11809
+Keywords   astarii starseeker priest trainer elf~
+Short      Astarii Starseeker~
+Long       Astarii Starseeker glows with the soft, healing light of Elune.
+~
+Desc       A high-ranking priestess of the moon. She instructs her acolytes on how
+to channel the grace of the Goddess to mend flesh and smite the wicked.
+~
+Race       elf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11810
+Keywords   mathrengyl bearwalker druid trainer elf~
+Short      Mathrengyl Bearwalker~
+Long       Mathrengyl Bearwalker sleeps peacefully in bear form here.
+~
+Desc       This ancient druid spends most of his time asleep in the Emerald Dream.
+When awake, he teaches shapeshifting and natural magic to young druids.
+~
+Race       elf~
+Class      cleric~
+Position   sleeping~
+DefPos     sleeping~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2500 12000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11811
+Keywords   darnath bladesinger warrior trainer elf~
+Short      Darnath Bladesinger~
+Long       Darnath Bladesinger performs a flawless combat kata.
+~
+Desc       A master of the blade. He trains the Sentinels and warriors of the city,
+focusing on agility, perfect balance, and overwhelming flurries of strikes.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2500 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11812
+Keywords   hippogryph master flight elf~
+Short      the Hippogryph Master~
+Long       The Hippogryph Master feeds a large piece of fish to a waiting mount.
+~
+Desc       Responsible for the aerial transport out of the massive tree of Teldrassil.
+He communicates with his winged beasts using clicks and whistles.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11813
+Keywords   wisp glowing spirit ambient~
+Short      a glowing Wisp~
+Long       A glowing Wisp darts playfully through the air.~
+Desc       The spirit of a deceased Night Elf, bonded to the forest. They maintain
+the great trees and buildings of the city using ancient nature magic.
+~
+Race       elf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 10 0 0 100 200
+Stats2     10 10 100
+Stats3     1 5 5
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11814
+Keywords   ancient war tree treant guard~
+Short      an Ancient of War~
+Long       A massive Ancient of War stands rooted here, watching over the city.
+~
+Desc       An enormous, sentient tree heavily scarred from ancient battles. It
+protects Darnassus with crushing physical force and teaches young warriors
+the patience of the forest.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 65 0 0 8000 30000
+Stats2     65 65 800
+Stats3     8 15 35
+Stats4     0 0 0 0 0
+Attribs    20 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11800
+Keywords sentinel glaive weapon three-bladed~
+Type     weapon~
+Short    a three-bladed Sentinel Glaive~
+Long     A razor-sharp, circular moonglaive rests on the ground.~
+WFlags   take wield~
+Values   0 12 18 3 0 0
+Stats    15 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11801
+Keywords nightsaber saddle leather light~
+Type     armor~
+Short    a light Nightsaber saddle~
+Long     A perfectly crafted, lightweight leather saddle has been left here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    8 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11802
+Keywords priestess robes white silver moon~
+Type     armor~
+Short    white Priestess Robes~
+Long     A flowing set of white and silver silk robes lies here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    2 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11803
+Keywords darnassus tabard purple tree~
+Type     armor~
+Short    a Darnassus tabard~
+Long     A purple tabard bearing the World Tree crest rests here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11804
+Keywords moonwell water vial potion healing~
+Type     potion~
+Short    a vial of Moonwell Water~
+Long     A glass vial filled with glowing, restorative Moonwell water sits here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 150 15 0 0
+Spells   'heal' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11805
+Keywords moonberry juice drink purple~
+Type     drinkcon~
+Short    a flask of Moonberry Juice~
+Long     A flask filled with sweet, highly restorative purple juice is here.~
+WFlags   take hold~
+Values   15 15 1 0 0 0
+Stats    2 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11806
+Keywords teldrassil apple food red fruit~
+Type     food~
+Short    a ripe Teldrassil Apple~
+Long     A massive, perfectly red apple fallen from the World Tree rests here.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11807
+Keywords sentinel bow recurve yew weapon~
+Type     weapon~
+Short    a Sentinel's Recurve Bow~
+Long     A beautifully carved recurve bow strung with strong sinew lies here.~
+WFlags   take wield~
+Values   0 10 15 4 0 0
+Stats    10 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11808
+Keywords druidic staff claw wooden~
+Type     staff~
+Short    the Staff of the Claw~
+Long     A heavy wooden staff carved to resemble a bear's paw rests here.~
+WFlags   take wield~
+Values   0 12 18 11 0 0
+Stats    12 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11809
+Keywords strongbox ancient bank container~
+Type     container~
+Short    an ancient root strongbox~
+Long     A heavy container made of living roots is secured to the floor.~
+WFlags   none~
+Values   500 13 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11810
+Keywords hippogryph feather glowing treasure~
+Type     treasure~
+Short    a glowing Hippogryph feather~
+Long     A long, brightly colored feather crackling with natural magic is here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11811
+Keywords woven ivy ring green armor~
+Type     armor~
+Short    a woven Ivy Ring~
+Long     A small ring made of intertwined, living ivy vines rests in the grass.~
+WFlags   take finger~
+Values   2 0 0 0 0 0
+Stats    1 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11812
+Keywords ceremonial moon headdress silver armor~
+Type     armor~
+Short    a Ceremonial Moon Headdress~
+Long     A silver circlet topped with a glowing crescent moon lies here.~
+WFlags   take head~
+Values   4 0 0 0 0 0
+Stats    3 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11813
+Keywords moonblade dagger rogue sharp curved~
+Type     weapon~
+Short    a curved Moonblade Dagger~
+Long     A wickedly sharp dagger that curves like a crescent moon is here.~
+WFlags   take wield~
+Values   0 8 14 11 0 0
+Stats    5 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11814
+Keywords ancient bark shield heavy wooden armor~
+Type     armor~
+Short    an Ancient Bark Shield~
+Long     A massive, nearly unbreakable shield made of Teldrassil bark rests here.~
+WFlags   take shield~
+Values   12 0 0 0 0 0
+Stats    15 1000 100 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     11800
+Name     &CThe City Gates of Darnassus&d~
+Sector   city~
+Desc     You stand before the majestic, open-air gates of the Kaldorei capital.
+The architecture is seamlessly blended with the towering, ancient trees
+of Teldrassil. The air here is cool, still, and smells of blooming
+moonweeds. To the north lies the heart of the city.
+~
+#EXIT
+Direction north~
+ToRoom    11801
+Desc      A pristine marble bridge leads into the city.
+~
+#ENDEXIT
+Reset M 0 11800 2 11800
+  Reset E 1 11800 10 16
+  Reset E 1 11803 10 5
+#ENDROOM
+
+#ROOM
+Vnum     11801
+Name     &CThe Tradesmen's Terrace - Entrance&d~
+Sector   city~
+Desc     The bridge from the gates opens up into a serene, circular terrace
+built over a crystal-clear lake. Glowing wisps dart among the branches
+above. To the east is the city's Bank, and to the west is the Auction
+House.
+~
+#EXIT
+Direction north~
+ToRoom    11804
+Desc      The path winds toward the Craftsmen's Terrace.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11803
+Desc      The Darnassus Bank.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11800
+Desc      The city gates.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11802
+Desc      The Darnassus Auction House.
+~
+#ENDEXIT
+Reset M 0 11813 3 11801
+#ENDROOM
+
+#ROOM
+Vnum     11802
+Name     &CThe Darnassus Auction House&d~
+Sector   inside~
+Flags    indoors~
+Desc     Unlike the chaotic trading floors of the other capitals, the auction
+house of Darnassus operates in hushed, polite tones. Night elves and
+visiting Alliance members quietly inspect magical goods and rare herbs
+under the soft light of the moon.
+~
+#EXIT
+Direction east~
+ToRoom    11801
+Desc      The Tradesmen's Terrace.
+~
+#ENDEXIT
+Reset M 0 11803 1 11802
+#ENDROOM
+
+#ROOM
+Vnum     11803
+Name     &CThe Darnassus Bank&d~
+Sector   inside~
+Flags    indoors~
+Desc     This grand structure is carved directly out of the living wood of an
+immense ancient tree. Roots naturally form secure vaults and lockboxes.
+Banker Ulthir stands watch, relying on ancient magic to secure the
+treasures within.
+~
+#EXIT
+Direction west~
+ToRoom    11801
+Desc      The Tradesmen's Terrace.
+~
+#ENDEXIT
+Reset M 0 11804 1 11803
+  Reset E 1 11800 10 16
+Reset O 0 11809 3 11803
+#ENDROOM
+
+#ROOM
+Vnum     11804
+Name     &CThe Craftsmen's Terrace&d~
+Sector   city~
+Desc     This terrace is dedicated to the peaceful arts. The sounds of gentle
+hammering and the smell of cooking food fill the air. To the north
+lies a welcoming inn, its hearth glowing warmly through the open arches.
+~
+#EXIT
+Direction north~
+ToRoom    11805
+Desc      The local Inn.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11806
+Desc      A path over a bubbling stream.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11801
+Desc      The Tradesmen's Terrace.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11807
+Desc      The Warrior's Terrace.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11805
+Name     &CDarnassus Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     The inn is open and airy, built entirely of polished wood without a
+single nail. Soft, moss-covered beds provide incredible comfort to weary
+travelers. Innkeeper Saelienne hums a quiet elven tune as she works.
+~
+#EXIT
+Direction south~
+ToRoom    11804
+Desc      The Craftsmen's Terrace.
+~
+#ENDEXIT
+Reset M 0 11805 1 11805
+Reset O 0 11805 2 11805
+Reset O 0 11806 3 11805
+#ENDROOM
+
+#ROOM
+Vnum     11806
+Name     &CBridge to the Temple&d~
+Sector   city~
+Desc     An elegant, arching bridge spans the tranquil waters of the city's
+central lake. To the east, the awe-inspiring architecture of the
+Temple of the Moon begins to rise above the treeline.
+~
+#EXIT
+Direction east~
+ToRoom    11812
+Desc      The Temple Gardens.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11804
+Desc      The Craftsmen's Terrace.
+~
+#ENDEXIT
+Reset M 0 11813 3 11806
+#ENDROOM
+
+#ROOM
+Vnum     11807
+Name     &CThe Warrior's Terrace - Entrance&d~
+Sector   city~
+Desc     The serene atmosphere of the city is contrasted here by the sharp sound
+of clashing steel and the roar of tamed beasts. This district is where
+the Sentinels and hunters of Darnassus hone their lethal skills.
+~
+#EXIT
+Direction north~
+ToRoom    11808
+Desc      The Hunter's Enclave.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11804
+Desc      The Craftsmen's Terrace.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11810
+Desc      The training rings.
+~
+#ENDEXIT
+Reset M 0 11800 2 11807
+  Reset E 1 11800 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11808
+Name     &CHunter's Enclave&d~
+Sector   city~
+Desc     Massive nightsabers rest in the cool grass, watching you with intelligent,
+predatory eyes. Hunters practice their archery on targets set deep into
+the woods.
+~
+#EXIT
+Direction south~
+ToRoom    11807
+Desc      The entrance of the terrace.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11809
+Desc      The tracking grounds.
+~
+#ENDEXIT
+Reset M 0 11806 2 11808
+  Reset E 1 11801 10 3
+#ENDROOM
+
+#ROOM
+Vnum     11809
+Name     &CTracking Grounds&d~
+Sector   field~
+Desc     Erion Shadewhisper stands here, analyzing the footprints left in the
+soft earth. This area is used to teach young night elves how to move
+without leaving a trace and how to survive in the deep wilds.
+~
+#EXIT
+Direction east~
+ToRoom    11808
+Desc      The Hunter's Enclave.
+~
+#ENDEXIT
+Reset M 0 11807 1 11809
+  Reset E 1 11807 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11810
+Name     &CWarrior's Training Ring&d~
+Sector   city~
+Desc     The grass here is worn down from centuries of combat practice. Darnath
+Bladesinger guides initiates through fluid, deadly combat forms, teaching
+them that agility and precision will always overcome brute strength.
+~
+#EXIT
+Direction east~
+ToRoom    11807
+Desc      The entrance of the terrace.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11811
+Desc      A dark, shadowed alcove.
+~
+#ENDEXIT
+Reset M 0 11811 1 11810
+  Reset E 1 11800 10 16
+  Reset E 1 11814 10 11
+#ENDROOM
+
+#ROOM
+Vnum     11811
+Name     &CThe Shadowed Alcove&d~
+Sector   city~
+Flags    dark~
+Desc     The canopy is incredibly thick here, plunging the area into perpetual
+twilight. The rogues of Darnassus train here, mastering the arts of
+stealth, sabotage, and assassination in service to the Goddess.
+~
+#EXIT
+Direction north~
+ToRoom    11810
+Desc      The training ring.
+~
+#ENDEXIT
+Reset M 0 11808 1 11811
+  Reset E 1 11813 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11812
+Name     &CTemple Gardens&d~
+Sector   city~
+Desc     You have crossed the bridge into the holiest district in the city. The
+Temple Gardens are perfectly manicured, glowing with a soft, ethereal
+light that seems to emanate from the plants themselves.
+~
+#EXIT
+Direction east~
+ToRoom    11813
+Desc      The grand steps of the Temple.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11806
+Desc      The bridge back to the city center.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11813
+Name     &CTemple of the Moon - Grand Steps&d~
+Sector   city~
+Desc     A massive flight of marble stairs leads up into the awe-inspiring Temple
+of the Moon. The architecture is breathtaking, completely open to the
+sky to allow the moonlight to bathe the interior at night.
+~
+#EXIT
+Direction up~
+ToRoom    11814
+Desc      The entrance hall of the Temple.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11812
+Desc      The Temple Gardens.
+~
+#ENDEXIT
+Reset M 0 11800 2 11813
+  Reset E 1 11800 10 16
+  Reset E 1 11803 10 5
+#ENDROOM
+
+#ROOM
+Vnum     11814
+Name     &CTemple of the Moon - Entrance Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand within the great Temple. The silence here is profound and deeply
+comforting. The air is perfectly still. To the east lies the central
+moonwell and the High Priestess herself.
+~
+#EXIT
+Direction east~
+ToRoom    11815
+Desc      The heart of the Temple.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11813
+Desc      The grand steps outside.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11815
+Name     &CTemple of the Moon - Central Moonwell&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, perfectly circular pool of glowing, silver water dominates the
+room. This is the great Moonwell of Darnassus. High Priestess Tyrande
+Whisperwind stands before it, bathed in the divine light of Elune.
+~
+#EXIT
+Direction north~
+ToRoom    11817
+Desc      The Priest's Quarters.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11816
+Desc      The eastern balcony.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11814
+Desc      The entrance hall.
+~
+#ENDEXIT
+Reset M 0 11801 1 11815
+  Reset E 1 11802 10 5
+  Reset E 1 11812 10 6
+Reset O 0 11804 1 11815
+#ENDROOM
+
+#ROOM
+Vnum     11816
+Name     &CTemple of the Moon - Eastern Balcony&d~
+Sector   city~
+Desc     This open-air balcony provides a stunning view of the vast, mystical
+forests of Teldrassil. The wind sighs softly through the marble pillars,
+carrying the scent of pine.
+~
+#EXIT
+Direction west~
+ToRoom    11815
+Desc      The central moonwell.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11817
+Name     &CPriest's Quarters&d~
+Sector   inside~
+Flags    indoors~
+Desc     The acolytes and priestesses of Elune study ancient scrolls and practice
+their healing prayers here. The atmosphere is one of absolute devotion
+and unwavering faith in the Goddess.
+~
+#EXIT
+Direction south~
+ToRoom    11815
+Desc      The central moonwell.
+~
+#ENDEXIT
+Reset M 0 11809 1 11817
+  Reset E 1 11802 10 5
+#ENDROOM
+
+#ROOM
+Vnum     11818
+Name     &CThe Northern Bridges&d~
+Sector   city~
+Desc     You leave the Craftsmen's Terrace and head north over a series of elegant
+wooden bridges that span the city's waterways. The magic in the air grows
+wilder and more untamed as you approach the Cenarion Enclave.
+~
+#EXIT
+Direction north~
+ToRoom    11819
+Desc      The Cenarion Enclave entrance.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11804
+Desc      The Craftsmen's Terrace.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11819
+Name     &GCenarion Enclave - Entrance&d~
+Sector   city~
+Desc     The pristine marble of the city gives way entirely to untamed, vibrant
+nature. The Cenarion Enclave is the domain of the druids, a lush,
+overgrown sanctuary of ancient trees, deep moss, and powerful earth magic.
+~
+#EXIT
+Direction north~
+ToRoom    11820
+Desc      The heart of the enclave.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11818
+Desc      The bridges back to the city.
+~
+#ENDEXIT
+Reset M 0 11813 3 11819
+#ENDROOM
+
+#ROOM
+Vnum     11820
+Name     &GCenarion Enclave - The Great Tree&d~
+Sector   city~
+Desc     An impossibly massive tree towers above you, its roots forming natural
+pathways and dwellings. Druids in various animal forms wander peacefully
+through the brush.
+~
+#EXIT
+Direction north~
+ToRoom    11821
+Desc      The druidic training grounds.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11824
+Desc      A path winding around the roots.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11819
+Desc      The enclave entrance.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11825
+Desc      The protector's grove.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11821
+Name     &GDruidic Training Grounds&d~
+Sector   field~
+Desc     The grass here is thick and soft. Initiates practice their shapeshifting,
+learning to command the forms of the bear, the cat, and the aquatic
+creatures of the world.
+~
+#EXIT
+Direction east~
+ToRoom    11822
+Desc      The Archdruid's Rise.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11820
+Desc      The Great Tree.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11823
+Desc      The Sleeping Den.
+~
+#ENDEXIT
+Reset O 0 11811 1 11821
+#ENDROOM
+
+#ROOM
+Vnum     11822
+Name     &GArchdruid's Rise&d~
+Sector   city~
+Desc     A raised platform of living wood. Archdruid Fandral Staghelm paces here,
+his expression severe. He commands the Cenarion Circle with an iron fist,
+believing that the druids must take a more active, militant role.
+~
+#EXIT
+Direction west~
+ToRoom    11821
+Desc      The training grounds.
+~
+#ENDEXIT
+Reset M 0 11802 1 11822
+  Reset E 1 11808 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11823
+Name     &GThe Sleeping Den&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark, quiet hollow carved into the roots of a giant oak. Several druids
+slumber deeply here, their spirits wandering the vast, untouched wilds
+of the Emerald Dream.
+~
+#EXIT
+Direction east~
+ToRoom    11821
+Desc      The training grounds.
+~
+#ENDEXIT
+Reset M 0 11810 1 11823
+#ENDROOM
+
+#ROOM
+Vnum     11824
+Name     &GPath of Roots&d~
+Sector   city~
+Desc     The pathway here is formed entirely by the massive, interwoven roots of
+the great trees. Small, glowing flowers bloom wherever you step, a sign
+of the deep natural magic permeating the enclave.
+~
+#EXIT
+Direction west~
+ToRoom    11820
+Desc      The Great Tree.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11825
+Name     &GProtector's Grove&d~
+Sector   city~
+Desc     The trees here seem to watch you. Suddenly, one of the massive oaks shifts
+its weight, revealing itself to be an Ancient of War. These colossal,
+sentient trees guard the enclave from any who would harm the forest.
+~
+#EXIT
+Direction east~
+ToRoom    11820
+Desc      The Great Tree.
+~
+#ENDEXIT
+Reset M 0 11814 1 11825
+  Reset E 1 11814 10 11
+#ENDROOM
+
+#ROOM
+Vnum     11826
+Name     &CPath to the Roost&d~
+Sector   city~
+Desc     Leaving the enclave behind, this path slopes upward, winding its way
+toward the highest branches of Darnassus. The air grows thinner, and
+the squawks of large, winged beasts echo from above.
+~
+#EXIT
+Direction north~
+ToRoom    11827
+Desc      The base of the roost.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11819
+Desc      The Cenarion Enclave entrance.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11827
+Name     &CBase of the Hippogryph Roost&d~
+Sector   city~
+Desc     You stand at the base of a towering wooden ramp that spirals upward into
+the canopy. Feathers and scratches in the wood mark the frequent passage
+of the city's favored flying mounts.
+~
+#EXIT
+Direction up~
+ToRoom    11828
+Desc      Ascend to the roost.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11826
+Desc      The path back down.
+~
+#ENDEXIT
+Reset O 0 11810 2 11827
+#ENDROOM
+
+#ROOM
+Vnum     11828
+Name     &CDarnassus Hippogryph Roost&d~
+Sector   city~
+Desc     You are high above the city, standing on a wide wooden platform built into
+the upper branches of a massive tree. Several majestic Hippogryphs rest
+here. From this vantage point, you can see the edge of the world tree,
+Teldrassil, dropping off into the ocean.
+~
+#EXIT
+Direction down~
+ToRoom    11827
+Desc      The ramp down.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11829
+Desc      A small observation deck.
+~
+#ENDEXIT
+Reset M 0 11812 1 11828
+#ENDROOM
+
+#ROOM
+Vnum     11829
+Name     &CObservation Deck&d~
+Sector   city~
+Desc     A small, quiet deck extending out from the main roost. It offers an
+unparalleled, unobstructed view of the stars and the moon. Many Night
+Elves come here simply to marvel at the beauty of Elune's light.
+~
+#EXIT
+Direction west~
+ToRoom    11828
+Desc      The main roost.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
+

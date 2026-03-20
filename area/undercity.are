@@ -1,0 +1,2532 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Undercity~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 50 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       11600
+Keywords   guardian undercity dread guard~
+Short      an Undercity Guardian~
+Long       A skeletal Dread Guard stands motionless, eyes glowing with cold spite.
+~
+Desc       Clad in heavy, tarnished plate armor and bearing the crest of the
+Forsaken, this undead warrior serves Sylvanas with a loyalty that
+transcends death. He does not breathe, he does not tire.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11601
+Keywords   banker ophelia forsaken~
+Short      Banker Ophelia~
+Long       Banker Ophelia stares blankly at a stack of moldy ledgers.
+~
+Desc       Ophelia manages the coin of the dead. She is efficient, cold, and
+entirely uninterested in small talk. Her skin is pulled tight over
+her cheekbones, giving her a permanent, skeletal grin.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11602
+Keywords   apothecary lydon alchemy trainer~
+Short      Apothecary Lydon~
+Long       Apothecary Lydon distills a thick, bubbling purple liquid.
+~
+Desc       A high-ranking member of the Royal Apothecary Society. Lydon is
+obsessed with creating a plague that will wipe out the Scourge and
+the living alike. He smells of rot and strong chemicals.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11603
+Keywords   abomination bile spewer~
+Short      a Bile Spewer~
+Long       A massive, stitched-together Abomination lumbers past.
+~
+Desc       A horrific construct of multiple corpses, held together by iron
+staples and dark magic. It moans a low, wet sound, and a trail of
+foul-smelling bile drips from its many mouths.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 5000 15000
+Stats2     60 60 600
+Stats3     6 10 25
+Stats4     0 0 0 0 0
+Attribs    20 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11604
+Keywords   bat mount plague~
+Short      a Plague Bat~
+Long       A giant, leathery Plague Bat hangs from a rusted iron ring.
+~
+Desc       The primary flight mount for the Forsaken. Its fur is patchy and
+its wings are torn, but it flies with a swift, silent lethality.
+Its red eyes track your movement hungrily.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1000 4000
+Stats2     40 40 400
+Stats3     4 8 15
+Stats4     0 0 0 0 0
+Attribs    16 13 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11605
+Keywords   cockroach vendor jeremiah~
+Short      Jeremiah Payson~
+Long       Jeremiah Payson sits in the dust, selling cockroaches.
+~
+Desc       "Need a friend? Or a snack?" Jeremiah is a disheveled Forsaken
+who seems to have lost his mind along with his pulse. He carries
+several jars of twitching insects.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 30 0 0 500 2000
+Stats2     30 30 300
+Stats3     3 6 10
+Stats4     0 0 0 0 0
+Attribs    10 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11606
+Keywords   shadow priest trainer sarvis~
+Short      Father Sarvis~
+Long       Father Sarvis offers a dark blessing to the newly risen.
+~
+Desc       Once a priest of the Holy Light, Sarvis now guides the Forsaken
+through the philosophy of the Shadow. He is somber, his voice a
+dry rasp that echoes in the stone chamber.
+~
+Race       undead~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 12000
+Stats2     60 60 800
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11607
+Keywords   ghost lordaeron citizen~
+Short      a ghost of Lordaeron~
+Long       A flickering, translucent ghost wanders the ruins.~
+Desc       A tragic remnant of the fall of the kingdom. The ghost repeats
+mundane tasks from its former life, unaware that its world has
+ended in rot and ruin.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea wimpy~
+Stats1     0 15 0 0 200 800
+Stats2     15 15 150
+Stats3     2 5 5
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11608
+Keywords   blacksmith benton~
+Short      Benton Burgess~
+Long       Benton Burgess repairs a dented breastplate with cold efficiency.
+~
+Desc       A skeletal blacksmith who works with cold iron. He doesn't use
+a forge to heat his metal; he hammers the iron while it is frozen,
+strengthening it with necro-magic.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7500
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11609
+Keywords   auctioneer yul~
+Short      Auctioneer Yul~
+Long       Auctioneer Yul drones out bids in a monotone voice.
+~
+Desc       Yul manages the commerce of the Undercity. He moves with a
+stiff, mechanical precision, cataloging the items of the dead
+for the highest bidder.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11610
+Keywords   bethor iglis mage trainer forsaken~
+Short      Bethor Iglis~
+Long       Bethor Iglis studies a glowing purple crystal floating above his palm.
+~
+Desc       A high-ranking mage of the Forsaken, Bethor's robes are immaculate
+despite the grime of the Undercity. He teaches the arcane arts with a
+cold, calculating precision.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 2500 12000
+Stats2     65 65 650
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11611
+Keywords   anastasia ashford mage trainer~
+Short      Anastasia Ashford~
+Long       Anastasia Ashford whispers an incantation, freezing the air around her.
+~
+Desc       Anastasia specializes in the frost magic that comes so naturally to the
+undead. Her eyes glow with a chilling blue light, and her skin is covered
+in a fine layer of frost.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11612
+Keywords   maximillion warlock trainer~
+Short      Maximillion~
+Long       Maximillion reads from a heavy, skin-bound tome of demonology.
+~
+Desc       The warlocks of the Undercity operate openly, their dark magic welcomed
+by Sylvanas. Maximillion is a master of binding demons to his will, his
+voice dripping with dark authority.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11613
+Keywords   succubus demon minion summoned~
+Short      a summoned Succubus~
+Long       A leather-clad Succubus cracks a glowing whip with a wicked smile.
+~
+Desc       Summoned from the Twisting Nether, this demon serves her warlock master
+with a dangerous, seductive loyalty. Her hooves click sharply against
+the stone floor.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common demonic~
+Speaking   demonic~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11614
+Keywords   guard magic quarter mage undercity~
+Short      a Magic Quarter Guard~
+Long       An armored Forsaken guard keeps watch over the volatile magic users.
+~
+Desc       These guards are specifically trained to resist arcane and shadow magic,
+ensuring that rogue experiments do not destroy the quarter.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1800 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11615
+Keywords   bragor bloodfist warrior trainer orc~
+Short      Bragor Bloodfist~
+Long       Bragor Bloodfist sharpens a massive axe, looking out of place here.
+~
+Desc       An emissary from Orgrimmar, Bragor was sent to train the Forsaken in
+the brutal, straightforward melee combat favored by the Horde. He seems
+highly uncomfortable in the damp, undead city.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2500 12000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11616
+Keywords   miles faraday rogue trainer~
+Short      Miles Faraday~
+Long       Miles Faraday flips a poisoned dagger from hand to hand flawlessly.
+~
+Desc       The War Quarter is home to the Deathstalkers, the elite assassins of
+the Forsaken. Miles trains initiates how to strike from the shadows and
+vanish without a trace.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11617
+Keywords   deathguard elite war quarter guard~
+Short      a Deathguard Elite~
+Long       A Deathguard Elite heavily patrols the War Quarter.
+~
+Desc       Wearing heavy, spiked plate armor and carrying a massive shield, this
+guard is the first line of defense if the Undercity is ever besieged.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 2200 9000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11618
+Keywords   archibald kava reagents vendor~
+Short      Archibald Kava~
+Long       Archibald Kava organizes a shelf of strange, glowing powders.
+~
+Desc       A merchant specializing in the bizarre and highly illegal reagents required
+by the warlocks and mages of the city. He has a very loose definition of
+the word 'safe'.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11619
+Keywords   dummy training scorched wood~
+Short      a scorched training dummy~
+Long       A heavily scorched and battered training dummy stands here.~
+Desc       Built of rotting wood and stuffed with straw, this dummy has been burned,
+frozen, and slashed thousands of times by initiates of the War Quarter.
+~
+Race       golem~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 30000 30000
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11620
+Keywords   lady sylvanas windrunner banshee queen~
+Short      Lady Sylvanas Windrunner~
+Long       Lady Sylvanas Windrunner, the Banshee Queen, stands in silent fury.
+~
+Desc       The undisputed ruler of the Forsaken. Her skin is a pale, ghostly blue,
+and she wears dark, elegant ranger armor. Her crimson eyes pierce right
+through you. She emanates an aura of absolute, terrifying command.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 70 0 0 50000 100000
+Stats2     70 70 1500
+Stats3     10 20 40
+Stats4     0 0 0 0 0
+Attribs    20 20 20 20 20 20 20
+Saves      0 0 0 0 0
+Speaks     common gutterspeak thalassian~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11621
+Keywords   varimathras dreadlord demon~
+Short      Varimathras~
+Long       The massive dreadlord Varimathras watches the room with a cunning smirk.
+~
+Desc       A towering Nathrezim demon who surrendered to Sylvanas to save his own
+life. He has massive, leathery wings and wears heavy spiked armor. You
+get the distinct feeling he is always plotting a betrayal.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 68 0 0 40000 80000
+Stats2     68 68 1200
+Stats3     8 15 35
+Stats4     0 0 0 0 0
+Attribs    20 18 18 18 18 18 18
+Saves      0 0 0 0 0
+Speaks     common demonic~
+Speaking   demonic~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11622
+Keywords   royal dreadguard elite guard~
+Short      a Royal Dreadguard~
+Long       A hulking Royal Dreadguard stands at perfect, unblinking attention.
+~
+Desc       These are the finest, most heavily armored undead warriors in Sylvanas'
+army. They feel no pain, no fear, and have absolutely no mercy for
+interlopers in the Royal Quarter.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 65 0 0 5000 20000
+Stats2     65 65 800
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    20 15 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11623
+Keywords   dark ranger elite archer female~
+Short      a Dark Ranger~
+Long       A Dark Ranger watches from the shadows, her bow already drawn.
+~
+Desc       Former high elf rangers who fell alongside Sylvanas when Arthas razed
+Quel'Thalas. They have been raised into undeath, retaining their lethal
+accuracy and deep hatred for the living.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 62 0 0 3000 15000
+Stats2     62 62 700
+Stats3     5 15 28
+Stats4     0 0 0 0 0
+Attribs    15 20 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common gutterspeak thalassian~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11624
+Keywords   banshee handmaiden ghost spirit~
+Short      a Banshee Handmaiden~
+Long       A wailing Banshee Handmaiden hovers slightly above the stone floor.
+~
+Desc       An incorporeal spirit of a murdered elf. She serves the Dark Lady
+as an attendant and a spy, capable of slipping through walls and
+screaming loud enough to shatter bone.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11625
+Keywords   master apothecary faranell~
+Short      Master Apothecary Faranell~
+Long       Master Apothecary Faranell inspects a gruesome anatomical chart.
+~
+Desc       The brilliant and entirely sociopathic leader of the Royal Apothecary
+Society. He reports directly to Sylvanas, updating her on the progress
+of the new Blight.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 4000 18000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    13 15 18 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11626
+Keywords   captive human prisoner scarlets~
+Short      a Captive Human~
+Long       A captive human from the Scarlet Crusade cowers in the corner.
+~
+Desc       Captured during a skirmish in Tirisfal Glades, this prisoner is awaiting
+a terrible fate in the Royal Dungeons. They look malnourished and
+completely terrified.
+~
+Race       human~
+Class      warrior~
+Position   resting~
+DefPos     resting~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 100 200
+Stats2     10 10 100
+Stats3     1 5 2
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11627
+Keywords   forsaken messenger courier~
+Short      a Forsaken Messenger~
+Long       A Forsaken Messenger runs past, carrying a sealed black scroll.
+~
+Desc       This courier is tasked with running orders from the Royal Quarter out
+to the various outposts in Lordaeron. He moves with urgent, jerky steps.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea wimpy~
+Stats1     0 40 0 0 800 3000
+Stats2     40 40 400
+Stats3     4 8 15
+Stats4     0 0 0 0 0
+Attribs    15 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11628
+Keywords   high executor darthalia~
+Short      High Executor Darthalia~
+Long       High Executor Darthalia traces a path on a map of the Plaguelands.
+~
+Desc       A senior tactical commander of the Forsaken military, Darthalia coordinates
+the front-line war against both the Scourge and the Scarlet Crusade from
+within the safety of the Royal Quarter.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2500 12000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11629
+Keywords   royal vault keeper forsaken~
+Short      the Royal Vault Keeper~
+Long       The Royal Vault Keeper stands rigidly before a massive iron door.
+~
+Desc       Entrusted with the most dangerous artifacts recovered by the Forsaken,
+this skeletal guardian has no tongue and cannot be bribed, intimidated,
+or reasoned with.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 3000 15000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11600
+Keywords sword lordaeron rusted~
+Type     weapon~
+Short    a rusted Lordaeron longsword~
+Long     A notched and rusted longsword from a fallen kingdom lies here.~
+WFlags   take wield~
+Values   0 8 12 3 0 0
+Stats    8 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11601
+Keywords potion blight green vial~
+Type     potion~
+Short    a vial of the New Blight~
+Long     A vial filled with a swirling, neon-green liquid glows faintly.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 500 50 0 0
+Spells   'poison' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11602
+Keywords cockroach jar glass~
+Type     food~
+Short    a jar of twitching cockroaches~
+Long     A glass jar filled with live, scuttling cockroaches sits here.~
+WFlags   take hold~
+Values   5 5 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11603
+Keywords shield iron cold skull~
+Type     armor~
+Short    a cold iron skull shield~
+Long     A heavy iron shield embossed with a screaming skull lies here.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    15 1200 120 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11604
+Keywords robe shadow silk dark~
+Type     armor~
+Short    dark shadow robes~
+Long     A set of tattered, dark silk robes rests on the stone.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    2 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11605
+Keywords coin lordaeron gold tarnished~
+Type     treasure~
+Short    a tarnished Lordaeron gold coin~
+Long     A single gold coin from the old kingdom lies in the dust.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 100 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11606
+Keywords cleaver meat butcher~
+Type     weapon~
+Short    a heavy meat cleaver~
+Long     A massive, blood-stained meat cleaver has been left behind.~
+WFlags   take wield~
+Values   0 10 15 3 0 0
+Stats    12 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11607
+Keywords tabard forsaken purple black~
+Type     armor~
+Short    a Forsaken tabard~
+Long     A purple and black tabard with the mask of Sylvanas is here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11608
+Keywords key iron undercity gates~
+Type     key~
+Short    an iron Undercity key~
+Long     A heavy iron key with a rusted ring lies on the floor.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11609
+Keywords coffin wood empty~
+Type     furniture~
+Short    an empty wooden coffin~
+Long     An open wooden coffin lined with tattered silk sits in the corner.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11610
+Keywords orb shadow glowing dark~
+Type     light~
+Short    a glowing shadow orb~
+Long     A glass orb swirling with dark, purple shadows sits here.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11611
+Keywords wand frost tipped ice crystal~
+Type     wand~
+Short    a frost-tipped wand~
+Long     A polished bone wand tipped with a never-melting ice crystal lies here.~
+WFlags   take hold~
+Values   15 5 5 5 0 0
+Stats    2 300 30 0 0
+Spells   'chill touch'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11612
+Keywords grimoire binding dark demonology~
+Type     treasure~
+Short    a Grimoire of Dark Binding~
+Long     A thick, heavy book bound in questionable leather rests on the floor.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11613
+Keywords robe mageweave purple dark~
+Type     armor~
+Short    dark mageweave robes~
+Long     A folded set of high-quality dark mageweave robes has been left here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    2 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11614
+Keywords dagger assassin jagged poisoned~
+Type     weapon~
+Short    a jagged assassin's dagger~
+Long     A wicked dagger with a dark, venomous stain on the blade lies here.~
+WFlags   take wield~
+Values   0 8 14 11 0 0
+Stats    4 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11615
+Keywords broadsword dark iron heavy~
+Type     weapon~
+Short    a heavy dark iron broadsword~
+Long     A brutally heavy broadsword forged from dark iron rests in the dirt.~
+WFlags   take wield~
+Values   0 12 18 3 0 0
+Stats    15 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11616
+Keywords spaulders steel black spiked~
+Type     armor~
+Short    black steel spaulders~
+Long     A pair of spiked black steel shoulder guards have been dropped here.~
+WFlags   take shoulders~
+Values   8 0 0 0 0 0
+Stats    10 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11617
+Keywords vial poison blinding rogue~
+Type     potion~
+Short    a vial of blinding poison~
+Long     A small glass vial filled with a powdery, stinging substance sits here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 150 15 0 0
+Spells   'blindness' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11618
+Keywords shield kite deathguard tall~
+Type     armor~
+Short    a tall Deathguard's kite shield~
+Long     A massive, tower-like kite shield bearing the Forsaken crest is here.~
+WFlags   take shield~
+Values   12 0 0 0 0 0
+Stats    18 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11619
+Keywords ring silver runed magic~
+Type     treasure~
+Short    a runed silver ring~
+Long     A tarnished silver ring inscribed with arcane runes sparkles faintly.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11620
+Keywords black arrow sylvanas dark~
+Type     weapon~
+Short    the Black Arrow~
+Long     A perfectly straight arrow radiating dark, necrotic energy lies here.~
+WFlags   take wield~
+Values   0 20 30 4 0 0
+Stats    25 2000 200 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11621
+Keywords dreadlord blade varimathras heavy sword~
+Type     weapon~
+Short    a massive Dreadlord's blade~
+Long     An impossibly heavy, jagged demonic sword has been left here.~
+WFlags   take wield~
+Values   0 18 28 3 0 0
+Stats    20 1500 150 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11622
+Keywords royal banshee silk robes purple~
+Type     armor~
+Short    Royal Banshee Silk robes~
+Long     A set of flowing, deep purple silk robes rests on the stone.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    15 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11623
+Keywords dark ranger longbow recurve~
+Type     weapon~
+Short    a Dark Ranger's longbow~
+Long     A masterfully carved black yew longbow sits unstrung here.~
+WFlags   take wield~
+Values   0 12 18 4 0 0
+Stats    12 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11624
+Keywords decrepit throne stone dark lady~
+Type     furniture~
+Short    the Throne of the Dark Lady~
+Long     A tall, imposing throne carved from dark stone dominates the room.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    500 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11625
+Keywords vial royal blood potion red~
+Type     potion~
+Short    a vial of Royal Blood~
+Long     A glass vial filled with incredibly dark, thick blood sits here.~
+WFlags   take hold~
+Values   25 -1 -1 -1 0 0
+Stats    5 300 30 0 0
+Spells   'heal' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11626
+Keywords iron manacles chains rusted~
+Type     treasure~
+Short    heavy iron manacles~
+Long     A set of heavy, rusted iron manacles are bolted to the wall.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    10 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11627
+Keywords forsaken battle standard flag~
+Type     treasure~
+Short    a Forsaken Battle Standard~
+Long     A tall pole bearing the shattered mask emblem of the Forsaken stands here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11628
+Keywords obsidian vault key dark stone~
+Type     key~
+Short    an obsidian vault key~
+Long     A heavy key carved entirely out of smooth black obsidian lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11629
+Keywords chilling signet ring cold silver~
+Type     armor~
+Short    a chilling silver signet~
+Long     A silver ring that is unnaturally cold to the touch glints in the dark.~
+WFlags   take finger~
+Values   3 0 0 0 0 0
+Stats    5 600 60 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     11600
+Name     &dThe Gates of Lordaeron&d~
+Sector   field~
+Desc     You stand before the massive, crumbling stone gates of the former
+human capital. The statues of kings have been defaced, and the once-
+beautiful gardens are now choked with weeds and purple-tinged decay.
+The air is unnaturally still.
+~
+#EXIT
+Direction north~
+ToRoom    11601
+Desc      The path leads into the courtyard of the ruins.
+~
+#ENDEXIT
+Reset M 0 11600 2 11600
+  Reset E 1 11600 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11601
+Name     &dRuins of Lordaeron - Courtyard&d~
+Sector   field~
+Desc     A vast, open courtyard where the people of Lordaeron once gathered.
+The cobblestones are cracked, and the fountains are dry. Faint,
+translucent ghosts of the past wander aimlessly, echoing the
+tragedy of this place.
+~
+#EXIT
+Direction north~
+ToRoom    11602
+Desc      The grand entrance to the palace.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11600
+Desc      The city gates.
+~
+#ENDEXIT
+Reset M 0 11607 3 11601
+#ENDROOM
+
+#ROOM
+Vnum     11602
+Name     &dLordaeron Palace - Grand Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the palace is a haunting reminder of fallen majesty.
+Shattered chandeliers hang from the ceiling, and the red carpet is
+faded and torn. To the north, you can see the light of the throne room.
+~
+#EXIT
+Direction north~
+ToRoom    11603
+Desc      The Throne Room of Lordaeron.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11601
+Desc      The palace courtyard.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11603
+Name     &dThe Throne Room of Lordaeron&d~
+Sector   inside~
+Flags    indoors~
+Desc     Sunlight streams through the high windows, illuminating the dust motes
+dancing over the empty throne. This is where King Terenas fell. A
+faint, dried bloodstain remains on the marble floor. To the north,
+the floor is missing, revealing a massive pit and the elevators.
+~
+#EXIT
+Direction north~
+ToRoom    11604
+Desc      The elevator platform to the Undercity.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11602
+Desc      The grand hall.
+~
+#ENDEXIT
+Reset O 0 11605 1 11603
+#ENDROOM
+
+#ROOM
+Vnum     11604
+Name     &dElevator to the Undercity&d~
+Sector   city~
+Desc     You stand on a massive, iron-bound wooden platform. Chains as thick
+as a man's waist groan as they suspend the platform over a deep,
+dark shaft. A cold, damp wind blows up from the depths.
+~
+#EXIT
+Direction south~
+ToRoom    11603
+Desc      The throne room.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11605
+Desc      The elevator descends into the dark.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11605
+Name     &dThe Lower Belltower&d~
+Sector   city~
+Desc     The elevator settles into a dark, stone chamber deep underground.
+Huge rusted bells hang silently above. This is the entrance to the
+Undercity proper. To the north, a tunnel leads into the Trade Quarter.
+~
+#EXIT
+Direction north~
+ToRoom    11606
+Desc      The entrance to the Trade Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11604
+Desc      The elevator platform back to the surface.
+~
+#ENDEXIT
+Reset M 0 11600 2 11605
+  Reset E 1 11600 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11606
+Name     &pTrade Quarter - Entrance&p~
+Sector   city~
+Desc     You step into the Undercity. The architecture is a mix of sewer pipes,
+iron scaffolding, and gothic stone. A canal of thick, green slime
+runs through the center of the district. From here, pathways branch
+off to the various quarters of the subterranean city.
+~
+#EXIT
+Direction north~
+ToRoom    11607
+Desc      The central ring of the Trade Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11630
+Desc      A dark tunnel leads toward the War Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11605
+Desc      The belltower elevator leading to the surface.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11620
+Desc      The air crackles with energy toward the Magic Quarter.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11607
+Name     &pTrade Quarter - Central Ring&p~
+Sector   city~
+Desc     You stand in the bustling (for the dead) heart of the city's commerce.
+The stone ring circles the central slime canal. Forsaken merchants
+set up stalls in the alcoves. To the west is the bank, and to the
+east is the local inn.
+~
+#EXIT
+Direction north~
+ToRoom    11612
+Desc      The path winds toward the Apothecarium.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11609
+Desc      The Gallow's End Tavern.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11606
+Desc      The entrance tunnel.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11608
+Desc      The Undercity Bank.
+~
+#ENDEXIT
+Reset M 0 11603 1 11607
+#ENDROOM
+
+#ROOM
+Vnum     11608
+Name     &pUndercity Bank&p~
+Sector   inside~
+Flags    indoors~
+Desc     This chamber is built into the damp sewer walls. Iron bars protect
+the tellers, and thick stone vaults are visible in the back. The
+only sound is the rhythmic dripping of water from the ceiling.
+~
+#EXIT
+Direction east~
+ToRoom    11607
+Desc      The Trade Quarter central ring.
+~
+#ENDEXIT
+Reset M 0 11601 1 11608
+#ENDROOM
+
+#ROOM
+Vnum     11609
+Name     &pGallow's End Tavern&p~
+Sector   inside~
+Flags    indoors~
+Desc     The tavern is a gloomy, low-ceilinged room filled with the smell of
+sour ale and rot. Patrons sit in silence, staring into their mugs.
+A few empty coffins are piled in the corner, serving as benches.
+~
+#EXIT
+Direction west~
+ToRoom    11607
+Desc      The Trade Quarter central ring.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11610
+Desc      The upper floor of the tavern.
+~
+#ENDEXIT
+Reset M 0 11605 1 11609
+  Reset G 1 11602 10
+Reset O 0 11609 2 11609
+#ENDROOM
+
+#ROOM
+Vnum     11610
+Name     &pGallow's End - Upper Floor&p~
+Sector   inside~
+Flags    indoors~
+Desc     The upper floor is used as a sleeping area. Rows of upright coffins
+line the walls, providing the Forsaken with a place to 'rest' away
+from the light.
+~
+#EXIT
+Direction down~
+ToRoom    11609
+Desc      The main floor of the tavern.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11611
+Name     &pThe Armor & Shield Shop&p~
+Sector   inside~
+Flags    indoors~
+Desc     Heavy iron plates and rusted mail hang from meat hooks. Benton Burgess
+works here, reinforcing the gear of the Forsaken military with cold
+iron and dark enchantments.
+~
+#EXIT
+Direction north~
+ToRoom    11612
+Desc      The northern walk of the Trade Quarter.
+~
+#ENDEXIT
+Reset M 0 11608 1 11611
+  Reset E 1 11603 10 11
+#ENDROOM
+
+#ROOM
+Vnum     11612
+Name     &pTrade Quarter - North Walk&p~
+Sector   city~
+Desc     The stone path follows the curve of the slime canal. To the south is the
+blacksmith, and to the north a heavy iron gate leads toward the
+Apothecarium. A Bile Spewer patrols the walk with heavy steps.
+~
+#EXIT
+Direction north~
+ToRoom    11613
+Desc      The gate to the Apothecarium.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11611
+Desc      The armor and shield shop.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11607
+Desc      The Trade Quarter central ring.
+~
+#ENDEXIT
+Reset M 0 11603 1 11612
+#ENDROOM
+
+#ROOM
+Vnum     11613
+Name     &pGate to the Apothecarium&p~
+Sector   city~
+Desc     A massive iron gate, dripping with moisture, bars the way to the
+Apothecarium. The air here is noticeably more acidic, stinging your
+eyes and nostrils. Forsaken guards watch the gate with cold intensity.
+~
+#EXIT
+Direction north~
+ToRoom    11614
+Desc      The toxic labs of the Apothecarium.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11612
+Desc      The Trade Quarter north walk.
+~
+#ENDEXIT
+Reset M 0 11600 2 11613
+  Reset E 1 11600 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11614
+Name     &gThe Apothecarium - Central Lab&g~
+Sector   inside~
+Flags    indoors~
+Desc     This chamber is a nightmare of science. Glass tubes filled with glowing
+toxic sludge crisscross the ceiling. Huge vats of bubbling chemicals
+line the walls, and the sound of hissing steam is constant.
+~
+#EXIT
+Direction north~
+ToRoom    11615
+Desc      The path winds deeper into the labs.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11613
+Desc      The gate back to the Trade Quarter.
+~
+#ENDEXIT
+Reset M 0 11602 1 11614
+  Reset G 1 11601 10
+#ENDROOM
+
+#ROOM
+Vnum     11615
+Name     &gApothecarium - Testing Area&g~
+Sector   inside~
+Flags    indoors~
+Desc     Several stone tables are bolted to the floor, holding various cages.
+The Society tests its new plagues here, searching for the perfect
+weapon of vengeance. To the east, heavily guarded iron doors lead
+into the Royal Quarter.
+~
+#EXIT
+Direction east~
+ToRoom    11640
+Desc      The secure entrance to the Royal Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11614
+Desc      The central lab.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11616
+Desc      The path to the Flight Master.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11616
+Name     &gUndercity Flight Tower Base&g~
+Sector   city~
+Desc     A spiraling stone staircase leads up into a dark shaft. This is the
+base of the city's flight roosts, where plague bats are kept for
+aerial travel across the Eastern Kingdoms.
+~
+#EXIT
+Direction east~
+ToRoom    11615
+Desc      The Apothecarium labs.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11617
+Desc      The flight roosts.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11617
+Name     &gThe Plague Bat Roosts&g~
+Sector   city~
+Desc     You are high above the Apothecarium. Dozens of giant bats hang from the
+ceiling, their wings folded. The air is thick with the smell of guano
+and leathery wings.
+~
+#EXIT
+Direction down~
+ToRoom    11616
+Desc      The base of the flight tower.
+~
+#ENDEXIT
+Reset M 0 11604 2 11617
+#ENDROOM
+
+#ROOM
+Vnum     11618
+Name     &pUndercity Auction House&p~
+Sector   inside~
+Flags    indoors~
+Desc     A large, circular room carved out of the sewer stone. Auctioneer Yul
+stands behind a heavy iron podium, fielding bids from the shadowy
+figures that inhabit the city.
+~
+#EXIT
+Direction east~
+ToRoom    11607
+Desc      The Trade Quarter central ring.
+~
+#ENDEXIT
+Reset M 0 11609 1 11618
+#ENDROOM
+
+#ROOM
+Vnum     11619
+Name     &pTrade Quarter - Slime Canal Bridge&p~
+Sector   city~
+Desc     A narrow iron bridge spans the toxic green canal. The liquid below is
+thick and moves slowly, carrying the waste of the Apothecarium deeper
+into the city's sewer system.
+~
+#EXIT
+Direction north~
+ToRoom    11607
+Desc      The Trade Quarter central ring.
+~
+#ENDEXIT
+Reset O 0 11601 1 11619
+#ENDROOM
+
+#ROOM
+Vnum     11620
+Name     &CMagic Quarter - Entrance&d~
+Sector   city~
+Desc     The stench of the Trade Quarter fades as you enter the Magic Quarter,
+replaced by the sharp smell of ozone and sulfur. The cobblestones here
+are remarkably clean, kept immaculate by invisible magical brooms.
+~
+#EXIT
+Direction east~
+ToRoom    11606
+Desc      The tunnel leads back to the Trade Quarter entrance.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11621
+Desc      The inner circle of the Magic Quarter.
+~
+#ENDEXIT
+Reset M 0 11614 2 11620
+  Reset E 1 11615 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11621
+Name     &CMagic Quarter - The Inner Circle&d~
+Sector   city~
+Desc     You stand in the heart of the Magic Quarter. Dark, vaulted ceilings
+echo with the chants of apprentices. To the north lies the grand
+library of the Mage's Guild, while to the south, the shadows deepen
+around the Warlock's Sanctum.
+~
+#EXIT
+Direction north~
+ToRoom    11622
+Desc      The grand doors of the Mage's Guild.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11620
+Desc      The entrance path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11624
+Desc      The ominous entrance to the Warlock's Sanctum.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11626
+Desc      A small shop filled with oddities.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11622
+Name     &CThe Mage's Guild - Library&d~
+Sector   inside~
+Flags    indoors~
+Desc     Massive bookshelves stretch from the floor into the shadowed ceiling.
+Floating candles illuminate ancient, moldering texts. Forsaken mages
+sit at long wooden tables, frantically transcribing spell scrolls
+before their flesh rots away completely.
+~
+#EXIT
+Direction east~
+ToRoom    11623
+Desc      A freezing chill emanates from the eastern alcove.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11621
+Desc      The inner circle of the Magic Quarter.
+~
+#ENDEXIT
+Reset M 0 11610 1 11622
+  Reset E 1 11610 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11623
+Name     &CThe Mage's Guild - Frost Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     The temperature in this small alcove is well below freezing. A thick
+layer of ice coats the stone walls and the bookshelves. This is where
+the masters of frost magic practice their chilling arts.
+~
+#EXIT
+Direction west~
+ToRoom    11622
+Desc      The relative warmth of the grand library.
+~
+#ENDEXIT
+Reset M 0 11611 1 11623
+  Reset E 1 11611 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11624
+Name     &dThe Warlock's Sanctum&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air in here is heavy and tastes of brimstone. The walls are lined
+with skulls and demonic runes painted in dried blood. Unsettling whispers
+echo from the shadows as warlocks commune with entities from the
+Twisting Nether.
+~
+#EXIT
+Direction north~
+ToRoom    11621
+Desc      The inner circle of the Magic Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11625
+Desc      The searing heat of the summoning pits.
+~
+#ENDEXIT
+Reset M 0 11612 1 11624
+  Reset E 1 11612 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11625
+Name     &dThe Summoning Pits&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A massive summoning circle is etched deeply into the stone floor,
+glowing with a sickly green fel light. Chains and manacles hang from
+the walls, used to bind the more uncooperative demons brought into
+this world.
+~
+#EXIT
+Direction north~
+ToRoom    11624
+Desc      The main hall of the Sanctum.
+~
+#ENDEXIT
+Reset M 0 11613 1 11625
+Reset O 0 11613 1 11625
+#ENDROOM
+
+#ROOM
+Vnum     11626
+Name     &CArchibald's Reagents and Oddities&d~
+Sector   inside~
+Flags    indoors~
+Desc     This small, cluttered shop is packed to the ceiling with jars of
+eyeballs, powdered bat wings, and glowing crystals. The merchant
+watches you carefully, calculating exactly how much gold you are
+willing to part with.
+~
+#EXIT
+Direction east~
+ToRoom    11621
+Desc      The inner circle of the Magic Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11627
+Desc      A path winding along the slime canal.
+~
+#ENDEXIT
+Reset M 0 11618 1 11626
+#ENDROOM
+
+#ROOM
+Vnum     11627
+Name     &CMagic Quarter - Slime Overlook&d~
+Sector   city~
+Desc     You stand on a small stone balcony overlooking the great green slime
+canal that divides the Undercity. A small pipe constantly drains
+volatile, magical runoff into the sluggish green river below.
+~
+#EXIT
+Direction north~
+ToRoom    11626
+Desc      The reagent shop.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11628
+Desc      The path continues deeper into the shadows.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11628
+Name     &CMagic Quarter - Deep Shadows&d~
+Sector   city~
+Desc     The magical illumination of the quarter fades here, plunging the stone
+walkway into near darkness. The damp chill of the subterranean cavern
+is absolute.
+~
+#EXIT
+Direction north~
+ToRoom    11627
+Desc      The slime overlook.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11629
+Desc      The path winds toward the edge of the canal.
+~
+#ENDEXIT
+Reset M 0 11614 2 11628
+  Reset E 1 11615 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11629
+Name     &CMagic Quarter - The Canal Edge&d~
+Sector   city~
+Desc     The path ends abruptly at the edge of the toxic green canal. Across the
+sluggish expanse of slime, you can see the imposing iron and stone
+structures of the Trade Quarter. There is no bridge here.
+~
+#EXIT
+Direction west~
+ToRoom    11628
+Desc      The deep shadows of the Magic Quarter.
+~
+#ENDEXIT
+Reset O 0 11619 1 11629
+#ENDROOM
+
+#ROOM
+Vnum     11630
+Name     &RWar Quarter - Entrance&d~
+Sector   city~
+Desc     The polished stone of the Trade Quarter gives way to rough-hewn rock
+and heavy iron plating. The unmistakable sounds of clashing steel and
+barking orders echo down the tunnel. The War Quarter is the martial
+heart of the Forsaken army.
+~
+#EXIT
+Direction east~
+ToRoom    11631
+Desc      The Ring of Blood training area.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11606
+Desc      The tunnel leads back to the Trade Quarter entrance.
+~
+#ENDEXIT
+Reset M 0 11617 2 11630
+  Reset E 1 11615 10 16
+  Reset E 1 11618 10 11
+#ENDROOM
+
+#ROOM
+Vnum     11631
+Name     &RWar Quarter - The Ring of Blood&d~
+Sector   city~
+Desc     A large, sunken pit dominates the center of the War Quarter. The stone
+floor is deeply stained with old blood and ichor. Forsaken warriors
+and deathguards spar here relentlessly, honing their combat skills
+in a never-ending cycle of violence.
+~
+#EXIT
+Direction north~
+ToRoom    11634
+Desc      A dark alley leading toward the Rogue's Den.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11632
+Desc      The grand doors of the Warrior's Guild.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11637
+Desc      The entrance to the Deathguard Barracks.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11630
+Desc      The entrance tunnel.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11632
+Name     &RThe Warrior's Guild - Training Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     Heavy iron weights, weapon racks, and shattered training dummies fill
+this massive, vaulted hall. The air is thick with the smell of sweat
+and oiled iron. An immense orc stands in the center of the room,
+shouting orders at the undead recruits.
+~
+#EXIT
+Direction east~
+ToRoom    11633
+Desc      The heavily guarded armory.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11631
+Desc      The Ring of Blood.
+~
+#ENDEXIT
+Reset M 0 11615 1 11632
+  Reset E 1 11615 10 16
+Reset M 0 11619 2 11632
+#ENDROOM
+
+#ROOM
+Vnum     11633
+Name     &RThe Warrior's Guild - Armory&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows upon rows of perfectly maintained weapons and armor line the walls
+of this secure vault. Deathguards ensure that nothing leaves this room
+without the proper requisition forms signed by the Dark Lady herself.
+~
+#EXIT
+Direction west~
+ToRoom    11632
+Desc      The training floor.
+~
+#ENDEXIT
+Reset M 0 11617 2 11633
+  Reset E 1 11615 10 16
+Reset O 0 11616 2 11633
+#ENDROOM
+
+#ROOM
+Vnum     11634
+Name     &RWar Quarter - The Dark Alleys&d~
+Sector   city~
+Desc     The torches here are spaced far apart, leaving deep pools of shadow
+between the stone buildings. This is the domain of the Deathstalkers,
+the elite assassins who serve as the eyes and ears of the Undercity.
+~
+#EXIT
+Direction east~
+ToRoom    11635
+Desc      The entrance to the Rogue's Den.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11631
+Desc      The Ring of Blood.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11635
+Name     &dThe Rogue's Den - Planning Room&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A large table dominates this dimly lit room, covered in maps of Lordaeron
+and the Eastern Kingdoms. Several daggers pin important notes to the
+wood. The rogues here speak in hushed, urgent whispers.
+~
+#EXIT
+Direction east~
+ToRoom    11636
+Desc      The pungent smell of the poison lab.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11634
+Desc      The dark alleys outside.
+~
+#ENDEXIT
+Reset M 0 11616 1 11635
+  Reset E 1 11614 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11636
+Name     &dThe Rogue's Den - Poison Lab&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air in this small stone room is incredibly toxic. Vials of bubbling
+green and purple liquids sit on iron workbenches. Deathstalkers carefully
+coat their weapons in these deadly concoctions before heading out on
+their lethal assignments.
+~
+#EXIT
+Direction west~
+ToRoom    11635
+Desc      The planning room.
+~
+#ENDEXIT
+Reset O 0 11617 4 11636
+#ENDROOM
+
+#ROOM
+Vnum     11637
+Name     &RWar Quarter - Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large, spartan hall serves as the primary barracks for the city's
+Deathguards. Rows of stone slabs serve as 'beds' for the undead soldiers
+when they are not on patrol.
+~
+#EXIT
+Direction north~
+ToRoom    11631
+Desc      The Ring of Blood.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11638
+Desc      A stone path leading toward the canal.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11638
+Name     &RWar Quarter - Slime Canal Bridge&d~
+Sector   city~
+Desc     A heavy iron bridge arches over the glowing green slime canal, connecting
+the barracks to the outer ring of the War Quarter. The canal moves
+slowly beneath you, thick with the refuse of the city.
+~
+#EXIT
+Direction south~
+ToRoom    11639
+Desc      The lower walk of the War Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11637
+Desc      The barracks.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11639
+Name     &RWar Quarter - Lower Walk&d~
+Sector   city~
+Desc     You stand on the outer edge of the War Quarter, walking along the damp
+stone perimeter. The sounds of the training arenas are muted here,
+replaced by the rhythmic dripping of water from the cavern roof high
+above.
+~
+#EXIT
+Direction north~
+ToRoom    11638
+Desc      The iron bridge over the canal.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11640
+Name     &RRoyal Quarter - Entrance Walk&d~
+Sector   city~
+Desc     The stench of the Apothecarium fades as you step into the Royal Quarter.
+The architecture here is distinctly more regal, echoing the high elven
+heritage of the Banshee Queen mixed with the gothic horror of the
+Forsaken. Purple banners hang from high stone pillars.
+~
+#EXIT
+Direction east~
+ToRoom    11641
+Desc      The path winds deeper into the royal sanctuary.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11615
+Desc      The toxic labs of the Apothecarium.
+~
+#ENDEXIT
+Reset M 0 11622 2 11640
+  Reset E 1 11615 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11641
+Name     &RRoyal Quarter - Inner Walk&d~
+Sector   city~
+Desc     The cobblestones here are perfectly maintained. The chaotic noises of
+the Trade Quarter are entirely absent, replaced by a tense, chilling
+silence. To the north lies the Banshee's Choir, and to the east is
+the Dark Lady's Antechamber.
+~
+#EXIT
+Direction north~
+ToRoom    11645
+Desc      The ethereal wailing of the Banshee's Choir.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11642
+Desc      The grand antechamber leading to the throne.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11647
+Desc      The Dark Ranger Barracks.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11640
+Desc      The entrance walk.
+~
+#ENDEXIT
+Reset M 0 11627 1 11641
+#ENDROOM
+
+#ROOM
+Vnum     11642
+Name     &RThe Dark Lady's Antechamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     This grand hall is lined with statues of fallen high elf heroes, their
+faces chipped away and replaced by the crest of the Forsaken. Royal
+Dreadguards stand at perfect attention, securing the heavy obsidian
+doors that lead to the throne room.
+~
+#EXIT
+Direction east~
+ToRoom    11643
+Desc      The Court of the Banshee Queen.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11641
+Desc      The inner walk of the Royal Quarter.
+~
+#ENDEXIT
+Reset M 0 11622 2 11642
+  Reset E 1 11615 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11643
+Name     &RThe Court of the Banshee Queen&d~
+Sector   inside~
+Flags    indoors~
+Desc     The center of power in the Undercity. A massive, circular chamber with
+a vaulted ceiling. In the center sits Sylvanas Windrunner atop a throne
+of dark stone. The air is freezing cold, heavy with the weight of her
+undying vengeance against the Lich King.
+~
+#EXIT
+Direction north~
+ToRoom    11646
+Desc      Master Faranell's private laboratory.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11644
+Desc      The chamber of the dreadlord Varimathras.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11649
+Desc      The Forsaken Command Room.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11642
+Desc      The grand antechamber.
+~
+#ENDEXIT
+Reset M 0 11620 1 11643
+  Reset E 1 11620 10 16
+  Reset E 1 11622 10 5
+Reset O 0 11624 1 11643
+#ENDROOM
+
+#ROOM
+Vnum     11644
+Name     &RVarimathras' Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     This alcove off the main throne room is noticeably warmer, smelling
+faintly of brimstone and fel magic. The massive dreadlord Varimathras
+stands here, serving as Sylvanas' lieutenant and advisor, though his
+loyalty is always a matter of debate.
+~
+#EXIT
+Direction west~
+ToRoom    11643
+Desc      The Court of the Banshee Queen.
+~
+#ENDEXIT
+Reset M 0 11621 1 11644
+  Reset E 1 11621 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11645
+Name     &RThe Banshee's Choir Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sound here is bone-chilling. Dozens of incorporeal banshees hover
+in this high-vaulted stone room, their wails harmonizing into a
+haunting, sorrowful melody that speaks of lost Quel'Thalas.
+~
+#EXIT
+Direction south~
+ToRoom    11641
+Desc      The inner walk of the Royal Quarter.
+~
+#ENDEXIT
+Reset M 0 11624 3 11645
+#ENDROOM
+
+#ROOM
+Vnum     11646
+Name     &RRoyal Apothecary Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     A private, highly advanced laboratory reserved for Master Faranell.
+Only the most potent and dangerous strains of the Blight are developed
+here, directly under the watchful eye of the Dark Lady.
+~
+#EXIT
+Direction south~
+ToRoom    11643
+Desc      The Court of the Banshee Queen.
+~
+#ENDEXIT
+Reset M 0 11625 1 11646
+  Reset E 1 11625 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11647
+Name     &RDark Ranger Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are lined with masterfully crafted black yew bows and quivers
+of dark arrows. This is the staging ground for Sylvanas' personal guard,
+the elite Dark Rangers who execute her most sensitive missions.
+~
+#EXIT
+Direction north~
+ToRoom    11641
+Desc      The inner walk of the Royal Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11648
+Desc      A dark stone bridge over the royal canal.
+~
+#ENDEXIT
+Reset M 0 11623 2 11647
+  Reset E 1 11623 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11648
+Name     &RRoyal Quarter - Deep Canal Bridge&d~
+Sector   city~
+Desc     A narrow, arching bridge made of black iron spans a deep, sluggish
+canal of purple slime. The air is toxic and burns the lungs of the
+living. Across the bridge lies the Forsaken Command Room.
+~
+#EXIT
+Direction east~
+ToRoom    11649
+Desc      The Forsaken Command Room.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11647
+Desc      The Dark Ranger Barracks.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11649
+Name     &RForsaken Command Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive tactical map of Lordaeron is spread across a heavy iron table.
+Markers indicate the movements of the Scourge, the Scarlet Crusade, and
+Alliance forces. High Executor Darthalia directs the war effort from here.
+~
+#EXIT
+Direction north~
+ToRoom    11643
+Desc      The Court of the Banshee Queen.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11650
+Desc      A dark, spiraling staircase descends into the dungeons.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11648
+Desc      The iron bridge over the deep canal.
+~
+#ENDEXIT
+Reset M 0 11628 1 11649
+  Reset E 1 11615 10 16
+Reset O 0 11627 2 11649
+#ENDROOM
+
+#ROOM
+Vnum     11650
+Name     &dThe Royal Dungeons - Upper Tier&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You have descended into the cold, miserable dungeons beneath the Royal
+Quarter. Heavy iron bars separate the cells. The screams of the living
+prisoners undergoing interrogation echo terribly off the wet stone walls.
+~
+#EXIT
+Direction up~
+ToRoom    11649
+Desc      The stairs lead back to the Command Room.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11651
+Desc      The stairs continue down into the darkness.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11654
+Desc      The secure doors of the Royal Armory.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11651
+Name     &dThe Royal Dungeons - Lower Tier&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This is where the enemies of the Forsaken are kept before they are
+handed over to the Apothecaries for experimentation. The smell of
+fear, blood, and filth is overpowering.
+~
+#EXIT
+Direction up~
+ToRoom    11650
+Desc      The upper tier of the dungeons.
+~
+#ENDEXIT
+Reset M 0 11626 2 11651
+Reset O 0 11626 4 11651
+#ENDROOM
+
+#ROOM
+Vnum     11652
+Name     &RSylvanas' Private Study&d~
+Sector   inside~
+Flags    indoors~
+Desc     A surprisingly elegant room tucked away from the main court. Books of
+high elven poetry sit beside gruesome treatises on necromancy. It is
+a stark reminder of what the Dark Lady was, and what she has become.
+~
+#EXIT
+Direction south~
+ToRoom    11643
+Desc      A hidden door leads back to the Throne Room.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11653
+Name     &RThe Shadow Bridge&d~
+Sector   city~
+Desc     A wide stone bridge flanked by gargoyles. This bridge connects the
+main court area to the heavily secured vaults at the back of the
+Royal Quarter.
+~
+#EXIT
+Direction east~
+ToRoom    11655
+Desc      The Hall of the Forgotten.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11644
+Desc      Varimathras' Chamber.
+~
+#ENDEXIT
+Reset M 0 11622 2 11653
+  Reset E 1 11615 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11654
+Name     &RThe Royal Armory&d~
+Sector   inside~
+Flags    indoors~
+Desc     The personal armory for Sylvanas and her elite guard. Weapons of dark
+iron, enchanted bows, and shields bearing the Forsaken crest are neatly
+organized and heavily guarded.
+~
+#EXIT
+Direction west~
+ToRoom    11650
+Desc      The upper tier of the dungeons.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11655
+Name     &RHall of the Forgotten&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet, somber hall lined with empty urns. It is a monument to the
+Forsaken who have fallen a second time in service to the Dark Lady,
+their names lost to history.
+~
+#EXIT
+Direction north~
+ToRoom    11656
+Desc      The heavy doors to the Obsidian Vault.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11653
+Desc      The Shadow Bridge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11656
+Name     &RThe Obsidian Vault - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive door made of solid black obsidian bars the way forward. The
+Royal Vault Keeper stands here, silent and unmoving, guarding the most
+dangerous magical artifacts possessed by the Horde.
+~
+#EXIT
+Direction south~
+ToRoom    11655
+Desc      The Hall of the Forgotten.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11657
+Desc      The inner depths of the vault.
+~
+#ENDEXIT
+Reset M 0 11629 1 11656
+  Reset E 1 11628 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11657
+Name     &RThe Obsidian Vault - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air in the vault is freezing, preserving the ancient, terrible
+relics stored within. Glowing crystals illuminate chests of cursed
+gold and weapons radiating dark magic.
+~
+#EXIT
+Direction south~
+ToRoom    11656
+Desc      The vault entrance.
+~
+#ENDEXIT
+Reset O 0 11629 1 11657
+#ENDROOM
+
+#ROOM
+Vnum     11658
+Name     &RRoyal Quarter - Eastern Overlook&d~
+Sector   city~
+Desc     A small stone balcony offering a view over the sprawling, circular
+expanse of the Undercity below. From here, you can see the toxic
+canals winding through the Trade Quarter.
+~
+#EXIT
+Direction south~
+ToRoom    11655
+Desc      The Hall of the Forgotten.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11659
+Name     &dRoyal Quarter - Secret Catacombs&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A collapsed wall behind the throne room reveals a dark, forgotten
+catacomb. Sylvanas keeps this passage open as an emergency escape
+route should the Undercity ever fall.
+~
+#EXIT
+Direction south~
+ToRoom    11652
+Desc      A hidden door back to Sylvanas' study.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

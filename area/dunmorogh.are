@@ -1,0 +1,2462 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Dun Morogh~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 10 0 60
+Economy      0 15000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       14700
+Keywords   trogg stonesplinter savage~
+Short      a Stonesplinter Trogg~
+Long       A Stonesplinter Trogg grunts and brandishes a crude club.
+~
+Desc       This squat, brutish creature has thick gray skin and beady eyes filled
+with malice. Troggs are primitive beings, driven from the depths by unknown
+forces, and they attack anything that moves. Drool drips from its fanged
+mouth as it sizes you up.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 5 0 0 40 120
+Stats2     5 5 55
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    14 8 12 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14701
+Keywords   trogg stonesplinter scout~
+Short      a Stonesplinter Scout~
+Long       A Stonesplinter Scout lurks in the shadows, watching.
+~
+Desc       Smaller and quicker than its brutish kin, this trogg serves as a lookout
+for Stonesplinter raiding parties. Its eyes dart nervously, and it clutches
+a jagged stone knife.
+~
+Race       humanoid~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 4 0 0 30 90
+Stats2     4 4 45
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    11 12 10 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14702
+Keywords   trogg stonesplinter shaman~
+Short      a Stonesplinter Shaman~
+Long       A Stonesplinter Shaman chants in a guttural tongue, eyes glowing.
+~
+Desc       This trogg wears crude bone ornaments and carries a staff topped with
+a glowing crystal. It possesses a primitive connection to elemental forces,
+making it far more dangerous than its savage brethren.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 7 0 0 60 180
+Stats2     7 7 80
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    10 10 10 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14703
+Keywords   trogg stonesplinter bonesnapper boss~
+Short      Grik'nir the Cold~
+Long       Grik'nir the Cold, chieftain of the Stonesplinters, snarls viciously.
+~
+Desc       This massive trogg towers over its kin, its gray hide scarred from
+countless battles. Ice crystals cling to its matted fur, and its eyes
+burn with cunning intelligence rare among troggkind. It wields a massive
+icicle as a club, and lesser troggs cower in its presence.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 10 0 0 300 800
+Stats2     10 10 200
+Stats3     10 20 40
+Stats4     0 0 0 0 0
+Attribs    17 10 15 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14704
+Keywords   wendigo yeti beast~
+Short      a Wendigo~
+Long       A massive Wendigo looms before you, frost clinging to its white fur.
+~
+Desc       This terrifying creature stands eight feet tall, covered in shaggy white
+fur that blends with the snow. Its claws are like icicles, and its roar
+can freeze the blood of the bravest warrior. Wendigos are solitary hunters,
+preying on anything foolish enough to enter their territory.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 8 0 0 100 300
+Stats2     8 8 120
+Stats3     8 15 30
+Stats4     0 0 0 0 0
+Attribs    18 10 16 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14705
+Keywords   wendigo ancient old frostmane~
+Short      Old Icebeard~
+Long       Old Icebeard, an ancient wendigo, guards his frozen domain.
+~
+Desc       This wendigo is ancient beyond reckoning, its fur more ice than hair. It
+has haunted Dun Morogh since before the dwarves carved their first hold.
+Countless hunters have sought its head as a trophy—none have returned.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 12 0 0 500 1200
+Stats2     12 12 350
+Stats3     15 30 60
+Stats4     0 0 0 0 0
+Attribs    20 10 18 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14706
+Keywords   troll frostmane raider~
+Short      a Frostmane Troll~
+Long       A Frostmane Troll crouches nearby, tusks bared in a snarl.
+~
+Desc       This ice troll has pale blue skin and a mane of wild white hair. The
+Frostmane tribe has warred with the dwarves for generations, fighting
+over territory in the frozen peaks. It carries a crude axe and wears
+trophies taken from fallen enemies.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 6 0 0 55 160
+Stats2     6 6 70
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    14 12 13 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14707
+Keywords   troll frostmane headhunter~
+Short      a Frostmane Headhunter~
+Long       A Frostmane Headhunter hefts a spear, shrunken heads dangling from its belt.
+~
+Desc       This troll is a seasoned warrior, its body covered in ritual scars and
+war paint. Shrunken heads of fallen enemies hang from its belt as grim
+trophies. Its spear is tipped with sharpened bone, and it throws with
+deadly accuracy.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 8 0 0 80 240
+Stats2     8 8 100
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    15 14 14 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14708
+Keywords   troll frostmane shadowcaster~
+Short      a Frostmane Shadowcaster~
+Long       A Frostmane Shadowcaster mutters dark incantations, shadows swirling.
+~
+Desc       This troll witch doctor commands dark voodoo magic, calling upon the
+spirits of ice and shadow. Bone fetishes hang from its staff, and its
+eyes glow with an eerie inner light. Even other trolls give it a wide
+berth.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 9 0 0 90 270
+Stats2     9 9 110
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    11 12 11 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14709
+Keywords   boar crag snow~
+Short      a Crag Boar~
+Long       A Crag Boar snorts and paws at the frozen ground.
+~
+Desc       This hardy boar has adapted to the frozen mountains of Dun Morogh. Its
+thick hide is covered in coarse gray fur, and its tusks are chipped from
+rooting through frozen soil. It is aggressive when startled.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 3 0 0 25 75
+Stats2     3 3 35
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    13 10 12 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14710
+Keywords   boar elder crag large~
+Short      an Elder Crag Boar~
+Long       An Elder Crag Boar snorts aggressively, tusks gleaming.
+~
+Desc       This massive boar has survived many winters in the harsh mountains. Its
+tusks are long and sharp, and scars crisscross its thick hide. It has
+learned to fear nothing and will charge anything that threatens it.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 6 0 0 50 150
+Stats2     6 6 65
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    15 10 14 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14711
+Keywords   wolf snow timber ice~
+Short      a Snow Wolf~
+Long       A Snow Wolf prowls through the drifts, breath misting in the cold.
+~
+Desc       This wolf's fur is pure white, perfect camouflage in the snowy mountains.
+It hunts in packs, coordinating attacks with eerie intelligence. Its eyes
+are pale blue, almost glowing in the dim light.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 4 0 0 30 100
+Stats2     4 4 45
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    12 14 11 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14712
+Keywords   wolf timber alpha ice~
+Short      an Ice Claw Alpha~
+Long       An Ice Claw Alpha stands watch over its pack, hackles raised.
+~
+Desc       The leader of a snow wolf pack, this massive beast commands through
+strength and cunning. Its fur is thick and scarred from countless
+dominance fights, and its howl can be heard for miles across the frozen
+peaks.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 7 0 0 70 210
+Stats2     7 7 90
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    14 15 13 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14713
+Keywords   leper gnome irradiated~
+Short      a Leper Gnome~
+Long       A Leper Gnome twitches erratically, radiation burns covering its body.
+~
+Desc       Once a proud citizen of Gnomeregan, this gnome has been twisted by
+radiation exposure. Its skin is green and peeling, its eyes glow sickly,
+and its mind has been shattered. It attacks anything it sees with
+mindless fury.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 5 0 0 35 110
+Stats2     5 5 50
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    10 13 8 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14714
+Keywords   mountaineer guard dwarf patrol~
+Short      a Dun Morogh Mountaineer~
+Long       A Dun Morogh Mountaineer patrols the road, rifle ready.
+~
+Desc       This dwarf wears the heavy cloak and sturdy armor of the Mountaineers,
+Ironforge's frontier guard. He patrols the roads of Dun Morogh, protecting
+travelers from troggs, trolls, and worse. His rifle is well-maintained,
+and his eyes are sharp.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 12 0 0 150 450
+Stats2     12 12 180
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    14 13 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14715
+Keywords   grelin whitebeard hunter trainer~
+Short      Grelin Whitebeard~
+Long       Grelin Whitebeard surveys the valley, a rifle slung over his shoulder.
+~
+Desc       This veteran Mountaineer has spent decades patrolling Coldridge Valley.
+His beard is white as snow, and his eyes still sharp despite his age. He
+trains new recruits in the ways of survival and marksmanship.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 120 350
+Stats2     10 10 150
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 14 13 11 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14716
+Keywords   innkeeper belm thunderbrew~
+Short      Innkeeper Belm~
+Long       Innkeeper Belm wipes down the bar, humming a dwarven tune.
+~
+Desc       A stout dwarf with a friendly face and a magnificent red beard, Belm
+runs the Thunderbrew Distillery's taproom in Kharanos. He knows everyone
+in town and has a talent for making travelers feel welcome.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 15 0 0 100 300
+Stats2     15 15 150
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    13 12 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14717
+Keywords   tharek blackstone pilot~
+Short      Pilot Tharek~
+Long       Pilot Tharek checks the instruments on a crashed flying machine.
+~
+Desc       This gnome pilot crash-landed his experimental flying machine in the
+mountains. Despite his predicament, he remains cheerful, confident that
+he can repair the device—if only someone could find the scattered parts.
+His goggles are pushed up on his forehead.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 12 0 0 80 250
+Stats2     12 12 120
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    8 16 10 17 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14718
+Keywords   senir whitebeard anvilmar~
+Short      Sten Stoutarm~
+Long       Sten Stoutarm guards the entrance to Anvilmar, arms crossed.
+~
+Desc       This broad-shouldered dwarf serves as the primary guardian of Anvilmar,
+the small settlement in Coldridge Valley. He takes his duty seriously,
+watching for trogg incursions and helping new adventurers find their
+footing.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 130 400
+Stats2     10 10 160
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    15 12 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14719
+Keywords   balir frostbrew brewer~
+Short      Balir Frostbrew~
+Long       Balir Frostbrew tends to bubbling vats of fermenting brew.
+~
+Desc       This elderly dwarf has dedicated his life to the craft of brewing. His
+Frostbrew Lager is renowned throughout Dun Morogh, and he guards his
+recipes jealously. His apron is perpetually stained, and he smells of
+hops and barley.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 18 0 0 100 300
+Stats2     18 18 150
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    13 11 14 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14720
+Keywords   vendor merchant supplies~
+Short      a Dwarven Provisioner~
+Long       A Dwarven Provisioner arranges goods on a wooden cart.
+~
+Desc       This merchant sells essential supplies to travelers and adventurers
+passing through Dun Morogh. His cart is loaded with food, water, torches,
+and other necessities for surviving the frozen wilderness.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 12 0 0 80 250
+Stats2     12 12 120
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    12 13 12 11 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14721
+Keywords   citizen dwarf commoner villager~
+Short      a Dwarven Villager~
+Long       A Dwarven Villager goes about their daily chores.
+~
+Desc       This ordinary dwarf is one of the hardy folk who make their home in Dun
+Morogh's scattered settlements. Whether farmer, craftsman, or laborer,
+they endure the harsh conditions with typical dwarven stubbornness.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 8 0 0 50 150
+Stats2     8 8 80
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    12 11 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14722
+Keywords   ram wild mountain~
+Short      a Wild Mountain Ram~
+Long       A Wild Mountain Ram grazes on frozen lichen.
+~
+Desc       This ram has never known a harness or stable. It roams the high peaks
+freely, its magnificent curling horns marking it as a dominant male. It
+will flee from most threats but will charge if cornered.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 4 0 0 35 100
+Stats2     4 4 50
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    14 12 13 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14723
+Keywords   rabbit snow hare small~
+Short      a Snow Hare~
+Long       A Snow Hare nibbles on a frozen root.
+~
+Desc       This small white rabbit is perfectly camouflaged against the snow. It
+freezes at the slightest sound, hoping predators will pass it by. Its
+meat is prized by hunters, and its fur makes warm gloves.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 1 0 0 5 15
+Stats2     1 1 10
+Stats3     1 1 2
+Stats4     0 0 0 0 0
+Attribs    6 16 8 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14724
+Keywords   rancher farmer stonefield~
+Short      Rudra Amberstill~
+Long       Rudra Amberstill mends a fence, keeping an eye on her rams.
+~
+Desc       This sturdy dwarven woman runs the Amberstill Ranch, breeding and
+training the finest rams in Dun Morogh. Her hands are calloused from
+hard work, and she brooks no nonsense from man or beast.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 15 0 0 100 300
+Stats2     15 15 150
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    14 12 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14725
+Keywords   miner foreman quarry gol'bolar~
+Short      Foreman Stonebrow~
+Long       Foreman Stonebrow supervises the miners, pickaxe over his shoulder.
+~
+Desc       This gruff dwarf runs the Gol'Bolar Quarry with an iron fist. The trogg
+infestation has made his job a nightmare, but he refuses to abandon the
+mine. His beard is gray with stone dust.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 18 0 0 150 450
+Stats2     18 18 180
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    16 11 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     14700
+Keywords club trogg crude stone~
+Type     weapon~
+Short    a crude trogg club~
+Long     A crude club made of stone and bone lies here.~
+WFlags   take wield~
+Values   0 3 6 7 0 0
+Stats    3 15 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14701
+Keywords knife trogg stone jagged~
+Type     weapon~
+Short    a jagged stone knife~
+Long     A jagged knife of chipped stone lies here.~
+WFlags   take wield~
+Values   0 2 4 2 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14702
+Keywords staff shaman trogg bone~
+Type     weapon~
+Short    a trogg shaman's staff~
+Long     A staff topped with a glowing crystal lies here.~
+WFlags   take wield~
+Values   0 4 7 8 0 0
+Stats    5 35 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14703
+Keywords icicle club grik'nir frozen~
+Type     weapon~
+Short    Grik'nir's Frozen Club~
+Long     A massive club of solid ice lies here, radiating cold.~
+WFlags   take wield~
+Values   0 8 16 7 0 0
+Stats    10 150 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14704
+Keywords claw wendigo frozen~
+Type     weapon~
+Short    a frozen wendigo claw~
+Long     A massive claw, cold to the touch, lies here.~
+WFlags   take wield~
+Values   0 5 10 5 0 0
+Stats    6 50 6 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14705
+Keywords pelt wendigo white thick~
+Type     armor~
+Short    a thick wendigo pelt~
+Long     A shaggy white pelt lies here, still cold.~
+WFlags   take about~
+Values   6 0 0 0 0 0
+Stats    8 60 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14706
+Keywords axe troll frostmane crude~
+Type     weapon~
+Short    a crude Frostmane axe~
+Long     A crude axe of troll make lies here.~
+WFlags   take wield~
+Values   0 4 8 1 0 0
+Stats    5 30 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14707
+Keywords spear troll frostmane bone~
+Type     weapon~
+Short    a Frostmane bone spear~
+Long     A spear tipped with sharpened bone lies here.~
+WFlags   take wield~
+Values   0 5 9 6 0 0
+Stats    6 40 6 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14708
+Keywords fetish voodoo troll bone~
+Type     treasure~
+Short    a voodoo fetish~
+Long     A disturbing fetish made of bones and feathers lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 25 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14709
+Keywords tusk boar cracked crag~
+Type     trash~
+Short    a cracked crag boar tusk~
+Long     A cracked boar tusk lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14710
+Keywords pelt wolf snow white~
+Type     trash~
+Short    a snow wolf pelt~
+Long     A beautiful white wolf pelt lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 12 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14711
+Keywords meat boar raw chunk~
+Type     food~
+Short    a chunk of raw boar meat~
+Long     A chunk of raw boar meat lies here.~
+WFlags   take~
+Values   6 0 0 0 0 0
+Stats    1 4 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14712
+Keywords ale thunderbrew mug~
+Type     drink~
+Short    a mug of Thunderbrew Ale~
+Long     A frothy mug of Thunderbrew Ale sits here.~
+WFlags   take hold~
+Values   12 12 2 0 0 0
+Stats    1 8 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14713
+Keywords lager frostbrew bottle~
+Type     drink~
+Short    a bottle of Frostbrew Lager~
+Long     A bottle of Frostbrew Lager sits here, frosty cold.~
+WFlags   take hold~
+Values   10 10 2 0 0 0
+Stats    1 6 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14714
+Keywords bread rye hearty~
+Type     food~
+Short    a loaf of hearty rye bread~
+Long     A dense loaf of rye bread sits here.~
+WFlags   take~
+Values   10 0 0 0 0 0
+Stats    1 4 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14715
+Keywords cheese sharp mountain~
+Type     food~
+Short    a wedge of mountain cheese~
+Long     A wedge of sharp mountain cheese sits here.~
+WFlags   take~
+Values   8 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14716
+Keywords rifle dwarven mountaineer~
+Type     weapon~
+Short    a Mountaineer's rifle~
+Long     A well-maintained dwarven rifle lies here.~
+WFlags   take wield~
+Values   0 6 10 4 0 0
+Stats    10 80 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14717
+Keywords cloak mountaineer brown heavy~
+Type     armor~
+Short    a heavy mountaineer's cloak~
+Long     A heavy brown cloak lies here.~
+WFlags   take about~
+Values   5 0 0 0 0 0
+Stats    8 50 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14718
+Keywords boots fur lined warm~
+Type     armor~
+Short    a pair of fur-lined boots~
+Long     A pair of warm fur-lined boots lies here.~
+WFlags   take feet~
+Values   4 0 0 0 0 0
+Stats    6 35 6 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14719
+Keywords gloves wool thick~
+Type     armor~
+Short    a pair of thick wool gloves~
+Long     A pair of thick wool gloves lies here.~
+WFlags   take hands~
+Values   2 0 0 0 0 0
+Stats    3 15 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14720
+Keywords pickaxe mining iron~
+Type     weapon~
+Short    an iron mining pickaxe~
+Long     A sturdy iron pickaxe lies here.~
+WFlags   take wield~
+Values   0 4 8 5 0 0
+Stats    5 30 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14721
+Keywords ore copper chunk~
+Type     treasure~
+Short    a chunk of copper ore~
+Long     A chunk of copper ore lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 8 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14722
+Keywords ore tin chunk~
+Type     treasure~
+Short    a chunk of tin ore~
+Long     A chunk of tin ore lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14723
+Keywords torch pine burning~
+Type     light~
+Short    a burning pine torch~
+Long     A burning pine torch flickers here.~
+WFlags   take hold~
+Values   0 0 200 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14724
+Keywords part flying machine gear gnomish~
+Type     trash~
+Short    a flying machine gear~
+Long     A complicated gnomish gear lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14725
+Keywords horn ram curved~
+Type     trash~
+Short    a curved ram horn~
+Long     A magnificently curved ram horn lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 20 2 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     14700
+Name     &WDun Morogh - Southern Gate&d~
+Sector   mountain~
+Desc     Snow swirls around you as you stand at the southern entrance to &CDun
+Morogh&d, the frozen mountain homeland of the Bronzebeard dwarves. The
+massive gates of &YIronforge&d loom to the &Ynorth&d, their bronze surfaces
+gleaming despite the frost. The road winds &Ysouth&d down into the frozen
+wilderness, where troggs, trolls, and worse await the unwary.
+~
+#EXIT
+Direction north~
+ToRoom    14000
+Desc      The great gates of Ironforge beckon.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14701
+Desc      The road descends into the snowy wilderness.
+~
+#ENDEXIT
+Reset M 0 14714 2 14700
+  Reset E 1 14716 1 16
+  Reset E 1 14717 1 12
+#ENDROOM
+
+#ROOM
+Vnum     14701
+Name     &WDun Morogh - Northern Road&d~
+Sector   mountain~
+Desc     The road cuts through deep snowdrifts as it winds between towering peaks.
+Pine trees laden with snow line the path, their branches drooping under
+the weight. The air is bitterly cold, and your breath fogs before you.
+Ironforge lies to the &Ynorth&d, and the road continues &Ysouth&d toward
+Kharanos.
+~
+#EXIT
+Direction north~
+ToRoom    14700
+Desc      The road leads north toward Ironforge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14702
+Desc      The road continues south.
+~
+#ENDEXIT
+Reset M 0 14711 2 14701
+Reset M 0 14723 3 14701
+#ENDROOM
+
+#ROOM
+Vnum     14702
+Name     &WDun Morogh - Misty Pine Refuge&d~
+Sector   forest~
+Desc     A small clearing among the ancient pines offers a brief respite from the
+wind. The trees here are massive, their trunks wider than a dwarf is tall.
+Mist drifts between the snow-covered branches, giving the area an ethereal
+quality. The road continues &Ynorth&d and &Ysouth&d, and a trail leads &Yeast&d
+into the deeper forest.
+~
+#EXIT
+Direction north~
+ToRoom    14701
+Desc      The road leads north toward Ironforge.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14703
+Desc      A trail leads into the misty forest.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14710
+Desc      The road continues south toward Kharanos.
+~
+#ENDEXIT
+Reset M 0 14722 2 14702
+Reset M 0 14709 2 14702
+#ENDROOM
+
+#ROOM
+Vnum     14703
+Name     &WMisty Pine Woods&d~
+Sector   forest~
+Desc     The ancient pines grow thick here, blocking what little sunlight filters
+through the clouds. Snow lies in deep drifts between the trees, and the
+mist muffles all sound. It would be easy to become lost in this frozen
+maze. The trail leads &Ywest&d back to the road, and continues &Yeast&d
+deeper into the woods.
+~
+#EXIT
+Direction east~
+ToRoom    14704
+Desc      The trail continues deeper into the woods.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14702
+Desc      The trail leads back to the road.
+~
+#ENDEXIT
+Reset M 0 14711 3 14703
+Reset M 0 14712 1 14703
+  Reset E 1 14704 1 16
+Reset O 0 14710 2 14703
+#ENDROOM
+
+#ROOM
+Vnum     14704
+Name     &WIce Claw Cavern - Entrance&d~
+Sector   mountain~
+Desc     A dark cave mouth yawns in the hillside, its entrance rimmed with icicles
+as thick as a dwarf's arm. Wolf tracks and gnawed bones litter the snow
+outside—this is clearly the den of the Ice Claw wolf pack. Snarls and
+howls echo from within. The woods lie to the &Ywest&d, and the cave
+continues &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14705
+Desc      The cave descends into darkness.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14703
+Desc      The misty woods lie outside.
+~
+#ENDEXIT
+Reset M 0 14711 3 14704
+#ENDROOM
+
+#ROOM
+Vnum     14705
+Name     &xIce Claw Cavern - Den&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The cave opens into a large chamber where the Ice Claw pack makes its
+home. Bones of prey animals are scattered across the frozen floor, and
+crude nests of dried grass line the walls. The alpha wolf watches from
+a raised ledge, its pale eyes gleaming in the darkness.
+~
+#EXIT
+Direction west~
+ToRoom    14704
+Desc      The cave entrance lies to the west.
+~
+#ENDEXIT
+Reset M 0 14712 1 14705
+  Reset E 1 14704 1 16
+Reset M 0 14711 4 14705
+Reset O 0 14710 3 14705
+#ENDROOM
+
+#ROOM
+Vnum     14710
+Name     &WDun Morogh - Kharanos Road&d~
+Sector   mountain~
+Desc     The road widens here as it approaches the village of &YKharanos&d. You
+can see smoke rising from chimneys to the &Ysouth&d, and the smell of
+brewing ale carries on the wind. A signpost points &Ywest&d toward
+Brewnall Village and &Yeast&d toward the Gol'Bolar Quarry.
+~
+#EXIT
+Direction north~
+ToRoom    14702
+Desc      The road leads north toward Ironforge.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14740
+Desc      The road leads toward Gol'Bolar Quarry.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14711
+Desc      The village of Kharanos lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14730
+Desc      The road leads toward Brewnall Village.
+~
+#ENDEXIT
+Reset M 0 14714 1 14710
+  Reset E 1 14716 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14711
+Name     &YKharanos - North Gate&d~
+Sector   city~
+Desc     You enter &YKharanos&d, a bustling dwarven village nestled in the snowy
+mountains. Stone buildings with smoking chimneys line the main street,
+and the sound of hammering and laughter fills the air. The famous
+&WThunderbrew Distillery&d dominates the town center to the &Ysouth&d.
+Villagers go about their business despite the bitter cold.
+~
+#EXIT
+Direction north~
+ToRoom    14710
+Desc      The road leads north into the mountains.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14712
+Desc      The main square lies ahead.
+~
+#ENDEXIT
+Reset M 0 14721 3 14711
+Reset M 0 14720 1 14711
+#ENDROOM
+
+#ROOM
+Vnum     14712
+Name     &YKharanos - Town Square&d~
+Sector   city~
+Desc     The heart of Kharanos centers around a large stone well and the imposing
+facade of the &WThunderbrew Distillery&d to the &Ywest&d. A general store
+sits to the &Yeast&d, and the main road runs &Ynorth&d and &Ysouth&d. Despite
+the cold, the square bustles with activity—merchants hawking wares,
+children playing in the snow, and off-duty Mountaineers sharing tales.
+~
+#EXIT
+Direction north~
+ToRoom    14711
+Desc      The north gate lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14714
+Desc      The general store lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14713
+Desc      The road continues south toward Coldridge Pass.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14715
+Desc      The Thunderbrew Distillery beckons.
+~
+#ENDEXIT
+Reset M 0 14721 4 14712
+Reset M 0 14720 1 14712
+#ENDROOM
+
+#ROOM
+Vnum     14713
+Name     &YKharanos - South Road&d~
+Sector   city~
+Desc     The road leaves Kharanos heading south toward &CColdridge Valley&d. A
+small stable stands to the &Ywest&d, where mountain rams are tended. The
+village square lies to the &Ynorth&d, and the road continues &Ysouth&d into
+increasingly wild territory.
+~
+#EXIT
+Direction north~
+ToRoom    14712
+Desc      The town square lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14720
+Desc      The road leads south toward Coldridge Pass.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14716
+Desc      The village stable lies to the west.
+~
+#ENDEXIT
+Reset M 0 14721 2 14713
+#ENDROOM
+
+#ROOM
+Vnum     14714
+Name     &YKharanos General Store&d~
+Sector   inside~
+Flags    indoors~
+Desc     This small but well-stocked shop carries everything an adventurer might
+need in the frozen wilderness. Warm cloaks, sturdy boots, dried rations,
+and mining supplies line the shelves. A potbellied stove in the corner
+keeps the shop warm, and the proprietor eyes you appraisingly.
+~
+#EXIT
+Direction west~
+ToRoom    14712
+Desc      The town square lies outside.
+~
+#ENDEXIT
+Reset M 0 14720 1 14714
+Reset O 0 14717 2 14714
+Reset O 0 14718 2 14714
+Reset O 0 14719 2 14714
+Reset O 0 14714 3 14714
+Reset O 0 14715 3 14714
+Reset O 0 14723 5 14714
+#ENDROOM
+
+#ROOM
+Vnum     14715
+Name     &YThunderbrew Distillery - Taproom&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     The warmth hits you like a wave as you enter the famous &WThunderbrew
+Distillery&d. A roaring fire crackles in an enormous hearth, and the air
+is thick with the smell of hops, malt, and roasting meat. Dwarves crowd
+around sturdy wooden tables, singing, arguing, and drinking the legendary
+Thunderbrew Ale. A staircase leads &Ydown&d to the brewing floor.
+~
+#EXIT
+Direction down~
+ToRoom    14717
+Desc      Stone stairs lead down to the brewing floor.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14712
+Desc      The town square lies outside.
+~
+#ENDEXIT
+Reset M 0 14716 1 14715
+Reset M 0 14721 5 14715
+Reset O 0 14712 10 14715
+Reset O 0 14713 5 14715
+Reset O 0 14714 3 14715
+#ENDROOM
+
+#ROOM
+Vnum     14716
+Name     &YKharanos - Village Stable&d~
+Sector   inside~
+Flags    indoors~
+Desc     The smell of hay and animal fills this sturdy stable. Mountain rams
+stamp in their stalls, their thick wool keeping them warm even in the
+unheated building. A handler tends to the beasts, ensuring they are fed
+and healthy. Saddles and harnesses hang from hooks on the walls.
+~
+#EXIT
+Direction east~
+ToRoom    14713
+Desc      The south road lies outside.
+~
+#ENDEXIT
+Reset M 0 14721 1 14716
+Reset M 0 14722 3 14716
+#ENDROOM
+
+#ROOM
+Vnum     14717
+Name     &YThunderbrew Distillery - Brewing Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     Massive copper vats dominate this lower level, each one bubbling with
+fermenting brew. The smell is overwhelming—a heady mix of yeast, grain,
+and alcohol. Workers monitor temperatures, add ingredients, and tend the
+fires that keep the process going. This is where the legendary Thunderbrew
+Ale is born.
+~
+#EXIT
+Direction up~
+ToRoom    14715
+Desc      The taproom lies above.
+~
+#ENDEXIT
+Reset M 0 14719 1 14717
+Reset M 0 14721 2 14717
+#ENDROOM
+
+#ROOM
+Vnum     14720
+Name     &WDun Morogh - Coldridge Pass North&d~
+Sector   mountain~
+Desc     The road climbs steeply as it enters &CColdridge Pass&d, the narrow route
+connecting Kharanos to Coldridge Valley. Sheer cliffs rise on either side,
+and snow-laden pines cling precariously to the slopes. The wind howls
+through the pass, carrying flurries of ice. Kharanos lies to the &Ynorth&d,
+and the pass continues &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14713
+Desc      The road leads back to Kharanos.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14721
+Desc      The pass continues south.
+~
+#ENDEXIT
+Reset M 0 14709 2 14720
+Reset M 0 14711 2 14720
+#ENDROOM
+
+#ROOM
+Vnum     14721
+Name     &WColdridge Pass - Summit&d~
+Sector   mountain~
+Desc     You stand at the highest point of Coldridge Pass. The view is breathtaking
+despite the bitter cold—snowy peaks stretch in every direction, and you
+can see the smoke of Kharanos to the &Ynorth&d and the distant lights of
+Anvilmar to the &Ysouth&d. A narrow trail branches &Ywest&d toward a cave
+rumored to house wendigos.
+~
+#EXIT
+Direction north~
+ToRoom    14720
+Desc      The pass descends toward Kharanos.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14722
+Desc      The pass descends toward Coldridge Valley.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14725
+Desc      A treacherous trail leads toward Wendigo Cave.
+~
+#ENDEXIT
+Reset M 0 14714 1 14721
+  Reset E 1 14716 1 16
+  Reset E 1 14717 1 12
+#ENDROOM
+
+#ROOM
+Vnum     14722
+Name     &WColdridge Pass - South Descent&d~
+Sector   mountain~
+Desc     The road winds down through the final stretch of Coldridge Pass. The
+cliffs begin to recede, and the valley opens before you. You can see the
+frozen lake and small settlement of Coldridge Valley below. Trogg totems
+mark territory dangerously close to the road.
+~
+#EXIT
+Direction north~
+ToRoom    14721
+Desc      The pass leads back up to the summit.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14750
+Desc      The road descends into Coldridge Valley.
+~
+#ENDEXIT
+Reset M 0 14700 2 14722
+Reset M 0 14701 1 14722
+#ENDROOM
+
+#ROOM
+Vnum     14725
+Name     &xWendigo Cave - Entrance&d~
+Sector   mountain~
+Desc     A cave mouth gapes in the mountainside, icicles hanging from its rim like
+fangs. An unnatural cold emanates from within, and massive clawed footprints
+mark the snow. This is the lair of the dreaded wendigos—only the brave or
+foolish enter here. The trail back to the pass lies &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14721
+Desc      The trail leads back to Coldridge Pass.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14726
+Desc      The cave descends into frozen darkness.
+~
+#ENDEXIT
+Reset M 0 14704 1 14725
+#ENDROOM
+
+#ROOM
+Vnum     14726
+Name     &xWendigo Cave - Frozen Tunnels&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Ice coats every surface of this frozen tunnel. Your breath crystallizes
+instantly, and the cold saps the strength from your limbs. The bones of
+unfortunate victims lie scattered on the floor, gnawed clean. Growls and
+the scrape of claws echo from deeper within.
+~
+#EXIT
+Direction east~
+ToRoom    14725
+Desc      The entrance lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14727
+Desc      The tunnel continues deeper.
+~
+#ENDEXIT
+Reset M 0 14704 2 14726
+Reset O 0 14705 1 14726
+#ENDROOM
+
+#ROOM
+Vnum     14727
+Name     &xWendigo Cave - Old Icebeard's Lair&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     This vast frozen chamber is the domain of &WOld Icebeard&d, the most
+ancient and terrible wendigo in all of Dun Morogh. Ice formations rise
+like frozen trees, and the cold is so intense that even fire struggles
+to burn. The massive creature watches from the shadows, its eyes gleaming
+with predatory hunger.
+~
+#EXIT
+Direction east~
+ToRoom    14726
+Desc      The frozen tunnels lie to the east.
+~
+#ENDEXIT
+Reset M 0 14705 1 14727
+  Reset E 1 14704 1 16
+Reset M 0 14704 2 14727
+Reset O 0 14705 1 14727
+Reset O 0 14704 2 14727
+#ENDROOM
+
+#ROOM
+Vnum     14730
+Name     &WDun Morogh - Brewnall Road&d~
+Sector   mountain~
+Desc     The road winds west from Kharanos through snow-covered hills. Brewnall
+Village lies ahead, a small settlement known for its hops farms that
+supply the Thunderbrew Distillery. The hills to the &Ynorth&d are rumored
+to harbor Frostmane troll camps.
+~
+#EXIT
+Direction east~
+ToRoom    14710
+Desc      The road leads back toward Kharanos.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    14733
+Desc      A trail leads into the troll-infested hills.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14731
+Desc      The road continues toward Brewnall Village.
+~
+#ENDEXIT
+Reset M 0 14709 2 14730
+Reset M 0 14723 2 14730
+#ENDROOM
+
+#ROOM
+Vnum     14731
+Name     &YBrewnall Village - East Entrance&d~
+Sector   city~
+Desc     You enter &YBrewnall Village&d, a tiny farming community dedicated to
+growing the hops and barley that make Thunderbrew Ale possible. Small
+cottages with snow-covered roofs cluster around frozen fields. Despite
+the cold, workers tend to winter preparations. The village center lies
+to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14730
+Desc      The road leads back toward Kharanos.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14732
+Desc      The village center lies ahead.
+~
+#ENDEXIT
+Reset M 0 14721 3 14731
+#ENDROOM
+
+#ROOM
+Vnum     14732
+Name     &YBrewnall Village - Center&d~
+Sector   city~
+Desc     The small center of Brewnall Village consists of little more than a
+well, a small shrine, and a general store. Life is hard here on the
+frontier, but the villagers are proud of their contribution to dwarven
+culture. The hop fields stretch to the &Ynorth&d, and a farmhouse stands
+to the &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14735
+Desc      The hop fields lie to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14731
+Desc      The east entrance lies behind you.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14736
+Desc      A sturdy farmhouse stands to the south.
+~
+#ENDEXIT
+Reset M 0 14720 1 14732
+Reset M 0 14721 2 14732
+#ENDROOM
+
+#ROOM
+Vnum     14733
+Name     &wFrostmane Territory - South Hills&d~
+Sector   hills~
+Desc     You enter territory claimed by the &CFrostmane trolls&d. Crude totems of
+bone and ice mark their boundaries, and the snow is stained with old
+blood. Troll scouts watch from the ridges, and war drums echo in the
+distance. The safe road lies to the &Ysouth&d, and the hills continue
+&Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14734
+Desc      The hills continue into troll territory.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14730
+Desc      The road lies to the south.
+~
+#ENDEXIT
+Reset M 0 14706 3 14733
+Reset M 0 14707 2 14733
+  Reset E 1 14707 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14734
+Name     &CFrostmane Hold - Entrance&d~
+Sector   hills~
+Desc     A crude palisade of sharpened logs surrounds the main &CFrostmane&d
+encampment. Troll warriors patrol the perimeter, and smoke rises from
+cooking fires within. Shrunken heads and Alliance banners hang from
+poles as grim trophies. This is the heart of Frostmane power in Dun
+Morogh.
+~
+#EXIT
+Direction north~
+ToRoom    14738
+Desc      The main camp lies beyond the palisade.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14733
+Desc      The hills lead back south.
+~
+#ENDEXIT
+Reset M 0 14706 2 14734
+  Reset E 1 14706 1 16
+Reset M 0 14707 2 14734
+  Reset E 1 14707 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14735
+Name     &YBrewnall Village - Hop Fields&d~
+Sector   field~
+Desc     Even in winter, the frozen remnants of hop vines cling to wooden frames.
+Come spring, these fields will burst with the plants that give Thunderbrew
+Ale its distinctive flavor. Workers prepare the soil and repair frames
+despite the cold.
+~
+#EXIT
+Direction south~
+ToRoom    14732
+Desc      The village center lies to the south.
+~
+#ENDEXIT
+Reset M 0 14721 2 14735
+#ENDROOM
+
+#ROOM
+Vnum     14736
+Name     &YBrewnall Village - Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     This sturdy farmhouse belongs to one of Brewnall's founding families.
+A fire crackles in the hearth, and the smell of cooking fills the air.
+Simple but comfortable furniture fills the room, and farming tools hang
+from hooks near the door.
+~
+#EXIT
+Direction north~
+ToRoom    14732
+Desc      The village center lies outside.
+~
+#ENDEXIT
+Reset M 0 14721 2 14736
+Reset O 0 14714 2 14736
+Reset O 0 14715 2 14736
+#ENDROOM
+
+#ROOM
+Vnum     14738
+Name     &CFrostmane Hold - Main Camp&d~
+Sector   hills~
+Desc     Crude tents and lean-tos fill this troll encampment. Warriors sharpen
+weapons around smoking fires, and the witch doctors conduct dark rituals
+in a sheltered corner. The stench of unwashed troll and rotting meat is
+overpowering. The chieftain's hut lies to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14739
+Desc      The chieftain's hut looms ahead.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14734
+Desc      The entrance lies to the south.
+~
+#ENDEXIT
+Reset M 0 14706 4 14738
+  Reset E 1 14706 1 16
+Reset M 0 14707 2 14738
+  Reset E 1 14707 1 16
+Reset M 0 14708 1 14738
+  Reset E 1 14702 1 16
+Reset O 0 14706 2 14738
+Reset O 0 14708 2 14738
+#ENDROOM
+
+#ROOM
+Vnum     14739
+Name     &CFrostmane Hold - Chieftain's Hut&d~
+Sector   inside~
+Flags    indoors~
+Desc     The largest structure in the camp, this hut is draped with furs and
+trophies of war. A fire pit smolders in the center, and crude weapons
+line the walls. The Frostmane chieftain holds court here, planning
+raids against the dwarven settlements.
+~
+#EXIT
+Direction south~
+ToRoom    14738
+Desc      The main camp lies outside.
+~
+#ENDEXIT
+Reset M 0 14707 1 14739
+  Reset E 1 14707 1 16
+  Reset E 1 14706 1 15
+Reset M 0 14708 1 14739
+  Reset E 1 14702 1 16
+Reset O 0 14708 1 14739
+#ENDROOM
+
+#ROOM
+Vnum     14740
+Name     &WDun Morogh - Gol'Bolar Road&d~
+Sector   mountain~
+Desc     The road heads east from Kharanos toward the &YGol'Bolar Quarry&d, one
+of Ironforge's primary sources of stone and ore. Trogg attacks have
+made the journey increasingly dangerous. The road continues &Yeast&d,
+and a trail branches &Ysouth&d toward Helm's Bed Lake.
+~
+#EXIT
+Direction east~
+ToRoom    14741
+Desc      The road continues toward the quarry.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14745
+Desc      A trail leads toward Helm's Bed Lake.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14710
+Desc      The road leads back toward Kharanos.
+~
+#ENDEXIT
+Reset M 0 14700 2 14740
+Reset M 0 14709 2 14740
+#ENDROOM
+
+#ROOM
+Vnum     14741
+Name     &YGol'Bolar Quarry - Entrance&d~
+Sector   mountain~
+Desc     The entrance to &YGol'Bolar Quarry&d is marked by massive stone blocks
+and rusting mining equipment. Once a thriving operation, the quarry has
+been partially overrun by Stonesplinter troggs. Mountaineers guard the
+perimeter, trying to hold back the infestation. The quarry continues
+&Yeast&d and &Ysouth&d.
+~
+#EXIT
+Direction east~
+ToRoom    14742
+Desc      The quarry continues to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14743
+Desc      The main excavation lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14740
+Desc      The road leads back west.
+~
+#ENDEXIT
+Reset M 0 14714 2 14741
+  Reset E 1 14716 1 16
+Reset M 0 14725 1 14741
+  Reset E 1 14720 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14742
+Name     &YGol'Bolar Quarry - East Pit&d~
+Sector   mountain~
+Desc     A deep pit has been carved into the mountainside, exposing rich veins
+of copper and tin. Abandoned mining carts sit on rusted tracks, and
+picks and shovels lie where workers dropped them when fleeing trogg
+attacks. The creatures now claim this section of the quarry.
+~
+#EXIT
+Direction west~
+ToRoom    14741
+Desc      The quarry entrance lies to the west.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    14744
+Desc      A ramp descends into the mine tunnels.
+~
+#ENDEXIT
+Reset M 0 14700 4 14742
+  Reset E 1 14700 1 16
+Reset M 0 14701 2 14742
+  Reset E 1 14701 1 16
+Reset O 0 14721 3 14742
+Reset O 0 14722 2 14742
+#ENDROOM
+
+#ROOM
+Vnum     14743
+Name     &YGol'Bolar Quarry - Main Excavation&d~
+Sector   mountain~
+Desc     This massive open pit is the heart of the quarry's operations. Terraced
+walls descend deep into the earth, and tunnels branch off in several
+directions. Fighting between dwarves and troggs has turned this into a
+contested battleground.
+~
+#EXIT
+Direction north~
+ToRoom    14741
+Desc      The quarry entrance lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    14744
+Desc      A ramp descends into the mine tunnels.
+~
+#ENDEXIT
+Reset M 0 14700 3 14743
+  Reset E 1 14700 1 16
+Reset M 0 14702 1 14743
+  Reset E 1 14702 1 16
+Reset O 0 14720 2 14743
+#ENDROOM
+
+#ROOM
+Vnum     14744
+Name     &xGol'Bolar Quarry - Mine Tunnels&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Dark tunnels branch through the rock, following veins of ore deep into
+the mountain. Troggs have made these passages their own, driving out the
+dwarven miners. Their crude camps and foul refuse litter the floor. The
+trogg leader is said to lurk in the deepest chambers.
+~
+#EXIT
+Direction up~
+ToRoom    14743
+Desc      The ramp leads back up to the excavation.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    14748
+Desc      A tunnel leads deeper into trogg territory.
+~
+#ENDEXIT
+Reset M 0 14700 5 14744
+  Reset E 1 14700 1 16
+Reset M 0 14701 3 14744
+  Reset E 1 14701 1 16
+Reset M 0 14702 2 14744
+  Reset E 1 14702 1 16
+Reset O 0 14700 2 14744
+Reset O 0 14721 2 14744
+#ENDROOM
+
+#ROOM
+Vnum     14745
+Name     &CHelm's Bed Lake - North Shore&d~
+Sector   field~
+Desc     The frozen expanse of &CHelm's Bed Lake&d stretches before you, its
+surface covered in thick ice. Fishermen have cut holes in the ice,
+sitting patiently with their lines despite the cold. The Amberstill
+Ranch is visible to the &Yeast&d, and the road lies to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14740
+Desc      The road lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14746
+Desc      The path leads toward Amberstill Ranch.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14749
+Desc      The lake shore continues south.
+~
+#ENDEXIT
+Reset M 0 14721 2 14745
+Reset M 0 14723 3 14745
+#ENDROOM
+
+#ROOM
+Vnum     14746
+Name     &YAmberstill Ranch - Entrance&d~
+Sector   field~
+Desc     A sturdy wooden fence marks the boundary of &YAmberstill Ranch&d, the
+finest ram breeding operation in Dun Morogh. You can see the main
+farmhouse to the &Yeast&d and ram pens to the &Ysouth&d. The bleating of
+rams and smell of hay fill the air.
+~
+#EXIT
+Direction east~
+ToRoom    14747
+Desc      The farmhouse lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14765
+Desc      The ram pens lie to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14745
+Desc      The lake shore lies to the west.
+~
+#ENDEXIT
+Reset M 0 14721 2 14746
+#ENDROOM
+
+#ROOM
+Vnum     14747
+Name     &YAmberstill Ranch - Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     This well-built farmhouse is the home of the Amberstill family, ram
+breeders for generations. Trophies of prize-winning rams hang on the
+walls, and the smell of hearty stew simmers from the kitchen. A fire
+crackles warmly in the hearth.
+~
+#EXIT
+Direction west~
+ToRoom    14746
+Desc      The ranch entrance lies outside.
+~
+#ENDEXIT
+Reset M 0 14724 1 14747
+Reset O 0 14714 2 14747
+Reset O 0 14712 2 14747
+#ENDROOM
+
+#ROOM
+Vnum     14748
+Name     &xGol'Bolar Quarry - Grik'nir's Chamber&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The deepest chamber of the quarry has been claimed by &RGrik'nir the
+Cold&d, chieftain of the Stonesplinter troggs. Ice coats the walls despite
+being deep underground, and the air is frigid. The massive trogg sits on
+a throne of skulls and ore, his frozen club within easy reach.
+~
+#EXIT
+Direction south~
+ToRoom    14744
+Desc      The tunnels lead back south.
+~
+#ENDEXIT
+Reset M 0 14703 1 14748
+  Reset E 1 14703 1 16
+Reset M 0 14700 3 14748
+  Reset E 1 14700 1 16
+Reset M 0 14702 1 14748
+  Reset E 1 14702 1 16
+Reset O 0 14703 1 14748
+Reset O 0 14721 3 14748
+Reset O 0 14722 3 14748
+#ENDROOM
+
+#ROOM
+Vnum     14749
+Name     &CHelm's Bed Lake - South Shore&d~
+Sector   field~
+Desc     The southern shore of the frozen lake is quieter, with fewer visitors.
+Snow-covered pines line the water's edge, and a small shrine to the
+ancestors sits on a rocky outcrop. The north shore lies back to the
+&Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14745
+Desc      The north shore lies ahead.
+~
+#ENDEXIT
+Reset M 0 14723 3 14749
+Reset M 0 14722 2 14749
+#ENDROOM
+
+#ROOM
+Vnum     14750
+Name     &WColdridge Valley - North Entrance&d~
+Sector   mountain~
+Desc     You descend into &CColdridge Valley&d, the sheltered vale where many
+young dwarves begin their adventures. Despite being somewhat protected
+from the worst weather, the valley is still bitterly cold. The settlement
+of &YAnvilmar&d is visible to the &Ysouth&d. Coldridge Pass lies to the
+&Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14722
+Desc      The pass leads back north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14751
+Desc      The road leads toward Anvilmar.
+~
+#ENDEXIT
+Reset M 0 14714 1 14750
+  Reset E 1 14716 1 16
+Reset M 0 14709 2 14750
+#ENDROOM
+
+#ROOM
+Vnum     14751
+Name     &WColdridge Valley - Valley Road&d~
+Sector   mountain~
+Desc     The road winds through the valley floor between snow-covered hills. Young
+boars root through the snow, and the occasional rabbit darts across the
+path. Anvilmar lies to the &Ysouth&d, and the valley continues &Ynorth&d. A
+trail branches &Yeast&d toward the frozen lake.
+~
+#EXIT
+Direction north~
+ToRoom    14750
+Desc      The valley continues north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14760
+Desc      A trail leads toward Iceflow Lake.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14752
+Desc      The road leads toward Anvilmar.
+~
+#ENDEXIT
+Reset M 0 14709 3 14751
+Reset M 0 14723 3 14751
+#ENDROOM
+
+#ROOM
+Vnum     14752
+Name     &YAnvilmar - North Gate&d~
+Sector   city~
+Desc     You approach &YAnvilmar&d, a small outpost that serves as the first line
+of civilization for those venturing into Coldridge Valley. Stone walls
+provide some protection, and Mountaineers patrol vigilantly. The main
+square lies to the &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14751
+Desc      The valley road lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14753
+Desc      The main square lies ahead.
+~
+#ENDEXIT
+Reset M 0 14718 1 14752
+  Reset E 1 14716 1 16
+  Reset E 1 14717 1 12
+#ENDROOM
+
+#ROOM
+Vnum     14753
+Name     &YAnvilmar - Main Square&d~
+Sector   city~
+Desc     The center of Anvilmar is a small but busy square. A well provides water,
+and a few merchant stalls offer basic supplies. The main building lies to
+the &Ywest&d, and training grounds are to the &Yeast&d. The road continues
+&Ysouth&d toward the Grizzled Den.
+~
+#EXIT
+Direction north~
+ToRoom    14752
+Desc      The north gate lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14755
+Desc      The training grounds lie to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14756
+Desc      The road leads south toward the Grizzled Den.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14754
+Desc      The main building lies to the west.
+~
+#ENDEXIT
+Reset M 0 14720 1 14753
+Reset M 0 14721 3 14753
+#ENDROOM
+
+#ROOM
+Vnum     14754
+Name     &YAnvilmar - Main Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     This stone building serves as the administrative center of Anvilmar. A
+large hearth keeps the interior warm, and maps of the valley cover the
+walls. The local commander coordinates defense efforts against trogg
+incursions from here. Supplies are stacked along one wall.
+~
+#EXIT
+Direction east~
+ToRoom    14753
+Desc      The main square lies outside.
+~
+#ENDEXIT
+Reset M 0 14715 1 14754
+Reset O 0 14716 1 14754
+Reset O 0 14717 1 14754
+Reset O 0 14714 3 14754
+#ENDROOM
+
+#ROOM
+Vnum     14755
+Name     &YAnvilmar - Training Grounds&d~
+Sector   city~
+Desc     Training dummies and weapon racks fill this open area where new recruits
+learn the basics of combat. Veteran Mountaineers put trainees through
+their paces, teaching them to fight with rifle, axe, and hammer. The
+main square lies to the &Ywest&d.
+~
+#EXIT
+Direction west~
+ToRoom    14753
+Desc      The main square lies to the west.
+~
+#ENDEXIT
+Reset M 0 14714 1 14755
+  Reset E 1 14716 1 16
+Reset M 0 14721 2 14755
+Reset O 0 14720 2 14755
+#ENDROOM
+
+#ROOM
+Vnum     14756
+Name     &WColdridge Valley - Southern Road&d~
+Sector   mountain~
+Desc     The road leads south from Anvilmar into wilder territory. Trogg totems
+become more frequent, warning of the creatures' presence. The infamous
+&RGrizzled Den&d, a cave complex overrun by troggs, lies to the &Yeast&d.
+Anvilmar lies to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14753
+Desc      Anvilmar lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14757
+Desc      The path leads toward the Grizzled Den.
+~
+#ENDEXIT
+Reset M 0 14700 2 14756
+Reset M 0 14701 2 14756
+#ENDROOM
+
+#ROOM
+Vnum     14757
+Name     &yThe Grizzled Den - Entrance&d~
+Sector   mountain~
+Desc     A dark cave mouth opens in the hillside, decorated with crude trogg
+totems and the bones of unfortunate victims. This is &RThe Grizzled Den&d,
+home to a large tribe of Stonesplinter troggs. Growls and the clatter of
+stone tools echo from within. The valley road lies to the &Ywest&d.
+~
+#EXIT
+Direction west~
+ToRoom    14756
+Desc      The valley road lies to the west.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14758
+Desc      The cave descends into darkness.
+~
+#ENDEXIT
+Reset M 0 14700 2 14757
+  Reset E 1 14700 1 16
+Reset M 0 14701 2 14757
+#ENDROOM
+
+#ROOM
+Vnum     14758
+Name     &xThe Grizzled Den - Outer Tunnels&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Rough tunnels wind through the rock, littered with refuse and gnawed
+bones. Trogg guards lurk in the shadows, ready to alert the tribe to
+intruders. The stench of the creatures is nearly overwhelming. The cave
+continues &Yeast&d, and the entrance lies to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14759
+Desc      The tunnels continue deeper.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14757
+Desc      The entrance lies to the west.
+~
+#ENDEXIT
+Reset M 0 14700 4 14758
+  Reset E 1 14700 1 16
+Reset M 0 14701 2 14758
+  Reset E 1 14701 1 16
+Reset O 0 14700 2 14758
+#ENDROOM
+
+#ROOM
+Vnum     14759
+Name     &xThe Grizzled Den - Central Chamber&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A large cavern serves as the heart of the trogg lair. Crude fire pits
+cast flickering shadows, and troggs go about their primitive existence—
+crafting weapons, squabbling over food, and grunting in their guttural
+language. Tunnels branch &Ynorth&d and &Ysouth&d to sleeping areas.
+~
+#EXIT
+Direction north~
+ToRoom    14763
+Desc      A tunnel leads to the northern chambers.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14764
+Desc      A tunnel leads to the southern chambers.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14758
+Desc      The outer tunnels lie to the west.
+~
+#ENDEXIT
+Reset M 0 14700 5 14759
+  Reset E 1 14700 1 16
+Reset M 0 14701 3 14759
+Reset M 0 14702 2 14759
+  Reset E 1 14702 1 16
+Reset O 0 14700 3 14759
+Reset O 0 14701 2 14759
+#ENDROOM
+
+#ROOM
+Vnum     14760
+Name     &CIceflow Lake - Western Shore&d~
+Sector   field~
+Desc     The frozen expanse of &CIceflow Lake&d stretches before you, a smaller
+and more isolated body of water than Helm's Bed Lake. Few venture here,
+making it a haven for wildlife—and occasionally trolls. The valley road
+lies to the &Ywest&d, and the shore continues &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14761
+Desc      The shore continues around the lake.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14751
+Desc      The valley road lies to the west.
+~
+#ENDEXIT
+Reset M 0 14722 2 14760
+Reset M 0 14723 3 14760
+#ENDROOM
+
+#ROOM
+Vnum     14761
+Name     &CIceflow Lake - Northern Shore&d~
+Sector   field~
+Desc     The northern shore of Iceflow Lake is marked by a crashed flying machine,
+its twisted metal half-buried in the snow. A gnome pilot works frantically
+on repairs, surrounded by scattered parts. The shore continues &Ywest&d
+and &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14762
+Desc      The shore continues east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14760
+Desc      The shore continues west.
+~
+#ENDEXIT
+Reset M 0 14717 1 14761
+Reset O 0 14724 3 14761
+#ENDROOM
+
+#ROOM
+Vnum     14762
+Name     &CIceflow Lake - Eastern Shore&d~
+Sector   field~
+Desc     The eastern shore of the lake is wilder and more remote. Animal tracks
+crisscross the snow, and the occasional howl echoes from the nearby hills.
+The shore continues back to the &Ywest&d.
+~
+#EXIT
+Direction west~
+ToRoom    14761
+Desc      The shore continues west.
+~
+#ENDEXIT
+Reset M 0 14711 2 14762
+Reset M 0 14709 2 14762
+#ENDROOM
+
+#ROOM
+Vnum     14763
+Name     &xThe Grizzled Den - North Chamber&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     This smaller chamber serves as a sleeping area for part of the trogg
+tribe. Crude bedding of moss and animal skins covers the floor, and
+the stench is indescribable. A few troggs rest here between raids on
+the surface.
+~
+#EXIT
+Direction south~
+ToRoom    14759
+Desc      The central chamber lies to the south.
+~
+#ENDEXIT
+Reset M 0 14700 3 14763
+Reset M 0 14701 2 14763
+Reset O 0 14700 1 14763
+#ENDROOM
+
+#ROOM
+Vnum     14764
+Name     &xThe Grizzled Den - South Chamber&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Another sleeping area, this chamber is slightly warmer due to a natural
+hot spring that bubbles in one corner. The troggs have fouled the water
+with their refuse, but the warmth makes this a prized location in the
+tribe.
+~
+#EXIT
+Direction north~
+ToRoom    14759
+Desc      The central chamber lies to the north.
+~
+#ENDEXIT
+Reset M 0 14700 3 14764
+Reset M 0 14702 1 14764
+  Reset E 1 14702 1 16
+Reset O 0 14701 1 14764
+#ENDROOM
+
+#ROOM
+Vnum     14765
+Name     &YAmberstill Ranch - Ram Pens&d~
+Sector   field~
+Desc     Sturdy wooden pens contain the famous Amberstill rams. These magnificent
+beasts have thick wool and curling horns, bred for strength and endurance.
+Handlers move among them, checking their health and preparing them for
+sale or service. The ranch entrance lies to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14746
+Desc      The ranch entrance lies to the north.
+~
+#ENDEXIT
+Reset M 0 14721 1 14765
+Reset M 0 14722 4 14765
+Reset O 0 14725 2 14765
+#ENDROOM
+
+#ENDAREA

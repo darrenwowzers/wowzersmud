@@ -1,0 +1,999 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Gnomeregan~
+Author       Builder~
+WeatherX     0
+WeatherY     0
+Ranges       1 60 0 60
+Economy      0 25000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       14500
+Keywords   leper gnome irradiated crazed~
+Short      a Crazed Leper Gnome~
+Long       A Crazed Leper Gnome twitches and gibbers, radiation burns covering its body.
+~
+Desc       Once a proud citizen of Gnomeregan, this gnome has been driven mad by
+radiation exposure. Its skin is mottled green and peeling, its eyes glow
+with sickly light, and it attacks anything that moves with mindless fury.
+Patches of hair have fallen out, and its movements are jerky and unpredictable.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 28 0 0 200 600
+Stats2     28 28 250
+Stats3     8 15 30
+Stats4     0 0 0 0 0
+Attribs    12 14 8 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14501
+Keywords   leper gnome technician irradiated~
+Short      a Leper Gnome Technician~
+Long       A Leper Gnome Technician fumbles with sparking wires, cackling madly.
+~
+Desc       This leper gnome retains some memory of its former profession, though its
+mind is shattered. It tinkers obsessively with broken machinery, creating
+dangerous contraptions that spark and smoke. Its fingers are burned from
+constant electrical shocks, but it doesn't seem to notice or care.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 30 0 0 220 680
+Stats2     30 30 270
+Stats3     9 16 32
+Stats4     0 0 0 0 0
+Attribs    10 15 8 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14502
+Keywords   leper gnome engineer irradiated~
+Short      a Leper Gnome Engineer~
+Long       A Leper Gnome Engineer aims a cobbled-together weapon, giggling.
+~
+Desc       Higher-ranking than the common leper gnomes, this engineer still possesses
+enough intellect to be truly dangerous. It has constructed crude weapons
+from salvaged parts and uses them with disturbing effectiveness. Its
+laugh is high-pitched and unsettling.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 35 0 0 300 900
+Stats2     35 35 350
+Stats3     12 22 44
+Stats4     0 0 0 0 0
+Attribs    11 16 9 16 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14503
+Keywords   trogg caverndeep savage~
+Short      a Caverndeep Trogg~
+Long       A Caverndeep Trogg snarls, clutching a jagged stone axe.
+~
+Desc       The troggs of Gnomeregan are larger and more aggressive than their surface
+cousins, mutated by exposure to the city's radiation. Their gray skin has
+taken on a sickly green tinge, and they attack with savage ferocity. They
+have claimed entire sections of the lower city.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 32 0 0 250 750
+Stats2     32 32 300
+Stats3     10 18 36
+Stats4     0 0 0 0 0
+Attribs    16 10 14 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14504
+Keywords   trogg caverndeep ambusher~
+Short      a Caverndeep Ambusher~
+Long       A Caverndeep Ambusher lurks in the shadows, waiting to strike.
+~
+Desc       Smaller and quicker than the common troggs, ambushers hide in the dark
+corners of Gnomeregan's tunnels, leaping out to attack unwary intruders.
+Their eyes have adapted to the darkness, giving them an advantage in the
+dim corridors.
+~
+Race       humanoid~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 30 0 0 220 660
+Stats2     30 30 270
+Stats3     8 16 32
+Stats4     0 0 0 0 0
+Attribs    13 15 12 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14505
+Keywords   trogg caverndeep burrower~
+Short      a Caverndeep Burrower~
+Long       A Caverndeep Burrower emerges from a freshly dug tunnel, dirt falling from its claws.
+~
+Desc       These troggs specialize in digging new passages through Gnomeregan's
+walls, expanding their territory deeper into the city. Their claws are
+massive and hardened, capable of tearing through stone and metal alike.
+They are responsible for much of the structural damage in the lower levels.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 34 0 0 280 840
+Stats2     34 34 320
+Stats3     11 20 40
+Stats4     0 0 0 0 0
+Attribs    18 9 16 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14506
+Keywords   mechano-tank mobile patrol~
+Short      a Mobile Alert System~
+Long       A Mobile Alert System rolls past on treads, sensors scanning.
+~
+Desc       This autonomous patrol unit was designed to maintain security in Gnomeregan.
+Now corrupted by Thermaplugg's control, it attacks anyone not recognized as
+loyal to the usurper. Its sensors glow red, and its mounted weapons track
+movement with mechanical precision.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 38 0 0 400 1200
+Stats2     38 38 450
+Stats3     15 28 56
+Stats4     0 0 0 0 0
+Attribs    14 8 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14507
+Keywords   arcane nullifier mechanical~
+Short      an Arcane Nullifier X-21~
+Long       An Arcane Nullifier X-21 hums with suppressive energy fields.
+~
+Desc       This advanced security construct was designed to neutralize magical threats.
+Its chassis is covered in rune-etched plates that absorb and disperse arcane
+energy. Twin emitters project fields that disrupt spellcasting, making it
+particularly dangerous to mages.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 42 0 0 500 1500
+Stats2     42 42 550
+Stats3     18 32 64
+Stats4     0 0 0 0 0
+Attribs    16 10 20 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14508
+Keywords   peacekeeper security robot~
+Short      a Peacekeeper Security Suit~
+Long       A Peacekeeper Security Suit stands ready, weapons armed.
+~
+Desc       The most advanced security construct in Gnomeregan, the Peacekeeper is
+a walking arsenal. Multiple weapon systems are integrated into its heavy
+chassis, and its armor can withstand tremendous punishment. Originally
+designed to protect the city, it now serves Thermaplugg's tyranny.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 48 0 0 800 2400
+Stats2     48 48 700
+Stats3     25 45 90
+Stats4     0 0 0 0 0
+Attribs    18 8 22 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14509
+Keywords   ooze irradiated sludge green~
+Short      an Irradiated Slime~
+Long       An Irradiated Slime oozes across the floor, leaving a glowing trail.
+~
+Desc       This disgusting creature is a byproduct of Gnomeregan's contamination.
+Composed of radioactive waste and organic matter, it dissolves anything
+it touches. Its body glows with a sickly green light, and it leaves
+caustic residue wherever it travels.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 33 0 0 260 780
+Stats2     33 33 310
+Stats3     10 18 36
+Stats4     0 0 0 0 0
+Attribs    14 6 16 4 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14510
+Keywords   ooze toxic horror sludge~
+Short      a Toxic Horror~
+Long       A Toxic Horror bubbles and writhes, its mass pulsing with radiation.
+~
+Desc       Larger and more dangerous than common slimes, the Toxic Horror has
+absorbed enough radioactive material to be lethal to the touch. Its
+body constantly shifts and reforms, and it can project globs of caustic
+ooze at distant targets.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 40 0 0 450 1350
+Stats2     40 40 500
+Stats3     16 30 60
+Stats4     0 0 0 0 0
+Attribs    16 6 18 4 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14511
+Keywords   dark iron dwarf ambassador agent~
+Short      a Dark Iron Agent~
+Long       A Dark Iron Agent lurks in the shadows, eyes gleaming with malice.
+~
+Desc       The Dark Iron dwarves have infiltrated Gnomeregan, seeking to exploit
+the chaos for their own purposes. This agent gathers intelligence and
+sabotages any efforts to reclaim the city. Its skin is ashen gray, and
+its eyes glow with inner fire.
+~
+Race       dwarf~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 45 0 0 600 1800
+Stats2     45 45 600
+Stats3     18 32 64
+Stats4     0 0 0 0 0
+Attribs    14 16 14 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14512
+Keywords   grubbis trogg boss leader~
+Short      Grubbis~
+Long       Grubbis, the massive trogg leader, bellows a challenge.
+~
+Desc       The self-proclaimed king of the Caverndeep troggs, Grubbis is enormous
+even by trogg standards. His hide is thick as armor, and he wields a
+massive club studded with metal scraps salvaged from the city. He has
+claimed the lower tunnels as his domain and defends it savagely.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 50 0 0 2000 6000
+Stats2     50 50 1500
+Stats3     35 65 130
+Stats4     0 0 0 0 0
+Attribs    20 10 18 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14513
+Keywords   viscous fallout ooze boss~
+Short      Viscous Fallout~
+Long       Viscous Fallout, a massive radioactive ooze, pulses with deadly energy.
+~
+Desc       This enormous ooze has absorbed so much radiation that it has achieved
+a rudimentary sentience. It lurks in the most contaminated areas of
+Gnomeregan, consuming anything organic that strays too close. Its body
+glows bright enough to illuminate the surrounding area.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 52 0 0 2500 7500
+Stats2     52 52 1800
+Stats3     40 75 150
+Stats4     0 0 0 0 0
+Attribs    18 4 20 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14514
+Keywords   electrocutioner 6000 mechanical boss~
+Short      Electrocutioner 6000~
+Long       Electrocutioner 6000 crackles with barely contained electrical energy.
+~
+Desc       This massive combat construct was designed for crowd control, capable of
+releasing devastating electrical discharges. Under Thermaplugg's control,
+it has been reprogrammed to eliminate all intruders. Arcs of electricity
+constantly dance across its chassis.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 55 0 0 3500 10000
+Stats2     55 55 2500
+Stats3     50 90 180
+Stats4     0 0 0 0 0
+Attribs    18 10 22 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14515
+Keywords   crowd pummeler 9-60 mechanical boss~
+Short      Crowd Pummeler 9-60~
+Long       Crowd Pummeler 9-60 slams its massive fists together threateningly.
+~
+Desc       Built for riot suppression, this enormous construct uses brute force
+to subdue threats. Its fists are pistons capable of delivering crushing
+blows, and its heavy armor makes it nearly impervious to conventional
+attacks. It shows no mercy to those who resist.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 55 0 0 3500 10000
+Stats2     55 55 2500
+Stats3     55 100 200
+Stats4     0 0 0 0 0
+Attribs    22 6 24 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14516
+Keywords   mekgineer thermaplugg boss final~
+Short      Mekgineer Thermaplugg~
+Long       Mekgineer Thermaplugg sits in his battle suit, mad eyes gleaming.
+~
+Desc       The traitor who doomed Gnomeregan, Sicco Thermaplugg was once the city's
+chief advisor. His jealousy of High Tinker Mekkatorque drove him to
+sabotage the city's defenses and release radiation that killed thousands.
+Now he rules from his battle suit, surrounded by bombs and mechanical
+minions, utterly insane but terrifyingly intelligent.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 60 0 0 15000 50000
+Stats2     60 60 8000
+Stats3     100 180 360
+Stats4     0 0 0 0 0
+Attribs    16 18 16 20 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14517
+Keywords   gnome survivor refugee sane~
+Short      a Gnomeregan Survivor~
+Long       A Gnomeregan Survivor huddles in the shadows, eyes haunted.
+~
+Desc       One of the few sane gnomes remaining in Gnomeregan, this survivor hides
+from the leper gnomes and mechanical patrols. They have lost everything—
+home, family, friends—but refuse to abandon hope of reclaiming their city.
+Their clothes are tattered and stained, but their eyes still hold intelligence.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 25 0 0 150 450
+Stats2     25 25 200
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    10 14 10 16 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14518
+Keywords   gnome engineer friendly mechanic~
+Short      Engineer Grindspark~
+Long       Engineer Grindspark works frantically on a damaged machine.
+~
+Desc       This gnome engineer has managed to carve out a small safe zone in the
+outer tunnels. He works constantly to repair equipment and help survivors
+escape the city. Despite everything, he maintains the characteristic gnomish
+optimism that the city can be saved.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 35 0 0 300 900
+Stats2     35 35 350
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    10 16 11 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14519
+Keywords   gnome medic healer doctor~
+Short      Medic Nimblewick~
+Long       Medic Nimblewick tends to wounded survivors with gentle hands.
+~
+Desc       One of the few remaining medical professionals in Gnomeregan, Nimblewick
+has dedicated herself to treating radiation sickness and battle wounds
+among the survivors. Her supplies are dwindling, but she refuses to give
+up on anyone who can still be saved.
+~
+Race       gnome~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 30 0 0 250 750
+Stats2     30 30 300
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    9 14 10 15 16 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14520
+Keywords   alarm-o-bot security small~
+Short      an Alarm-O-Bot~
+Long       An Alarm-O-Bot hovers nearby, sensors blinking.
+~
+Desc       This small flying drone was designed to detect intruders and summon
+security forces. Under Thermaplugg's control, it patrols the corridors
+constantly, ready to alert more dangerous constructs to any presence.
+It emits a constant low hum as it floats.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 25 0 0 120 360
+Stats2     25 25 180
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    8 16 10 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14521
+Keywords   mechano-frostwalker spider mechanical~
+Short      a Mechano-Frostwalker~
+Long       A Mechano-Frostwalker skitters across the floor on metal legs.
+~
+Desc       This spider-like construct was designed for maintenance work in cramped
+spaces. Its multiple legs allow it to traverse any surface, and its
+manipulator claws can deliver painful attacks. Frost generators in its
+chassis spray freezing mist at threats.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 36 0 0 320 960
+Stats2     36 36 380
+Stats3     12 22 44
+Stats4     0 0 0 0 0
+Attribs    12 14 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14522
+Keywords   bomb walking explosive~
+Short      a Walking Bomb~
+Long       A Walking Bomb toddles toward you, fuse sparking ominously.
+~
+Desc       One of Thermaplugg's most insidious creations, these small mechanical
+devices walk toward targets and detonate. They are manufactured constantly
+in the deeper levels, providing the mad mekgineer with an endless supply
+of disposable weapons.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 28 0 0 100 300
+Stats2     28 28 150
+Stats3     20 35 70
+Stats4     0 0 0 0 0
+Attribs    8 10 8 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14523
+Keywords   squirrel irradiated mutant~
+Short      an Irradiated Squirrel~
+Long       An Irradiated Squirrel chitters angrily, its fur glowing faintly.
+~
+Desc       Even the small animals of Gnomeregan have been affected by the radiation.
+This squirrel has grown to unnatural size, its fur patchy and glowing, its
+eyes wild. It attacks with surprising ferocity for its size.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 20 0 0 60 180
+Stats2     20 20 100
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    8 16 8 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14524
+Keywords   rat irradiated tunnel large~
+Short      an Irradiated Tunnel Rat~
+Long       An Irradiated Tunnel Rat gnaws on a piece of metal, eyes glowing.
+~
+Desc       The rats of Gnomeregan have mutated into something far more dangerous.
+This creature is the size of a small dog, with patchy fur and elongated
+teeth that can gnaw through metal. It carries disease and radiation
+wherever it goes.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 22 0 0 80 240
+Stats2     22 22 120
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    10 14 10 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14525
+Keywords   mechanized guardian sentry~
+Short      a Mechanized Guardian~
+Long       A Mechanized Guardian stands motionless until it detects movement.
+~
+Desc       This stationary security unit activates when it detects unauthorized
+movement. Once engaged, it attacks relentlessly until the threat is
+neutralized or it is destroyed. Its armor is thick, and its weapons
+are fully integrated into its chassis.
+~
+Race       magical~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 40 0 0 420 1260
+Stats2     40 40 480
+Stats3     16 30 60
+Stats4     0 0 0 0 0
+Attribs    16 6 20 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#OBJECT
+Vnum     14500
+Keywords wrench irradiated glowing tool~
+Type     weapon~
+Short    an irradiated wrench~
+Long     A wrench glowing with radiation lies here.~
+WFlags   take wield~
+Values   0 8 14 7 0 0
+Stats    25 100 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14501
+Keywords blaster gnomish cobbled weapon~
+Type     weapon~
+Short    a cobbled blaster pistol~
+Long     A crudely assembled blaster pistol lies here, sparking occasionally.~
+WFlags   take wield~
+Values   0 10 18 4 0 0
+Stats    30 150 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14502
+Keywords axe trogg caverndeep stone~
+Type     weapon~
+Short    a Caverndeep trogg axe~
+Long     A crude stone axe lies here.~
+WFlags   take wield~
+Values   0 9 16 1 0 0
+Stats    28 120 28 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14503
+Keywords club grubbis massive metal~
+Type     weapon~
+Short    Grubbis's Pounding Mace~
+Long     A massive club studded with metal scraps lies here.~
+WFlags   take wield~
+Values   0 18 32 8 0 0
+Stats    50 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14504
+Keywords rod electrocutioner charged~
+Type     weapon~
+Short    the Electrocutioner's Leg~
+Long     A metal rod crackling with electricity lies here.~
+WFlags   take wield~
+Values   0 20 36 7 0 0
+Stats    55 600 55 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14505
+Keywords fist pummeler manual~
+Type     weapon~
+Short    Manual Crowd Pummeler~
+Long     A massive mechanical fist lies here.~
+WFlags   take wield~
+Values   0 22 40 7 0 0
+Stats    55 650 55 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14506
+Keywords wrench thermaplugg mekgineer~
+Type     weapon~
+Short    Thermaplugg's Wrench~
+Long     An oversized wrench crackling with energy lies here.~
+WFlags   take wield~
+Values   0 28 50 7 0 0
+Stats    60 1000 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14507
+Keywords goggles gnomish engineering green~
+Type     armor~
+Short    a pair of green-tinted goggles~
+Long     A pair of gnomish engineering goggles lies here.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    30 200 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14508
+Keywords vest mechanic leather reinforced~
+Type     armor~
+Short    a reinforced mechanic's vest~
+Long     A reinforced leather vest with metal plates lies here.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    35 250 35 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14509
+Keywords gloves insulated rubber thick~
+Type     armor~
+Short    a pair of insulated gloves~
+Long     A pair of thick rubber gloves lies here.~
+WFlags   take hands~
+Values   6 0 0 0 0 0
+Stats    25 150 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14510
+Keywords boots magnetic gnomish~
+Type     armor~
+Short    a pair of magnetic boots~
+Long     A pair of boots with magnetic soles lies here.~
+WFlags   take feet~
+Values   7 0 0 0 0 0
+Stats    28 180 28 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14511
+Keywords cloak radiation lead-lined~
+Type     armor~
+Short    a lead-lined cloak~
+Long     A heavy cloak lined with protective lead lies here.~
+WFlags   take about~
+Values   10 0 0 0 0 0
+Stats    40 300 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14512
+Keywords shield salvaged metal plate~
+Type     armor~
+Short    a salvaged metal shield~
+Long     A shield made from salvaged metal plates lies here.~
+WFlags   take shield~
+Values   14 0 0 0 0 0
+Stats    35 220 35 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14513
+Keywords ring circuit board gnomish~
+Type     armor~
+Short    a circuit board ring~
+Long     A ring made from a tiny circuit board lies here.~
+WFlags   take finger~
+Values   3 0 0 0 0 0
+Stats    20 150 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14514
+Keywords core power small glowing~
+Type     treasure~
+Short    a small power core~
+Long     A small glowing power core lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    10 200 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14515
+Keywords gear gnomish precision brass~
+Type     trash~
+Short    a precision brass gear~
+Long     A finely crafted brass gear lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14516
+Keywords wire copper coil~
+Type     trash~
+Short    a coil of copper wire~
+Long     A coil of copper wire lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    3 25 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14517
+Keywords schematic blueprint gnomish~
+Type     trash~
+Short    a gnomish schematic~
+Long     A rolled-up schematic covered in complex diagrams lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 75 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14518
+Keywords container radioactive waste barrel~
+Type     container~
+Short    a barrel of radioactive waste~
+Long     A corroded barrel leaking green sludge sits here.~
+WFlags   take~
+Values   50 0 0 0 0 0
+Stats    20 10 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14519
+Keywords rations gnomish emergency sealed~
+Type     food~
+Short    a sealed ration pack~
+Long     A sealed gnomish emergency ration pack lies here.~
+WFlags   take~
+Values   15 0 0 0 0 0
+Stats    5 30 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14520
+Keywords water purified bottle clean~
+Type     drink~
+Short    a bottle of purified water~
+Long     A bottle of precious purified water lies here.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    5 40 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14521
+Keywords key security brass gnomeregan~
+Type     key~
+Short    a Gnomeregan security key~
+Long     A brass security key lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14522
+Keywords lantern gnomish powered electric~
+Type     light~
+Short    a gnomish electric lantern~
+Long     A small electric lantern lies here, still glowing.~
+WFlags   take hold~
+Values   0 0 1000 0 0 0
+Stats    8 60 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14523
+Keywords toolbox engineer gnomish~
+Type     container~
+Short    an engineer's toolbox~
+Long     A battered gnomish toolbox lies here.~
+WFlags   take hold~
+Values   30 0 0 0 0 0
+Stats    10 80 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14524
+Keywords badge thermaplugg insignia~
+Type     treasure~
+Short    Thermaplugg's Insignia~
+Long     A badge bearing Thermaplugg's personal insignia lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14525
+Keywords sample slime irradiated vial~
+Type     trash~
+Short    a vial of irradiated slime~
+Long     A sealed vial containing glowing slime lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 35 1 0 0
+#ENDOBJECT
+

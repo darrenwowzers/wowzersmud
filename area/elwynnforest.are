@@ -1,0 +1,2633 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Elwynn Forest~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 10 0 60
+Economy      0 10000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       12000
+Keywords   wolf young forest~
+Short      a young forest wolf~
+Long       A young forest wolf prowls through the underbrush, ears alert.
+~
+Desc       This gray-furred wolf is lean and hungry. Its yellow eyes scan the forest
+floor for prey, and a low growl rumbles in its throat as you approach.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 1 0 0 15 50
+Stats2     1 1 20
+Stats3     1 2 5
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12001
+Keywords   wolf timber forest~
+Short      a timber wolf~
+Long       A timber wolf crouches low, ready to pounce.
+~
+Desc       Larger and more aggressive than its younger kin, this timber wolf has
+battle scars across its muzzle. It watches you with predatory intent.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 3 0 0 25 80
+Stats2     3 3 35
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    11 11 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12002
+Keywords   boar forest young~
+Short      a young forest boar~
+Long       A young boar snorts and roots through the dirt.
+~
+Desc       This bristly brown boar has short tusks just beginning to curve. It seems
+more interested in foraging than fighting, but looks ready to charge if
+threatened.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 2 0 0 20 60
+Stats2     2 2 30
+Stats3     1 3 6
+Stats4     0 0 0 0 0
+Attribs    12 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12003
+Keywords   boar large stonetusk~
+Short      a Stonetusk Boar~
+Long       A massive Stonetusk Boar paws at the ground aggressively.
+~
+Desc       This enormous boar has tusks as thick as a man's arm and hide like
+leather armor. Mud cakes its flanks, and foam drips from its snout.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 5 0 0 40 120
+Stats2     5 5 60
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    14 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12004
+Keywords   kobold vermin miner~
+Short      a Kobold Tunneler~
+Long       A Kobold Tunneler clutches a crude pickaxe, eyes gleaming.
+~
+Desc       This small, rat-like humanoid wears tattered rags and carries a rusty
+pickaxe. A single candle is strapped to its head, dripping wax down its
+face. It hisses, "You no take candle!"
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 4 0 0 30 100
+Stats2     4 4 50
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    10 12 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12005
+Keywords   kobold laborer worker~
+Short      a Kobold Laborer~
+Long       A Kobold Laborer shuffles along, dragging a sack of ore.
+~
+Desc       Smaller and weaker than its tunneling brethren, this kobold looks
+exhausted. It clutches a worn shovel and keeps glancing nervously over
+its shoulder.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 3 0 0 20 70
+Stats2     3 3 40
+Stats3     1 4 8
+Stats4     0 0 0 0 0
+Attribs    9 11 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12006
+Keywords   goldtooth kobold boss~
+Short      Goldtooth~
+Long       Goldtooth the Kobold boss sneers at you, clutching a gleaming gold nugget.
+~
+Desc       Larger than the other kobolds, Goldtooth has a single gold tooth that
+glints when he smiles. He wears a necklace of candles and carries a
+wicked-looking pick. He is clearly the leader of this filthy band.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 8 0 0 100 300
+Stats2     8 8 120
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    12 13 11 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12007
+Keywords   defias thug bandit~
+Short      a Defias Thug~
+Long       A Defias Thug lurks in the shadows, a red bandana covering his face.
+~
+Desc       This rough-looking human wears the distinctive red bandana of the Defias
+Brotherhood. A dagger is tucked into his belt, and his eyes dart around
+constantly, watching for guards—or easy marks.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 6 0 0 50 150
+Stats2     6 6 80
+Stats3     3 7 14
+Stats4     0 0 0 0 0
+Attribs    11 14 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12008
+Keywords   defias cutpurse bandit~
+Short      a Defias Cutpurse~
+Long       A Defias Cutpurse crouches nearby, eyeing your coin pouch.
+~
+Desc       Quick and quiet, this Defias operative specializes in relieving travelers
+of their valuables. His fingers twitch eagerly as he sizes you up.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 5 0 0 40 120
+Stats2     5 5 65
+Stats3     2 6 12
+Stats4     0 0 0 0 0
+Attribs    10 15 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12009
+Keywords   defias pathstalker bandit~
+Short      a Defias Pathstalker~
+Long       A Defias Pathstalker watches the road from the treeline.
+~
+Desc       Armed with a shortbow and wearing dark leathers, this Defias scout patrols
+the back roads of Elwynn, reporting on guard movements and ambushing
+unwary travelers.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 7 0 0 60 180
+Stats2     7 7 95
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    11 14 11 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12010
+Keywords   murloc coastal tidecaller~
+Short      a Murloc Tidecaller~
+Long       A Murloc Tidecaller gurgles menacingly, webbed fingers crackling with energy.
+~
+Desc       This slimy amphibian creature stands upright on webbed feet. Its bulbous
+eyes fix on you with alien intelligence, and faint sparks of arcane energy
+dance between its claws.
+~
+Race       amphibian~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 8 0 0 70 200
+Stats2     8 8 100
+Stats3     3 8 16
+Stats4     0 0 0 0 0
+Attribs    10 12 10 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12011
+Keywords   murloc coastal warrior~
+Short      a Murloc Coastrunner~
+Long       A Murloc Coastrunner charges forward, crude spear raised.
+~
+Desc       Covered in green and blue scales, this murloc wields a barnacle-encrusted
+spear. It lets out its distinctive gurgling war cry: "Mrglglglgl!"
+~
+Race       amphibian~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc aggressive stayarea~
+Stats1     0 6 0 0 55 160
+Stats2     6 6 75
+Stats3     3 7 14
+Stats4     0 0 0 0 0
+Attribs    12 11 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12012
+Keywords   guard stormwind patrol~
+Short      a Stormwind Patrol Guard~
+Long       A Stormwind Patrol Guard walks the road, eyes scanning for trouble.
+~
+Desc       Wearing the blue and gold of Stormwind, this guard patrols the roads of
+Elwynn Forest. He carries a longsword and shield, ready to defend
+travelers from bandits and beasts alike.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 150 500
+Stats2     10 10 200
+Stats3     8 15 30
+Stats4     0 0 0 0 0
+Attribs    14 12 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12013
+Keywords   deputy rainer willem~
+Short      Deputy Willem~
+Long       Deputy Willem stands watch at the Northshire Abbey gate.
+~
+Desc       This grizzled veteran wears slightly battered armor but carries himself
+with quiet authority. He has been stationed at Northshire for years and
+knows every inch of the valley.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 8 0 0 120 400
+Stats2     8 8 150
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    13 12 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12014
+Keywords   marshal mcbride dughan~
+Short      Marshal McBride~
+Long       Marshal McBride reviews reports at his desk, looking stern.
+~
+Desc       The Marshal of Northshire is a broad-shouldered man with a thick mustache
+and piercing eyes. He coordinates the defense of the valley and sends new
+recruits on their first missions.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 200 600
+Stats2     10 10 250
+Stats3     10 18 35
+Stats4     0 0 0 0 0
+Attribs    15 12 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12015
+Keywords   brother neals priest~
+Short      Brother Neals~
+Long       Brother Neals kneels in prayer before the altar.
+~
+Desc       This middle-aged priest wears simple brown robes. His face is kind but
+weary, showing the strain of tending to the wounded and blessing the dead
+in these troubled times.
+~
+Race       human~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 6 0 0 80 250
+Stats2     6 6 100
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    10 10 12 13 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12016
+Keywords   innkeeper farley~
+Short      Innkeeper Farley~
+Long       Innkeeper Farley wipes down the bar, whistling a tune.
+~
+Desc       A portly, balding man with a friendly smile, Farley has run the Lion's
+Pride Inn in Goldshire for twenty years. He knows all the local gossip
+and serves a mean pork roast.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 8 0 0 100 300
+Stats2     8 8 120
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    12 11 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12017
+Keywords   smith argus blacksmith~
+Short      Smith Argus~
+Long       Smith Argus hammers away at a glowing horseshoe.
+~
+Desc       Soot-covered and heavily muscled, Argus has been the blacksmith of
+Goldshire since before the First War. His forge burns hot day and night,
+producing everything from plowshares to swords.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 150 450
+Stats2     10 10 180
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    16 10 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12018
+Keywords   farmer stonefield~
+Short      Farmer Stonefield~
+Long       Farmer Stonefield leans on his hoe, surveying his fields.
+~
+Desc       A weathered man with calloused hands, Stonefield has worked this land for
+generations. He worries about wolves eating his livestock and gnolls
+raiding his fields.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 7 0 0 90 280
+Stats2     7 7 110
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    14 10 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12019
+Keywords   maybell maclure~
+Short      Maybell Maclure~
+Long       Maybell Maclure gazes wistfully toward the Stonefield Farm.
+~
+Desc       A pretty young woman with auburn hair, Maybell is caught in a secret
+romance with Tommy Joe Stonefield. The feud between their families makes
+their love forbidden.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 5 0 0 60 180
+Stats2     5 5 75
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    10 11 10 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12020
+Keywords   supervisor raelen logger~
+Short      Supervisor Raelen~
+Long       Supervisor Raelen barks orders at the logging crew.
+~
+Desc       A stern woman with her hair tied back in a practical bun, Raelen runs
+the Eastvale Logging Camp with an iron fist. She has little patience for
+laziness—or for the prowling wolves that threaten her workers.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 9 0 0 130 400
+Stats2     9 9 160
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 12 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12021
+Keywords   gnoll riverpaw scout~
+Short      a Riverpaw Gnoll~
+Long       A Riverpaw Gnoll snarls, clutching a crude axe.
+~
+Desc       This hyena-headed humanoid wears patchwork leather armor and carries
+a chipped axe. Riverpaw gnolls have been raiding farms on the western
+edge of Elwynn for months.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 7 0 0 65 190
+Stats2     7 7 90
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    13 11 11 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12022
+Keywords   gnoll riverpaw brute~
+Short      a Riverpaw Brute~
+Long       A massive Riverpaw Brute flexes its muscled arms.
+~
+Desc       Larger and stronger than the common gnoll, this brute carries a heavy
+mace and wears a necklace of teeth taken from its victims.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 9 0 0 90 270
+Stats2     9 9 130
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    15 10 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12023
+Keywords   hogger gnoll boss elite~
+Short      Hogger~
+Long       Hogger, the massive gnoll warlord, gnashes his teeth hungrily.
+~
+Desc       This legendary gnoll chieftain has terrorized Elwynn Forest for years.
+Standing nearly seven feet tall, Hogger wields a massive spiked club and
+wears the bloody trophies of countless kills. Many an overconfident
+adventurer has fallen to his brutal strength.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 11 0 0 500 1500
+Stats2     11 11 400
+Stats3     15 30 60
+Stats4     0 0 0 0 0
+Attribs    18 12 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12024
+Keywords   princess copper~
+Short      Princess~
+Long       Princess, a massive lost pig, oinks sadly.
+~
+Desc       This enormous sow belongs to Farmer Saldean. She somehow wandered all
+the way from Westfall and now roots around the Brackwell Pumpkin Patch,
+seemingly confused and very hungry.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 4 0 0 50 150
+Stats2     4 4 65
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    10 10 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12025
+Keywords   bandit morgan ladimore~
+Short      Morgan the Collector~
+Long       Morgan the Collector counts a stack of stolen coins.
+~
+Desc       This Defias lieutenant oversees tribute collection from the local farms.
+He dresses better than most bandits and carries a fine rapier. His cold
+eyes suggest he would kill without hesitation.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 10 0 0 200 600
+Stats2     10 10 220
+Stats3     8 16 32
+Stats4     0 0 0 0 0
+Attribs    12 16 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     12000
+Keywords candle kobold tallow~
+Type     light~
+Short    a kobold's candle~
+Long     A half-melted candle lies here, still dripping wax.~
+WFlags   take hold~
+Values   0 0 100 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12001
+Keywords pickaxe kobold rusty~
+Type     weapon~
+Short    a rusty kobold pickaxe~
+Long     A rusty pickaxe has been discarded here.~
+WFlags   take wield~
+Values   0 2 4 5 0 0
+Stats    2 15 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12002
+Keywords gold nugget ore~
+Type     treasure~
+Short    a gold nugget~
+Long     A small gold nugget glitters on the ground.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12003
+Keywords bandana red defias~
+Type     armor~
+Short    a red Defias bandana~
+Long     A red bandana with eye holes lies crumpled here.~
+WFlags   take head~
+Values   2 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12004
+Keywords dagger defias rusty~
+Type     weapon~
+Short    a Defias dagger~
+Long     A well-worn dagger lies here.~
+WFlags   take wield~
+Values   0 3 5 2 0 0
+Stats    3 20 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12005
+Keywords shortbow defias~
+Type     weapon~
+Short    a Defias shortbow~
+Long     A shortbow favored by Defias scouts lies here.~
+WFlags   take wield~
+Values   0 3 6 4 0 0
+Stats    4 25 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12006
+Keywords spear murloc barnacle~
+Type     weapon~
+Short    a barnacle-encrusted spear~
+Long     A crude spear covered in barnacles lies here.~
+WFlags   take wield~
+Values   0 3 6 6 0 0
+Stats    3 18 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12007
+Keywords club spiked hogger~
+Type     weapon~
+Short    Hogger's spiked club~
+Long     A massive spiked club, caked in dried blood, lies here.~
+WFlags   take wield~
+Values   0 8 16 7 0 0
+Stats    11 150 11 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12008
+Keywords pelt wolf gray~
+Type     trash~
+Short    a gray wolf pelt~
+Long     A gray wolf pelt lies in a heap here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 8 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12009
+Keywords tusk boar cracked~
+Type     trash~
+Short    a cracked boar tusk~
+Long     A cracked boar tusk lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12010
+Keywords fin murloc slimy~
+Type     trash~
+Short    a slimy murloc fin~
+Long     A slimy fin has been sliced from a murloc.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 6 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12011
+Keywords axe gnoll crude~
+Type     weapon~
+Short    a crude gnoll axe~
+Long     A crude axe with a chipped blade lies here.~
+WFlags   take wield~
+Values   0 4 8 1 0 0
+Stats    5 30 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12012
+Keywords mace gnoll heavy~
+Type     weapon~
+Short    a heavy gnoll mace~
+Long     A heavy mace with a dented head lies here.~
+WFlags   take wield~
+Values   0 6 12 8 0 0
+Stats    7 45 7 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12013
+Keywords rapier morgan fine~
+Type     weapon~
+Short    Morgan's fine rapier~
+Long     A finely crafted rapier lies here.~
+WFlags   take wield~
+Values   0 6 10 2 0 0
+Stats    10 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12014
+Keywords bread fresh loaf~
+Type     food~
+Short    a loaf of fresh bread~
+Long     A loaf of crusty bread sits here, still warm.~
+WFlags   take~
+Values   8 0 0 0 0 0
+Stats    1 3 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12015
+Keywords cheese wheel yellow~
+Type     food~
+Short    a wheel of yellow cheese~
+Long     A wheel of pungent cheese sits here.~
+WFlags   take~
+Values   6 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12016
+Keywords apple red ripe~
+Type     food~
+Short    a ripe red apple~
+Long     A shiny red apple lies here.~
+WFlags   take~
+Values   4 0 0 0 0 0
+Stats    1 2 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12017
+Keywords ale mug goldshire~
+Type     drinkcon~
+Short    a mug of Goldshire ale~
+Long     A frothy mug of ale sits here.~
+WFlags   take hold~
+Values   10 10 2 0 0 0
+Stats    1 4 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12018
+Keywords sword stormwind short~
+Type     weapon~
+Short    a Stormwind short sword~
+Long     A short sword bearing Stormwind's crest lies here.~
+WFlags   take wield~
+Values   0 4 7 3 0 0
+Stats    6 40 6 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12019
+Keywords shield wooden buckler~
+Type     armor~
+Short    a wooden buckler~
+Long     A simple wooden buckler lies here.~
+WFlags   take shield~
+Values   3 0 0 0 0 0
+Stats    3 15 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12020
+Keywords boots leather worn~
+Type     armor~
+Short    a pair of worn leather boots~
+Long     A pair of scuffed leather boots lies here.~
+WFlags   take feet~
+Values   2 0 0 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12021
+Keywords tunic linen simple~
+Type     armor~
+Short    a simple linen tunic~
+Long     A plain linen tunic has been left here.~
+WFlags   take body~
+Values   1 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12022
+Keywords gloves leather work~
+Type     armor~
+Short    a pair of leather work gloves~
+Long     A pair of sturdy work gloves lies here.~
+WFlags   take hands~
+Values   1 0 0 0 0 0
+Stats    1 4 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12023
+Keywords pouch coin leather~
+Type     container~
+Short    a leather coin pouch~
+Long     A small leather pouch lies here.~
+WFlags   take hold~
+Values   10 0 0 0 0 0
+Stats    1 8 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12024
+Keywords lumber oak stack~
+Type     trash~
+Short    a stack of oak lumber~
+Long     A neatly stacked pile of oak lumber sits here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 12 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12025
+Keywords pumpkin orange large~
+Type     food~
+Short    a large orange pumpkin~
+Long     A large pumpkin sits here, ripe for harvest.~
+WFlags   take~
+Values   10 0 0 0 0 0
+Stats    3 6 3 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     12000
+Name     &GNorthshire Valley - Abbey Entrance&d~
+Sector   city~
+Desc     You stand before the grand entrance of &WNorthshire Abbey&d, a towering
+stone structure that serves as the starting point for countless heroes of
+the Alliance. Ivy climbs the weathered walls, and the scent of incense
+drifts from within. A cobblestone path leads &Ysouth&d into the valley, while
+the heavy oak doors to the &Wnorth&d stand open in welcome.
+~
+Flags    nomob~
+#EXIT
+Direction north~
+ToRoom    12001
+Desc      The heavy oak doors lead into the abbey proper.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12003
+Desc      A cobblestone path winds into Northshire Valley.
+~
+#ENDEXIT
+Reset M 0 12013 1 12000
+#ENDROOM
+
+#ROOM
+Vnum     12001
+Name     &WNorthshire Abbey - Main Hall&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Tall stained glass windows bathe the hall in &Bblue&d, &Ygold&d, and &Wwhite&d
+light. Wooden pews line either side of a central aisle leading to a marble
+altar at the far end. Candles flicker in iron sconces, and the murmur of
+prayers echoes softly. A door to the &Yeast&d leads to the Marshal's quarters,
+while stairs descend to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    12002
+Desc      A wooden door leads to the Marshal's office.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12000
+Desc      The main entrance leads outside.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12005
+Desc      Stone stairs descend to the cellar.
+~
+#ENDEXIT
+Reset M 0 12015 1 12001
+#ENDROOM
+
+#ROOM
+Vnum     12002
+Name     &WMarshal McBride's Office&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Maps and reports cover every surface of this cramped office. A large oak
+desk dominates the room, piled high with parchment and inkwells. A sword
+and shield hang on the wall behind the desk, polished to a mirror shine.
+A single window overlooks the valley below.
+~
+#EXIT
+Direction west~
+ToRoom    12001
+Desc      The main hall of the abbey lies through this door.
+~
+#ENDEXIT
+Reset M 0 12014 1 12002
+#ENDROOM
+
+#ROOM
+Vnum     12003
+Name     &GNorthshire Valley - Cobblestone Path&d~
+Sector   field~
+Desc     A well-worn cobblestone path winds through the lush green hills of
+Northshire Valley. Apple trees line the road, their branches heavy with
+fruit. To the &Ynorth&d, the abbey rises majestically. The path continues
+&Ysouth&d toward a small vineyard, and a dirt trail branches &Yeast&d toward
+a cluster of training dummies.
+~
+#EXIT
+Direction north~
+ToRoom    12000
+Desc      The path leads to Northshire Abbey.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12004
+Desc      A dirt trail leads to the training area.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12006
+Desc      The path continues toward the vineyard.
+~
+#ENDEXIT
+Reset M 0 12012 1 12003
+#ENDROOM
+
+#ROOM
+Vnum     12004
+Name     &GNorthshire Valley - Training Grounds&d~
+Sector   field~
+Desc     Straw-stuffed training dummies stand in rows, bearing the scars of
+countless practice strikes. Young recruits spar with wooden swords under
+the watchful eyes of veteran soldiers. The clang of metal and shouts of
+instructors fill the air. The main path lies to the &Ywest&d.
+~
+#EXIT
+Direction west~
+ToRoom    12003
+Desc      The cobblestone path leads back toward the abbey.
+~
+#ENDEXIT
+Reset M 0 12012 2 12004
+#ENDROOM
+
+#ROOM
+Vnum     12005
+Name     &xAbbey Cellar&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Dusty wine barrels and crates of supplies fill this cool, damp cellar.
+Cobwebs hang from the low ceiling, and the smell of mildew mingles with
+aged oak. Rats scurry in the shadows. Stone stairs lead &Yup&d to the main
+hall.
+~
+#EXIT
+Direction up~
+ToRoom    12001
+Desc      Stone stairs lead up to the abbey.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12006
+Name     &GNorthshire Valley - The Vineyard&d~
+Sector   field~
+Desc     Rows of grapevines stretch across the hillside, heavy with purple fruit.
+Workers tend the vines, pruning and harvesting under the warm sun. A
+stone farmhouse sits to the &Yeast&d, and the cobblestone path continues
+&Ynorth&d toward the abbey and &Ysouth&d into the wilder parts of the valley.
+~
+#EXIT
+Direction north~
+ToRoom    12003
+Desc      The path leads back toward the abbey.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12007
+Desc      A stone farmhouse sits among the vines.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12008
+Desc      The valley opens up to the south.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12007
+Name     &GVineyard Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     This cozy farmhouse smells of baking bread and fermenting grapes. A
+stone hearth crackles with a small fire, and bundles of herbs hang from
+the rafters. A sturdy wooden table sits in the center of the room, covered
+with the remnants of a simple meal.
+~
+#EXIT
+Direction west~
+ToRoom    12006
+Desc      The vineyard lies just outside.
+~
+#ENDEXIT
+Reset O 0 12014 1 12007
+Reset O 0 12015 1 12007
+#ENDROOM
+
+#ROOM
+Vnum     12008
+Name     &GNorthshire Valley - Southern Hills&d~
+Sector   field~
+Desc     The gentle hills of Northshire roll away to the &Ysouth&d, where the
+forest grows thicker and wolves have been spotted prowling. Wildflowers
+dot the grass, and butterflies drift lazily in the breeze. The vineyard
+lies to the &Ynorth&d, and a narrow trail winds &Yeast&d toward an echo ridge.
+~
+#EXIT
+Direction north~
+ToRoom    12006
+Desc      The vineyard lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12009
+Desc      A narrow trail leads toward Echo Ridge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12010
+Desc      The forest grows thicker to the south.
+~
+#ENDEXIT
+Reset M 0 12000 3 12008
+Reset M 0 12002 2 12008
+#ENDROOM
+
+#ROOM
+Vnum     12009
+Name     &yEcho Ridge Mine - Entrance&d~
+Sector   mountain~
+Desc     A gaping hole in the hillside marks the entrance to &REcho Ridge Mine&d,
+long since overrun by kobolds. Discarded mining equipment lies rusted
+and broken near the entrance. Flickering candlelight glows from within,
+and high-pitched voices echo from the depths. The valley lies to the &Ywest&d.
+~
+#EXIT
+Direction west~
+ToRoom    12008
+Desc      The hills of Northshire Valley lie to the west.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    12011
+Desc      A rough tunnel descends into the mine.
+~
+#ENDEXIT
+Reset M 0 12005 2 12009
+#ENDROOM
+
+#ROOM
+Vnum     12010
+Name     &GNorthshire - Forest Edge&d~
+Sector   forest~
+Desc     The trees grow closer together here, their canopy blocking much of the
+sunlight. Underbrush rustles with unseen movement, and the distant howl
+of a wolf echoes through the woods. The safer hills of Northshire lie to
+the &Ynorth&d, while a forest path continues &Ysouth&d toward the main road.
+~
+#EXIT
+Direction north~
+ToRoom    12008
+Desc      The open hills of the valley lie to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12020
+Desc      A forest path leads toward the main road.
+~
+#ENDEXIT
+Reset M 0 12000 2 12010
+Reset M 0 12001 1 12010
+#ENDROOM
+
+#ROOM
+Vnum     12011
+Name     &xEcho Ridge Mine - Upper Tunnels&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Rough-hewn tunnels branch in multiple directions, shored up with rotting
+timber. Candle stubs are wedged into cracks in the walls, casting
+flickering shadows. The air is stale and smells of unwashed kobold. Picks
+and shovels clatter somewhere deeper in the mine.
+~
+#EXIT
+Direction up~
+ToRoom    12009
+Desc      The mine entrance lies above.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    12012
+Desc      The tunnel continues deeper into the mine.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12013
+Desc      A narrow passage branches to the east.
+~
+#ENDEXIT
+Reset M 0 12004 3 12011
+Reset M 0 12005 2 12011
+  Reset E 1 12001 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12012
+Name     &xEcho Ridge Mine - Deep Chamber&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     This large natural cavern has been converted into the kobolds' main
+living space. Crude bedrolls and piles of stolen goods litter the floor.
+A cooking fire smolders in the center, roasting something unidentifiable.
+The stench is almost unbearable.
+~
+#EXIT
+Direction south~
+ToRoom    12011
+Desc      The tunnel leads back toward the entrance.
+~
+#ENDEXIT
+Reset M 0 12004 4 12012
+  Reset E 1 12001 1 16
+  Reset E 1 12000 1 17
+Reset M 0 12005 3 12012
+Reset O 0 12002 3 12012
+#ENDROOM
+
+#ROOM
+Vnum     12013
+Name     &xEcho Ridge Mine - Goldtooth's Lair&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Glittering gold dust covers the floor of this small chamber. A crude
+throne made of stacked ore crates sits against the far wall, draped with
+a moth-eaten blanket. This is clearly the domain of the kobold leader.
+Nuggets of gold are scattered carelessly around the room.
+~
+#EXIT
+Direction west~
+ToRoom    12011
+Desc      The main tunnels lie to the west.
+~
+#ENDEXIT
+Reset M 0 12006 1 12013
+  Reset E 1 12001 1 16
+  Reset E 1 12000 1 17
+Reset O 0 12002 5 12013
+#ENDROOM
+
+#ROOM
+Vnum     12020
+Name     &GElwynn Forest - Northern Road&d~
+Sector   forest~
+Desc     The road from Northshire joins the main east-west highway that runs
+through &GElwynn Forest&d. Ancient oak and elm trees tower overhead, their
+leaves rustling in a gentle breeze. Sunlight filters through the canopy
+in golden shafts. The road continues &Ywest&d toward Goldshire and &Yeast&d
+toward the logging camp. Northshire lies to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    12010
+Desc      A path leads into Northshire Valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12050
+Desc      The road leads toward Eastvale Logging Camp.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12021
+Desc      The road leads toward Goldshire.
+~
+#ENDEXIT
+Reset M 0 12012 1 12020
+#ENDROOM
+
+#ROOM
+Vnum     12021
+Name     &GElwynn Forest - Woodland Path&d~
+Sector   forest~
+Desc     Ferns and wildflowers line this stretch of road. A squirrel scampers
+across the path and up a nearby tree. The forest feels peaceful here,
+though wise travelers keep one hand on their weapons. The road continues
+&Yeast&d and &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    12020
+Desc      The road continues east toward Northshire.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12022
+Desc      The road continues west toward Goldshire.
+~
+#ENDEXIT
+Reset M 0 12000 2 12021
+Reset M 0 12002 2 12021
+#ENDROOM
+
+#ROOM
+Vnum     12022
+Name     &GElwynn Forest - Forest Crossroads&d~
+Sector   forest~
+Desc     A weathered signpost marks this crossroads. One arrow points &Ywest&d
+toward "Goldshire," another points &Yeast&d toward "Northshire," and a
+third points &Ysouth&d toward "Stonefield Farm." The forest presses close
+on all sides.
+~
+#EXIT
+Direction east~
+ToRoom    12021
+Desc      The road leads east toward Northshire.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12070
+Desc      A dirt road leads to Stonefield Farm.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12023
+Desc      The road leads west to Goldshire.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12023
+Name     &GElwynn Forest - Goldshire Outskirts&d~
+Sector   forest~
+Desc     The trees begin to thin as the road approaches &YGoldshire&d. You can
+see smoke rising from chimneys ahead, and the sound of a blacksmith's
+hammer rings through the air. A wooden fence marks the boundary of the
+town. The road continues &Yeast&d into the forest and &Ywest&d into town.
+~
+#EXIT
+Direction east~
+ToRoom    12022
+Desc      The forest crossroads lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12024
+Desc      The road enters Goldshire.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12024
+Name     &YGoldshire - East Gate&d~
+Sector   city~
+Desc     You enter the bustling hamlet of &YGoldshire&d, the largest settlement
+in Elwynn Forest outside of Stormwind itself. The cobblestone main street
+runs &Ywest&d toward the town square. Buildings of timber and stone line
+the road, and townsfolk go about their daily business.
+~
+#EXIT
+Direction east~
+ToRoom    12023
+Desc      The forest outskirts lie to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12025
+Desc      The main street continues to the town square.
+~
+#ENDEXIT
+Reset M 0 12012 1 12024
+#ENDROOM
+
+#ROOM
+Vnum     12025
+Name     &YGoldshire - Town Square&d~
+Sector   city~
+Desc     The heart of Goldshire bustles with activity. A large fountain splashes
+in the center of the square, surrounded by merchant stalls and benches.
+The famous &WLion's Pride Inn&d stands to the &Ynorth&d, its sign creaking in
+the breeze. The &Yblacksmith&d lies to the &Ysouth&d. The main road continues
+&Yeast&d and &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    12026
+Desc      The Lion's Pride Inn welcomes weary travelers.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12024
+Desc      The road leads to the east gate.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12028
+Desc      Smoke rises from the blacksmith's forge.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12029
+Desc      The road continues west out of town.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12026
+Name     &WThe Lion's Pride Inn - Common Room&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Warmth and laughter fill this cozy common room. A roaring fire crackles
+in a massive stone hearth, and the smell of roasting meat and fresh bread
+makes your mouth water. Adventurers and locals alike crowd around wooden
+tables, sharing tales and tankards of ale. A staircase leads &Yup&d to the
+guest rooms.
+~
+#EXIT
+Direction south~
+ToRoom    12025
+Desc      The town square lies outside.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    12027
+Desc      A creaky staircase leads to the guest rooms.
+~
+#ENDEXIT
+Reset M 0 12016 1 12026
+Reset O 0 12017 5 12026
+Reset O 0 12014 3 12026
+#ENDROOM
+
+#ROOM
+Vnum     12027
+Name     &WThe Lion's Pride Inn - Upper Landing&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     A narrow hallway runs the length of the inn's upper floor, lined with
+doors to modest guest rooms. The floorboards creak underfoot, and muffled
+conversations drift through the thin walls. A window at the end of the
+hall overlooks the town square.
+~
+#EXIT
+Direction down~
+ToRoom    12026
+Desc      The stairs lead down to the common room.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12028
+Name     &YGoldshire - The Forge&d~
+Sector   city~
+Desc     Waves of heat roll from the open forge, where red-hot metal glows on
+the anvil. Weapons, horseshoes, and tools hang from racks on the walls.
+The rhythmic clang of hammer on metal echoes constantly. Soot and sparks
+fill the air.
+~
+#EXIT
+Direction north~
+ToRoom    12025
+Desc      The town square lies to the north.
+~
+#ENDEXIT
+Reset M 0 12017 1 12028
+Reset O 0 12018 2 12028
+Reset O 0 12019 2 12028
+#ENDROOM
+
+#ROOM
+Vnum     12029
+Name     &YGoldshire - West Road&d~
+Sector   city~
+Desc     The cobblestones give way to packed dirt as the road leaves Goldshire
+behind. Fields of wheat and barley stretch to either side, golden in the
+sunlight. The road continues &Ywest&d toward Crystal Lake, and the town
+square lies to the &Yeast&d. A path branches &Ysouth&d toward the Maclure
+Vineyards.
+~
+#EXIT
+Direction east~
+ToRoom    12025
+Desc      The town square lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12080
+Desc      A path leads to the Maclure Vineyards.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12030
+Desc      The road continues toward Crystal Lake.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12030
+Name     &GElwynn Forest - Crystal Lake Road&d~
+Sector   forest~
+Desc     The road curves gently as it approaches &CCrystal Lake&d. You can hear
+the gentle lapping of water through the trees. Dragonflies buzz over
+the tall grass, and the air smells of wildflowers and damp earth.
+~
+#EXIT
+Direction east~
+ToRoom    12029
+Desc      The road leads back to Goldshire.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12031
+Desc      The road continues toward Crystal Lake.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12031
+Name     &CCrystal Lake - Eastern Shore&d~
+Sector   water_noswim~
+Desc     The crystal-clear waters of the lake shimmer in the sunlight. Smooth
+pebbles line the shore, and fish dart beneath the surface. Lily pads
+float lazily near the water's edge. A wooden dock extends into the lake
+to the &Ynorth&d, and the shore curves around to the &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    12032
+Desc      A wooden dock extends into the lake.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12030
+Desc      The road leads back toward Goldshire.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12033
+Desc      The shore curves around the lake.
+~
+#ENDEXIT
+Reset M 0 12010 2 12031
+Reset M 0 12011 3 12031
+#ENDROOM
+
+#ROOM
+Vnum     12032
+Name     &CCrystal Lake - The Dock&d~
+Sector   water_noswim~
+Desc     This weathered wooden dock juts out into Crystal Lake. A few small
+rowboats are tied to posts, bobbing gently on the water. Fishermen
+occasionally come here seeking their catch, though lately murlocs have
+made that a dangerous proposition.
+~
+#EXIT
+Direction south~
+ToRoom    12031
+Desc      The shore lies to the south.
+~
+#ENDEXIT
+Reset M 0 12011 2 12032
+  Reset E 1 12006 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12033
+Name     &CCrystal Lake - Western Shore&d~
+Sector   field~
+Desc     Tall reeds grow thick along this part of the shore. The ground is muddy
+and squelches underfoot. Crude murloc huts have been constructed nearby,
+woven from reeds and driftwood. The gurgling calls of murlocs echo across
+the water.
+~
+#EXIT
+Direction east~
+ToRoom    12031
+Desc      The eastern shore lies around the bend.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    12034
+Desc      The murloc camp sprawls to the north.
+~
+#ENDEXIT
+Reset M 0 12010 1 12033
+Reset M 0 12011 2 12033
+#ENDROOM
+
+#ROOM
+Vnum     12034
+Name     &CMurloc Camp&d~
+Sector   field~
+Desc     A ramshackle collection of reed huts and fish-drying racks marks this
+murloc encampment. The stench of rotting fish is overpowering. Murlocs
+waddle about, croaking to each other in their bizarre language. Bones
+and refuse litter the muddy ground.
+~
+#EXIT
+Direction south~
+ToRoom    12033
+Desc      The western shore lies to the south.
+~
+#ENDEXIT
+Reset M 0 12010 2 12034
+  Reset E 1 12006 1 16
+Reset M 0 12011 4 12034
+Reset O 0 12010 5 12034
+#ENDROOM
+
+#ROOM
+Vnum     12050
+Name     &GElwynn Forest - Eastern Road&d~
+Sector   forest~
+Desc     The road stretches eastward through the forest, dappled sunlight filtering
+through the thick canopy overhead. Wagon ruts mark the well-traveled path
+toward the logging camp. The smell of pine and fresh-cut wood drifts on
+the breeze. The road continues &Yeast&d and &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    12051
+Desc      The road continues toward the logging camp.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12020
+Desc      The road leads back toward Northshire.
+~
+#ENDEXIT
+Reset M 0 12001 2 12050
+Reset M 0 12000 2 12050
+#ENDROOM
+
+#ROOM
+Vnum     12051
+Name     &GElwynn Forest - Logger's Trail&d~
+Sector   forest~
+Desc     Freshly cut stumps dot the roadside here, evidence of the loggers' work.
+Sawdust carpets the ground, and the rhythmic sound of axes echoes from
+the &Yeast&d. A narrow trail branches &Ysouth&d into darker woods where wolves
+have been spotted.
+~
+#EXIT
+Direction east~
+ToRoom    12052
+Desc      The logging camp lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12060
+Desc      A narrow trail leads into the deep woods.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12050
+Desc      The road leads back west.
+~
+#ENDEXIT
+Reset M 0 12001 2 12051
+#ENDROOM
+
+#ROOM
+Vnum     12052
+Name     &YEastvale Logging Camp - Entrance&d~
+Sector   city~
+Desc     Stacks of timber and lumber wagons fill this busy work camp. Muscular
+loggers haul freshly cut logs to the sawmill, their axes gleaming in the
+sun. A foreman's shack sits to the &Ynorth&d, and the main work area lies
+to the &Yeast&d. The forest road leads &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    12053
+Desc      The foreman's shack stands nearby.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12054
+Desc      The sawmill and main work area lie ahead.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12051
+Desc      The forest road leads back west.
+~
+#ENDEXIT
+Reset M 0 12012 1 12052
+Reset O 0 12024 3 12052
+#ENDROOM
+
+#ROOM
+Vnum     12053
+Name     &YEastvale Logging Camp - Foreman's Shack&d~
+Sector   inside~
+Flags    indoors~
+Desc     This cramped wooden shack serves as the office for camp operations. A
+desk covered in paperwork sits beneath a window, and logging schedules
+are pinned to every wall. Tools hang from hooks near the door, and a
+pot of bitter coffee simmers on a small stove.
+~
+#EXIT
+Direction south~
+ToRoom    12052
+Desc      The camp entrance lies outside.
+~
+#ENDEXIT
+Reset M 0 12020 1 12053
+#ENDROOM
+
+#ROOM
+Vnum     12054
+Name     &YEastvale Logging Camp - Sawmill&d~
+Sector   city~
+Desc     A large water-powered sawmill dominates this area, its great blade
+shrieking as it slices through massive logs. Sawdust fills the air like
+golden snow. Workers shout over the noise, guiding timber into position.
+Stacks of finished planks are piled to the &Ysouth&d.
+~
+#EXIT
+Direction west~
+ToRoom    12052
+Desc      The camp entrance lies to the west.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12055
+Desc      Lumber storage lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12056
+Desc      Worker barracks stand to the east.
+~
+#ENDEXIT
+Reset O 0 12024 5 12054
+#ENDROOM
+
+#ROOM
+Vnum     12055
+Name     &YEastvale Logging Camp - Lumber Storage&d~
+Sector   city~
+Desc     Mountains of cut lumber are stacked here in neat rows, ready for transport
+to Stormwind. The sweet smell of fresh pine is overwhelming. Workers mark
+inventory on slate boards, tallying the camp's output.
+~
+#EXIT
+Direction north~
+ToRoom    12054
+Desc      The sawmill lies to the north.
+~
+#ENDEXIT
+Reset O 0 12024 10 12055
+#ENDROOM
+
+#ROOM
+Vnum     12056
+Name     &YEastvale Logging Camp - Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Simple wooden bunks line the walls of this long building. Loggers' personal
+belongings hang from hooks and sit in footlockers. The smell of sweat and
+wood shavings permeates everything. A few off-duty workers rest on their
+bunks.
+~
+#EXIT
+Direction west~
+ToRoom    12054
+Desc      The sawmill lies to the west.
+~
+#ENDEXIT
+Reset O 0 12020 2 12056
+Reset O 0 12021 3 12056
+#ENDROOM
+
+#ROOM
+Vnum     12060
+Name     &gDeep Forest - Wolf Den Approach&d~
+Sector   forest~
+Desc     The forest grows dark and dense here. Ancient trees block out most of
+the sunlight, and the undergrowth is thick with thorny brambles. Wolf
+tracks crisscross the muddy ground, and a feral howl echoes in the
+distance. The trail continues &Ysouth&d, and the logger's trail lies &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    12051
+Desc      The logger's trail lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12061
+Desc      The wolf den lies deeper in the woods.
+~
+#ENDEXIT
+Reset M 0 12001 3 12060
+Reset M 0 12000 2 12060
+#ENDROOM
+
+#ROOM
+Vnum     12061
+Name     &gDeep Forest - Wolf Den&d~
+Sector   forest~
+Desc     A rocky outcropping forms a natural shelter here, now serving as a den
+for the timber wolves that plague the logging camp. Bones and scraps of
+fur litter the ground. Yellow eyes gleam from the shadows, and low growls
+warn you to keep your distance.
+~
+#EXIT
+Direction north~
+ToRoom    12060
+Desc      The forest trail leads back north.
+~
+#ENDEXIT
+Reset M 0 12001 4 12061
+Reset O 0 12008 3 12061
+#ENDROOM
+
+#ROOM
+Vnum     12070
+Name     &GStonefield Farm - North Field&d~
+Sector   field~
+Desc     Golden wheat sways in the breeze across this well-tended field. A
+scarecrow stands sentinel among the stalks, its burlap face sagging.
+The main farmhouse lies to the &Ysouth&d, and the forest crossroads are
+to the &Ynorth&d. You can hear chickens clucking nearby.
+~
+#EXIT
+Direction north~
+ToRoom    12022
+Desc      The forest crossroads lie to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12071
+Desc      The farmhouse lies to the south.
+~
+#ENDEXIT
+Reset M 0 12002 2 12070
+#ENDROOM
+
+#ROOM
+Vnum     12071
+Name     &YStonefield Farm - Farmhouse&d~
+Sector   city~
+Desc     A sturdy stone farmhouse with a thatched roof stands at the center of the
+Stonefield property. Chickens peck at the dirt in a fenced yard, and a
+milk cow lows from a nearby pen. The smell of home cooking drifts from
+within. Fields stretch &Ynorth&d and &Ysouth&d, and a barn stands to the &Yeast&d.
+~
+#EXIT
+Direction north~
+ToRoom    12070
+Desc      The north field lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12072
+Desc      The barn stands to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12073
+Desc      The south pasture lies beyond.
+~
+#ENDEXIT
+Reset M 0 12018 1 12071
+#ENDROOM
+
+#ROOM
+Vnum     12072
+Name     &YStonefield Farm - Barn&d~
+Sector   inside~
+Flags    indoors~
+Desc     Hay bales are stacked high in this large wooden barn. Farm tools hang
+from the walls, and the smell of animals and grain fills the air. A
+horse whickers from its stall, and a fat tabby cat lounges on a hay bale,
+watching mice with lazy disinterest.
+~
+#EXIT
+Direction west~
+ToRoom    12071
+Desc      The farmhouse lies to the west.
+~
+#ENDEXIT
+Reset O 0 12022 2 12072
+#ENDROOM
+
+#ROOM
+Vnum     12073
+Name     &GStonefield Farm - South Pasture&d~
+Sector   field~
+Desc     Sheep graze peacefully in this fenced pasture, their wool thick and white.
+A small pond provides water for the livestock. The fence shows signs of
+recent repair—gnolls have been testing the boundaries at night. The
+farmhouse lies &Ynorth&d, and a gate leads &Ysouth&d toward gnoll territory.
+~
+#EXIT
+Direction north~
+ToRoom    12071
+Desc      The farmhouse lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12074
+Desc      A gate leads toward dangerous territory.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12074
+Name     &gGnoll-Infested Hills&d~
+Sector   hills~
+Desc     The land grows rough and wild here, covered in tall grass and rocky
+outcroppings. Gnoll totems made of bones and feathers mark their territory.
+The creatures have established camps throughout these hills, raiding the
+nearby farms. Stonefield Farm lies to the &Ynorth&d, and the hills continue
+&Ysouth&d and &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    12073
+Desc      The safety of Stonefield Farm lies north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12075
+Desc      The gnoll encampment lies ahead.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12076
+Desc      More gnoll-infested hills stretch westward.
+~
+#ENDEXIT
+Reset M 0 12021 3 12074
+Reset M 0 12022 2 12074
+  Reset E 1 12012 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12075
+Name     &rRiverpaw Gnoll Camp&d~
+Sector   hills~
+Desc     Crude tents made from stolen canvas and animal hides cluster around a
+central fire pit. Gnolls squat around the flames, gnawing on bones and
+snarling at each other. Stolen goods from local farms are piled carelessly
+around the camp. The stench of rotting meat is nauseating.
+~
+#EXIT
+Direction north~
+ToRoom    12074
+Desc      The hills lead back toward the farm.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12077
+Desc      Hogger's ridge lies to the west.
+~
+#ENDEXIT
+Reset M 0 12021 4 12075
+  Reset E 1 12011 1 16
+Reset M 0 12022 2 12075
+  Reset E 1 12012 1 16
+Reset O 0 12011 2 12075
+#ENDROOM
+
+#ROOM
+Vnum     12076
+Name     &gGnoll-Infested Hills - West&d~
+Sector   hills~
+Desc     Boulders and scraggly trees dot these windswept hills. Gnoll scouts
+patrol the area, watching for intruders—or easy prey. The ground is
+littered with bones picked clean. The hills continue &Yeast&d and &Ysouth&d.
+~
+#EXIT
+Direction east~
+ToRoom    12074
+Desc      The hills continue eastward.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12077
+Desc      A ridge rises to the south.
+~
+#ENDEXIT
+Reset M 0 12021 2 12076
+Reset M 0 12022 1 12076
+#ENDROOM
+
+#ROOM
+Vnum     12077
+Name     &RHogger's Ridge&d~
+Sector   hills~
+Desc     This rocky hilltop is dominated by a massive gnoll who can only be
+&RHogger&d himself. The infamous warlord has claimed this ridge as his
+throne, surrounded by his most loyal warriors. Bones of fallen adventurers
+litter the ground as a warning to others. The gnoll camp lies &Yeast&d,
+and the hills stretch &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    12076
+Desc      The hills continue north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12075
+Desc      The gnoll camp lies to the east.
+~
+#ENDEXIT
+Reset M 0 12023 1 12077
+  Reset E 1 12007 1 16
+Reset M 0 12022 2 12077
+  Reset E 1 12012 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12080
+Name     &GMaclure Vineyards - Entrance&d~
+Sector   field~
+Desc     Rows of grapevines heavy with purple fruit stretch across rolling hills.
+The Maclure family has tended these vineyards for generations, producing
+some of Elwynn's finest wines. A dirt path leads &Ysouth&d to the main
+estate, and the road to Goldshire lies &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    12029
+Desc      The road leads to Goldshire.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12081
+Desc      The vineyard estate lies ahead.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12081
+Name     &YMaclure Vineyards - Estate Grounds&d~
+Sector   city~
+Desc     A handsome manor house overlooks the vineyard, its whitewashed walls
+gleaming in the sun. Wine barrels are stacked near a stone cellar entrance,
+and workers carry baskets of grapes toward the pressing house to the &Yeast&d.
+The vineyard stretches &Ynorth&d, and a garden path leads &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    12080
+Desc      The vineyard entrance lies north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12082
+Desc      The pressing house stands to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12083
+Desc      A garden path leads west.
+~
+#ENDEXIT
+Reset M 0 12019 1 12081
+#ENDROOM
+
+#ROOM
+Vnum     12082
+Name     &YMaclure Vineyards - Pressing House&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sweet, heady aroma of fermenting grapes fills this building. Large
+wooden vats hold the grape must, and workers stomp the fruit in traditional
+fashion. Wine barrels line the walls in various stages of aging.
+~
+#EXIT
+Direction west~
+ToRoom    12081
+Desc      The estate grounds lie to the west.
+~
+#ENDEXIT
+Reset O 0 12017 3 12082
+#ENDROOM
+
+#ROOM
+Vnum     12083
+Name     &GMaclure Vineyards - Rose Garden&d~
+Sector   field~
+Desc     A beautiful garden of roses and flowering shrubs provides a romantic
+retreat from the work of the vineyard. Stone benches sit beneath arbors
+heavy with climbing roses. This is where young Maybell Maclure often
+comes to dream of her forbidden love.
+~
+#EXIT
+Direction east~
+ToRoom    12081
+Desc      The estate grounds lie to the east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12090
+Name     &GElwynn Forest - Southern Road&d~
+Sector   forest~
+Desc     The road winds south through increasingly wild forest. Defias bandits
+have been spotted in this area, preying on travelers heading to and from
+Westfall. A path branches &Ywest&d toward Fargodeep Mine. The road continues
+&Ynorth&d toward Goldshire and &Ysouth&d toward Mirror Lake.
+~
+#EXIT
+Direction north~
+ToRoom    12029
+Desc      The road leads north toward Goldshire.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12100
+Desc      The road continues toward Mirror Lake.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12091
+Desc      A path leads toward Fargodeep Mine.
+~
+#ENDEXIT
+Reset M 0 12007 2 12090
+Reset M 0 12008 2 12090
+#ENDROOM
+
+#ROOM
+Vnum     12091
+Name     &yFargodeep Mine - Approach&d~
+Sector   hills~
+Desc     A rutted cart path leads toward the abandoned &RFargodeep Mine&d. The
+entrance yawns darkly ahead, and the glint of candles can be seen within.
+Kobolds have overrun this once-productive gold mine, making it too
+dangerous for legitimate miners. The main road lies &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    12090
+Desc      The main road lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12092
+Desc      The mine entrance beckons.
+~
+#ENDEXIT
+Reset M 0 12005 2 12091
+#ENDROOM
+
+#ROOM
+Vnum     12092
+Name     &xFargodeep Mine - Entrance&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Broken mine carts and rusted tools litter the entrance to this abandoned
+mine. Kobold graffiti covers the walls—crude drawings and warnings in
+their guttural language. The flicker of candles illuminates tunnels
+leading &Ywest&d and &Ynorth&d.
+~
+#EXIT
+Direction east~
+ToRoom    12091
+Desc      The approach lies outside.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    12093
+Desc      A tunnel branches north.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12094
+Desc      The main tunnel continues west.
+~
+#ENDEXIT
+Reset M 0 12004 3 12092
+  Reset E 1 12001 1 16
+Reset M 0 12005 2 12092
+#ENDROOM
+
+#ROOM
+Vnum     12093
+Name     &xFargodeep Mine - North Tunnel&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     This cramped tunnel shows signs of recent excavation. Kobolds have been
+expanding the mine, following veins of gold deep into the earth. Piles
+of loose rock and abandoned tools lie scattered about.
+~
+#EXIT
+Direction south~
+ToRoom    12092
+Desc      The entrance lies to the south.
+~
+#ENDEXIT
+Reset M 0 12004 4 12093
+  Reset E 1 12001 1 16
+  Reset E 1 12000 1 17
+Reset O 0 12002 2 12093
+#ENDROOM
+
+#ROOM
+Vnum     12094
+Name     &xFargodeep Mine - Deep Shaft&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The tunnel opens into a large cavern where multiple mining shafts converge.
+Rickety wooden scaffolding clings to the walls, and rope ladders dangle
+into deeper darkness below. The kobolds have made this their main base of
+operations within the mine.
+~
+#EXIT
+Direction east~
+ToRoom    12092
+Desc      The entrance tunnel lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    12095
+Desc      A rope ladder descends into the depths.
+~
+#ENDEXIT
+Reset M 0 12004 4 12094
+Reset M 0 12005 3 12094
+  Reset E 1 12001 1 16
+Reset O 0 12002 3 12094
+#ENDROOM
+
+#ROOM
+Vnum     12095
+Name     &xFargodeep Mine - Lower Depths&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The deepest part of the mine is damp and cold. Water drips from the
+ceiling, and the air is thick with the smell of earth and kobold. Rich
+veins of gold glitter in the walls, explaining why the creatures guard
+this place so fiercely.
+~
+#EXIT
+Direction up~
+ToRoom    12094
+Desc      The rope ladder leads back up.
+~
+#ENDEXIT
+Reset M 0 12006 1 12095
+  Reset E 1 12001 1 16
+  Reset E 1 12000 1 17
+Reset M 0 12004 3 12095
+Reset O 0 12002 5 12095
+#ENDROOM
+
+#ROOM
+Vnum     12100
+Name     &GElwynn Forest - Mirror Lake Road&d~
+Sector   forest~
+Desc     The forest thins as the road approaches &CMirror Lake&d. You can glimpse
+the still waters through the trees, reflecting the sky like polished glass.
+An orchard lies to the &Yeast&d, and the road continues &Ynorth&d and &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    12090
+Desc      The road leads north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12105
+Desc      The orchard lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12101
+Desc      The road continues toward Mirror Lake.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12101
+Name     &CMirror Lake - Northern Shore&d~
+Sector   field~
+Desc     The perfectly still waters of &CMirror Lake&d stretch before you, reflecting
+the clouds above with uncanny clarity. Reeds grow thick along the shore,
+and the calls of waterfowl echo across the water. The shore curves &Ywest&d
+and &Yeast&d, and the road lies &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    12100
+Desc      The forest road lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12102
+Desc      The shore curves to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12103
+Desc      The shore curves to the west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12102
+Name     &CMirror Lake - Eastern Shore&d~
+Sector   field~
+Desc     Willow trees drape their branches over the water here, creating a
+peaceful, secluded spot. Frogs croak from lily pads, and dragonflies
+skim the surface. A few fish rise to snatch insects from the air.
+~
+#EXIT
+Direction west~
+ToRoom    12101
+Desc      The northern shore lies to the west.
+~
+#ENDEXIT
+Reset M 0 12002 2 12102
+#ENDROOM
+
+#ROOM
+Vnum     12103
+Name     &CMirror Lake - Western Shore&d~
+Sector   field~
+Desc     A small dock extends into the lake here, used by local fishermen. An
+abandoned rowboat has been pulled up on the shore, its oars missing.
+The tower of &YRidgepoint&d is visible to the &Ywest&d, rising above the trees.
+~
+#EXIT
+Direction east~
+ToRoom    12101
+Desc      The northern shore lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12110
+Desc      A path leads toward Ridgepoint Tower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12105
+Name     &GMirror Lake Orchard&d~
+Sector   field~
+Desc     Apple and pear trees grow in neat rows across this hillside orchard.
+Ripe fruit hangs heavy on the branches, and fallen apples dot the grass
+beneath. The sweet smell of fruit mingles with the buzz of bees. A small
+farmhouse sits to the &Yeast&d.
+~
+#EXIT
+Direction west~
+ToRoom    12100
+Desc      The road lies to the west.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12106
+Desc      A farmhouse sits among the trees.
+~
+#ENDEXIT
+Reset O 0 12016 5 12105
+#ENDROOM
+
+#ROOM
+Vnum     12106
+Name     &YOrchard Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     This cozy farmhouse smells of apple pie and cinnamon. Baskets of fruit
+are stacked near the door, ready for transport to market. A spinning wheel
+sits by the hearth, and bundles of dried herbs hang from the rafters.
+~
+#EXIT
+Direction west~
+ToRoom    12105
+Desc      The orchard lies outside.
+~
+#ENDEXIT
+Reset O 0 12014 2 12106
+Reset O 0 12016 3 12106
+#ENDROOM
+
+#ROOM
+Vnum     12110
+Name     &GRidgepoint Tower - Approach&d~
+Sector   forest~
+Desc     A narrow path winds up a rocky hill toward the crumbling remains of
+&YRidgepoint Tower&d. Once a watchtower guarding the southern reaches of
+Elwynn, it has fallen into disrepair. Defias bandits have been seen in
+the area. Mirror Lake lies to the &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    12103
+Desc      The lake shore lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12111
+Desc      The path climbs toward the tower.
+~
+#ENDEXIT
+Reset M 0 12007 2 12110
+#ENDROOM
+
+#ROOM
+Vnum     12111
+Name     &yRidgepoint Tower - Base&d~
+Sector   hills~
+Desc     The crumbling stone base of Ridgepoint Tower rises before you. The lower
+level has collapsed into rubble, but a makeshift wooden staircase leads
+&Yup&d to the intact upper floors. Defias graffiti marks the walls, and
+the remains of campfires suggest recent occupation.
+~
+#EXIT
+Direction east~
+ToRoom    12110
+Desc      The approach path lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    12112
+Desc      A rickety staircase leads up.
+~
+#ENDEXIT
+Reset M 0 12007 2 12111
+  Reset E 1 12004 1 16
+Reset M 0 12008 2 12111
+  Reset E 1 12004 1 16
+#ENDROOM
+
+#ROOM
+Vnum     12112
+Name     &yRidgepoint Tower - Upper Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     This level of the tower is largely intact, though holes in the roof let
+in rain and starlight. The Defias have converted it into a hideout, with
+stolen crates and bedrolls scattered about. A ladder leads &Yup&d to the
+roof.
+~
+#EXIT
+Direction down~
+ToRoom    12111
+Desc      The stairs lead down.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    12113
+Desc      A ladder leads to the roof.
+~
+#ENDEXIT
+Reset M 0 12009 2 12112
+  Reset E 1 12005 1 16
+Reset M 0 12008 2 12112
+  Reset E 1 12004 1 16
+Reset O 0 12003 2 12112
+#ENDROOM
+
+#ROOM
+Vnum     12113
+Name     &YRidgepoint Tower - Roof&d~
+Sector   city~
+Desc     From the top of Ridgepoint Tower, you can see for miles in every direction.
+&CMirror Lake&d glitters to the &Yeast&d, and the forests of &GElwynn&d stretch
+toward &WStormwind&d in the north. To the &Ysouth&d and &Ywest&d, the brown
+fields of &yWestfall&d mark the edge of Alliance-controlled territory.
+~
+#EXIT
+Direction down~
+ToRoom    12112
+Desc      The ladder leads back down.
+~
+#ENDEXIT
+Reset M 0 12025 1 12113
+  Reset E 1 12013 1 16
+  Reset E 1 12003 1 4
+#ENDROOM
+
+#ROOM
+Vnum     12120
+Name     &gBrackwell Pumpkin Patch&d~
+Sector   field~
+Desc     Rows of pumpkin vines sprawl across this small farm, their orange fruit
+gleaming in the sun. The Brackwell family has abandoned the place after
+repeated Defias raids. Now Princess, a lost pig from Westfall, roots
+through the vines, feasting on fallen pumpkins.
+~
+#EXIT
+Direction north~
+ToRoom    12090
+Desc      The southern road lies to the north.
+~
+#ENDEXIT
+Reset M 0 12024 1 12120
+Reset O 0 12025 5 12120
+#ENDROOM
+
+#ENDAREA

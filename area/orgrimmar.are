@@ -1,0 +1,3329 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Orgrimmar~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 50 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       11200
+Keywords   grunt orgrimmar guard orc~
+Short      an Orgrimmar Grunt~
+Long       An Orgrimmar Grunt stands tall, watching for Alliance intruders.
+~
+Desc       Covered in sweat and dust, this massive orc warrior wears heavy spiked
+armor and grips a battleaxe with terrifying familiarity. He represents
+the raw, untamed power of the Horde.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 7000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11201
+Keywords   auctioneer thathung orc~
+Short      Auctioneer Thathung~
+Long       Auctioneer Thathung barks out the latest bids over the roaring crowd.
+~
+Desc       Thathung organizes the chaotic flow of goods through the Horde capital.
+He is a surprisingly shrewd businessman for an orc, keeping meticulous
+ledgers of every transaction.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11202
+Keywords   innkeeper gryshka orc~
+Short      Innkeeper Gryshka~
+Long       Innkeeper Gryshka cleans a massive roasted boar leg behind the counter.
+~
+Desc       Gryshka runs The Broken Tusk with an iron fist. She has no patience for
+brawls that break her furniture, but she will gladly serve a weary
+traveler a strong drink and a warm bed.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11203
+Keywords   banker guard gorg orc~
+Short      Gorg the Vault Guard~
+Long       Gorg the Vault Guard stands before the heavy iron safes.
+~
+Desc       Gorg is missing an eye and half an ear, likely from a previous attempt
+by someone to rob the Orgrimmar Bank. He looks incredibly eager for
+someone to try it again.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11204
+Keywords   peon lumak worker orc~
+Short      Lumak the Peon~
+Long       Lumak the Peon trudges by, carrying a massive load of lumber.
+~
+Desc       "Work, work." Lumak looks exhausted. He is responsible for expanding
+the wooden scaffolding that holds much of Orgrimmar together.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea wimpy~
+Stats1     0 10 0 0 100 500
+Stats2     10 10 100
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    15 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11205
+Keywords   weaponsmith sorek orc~
+Short      Sorek the Weaponsmith~
+Long       Sorek hammers a glowing hot blade upon a heavy black anvil.
+~
+Desc       A master smith of the Horde, Sorek produces weapons that are brutal,
+heavy, and exceptionally effective at crushing Alliance armor.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11206
+Keywords   wind rider wyvern mount~
+Short      a tamed Wind Rider~
+Long       A massive, tawny Wind Rider rests here, waiting for a passenger.
+~
+Desc       A fierce combination of lion and wyvern, this beast is the primary
+mode of aerial transportation for the Horde. It watches you with sharp,
+intelligent eyes.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1000 4000
+Stats2     40 40 400
+Stats3     4 8 15
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11207
+Keywords   child orc young boy~
+Short      an orc child~
+Long       An orc child runs past, chasing a scruffy-looking boar.
+~
+Desc       Even at a young age, the children of Orgrimmar are tough, loud, and
+always spoiling for a play-fight.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea wimpy~
+Stats1     0 5 0 0 50 200
+Stats2     5 5 50
+Stats3     1 5 5
+Stats4     0 0 0 0 0
+Attribs    12 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11208
+Keywords   overlord runthak veteran orc~
+Short      Overlord Runthak~
+Long       Overlord Runthak surveys the Valley, looking for able-bodied warriors.
+~
+Desc       A legendary veteran of the Horde, Runthak organizes raids and defenses.
+He wears heavily scarred plate armor and commands absolute respect from
+everyone in the city.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 5000 25000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11209
+Keywords   tharlidun barkeep meat vendor~
+Short      Tharlidun~
+Long       Tharlidun chops a large slab of mystery meat with a cleaver.
+~
+Desc       Providing the Valley of Strength with tough meat and strong drink,
+Tharlidun doesn't care who you are, as long as you have the coin to pay.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11210
+Keywords   zevrost warlock trainer dark~
+Short      Zevrost the Warlock~
+Long       Zevrost stands in the shadows, murmuring dark incantations.
+~
+Desc       Clad in sinister, spiked robes, this orc has forsaken the elements
+for the raw, chaotic power of the twisting nether. His eyes glow with
+an unnatural, sickly green light.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11211
+Keywords   zamja cooking trainer troll~
+Short      Zamja the Cook~
+Long       Zamja vigorously stirs a massive, bubbling cauldron of stew.
+~
+Desc       This lanky jungle troll is responsible for feeding a good portion of
+The Drag. The smells coming from her cauldron are a mix of delicious
+spices and extremely questionable meats.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11212
+Keywords   karolek leatherworking trainer orc~
+Short      Karolek the Leatherworker~
+Long       Karolek stretches a massive kodo hide over a wooden tanning rack.
+~
+Desc       Covered in thick leather aprons and smelling strongly of tanning oils
+and salt, Karolek crafts the durable armor needed by the Horde's rogues
+and hunters.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7500
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11213
+Keywords   guard drag patrol grunt orc~
+Short      a Drag Patrol Grunt~
+Long       A heavy-set Grunt patrols the shadowy walkways of The Drag.
+~
+Desc       The guards in The Drag are notoriously harsh. They have to be, to keep
+the warlocks, rogues, and shady merchants from stabbing each other
+in the dark alleys.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1500 7000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11214
+Keywords   krixel goblin merchant shady~
+Short      Krixel Pinchwhistle~
+Long       Krixel Pinchwhistle rubs his hands together, eying your coin purse.
+~
+Desc       A greasy, fast-talking goblin who sells goods that likely fell off the
+back of a zeppelin. He has a wide, toothy grin and absolutely zero morals.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 40 0 0 800 4000
+Stats2     40 40 400
+Stats3     5 8 15
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11215
+Keywords   voidwalker demon minion blue~
+Short      a summoned Voidwalker~
+Long       A massive, hulking Voidwalker floats here, anchored to this plane.
+~
+Desc       A creature of pure, dark void energy. It wears iron bracers that bind
+it to the will of its warlock master. It emits a low, localized hum
+that rattles your teeth.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 45 0 0 2000 8000
+Stats2     45 45 450
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     demonic~
+Speaking   demonic~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11216
+Keywords   yelmak alchemy trainer forsaken~
+Short      Yelmak the Apothecary~
+Long       Yelmak carefully mixes a glowing green vial of unknown liquid.
+~
+Desc       One of the few Forsaken to operate openly in Orgrimmar, Yelmak provides
+the Horde with potent elixirs and deadly poisons. His skin is decayed,
+and he smells faintly of formaldehyde.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7500
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common gutterspeak~
+Speaking   gutterspeak~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11217
+Keywords   magar tailoring trainer orc~
+Short      Magar the Tailor~
+Long       Magar expertly sews a spellthread into a bolt of silk cloth.
+~
+Desc       Unlike the heavy plate and leather common to the Horde, Magar specializes
+in the delicate cloth and robes required by the city's casters.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11218
+Keywords   orphan orc child drag~
+Short      a Drag Orphan~
+Long       A dirty orc orphan hides in the shadows, watching you carefully.
+~
+Desc       Growing up in The Drag makes a child tough, stealthy, and deeply
+distrustful of strangers.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea wimpy~
+Stats1     0 5 0 0 50 200
+Stats2     5 5 50
+Stats3     1 5 5
+Stats4     0 0 0 0 0
+Attribs    10 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11219
+Keywords   xiggs engineering trainer goblin~
+Short      Xiggs Fuselighter~
+Long       Xiggs mutters curses as a small mechanical device sparks violently.
+~
+Desc       This goblin is missing an eyebrow and part of a finger, the hallmarks
+of a master engineer. He provides the Horde with explosives, scopes,
+and terrifyingly unstable gadgets.
+~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7500
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11220
+Keywords   huntress jandi troll hunter trainer~
+Short      Huntress Jandi~
+Long       Huntress Jandi stands with her raptor, eying the horizon.
+~
+Desc       A lithe jungle troll with sharp eyes and a sharper spear. She teaches
+young hunters how to track prey and command the beasts of the wild.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7500
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11221
+Keywords   wulfhor warrior trainer orc~
+Short      Wulfhor~
+Long       Wulfhor stands amidst a pile of broken practice weapons.
+~
+Desc       This massive orc is a mountain of muscle and scar tissue. He has
+dedicated his life to the mastery of the blade and the protection of
+the Horde. He expects nothing but excellence from his students.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11222
+Keywords   sagorne creststrider shaman trainer tauren~
+Short      Sagorne Creststrider~
+Long       Sagorne Creststrider meditates beside a flickering brazier.
+~
+Desc       A venerable tauren shaman whose connection to the elements is
+tangible. The air around him seems to hum with the quiet power of
+earth and fire.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 12000
+Stats2     60 60 800
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11223
+Keywords   valley honor guard elite grunt orc~
+Short      a Valley Elite Grunt~
+Long       An elite Orgrimmar Grunt keeps a sharp eye on the dueling pits.
+~
+Desc       Tasked with maintaining order in the city's most volatile district,
+this grunt is faster and better equipped than his counterparts in
+the Valley of Strength.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1800 8000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11224
+Keywords   raptor tamed pet raptor~
+Short      a tamed raptor~
+Long       A colorful raptor hisses quietly at your approach.~
+Desc       Vibrant feathers and razor-sharp claws mark this beast as a predator
+of the jungle, now broken to the will of the Horde's hunters.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 800 3000
+Stats2     40 40 400
+Stats3     4 8 15
+Stats4     0 0 0 0 0
+Attribs    16 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11225
+Keywords   kil'hala fishing trainer troll~
+Short      Kil'hala~
+Long       Kil'hala watches a small bobber floating in the valley waters.
+~
+Desc       A patient troll who finds peace in the quiet waters of the valley.
+He is happy to teach anyone the virtue of patience and a good lure.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11226
+Keywords   han'ari herbalism trainer troll~
+Short      Han'ari~
+Long       Han'ari tends to a patch of vibrant briarthorn.
+~
+Desc       A troll woman with dirt under her fingernails and a vast knowledge
+of the flora of Kalimdor. She smells of earth and crushed petals.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11227
+Keywords   joshua wayne stable master human~
+Short      Joshua Wayne~
+Long       Joshua Wayne grooms a nearby mount with expert care.
+~
+Desc       One of the few humans allowed in the city, Joshua serves as a stable
+master, ensuring the mounts of the Horde are well-fed and rested.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11228
+Keywords   training fighter orc ring valor~
+Short      a Ring of Valor fighter~
+Long       An orc fighter practice swings a heavy wooden mace.~
+Desc       Sweating and determined, this warrior is preparing for the brutal
+gladiator matches that define the Ring of Valor.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 45 0 0 1000 4000
+Stats2     45 45 450
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    16 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11229
+Keywords   kodo great beast mount~
+Short      a Great Kodo~
+Long       A massive, lumbering Great Kodo stands patiently here.~
+Desc       The iconic mount of the Tauren. Its skin is like thick leather, and
+its strength is unmatched by any other beast in the Horde.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2000 5000
+Stats2     40 40 400
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    20 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11230
+Keywords   thrall warchief horde orc~
+Short      Warchief Thrall~
+Long       Thrall, Warchief of the Horde, stands before his throne with Doomhammer in hand.
+~
+Desc       The leader of the Horde is a massive orc clad in heavy black plate armor.
+He radiates a calm but terrifying power, and his blue eyes—rare for an orc—
+watch you with profound wisdom and strength.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 70 0 0 50000 100000
+Stats2     70 70 1500
+Stats3     10 20 40
+Stats4     0 0 0 0 0
+Attribs    20 20 20 20 20 20 20
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11231
+Keywords   etrigg veteran advisor orc~
+Short      Etrigg~
+Long       Etrigg, a weathered veteran, stands at the Warchief's right hand.
+~
+Desc       An old orc who has seen more war than most entire battalions. He
+serves as a primary advisor to Thrall, offering the hard-won wisdom
+of a soldier who survived the corruption of the old Horde.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 65 0 0 5000 20000
+Stats2     65 65 800
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11232
+Keywords   rahauro elder tauren wisdom~
+Short      Elder Rahauro~
+Long       Elder Rahauro stands tall, draped in ceremonial furs.
+~
+Desc       A massive tauren who speaks with a voice like rumbling earth. He
+oversees the Tauren presence in Orgrimmar, ensuring the traditions
+of Mulgore are respected even in this city of iron.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 3000 12000
+Stats2     60 60 800
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11233
+Keywords   kor'kron elite guard orc~
+Short      a Kor'kron Elite Guard~
+Long       A Kor'kron Elite Guard stands motionless, protecting the Warchief.
+~
+Desc       The finest warriors in the Horde, the Kor'kron are sworn to defend the
+Warchief to their last breath. They wear heavy black plate and carry
+massive, glowing axes.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 65 0 0 5000 20000
+Stats2     65 65 800
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11234
+Keywords   shikay shamanistic apprentice troll~
+Short      Shikay~
+Long       Shikay is carefully arranging smooth stones in a circular pattern.
+~
+Desc       A young troll mystic who is learning to read the signs of the
+elements. She is soft-spoken and focused on the balance of nature.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11235
+Keywords   kormek engineering vendor goblin~
+Short      Kormek~
+Long       Kormek is trying to fix a small mechanical squirrel.
+~
+Desc       A goblin engineer who has set up shop near the elevators. He is
+covered in soot and grease, but his gadgets are legendary (if
+slightly explosive).
+~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11236
+Keywords   wisdom seeker tauren seeker~
+Short      a Wisdom Seeker~
+Long       A tauren seeker meditates quietly in the grass.~
+Desc       Dressed in humble robes, this tauren has traveled far to seek
+the counsel of the Warchief and the elders.
+~
+Race       tauren~
+Class      warrior~
+Position   resting~
+DefPos     resting~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 45 0 0 1200 6000
+Stats2     45 45 450
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11237
+Keywords   spirit elemental faint wisp~
+Short      a faint spirit wisp~
+Long       A tiny, glowing spirit wisp floats aimlessly here.~
+Desc       A minor manifestation of the elements, drawn to the high spiritual
+energy of the Valley of Wisdom. It glows with a soft, pale blue light.
+~
+Race       monster~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 10 0 0 100 200
+Stats2     10 10 100
+Stats3     1 5 2
+Stats4     0 0 0 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11238
+Keywords   overseer tosh orc elevator~
+Short      Overseer Tosh~
+Long       Overseer Tosh pulls a heavy lever to operate the elevator.
+~
+Desc       Responsible for the safety of the wooden elevators, Tosh is an
+orc of few words and many muscles.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1500 7000
+Stats2     55 55 550
+Stats3     5 10 22
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11239
+Keywords   kodo pack beast beast~
+Short      a pack kodo~
+Long       A heavily laden pack kodo waits for its master.~
+Desc       This kodo is carrying supplies for the Tauren delegates. It is
+docile and smells of hay and leather.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc sentinel stayarea~
+Stats1     0 35 0 0 2000 4000
+Stats2     35 35 350
+Stats3     3 7 15
+Stats4     0 0 0 0 0
+Attribs    18 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11200
+Keywords battleaxe axe orcish grunt iron~
+Type     weapon~
+Short    a heavy iron battleaxe~
+Long     A heavy, blood-stained iron battleaxe rests in the dust.~
+WFlags   take wield~
+Values   0 10 15 3 0 0
+Stats    10 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11201
+Keywords pauldrons spiked grunt armor~
+Type     armor~
+Short    spiked grunt pauldrons~
+Long     A pair of heavy, spiked shoulder plates have been discarded here.~
+WFlags   take shoulders~
+Values   10 0 0 0 0 0
+Stats    15 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11202
+Keywords roasted boar leg meat food~
+Type     food~
+Short    a roasted boar leg~
+Long     A massive, greasy roasted boar leg sits here, smelling delicious.~
+WFlags   take hold~
+Values   20 20 0 0 0 0
+Stats    2 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11203
+Keywords jug boars blood drink~
+Type     drinkcon~
+Short    a jug of Boar's Blood~
+Long     A crude clay jug filled with a thick, red liquid sits here.~
+WFlags   take hold~
+Values   15 15 1 0 0 0
+Stats    3 15 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11204
+Keywords shield hide kodo heavy~
+Type     armor~
+Short    a heavy kodo hide shield~
+Long     A thick shield made of stretched kodo hide lies in the dirt.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    10 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11205
+Keywords mace iron spiked heavy~
+Type     weapon~
+Short    a spiked iron mace~
+Long     A brutal looking spiked iron mace has been dropped here.~
+WFlags   take wield~
+Values   0 12 18 7 0 0
+Stats    12 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11206
+Keywords strongbox iron heavy bank container~
+Type     container~
+Short    a heavy iron strongbox~
+Long     A massive, incredibly heavy iron strongbox sits secured to the floor.~
+WFlags   none~
+Values   500 13 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11207
+Keywords tabard orgrimmar red black horde~
+Type     armor~
+Short    an Orgrimmar tabard~
+Long     A red and black tabard bearing the symbol of the Horde is here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11208
+Keywords pick pickaxe mining peon wooden~
+Type     weapon~
+Short    a wooden mining pick~
+Long     A well-worn wooden mining pick lies abandoned on the ground.~
+WFlags   take wield~
+Values   0 2 6 11 0 0
+Stats    4 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11209
+Keywords chair rough wooden stool~
+Type     furniture~
+Short    a rough wooden chair~
+Long     A sturdy, roughly hewn wooden chair sits near the wall.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    20 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11210
+Keywords skewer meat mystery food~
+Type     food~
+Short    a skewer of mystery meat~
+Long     A greasy skewer loaded with unidentifiable, spicy meat sits here.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11211
+Keywords grimoire void dark warlock book~
+Type     treasure~
+Short    a Grimoire of the Void~
+Long     A heavy, shadow-infused grimoire lies discarded in the dust.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11212
+Keywords cured rugged leather piece hide~
+Type     treasure~
+Short    a piece of cured rugged leather~
+Long     A perfectly tanned piece of rugged leather has been left here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11213
+Keywords potion green glowing vial elixir~
+Type     potion~
+Short    a glowing green potion~
+Long     A glass vial filled with a bubbling, glowing green liquid sits here.~
+WFlags   take hold~
+Values   10 -1 -1 -1 0 0
+Stats    1 50 5 0 0
+Spells   'cure poison' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11214
+Keywords cowl shadow dark rogue leather~
+Type     armor~
+Short    a dark shadow cowl~
+Long     A hood of pitch-black leather rests here, absorbing the light.~
+WFlags   take head~
+Values   5 0 0 0 0 0
+Stats    2 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11215
+Keywords knife skinning bone sharp~
+Type     weapon~
+Short    a jagged bone skinning knife~
+Long     A razor-sharp skinning knife carved from bone has been dropped.~
+WFlags   take wield~
+Values   0 2 6 11 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11216
+Keywords cables jumper goblin engineering~
+Type     treasure~
+Short    goblin jumper cables~
+Long     A set of frayed wires and copper clamps spark menacingly on the ground.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    3 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11217
+Keywords bolt silk cloth red~
+Type     treasure~
+Short    a bolt of red silk cloth~
+Long     A folded bolt of crimson silk cloth rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11218
+Keywords mask voodoo troll wooden~
+Type     armor~
+Short    a wooden voodoo mask~
+Long     A brightly painted, frightening wooden troll mask lies here.~
+WFlags   take head~
+Values   4 0 0 0 0 0
+Stats    3 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11219
+Keywords cauldron iron bubbling cooking~
+Type     furniture~
+Short    a massive bubbling cauldron~
+Long     A massive black iron cauldron bubbles furiously over an open flame.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    100 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11220
+Keywords spear jandi jagged troll hunter~
+Type     weapon~
+Short    a jagged troll spear~
+Long     A spear with a wickedly curved obsidian head lies here.~
+WFlags   take wield~
+Values   0 8 14 11 0 0
+Stats    6 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11221
+Keywords pole fishing sturdy wooden~
+Type     staff~
+Short    a sturdy wooden fishing pole~
+Long     A long, flexible wooden pole rests against a rock.~
+WFlags   take wield~
+Values   0 0 0 0 0 0
+Stats    2 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11222
+Keywords herb peacebloom fresh flower~
+Type     treasure~
+Short    a fresh peacebloom flower~
+Long     A small, fragrant white flower has been dropped here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11223
+Keywords totem earth carved wooden shaman~
+Type     treasure~
+Short    a carved earth totem~
+Long     A heavy wooden totem carved with the symbol of earth sits here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11224
+Keywords meat chunk raw kodo food~
+Type     food~
+Short    a raw chunk of kodo meat~
+Long     A large, bloody slab of raw kodo meat is here.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    5 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11225
+Keywords buckler iron rusted fighter~
+Type     armor~
+Short    a rusted iron buckler~
+Long     A small, dented iron buckler lies discarded in the dust.~
+WFlags   take shield~
+Values   4 0 0 0 0 0
+Stats    8 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11226
+Keywords bow hunting yew wood hunter~
+Type     weapon~
+Short    a yew wood hunting bow~
+Long     A simple but well-crafted yew wood bow rests here.~
+WFlags   take wield~
+Values   0 5 10 4 0 0
+Stats    4 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11227
+Keywords kodo saddle leather heavy~
+Type     armor~
+Short    a heavy kodo saddle~
+Long     A massive leather saddle designed for a kodo is here.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    30 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11228
+Keywords drum kodo hide war~
+Type     treasure~
+Short    a kodo hide war drum~
+Long     A large drum made of kodo hide sits waiting for a beat.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    10 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11229
+Keywords banner horde red torn~
+Type     treasure~
+Short    a torn Horde banner~
+Long     A ragged red banner with the black Horde symbol flutters here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11230
+Keywords doomhammer replica massive hammer~
+Type     weapon~
+Short    a massive black iron hammer~
+Long     A massive, soot-blackened iron hammer lies here, heavy with power.~
+WFlags   take wield~
+Values   0 15 25 3 0 0
+Stats    20 2000 200 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11231
+Keywords robe elder fur ceremonial~
+Type     armor~
+Short    ceremonial elder robes~
+Long     A set of robes made from thick kodo fur and feathers sits here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    10 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11232
+Keywords tobacco pouch thunder bluff~
+Type     treasure~
+Short    a pouch of Thunder Bluff tobacco~
+Long     A small leather pouch smells of rich, earthy tobacco.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11233
+Keywords staff wisdom wooden gnarled~
+Type     staff~
+Short    a gnarled wooden staff~
+Long     A staff of ancient wood, carved with eagle feathers, leans here.~
+WFlags   take wield~
+Values   0 10 15 11 0 0
+Stats    5 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11234
+Keywords potion intellect blue vial~
+Type     potion~
+Short    a sapphire intellect potion~
+Long     A small vial of swirling blue liquid glows on the ground.~
+WFlags   take hold~
+Values   15 -1 -1 -1 0 0
+Stats    1 150 15 0 0
+Spells   'bless' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11235
+Keywords scroll wisdom ancient parchment~
+Type     scroll~
+Short    an ancient scroll of wisdom~
+Long     A yellowed parchment tied with a leather thong lies here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 200 20 0 0
+Spells   'identify' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     11236
+Keywords bomb goblin explosive small~
+Type     weapon~
+Short    a small goblin bomb~
+Long     A round metal sphere with a short fuse sits precariously here.~
+WFlags   take hold~
+Values   0 20 30 11 0 0
+Stats    5 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11237
+Keywords incense stick sweet smelling~
+Type     treasure~
+Short    a stick of sweet incense~
+Long     A thin stick of incense sends a curl of blue smoke into the air.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11238
+Keywords chair throne wooden massive~
+Type     furniture~
+Short    the Warchief's Throne~
+Long     A massive throne made of dark iron and kodo bone dominates the room.~
+WFlags   none~
+Values   0 0 0 0 0 0
+Stats    500 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11239
+Keywords banner tauren green white~
+Type     treasure~
+Short    a green and white Tauren banner~
+Long     A banner depicting the stylized hawk of the Tauren flutters here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 10 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     11200
+Name     &OThe Gates of Orgrimmar&d~
+Sector   city~
+Desc     You stand before the awe-inspiring, brutalist architecture of Orgrimmar.
+Massive iron spikes and logs the size of houses form a heavily fortified
+gate protecting the canyon within. The dry heat of Durotar bears down
+mercilessly.
+~
+#EXIT
+Direction north~
+ToRoom    11201
+Desc      The path leads under the massive iron spikes into the city.
+~
+#ENDEXIT
+Reset M 0 11200 2 11200
+  Reset E 1 11200 10 16
+  Reset E 1 11201 10 12
+#ENDROOM
+
+#ROOM
+Vnum     11201
+Name     &OThe Main Gateway&d~
+Sector   city~
+Desc     You are walking through the thick, heavily defended tunnel that serves
+as the only ground entrance to the Horde capital. Torches flicker against
+the rough-hewn stone walls. The smell of dust, sweat, and forge fires
+drifts from the north.
+~
+#EXIT
+Direction north~
+ToRoom    11202
+Desc      The gateway opens up into the Valley of Strength.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11200
+Desc      The blazing sun of Durotar waits outside.
+~
+#ENDEXIT
+Reset M 0 11200 2 11201
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11202
+Name     &OValley of Strength - South Walk&d~
+Sector   city~
+Desc     The canyon opens up dramatically, revealing the Valley of Strength. The
+ground is baked red earth. Enormous wooden structures with taut hide
+roofs surround a central pillar of stone. The constant sound of drums
+and hammering fills the air.
+~
+#EXIT
+Direction north~
+ToRoom    11203
+Desc      The bustling central pillar of the Valley.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11201
+Desc      The gateway leading out of the city.
+~
+#ENDEXIT
+Reset M 0 11207 2 11202
+#ENDROOM
+
+#ROOM
+Vnum     11203
+Name     &OValley of Strength - Central Pillar&d~
+Sector   city~
+Desc     You stand at the crossroads of the Valley of Strength, wrapping around
+a massive natural pillar of red rock. Warriors, peons, and shaman
+hurry past. To the west is the heavily guarded Bank, and to the east
+lies the chaotic Auction House.
+~
+#EXIT
+Direction north~
+ToRoom    11208
+Desc      The path winds northward.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11206
+Desc      The entrance to the Orgrimmar Auction House.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11202
+Desc      The path back toward the main gates.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11204
+Desc      The heavily reinforced Orgrimmar Bank.
+~
+#ENDEXIT
+Reset M 0 11204 3 11203
+  Reset E 1 11208 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11204
+Name     &OOrgrimmar Bank&d~
+Sector   inside~
+Flags    indoors~
+Desc     This structure is built directly into the canyon wall, reinforced with
+thick iron plates and heavy wooden beams. Goblins and orcs alike manage
+the immense wealth of the Horde here, keeping a highly suspicious eye
+on anyone who lingers too long.
+~
+#EXIT
+Direction east~
+ToRoom    11203
+Desc      The dusty central pillar of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11205
+Desc      A ramp leads down into the vaults.
+~
+#ENDEXIT
+Reset M 0 11203 2 11204
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11205
+Name     &OThe Bank Vaults&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air down here is cool and smells of oiled iron and gold dust. Rows
+upon rows of heavy strongboxes are bolted to the solid stone floor. It
+would take an army to break into this subterranean fortress.
+~
+#EXIT
+Direction up~
+ToRoom    11204
+Desc      The ramp leads up to the main banking floor.
+~
+#ENDEXIT
+Reset M 0 11203 2 11205
+  Reset E 1 11200 10 16
+Reset O 0 11206 1 11205
+#ENDROOM
+
+#ROOM
+Vnum     11206
+Name     &OOrgrimmar Auction House&d~
+Sector   inside~
+Flags    indoors~
+Desc     The noise in here is deafening. Adventurers from across Kalimdor and
+the Eastern Kingdoms crowd the floor, shouting prices, inspecting
+strange magical reagents, and trading armor. Several raised platforms
+hold the busy auctioneers.
+~
+#EXIT
+Direction east~
+ToRoom    11207
+Desc      The auction floor continues deeper into the building.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11203
+Desc      The central pillar of the valley.
+~
+#ENDEXIT
+Reset M 0 11201 1 11206
+#ENDROOM
+
+#ROOM
+Vnum     11207
+Name     &OAuction House Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     More auctioneers stand upon wooden crates here, rapidly fielding bids
+from the chaotic crowd of trolls, tauren, orcs, and forsaken. A large
+chalkboard tracks the fluctuating prices of copper ore and heavy leather.
+~
+#EXIT
+Direction west~
+ToRoom    11206
+Desc      The entrance of the Auction House.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11208
+Name     &OValley of Strength - North Walk&d~
+Sector   city~
+Desc     The red dirt path continues to follow the canyon wall. Directly to the
+east is a large, inviting wooden structure with smoke billowing from its
+chimney—the renowned Broken Tusk inn. To the north, a tunnel leads
+deeper into the city.
+~
+#EXIT
+Direction north~
+ToRoom    11219
+Desc      A dark tunnel leads toward The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11209
+Desc      The entrance to The Broken Tusk inn.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11203
+Desc      The central pillar of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11212
+Desc      A path winding toward Grommash Hold.
+~
+#ENDEXIT
+Reset M 0 11207 2 11208
+#ENDROOM
+
+#ROOM
+Vnum     11209
+Name     &OThe Broken Tusk - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The smell of roasted meat and strong ale hits you immediately. The Broken
+Tusk is a massive, multi-level tavern built of logs and hide. It is the
+premier resting spot in Orgrimmar, filled with the loud boasting of
+victorious warbands.
+~
+#EXIT
+Direction east~
+ToRoom    11210
+Desc      The main bar area.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11208
+Desc      The dusty path of the valley.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11210
+Name     &OThe Broken Tusk - Bar&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive fire pit dominates the center of the room, slowly roasting an
+entire boar. Sturdy wooden tables are scattered about, surrounded by
+patrons drinking heavily from clay jugs. The innkeeper watches the room
+with a hawkish glare.
+~
+#EXIT
+Direction west~
+ToRoom    11209
+Desc      The entrance to the inn.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11211
+Desc      A heavy wooden ramp leads to the upper sleeping quarters.
+~
+#ENDEXIT
+Reset M 0 11202 1 11210
+  Reset E 1 11202 10 17
+Reset M 0 11209 1 11210
+  Reset E 1 11203 10 17
+Reset O 0 11209 4 11210
+#ENDROOM
+
+#ROOM
+Vnum     11211
+Name     &OThe Broken Tusk - Upper Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The upper floor is surprisingly quiet, insulated by thick kodo hides.
+Several hammocks and rough beds are set up here, offering weary
+travelers a safe place to rest and recover before heading back out
+into the harsh Barrens.
+~
+#EXIT
+Direction down~
+ToRoom    11210
+Desc      The noisy bar is below.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11212
+Name     &OValley of Strength - West Walk&d~
+Sector   city~
+Desc     The path winds westward, approaching the most heavily fortified structure
+in the Valley. Elite grunts patrol this area with rigorous discipline.
+The imposing spires of Grommash Hold rise ominously just to the north.
+~
+#EXIT
+Direction north~
+ToRoom    11213
+Desc      The heavily guarded entrance to Grommash Hold.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11208
+Desc      The main walk of the valley.
+~
+#ENDEXIT
+Reset M 0 11200 2 11212
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11213
+Name     &OGrommash Hold - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand at the threshold of Grommash Hold, the seat of power in
+Orgrimmar. The architecture here is jagged, aggressive, and built for
+war. The air is thick with tension and the smell of ozone from dark
+shamanistic rituals.
+~
+#EXIT
+Direction north~
+ToRoom    11214
+Desc      The central war room of the Hold.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11212
+Desc      The path leading back to the valley.
+~
+#ENDEXIT
+Reset M 0 11200 2 11213
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11214
+Name     &OGrommash Hold - War Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive tactical map of Kalimdor sits in the center of the room. High
+ranking warlords and advisors surround it, arguing over supply lines
+and troop movements in Ashenvale. The walls are lined with the weapons
+and armor of defeated enemies.
+~
+#EXIT
+Direction south~
+ToRoom    11213
+Desc      The entrance to the Hold.
+~
+#ENDEXIT
+Reset M 0 11208 1 11214
+  Reset E 1 11200 10 16
+  Reset E 1 11201 10 12
+  Reset E 1 11207 10 5
+#ENDROOM
+
+#ROOM
+Vnum     11215
+Name     &OValley of Strength - East Walk&d~
+Sector   city~
+Desc     The eastern curve of the valley is unbearably hot. The heat radiates
+from massive open-air furnaces and anvils located just to the north.
+The rhythmic clang of metal striking metal drowns out almost all other
+sounds.
+~
+#EXIT
+Direction north~
+ToRoom    11216
+Desc      The searing heat of the Forge.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11203
+Desc      The central pillar of the valley.
+~
+#ENDEXIT
+Reset M 0 11204 3 11215
+  Reset E 1 11208 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11216
+Name     &RThe Forge&d~
+Sector   city~
+Desc     Sparks fill the air as the Horde's finest weaponsmiths ply their trade.
+Massive iron cauldrons bubble with molten metal. Racks of freshly
+forged axes, maces, and thick armor plates line the walls, ready to be
+shipped to the front lines.
+~
+#EXIT
+Direction south~
+ToRoom    11215
+Desc      The eastern walk of the valley.
+~
+#ENDEXIT
+Reset M 0 11205 1 11216
+  Reset E 1 11205 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11217
+Name     &OValley of Strength - Wyvern Roost Base&d~
+Sector   city~
+Desc     A massive wooden tower rises high into the sky above you. This is the
+base of the Orgrimmar Sky Tower, the hub for the city's Wind Riders.
+A spiraling wooden ramp wraps around the central pillar, leading up
+to the roosts.
+~
+#EXIT
+Direction south~
+ToRoom    11208
+Desc      The main walk of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11218
+Desc      The ramp winds upward to the Wyvern Master.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11218
+Name     &OOgimmar Sky Tower&d~
+Sector   city~
+Desc     You are high above the Valley of Strength. The wind whips fiercely up
+here. Several tame Wind Riders rest on wooden perches, awaiting their
+next long-distance flight across the Barrens or beyond. The view of
+the city below is spectacular.
+~
+#EXIT
+Direction down~
+ToRoom    11217
+Desc      The ramp winds back down to the dusty valley floor.
+~
+#ENDEXIT
+Reset M 0 11206 2 11218
+#ENDROOM
+
+#ROOM
+Vnum     11219
+Name     &dEntrance to The Drag&d~
+Sector   city~
+Desc     The red dirt gives way to a dark, slightly oppressive tunnel cut straight
+through the rock. The light of the sun is blocked out here, replaced by
+the eerie glow of shamanistic braziers. This tunnel marks the border
+between the Valley of Strength and the shadowy alleys of The Drag.
+~
+#EXIT
+Direction north~
+ToRoom    11220
+Desc      The shadowy expanse of The Drag begins here.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11208
+Desc      The sunlit Valley of Strength.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11220
+Name     &dThe Drag - South Entrance&d~
+Sector   city~
+Desc     You step out of the tunnel and into The Drag. Enormous, cured kodo hides
+are stretched across the top of the canyon walls, plunging the entire
+district into perpetual twilight. The air is thick with the smell of
+spices, alchemy, and dark magic.
+~
+#EXIT
+Direction north~
+ToRoom    11221
+Desc      The path winds deeper into The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11219
+Desc      The tunnel leading back to the Valley of Strength.
+~
+#ENDEXIT
+Reset M 0 11213 2 11220
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11221
+Name     &dThe Drag - Main Path&d~
+Sector   city~
+Desc     The dirt path winds between rough-hewn stone buildings and leather tents.
+Citizens hurry past, keeping their heads down. To the east, you can hear
+the vigorous bubbling of a massive cooking pot and the chopping of meat.
+~
+#EXIT
+Direction north~
+ToRoom    11223
+Desc      The path continues north into the shadows.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11222
+Desc      The smell of strange stew wafts from the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11220
+Desc      The southern entrance of The Drag.
+~
+#ENDEXIT
+Reset M 0 11218 2 11221
+#ENDROOM
+
+#ROOM
+Vnum     11222
+Name     &OZamja's Cooking Fire&d~
+Sector   inside~
+Flags    indoors~
+Desc     This open-air alcove is dominated by a massive iron cauldron suspended
+over a roaring fire. Spices hang from the rafters, drying in the intense
+heat. It is the central hub for learning the culinary arts in Orgrimmar,
+though the ingredients are often highly questionable.
+~
+#EXIT
+Direction west~
+ToRoom    11221
+Desc      The main path of The Drag.
+~
+#ENDEXIT
+Reset M 0 11211 1 11222
+  Reset E 1 11215 10 16
+Reset O 0 11219 1 11222
+Reset O 0 11210 2 11222
+#ENDROOM
+
+#ROOM
+Vnum     11223
+Name     &dThe Drag - Shady Corner&d~
+Sector   city~
+Desc     The canyon walls close in tightly here, creating deep, impenetrable
+shadows. A fast-talking goblin has set up a small cart here, peddling
+goods that glint suspiciously in the dim light.
+~
+#EXIT
+Direction north~
+ToRoom    11225
+Desc      The central hub of The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11221
+Desc      The path leading south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11224
+Desc      A small shop filled with bolts of cloth.
+~
+#ENDEXIT
+Reset M 0 11214 1 11223
+  Reset E 1 11216 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11224
+Name     &dMagar's Cloth Goods&d~
+Sector   inside~
+Flags    indoors~
+Desc     This small shop is surprisingly clean compared to the rest of The Drag.
+Bolts of silk, mageweave, and wool are stacked neatly on wooden shelves.
+This is where the Horde's spellcasters come to have their robes mended
+and tailored.
+~
+#EXIT
+Direction east~
+ToRoom    11223
+Desc      The shady corner of The Drag.
+~
+#ENDEXIT
+Reset M 0 11217 1 11224
+Reset O 0 11217 2 11224
+#ENDROOM
+
+#ROOM
+Vnum     11225
+Name     &dThe Drag - Central Walk&d~
+Sector   city~
+Desc     You stand in the approximate center of The Drag. The overhead canopy of
+hides blocks out the sky completely. To the east, the rhythmic scraping
+of hide tanning echoes loudly. To the west, a dark, ominous ramp spirals
+downward into the earth.
+~
+#EXIT
+Direction north~
+ToRoom    11233
+Desc      The path continues north toward the engineering shops.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11226
+Desc      The pungent smell of tanning oil comes from the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11223
+Desc      The shady corner of The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11227
+Desc      A dark ramp leads down into the Cleft of Shadow.
+~
+#ENDEXIT
+Reset M 0 11213 2 11225
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11226
+Name     &OThe Kodohide Leatherworks&d~
+Sector   inside~
+Flags    indoors~
+Desc     The smell in here is incredibly strong, a mix of salt, blood, and harsh
+tanning chemicals. Massive hides from kodos and thunder lizards are
+stretched across wooden frames, curing in the dry heat.
+~
+#EXIT
+Direction west~
+ToRoom    11225
+Desc      The central walk of The Drag.
+~
+#ENDEXIT
+Reset M 0 11212 1 11226
+  Reset E 1 11215 10 16
+Reset O 0 11212 2 11226
+#ENDROOM
+
+#ROOM
+Vnum     11227
+Name     &dEntrance to the Cleft of Shadow&d~
+Sector   city~
+Desc     A wide, spiraling ramp cut directly into the bedrock descends into the
+darkness below. Purple and green torches cast long, sickly shadows on
+the walls. The air temperature drops noticeably as you stand near the
+descent.
+~
+#EXIT
+Direction east~
+ToRoom    11225
+Desc      The central walk of The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11228
+Desc      The ramp winds down into the subterranean caverns.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11228
+Name     &dCleft of Shadow - Descent&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You are walking down the spiraling ramp into the subterranean belly of
+Orgrimmar. The noise of the city above fades away, replaced by the
+unsettling whispers of demonic entities and the sharp hiss of sharpening
+blades.
+~
+#EXIT
+Direction up~
+ToRoom    11227
+Desc      The ramp leads back up to The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11229
+Desc      The ramp bottoms out into a large cavern.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11229
+Name     &dCleft of Shadow - Central Cavern&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You stand in a massive, natural cavern beneath Orgrimmar. Bioluminescent
+fungus and fel-green braziers provide the only light. This hidden
+sanctuary is where the Horde's warlocks and rogues practice arts deemed
+too dangerous or unseemly for the streets above.
+~
+#EXIT
+Direction north~
+ToRoom    11232
+Desc      The shadows deepen to the north, favored by the rogues.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11230
+Desc      The warlock encampment lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11228
+Desc      The ramp leads back to the surface.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11230
+Name     &dCleft of Shadow - Warlock Encampment&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This area hums with chaotic, unstable energy. Books bound in strange
+leather are piled haphazardly on stone tables. The warlocks here study
+the dark arts, summoning entities from the Twisting Nether to do their
+bidding, regardless of the terrible risks.
+~
+#EXIT
+Direction north~
+ToRoom    11229
+Desc      The central cavern.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11231
+Desc      A summoning circle is etched into the floor to the west.
+~
+#ENDEXIT
+Reset M 0 11210 1 11230
+  Reset E 1 11211 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11231
+Name     &dCleft of Shadow - Summoning Circle&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A massive, intricate rune of power is carved deeply into the stone floor,
+glowing with a harsh, fel-green light. The air here tastes like ash and
+brimstone. This is where demons are pulled from the void and broken to
+the will of the Horde.
+~
+#EXIT
+Direction east~
+ToRoom    11230
+Desc      The warlock encampment.
+~
+#ENDEXIT
+Reset M 0 11215 1 11231
+#ENDROOM
+
+#ROOM
+Vnum     11232
+Name     &dCleft of Shadow - Rogue's Corner&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     It is incredibly quiet here. The few orcs and trolls present are clad in
+dark leather, speaking in hushed whispers or communicating in thieves'
+cant. Poisons are mixed, and daggers are honed to razor edges in the
+gloom.
+~
+#EXIT
+Direction south~
+ToRoom    11229
+Desc      The central cavern.
+~
+#ENDEXIT
+Reset O 0 11214 1 11232
+Reset O 0 11218 1 11232
+#ENDROOM
+
+#ROOM
+Vnum     11233
+Name     &dThe Drag - Northern Path&d~
+Sector   city~
+Desc     Back on the surface, the path of The Drag continues northward. The air
+here is filled with the acrid smell of alchemy and the sharp tang of
+black powder. To the east, strange, bubbling sounds emanate from an
+apothecary station.
+~
+#EXIT
+Direction north~
+ToRoom    11236
+Desc      The path winds deeper into the shadows.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11234
+Desc      The entrance to the Apothecarium.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11225
+Desc      The central walk of The Drag.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11234
+Name     &dThe Apothecarium&d~
+Sector   inside~
+Flags    indoors~
+Desc     A localized pocket of the Undercity right here in Orgrimmar. Vials of
+glowing liquids, dried herbs, and strange anatomical specimens line the
+walls. The Forsaken apothecaries here work tirelessly on new plagues
+and potent elixirs.
+~
+#EXIT
+Direction west~
+ToRoom    11233
+Desc      The northern path of The Drag.
+~
+#ENDEXIT
+Reset M 0 11216 1 11234
+  Reset E 1 11213 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11235
+Name     &OGoblin Engineering Shop&d~
+Sector   inside~
+Flags    indoors~
+Desc     This small workshop is a chaotic mess of gears, springs, and black powder.
+Explosion marks scorch the walls and ceiling. It is loud, dangerous,
+and fully operational. Buy at your own risk.
+~
+#EXIT
+Direction east~
+ToRoom    11236
+Desc      The shadowy path outside.
+~
+#ENDEXIT
+Reset M 0 11219 1 11235
+  Reset E 1 11216 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11236
+Name     &dThe Drag - Deep Shadows&d~
+Sector   city~
+Desc     The overhead hides are thickest here, creating an area of almost total
+darkness during the day. Sparks flash periodically from the engineering
+shop to the west, briefly illuminating the dust motes dancing in the air.
+~
+#EXIT
+Direction north~
+ToRoom    11238
+Desc      The path approaches the northern exit.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11233
+Desc      The northern path of The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11235
+Desc      The chaotic Goblin Engineering Shop.
+~
+#ENDEXIT
+Reset M 0 11218 1 11236
+#ENDROOM
+
+#ROOM
+Vnum     11237
+Name     &dTroll Mystic's Hut&d~
+Sector   inside~
+Flags    indoors~
+Desc     This small hut is adorned with carved wooden masks and shrunken heads.
+Incense burns heavily, filling the room with a thick, sweet smoke. This
+is a place of voodoo, spirit whispering, and ancient troll magic.
+~
+#EXIT
+Direction west~
+ToRoom    11238
+Desc      The path near the northern exit of The Drag.
+~
+#ENDEXIT
+Reset O 0 11218 1 11237
+#ENDROOM
+
+#ROOM
+Vnum     11238
+Name     &dThe Drag - North Exit Approach&d~
+Sector   city~
+Desc     The tight, oppressive canyon walls of The Drag finally begin to widen
+here. The overhead canopy of hides ends abruptly just to the north,
+letting the blinding Durotar sunlight spill onto the red dirt path.
+~
+#EXIT
+Direction north~
+ToRoom    11239
+Desc      The path opens up, leading toward the Valley of Honor.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11237
+Desc      A small, smoke-filled Troll hut.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11236
+Desc      The deep shadows of The Drag.
+~
+#ENDEXIT
+Reset M 0 11213 2 11238
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11239
+Name     &OPath Toward the Valley of Honor&d~
+Sector   city~
+Desc     You step out from beneath the canopy and blink against the harsh sunlight.
+The claustrophobic shadows of The Drag are behind you. The path here
+widens significantly, winding its way north toward the martial heart of
+the city, the Valley of Honor.
+~
+#EXIT
+Direction north~
+ToRoom    11240
+Desc      The path opens into the Valley of Honor.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11238
+Desc      The dark entrance back into The Drag.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11240
+Name     &OValley of Honor - Southern Entrance&d~
+Sector   city~
+Desc     The red cliffs of Orgrimmar peel away to reveal a sprawling valley
+dedicated to the art of war. Unlike the industrial clatter of the
+Valley of Strength, here you hear the rhythmic thrum of drums and
+the clash of steel on steel.
+~
+#EXIT
+Direction north~
+ToRoom    11241
+Desc      The main path leads toward a large body of water.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11239
+Desc      The path leading back toward The Drag.
+~
+#ENDEXIT
+Reset M 0 11223 2 11240
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11241
+Name     &OValley of Honor - Water's Edge&d~
+Sector   city~
+Desc     A large, artificial oasis has been created here, fed by subterranean
+springs. The water is clear but still, providing a stark contrast to
+the dry dust of the valley. A lone troll sits quietly at the edge,
+watching a fishing line.
+~
+#EXIT
+Direction north~
+ToRoom    11243
+Desc      A path winds around the western shore of the water.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11242
+Desc      A dirt path leads to the stables.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11240
+Desc      The valley entrance.
+~
+#ENDEXIT
+Reset M 0 11225 1 11241
+  Reset E 1 11221 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11242
+Name     &OOrgrimmar Stables&d~
+Sector   field~
+Desc     A large, fenced-off area contains several massive kodos and a few
+lumbering wolves. The smell of hay and animal musk is thick here.
+Stable hands move about, ensuring the Horde's mounts are ready for
+the next long patrol.
+~
+#EXIT
+Direction west~
+ToRoom    11241
+Desc      The water's edge.
+~
+#ENDEXIT
+Reset M 0 11227 1 11242
+Reset M 0 11229 2 11242
+#ENDROOM
+
+#ROOM
+Vnum     11243
+Name     &OValley of Honor - Western Shore&d~
+Sector   city~
+Desc     The path follows the western bank of the valley lake. To the west,
+a series of small gardens and huts have been built into the rock,
+where the city's herbalists tend to their rare specimens.
+~
+#EXIT
+Direction north~
+ToRoom    11245
+Desc      The path continues toward the Hunter's Hall.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11241
+Desc      The southern edge of the water.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11244
+Desc      The entrance to a vibrant garden hut.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11244
+Name     &GThe Garden of the Spirits&d~
+Sector   field~
+Desc     This small sanctuary is filled with lush greenery and the sweet scent
+of blooming herbs. It is meticulously cared for by the Horde's
+herbalists, providing the necessary reagents for alchemy and
+shamanic rituals.
+~
+#EXIT
+Direction east~
+ToRoom    11243
+Desc      The western shore of the lake.
+~
+#ENDEXIT
+Reset M 0 11226 1 11244
+Reset O 0 11222 3 11244
+#ENDROOM
+
+#ROOM
+Vnum     11245
+Name     &OValley of Honor - Path to the Hunter's Hall&d~
+Sector   city~
+Desc     The sound of snarling beasts and the whistle of arrows marks your
+approach to the Hunter's Hall. A large, open-air structure made of
+dark wood and kodo bone stands just to the west.
+~
+#EXIT
+Direction north~
+ToRoom    11247
+Desc      The path leads to the northern end of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11243
+Desc      The western shore of the lake.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11246
+Desc      The entrance to the Hunter's Hall.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11246
+Name     &OThe Hunter's Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are lined with the mounted heads of legendary beasts from
+all over Kalimdor. Hunters sit on the floor, cleaning their bows and
+feeding their raptors. The air is thick with the smell of musk and
+raw meat.
+~
+#EXIT
+Direction east~
+ToRoom    11245
+Desc      The path outside.
+~
+#ENDEXIT
+Reset M 0 11220 1 11246
+  Reset E 1 11220 10 16
+Reset M 0 11224 2 11246
+Reset O 0 11224 5 11246
+#ENDROOM
+
+#ROOM
+Vnum     11247
+Name     &OValley of Honor - Northern Shore&d~
+Sector   city~
+Desc     You stand at the northern tip of the lake. From here, you have a
+clear view of the Ring of Valor to the east—a massive, sunken arena
+where the Horde's greatest warriors prove their worth.
+~
+#EXIT
+Direction east~
+ToRoom    11249
+Desc      The path leads toward the Ring of Valor.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11245
+Desc      The path back toward the Hunter's Hall.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11248
+Desc      A path spirals upward to the Hall of the Brave.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11248
+Name     &OThe Hall of the Brave&d~
+Sector   inside~
+Flags    indoors~
+Desc     This massive stone structure is the primary training ground for the
+Horde's warriors. The floor is covered in red sand to absorb the
+spilled blood of initiates. The air rings with the constant clash
+of heavy iron axes.
+~
+#EXIT
+Direction east~
+ToRoom    11247
+Desc      The northern shore of the lake.
+~
+#ENDEXIT
+Reset M 0 11221 1 11248
+  Reset E 1 11200 10 16
+Reset M 0 11228 3 11248
+#ENDROOM
+
+#ROOM
+Vnum     11249
+Name     &OPath to the Ring of Valor&d~
+Sector   city~
+Desc     The ground here is heavily trampled by thousands of boots. The
+excitement is palpable as you approach the legendary arena. Cheers
+and jeers echo from the sunken pit to the east.
+~
+#EXIT
+Direction east~
+ToRoom    11250
+Desc      The entrance to the Ring of Valor.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11247
+Desc      The northern shore of the lake.
+~
+#ENDEXIT
+Reset M 0 11223 2 11249
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11250
+Name     &OThe Ring of Valor - Entrance&d~
+Sector   city~
+Desc     You stand at the edge of the Ring of Valor. A massive pit has been
+excavated from the red earth, lined with stone seating for the
+thousands of spectators who come to watch the combat. 
+~
+#EXIT
+Direction east~
+ToRoom    11251
+Desc      The path continues around the arena.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11249
+Desc      The path back toward the lake.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11252
+Desc      A ramp leads down into the combat floor.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11251
+Name     &OThe Ring of Valor - Spectator Walk&d~
+Sector   city~
+Desc     The stone walkway circles the upper edge of the arena. Looking down,
+you can see the blood-stained sand where countless warriors have
+found either glory or death. 
+~
+#EXIT
+Direction west~
+ToRoom    11250
+Desc      The entrance to the arena.
+~
+#ENDEXIT
+Reset O 0 11229 1 11251
+#ENDROOM
+
+#ROOM
+Vnum     11252
+Name     &OThe Ring of Valor - Combat Floor&d~
+Sector   field~
+Desc     You stand in the center of the pit. The walls rise high around you,
+leaving you with no escape but victory. The sand is coarse and red,
+clogging your nostrils with the smell of old copper and sweat.
+~
+#EXIT
+Direction up~
+ToRoom    11250
+Desc      The ramp leads back to the surface.
+~
+#ENDEXIT
+Reset M 0 11228 1 11252
+  Reset E 1 11225 10 11
+#ENDROOM
+
+#ROOM
+Vnum     11253
+Name     &OValley of Honor - Eastern Shore&d~
+Sector   city~
+Desc     The path follows the eastern bank of the lake. To the east, several
+large, communal huts have been built, their roofs draped with heavy
+hides and bones. 
+~
+#EXIT
+Direction north~
+ToRoom    11255
+Desc      The path leads toward the Shamanic dwellings.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11254
+Desc      The path winds around the southern end of the lake.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11254
+Name     &OValley of Honor - Southern Shore&d~
+Sector   city~
+Desc     You are at the southern curve of the valley lake. The sound of
+drums from the Ring of Valor is slightly muted here. To the west,
+the path leads back to the main entrance of the valley.
+~
+#EXIT
+Direction north~
+ToRoom    11253
+Desc      The eastern shore.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11241
+Desc      The water's edge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11255
+Name     &OValley of Honor - Path to the Spirits&d~
+Sector   city~
+Desc     The air here feels heavy and charged with static. To the east, a
+large tent with smoke rising from a center hole marks the dwelling
+of the city's shamans.
+~
+#EXIT
+Direction north~
+ToRoom    11257
+Desc      The path continues toward the valley's northern exit.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11253
+Desc      The eastern shore of the lake.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11256
+Desc      The entrance to the Shamanic Lodge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11256
+Name     &OThe Shamanic Lodge&d~
+Sector   inside~
+Flags    indoors~
+Desc     Incense and herbs burn in a central pit, sending sweet-smelling
+smoke up into the rafters. Totems representing the four elements
+stand in each corner, glowing with a soft, natural light.
+~
+#EXIT
+Direction west~
+ToRoom    11255
+Desc      The path outside.
+~
+#ENDEXIT
+Reset M 0 11222 1 11256
+  Reset E 1 11223 10 17
+#ENDROOM
+
+#ROOM
+Vnum     11257
+Name     &OValley of Honor - North Path&d~
+Sector   city~
+Desc     The path winds north, moving away from the lake. The canyon walls
+here are sheer and high. To the east, a tunnel has been carved into
+the rock, leading toward the Valley of Wisdom.
+~
+#EXIT
+Direction north~
+ToRoom    11259
+Desc      The path leads to the northernmost part of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11258
+Desc      A tunnel leads toward the Valley of Wisdom.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11255
+Desc      The path toward the Shamanic Lodge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11258
+Name     &dTunnel to the Valley of Wisdom&d~
+Sector   city~
+Desc     A dark, cool tunnel carved straight through the red stone of the
+canyon. Torches flicker at regular intervals, casting long shadows.
+The bustling noise of the Valley of Honor fades behind you.
+~
+#EXIT
+Direction east~
+ToRoom    11260
+Desc      The tunnel opens into the Valley of Wisdom.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11257
+Desc      The Valley of Honor.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11259
+Name     &OValley of Honor - Northern End&d~
+Sector   city~
+Desc     You stand at the furthest northern point of the Valley of Honor.
+The canyon walls meet here, forming a natural dead end. A few
+tattered Horde banners flutter in the wind, marking the borders
+of the city's martial district.
+~
+#EXIT
+Direction south~
+ToRoom    11257
+Desc      The path leading back toward the lake.
+~
+#ENDEXIT
+Reset O 0 11228 1 11259
+#ENDROOM
+
+#ROOM
+Vnum     11260
+Name     &WValley of Wisdom - Entrance&d~
+Sector   city~
+Desc     You step out of the tunnel and into a serene, lush landscape. Green
+grass and small pools of water replace the harsh red dust of the other
+valleys. Massive wooden elevators hiss as they move people to the upper
+plateaus. The air is sweet with the scent of burning herbs.
+~
+#EXIT
+Direction west~
+ToRoom    11258
+Desc      The tunnel back to the Valley of Honor.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11261
+Desc      The path leads toward the central pool.
+~
+#ENDEXIT
+Reset M 0 11238 1 11260
+#ENDROOM
+
+#ROOM
+Vnum     11261
+Name     &WValley of Wisdom - Central Pool&d~
+Sector   city~
+Desc     A large, crystal-clear pool sits in the center of the valley, fed by
+cascading waterfalls from the cliffs above. Small wooden bridges span
+the water, connecting the various Tauren dwellings. 
+~
+#EXIT
+Direction north~
+ToRoom    11263
+Desc      The path continues around the water.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11262
+Desc      A small hut sits at the water's edge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11260
+Desc      The valley entrance.
+~
+#ENDEXIT
+Reset M 0 11237 2 11261
+#ENDROOM
+
+#ROOM
+Vnum     11262
+Name     &WShikay's Mystic Hut&d~
+Sector   inside~
+Flags    indoors~
+Desc     This circular hut is sparsely furnished with woven mats and smooth
+stones. Bunches of drying herbs hang from the rafters. It is a place of
+quiet contemplation and elemental study.
+~
+#EXIT
+Direction west~
+ToRoom    11261
+Desc      The central pool.
+~
+#ENDEXIT
+Reset M 0 11234 1 11262
+  Reset E 1 11233 10 16
+Reset O 0 11237 3 11262
+#ENDROOM
+
+#ROOM
+Vnum     11263
+Name     &WValley of Wisdom - Northern Path&d~
+Sector   city~
+Desc     The path winds north toward a massive, fortified structure built into
+the northern cliff face. To the west, the ground rises toward the base
+of a large wooden elevator. 
+~
+#EXIT
+Direction north~
+ToRoom    11267
+Desc      The entrance to Grommash Hold.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11261
+Desc      The central pool.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11264
+Desc      The path leads to the lower elevator platform.
+~
+#ENDEXIT
+Reset M 0 11239 1 11263
+#ENDROOM
+
+#ROOM
+Vnum     11264
+Name     &WLower Elevator Platform&d~
+Sector   city~
+Desc     You stand at the base of a marvel of engineering. A massive wooden
+platform is suspended by thick, greased chains. A goblin stands nearby,
+tinkering with a series of levers and gears.
+~
+#EXIT
+Direction east~
+ToRoom    11263
+Desc      The northern path of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11265
+Desc      The elevator platform rises to the upper tier.
+~
+#ENDEXIT
+Reset M 0 11235 1 11264
+#ENDROOM
+
+#ROOM
+Vnum     11265
+Name     &WUpper Elevator Platform&d~
+Sector   city~
+Desc     You are high above the valley floor. From here, you have a stunning
+view of the waterfalls and the lush greenery below. The platform creaks
+slightly as it settles into place against the upper cliff.
+~
+#EXIT
+Direction north~
+ToRoom    11266
+Desc      The path leads to the Tauren delegates.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11264
+Desc      The elevator platform descends to the valley floor.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11266
+Name     &WThe Plateau of the Elders&d~
+Sector   city~
+Desc     This upper plateau is home to the Tauren who represent their people in
+Orgrimmar. Several large, colorful tents have been erected here. A
+massive bonfire burns in a central pit, surrounded by elders.
+~
+#EXIT
+Direction south~
+ToRoom    11265
+Desc      The upper elevator platform.
+~
+#ENDEXIT
+Reset M 0 11232 1 11266
+  Reset E 1 11231 10 12
+Reset M 0 11236 2 11266
+Reset O 0 11239 2 11266
+#ENDROOM
+
+#ROOM
+Vnum     11267
+Name     &OEntrance to Grommash Hold&d~
+Sector   inside~
+Flags    indoors~
+Desc     The seat of the Warchief is a daunting fortress of iron and wood. Two
+Kor'kron Elite Guards stand like statues flanking the massive iron-bound
+doors. The air inside is cool and smells of iron and old battles.
+~
+#EXIT
+Direction north~
+ToRoom    11268
+Desc      The Hall of the Warchief.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11263
+Desc      The northern path of the valley.
+~
+#ENDEXIT
+Reset M 0 11233 2 11267
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11268
+Name     &OThe Hall of the Warchief&d~
+Sector   inside~
+Flags    indoors~
+Desc     This vast hall is the political center of the Horde. Massive banners of
+all the Horde races hang from the high ceiling. The Warchief sits upon
+his throne at the far end of the room, surrounded by his advisors.
+~
+#EXIT
+Direction north~
+ToRoom    11269
+Desc      You approach the throne.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11267
+Desc      The entrance of the hold.
+~
+#ENDEXIT
+Reset M 0 11233 2 11268
+  Reset E 1 11200 10 16
+#ENDROOM
+
+#ROOM
+Vnum     11269
+Name     &OThrall's Throne&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand at the foot of the throne. Warchief Thrall sits here, his
+presence filling the room. To his right stands the veteran Etrigg.
+Maps of the world are spread across a nearby table, detailing the
+struggles of the Horde across Azeroth.
+~
+#EXIT
+Direction south~
+ToRoom    11268
+Desc      The hall leads back to the entrance.
+~
+#ENDEXIT
+Reset M 0 11230 1 11269
+  Reset E 1 11230 10 16
+Reset M 0 11231 1 11269
+Reset O 0 11238 1 11269
+#ENDROOM
+
+#ROOM
+Vnum     11270
+Name     &WValley of Wisdom - Western Shore&d~
+Sector   city~
+Desc     The path follows the western edge of the central pool. The sound of
+the crashing waterfalls is deafening here, spraying a fine mist into
+the air that keeps the surroundings cool and moist.
+~
+#EXIT
+Direction north~
+ToRoom    11264
+Desc      The path to the lower elevator.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11271
+Desc      The path winds south.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11271
+Name     &WValley of Wisdom - Southwest Corner&d~
+Sector   city~
+Desc     The valley ends here against a sheer red cliff. A small, secluded
+grove of trees provides a quiet place for meditation. The water from
+the pool laps gently against the shore.
+~
+#EXIT
+Direction north~
+ToRoom    11270
+Desc      The western shore of the pool.
+~
+#ENDEXIT
+Reset M 0 11236 1 11271
+#ENDROOM
+
+#ROOM
+Vnum     11272
+Name     &WValley of Wisdom - Eastern Shore&d~
+Sector   city~
+Desc     The path follows the eastern bank of the central water. Several small
+Tauren tents are set up along the cliffside, decorated with beads
+and feathers. 
+~
+#EXIT
+Direction north~
+ToRoom    11273
+Desc      The path leads toward the waterfalls.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11262
+Desc      Shikay's Mystic Hut.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11273
+Name     &WValley of Wisdom - Base of the Falls&d~
+Sector   city~
+Desc     You stand directly beneath a massive waterfall. The power of the falling
+water is immense, creating a constant breeze and a shimmering rainbow
+in the sunlight. 
+~
+#EXIT
+Direction south~
+ToRoom    11272
+Desc      The eastern shore.
+~
+#ENDEXIT
+Reset M 0 11237 2 11273
+#ENDROOM
+
+#ROOM
+Vnum     11274
+Name     &WThe Spirit Grove&d~
+Sector   field~
+Desc     A small, hidden grove of ancient trees tucked into a corner of the
+valley. The spirits of the elements are strong here, and the air
+seems to shimmer with a pale, ethereal light.
+~
+#EXIT
+Direction west~
+ToRoom    11261
+Desc      The central pool.
+~
+#ENDEXIT
+Reset M 0 11237 3 11274
+#ENDROOM
+
+#ROOM
+Vnum     11275
+Name     &WThe Delegate's Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, communal tent for visiting Tauren dignitaries. It is filled
+with comfortable furs and the smell of sweetgrass. Maps and treaties
+are piled on a central table.
+~
+#EXIT
+Direction north~
+ToRoom    11266
+Desc      The Plateau of the Elders.
+~
+#ENDEXIT
+Reset O 0 11232 2 11275
+#ENDROOM
+
+#ROOM
+Vnum     11276
+Name     &OThe Hall of History&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room off the side of Grommash Hold dedicated to the history
+of the Horde. Tattered banners and ancient weapons are displayed
+with great care.
+~
+#EXIT
+Direction west~
+ToRoom    11268
+Desc      The Hall of the Warchief.
+~
+#ENDEXIT
+Reset O 0 11235 1 11276
+#ENDROOM
+
+#ROOM
+Vnum     11277
+Name     &OThe War Room - Annex&d~
+Sector   inside~
+Flags    indoors~
+Desc     A smaller, more private strategy room where Thrall meets with his
+closest military advisors. Detailed scouts' reports are pinned to
+the walls.
+~
+#EXIT
+Direction east~
+ToRoom    11268
+Desc      The Hall of the Warchief.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11278
+Name     &WUpper Plateau - East View&d~
+Sector   city~
+Desc     Standing at the edge of the upper plateau, you can see across the
+entire Valley of Wisdom and even glimpse the rooftops of The Drag
+to the south.
+~
+#EXIT
+Direction west~
+ToRoom    11266
+Desc      The Plateau of the Elders.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11279
+Name     &WUpper Plateau - North Edge&d~
+Sector   city~
+Desc     The very edge of the city. The canyon walls drop off sharply here,
+leading out into the untamed wilderness of Durotar.
+~
+#EXIT
+Direction south~
+ToRoom    11266
+Desc      The Plateau of the Elders.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

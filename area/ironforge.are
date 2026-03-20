@@ -1,0 +1,2324 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Ironforge~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 10 0 60
+Economy      0 50000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       14000
+Keywords   guard ironforge mountaineer~
+Short      an Ironforge Mountaineer~
+Long       An Ironforge Mountaineer stands watch, rifle at the ready.
+~
+Desc       This stout dwarf wears the heavy armor and brown cloak of the Ironforge
+Mountaineers. A well-oiled rifle rests in his hands, and his keen eyes
+scan for threats. His braided beard is tucked into his belt to keep it
+clear of his weapon.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    15 13 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14001
+Keywords   guard ironforge defender~
+Short      an Ironforge Defender~
+Long       An Ironforge Defender patrols the halls, hammer in hand.
+~
+Desc       Clad in gleaming plate armor engraved with dwarven runes, this defender
+carries a massive warhammer that looks capable of crushing stone. His
+helm is adorned with ram horns, a symbol of Ironforge's strength.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1200 6000
+Stats2     55 55 600
+Stats3     8 15 30
+Stats4     0 0 0 0 0
+Attribs    16 12 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14002
+Keywords   king magni bronzebeard~
+Short      King Magni Bronzebeard~
+Long       King Magni Bronzebeard sits upon the throne of Ironforge.
+~
+Desc       The High King of Ironforge is a broad, powerful dwarf with a magnificent
+silver beard that reaches his knees. He wears a crown of mithril and
+diamonds, and his ancient warhammer &WFearbreaker&d rests across his lap.
+His eyes hold the wisdom of ages and the fire of a warrior king.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 63 0 0 50000 100000
+Stats2     63 63 10000
+Stats3     100 200 400
+Stats4     0 0 0 0 0
+Attribs    20 15 20 12 14 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14003
+Keywords   advisor belgrum historian~
+Short      High Explorer Belgrum~
+Long       High Explorer Belgrum studies an ancient map intently.
+~
+Desc       This elderly dwarf has forgotten more about Azeroth's history than most
+will ever learn. His spectacles are thick, his beard is white, and his
+robes are stained with ink. He serves as advisor to the king on matters
+of archaeology and ancient lore.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 45 0 0 500 2000
+Stats2     45 45 400
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    10 14 12 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14004
+Keywords   innkeeper thulfadin~
+Short      Innkeeper Thulfadin~
+Long       Innkeeper Thulfadin polishes a mug behind the bar.
+~
+Desc       A jovial dwarf with a red nose and a belly that speaks of sampling too
+much of his own ale, Thulfadin runs the Stonefire Tavern with a warm
+smile and a heavy hand for those who cause trouble.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 35 0 0 300 1000
+Stats2     35 35 300
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    14 12 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14005
+Keywords   gretta barmaid serving~
+Short      Gretta the Barmaid~
+Long       Gretta weaves between tables, carrying a tray of frothy mugs.
+~
+Desc       This young dwarven woman has her auburn hair tied back in a practical
+braid. She moves with surprising grace despite the heavy tray she carries,
+and her laughter rings out frequently above the tavern's din.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 20 0 0 150 500
+Stats2     20 20 200
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    11 14 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14006
+Keywords   auctioneer redmuse~
+Short      Auctioneer Redmuse~
+Long       Auctioneer Redmuse calls out bids in a booming voice.
+~
+Desc       This impeccably dressed dwarf has a voice that carries across the entire
+hall. His ledger is always in hand, and his quick eyes miss nothing when
+it comes to commerce. His red beard is waxed to perfection.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 400 1500
+Stats2     40 40 350
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    12 15 13 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14007
+Keywords   banker stonebrow vault~
+Short      Banker Stonebrow~
+Long       Banker Stonebrow counts coins with mechanical precision.
+~
+Desc       This stern-faced dwarf wears a monocle and an expression of permanent
+suspicion. He guards the wealth of Ironforge's citizens with legendary
+dedication. It is said he sleeps in the vault itself.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 42 0 0 450 1800
+Stats2     42 42 380
+Stats3     3 7 14
+Stats4     0 0 0 0 0
+Attribs    12 14 13 13 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14008
+Keywords   blacksmith forgemaster thragrim~
+Short      Forgemaster Thragrim~
+Long       Forgemaster Thragrim hammers glowing metal on his anvil.
+~
+Desc       Sweat glistens on this dwarf's muscular arms as he works the forge. His
+beard is singed at the edges, and his leather apron bears countless burn
+marks. He is considered one of the finest weaponsmiths in all of Khaz
+Modan.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 48 0 0 600 2500
+Stats2     48 48 450
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    18 11 16 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14009
+Keywords   gryphon master thargas~
+Short      Gryphon Master Thargas~
+Long       Gryphon Master Thargas tends to a magnificent golden gryphon.
+~
+Desc       This weathered dwarf has spent his life among the great gryphons of
+Ironforge. His armor is decorated with feathers, and a gryphon-shaped
+whistle hangs around his neck. The beasts seem to respond to him with
+unusual affection.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 700 3000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    14 14 14 11 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14010
+Keywords   gryphon golden mount~
+Short      a golden gryphon~
+Long       A magnificent golden gryphon preens its feathers.
+~
+Desc       This majestic creature has the body of a great lion and the head and
+wings of a massive eagle. Its golden feathers gleam in the torchlight,
+and its sharp eyes miss nothing. A leather saddle is strapped to its
+back for riders.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 500 2000
+Stats2     40 40 400
+Stats3     8 16 32
+Stats4     0 0 0 0 0
+Attribs    16 16 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14011
+Keywords   priest light brotherhood~
+Short      a Priest of Light~
+Long       A Priest of Light kneels in prayer before the altar.
+~
+Desc       Dressed in robes of white and gold, this dwarven priest serves the
+Holy Light. A gentle glow seems to emanate from his hands as he tends
+to the spiritual needs of Ironforge's faithful.
+~
+Race       dwarf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 38 0 0 350 1200
+Stats2     38 38 320
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    11 12 13 14 16 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14012
+Keywords   archaeologist explorer digger~
+Short      a Dwarven Archaeologist~
+Long       A Dwarven Archaeologist examines artifacts with a magnifying glass.
+~
+Desc       This dwarf wears practical traveling clothes and carries an array of
+picks, brushes, and other excavation tools. Dirt cakes his boots and
+knees from recent fieldwork, and his eyes light up at the mention of
+ancient relics.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 30 0 0 250 800
+Stats2     30 30 280
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    12 13 12 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14013
+Keywords   miner prospector digging~
+Short      a Dwarven Prospector~
+Long       A Dwarven Prospector chips at a rock sample.
+~
+Desc       This burly dwarf carries a heavy pickaxe over one shoulder and a sack
+of ore samples over the other. His face is blackened with coal dust, and
+he can identify any mineral by sight or taste.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 25 0 0 200 600
+Stats2     25 25 250
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    15 11 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14014
+Keywords   engineer tinker gnomish~
+Short      a Gnomish Engineer~
+Long       A Gnomish Engineer tinkers with a complex mechanical device.
+~
+Desc       This diminutive gnome has wild white hair and goggles pushed up on his
+forehead. Grease stains cover his overalls, and various tools poke from
+every pocket. A faint smell of gunpowder follows him everywhere.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 35 0 0 300 1000
+Stats2     35 35 300
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    8 16 10 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14015
+Keywords   warrior battlerager fighter~
+Short      a Dwarven Battlerager~
+Long       A Dwarven Battlerager sharpens his axes, humming a war song.
+~
+Desc       Scars crisscross this dwarf's exposed arms and face. He wears spiked
+armor designed to damage enemies who get too close, and twin axes hang
+from his belt. His eyes hold a gleeful madness when he speaks of combat.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 45 0 0 550 2200
+Stats2     45 45 420
+Stats3     8 15 30
+Stats4     0 0 0 0 0
+Attribs    17 13 16 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14016
+Keywords   brewmaster alesmith brewer~
+Short      Brewmaster Ironbarrel~
+Long       Brewmaster Ironbarrel samples a fresh batch of stout.
+~
+Desc       This rotund dwarf has a nose that can detect hops at fifty paces. His
+magnificent golden beard is often damp with foam, and he carries a
+tasting mug at all times. He is the master of Ironforge's legendary
+breweries.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 400 1500
+Stats2     40 40 350
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    14 12 15 11 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14017
+Keywords   ram handler stable~
+Short      a Ram Handler~
+Long       A Ram Handler brushes the thick wool of a massive ram.
+~
+Desc       This dwarf works in the ram pens, caring for the sturdy mountain rams
+that serve as mounts for Ironforge's warriors. He smells strongly of
+animal and hay, and carries treats in his pockets for his charges.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 28 0 0 220 700
+Stats2     28 28 260
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    14 12 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14018
+Keywords   ram mount beast~
+Short      a Ironforge Ram~
+Long       A massive Ironforge Ram stamps its hooves impatiently.
+~
+Desc       This enormous mountain ram has curling horns as thick as a dwarf's arm
+and wool so thick it serves as natural armor. Dwarves prize these beasts
+as mounts for their sure-footedness and stubborn courage.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 20 0 0 180 500
+Stats2     20 20 200
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    16 10 15 6 10 10 10
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14019
+Keywords   merchant trader vendor~
+Short      a Dwarven Merchant~
+Long       A Dwarven Merchant hawks his wares enthusiastically.
+~
+Desc       This well-dressed dwarf has a keen eye for profit. His cart is laden
+with goods from across the Alliance, and he can haggle with the best of
+them. Gold coins jingle in his many pockets.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 32 0 0 280 900
+Stats2     32 32 290
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    12 14 12 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14020
+Keywords   citizen dwarf commoner~
+Short      a Dwarven Citizen~
+Long       A Dwarven Citizen goes about their daily business.
+~
+Desc       This ordinary dwarf is one of the many citizens who call Ironforge home.
+They might be a baker, a craftsman, a scholar, or any of a hundred other
+professions that keep the great city running.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 15 0 0 100 300
+Stats2     15 15 150
+Stats3     2 4 8
+Stats4     0 0 0 0 0
+Attribs    12 11 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14021
+Keywords   senate member thane~
+Short      a Senate Thane~
+Long       A Senate Thane reviews documents with a furrowed brow.
+~
+Desc       This dignified dwarf wears the formal robes of Ironforge's Senate. Heavy
+gold chains of office hang around his neck, and his beard is elaborately
+braided with clan tokens. He speaks with the weight of political authority.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 800 3500
+Stats2     50 50 550
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    13 14 14 15 12 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14022
+Keywords   mage wizard arcane~
+Short      a Dwarven Mage~
+Long       A Dwarven Mage studies a glowing runestone.
+~
+Desc       Unusual among his kind, this dwarf has devoted himself to the arcane
+arts. His robes are embroidered with mystical symbols, and his staff
+crackles with contained energy. Other dwarves regard him with a mixture
+of respect and unease.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 42 0 0 450 1800
+Stats2     42 42 380
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    10 14 12 17 13 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14023
+Keywords   hunter rifleman sharpshooter~
+Short      an Ironforge Rifleman~
+Long       An Ironforge Rifleman cleans his weapon with practiced ease.
+~
+Desc       This dwarf carries a finely crafted rifle, the pride of Ironforge
+engineering. His eyes are sharp from years of marksmanship, and his
+steady hands have felled enemies at incredible distances. A mechanical
+scope is attached to his weapon.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 44 0 0 520 2100
+Stats2     44 44 400
+Stats3     6 12 24
+Stats4     0 0 0 0 0
+Attribs    13 16 13 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14024
+Keywords   paladin silverhand knight~
+Short      a Paladin of the Silver Hand~
+Long       A Paladin of the Silver Hand stands in solemn vigil.
+~
+Desc       Clad in shining armor blessed by the Light, this dwarven paladin has
+devoted his life to justice and protection. A warhammer bearing the
+symbol of the Silver Hand hangs at his side, and a faint golden aura
+seems to surround him.
+~
+Race       dwarf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 52 0 0 900 4000
+Stats2     52 52 600
+Stats3     8 15 30
+Stats4     0 0 0 0 0
+Attribs    15 12 15 11 16 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       14025
+Keywords   cook chef kitchen~
+Short      a Dwarven Chef~
+Long       A Dwarven Chef stirs a massive cauldron of stew.
+~
+Desc       This portly dwarf wears a stained apron and a tall chef's hat. The
+aromas of roasting meat and baking bread follow him everywhere. He takes
+great pride in the hearty cuisine that sustains Ironforge's population.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 25 0 0 200 600
+Stats2     25 25 250
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    13 12 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarvish~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     14000
+Keywords rifle ironforge dwarven~
+Type     weapon~
+Short    an Ironforge rifle~
+Long     A finely crafted dwarven rifle lies here.~
+WFlags   take wield~
+Values   0 8 12 4 0 0
+Stats    25 200 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14001
+Keywords hammer war dwarven~
+Type     weapon~
+Short    a dwarven warhammer~
+Long     A heavy dwarven warhammer rests here.~
+WFlags   take wield~
+Values   0 7 14 8 0 0
+Stats    20 150 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14002
+Keywords axe battle dwarven~
+Type     weapon~
+Short    a dwarven battleaxe~
+Long     A gleaming dwarven battleaxe lies here.~
+WFlags   take wield~
+Values   0 8 15 1 0 0
+Stats    22 175 22 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14003
+Keywords shield bronze dwarven~
+Type     armor~
+Short    a bronze dwarven shield~
+Long     A sturdy bronze shield with dwarven runes lies here.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    15 100 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14004
+Keywords helm ram horned~
+Type     armor~
+Short    a ram-horned helm~
+Long     A helm adorned with curling ram horns lies here.~
+WFlags   take head~
+Values   7 0 0 0 0 0
+Stats    18 120 18 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14005
+Keywords breastplate plate dwarven~
+Type     armor~
+Short    a dwarven plate breastplate~
+Long     A heavy dwarven breastplate lies here.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    25 200 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14006
+Keywords gauntlets mail dwarven~
+Type     armor~
+Short    a pair of dwarven mail gauntlets~
+Long     A pair of finely wrought mail gauntlets lies here.~
+WFlags   take hands~
+Values   5 0 0 0 0 0
+Stats    12 80 12 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14007
+Keywords boots iron dwarven~
+Type     armor~
+Short    a pair of iron-shod boots~
+Long     A pair of heavy iron-shod boots lies here.~
+WFlags   take feet~
+Values   6 0 0 0 0 0
+Stats    14 90 14 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14008
+Keywords ale thunderbrew mug~
+Type     drink~
+Short    a mug of Thunderbrew Ale~
+Long     A frothy mug of legendary Thunderbrew Ale sits here.~
+WFlags   take hold~
+Values   12 12 2 0 0 0
+Stats    1 8 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14009
+Keywords stout barleybrew dark~
+Type     drink~
+Short    a tankard of Barleybrew Stout~
+Long     A tankard of rich, dark Barleybrew Stout sits here.~
+WFlags   take hold~
+Values   10 10 2 0 0 0
+Stats    1 6 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14010
+Keywords bread hearty loaf~
+Type     food~
+Short    a loaf of hearty dwarven bread~
+Long     A dense loaf of dwarven bread sits here.~
+WFlags   take~
+Values   12 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14011
+Keywords cheese sharp aged~
+Type     food~
+Short    a wheel of aged dwarven cheese~
+Long     A wheel of sharp, aged cheese sits here.~
+WFlags   take~
+Values   10 0 0 0 0 0
+Stats    1 8 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14012
+Keywords sausage spiced links~
+Type     food~
+Short    a string of spiced sausages~
+Long     A string of delicious spiced sausages hangs here.~
+WFlags   take~
+Values   8 0 0 0 0 0
+Stats    1 6 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14013
+Keywords roast boar platter~
+Type     food~
+Short    a platter of roast boar~
+Long     A platter heaped with roast boar sits here.~
+WFlags   take~
+Values   15 0 0 0 0 0
+Stats    2 12 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14014
+Keywords pickaxe mining mithril~
+Type     weapon~
+Short    a mithril mining pickaxe~
+Long     A mithril-headed pickaxe lies here.~
+WFlags   take wield~
+Values   0 5 10 5 0 0
+Stats    15 100 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14015
+Keywords ore iron chunk~
+Type     treasure~
+Short    a chunk of iron ore~
+Long     A heavy chunk of iron ore lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    3 15 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14016
+Keywords ore copper chunk~
+Type     treasure~
+Short    a chunk of copper ore~
+Long     A chunk of copper ore lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14017
+Keywords ore gold nugget~
+Type     treasure~
+Short    a gold nugget~
+Long     A gleaming gold nugget lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14018
+Keywords gem ruby cut~
+Type     treasure~
+Short    a cut ruby~
+Long     A brilliant cut ruby glitters here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14019
+Keywords gem sapphire cut~
+Type     treasure~
+Short    a cut sapphire~
+Long     A deep blue sapphire lies here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 125 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14020
+Keywords artifact titan relic~
+Type     treasure~
+Short    a Titan artifact fragment~
+Long     A mysterious fragment of Titan origin lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14021
+Keywords cloak mountaineer brown~
+Type     armor~
+Short    a brown mountaineer's cloak~
+Long     A thick brown mountaineer's cloak lies here.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    10 60 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14022
+Keywords goggles engineering gnomish~
+Type     armor~
+Short    a pair of gnomish engineering goggles~
+Long     A pair of complicated-looking goggles lies here.~
+WFlags   take head~
+Values   3 0 0 0 0 0
+Stats    8 75 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14023
+Keywords toolbox gnomish engineer~
+Type     container~
+Short    a gnomish toolbox~
+Long     A dented gnomish toolbox sits here.~
+WFlags   take hold~
+Values   25 0 0 0 0 0
+Stats    5 40 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14024
+Keywords lantern dwarven brass~
+Type     light~
+Short    a brass dwarven lantern~
+Long     A well-crafted brass lantern sits here.~
+WFlags   take hold~
+Values   0 0 500 0 0 0
+Stats    3 25 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     14025
+Keywords ring signet bronzebeard~
+Type     armor~
+Short    a Bronzebeard signet ring~
+Long     A heavy gold signet ring lies here.~
+WFlags   take finger~
+Values   2 0 0 0 0 0
+Stats    10 250 10 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     14000
+Name     &YThe Gates of Ironforge&d~
+Sector   city~
+Desc     Massive bronze doors, each standing forty feet tall and inscribed with
+the history of the dwarven people, mark the entrance to &YIronforge&d. The
+doors stand perpetually open in welcome to Alliance travelers, though
+they could be sealed in moments should the mountain come under attack.
+Mountaineers stand vigilant on either side, their rifles gleaming. The
+road from &CDun Morogh&d lies to the &Ysouth&d, while the &WCommons&d await
+within to the &Ynorth&d.
+~
+Flags    nomob~
+#EXIT
+Direction north~
+ToRoom    14001
+Desc      The great entry hall leads into the Commons.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14700
+Desc      The snow-covered road leads to Dun Morogh.
+~
+#ENDEXIT
+Reset M 0 14000 2 14000
+  Reset E 1 14000 1 16
+  Reset E 1 14021 1 12
+#ENDROOM
+
+#ROOM
+Vnum     14001
+Name     &WThe Commons - Entry Hall&d~
+Sector   city~
+Flags    indoors~
+Desc     You enter the vast underground city of &YIronforge&d, carved from the
+living rock of the mountain itself. The ceiling arches high overhead,
+supported by massive pillars carved with images of dwarven heroes. Braziers
+filled with burning coal light the hall with a warm orange glow. The
+&WCommons&d, Ironforge's main thoroughfare, stretches before you to the
+&Ynorth&d. The great gates lie to the &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14002
+Desc      The Commons continues deeper into the city.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14000
+Desc      The great gates lead outside.
+~
+#ENDEXIT
+Reset M 0 14001 2 14001
+  Reset E 1 14001 1 16
+  Reset E 1 14004 1 4
+Reset M 0 14020 3 14001
+#ENDROOM
+
+#ROOM
+Vnum     14002
+Name     &WThe Commons - Central Plaza&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of Ironforge's Commons bustles with activity. Dwarves, gnomes,
+and Alliance visitors from distant lands mingle here, conducting business
+and sharing news. A massive statue of &WKing Modimus Anvilmar&d, founder of
+the united dwarven nation, dominates the center of the plaza. Tunnels
+branch in all directions—&Ynorth&d toward the &RGreat Forge&d, &Yeast&d to the
+&CMystic Ward&d, &Ywest&d to the &YMilitary Ward&d, and &Ysouth&d back toward
+the gates.
+~
+#EXIT
+Direction north~
+ToRoom    14010
+Desc      The heat of the Great Forge beckons.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14030
+Desc      The Mystic Ward lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14001
+Desc      The entry hall lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14050
+Desc      The Military Ward lies to the west.
+~
+#ENDEXIT
+Reset M 0 14020 5 14002
+Reset M 0 14019 2 14002
+#ENDROOM
+
+#ROOM
+Vnum     14003
+Name     &WThe Commons - Eastern Walk&d~
+Sector   city~
+Flags    indoors~
+Desc     This wide walkway connects the central plaza to the eastern districts
+of Ironforge. Merchant stalls line the walls, selling everything from
+fresh bread to exotic gems. The smell of baking and metalwork mingles
+in the warm air. The plaza lies to the &Ywest&d, and the walk continues
+&Yeast&d toward the bank. A tavern entrance is visible to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14004
+Desc      The sign of the Stonefire Tavern hangs above a doorway.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14006
+Desc      The walk continues toward the Vault.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14002
+Desc      The central plaza lies to the west.
+~
+#ENDEXIT
+Reset M 0 14019 2 14003
+Reset M 0 14020 3 14003
+Reset O 0 14010 3 14003
+Reset O 0 14011 2 14003
+#ENDROOM
+
+#ROOM
+Vnum     14004
+Name     &YThe Stonefire Tavern&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Warmth and laughter fill this beloved dwarven tavern. A roaring fire
+crackles in a massive stone hearth, and the smell of roasting meat and
+spilled ale permeates everything. Sturdy wooden tables are crowded with
+dwarves telling tales and singing bawdy songs. A long bar runs along the
+&Yeast&d wall, and a staircase leads &Yup&d to guest rooms.
+~
+#EXIT
+Direction south~
+ToRoom    14003
+Desc      The Commons lies outside.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14005
+Desc      The bar area lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    14008
+Desc      A staircase leads to the upper rooms.
+~
+#ENDEXIT
+Reset M 0 14004 1 14004
+Reset M 0 14005 2 14004
+Reset M 0 14020 4 14004
+Reset O 0 14008 5 14004
+Reset O 0 14009 5 14004
+#ENDROOM
+
+#ROOM
+Vnum     14005
+Name     &YThe Stonefire Tavern - Bar&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     A long bar of polished granite dominates this section of the tavern.
+Barrels of ale are stacked behind the counter, and an impressive array
+of mugs, tankards, and bottles line the shelves. The innkeeper presides
+over this domain with cheerful efficiency, keeping drinks flowing and
+patrons happy.
+~
+#EXIT
+Direction west~
+ToRoom    14004
+Desc      The main tavern room lies to the west.
+~
+#ENDEXIT
+Reset O 0 14008 10 14005
+Reset O 0 14009 10 14005
+Reset O 0 14012 3 14005
+Reset O 0 14013 2 14005
+#ENDROOM
+
+#ROOM
+Vnum     14006
+Name     &WThe Commons - The Vault&d~
+Sector   city~
+Flags    indoors~
+Desc     The wide corridor opens into a grand chamber dominated by the imposing
+facade of &YThe Vault&d, Ironforge's legendary bank. Massive iron doors
+stand open during business hours, revealing glimpses of the secure rooms
+within. Armed guards watch everyone with suspicious eyes. The walk
+continues &Ywest&d, and the bank entrance is to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14007
+Desc      Heavy doors lead into the Vault.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14003
+Desc      The eastern walk leads back to the plaza.
+~
+#ENDEXIT
+Reset M 0 14001 2 14006
+  Reset E 1 14001 1 16
+  Reset E 1 14003 1 15
+#ENDROOM
+
+#ROOM
+Vnum     14007
+Name     &YThe Vault of Ironforge&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Cool air and the gleam of gold greet you inside Ironforge's legendary
+Vault. Teller windows of reinforced iron line the walls, each manned by
+a sharp-eyed banker. Behind them, the massive vault doors of solid mithril
+stand partially visible, their locks said to be unpickable. The wealth of
+the Alliance is safeguarded here.
+~
+#EXIT
+Direction south~
+ToRoom    14006
+Desc      The Commons lies outside.
+~
+#ENDEXIT
+Reset M 0 14007 2 14007
+Reset O 0 14017 1 14007
+#ENDROOM
+
+#ROOM
+Vnum     14008
+Name     &YThe Stonefire Tavern - Upper Landing&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     A narrow hallway runs the length of the tavern's upper floor. Doors to
+modest guest rooms line both walls, and the sounds of snoring and muffled
+conversation drift through the wood. A window at the far end overlooks
+the Commons below. The stairs lead &Ydown&d to the main tavern.
+~
+#EXIT
+Direction down~
+ToRoom    14004
+Desc      The stairs lead down to the tavern.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     14009
+Name     &WThe Commons - Auction House&d~
+Sector   city~
+Flags    indoors~
+Desc     The clamor of commerce fills this busy chamber. Auctioneers call out
+bids from raised platforms, while buyers and sellers haggle over goods
+from across the Alliance. Notice boards cover the walls, advertising
+everything from rare weapons to mundane supplies. The central plaza lies
+to the &Ysouth&d.
+~
+#EXIT
+Direction south~
+ToRoom    14002
+Desc      The central plaza lies to the south.
+~
+#ENDEXIT
+Reset M 0 14006 1 14009
+Reset M 0 14019 3 14009
+Reset M 0 14020 4 14009
+#ENDROOM
+
+#ROOM
+Vnum     14010
+Name     &RThe Great Forge - Southern Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A wave of heat washes over you as you approach the &RGreat Forge&d, the
+massive lava pit at the very heart of Ironforge. The air shimmers, and
+the orange glow of molten rock illuminates everything with fierce light.
+This ancient forge has burned since the founding of the city, and its
+flames have crafted countless legendary weapons. The path circles the
+forge to the &Yeast&d and &Ywest&d. The Commons lies &Ysouth&d.
+~
+#EXIT
+Direction east~
+ToRoom    14011
+Desc      The path circles the forge to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14002
+Desc      The cooler Commons lie to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14014
+Desc      The path circles the forge to the west.
+~
+#ENDEXIT
+Reset M 0 14013 2 14010
+Reset M 0 14020 3 14010
+#ENDROOM
+
+#ROOM
+Vnum     14011
+Name     &RThe Great Forge - Eastern Ring&d~
+Sector   city~
+Flags    indoors~
+Desc     Smiths work at anvils along the outer wall, the clanging of their hammers
+creating a constant rhythm. Sparks fly as metal is shaped and cooled. The
+lava pit bubbles and churns to your &Ywest&d, separated only by a low stone
+wall. The ring continues &Ynorth&d and &Ysouth&d, and a smithy lies to the
+&Yeast&d.
+~
+#EXIT
+Direction north~
+ToRoom    14012
+Desc      The ring continues north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14015
+Desc      A master smithy lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14010
+Desc      The southern entrance lies behind you.
+~
+#ENDEXIT
+Reset M 0 14008 1 14011
+Reset M 0 14013 1 14011
+Reset O 0 14015 3 14011
+Reset O 0 14016 3 14011
+#ENDROOM
+
+#ROOM
+Vnum     14012
+Name     &RThe Great Forge - Northern Ring&d~
+Sector   city~
+Flags    indoors~
+Desc     The northern section of the ring offers a view straight down into the
+churning lava below. Platforms extend out over the pit, used by master
+smiths who require the most intense heat for their finest works. The
+heat here is almost unbearable. The High Seat lies to the &Ynorth&d, and
+the ring continues &Yeast&d and &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    14020
+Desc      The High Seat of Ironforge lies beyond.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14011
+Desc      The ring continues to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14013
+Desc      The ring continues to the west.
+~
+#ENDEXIT
+Reset M 0 14008 1 14012
+Reset M 0 14020 2 14012
+#ENDROOM
+
+#ROOM
+Vnum     14013
+Name     &RThe Great Forge - Western Ring&d~
+Sector   city~
+Flags    indoors~
+Desc     More workshops line the walls here, specializing in armor and shields.
+Apprentice smiths pump massive bellows, feeding air to the forges. Racks
+of completed works—breastplates, helms, gauntlets—line the walls, awaiting
+their owners. The ring continues &Ynorth&d and &Ysouth&d, and a workshop
+entrance lies to the &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    14012
+Desc      The ring continues north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14014
+Desc      The ring continues south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14016
+Desc      An armor workshop lies to the west.
+~
+#ENDEXIT
+Reset M 0 14013 2 14013
+Reset M 0 14020 2 14013
+Reset O 0 14005 2 14013
+Reset O 0 14006 2 14013
+#ENDROOM
+
+#ROOM
+Vnum     14014
+Name     &RThe Great Forge - Southwest Ring&d~
+Sector   city~
+Flags    indoors~
+Desc     The circular path continues here, the ever-present heat and glow of the
+forge dominating everything. Dwarven craftsmen take pride in working
+closest to the ancient flames, and the finest masters have their stations
+nearest the pit. The path continues &Ynorth&d and &Yeast&d.
+~
+#EXIT
+Direction north~
+ToRoom    14013
+Desc      The ring continues north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14010
+Desc      The southern entrance lies to the east.
+~
+#ENDEXIT
+Reset M 0 14013 2 14014
+Reset M 0 14020 2 14014
+#ENDROOM
+
+#ROOM
+Vnum     14015
+Name     &YForgemaster Thragrim's Smithy&d~
+Sector   inside~
+Flags    indoors~
+Desc     This is the personal workshop of &WForgemaster Thragrim&d, one of the
+finest weaponsmiths in all of Khaz Modan. Half-finished blades hang on
+racks, and a private forge burns hot against the far wall. The quality
+of work here is evident in every gleaming edge and perfect weld. The
+master himself works at his anvil, ignoring all distractions.
+~
+#EXIT
+Direction west~
+ToRoom    14011
+Desc      The forge ring lies to the west.
+~
+#ENDEXIT
+Reset M 0 14008 1 14015
+Reset O 0 14001 1 14015
+Reset O 0 14002 1 14015
+Reset O 0 14014 1 14015
+#ENDROOM
+
+#ROOM
+Vnum     14016
+Name     &YIronforge Armory Workshop&d~
+Sector   inside~
+Flags    indoors~
+Desc     Heavy armor dominates this workshop. Suits of plate hang on stands,
+awaiting final fitting. Shields lean against every wall, bearing the
+crests of various dwarven clans. The armorers here take immense pride
+in crafting protection that has saved countless lives.
+~
+#EXIT
+Direction east~
+ToRoom    14013
+Desc      The forge ring lies to the east.
+~
+#ENDEXIT
+Reset M 0 14013 1 14016
+Reset O 0 14003 2 14016
+Reset O 0 14004 2 14016
+Reset O 0 14005 1 14016
+Reset O 0 14007 2 14016
+#ENDROOM
+
+#ROOM
+Vnum     14020
+Name     &WThe High Seat - Antechamber&d~
+Sector   city~
+Flags    indoors nomob~
+Desc     You enter the antechamber of the &WHigh Seat&d, the throne room of
+Ironforge's king. Royal guards in ceremonial armor stand at attention,
+their eyes watching every visitor. Banners bearing the Bronzebeard crest
+hang from the walls—a mighty anvil beneath a crown of stone. The throne
+room lies to the &Ynorth&d, and the Great Forge lies &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14021
+Desc      The throne room awaits beyond.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14012
+Desc      The Great Forge lies to the south.
+~
+#ENDEXIT
+Reset M 0 14001 2 14020
+  Reset E 1 14001 1 16
+  Reset E 1 14004 1 4
+  Reset E 1 14005 1 7
+#ENDROOM
+
+#ROOM
+Vnum     14021
+Name     &WThe High Seat - Throne Room&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     The throne room of Ironforge is a chamber of breathtaking grandeur.
+Massive pillars carved with the complete history of the dwarven people
+support a ceiling lost in shadow. At the far end, upon a throne of
+solid mithril, sits &WKing Magni Bronzebeard&d himself, ruler of all
+Ironforge. Advisors and thanes stand nearby, attending to the business
+of the kingdom. A war room lies to the &Yeast&d, and the Senate chamber
+is to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14022
+Desc      The war room lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14020
+Desc      The antechamber lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14023
+Desc      The Senate chamber lies to the west.
+~
+#ENDEXIT
+Reset M 0 14002 1 14021
+  Reset E 1 14001 1 16
+  Reset E 1 14004 1 4
+  Reset E 1 14025 1 11
+Reset M 0 14003 1 14021
+Reset M 0 14001 2 14021
+  Reset E 1 14001 1 16
+  Reset E 1 14005 1 7
+#ENDROOM
+
+#ROOM
+Vnum     14022
+Name     &WThe High Seat - War Room&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     A massive stone table dominates this chamber, its surface carved into a
+detailed map of Khaz Modan and the surrounding regions. Miniature figures
+representing troop positions are scattered across the map. Military
+commanders debate strategy in hushed, urgent tones. Battle plans and
+intelligence reports cover the walls.
+~
+#EXIT
+Direction west~
+ToRoom    14021
+Desc      The throne room lies to the west.
+~
+#ENDEXIT
+Reset M 0 14023 2 14022
+  Reset E 1 14000 1 16
+Reset M 0 14015 2 14022
+  Reset E 1 14002 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14023
+Name     &WThe High Seat - Senate Chamber&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     The Senate of Ironforge meets in this circular chamber. Stone benches
+arranged in tiers surround a central speaking platform, where thanes
+from every major clan gather to debate law and policy. The acoustics
+are perfect—a whisper from the floor can be heard clearly in the highest
+row.
+~
+#EXIT
+Direction east~
+ToRoom    14021
+Desc      The throne room lies to the east.
+~
+#ENDEXIT
+Reset M 0 14021 4 14023
+Reset M 0 14003 1 14023
+#ENDROOM
+
+#ROOM
+Vnum     14030
+Name     &CThe Mystic Ward - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The air grows cooler and charged with arcane energy as you enter the
+&CMystic Ward&d. Strange lights flicker in alcoves, and the faint hum of
+magical wards vibrates through the stone. This district is home to
+Ironforge's practitioners of the arcane arts—mages, warlocks, and priests
+alike. The Commons lie to the &Ywest&d, and the ward continues &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14031
+Desc      The Mystic Ward continues deeper.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14002
+Desc      The Commons lie to the west.
+~
+#ENDEXIT
+Reset M 0 14022 1 14030
+Reset M 0 14020 2 14030
+#ENDROOM
+
+#ROOM
+Vnum     14031
+Name     &CThe Mystic Ward - Central Chamber&d~
+Sector   city~
+Flags    indoors~
+Desc     Glowing runes are carved into the floor of this circular chamber, pulsing
+with soft blue light. Bookshelves stuffed with ancient tomes line the
+curved walls, and crystal orbs float in niches, displaying scenes from
+distant lands. Mages practice incantations in hushed tones, and the smell
+of incense and ozone fills the air. The &YHall of Mysteries&d lies &Ynorth&d,
+and the &YTemple of Light&d is to the &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14032
+Desc      The Hall of Mysteries beckons.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14034
+Desc      The Temple of Light lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14030
+Desc      The ward entrance lies to the west.
+~
+#ENDEXIT
+Reset M 0 14022 2 14031
+Reset M 0 14020 2 14031
+#ENDROOM
+
+#ROOM
+Vnum     14032
+Name     &CThe Hall of Mysteries&d~
+Sector   inside~
+Flags    indoors~
+Desc     This is the heart of arcane study in Ironforge. Apprentice mages practice
+cantrips under the watchful eyes of masters, while senior wizards conduct
+complex experiments in warded alcoves. Magical artifacts are displayed in
+protective cases, their powers carefully contained. A portal chamber lies
+to the &Ynorth&d, and a library is to the &Yeast&d.
+~
+#EXIT
+Direction north~
+ToRoom    14033
+Desc      The portal chamber lies beyond.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14036
+Desc      The arcane library lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14031
+Desc      The central chamber lies to the south.
+~
+#ENDEXIT
+Reset M 0 14022 2 14032
+Reset O 0 14020 1 14032
+#ENDROOM
+
+#ROOM
+Vnum     14033
+Name     &CThe Portal Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive stone ring dominates this chamber, its surface covered in
+glowing runes. This is one of Ironforge's portal nexuses, allowing
+instantaneous travel to distant cities for those with the skill to
+activate it. Residual magical energy crackles in the air, making your
+hair stand on end.
+~
+#EXIT
+Direction south~
+ToRoom    14032
+Desc      The Hall of Mysteries lies to the south.
+~
+#ENDEXIT
+Reset M 0 14022 1 14033
+#ENDROOM
+
+#ROOM
+Vnum     14034
+Name     &WThe Temple of Light&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Soft golden light suffuses this serene temple dedicated to the Holy Light.
+Rows of stone pews face an altar of white marble, upon which an eternal
+flame burns without heat. Priests in white and gold robes tend to the
+faithful, offering blessings and healing to those in need. The air smells
+of candle wax and peace.
+~
+#EXIT
+Direction north~
+ToRoom    14031
+Desc      The Mystic Ward lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14035
+Desc      The meditation chambers lie to the east.
+~
+#ENDEXIT
+Reset M 0 14011 2 14034
+Reset M 0 14024 1 14034
+  Reset E 1 14001 1 16
+  Reset E 1 14005 1 7
+#ENDROOM
+
+#ROOM
+Vnum     14035
+Name     &WTemple Meditation Chambers&d~
+Sector   inside~
+Flags    indoors nomob~
+Desc     Small meditation cells line this quiet corridor, each providing a private
+space for prayer and contemplation. Candles flicker in wall sconces, and
+the distant sound of hymns drifts through the air. This is a place of
+profound peace and spiritual reflection.
+~
+#EXIT
+Direction west~
+ToRoom    14034
+Desc      The main temple lies to the west.
+~
+#ENDEXIT
+Reset M 0 14011 1 14035
+#ENDROOM
+
+#ROOM
+Vnum     14036
+Name     &CThe Arcane Library&d~
+Sector   inside~
+Flags    indoors~
+Desc     Floor-to-ceiling bookshelves fill this vast library, containing thousands
+of volumes on every conceivable magical topic. Floating candles provide
+illumination without risk of fire, and enchanted ladders slide along
+tracks to reach the highest shelves. Scholars hunch over desks, taking
+notes from ancient grimoires.
+~
+#EXIT
+Direction west~
+ToRoom    14032
+Desc      The Hall of Mysteries lies to the west.
+~
+#ENDEXIT
+Reset M 0 14022 1 14036
+Reset M 0 14012 1 14036
+#ENDROOM
+
+#ROOM
+Vnum     14050
+Name     &YThe Military Ward - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The clash of weapons and shouts of drill sergeants fill the air as you
+enter the &YMilitary Ward&d. This district houses Ironforge's standing army,
+training facilities, and the offices of its military command. Soldiers
+march in formation, and the smell of oil and leather is everywhere. The
+Commons lie to the &Yeast&d, and the ward continues &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14002
+Desc      The Commons lie to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14051
+Desc      The Military Ward continues deeper.
+~
+#ENDEXIT
+Reset M 0 14000 2 14050
+  Reset E 1 14000 1 16
+  Reset E 1 14021 1 12
+Reset M 0 14015 2 14050
+  Reset E 1 14002 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14051
+Name     &YThe Military Ward - Training Grounds&d~
+Sector   city~
+Flags    indoors~
+Desc     A large open area has been carved from the rock, its floor covered in
+packed sand. Dwarven warriors spar with practice weapons, their movements
+precise and deadly. Weapon racks line the walls, and training dummies
+bear the marks of countless strikes. The barracks lie &Ynorth&d, the
+armory is &Ysouth&d, and the gryphon roost is to the &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    14052
+Desc      The barracks lie to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14050
+Desc      The ward entrance lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14054
+Desc      The armory lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14060
+Desc      The gryphon roost lies to the west.
+~
+#ENDEXIT
+Reset M 0 14015 4 14051
+  Reset E 1 14002 1 16
+  Reset E 1 14004 1 4
+Reset M 0 14023 2 14051
+  Reset E 1 14000 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14052
+Name     &YMilitary Ward - Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows of sturdy bunks fill this long chamber, each made with military
+precision. Footlockers sit at the end of each bed, containing soldiers'
+personal effects. Off-duty warriors rest, play cards, or maintain their
+equipment. A mess hall is visible through a doorway to the &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14053
+Desc      The mess hall lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14051
+Desc      The training grounds lie to the south.
+~
+#ENDEXIT
+Reset M 0 14015 3 14052
+Reset M 0 14023 2 14052
+Reset O 0 14002 2 14052
+Reset O 0 14003 2 14052
+#ENDROOM
+
+#ROOM
+Vnum     14053
+Name     &YMilitary Ward - Mess Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     Long wooden tables fill this dining hall, capable of seating hundreds of
+soldiers at once. The smell of hearty stew and fresh bread fills the air,
+and cooks work constantly in the kitchen beyond a serving window. Even
+in peacetime, an army marches on its stomach.
+~
+#EXIT
+Direction west~
+ToRoom    14052
+Desc      The barracks lie to the west.
+~
+#ENDEXIT
+Reset M 0 14025 2 14053
+Reset M 0 14020 4 14053
+Reset O 0 14010 5 14053
+Reset O 0 14012 5 14053
+Reset O 0 14013 3 14053
+Reset O 0 14008 10 14053
+#ENDROOM
+
+#ROOM
+Vnum     14054
+Name     &YMilitary Ward - Armory&d~
+Sector   inside~
+Flags    indoors~
+Desc     Weapons and armor of every description fill this secure chamber. Racks of
+rifles, axes, hammers, and swords line the walls, while suits of plate
+armor stand on mannequins. Quartermasters keep meticulous records of
+every piece of equipment issued to the army. The armory is the beating
+heart of Ironforge's military might.
+~
+#EXIT
+Direction north~
+ToRoom    14051
+Desc      The training grounds lie to the north.
+~
+#ENDEXIT
+Reset M 0 14001 1 14054
+  Reset E 1 14001 1 16
+  Reset E 1 14005 1 7
+Reset O 0 14000 3 14054
+Reset O 0 14001 3 14054
+Reset O 0 14002 3 14054
+Reset O 0 14003 3 14054
+Reset O 0 14004 3 14054
+Reset O 0 14005 3 14054
+Reset O 0 14006 3 14054
+Reset O 0 14007 3 14054
+#ENDROOM
+
+#ROOM
+Vnum     14060
+Name     &WThe Gryphon Roost - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The tunnel opens into a massive natural cavern where the great gryphons
+of Ironforge make their nests. The ceiling soars hundreds of feet overhead,
+with openings to the sky that allow the beasts to come and go. The smell
+of hay, feathers, and predator musk fills the air. The nesting area lies
+to the &Ynorth&d, and the flight platform is to the &Ywest&d.
+~
+#EXIT
+Direction north~
+ToRoom    14061
+Desc      The nesting area lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14051
+Desc      The Military Ward lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14062
+Desc      The flight platform lies to the west.
+~
+#ENDEXIT
+Reset M 0 14017 1 14060
+Reset M 0 14018 2 14060
+#ENDROOM
+
+#ROOM
+Vnum     14061
+Name     &WThe Gryphon Roost - Nesting Area&d~
+Sector   inside~
+Flags    indoors~
+Desc     Massive nests built from branches, hay, and shed feathers fill this section
+of the cavern. Golden gryphons lounge in their nests, preening themselves
+or tearing at haunches of meat. Handlers move carefully among them, earning
+the trust of these magnificent but dangerous creatures.
+~
+#EXIT
+Direction south~
+ToRoom    14060
+Desc      The roost entrance lies to the south.
+~
+#ENDEXIT
+Reset M 0 14010 4 14061
+Reset M 0 14017 1 14061
+#ENDROOM
+
+#ROOM
+Vnum     14062
+Name     &WThe Gryphon Roost - Flight Platform&d~
+Sector   city~
+Desc     A stone platform extends out from the cavern wall, overlooking a dizzying
+drop to the snowy mountains below. This is where gryphon riders mount up
+and take to the skies. The wind howls through the opening, and the view
+of &CDun Morogh&d is breathtaking. Saddled gryphons wait here for passengers
+traveling to distant Alliance cities.
+~
+#EXIT
+Direction east~
+ToRoom    14060
+Desc      The roost entrance lies to the east.
+~
+#ENDEXIT
+Reset M 0 14009 1 14062
+Reset M 0 14010 2 14062
+#ENDROOM
+
+#ROOM
+Vnum     14070
+Name     &MTinker Town - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The steady tick-tick-tick of clockwork and the occasional small explosion
+announce your arrival in &MTinker Town&d, home to Ironforge's gnomish
+population. Mechanical contraptions of every description whir and clank.
+The gnomes took refuge here after the fall of Gnomeregan, and they have
+made this district their own. The Commons lie to the &Ysouth&d, and Tinker
+Town continues &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14071
+Desc      Tinker Town continues deeper.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14002
+Desc      The Commons lie to the south.
+~
+#ENDEXIT
+Reset M 0 14014 2 14070
+Reset M 0 14020 2 14070
+#ENDROOM
+
+#ROOM
+Vnum     14071
+Name     &MTinker Town - Central Workshop&d~
+Sector   city~
+Flags    indoors~
+Desc     Chaos reigns in the best possible way here. Gnomish inventors tinker at
+crowded workbenches, surrounded by gears, springs, wires, and devices of
+unknown purpose. Mechanical chickens strut about, and a small steam-powered
+cart trundles past carrying supplies. The air smells of oil, solder, and
+burnt rubber. The engineering hall lies &Yeast&d, and the Deeprun Tram
+station is to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14072
+Desc      The engineering hall lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14070
+Desc      The entrance lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14075
+Desc      The Deeprun Tram station lies to the west.
+~
+#ENDEXIT
+Reset M 0 14014 3 14071
+Reset O 0 14022 2 14071
+Reset O 0 14023 2 14071
+#ENDROOM
+
+#ROOM
+Vnum     14072
+Name     &MTinker Town - Engineering Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     This hall serves as both workshop and classroom for Ironforge's engineers.
+Blueprints cover every wall, and half-assembled devices clutter the tables.
+Senior engineers lecture apprentices on the finer points of mechanical
+design, while occasional sparks and bangs interrupt the lessons. A testing
+chamber lies &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14073
+Desc      The testing chamber lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14071
+Desc      The central workshop lies to the west.
+~
+#ENDEXIT
+Reset M 0 14014 2 14072
+Reset O 0 14024 2 14072
+#ENDROOM
+
+#ROOM
+Vnum     14073
+Name     &MTinker Town - Testing Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     Scorch marks and dents cover the reinforced walls of this chamber, evidence
+of countless experiments gone wrong—or right, depending on your perspective.
+A thick window allows observation from the relative safety of the hallway.
+Currently, a gnome is attempting to activate a device that sparks ominously.
+~
+#EXIT
+Direction south~
+ToRoom    14072
+Desc      The engineering hall lies to the south.
+~
+#ENDEXIT
+Reset M 0 14014 1 14073
+#ENDROOM
+
+#ROOM
+Vnum     14074
+Name     &MTinker Town - Gnomish Quarters&d~
+Sector   inside~
+Flags    indoors~
+Desc     The gnomish refugees from Gnomeregan have made comfortable homes in these
+converted chambers. The rooms are small but ingeniously designed, with
+fold-out furniture and mechanical conveniences. Despite losing their
+homeland, the gnomes maintain their characteristic optimism and love of
+invention.
+~
+#EXIT
+Direction south~
+ToRoom    14071
+Desc      The central workshop lies to the south.
+~
+#ENDEXIT
+Reset M 0 14014 2 14074
+Reset M 0 14020 3 14074
+Reset O 0 14022 1 14074
+#ENDROOM
+
+#ROOM
+Vnum     14075
+Name     &MDeeprun Tram - Ironforge Station&d~
+Sector   inside~
+Flags    indoors~
+Desc     A marvel of gnomish engineering, the &WDeeprun Tram&d station gleams with
+polished brass and humming machinery. This underground railway connects
+Ironforge to &WStormwind City&d, crossing beneath the sea in a journey of
+mere minutes. A sleek tram car waits at the platform, ready to depart.
+Tinker Town lies to the &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14071
+Desc      Tinker Town lies to the east.
+~
+#ENDEXIT
+Reset M 0 14014 1 14075
+Reset M 0 14020 2 14075
+#ENDROOM
+
+#ROOM
+Vnum     14080
+Name     &YThe Hall of Explorers - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     You enter the &YHall of Explorers&d, headquarters of the renowned
+&WExplorers' League&d. Maps of distant lands cover the walls, and display
+cases hold artifacts from across Azeroth and beyond. The dwarves' passion
+for uncovering the secrets of the past is evident everywhere. The main
+hall lies &Ynorth&d, and the Commons are to the &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14081
+Desc      The main hall lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14002
+Desc      The Commons lie to the south.
+~
+#ENDEXIT
+Reset M 0 14012 1 14080
+Reset M 0 14020 2 14080
+#ENDROOM
+
+#ROOM
+Vnum     14081
+Name     &YThe Hall of Explorers - Main Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The main hall of the Explorers' League is a museum of wonders. Titan
+artifacts gleam in enchanted cases, troll relics hang on the walls, and
+a complete skeleton of an ancient beast dominates the center of the room.
+Explorers share tales of distant digs, and researchers pore over ancient
+texts. The library lies &Yeast&d, and a map room is to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14082
+Desc      The library lies to the east.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    14080
+Desc      The entrance lies to the south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    14083
+Desc      The map room lies to the west.
+~
+#ENDEXIT
+Reset M 0 14003 1 14081
+Reset M 0 14012 2 14081
+Reset O 0 14020 1 14081
+#ENDROOM
+
+#ROOM
+Vnum     14082
+Name     &YThe Hall of Explorers - Library&d~
+Sector   inside~
+Flags    indoors~
+Desc     This extensive library contains records of every expedition the Explorers'
+League has ever undertaken. Journals, maps, rubbings of ancient inscriptions,
+and scholarly analyses fill the shelves. Archivists catalog new discoveries
+daily, adding to the ever-growing collection of dwarven knowledge.
+~
+#EXIT
+Direction west~
+ToRoom    14081
+Desc      The main hall lies to the west.
+~
+#ENDEXIT
+Reset M 0 14012 1 14082
+#ENDROOM
+
+#ROOM
+Vnum     14083
+Name     &YThe Hall of Explorers - Map Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive table dominates this room, its surface covered with a detailed
+map of the known world. Explorers gather here to plan expeditions, marking
+sites of interest and routes through dangerous territory. Smaller maps
+of specific regions hang on the walls, annotated with notes from previous
+missions.
+~
+#EXIT
+Direction east~
+ToRoom    14081
+Desc      The main hall lies to the east.
+~
+#ENDEXIT
+Reset M 0 14003 1 14083
+Reset M 0 14012 1 14083
+#ENDROOM
+
+#ROOM
+Vnum     14090
+Name     &YThe Forlorn Cavern&d~
+Sector   city~
+Flags    indoors~
+Desc     This quiet corner of Ironforge is home to those who prefer shadows to
+firelight. Rogues and those with business best conducted in private
+frequent these dimly lit passages. A still pool of water gives the
+cavern its somber atmosphere. The Commons lie to the &Yeast&d, and a
+tavern of questionable reputation is to the &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14091
+Desc      A shadowy tavern lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    14002
+Desc      The Commons lie to the east.
+~
+#ENDEXIT
+Reset M 0 14020 3 14090
+#ENDROOM
+
+#ROOM
+Vnum     14091
+Name     &xThe Shady Lady Tavern&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     This dimly lit tavern caters to a clientele that prefers anonymity.
+Booths with high backs line the walls, allowing private conversations.
+The bartender asks no questions and remembers no faces. It's said that
+information of any kind can be bought here—for the right price.
+~
+#EXIT
+Direction south~
+ToRoom    14090
+Desc      The Forlorn Cavern lies to the south.
+~
+#ENDEXIT
+Reset M 0 14004 1 14091
+Reset O 0 14008 3 14091
+Reset O 0 14009 3 14091
+#ENDROOM
+
+#ROOM
+Vnum     14095
+Name     &YRam Pens&d~
+Sector   city~
+Flags    indoors~
+Desc     The smell of hay and animal fills this large chamber where Ironforge's
+war rams are stabled. The massive beasts stamp and snort in their pens,
+their curling horns formidable weapons. Handlers brush their thick wool
+and ensure they are well-fed and ready for service. The Commons lie to
+the &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14002
+Desc      The Commons lie to the east.
+~
+#ENDEXIT
+Reset M 0 14017 2 14095
+Reset M 0 14018 4 14095
+#ENDROOM
+
+#ENDAREA
+
