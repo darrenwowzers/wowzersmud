@@ -754,6 +754,9 @@ int get_npc_sex( const char *sex )
 {
    size_t x;
 
+// Wowzers Mud: Accept neutral as well as neuter -Hansth
+   if ( !str_cmp( sex, "neutral" ) ) return 0;
+
    for( x = 0; x <= SEX_FEMALE; x++ )
       if( !str_cmp( sex, npc_sex[x] ) )
          return x;
