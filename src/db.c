@@ -7358,6 +7358,13 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
             break;
 
          case 'P':
+            /* Wowzers Mud: Bypass legacy standalone 'peaceful' flag -Hansth */
+            if ( !str_cmp( word, "Peaceful" ) || !str_cmp( word, "peaceful" ) )
+            {
+                fread_to_eol( fp ); /* Eats the rest of the line so the parser doesn't choke */
+                fMatch = TRUE;
+                break;
+            }
             if( !str_cmp( word, "Position" ) )
             {
                short position = get_npc_position( fread_flagstring( fp ) );
@@ -7538,6 +7545,18 @@ void fread_fuss_mobile( FILE * fp, AREA_DATA * tarea )
                else
                   pMobIndex->spec_funname = STRALLOC( temp );
 
+               fMatch = TRUE;
+               break;
+            }
+
+            /* Wowzers Mud: Load WoW Primary Stats -Hansth */
+            if( !str_cmp( word, "Stats" ) )
+            {
+               pMobIndex->perm_stat[STAT_STR] = fread_number( fp );
+               pMobIndex->perm_stat[STAT_AGI] = fread_number( fp );
+               pMobIndex->perm_stat[STAT_STA] = fread_number( fp );
+               pMobIndex->perm_stat[STAT_INT] = fread_number( fp );
+               pMobIndex->perm_stat[STAT_SPI] = fread_number( fp );
                fMatch = TRUE;
                break;
             }

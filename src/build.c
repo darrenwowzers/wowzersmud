@@ -628,7 +628,9 @@ int get_wflag( const char *flag )
 int get_actflag( const char *flag )
 {
    unsigned int x;
-
+/* Wowzers Mud: Silently map legacy 'peaceful' to 'pacifist' to prevent log spam -Hansth */
+   if ( !str_cmp( flag, "peaceful" ) )
+      flag = "pacifist";
    for( x = 0; x < ( sizeof( act_flags ) / sizeof( act_flags[0] ) ); x++ )
       if( !str_cmp( flag, act_flags[x] ) )
          return x;
