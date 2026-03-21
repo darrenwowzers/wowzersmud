@@ -1,0 +1,1150 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Darkshore~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       10 20 10 20
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       27000
+Keywords   sentinel guard auberdine elf~
+Short      an Auberdine Sentinel~
+Long       An Auberdine Sentinel stands watch through the mist, glaive ready.~
+Desc       Her purple armor is damp from the constant drizzle of Darkshore. She 
+scans the shoreline for any sign of naga incursions or corrupted 
+wildlife.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 20 0 0 500 1200
+Stats2     20 20 200
+Stats3     4 10 18
+Stats4     0 0 0 0 0
+Attribs    14 16 14 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27001
+Keywords   greymist warrior naga snake~
+Short      a Greymist warrior~
+Long       A serpent-like Greymist naga slithers across the wet sand.~
+Desc       These naga have risen from the depths to reclaim the ruins of
+Ameth'Aran. Their scales are a dull, foggy grey, and they strike with 
+unnatural speed.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 18 0 0 400 900
+Stats2     18 18 150
+Stats3     3 10 16
+Stats4     0 0 0 0 0
+Attribs    16 14 14 12 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27002
+Keywords   giant forest strider bird~
+Short      a giant forest strider~
+Long       A tall, long-necked bird stalks through the shallow water.~
+Desc       These massive birds are native to the coastline. While generally 
+peaceful, they are highly territorial and will use their powerful 
+beaks to defend their nesting grounds.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 14 0 0 250 500
+Stats2     14 14 80
+Stats3     2 8 12
+Stats4     0 0 0 0 0
+Attribs    13 15 12 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+#MOBILE
+Vnum       27003
+Keywords   vile sprite fey creature~
+Short      a vile sprite~
+Long       A small, winged sprite giggles as it prepares a malicious spell.~
+Desc       Once playful forest spirits, these sprites have been twisted by the 
+growing corruption in the north. They now take joy in leading 
+travelers astray or stinging them with toxic magic.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 12 0 0 200 400
+Stats2     12 12 300
+Stats3     2 6 10
+Stats4     0 0 0 0 0
+Attribs    8 18 10 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27004
+Keywords   moonstalker cat panther beast~
+Short      a Moonstalker matron~
+Long       A sleek, dark-furred panther crouches in the shadows of a log.~
+Desc       Perfectly adapted to the twilight of Darkshore, the moonstalker is 
+almost invisible until it strikes. Its eyes glow with a faint, 
+predatory silver light.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 17 0 0 350 800
+Stats2     17 17 100
+Stats3     3 9 15
+Stats4     0 0 0 0 0
+Attribs    15 18 13 14 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27005
+Keywords   rabid thistle bear beast~
+Short      a rabid thistle bear~
+Long       A moss-covered bear lets out a pained, foam-flecked roar.~
+Desc       This poor creature is suffering from a magical blight. Its fur is 
+falling out in clumps, and it attacks anything that moves in a 
+blind, agonized rage.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 16 0 0 450 1000
+Stats2     16 16 120
+Stats3     3 10 16
+Stats4     0 0 0 0 0
+Attribs    17 10 16 8 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27006
+Keywords   wizbang cranktoggle gnome explorer~
+Short      Wizbang Cranktoggle~
+Long       A tiny gnome stands on a crate, peering through a brass spyglass.~
+Desc       An eccentric explorer from the Prospectors' Guild. He's convinced 
+there's a lost dwarven city buried under the silt of Darkshore and 
+won't leave until he finds a "significant pebble."
+~
+Race       gnome~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 30 0 0 1000 3000
+Stats2     30 30 500
+Stats3     5 12 25
+Stats4     0 0 0 0 0
+Attribs    10 14 12 19 14 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27007
+Keywords   ghost ameth'aran spirit~
+Short      a Highborne ghost~
+Long       A translucent figure wanders the ruins, weeping silently.~
+Desc       The spirit of a long-dead resident of Ameth'Aran. It seems 
+unaware of your presence, eternally reliving the final moments of 
+the city's destruction during the Sundering.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 18 0 0 300 700
+Stats2     18 18 400
+Stats3     3 9 15
+Stats4     0 0 0 0 0
+Attribs    10 14 10 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27008
+Keywords   blackfathom sea elemental~
+Short      a brackish elemental~
+Long       A mound of animated seawater and kelp surges forward.~
+Desc       A manifestation of the corrupted tides near Blackfathom Deeps. It 
+smells of brine and ancient rot.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 19 0 0 500 1100
+Stats2     19 19 200
+Stats3     4 11 18
+Stats4     0 0 0 0 0
+Attribs    16 10 18 10 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27009
+Keywords   onessimu moonwell keeper elf~
+Short      Onessimu~
+Long       Onessimu the Keeper tends to the moonwell with a silver ladle.~
+Desc       A druid of the branch, he is tasked with keeping the waters of 
+Auberdine pure despite the encroaching shadows of the forest.
+~
+Race       elf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 35 0 0 1500 4500
+Stats2     35 35 800
+Stats3     6 18 32
+Stats4     0 0 0 0 0
+Attribs    12 16 14 18 16 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27010
+Keywords   blackwood furbolg corrupted bearman~
+Short      a Blackwood pathfinder~
+Long       A dark-furred furbolg sniffs the air, clutching a spear.~
+Desc       The Blackwood tribe has fallen into deep corruption. They no 
+longer trade with the Night Elves and view any outsider as a 
+sacrifice for their new, dark masters.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 17 0 0 400 900
+Stats2     17 17 150
+Stats3     3 9 15
+Stats4     0 0 0 0 0
+Attribs    17 12 15 10 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27011
+Keywords   giant reef crab crustacean~
+Short      a giant reef crab~
+Long       A massive crab with a shell like a boulder clicks its pincers.~
+Desc       Scavengers of the Zoram Strand, these crabs are large enough to 
+snap a humanoid in half. Their shells are often encrusted with 
+barnacles and small tidepool plants.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 15 0 0 350 750
+Stats2     15 15 100
+Stats3     3 8 13
+Stats4     0 0 0 0 0
+Attribs    15 10 18 8 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27012
+Keywords   darkshore crocolisk beast~
+Short      a Darkshore crocolisk~
+Long       A long, low-slung reptile slides silently into the water.~
+Desc       A six-legged predator that lurks in the marshy areas of the 
+coastline. Its hide is incredibly tough, and its bite is 
+notoriously difficult to escape.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 16 0 0 400 950
+Stats2     16 16 100
+Stats3     3 10 15
+Stats4     0 0 0 0 0
+Attribs    16 12 16 10 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27013
+Keywords   lord malath ghostly leader~
+Short      Lord Malath~
+Long       Lord Malath stares out over the ruins of his city with hollow eyes.~
+Desc       Once the ruler of Ameth'Aran, his spirit is bound to the physical 
+world by regret and the lingering magic of the Highborne. He is a 
+formidable foe for any who disturb his vigil.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 25 0 0 1000 2500
+Stats2     25 25 600
+Stats3     5 15 25
+Stats4     0 0 0 0 0
+Attribs    12 14 14 18 16 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27014
+Keywords   shrieking harpy scavenger~
+Short      a shrieking scavenger~
+Long       A harpy with grey-streaked wings perches on a beached whale.~
+Desc       These harpies compete with the crabs for the meat of the beached 
+creatures along the coast. They are filthy, loud, and incredibly 
+vicious when feeding.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 13 0 0 250 600
+Stats2     13 13 150
+Stats3     2 8 12
+Stats4     0 0 0 0 0
+Attribs    12 16 12 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     27000
+Keywords auberdine moon-glaive weapon~
+Type     weapon~
+Short    a gleaming moon-glaive~
+Long     A three-bladed throwing weapon made of enchanted silver lies here.~
+WFlags   take wield~
+Values   0 6 15 11 0 0
+Stats    6 250 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27001
+Keywords soggy boots leather~
+Type     armor~
+Short    a pair of soggy leather boots~
+Long     Sturdy boots that have seen too much time in the Darkshore rain.~
+WFlags   take feet~
+Values   4 0 0 0 0 0
+Stats    4 40 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27002
+Keywords naga trident coral weapon~
+Type     weapon~
+Short    a barbed naga trident~
+Long     A heavy spear made of sharpened coral and bone rests here.~
+WFlags   take wield~
+Values   0 7 16 11 0 0
+Stats    8 120 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27003
+Keywords ameth'aran scroll ancient~
+Type     treasure~
+Short    a water-damaged Highborne scroll~
+Long     A roll of parchment that somehow survived the city's destruction.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 300 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27004
+Keywords crab shell shield buckler~
+Type     armor~
+Short    a giant crab shell buckler~
+Long     A shield fashioned from the thick carapace of a reef crab.~
+WFlags   take shield~
+Values   7 0 0 0 0 0
+Stats    10 150 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27005
+Keywords glow-cap mushroom food~
+Type     food~
+Short    a glowing thistle-cap~
+Long     A small, neon-green mushroom that pulses with a strange light.~
+WFlags   take hold~
+Values   12 12 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27006
+Keywords moonstalker fang necklace~
+Type     jewelry~
+Short    a necklace of moonstalker fangs~
+Long     A leather cord strung with several sharp, curved feline teeth.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27007
+Keywords rusted gnome wrench mace weapon~
+Type     weapon~
+Short    a rusted oversized wrench~
+Long     A massive tool dropped by a gnome explorer, now used as a club.~
+WFlags   take wield~
+Values   0 5 12 7 0 0
+Stats    8 40 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27008
+Keywords vial moonwell water~
+Type     potion~
+Short    a vial of Auberdine moonwell water~
+Long     A crystal vial filled with glowing, restorative liquid.~
+WFlags   take hold~
+Values   15 'cure light' 'bless' '' 0 0
+Stats    1 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27009
+Keywords darkshore kelp wrap food~
+Type     food~
+Short    a roll of dried Darkshore kelp~
+Long     Salted and dried seaweed that serves as a basic traveling ration.~
+WFlags   take hold~
+Values   8 8 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27010
+Keywords ameth'aran ring silver~
+Type     jewelry~
+Short    a tarnished silver signet ring~
+Long     A ring bearing the crest of the ancient city of Ameth'Aran.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 400 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27011
+Keywords furbolg ritual totem~
+Type     treasure~
+Short    a carved Blackwood totem~
+Long     A wooden totem carved to resemble a twisted, howling bear.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    3 80 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27012
+Keywords crocolisk skin vest armor~
+Type     armor~
+Short    a crocolisk skin vest~
+Long     A vest made of thick, bumpy reptile hide. It's very water-resistant.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    7 180 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27013
+Keywords strider feather quill~
+Type     trash~
+Short    a long forest strider feather~
+Long     A vibrant green and blue feather that would make a fine quill.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27014
+Keywords empty clam shell~
+Type     trash~
+Short    an enormous empty clam shell~
+Long     A shell large enough to be used as a basin or a very heavy bowl.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    4 5 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     27000
+Name     &cThe Southern Gateway&d~
+Sector   forest~
+Desc     The dense, ancient trees of Ashenvale give way to a thinner, mistier
+woodland. The air is perpetually damp here, and the sound of the 
+crashing Great Sea can be heard to the west. 
+~
+#EXIT
+Direction south~
+ToRoom    28016
+Desc      Back to Ashenvale.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27001
+Desc      The road to Auberdine.
+~
+#ENDEXIT
+Reset M 0 27004 2 27000
+#ENDROOM
+
+#ROOM
+Vnum     27001
+Name     &cThe Rain-Slicked Path&d~
+Sector   forest~
+Desc     The road is little more than a muddy track through the silver-grey
+trees. To the west, the forest thins out into the sandy dunes of the 
+coastline. A cold drizzle falls relentlessly from the grey sky.
+~
+#EXIT
+Direction south~
+ToRoom    27000
+Desc      The southern gate.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27002
+Desc      Toward the ruins.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27005
+Desc      Toward the shoreline.
+~
+#ENDEXIT
+Reset M 0 27005 1 27001
+#ENDROOM
+
+#ROOM
+Vnum     27002
+Name     &cRuins of Ameth'Aran - Gates&d~
+Sector   field~
+Desc     Two massive, crumbling stone pillars mark the entrance to what was 
+once a magnificent Highborne city. Ivy and moss cling to the white 
+stone, and a palpable sense of sorrow hangs in the air.
+~
+#EXIT
+Direction south~
+ToRoom    27001
+Desc      The muddy path.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27003
+Desc      Ameth'Aran Center.
+~
+#ENDEXIT
+Reset M 0 27007 2 27002
+#ENDROOM
+
+#ROOM
+Vnum     27003
+Name     &cAmeth'Aran - Central Plaza&d~
+Sector   field~
+Desc     A large, circular plaza filled with the remains of fountains and 
+broken statues. Ghostly figures flicker in and out of existence, 
+re-enacting a life that ended ten thousand years ago.
+~
+#EXIT
+Direction south~
+ToRoom    27002
+Desc      The gate.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27004
+Desc      The Highborne Sanctum.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27007
+Desc      Toward Auberdine.
+~
+#ENDEXIT
+Reset M 0 27013 1 27003
+Reset O 0 27010 1 27003
+#ENDROOM
+
+#ROOM
+Vnum     27004
+Name     &cThe Highborne Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     The roof of this structure has long since collapsed, but the walls 
+still hum with residual arcane energy. Ancient scrolls rot in niches 
+along the walls.
+~
+#EXIT
+Direction west~
+ToRoom    27003
+Desc      The plaza.
+~
+#ENDEXIT
+Reset O 0 27003 2 27004
+#ENDROOM
+
+#ROOM
+Vnum     27005
+Name     &bThe Misty Shoreline&d~
+Sector   field~
+Desc     The Great Sea stretches out to the west, hidden behind a wall of 
+dense fog. Beached logs and large, bleached ribcages of sea 
+creatures litter the sand.
+~
+#EXIT
+Direction east~
+ToRoom    27001
+Desc      Back to the road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27006
+Desc      The Beached Sea Turtle.
+~
+#ENDEXIT
+Reset M 0 27011 3 27005
+#ENDROOM
+
+#ROOM
+Vnum     27006
+Name     &bThe Beached Sea Turtle&d~
+Sector   field~
+Desc     The massive carcass of a sea turtle lies here, half-buried in the 
+tide. Scavengers pick at the remains, and the stench of decay is 
+heavy in the damp air.
+~
+#EXIT
+Direction south~
+ToRoom    27005
+Desc      The shoreline.
+~
+#ENDEXIT
+Reset M 0 27014 3 27006
+#ENDROOM
+
+#ROOM
+Vnum     27007
+Name     &cRoad to Auberdine&d~
+Sector   forest~
+Desc     The road widens as it approaches the main settlement of Darkshore. 
+Sentinel watchtowers are visible through the trees, their silver 
+beacons cutting through the gloom.
+~
+#EXIT
+Direction south~
+ToRoom    27003
+Desc      Ameth'Aran.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27008
+Desc      Auberdine Entrance.
+~
+#ENDEXIT
+Reset M 0 27002 2 27007
+#ENDROOM
+
+#ROOM
+Vnum     27008
+Name     &cAuberdine - Main Gate&d~
+Sector   city~
+Desc     A sturdy wooden bridge leads across a small stream into the town 
+of Auberdine. Night Elf Sentinels stand guard, checking all who 
+enter for signs of corruption.
+~
+#EXIT
+Direction south~
+ToRoom    27007
+Desc      The road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27009
+Desc      Auberdine Center.
+~
+#ENDEXIT
+Reset M 0 27000 2 27008
+#ENDROOM
+
+#ROOM
+Vnum     27009
+Name     &cAuberdine - Town Square&d~
+Sector   city~
+Desc     A bustling elven village built on the edge of the sea. Docks extend 
+to the west, while several longhouses provide shelter for travelers 
+and residents alike. A moonwell glows softly in the center.
+~
+#EXIT
+Direction south~
+ToRoom    27008
+Desc      The gate.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27010
+Desc      Auberdine Docks.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27011
+Desc      The Northern Road.
+~
+#ENDEXIT
+Reset M 0 27009 1 27009
+Reset O 0 27008 1 27009
+#ENDROOM
+
+#ROOM
+Vnum     27010
+Name     &cAuberdine Docks&d~
+Sector   city~
+Desc     Wooden piers reach out into the foggy harbor. Great hippogryphs 
+roost on high perches, and boats from Rut'theran Village dock here 
+regularly. The salt air is refreshing.
+~
+#EXIT
+Direction east~
+ToRoom    27009
+Desc      Town square.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27011
+Name     &cThe Northern Road - Darkshore&d~
+Sector   forest~
+Desc     North of Auberdine, the forest grows wilder and more dangerous. 
+The trees lean inward as if trying to reclaim the path, and the 
+calls of wild beasts echo through the hills.
+~
+#EXIT
+Direction south~
+ToRoom    27009
+Desc      Auberdine.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27012
+Desc      Toward Blackwood Village.
+~
+#ENDEXIT
+Reset M 0 27004 2 27011
+#ENDROOM
+
+#ROOM
+Vnum     27012
+Name     &dEntrance to Blackwood Village&d~
+Sector   forest~
+Desc     The smell of wet fur and smoke fills the air. Crude wooden 
+effigies hang from the trees, marking the territory of the 
+corrupted Blackwood furbolgs.
+~
+#EXIT
+Direction south~
+ToRoom    27011
+Desc      The road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27013
+Desc      Blackwood Village.
+~
+#ENDEXIT
+Reset M 0 27010 2 27012
+#ENDROOM
+
+#ROOM
+Vnum     27013
+Name     &dBlackwood Village&d~
+Sector   city~
+Desc     A collection of bark-covered huts arranged around a large bonfire. 
+The furbolgs here move with a jagged, unnatural energy, their 
+eyes burning with a dark light.
+~
+#EXIT
+Direction south~
+ToRoom    27012
+Desc      The entrance.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27014
+Desc      The Chieftain's Hut.
+~
+#ENDEXIT
+Reset M 0 27010 3 27013
+Reset O 0 27011 1 27013
+#ENDROOM
+
+#ROOM
+Vnum     27014
+Name     &dThe Chieftain's Hut&d~
+Sector   inside~
+Flags    indoors~
+Desc     The largest hut in the village, filled with trophies of past hunts 
+and strange, dark totems. The air is thick with the musk of a 
+thousand bears.
+~
+#EXIT
+Direction west~
+ToRoom    27013
+Desc      The village.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27015
+Name     &bThe Red Crystal&d~
+Sector   hills~
+Desc     A giant, jagged red crystal has crashed into the hillside here. 
+It hums with an alien frequency, and the surrounding flora has 
+begun to turn a sickly, vibrant red.
+~
+#EXIT
+Direction west~
+ToRoom    27011
+Desc      The road.
+~
+#ENDEXIT
+Reset M 0 27003 3 27015
+#ENDROOM
+
+#ROOM
+Vnum     27016
+Name     &bThe Bashal'Aran Ruins&d~
+Sector   field~
+Desc     Another set of Highborne ruins, though these are more overgrown 
+than Ameth'Aran. Ancient magics still flicker in the shadows of 
+the fallen arches.
+~
+#EXIT
+Direction east~
+ToRoom    27007
+Desc      The road.
+~
+#ENDEXIT
+Reset M 0 27007 2 27016
+#ENDROOM
+
+#ROOM
+Vnum     27017
+Name     &bThe Cliffspring River&d~
+Sector   water~
+Desc     A cold, fast-moving river that flows down from the mountains to the 
+east. The water is clear but icy, and small silver fish dart 
+between the rocks.
+~
+#EXIT
+Direction south~
+ToRoom    27011
+Desc      The road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27018
+Desc      Across the river.
+~
+#ENDEXIT
+Reset M 0 27012 2 27017
+#ENDROOM
+
+#ROOM
+Vnum     27018
+Name     &cThe Cliffspring Falls&d~
+Sector   water~
+Desc     A thunderous waterfall pours over a high ledge into a deep basin. 
+The mist from the falls blends with the natural fog of Darkshore, 
+making visibility nearly zero.
+~
+#EXIT
+Direction south~
+ToRoom    27017
+Desc      The river.
+~
+#ENDEXIT
+Reset M 0 27008 2 27018
+#ENDROOM
+
+#ROOM
+Vnum     27019
+Name     &bTower of Althalaxx - Approach&d~
+Sector   hills~
+Desc     High on a northern ridge stands a dark, forbidding tower. It 
+belongs to no elven architecture and radiates a palpable sense 
+of malice.
+~
+#EXIT
+Direction south~
+ToRoom    27012
+Desc      Near Blackwood.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27020
+Desc      The Tower Gates.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27020
+Name     &dThe Tower of Althalaxx&d~
+Sector   city~
+Desc     A sinister spire that pierces the grey clouds. Dark cultists and 
+spirits haunt the grounds, conducting rituals that threaten the 
+balance of the entire forest.
+~
+#EXIT
+Direction south~
+ToRoom    27019
+Desc      The approach.
+~
+#ENDEXIT
+Reset M 0 27013 1 27020
+#ENDROOM
+
+#ROOM
+Vnum     27021
+Name     &bThe Grove of the Ancients&d~
+Sector   forest~
+Desc     A massive, ancient tree stands here, its roots sprawling across the 
+entire clearing. This is a sacred place of power, where the druids 
+come to commune with the forest.
+~
+#EXIT
+Direction west~
+ToRoom    27007
+Desc      The road.
+~
+#ENDEXIT
+Reset M 0 27009 1 27021
+#ENDROOM
+
+#ROOM
+Vnum     27022
+Name     &bThe Hidden Cove&d~
+Sector   water~
+Desc     A small, sheltered inlet where the waves are calm. It's a peaceful 
+spot, hidden away from the dangers of the main road.
+~
+#EXIT
+Direction south~
+ToRoom    27005
+Desc      The shoreline.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27023
+Name     &bWizbang's Digsite&d~
+Sector   field~
+Desc     A series of small pits and trenches have been dug into the sandy 
+soil. Crates of "valuable rocks" are stacked neatly nearby.
+~
+#EXIT
+Direction east~
+ToRoom    27001
+Desc      The road.
+~
+#ENDEXIT
+Reset M 0 27006 1 27023
+Reset O 0 27007 1 27023
+#ENDROOM
+
+#ROOM
+Vnum     27024
+Name     &cThe Mossy Bridge&d~
+Sector   forest~
+Desc     An old elven bridge that crosses a small ravine. The stone is 
+slick with moss and lichen.
+~
+#EXIT
+Direction north~
+ToRoom    27001
+Desc      The road.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27025
+Name     &bThe Beached Thresher&d~
+Sector   field~
+Desc     The long, eel-like body of a deep-sea thresher has washed up on 
+the beach. Its skin is a shimmering purple, even in death.
+~
+#EXIT
+Direction north~
+ToRoom    27005
+Desc      The shoreline.
+~
+#ENDEXIT
+Reset M 0 27011 2 27025
+#ENDROOM
+
+#ROOM
+Vnum     27026
+Name     &cThe Silent Glade&d~
+Sector   forest~
+Desc     A clearing where the rain seems to stop, and the only sound is 
+the dripping of water from the leaves. It feels like the forest 
+is holding its breath.
+~
+#EXIT
+Direction west~
+ToRoom    27011
+Desc      The road.
+~
+#ENDEXIT
+Reset M 0 27002 1 27026
+#ENDROOM
+
+#ROOM
+Vnum     27027
+Name     &cThe Overlook Ridge&d~
+Sector   hills~
+Desc     From here, you can see the lights of Auberdine to the north and 
+the ruins of Ameth'Aran to the south.
+~
+#EXIT
+Direction down~
+ToRoom    27007
+Desc      The road.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27028
+Name     &dThe Festering Marsh&d~
+Sector   field~
+Desc     A small, stagnant swamp on the edge of the woods. The water is 
+black and smells of sulfur.
+~
+#EXIT
+Direction east~
+ToRoom    27012
+Desc      The road.
+~
+#ENDEXIT
+Reset M 0 27012 2 27028
+#ENDROOM
+
+#ROOM
+Vnum     27029
+Name     &cThe End of the Coast&d~
+Sector   field~
+Desc     The shoreline ends in a series of impassable cliffs that rise 
+steeply into the northern mountains. The Great Sea roars 
+furiously against the rocks.
+~
+#EXIT
+Direction south~
+ToRoom    27005
+Desc      The shoreline.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
