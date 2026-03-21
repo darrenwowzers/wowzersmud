@@ -1,0 +1,1244 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Mulgore~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 10 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       25500
+Keywords   plainstrider bird beast~
+Short      a Plainstrider~
+Long       A tall, flightless Plainstrider pecks at the grass here.
+~
+Desc       These large, peaceful birds roam the golden plains of Mulgore. They
+are generally docile but will defend themselves with sharp beaks and
+powerful kicks if threatened.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 2 0 0 20 40
+Stats2     2 2 20
+Stats3     1 4 5
+Stats4     0 0 0 0 0
+Attribs    13 13 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25501
+Keywords   swoop bird flying beast~
+Short      a Swoop~
+Long       A sharp-eyed Swoop circles low, looking for field mice.
+~
+Desc       A predatory bird native to the plains. They are territorial and have
+been known to attack young Tauren braves who wander too far from camp.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 3 0 0 30 60
+Stats2     3 3 30
+Stats3     1 5 6
+Stats4     0 0 0 0 0
+Attribs    10 15 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25502
+Keywords   mountain cougar cat beast~
+Short      a Mountain Cougar~
+Long       A sleek Mountain Cougar slinks through the tall grass.
+~
+Desc       A highly dangerous feline predator that stalks the edges of the Red
+Rocks and the northern foothills.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 4 0 0 45 80
+Stats2     4 4 40
+Stats3     1 6 8
+Stats4     0 0 0 0 0
+Attribs    13 15 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25503
+Keywords   tauren brave guard protector~
+Short      a Tauren Brave~
+Long       A massive Tauren Brave stands watch, resting a heavy totem on his shoulder.
+~
+Desc       The stalwart defenders of the Bloodhoof tribe. They are incredibly
+strong and deeply connected to the earth, sworn to protect their people
+from the centaur and other threats.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 12 0 0 400 1000
+Stats2     12 12 120
+Stats3     3 10 20
+Stats4     0 0 0 0 0
+Attribs    20 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taur-ahe~
+Speaking   taur-ahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25504
+Keywords   baine bloodhoof leader tauren boss~
+Short      Baine Bloodhoof~
+Long       Baine Bloodhoof, son of the chieftain, observes the plains thoughtfully.
+~
+Desc       The young but wise son of Cairne Bloodhoof. He leads the forces in
+Bloodhoof Village, guiding young Tauren on the path of the Earthmother.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 15 0 0 600 1500
+Stats2     15 15 150
+Stats3     3 12 25
+Stats4     0 0 0 0 0
+Attribs    20 13 18 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common taur-ahe~
+Speaking   taur-ahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25505
+Keywords   bristleback shaman quillboar pigman~
+Short      a Bristleback Shaman~
+Long       A Bristleback Shaman snorts aggressively, weaving primitive earth magic.
+~
+Desc       The quillboars of the Bristleback tribe are a constant thorn in the
+side of the Tauren. Their shamans harness chaotic geomancy to defend
+their thorn-choked camps.
+~
+Race       humanoid~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 6 0 0 70 150
+Stats2     6 6 60
+Stats3     2 8 10
+Stats4     0 0 0 0 0
+Attribs    13 10 13 15 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25506
+Keywords   chief bloodsear quillboar boss~
+Short      Chief Bloodsear~
+Long       Chief Bloodsear squeals in rage, hefting a massive spiked club.
+~
+Desc       The brutal, scarred leader of the local Bristleback tribe. He directs
+raids on Tauren caravans from deep within the brambles.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 9 0 0 150 400
+Stats2     9 9 90
+Stats3     2 10 15
+Stats4     0 0 0 0 0
+Attribs    18 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25507
+Keywords   venture co worker goblin miner~
+Short      a Venture Co. Worker~
+Long       A Venture Co. Worker chips away at the stone, looking exhausted.
+~
+Desc       These greedy goblins have set up an illegal mining operation right in
+the heart of Mulgore, tearing up the sacred earth for profit.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 5 0 0 60 120
+Stats2     5 5 50
+Stats3     1 6 10
+Stats4     0 0 0 0 0
+Attribs    10 15 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25508
+Keywords   venture co supervisor goblin boss~
+Short      a Venture Co. Supervisor~
+Long       A Venture Co. Supervisor yells at the workers, cracking a whip.
+~
+Desc       Tasked with keeping the mining operation running on schedule, this
+goblin will aggressively defend the company's claim against any Tauren
+interference.
+~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 8 0 0 120 250
+Stats2     8 8 80
+Stats3     2 8 15
+Stats4     0 0 0 0 0
+Attribs    13 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25509
+Keywords   windfury harpy birdwoman beast~
+Short      a Windfury Harpy~
+Long       A Windfury Harpy screeches from the cliffs, diving to attack!
+~
+Desc       Vicious, territorial half-bird women who infest the northern borders of
+Mulgore. Their razor-sharp talons and wind magic make them a deadly
+threat to travelers.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 7 0 0 90 200
+Stats2     7 7 70
+Stats3     2 8 12
+Stats4     0 0 0 0 0
+Attribs    10 18 10 13 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25510
+Keywords   arra'chea kodo beast rare boss~
+Short      Arra'chea~
+Long       Arra'chea, a massive and ancient kodo beast, lumbers slowly here.
+~
+Desc       A legendary creature of the plains. Tauren hunters consider it a great
+honor to track and best this ancient beast in combat.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 6 0 0 100 300
+Stats2     6 6 60
+Stats3     2 6 12
+Stats4     0 0 0 0 0
+Attribs    20 8 20 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25511
+Keywords   palemane gnoll dogman beastman~
+Short      a Palemane Gnoll~
+Long       A Palemane Gnoll barks a rough laugh, gripping a rusted sword.
+~
+Desc       These scavengers occupy the southern fringes of Mulgore, occasionally
+venturing north to raid Tauren supply lines. They are cowardly but
+dangerous in numbers.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 5 0 0 60 120
+Stats2     5 5 50
+Stats3     1 6 10
+Stats4     0 0 0 0 0
+Attribs    15 13 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25512
+Keywords   mazzranache plainstrider pink rare boss~
+Short      Mazzranache~
+Long       Mazzranache, an incredibly rare pink plainstrider, runs across the grass.
+~
+Desc       A vibrant pink plainstrider that is notoriously difficult to track. Many
+young hunters spend weeks trying to claim its bright feathers.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 9 0 0 150 400
+Stats2     9 9 90
+Stats3     2 10 15
+Stats4     0 0 0 0 0
+Attribs    10 20 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25513
+Keywords   earthcaller morin tauren shaman quest~
+Short      Earthcaller Morin~
+Long       Earthcaller Morin tends to a small fire, listening to the spirits.
+~
+Desc       A wise elder of the Bloodhoof tribe. He communes with the Earthmother
+and guides the spiritual journey of young Tauren.
+~
+Race       tauren~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 12 0 0 400 1000
+Stats2     12 12 120
+Stats3     3 10 20
+Stats4     0 0 0 0 0
+Attribs    15 10 15 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taur-ahe~
+Speaking   taur-ahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25514
+Keywords   kodo beast monster huge~
+Short      a Kodo Beast~
+Long       A huge, thick-hided Kodo Beast grazes peacefully on the golden grass.
+~
+Desc       The iconic mounts and beasts of burden for the Tauren. They are massive,
+heavily armored, and incredibly strong, though entirely docile unless
+provoked.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 8 0 0 120 300
+Stats2     8 8 80
+Stats3     2 8 15
+Stats4     0 0 0 0 0
+Attribs    20 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     25500
+Keywords plainstrider meat raw food~
+Type     food~
+Short    some Plainstrider Meat~
+Long     A chunk of raw, lean plainstrider meat has been left here.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25501
+Keywords swoop quill sharp feather~
+Type     treasure~
+Short    a sharp Swoop Quill~
+Long     A stiff, surprisingly sharp feather from a plains swoop lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25502
+Keywords cougar pelt cloak fur armor~
+Type     armor~
+Short    a Cougar Pelt Cloak~
+Long     A warm, soft cloak fashioned from the pelt of a mountain cougar.~
+WFlags   take neck~
+Values   3 0 0 0 0 0
+Stats    3 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25503
+Keywords venture pickaxe goblin tool weapon~
+Type     weapon~
+Short    a Venture Co. Pickaxe~
+Long     A sturdy iron pickaxe with the Venture Trading Co. stamp on the handle.~
+WFlags   take wield~
+Values   0 2 6 7 0 0
+Stats    5 30 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25504
+Keywords venture workboots leather armor~
+Type     armor~
+Short    Venture Co. Workboots~
+Long     A pair of thick, heavy leather boots favored by goblin miners.~
+WFlags   take feet~
+Values   2 0 0 0 0 0
+Stats    4 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25505
+Keywords bristleback belt hide armor~
+Type     armor~
+Short    a Bristleback Belt~
+Long     A crude belt made of stiff hide and quillboar bristles.~
+WFlags   take waist~
+Values   3 0 0 0 0 0
+Stats    2 30 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25506
+Keywords bloodsear staff spiked wood weapon~
+Type     weapon~
+Short    Bloodsear's Spiked Staff~
+Long     A heavy wooden staff reinforced with brutal iron spikes rests here.~
+WFlags   take wield~
+Values   0 3 8 11 0 0
+Stats    7 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25507
+Keywords windfury harpy feather blue~
+Type     treasure~
+Short    a Windfury Feather~
+Long     A beautiful, vibrant blue feather pulsing with faint wind magic.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25508
+Keywords arrachea horn offhand shield~
+Type     armor~
+Short    the Horn of Arra'chea~
+Long     A massive, incredibly hard kodo horn fashioned into an offhand buckler.~
+WFlags   take shield~
+Values   4 0 0 0 0 0
+Stats    6 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25509
+Keywords palemane club wood bone weapon~
+Type     weapon~
+Short    a Palemane Club~
+Long     A crude club made from a large bone lashed to a piece of driftwood.~
+WFlags   take wield~
+Values   0 2 5 7 0 0
+Stats    4 25 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25510
+Keywords tauren water flask skin drink~
+Type     drinkcon~
+Short    a Tauren Waterskin~
+Long     A stitched leather waterskin filled with cool, refreshing well water.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    2 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25511
+Keywords kodo hide bracers leather armor~
+Type     armor~
+Short    Kodo Hide Bracers~
+Long     A pair of thick, durable wrist guards made of cured kodo hide.~
+WFlags   take wrist~
+Values   3 0 0 0 0 0
+Stats    2 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25512
+Keywords earthcaller totem wooden glowing light~
+Type     light~
+Short    an Earthcaller's Totem~
+Long     A small, carved wooden totem glows with a gentle, soothing amber light.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    2 30 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25513
+Keywords bloodhoof warblade sword iron weapon~
+Type     weapon~
+Short    a Bloodhoof Warblade~
+Long     A masterfully forged, wide-bladed iron sword bearing the Bloodhoof crest.~
+WFlags   take wield~
+Values   0 4 10 3 0 0
+Stats    8 120 12 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25514
+Keywords prairie flower yellow herb food~
+Type     food~
+Short    a Prairie Flower~
+Long     A bright yellow flower, known for its mild healing properties, grows here.~
+WFlags   take hold~
+Values   5 5 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+// Mulgore Room Section Begins --Hansth
+
+#ROOM
+Vnum     25500
+Name     &GCamp Narache&d~
+Sector   city~
+Desc     A small, peaceful encampment of hide tents set in a secluded valley
+in southern Mulgore. Young Tauren take their first steps here, guided
+by the wisdom of the Earthmother. A large tribal fire burns in the center.
+~
+#EXIT
+Direction north~
+ToRoom    25501
+Desc      The golden plains stretch out to the north.
+~
+#ENDEXIT
+Reset M 0 25513 1 25500
+  Reset E 1 25512 10 17
+#ENDROOM
+
+#ROOM
+Vnum     25501
+Name     &GCamp Narache - Outskirts&d~
+Sector   field~
+Desc     The grass here is tall, golden, and swaying gently in the warm breeze.
+Peaceful plainstriders peck at the seeds, completely ignoring the young
+hunters practicing their skills nearby.
+~
+#EXIT
+Direction south~
+ToRoom    25500
+Desc      Camp Narache.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25503
+Desc      The rolling plains.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25502
+Desc      A dark, thorny ravine.
+~
+#ENDEXIT
+Reset M 0 25500 3 25501
+  Reset G 1 25500 10
+#ENDROOM
+
+#ROOM
+Vnum     25502
+Name     &GThe Brambleblade Ravine&d~
+Sector   hills~
+Desc     A narrow, shadowed ravine heavily overgrown with thick, thorny vines.
+Scavenging Palemane Gnolls have set up a crude camp here, constantly
+harassing the young braves from Camp Narache.
+~
+#EXIT
+Direction east~
+ToRoom    25501
+Desc      The outskirts of the camp.
+~
+#ENDEXIT
+Reset M 0 25511 3 25502
+  Reset E 1 25509 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25503
+Name     &GThe Golden Plains - South&d~
+Sector   field~
+Desc     The true scale of Mulgore reveals itself. Endless miles of golden grass
+roll out toward the horizon. The sky is an incredibly clear, brilliant
+blue. Swoops circle overhead, hunting for small prey.
+~
+#EXIT
+Direction south~
+ToRoom    25501
+Desc      Camp Narache outskirts.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25505
+Desc      The gates of Bloodhoof Village.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25504
+Desc      The rocky foothills.
+~
+#ENDEXIT
+Reset M 0 25501 2 25503
+  Reset G 1 25501 10
+Reset O 0 25514 3 25503
+#ENDROOM
+
+#ROOM
+Vnum     25504
+Name     &GThe Red Rocks&d~
+Sector   hills~
+Desc     The golden plains give way to sharp, rust-colored rocky outcroppings.
+The shadows here hide deadly Mountain Cougars who use the rocks to
+ambush passing caravans.
+~
+#EXIT
+Direction west~
+ToRoom    25503
+Desc      The southern plains.
+~
+#ENDEXIT
+Reset M 0 25502 2 25504
+  Reset G 1 25502 10
+#ENDROOM
+
+#ROOM
+Vnum     25505
+Name     &GBloodhoof Village - Gates&d~
+Sector   city~
+Desc     Two massive, beautifully carved wooden totems mark the entrance to
+Bloodhoof Village. Massive Tauren Braves stand guard here, ensuring
+the safety of the tribe from quillboars and harpies.
+~
+#EXIT
+Direction south~
+ToRoom    25503
+Desc      The southern plains.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25506
+Desc      The center of the village.
+~
+#ENDEXIT
+Reset M 0 25503 2 25505
+  Reset E 1 25513 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25506
+Name     &GBloodhoof Village - Center&d~
+Sector   city~
+Desc     A bustling, permanent settlement built on the shores of a large lake.
+Huge hide tents, curing racks, and roaring fires fill the area. Baine
+Bloodhoof stands near the central fire, offering wisdom to his people.
+~
+#EXIT
+Direction south~
+ToRoom    25505
+Desc      The village gates.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25507
+Desc      Stonebull Lake.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25508
+Desc      The central plains.
+~
+#ENDEXIT
+Reset M 0 25504 1 25506
+  Reset E 1 25513 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25507
+Name     &GStonebull Lake&d~
+Sector   field~
+Desc     A pristine, perfectly still lake providing fresh water for the village.
+Massive, thick-hided Kodo Beasts drink peacefully from the shoreline,
+their heavy footsteps shaking the ground.
+~
+#EXIT
+Direction west~
+ToRoom    25506
+Desc      Bloodhoof Village.
+~
+#ENDEXIT
+Reset M 0 25514 2 25507
+  Reset E 1 25511 10 14
+Reset O 0 25510 2 25507
+#ENDROOM
+
+#ROOM
+Vnum     25508
+Name     &GThe Golden Plains - Center&d~
+Sector   field~
+Desc     The plains north of Bloodhoof are vast and open. Occasionally, young
+hunters spot the incredibly rare pink plainstrider, Mazzranache, darting
+through the tall grass here.
+~
+#EXIT
+Direction south~
+ToRoom    25506
+Desc      Bloodhoof Village.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25512
+Desc      The northern plains.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25509
+Desc      A ruined caravan.
+~
+#ENDEXIT
+Reset M 0 25512 1 25508
+#ENDROOM
+
+#ROOM
+Vnum     25509
+Name     &GThe Ravaged Caravan&d~
+Sector   field~
+Desc     A Tauren supply wagon lies smashed on the dirt path. Goods are scattered
+everywhere, and the draft kodos are missing. Thick, wicked thorns sprout
+unnaturally from the ground here, a sure sign of quillboar magic.
+~
+#EXIT
+Direction east~
+ToRoom    25508
+Desc      The central plains.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25510
+Desc      The quillboar brambles.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25510
+Name     &GBristleback Brambles - Entrance&d~
+Sector   forest~
+Desc     The golden grass is choked out entirely by massive, razor-sharp thorn
+vines. This is the territory of the Bristleback Quillboars. Shamans
+patrol the perimeter, tossing earth magic at any who approach.
+~
+#EXIT
+Direction east~
+ToRoom    25509
+Desc      The ruined caravan.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25511
+Desc      The heart of the brambles.
+~
+#ENDEXIT
+Reset M 0 25505 2 25510
+  Reset E 1 25505 10 9
+#ENDROOM
+
+#ROOM
+Vnum     25511
+Name     &GBristleback Brambles - Deep Thorns&d~
+Sector   forest~
+Desc     The thorns are so thick they block out the sun, creating a dark,
+oppressive fortress. Chief Bloodsear, a massive and scarred quillboar,
+sits on a crude throne of stolen goods, commanding his raiding parties.
+~
+#EXIT
+Direction east~
+ToRoom    25510
+Desc      The entrance to the brambles.
+~
+#ENDEXIT
+Reset M 0 25506 1 25511
+  Reset E 1 25506 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25512
+Name     &GThe Golden Plains - North&d~
+Sector   field~
+Desc     The plains stretch tirelessly onward. The legendary, ancient kodo beast
+known as Arra'chea is known to wander this specific stretch of the savanna,
+a highly sought-after prize for seasoned hunters.
+~
+#EXIT
+Direction south~
+ToRoom    25508
+Desc      The central plains.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25513
+Desc      The Venture Co. mining claim.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25517
+Desc      The rolling hills.
+~
+#ENDEXIT
+Reset M 0 25510 1 25512
+  Reset E 1 25508 10 11
+#ENDROOM
+
+#ROOM
+Vnum     25513
+Name     &OThe Venture Co. Mine - Approach&d~
+Sector   hills~
+Desc     The beautiful plains are violently scarred here. Trees have been clear-cut,
+and the earth is torn up by heavy machinery. The goblins of the Venture
+Trading Company have claimed this land by force.
+~
+#EXIT
+Direction west~
+ToRoom    25512
+Desc      The northern plains.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25514
+Desc      The mine entrance.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25514
+Name     &OThe Venture Co. Mine - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air is thick with dust and the smell of exhaust. Goblin workers
+frantically swing pickaxes, trying to extract precious ores from the
+sacred earth of Mulgore as quickly as possible.
+~
+#EXIT
+Direction west~
+ToRoom    25513
+Desc      The approach outside.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    25515
+Desc      Deeper into the mine.
+~
+#ENDEXIT
+Reset M 0 25507 2 25514
+  Reset E 1 25503 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25515
+Name     &OThe Venture Co. Mine - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Deep underground, a ruthless Venture Co. Supervisor cracks a whip,
+demanding more production from his exhausted crew. The operation is
+highly illegal and a massive insult to the Tauren.
+~
+#EXIT
+Direction up~
+ToRoom    25514
+Desc      The mine entrance.
+~
+#ENDEXIT
+Reset M 0 25508 1 25515
+  Reset E 1 25504 10 8
+#ENDROOM
+
+#ROOM
+Vnum     25516
+Name     &GThunderhorn Water Well&d~
+Sector   field~
+Desc     A deep, stone-lined well providing precious water to travelers on the
+plains. It is carefully maintained by the local tribes and offers a
+peaceful spot to rest in the shade of a large tree.
+~
+#EXIT
+Direction west~
+ToRoom    25517
+Desc      The rolling hills.
+~
+#ENDEXIT
+Reset O 0 25510 2 25516
+#ENDROOM
+
+#ROOM
+Vnum     25517
+Name     &GThe Rolling Hills&d~
+Sector   hills~
+Desc     The flat savanna begins to pitch and roll into gentle hills as you travel
+further north. In the distance, you catch your first glimpse of the
+breathtaking, towering mesas of Thunder Bluff.
+~
+#EXIT
+Direction south~
+ToRoom    25512
+Desc      The northern plains.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25516
+Desc      Thunderhorn Water Well.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25519
+Desc      The northern foothills.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25518
+Desc      Wildmane Water Well.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25518
+Name     &GWildmane Water Well&d~
+Sector   field~
+Desc     Another vital water source for the plains, though this one is dangerously
+close to the harpy hunting grounds to the north. Travelers fill their
+skins quickly and keep an eye on the sky.
+~
+#EXIT
+Direction east~
+ToRoom    25517
+Desc      The rolling hills.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25519
+Name     &GThe Northern Foothills&d~
+Sector   hills~
+Desc     The grass becomes sparse, and the wind picks up significantly. The shadows
+of enormous mesas stretch across the land. The screech of harpies echoes
+from the cliffs to the west.
+~
+#EXIT
+Direction south~
+ToRoom    25517
+Desc      The rolling hills.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25520
+Desc      The Harpy Roost.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25524
+Desc      The path to the great city.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25520
+Name     &CThe Harpy Roost&d~
+Sector   hills~
+Desc     The cliffs here are covered in crude nests made of stolen goods and bones.
+Vicious Windfury Harpies dive from the high rocks, attacking anyone who
+trespasses in their territory with razor-sharp talons and wind magic.
+~
+#EXIT
+Direction east~
+ToRoom    25519
+Desc      The northern foothills.
+~
+#ENDEXIT
+Reset M 0 25509 3 25520
+  Reset G 1 25507 10
+#ENDROOM
+
+#ROOM
+Vnum     25521
+Name     &GThe Golden Plains - West&d~
+Sector   field~
+Desc     A wide, empty expanse of plains on the western edge of Mulgore. The
+wind blows undisturbed for miles. It is a quiet, contemplative place.
+~
+#EXIT
+Direction east~
+ToRoom    25508
+Desc      The central plains.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25522
+Desc      The Kodo Graveyard.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25522
+Name     &dThe Kodo Graveyard&d~
+Sector   field~
+Desc     A solemn, quiet valley filled with the massive, bleached bones of ancient
+Kodo Beasts who have come here to die. The Tauren consider this a sacred,
+protected site.
+~
+#EXIT
+Direction south~
+ToRoom    25521
+Desc      The western plains.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25523
+Name     &GGhost Walker Post&d~
+Sector   city~
+Desc     A small, isolated Tauren outpost situated perfectly to watch the paths
+leading out of Mulgore and into the Barrens or Desolace. A few braves
+rest here by a small fire.
+~
+#EXIT
+Direction east~
+ToRoom    25524
+Desc      The path to Thunder Bluff.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25524
+Name     &GPath to Thunder Bluff&d~
+Sector   field~
+Desc     The dirt path is incredibly wide here, trampled down by countless hooves
+and paws over generations. Directly ahead, the awe-inspiring capital of
+the Tauren rises impossibly high into the sky on a massive pillar of stone.
+~
+#EXIT
+Direction south~
+ToRoom    25519
+Desc      The northern foothills.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25523
+Desc      Ghost Walker Post.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25525
+Desc      The base of the Great Lift.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25525
+Name     &GBase of the Great Lift&d~
+Sector   city~
+Desc     You stand at the bottom of a truly massive mesa. Towering wooden scaffolding
+and immense ropes stretch all the way to the top, where the city rests.
+Two large wooden platforms serve as elevators to the summit.
+~
+#EXIT
+Direction south~
+ToRoom    25524
+Desc      The path back to the plains.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    25526
+Desc      Step onto the elevator.
+~
+#ENDEXIT
+Reset M 0 25503 2 25525
+#ENDROOM
+
+#ROOM
+Vnum     25526
+Name     &GThe Great Lift - Ascending&d~
+Sector   city~
+Desc     The massive wooden platform shudders and groans as an immense counter-weight
+system pulls it upward. The golden plains of Mulgore shrink below you,
+revealing the breathtaking scale of the zone.
+~
+#EXIT
+Direction down~
+ToRoom    25525
+Desc      The base of the lift.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    25527
+Desc      The top of the lift.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25527
+Name     &GThe Great Lift - Top&d~
+Sector   city~
+Desc     The elevator grinds to a halt at the summit of the mesa. You step off
+onto a high wooden platform. The wind up here is incredibly strong and
+pure. To the north lies the entrance to the great city.
+~
+#EXIT
+Direction down~
+ToRoom    25526
+Desc      The descending lift.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25528
+Desc      A rope bridge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25528
+Name     &GThunder Bluff - Entrance Bridge&d~
+Sector   city~
+Desc     A dizzyingly high rope and wood bridge connects the lift platform to the
+main mesa of the city. Totems rattle in the wind, and braves patrol the
+span tirelessly.
+~
+#EXIT
+Direction south~
+ToRoom    25527
+Desc      The Great Lift.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25529
+Desc      The Totem Poles.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25529
+Name     &GThunder Bluff - The Totem Poles&d~
+Sector   city~
+Desc     You have reached the edge of the great capital. Massive, intricately
+carved, and brightly painted totems welcome you. From here, you can step
+forward into the Central Mesa and explore the legendary home of the
+Bloodhoof tribe.
+~
+#EXIT
+Direction south~
+ToRoom    25528
+Desc      The entrance bridge.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    15000
+Desc      Enter the Central Mesa of Thunder Bluff.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
