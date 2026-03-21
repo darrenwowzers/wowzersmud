@@ -1,0 +1,1142 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Thousand Needles~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       25 35 25 35
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       26000
+Keywords   galak marauder centaur beastman~
+Short      a Galak marauder~
+Long       A hulking Galak centaur gallops across the canyon floor, spear raised.~
+Desc       The Galak tribe dominates the western canyons. They are larger and 
+more aggressive than their Kolkar cousins, fueled by a hatred of 
+anything that walks on two legs.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 28 0 0 1000 2500
+Stats2     28 28 250
+Stats3     6 15 28
+Stats4     0 0 0 0 0
+Attribs    18 12 16 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26001
+Keywords   cliff wyvern flying beast~
+Short      a cliff wyvern~
+Long       A leathery-winged wyvern screeches from a high mesa ledge.~
+Desc       These predatory flyers are the undisputed masters of the Thousand 
+Needles sky. Their stings carry a paralytic toxin that makes short 
+work of mountain goats and unwary travelers.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 30 0 0 1200 3000
+Stats2     30 30 300
+Stats3     7 18 30
+Stats4     0 0 0 0 0
+Attribs    16 18 14 10 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26002
+Keywords   grimtotem reaver tauren rogue~
+Short      a Grimtotem reaver~
+Long       A dark-furred Tauren assassin blends into the canyon shadows.~
+Desc       The Grimtotem have a strong presence here, preying on both Horde 
+and Alliance caravans. They use the narrow needles to stage 
+deadly ambushes.
+~
+Race       tauren~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 29 0 0 1100 2800
+Stats2     29 29 200
+Stats3     6 16 29
+Stats4     0 0 0 0 0
+Attribs    17 16 15 12 14 10 10
+Saves      0 0 0 0 0
+Speaks     common taurhe~
+Speaking   taurhe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26003
+Keywords   saltstone basilisk reptile~
+Short      a saltstone basilisk~
+Long       A lizard with scales the color of dried salt suns itself on the flats.~
+Desc       Hardy creatures that thrive in the brutal heat of the Shimmering 
+Flats. Their crystalline hides provide excellent protection against 
+both predators and the sun.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 32 0 0 1500 3500
+Stats2     32 32 200
+Stats3     8 20 32
+Stats4     0 0 0 0 0
+Attribs    19 10 20 8 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26004
+Keywords   fizzle brassbolts gnome racer~
+Short      Fizzle Brassbolts~
+Long       A grime-covered gnome frantically adjusts a steaming engine.~
+Desc       A lead mechanic for the Gnomeregan racing team. He is obsessed 
+with speed and has very little patience for anyone not carrying a 
+spare gasket.
+~
+Race       gnome~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 400
+Stats3     8 22 35
+Stats4     0 0 0 0 0
+Attribs    10 18 12 19 14 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   gnomish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26005
+Keywords   razorfen marauder quilboar~
+Short      a Razorfen scout~
+Long       A thorny quilboar sniffs the air near the southern pass.~
+Desc       Wanderers from the nearby Razorfen Downs. They are looking to 
+expand their territory into the needles, much to the annoyance of 
+the local centaur.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 27 0 0 900 2200
+Stats2     27 27 180
+Stats3     5 14 27
+Stats4     0 0 0 0 0
+Attribs    16 12 15 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26006
+Keywords   scorpashi venomlash scorpion~
+Short      a scorpashi venomlash~
+Long       A giant, sand-colored scorpion clatters its claws threateningly.~
+Desc       These arachnids thrive in the hot, dry cracks of the mesas. Their 
+venom is a potent neurotoxin that causes immediate dizzying 
+effects on its victims.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 31 0 0 1300 3200
+Stats2     31 31 150
+Stats3     7 19 31
+Stats4     0 0 0 0 0
+Attribs    18 14 16 8 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26007
+Keywords   freewind sentinel tauren guard~
+Short      a Freewind Sentinel~
+Long       A tall Tauren sentinel stands at the edge of the lift, watching the canyon.~
+Desc       A protector of Freewind Post. She stands like a statue, her eyes 
+constantly scanning the horizon for centaur war-parties.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 35 0 0 2500 6000
+Stats2     35 35 300
+Stats3     9 22 35
+Stats4     0 0 0 0 0
+Attribs    19 12 18 10 16 10 10
+Saves      0 0 0 0 0
+Speaks     common taurhe~
+Speaking   taurhe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26008
+Keywords   mountain cougar cat beast~
+Short      a mountain cougar~
+Long       A tawny mountain cougar stalks along the narrow ledges.~
+Desc       Quiet and deadly, these cats are capable of jumping incredible 
+distances between the mesas to catch their prey off guard.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 28 0 0 950 2400
+Stats2     28 28 120
+Stats3     6 15 28
+Stats4     0 0 0 0 0
+Attribs    16 18 14 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26009
+Keywords   salt flat scavenger buzzard bird~
+Short      a salt flat scavenger~
+Long       A mangy buzzard circles overhead, waiting for the heat to claim its prize.~
+Desc       These birds have no fear of the living. They are a constant 
+reminder of the lethality of the Shimmering Flats.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 30 0 0 1000 2800
+Stats2     30 30 100
+Stats3     6 16 30
+Stats4     0 0 0 0 0
+Attribs    14 16 14 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26010
+Keywords   pozzik goblin engineer~
+Short      Pozzik~
+Long       Pozzik, the goblin lead-foot, grins while pouring nitro into a tank.~
+Desc       The rival of the gnomes on the Shimmering Flats. He believes 
+safety is for people who aren't fast enough to outrun explosions.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 350
+Stats3     8 22 35
+Stats4     0 0 0 0 0
+Attribs    12 19 14 18 14 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26011
+Keywords   shimmering breeze elemental air~
+Short      a shimmering breeze~
+Long       A swirling vortex of dust and air whistles through the flats.~
+Desc       A minor air elemental drawn to the vast, open space of the Shimmering 
+Flats. It is capricious and prone to sudden bursts of violence.
+~
+Race       monster~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 1400 3800
+Stats2     33 33 600
+Stats3     8 20 33
+Stats4     0 0 0 0 0
+Attribs    10 20 12 18 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26012
+Keywords   galak windchaser centaur shaman~
+Short      a Galak windchaser~
+Long       A centaur shaman chants, calling upon the spirits of the desert.~
+Desc       These spiritual leaders of the Galak tribe use the harsh winds 
+of the needles as a weapon against their enemies.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 31 0 0 1200 3200
+Stats2     31 31 500
+Stats3     7 18 31
+Stats4     0 0 0 0 0
+Attribs    14 14 14 16 16 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26013
+Keywords   desert rattlesnake reptile beast~
+Short      a desert rattlesnake~
+Long       A large rattlesnake coils itself in the shade of a rock.~
+Desc       Its rattle is a warning that many hear too late. It blends 
+perfectly with the orange-red dust of the canyon floor.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 850 2000
+Stats2     26 26 100
+Stats3     5 14 26
+Stats4     0 0 0 0 0
+Attribs    15 16 14 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26014
+Keywords   shimmering flats thresher land~
+Short      a salt flat thresher~
+Long       A land-dwelling thresher shark "swims" through the loose salt.~
+Desc       A bizarre evolution of the sea creature, adapted to the dry 
+flats. It moves through the salt as if it were water, lunging 
+out at unsuspecting prey.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 1600 4000
+Stats2     34 34 250
+Stats3     9 22 34
+Stats4     0 0 0 0 0
+Attribs    20 14 18 8 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     26000
+Keywords galak bone spear weapon~
+Type     weapon~
+Short    a Galak bone spear~
+Long     A long spear tipped with a jagged piece of wyvern bone rests here.~
+WFlags   take wield~
+Values   0 8 18 11 0 0
+Stats    8 150 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26001
+Keywords wyvern sting dagger weapon~
+Type     weapon~
+Short    a wyvern sting dagger~
+Long     A wicked dagger fashioned from a dried wyvern stinger.~
+WFlags   take wield~
+Values   0 6 15 11 0 0
+Stats    3 300 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26002
+Keywords saltstone basilisk scale armor~
+Type     armor~
+Short    a saltstone scale vest~
+Long     A vest made from the hard, crystalline scales of a basilisk.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    12 450 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26003
+Keywords rocket-fuel goggles head~
+Type     armor~
+Short    a pair of rocket-fuel goggles~
+Long     Heavy goggles with dark lenses, stained with oil and soot.~
+WFlags   take head~
+Values   6 0 0 0 0 0
+Stats    2 180 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26004
+Keywords grimtotem ambush cloak~
+Type     armor~
+Short    a dusty Grimtotem cloak~
+Long     A tattered brown cloak designed to blend into the canyon walls.~
+WFlags   take about~
+Values   5 0 0 0 0 0
+Stats    4 120 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26005
+Keywords canteen sun-warmed water~
+Type     drinkcon~
+Short    a battered metal canteen~
+Long     A canteen filled with lukewarm, metallic-tasting water.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26006
+Keywords scorpashi venom gland vial~
+Type     potion~
+Short    a vial of scorpashi venom~
+Long     A glass vial containing a thick, yellow liquid.~
+WFlags   take hold~
+Values   30 'poison' 'weakness' '' 0 0
+Stats    1 200 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26007
+Keywords freewind totem mace weapon~
+Type     weapon~
+Short    a carved Freewind totem~
+Long     A heavy stone totem decorated with hawk feathers.~
+WFlags   take wield~
+Values   0 7 20 7 0 0
+Stats    15 350 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26008
+Keywords shimmering salt crystal~
+Type     treasure~
+Short    a pure salt crystal~
+Long     A large, translucent crystal that glitters in the light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26009
+Keywords racing grease jar~
+Type     trash~
+Short    a jar of high-grade racing grease~
+Long     A pot of foul-smelling, black sludge used for lubricating engines.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 20 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26010
+Keywords desert rattlesnake skin belt~
+Type     armor~
+Short    a rattlesnake skin belt~
+Long     A belt made of supple, patterned snakeskin.~
+WFlags   take waist~
+Values   4 0 0 0 0 0
+Stats    2 80 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26011
+Keywords broken racer piston~
+Type     trash~
+Short    a charred racer piston~
+Long     A heavy piece of metal that clearly didn't survive the last heat.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26012
+Keywords windchaser mantle shoulders~
+Type     armor~
+Short    the Windchaser's Mantle~
+Long     A light leather mantle that seems to catch every passing breeze.~
+WFlags   take neck~
+Values   5 0 0 0 0 0
+Stats    4 280 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26013
+Keywords thresher tooth dagger weapon~
+Type     weapon~
+Short    a land thresher tooth~
+Long     A serrated tooth as long as a shortsword.~
+WFlags   take wield~
+Values   0 6 16 11 0 0
+Stats    4 150 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26014
+Keywords quillboar thorn shield~
+Type     armor~
+Short    a quillboar thorn buckler~
+Long     A wooden shield embedded with long, sharp animal thorns.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    10 140 2 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     26000
+Name     &OThe Great Lift&d~
+Sector   mountain~
+Desc     You stand at the edge of a massive precipice. A heavy wooden platform,
+suspended by thick hempen ropes and iron chains, serves as the only
+safe way down into the canyon floor far below.
+~
+#EXIT
+Direction north~
+ToRoom    26550
+Desc      Back to the Southern Barrens.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26001
+Desc      The canyon floor.
+~
+#ENDEXIT
+Reset M 0 26007 1 26000
+#ENDROOM
+
+#ROOM
+Vnum     26001
+Name     &OThe Canyon Floor&d~
+Sector   field~
+Desc     The air is noticeably hotter here at the bottom of the needles. 
+The orange sandstone walls rise hundreds of feet on either side, 
+casting long, jagged shadows across the dusty trail.
+~
+#EXIT
+Direction up~
+ToRoom    26000
+Desc      The Great Lift.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26002
+Desc      The winding canyon.
+~
+#ENDEXIT
+Reset M 0 26013 2 26001
+#ENDROOM
+
+#ROOM
+Vnum     26002
+Name     &OThe Winding Canyon&d~
+Sector   field~
+Desc     The path snakes between towering pillars of rock. To the south, a 
+narrower pass seems to lead toward the territory of the quilboar. 
+The sound of wind whistling through the needles is constant.
+~
+#EXIT
+Direction west~
+ToRoom    26001
+Desc      The lift area.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26003
+Desc      Toward Freewind Post.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26004
+Desc      The Razorfen Path.
+~
+#ENDEXIT
+Reset M 0 26000 3 26002
+#ENDROOM
+
+#ROOM
+Vnum     26003
+Name     &OBase of Freewind Post&d~
+Sector   field~
+Desc     A series of rope ladders and a smaller mechanical lift lead up the
+side of one of the tallest mesas in the region. This is the 
+heavily defended home of the Thousand Needles Tauren.
+~
+#EXIT
+Direction west~
+ToRoom    26002
+Desc      The canyon.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    26005
+Desc      Freewind Post.
+~
+#ENDEXIT
+Reset M 0 26007 2 26003
+#ENDROOM
+
+#ROOM
+Vnum     26004
+Name     &OThe Razorfen Path&d~
+Sector   field~
+Desc     The canyon walls here are covered in thick, thorny vines. The 
+ground is littered with bones, and the air carries a musky, 
+unpleasant odor.
+~
+#EXIT
+Direction north~
+ToRoom    26002
+Desc      The winding canyon.
+~
+#ENDEXIT
+Reset M 0 26005 3 26004
+Reset O 0 26014 1 26004
+#ENDROOM
+
+#ROOM
+Vnum     26005
+Name     &OFreewind Post - The Plaza&d~
+Sector   city~
+Desc     Perched high above the canyon floor, this outpost is safe from 
+centaur raids. Tents and totems fill the flat top of the mesa. 
+Bridges of rope and wood connect this spire to several others.
+~
+#EXIT
+Direction down~
+ToRoom    26003
+Desc      The canyon floor.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26006
+Desc      The Flight Master's Terrace.
+~
+#ENDEXIT
+Reset M 0 26007 2 26005
+Reset O 0 26007 1 26005
+#ENDROOM
+
+#ROOM
+Vnum     26006
+Name     &OThe Flight Master's Terrace&d~
+Sector   city~
+Desc     A dizzying ledge where tamed wyverns roost. From here, you can see 
+for miles across the needles. To the east, the horizon begins to 
+shimmer with an intense white light.
+~
+#EXIT
+Direction west~
+ToRoom    26005
+Desc      The plaza.
+~
+#ENDEXIT
+Reset M 0 26001 1 26006
+#ENDROOM
+
+#ROOM
+Vnum     26007
+Name     &OThe Screeching Canyon&d~
+Sector   field~
+Desc     The canyon widens here, but the walls are riddled with caves. 
+This is the primary nesting ground for the cliff wyverns, and 
+their cries echo off the stones.
+~
+#EXIT
+Direction west~
+ToRoom    26003
+Desc      The base of Freewind.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26008
+Desc      Toward the flats.
+~
+#ENDEXIT
+Reset M 0 26001 3 26007
+Reset O 0 26001 1 26007
+#ENDROOM
+
+#ROOM
+Vnum     26008
+Name     &OThe High Mesa Trail&d~
+Sector   mountain~
+Desc     The path climbs steadily, leaving the shadows of the canyon floor. 
+Scrub brush and hardy desert trees cling to the rocks, and the 
+sun beats down with increasing intensity.
+~
+#EXIT
+Direction west~
+ToRoom    26007
+Desc      The wyvern canyon.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26009
+Desc      The Eastern Pass.
+~
+#ENDEXIT
+Reset M 0 26008 2 26008
+#ENDROOM
+
+#ROOM
+Vnum     26009
+Name     &OThe Eastern Pass&d~
+Sector   field~
+Desc     The needles begin to thin out. Ahead, the claustrophobic canyons 
+give way to a vast, open expanse of white. A hot, dry wind 
+blows from the east, carrying the scent of salt.
+~
+#EXIT
+Direction west~
+ToRoom    26008
+Desc      The mesa trail.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26010
+Desc      The Shimmering Flats.
+~
+#ENDEXIT
+Reset M 0 26006 3 26009
+#ENDROOM
+
+#ROOM
+Vnum     26010
+Name     &WThe Shimmering Flats - Entrance&d~
+Sector   field~
+Desc     The transition is jarring. The ground is no longer red dust, but 
+a hard-packed crust of blindingly white salt. The heat creates 
+mirages that dance on the horizon.
+~
+#EXIT
+Direction west~
+ToRoom    26009
+Desc      The canyons.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26011
+Desc      Mirage Raceway.
+~
+#ENDEXIT
+Reset M 0 26003 2 26010
+#ENDROOM
+
+#ROOM
+Vnum     26011
+Name     &WThe Mirage Raceway&d~
+Sector   city~
+Desc     A chaotic camp of gnomes and goblins. Strange mechanical vehicles 
+with oversized tires and smoking engines are lined up along a 
+marked track that stretches across the salt.
+~
+#EXIT
+Direction west~
+ToRoom    26010
+Desc      The entrance.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26012
+Desc      The Gnomish Pits.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26013
+Desc      The Goblin Pits.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26014
+Desc      The salt flats.
+~
+#ENDEXIT
+Reset M 0 26009 2 26011
+#ENDROOM
+
+#ROOM
+Vnum     26012
+Name     &WThe Gnomish Pits&d~
+Sector   city~
+Desc     A collection of precision tools, blueprints, and clean-burning 
+engines. The gnomes here value aerodynamics and safety—relatively 
+speaking.
+~
+#EXIT
+Direction south~
+ToRoom    26011
+Desc      The raceway.
+~
+#ENDEXIT
+Reset M 0 26004 1 26012
+Reset O 0 26003 1 26012
+#ENDROOM
+
+#ROOM
+Vnum     26013
+Name     &WThe Goblin Pits&d~
+Sector   city~
+Desc     Oil spills, stacks of dynamite, and engines that sound like 
+dying dragons. The goblins prioritize raw power and "fun" 
+over anything as mundane as a brake pedal.
+~
+#EXIT
+Direction north~
+ToRoom    26011
+Desc      The raceway.
+~
+#ENDEXIT
+Reset M 0 26010 1 26013
+Reset O 0 26009 1 26013
+#ENDROOM
+
+#ROOM
+Vnum     26014
+Name     &WThe Deep Flats&d~
+Sector   field~
+Desc     Far from the noise of the raceway, the flats are eerily quiet. 
+The white salt stretches in every direction, broken only by 
+the occasional sun-bleached skeleton of a land thresher.
+~
+#EXIT
+Direction west~
+ToRoom    26011
+Desc      The raceway.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26015
+Desc      Toward Tanaris.
+~
+#ENDEXIT
+Reset M 0 26014 2 26014
+#ENDROOM
+
+#ROOM
+Vnum     26015
+Name     &WThe South Pass&d~
+Sector   field~
+Desc     The salt flats begin to transition into the dunes of a true 
+desert. The path south leads toward the legendary sands of 
+Tanaris.
+~
+#EXIT
+Direction north~
+ToRoom    26014
+Desc      The flats.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    25500
+Desc      Into Tanaris.
+~
+#ENDEXIT
+Reset M 0 26003 2 26015
+Reset O 0 26002 1 26015
+#ENDROOM
+
+#ROOM
+Vnum     26016
+Name     &OThe Galak Village&d~
+Sector   city~
+Desc     A sprawling camp of leather tents and bone-hewn totems. The 
+Galak centaur gathered here are preparing for another raid 
+on the Tauren outposts.
+~
+#EXIT
+Direction east~
+ToRoom    26002
+Desc      The winding canyon.
+~
+#ENDEXIT
+Reset M 0 26000 4 26016
+Reset M 0 26012 1 26016
+#ENDROOM
+
+#ROOM
+#ROOM
+Vnum     26017
+Name     &OThe Grimtotem Ledge&d~
+Sector   mountain~
+Desc     A hidden ledge overlooking the main canyon trail. It is the 
+perfect spot for an ambush, and the Grimtotem have used it well.
+~
+#EXIT
+Direction down~
+ToRoom    26002
+Desc      The canyon.
+~
+#ENDEXIT
+Reset M 0 26002 3 26017
+Reset O 0 26004 1 26017
+#ENDROOM
+
+#ROOM
+Vnum     26018
+Name     &OThe Hidden Oasis&d~
+Sector   water~
+Desc     A miracle in the dry canyons. A small spring bubbles up into 
+a pool surrounded by lush green ferns and a single date palm.
+~
+#EXIT
+Direction north~
+ToRoom    26008
+Desc      The mesa trail.
+~
+#ENDEXIT
+Reset O 0 26005 1 26018
+#ENDROOM
+
+#ROOM
+Vnum     26019
+Name     &OThe Shadowed Crevice&d~
+Sector   field~
+Desc     A narrow crack in the canyon wall where the sun never reaches. 
+It is significantly cooler here, but the air is stagnant.
+~
+#EXIT
+Direction west~
+ToRoom    26007
+Desc      The wyvern canyon.
+~
+#ENDEXIT
+Reset M 0 26006 2 26019
+#ENDROOM
+
+#ROOM
+Vnum     26020
+Name     &WThe Salt-Crusted Cave&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A shallow cave on the edge of the Shimmering Flats. The walls 
+glitter with salt crystals, and the floor is covered in fine 
+white powder.
+~
+#EXIT
+Direction south~
+ToRoom    26010
+Desc      The flats entrance.
+~
+#ENDEXIT
+Reset M 0 26011 1 26020
+Reset O 0 26008 2 26020
+#ENDROOM
+
+#ROOM
+Vnum     26021
+Name     &OThe Sun-Drenched Spire&d~
+Sector   mountain~
+Desc     You have climbed to the top of a lone needle. The wind is fierce 
+here, and the view of the surrounding mesa is unparalleled.
+~
+#EXIT
+Direction down~
+ToRoom    26008
+Desc      The mesa trail.
+~
+#ENDEXIT
+Reset M 0 26001 2 26021
+#ENDROOM
+
+#ROOM
+Vnum     26022
+Name     &OThe Bone Yard&d~
+Sector   field~
+Desc     A natural depression in the canyon floor where the wind 
+collects the remains of animals that didn't survive the heat.
+~
+#EXIT
+Direction west~
+ToRoom    26004
+Desc      The Razorfen Path.
+~
+#ENDEXIT
+Reset M 0 26005 2 26022
+#ENDROOM
+
+#ROOM
+Vnum     26023
+Name     &WThe Rusting Hulk&d~
+Sector   field~
+Desc     The remains of a massive racing machine that exploded years 
+ago. The metal is pitted and white from the salt.
+~
+#EXIT
+Direction east~
+ToRoom    26014
+Desc      The deep flats.
+~
+#ENDEXIT
+Reset O 0 26011 1 26023
+#ENDROOM
+
+#ROOM
+Vnum     26024
+Name     &OThe Narrow Arch&d~
+Sector   field~
+Desc     The canyon walls lean together here, forming a natural stone 
+arch that spans the trail.
+~
+#EXIT
+Direction east~
+ToRoom    26002
+Desc      The winding canyon.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26025
+Name     &OThe Rattlesnake Den&d~
+Sector   field~
+Desc     A pile of sun-warmed rocks that serves as a nesting site 
+for the local reptiles.
+~
+#EXIT
+Direction south~
+ToRoom    26002
+Desc      The winding canyon.
+~
+#ENDEXIT
+Reset M 0 26013 3 26025
+Reset O 0 26010 1 26025
+#ENDROOM
+
+#ROOM
+Vnum     26026
+Name     &WThe Shimmering Horizon&d~
+Sector   field~
+Desc     You are deep in the flats. In every direction, the world is 
+white. Without the raceway as a landmark, it is very easy to 
+lose one's way.
+~
+#EXIT
+Direction north~
+ToRoom    26014
+Desc      The deep flats.
+~
+#ENDEXIT
+Reset M 0 26014 1 26026
+#ENDROOM
+
+#ROOM
+Vnum     26027
+Name     &OThe Wind-Swept Bridge&d~
+Sector   mountain~
+Desc     A precarious bridge made of vines and wood that sways 
+violently in the mountain gusts.
+~
+#EXIT
+Direction east~
+ToRoom    26005
+Desc      Freewind plaza.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26028
+Name     &OThe Dusty Cul-de-sac&d~
+Sector   field~
+Desc     A dead-end canyon where the dust is ankle-deep.
+~
+#EXIT
+Direction north~
+ToRoom    26001
+Desc      The canyon floor.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26029
+Name     &WThe Salt Flat Edge&d~
+Sector   field~
+Desc     The very eastern edge of the flats, where the ground 
+begins to break up into rocky outcroppings again.
+~
+#EXIT
+Direction west~
+ToRoom    26014
+Desc      The deep flats.
+~
+#ENDEXIT
+Reset M 0 26009 2 26029
+#ENDROOM
+
+#ENDAREA
