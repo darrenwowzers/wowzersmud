@@ -1,0 +1,1170 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Stonetalon Mountains~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       15 27 15 27
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       27500
+Keywords   stonetalon crag hopper cat beast~
+Short      a crag hopper~
+Long       A lithe crag hopper balances perfectly on a narrow rock ledge.~
+Desc       This mountain lion has powerful hind legs designed for leaping across
+the treacherous ravines of Stonetalon. Its fur is a dusty grey, camouflaging
+it perfectly against the granite cliffs.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 18 0 0 400 900
+Stats2     18 18 150
+Stats3     3 10 16
+Stats4     0 0 0 0 0
+Attribs    14 18 12 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27501
+Keywords   venture co logger goblin~
+Short      a Venture Co. logger~
+Long       A sweaty Venture Co. logger wipes grease onto his trousers.~
+Desc       An employee of the most ruthless corporation on Azeroth. He doesn't
+care about the forest, the spirits, or the war—he just wants his
+paycheck and a cold drink.
+~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 17 0 0 350 800
+Stats2     17 17 120
+Stats3     3 9 15
+Stats4     0 0 0 0 0
+Attribs    14 12 12 14 12 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27502
+Keywords   deepmoss creeper spider arachnid~
+Short      a deepmoss creeper~
+Long       A massive, moss-covered spider clings to the cavern ceiling.~
+Desc       These spiders infest the web-choked passes of the mountains. They
+are slow but possess a venom that slows the heart and numbs the limbs.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 19 0 0 450 1000
+Stats2     19 19 140
+Stats3     4 10 17
+Stats4     0 0 0 0 0
+Attribs    16 10 14 14 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27503
+Keywords   sun rock bravado tauren horde~
+Short      a Sun Rock bravado~
+Long       A massive Tauren warrior stands guard, a totem strapped to his back.~
+Desc       A defender of Sun Rock Retreat. He is calm and mountain-steady, but
+his patience for the Venture Company's deforestation has long since
+run out.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 25 0 0 800 2000
+Stats2     25 25 250
+Stats3     6 15 25
+Stats4     0 0 0 0 0
+Attribs    19 10 16 10 16 10 10
+Saves      0 0 0 0 0
+Speaks     common taurhe~
+Speaking   taurhe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27504
+Keywords   mirkfallon sentinel night elf alliance~
+Short      a Mirkfallon Sentinel~
+Long       A Night Elf Sentinel watches the trail from a high vantage point.~
+Desc       Stationed at the northern pass, she ensures that the corruption
+from the Charred Vale does not spread further into the sacred groves.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 24 0 0 750 1800
+Stats2     24 24 220
+Stats3     5 12 22
+Stats4     0 0 0 0 0
+Attribs    14 18 14 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27505
+Keywords   fire elemental scorchling monster~
+Short      a roiling scorchling~
+Long       A small, intense flame dances across the blackened earth.~
+Desc       A fragment of elemental fury, born from the magical fires that
+devastated the Charred Vale. It burns with a spiteful intensity.
+~
+Race       monster~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 20 0 0 500 1100
+Stats2     20 20 400
+Stats3     4 10 18
+Stats4     0 0 0 0 0
+Attribs    10 16 12 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27506
+Keywords   braun wheelyam goblin vendor~
+Short      Braun Wheelyam~
+Long       Braun Wheelyam tinkerers with a pile of scrap metal.~
+Desc       A goblin who realized there was more money in selling tools to
+adventurers than in actually working for the Venture Company.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 30 0 0 1000 3000
+Stats2     30 30 300
+Stats3     5 15 25
+Stats4     0 0 0 0 0
+Attribs    12 18 14 16 14 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27507
+Keywords   stonetalon basilisk reptile beast~
+Short      a crystalline basilisk~
+Long       A six-legged reptile with shimmering scales suns itself on a rock.~
+Desc       Its scales are encrusted with raw minerals from the mountains. It
+is said that their gaze can turn a man to stone, though usually they
+just bite very hard.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 21 0 0 550 1300
+Stats2     21 21 160
+Stats3     4 11 19
+Stats4     0 0 0 0 0
+Attribs    17 10 18 10 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27508
+Keywords   maggran earthshaper tauren shaman~
+Short      Maggran Earthshaper~
+Long       Maggran Earthshaper kneels by a small pile of stones, chanting.~
+Desc       A powerful Tauren shaman seeking to soothe the pained spirits of
+the Stonetalon peaks. He is worried about the deep scars the
+goblins are carving into the earth.
+~
+Race       tauren~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 600
+Stats3     8 20 30
+Stats4     0 0 0 0 0
+Attribs    15 15 16 12 18 10 10
+Saves      0 0 0 0 0
+Speaks     common taurhe~
+Speaking   taurhe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27509
+Keywords   harpier crone birdwoman~
+Short      a bloodfury crone~
+Long       An old, tattered harpy screeches from a high nest.~
+Desc       The Bloodfury harpies have claimed the northern peaks. They are
+vicious, territorial, and their shrieks can be heard for miles.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 22 0 0 600 1400
+Stats2     22 22 450
+Stats3     4 12 20
+Stats4     0 0 0 0 0
+Attribs    12 16 13 18 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27510
+Keywords   venture co operator goblin boss~
+Short      a Venture Co. Operator~
+Long       A well-dressed goblin oversees the drilling with a smug grin.~
+Desc       He carries a heavy clipboard and a small pistol. He views the
+destruction of the mountains as "unavoidable overhead."
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 900 2400
+Stats2     26 26 280
+Stats3     6 14 26
+Stats4     0 0 0 0 0
+Attribs    13 18 14 16 14 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27511
+Keywords   son of cenarius keeper grove~
+Short      a Keeper of the Grove~
+Long       A majestic half-elf, half-stag spirit gallops through the mist.~
+Desc       A rare sight in these mountains. This son of Cenarius is here to
+witness the state of the Peak and the threat of the Venture Company.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea peaceful~
+Stats1     0 40 0 0 3000 8000
+Stats2     40 40 1000
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    18 18 18 18 18 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27512
+Keywords   grimtotem mercenary tauren rogue~
+Short      a Grimtotem mercenary~
+Long       A dark-furred Tauren stalks through the shadows of the pass.~
+Desc       The Grimtotem tribe has no love for the Horde or the Alliance.
+They are here to profit from the chaos and ensure their tribe's
+dominance in the peaks.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 23 0 0 700 1600
+Stats2     23 23 200
+Stats3     5 12 22
+Stats4     0 0 0 0 0
+Attribs    18 12 16 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common taurhe~
+Speaking   taurhe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27513
+Keywords   fey dragon faerie beast~
+Short      a fey dragon~
+Long       A small, iridescent dragon flutters its butterfly-like wings.~
+Desc       Native to the emerald groves near the peak, these creatures are
+naturally resistant to magic and serve as guardians of the wild.
+~
+Race       monster~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 19 0 0 400 1000
+Stats2     19 19 500
+Stats3     3 10 15
+Stats4     0 0 0 0 0
+Attribs    10 18 12 18 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27514
+Keywords   kobold digger miner~
+Short      a Stonetalon digger~
+Long       A kobold with a candle on its head scurries into a tunnel.~
+Desc       The kobolds have been driven deeper into the mines by the
+arrival of the goblins. They are desperate and will defend their
+remaining tunnels to the death.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 16 0 0 300 700
+Stats2     16 16 100
+Stats3     2 8 14
+Stats4     0 0 0 0 0
+Attribs    12 14 12 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     27500
+Keywords venture co explosives bundle~
+Type     trash~
+Short    a bundle of Venture Co. explosives~
+Long     A bundle of dynamite with a ticking clock sits here... oops.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27501
+Keywords sun rock totem wooden armor~
+Type     armor~
+Short    a Sun Rock totem~
+Long     A heavy, carved wooden totem designed to be worn on the back.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    15 300 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27502
+Keywords crystalline basilisk eye gem~
+Type     treasure~
+Short    a crystalline basilisk eye~
+Long     A heavy, gemstone-like eye that pulses with a faint inner light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 800 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27503
+Keywords bloodfury talon dagger weapon~
+Type     weapon~
+Short    a Bloodfury talon-dagger~
+Long     A wicked dagger made from a severed harpy claw.~
+WFlags   take wield~
+Values   0 5 14 11 0 0
+Stats    3 120 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27504
+Keywords heavy goblin wrench mace weapon~
+Type     weapon~
+Short    a heavy Venture Co. wrench~
+Long     An oversized, grease-covered wrench used as an improvised mace.~
+WFlags   take wield~
+Values   0 6 16 7 0 0
+Stats    7 90 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27505
+Keywords charcoal shard soot~
+Type     trash~
+Short    a shard of sentient charcoal~
+Long     A piece of wood from the Charred Vale that still feels warm.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27506
+Keywords deepmoss silk bandage~
+Type     potion~
+Short    a deepmoss silk bandage~
+Long     A bundle of sticky spider silk that helps seal wounds.~
+WFlags   take hold~
+Values   18 'cure light' '' '' 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27507
+Keywords mirkfallon bow elven weapon~
+Type     weapon~
+Short    a Mirkfallon longbow~
+Long     A sleek, dark wood bow used by the Sentinels of the pass.~
+WFlags   take wield~
+Values   0 5 15 11 0 0
+Stats    4 250 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27508
+Keywords earthshaper mantle stone armor~
+Type     armor~
+Short    the Earthshaper's Mantle~
+Long     A heavy stone-encrusted mantle that feels surprisingly light.~
+WFlags   take neck~
+Values   6 0 0 0 0 0
+Stats    8 400 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27509
+Keywords logging permit crumpled paper~
+Type     trash~
+Short    a crumpled logging permit~
+Long     A legal document from the Venture Co. authorizing total destruction.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27510
+Keywords fey dragon scale cloak~
+Type     armor~
+Short    a shimmering fey dragon cloak~
+Long     A cloak that changes colors as the light hits it.~
+WFlags   take about~
+Values   5 0 0 0 0 0
+Stats    3 600 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27511
+Keywords grimtotem oil vial~
+Type     potion~
+Short    a vial of Grimtotem poison~
+Long     A dark, viscous liquid that smells of bitter almonds.~
+WFlags   take hold~
+Values   20 'poison' '' '' 0 0
+Stats    1 150 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27512
+Keywords kobold candle wax~
+Type     light~
+Short    a flickering kobold candle~
+Long     A stubby tallow candle that smells faintly of earwax.~
+WFlags   take hold~
+Values   0 0 20 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27513
+Keywords granite buckler heavy shield~
+Type     armor~
+Short    a heavy granite buckler~
+Long     A shield carved directly from the mountainside.~
+WFlags   take shield~
+Values   9 0 0 0 0 0
+Stats    12 200 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27514
+Keywords mountain spring water flask~
+Type     drinkcon~
+Short    a flask of mountain spring water~
+Long     Cold, refreshing water from the highest peaks.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    1 20 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     27500
+Name     &OThe Stonetalon Pass&d~
+Sector   mountain~
+Desc     You stand at the entrance to the Stonetalon Mountains. The wide, dusty
+plains of the Barrens drop away behind you as the path begins a steep,
+winding ascent into the jagged grey peaks.
+~
+#EXIT
+Direction east~
+ToRoom    26512
+Desc      Back to the Barrens.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27501
+Desc      Higher into the mountains.
+~
+#ENDEXIT
+Reset M 0 27500 2 27500
+#ENDROOM
+
+#ROOM
+Vnum     27501
+Name     &OThe Greatwood Vale - Entrance&d~
+Sector   forest~
+Desc     Surprisingly, the lower elevations of the mountains are lush and green.
+Ancient trees cling to the rocky slopes, and a cool breeze carries the
+scent of pine. The path splits here, heading north and west.
+~
+#EXIT
+Direction east~
+ToRoom    27500
+Desc      The mountain pass.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27502
+Desc      Toward Windshear Crag.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27510
+Desc      Toward the Charred Vale.
+~
+#ENDEXIT
+Reset M 0 27507 1 27501
+#ENDROOM
+
+#ROOM
+Vnum     27502
+Name     &rWindshear Crag - Lower Shelf&d~
+Sector   field~
+Desc     The natural beauty of the vale is suddenly replaced by the sounds of
+industry. Large wooden scaffolds and steam-powered drills have been
+erected along the cliffs. The Venture Company has arrived.
+~
+#EXIT
+Direction south~
+ToRoom    27501
+Desc      Back to the vale.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27503
+Desc      Toward the logging camp.
+~
+#ENDEXIT
+Reset M 0 27501 3 27502
+#ENDROOM
+
+#ROOM
+Vnum     27503
+Name     &rThe Venture Co. Logging Camp&d~
+Sector   city~
+Desc     A bustling hive of goblin activity. Goblins scurry about with clipboards,
+while massive saws chew through the ancient timber of the mountains.
+The air is thick with black smoke and the smell of hot grease.
+~
+#EXIT
+Direction south~
+ToRoom    27502
+Desc      The lower shelf.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27504
+Desc      The Windshear Mine.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27505
+Desc      Braun's Tool Shed.
+~
+#ENDEXIT
+Reset M 0 27510 1 27503
+#ENDROOM
+
+#ROOM
+Vnum     27504
+Name     &dThe Windshear Mine&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The entrance to a deep, dark tunnel carved into the side of the
+mountain. The sound of pickaxes hitting stone echoes from within,
+along with the occasional high-pitched squeak of a kobold.
+~
+#EXIT
+Direction east~
+ToRoom    27503
+Desc      The logging camp.
+~
+#ENDEXIT
+Reset M 0 27514 4 27504
+Reset O 0 27512 1 27504
+#ENDROOM
+
+#ROOM
+Vnum     27505
+Name     &xBraun's Tool Shed&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, sturdy shack filled with various mechanical parts, rusted
+wrenches, and bundles of dynamite. Braun Wheelyam uses this space to
+repair equipment—for a steep price.
+~
+#EXIT
+Direction west~
+ToRoom    27503
+Desc      The logging camp.
+~
+#ENDEXIT
+Reset M 0 27506 1 27505
+Reset O 0 27504 1 27505
+#ENDROOM
+
+#ROOM
+Vnum     27506
+Name     &OThe High Road&d~
+Sector   mountain~
+Desc     The road climbs higher, hugging the side of a massive precipice. Below,
+the Windshear Crag looks like a scar on the land. To the north, the
+peaks are perpetually shrouded in mist.
+~
+#EXIT
+Direction south~
+ToRoom    27503
+Desc      The logging camp.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27507
+Desc      Toward Sun Rock Retreat.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27507
+Name     &OEntrance to Sun Rock&d~
+Sector   mountain~
+Desc     The path narrows into a defensible canyon. Massive totems made of
+cedar and stone stand on either side of the trail, marking the
+territory of the Horde.
+~
+#EXIT
+Direction south~
+ToRoom    27506
+Desc      The high road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27508
+Desc      Sun Rock Retreat.
+~
+#ENDEXIT
+Reset M 0 27503 2 27507
+#ENDROOM
+
+#ROOM
+Vnum     27508
+Name     &gSun Rock Retreat - The Circle&d~
+Sector   city~
+Desc     A peaceful sanctuary nestled in a high-altitude basin. Tauren tents
+surround a central fire pit where elders gather to speak with the
+spirits. A crystal-clear pond sits at the northern end.
+~
+#EXIT
+Direction south~
+ToRoom    27507
+Desc      The entrance.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27509
+Desc      The Shaman's Overlook.
+~
+#ENDEXIT
+Reset M 0 27508 1 27508
+Reset O 0 27501 1 27508
+#ENDROOM
+
+#ROOM
+Vnum     27509
+Name     &gThe Shaman's Overlook&d~
+Sector   mountain~
+Desc     From this vantage point, you can see the entirety of the Stonetalon
+range. The air is thin and cold. To the northwest, the mountains
+become even more rugged and inhospitable.
+~
+#EXIT
+Direction south~
+ToRoom    27508
+Desc      The retreat.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27520
+Desc      The path to the Peak.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27510
+Name     &dThe Road to the Charred Vale&d~
+Sector   mountain~
+Desc     As you head west, the vegetation begins to die. The trees are
+stunted and black, and the ground is covered in a fine layer of
+grey ash. The air grows uncomfortably warm.
+~
+#EXIT
+Direction east~
+ToRoom    27501
+Desc      The Greatwood Vale.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27511
+Desc      The Scorched Basin.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27511
+Name     &dThe Scorched Basin&d~
+Sector   field~
+Desc     This entire valley was decimated by a magical fire of immense power.
+Twisted, blackened trunks of ancient trees stand like skeletons against
+the orange sky. Small fires still flicker in the cracks of the earth.
+~
+#EXIT
+Direction east~
+ToRoom    27510
+Desc      The road back.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27512
+Desc      The heart of the vale.
+~
+#ENDEXIT
+Reset M 0 27505 3 27511
+#ENDROOM
+
+#ROOM
+Vnum     27512
+Name     &dThe Charred Vale - Heart&d~
+Sector   field~
+Desc     The devastation here is absolute. The ground is molten in some places,
+and the air is thick with the scent of sulfur and old smoke. Dark
+spirits of fire roam the ruins of the forest.
+~
+#EXIT
+Direction east~
+ToRoom    27511
+Desc      The basin.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27513
+Desc      Toward Mirkfallon Post.
+~
+#ENDEXIT
+Reset O 0 27505 2 27512
+#ENDROOM
+
+#ROOM
+Vnum     27513
+Name     &gMirkfallon Post - Approach&d~
+Sector   mountain~
+Desc     The ash begins to clear as the path climbs north away from the
+Charred Vale. A small Night Elf outpost is visible ahead, guarded by
+Sentinels determined to protect the remaining green lands.
+~
+#EXIT
+Direction south~
+ToRoom    27512
+Desc      The Charred Vale.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27514
+Desc      Mirkfallon Post.
+~
+#ENDEXIT
+Reset M 0 27504 2 27513
+#ENDROOM
+
+#ROOM
+Vnum     27514
+Name     &gMirkfallon Post&d~
+Sector   city~
+Desc     A modest Alliance encampment built on a high ridge. The Sentinels
+here keep a close eye on both the Venture Company to the east and the
+corruption of the Charred Vale to the south.
+~
+#EXIT
+Direction south~
+ToRoom    27513
+Desc      The approach.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27515
+Desc      The Talon Den.
+~
+#ENDEXIT
+Reset O 0 27507 1 27514
+#ENDROOM
+
+#ROOM
+Vnum     27515
+Name     &gThe Talon Den - Entrance&d~
+Sector   forest~
+Desc     A lush, hidden valley protected by the mountains. This is one of the
+few places in Stonetalon where the wildlife still thrives. The entrance
+to an underground barrow den is hidden behind a waterfall.
+~
+#EXIT
+Direction south~
+ToRoom    27514
+Desc      Mirkfallon Post.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28011
+Desc      Into Ashenvale (Mystral Lake).
+~
+#ENDEXIT
+Reset M 0 27513 2 27515
+#ENDROOM
+
+#ROOM
+Vnum     27516
+Name     &OThe Webbed Pass&d~
+Sector   mountain~
+Desc     The mountain path is choked with thick, sticky spider webs. Large
+cocoons hang from the rock walls, twitching occasionally. The air is
+silent, save for the sound of skittering legs.
+~
+#EXIT
+Direction north~
+ToRoom    27517
+Desc      Deep into the pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    27506
+Desc      The high road.
+~
+#ENDEXIT
+Reset M 0 27502 3 27516
+#ENDROOM
+
+#ROOM
+Vnum     27517
+Name     &OThe Searing Chasm&d~
+Sector   mountain~
+Desc     A deep crack in the mountain floor reveals a flow of lava far below.
+The heat is intense, and the path narrows to a precarious ledge.
+~
+#EXIT
+Direction south~
+ToRoom    27516
+Desc      The webbed pass.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27518
+Desc      Grimtotem Post.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27518
+Name     &dThe Grimtotem Post&d~
+Sector   city~
+Desc     A dark and unwelcoming camp. Unlike the Tauren of Sun Rock, these
+warriors are aggressive and suspicious. Their tents are made of dark
+leather and decorated with the bones of their enemies.
+~
+#EXIT
+Direction south~
+ToRoom    27517
+Desc      The chasm.
+~
+#ENDEXIT
+Reset M 0 27512 3 27518
+Reset O 0 27511 1 27518
+#ENDROOM
+
+#ROOM
+Vnum     27519
+Name     &OThe Bolder Ledge&d~
+Sector   mountain~
+Desc     A wide, flat area on the mountainside. Several large boulders look
+as though they could tumble down into the vale at any moment.
+~
+#EXIT
+Direction west~
+ToRoom    27509
+Desc      The overlook.
+~
+#ENDEXIT
+Reset M 0 27500 2 27519
+#ENDROOM
+
+#ROOM
+Vnum     27520
+Name     &gPath to Stonetalon Peak&d~
+Sector   mountain~
+Desc     The path becomes a series of switchbacks as it nears the highest
+point in the range. The air is thin, and patches of snow cling to the
+shadowed crevices.
+~
+#EXIT
+Direction east~
+ToRoom    27509
+Desc      The overlook.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    27521
+Desc      Stonetalon Peak.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27521
+Name     &gStonetalon Peak&d~
+Sector   mountain~
+Desc     You have reached the highest summit. The view is staggering, stretching
+from the Great Sea to the west to the Barrens in the east. An ancient,
+ethereal energy permeates the air here.
+~
+#EXIT
+Direction down~
+ToRoom    27520
+Desc      The path down.
+~
+#ENDEXIT
+Reset M 0 27511 1 27521
+Reset O 0 27514 1 27521
+#ENDROOM
+
+#ROOM
+Vnum     27522
+Name     &OThe Bloodfury Hills&d~
+Sector   hills~
+Desc     The northern slopes of the mountains are home to the Bloodfury
+harpy tribe. Their nests are built into the high cliffs, and their
+screeches echo through the canyons.
+~
+#EXIT
+Direction south~
+ToRoom    27508
+Desc      Sun Rock Retreat.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27523
+Desc      The Harpy Rookery.
+~
+#ENDEXIT
+Reset M 0 27509 3 27522
+#ENDROOM
+
+#ROOM
+Vnum     27523
+Name     &OThe Bloodfury Rookery&d~
+Sector   hills~
+Desc     The stench of filth and rotting meat is overwhelming. The ground is
+carpeted with feathers and bones. Harpies dive from the sky to protect
+their territory.
+~
+#EXIT
+Direction south~
+ToRoom    27522
+Desc      The hills.
+~
+#ENDEXIT
+Reset M 0 27509 2 27523
+Reset O 0 27503 1 27523
+#ENDROOM
+
+#ROOM
+Vnum     27524
+Name     &rWindshear Mine - Depths&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     Deep underground, the air is stagnant and warm. The Venture Company
+has broken into an ancient cavern system, much to the chagrin of the
+original inhabitants.
+~
+#EXIT
+Direction east~
+ToRoom    27504
+Desc      Mine entrance.
+~
+#ENDEXIT
+Reset M 0 27514 3 27524
+#ENDROOM
+
+#ROOM
+Vnum     27525
+Name     &rThe Drilled Ravine&d~
+Sector   mountain~
+Desc     A natural ravine that has been widened by goblin explosives. The
+walls are unnaturally smooth and scarred by drill bits.
+~
+#EXIT
+Direction west~
+ToRoom    27502
+Desc      The lower shelf.
+~
+#ENDEXIT
+Reset M 0 27501 2 27525
+#ENDROOM
+
+#ROOM
+Vnum     27526
+Name     &OThe Hidden Spring&d~
+Sector   water~
+Desc     A small, cold spring bubbles up from the rocks. It is a rare
+source of clean water in these rugged mountains.
+~
+#EXIT
+Direction east~
+ToRoom    27510
+Desc      Road to Charred Vale.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27527
+Name     &OThe Granite Crag&d~
+Sector   mountain~
+Desc     Massive slabs of granite lean against one another, creating small,
+natural caves. Basilisks often hide in the shadows here.
+~
+#EXIT
+Direction north~
+ToRoom    27500
+Desc      The pass entrance.
+~
+#ENDEXIT
+Reset M 0 27507 2 27527
+#ENDROOM
+
+#ROOM
+Vnum     27528
+Name     &OThe Dusty Overlook&d~
+Sector   mountain~
+Desc     A small ledge that provides a perfect view of the road coming up
+from the Barrens.
+~
+#EXIT
+Direction south~
+ToRoom    27500
+Desc      The pass entrance.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27529
+Name     &gThe Starlight Grove&d~
+Sector   forest~
+Desc     A tiny, glowing grove hidden near the peak. Fey dragons flutter
+among the bioluminescent flowers, ignoring the chaos below.
+~
+#EXIT
+Direction east~
+ToRoom    27521
+Desc      The peak.
+~
+#ENDEXIT
+Reset M 0 27513 3 27529
+Reset O 0 27510 1 27529
+#ENDROOM
+
+#ENDAREA
