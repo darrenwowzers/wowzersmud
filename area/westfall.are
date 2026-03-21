@@ -1,0 +1,1257 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Westfall~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       10 20 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       12501
+Keywords   gryan stoutmantle people's militia human~
+Short      Gryan Stoutmantle~
+Long       Gryan Stoutmantle stands tall atop Sentinel Hill, watching the horizon.
+~
+Desc       The stalwart leader of the People's Militia. Disillusioned by Stormwind's
+failure to protect Westfall, Gryan has organized the local farmers into a
+fighting force to take back their homes from the Defias Brotherhood.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12502
+Keywords   captain danuvin militia human~
+Short      Captain Danuvin~
+Long       Captain Danuvin paces near the barracks, barking orders.
+~
+Desc       Gryan's right-hand man and the chief tactician of Sentinel Hill. He
+bears the heavy burden of keeping the untrained militia recruits alive.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12503
+Keywords   defias pillager mage human~
+Short      a Defias Pillager~
+Long       A Defias Pillager weaves a deadly spell of fire.
+~
+Desc       The terror of Westfall. These rogue mages use potent fireballs to burn
+down farms and decimate the local militia from a distance.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 15 0 0 200 600
+Stats2     15 15 150
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Attribs    13 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12504
+Keywords   defias trapper rogue human~
+Short      a Defias Trapper~
+Long       A Defias Trapper crouches in the dry grass, setting a snare.
+~
+Desc       Bandits who prefer to ambush travelers along the dusty roads. They wear
+the signature red bandana of the Brotherhood.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 14 0 0 180 500
+Stats2     14 14 140
+Stats3     2 6 14
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12505
+Keywords   harvest watcher golem mechanical~
+Short      a Harvest Watcher~
+Long       A mechanical Harvest Watcher clanks aggressively toward you.
+~
+Desc       Originally built by the goblin tinkers to help harvest grain, these
+golems have gone completely haywire, attacking anyone who sets foot
+on the abandoned farmlands.
+~
+Race       golem~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 16 0 0 300 800
+Stats2     16 16 160
+Stats3     3 6 16
+Stats4     0 0 0 0 0
+Attribs    18 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12506
+Keywords   riverpaw gnoll beastman~
+Short      a Riverpaw Gnoll~
+Long       A Riverpaw Gnoll cackles wildly, gripping a rusted axe.
+~
+Desc       A vicious, dog-like humanoid that infests the southern and eastern
+edges of Westfall. They are cowardly alone but terrifying in packs.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 14 0 0 180 500
+Stats2     14 14 140
+Stats3     2 6 14
+Stats4     0 0 0 0 0
+Attribs    15 10 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12507
+Keywords   goretusk boar beast~
+Short      a Great Goretusk~
+Long       A massive Great Goretusk roots through the dry dirt for food.
+~
+Desc       A large, heavily armored boar native to Westfall. Their thick hides
+make them incredibly tough, and their meat is a staple for the locals.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 15 0 0 250 600
+Stats2     15 15 150
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Attribs    18 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12508
+Keywords   fleshripper bird vulture~
+Short      a Fleshripper~
+Long       A massive Fleshripper circles lazily in the sky above.
+~
+Desc       A giant vulture that feeds on the carrion left behind by the Defias and
+the gnolls. It has a terrifying wingspan and razor-sharp talons.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 14 0 0 150 400
+Stats2     14 14 140
+Stats3     2 5 14
+Stats4     0 0 0 0 0
+Attribs    13 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12509
+Keywords   farmer saldean human~
+Short      Farmer Saldean~
+Long       Farmer Saldean leans heavily on his pitchfork, looking exhausted.
+~
+Desc       One of the few farmers who refused to abandon his land when the Defias
+took over. He is tired, hungry, and desperate for help.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 30 0 0 500 2000
+Stats2     30 30 300
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12510
+Keywords   salma saldean human wife~
+Short      Salma Saldean~
+Long       Salma Saldean stirs a large, bubbling pot of Westfall Stew.
+~
+Desc       The matriarch of Saldean's farm. She is famous across the zone for her
+stew, which keeps the struggling People's Militia fed and fighting.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 30 0 0 500 2000
+Stats2     30 30 300
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12511
+Keywords   dust devil elemental air cyclone~
+Short      a Dust Devil~
+Long       A violent cyclone of dust and wind spins erratically across the plain.
+~
+Desc       A chaotic elemental born of the harsh, dry winds of Westfall. They strike
+without warning, battering travelers with blinding dust and debris.
+~
+Race       elemental~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 18 0 0 300 800
+Stats2     18 18 180
+Stats3     3 6 18
+Stats4     0 0 0 0 0
+Attribs    10 15 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12512
+Keywords   defias looter human thief~
+Short      a Defias Looter~
+Long       A Defias Looter sifts through the wreckage of a burned wagon.
+~
+Desc       The lowest ranking members of the Brotherhood, tasked with picking clean
+the farms and travelers devastated by the Pillagers.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 12 0 0 150 400
+Stats2     12 12 120
+Stats3     2 5 12
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12513
+Keywords   murloc coastrunner fishman~
+Short      a Murloc Coastrunner~
+Long       A Murloc Coastrunner gurgles angrily, brandishing a spear.
+~
+Desc       "Mrgglglbrlg rmrmgllg!" This amphibious creature haunts the western
+coastline, attacking anyone foolish enough to walk the sandy beaches alone.
+~
+Race       murloc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 15 0 0 200 600
+Stats2     15 15 150
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Attribs    15 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common murloc~
+Speaking   murloc~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12514
+Keywords   old murk eye boss murloc~
+Short      Old Murk-Eye~
+Long       Old Murk-Eye the massive murloc paces furiously along the shoreline.
+~
+Desc       The terror of the Westfall coast. He is significantly larger and more
+aggressive than the other coastrunners, responsible for the deaths of
+dozens of lighthouse keepers and guards.
+~
+Race       murloc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 20 0 0 1500 4000
+Stats2     20 20 400
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    18 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common murloc~
+Speaking   murloc~
+#ENDMOBILE
+
+#MOBILE
+Vnum       12515
+Keywords   keeper of the flame lighthouse guard human~
+Short      Captain Grayson~
+Long       Captain Grayson, the spectral Keeper of the Flame, watches the sea.
+~
+Desc       The ghostly spirit of the lighthouse keeper. Even in death, he is tied
+to his duty of ensuring the safety of ships passing the dangerous, rocky
+coast of Westfall.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 40 0 0 800 3000
+Stats2     40 40 400
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     12501
+Keywords westfall stew hearty bowl food~
+Type     food~
+Short    a bowl of Westfall Stew~
+Long     A hearty, steaming bowl of famous Westfall Stew smells amazing.~
+WFlags   take hold~
+Values   20 20 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12502
+Keywords goretusk liver bloody raw~
+Type     food~
+Short    a raw Goretusk Liver~
+Long     A massive, bloody liver harvested from a Goretusk lies here.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    2 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12503
+Keywords flask oil mechanical harvest~
+Type     potion~
+Short    a flask of mechanical oil~
+Long     A glass flask filled with thick, black mechanical oil is here.~
+WFlags   take hold~
+Values   15 -1 -1 -1 0 0
+Stats    1 100 10 0 0
+Spells   'cure light' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     12504
+Keywords rusted harvest scythe weapon curved~
+Type     weapon~
+Short    a rusted Harvest Scythe~
+Long     A long wooden scythe with a heavily rusted, curved blade is here.~
+WFlags   take wield~
+Values   0 6 12 3 0 0
+Stats    5 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12505
+Keywords shield wooden sentinel hill militia~
+Type     armor~
+Short    a Sentinel Hill Shield~
+Long     A sturdy wooden shield bearing the emblem of the People's Militia.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    6 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12506
+Keywords orders gryan scroll parchment~
+Type     scroll~
+Short    Gryan Stoutmantle's Orders~
+Long     A rolled parchment sealed with the crest of the People's Militia.~
+WFlags   take hold~
+Values   15 -1 -1 -1 0 0
+Stats    1 20 2 0 0
+Spells   'bless' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     12507
+Keywords murloc eye slimy fish~
+Type     treasure~
+Short    a slimy Murloc Eye~
+Long     A disturbingly large, slimy murloc eye stares blankly from the dirt.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12508
+Keywords coastrunner blade jagged spear murloc~
+Type     weapon~
+Short    a Coastrunner's Blade~
+Long     A crude spear tipped with a jagged piece of coral lies here.~
+WFlags   take wield~
+Values   0 8 14 11 0 0
+Stats    4 120 12 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12509
+Keywords dusty boots leather brown farm~
+Type     armor~
+Short    a pair of Dusty Leather Boots~
+Long     A highly practical, very dusty pair of brown leather boots sit here.~
+WFlags   take feet~
+Values   4 0 0 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12510
+Keywords farm pitchfork iron wooden~
+Type     weapon~
+Short    a heavy iron Pitchfork~
+Long     An agricultural pitchfork repurposed as a deadly thrusting weapon.~
+WFlags   take wield~
+Values   0 5 10 11 0 0
+Stats    4 70 7 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12511
+Keywords sack oats grain food~
+Type     food~
+Short    a sack of Westfall Oats~
+Long     A heavy burlap sack filled to the brim with harvested oats is here.~
+WFlags   take hold~
+Values   25 25 0 0 0 0
+Stats    10 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12512
+Keywords defias mage robe red silk~
+Type     armor~
+Short    a Defias Mage Robe~
+Long     A high-quality, bright red silk robe favored by Pillagers lies here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    3 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12513
+Keywords handful oats horse food~
+Type     food~
+Short    a handful of oats~
+Long     Some scattered oats have been spilled on the ground here.~
+WFlags   take hold~
+Values   5 5 0 0 0 0
+Stats    1 1 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12514
+Keywords gnoll paw furry severed~
+Type     treasure~
+Short    a severed Gnoll Paw~
+Long     A furry, clawed gnoll paw rests in the dust.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     12515
+Keywords torch sentinel hill burning wood~
+Type     light~
+Short    a Sentinel Hill Torch~
+Long     A thick branch wrapped in oil-soaked cloth burns brightly here.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    2 20 2 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     12501
+Name     &OThe Road from Elwynn&d~
+Sector   field~
+Desc     The lush green trees of Elwynn Forest abruptly end here, giving way to
+the dry, golden plains of Westfall. The wind picks up, carrying a fine
+layer of dust. To the west, the road continues into the heart of the
+abandoned farmlands.
+~
+#EXIT
+Direction west~
+ToRoom    12502
+Desc      The road continues toward a neglected farm.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12502
+Name     &OFurlbrow's Pumpkin Patch&d~
+Sector   field~
+Desc     A dilapidated wagon sits by the side of the road. The pumpkin patch here
+is overgrown with weeds, and the scarecrows look unnervingly sinister in
+the dry wind. The Furlbrows were forced out by the Defias long ago.
+~
+#EXIT
+Direction east~
+ToRoom    12501
+Desc      The road back to Elwynn Forest.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12503
+Desc      The dusty plains stretch out before you.
+~
+#ENDEXIT
+Reset O 0 12509 1 12502
+#ENDROOM
+
+#ROOM
+Vnum     12503
+Name     &OThe Dust Plains&d~
+Sector   field~
+Desc     The golden grass of Westfall is parched and brittle. The wind howls
+across the open plains, kicking up small dust devils. Great Goretusks
+root through the hard earth here, searching for scraps.
+~
+#EXIT
+Direction north~
+ToRoom    12502
+Desc      Furlbrow's Pumpkin Patch.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12506
+Desc      The plains continue south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12504
+Desc      The fields of Saldean's Farm.
+~
+#ENDEXIT
+Reset M 0 12507 2 12503
+  Reset G 1 12502 10
+#ENDROOM
+
+#ROOM
+Vnum     12504
+Name     &OSaldean's Farm - The Fields&d~
+Sector   field~
+Desc     The wheat here is dead and rotting on the stalk. Massive mechanical
+Harvest Watchers patrol the fields erratically, their gears grinding
+as they attack anything that moves. 
+~
+#EXIT
+Direction east~
+ToRoom    12503
+Desc      The Dust Plains.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12505
+Desc      The Saldean farmhouse.
+~
+#ENDEXIT
+Reset M 0 12505 2 12504
+  Reset G 1 12503 10
+Reset O 0 12513 3 12504
+#ENDROOM
+
+#ROOM
+Vnum     12505
+Name     &OSaldean's Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     One of the few farmhouses in Westfall that hasn't been burned to the
+ground. It is sturdy but shows signs of recent attacks. The smell of
+hearty stew fills the room, offering a rare comfort in this harsh land.
+~
+#EXIT
+Direction east~
+ToRoom    12504
+Desc      The fields outside.
+~
+#ENDEXIT
+Reset M 0 12509 1 12505
+  Reset E 1 12510 10 16
+Reset M 0 12510 1 12505
+Reset O 0 12501 2 12505
+Reset O 0 12511 1 12505
+#ENDROOM
+
+#ROOM
+Vnum     12506
+Name     &OThe Dust Plains - South&d~
+Sector   field~
+Desc     The road becomes deeply rutted here from the passage of heavy carts.
+To the west, a large, fortified hill rises above the plains. You can
+see the banners of the People's Militia snapping in the wind.
+~
+#EXIT
+Direction north~
+ToRoom    12503
+Desc      The northern plains.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12507
+Desc      The base of Sentinel Hill.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12528
+Desc      A dusty path leading toward a gnoll camp.
+~
+#ENDEXIT
+Reset M 0 12507 1 12506
+#ENDROOM
+
+#ROOM
+Vnum     12507
+Name     &OBase of Sentinel Hill&d~
+Sector   field~
+Desc     You stand at the foot of the only safe haven in Westfall. Makeshift
+barricades of sharpened logs and overturned wagons line the path leading
+up the hill. Militia recruits practice their spear thrusts nearby.
+~
+#EXIT
+Direction east~
+ToRoom    12506
+Desc      The Dust Plains.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    12508
+Desc      The path winds up to the tower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12508
+Name     &OSentinel Hill - Tower&d~
+Sector   city~
+Desc     A sturdy stone tower stands at the peak of the hill, offering a commanding
+view of the entire zone. Gryan Stoutmantle stands here, shouting orders
+and organizing the resistance against the Defias Brotherhood.
+~
+#EXIT
+Direction down~
+ToRoom    12507
+Desc      The base of the hill.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    12509
+Desc      The militia barracks.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12510
+Desc      The militia encampment.
+~
+#ENDEXIT
+Reset M 0 12501 1 12508
+  Reset E 1 12505 10 11
+  Reset G 1 12506 10
+#ENDROOM
+
+#ROOM
+Vnum     12509
+Name     &OSentinel Hill - Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large wooden building serving as the command center and sleeping
+quarters for the People's Militia. Maps of Defias movements are pinned
+to the walls. Captain Danuvin looks over the rosters with a grim face.
+~
+#EXIT
+Direction south~
+ToRoom    12508
+Desc      The tower outside.
+~
+#ENDEXIT
+Reset M 0 12502 1 12509
+  Reset E 1 12515 10 17
+#ENDROOM
+
+#ROOM
+Vnum     12510
+Name     &OSentinel Hill - Encampment&d~
+Sector   city~
+Desc     Tents are clustered tightly together here for warmth and protection.
+Wounded soldiers rest on cots, and the smell of woodsmoke is thick.
+From here, the road continues southwest toward the Dagger Hills.
+~
+#EXIT
+Direction north~
+ToRoom    12508
+Desc      The tower.
+~
+#ENDEXIT
+#EXIT
+Direction southwest~
+ToRoom    12513
+Desc      The road to the Dagger Hills.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12511
+Desc      The Dead Acre.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12511
+Name     &OThe Dead Acre - North&d~
+Sector   field~
+Desc     A massive, abandoned farm that has completely fallen to ruin. The soil
+here is dead, and the mechanical Harvest Watchers have completely taken
+over. It is a dangerous place to wander alone.
+~
+#EXIT
+Direction east~
+ToRoom    12510
+Desc      Sentinel Hill.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12512
+Desc      Deeper into the Dead Acre.
+~
+#ENDEXIT
+Reset M 0 12505 2 12511
+#ENDROOM
+
+#ROOM
+Vnum     12512
+Name     &OThe Dead Acre - South&d~
+Sector   field~
+Desc     The wreckage of a windmill groans in the wind. Huge Fleshripper birds
+circle overhead, waiting for the mechanical golems to finish off any
+foolish travelers.
+~
+#EXIT
+Direction north~
+ToRoom    12511
+Desc      The northern edge of the farm.
+~
+#ENDEXIT
+Reset M 0 12508 2 12512
+#ENDROOM
+
+#ROOM
+Vnum     12513
+Name     &OThe Dagger Hills&d~
+Sector   hills~
+Desc     The terrain becomes rugged and rocky here. The hills provide perfect
+cover for Defias Trappers, who hide in the scrub brush waiting to ambush
+caravans. The road winds its way south toward the town of Moonbrook.
+~
+#EXIT
+Direction northeast~
+ToRoom    12510
+Desc      The safety of Sentinel Hill.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12514
+Desc      The outskirts of Moonbrook.
+~
+#ENDEXIT
+Reset M 0 12504 2 12513
+#ENDROOM
+
+#ROOM
+Vnum     12514
+Name     &OMoonbrook - Outskirts&d~
+Sector   city~
+Desc     You stand at the edge of Moonbrook. Once a thriving agricultural hub, it
+has been completely taken over by the Defias Brotherhood. Pillagers and
+looters roam the streets freely. The buildings are burned and heavily
+damaged.
+~
+#EXIT
+Direction north~
+ToRoom    12513
+Desc      The Dagger Hills.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12515
+Desc      The ruined inn.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12516
+Desc      The center of town.
+~
+#ENDEXIT
+Reset M 0 12503 1 12514
+  Reset E 1 12512 10 5
+#ENDROOM
+
+#ROOM
+Vnum     12515
+Name     &OMoonbrook - Ruined Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     The roof of the inn has caved in, and the bar is smashed to splinters.
+Defias thugs use this place as a hideout. The walls are scorched black
+from the fire magic of the Pillagers.
+~
+#EXIT
+Direction east~
+ToRoom    12514
+Desc      The outskirts of town.
+~
+#ENDEXIT
+Reset M 0 12503 1 12515
+#ENDROOM
+
+#ROOM
+Vnum     12516
+Name     &OMoonbrook - Town Center&d~
+Sector   city~
+Desc     The town square is a mess of broken carts and looted goods. Defias Looter
+scavenge whatever they can find. To the east stands a large, ominously
+intact barn that the Brotherhood heavily guards.
+~
+#EXIT
+Direction north~
+ToRoom    12514
+Desc      The outskirts of town.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12517
+Desc      The Old Barn.
+~
+#ENDEXIT
+Reset M 0 12512 2 12516
+  Reset E 1 12504 10 16
+#ENDROOM
+
+#ROOM
+Vnum     12517
+Name     &OMoonbrook - The Old Barn&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of this barn is hiding a massive secret. The floorboards
+have been pulled up, revealing a dark, spiraling tunnel leading deep into
+the earth. This is the secret entrance to the Defias Brotherhood's
+underground stronghold.
+~
+#EXIT
+Direction west~
+ToRoom    12516
+Desc      The town center.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    12900
+Desc      The tunnel leads down into The Deadmines.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12518
+Name     &OThe Dust Plains - West&d~
+Sector   field~
+Desc     Heading west from Sentinel Hill, the plains stretch out toward the
+ocean. The wind is incredibly fierce here, frequently whipping up
+violent, sentient Dust Devils that batter everything in their path.
+~
+#EXIT
+Direction east~
+ToRoom    12510
+Desc      Sentinel Hill.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12521
+Desc      The Gold Coast.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12519
+Desc      The Jangolode Mine entrance.
+~
+#ENDEXIT
+Reset M 0 12511 2 12518
+#ENDROOM
+
+#ROOM
+Vnum     12519
+Name     &OJangolode Mine - Entrance&d~
+Sector   hills~
+Desc     A large, gaping hole in the earth marks the entrance to the Jangolode
+Mine. Defias Trappers guard the entrance, ensuring their illicit mining
+operations are not disturbed.
+~
+#EXIT
+Direction north~
+ToRoom    12518
+Desc      The western plains.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    12520
+Desc      Descend into the mine.
+~
+#ENDEXIT
+Reset M 0 12504 1 12519
+#ENDROOM
+
+#ROOM
+Vnum     12520
+Name     &dJangolode Mine - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air in the mine is thick with dust and the sounds of pickaxes.
+The Defias are stripping the mine bare of copper and tin to fund
+VanCleef's war machine.
+~
+#EXIT
+Direction up~
+ToRoom    12519
+Desc      The surface.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12521
+Name     &CThe Gold Coast&d~
+Sector   field~
+Desc     The dusty plains finally give way to the sandy shores of the Great Sea.
+The water is cool and inviting, but the beach is crawling with vicious,
+gurgling murlocs who violently defend their territory.
+~
+#EXIT
+Direction east~
+ToRoom    12518
+Desc      The Dust Plains.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    12525
+Desc      The Long Shore.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12522
+Desc      A clustered murloc camp.
+~
+#ENDEXIT
+Reset M 0 12513 2 12521
+  Reset E 1 12508 10 16
+#ENDROOM
+
+#ROOM
+Vnum     12522
+Name     &CThe Gold Coast - Murloc Camp&d~
+Sector   field~
+Desc     Crude huts made of driftwood and seaweed are clustered here. The smell
+of rotting fish is overwhelming. Murloc Coastrunners charge at you with
+jagged spears the moment you are spotted.
+~
+#EXIT
+Direction north~
+ToRoom    12521
+Desc      The Gold Coast.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12523
+Desc      The shallow waters of the sea.
+~
+#ENDEXIT
+Reset M 0 12513 2 12522
+  Reset G 1 12507 10
+#ENDROOM
+
+#ROOM
+Vnum     12523
+Name     &CThe Gold Coast - Shallow Waters&d~
+Sector   water_noswim~
+Desc     You are wading in the cool, salty waters of the Great Sea. To the south,
+the massive, rusted hull of a shipwreck juts out of the water, a stark
+reminder of the treacherous reefs along this coast.
+~
+#EXIT
+Direction east~
+ToRoom    12522
+Desc      The murloc camp on the beach.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12524
+Desc      The shipwreck.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12524
+Name     &CThe Shipwreck&d~
+Sector   water_noswim~
+Desc     The ruined hull of a merchant vessel provides a perfect lair for the
+terror of the Gold Coast. Old Murk-Eye, a massive and unusually intelligent
+murloc, claims this wreck as his throne.
+~
+#EXIT
+Direction north~
+ToRoom    12523
+Desc      The shallow waters.
+~
+#ENDEXIT
+Reset M 0 12514 1 12524
+#ENDROOM
+
+#ROOM
+Vnum     12525
+Name     &CThe Long Shore&d~
+Sector   field~
+Desc     The beach stretches out to the north. In the distance, rising high above
+the rocky cliffs, you can see the flashing beacon of the Westfall
+Lighthouse, warning ships away from the deadly shore.
+~
+#EXIT
+Direction south~
+ToRoom    12521
+Desc      The Gold Coast.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    12526
+Desc      The base of the lighthouse.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12526
+Name     &OWestfall Lighthouse - Base&d~
+Sector   hills~
+Desc     The lighthouse is built on a high, rocky promontory overlooking the sea.
+The structure is old but sturdy. A heavy wooden door at the base leads
+up to the beacon.
+~
+#EXIT
+Direction south~
+ToRoom    12525
+Desc      The Long Shore.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    12527
+Desc      Climb the lighthouse stairs.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     12527
+Name     &OWestfall Lighthouse - Top&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive, oil-burning beacon illuminates the room, casting sweeping
+beams of light out over the ocean. The spectral form of Captain Grayson,
+the Keeper of the Flame, stands here, eternally bound to his duty.
+~
+#EXIT
+Direction down~
+ToRoom    12526
+Desc      The base of the lighthouse.
+~
+#ENDEXIT
+Reset M 0 12515 1 12527
+#ENDROOM
+
+#ROOM
+Vnum     12528
+Name     &OThe Dust Plains - East&d~
+Sector   field~
+Desc     The plains on the eastern side of Westfall are infested with scavengers.
+The scent of wet dog and decaying meat signals your approach to a major
+encampment of Riverpaw Gnolls.
+~
+#EXIT
+Direction west~
+ToRoom    12506
+Desc      The plains south of Furlbrow's.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12529
+Desc      The Riverpaw Encampment.
+~
+#ENDEXIT
+Reset M 0 12506 1 12528
+#ENDROOM
+
+#ROOM
+Vnum     12529
+Name     &ORiverpaw Encampment&d~
+Sector   field~
+Desc     A chaotic, filthy camp filled with crude hide tents and gnawed bones.
+Packs of Riverpaw Gnolls bicker and fight among themselves, only uniting
+when an intruder stumbles into their territory.
+~
+#EXIT
+Direction west~
+ToRoom    12528
+Desc      The eastern plains.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    12530
+Desc      A dusty crossroad.
+~
+#ENDEXIT
+Reset M 0 12506 2 12529
+  Reset G 1 12514 10
+#ENDROOM
+
+#ROOM
+Vnum     12530
+Name     &ODusty Crossroads&d~
+Sector   field~
+Desc     A three-way fork in the dusty road. To the north lies the gnoll camp,
+to the west is the safety of Sentinel Hill, and the southern path winds
+toward the treacherous jungles of Stranglethorn Vale.
+~
+#EXIT
+Direction north~
+ToRoom    12529
+Desc      The Riverpaw Encampment.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12506
+Desc      The Dust Plains leading to Sentinel Hill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
