@@ -1,0 +1,1253 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Durotar~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 10 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       25000
+Keywords   mottled boar beast pig~
+Short      a Mottled Boar~
+Long       A Mottled Boar roots around in the dry red dirt for scraps.
+~
+Desc       A low-level beast native to the Valley of Trials. They are incredibly
+tough for their size and provide the primary food source for the orcish
+peons.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 2 0 0 20 40
+Stats2     2 2 20
+Stats3     1 4 5
+Stats4     0 0 0 0 0
+Attribs    13 10 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25001
+Keywords   scorpid worker bug arachnid~
+Short      a Scorpid Worker~
+Long       A Scorpid Worker scurries across the hot sand, pincers snapping.
+~
+Desc       These heavily armored arachnids infest the canyons of Durotar. Their
+venom is weak, but their pincers can easily snap a carelessly placed foot.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 3 0 0 30 60
+Stats2     3 3 30
+Stats3     1 5 6
+Stats4     0 0 0 0 0
+Attribs    10 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25002
+Keywords   vile familiar demon imp~
+Short      a Vile Familiar~
+Long       A cackling Vile Familiar hops around, tossing small sparks of fel fire.
+~
+Desc       A corrupted minion of the Burning Blade cult. These small, annoying
+demons infest the caves of the Valley of Trials, testing the might of
+new Horde recruits.
+~
+Race       demon~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 4 0 0 40 80
+Stats2     4 4 60
+Stats3     1 6 8
+Stats4     0 0 0 0 0
+Attribs    10 15 10 13 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25003
+Keywords   gornek orc quest leader~
+Short      Gornek~
+Long       Gornek stands proudly before the Den, watching the new recruits.
+~
+Desc       A seasoned orc veteran tasked with training the newest members of the
+Horde. He is stern, incredibly strong, and expects nothing but absolute
+loyalty to the Warchief.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 15 0 0 500 1500
+Stats2     15 15 150
+Stats3     3 8 20
+Stats4     0 0 0 0 0
+Attribs    18 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25004
+Keywords   sarkoth scorpid boss~
+Short      Sarkoth~
+Long       Sarkoth, a massive and unusually aggressive scorpid, clicks its pincers.
+~
+Desc       The terror of the Valley of Trials. Sarkoth is a mutated scorpid that
+has claimed the southern canyon, ambushing inexperienced hunters.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 5 0 0 80 150
+Stats2     5 5 50
+Stats3     2 6 10
+Stats4     0 0 0 0 0
+Attribs    15 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25005
+Keywords   kul tiras marine human invader~
+Short      a Kul Tiras Marine~
+Long       A Kul Tiras Marine patrols the ruins, wearing green sea-weathered armor.
+~
+Desc       Invaders from the human island nation of Kul Tiras. They have set up
+a foothold at Tiragarde Keep and are openly hostile to all Horde races.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 7 0 0 100 250
+Stats2     7 7 70
+Stats3     2 8 12
+Stats4     0 0 0 0 0
+Attribs    15 13 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25006
+Keywords   lieutenant benedict human boss~
+Short      Lieutenant Benedict~
+Long       Lieutenant Benedict stands atop the keep, studying a nautical map.
+~
+Desc       The commander of the Kul Tiras forces in Durotar. He firmly believes
+that the orcs are bloodthirsty monsters and will stop at nothing to wipe
+them out.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 10 0 0 300 600
+Stats2     10 10 100
+Stats3     3 10 18
+Stats4     0 0 0 0 0
+Attribs    18 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25007
+Keywords   sen'jin watcher troll guard~
+Short      a Sen'jin Watcher~
+Long       A Sen'jin Watcher leans casually against a spear, eyes scanning the sea.
+~
+Desc       A fierce Darkspear troll tasked with protecting the coastal village. They
+are deeply loyal to Thrall and the Horde for saving them from the
+murlocs and sea witches.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 12 0 0 400 1000
+Stats2     12 12 120
+Stats3     3 10 20
+Stats4     0 0 0 0 0
+Attribs    15 18 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25008
+Keywords   echo isle hexxer troll magic~
+Short      an Echo Isle Hexxer~
+Long       An Echo Isle Hexxer channels a dark voodoo curse.
+~
+Desc       Trolls who remained loyal to the mad witch doctor Zalazane. They use
+dark, twisted voodoo magic to assault the Darkspear loyalists attempting
+to reclaim the islands.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 8 0 0 120 280
+Stats2     8 8 150
+Stats3     2 8 15
+Stats4     0 0 0 0 0
+Attribs    10 15 13 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25009
+Keywords   zalazane troll boss voodoo~
+Short      Zalazane~
+Long       Zalazane the mad witch doctor dances around a bubbling cauldron.
+~
+Desc       Once the best friend of Vol'jin, Zalazane went completely mad and took
+control of the Echo Isles, enslaving his brethren with dark voodoo. He
+is a powerful and unpredictable foe.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 12 0 0 500 1200
+Stats2     12 12 300
+Stats3     3 12 22
+Stats4     0 0 0 0 0
+Attribs    13 18 15 20 10 10 10
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25010
+Keywords   durotar tiger cat beast~
+Short      a Durotar Tiger~
+Long       A Durotar Tiger prowls low to the ground, blending into the red rocks.
+~
+Desc       A sleek, highly dangerous predator that roams the canyons near Razor
+Hill. Their striped fur perfectly matches the sun-baked environment.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 9 0 0 150 350
+Stats2     9 9 90
+Stats3     2 10 16
+Stats4     0 0 0 0 0
+Attribs    13 18 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25011
+Keywords   razor hill grunt orc guard~
+Short      a Razor Hill Grunt~
+Long       A heavily muscled Razor Hill Grunt watches the road intently.
+~
+Desc       The backbone of the Horde's military. These orcs guard the crossroads
+of Durotar, ensuring safe passage for merchants heading to Orgrimmar.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 15 0 0 600 1500
+Stats2     15 15 150
+Stats3     3 12 25
+Stats4     0 0 0 0 0
+Attribs    20 13 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25012
+Keywords   gar'thok orc commander boss~
+Short      Gar'thok~
+Long       Gar'thok stands near the Razor Hill barracks, barking orders.
+~
+Desc       The strict commander of the Razor Hill garrison. He is deeply concerned
+about the encroaching Burning Blade cultists at Skull Rock.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 18 0 0 800 2500
+Stats2     18 18 180
+Stats3     4 12 28
+Stats4     0 0 0 0 0
+Attribs    20 15 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25013
+Keywords   burning blade cultist orc warlock~
+Short      a Burning Blade Cultist~
+Long       A Burning Blade Cultist mutters demonic incantations in the dark.
+~
+Desc       Corrupted orcs who have secretly returned to worshiping demons. They
+hide in the twisting caverns of Skull Rock, performing dark rituals.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 10 0 0 200 450
+Stats2     10 10 200
+Stats3     2 8 18
+Stats4     0 0 0 0 0
+Attribs    13 13 13 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       25014
+Keywords   gazz'uz warlock boss cultist orc~
+Short      Gazz'uz~
+Long       Gazz'uz the warlock floats slightly off the ground, eyes burning green.
+~
+Desc       The leader of the Burning Blade sect inside Skull Rock. He has fully
+embraced fel magic, warping his mind and body into something terrifying.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 14 0 0 600 1800
+Stats2     14 14 400
+Stats3     3 12 25
+Stats4     0 0 0 0 0
+Attribs    10 15 15 20 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#OBJECT
+Vnum     25000
+Keywords roasted boar meat food chunk~
+Type     food~
+Short    a chunk of Roasted Boar Meat~
+Long     A charred, highly satisfying chunk of boar meat sits in the dirt.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25001
+Keywords scorpid worker tail stinger venom~
+Type     treasure~
+Short    a Scorpid Worker Tail~
+Long     A severed scorpid tail, still dripping with a weak poison, is here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25002
+Keywords cactus apple surprise fruit sweet~
+Type     food~
+Short    a Cactus Apple Surprise~
+Long     A remarkably sweet piece of fruit harvested from the harsh desert cacti.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25003
+Keywords vile familiar horn tiny demon~
+Type     treasure~
+Short    a Vile Familiar Horn~
+Long     A tiny, curved demon horn radiates a faint, unpleasant heat.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25004
+Keywords sarkoth pincer dagger weapon curved~
+Type     weapon~
+Short    Sarkoth's Pincer~
+Long     An unusually massive scorpid pincer has been fashioned into a dagger.~
+WFlags   take wield~
+Values   0 2 6 11 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25005
+Keywords tiragarde halberd polearm human weapon~
+Type     weapon~
+Short    a Tiragarde Halberd~
+Long     A standard-issue Kul Tiras marine halberd lies abandoned here.~
+WFlags   take wield~
+Values   0 4 10 3 0 0
+Stats    6 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25006
+Keywords marine chainmail armor green steel~
+Type     armor~
+Short    Marine Chainmail~
+Long     A sturdy suit of sea-green chainmail worn by Kul Tiras forces.~
+WFlags   take body~
+Values   4 0 0 0 0 0
+Stats    8 120 12 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25007
+Keywords lieutenant brass key metal shiny~
+Type     key~
+Short    a Lieutenant's Brass Key~
+Long     A shiny brass key with the anchor crest of Kul Tiras stamped on it.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25008
+Keywords sen'jin voodoo totem carved wood~
+Type     light~
+Short    a Sen'jin Voodoo Totem~
+Long     A small, carved wooden totem glows with a faint, comforting blue light.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    2 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25009
+Keywords hexxer wand bone magic crooked~
+Type     wand~
+Short    a Hexxer's Wand~
+Long     A crooked wand made of carved bone thrums with dark magic.~
+WFlags   take hold~
+Values   5 2 2 2 0 0
+Stats    2 150 15 0 0
+Spells   'weaken'
+#ENDOBJECT
+
+#OBJECT
+Vnum     25010
+Keywords zalazane skull shrunken head magic~
+Type     treasure~
+Short    Zalazane's Shrunken Skull~
+Long     A deeply unsettling, shrunken troll skull crackles with erratic voodoo.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25011
+Keywords durotar tiger hide striped pelt armor~
+Type     armor~
+Short    a Durotar Tiger Hide~
+Long     A beautiful, striped tiger pelt fashioned into a durable cloak.~
+WFlags   take neck~
+Values   3 0 0 0 0 0
+Stats    4 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25012
+Keywords cultist dark robes black cloth armor~
+Type     armor~
+Short    Cultist's Dark Robes~
+Long     Thick black robes smelling faintly of brimstone have been left here.~
+WFlags   take body~
+Values   3 0 0 0 0 0
+Stats    3 60 6 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25013
+Keywords void stone glowing purple rock gazz'uz~
+Type     armor~
+Short    the Void Stone~
+Long     A smooth, purple stone pulses with dark, corrupting energy here.~
+WFlags   take hold~
+Values   4 0 0 0 0 0
+Stats    2 250 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     25014
+Keywords peon pickaxe rusted iron tool weapon~
+Type     weapon~
+Short    an Orcish Peon Pickaxe~
+Long     A heavily worn iron pickaxe used for breaking the hard Durotar rock.~
+WFlags   take wield~
+Values   0 3 8 7 0 0
+Stats    5 30 3 0 0
+#ENDOBJECT
+
+// Durotar Room Section Begins --Hansth
+
+#ROOM
+Vnum     25000
+Name     &OThe Valley of Trials - The Den&d~
+Sector   city~
+Desc     You stand before a massive, crude structure made of earth and heavy
+timber known as The Den. This sunk-in valley is the cradle of the new
+Horde, where young orcs and trolls are tested to see if they are worthy
+of serving the Warchief.
+~
+#EXIT
+Direction north~
+ToRoom    25001
+Desc      The dusty center of the valley.
+~
+#ENDEXIT
+Reset M 0 25003 1 25000
+#ENDROOM
+
+#ROOM
+Vnum     25001
+Name     &OThe Valley of Trials - Center&d~
+Sector   field~
+Desc     The red dirt here is baked hard by the relentless sun. Lazy peons sleep
+in the shade of the few thorny trees, while young warriors chase after
+the tough Mottled Boars that root through the dust.
+~
+#EXIT
+Direction north~
+ToRoom    25002
+Desc      The northern edge of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25003
+Desc      A rocky gorge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    25000
+Desc      The Den.
+~
+#ENDEXIT
+Reset M 0 25000 2 25001
+  Reset G 1 25000 10
+#ENDROOM
+
+#ROOM
+Vnum     25002
+Name     &OThe Valley of Trials - North&d~
+Sector   field~
+Desc     The canyon walls close in tightly here, providing a small bit of shade
+from the glaring sun. The boars are more plentiful here, aggressive and
+territorial.
+~
+#EXIT
+Direction south~
+ToRoom    25001
+Desc      The center of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25004
+Desc      A dark cave entrance.
+~
+#ENDEXIT
+Reset M 0 25000 2 25002
+#ENDROOM
+
+#ROOM
+Vnum     25003
+Name     &OThe Valley of Trials - East&d~
+Sector   hills~
+Desc     The ground becomes rocky and treacherous. The shadows of the canyon wall
+hide deadly Scorpid Workers that scurry out to pinch the boots of unwary
+travelers.
+~
+#EXIT
+Direction west~
+ToRoom    25001
+Desc      The center of the valley.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    25007
+Desc      A hidden, shaded canyon.
+~
+#ENDEXIT
+Reset M 0 25001 2 25003
+  Reset G 1 25001 10
+#ENDROOM
+
+#ROOM
+Vnum     25004
+Name     &OThe Burning Blade Coven - Entrance&d~
+Sector   hills~
+Desc     A dark, ominous cave mouth cuts into the northern canyon wall. The air
+smells sharply of ozone and fel magic. Cackling Vile Familiars dance
+around the entrance, hurling small sparks of green fire.
+~
+#EXIT
+Direction west~
+ToRoom    25002
+Desc      The northern valley.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    25005
+Desc      Descend into the coven.
+~
+#ENDEXIT
+Reset M 0 25002 2 25004
+#ENDROOM
+
+#ROOM
+Vnum     25005
+Name     &dThe Burning Blade Coven - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air in the cave is suffocatingly hot. The walls glow with a faint,
+sickly green light. Cultists have set up a crude altar here, summoning
+minor demons to test their dark magic.
+~
+#EXIT
+Direction up~
+ToRoom    25004
+Desc      The cave entrance.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25006
+Desc      Deeper into the twisting tunnels.
+~
+#ENDEXIT
+Reset M 0 25002 2 25005
+  Reset G 1 25003 10
+#ENDROOM
+
+#ROOM
+Vnum     25006
+Name     &dThe Burning Blade Coven - The Altar&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A large, flat rock serves as an altar for the Burning Blade. Blood and
+fel soot stain the stone. The familiars here are numerous and highly
+aggressive, swarming anyone who approaches.
+~
+#EXIT
+Direction west~
+ToRoom    25005
+Desc      The upper cave.
+~
+#ENDEXIT
+Reset M 0 25002 3 25006
+#ENDROOM
+
+#ROOM
+Vnum     25007
+Name     &OSarkoth's Lair&d~
+Sector   hills~
+Desc     A small, dead-end canyon littered with the bones of boars and careless
+peons. Sarkoth, a massive and unusually vicious scorpid, claims this
+shaded patch of dirt as his own.
+~
+#EXIT
+Direction north~
+ToRoom    25003
+Desc      The eastern valley.
+~
+#ENDEXIT
+Reset M 0 25004 1 25007
+  Reset E 1 25004 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25008
+Name     &OPath Out of the Valley&d~
+Sector   field~
+Desc     A narrow, winding path leads out of the Valley of Trials and into the
+greater expanse of Durotar. The wind picks up, carrying the salty scent
+of the ocean from the southeast.
+~
+#EXIT
+Direction south~
+ToRoom    25000
+Desc      The Den.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25009
+Desc      The outskirts of a troll village.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25009
+Name     &OSen'jin Village - Outskirts&d~
+Sector   field~
+Desc     The red dirt begins to mix with white beach sand. You approach a coastal
+settlement built by the Darkspear trolls. Crude wooden totems and fishing
+nets line the path.
+~
+#EXIT
+Direction west~
+ToRoom    25008
+Desc      The path back to the Valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25010
+Desc      The center of Sen'jin Village.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25015
+Desc      The Durotar coastline.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25010
+Name     &OSen'jin Village - Center&d~
+Sector   city~
+Desc     A bustling, peaceful village of island trolls. They have found a new home
+here on the coast, fiercely loyal to the orcs who saved them. Sen'jin
+Watchers stand guard, keeping an eye on the treacherous islands just
+offshore.
+~
+#EXIT
+Direction west~
+ToRoom    25009
+Desc      The village outskirts.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25011
+Desc      The beach.
+~
+#ENDEXIT
+Reset M 0 25007 2 25010
+Reset O 0 25008 2 25010
+#ENDROOM
+
+#ROOM
+Vnum     25011
+Name     &CThe Coastal Beach&d~
+Sector   field~
+Desc     The warm waters of the Great Sea lap gently against the white sand. To
+the east, across a shallow strait of water, you can see the dense, jungle-
+like foliage of the Echo Isles.
+~
+#EXIT
+Direction west~
+ToRoom    25010
+Desc      Sen'jin Village.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25012
+Desc      Wade into the shallows.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25012
+Name     &CThe Echo Isles - Shallows&d~
+Sector   water_noswim~
+Desc     You wade through the warm, waist-deep water separating the mainland from
+the Echo Isles. The trolls of Sen'jin warn that the islands are cursed,
+taken over by dark voodoo.
+~
+#EXIT
+Direction west~
+ToRoom    25011
+Desc      The mainland beach.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25013
+Desc      The shores of the Echo Isles.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25013
+Name     &GThe Echo Isles - Shore&d~
+Sector   forest~
+Desc     The moment you step onto the island, the atmosphere changes. The trees
+are unnaturally thick, and the sound of chanting echoes through the brush.
+Echo Isle Hexxers patrol the beaches, hurling curses at intruders.
+~
+#EXIT
+Direction west~
+ToRoom    25012
+Desc      The shallow water.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25014
+Desc      The heart of the island.
+~
+#ENDEXIT
+Reset M 0 25008 2 25013
+  Reset E 1 25009 10 16
+#ENDROOM
+
+#ROOM
+Vnum     25014
+Name     &GZalazane's Fall&d~
+Sector   forest~
+Desc     The center of the Echo Isles is completely corrupted by dark magic. A
+massive, bubbling cauldron of voodoo brews in the center of the clearing.
+The mad witch doctor Zalazane dances wildly around it, commanding his
+enthralled brethren.
+~
+#EXIT
+Direction south~
+ToRoom    25013
+Desc      The island shore.
+~
+#ENDEXIT
+Reset M 0 25009 1 25014
+  Reset G 1 25010 10
+#ENDROOM
+
+#ROOM
+Vnum     25015
+Name     &OThe Durotar Coastline&d~
+Sector   field~
+Desc     Heading north from Sen'jin Village, the coastline becomes rugged and
+rocky. Shipwrecks litter the shore. In the distance, a large, stone
+fortress flies the green and gold anchor flag of Kul Tiras.
+~
+#EXIT
+Direction south~
+ToRoom    25009
+Desc      Sen'jin Village.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25016
+Desc      The approach to the keep.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25019
+Desc      The central plains of Durotar.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25016
+Name     &OTiragarde Keep - Approach&d~
+Sector   hills~
+Desc     The path winds up a steep hill toward the human fortress. The Kul Tiras
+Marines have dug in deep here, determined to wipe out the Horde before
+it can establish a foothold in Kalimdor.
+~
+#EXIT
+Direction south~
+ToRoom    25015
+Desc      The coastline.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25017
+Desc      The courtyard of the keep.
+~
+#ENDEXIT
+Reset M 0 25005 2 25016
+#ENDROOM
+
+#ROOM
+Vnum     25017
+Name     &OTiragarde Keep - Courtyard&d~
+Sector   city~
+Desc     The courtyard is bustling with heavily armed human marines. They are
+training, sharpening weapons, and preparing for their next strike against
+Razor Hill. They attack any Horde races on sight.
+~
+#EXIT
+Direction west~
+ToRoom    25016
+Desc      The approach.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    25018
+Desc      The central tower.
+~
+#ENDEXIT
+Reset M 0 25005 3 25017
+  Reset E 1 25005 10 16
+  Reset E 1 25006 10 5
+#ENDROOM
+
+#ROOM
+Vnum     25018
+Name     &OTiragarde Keep - The Tower&d~
+Sector   inside~
+Flags    indoors~
+Desc     The command center of the Kul Tiras invasion. Lieutenant Benedict stands
+over a map table, plotting the destruction of Orgrimmar. He is a seasoned
+veteran, incredibly tough and utterly ruthless.
+~
+#EXIT
+Direction down~
+ToRoom    25017
+Desc      The courtyard below.
+~
+#ENDEXIT
+Reset M 0 25006 1 25018
+  Reset G 1 25007 10
+#ENDROOM
+
+#ROOM
+Vnum     25019
+Name     &OThe Central Plains&d~
+Sector   field~
+Desc     The harsh, red plains of Durotar stretch out in all directions. The heat
+is oppressive. Sleek, deadly Durotar Tigers use the tall, dry grass to
+stalk their prey, striking with lightning speed.
+~
+#EXIT
+Direction east~
+ToRoom    25015
+Desc      The coastline.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25020
+Desc      A major crossroads.
+~
+#ENDEXIT
+Reset M 0 25010 2 25019
+  Reset E 1 25011 10 3
+#ENDROOM
+
+#ROOM
+Vnum     25020
+Name     &OThe Crossroads to Razor Hill&d~
+Sector   field~
+Desc     The dirt path widens into a major, heavily traveled road. Peons carry
+lumber and stone along this route. To the north, the imposing wooden
+watchtowers of Razor Hill rise above the canyon walls.
+~
+#EXIT
+Direction south~
+ToRoom    25019
+Desc      The central plains.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25021
+Desc      The gates of Razor Hill.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25025
+Desc      A rocky path leading east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25021
+Name     &ORazor Hill - South Gate&d~
+Sector   city~
+Desc     Massive logs have been sharpened and lashed together to form the walls
+of Razor Hill. It is the primary military outpost for the Horde in Durotar,
+heavily guarded by seasoned orc grunts.
+~
+#EXIT
+Direction south~
+ToRoom    25020
+Desc      The crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25022
+Desc      The center of the outpost.
+~
+#ENDEXIT
+Reset M 0 25011 2 25021
+#ENDROOM
+
+#ROOM
+Vnum     25022
+Name     &ORazor Hill - Center&d~
+Sector   city~
+Desc     A bustling hub of activity. Merchants sell their wares, warriors rest
+between patrols, and peons are constantly yelled at to work harder. An
+inn provides a safe resting place for weary travelers.
+~
+#EXIT
+Direction south~
+ToRoom    25021
+Desc      The south gate.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25023
+Desc      The barracks.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25024
+Desc      The northern watchtower.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25028
+Desc      The path to Orgrimmar.
+~
+#ENDEXIT
+Reset M 0 25011 1 25022
+#ENDROOM
+
+#ROOM
+Vnum     25023
+Name     &ORazor Hill - Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     The military command center for the region. Weapons line the walls, and
+maps of Kul Tiras and centaur movements are scattered on tables. Commander
+Gar'thok coordinates the defense of Durotar from here.
+~
+#EXIT
+Direction west~
+ToRoom    25022
+Desc      The center of Razor Hill.
+~
+#ENDEXIT
+Reset M 0 25012 1 25023
+#ENDROOM
+
+#ROOM
+Vnum     25024
+Name     &ORazor Hill - Northern Watchtower&d~
+Sector   city~
+Desc     A tall wooden tower providing a commanding view of the northern canyons.
+From here, guards can see all the way to the massive iron gates of the
+capital city, Orgrimmar.
+~
+#EXIT
+Direction south~
+ToRoom    25022
+Desc      The center of Razor Hill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25025
+Name     &OPath to Skull Rock&d~
+Sector   hills~
+Desc     This rocky path winds east from the main road, leading into the jagged
+cliffs bordering the sea. The air grows cold, and an unsettling silence
+falls over the canyon.
+~
+#EXIT
+Direction west~
+ToRoom    25020
+Desc      The crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    25026
+Desc      The entrance to Skull Rock.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25026
+Name     &OSkull Rock - Entrance&d~
+Sector   hills~
+Desc     A massive cave opening naturally shaped like a terrifying, screaming
+skull. This is the hidden base of the Burning Blade cult in Durotar.
+Fel magic oozes from the stone itself.
+~
+#EXIT
+Direction west~
+ToRoom    25025
+Desc      The path back to the road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25027
+Desc      Enter the dark cavern.
+~
+#ENDEXIT
+Reset M 0 25013 2 25026
+  Reset E 1 25012 10 5
+#ENDROOM
+
+#ROOM
+Vnum     25027
+Name     &dSkull Rock - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The caverns are vast and labyrinthine. Burning Blade Cultists perform
+unspeakable rituals in the dark, summoning demons and plotting the
+downfall of the Warchief. The warlock Gazz'uz oversees the corruption.
+~
+#EXIT
+Direction south~
+ToRoom    25026
+Desc      The cave entrance.
+~
+#ENDEXIT
+Reset M 0 25013 2 25027
+Reset M 0 25014 1 25027
+  Reset G 1 25013 10
+#ENDROOM
+
+#ROOM
+Vnum     25028
+Name     &OThe Dustwind Gulch&d~
+Sector   hills~
+Desc     Leaving Razor Hill to the west, the canyon narrows significantly. The
+wind howls through the gulch, kicking up blinding clouds of red dust.
+The massive, spiked iron walls of Orgrimmar are visible just ahead.
+~
+#EXIT
+Direction east~
+ToRoom    25022
+Desc      Razor Hill.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    25029
+Desc      The Gates of Orgrimmar.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     25029
+Name     &OThe Gates of Orgrimmar&d~
+Sector   city~
+Desc     You stand before the awe-inspiring, impregnable iron gates of the Horde
+capital. The sheer scale of the architecture is breathtaking. Massive
+bonfires burn on either side of the entrance, and elite Kor'kron guards
+stand watch. Your journey into the heart of the Horde begins here.
+~
+#EXIT
+Direction south~
+ToRoom    25028
+Desc      The Dustwind Gulch back to Razor Hill.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11200
+Desc      Enter the Valley of Strength.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
