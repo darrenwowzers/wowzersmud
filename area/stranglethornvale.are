@@ -1,0 +1,1261 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Stranglethorn Vale~
+Author       Builder~
+WeatherX     0
+WeatherY     0
+Ranges       30 45 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       13251
+Keywords   hemet nesingwary dwarf hunter expedition~
+Short      Hemet Nesingwary~
+Long       Hemet Nesingwary cleans his rifle, looking for the next big hunt.
+~
+Desc       The legendary dwarven big game hunter. He has set up a massive expedition
+camp in the northern jungle and challenges anyone brave enough to hunt
+the deadliest predators of the Vale.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2500 12000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13252
+Keywords   baron revilgaz goblin leader booty bay~
+Short      Baron Revilgaz~
+Long       Baron Revilgaz counts his gold from the top of the Blackwater Cove.
+~
+Desc       The shrewd, incredibly wealthy leader of the Blackwater Raiders and the
+ruler of Booty Bay. He maintains a strict neutrality, welcoming both
+Horde and Alliance—as long as they have coin.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 62 0 0 3000 15000
+Stats2     62 62 700
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    15 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13253
+Keywords   booty bay bruiser guard goblin~
+Short      a Booty Bay Bruiser~
+Long       A Booty Bay Bruiser watches the docks, hefting a heavy mace.
+~
+Desc       "Time is money, friend, so don't make me waste mine beating you up."
+These massive, heavily armed goblins keep the peace in the pirate town,
+instantly crushing anyone who starts a fight.
+~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 5000 20000
+Stats2     60 60 600
+Stats3     8 15 35
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13254
+Keywords   bloodsail buccaneer human pirate~
+Short      a Bloodsail Buccaneer~
+Long       A Bloodsail Buccaneer sneers at you, drawing a rusted cutlass.
+~
+Desc       Sworn enemies of the Blackwater Raiders, these pirates infest the Wild
+Shore and the southern coasts, attacking merchant vessels and causing
+chaos.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1000 4500
+Stats2     38 38 380
+Stats3     4 8 22
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13255
+Keywords   stranglethorn raptor beast dinosaur~
+Short      a Stranglethorn Raptor~
+Long       A colorful Stranglethorn Raptor hisses, baring razor-sharp teeth.
+~
+Desc       The jungles are crawling with these lethal, pack-hunting predators. They
+are incredibly fast and their vibrant scales help them blend perfectly
+into the tropical foliage.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 800 3500
+Stats2     34 34 340
+Stats3     3 7 20
+Stats4     0 0 0 0 0
+Attribs    18 10 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13256
+Keywords   shadowmaw panther beast cat stealth~
+Short      a Shadowmaw Panther~
+Long       A Shadowmaw Panther drops from the canopy with a terrifying roar!
+~
+Desc       A master of stealth, these dark-furred felines hunt the northern jungle,
+stalking their prey for miles before striking from the shadows.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 900 4000
+Stats2     36 36 360
+Stats3     4 8 22
+Stats4     0 0 0 0 0
+Attribs    16 15 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13257
+Keywords   king bangalash white tiger beast boss~
+Short      King Bangalash~
+Long       King Bangalash, the massive white tiger, dominates the jungle clearing.
+~
+Desc       The ultimate prize for Hemet Nesingwary's expedition. This legendary
+white tiger is practically a myth, known for wiping out entire hunting
+parties with his unmatched ferocity.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 43 0 0 2500 10000
+Stats2     43 43 500
+Stats3     5 10 28
+Stats4     0 0 0 0 0
+Attribs    20 18 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13258
+Keywords   venture co mechanic goblin~
+Short      a Venture Co. Mechanic~
+Long       A Venture Co. Mechanic frantically repairs a sputtering shredder.
+~
+Desc       Exploiting the natural resources of the Vale, the Venture Trading Company
+has set up several destructive logging and mining camps. These mechanics
+keep the war machines running.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 850 3800
+Stats2     35 35 350
+Stats3     3 8 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13259
+Keywords   skullsplitter mystic troll jungle~
+Short      a Skullsplitter Mystic~
+Long       A Skullsplitter Mystic chants darkly, calling upon voodoo magic.
+~
+Desc       The Skullsplitter tribe is one of the dominant troll factions in the
+jungle. This mystic wields potent shadow and elemental magic to ward off
+intruders.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 950 4200
+Stats2     39 39 400
+Stats3     4 10 24
+Stats4     0 0 0 0 0
+Attribs    13 18 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13260
+Keywords   bloodscalp hunter troll jungle~
+Short      a Bloodscalp Hunter~
+Long       A Bloodscalp Hunter hurls a deadly throwing axe from the brush.
+~
+Desc       Fierce rivals of the Skullsplitters, the Bloodscalp tribe controls the
+northwestern ruins. This hunter is incredibly agile and merciless.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 900 4000
+Stats2     36 36 360
+Stats3     4 8 22
+Stats4     0 0 0 0 0
+Attribs    18 15 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13261
+Keywords   colonel kurzen rebel human boss~
+Short      Colonel Kurzen~
+Long       Colonel Kurzen barks tyrannical orders from within his jungle compound.
+~
+Desc       Once a decorated officer of Stormwind, Kurzen went mad in the jungle
+and took his entire regiment rogue. He now rules his compound with an
+iron fist, dealing in mind control and slavery.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 42 0 0 2000 8000
+Stats2     42 42 450
+Stats3     5 10 26
+Stats4     0 0 0 0 0
+Attribs    20 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13262
+Keywords   kurzen mindslave human guard~
+Short      a Kurzen Mindslave~
+Long       A Kurzen Mindslave stares blankly, lifting his sword mechanically.
+~
+Desc       A victim of the rogue Colonel's voodoo experiments. This former soldier
+has lost all free will and fights to the death without hesitation.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 700 3000
+Stats2     33 33 330
+Stats3     3 7 18
+Stats4     0 0 0 0 0
+Attribs    16 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13263
+Keywords   gurubashi berserker troll arena guard~
+Short      a Gurubashi Berserker~
+Long       A massive Gurubashi Berserker roars, defending the ancient arena.
+~
+Desc       The remnants of the once-great Gurubashi Empire. These elite warriors
+guard the crumbling stonework of the Gurubashi Arena, challenging all
+who dare enter the free-for-all bloodbath.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 45 0 0 3000 12000
+Stats2     45 45 500
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    20 15 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common trollish~
+Speaking   trollish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13264
+Keywords   elder silverback gorilla beast~
+Short      an Elder Silverback~
+Long       An Elder Silverback beats his chest, defending his territory.
+~
+Desc       These massive primates control the islands and deep valleys of the Vale.
+They possess incredible physical strength and will aggressively defend
+their troop from any intruders.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1200 5000
+Stats2     39 39 400
+Stats3     4 10 24
+Stats4     0 0 0 0 0
+Attribs    20 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13265
+Keywords   naga explorer reptile serpentine~
+Short      a Naga Explorer~
+Long       A slithering Naga Explorer maps out the southern coastlines.
+~
+Desc       Emerging from the depths of the ocean, these serpentine horrors are
+scouting the ruins along the Wild Shore, searching for ancient magic
+and killing any dry-landers they find.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1300 5500
+Stats2     40 40 450
+Stats3     4 10 25
+Stats4     0 0 0 0 0
+Attribs    16 18 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     13251
+Keywords hunting rifle dwarf nesingwary gun~
+Type     weapon~
+Short    Nesingwary's Hunting Rifle~
+Long     A perfectly maintained, heavy-caliber dwarven hunting rifle rests here.~
+WFlags   take wield~
+Values   0 15 25 4 0 0
+Stats    15 1000 100 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13252
+Keywords booty bay rum dark drink bottle~
+Type     drinkcon~
+Short    a bottle of Booty Bay Rum~
+Long     A dark glass bottle of highly potent, spiced pirate rum sits here.~
+WFlags   take hold~
+Values   15 15 1 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13253
+Keywords bloodsail cutlass sword rusted pirate~
+Type     weapon~
+Short    a Bloodsail Cutlass~
+Long     A wickedly curved, sea-rusted pirate cutlass lies abandoned.~
+WFlags   take wield~
+Values   0 10 18 3 0 0
+Stats    10 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13254
+Keywords panther hide shadowmaw black fur~
+Type     armor~
+Short    a Shadowmaw Panther Hide~
+Long     A thick, pitch-black pelt of a jungle panther has been left here.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    6 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13255
+Keywords raptor feather colorful vibrant~
+Type     treasure~
+Short    a vibrant Raptor Feather~
+Long     A colorful, stiff feather from a Stranglethorn Raptor rests in the dirt.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 25 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13256
+Keywords venture co wrench heavy iron tool~
+Type     weapon~
+Short    a Venture Co. Wrench~
+Long     A massive, grease-stained iron wrench doubles as a blunt weapon.~
+WFlags   take wield~
+Values   0 8 16 7 0 0
+Stats    12 250 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13257
+Keywords troll voodoo mojo blue liquid~
+Type     treasure~
+Short    a vial of Troll Voodoo Mojo~
+Long     A tiny glass vial filled with a swirling, magical blue liquid is here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13258
+Keywords bloodscalp ear severed troll~
+Type     treasure~
+Short    a severed Bloodscalp Ear~
+Long     A gruesome, severed troll ear has been discarded on the jungle floor.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13259
+Keywords kurzen supply crate wooden container~
+Type     container~
+Short    a Kurzen Supply Crate~
+Long     A heavy wooden crate stamped with the Kurzen military insignia is here.~
+WFlags   none~
+Values   100 0 0 0 0 0
+Stats    25 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13260
+Keywords jungle vine thick rope strong~
+Type     treasure~
+Short    a thick Jungle Vine~
+Long     A sturdy, incredibly strong length of jungle vine is coiled here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13261
+Keywords headhunter spear throwing troll weapon~
+Type     weapon~
+Short    a Headhunter's Spear~
+Long     A balanced throwing spear decorated with tribal feathers rests here.~
+WFlags   take wield~
+Values   0 12 20 11 0 0
+Stats    8 350 35 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13262
+Keywords bangalash fang white tiger dagger~
+Type     weapon~
+Short    the Fang of Bangalash~
+Long     An enormous, razor-sharp white tiger fang has been fashioned into a dagger.~
+WFlags   take wield~
+Values   0 14 22 11 0 0
+Stats    5 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13263
+Keywords gorilla fang silverback massive~
+Type     treasure~
+Short    a Silverback Gorilla Fang~
+Long     A thick, yellowed fang from a massive jungle primate sits here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13264
+Keywords naga scale shimmering green armor~
+Type     armor~
+Short    a shimmering Naga Scale~
+Long     A large, iridescent green scale rests in the sand, highly durable.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    6 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13265
+Keywords green hills stranglethorn book manuscript~
+Type     scroll~
+Short    The Green Hills of Stranglethorn~
+Long     A scattered manuscript detailing a great dwarven safari lies in the dirt.~
+WFlags   take hold~
+Values   25 -1 -1 -1 0 0
+Stats    2 200 20 0 0
+Spells   'identify' 'NONE' 'NONE'
+#ENDOBJECT
+
+#ROOM
+Vnum     13251
+Name     &GThe Northern Jungle Path&d~
+Sector   forest~
+Desc     The gloomy trees of Duskwood abruptly give way to the vibrant, suffocating
+heat of the Stranglethorn Vale jungle. Massive ferns and towering ancient
+trees form a thick canopy overhead. The air is filled with the shrieks
+of exotic birds and the roars of deadly predators.
+~
+#EXIT
+Direction south~
+ToRoom    13252
+Desc      The path leads to a large dwarven encampment.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13252
+Name     &GNesingwary's Expedition&d~
+Sector   field~
+Desc     A large clearing in the dense jungle. Several sturdy canvas tents have
+been erected here, surrounded by the mounted heads of massive panthers,
+raptors, and tigers. Hemet Nesingwary and his crew use this camp as a
+base of operations for their grand safari.
+~
+#EXIT
+Direction north~
+ToRoom    13251
+Desc      The path leading back toward Duskwood.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13253
+Desc      The deep jungle to the south.
+~
+#ENDEXIT
+Reset M 0 13251 1 13252
+  Reset E 1 13251 10 16
+Reset O 0 13265 2 13252
+#ENDROOM
+
+#ROOM
+Vnum     13253
+Name     &GPanther Hunting Grounds&d~
+Sector   forest~
+Desc     The shadows are incredibly deep here. The trees are scarred with deep
+claw marks. This area is the favored hunting ground of the stealthy
+Shadowmaw Panthers. You feel eyes watching you from the canopy above.
+~
+#EXIT
+Direction north~
+ToRoom    13252
+Desc      Nesingwary's camp.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13254
+Desc      A rocky clearing favored by raptors.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13255
+Desc      A heavily guarded military compound.
+~
+#ENDEXIT
+Reset M 0 13256 2 13253
+Reset O 0 13254 2 13253
+#ENDROOM
+
+#ROOM
+Vnum     13254
+Name     &GThe Raptor Ridge&d~
+Sector   hills~
+Desc     The thick jungle breaks open into a rocky ridge. The ground is littered
+with chewed bones and brightly colored, shed feathers. Vicious, highly
+intelligent Stranglethorn Raptors hunt in packs across this ridge.
+~
+#EXIT
+Direction east~
+ToRoom    13253
+Desc      The panther hunting grounds.
+~
+#ENDEXIT
+Reset M 0 13255 2 13254
+Reset O 0 13255 3 13254
+#ENDROOM
+
+#ROOM
+Vnum     13255
+Name     &GKurzen's Compound - Gates&d~
+Sector   forest~
+Desc     A massive wooden palisade blocks the path south. The rogue Colonel
+Kurzen has fortified this area, turning his former Stormwind soldiers
+into a brainwashed, highly lethal mercenary army. Mindslaves patrol
+the perimeter with blank, terrifying stares.
+~
+#EXIT
+Direction north~
+ToRoom    13253
+Desc      The jungle path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13256
+Desc      The interior of the compound.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13257
+Desc      A scarred, deforested path.
+~
+#ENDEXIT
+Reset M 0 13262 2 13255
+Reset O 0 13259 1 13255
+#ENDROOM
+
+#ROOM
+Vnum     13256
+Name     &GKurzen's Compound - Command Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the rogue military operation. Stolen Alliance supplies and
+cruel voodoo totems fill the tent. Colonel Kurzen stands here, utterly
+mad, barking orders to his enthralled troops.
+~
+#EXIT
+Direction north~
+ToRoom    13255
+Desc      The gates of the compound.
+~
+#ENDEXIT
+Reset M 0 13261 1 13256
+#ENDROOM
+
+#ROOM
+Vnum     13257
+Name     &GThe Crystal Mine Approach&d~
+Sector   field~
+Desc     The jungle has been completely clear-cut here. Stumps and shattered
+trunks litter the ground. The Venture Trading Company is rapidly and
+carelessly stripping the land of its natural resources.
+~
+#EXIT
+Direction west~
+ToRoom    13255
+Desc      Kurzen's Compound.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13258
+Desc      The Venture Co. Crystal Mine.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13259
+Desc      Ancient stone ruins loom to the south.
+~
+#ENDEXIT
+Reset M 0 13258 2 13257
+#ENDROOM
+
+#ROOM
+Vnum     13258
+Name     &dThe Venture Co. Crystal Mine&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A deep, artificial cave dug into the side of a hill. Sparks fly as
+Goblin Mechanics desperately try to keep their massive shredders running.
+Glowing blue crystals line the walls, pulsing with raw magic.
+~
+#EXIT
+Direction west~
+ToRoom    13257
+Desc      The approach outside.
+~
+#ENDEXIT
+Reset M 0 13258 1 13258
+  Reset E 1 13256 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13259
+Name     &GThe Ruins of Zul'Kunda&d~
+Sector   city~
+Desc     Massive, moss-covered stone ziggurats rise from the jungle floor. These
+ancient troll ruins are fiercely defended by the Bloodscalp tribe. The
+smell of blood and dark voodoo hangs heavily in the air.
+~
+#EXIT
+Direction north~
+ToRoom    13257
+Desc      The deforested path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13260
+Desc      The top of the ziggurat.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13261
+Desc      A quiet clearing deep in the jungle.
+~
+#ENDEXIT
+Reset M 0 13260 2 13259
+#ENDROOM
+
+#ROOM
+Vnum     13260
+Name     &GZul'Kunda - The High Altar&d~
+Sector   city~
+Desc     You stand at the peak of the ancient ziggurat. The stone altar is stained
+crimson. Bloodscalp Hunters and Mystics perform dark rituals here,
+sacrificing their enemies to the loa spirits of the jungle.
+~
+#EXIT
+Direction north~
+ToRoom    13259
+Desc      The base of the ruins.
+~
+#ENDEXIT
+Reset M 0 13260 1 13260
+  Reset E 1 13261 10 16
+Reset O 0 13258 2 13260
+#ENDROOM
+
+#ROOM
+Vnum     13261
+Name     &GBangalash's Clearing&d~
+Sector   field~
+Desc     The jungle is unnervingly quiet here. The birds have stopped singing,
+and the insects are silent. The grass is trampled down. This is the lair
+of King Bangalash, the most feared predator in all of Stranglethorn.
+~
+#EXIT
+Direction west~
+ToRoom    13259
+Desc      The Ruins of Zul'Kunda.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13262
+Desc      The deepest part of the jungle.
+~
+#ENDEXIT
+Reset M 0 13257 1 13261
+  Reset E 1 13262 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13262
+Name     &GThe Deep Jungle&d~
+Sector   forest~
+Desc     The foliage is incredibly dense, blocking almost all light. Thick,
+thorny vines snare your boots. Panthers and raptors hunt freely here,
+far from the relative safety of the northern camps.
+~
+#EXIT
+Direction north~
+ToRoom    13261
+Desc      Bangalash's Clearing.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13263
+Desc      The grand walls of the Arena.
+~
+#ENDEXIT
+Reset M 0 13255 1 13262
+Reset M 0 13256 1 13262
+Reset O 0 13260 3 13262
+#ENDROOM
+
+#ROOM
+Vnum     13263
+Name     &GGurubashi Arena - Entrance&d~
+Sector   city~
+Desc     You stand before the colossal, ruined gates of the Gurubashi Arena. Once
+the crown jewel of the troll empire, it is now a lawless, free-for-all
+bloodbath. Elite Gurubashi Berserkers guard the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    13262
+Desc      The Deep Jungle.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13264
+Desc      The floor of the Arena.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13265
+Desc      The Ruins of Zul'Mamwe.
+~
+#ENDEXIT
+Reset M 0 13263 2 13263
+#ENDROOM
+
+#ROOM
+Vnum     13264
+Name     &GGurubashi Arena - The Pit&d~
+Sector   city~
+Desc     The massive, circular floor of the arena. Blood stains the ancient
+stone. There are no rules here, and no allegiances. Anyone who steps
+into the pit is fair game. Periodically, a chest of treasure is placed
+in the center, sparking absolute chaos.
+~
+#EXIT
+Direction west~
+ToRoom    13263
+Desc      The Arena Entrance.
+~
+#ENDEXIT
+Reset M 0 13263 1 13264
+#ENDROOM
+
+#ROOM
+Vnum     13265
+Name     &GThe Ruins of Zul'Mamwe&d~
+Sector   city~
+Desc     More sprawling troll ruins, these heavily occupied by the Skullsplitter
+tribe. Voodoo wards hang from the trees, and the smell of dark magic
+is potent.
+~
+#EXIT
+Direction north~
+ToRoom    13263
+Desc      The Gurubashi Arena.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13266
+Desc      The Wild Shore.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13269
+Desc      Mistvale Valley.
+~
+#ENDEXIT
+Reset M 0 13259 2 13265
+  Reset E 1 13257 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13266
+Name     &CThe Wild Shore - North&d~
+Sector   field~
+Desc     The jungle thins out as you reach the western coastline. The ocean is
+a brilliant, sparkling blue. However, the white sand is littered with
+debris and the dangerous, slithering forms of Naga Explorers.
+~
+#EXIT
+Direction north~
+ToRoom    13265
+Desc      The Ruins of Zul'Mamwe.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13267
+Desc      The southern stretch of the shore.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13267
+Name     &CThe Wild Shore - South&d~
+Sector   field~
+Desc     The sandy beach continues southward. The wreckage of several merchant
+ships has washed ashore here, thoroughly picked over by the Bloodsail
+Buccaneers that terrorize the coast.
+~
+#EXIT
+Direction north~
+ToRoom    13266
+Desc      The northern shore.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13268
+Desc      A flooded ruin.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13270
+Desc      The Savage Coast.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13268
+Name     &CNaga Explorer Camp&d~
+Sector   water_noswim~
+Desc     The ocean has reclaimed these ancient troll ruins. Naga slither through
+the shallow water, examining the stonework and violently attacking any
+land-dwellers who approach.
+~
+#EXIT
+Direction west~
+ToRoom    13267
+Desc      The Wild Shore.
+~
+#ENDEXIT
+Reset M 0 13265 2 13268
+  Reset E 1 13264 10 11
+#ENDROOM
+
+#ROOM
+Vnum     13269
+Name     &GMistvale Valley&d~
+Sector   forest~
+Desc     A deep, mist-filled valley entirely cut off from the ocean breeze.
+Massive Elder Silverback Gorillas dominate this area, beating their
+chests to warn away intruders.
+~
+#EXIT
+Direction east~
+ToRoom    13265
+Desc      The Ruins of Zul'Mamwe.
+~
+#ENDEXIT
+Reset M 0 13264 2 13269
+Reset O 0 13263 2 13269
+#ENDROOM
+
+#ROOM
+Vnum     13270
+Name     &CThe Savage Coast&d~
+Sector   field~
+Desc     The southern tip of the western shore. The jungle here is incredibly
+hostile, blending directly into the sandy beaches. Pirate camps dot the
+shoreline, flying the blood-red flag of the Buccaneers.
+~
+#EXIT
+Direction north~
+ToRoom    13267
+Desc      The Wild Shore.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13271
+Desc      The Bloodsail Encampment.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13272
+Desc      Jaguero Isle.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13271
+Name     &OThe Bloodsail Encampment&d~
+Sector   field~
+Desc     A massive pirate camp filled with stolen loot, rum barrels, and rowdy
+Bloodsail Buccaneers. They are a ruthless crew, heavily armed and
+looking for an excuse to draw their cutlasses.
+~
+#EXIT
+Direction west~
+ToRoom    13270
+Desc      The Savage Coast.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13274
+Desc      The path to Booty Bay.
+~
+#ENDEXIT
+Reset M 0 13254 2 13271
+  Reset E 1 13253 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13272
+Name     &CJaguero Isle - Shore&d~
+Sector   field~
+Desc     A small, tropical island just off the southern coast. The beaches are
+pristine, but the interior of the island is incredibly dangerous, home
+to the largest and oldest gorillas in the Vale.
+~
+#EXIT
+Direction north~
+ToRoom    13270
+Desc      The Savage Coast.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13273
+Desc      The interior of the isle.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13273
+Name     &GJaguero Isle - Deep Jungle&d~
+Sector   forest~
+Desc     The heart of the island. Colossal Silverback Gorillas fiercely defend
+their territory here. The foliage is so thick it feels like a green cave.
+~
+#EXIT
+Direction west~
+ToRoom    13272
+Desc      The shore of the isle.
+~
+#ENDEXIT
+Reset M 0 13264 2 13273
+#ENDROOM
+
+#ROOM
+Vnum     13274
+Name     &OThe Gates of Booty Bay&d~
+Sector   city~
+Desc     You stand before a massive wooden tunnel carved into the side of a
+mountain. Massive, heavily armed Booty Bay Bruisers stand guard here.
+They ensure that the war between the Horde and Alliance stops the
+moment anyone steps inside the goblin city.
+~
+#EXIT
+Direction west~
+ToRoom    13271
+Desc      The Bloodsail Encampment.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13275
+Desc      The Salty Sailor Tavern.
+~
+#ENDEXIT
+Reset M 0 13253 2 13274
+#ENDROOM
+
+#ROOM
+Vnum     13275
+Name     &OThe Salty Sailor Tavern&d~
+Sector   inside~
+Flags    indoors~
+Desc     A loud, raucous, multi-level tavern built directly into the wooden
+scaffolding of Booty Bay. Pirates, merchants, and adventurers from every
+faction drink and gamble here under the watchful eye of the Bruisers.
+~
+#EXIT
+Direction north~
+ToRoom    13274
+Desc      The northern gate.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13276
+Desc      The wooden docks.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13278
+Desc      The Booty Bay Inn.
+~
+#ENDEXIT
+Reset O 0 13252 4 13275
+#ENDROOM
+
+#ROOM
+Vnum     13276
+Name     &OBooty Bay - The Docks&d~
+Sector   city~
+Desc     The engineering of Booty Bay is a marvel. The entire city is built on
+sturdy wooden planks suspended over a beautiful, sheltered lagoon. Ships
+from across Azeroth are moored here, loading exotic cargo.
+~
+#EXIT
+Direction west~
+ToRoom    13275
+Desc      The Salty Sailor Tavern.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13279
+Desc      The Auction House.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    13277
+Desc      A ramp leading up to the command deck.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13280
+Desc      The Maiden's Folly moored offshore.
+~
+#ENDEXIT
+Reset M 0 13253 2 13276
+#ENDROOM
+
+#ROOM
+Vnum     13277
+Name     &OBlackwater Cove Command Deck&d~
+Sector   city~
+Desc     The highest point in Booty Bay. Baron Revilgaz stands on the balcony
+here, overlooking his incredibly profitable pirate empire. He smiles as
+ships filled with gold sail into the harbor.
+~
+#EXIT
+Direction down~
+ToRoom    13276
+Desc      The docks below.
+~
+#ENDEXIT
+Reset M 0 13252 1 13277
+#ENDROOM
+
+#ROOM
+Vnum     13278
+Name     &OBooty Bay Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     A surprisingly clean and secure inn located in the lower levels of the
+city. It is a favored resting spot for travelers preparing to board ships
+to the continent of Kalimdor.
+~
+#EXIT
+Direction north~
+ToRoom    13275
+Desc      The Salty Sailor Tavern.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13279
+Name     &OBooty Bay Auction House&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive, highly neutral auction house. Goblins facilitate incredibly
+lucrative trades between Horde and Alliance players here, taking a
+sizeable cut of the profits for themselves, of course.
+~
+#EXIT
+Direction north~
+ToRoom    13276
+Desc      The docks.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13280
+Name     &OThe Maiden's Folly&d~
+Sector   city~
+Desc     Moored just outside the safe zone of the harbor, this massive warship
+is controlled entirely by Bloodsail Buccaneers. They are constantly
+plotting to overthrow Baron Revilgaz and sack the goblin town.
+~
+#EXIT
+Direction west~
+ToRoom    13276
+Desc      The safety of the Booty Bay docks.
+~
+#ENDEXIT
+Reset M 0 13254 3 13280
+  Reset E 1 13253 10 16
+#ENDROOM
+
+#ENDAREA
