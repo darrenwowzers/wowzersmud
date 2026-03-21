@@ -9,7 +9,6 @@ Ranges       18 30 0 60
 Economy      0 31250000
 #ENDAREADATA
 
-// Duskwood Mob Section Begins --Hansth
 #MOBILE
 Vnum       13000
 Keywords   commander althea ebonlocke night watch human~
@@ -394,7 +393,6 @@ Speaks     common~
 Speaking   common~
 #ENDMOBILE
 
-// Duskwood Object Section Begins --Hansth
 #OBJECT
 Vnum     13000
 Keywords ebonlocke sword longsword steel~
@@ -559,8 +557,6 @@ WFlags   take body~
 Values   8 0 0 0 0 0
 Stats    6 300 30 0 0
 #ENDOBJECT
-
-// Duskwood Room Section Begins --Hansth
 
 #ROOM
 Vnum     13000

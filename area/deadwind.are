@@ -1,0 +1,1277 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Deadwind Pass~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       50 60 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       13500
+Keywords   deadwind ogre brute monster~
+Short      a Deadwind Ogre~
+Long       A massive Deadwind Ogre lumbers through the canyon, looking for food.
+~
+Desc       These brutish ogres have claimed the desolate canyons of the pass. They
+are starved, incredibly aggressive, and possess a terrifying physical
+strength born of desperation.
+~
+Race       ogre~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 1500 6000
+Stats2     52 52 500
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    20 10 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13501
+Keywords   deadwind warlock ogre caster~
+Short      a Deadwind Warlock~
+Long       A Deadwind Warlock chants in a guttural tongue, wielding dark magic.
+~
+Desc       Twisted by the lingering corruption of Medivh's tower, these ogre
+spellcasters have learned to harness destructive shadow magic, making
+them far more dangerous than their brutish brethren.
+~
+Race       ogre~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1600 5500
+Stats2     54 54 500
+Stats3     6 10 25
+Stats4     0 0 0 0 0
+Attribs    15 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13502
+Keywords   dark rider horseman elite~
+Short      a Dark Rider~
+Long       A terrifying Dark Rider watches you from beneath a heavy black cowl.
+~
+Desc       These enigmatic, cloaked figures ride spectral steeds through the pass.
+They are eternally searching for powerful artifacts on behalf of their
+dark master. They speak to no one and attack without mercy.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2500 10000
+Stats2     58 58 600
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    20 15 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13503
+Keywords   restless phantom ghost spirit~
+Short      a Restless Phantom~
+Long       A Restless Phantom drifts aimlessly through the dead trees.
+~
+Desc       The lingering soul of an adventurer who foolishly sought the treasures
+of Karazhan. Now, they are trapped in a state of eternal torment, lashing
+out at the living.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1800 6000
+Stats2     55 55 550
+Stats3     5 10 26
+Stats4     0 0 0 0 0
+Attribs    13 18 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13504
+Keywords   spectral stallion mount horse undead~
+Short      a Spectral Stallion~
+Long       A translucent Spectral Stallion paws silently at the dead earth.
+~
+Desc       The ghostly mounts favored by the Dark Riders. They make no sound when
+they gallop and leave no hoofprints in the dirt.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 1500 5000
+Stats2     50 50 500
+Stats3     4 10 20
+Stats4     0 0 0 0 0
+Attribs    18 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13505
+Keywords   ariden dark rider leader boss~
+Short      Ariden~
+Long       Ariden, the first of the Dark Riders, commands his spectral forces here.
+~
+Desc       A cursed merchant who sold his soul for artifacts. He now leads the
+Dark Riders in their eternal hunt. The air around him is freezing cold,
+and his gaze burns with unholy light.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 4000 15000
+Stats2     60 60 800
+Stats3     8 15 35
+Stats4     0 0 0 0 0
+Attribs    20 18 18 18 18 18 18
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13506
+Keywords   deadwind bat beast flying~
+Short      a Deadwind Bat~
+Long       A massive Deadwind Bat screeches, diving from the shadowed canopy.
+~
+Desc       These overgrown bats thrive in the perpetually dark skies of the pass.
+Their fangs are incredibly sharp, and they hunt in terrifying swarms.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 1200 4500
+Stats2     51 51 510
+Stats3     4 10 22
+Stats4     0 0 0 0 0
+Attribs    15 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13507
+Keywords   flesheating worm beast bug giant~
+Short      a Flesheating Worm~
+Long       A giant Flesheating Worm bursts from the dry, cracked earth!
+~
+Desc       A disgusting, writhing mass of teeth and segmented flesh. These massive
+parasites feast on the corpses left behind by the ogres and the Dark
+Riders.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 1600 5500
+Stats2     53 53 530
+Stats3     5 10 24
+Stats4     0 0 0 0 0
+Attribs    18 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13508
+Keywords   shadow weaver spider beast giant~
+Short      a Shadow Weaver~
+Long       A colossal Shadow Weaver spider descends slowly on a thick thread.
+~
+Desc       These spiders are infused with the dark magic of the pass. Their venom
+causes hallucinations, and their webs are as strong as steel cables.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1500 5000
+Stats2     54 54 540
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    15 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13509
+Keywords   karazhan phantom ghost spirit elite~
+Short      a Karazhan Phantom~
+Long       A Karazhan Phantom glides silently across the courtyard.
+~
+Desc       The cursed nobility who died when Medivh's madness finally consumed him.
+They are elegantly dressed in spectral finery, their faces twisted into
+masks of eternal horror.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2000 8000
+Stats2     56 56 600
+Stats3     6 12 28
+Stats4     0 0 0 0 0
+Attribs    13 20 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13510
+Keywords   haunted footman guard undead ghost~
+Short      a Haunted Footman~
+Long       A Haunted Footman stands at attention, though he has been dead for years.
+~
+Desc       The spectral guards of Karazhan. They still carry out their duties,
+protecting the Guardian's tower from any who would seek to breach its
+massive wooden doors.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 2200 9000
+Stats2     57 57 600
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    18 13 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13511
+Keywords   spectral maid servant ghost undead~
+Short      a Spectral Maid~
+Long       A Spectral Maid scrubs an invisible stain on the cobblestones.
+~
+Desc       Trapped in a loop of eternal servitude, this poor soul was a member
+of Medivh's staff. She pays no attention to the living unless provoked.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 4000
+Stats2     50 50 500
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13512
+Keywords   phantom attendant noble ghost~
+Short      a Phantom Attendant~
+Long       A Phantom Attendant bows gracefully, offering a spectral goblet.
+~
+Desc       The high-ranking servants of Karazhan. They continue to host a grand,
+invisible ball in the courtyard, their minds completely shattered by
+the curse of the tower.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 54 0 0 1600 6000
+Stats2     54 54 540
+Stats3     5 10 26
+Stats4     0 0 0 0 0
+Attribs    13 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13513
+Keywords   medivh's echo guardian image magic~
+Short      Medivh's Echo~
+Long       A shimmering, magical Echo of Medivh stands here, looking deeply burdened.
+~
+Desc       Not the Guardian himself, but a magically recorded fragment of his
+memory left behind to warn travelers. The illusion flickers and fades,
+repeating warnings of an impending darkness.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 5000 20000
+Stats2     60 60 1000
+Stats3     10 20 40
+Stats4     0 0 0 0 0
+Attribs    10 20 20 20 20 20 20
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13514
+Keywords   grimand elmore dwarf smith ghost~
+Short      Grimand Elmore~
+Long       Grimand Elmore, a ghostly dwarven smith, strikes a spectral anvil.
+~
+Desc       Once a master weaponsmith of Stormwind, he ventured to Karazhan to
+study its magical forge and perished. Now, his spirit continues to
+work the metal, unable to stop.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 55 0 0 1800 8000
+Stats2     55 55 550
+Stats3     5 10 28
+Stats4     0 0 0 0 0
+Attribs    18 13 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     13500
+Keywords deadwind ogre club heavy wood~
+Type     weapon~
+Short    a Deadwind Ogre Club~
+Long     A massive, crudely fashioned tree trunk serves as a lethal club.~
+WFlags   take wield~
+Values   0 18 28 7 0 0
+Stats    20 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13501
+Keywords rusted lantern iron deadwind~
+Type     light~
+Short    a rusted iron lantern~
+Long     A heavy iron lantern, heavily rusted but still functional, is here.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    5 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13502
+Keywords phantom blade sword ghostly glowing~
+Type     weapon~
+Short    a Phantom Blade~
+Long     A translucent, ghostly longsword hums with a chilling energy.~
+WFlags   take wield~
+Values   0 15 25 3 0 0
+Stats    12 1200 120 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13503
+Keywords dark rider cloak black hooded~
+Type     armor~
+Short    a Dark Rider's Cloak~
+Long     A heavy, pitch-black cloak favored by the terrifying horsemen.~
+WFlags   take neck~
+Values   12 0 0 0 0 0
+Stats    8 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13504
+Keywords spectral horseshoe ghostly iron treasure~
+Type     treasure~
+Short    a Spectral Horseshoe~
+Long     A freezing cold, semi-transparent iron horseshoe rests on the ground.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13505
+Keywords haunted goblet silver wine~
+Type     drinkcon~
+Short    a Haunted Goblet~
+Long     An ornate silver goblet filled with a dark liquid that never spills.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    3 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13506
+Keywords deadwind bat fang sharp dagger~
+Type     weapon~
+Short    a Deadwind Bat Fang~
+Long     An incredibly sharp, venomous bat fang fashioned into a makeshift dagger.~
+WFlags   take wield~
+Values   0 12 20 11 0 0
+Stats    4 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13507
+Keywords dusty tome book magic leather~
+Type     scroll~
+Short    a Dusty Tome~
+Long     A heavy leather-bound book radiating dark, forgotten magic is here.~
+WFlags   take hold~
+Values   50 -1 -1 -1 0 0
+Stats    5 400 40 0 0
+Spells   'curse' 'blindness' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     13508
+Keywords shadow silk spider black web~
+Type     treasure~
+Short    a spool of Shadow Silk~
+Long     A spool of incredibly strong, black spider silk rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13509
+Keywords ariden signet ring cursed gold~
+Type     armor~
+Short    Ariden's Signet~
+Long     A heavy gold ring set with a dark jewel, cursed by its former owner.~
+WFlags   take finger~
+Values   6 0 0 0 0 0
+Stats    2 1500 150 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13510
+Keywords rusted iron key heavy large~
+Type     key~
+Short    a rusted iron key~
+Long     A large, heavy iron key suited for a massive gate or door.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13511
+Keywords restless ectoplasm glowing ooze~
+Type     treasure~
+Short    Restless Ectoplasm~
+Long     A puddle of glowing, chilling ectoplasm vibrates slightly.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13512
+Keywords tarnished silver platter serving treasure~
+Type     treasure~
+Short    a Tarnished Silver Platter~
+Long     A beautifully etched silver serving platter, blackened with age.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 250 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13513
+Keywords karazhan library book ancient text~
+Type     treasure~
+Short    a Karazhan Library Book~
+Long     An ancient text stolen from the great library of the Guardian.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    3 500 50 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13514
+Keywords medivh raven feather black magic~
+Type     treasure~
+Short    Medivh's Raven Feather~
+Long     A massive, pitch-black raven feather humming with arcane power rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1000 100 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     13500
+Name     &dThe Deadwind Ravine&d~
+Sector   hills~
+Desc     The gloomy trees of Duskwood abruptly die off as you enter this steep,
+desolate canyon. The air is unnaturally still and smells of sulfur and
+dry dust. The sky above is perpetually choked with dark, swirling clouds.
+~
+#EXIT
+Direction west~
+ToRoom    13029
+Desc      The road back to Duskwood.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13501
+Desc      The path winds deeper into the pass.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13501
+Name     &dThe Desolate Path&d~
+Sector   hills~
+Desc     Shattered boulders and petrified tree stumps litter the sides of the
+canyon. The wind whistles eerily through the cracks in the stone. You
+feel a profound sense of dread settling over you.
+~
+#EXIT
+Direction west~
+ToRoom    13500
+Desc      The entrance of the ravine.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13502
+Desc      A bridge over a dry riverbed.
+~
+#ENDEXIT
+Reset M 0 13506 2 13501
+#ENDROOM
+
+#ROOM
+Vnum     13502
+Name     &dDeadman's Crossing&d~
+Sector   city~
+Desc     A crumbling stone bridge spans a deep, completely dry riverbed. Massive
+Flesheating Worms occasionally burrow through the cracked earth below,
+searching for the corpses of foolish travelers.
+~
+#EXIT
+Direction west~
+ToRoom    13501
+Desc      The desolate path.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13503
+Desc      An ogre campsite.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    13509
+Desc      The dry riverbed.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13503
+Name     &dThe Ogre Campsite&d~
+Sector   field~
+Desc     A crude, filthy camp set up by the starving Deadwind Ogres. Piles of
+gnawed bones and shattered armor are scattered around a smoldering fire.
+The brutes here are highly aggressive and desperately hungry.
+~
+#EXIT
+Direction west~
+ToRoom    13502
+Desc      Deadman's Crossing.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13504
+Desc      A dark, reeking cave.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13505
+Desc      The barren valley.
+~
+#ENDEXIT
+Reset M 0 13500 2 13503
+  Reset E 1 13500 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13504
+Name     &dThe Warlock's Cave&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The stench of dark magic is suffocating inside this shallow cave. Ogres
+twisted by the corruption of the pass practice destructive fel spells
+here, drawing power directly from the tainted earth.
+~
+#EXIT
+Direction south~
+ToRoom    13503
+Desc      The ogre campsite.
+~
+#ENDEXIT
+Reset M 0 13501 1 13504
+  Reset G 1 13507 10
+#ENDROOM
+
+#ROOM
+Vnum     13505
+Name     &dThe Barren Valley&d~
+Sector   hills~
+Desc     The canyon widens slightly, revealing a vast expanse of dead, grey dirt.
+Nothing grows here. The silence is broken only by the shrieks of the
+massive bats diving from the cliffs above.
+~
+#EXIT
+Direction west~
+ToRoom    13503
+Desc      The ogre campsite.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13510
+Desc      A fork in the pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13506
+Desc      A gorge choked with webs.
+~
+#ENDEXIT
+Reset M 0 13506 2 13505
+  Reset E 1 13506 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13506
+Name     &dThe Shadow Web&d~
+Sector   hills~
+Desc     The canyon walls here are completely coated in thick, black spider silk.
+Mummified remains are suspended high above. This is the hunting ground
+of the colossal Shadow Weaver spiders.
+~
+#EXIT
+Direction north~
+ToRoom    13505
+Desc      The barren valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13507
+Desc      The heart of the spider's lair.
+~
+#ENDEXIT
+Reset M 0 13508 2 13506
+  Reset G 1 13508 10
+#ENDROOM
+
+#ROOM
+Vnum     13507
+Name     &dThe Spider's Lair&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The webs are so thick here they block out the sky entirely, creating a
+dark, terrifying tunnel. You can hear the skittering of countless eight-
+legged horrors moving through the shadows just out of sight.
+~
+#EXIT
+Direction west~
+ToRoom    13506
+Desc      The web-choked gorge.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13508
+Desc      A side path leading back to the valley.
+~
+#ENDEXIT
+Reset M 0 13508 2 13507
+#ENDROOM
+
+#ROOM
+Vnum     13508
+Name     &dThe Darkened Trail&d~
+Sector   hills~
+Desc     A narrow, perilous path that skirts the edge of the spider's territory.
+The ground is unstable and crumbles easily beneath your boots.
+~
+#EXIT
+Direction south~
+ToRoom    13507
+Desc      The Spider's Lair.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13510
+Desc      The fork in the pass.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13509
+Name     &dThe Infested Earth&d~
+Sector   hills~
+Desc     You are standing in the dry riverbed beneath Deadman's Crossing. The
+dirt is loose and shifting. Suddenly, the ground erupts as massive,
+flesheating worms burst from the soil to attack!
+~
+#EXIT
+Direction up~
+ToRoom    13502
+Desc      The bridge above.
+~
+#ENDEXIT
+Reset M 0 13507 2 13509
+#ENDROOM
+
+#ROOM
+Vnum     13510
+Name     &dThe Fork in the Pass&d~
+Sector   hills~
+Desc     The canyon splits here. To the north, a long, treacherous path leads
+eventually toward the Swamp of Sorrows. To the south, the canyon widens,
+revealing the terrifying, looming presence of Medivh's tower in the
+distance.
+~
+#EXIT
+Direction west~
+ToRoom    13505
+Desc      The barren valley.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13511
+Desc      The northern path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13512
+Desc      The path to Karazhan.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13508
+Desc      The darkened trail.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13511
+Name     &dThe Northern Pass&d~
+Sector   hills~
+Desc     This rough path winds northward through the mountains, leading toward the
+dismal wetlands of the Swamp of Sorrows. Deadwind Ogres heavily patrol
+this route to ambush merchants.
+~
+#EXIT
+Direction south~
+ToRoom    13510
+Desc      The fork in the pass.
+~
+#ENDEXIT
+Reset M 0 13500 2 13511
+#ENDROOM
+
+#ROOM
+Vnum     13512
+Name     &dThe Path to Karazhan&d~
+Sector   hills~
+Desc     The oppressive aura of dark magic becomes physically heavy here. The sky
+is a sickly, swirling purple. The trees are twisted into agonizing shapes.
+You are approaching the Guardian's domain.
+~
+#EXIT
+Direction north~
+ToRoom    13510
+Desc      The fork in the pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13513
+Desc      The hanging trees.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13513
+Name     &dThe Hanging Trees&d~
+Sector   forest~
+Desc     The petrified trees here are draped with tattered black cloth and rusted
+iron cages. The air is freezing. Restless Phantoms drift through the
+branches, mourning their eternal imprisonment.
+~
+#EXIT
+Direction north~
+ToRoom    13512
+Desc      The path back to the fork.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13514
+Desc      The foggy incline.
+~
+#ENDEXIT
+Reset M 0 13503 2 13513
+  Reset E 1 13502 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13514
+Name     &dThe Foggy Incline&d~
+Sector   hills~
+Desc     A thick, unnatural fog rolls down the hill from the ruined village above.
+It chills you to the bone and obscures your vision. You hear the distinct,
+terrifying sound of ghostly hooves striking the stone.
+~
+#EXIT
+Direction north~
+ToRoom    13513
+Desc      The hanging trees.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    13515
+Desc      The Rider's Patrol.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13515
+Name     &dThe Rider's Patrol&d~
+Sector   hills~
+Desc     The fog parts slightly to reveal a terrifying sight. Dark Riders, clad
+in heavy black cloaks and mounted on spectral stallions, patrol this
+ridge. They are searching for artifacts and deal death to all intruders.
+~
+#EXIT
+Direction down~
+ToRoom    13514
+Desc      The foggy incline.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13517
+Desc      The ruined village of Grand Hamlet.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13516
+Desc      A dark encampment.
+~
+#ENDEXIT
+Reset M 0 13502 2 13515
+  Reset E 1 13503 10 3
+Reset M 0 13504 2 13515
+#ENDROOM
+
+#ROOM
+Vnum     13516
+Name     &dAriden's Camp&d~
+Sector   field~
+Desc     A chilling, shadowy camp hidden off the main path. Ariden, the leader
+of the Dark Riders, commands his forces from here. The ground is frozen
+solid, and the dark magic is palpable.
+~
+#EXIT
+Direction west~
+ToRoom    13515
+Desc      The Rider's Patrol.
+~
+#ENDEXIT
+Reset M 0 13505 1 13516
+  Reset E 1 13509 10 1
+  Reset G 1 13504 10
+#ENDROOM
+
+#ROOM
+Vnum     13517
+Name     &dGrand Hamlet - Ruins&d~
+Sector   city~
+Desc     Once a thriving village that served the tower, Grand Hamlet was completely
+destroyed when Medivh's madness was unleashed. Now, it is a cursed ruin
+inhabited only by ghosts and lingering nightmares.
+~
+#EXIT
+Direction north~
+ToRoom    13515
+Desc      The Rider's Patrol.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13520
+Desc      The slopes of Karazhan.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13518
+Desc      The ruined tavern.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13519
+Desc      The collapsed blacksmith.
+~
+#ENDEXIT
+Reset M 0 13503 2 13517
+#ENDROOM
+
+#ROOM
+Vnum     13518
+Name     &dGrand Hamlet - Ruined Tavern&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The roof has completely caved in. Shattered tables and broken glass litter
+the floor. Restless Phantoms of the former patrons drift aimlessly here,
+trapped in their final, terrifying moments.
+~
+#EXIT
+Direction west~
+ToRoom    13517
+Desc      The ruined village center.
+~
+#ENDEXIT
+Reset M 0 13503 2 13518
+Reset O 0 13505 1 13518
+#ENDROOM
+
+#ROOM
+Vnum     13519
+Name     &dGrand Hamlet - Collapsed Blacksmith&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     An old forge that still glows with a faint, spectral heat. The ghost of
+Grimand Elmore, a master dwarven smith, continuously strikes a ghostly
+anvil here, cursed to work for eternity.
+~
+#EXIT
+Direction east~
+ToRoom    13517
+Desc      The ruined village center.
+~
+#ENDEXIT
+Reset M 0 13514 1 13519
+  Reset G 1 13501 10
+#ENDROOM
+
+#ROOM
+Vnum     13520
+Name     &dThe Slopes of Karazhan&d~
+Sector   hills~
+Desc     You have passed the village and now stand on the steep, rocky incline
+leading directly up to the Guardian's tower. The sheer size of the
+structure is staggering. It blocks out the sky entirely.
+~
+#EXIT
+Direction north~
+ToRoom    13517
+Desc      Grand Hamlet.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    13521
+Desc      The Guardian's Path.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13521
+Name     &dThe Guardian's Path&d~
+Sector   city~
+Desc     A massive cobblestone path leading to the front gates. The stones are
+cracked and overgrown with dead weeds. The air hums with immense, barely
+contained arcane energy.
+~
+#EXIT
+Direction down~
+ToRoom    13520
+Desc      The slopes below.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13524
+Desc      The gates of Karazhan.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13522
+Desc      The Master's Cellar entrance.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13522
+Name     &dThe Master's Cellar - Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A heavy iron grate has been torn off its hinges, revealing a dark stairwell
+leading beneath the tower grounds. This is the entrance to the vast,
+cursed wine cellars of Karazhan.
+~
+#EXIT
+Direction west~
+ToRoom    13521
+Desc      The Guardian's Path.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    13523
+Desc      The depths of the cellar.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13523
+Name     &dThe Master's Cellar - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The cellars are massive and completely pitch black. Hundreds of wine
+casks rot in the dark. Restless Phantoms and horrors born of wild magic
+haunt these suffocating tunnels.
+~
+#EXIT
+Direction up~
+ToRoom    13522
+Desc      The cellar entrance.
+~
+#ENDEXIT
+Reset M 0 13503 3 13523
+  Reset G 1 13511 10
+#ENDROOM
+
+#ROOM
+Vnum     13524
+Name     &dThe Gates of Karazhan&d~
+Sector   city~
+Desc     You stand before the colossal iron gates of the courtyard. They are
+twisted and warped, as if something massive tried to break *out*. You
+can see the spectral inhabitants of the tower wandering the grounds inside.
+~
+#EXIT
+Direction north~
+ToRoom    13521
+Desc      The Guardian's Path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13525
+Desc      Enter the courtyard.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13525
+Name     &dKarazhan - The Courtyard&d~
+Sector   city~
+Desc     The grand courtyard of the Guardian. Karazhan Phantoms, dressed in the
+finery of a bygone era, waltz silently to music only they can hear. The
+curse has trapped them in a horrific, never-ending gala.
+~
+#EXIT
+Direction north~
+ToRoom    13524
+Desc      The exterior gates.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13527
+Desc      The stables.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13526
+Desc      The servant's quarters.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13528
+Desc      The Guardhouse.
+~
+#ENDEXIT
+Reset M 0 13509 2 13525
+Reset M 0 13511 1 13525
+#ENDROOM
+
+#ROOM
+Vnum     13526
+Name     &dKarazhan - Servant's Quarters&d~
+Sector   inside~
+Flags    indoors~
+Desc     The ruined quarters for the tower's massive staff. Phantom Attendants
+drift through the rubble, endlessly offering spectral wine and food to
+guests that died decades ago.
+~
+#EXIT
+Direction east~
+ToRoom    13525
+Desc      The courtyard.
+~
+#ENDEXIT
+Reset M 0 13512 2 13526
+  Reset G 1 13512 10
+#ENDROOM
+
+#ROOM
+Vnum     13527
+Name     &dKarazhan - The Stables&d~
+Sector   inside~
+Flags    indoors~
+Desc     The magnificent stables of the tower. Spectral Stallions stand in their
+rotting stalls, perfectly preserved as ghostly apparitions. A heavy layer
+of dust covers the saddles and bridles.
+~
+#EXIT
+Direction west~
+ToRoom    13525
+Desc      The courtyard.
+~
+#ENDEXIT
+Reset M 0 13504 2 13527
+#ENDROOM
+
+#ROOM
+Vnum     13528
+Name     &dKarazhan - Guardhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     The final line of defense before the main doors of the tower. Heavily
+armored Haunted Footmen stand at attention here, raising their ghostly
+weapons the moment you step inside.
+~
+#EXIT
+Direction north~
+ToRoom    13525
+Desc      The courtyard.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13529
+Desc      The Great Wooden Doors.
+~
+#ENDEXIT
+Reset M 0 13510 2 13528
+  Reset E 1 13510 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13529
+Name     &OThe Great Wooden Doors&d~
+Sector   city~
+Desc     You have reached the entrance to the raid. The massive oak doors of
+Karazhan are sealed shut by incredibly powerful warding magic. A shimmering
+magical projection, Medivh's Echo, stands here, eternally warning travelers
+to turn back before the master's madness consumes them too.
+~
+#EXIT
+Direction north~
+ToRoom    13528
+Desc      The Guardhouse.
+~
+#ENDEXIT
+Reset M 0 13513 1 13529
+  Reset G 1 13513 10
+  Reset G 1 13514 10
+#ENDROOM
+
+#ENDAREA
