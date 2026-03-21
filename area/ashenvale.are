@@ -1,0 +1,1539 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Ashenvale~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       18 30 18 30
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       28000
+Keywords   sentinel guard astranaar night elf~
+Short      an Astranaar Sentinel~
+Long       An Astranaar Sentinel blends into the shadows, bow drawn.~
+Desc       She is a guardian of the ancient forest, moving with a grace that
+borders on supernatural. Her armor is leaf-shaped and bronze, and her
+eyes glow with the silver light of Elune.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 25 0 0 800 2000
+Stats2     25 25 250
+Stats3     6 15 25
+Stats4     0 0 0 0 0
+Attribs    14 18 14 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28001
+Keywords   warsong outrider orc horde~
+Short      a Warsong Outrider~
+Long       A Warsong Outrider sits atop a massive wolf, surveying the trees.~
+Desc       Member of the elite Warsong Clan, this orc is here to secure lumber
+for the Horde. He views the forest as a resource to be harvested and
+the Night Elves as pests in the way of progress.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 24 0 0 700 1800
+Stats2     24 24 220
+Stats3     5 12 22
+Stats4     0 0 0 0 0
+Attribs    18 12 14 12 16 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28002
+Keywords   ashenvale bear beast protector~
+Short      an Ashenvale bear~
+Long       A massive, moss-covered bear lumbering through the undergrowth.~
+Desc       Ancient and powerful, these bears have lived in Ashenvale for
+centuries. They are generally peaceful unless their territory is
+threatened by the sound of goblin saws.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 22 0 0 600 1500
+Stats2     22 22 200
+Stats3     4 12 20
+Stats4     0 0 0 0 0
+Attribs    17 10 16 10 16 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28003
+Keywords   ghostpaw alpha wolf beast~
+Short      a Ghostpaw alpha~
+Long       A silver-furred Ghostpaw alpha snarls, baring its teeth.~
+Desc       The leader of a local pack. Its fur is so pale it seems to shimmer
+like moonlight. It is incredibly fast and coordinates its pack with
+eerie intelligence.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 21 0 0 500 1200
+Stats2     21 21 180
+Stats3     4 10 18
+Stats4     0 0 0 0 0
+Attribs    16 14 14 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28004
+Keywords   clattering crawler spider arachnid~
+Short      a clattering crawler~
+Long       A giant, purple-shelled spider skitters across the forest floor.~
+Desc       Its many eyes reflect the bioluminescent plants of the forest. Its
+pincers drip with a paralytic venom used to subdue prey before
+wrapping them in thick silk.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 20 0 0 450 1100
+Stats2     20 20 160
+Stats3     4 8 16
+Stats4     0 0 0 0 0
+Attribs    14 10 12 18 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28005
+Keywords   thistlefur avenger furbolg bearman~
+Short      a Thistlefur avenger~
+Long       A crazed Thistlefur furbolg roars in a blind rage.~
+Desc       Once peaceful neighbors to the Night Elves, the Thistlefur tribe
+has succumbed to corruption. This furbolg's eyes burn with a dark,
+unnatural fire.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 23 0 0 650 1600
+Stats2     23 23 210
+Stats3     5 11 21
+Stats4     0 0 0 0 0
+Attribs    17 10 15 11 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28006
+Keywords   withered ancient tree treant~
+Short      a withered ancient~
+Long       A massive walking tree creaks as it moves, its bark cracking.~
+Desc       This ancient protector has lived too long near the Felwood border.
+Its leaves have turned grey, and its spirit is twisted by the
+creeping corruption of the Legion.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 900 2500
+Stats2     26 26 300
+Stats3     6 16 28
+Stats4     0 0 0 0 0
+Attribs    19 10 18 8 18 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28007
+Keywords   laughing sister dryad deer woman~
+Short      a Laughing Sister~
+Long       A dryad frolics through the trees, her laughter like bells.~
+Desc       Daughter of Cenarius, she has the upper body of a Night Elf and
+the lower body of a fawn. She is a fierce protector of the wild,
+using nature magic to ensnare enemies.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 24 0 0 600 1800
+Stats2     24 24 400
+Stats3     4 12 20
+Stats4     0 0 0 0 0
+Attribs    12 18 14 16 14 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28008
+Keywords   vile fin murloc fishman~
+Short      a Vile Fin murloc~
+Long       A green-scaled murloc gurgles a battle cry!~
+Desc       These murlocs have moved inland, infesting the Zoram Strand and
+the ruins along the western coast. They are cowardly but dangerous
+in large numbers.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 19 0 0 400 900
+Stats2     19 19 140
+Stats3     3 10 16
+Stats4     0 0 0 0 0
+Attribs    14 12 12 14 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28009
+Keywords   warsong shredder goblin machine~
+Short      a Warsong Shredder~
+Long       A clanking goblin shredder saws through a massive tree.~
+Desc       A piloted mechanical suit with spinning saws for arms. It is
+loud, dirty, and incredibly destructive to the environment. The
+goblin inside is laughing maniacally.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 27 0 0 1000 3000
+Stats2     27 27 250
+Stats3     7 15 30
+Stats4     0 0 0 0 0
+Attribs    19 10 16 10 18 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28010
+Keywords   raene wolfrunner leader elf astranaar~
+Short      Raene Wolfrunner~
+Long       Raene Wolfrunner stands on the bridge of Astranaar, vigilant.~
+Desc       The high-ranking Sentinel in charge of the defense of central
+Ashenvale. She is calm, wise, and determined to drive the Horde
+from her people's lands.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 350
+Stats3     8 20 35
+Stats4     0 0 0 0 0
+Attribs    16 19 15 16 16 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28011
+Keywords   kadrak horde leader outpost~
+Short      Kadrak~
+Long       Kadrak oversees the construction of the Horde outpost.~
+Desc       An orc veteran who understands that the Horde needs timber to
+survive. He is pragmatic and ruthless, brooking no interference
+from the "tree-huggers."
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 32 0 0 1500 4000
+Stats2     32 32 300
+Stats3     7 18 32
+Stats4     0 0 0 0 0
+Attribs    19 12 16 12 16 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28012
+Keywords   ashenvale stag deer beast~
+Short      an Ashenvale stag~
+Long       A majestic stag with enormous antlers watches you warily.~
+Desc       A symbol of the forest's nobility. Its coat is a deep emerald
+green, and it moves with a silent dignity that demands respect.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 20 0 0 400 1000
+Stats2     20 20 150
+Stats3     3 10 15
+Stats4     0 0 0 0 0
+Attribs    15 14 14 16 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28013
+Keywords   tide hunter murloc oracle fishman~
+Short      a Tide Hunter oracle~
+Long       A blue-scaled murloc waves a staff and gurgles an incantation.~
+Desc       The spiritual leader of the Zoram Strand murlocs. He draws power
+from the tides and the ancient, sunken ruins of the coast.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 22 0 0 500 1200
+Stats2     22 22 450
+Stats3     4 10 18
+Stats4     0 0 0 0 0
+Attribs    11 17 14 15 13 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28014
+Keywords   blackfathom naga explorer~
+Short      a Blackfathom naga~
+Long       A serpentine naga slithers through the ruins, searching.~
+Desc       Sent from the depths of Blackfathom Deeps to reclaim the surface
+ruins for Queen Azshara. They are arrogant and view all surface
+dwellers as inferior.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 850 2200
+Stats2     25 25 250
+Stats3     5 14 24
+Stats4     0 0 0 0 0
+Attribs    16 16 14 16 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28015
+Keywords   shadowshard elemental earth monster~
+Short      a shadowshard elemental~
+Long       A jagged shard of dark purple earth floats here, humming.~
+Desc       An earth elemental corrupted by the dark energies leaking from
+the caverns. It is sharp, cold, and relentlessly aggressive.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 24 0 0 700 1900
+Stats2     24 24 200
+Stats3     4 15 25
+Stats4     0 0 0 0 0
+Attribs    18 10 18 10 18 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28016
+Keywords   primal ooze slime monster~
+Short      a primal ooze~
+Long       A puddle of green, bubbling slime quivers on the ground.~
+Desc       A mindless predator that dissolves everything it touches. It
+smells of rot and ancient, stagnant water.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 20 0 0 500 1000
+Stats2     20 20 100
+Stats3     3 12 18
+Stats4     0 0 0 0 0
+Attribs    16 10 18 8 18 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28017
+Keywords   muglash orc scout horde~
+Short      Muglash~
+Long       Muglash the scout hides in the bushes, watching the road.~
+Desc       An expert tracker for the Horde. He is tasked with monitoring
+Sentinel movements and reporting back to the Zoram'gar Outpost.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 22 0 0 550 1400
+Stats2     22 22 180
+Stats3     4 11 19
+Stats4     0 0 0 0 0
+Attribs    14 17 14 16 14 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28018
+Keywords   shadethicket wood dryad corrupted~
+Short      a Shadethicket dryad~
+Long       A grey-skinned dryad stares at you with hollow, milky eyes.~
+Desc       Once a daughter of the forest, she has been driven mad by the
+shadows. She no longer laughs, and her touch brings only decay.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 23 0 0 600 1700
+Stats2     23 23 420
+Stats3     4 11 19
+Stats4     0 0 0 0 0
+Attribs    12 17 14 15 13 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       28019
+Keywords   centaur marauder kolkar~
+Short      a Kolkar marauder~
+Long       A Kolkar centaur gallops through the trees, spear leveled.~
+Desc       These centaur have pushed north from the Barrens, looking to
+exploit the chaos between the Alliance and the Horde.
+~
+Race       centaur~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 21 0 0 550 1300
+Stats2     21 21 150
+Stats3     4 10 18
+Stats4     0 0 0 0 0
+Attribs    17 12 14 14 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     28000
+Keywords warsong saw blade weapon~
+Type     weapon~
+Short    a serrated Warsong saw blade~
+Long     A jagged, blood-stained saw blade from a shredder lies here.~
+WFlags   take wield~
+Values   0 8 18 3 0 0
+Stats    8 120 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28001
+Keywords silvermoon bow elven weapon~
+Type     weapon~
+Short    a Silvermoon longbow~
+Long     A finely crafted elven bow pulsing with moonlight rests here.~
+WFlags   take wield~
+Values   0 6 15 11 0 0
+Stats    4 200 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28002
+Keywords moonwell water vial~
+Type     potion~
+Short    a vial of Moonwell water~
+Long     A small crystal vial filled with glowing blue water sits here.~
+WFlags   take hold~
+Values   20 'cure light' 'bless' '' 0 0
+Stats    1 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28003
+Keywords ashenvale mushroom food~
+Type     food~
+Short    a glowing Ashenvale mushroom~
+Long     A blue-capped mushroom emits a soft, comforting light.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28004
+Keywords sentinel buckler leaf armor~
+Type     armor~
+Short    a leaf-shaped Sentinel buckler~
+Long     A light but incredibly tough shield made of magically hardened wood.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    5 150 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28005
+Keywords warsong axe jagged weapon~
+Type     weapon~
+Short    a jagged Warsong axe~
+Long     A heavy, brutal orcish axe with the Warsong insignia lies here.~
+WFlags   take wield~
+Values   0 10 20 3 0 0
+Stats    10 140 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28006
+Keywords bear fur cloak green~
+Type     armor~
+Short    a mossy bear fur cloak~
+Long     A thick, green-tinted fur cloak that smells of pine needles.~
+WFlags   take neck~
+Values   5 0 0 0 0 0
+Stats    4 80 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28007
+Keywords murloc scale vest armor~
+Type     armor~
+Short    a slimy murloc scale vest~
+Long     A vest made of iridescent murloc scales that offers decent protection.~
+WFlags   take body~
+Values   7 0 0 0 0 0
+Stats    6 90 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28008
+Keywords naga trident weapon~
+Type     weapon~
+Short    a coral-encrusted naga trident~
+Long     A wicked three-pronged spear made of deep-sea coral sits here.~
+WFlags   take wield~
+Values   0 7 16 11 0 0
+Stats    7 180 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28009
+Keywords ancient heart wood treasure~
+Type     treasure~
+Short    the Heart of an Ancient~
+Long     A large, fossilized piece of wood that still pulses with faint energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 500 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28010
+Keywords tigerseye ring silver jewel~
+Type     jewelry~
+Short     a silver tigerseye ring~
+Long     A silver ring set with a polished tigerseye stone.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 300 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28011
+Keywords goblin oil canister~
+Type     drinkcon~
+Short    a canister of goblin oil~
+Long     A metal canister filled with thick, black, flammable oil.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    3 40 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28012
+Keywords elven silk robe blue~
+Type     armor~
+Short    a starry elven silk robe~
+Long     A flowing blue robe that seems to contain a miniature galaxy.~
+WFlags   take body~
+Values   4 0 0 0 0 0
+Stats    2 250 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28013
+Keywords furbolg totem wooden~
+Type     treasure~
+Short    a carved furbolg totem~
+Long     A wooden totem carved to resemble a roaring bear.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28014
+Keywords wolf tooth necklace~
+Type     jewelry~
+Short    a necklace of wolf teeth~
+Long     A string of sharp teeth taken from the Ghostpaw pack.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28015
+Keywords ashenvale map parchment~
+Type     treasure~
+Short    a detailed map of Ashenvale~
+Long     A roll of parchment showing the major paths and outposts of the forest.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 20 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28016
+Keywords jagged shard stone weapon~
+Type     weapon~
+Short    a jagged shadowshard~
+Long     A sharp, floating piece of elemental stone that can be used as a dagger.~
+WFlags   take wield~
+Values   0 5 12 11 0 0
+Stats    3 80 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28017
+Keywords dryad spear light wood weapon~
+Type     weapon~
+Short    a polished dryad spear~
+Long     A spear made of white wood, decorated with autumn leaves.~
+WFlags   take wield~
+Values   0 6 14 11 0 0
+Stats    5 110 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28018
+Keywords thick leather boots~
+Type     armor~
+Short    a pair of thick leather boots~
+Long     Sturdy boots designed for trekking through dense undergrowth.~
+WFlags   take feet~
+Values   4 0 0 0 0 0
+Stats    3 60 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     28019
+Keywords glowing moss bundle~
+Type     treasure~
+Short    a bundle of glowing moss~
+Long     A handful of moss that provides a soft green illumination.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     28000
+Name     &OThe Mor'shan Base Camp&d~
+Sector   field~
+Desc     You stand at the southern edge of Ashenvale, just inside the Mor'shan
+Rampart. The dry heat of the Barrens fades, replaced by the cool, damp
+scent of ancient pine and damp earth. A few Horde supply crates are
+scattered near a small campfire.
+~
+#EXIT
+Direction south~
+ToRoom    26529
+Desc      Back to the Barrens.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28001
+Desc      The path into the forest.
+~
+#ENDEXIT
+Reset M 0 28001 2 28000
+#ENDROOM
+
+#ROOM
+Vnum     28001
+Name     &gThe South Road - Ashenvale&d~
+Sector   forest~
+Desc     Giant trees with silver-grey bark tower overhead, their canopy so thick
+that only slivers of moonlight reach the forest floor. The road is
+overgrown with thick ferns and glowing moss.
+~
+#EXIT
+Direction south~
+ToRoom    28000
+Desc      The Rampart.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28002
+Desc      The road continues north.
+~
+#ENDEXIT
+Reset M 0 28012 1 28001
+#ENDROOM
+
+#ROOM
+Vnum     28002
+Name     &gThe Silverwing Outpost&d~
+Sector   forest~
+Desc     A small collection of elven structures is built into the trees here.
+This outpost serves as the first line of defense against Horde
+incursions from the south. Silverwing Sentinels keep a sharp watch
+from the high branches.
+~
+#EXIT
+Direction south~
+ToRoom    28001
+Desc      The South Road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28003
+Desc      Toward Silverwing Grove.
+~
+#ENDEXIT
+Reset M 0 28000 2 28002
+#ENDROOM
+
+#ROOM
+Vnum     28003
+Name     &gSilverwing Grove&d~
+Sector   forest~
+Desc     The forest opens up into a beautiful grove. A small, clear stream winds
+between the trees. The air is filled with the soft rustle of leaves and
+the distant cry of a nightsaber.
+~
+#EXIT
+Direction south~
+ToRoom    28002
+Desc      The outpost.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28004
+Desc      The main thoroughfare.
+~
+#ENDEXIT
+Reset M 0 28002 1 28003
+#ENDROOM
+
+#ROOM
+Vnum     28004
+Name     &gThe Main Thoroughfare&d~
+Sector   forest~
+Desc     The primary road through Ashenvale runs east to west here. To the east,
+the forest grows darker and more dangerous. To the west lies the
+settlement of Astranaar.
+~
+#EXIT
+Direction south~
+ToRoom    28003
+Desc      Silverwing Grove.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    28030
+Desc      The road toward Azshara.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28005
+Desc      Toward Astranaar.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28005
+Name     &gRoad to Astranaar&d~
+Sector   forest~
+Desc     The road is wide and well-traveled. Ancient elven statues, worn by time
+and covered in ivy, stand like silent sentinels along the path. The
+sound of rushing water can be heard to the west.
+~
+#EXIT
+Direction east~
+ToRoom    28004
+Desc      The thoroughfare.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28006
+Desc      The Bridge of Astranaar.
+~
+#ENDEXIT
+Reset M 0 28003 2 28005
+#ENDROOM
+
+#ROOM
+Vnum     28006
+Name     &gThe Bridge of Astranaar&d~
+Sector   city~
+Desc     A magnificent stone bridge arches over a sparkling lake. The architecture
+is quintessentially elven—graceful, flowing curves that blend seamlessly
+with the surrounding nature. Astranaar lies just across the water.
+~
+#EXIT
+Direction east~
+ToRoom    28005
+Desc      The road back.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28007
+Desc      Astranaar Center.
+~
+#ENDEXIT
+Reset M 0 28010 1 28006
+Reset M 0 28000 2 28006
+#ENDROOM
+
+#ROOM
+Vnum     28007
+Name     &cAstranaar - Central Plaza&d~
+Sector   city~
+Desc     The heart of the Night Elf presence in Ashenvale. Several elegant
+buildings are situated around a central moonwell. Wisps drift through
+the air, and Sentinels move with purpose through the streets.
+~
+#EXIT
+Direction east~
+ToRoom    28006
+Desc      The bridge.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28008
+Desc      Astranaar Inn.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28009
+Desc      The Western Road.
+~
+#ENDEXIT
+Reset O 0 28002 1 28007
+#ENDROOM
+
+#ROOM
+Vnum     28008
+Name     &cThe Astranaar Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     A cozy and serene resting place for weary travelers. The walls are
+decorated with intricate tapestries, and the air smells of jasmine and
+pressed flowers.
+~
+#EXIT
+Direction south~
+ToRoom    28007
+Desc      The plaza.
+~
+#ENDEXIT
+Reset O 0 28003 3 28008
+#ENDROOM
+
+#ROOM
+Vnum     28009
+Name     &gThe Western Road - Ashenvale&d~
+Sector   forest~
+Desc     As you leave Astranaar, the forest becomes denser. The road heads west
+toward the Zoram Strand. Fallen logs and thick bushes make off-road
+travel difficult.
+~
+#EXIT
+Direction east~
+ToRoom    28007
+Desc      Astranaar.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28010
+Desc      Mystral Lake.
+~
+#ENDEXIT
+Reset M 0 28004 2 28009
+#ENDROOM
+
+#ROOM
+Vnum     28010
+Name     &cMystral Lake&d~
+Sector   water~
+Desc     A large, fog-shrouded lake sits to the south of the road. Strange,
+blue-skinned water elementals can sometimes be seen drifting just
+beneath the surface.
+~
+#EXIT
+Direction east~
+ToRoom    28009
+Desc      The road.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    28011
+Desc      Mystral Lake - Shoreline.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28011
+Name     &cMystral Lake - Shoreline&d~
+Sector   field~
+Desc     The shoreline is rocky and damp. The influence of the nearby elementals
+makes the air hum with static. To the west, a mountain pass leads toward
+the Stonetalon Mountains.
+~
+#EXIT
+Direction north~
+ToRoom    28010
+Desc      The lake.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27500
+Desc      Into Stonetalon Mountains.
+~
+#ENDEXIT
+Reset M 0 28015 2 28011
+#ENDROOM
+
+#ROOM
+Vnum     28012
+Name     &gThe Raynewood Retreat&d~
+Sector   forest~
+Desc     A secluded elven grove dedicated to the study of nature. However, the
+peace has been shattered by the nearby Warsong lumber operations.
+Tensions here are at a breaking point.
+~
+#EXIT
+Direction south~
+ToRoom    28004
+Desc      The thoroughfare.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28013
+Desc      Warsong Lumber Camp.
+~
+#ENDEXIT
+Reset M 0 28007 2 28012
+#ENDROOM
+
+#ROOM
+Vnum     28013
+Name     &rThe Warsong Lumber Camp&d~
+Sector   field~
+Desc     A scene of industrial devastation. The ancient trees have been clear-cut,
+leaving only jagged stumps. The ground is churned into mud by the
+massive treads of goblin shredders.
+~
+#EXIT
+Direction south~
+ToRoom    28012
+Desc      Raynewood Retreat.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    28014
+Desc      Deep into the logging site.
+~
+#ENDEXIT
+Reset M 0 28001 3 28013
+#ENDROOM
+
+#ROOM
+Vnum     28014
+Name     &rWarsong Logging Site&d~
+Sector   field~
+Desc     Steam-powered saws scream as they bite into wood. Orcish peons work
+tirelessly to load logs onto massive wagons while overseers bark orders.
+The air is thick with smoke and sawdust.
+~
+#EXIT
+Direction west~
+ToRoom    28013
+Desc      Camp entrance.
+~
+#ENDEXIT
+Reset M 0 28009 2 28014
+Reset O 0 28000 1 28014
+#ENDROOM
+
+#ROOM
+Vnum     28015
+Name     &gThe Stardust Spire&d~
+Sector   hills~
+Desc     High atop a hill stands a ruined elven tower. Though crumbling, it
+still radiates a faint, magical energy. From here, you can see across
+much of central Ashenvale.
+~
+#EXIT
+Direction down~
+ToRoom    28005
+Desc      Back to the road.
+~
+#ENDEXIT
+Reset M 0 28006 1 28015
+Reset O 0 28009 1 28015
+#ENDROOM
+
+#ROOM
+Vnum     28016
+Name     &gThe Maestra's Post&d~
+Sector   forest~
+Desc     An Alliance outpost located on the western road toward Darkshore.
+Sentinels here are focused on stopping the corruption spreading from
+the north.
+~
+#EXIT
+Direction east~
+ToRoom    28009
+Desc      Toward Astranaar.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27000
+Desc      Into Darkshore.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28017
+Desc      Toward Zoram Strand.
+~
+#ENDEXIT
+Reset M 0 28000 2 28016
+#ENDROOM
+
+#ROOM
+Vnum     28017
+Name     &gThe Path to Zoram Strand&d~
+Sector   forest~
+Desc     The forest begins to thin out, and the smell of salt spray is carried
+on the wind. The ground becomes sandy as you approach the western
+coast of Kalimdor.
+~
+#EXIT
+Direction east~
+ToRoom    28016
+Desc      Maestra's Post.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28018
+Desc      Zoram Strand.
+~
+#ENDEXIT
+Reset M 0 28019 1 28017
+#ENDROOM
+
+#ROOM
+Vnum     28018
+Name     &bThe Zoram Strand&d~
+Sector   field~
+Desc     A wide, sandy beach littered with shells and driftwood. The Great Sea
+crashes against the shore to the west. Ancient ruins poke out of the
+sand like the ribs of a dead giant.
+~
+#EXIT
+Direction east~
+ToRoom    28017
+Desc      The forest path.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28019
+Desc      Northern Strand.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    28020
+Desc      Zoram'gar Outpost.
+~
+#ENDEXIT
+Reset M 0 28008 4 28018
+#ENDROOM
+
+#ROOM
+Vnum     28019
+Name     &bZoram Strand - Ruined Archway&d~
+Sector   field~
+Desc     A massive stone archway, half-sunken into the sand, marks the entrance
+to a series of underwater caverns. Murlocs and naga patrol the area,
+defending their territory.
+~
+#EXIT
+Direction south~
+ToRoom    28018
+Desc      Central Strand.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    30000
+Desc      Into Blackfathom Deeps.
+~
+#ENDEXIT
+Reset M 0 28014 2 28019
+#ENDROOM
+
+#ROOM
+Vnum     28020
+Name     &rThe Zoram'gar Outpost&d~
+Sector   city~
+Desc     A fortified Horde encampment on the coast. It is built from dark wood
+and iron, standing in stark contrast to the natural beauty of the
+beach. It serves as a base for Horde operations in the west.
+~
+#EXIT
+Direction north~
+ToRoom    28018
+Desc      Zoram Strand.
+~
+#ENDEXIT
+Reset M 0 28011 1 28020
+Reset M 0 28017 1 28020
+#ENDROOM
+
+#ROOM
+Vnum     28021
+Name     &gIris Lake&d~
+Sector   water~
+Desc     A small, circular lake surrounded by weeping willows. The water is
+still and dark, reflecting the canopy above like a black mirror.
+~
+#EXIT
+Direction east~
+ToRoom    28007
+Desc      Astranaar.
+~
+#ENDEXIT
+Reset M 0 28016 1 28021
+#ENDROOM
+
+#ROOM
+Vnum     28022
+Name     &dThe Thistlefur Village&d~
+Sector   field~
+Desc     A collection of crude wooden huts and totems. The furbolgs who live
+here have become violent and xenophobic, attacking anyone who
+approaches their village.
+~
+#EXIT
+Direction south~
+ToRoom    28009
+Desc      The western road.
+~
+#ENDEXIT
+Reset M 0 28005 4 28022
+Reset O 0 28013 1 28022
+#ENDROOM
+
+#ROOM
+Vnum     28023
+Name     &dThe Howling Vale&d~
+Sector   forest~
+Desc     A narrow valley where the wind whistles through the trees with a
+haunting, mournful sound. The shadows here seem longer and darker
+than elsewhere in the forest.
+~
+#EXIT
+Direction east~
+ToRoom    28012
+Desc      Raynewood Retreat.
+~
+#ENDEXIT
+Reset M 0 28003 3 28023
+#ENDROOM
+
+#ROOM
+Vnum     28024
+Name     &dThe Night Run&d~
+Sector   forest~
+Desc     A dark path through the trees, known for being infested with aggressive
+beasts. The Night Elves avoid this area when the moon is hidden.
+~
+#EXIT
+Direction north~
+ToRoom    28025
+Desc      Toward Satyrnaar.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    28004
+Desc      The thoroughfare.
+~
+#ENDEXIT
+Reset M 0 28012 2 28024
+#ENDROOM
+
+#ROOM
+Vnum     28025
+Name     &dSatyrnaar&d~
+Sector   field~
+Desc     The forest is twisted and corrupted here. Sickly purple vines cling to
+dead trees, and the air is heavy with the smell of sulfur. Satyrs
+lurk in the shadows, plotting their next strike.
+~
+#EXIT
+Direction south~
+ToRoom    28024
+Desc      The Night Run.
+~
+#ENDEXIT
+Reset M 0 28018 3 28025
+#ENDROOM
+
+#ROOM
+Vnum     28026
+Name     &dFallen Sky Lake&d~
+Sector   water~
+Desc     The water here is murky and stagnant. Legend says a piece of the moon
+once fell here, but now only corruption remains.
+~
+#EXIT
+Direction west~
+ToRoom    28004
+Desc      The thoroughfare.
+~
+#ENDEXIT
+Reset M 0 28015 2 28026
+#ENDROOM
+
+#ROOM
+Vnum     28027
+Name     &dThe Fire Scar&d~
+Sector   field~
+Desc     A charred patch of forest where nothing grows. The ground is covered
+in soot and ash, and the heat of a magical fire still lingers in the
+soil.
+~
+#EXIT
+Direction east~
+ToRoom    28026
+Desc      Fallen Sky Lake.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28028
+Name     &gThe Shrine of Aessina&d~
+Sector   forest~
+Desc     A hidden altar dedicated to the goddess of the forest. It is a place
+of peace and healing, though its location is known to few.
+~
+#EXIT
+Direction north~
+ToRoom    28007
+Desc      Astranaar.
+~
+#ENDEXIT
+Reset M 0 28007 1 28028
+#ENDROOM
+
+#ROOM
+Vnum     28029
+Name     &gThe Felfire Hill&d~
+Sector   hills~
+Desc     On the border of Felwood, the land is dying. Green flames occasionally
+flicker from cracks in the ground, and the trees are skeletal and
+leafless.
+~
+#EXIT
+Direction south~
+ToRoom    28012
+Desc      Raynewood.
+~
+#ENDEXIT
+Reset M 0 28006 2 28029
+#ENDROOM
+
+#ROOM
+Vnum     28030
+Name     &gThe East Road - Ashenvale&d~
+Sector   forest~
+Desc     The road continues east toward the high cliffs of Azshara. The trees
+here are older and more gnarled, their roots crossing the path like
+giant wooden serpents.
+~
+#EXIT
+Direction west~
+ToRoom    28004
+Desc      The thoroughfare.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    28031
+Desc      Toward Splintertree Post.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28031
+Name     &rSplintertree Post&d~
+Sector   city~
+Desc     The main Horde hub in eastern Ashenvale. Built as a strategic outpost,
+it is heavily fortified to withstand Sentinel raids. The sound of
+sharpening blades is constant.
+~
+#EXIT
+Direction west~
+ToRoom    28030
+Desc      The East Road.
+~
+#ENDEXIT
+Reset M 0 28001 2 28031
+#ENDROOM
+
+#ROOM
+Vnum     28032
+Name     &dThe Dor'danil Barrow Den&d~
+Sector   forest~
+Desc     The entrance to a series of underground caves where Druids once slept.
+Now, the den has been overrun by corrupted creatures and dark whispers.
+~
+#EXIT
+Direction north~
+ToRoom    28031
+Desc      Splintertree Post.
+~
+#ENDEXIT
+Reset M 0 28005 2 28032
+#ENDROOM
+
+#ROOM
+Vnum     28033
+Name     &dForest Edge&d~
+Sector   forest~
+Desc     The very edge of the woods. Beyond this point, the terrain drops off
+into the rocky canyons of the Barrens.
+~
+#EXIT
+Direction north~
+ToRoom    28030
+Desc      The East Road.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28034
+Name     &gThe Hidden Path&d~
+Sector   forest~
+Desc     A narrow trail that loops behind the main road. It is often used by
+scouts to bypass the more heavily patrolled areas.
+~
+#EXIT
+Direction east~
+ToRoom    28007
+Desc      Astranaar.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    28005
+Desc      Road to Astranaar.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28035
+Name     &gSouth of Iris Lake&d~
+Sector   forest~
+Desc     The ground is soft and carpeted with moss. The weeping willows of the
+nearby lake sway gently in the breeze.
+~
+#EXIT
+Direction north~
+ToRoom    28021
+Desc      Iris Lake.
+~
+#ENDEXIT
+Reset M 0 28012 1 28035
+#ENDROOM
+
+#ROOM
+Vnum     28036
+Name     &gThe Mossy Ravine&d~
+Sector   hills~
+Desc     A deep cleft in the earth filled with ferns and ancient rocks. The
+dampness here makes every surface slippery.
+~
+#EXIT
+Direction up~
+ToRoom    28030
+Desc      Back to the road.
+~
+#ENDEXIT
+Reset M 0 28004 2 28036
+#ENDROOM
+
+#ROOM
+Vnum     28037
+Name     &gThe Whispering Woods&d~
+Sector   forest~
+Desc     The trees here seem to lean in close, their leaves rustling even when
+there is no wind. Some say you can hear the voices of the forest if
+you listen closely.
+~
+#EXIT
+Direction east~
+ToRoom    28004
+Desc      The thoroughfare.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     28038
+Name     &gSentinel Hill - Ashenvale&d~
+Sector   hills~
+Desc     A high point overlooking the south road. A small wooden watchtower
+provides an excellent view of any movement coming from the Barrens.
+~
+#EXIT
+Direction down~
+ToRoom    28001
+Desc      The south road.
+~
+#ENDEXIT
+Reset M 0 28000 1 28038
+#ENDROOM
+
+#ROOM
+Vnum     28039
+Name     &gThe Deepwood Clearing&d~
+Sector   forest~
+Desc     A perfectly circular clearing in the densest part of the forest.
+The canopy is so thick here that it is perpetually dark.
+~
+#EXIT
+Direction south~
+ToRoom    28030
+Desc      The East Road.
+~
+#ENDEXIT
+Reset M 0 28002 1 28039
+#ENDROOM
+
+#ENDAREA
