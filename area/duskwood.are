@@ -1,0 +1,1263 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Duskwood~
+Author       Builder~
+WeatherX     0
+WeatherY     0
+Ranges       18 30 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+// Duskwood Mob Section Begins --Hansth
+#MOBILE
+Vnum       13000
+Keywords   commander althea ebonlocke night watch human~
+Short      Commander Althea Ebonlocke~
+Long       Commander Althea Ebonlocke stands watch, her face grim and determined.
+~
+Desc       The leader of the Night Watch. She bears the heavy burden of keeping the
+citizens of Darkshire safe from the undead, the worgen, and the creeping
+darkness of the forest.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 60 0 0 2000 10000
+Stats2     60 60 600
+Stats3     5 10 25
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13001
+Keywords   lord ello ebonlocke mayor darkshire human~
+Short      Lord Ello Ebonlocke~
+Long       Lord Ello Ebonlocke, the Mayor of Darkshire, paces nervously.
+~
+Desc       The Mayor tries to keep hope alive in a town constantly besieged by
+nightmares. He looks exhausted, the dark circles under his eyes a
+testament to countless sleepless nights.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1000 5000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13002
+Keywords   night watch guard militia human~
+Short      a Night Watch Guard~
+Long       A Night Watch Guard patrols the perimeter, holding a lantern high.
+~
+Desc       These brave men and women stand between the town of Darkshire and the
+horrors of the woods. They wear dark leather armor and carry torches or
+lanterns to pierce the gloom.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 30 0 0 500 2000
+Stats2     30 30 300
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13003
+Keywords   abercrombie embalmer hermit old man~
+Short      Abercrombie the Embalmer~
+Long       Abercrombie the Embalmer chuckles darkly to himself near a gravestone.
+~
+Desc       A creepy old hermit who lives near the cemetery. He claims to just be a
+simple embalmer, but the foul stench of necromancy clings to his tattered
+clothes.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 45 0 0 1000 4000
+Stats2     45 45 450
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    13 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13004
+Keywords   stitches abomination undead boss~
+Short      Stitches~
+Long       Stitches the Abomination lumbers down the road, roaring in rage.
+~
+Desc       A massive, horrific amalgamation of corpses stitched together by foul
+magic. Abercrombie's ultimate creation, unleashed upon the road to
+Darkshire to tear the town apart.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 3000 10000
+Stats2     35 35 600
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    20 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13005
+Keywords   morladim elite undead skeleton boss~
+Short      Morladim~
+Long       Morladim, a terrifying skeletal knight, wanders the cemetery tirelessly.
+~
+Desc       Once a noble paladin named Morgan Ladimore, tragedy and madness drove
+him to despair. Now raised as a powerful undead, he endlessly patrols
+Ravenhill Cemetery, striking down any who cross his path.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 2500 8000
+Stats2     35 35 500
+Stats3     6 12 30
+Stats4     0 0 0 0 0
+Attribs    20 15 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13006
+Keywords   blind mary ghost spirit~
+Short      Blind Mary~
+Long       The translucent spirit of Blind Mary floats near a ruined house.
+~
+Desc       A tragic, restless ghost. She cannot see, but she can sense the presence
+of the living. She is not outwardly aggressive, but her wails chill the
+blood.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 25 0 0 400 1500
+Stats2     25 25 250
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    10 15 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13007
+Keywords   jitters human nervous tavern~
+Short      Jitters~
+Long       Jitters shakes uncontrollably, looking over his shoulder.
+~
+Desc       A man driven completely mad by the horrors he witnessed in the woods. He
+hides in the tavern, clutching a mug and muttering about shadows in the
+trees.
+~
+Race       human~
+Class      thief~
+Position   sitting~
+DefPos     sitting~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 20 0 0 300 1000
+Stats2     20 20 200
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13008
+Keywords   tavernkeep smitts innkeeper darkshire~
+Short      Tavernkeep Smitts~
+Long       Tavernkeep Smitts wipes down the bar, keeping a loaded crossbow nearby.
+~
+Desc       Running the Scarlet Raven Tavern is no easy feat. Smitts provides strong
+drink to calm the nerves of the Night Watch and weary travelers alike.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 40 0 0 800 3000
+Stats2     40 40 400
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13009
+Keywords   rabid dire wolf beast~
+Short      a Rabid Dire Wolf~
+Long       A massive Rabid Dire Wolf snarls, foam dripping from its jaws.
+~
+Desc       The wolves of Duskwood have been driven mad by the creeping corruption.
+They attack anything that moves with feral, unthinking ferocity.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 22 0 0 350 1200
+Stats2     22 22 220
+Stats3     3 8 18
+Stats4     0 0 0 0 0
+Attribs    16 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13010
+Keywords   nightbane worgen beastman monster~
+Short      a Nightbane Worgen~
+Long       A hulking Nightbane Worgen leaps from the shadows, claws extended!
+~
+Desc       A terrifying curse has spread through the woods, turning men into these
+ferocious, wolf-like beasts. They are incredibly fast, brutally strong,
+and always hungry.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 28 0 0 500 2000
+Stats2     28 28 300
+Stats3     4 10 22
+Stats4     0 0 0 0 0
+Attribs    18 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13011
+Keywords   skeletal fiend undead skeleton~
+Short      a Skeletal Fiend~
+Long       A Skeletal Fiend rises from the dirt, bones clattering.
+~
+Desc       The restless dead of Ravenhill Cemetery. Animated by dark magic, these
+mindless skeletons shamble through the fog seeking to extinguish the living.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 24 0 0 400 1500
+Stats2     24 24 240
+Stats3     3 8 20
+Stats4     0 0 0 0 0
+Attribs    15 10 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13012
+Keywords   brain racker ghoul undead~
+Short      a Brain Racker~
+Long       A hunched Brain Racker ghoul shrieks and bounds toward you.
+~
+Desc       A mutated, cannibalistic form of undead that lurks in the Rotting
+Orchard. It feeds on corpses and possesses a terrifying, unnatural speed.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 450 1800
+Stats2     26 26 260
+Stats3     4 8 22
+Stats4     0 0 0 0 0
+Attribs    16 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13013
+Keywords   black widow spider beast~
+Short      a Black Widow Spider~
+Long       A giant Black Widow Spider drops from the canopy above!
+~
+Desc       These massive arachnids have spun thick, suffocating webs throughout
+the darker parts of the forest. Their venom is highly lethal.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 23 0 0 400 1400
+Stats2     23 23 230
+Stats3     3 8 20
+Stats4     0 0 0 0 0
+Attribs    13 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13014
+Keywords   defias smuggler human thief~
+Short      a Defias Smuggler~
+Long       A Defias Smuggler hides in the brush, protecting stolen goods.
+~
+Desc       Operating out of the southern woods, these smugglers move contraband
+from Stranglethorn Vale up into Westfall and Elwynn.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 450 1600
+Stats2     25 25 250
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    16 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+// Duskwood Object Section Begins --Hansth
+#OBJECT
+Vnum     13000
+Keywords ebonlocke sword longsword steel~
+Type     weapon~
+Short    an Ebonlocke Longsword~
+Long     A finely crafted steel longsword bearing the crest of Darkshire is here.~
+WFlags   take wield~
+Values   0 10 15 3 0 0
+Stats    10 300 30 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13001
+Keywords night watch lantern brass light~
+Type     light~
+Short    a Night Watch Lantern~
+Long     A heavy brass lantern, essential for piercing the gloom of the woods.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    4 80 8 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13002
+Keywords embalmer's thread spool silk dark~
+Type     treasure~
+Short    a spool of Embalmer's Thread~
+Long     A spool of incredibly tough, dark thread used for grim purposes is here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13003
+Keywords stitches femur bone mace heavy~
+Type     weapon~
+Short    Stitches' Femur~
+Long     A massive, blood-stained bone serves as a terrifying makeshift mace.~
+WFlags   take wield~
+Values   0 15 25 7 0 0
+Stats    15 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13004
+Keywords archeus sword glowing two-handed morladim~
+Type     weapon~
+Short    Archeus~
+Long     A magnificent two-handed sword radiates a faint, tragic holy light here.~
+WFlags   take wield~
+Values   0 18 28 3 0 0
+Stats    20 1500 150 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13005
+Keywords ghost hair thread translucent~
+Type     treasure~
+Short    a spool of Ghost Hair Thread~
+Long     A spool of nearly invisible, chillingly cold thread rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13006
+Keywords darkshire stew bowl food warm~
+Type     food~
+Short    a bowl of Darkshire Stew~
+Long     A hearty bowl of stew, meant to ward off the chill of the forest.~
+WFlags   take hold~
+Values   20 20 0 0 0 0
+Stats    2 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13007
+Keywords bottle moonshine clear drink alcohol~
+Type     drinkcon~
+Short    a bottle of Blind Mary's Moonshine~
+Long     A clear glass bottle filled with incredibly potent alcohol sits here.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    2 25 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13008
+Keywords worgen claw severed sharp~
+Type     treasure~
+Short    a severed Worgen Claw~
+Long     A massive, razor-sharp claw from a slain worgen lies in the dirt.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 30 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13009
+Keywords silver ring tarnished armor finger~
+Type     armor~
+Short    a tarnished silver ring~
+Long     A dull silver ring, likely dropped by a fleeing victim, glints faintly.~
+WFlags   take finger~
+Values   2 0 0 0 0 0
+Stats    1 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13010
+Keywords spider silk sticky strong~
+Type     treasure~
+Short    a bundle of sticky Spider Silk~
+Long     A thick, incredibly strong bundle of spider silk has been gathered here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13011
+Keywords defias smuggler crate wooden container~
+Type     container~
+Short    a wooden Smuggler's Crate~
+Long     A sturdy wooden crate marked with the Defias crest is sitting here.~
+WFlags   none~
+Values   100 0 0 0 0 0
+Stats    20 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13012
+Keywords rotted ghoul fang jagged dagger weapon~
+Type     weapon~
+Short    a rotted Ghoul Fang~
+Long     A jagged, diseased tooth from a ghoul acts as a crude dagger.~
+WFlags   take wield~
+Values   0 8 14 11 0 0
+Stats    3 60 6 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13013
+Keywords bronze tube mechanical shiny~
+Type     treasure~
+Short    a shiny Bronze Tube~
+Long     A precision-machined bronze tube rests here, oddly out of place.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 120 12 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13014
+Keywords blackened leather tunic dark armor~
+Type     armor~
+Short    a Blackened Leather Tunic~
+Long     A dark leather tunic designed to blend into the shadows lies here.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    6 300 30 0 0
+#ENDOBJECT
+
+// Duskwood Room Section Begins --Hansth
+
+#ROOM
+Vnum     13000
+Name     &dDarkshire Town Square&d~
+Sector   city~
+Desc     The gloomy town of Darkshire serves as the only real sanctuary in the
+cursed forest of Duskwood. A large bonfire burns in the center of the
+square, constantly fed by the Night Watch. Commander Ebonlocke and the
+Mayor discuss the defense of the town here.
+~
+#EXIT
+Direction north~
+ToRoom    13002
+Desc      The Town Hall.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13023
+Desc      The dark road leading east toward Deadwind Pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13001
+Desc      The Scarlet Raven Tavern.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13003
+Desc      The western outskirts of town.
+~
+#ENDEXIT
+Reset M 0 13000 1 13000
+  Reset E 1 13000 10 16
+Reset M 0 13001 1 13000
+Reset M 0 13002 2 13000
+  Reset E 1 13001 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13001
+Name     &dScarlet Raven Tavern&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, bustling tavern filled with weary guards and terrified locals.
+Tavernkeep Smitts cleans mugs behind the bar, while Jitters shakes
+uncontrollably in the corner, traumatized by the horrors in the woods.
+~
+#EXIT
+Direction north~
+ToRoom    13000
+Desc      The town square.
+~
+#ENDEXIT
+Reset M 0 13008 1 13001
+  Reset E 1 13006 10 17
+Reset M 0 13007 1 13001
+Reset O 0 13006 3 13001
+#ENDROOM
+
+#ROOM
+Vnum     13002
+Name     &dDarkshire Town Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The administrative center of Darkshire. Desperate bounties and warnings
+about Stitches and the Nightbane Worgen are pinned to a large wooden
+notice board.
+~
+#EXIT
+Direction south~
+ToRoom    13000
+Desc      The town square.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13003
+Name     &dDarkshire - Western Outskirts&d~
+Sector   city~
+Desc     The cobblestones give way to a deeply rutted dirt road. The canopy of
+ancient, twisted trees completely blocks out the sun, leaving the area
+in a state of perpetual twilight. 
+~
+#EXIT
+Direction east~
+ToRoom    13000
+Desc      The town square.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13004
+Desc      The road winds deeper into the cursed woods.
+~
+#ENDEXIT
+Reset M 0 13002 1 13003
+  Reset E 1 13001 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13004
+Name     &dThe Darkened Road&d~
+Sector   field~
+Desc     The trees press in closely on either side of the road. The hooting of
+owls and the distant, terrifying howls of wolves echo through the mist.
+Giant footprints in the mud suggest something massive patrols this path.
+~
+#EXIT
+Direction east~
+ToRoom    13003
+Desc      The outskirts of Darkshire.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13007
+Desc      The Duskwood Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13006
+Desc      A ruined graveyard overgrown with weeds.
+~
+#ENDEXIT
+Reset M 0 13004 1 13004
+  Reset E 1 13003 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13005
+Name     &dThe Addled Hermit's Cabin&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rotting wooden shack tucked away from the main road. The smell of
+formaldehyde and decaying flesh is overpowering. Abercrombie the Embalmer
+lives here, secretly constructing his undead horrors.
+~
+#EXIT
+Direction east~
+ToRoom    13006
+Desc      The Tranquil Gardens Cemetery.
+~
+#ENDEXIT
+Reset M 0 13003 1 13005
+  Reset E 1 13002 10 17
+Reset O 0 13005 2 13005
+#ENDROOM
+
+#ROOM
+Vnum     13006
+Name     &dTranquil Gardens Cemetery&d~
+Sector   field~
+Desc     A small, ruined cemetery where the spirit of Blind Mary aimlessly wanders.
+The gravestones have been knocked over, and the wrought-iron fences are
+rusted and broken.
+~
+#EXIT
+Direction south~
+ToRoom    13004
+Desc      The Darkened Road.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13005
+Desc      Abercrombie's Cabin.
+~
+#ENDEXIT
+Reset M 0 13006 1 13006
+  Reset E 1 13007 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13007
+Name     &dThe Duskwood Crossroads&d~
+Sector   field~
+Desc     A major intersection heavily shrouded in fog. A rotting wooden signpost
+points north to Elwynn Forest, west to Westfall, and east to Darkshire.
+The path to the south leads to the massive Ravenhill Cemetery.
+~
+#EXIT
+Direction north~
+ToRoom    12501
+Desc      The road to Elwynn Forest.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13004
+Desc      The Darkened Road to Darkshire.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13008
+Desc      Ravenhill Village Ruins.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13019
+Desc      The Gloomy Path toward Westfall.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13008
+Name     &dRavenhill Village Ruins&d~
+Sector   field~
+Desc     Once a small settlement supporting the massive cemetery, Ravenhill is now
+nothing but charred timber and collapsed stone walls. Defias Smugglers
+hide among the wreckage.
+~
+#EXIT
+Direction north~
+ToRoom    13007
+Desc      The Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13009
+Desc      The iron gates of Ravenhill Cemetery.
+~
+#ENDEXIT
+Reset M 0 13014 2 13008
+#ENDROOM
+
+#ROOM
+Vnum     13009
+Name     &dRavenhill Cemetery - Gates&d~
+Sector   field~
+Desc     Massive, terrifying wrought-iron gates mark the entrance to the largest
+graveyard in the region. The fog is incredibly thick here, chilling you
+to the bone. Skeletal Fiends pull themselves from the loose soil.
+~
+#EXIT
+Direction north~
+ToRoom    13008
+Desc      Ravenhill Village Ruins.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13010
+Desc      The rows of gravestones.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13012
+Desc      Morladim's Path.
+~
+#ENDEXIT
+Reset M 0 13011 2 13009
+#ENDROOM
+
+#ROOM
+Vnum     13010
+Name     &dRavenhill Cemetery - Gravestones&d~
+Sector   field~
+Desc     Row upon row of crumbling headstones stretch out into the fog. The dead
+do not rest easy in Duskwood. Skeletons and ghouls roam freely, hunting
+the living.
+~
+#EXIT
+Direction north~
+ToRoom    13009
+Desc      The cemetery gates.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13011
+Desc      A large stone mausoleum.
+~
+#ENDEXIT
+Reset M 0 13011 3 13010
+#ENDROOM
+
+#ROOM
+Vnum     13011
+Name     &dRavenhill Cemetery - The Mausoleum&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A grand, gothic crypt built for the nobility of Lordaeron. The stone doors
+have been smashed open. A terrible darkness emanates from the stairs leading
+down into the catacombs.
+~
+#EXIT
+Direction west~
+ToRoom    13010
+Desc      The gravestones.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13012
+Name     &dMorladim's Path&d~
+Sector   field~
+Desc     A lonely, overgrown path winding along the eastern edge of the cemetery.
+This is the patrol route of the tragic and terrifying undead paladin,
+Morladim, who strikes down intruders with a glowing two-handed blade.
+~
+#EXIT
+Direction west~
+ToRoom    13009
+Desc      The cemetery gates.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13013
+Desc      The Rotting Orchard.
+~
+#ENDEXIT
+Reset M 0 13005 1 13012
+  Reset E 1 13004 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13013
+Name     &dThe Rotting Orchard&d~
+Sector   forest~
+Desc     The apple trees here have succumbed to the blight. Their branches are
+bare and twisted, and the fruit on the ground is black and teeming with
+maggots. Mutated Brain Racker ghouls feast on the decay.
+~
+#EXIT
+Direction north~
+ToRoom    13012
+Desc      Morladim's Path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13014
+Desc      Deeper into the orchard.
+~
+#ENDEXIT
+Reset M 0 13012 2 13013
+  Reset E 1 13012 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13014
+Name     &dThe Rotting Orchard - Deep Woods&d~
+Sector   forest~
+Desc     The canopy is completely closed here. The smell of rot is sickening. To
+the west, thick, sticky spider webs begin to cover the trees and the
+ground.
+~
+#EXIT
+Direction north~
+ToRoom    13013
+Desc      The edge of the orchard.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13018
+Desc      The Weaver's Web.
+~
+#ENDEXIT
+Reset M 0 13012 2 13014
+#ENDROOM
+
+#ROOM
+Vnum     13015
+Name     &dThe Weeping Cave&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A dark, wet cave mouth completely obscured by massive, suffocating webs.
+Black Widow spiders the size of mastiffs drop from the ceiling, their
+venom highly lethal to the unprepared.
+~
+#EXIT
+Direction east~
+ToRoom    13018
+Desc      The Weaver's Web outside.
+~
+#ENDEXIT
+Reset M 0 13013 3 13015
+  Reset G 1 13010 10
+#ENDROOM
+
+#ROOM
+Vnum     13016
+Name     &dThe Yorgen Farmstead&d~
+Sector   field~
+Desc     An isolated farm that was overrun by rabid wolves. The fields are torn
+up, and the fences are smashed. Snarling Rabid Dire Wolves prowl the
+area, driven mad by the forest's curse.
+~
+#EXIT
+Direction north~
+ToRoom    13019
+Desc      The Gloomy Path.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13017
+Desc      The ruined barn.
+~
+#ENDEXIT
+Reset M 0 13009 2 13016
+#ENDROOM
+
+#ROOM
+Vnum     13017
+Name     &dThe Yorgen Farmstead - Barn&d~
+Sector   inside~
+Flags    indoors~
+Desc     The barn doors have been clawed to pieces. Bloodstains on the floor tell
+a grim story of the farmers' final moments. More rabid wolves sleep in
+the hay lofts.
+~
+#EXIT
+Direction west~
+ToRoom    13016
+Desc      The farmhouse yard.
+~
+#ENDEXIT
+Reset M 0 13009 2 13017
+#ENDROOM
+
+#ROOM
+Vnum     13018
+Name     &dThe Weaver's Web&d~
+Sector   forest~
+Desc     The forest is choked with webs. Mummified bodies of deer, wolves, and
+even human travelers hang suspended in the trees. The giant Black Widows
+skitter silently across the silk threads.
+~
+#EXIT
+Direction east~
+ToRoom    13014
+Desc      The deep orchard.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13015
+Desc      The Weeping Cave.
+~
+#ENDEXIT
+Reset M 0 13013 2 13018
+#ENDROOM
+
+#ROOM
+Vnum     13019
+Name     &dThe Gloomy Path&d~
+Sector   field~
+Desc     This rough dirt path connects the Crossroads to the western reaches of
+Duskwood. Defias Smugglers operate out of the heavy brush here, moving
+goods between Westfall and the southern coast.
+~
+#EXIT
+Direction east~
+ToRoom    13007
+Desc      The Duskwood Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13016
+Desc      The Yorgen Farmstead.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13020
+Desc      Roland's Doom.
+~
+#ENDEXIT
+Reset M 0 13014 1 13019
+  Reset G 1 13011 10
+#ENDROOM
+
+#ROOM
+Vnum     13020
+Name     &dRoland's Doom&d~
+Sector   hills~
+Desc     The hills here are riddled with abandoned mine shafts. The area has been
+completely taken over by the Nightbane Worgen. These ferocious beastmen
+leap from the shadows with razor-sharp claws.
+~
+#EXIT
+Direction east~
+ToRoom    13019
+Desc      The Gloomy Path.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13021
+Desc      An open mine shaft.
+~
+#ENDEXIT
+Reset M 0 13010 2 13020
+  Reset G 1 13008 10
+#ENDROOM
+
+#ROOM
+Vnum     13021
+Name     &dRoland's Doom - The Mine&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The timber supports of this mine are rotting away. The Worgen use these
+tunnels as a den, their terrifying howls echoing off the stone walls.
+~
+#EXIT
+Direction north~
+ToRoom    13020
+Desc      The hills outside.
+~
+#ENDEXIT
+Reset M 0 13010 2 13021
+#ENDROOM
+
+#ROOM
+Vnum     13022
+Name     &dVul'Gol Ogre Mound - Entrance&d~
+Sector   hills~
+Desc     A massive, crude mound of dirt and logs rises from the southern woods.
+It is home to the brutish Vul'Gol ogres. The smell of unwashed bodies
+and roasting meat is incredibly strong.
+~
+#EXIT
+Direction north~
+ToRoom    13023
+Desc      The Darkened Road East.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13023
+Name     &dThe Darkened Road - East&d~
+Sector   field~
+Desc     Leaving Darkshire to the east, the road becomes even more treacherous.
+The fog clings to the ground, hiding the roots and rocks. Stitches the
+Abomination is known to march down this road on his path of destruction.
+~
+#EXIT
+Direction west~
+ToRoom    13000
+Desc      Darkshire Town Square.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13029
+Desc      The road to Deadwind Pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13022
+Desc      The Ogre Mound.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13024
+Desc      Brightwood Grove.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13024
+Name     &dBrightwood Grove&d~
+Sector   forest~
+Desc     Despite its name, there is nothing bright about this grove. It is heavily
+infested with Nightbane Worgen who stalk the perimeter of Darkshire,
+waiting for the Night Watch to drop their guard.
+~
+#EXIT
+Direction south~
+ToRoom    13023
+Desc      The eastern road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13025
+Desc      Deeper into the grove.
+~
+#ENDEXIT
+Reset M 0 13010 2 13024
+#ENDROOM
+
+#ROOM
+Vnum     13025
+Name     &dBrightwood Grove - Deep Woods&d~
+Sector   forest~
+Desc     The Worgen are relentless here. The trees are heavily scarred by massive
+claw marks, and the undergrowth is trampled down by pack hunting. To the
+north, a faint, pure light glows through the fog.
+~
+#EXIT
+Direction south~
+ToRoom    13024
+Desc      The edge of the grove.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13026
+Desc      Twilight Grove.
+~
+#ENDEXIT
+Reset M 0 13010 3 13025
+#ENDROOM
+
+#ROOM
+Vnum     13026
+Name     &dTwilight Grove - Approach&d~
+Sector   forest~
+Desc     The fog suddenly lifts. The trees here are ancient and incredibly tall,
+their leaves a vibrant, glowing green. A pristine sanctuary hidden within
+the cursed woods, protected by ancient magic.
+~
+#EXIT
+Direction south~
+ToRoom    13025
+Desc      Brightwood Grove.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13027
+Desc      The Moonwell.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13027
+Name     &dTwilight Grove - The Moonwell&d~
+Sector   forest~
+Desc     A massive, glowing Moonwell sits in the center of a crater. A colossal
+tree with a portal in its roots towers above it, connecting to the
+Emerald Dream. The air is perfectly calm and pure.
+~
+#EXIT
+Direction south~
+ToRoom    13026
+Desc      The grove approach.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13028
+Name     &dBeggar's Haunt&d~
+Sector   forest~
+Desc     A lonely, ruined tower sits on a hill near the eastern border. It is a
+place of dark rumors and ghost stories, avoided by the locals.
+~
+#EXIT
+Direction south~
+ToRoom    13029
+Desc      The road to Deadwind Pass.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13029
+Name     &dRoad to Deadwind Pass&d~
+Sector   hills~
+Desc     The trees begin to thin out, replaced by sharp, jagged rocks and dead
+stumps. The air grows incredibly still and oppressive. To the east lies
+the cursed canyon of Deadwind Pass.
+~
+#EXIT
+Direction west~
+ToRoom    13023
+Desc      The Darkened Road to Darkshire.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13028
+Desc      Beggar's Haunt.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
