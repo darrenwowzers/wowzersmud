@@ -1,0 +1,1200 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Tanaris~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       40 50 40 50
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       33000
+Keywords   wastewander bandit human rogue~
+Short      a Wastewander bandit~
+Long       A Wastewander bandit hides his face behind a dusty cowl.~
+Desc       These outlaws roam the deep desert, stealing water and supplies from
+anyone foolish enough to travel outside the protection of Gadgetzan.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1500 3500
+Stats2     42 42 300
+Stats3     8 20 42
+Stats4     0 0 0 0 0
+Attribs    18 14 16 12 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33001
+Keywords   wastewander shadow mage human~
+Short      a Wastewander shadow mage~
+Long       A Wastewander shadow mage conjures dark energy in her hands.~
+Desc       The magical muscle of the Wastewander thieves. They use shadow magic
+to disorient their victims before the bandits strike.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1200 3000
+Stats2     43 43 800
+Stats3     7 18 43
+Stats4     0 0 0 0 0
+Attribs    12 19 14 16 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33002
+Keywords   gadgetzan bruiser goblin guard~
+Short      a Gadgetzan Bruiser~
+Long       A heavily armed Gadgetzan Bruiser glares at you, daring you to start trouble.~
+Desc       Employed by the Steamwheedle Cartel to keep the peace in Gadgetzan.
+They are heavily armored, heavily armed, and completely ruthless when
+it comes to breaking up fights.
+~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 4000 10000
+Stats2     50 50 500
+Stats3     10 25 50
+Stats4     0 0 0 0 0
+Attribs    19 14 18 12 14 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33003
+Keywords   marin noggenfogger goblin vendor~
+Short      Marin Noggenfogger~
+Long       Marin Noggenfogger mixes a glowing, bubbling potion.~
+Desc       A brilliant, if slightly mad, goblin alchemist. He is famous for
+creating an elixir that causes unpredictable and often hilarious
+side effects.
+~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 45 0 0 2500 6000
+Stats2     45 45 400
+Stats3     8 22 45
+Stats4     0 0 0 0 0
+Attribs    12 20 14 18 16 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33004
+Keywords   sandfury troll warrior~
+Short      a Sandfury troll~
+Long       A Sandfury troll charges at you with a jagged blade!~
+Desc       These trolls have adapted to the harsh desert environment over
+thousands of years. Their skin is cracked and pale, and they are
+fiercely protective of their ancient ruins.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1800 4000
+Stats2     44 44 250
+Stats3     8 22 44
+Stats4     0 0 0 0 0
+Attribs    18 12 16 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33005
+Keywords   sandfury shadowcaster troll mage~
+Short      a Sandfury shadowcaster~
+Long       A Sandfury shadowcaster weaves a dark curse.~
+Desc       The spiritual leaders of the Sandfury tribe, drawing power from
+the dark loa that sleep beneath the sands of Zul'Farrak.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1500 3500
+Stats2     45 45 900
+Stats3     7 20 45
+Stats4     0 0 0 0 0
+Attribs    14 18 14 16 16 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33006
+Keywords   dunemaul ogre brute~
+Short      a Dunemaul ogre~
+Long       A massive Dunemaul ogre pounds his club against the sand.~
+Desc       These simple-minded brutes control the southern dunes of Tanaris.
+What they lack in intelligence, they make up for with staggering
+physical strength.
+~
+Race       ogre~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 2500 6000
+Stats2     46 46 200
+Stats3     9 25 46
+Stats4     0 0 0 0 0
+Attribs    20 8 20 8 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33007
+Keywords   fire roc bird beast flying~
+Short      a fire roc~
+Long       A massive bird with plumage like burning flames circles overhead.~
+Desc       These enormous birds of prey nest in the high, rocky outcroppings
+of the desert. They can carry off a full-grown goblin with ease.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 43 0 0 1600 3800
+Stats2     43 43 250
+Stats3     8 20 43
+Stats4     0 0 0 0 0
+Attribs    17 14 15 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33008
+Keywords   southsea pirate human rogue~
+Short      a Southsea pirate~
+Long       A Southsea pirate staggers around, swinging a cutlass.~
+Desc       These pirates have built a heavily fortified compound on the eastern
+shore of Tanaris. They constantly raid Steamwheedle shipping lines.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1700 3900
+Stats2     44 44 300
+Stats3     8 21 44
+Stats4     0 0 0 0 0
+Attribs    16 14 15 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33009
+Keywords   blisterpaw hyena beast~
+Short      a blisterpaw hyena~
+Long       A blisterpaw hyena snaps its jaws, drooling hungrily.~
+Desc       Scavengers that roam the desert in packs. Their jaws are strong
+enough to crush bone, allowing them to eat what other predators leave
+behind.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 41 0 0 1300 3200
+Stats2     41 41 180
+Stats3     7 18 41
+Stats4     0 0 0 0 0
+Attribs    15 12 14 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33010
+Keywords   silithid swarmer insect bug~
+Short      a silithid swarmer~
+Long       A terrifying, multi-legged insect erupts from the sand!~
+Desc       A drone of the silithid hive. They are mindless and aggressively
+defend their hive structures, swarming enemies in sheer numbers.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1600 3800
+Stats2     45 45 200
+Stats3     8 22 45
+Stats4     0 0 0 0 0
+Attribs    16 10 16 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33011
+Keywords   silithid protector insect bug~
+Short      a silithid protector~
+Long       A massive silithid bug clicks its mandibles furiously.~
+Desc       A heavily armored soldier of the silithid hive. Its carapace is
+thick enough to deflect sword strikes, and its pincers can slice
+through armor.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 2800 6500
+Stats2     47 47 250
+Stats3     9 26 47
+Stats4     0 0 0 0 0
+Attribs    19 10 18 12 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33012
+Keywords   glasshide basilisk reptile beast~
+Short      a glasshide basilisk~
+Long       A basilisk with shimmering, translucent scales hisses at you.~
+Desc       These desert basilisks have scales that look like frosted glass.
+They use the reflection of the blinding sun to disorient their prey.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 43 0 0 1500 3600
+Stats2     43 43 200
+Stats3     8 20 43
+Stats4     0 0 0 0 0
+Attribs    16 10 18 10 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33013
+Keywords   narain soothfancy gnome mage engineer~
+Short      Narain Soothfancy~
+Long       Narain Soothfancy polishes a strange, whirring scrying orb.~
+Desc       An eccentric gnome who lives in isolation in the northern reaches
+of the desert. He claims to be a master engineer, a powerful mage,
+and a psychic.
+~
+Race       gnome~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 3000 8000
+Stats2     50 50 1000
+Stats3     10 25 50
+Stats4     0 0 0 0 0
+Attribs    12 20 14 18 18 10 10
+Saves      0 0 0 0 0
+Speaks     common gnomish~
+Speaking   gnomish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       33014
+Keywords   chief ukorz sandscalp troll boss leader~
+Short      Chief Ukorz Sandscalp~
+Long       Chief Ukorz Sandscalp roars, commanding the Sandfury tribe.~
+Desc       The brutal leader of the Sandfury trolls. He rules Zul'Farrak
+with an iron fist and seeks to awaken the ancient hydra Gahz'rilla.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 50 0 0 5000 12000
+Stats2     50 50 400
+Stats3     10 28 50
+Stats4     0 0 0 0 0
+Attribs    20 14 18 16 16 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     33000
+Keywords noggenfogger elixir potion drinkable~
+Type     potion~
+Short    a Noggenfogger Elixir~
+Long     A small vial filled with a bubbling, neon-green liquid.~
+WFlags   take hold~
+Values   40 'shrink' 'invis' '' 0 0
+Stats    1 200 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33001
+Keywords wastewander water pouch drinkcon~
+Type     drinkcon~
+Short    a Wastewander water pouch~
+Long     A tightly stitched leather pouch designed to prevent evaporation.~
+WFlags   take hold~
+Values   20 20 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33002
+Keywords gadgetzan wrench heavy mace weapon~
+Type     weapon~
+Short    a heavy Gadgetzan wrench~
+Long     An oversized steel wrench, perfect for fixing pipes or breaking jaws.~
+WFlags   take wield~
+Values   0 8 20 7 0 0
+Stats    10 300 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33003
+Keywords sandfury mask tiki face armor~
+Type     armor~
+Short    a wooden Sandfury mask~
+Long     A brightly painted wooden mask used in troll rituals.~
+WFlags   take head~
+Values   6 0 0 0 0 0
+Stats    4 150 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33004
+Keywords dunemaul club heavy tree weapon~
+Type     weapon~
+Short    a massive Dunemaul club~
+Long     A petrified tree trunk used as a bludgeon by the desert ogres.~
+WFlags   take wield~
+Values   0 10 24 7 0 0
+Stats    20 400 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33005
+Keywords fire roc feather glowing treasure~
+Type     treasure~
+Short    a glowing fire roc feather~
+Long     A massive feather that still radiates intense heat.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33006
+Keywords southsea cutlass sword weapon~
+Type     weapon~
+Short    a Southsea cutlass~
+Long     A curved sword stained with salt and dried blood.~
+WFlags   take wield~
+Values   0 7 21 3 0 0
+Stats    6 250 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33007
+Keywords blisterpaw hyena fang treasure~
+Type     treasure~
+Short    a blisterpaw hyena fang~
+Long     A jagged, yellowed tooth from a desert scavenger.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 30 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33008
+Keywords silithid carapace shield bug armor~
+Type     armor~
+Short    a silithid carapace shield~
+Long     A shield fashioned from the incredibly hard shell of a silithid bug.~
+WFlags   take shield~
+Values   12 0 0 0 0 0
+Stats    15 350 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33009
+Keywords glasshide basilisk scale pants armor~
+Type     armor~
+Short    glasshide scale pants~
+Long     A pair of leggings that shimmer like polished glass.~
+WFlags   take legs~
+Values   8 0 0 0 0 0
+Stats    7 280 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33010
+Keywords pirates rum bottle drinkcon~
+Type     drinkcon~
+Short    a bottle of Southsea rum~
+Long     A dark glass bottle smelling strongly of harsh alcohol and molasses.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    2 40 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33011
+Keywords desert sun hat wide brim armor~
+Type     armor~
+Short    a wide-brimmed desert sun hat~
+Long     A sturdy canvas hat designed to keep the brutal Tanaris sun off your neck.~
+WFlags   take head~
+Values   4 0 0 0 0 0
+Stats    2 80 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33012
+Keywords gadgetzan supply crate container~
+Type     container~
+Short    a Gadgetzan supply crate~
+Long     A sturdy wooden box stamped with the logo of the Steamwheedle Cartel.~
+WFlags   none~
+Values   100 0 0 0 0 0
+Stats    20 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33013
+Keywords scimitar sands curved sword weapon~
+Type     weapon~
+Short    the Scimitar of the Sands~
+Long     A masterfully crafted curved blade that seems to cut through the hot air.~
+WFlags   take wield~
+Values   0 9 22 3 0 0
+Stats    8 500 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33014
+Keywords troll mojo vial potion~
+Type     potion~
+Short    a vial of troll mojo~
+Long     A vial filled with a strange, pulsing blue liquid used in voodoo magic.~
+WFlags   take hold~
+Values   40 'cure critical' 'armor' '' 0 0
+Stats    1 150 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     33000
+Name     &OThe Shimmering Pass&d~
+Sector   field~
+Desc     The blinding white salt of Thousand Needles abruptly ends here, giving
+way to an endless ocean of golden sand. The heat is dry and absolute.
+The desert of Tanaris stretches out before you, unforgiving and vast.
+~
+#EXIT
+Direction north~
+ToRoom    26015
+Desc      Back to the Shimmering Flats.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33001
+Desc      The road to Gadgetzan.
+~
+#ENDEXIT
+Reset M 0 33009 2 33000
+#ENDROOM
+
+#ROOM
+Vnum     33001
+Name     &OThe Gadgetzan Approach&d~
+Sector   field~
+Desc     A wide, sandy trail marked by bleached animal skulls and rusted
+mechanical parts. In the distance, the high metal walls of a desert
+fortress rise above the shifting dunes.
+~
+#EXIT
+Direction north~
+ToRoom    33000
+Desc      The Shimmering Pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33002
+Desc      Gadgetzan North Gate.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     33002
+Name     &xGadgetzan - North Gate&d~
+Sector   city~
+Desc     Massive steel doors stand open, heavily guarded by goblin bruisers.
+Water purifiers hum loudly along the walls, providing the lifeblood
+that keeps this neutral trading post alive.
+~
+#EXIT
+Direction north~
+ToRoom    33001
+Desc      The desert approach.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33003
+Desc      Gadgetzan Square.
+~
+#ENDEXIT
+Reset M 0 33002 2 33002
+  Reset E 1 33002 10 16
+#ENDROOM
+
+#ROOM
+Vnum     33003
+Name     &xGadgetzan - Central Square&d~
+Sector   city~
+Desc     The heart of the goblin city. Tents and metal shacks are crammed
+together, offering everything from rare engineering schematics to
+questionable drinking water. An arena sits to the east.
+~
+#EXIT
+Direction north~
+ToRoom    33002
+Desc      The North Gate.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33005
+Desc      The South Gate.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    33004
+Desc      Marin's Shop.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    33025
+Desc      The Thunderdrome.
+~
+#ENDEXIT
+Reset M 0 33002 3 33003
+Reset O 0 33012 1 33003
+#ENDROOM
+
+#ROOM
+Vnum     33004
+Name     &xMarin Noggenfogger's Shop&d~
+Sector   inside~
+Flags    indoors~
+Desc     A cramped, poorly ventilated shack filled with bubbling beakers and
+vats of brightly colored liquids. It smells strongly of sulfur and
+sweet desert cactus.
+~
+#EXIT
+Direction east~
+ToRoom    33003
+Desc      The Central Square.
+~
+#ENDEXIT
+Reset M 0 33003 1 33004
+  Reset G 1 33000 10
+#ENDROOM
+
+#ROOM
+Vnum     33005
+Name     &xGadgetzan - South Gate&d~
+Sector   city~
+Desc     The southern exit from the safety of the goblin city. The metal walls
+are scored by sandstorms and the occasional stray bullet. Beyond
+these gates lies the deep desert.
+~
+#EXIT
+Direction north~
+ToRoom    33003
+Desc      The Central Square.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33006
+Desc      The Deep Desert.
+~
+#ENDEXIT
+Reset M 0 33002 2 33005
+#ENDROOM
+
+#ROOM
+Vnum     33006
+Name     &OThe Tanaris Desert&d~
+Sector   field~
+Desc     Rolling dunes of golden sand stretch out in every direction. The heat
+distorts the horizon, making it incredibly difficult to navigate.
+Predators stalk the shadows of the dunes.
+~
+#EXIT
+Direction north~
+ToRoom    33005
+Desc      Gadgetzan South Gate.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    33008
+Desc      Toward Steamwheedle Port.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33012
+Desc      Waterspring Field.
+~
+#ENDEXIT
+Reset M 0 33009 2 33006
+#ENDROOM
+
+#ROOM
+Vnum     33007
+Name     &OThe Noonshade Ruins&d~
+Sector   field~
+Desc     The crumbling, sand-swept remains of an ancient troll city. Broken
+pillars and cracked stone altars poke out from the dunes, guarded
+by the remnants of the Sandfury tribe.
+~
+#EXIT
+Direction west~
+ToRoom    33012
+Desc      Waterspring Field.
+~
+#ENDEXIT
+Reset M 0 33005 2 33007
+  Reset G 1 33014 10
+#ENDROOM
+
+#ROOM
+Vnum     33008
+Name     &OThe Road to Steamwheedle&d~
+Sector   field~
+Desc     The sand begins to thin, replaced by hard-packed earth and the smell
+of salt water. A trail leads east toward the goblin port on the
+Great Sea.
+~
+#EXIT
+Direction west~
+ToRoom    33006
+Desc      The desert.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    33009
+Desc      Steamwheedle Port.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     33009
+Name     &xSteamwheedle Port&d~
+Sector   city~
+Desc     A small, neutral harbor built on the eastern coast. Goblin ships
+dock here to avoid the pirates to the south. The sound of crashing
+waves provides a welcome relief from the silent desert.
+~
+#EXIT
+Direction west~
+ToRoom    33008
+Desc      The desert road.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33010
+Desc      The Pirate Cove.
+~
+#ENDEXIT
+Reset M 0 33008 2 33009
+  Reset E 1 33006 10 16
+#ENDROOM
+
+#ROOM
+Vnum     33010
+Name     &bLost Rigger Cove&d~
+Sector   field~
+Desc     Hidden behind a massive rock formation, this secluded cove serves as
+the primary base for the Southsea pirates. Ships are anchored just
+offshore, and the beach is heavily guarded.
+~
+#EXIT
+Direction north~
+ToRoom    33009
+Desc      Steamwheedle Port.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33011
+Desc      The Pirate Compound.
+~
+#ENDEXIT
+Reset M 0 33008 3 33010
+Reset O 0 33010 1 33010
+#ENDROOM
+
+#ROOM
+Vnum     33011
+Name     &bSouthsea Pirate Compound&d~
+Sector   city~
+Desc     A fortified camp built from the timber of wrecked ships. Plunder is
+piled high, and drunken pirates sing bawdy songs around a massive
+bonfire in the center of the yard.
+~
+#EXIT
+Direction north~
+ToRoom    33010
+Desc      The Cove.
+~
+#ENDEXIT
+Reset M 0 33008 2 33011
+#ENDROOM
+
+#ROOM
+Vnum     33012
+Name     &OWaterspring Field&d~
+Sector   field~
+Desc     A rare collection of natural wells that provide the only fresh water
+for miles. The Wastewander bandits have laid claim to this area,
+forcing travelers to pay a steep price or fight.
+~
+#EXIT
+Direction north~
+ToRoom    33006
+Desc      The northern desert.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    33007
+Desc      Noonshade Ruins.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    33013
+Desc      Wastewander Encampment.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33014
+Desc      The deep sands.
+~
+#ENDEXIT
+Reset M 0 33001 2 33012
+#ENDROOM
+
+#ROOM
+Vnum     33013
+Name     &OWastewander Encampment&d~
+Sector   city~
+Desc     A sprawling camp of dusty tents. Stolen supplies from Gadgetzan are
+hoarded here. The bandits are well-armed and view any outsider as a
+threat to their water supply.
+~
+#EXIT
+Direction east~
+ToRoom    33012
+Desc      Waterspring Field.
+~
+#ENDEXIT
+Reset M 0 33000 3 33013
+  Reset E 1 33013 10 16
+#ENDROOM
+
+#ROOM
+Vnum     33014
+Name     &OThe Zul'Farrak Approach&d~
+Sector   mountain~
+Desc     The dunes give way to a rocky gorge. The sand here is stained a deep,
+rusty red. Giant carved faces stare down from the canyon walls, a
+warning to those who would enter the troll city.
+~
+#EXIT
+Direction north~
+ToRoom    33012
+Desc      Waterspring Field.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33015
+Desc      The Gates of Zul'Farrak.
+~
+#ENDEXIT
+Reset M 0 33004 2 33014
+#ENDROOM
+
+#ROOM
+Vnum     33015
+Name     &OThe Gates of Zul'Farrak&d~
+Sector   city~
+Desc     Massive stone doors block the entrance to the ancient city. Sandfury
+trolls patrol the ramparts above, raining spears down on any who
+approach without a massive army behind them.
+~
+#EXIT
+Direction north~
+ToRoom    33014
+Desc      The gorge.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33016
+Desc      The Altar of Zul.
+~
+#ENDEXIT
+Reset M 0 33005 2 33015
+  Reset E 1 33003 10 6
+Reset M 0 33004 2 33015
+#ENDROOM
+
+#ROOM
+Vnum     33016
+Name     &OThe Altar of Zul&d~
+Sector   field~
+Desc     A blood-stained pyramid stands just outside the city gates. The Chief
+of the Sandfury tribe occasionally presides over sacrifices here,
+calling to the sleeping hydra god.
+~
+#EXIT
+Direction north~
+ToRoom    33015
+Desc      The Gates.
+~
+#ENDEXIT
+Reset M 0 33014 1 33016
+#ENDROOM
+
+#ROOM
+Vnum     33017
+Name     &OValley of the Watchers&d~
+Sector   field~
+Desc     Colossal stone statues of troll ancestors line this wide, sandy valley.
+The wind whistling through the statues creates a low, moaning sound
+that unnerves even the bravest explorers.
+~
+#EXIT
+Direction east~
+ToRoom    33012
+Desc      Waterspring Field.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    33018
+Desc      The Noxious Lair.
+~
+#ENDEXIT
+Reset M 0 33007 1 33017
+#ENDROOM
+
+#ROOM
+Vnum     33018
+Name     &OThe Noxious Lair&d~
+Sector   hills~
+Desc     The ground here is porous and covered in a strange, sticky resin.
+Massive sinkholes lead into darkness. This is the territory of the
+silithid bugs, and the buzzing is deafening.
+~
+#EXIT
+Direction east~
+ToRoom    33017
+Desc      Valley of the Watchers.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33019
+Desc      The Gaping Chasm.
+~
+#ENDEXIT
+Reset M 0 33010 3 33018
+#ENDROOM
+
+#ROOM
+Vnum     33019
+Name     &OThe Gaping Chasm&d~
+Sector   hills~
+Desc     A massive crater in the desert floor. The hive structures of the
+silithid tower above the sand like twisted, organic castles. Protectors
+swarm from the tunnels to defend their queen.
+~
+#EXIT
+Direction north~
+ToRoom    33018
+Desc      The Noxious Lair.
+~
+#ENDEXIT
+Reset M 0 33011 2 33019
+  Reset E 1 33008 10 11
+Reset M 0 33010 2 33019
+#ENDROOM
+
+#ROOM
+Vnum     33020
+Name     &ODunemaul Compound&d~
+Sector   field~
+Desc     A crude camp built entirely of giant bones and stretched animal hides.
+The Dunemaul ogres have claimed this southern corner of the desert,
+smashing anything that enters their territory.
+~
+#EXIT
+Direction north~
+ToRoom    33019
+Desc      The Gaping Chasm.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    33022
+Desc      Eastmoon Ruins.
+~
+#ENDEXIT
+Reset M 0 33006 2 33020
+  Reset E 1 33004 10 16
+#ENDROOM
+
+#ROOM
+Vnum     33021
+Name     &OThistleshrub Valley&d~
+Sector   field~
+Desc     A deep, dry valley where aggressive, animated cacti and basilisks
+roam. The heat here is magnified by the surrounding rock walls,
+making it feel like an oven.
+~
+#EXIT
+Direction north~
+ToRoom    33020
+Desc      Dunemaul Compound.
+~
+#ENDEXIT
+Reset M 0 33012 3 33021
+  Reset E 1 33009 10 7
+#ENDROOM
+
+#ROOM
+Vnum     33022
+Name     &OEastmoon Ruins&d~
+Sector   field~
+Desc     The twin city to Noonshade. These troll ruins are completely buried
+in sand, with only the tops of the tallest pyramids visible. Ogres
+frequently dig here, looking for shiny trinkets.
+~
+#EXIT
+Direction west~
+ToRoom    33020
+Desc      Dunemaul Compound.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    33023
+Desc      Southbreak Shore.
+~
+#ENDEXIT
+Reset M 0 33006 1 33022
+#ENDROOM
+
+#ROOM
+Vnum     33023
+Name     &bSouthbreak Shore&d~
+Sector   field~
+Desc     The southern edge of the continent. The Great Sea stretches endlessly
+to the south, cold and unforgiving. The beach is littered with
+strange, glowing kelp.
+~
+#EXIT
+Direction north~
+ToRoom    33022
+Desc      Eastmoon Ruins.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    33024
+Desc      Land's End Beach.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     33024
+Name     &bLand's End Beach&d~
+Sector   field~
+Desc     The southeastern tip of Tanaris. Giant sea turtles lay their eggs
+in the warm sand here. It is one of the few peaceful spots in the
+entire desert.
+~
+#EXIT
+Direction west~
+ToRoom    33023
+Desc      Southbreak Shore.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    33025
+Desc      Narain's Camp.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     33025
+Name     &xNarain's Camp&d~
+Sector   city~
+Desc     A bizarre camp filled with strange mechanical contraptions, scrying
+orbs, and a crashed flying machine. Narain Soothfancy lives here in
+self-imposed exile, trying to decode the secrets of the sands.
+~
+#EXIT
+Direction south~
+ToRoom    33024
+Desc      Land's End Beach.
+~
+#ENDEXIT
+Reset M 0 33013 1 33025
+Reset O 0 33011 1 33025
+#ENDROOM
+
+#ROOM
+Vnum     33026
+Name     &OAbyssal Sands&d~
+Sector   field~
+Desc     The deepest part of the desert, where the sand turns a stark, pale
+yellow. Giant basilisks slither silently through the dunes.
+~
+#EXIT
+Direction west~
+ToRoom    33017
+Desc      Valley of the Watchers.
+~
+#ENDEXIT
+Reset M 0 33012 2 33026
+#ENDROOM
+
+#ROOM
+Vnum     33027
+Name     &OThe Plundered Caravan&d~
+Sector   field~
+Desc     The wreckage of a goblin trade caravan lies here, stripped bare by
+bandits and scavengers. Vultures circle lazily in the sky above.
+~
+#EXIT
+Direction north~
+ToRoom    33012
+Desc      Waterspring Field.
+~
+#ENDEXIT
+Reset M 0 33000 2 33027
+Reset M 0 33009 1 33027
+#ENDROOM
+
+#ROOM
+Vnum     33028
+Name     &OScavenger's Rise&d~
+Sector   mountain~
+Desc     A high sandstone mesa that provides a roost for the massive Fire
+Rocs. The ground is littered with large, glowing feathers.
+~
+#EXIT
+Direction down~
+ToRoom    33006
+Desc      The desert below.
+~
+#ENDEXIT
+Reset M 0 33007 2 33028
+Reset O 0 33005 1 33028
+#ENDROOM
+
+#ROOM
+Vnum     33029
+Name     &OThe Scorched Horizon&d~
+Sector   field~
+Desc     There is nothing here but sand, heat, and death. To venture any
+further is madness. The sun beats down with a physical weight.
+~
+#EXIT
+Direction north~
+ToRoom    33006
+Desc      Back toward civilization.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
