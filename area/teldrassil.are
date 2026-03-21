@@ -1,0 +1,1245 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Teldrassil~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       1 10 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       26000
+Keywords   young nightsaber cat beast~
+Short      a Young Nightsaber~
+Long       A Young Nightsaber playfully pounces on a falling leaf.
+~
+Desc       These small, incredibly agile felines roam the shaded glens of the
+world tree. Though young, their claws are sharp enough to test newly
+trained Night Elf initiates.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 2 0 0 20 40
+Stats2     2 2 20
+Stats3     1 4 5
+Stats4     0 0 0 0 0
+Attribs    10 15 10 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26001
+Keywords   webwood spider bug venomous~
+Short      a Webwood Spider~
+Long       A venomous Webwood Spider descends silently from the canopy.
+~
+Desc       Large, aggressive arachnids that have spun thick webs throughout the
+northern caves. Their venom causes a painful, burning rash.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 3 0 0 30 60
+Stats2     3 3 30
+Stats3     1 5 6
+Stats4     0 0 0 0 0
+Attribs    10 13 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26002
+Keywords   grell imp mischievous magic~
+Short      a Grell~
+Long       A mischievous Grell dances around, tossing handfuls of dirt.
+~
+Desc       Small, chaotic woodland sprites born of natural magic. They are highly
+annoying and love to steal shiny objects from passing travelers.
+~
+Race       monster~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 2 0 0 25 50
+Stats2     2 2 25
+Stats3     1 4 6
+Stats4     0 0 0 0 0
+Attribs    10 15 10 13 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26003
+Keywords   grellkin imp aggressive grell~
+Short      a Grellkin~
+Long       An aggressive Grellkin shrieks, barring needle-like teeth.
+~
+Desc       The larger, far more hostile cousins of the grell. They attack in
+swarms, attempting to overwhelm anyone who enters their glades.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 4 0 0 45 80
+Stats2     4 4 45
+Stats3     1 6 8
+Stats4     0 0 0 0 0
+Attribs    13 13 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26004
+Keywords   strigid owl bird flying beast~
+Short      a Strigid Owl~
+Long       A Strigid Owl hoots softly from a high branch, eyes glowing in the dark.
+~
+Desc       Beautiful, majestic birds of prey that hunt throughout the branches
+of Teldrassil. They are revered by the Night Elves as symbols of wisdom.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 3 0 0 35 65
+Stats2     3 3 35
+Stats3     1 5 7
+Stats4     0 0 0 0 0
+Attribs    10 15 10 13 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26005
+Keywords   timberling elemental tree plant~
+Short      a Timberling~
+Long       A small, animate Timberling shuffles through the undergrowth.
+~
+Desc       Tiny nature elementals formed from the roots and bark of the world tree.
+They are naturally peaceful but will defend the forest fiercely.
+~
+Race       elemental~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 4 0 0 50 90
+Stats2     4 4 50
+Stats3     1 6 8
+Stats4     0 0 0 0 0
+Attribs    15 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26006
+Keywords   corrupt timberling elemental plant fel~
+Short      a Corrupt Timberling~
+Long       A Corrupt Timberling oozes fel sap, its leaves withered and black.
+~
+Desc       A tragic victim of the subtle corruption seeping into the roots of
+Teldrassil. It is completely driven mad by the pain and attacks anything
+it sees.
+~
+Race       elemental~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 6 0 0 80 150
+Stats2     6 6 80
+Stats3     2 8 10
+Stats4     0 0 0 0 0
+Attribs    18 10 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26007
+Keywords   gnarlpine defender furbolg bearman~
+Short      a Gnarlpine Defender~
+Long       A heavily muscled Gnarlpine Defender roars, brandishing a wooden club.
+~
+Desc       The Gnarlpine furbolgs were once peaceful allies of the Night Elves.
+Now, driven aggressive by the growing corruption, they violently defend
+their territorial claims.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 7 0 0 100 200
+Stats2     7 7 100
+Stats3     2 8 12
+Stats4     0 0 0 0 0
+Attribs    18 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26008
+Keywords   gnarlpine shaman furbolg magic bearman~
+Short      a Gnarlpine Shaman~
+Long       A Gnarlpine Shaman weaves a twisted, corrupted nature spell.
+~
+Desc       The spiritual leaders of the Gnarlpine tribe. Their magic, once used
+to heal the forest, is now tainted, burning the ground wherever it is cast.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 8 0 0 120 250
+Stats2     8 8 120
+Stats3     2 8 15
+Stats4     0 0 0 0 0
+Attribs    13 13 13 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26009
+Keywords   tenaron stormgrip druid trainer elf~
+Short      Tenaron Stormgrip~
+Long       Tenaron Stormgrip meditates high atop the massive Aldrassil tree.
+~
+Desc       A wise and ancient druid. He observes the balance of nature in Shadowglen,
+teaching young Night Elves the ways of the forest and warning them of the
+creeping shadows.
+~
+Race       elf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 15 0 0 500 1500
+Stats2     15 15 150
+Stats3     3 10 20
+Stats4     0 0 0 0 0
+Attribs    13 13 15 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26010
+Keywords   teldrassil sentinel guard female elf~
+Short      a Teldrassil Sentinel~
+Long       A Teldrassil Sentinel watches the roads, holding a three-bladed glaive.
+~
+Desc       The fiercely dedicated protectors of the World Tree. They patrol the
+paths between Dolanaar and Darnassus, ensuring the safety of travelers.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 12 0 0 350 800
+Stats2     12 12 120
+Stats3     3 10 18
+Stats4     0 0 0 0 0
+Attribs    18 15 13 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26011
+Keywords   priestess moon healer elf female~
+Short      a Priestess of the Moon~
+Long       A Priestess of the Moon glows softly with the healing light of Elune.
+~
+Desc       Devout followers of the goddess Elune. They offer healing prayers and
+guidance to the citizens of Teldrassil.
+~
+Race       elf~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 10 0 0 250 600
+Stats2     10 10 100
+Stats3     2 8 16
+Stats4     0 0 0 0 0
+Attribs    13 13 13 18 10 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26012
+Keywords   giant webwood spider boss bug~
+Short      a Giant Webwood Spider~
+Long       An enormous Giant Webwood Spider chitters aggressively, blocking the path.
+~
+Desc       A terrifyingly large arachnid that has claimed the deepest part of the
+northern cave. Its thick webs can completely immobilize an adult Night Elf.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 7 0 0 120 300
+Stats2     7 7 100
+Stats3     2 8 14
+Stats4     0 0 0 0 0
+Attribs    18 13 15 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26013
+Keywords   fel moss creeper elemental magic~
+Short      a Fel Moss Creeper~
+Long       A mass of corrupted Fel Moss slithers across the forest floor.
+~
+Desc       This pulsating, acidic moss has been brought to life by demonic energy.
+It consumes healthy plants and lashes out at anything that moves.
+~
+Race       elemental~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 8 0 0 130 280
+Stats2     8 8 120
+Stats3     2 8 15
+Stats4     0 0 0 0 0
+Attribs    10 13 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26014
+Keywords   lord melenas satyr boss demon~
+Short      Lord Melenas~
+Long       Lord Melenas, a corrupted satyr, sneers at you from the shadows.
+~
+Desc       A wicked, twisted satyr hiding deep in a fel-tainted cave. He is directly
+responsible for spreading the corruption to the Gnarlpine furbolgs and the
+flora of Teldrassil.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 10 0 0 300 700
+Stats2     10 10 150
+Stats3     3 10 18
+Stats4     0 0 0 0 0
+Attribs    15 18 13 15 10 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#OBJECT
+Vnum     26000
+Keywords nightsaber fang sharp tooth~
+Type     treasure~
+Short    a Nightsaber Fang~
+Long     A small, sharp fang from a young nightsaber rests in the grass.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26001
+Keywords webwood venom sac green poison~
+Type     potion~
+Short    a Webwood Venom Sac~
+Long     A pulsing, green venom sac harvested from a large spider lies here.~
+WFlags   take hold~
+Values   10 -1 -1 -1 0 0
+Stats    1 20 2 0 0
+Spells   'poison' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     26002
+Keywords grell dust pouch sparkling magic~
+Type     treasure~
+Short    a pouch of Grell Dust~
+Long     A tiny leather pouch filled with sparkling, magical dust.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26003
+Keywords strigid owl feather soft white~
+Type     treasure~
+Short    a Strigid Owl Feather~
+Long     A beautifully soft, white and grey owl feather floats on the breeze.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 12 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26004
+Keywords timberling bark shield wooden armor~
+Type     armor~
+Short    a piece of Timberling Bark~
+Long     A remarkably tough piece of living bark, suitable for a crude shield.~
+WFlags   take shield~
+Values   2 0 0 0 0 0
+Stats    3 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26005
+Keywords gnarlpine totem carved wood idol~
+Type     treasure~
+Short    a Gnarlpine Totem~
+Long     A crude, roughly carved wooden bear totem has been dropped here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 30 3 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26006
+Keywords sentinel moonblade sword curved weapon~
+Type     weapon~
+Short    a Sentinel's Moonblade~
+Long     A perfectly balanced, elegantly curved elven blade rests here.~
+WFlags   take wield~
+Values   0 4 10 3 0 0
+Stats    8 120 12 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26007
+Keywords novice priestess robes white cloth armor~
+Type     armor~
+Short    Novice Priestess Robes~
+Long     A simple but impeccably clean set of white cloth robes.~
+WFlags   take body~
+Values   2 0 0 0 0 0
+Stats    2 25 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26008
+Keywords teldrassil apple red fruit food~
+Type     food~
+Short    a Teldrassil Apple~
+Long     A large, perfectly crisp red apple fallen from the world tree.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    1 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26009
+Keywords moonwell water vial glowing liquid~
+Type     potion~
+Short    a vial of Moonwell Water~
+Long     A small glass vial filled with glowing, restorative silver water.~
+WFlags   take hold~
+Values   15 -1 -1 -1 0 0
+Stats    1 30 3 0 0
+Spells   'cure light' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     26010
+Keywords woven branch ring wooden finger~
+Type     armor~
+Short    a Woven Branch Ring~
+Long     A small ring intricately woven from living green branches.~
+WFlags   take finger~
+Values   1 0 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26011
+Keywords glowing moss clump green light~
+Type     light~
+Short    a clump of Glowing Moss~
+Long     A thick clump of moss emitting a soft, natural green luminescence.~
+WFlags   take hold~
+Values   0 0 -1 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26012
+Keywords spider silk cloak white web armor~
+Type     armor~
+Short    a Spider Silk Cloak~
+Long     An incredibly lightweight, strong cloak woven from spider silk.~
+WFlags   take neck~
+Values   2 0 0 0 0 0
+Stats    2 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26013
+Keywords fel tainted root twisted dark magic~
+Type     treasure~
+Short    a Fel-Tainted Root~
+Long     A twisted, blackened root throbbing with demonic corruption lies here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 40 4 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26014
+Keywords melenas satyr horn curved demon~
+Type     treasure~
+Short    Lord Melenas' Horn~
+Long     A heavy, curved horn severed from the head of a demonic satyr.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 100 10 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     26000
+Name     &MShadowglen - Base of Aldrassil&d~
+Sector   forest~
+Desc     You stand at the base of Aldrassil, a massive, glowing tree nested within
+the even larger boughs of Teldrassil. The air here is thick with natural
+magic, and the eternal twilight of the Night Elven lands paints the
+forest in beautiful shades of violet and silver.
+~
+#EXIT
+Direction north~
+ToRoom    26001
+Desc      The center of the Shadowglen encampment.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    26005
+Desc      The high branches of Aldrassil.
+~
+#ENDEXIT
+Reset M 0 26011 1 26000
+#ENDROOM
+
+#ROOM
+Vnum     26001
+Name     &MShadowglen - Center&d~
+Sector   forest~
+Desc     A peaceful, bustling glade where young Night Elves take their first
+steps. Trainers offer guidance under the glowing leaves, while initiates
+practice their strikes on the woodland creatures wandering nearby.
+~
+#EXIT
+Direction south~
+ToRoom    26000
+Desc      The base of the great tree.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26003
+Desc      A rocky outcropping.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26004
+Desc      A thicket of ancient trees.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26002
+Desc      The northern edge of the glen.
+~
+#ENDEXIT
+Reset M 0 26010 2 26001
+#ENDROOM
+
+#ROOM
+Vnum     26002
+Name     &MShadowglen - Northern Edge&d~
+Sector   forest~
+Desc     The glowing foliage thins out here, revealing the darker, more untamed
+woods. Young Nightsabers prowl through the tall grass, practicing their
+hunting skills.
+~
+#EXIT
+Direction south~
+ToRoom    26001
+Desc      The center of Shadowglen.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26008
+Desc      A dark, web-filled cave.
+~
+#ENDEXIT
+Reset M 0 26000 2 26002
+  Reset G 1 26000 10
+#ENDROOM
+
+#ROOM
+Vnum     26003
+Name     &MShadowglen - Eastern Rocks&d~
+Sector   hills~
+Desc     Small, mischievous Grells dance among these mossy rocks. They are mostly
+harmless, though they delight in stealing shiny things from passing
+adventurers.
+~
+#EXIT
+Direction west~
+ToRoom    26001
+Desc      The center of Shadowglen.
+~
+#ENDEXIT
+Reset M 0 26002 2 26003
+  Reset G 1 26002 10
+#ENDROOM
+
+#ROOM
+Vnum     26004
+Name     &MShadowglen - Western Thicket&d~
+Sector   forest~
+Desc     The trees here are ancient and incredibly thick. Small, peaceful nature
+elementals known as Timberlings shuffle through the fallen leaves, tending
+to the roots of the forest.
+~
+#EXIT
+Direction east~
+ToRoom    26001
+Desc      The center of Shadowglen.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26007
+Desc      The path leading out of the glen.
+~
+#ENDEXIT
+Reset M 0 26005 2 26004
+  Reset E 1 26004 10 11
+#ENDROOM
+
+#ROOM
+Vnum     26005
+Name     &MHigh Canopy of Aldrassil&d~
+Sector   forest~
+Desc     You have climbed into the dizzying heights of the great tree. The view
+of the forest below is breathtaking. Tenaron Stormgrip meditates here,
+watching over the balance of the glen.
+~
+#EXIT
+Direction down~
+ToRoom    26000
+Desc      The base of the tree.
+~
+#ENDEXIT
+Reset M 0 26009 1 26005
+  Reset E 1 26007 10 5
+#ENDROOM
+
+#ROOM
+Vnum     26006
+Name     &dFel Rock - Entrance&d~
+Sector   hills~
+Desc     A dark, jagged cave entrance completely devoid of natural life. The earth
+around it is stained a sickly purple and green. Vicious Grellkin guard
+this corrupted cave.
+~
+#EXIT
+Direction east~
+ToRoom    26007
+Desc      The path back to the forest.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26011
+Desc      The depths of Fel Rock.
+~
+#ENDEXIT
+Reset M 0 26003 2 26006
+#ENDROOM
+
+#ROOM
+Vnum     26007
+Name     &MThe Path out of Shadowglen&d~
+Sector   forest~
+Desc     The main path leading out of the safety of the starting glen. The woods
+become significantly more dangerous from here on out. To the west, a
+corrupted cave radiates dark magic.
+~
+#EXIT
+Direction north~
+ToRoom    26004
+Desc      The western thicket.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26009
+Desc      The road to Dolanaar.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26006
+Desc      Fel Rock.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26008
+Name     &dShadowthread Cave&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This cave is completely choked with thick, sticky spider webs. The bodies
+of trapped animals hang from the ceiling. A terrifyingly large Giant
+Webwood Spider claims this dark tunnel as her own.
+~
+#EXIT
+Direction south~
+ToRoom    26002
+Desc      The edge of the glen.
+~
+#ENDEXIT
+Reset M 0 26012 1 26008
+  Reset E 1 26001 10 16
+Reset M 0 26001 2 26008
+#ENDROOM
+
+#ROOM
+Vnum     26009
+Name     &MThe Road to Dolanaar&d~
+Sector   forest~
+Desc     A wide, well-traveled dirt path. Night Elf sentinels patrol this route,
+keeping it clear of aggressive wildlife. To the south, the once-peaceful
+Starbreeze Village has fallen strangely quiet.
+~
+#EXIT
+Direction west~
+ToRoom    26007
+Desc      The path back to Shadowglen.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26012
+Desc      Continuing toward the town.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26010
+Desc      Starbreeze Village.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26010
+Name     &MStarbreeze Village - Outskirts&d~
+Sector   city~
+Desc     The beautiful, open-air buildings of the Night Elves have been violently
+ransacked here. The Gnarlpine furbolgs, driven mad by an unseen corruption,
+have violently taken over the town.
+~
+#EXIT
+Direction north~
+ToRoom    26009
+Desc      The main road.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26021
+Desc      The center of the ruined village.
+~
+#ENDEXIT
+Reset M 0 26007 2 26010
+  Reset G 1 26005 10
+#ENDROOM
+
+#ROOM
+Vnum     26011
+Name     &dFel Rock - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The air is suffocatingly foul. Fel magic seeps from the very stone,
+corrupting the earth and twisting the local grells into aggressive monsters.
+~
+#EXIT
+Direction up~
+ToRoom    26006
+Desc      The cave entrance.
+~
+#ENDEXIT
+Reset M 0 26003 3 26011
+#ENDROOM
+
+#ROOM
+Vnum     26012
+Name     &MDolanaar Approach&d~
+Sector   forest~
+Desc     The forest opens up into a large, beautiful clearing. Ahead, built into
+the massive roots and branches of the world tree, is the bustling Night
+Elf town of Dolanaar.
+~
+#EXIT
+Direction west~
+ToRoom    26009
+Desc      The main road.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26013
+Desc      The gates of Dolanaar.
+~
+#ENDEXIT
+Reset M 0 26010 1 26012
+#ENDROOM
+
+#ROOM
+Vnum     26013
+Name     &MDolanaar - Gates&d~
+Sector   city~
+Desc     The entrance to the primary settlement outside of Darnassus. Sentinels
+stand tall here, gripping their moonblades. The town is a haven for
+travelers and a bastion against the creeping corruption.
+~
+#EXIT
+Direction west~
+ToRoom    26012
+Desc      The approach.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26014
+Desc      The center of town.
+~
+#ENDEXIT
+Reset M 0 26010 2 26013
+  Reset E 1 26006 10 16
+#ENDROOM
+
+#ROOM
+Vnum     26014
+Name     &MDolanaar - Center&d~
+Sector   city~
+Desc     A lively hub of commerce and rest. An inn provides shelter to weary
+adventurers, while merchants trade goods beneath the glowing leaves. The
+air smells of sweet apples and clean rain.
+~
+#EXIT
+Direction west~
+ToRoom    26013
+Desc      The gates.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26015
+Desc      The Moonwell.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26018
+Desc      The road deeper into Teldrassil.
+~
+#ENDEXIT
+Reset O 0 26008 3 26014
+#ENDROOM
+
+#ROOM
+Vnum     26015
+Name     &CThe Dolanaar Moonwell&d~
+Sector   city~
+Desc     A beautiful, shallow pool of glowing silver water. This is a Moonwell,
+a sacred fount of magical and physical healing blessed by Elune. Priestesses
+tend to the waters day and night.
+~
+#EXIT
+Direction south~
+ToRoom    26014
+Desc      The center of town.
+~
+#ENDEXIT
+Reset M 0 26011 2 26015
+Reset O 0 26009 2 26015
+#ENDROOM
+
+#ROOM
+Vnum     26016
+Name     &dBan'ethil Barrow Den - Entrance&d~
+Sector   hills~
+Desc     A massive, earthen archway leads deep underground. These ancient barrow
+dens are where the druids of the claw sleep their long slumbers, but
+something has gone terribly wrong inside.
+~
+#EXIT
+Direction north~
+ToRoom    26018
+Desc      The main road.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26017
+Desc      Descend into the dens.
+~
+#ENDEXIT
+Reset M 0 26006 2 26016
+#ENDROOM
+
+#ROOM
+Vnum     26017
+Name     &dBan'ethil Barrow Den - Depths&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The sleeping chambers are completely overrun by dark magic and corrupted
+timberlings. The druids trapped inside are suffering from a terrible
+nightmare.
+~
+#EXIT
+Direction up~
+ToRoom    26016
+Desc      The entrance.
+~
+#ENDEXIT
+Reset M 0 26006 3 26017
+#ENDROOM
+
+#ROOM
+Vnum     26018
+Name     &MThe Road West&d~
+Sector   forest~
+Desc     The road continues westward, cutting through dense, ancient groves.
+Majestic Strigid Owls watch you silently from the high branches.
+~
+#EXIT
+Direction west~
+ToRoom    26014
+Desc      Dolanaar.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26016
+Desc      The Barrow Den.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26019
+Desc      Lake Al'Ameth.
+~
+#ENDEXIT
+Reset M 0 26004 2 26018
+  Reset E 1 26003 10 17
+#ENDROOM
+
+#ROOM
+Vnum     26019
+Name     &CLake Al'Ameth&d~
+Sector   field~
+Desc     A crystal clear, placid lake situated in the center of the world tree.
+The water is incredibly refreshing. Small boats are tied to a wooden
+dock on the western shore.
+~
+#EXIT
+Direction west~
+ToRoom    26018
+Desc      The road to Dolanaar.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26020
+Desc      The Oracle Glade.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26020
+Name     &MThe Oracle Glade&d~
+Sector   forest~
+Desc     A deeply magical, secluded glade. Ancient dryads and keepers of the grove
+often gather here to discuss the health of the world tree. The air hums
+with a soothing, restorative energy.
+~
+#EXIT
+Direction south~
+ToRoom    26019
+Desc      Lake Al'Ameth.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26022
+Desc      The Wellspring River.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26021
+Name     &MStarbreeze Village - Center&d~
+Sector   city~
+Desc     The corruption is palpable here. Gnarlpine Shamans chant twisted spells,
+burning the once-beautiful Elven architecture. They attack any outsiders
+on sight.
+~
+#EXIT
+Direction north~
+ToRoom    26010
+Desc      The outskirts.
+~
+#ENDEXIT
+Reset M 0 26008 2 26021
+#ENDROOM
+
+#ROOM
+Vnum     26022
+Name     &CThe Wellspring River&d~
+Sector   field~
+Desc     A rushing, shallow river that feeds the various lakes and moonwells of
+Teldrassil. Following it north leads into a dark, foreboding stretch of
+woods where the corruption is thickest.
+~
+#EXIT
+Direction west~
+ToRoom    26020
+Desc      The Oracle Glade.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26023
+Desc      The Twisted Glade.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26023
+Name     &dThe Twisted Glade&d~
+Sector   forest~
+Desc     The trees here are completely dead, their bark blackened and rotting.
+Disgusting clumps of Fel Moss slither across the ground, attacking anything
+that breathes. The source of the corruption is near.
+~
+#EXIT
+Direction south~
+ToRoom    26022
+Desc      The river.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26024
+Desc      A dark cave entrance.
+~
+#ENDEXIT
+Reset M 0 26013 2 26023
+  Reset G 1 26011 10
+#ENDROOM
+
+#ROOM
+Vnum     26024
+Name     &dCave of Lord Melenas - Entrance&d~
+Sector   hills~
+Desc     The stench of sulfur and decay is overwhelming. The corruption that threatens
+the entire world tree flows from this very cave. The jagged rocks look
+like the teeth of a massive demon.
+~
+#EXIT
+Direction west~
+ToRoom    26023
+Desc      The Twisted Glade.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26025
+Desc      Enter the demonic lair.
+~
+#ENDEXIT
+Reset M 0 26013 2 26024
+#ENDROOM
+
+#ROOM
+Vnum     26025
+Name     &dCave of Lord Melenas - Lair&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The heart of the rot. Lord Melenas, a cruel and twisted satyr, commands
+the corruption from this dark chamber. He seeks to poison the roots of
+Teldrassil entirely on behalf of the Burning Legion.
+~
+#EXIT
+Direction up~
+ToRoom    26024
+Desc      The entrance.
+~
+#ENDEXIT
+Reset M 0 26014 1 26025
+  Reset G 1 26014 10
+  Reset G 1 26013 10
+#ENDROOM
+
+#ROOM
+Vnum     26026
+Name     &MThe Road to Darnassus&d~
+Sector   forest~
+Desc     Leaving the wilder parts of the forest behind, the path becomes paved
+with smooth, glowing stones. The immense pink glow of the capital city
+can be seen shining through the trees ahead.
+~
+#EXIT
+Direction west~
+ToRoom    26019
+Desc      Lake Al'Ameth.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26028
+Desc      The Darnassus Approach.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26027
+Desc      The path to Rut'theran.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26027
+Name     &MRut'theran Path&d~
+Sector   forest~
+Desc     This winding trail leads to the glowing portal that connects Teldrassil
+to the small village of Rut'theran at the base of the world tree, allowing
+passage to the mainland of Kalimdor.
+~
+#EXIT
+Direction north~
+ToRoom    26026
+Desc      The road to Darnassus.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26028
+Name     &MDarnassus Approach&d~
+Sector   city~
+Desc     The trees part, revealing the breathtaking architecture of the Night Elf
+capital. Elaborate bridges cross glowing streams, and the majestic Temple
+of the Moon dominates the skyline.
+~
+#EXIT
+Direction south~
+ToRoom    26026
+Desc      The forest road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26029
+Desc      The gates of the city.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26029
+Name     &MThe Gates of Darnassus&d~
+Sector   city~
+Desc     You stand before the magnificent, glowing gates of Darnassus. Elite
+Sentinels stand guard, welcoming allies of the Alliance while keeping a
+vigilant watch for any signs of Horde intrusion. The glory of the Night
+Elves awaits within.
+~
+#EXIT
+Direction south~
+ToRoom    26028
+Desc      The approach.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11800
+Desc      Enter the Tradesmen's Terrace.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
