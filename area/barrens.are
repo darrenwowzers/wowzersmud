@@ -1,0 +1,1238 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         The Barrens~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       10 25 10 25
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       26500
+Keywords   fledgling plainstrider bird beast~
+Short      a fledgling plainstrider~
+Long       A fledgling plainstrider pecks at the dry dirt.~
+Desc       It looks like a giant, flightless bird. Watch out for its sharp beak!
+These creatures roam the open savannahs of the Barrens in large numbers.~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 10 0 0 100 250
+Stats2     10 10 100
+Stats3     2 8 15
+Stats4     0 0 0 0 0
+Attribs    13 10 13 14 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26501
+Keywords   kolkar centaur horseman~
+Short      a Kolkar centaur~
+Long       A Kolkar centaur patrols the road, looking for trespassers.~
+Desc       Fierce and territorial, this centaur is ready to defend its claim in
+the Barrens. They despise the Horde and attack caravans on sight.~
+Race       centaur~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 12 0 0 200 400
+Stats2     12 12 150
+Stats3     3 10 18
+Stats4     0 0 0 0 0
+Attribs    16 10 12 15 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26502
+Keywords   savannah prowler cat beast lion~
+Short      a savannah prowler~
+Long       A stealthy savannah prowler stalks through the tall grass.~
+Desc       This large feline blends perfectly into the yellowed grass of the plains.
+They are patient hunters, waiting for the perfect moment to strike.~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 11 0 0 150 350
+Stats2     11 11 120
+Stats3     3 9 16
+Stats4     0 0 0 0 0
+Attribs    14 10 12 18 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26503
+Keywords   zhevra runner horse striped beast~
+Short      a zhevra runner~
+Long       A striped zhevra runner gallops across the plains.~
+Desc       A sturdy, striped equine creature native to the Barrens. They are incredibly
+fast and possess a sharp horn on their forehead for defense.~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 11 0 0 160 380
+Stats2     11 11 120
+Stats3     2 8 16
+Stats4     0 0 0 0 0
+Attribs    15 10 12 16 14 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26504
+Keywords   sunscale raptor lizard dinosaur~
+Short      a sunscale raptor~
+Long       A vicious sunscale raptor screeches at you!~
+Desc       A brightly colored, bipedal reptile with razor-sharp claws. They hunt in
+packs and are fiercely territorial around their nests.~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 13 0 0 220 450
+Stats2     13 13 140
+Stats3     4 11 19
+Stats4     0 0 0 0 0
+Attribs    16 10 11 17 13 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26505
+Keywords   oasis turtle reptile shell beast~
+Short      an oasis turtle~
+Long       A large oasis turtle rests near the water's edge.~
+Desc       A peaceful but heavily armored reptile that congregates around the
+Forgotten Pools. It is slow but incredibly difficult to kill.~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 14 0 0 350 700
+Stats2     14 14 150
+Stats3     2 8 25
+Stats4     0 0 0 0 0
+Attribs    18 10 12 8 18 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26506
+Keywords   witchwing harpy bird woman~
+Short      a witchwing harpy~
+Long       A witchwing harpy circles overhead, looking for prey.~
+Desc       A vicious half-woman, half-bird creature with sharp talons. They are foul-
+tempered and use wind magic to disorient their victims.~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 15 0 0 250 500
+Stats2     15 15 250
+Stats3     3 10 18
+Stats4     0 0 0 0 0
+Attribs    12 15 14 16 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26507
+Keywords   bristleback quilboar pig humanoid~
+Short      a bristleback quilboar~
+Long       A bristleback quilboar grunts aggressively at you.~
+Desc       A humanoid boar covered in sharp, defensive quills. They are extremely
+protective of their massive thorn-covered encampments.~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 12 0 0 200 450
+Stats2     12 12 130
+Stats3     3 10 17
+Stats4     0 0 0 0 0
+Attribs    16 10 12 12 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26508
+Keywords   thunderhawk bird prey sky~
+Short      a thunderhawk~
+Long       A massive thunderhawk dives from the sky!~
+Desc       A large bird of prey capable of generating static electricity in its
+feathers. It rules the open skies above the Barrens.~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea~
+Stats1     0 14 0 0 220 480
+Stats2     14 14 160
+Stats3     4 12 18
+Stats4     0 0 0 0 0
+Attribs    14 10 12 18 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26509
+Keywords   crossroads guard orc horde~
+Short      a Crossroads guard~
+Long       A burly Crossroads guard stands at attention, watching the roads.~
+Desc       A seasoned warrior of the Horde, sworn to protect the Crossroads. He
+keeps a watchful eye out for centaur raids and Alliance intruders.~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 25 0 0 800 2000
+Stats2     25 25 250
+Stats3     6 15 25
+Stats4     0 0 0 0 0
+Attribs    18 12 14 14 16 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26510
+Keywords   sergra darkthorn orc quest leader~
+Short      Sergra Darkthorn~
+Long       Sergra Darkthorn looks over a map of the Barrens, scowling.~
+Desc       An experienced orc veteran stationed at the Crossroads. She coordinates
+the defense against the centaur tribes and quilboar threat.~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 28 0 0 1000 2500
+Stats2     28 28 280
+Stats3     6 16 26
+Stats4     0 0 0 0 0
+Attribs    19 13 14 14 16 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26511
+Keywords   gazlowe goblin boss leader ratchet~
+Short      Gazlowe~
+Long       Gazlowe the goblin counts a stack of gold coins.~
+Desc       The shrewd, fast-talking leader of Ratchet. Gazlowe keeps the port town
+neutral and open for business, employing heavily armed bruisers to keep
+the peace.~
+Race       goblin~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 350
+Stats3     8 20 30
+Stats4     0 0 0 0 0
+Attribs    12 18 16 16 18 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26512
+Keywords   ratchet bruiser goblin guard~
+Short      a Ratchet Bruiser~
+Long       A heavily armed Ratchet Bruiser glares at you suspiciously.~
+Desc       Employed by Gazlowe to keep order in the neutral port. They are well-paid,
+well-equipped, and have absolutely zero tolerance for troublemakers.~
+Race       goblin~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 30 0 0 1200 3000
+Stats2     30 30 300
+Stats3     5 15 25
+Stats4     0 0 0 0 0
+Attribs    16 14 14 14 14 10 10
+Saves      0 0 0 0 0
+Speaks     common goblin~
+Speaking   goblin~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26513
+Keywords   southsea freebooter pirate human~
+Short      a Southsea freebooter~
+Long       A Southsea freebooter drunkenly waves a cutlass around.~
+Desc       These pirates have set up camps along the Merchant Coast, harassing trade
+vessels entering and leaving Ratchet.~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 14 0 0 250 500
+Stats2     14 14 140
+Stats3     3 10 18
+Stats4     0 0 0 0 0
+Attribs    15 15 13 13 13 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26514
+Keywords   hezrul bloodmark boss centaur~
+Short      Hezrul Bloodmark~
+Long       Hezrul Bloodmark, a massive Kolkar centaur, demands a challenge.~
+Desc       A brutal centaur chieftain terrorizing the Barrens. He leads warbands
+against the Horde and wears the skulls of his defeated enemies.~
+Race       centaur~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 16 0 0 400 800
+Stats2     16 16 200
+Stats3     4 12 22
+Stats4     0 0 0 0 0
+Attribs    18 12 14 14 15 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     26500
+Keywords plainstrider meat chunk food~
+Type     food~
+Short    a chunk of plainstrider meat~
+Long     A tough, stringy chunk of plainstrider meat was left here.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26501
+Keywords zhevra hooves striped treasure~
+Type     treasure~
+Short    a pair of zhevra hooves~
+Long     Some striped hooves lie discarded in the dirt.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 20 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26502
+Keywords raptor scale armor breastplate~
+Type     armor~
+Short    some raptor scale armor~
+Long     A pile of sun-baked raptor scales has been fashioned into armor.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    5 150 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26503
+Keywords oasis water flask drinkcon~
+Type     drinkcon~
+Short    an oasis water flask~
+Long     A flask filled with cool oasis water sits here.~
+WFlags   take hold~
+Values   15 15 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26504
+Keywords primitive quilboar spear weapon~
+Type     weapon~
+Short    a primitive quilboar spear~
+Long     A crude, blood-stained spear rests in the dust.~
+WFlags   take wield~
+Values   0 6 12 3 0 0
+Stats    4 75 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26505
+Keywords centaur bracers crude leather~
+Type     armor~
+Short    a pair of crude centaur bracers~
+Long     Some crude, blood-stained bracers lie in the dust.~
+WFlags   take arms~
+Values   4 0 0 0 0 0
+Stats    3 40 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26506
+Keywords harpy talon dagger sharp weapon~
+Type     weapon~
+Short    a sharp Harpy Talon~
+Long     A severed harpy talon has been fashioned into a wicked dagger.~
+WFlags   take wield~
+Values   0 4 10 11 0 0
+Stats    3 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26507
+Keywords thunderhawk feather glowing treasure~
+Type     treasure~
+Short    a crackling Thunderhawk Feather~
+Long     A large feather pulsing with faint static electricity rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 30 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26508
+Keywords crossroads tabard red horde armor~
+Type     armor~
+Short    a Crossroads Tabard~
+Long     A red tabard bearing the Horde insignia has been discarded.~
+WFlags   take body~
+Values   4 0 0 0 0 0
+Stats    1 10 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26509
+Keywords goblin wrench heavy metal mace weapon~
+Type     weapon~
+Short    a heavy Goblin Wrench~
+Long     A grease-stained, heavy metal wrench acts as an improvised mace.~
+WFlags   take wield~
+Values   0 5 12 7 0 0
+Stats    6 80 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26510
+Keywords freebooter cutlass sword curved weapon~
+Type     weapon~
+Short    a Freebooter's Cutlass~
+Long     A curved, salt-stained sword lies abandoned in the sand.~
+WFlags   take wield~
+Values   0 6 14 3 0 0
+Stats    5 90 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26511
+Keywords ratchet strongbox lockbox container~
+Type     container~
+Short    a Ratchet Strongbox~
+Long     A sturdy wooden lockbox reinforced with goblin steel sits here.~
+WFlags   none~
+Values   50 0 0 0 0 0
+Stats    20 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26512
+Keywords southsea rum bottle alcohol drinkcon~
+Type     drinkcon~
+Short    a bottle of Southsea Rum~
+Long     A dark glass bottle filled with incredibly strong rum rests here.~
+WFlags   take hold~
+Values   10 10 1 0 0 0
+Stats    2 25 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26513
+Keywords bloodmark shield heavy buckler armor~
+Type     armor~
+Short    Bloodmark's Buckler~
+Long     A heavy, spiked centaur buckler stained with dried blood lies here.~
+WFlags   take shield~
+Values   8 0 0 0 0 0
+Stats    7 120 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26514
+Keywords savory deviate delight fish food~
+Type     food~
+Short    a Savory Deviate Delight~
+Long     A strange, perfectly cooked fish emits an unusually delicious aroma.~
+WFlags   take hold~
+Values   20 20 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     26500
+Name     &OThe Southfury River - West Bank&d~
+Sector   field~
+Desc     You stand on the western bank of the Southfury River. The red, rocky
+terrain of Durotar lies just across the rushing water to the east. The
+vast, golden savannah of the Barrens stretches out before you to the west,
+heat shimmering off the dry earth.
+~
+#EXIT
+Direction east~
+ToRoom    25022
+Desc      Across the river to Razor Hill.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26501
+Desc      Further into the Barrens.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26501
+Name     &OThe Far Watch Post&d~
+Sector   field~
+Desc     A small Horde outpost stands here, guarding the crossing from Durotar.
+Spiked wooden barricades and a few lean-tos provide meager shelter for
+the guards stationed here. The Gold Road begins just to the west.
+~
+#EXIT
+Direction east~
+ToRoom    26500
+Desc      The river bank.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26502
+Desc      The Gold Road.
+~
+#ENDEXIT
+Reset M 0 26509 2 26501
+#ENDROOM
+
+#ROOM
+Vnum     26502
+Name     &OThe Gold Road - Northern Junction&d~
+Sector   field~
+Desc     You are standing on the Gold Road, a well-traveled dirt path that bisects
+the Barrens from north to south. To the north, the road leads toward the
+forests of Ashenvale. To the south, it continues toward the Crossroads.
+~
+#EXIT
+Direction north~
+ToRoom    26528
+Desc      Toward Ashenvale.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26503
+Desc      Toward the Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26501
+Desc      The Far Watch Post.
+~
+#ENDEXIT
+Reset M 0 26500 3 26502
+#ENDROOM
+
+#ROOM
+Vnum     26503
+Name     &OThe Gold Road - North&d~
+Sector   field~
+Desc     The Gold Road stretches endlessly in both directions. The air is dry and
+tastes of dust. Stunted trees and tall, yellowed grass line the path,
+providing perfect cover for the predators of the plains.
+~
+#EXIT
+Direction north~
+ToRoom    26502
+Desc      Northern Junction.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26504
+Desc      Approaching the Crossroads.
+~
+#ENDEXIT
+Reset M 0 26503 2 26503
+#ENDROOM
+
+#ROOM
+Vnum     26504
+Name     &OThe Crossroads - Northern Entrance&d~
+Sector   city~
+Desc     A large, spiked watchtower looms over the road here. The sound of bustling
+activity and the smell of roasting meat drift from the south. This is the
+heart of the Barrens, where all paths eventually meet.
+~
+#EXIT
+Direction north~
+ToRoom    26503
+Desc      The Gold Road.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26505
+Desc      The Crossroads center.
+~
+#ENDEXIT
+Reset M 0 26509 1 26504
+#ENDROOM
+
+#ROOM
+Vnum     26505
+Name     &OThe Crossroads - Center&d~
+Sector   city~
+Desc     The Crossroads is a chaotic hub of Horde activity. Orcs, Trolls, and Tauren
+mingle here, preparing for hunts or resting between travels. A massive
+bonfire burns in the center of the square, surrounded by basic supply huts.
+~
+#EXIT
+Direction north~
+ToRoom    26504
+Desc      The north gate.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26510
+Desc      The south gate.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26514
+Desc      Toward Ratchet.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26506
+Desc      Toward the Oases.
+~
+#ENDEXIT
+Reset M 0 26510 1 26505
+Reset O 0 26508 1 26505
+#ENDROOM
+
+#ROOM
+Vnum     26506
+Name     &OPath to the Forgotten Pools&d~
+Sector   field~
+Desc     A narrow trail winds west away from the Crossroads. The dry grass gives
+way to strange, vibrant flora as you approach a hidden source of water.
+The air feels slightly more humid here.
+~
+#EXIT
+Direction east~
+ToRoom    26505
+Desc      The Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26507
+Desc      The Forgotten Pools.
+~
+#ENDEXIT
+Reset M 0 26502 2 26506
+#ENDROOM
+
+#ROOM
+Vnum     26507
+Name     &CThe Forgotten Pools&d~
+Sector   water~
+Desc     A lush oasis sits nestled in a natural depression. Crystal clear water
+bubbles up from the earth, feeding a variety of plants that shouldn't
+exist in this climate. Strange fissures in the ground glow with a faint,
+unnatural light.
+~
+#EXIT
+Direction east~
+ToRoom    26506
+Desc      The path back.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26508
+Desc      Grol'dom Farm.
+~
+#ENDEXIT
+Reset M 0 26505 3 26507
+#ENDROOM
+
+#ROOM
+Vnum     26508
+Name     &OThe Grol'dom Farm&d~
+Sector   field~
+Desc     A small, struggling farmstead has been carved out of the savannah. A few
+huts stand near a small field of dry crops. The area is plagued by
+constant raids from the nearby quilboar tribes.
+~
+#EXIT
+Direction south~
+ToRoom    26507
+Desc      The Forgotten Pools.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26509
+Desc      Thorn Hill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26509
+Name     &OThorn Hill&d~
+Sector   hills~
+Desc     The terrain rises sharply here, dominated by massive, razor-sharp thorns
+that erupt from the earth like giant claws. This is the edge of quilboar
+territory, and the grunts of the beast-men echo through the ravines.
+~
+#EXIT
+Direction south~
+ToRoom    26508
+Desc      Grol'dom Farm.
+~
+#ENDEXIT
+Reset M 0 26507 4 26509
+Reset O 0 26504 2 26509
+#ENDROOM
+
+#ROOM
+Vnum     26510
+Name     &OThe Gold Road - South of Crossroads&d~
+Sector   field~
+Desc     South of the Crossroads, the Gold Road continues its steady path through
+the heart of the Barrens. To the west, you can see the shimmering heat
+waves rising from the Stagnant Oasis.
+~
+#EXIT
+Direction north~
+ToRoom    26505
+Desc      The Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26512
+Desc      Further south.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26511
+Desc      The Stagnant Oasis.
+~
+#ENDEXIT
+Reset M 0 26504 2 26510
+#ENDROOM
+
+#ROOM
+Vnum     26511
+Name     &CThe Stagnant Oasis&d~
+Sector   water~
+Desc     Unlike the Forgotten Pools, this oasis is choked with thick reeds and
+murky water. A massive, shell-like mountain rises from the center of the
+pool, claimed by a powerful tribe of Kolkar centaur.
+~
+#EXIT
+Direction east~
+ToRoom    26510
+Desc      The Gold Road.
+~
+#ENDEXIT
+Reset M 0 26501 3 26511
+Reset M 0 26514 1 26511
+Reset O 0 26513 1 26511
+#ENDROOM
+
+#ROOM
+Vnum     26512
+Name     &OThe Gold Road - Southern Junction&d~
+Sector   field~
+Desc     The road splits here. To the south, the path leads toward Camp Taurajo
+and the Great Lift. To the west, a rugged trail winds through the hills
+toward the entrance of Mulgore.
+~
+#EXIT
+Direction north~
+ToRoom    26510
+Desc      Toward Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26521
+Desc      Toward Camp Taurajo.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26513
+Desc      The road to Mulgore.
+~
+#ENDEXIT
+Reset M 0 26503 2 26512
+#ENDROOM
+
+#ROOM
+Vnum     26513
+Name     &OThe Road to Mulgore&d~
+Sector   hills~
+Desc     The path climbs steadily into the foothills of the western mountains.
+A massive wooden gate, the Red Rocks, marks the boundary between the
+savannah and the ancestral lands of the Tauren.
+~
+#EXIT
+Direction east~
+ToRoom    26512
+Desc      The Gold Road.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    25500
+Desc      Into Mulgore.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26514
+Name     &OThe Road to Ratchet&d~
+Sector   field~
+Desc     This well-worn path leads east from the Crossroads toward the coast.
+Trade caravans frequently travel this route, bringing supplies from the
+neutral port of Ratchet to the Horde interior.
+~
+#EXIT
+Direction west~
+ToRoom    26505
+Desc      The Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26515
+Desc      Toward the coast.
+~
+#ENDEXIT
+Reset M 0 26500 2 26514
+#ENDROOM
+
+#ROOM
+Vnum     26515
+Name     &OThe Merchant Coast - Overlook&d~
+Sector   hills~
+Desc     From this vantage point, you can see the Great Sea stretching out to the
+eastern horizon. Below, the bustling goblin port of Ratchet is visible,
+its mechanical cranes and wooden docks humming with activity.
+~
+#EXIT
+Direction west~
+ToRoom    26514
+Desc      The road back.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26516
+Desc      Down into Ratchet.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26516
+Name     &xRatchet - Main Square&d~
+Sector   city~
+Desc     Ratchet is a marvel of goblin engineering and greed. The smell of oil,
+saltwater, and exotic spices fills the air. Steam-powered machines hiss
+in the background as merchants of all races haggle over goods.
+~
+#EXIT
+Direction up~
+ToRoom    26515
+Desc      The overlook.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26517
+Desc      The docks.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26519
+Desc      The South Road.
+~
+#ENDEXIT
+Reset M 0 26511 1 26516
+Reset M 0 26512 2 26516
+#ENDROOM
+
+#ROOM
+Vnum     26517
+Name     &xRatchet - The Docks&d~
+Sector   city~
+Desc     A massive wooden pier extends into the bay. Large merchant ships are
+moored here, being loaded and unloaded by frantic peons and mechanical
+lifts. A large boat with a shark-head prow is currently docked.
+~
+#EXIT
+Direction west~
+ToRoom    26516
+Desc      Ratchet Square.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26518
+Desc      North Merchant Coast.
+~
+#ENDEXIT
+Reset M 0 26512 1 26517
+#ENDROOM
+
+#ROOM
+Vnum     26518
+Name     &OThe North Merchant Coast&d~
+Sector   field~
+Desc     The sandy beach stretches north away from Ratchet. The wrecks of several
+ships lie rotting in the surf, casualties of the treacherous reefs or
+pirate raids.
+~
+#EXIT
+Direction south~
+ToRoom    26517
+Desc      Ratchet Docks.
+~
+#ENDEXIT
+Reset M 0 26513 3 26518
+Reset O 0 26510 1 26518
+#ENDROOM
+
+#ROOM
+Vnum     26519
+Name     &OThe South Road&d~
+Sector   field~
+Desc     A dusty trail follows the coastline south from Ratchet. To the east, the
+waves of the Great Sea crash against the rocks. To the west, the arid
+plains of the Southern Barrens begin to take hold.
+~
+#EXIT
+Direction north~
+ToRoom    26516
+Desc      Ratchet.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26520
+Desc      The Tideskipper Wreck.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26520
+Name     &OThe Tideskipper Wreck&d~
+Sector   field~
+Desc     The remains of a massive human vessel lie shattered on the rocks here.
+Debris is scattered across the sand, and the area has been claimed by
+a group of aggressive pirates who use the wreck as a base.
+~
+#EXIT
+Direction north~
+ToRoom    26519
+Desc      The South Road.
+~
+#ENDEXIT
+Reset M 0 26513 4 26520
+Reset O 0 26512 1 26520
+#ENDROOM
+
+#ROOM
+Vnum     26521
+Name     &OThe Gold Road - Southern Barrens&d~
+Sector   field~
+Desc     The savannah here feels even more desolate. The grass is thinner, and
+the heat is more oppressive. Massive thunderhawks circle high above,
+waiting for something to succumb to the elements.
+~
+#EXIT
+Direction north~
+ToRoom    26512
+Desc      Southern Junction.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26522
+Desc      Toward Camp Taurajo.
+~
+#ENDEXIT
+Reset M 0 26508 2 26521
+#ENDROOM
+
+#ROOM
+Vnum     26522
+Name     &OCamp Taurajo&d~
+Sector   city~
+Desc     A modest Tauren settlement serves as a waypoint for travelers heading
+south. Several large hide tents and a central fire pit provide a place
+to rest. The scent of sweetgrass and leather is strong here.
+~
+#EXIT
+Direction north~
+ToRoom    26521
+Desc      The Gold Road.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26524
+Desc      The Great Lift approach.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26523
+Desc      Field of Giants.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26523
+Name     &OThe Field of Giants&d~
+Sector   field~
+Desc     The earth is littered with the colossal bones of ancient creatures.
+Massive ribcages and skulls rise from the dust like monuments. It is
+a somber place, filled with the echoes of a prehistoric age.
+~
+#EXIT
+Direction east~
+ToRoom    26522
+Desc      Camp Taurajo.
+~
+#ENDEXIT
+Reset M 0 26504 3 26523
+#ENDROOM
+
+#ROOM
+Vnum     26524
+Name     &OPath to the Great Lift&d~
+Sector   hills~
+Desc     The terrain drops away suddenly as you approach the southern edge of the
+plateau. A massive wooden structure, powered by heavy pulleys and
+counterweights, stands ready to lower travelers into the canyon below.
+~
+#EXIT
+Direction north~
+ToRoom    26522
+Desc      Camp Taurajo.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26525
+Desc      The Great Lift.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26525
+Name     &OThe Great Lift&d~
+Sector   city~
+Desc     You stand on a large wooden platform suspended by thick hempen ropes.
+Looking down, you can see the orange, needle-like mesas of Thousand
+Needles far below. This is the only safe way down the cliffs.
+~
+#EXIT
+Direction north~
+ToRoom    26524
+Desc      The path back.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    28500
+Desc      Down to Thousand Needles.
+~
+#ENDEXIT
+Reset M 0 26509 1 26525
+#ENDROOM
+
+#ROOM
+Vnum     26526
+Name     &CThe Lush Oasis&d~
+Sector   water~
+Desc     Located in the southeastern corner of the Barrens, this oasis is a
+paradise of greenery and clear water. However, the beauty is deceptive,
+as the area is heavily guarded by the warlike centaur tribes.
+~
+#EXIT
+Direction north~
+ToRoom    26521
+Desc      Back to the Gold Road.
+~
+#ENDEXIT
+Reset M 0 26505 4 26526
+Reset M 0 26501 2 26526
+#ENDROOM
+
+#ROOM
+Vnum     26527
+Name     &OThe Dreadmist Peak&d~
+Sector   mountain~
+Desc     A jagged, obsidian-colored mountain rises from the northern plains.
+Dark, swirling mists cling to its slopes, and the air feels cold and
+unnatural. It is a place of dark rituals and shadow magic.
+~
+#EXIT
+Direction south~
+ToRoom    26528
+Desc      Back to the road.
+~
+#ENDEXIT
+Reset M 0 26506 3 26527
+#ENDROOM
+
+#ROOM
+Vnum     26528
+Name     &OThe Gold Road - North End&d~
+Sector   field~
+Desc     The Gold Road reaches its northernmost point here. The air begins to
+cool, and the golden savannah starts to blend into the thick, ancient
+trees of the north.
+~
+#EXIT
+Direction south~
+ToRoom    26502
+Desc      Toward Crossroads.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26529
+Desc      The Mor'shan Rampart.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    26527
+Desc      Dreadmist Peak.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26529
+Name     &OThe Mor'shan Rampart&d~
+Sector   city~
+Desc     A massive wooden wall and gatehouse block the road here, serving as a
+fortified border between the Barrens and Ashenvale. Horde banners fly
+proudly from the towers, and the guards are on high alert.
+~
+#EXIT
+Direction south~
+ToRoom    26528
+Desc      The Gold Road.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    28000
+Desc      Into Ashenvale.
+~
+#ENDEXIT
+Reset M 0 26509 2 26529
+#ENDROOM
+
+#ROOM
+Vnum     26530
+Name     &OThe Sludge Fen&d~
+Sector   field~
+Desc     In the northeastern corner of the Barrens, the ground becomes soft and
+muddy. Foul-smelling runoff from goblin industrial operations has
+created a toxic marshland, filled with mutated creatures and sludge.
+~
+#EXIT
+Direction west~
+ToRoom    26502
+Desc      Back to the junction.
+~
+#ENDEXIT
+Reset M 0 26512 2 26530
+#ENDROOM
+
+#ENDAREA
