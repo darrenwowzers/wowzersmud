@@ -1,0 +1,1242 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Redridge Mountains~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       15 25 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       13750
+Keywords   magistrate solomon leader human~
+Short      Magistrate Solomon~
+Long       Magistrate Solomon paces anxiously inside the town hall.
+~
+Desc       The stressed and overworked leader of Lakeshire. With Stormwind
+refusing to send reinforcements, he is desperately trying to hold his
+town together against the encroaching orc and gnoll threats.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 50 0 0 1500 6000
+Stats2     50 50 500
+Stats3     5 10 20
+Stats4     0 0 0 0 0
+Attribs    15 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13751
+Keywords   bailor stonehand dwarf innkeeper tavern~
+Short      Bailor Stonehand~
+Long       Bailor Stonehand vigorously scrubs a dirty ale mug.
+~
+Desc       This stout dwarven innkeeper runs the Lakeshire Inn. He is fiercely
+protective of his patrons and serves a notoriously strong stout.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 45 0 0 1200 5000
+Stats2     45 45 450
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13752
+Keywords   redridge guard militia human protector~
+Short      a Redridge Guard~
+Long       A Redridge Guard stands watch, looking exhausted but determined.
+~
+Desc       The thin line of defense between Lakeshire and complete annihilation.
+They are poorly supplied but fight with the fury of people defending
+their homes.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 25 0 0 400 1500
+Stats2     25 25 250
+Stats3     3 6 18
+Stats4     0 0 0 0 0
+Attribs    15 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13753
+Keywords   blackrock grunt orc invader~
+Short      a Blackrock Grunt~
+Long       A Blackrock Grunt patrols the road, hefting a crude axe.
+~
+Desc       Invaders from the Burning Steppes, these heavily muscled orcs have
+pushed deep into Redridge. They are brutal, organized, and intent on
+claiming the valley for the Blackrock clan.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 22 0 0 350 1200
+Stats2     22 22 220
+Stats3     3 8 18
+Stats4     0 0 0 0 0
+Attribs    18 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13754
+Keywords   blackrock champion orc elite guard~
+Short      a Blackrock Champion~
+Long       A Blackrock Champion roars a challenge, brandishing a massive shield.
+~
+Desc       The elite vanguard of the orcish army. They wear heavy black plate
+armor and guard the strategic choke points of Stonewatch Keep.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 26 0 0 600 2000
+Stats2     26 26 300
+Stats3     4 10 20
+Stats4     0 0 0 0 0
+Attribs    20 15 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13755
+Keywords   gath'ilzogg warlord boss orc~
+Short      Warlord Gath'Ilzogg~
+Long       Warlord Gath'Ilzogg commands his troops from the top of Stonewatch.
+~
+Desc       The ruthless commander of the Blackrock invasion forces in Redridge.
+He is a massive, heavily scarred orc who swings a two-handed iron mace
+as if it weighed nothing.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 30 0 0 2000 6000
+Stats2     30 30 500
+Stats3     5 12 25
+Stats4     0 0 0 0 0
+Attribs    20 18 15 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13756
+Keywords   tharil'zun boss orc lieutenant~
+Short      Tharil'zun~
+Long       Tharil'zun paces fiercely, eager to spill Alliance blood.
+~
+Desc       Gath'Ilzogg's chief lieutenant. He leads the raiding parties that
+harass the borders of Lakeshire, showing no mercy to anyone caught
+outside the town walls.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 28 0 0 1500 4500
+Stats2     28 28 400
+Stats3     4 10 22
+Stats4     0 0 0 0 0
+Attribs    18 15 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13757
+Keywords   shadowhide brute gnoll beastman~
+Short      a Shadowhide Brute~
+Long       A massive Shadowhide Brute snarls, swinging a spiked club.
+~
+Desc       These large gnolls are the muscle of the Shadowhide pack. They are
+incredibly aggressive, attacking merchants and travelers along the
+Lakeshire Highway.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 20 0 0 300 1000
+Stats2     20 20 200
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Attribs    18 10 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13758
+Keywords   shadowhide darkweaver gnoll mage caster~
+Short      a Shadowhide Darkweaver~
+Long       A Shadowhide Darkweaver mutters a dark incantation.
+~
+Desc       The mystics of the gnoll pack. They use dark shadow magic to weaken
+their prey before the brutes move in for the kill.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 21 0 0 250 800
+Stats2     21 21 250
+Stats3     3 8 18
+Stats4     0 0 0 0 0
+Attribs    13 16 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13759
+Keywords   yowler gnoll boss beastman~
+Short      Yowler~
+Long       Yowler the gnoll lets out a terrifying, echoing howl.
+~
+Desc       The alpha of the Shadowhide pack. He is significantly larger than the
+other gnolls and commands them with vicious authority from his camp
+deep in the woods.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 25 0 0 800 2500
+Stats2     25 25 300
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    20 13 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13760
+Keywords   dire condor bird beast flying~
+Short      a Dire Condor~
+Long       A massive Dire Condor circles the thermals high above.
+~
+Desc       These enormous birds of prey nest in the rocky peaks of the Redridge
+Mountains. They aggressively defend their territory from any who wander
+too close.
+~
+Race       monster~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neutral~
+Actflags   npc stayarea aggressive~
+Stats1     0 18 0 0 250 800
+Stats2     18 18 180
+Stats3     3 6 15
+Stats4     0 0 0 0 0
+Attribs    15 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13761
+Keywords   giant tarantula spider beast bug~
+Short      a Giant Tarantula~
+Long       A terrifyingly large Tarantula drops from a web-covered tree.
+~
+Desc       The forests north of Lakeshire are heavily infested with these massive,
+venomous arachnids. Their bites cause a nasty, paralyzing sickness.
+~
+Race       monster~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 19 0 0 280 900
+Stats2     19 19 190
+Stats3     3 6 16
+Stats4     0 0 0 0 0
+Attribs    13 15 15 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13762
+Keywords   murloc minor oracle fishman~
+Short      a Murloc Minor Oracle~
+Long       A Murloc Minor Oracle gurgles, casting a weak healing spell.
+~
+Desc       The murlocs that infest Lake Everstill are a constant nuisance to the
+fishermen. These oracles support their brethren with primitive water
+magic.
+~
+Race       murloc~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 17 0 0 200 600
+Stats2     17 17 170
+Stats3     2 5 15
+Stats4     0 0 0 0 0
+Attribs    13 15 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common murloc~
+Speaking   murloc~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13763
+Keywords   darcy parker waitress human~
+Short      Darcy Parker~
+Long       Darcy Parker rushes past, carrying a tray of hot goulash.
+~
+Desc       A tireless waitress at the Lakeshire Inn. She provides comfort and hot
+meals to the beleaguered guards and adventurers passing through town.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea peaceful~
+Stats1     0 15 0 0 150 500
+Stats2     15 15 150
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       13764
+Keywords   blackrock warlock orc caster~
+Short      a Blackrock Warlock~
+Long       A Blackrock Warlock summons a burst of dark fel fire.
+~
+Desc       These dark spellcasters support the Blackrock invasion with devastating
+curses and fire magic. They are usually found deep within the keep.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 24 0 0 400 1200
+Stats2     24 24 240
+Stats3     4 8 20
+Stats4     0 0 0 0 0
+Attribs    13 18 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#OBJECT
+Vnum     13750
+Keywords redridge goulash bowl food warm~
+Type     food~
+Short    a bowl of Redridge Goulash~
+Long     A steaming, incredibly hearty bowl of Redridge Goulash smells amazing.~
+WFlags   take hold~
+Values   20 20 0 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13751
+Keywords lakeshire stout mug ale drink~
+Type     drinkcon~
+Short    a mug of Lakeshire Stout~
+Long     A heavy wooden mug filled to the brim with dark, frothy stout is here.~
+WFlags   take hold~
+Values   15 15 1 0 0 0
+Stats    2 10 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13752
+Keywords solomon writ parchment scroll official~
+Type     scroll~
+Short    Magistrate Solomon's Writ~
+Long     An official parchment sealed with the crest of Lakeshire lies here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 20 2 0 0
+Spells   'bless' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     13753
+Keywords blackrock battleaxe heavy iron orc~
+Type     weapon~
+Short    a Blackrock Battleaxe~
+Long     A brutally heavy iron battleaxe favored by the Blackrock clan is here.~
+WFlags   take wield~
+Values   0 12 18 3 0 0
+Stats    12 400 40 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13754
+Keywords tharil'zun head severed orc~
+Type     treasure~
+Short    the head of Tharil'zun~
+Long     The severed, incredibly ugly head of an orc lieutenant rests here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13755
+Keywords warlord iron pauldrons spiked armor~
+Type     armor~
+Short    Warlord's Iron Pauldrons~
+Long     A massive pair of spiked iron shoulder plates have been discarded.~
+WFlags   take shoulders~
+Values   10 0 0 0 0 0
+Stats    15 600 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13756
+Keywords heavy blackrock shield tower armor~
+Type     armor~
+Short    a heavy Blackrock Shield~
+Long     A thick, nearly impenetrable tower shield forged of dark iron is here.~
+WFlags   take shield~
+Values   12 0 0 0 0 0
+Stats    18 800 80 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13757
+Keywords shadowhide pendant bone gnoll~
+Type     armor~
+Short    a Shadowhide Pendant~
+Long     A crude necklace made of polished bone and sinew rests in the dust.~
+WFlags   take neck~
+Values   4 0 0 0 0 0
+Stats    2 150 15 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13758
+Keywords gnoll hide vest crude leather armor~
+Type     armor~
+Short    a Gnoll Hide Vest~
+Long     A smelly, poorly stitched vest made of tough animal hide lies here.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    5 200 20 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13759
+Keywords darkweaver wand wooden crooked magic~
+Type     wand~
+Short    a Darkweaver Wand~
+Long     A crooked, dark wood wand pulses faintly with shadow magic.~
+WFlags   take hold~
+Values   15 5 5 5 0 0
+Stats    3 300 30 0 0
+Spells   'curse'
+#ENDOBJECT
+
+#OBJECT
+Vnum     13760
+Keywords tough condor meat raw food~
+Type     food~
+Short    some tough Condor Meat~
+Long     A raw, extremely stringy piece of bird meat has been left here.~
+WFlags   take hold~
+Values   10 10 0 0 0 0
+Stats    2 5 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13761
+Keywords spider ichor vial poison green~
+Type     potion~
+Short    a vial of Spider Ichor~
+Long     A tiny glass vial filled with a sickly green, poisonous liquid sits here.~
+WFlags   take hold~
+Values   20 -1 -1 -1 0 0
+Stats    1 50 5 0 0
+Spells   'poison' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     13762
+Keywords orcish cleaver blade jagged weapon~
+Type     weapon~
+Short    an Orcish Cleaver~
+Long     A jagged, rusted iron cleaver meant for chopping meat and bone is here.~
+WFlags   take wield~
+Values   0 8 14 3 0 0
+Stats    8 250 25 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13763
+Keywords murloc scale shiny blue armor~
+Type     armor~
+Short    a shiny Murloc Scale~
+Long     A large, iridescent blue scale that provides surprising protection.~
+WFlags   take shield~
+Values   5 0 0 0 0 0
+Stats    3 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     13764
+Keywords everstill water flask clear potion~
+Type     potion~
+Short    a flask of Everstill Water~
+Long     A glass flask filled with pure, refreshing lake water rests here.~
+WFlags   take hold~
+Values   15 -1 -1 -1 0 0
+Stats    1 20 2 0 0
+Spells   'cure light' 'NONE' 'NONE'
+#ENDOBJECT
+
+#ROOM
+Vnum     13750
+Name     &OThree Corners - Redridge Border&d~
+Sector   field~
+Desc     The lush canopy of Elwynn Forest thins out as you step onto the dusty,
+red-dirt path of the Lakeshire Highway. The temperature rises noticeably,
+and the jagged peaks of the Redridge Mountains loom in the east.
+~
+#EXIT
+Direction east~
+ToRoom    13751
+Desc      The highway winds toward Lakeshire.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    12000
+Desc      The road back to Elwynn Forest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13751
+Name     &OLakeshire Town Square&d~
+Sector   city~
+Desc     The picturesque town of Lakeshire is built along the edge of a massive
+lake. Despite the beautiful scenery, the atmosphere is incredibly tense.
+Guards patrol frantically, and the townsfolk look exhausted.
+~
+#EXIT
+Direction north~
+ToRoom    13752
+Desc      The Town Hall.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13754
+Desc      The great bridge over Lake Everstill.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13753
+Desc      The Lakeshire Inn.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13750
+Desc      The road back to Elwynn.
+~
+#ENDEXIT
+Reset M 0 13752 2 13751
+#ENDROOM
+
+#ROOM
+Vnum     13752
+Name     &OLakeshire Town Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The administrative center of the town is currently operating as a war
+room. Maps detailing Blackrock and Shadowhide movements are scattered
+everywhere. Magistrate Solomon paces nervously, awaiting reinforcements.
+~
+#EXIT
+Direction south~
+ToRoom    13751
+Desc      The town square.
+~
+#ENDEXIT
+Reset M 0 13750 1 13752
+  Reset E 1 13752 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13753
+Name     &OThe Lakeshire Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, bustling tavern filled with weary militiamen and adventurers.
+The smell of hearty goulash and strong stout fills the air. Bailor
+Stonehand wipes down the bar, offering a brief respite from the war.
+~
+#EXIT
+Direction north~
+ToRoom    13751
+Desc      The town square.
+~
+#ENDEXIT
+Reset M 0 13751 1 13753
+Reset M 0 13763 1 13753
+  Reset G 1 13750 10
+Reset O 0 13751 4 13753
+#ENDROOM
+
+#ROOM
+Vnum     13754
+Name     &OLakeshire Bridge&d~
+Sector   city~
+Desc     A grand stone bridge spanning the narrowest point of Lake Everstill.
+It is heavily guarded, as it serves as the primary chokepoint between
+the safety of the town and the hostile eastern valleys.
+~
+#EXIT
+Direction east~
+ToRoom    13758
+Desc      The eastern highway.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    13751
+Desc      The town square.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13774
+Desc      The town docks.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13755
+Desc      The southern shore of the lake.
+~
+#ENDEXIT
+Reset M 0 13752 2 13754
+#ENDROOM
+
+#ROOM
+Vnum     13755
+Name     &CLake Everstill - Southern Shore&d~
+Sector   field~
+Desc     The water of the lake is incredibly clear and cool. Unfortunately, the
+shoreline is infested with aggressive murlocs that frequently harass
+the local fishermen.
+~
+#EXIT
+Direction north~
+ToRoom    13754
+Desc      The great stone bridge.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13756
+Desc      The shallow waters.
+~
+#ENDEXIT
+Reset M 0 13762 2 13755
+  Reset E 1 13763 10 11
+Reset O 0 13764 2 13755
+#ENDROOM
+
+#ROOM
+Vnum     13756
+Name     &CLake Everstill - Shallow Water&d~
+Sector   water_noswim~
+Desc     You wade into the refreshing waters of the lake. The mud beneath your
+boots is soft. Murloc Oracles gurgle warnings from the deeper water
+to the north.
+~
+#EXIT
+Direction west~
+ToRoom    13755
+Desc      The southern shore.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13757
+Desc      The deep water.
+~
+#ENDEXIT
+Reset M 0 13762 2 13756
+#ENDROOM
+
+#ROOM
+Vnum     13757
+Name     &CLake Everstill - Deep Water&d~
+Sector   water_swim~
+Desc     The lake drops off sharply here. The water is deep and dark, hiding
+sunken ruins and whatever aquatic beasts prey upon the murlocs.
+~
+#EXIT
+Direction south~
+ToRoom    13756
+Desc      The shallow water.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13758
+Name     &OThe Eastern Highway&d~
+Sector   field~
+Desc     Crossing the bridge, the road immediately becomes far more dangerous.
+The trees grow thicker, providing perfect ambush spots for the Shadowhide
+gnolls that terrorize this stretch of the highway.
+~
+#EXIT
+Direction west~
+ToRoom    13754
+Desc      Lakeshire Bridge.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13761
+Desc      Render's Valley.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13763
+Desc      A dirt path leading into the woods.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13759
+Desc      Alther's Mill.
+~
+#ENDEXIT
+Reset M 0 13757 2 13758
+  Reset E 1 13758 10 5
+#ENDROOM
+
+#ROOM
+Vnum     13759
+Name     &OAlther's Mill&d~
+Sector   field~
+Desc     Once a productive lumber mill, this area has been completely overrun by
+Giant Tarantulas. The buildings are choked with thick, sticky webs, and
+the loggers have long since fled.
+~
+#EXIT
+Direction south~
+ToRoom    13758
+Desc      The highway.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13776
+Desc      The forest edge.
+~
+#ENDEXIT
+Reset M 0 13761 2 13759
+  Reset G 1 13761 10
+#ENDROOM
+
+#ROOM
+Vnum     13760
+Name     &ORedridge Canyons&d~
+Sector   hills~
+Desc     The red dirt gives way to steep, rocky canyons. The wind howls through
+the narrow passages. Massive Dire Condors nest in the crags above,
+swooping down to attack travelers.
+~
+#EXIT
+Direction east~
+ToRoom    13779
+Desc      The High Pass.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13761
+Desc      Render's Valley.
+~
+#ENDEXIT
+Reset M 0 13760 2 13760
+  Reset G 1 13760 10
+#ENDROOM
+
+#ROOM
+Vnum     13761
+Name     &ORender's Valley - Entrance&d~
+Sector   hills~
+Desc     The highway cuts through a deep valley named after the infamous orc
+chieftain. Blackrock Grunts heavily patrol this area, serving as the
+vanguard for the massive invasion force.
+~
+#EXIT
+Direction west~
+ToRoom    13758
+Desc      The eastern highway.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13765
+Desc      The approach to Stonewatch.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13760
+Desc      The canyons.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13762
+Desc      A Blackrock encampment.
+~
+#ENDEXIT
+Reset M 0 13753 2 13761
+  Reset E 1 13753 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13762
+Name     &OBlackrock Encampment&d~
+Sector   field~
+Desc     A heavily fortified orc camp built with crude spiked barricades. Blackrock
+Warlocks channel dark fel magic here, practicing their devastating spells
+on captured gnolls and wildlife.
+~
+#EXIT
+Direction north~
+ToRoom    13761
+Desc      Render's Valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13772
+Desc      Render's Camp.
+~
+#ENDEXIT
+Reset M 0 13764 2 13762
+#ENDROOM
+
+#ROOM
+Vnum     13763
+Name     &OShadowhide Camp - Entrance&d~
+Sector   forest~
+Desc     The woods south of the highway are the domain of the Shadowhide pack.
+The trees are decorated with crude totems made of bone and sinew. The
+snarling of aggressive brutes echoes through the brush.
+~
+#EXIT
+Direction north~
+ToRoom    13758
+Desc      The eastern highway.
+~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    13764
+Desc      The center of the gnoll camp.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13777
+Desc      A patrol path.
+~
+#ENDEXIT
+Reset M 0 13757 2 13763
+#ENDROOM
+
+#ROOM
+Vnum     13764
+Name     &OShadowhide Camp - Center&d~
+Sector   forest~
+Desc     The heart of the gnoll territory. A large bonfire burns in the center.
+Shadowhide Darkweavers chant curses, while the massive pack alpha,
+Yowler, commands his forces with terrifying howls.
+~
+#EXIT
+Direction north~
+ToRoom    13763
+Desc      The camp entrance.
+~
+#ENDEXIT
+Reset M 0 13758 2 13764
+  Reset E 1 13757 10 3
+  Reset E 1 13759 10 16
+Reset M 0 13759 1 13764
+#ENDROOM
+
+#ROOM
+Vnum     13765
+Name     &OStonewatch Keep - Approach&d~
+Sector   hills~
+Desc     The path steeply inclines toward a massive, imposing stone fortress
+built into the mountainside. Blackrock Champions, clad in heavy dark
+iron armor, hold this chokepoint against any Alliance counter-attacks.
+~
+#EXIT
+Direction west~
+ToRoom    13761
+Desc      Render's Valley.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13766
+Desc      The gates of Stonewatch.
+~
+#ENDEXIT
+Reset M 0 13754 2 13765
+  Reset E 1 13756 10 11
+#ENDROOM
+
+#ROOM
+Vnum     13766
+Name     &dStonewatch Keep - Gates&d~
+Sector   city~
+Desc     You stand before the towering, shattered gates of Stonewatch Keep. The
+orcs have completely overrun this former human bastion, defacing its
+walls with the bloody handprint of the Blackrock clan.
+~
+#EXIT
+Direction west~
+ToRoom    13765
+Desc      The approach.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13767
+Desc      The inner courtyard.
+~
+#ENDEXIT
+Reset M 0 13754 2 13766
+#ENDROOM
+
+#ROOM
+Vnum     13767
+Name     &dStonewatch Keep - Courtyard&d~
+Sector   city~
+Desc     The grand courtyard is filled with weapon racks and sparring rings. Dozens
+of orcs train here tirelessly, preparing for the final assault on Lakeshire.
+Warlocks oversee the drills, punishing failure with fire.
+~
+#EXIT
+Direction west~
+ToRoom    13766
+Desc      The gates.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13768
+Desc      The barracks.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    13769
+Desc      The tower stairs.
+~
+#ENDEXIT
+Reset M 0 13764 2 13767
+#ENDROOM
+
+#ROOM
+Vnum     13768
+Name     &dStonewatch Keep - Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     The old human barracks have been repurposed by the orcish horde. Crude
+furs cover the stone floors, and the smell of sweat and roasted meat
+is overwhelming. 
+~
+#EXIT
+Direction south~
+ToRoom    13767
+Desc      The courtyard.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13769
+Name     &dStonewatch Keep - Tower Stairs&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A spiraling stone staircase leads up into the main watchtower. The steps
+are slick with blood and incredibly steep. You can hear the booming voice
+of the Warlord echoing from above.
+~
+#EXIT
+Direction down~
+ToRoom    13767
+Desc      The courtyard.
+~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    13770
+Desc      The pinnacle of the tower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13770
+Name     &dStonewatch Keep - Tower Pinnacle&d~
+Sector   inside~
+Flags    indoors~
+Desc     The highest point in Redridge. From here, the Blackrock commanders can
+see all the way to Elwynn Forest. Warlord Gath'Ilzogg stands here, a
+towering mountain of muscle and iron, ready to crush any who oppose him.
+~
+#EXIT
+Direction down~
+ToRoom    13769
+Desc      The tower stairs.
+~
+#ENDEXIT
+Reset M 0 13755 1 13770
+  Reset E 1 13755 10 5
+#ENDROOM
+
+#ROOM
+Vnum     13771
+Name     &OLakeridge Highway - North&d~
+Sector   field~
+Desc     The highway turns sharply north here, winding precariously upward into
+the ash-choked mountains. This treacherous path eventually leads into
+the terrifying, volcanic wasteland of the Burning Steppes.
+~
+#EXIT
+Direction south~
+ToRoom    13760
+Desc      The Redridge Canyons.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13772
+Name     &ORender's Camp&d~
+Sector   field~
+Desc     A heavily entrenched command post located deep in the valley. Tharil'zun,
+the cruel lieutenant of the Blackrock forces, coordinates the raiding
+parties that strike at Lakeshire from this location.
+~
+#EXIT
+Direction west~
+ToRoom    13762
+Desc      The Blackrock encampment.
+~
+#ENDEXIT
+Reset M 0 13756 1 13772
+  Reset G 1 13754 10
+#ENDROOM
+
+#ROOM
+Vnum     13773
+Name     &OTower Watch&d~
+Sector   city~
+Desc     A small, fortified watchtower overlooking the Lakeshire Bridge. A lone
+Redridge Guard is stationed here, tasked with sounding the alarm the
+moment the orcish army begins its march.
+~
+#EXIT
+Direction south~
+ToRoom    13774
+Desc      The town docks.
+~
+#ENDEXIT
+Reset M 0 13752 1 13773
+#ENDROOM
+
+#ROOM
+Vnum     13774
+Name     &OLakeshire Docks&d~
+Sector   city~
+Desc     Wooden piers extend out into the clear waters of Lake Everstill. Small
+fishing boats are tied up here. It is one of the few peaceful spots left
+in the embattled town.
+~
+#EXIT
+Direction south~
+ToRoom    13754
+Desc      Lakeshire Bridge.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    13773
+Desc      The watchtower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13775
+Name     &OEverstill Bridge - North&d~
+Sector   city~
+Desc     The northern edge of the great bridge. The stone is heavily scarred from
+recent skirmishes with raiding gnolls who attempted to cross into town.
+~
+#EXIT
+Direction south~
+ToRoom    13754
+Desc      The center of the bridge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13776
+Name     &OThe Forest Edge&d~
+Sector   forest~
+Desc     The woods east of Alther's Mill are dangerously quiet. The trees are
+shrouded in thick webs, and giant tarantulas wait patiently in the canopy
+for unsuspecting prey.
+~
+#EXIT
+Direction west~
+ToRoom    13759
+Desc      Alther's Mill.
+~
+#ENDEXIT
+Reset M 0 13761 2 13776
+#ENDROOM
+
+#ROOM
+Vnum     13777
+Name     &OGnoll Patrol Path&d~
+Sector   forest~
+Desc     A crude, muddy path beaten into the forest floor by the constant pacing
+of Shadowhide patrols. The gnolls fiercely protect the borders of their
+territory.
+~
+#EXIT
+Direction west~
+ToRoom    13763
+Desc      The Shadowhide camp entrance.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     13778
+Name     &OBlackrock Supply Camp&d~
+Sector   field~
+Desc     A small clearing filled with stolen crates of food and weapons meant for
+Lakeshire. Blackrock Grunts guard the supplies, keeping them ready for
+the front lines.
+~
+#EXIT
+Direction west~
+ToRoom    13761
+Desc      Render's Valley.
+~
+#ENDEXIT
+Reset M 0 13753 2 13778
+  Reset E 1 13762 10 16
+#ENDROOM
+
+#ROOM
+Vnum     13779
+Name     &OThe High Pass&d~
+Sector   hills~
+Desc     A narrow, perilous pass high above the valleys. The wind threatens to
+blow you off the edge. From here, you have a breathtaking, terrifying
+view of the Blackrock army gathering below.
+~
+#EXIT
+Direction west~
+ToRoom    13760
+Desc      The Redridge Canyons.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
