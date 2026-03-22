@@ -541,12 +541,12 @@ metal echoes from the halls ahead. This high-security prison was once
 under the control of Stormwind's finest, but the red bandanas tied to 
 the torches suggest a new power has taken over.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    11046
 Desc      The path back to the city canals.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11901
 Desc      The main hallway leading deeper into the prison.~
@@ -563,12 +563,12 @@ riot is scattered across the floor—broken benches, torn ledgers, and
 discarded shackles. To the north, the hallway opens into a large
 central hub.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11900
 Desc      The prison entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11902
 Desc      The hallway continues north.~
@@ -585,12 +585,12 @@ Desc     The shouting grows louder here. Footprints in the dust indicate heavy
 traffic moving between the wings. The stone walls are scarred by 
 blade marks and scorch signs from magical fire.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11901
 Desc      The hallway leads back to the entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11903
 Desc      The central hub of the prison.~
@@ -609,22 +609,22 @@ the orcish prisoners. To the north, the main block where the rioters
 hold the most ground. To the east, the wing occupied by the Dark
 Iron saboteurs and the most dangerous criminals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11902
 Desc      The entry hallway.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11904
 Desc      The entrance to the Left Wing.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11916
 Desc      The entrance to the Middle Wing.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11928
 Desc      The entrance to the Right Wing.~
@@ -642,12 +642,12 @@ Desc     The air here is noticeably warmer. Rough orcish symbols have been
 scrawled on the walls in blood. This wing is a maze of cells 
 repurposed into a war camp.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11903
 Desc      The central hub.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11905
 Desc      The corridor continues west.~
@@ -663,22 +663,22 @@ Flags    indoors~
 Desc     A small area where guards once monitored the cells. It is now a
 mess of overturned tables and smashed lanterns.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11904
 Desc      The corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11906
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11907
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11908
 Desc      The deep left corridor.~
@@ -693,7 +693,7 @@ Flags    indoors~
 Desc     Small iron-barred cells line this room. Most of the doors have been
 wrenched off their hinges, allowing the inmates to roam free.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11905
 Desc      The guard post.~
@@ -709,7 +709,7 @@ Flags    indoors~
 Desc     Piles of moldy straw serve as beds in these cramped quarters. The
 stench of rot and sweat is overpowering.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11905
 Desc      The guard post.~
@@ -725,12 +725,12 @@ Flags    indoors~
 Desc     The path narrows as it descends slightly deeper. The sound of orcish
 chanting can be heard from the end of the hall.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11905
 Desc      The guard post.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11909
 Desc      The corridor continues.~
@@ -746,22 +746,22 @@ Flags    indoors~
 Desc     A three-way fork in the western wing. To the north and south are 
 more cells, while the path west leads to a larger chamber.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11908
 Desc      The deep corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11910
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11911
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11912
 Desc      The end of the corridor.~
@@ -776,7 +776,7 @@ Flags    indoors~
 Desc     Empty chains hang from the ceiling. It looks like the prisoners
 here were moved elsewhere recently.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11909
 Desc      The intersection.~
@@ -792,7 +792,7 @@ Flags    indoors~
 Desc     The floor is stained with old blood. A few desperate inmates huddle
 in the corners, clutching makeshift shivs.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11909
 Desc      The intersection.~
@@ -808,22 +808,22 @@ Flags    indoors~
 Desc     Crates of stolen supplies are stacked here. Bandages, dried meat,
 and crude weapons are being organized for a breakout.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11909
 Desc      The intersection.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11913
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11914
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11915
 Desc      Targorr's Chamber.~
@@ -839,7 +839,7 @@ Flags    indoors~
 Desc     These cells are surprisingly clean compared to the rest of the 
 dungeon, likely reserved for higher-ranking rioters.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11912
 Desc      The preparation area.~
@@ -854,7 +854,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The air is thick with smoke from a small brazier in the corner.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11912
 Desc      The preparation area.~
@@ -872,7 +872,7 @@ converted into a throne room of sorts for Targorr the Dread.
 Skulls are mounted on the walls, and the floor is covered in
 thick animal furs.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11912
 Desc      The preparation area.~
@@ -890,12 +890,12 @@ Flags    indoors~
 Desc     The primary artery of the prison. The Defias Brotherhood has 
 fortified this hall with barricades made of heavy furniture.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11903
 Desc      The central hub.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11917
 Desc      The corridor continues north.~
@@ -912,12 +912,12 @@ Desc     You have to squeeze past piles of broken masonry and wooden beams.
 The sound of snoring—massive, rhythmic snoring—echoes from the 
 north.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11916
 Desc      The corridor entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11918
 Desc      A central intersection.~
@@ -933,22 +933,22 @@ Flags    indoors~
 Desc     The largest intersection in the north wing. Paths lead off to
 various cell blocks where the heart of the riot is contained.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11917
 Desc      The barricade pass.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11919
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11920
 Desc      A small cell block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11921
 Desc      The deep north corridor.~
@@ -964,7 +964,7 @@ Flags    indoors~
 Desc     Rows of iron beds line the walls. Convicts use this area as a 
 barracks between patrols.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11918
 Desc      The intersection.~
@@ -980,7 +980,7 @@ Flags    indoors~
 Desc     The walls here are covered in Defias propaganda, painted in 
 crude red strokes.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11918
 Desc      The intersection.~
@@ -996,22 +996,22 @@ Flags    indoors~
 Desc     The air is freezing here. The stone walls are slick with moisture.
 To the west and east are the high-security cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11918
 Desc      The intersection.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11922
 Desc      A high-security cell.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11923
 Desc      A high-security cell.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11924
 Desc      The enforcer's hallway.~
@@ -1027,7 +1027,7 @@ Flags    indoors~
 Desc     The door to this cell is solid iron with only a small slot for 
 food. It has been hammered open from the inside.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11921
 Desc      The deep corridor.~
@@ -1043,7 +1043,7 @@ Flags    indoors~
 Desc     Strange arcane runes are etched into the floor, a remnant of the
 mages who once helped guard the prisoners here.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11921
 Desc      The deep corridor.~
@@ -1059,12 +1059,12 @@ Flags    indoors~
 Desc     This hallway is wide enough for two ogres to walk abreast. Heavy 
 thuds vibrate through the floor with every passing second.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11921
 Desc      The deep corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11925
 Desc      Hamhock's Post.~
@@ -1081,12 +1081,12 @@ Desc     A massive pile of chewed bones sits in the center of the room.
 This is where the enforcer Hamhock keeps watch over the entrance
 to the leader's chambers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11924
 Desc      The enforcer's hallway.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11926
 Desc      A heavy iron gate.~
@@ -1104,12 +1104,12 @@ Flags    indoors~
 Desc     A massive iron gate blocks the way. It requires a specific key to
 pass, or a great deal of force to bypass.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11925
 Desc      Hamhock's Post.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11927
 Desc      Bazil Thredd's Cell.~
@@ -1126,7 +1126,7 @@ command center. Maps of Stormwind are pinned to the walls, and
 Bazil Thredd stands at a central table, planning the next phase
 of the Defias uprising.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11926
 Desc      The iron gate.~
@@ -1145,12 +1145,12 @@ Flags    indoors~
 Desc     The air smells of sulfur and coal. Small black stains on the 
 floor suggest the presence of Dark Iron dwarves.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11903
 Desc      The central hub.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11929
 Desc      The corridor continues east.~
@@ -1166,17 +1166,17 @@ Flags    indoors~
 Desc     The inmates in this wing are the most organized. Stolen goods are
 neatly crated and ready for transport out of the prison.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11928
 Desc      The corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11930
 Desc      The saboteur's block.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11935
 Desc      The mastermind's block.~
@@ -1192,12 +1192,12 @@ Flags    indoors~
 Desc     The temperature rises as you move north. The sound of hammers 
 striking metal rings out from the cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11929
 Desc      The east corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11931
 Desc      The block corridor.~
@@ -1213,22 +1213,22 @@ Flags    indoors~
 Desc     Black soot covers every surface. The Dark Iron dwarves have set up
 makeshift forges in the cells here.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11930
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11932
 Desc      A forge cell.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11933
 Desc      A forge cell.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11934
 Desc      Kam Deepfury's Cell.~
@@ -1244,7 +1244,7 @@ Flags    indoors~
 Desc     The cell is filled with smoke. A small anvil sits on a stump in
 the center.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11931
 Desc      The corridor.~
@@ -1260,7 +1260,7 @@ Flags    indoors~
 Desc     Piles of scrap metal and half-finished explosives are scattered
 everywhere.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11931
 Desc      The corridor.~
@@ -1277,7 +1277,7 @@ Desc     Kam Deepfury has turned his cell into a miniature fortress. Dark
 Iron banners hang from the bars, and the air is thick with the 
 smell of dark magic and hot iron.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11931
 Desc      The corridor.~
@@ -1295,12 +1295,12 @@ Flags    indoors~
 Desc     The atmosphere here is different—quieter and more predatory. The
 prisoners here are not common thugs, but calculated killers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11929
 Desc      The east corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11936
 Desc      The block corridor.~
@@ -1316,22 +1316,22 @@ Flags    indoors~
 Desc     The shadows seem deeper here. You have the distinct feeling of 
 being watched from every dark corner.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11935
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11937
 Desc      A silent cell.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11938
 Desc      A silent cell.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11939
 Desc      The deep south corridor.~
@@ -1347,7 +1347,7 @@ Flags    indoors~
 Desc     A single prisoner sits in the center of the room, sharpening a 
 blade with rhythmic, terrifying precision.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11936
 Desc      The corridor.~
@@ -1362,7 +1362,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The cell is empty, but the lock has been expertly picked.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11936
 Desc      The corridor.~
@@ -1378,12 +1378,12 @@ Flags    indoors~
 Desc     The end of the eastern wing. A single, heavy door leads to the 
 final room in this block.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11936
 Desc      The corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11940
 Desc      Dextren Ward's Cell.~
@@ -1400,7 +1400,7 @@ Desc     Dextren Ward's cell is surprisingly well-furnished with stolen
 guard chairs and a small rug. He stands near the back wall, 
 spinning a blade and waiting for the next challenger.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11939
 Desc      The corridor.~

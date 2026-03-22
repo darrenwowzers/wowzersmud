@@ -786,13 +786,13 @@ gold banners of the Alliance. The paved streets of the Trade District lie
 just ahead to the north. To the south, the awe-inspiring bridge known as
 the Valley of Heroes stretches out toward Elwynn Forest.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11001
 Desc      The paved streets of the Trade District await.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11042
 Desc      The grand Valley of Heroes bridge spans the water.
@@ -814,28 +814,28 @@ grand Stormwind Bank, and to the west lies the local Auction House. The
 air smells of fresh bread from a nearby vendor and the ozone of passing
 mages.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11004
 Desc      The street continues deeper into the Trade District.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    11002
 Desc      The grand pillars of the Stormwind Bank invite you in.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    11000
 Desc      The Gates of Stormwind lead out of the city.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    11003
 Desc      The sounds of shouting and commerce echo from the Auction House.
@@ -854,7 +854,7 @@ imposing structure. Goblins and humans alike operate behind the counters,
 managing the wealth of the Alliance. Heavy iron vaults are visible in the
 back, guarded heavily by elite footmen.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11001
 Desc      You see the bustling Trade District Square.
@@ -875,7 +875,7 @@ around shouting prices, inspecting weapons, and trading raw materials.
 A raised dais at the back of the room holds several well-dressed
 auctioneers who are frantically keeping track of bids and buy-outs.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11001
 Desc      You see the bustling Trade District Square.
@@ -894,25 +894,25 @@ quieter alleyways of the city. A small cheese shop sits to the right, and
 a vendor selling brightly colored flowers stands by a small fountain. The
 bustle of the main square is slightly muted here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11013
 Desc      A pristine white bridge crosses the canals toward the Cathedral.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11023
 Desc      A heavy stone bridge crosses into the smoky Dwarven District.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11001
 Desc      The Trade District Square lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11005
 Desc      A stone bridge crosses the canals toward the Mage Quarter.
@@ -930,19 +930,19 @@ against stone provides a peaceful backdrop. To the east lies the bustling
 Trade District, while the scent of ozone and arcane magic drifts from
 the Mage Quarter to the west.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11004
 Desc      The Trade District awaits.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11006
 Desc      The cobblestones turn a deep purple as you enter the Mage Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11046
 Desc      A heavily guarded stone ramp leads down to the Stockade.
@@ -959,7 +959,7 @@ known as the Stockade. The guards here look tense, as if a riot could
 break out at any moment. Through the bars, a glowing portal stone
 swirls with instance energy.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11005
 Desc      The stone ramp leads back up to the canals.
@@ -976,19 +976,19 @@ air hums with a faint, static electricity. Blue and purple banners hang
 from the towers, and the citizens walking by wear robes of varying
 intricacy. To the south, you hear the lively sounds of a busy tavern.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11005
 Desc      The bridge leads back over the canals.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11007
 Desc      The sign of the Blue Recluse hangs over a heavy oak door.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11008
 Desc      The street opens up into the central square of the Mage Quarter.
@@ -1008,7 +1008,7 @@ Floating candles illuminate the room, casting dancing shadows on the wood
 paneled walls. Robed figures sit huddled in booths, whispering in strange
 tongues and nursing drinks.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11006
 Desc      The street of the Mage Quarter awaits outside.
@@ -1027,25 +1027,25 @@ form an intricate arcane rune on the ground. To the west, a spiraling
 ramp leads up to the majestic Wizard's Sanctum. To the south, a darker,
 narrower alley winds toward a less reputable establishment.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11006
 Desc      The street leads back toward the canals.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11010
 Desc      An alley leads toward a gloomy looking building.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11009
 Desc      The entrance to the Wizard's Sanctum towers before you.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11012
 Desc      The path winds upward toward the Stormwind Park.
@@ -1065,7 +1065,7 @@ runes glow softly on the walls, and the air is thick with the smell of
 parchment and ozone. A magical portal shimmers faintly in the center
 of the room, connecting Stormwind to distant lands.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11008
 Desc      The central square lies outside the tower.
@@ -1083,13 +1083,13 @@ by a few sputtering torches. The patrons here speak in hushed, secretive
 voices, and they watch you with suspicious eyes. A set of creaky wooden
 stairs leads down into the darkness of the crypts.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11008
 Desc      The central square provides a welcome escape from the gloom.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11011
 Desc      The stairs descend into the cold crypts.
@@ -1107,7 +1107,7 @@ brimstone. Skulls line the stone walls. This is the hidden sanctuary of
 Stormwind's warlock coven, where dark bargains are struck and forbidden
 magic is practiced away from the prying eyes of the guards.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11010
 Desc      The stairs lead back up to the tavern.
@@ -1126,7 +1126,7 @@ give way to a dirt path lined with vibrant green grass and tall, ancient
 trees. A cool breeze blows from the west, carrying the scent of blooming
 flowers and the distant sound of the ocean.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11008
 Desc      The central square of the Mage Quarter.
@@ -1143,13 +1143,13 @@ Beneath you, the Stormwind Canals flow quietly. Ahead to the north, the
 magnificent spires of the Cathedral of Light rise into the sky, a beacon
 of hope and faith for the Alliance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11014
 Desc      The entrance to Cathedral Square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11004
 Desc      The Trade District awaits.
@@ -1166,13 +1166,13 @@ by hushed, respectful tones and the distant sound of chanting choirs.
 The paving stones are pristine white marble. To the north lies the central
 fountain of the square.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11015
 Desc      A beautiful fountain sits in the center of the square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11013
 Desc      The bridge leads back over the canals.
@@ -1191,25 +1191,25 @@ clear water cascades down its marble basins, catching the sunlight and
 creating faint rainbows. Citizens sit on the edges, praying or enjoying
 the peaceful atmosphere.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11019
 Desc      The grand steps of the Cathedral of Light.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11017
 Desc      The eastern walk of the square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11014
 Desc      The entrance to the square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11018
 Desc      The western walk, leading toward the Orphanage.
@@ -1229,7 +1229,7 @@ their parents during the various wars that have plagued Azeroth. Small
 beds are lined up against the walls, and toys are scattered across the
 floor. It is loud, chaotic, but filled with love.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11018
 Desc      The western walk of Cathedral Square.
@@ -1247,7 +1247,7 @@ Desc     You walk along the eastern edge of the square. To your right, high ston
 walls separate the holy grounds from the rest of the city. A few vendors
 here silently peddle candles, holy water, and religious texts.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11015
 Desc      The central fountain of the square.
@@ -1263,13 +1263,13 @@ Desc     You walk along the western edge of the square. The sounds of children
 laughing and shouting can be heard from a building just to the west.
 Paladins in training can often be seen jogging through this area.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11015
 Desc      The central fountain of the square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11016
 Desc      The doors to the Stormwind Orphanage are wide open.
@@ -1286,13 +1286,13 @@ Cathedral of Light. Flanking the doors are massive statues of heroes who
 fell defending humanity. Looking back south, you have a breathtaking
 view of the entire square and the fountain below.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11020
 Desc      The grand nave of the Cathedral beckons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11015
 Desc      The central fountain of the square.
@@ -1312,19 +1312,19 @@ windows cast kaleidoscopic colors across the rows of polished wooden
 pews. The ceiling arches impossibly high overhead. The air is thick
 with incense, and the echoing chants of priests fill the holy hall.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11021
 Desc      The main altar of the Cathedral.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11019
 Desc      The steps leading back outside.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11022
 Desc      A dark stairwell leads into the catacombs.
@@ -1344,7 +1344,7 @@ upon a golden podium. This is the heart of the Silver Hand in Stormwind,
 where the highest ranking Paladins and Priests convene to bless troops,
 heal the sick, and plan their crusades against the darkness.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11020
 Desc      The grand nave of the Cathedral.
@@ -1364,7 +1364,7 @@ Cathedral. Dust coats the stone floor, and the faint light from upstairs
 barely penetrates the gloom. These catacombs hold the remains of the
 city's most revered archbishops and heroes.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11020
 Desc      The light of the nave beckons from above.
@@ -1381,19 +1381,19 @@ heavy, reinforced stone bridge. The rhythmic clang of metal striking
 metal echoes from the east, drowning out the gentle flow of the canals
 below. A paved walkway runs south along the canal toward Old Town.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11024
 Desc      The smoggy heart of the Dwarven District.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11029
 Desc      The canal walk winds down toward the gritty streets of Old Town.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11004
 Desc      The Trade District.
@@ -1410,25 +1410,25 @@ Soot stains the cobblestones, and the air smells strongly of sulfur, hot
 iron, and roasted meats. To the north is the open-air forge, to the south
 lies the local tavern, and to the east stands a massive, mechanized gate.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11026
 Desc      The intense heat of the blacksmith's forge radiates from here.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11027
 Desc      A massive gear-shaped doorway leads into the Deeprun Tram.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11025
 Desc      The Golden Keg tavern beckons with the smell of ale.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11023
 Desc      The bridge leads back to the Trade District.
@@ -1449,7 +1449,7 @@ city. The ceilings are low, the wooden tables are heavily scarred by axes
 and spilled ale, and an enormous fire roars in the hearth. Dwarves and
 humans alike share tales of battle and boast of their latest kills.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11024
 Desc      The smoky avenue of the Dwarven District.
@@ -1468,7 +1468,7 @@ and roaring furnaces dominate the space, surrounded by racks of glowing
 weapons and cooling armor. Sparks fly continuously into the air as the
 city's finest smiths ply their trade for the Alliance war machine.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11024
 Desc      The main avenue of the district.
@@ -1488,13 +1488,13 @@ hissing steam pipes, and the smell of grease. This marvel of gnomish
 engineering connects Stormwind directly to Ironforge. A wide mechanical
 ramp descends deeper underground toward the boarding platforms.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11024
 Desc      The main avenue of the Dwarven District.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11028
 Desc      The ramp leads down to the tram platforms.
@@ -1512,7 +1512,7 @@ the north, disappearing into the dark depths of the ocean. The metal
 platform shudders periodically as high-speed trams rocket into the
 station, carrying passengers between the two great capitals.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11027
 Desc      The ramp leads up to the city streets.
@@ -1532,19 +1532,19 @@ south, the cobblestones grow uneven and cracked, marking the borders
 of Old Town. To the east, a massive, heavily guarded bridge leads to
 the awe-inspiring Stormwind Keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11023
 Desc      The bridge connecting the Trade and Dwarven districts.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11036
 Desc      The Great Bridge to Stormwind Keep.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11030
 Desc      The unkempt streets of Old Town.
@@ -1561,19 +1561,19 @@ here. Old Town is a maze of narrow streets, cramped buildings, and
 suspicious characters. Street urchins dart through the alleys, and the
 smell of cheap ale drifts from a boisterous tavern to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11029
 Desc      The walk along the canals.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11031
 Desc      The Pig and Whistle tavern is packed with rowdy patrons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11032
 Desc      A narrow, winding alleyway leads deeper into Old Town.
@@ -1591,7 +1591,7 @@ a gathering place for mercenaries, off-duty guards, and those looking
 to buy items that might have recently 'fallen off a wagon'. The floor
 is sticky, and the air is thick with smoke and questionable rumors.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11030
 Desc      The main street of Old Town.
@@ -1610,13 +1610,13 @@ buildings that block out most of the sunlight. The shadows seem almost
 alive. At the end of the alley to the east stands a highly secure,
 nondescript stone building guarded by lethal-looking individuals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11030
 Desc      The main street of Old Town.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11033
 Desc      The heavily guarded entrance to SI:7.
@@ -1637,19 +1637,19 @@ intelligence agency, SI:7. The atmosphere is tense and quiet.
 Operatives clean weapons, read encoded missives, and train relentlessly.
 To the north is a training hall, and a flight of stairs leads up.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11034
 Desc      The sounds of blades striking wood come from the training hall.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11032
 Desc      The winding alleyway outside.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11035
 Desc      Stairs lead up to the master's office.
@@ -1669,7 +1669,7 @@ Racks of throwing knives, poisons, and lockpicks line the walls. In
 the center of the room sit heavy wooden target dummies, used by
 rogues to practice their ambushes and vital strikes.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11033
 Desc      The entrance hall.
@@ -1688,7 +1688,7 @@ organization. A large desk is covered in maps of Azeroth with various
 red markers detailing enemy movements. The windows are shuttered,
 plunging the room into perpetual twilight.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    11033
 Desc      The stairs lead back down to the main hall.
@@ -1708,13 +1708,13 @@ of Stormwind Keep looms ahead to the east, its high towers touching the
 clouds. You can feel the weight of history in the massive stone blocks
 beneath your feet.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11037
 Desc      The Keep's courtyard awaits.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11029
 Desc      The canal walk between the districts.
@@ -1735,13 +1735,13 @@ paved in flawless white marble. Statues of legendary kings and heroes
 line the walls, standing as silent sentinels. Directly ahead is the
 grand entrance to the Royal Gallery, leading into the heart of the keep.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11038
 Desc      The towering doors to the Royal Gallery.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11036
 Desc      The Great Bridge leading back to the city proper.
@@ -1759,25 +1759,25 @@ tapestries depicting the great victories of the Alliance. Polished suits
 of armor stand at attention in the alcoves. To the east lies the Throne
 Room, to the north is the Royal Library, and to the south is the War Room.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11040
 Desc      The quiet calm of the Royal Library.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11039
 Desc      The magnificent Throne Room of Stormwind.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11041
 Desc      The sounds of tactical planning echo from the War Room.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11037
 Desc      The Keep's courtyard.
@@ -1798,7 +1798,7 @@ stained-glass windows, illuminating the royal blue carpets that lead up
 to an empty, gilded throne. Noblemen, advisors, and elite guards stand
 in quiet discussion. The air is heavy with politics and power.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11038
 Desc      The Royal Gallery.
@@ -1823,7 +1823,7 @@ ceiling bookshelves line the walls, containing the accumulated knowledge
 of human history, arcane theory, and theological texts. Scholars speak
 in hushed whispers, studying by the light of magical orbs.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11038
 Desc      The Royal Gallery.
@@ -1841,7 +1841,7 @@ covered by a highly detailed map of Azeroth. Wooden figurines representing
 Horde and Alliance armies are scattered across it. High-ranking officers
 shout orders, read scouting reports, and plan the defense of the realm.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11038
 Desc      The Royal Gallery.
@@ -1860,13 +1860,13 @@ statues. To the west stands Ranger Captain Alleria Windrunner, and to the
 east stands Force Commander Danath Trollbane. The wind howls through
 the canyon here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11000
 Desc      The great gates of Stormwind City.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11043
 Desc      The center of the grand bridge.
@@ -1886,13 +1886,13 @@ of them all: General Turalyon, his stone sword raised high in eternal
 defiance. The roaring waterfalls on either side of the bridge create a
 constant, thunderous roar that fills the valley.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11042
 Desc      The northern span of the bridge.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11044
 Desc      The southern span of the bridge.
@@ -1910,13 +1910,13 @@ of Elwynn to the civilized heart of humanity. Two more colossal statues
 stand guard here: Archmage Khadgar to the west, and Kurdran Wildhammer
 atop his gryphon to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11043
 Desc      The center of the grand bridge.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11045
 Desc      The dirt path leading into Elwynn Forest.
@@ -1935,14 +1935,14 @@ Elwynn Forest. Towering pines and oaks surround the valley entrance.
 Looking north, the sheer scale of the Valley of Heroes and the white
 walls of Stormwind is enough to take a traveler's breath away.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11044
 Desc      The Valley of Heroes bridge begins here.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    12020
 Desc      The road continues into Elwynn Forest.

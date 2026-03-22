@@ -995,13 +995,13 @@ road from &CDun Morogh&d lies to the &Ysouth&d, while the &WCommons&d await
 within to the &Ynorth&d.
 ~
 Flags    nomob~
-Exit
+#EXIT
 Direction north~
 ToRoom    14001
 Desc      The great entry hall leads into the Commons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14700
 Desc      The snow-covered road leads to Dun Morogh.
@@ -1024,13 +1024,13 @@ filled with burning coal light the hall with a warm orange glow. The
 &WCommons&d, Ironforge's main thoroughfare, stretches before you to the
 &Ynorth&d. The great gates lie to the &Ysouth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14002
 Desc      The Commons continues deeper into the city.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14000
 Desc      The great gates lead outside.
@@ -1055,25 +1055,25 @@ branch in all directions—&Ynorth&d toward the &RGreat Forge&d, &Yeast&d to the
 &CMystic Ward&d, &Ywest&d to the &YMilitary Ward&d, and &Ysouth&d back toward
 the gates.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14010
 Desc      The heat of the Great Forge beckons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14030
 Desc      The Mystic Ward lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14001
 Desc      The entry hall lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14050
 Desc      The Military Ward lies to the west.
@@ -1094,19 +1094,19 @@ fresh bread to exotic gems. The smell of baking and metalwork mingles
 in the warm air. The plaza lies to the &Ywest&d, and the walk continues
 &Yeast&d toward the bank. A tavern entrance is visible to the &Ynorth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14004
 Desc      The sign of the Stonefire Tavern hangs above a doorway.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14006
 Desc      The walk continues toward the Vault.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14002
 Desc      The central plaza lies to the west.
@@ -1129,19 +1129,19 @@ spilled ale permeates everything. Sturdy wooden tables are crowded with
 dwarves telling tales and singing bawdy songs. A long bar runs along the
 &Yeast&d wall, and a staircase leads &Yup&d to guest rooms.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14003
 Desc      The Commons lies outside.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14005
 Desc      The bar area lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    14008
 Desc      A staircase leads to the upper rooms.
@@ -1165,7 +1165,7 @@ of mugs, tankards, and bottles line the shelves. The innkeeper presides
 over this domain with cheerful efficiency, keeping drinks flowing and
 patrons happy.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14004
 Desc      The main tavern room lies to the west.
@@ -1188,13 +1188,13 @@ stand open during business hours, revealing glimpses of the secure rooms
 within. Armed guards watch everyone with suspicious eyes. The walk
 continues &Ywest&d, and the bank entrance is to the &Ynorth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14007
 Desc      Heavy doors lead into the Vault.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14003
 Desc      The eastern walk leads back to the plaza.
@@ -1216,7 +1216,7 @@ a sharp-eyed banker. Behind them, the massive vault doors of solid mithril
 stand partially visible, their locks said to be unpickable. The wealth of
 the Alliance is safeguarded here.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14006
 Desc      The Commons lies outside.
@@ -1236,7 +1236,7 @@ modest guest rooms line both walls, and the sounds of snoring and muffled
 conversation drift through the wood. A window at the far end overlooks
 the Commons below. The stairs lead &Ydown&d to the main tavern.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    14004
 Desc      The stairs lead down to the tavern.
@@ -1255,7 +1255,7 @@ from across the Alliance. Notice boards cover the walls, advertising
 everything from rare weapons to mundane supplies. The central plaza lies
 to the &Ysouth&d.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14002
 Desc      The central plaza lies to the south.
@@ -1278,19 +1278,19 @@ This ancient forge has burned since the founding of the city, and its
 flames have crafted countless legendary weapons. The path circles the
 forge to the &Yeast&d and &Ywest&d. The Commons lies &Ysouth&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14011
 Desc      The path circles the forge to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14002
 Desc      The cooler Commons lie to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14014
 Desc      The path circles the forge to the west.
@@ -1311,19 +1311,19 @@ lava pit bubbles and churns to your &Ywest&d, separated only by a low stone
 wall. The ring continues &Ynorth&d and &Ysouth&d, and a smithy lies to the
 &Yeast&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14012
 Desc      The ring continues north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14015
 Desc      A master smithy lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14010
 Desc      The southern entrance lies behind you.
@@ -1346,19 +1346,19 @@ smiths who require the most intense heat for their finest works. The
 heat here is almost unbearable. The High Seat lies to the &Ynorth&d, and
 the ring continues &Yeast&d and &Ywest&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14020
 Desc      The High Seat of Ironforge lies beyond.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14011
 Desc      The ring continues to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14013
 Desc      The ring continues to the west.
@@ -1379,19 +1379,19 @@ of completed works—breastplates, helms, gauntlets—line the walls, awaiting
 their owners. The ring continues &Ynorth&d and &Ysouth&d, and a workshop
 entrance lies to the &Ywest&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14012
 Desc      The ring continues north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14014
 Desc      The ring continues south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14016
 Desc      An armor workshop lies to the west.
@@ -1413,13 +1413,13 @@ forge dominating everything. Dwarven craftsmen take pride in working
 closest to the ancient flames, and the finest masters have their stations
 nearest the pit. The path continues &Ynorth&d and &Yeast&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14013
 Desc      The ring continues north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14010
 Desc      The southern entrance lies to the east.
@@ -1440,7 +1440,7 @@ racks, and a private forge burns hot against the far wall. The quality
 of work here is evident in every gleaming edge and perfect weld. The
 master himself works at his anvil, ignoring all distractions.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14011
 Desc      The forge ring lies to the west.
@@ -1462,7 +1462,7 @@ awaiting final fitting. Shields lean against every wall, bearing the
 crests of various dwarven clans. The armorers here take immense pride
 in crafting protection that has saved countless lives.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14013
 Desc      The forge ring lies to the east.
@@ -1486,13 +1486,13 @@ their eyes watching every visitor. Banners bearing the Bronzebeard crest
 hang from the walls—a mighty anvil beneath a crown of stone. The throne
 room lies to the &Ynorth&d, and the Great Forge lies &Ysouth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14021
 Desc      The throne room awaits beyond.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14012
 Desc      The Great Forge lies to the south.
@@ -1517,19 +1517,19 @@ Ironforge. Advisors and thanes stand nearby, attending to the business
 of the kingdom. A war room lies to the &Yeast&d, and the Senate chamber
 is to the &Ywest&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14022
 Desc      The war room lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14020
 Desc      The antechamber lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14023
 Desc      The Senate chamber lies to the west.
@@ -1556,7 +1556,7 @@ representing troop positions are scattered across the map. Military
 commanders debate strategy in hushed, urgent tones. Battle plans and
 intelligence reports cover the walls.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14021
 Desc      The throne room lies to the west.
@@ -1579,7 +1579,7 @@ from every major clan gather to debate law and policy. The acoustics
 are perfect—a whisper from the floor can be heard clearly in the highest
 row.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14021
 Desc      The throne room lies to the east.
@@ -1600,13 +1600,13 @@ magical wards vibrates through the stone. This district is home to
 Ironforge's practitioners of the arcane arts—mages, warlocks, and priests
 alike. The Commons lie to the &Ywest&d, and the ward continues &Yeast&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14031
 Desc      The Mystic Ward continues deeper.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14002
 Desc      The Commons lie to the west.
@@ -1628,19 +1628,19 @@ distant lands. Mages practice incantations in hushed tones, and the smell
 of incense and ozone fills the air. The &YHall of Mysteries&d lies &Ynorth&d,
 and the &YTemple of Light&d is to the &Ysouth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14032
 Desc      The Hall of Mysteries beckons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14034
 Desc      The Temple of Light lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14030
 Desc      The ward entrance lies to the west.
@@ -1661,19 +1661,19 @@ complex experiments in warded alcoves. Magical artifacts are displayed in
 protective cases, their powers carefully contained. A portal chamber lies
 to the &Ynorth&d, and a library is to the &Yeast&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14033
 Desc      The portal chamber lies beyond.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14036
 Desc      The arcane library lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14031
 Desc      The central chamber lies to the south.
@@ -1694,7 +1694,7 @@ instantaneous travel to distant cities for those with the skill to
 activate it. Residual magical energy crackles in the air, making your
 hair stand on end.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14032
 Desc      The Hall of Mysteries lies to the south.
@@ -1714,13 +1714,13 @@ flame burns without heat. Priests in white and gold robes tend to the
 faithful, offering blessings and healing to those in need. The air smells
 of candle wax and peace.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14031
 Desc      The Mystic Ward lies to the north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14035
 Desc      The meditation chambers lie to the east.
@@ -1742,7 +1742,7 @@ space for prayer and contemplation. Candles flicker in wall sconces, and
 the distant sound of hymns drifts through the air. This is a place of
 profound peace and spiritual reflection.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14034
 Desc      The main temple lies to the west.
@@ -1762,7 +1762,7 @@ illumination without risk of fire, and enchanted ladders slide along
 tracks to reach the highest shelves. Scholars hunch over desks, taking
 notes from ancient grimoires.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14032
 Desc      The Hall of Mysteries lies to the west.
@@ -1783,13 +1783,13 @@ training facilities, and the offices of its military command. Soldiers
 march in formation, and the smell of oil and leather is everywhere. The
 Commons lie to the &Yeast&d, and the ward continues &Ywest&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14002
 Desc      The Commons lie to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14051
 Desc      The Military Ward continues deeper.
@@ -1813,25 +1813,25 @@ precise and deadly. Weapon racks line the walls, and training dummies
 bear the marks of countless strikes. The barracks lie &Ynorth&d, the
 armory is &Ysouth&d, and the gryphon roost is to the &Ywest&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14052
 Desc      The barracks lie to the north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14050
 Desc      The ward entrance lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14054
 Desc      The armory lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14060
 Desc      The gryphon roost lies to the west.
@@ -1854,13 +1854,13 @@ precision. Footlockers sit at the end of each bed, containing soldiers'
 personal effects. Off-duty warriors rest, play cards, or maintain their
 equipment. A mess hall is visible through a doorway to the &Yeast&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14053
 Desc      The mess hall lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14051
 Desc      The training grounds lie to the south.
@@ -1882,7 +1882,7 @@ soldiers at once. The smell of hearty stew and fresh bread fills the air,
 and cooks work constantly in the kitchen beyond a serving window. Even
 in peacetime, an army marches on its stomach.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14052
 Desc      The barracks lie to the west.
@@ -1907,7 +1907,7 @@ armor stand on mannequins. Quartermasters keep meticulous records of
 every piece of equipment issued to the army. The armory is the beating
 heart of Ironforge's military might.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14051
 Desc      The training grounds lie to the north.
@@ -1937,19 +1937,19 @@ with openings to the sky that allow the beasts to come and go. The smell
 of hay, feathers, and predator musk fills the air. The nesting area lies
 to the &Ynorth&d, and the flight platform is to the &Ywest&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14061
 Desc      The nesting area lies to the north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14051
 Desc      The Military Ward lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14062
 Desc      The flight platform lies to the west.
@@ -1969,7 +1969,7 @@ of the cavern. Golden gryphons lounge in their nests, preening themselves
 or tearing at haunches of meat. Handlers move carefully among them, earning
 the trust of these magnificent but dangerous creatures.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14060
 Desc      The roost entrance lies to the south.
@@ -1989,7 +1989,7 @@ and take to the skies. The wind howls through the opening, and the view
 of &CDun Morogh&d is breathtaking. Saddled gryphons wait here for passengers
 traveling to distant Alliance cities.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14060
 Desc      The roost entrance lies to the east.
@@ -2011,13 +2011,13 @@ The gnomes took refuge here after the fall of Gnomeregan, and they have
 made this district their own. The Commons lie to the &Ysouth&d, and Tinker
 Town continues &Ynorth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14071
 Desc      Tinker Town continues deeper.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14002
 Desc      The Commons lie to the south.
@@ -2039,19 +2039,19 @@ cart trundles past carrying supplies. The air smells of oil, solder, and
 burnt rubber. The engineering hall lies &Yeast&d, and the Deeprun Tram
 station is to the &Ywest&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14072
 Desc      The engineering hall lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14070
 Desc      The entrance lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14075
 Desc      The Deeprun Tram station lies to the west.
@@ -2073,13 +2073,13 @@ Senior engineers lecture apprentices on the finer points of mechanical
 design, while occasional sparks and bangs interrupt the lessons. A testing
 chamber lies &Ynorth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14073
 Desc      The testing chamber lies to the north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14071
 Desc      The central workshop lies to the west.
@@ -2099,7 +2099,7 @@ of countless experiments gone wrong—or right, depending on your perspective.
 A thick window allows observation from the relative safety of the hallway.
 Currently, a gnome is attempting to activate a device that sparks ominously.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14072
 Desc      The engineering hall lies to the south.
@@ -2119,7 +2119,7 @@ fold-out furniture and mechanical conveniences. Despite losing their
 homeland, the gnomes maintain their characteristic optimism and love of
 invention.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14071
 Desc      The central workshop lies to the south.
@@ -2141,7 +2141,7 @@ Ironforge to &WStormwind City&d, crossing beneath the sea in a journey of
 mere minutes. A sleek tram car waits at the platform, ready to depart.
 Tinker Town lies to the &Yeast&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14071
 Desc      Tinker Town lies to the east.
@@ -2162,13 +2162,13 @@ cases hold artifacts from across Azeroth and beyond. The dwarves' passion
 for uncovering the secrets of the past is evident everywhere. The main
 hall lies &Ynorth&d, and the Commons are to the &Ysouth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14081
 Desc      The main hall lies to the north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14002
 Desc      The Commons lie to the south.
@@ -2189,19 +2189,19 @@ a complete skeleton of an ancient beast dominates the center of the room.
 Explorers share tales of distant digs, and researchers pore over ancient
 texts. The library lies &Yeast&d, and a map room is to the &Ywest&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14082
 Desc      The library lies to the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    14080
 Desc      The entrance lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    14083
 Desc      The map room lies to the west.
@@ -2222,7 +2222,7 @@ League has ever undertaken. Journals, maps, rubbings of ancient inscriptions,
 and scholarly analyses fill the shelves. Archivists catalog new discoveries
 daily, adding to the ever-growing collection of dwarven knowledge.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    14081
 Desc      The main hall lies to the west.
@@ -2242,7 +2242,7 @@ sites of interest and routes through dangerous territory. Smaller maps
 of specific regions hang on the walls, annotated with notes from previous
 missions.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14081
 Desc      The main hall lies to the east.
@@ -2263,13 +2263,13 @@ frequent these dimly lit passages. A still pool of water gives the
 cavern its somber atmosphere. The Commons lie to the &Yeast&d, and a
 tavern of questionable reputation is to the &Ynorth&d.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    14091
 Desc      A shadowy tavern lies to the north.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    14002
 Desc      The Commons lie to the east.
@@ -2288,7 +2288,7 @@ Booths with high backs line the walls, allowing private conversations.
 The bartender asks no questions and remembers no faces. It's said that
 information of any kind can be bought here—for the right price.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    14090
 Desc      The Forlorn Cavern lies to the south.
@@ -2310,7 +2310,7 @@ their curling horns formidable weapons. Handlers brush their thick wool
 and ensure they are well-fed and ready for service. The Commons lie to
 the &Yeast&d.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    14002
 Desc      The Commons lie to the east.

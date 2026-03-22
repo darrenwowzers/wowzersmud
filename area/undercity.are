@@ -1126,7 +1126,7 @@ human capital. The statues of kings have been defaced, and the once-
 beautiful gardens are now choked with weeds and purple-tinged decay.
 The air is unnaturally still.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11601
 Desc      The path leads into the courtyard of the ruins.
@@ -1145,13 +1145,13 @@ The cobblestones are cracked, and the fountains are dry. Faint,
 translucent ghosts of the past wander aimlessly, echoing the
 tragedy of this place.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11602
 Desc      The grand entrance to the palace.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11600
 Desc      The city gates.
@@ -1169,13 +1169,13 @@ Desc     The interior of the palace is a haunting reminder of fallen majesty.
 Shattered chandeliers hang from the ceiling, and the red carpet is
 faded and torn. To the north, you can see the light of the throne room.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11603
 Desc      The Throne Room of Lordaeron.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11601
 Desc      The palace courtyard.
@@ -1193,13 +1193,13 @@ dancing over the empty throne. This is where King Terenas fell. A
 faint, dried bloodstain remains on the marble floor. To the north,
 the floor is missing, revealing a massive pit and the elevators.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11604
 Desc      The elevator platform to the Undercity.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11602
 Desc      The grand hall.
@@ -1216,13 +1216,13 @@ Desc     You stand on a massive, iron-bound wooden platform. Chains as thick
 as a man's waist groan as they suspend the platform over a deep,
 dark shaft. A cold, damp wind blows up from the depths.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11603
 Desc      The throne room.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11605
 Desc      The elevator descends into the dark.
@@ -1238,13 +1238,13 @@ Desc     The elevator settles into a dark, stone chamber deep underground.
 Huge rusted bells hang silently above. This is the entrance to the
 Undercity proper. To the north, a tunnel leads into the Trade Quarter.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11606
 Desc      The entrance to the Trade Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11604
 Desc      The elevator platform back to the surface.
@@ -1263,25 +1263,25 @@ iron scaffolding, and gothic stone. A canal of thick, green slime
 runs through the center of the district. From here, pathways branch
 off to the various quarters of the subterranean city.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11607
 Desc      The central ring of the Trade Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11630
 Desc      A dark tunnel leads toward the War Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11605
 Desc      The belltower elevator leading to the surface.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11620
 Desc      The air crackles with energy toward the Magic Quarter.
@@ -1298,25 +1298,25 @@ The stone ring circles the central slime canal. Forsaken merchants
 set up stalls in the alcoves. To the west is the bank, and to the
 east is the local inn.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11612
 Desc      The path winds toward the Apothecarium.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11609
 Desc      The Gallow's End Tavern.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11606
 Desc      The entrance tunnel.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11608
 Desc      The Undercity Bank.
@@ -1334,7 +1334,7 @@ Desc     This chamber is built into the damp sewer walls. Iron bars protect
 the tellers, and thick stone vaults are visible in the back. The
 only sound is the rhythmic dripping of water from the ceiling.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11607
 Desc      The Trade Quarter central ring.
@@ -1352,13 +1352,13 @@ Desc     The tavern is a gloomy, low-ceilinged room filled with the smell of
 sour ale and rot. Patrons sit in silence, staring into their mugs.
 A few empty coffins are piled in the corner, serving as benches.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11607
 Desc      The Trade Quarter central ring.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11610
 Desc      The upper floor of the tavern.
@@ -1378,7 +1378,7 @@ Desc     The upper floor is used as a sleeping area. Rows of upright coffins
 line the walls, providing the Forsaken with a place to 'rest' away
 from the light.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    11609
 Desc      The main floor of the tavern.
@@ -1395,7 +1395,7 @@ Desc     Heavy iron plates and rusted mail hang from meat hooks. Benton Burgess
 works here, reinforcing the gear of the Forsaken military with cold
 iron and dark enchantments.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11612
 Desc      The northern walk of the Trade Quarter.
@@ -1413,19 +1413,19 @@ Desc     The stone path follows the curve of the slime canal. To the south is th
 blacksmith, and to the north a heavy iron gate leads toward the
 Apothecarium. A Bile Spewer patrols the walk with heavy steps.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11613
 Desc      The gate to the Apothecarium.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11611
 Desc      The armor and shield shop.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11607
 Desc      The Trade Quarter central ring.
@@ -1442,13 +1442,13 @@ Desc     A massive iron gate, dripping with moisture, bars the way to the
 Apothecarium. The air here is noticeably more acidic, stinging your
 eyes and nostrils. Forsaken guards watch the gate with cold intensity.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11614
 Desc      The toxic labs of the Apothecarium.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11612
 Desc      The Trade Quarter north walk.
@@ -1467,13 +1467,13 @@ Desc     This chamber is a nightmare of science. Glass tubes filled with glowing
 toxic sludge crisscross the ceiling. Huge vats of bubbling chemicals
 line the walls, and the sound of hissing steam is constant.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11615
 Desc      The path winds deeper into the labs.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11613
 Desc      The gate back to the Trade Quarter.
@@ -1493,19 +1493,19 @@ The Society tests its new plagues here, searching for the perfect
 weapon of vengeance. To the east, heavily guarded iron doors lead
 into the Royal Quarter.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11640
 Desc      The secure entrance to the Royal Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11614
 Desc      The central lab.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11616
 Desc      The path to the Flight Master.
@@ -1521,13 +1521,13 @@ Desc     A spiraling stone staircase leads up into a dark shaft. This is the
 base of the city's flight roosts, where plague bats are kept for
 aerial travel across the Eastern Kingdoms.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11615
 Desc      The Apothecarium labs.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11617
 Desc      The flight roosts.
@@ -1543,7 +1543,7 @@ Desc     You are high above the Apothecarium. Dozens of giant bats hang from the
 ceiling, their wings folded. The air is thick with the smell of guano
 and leathery wings.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    11616
 Desc      The base of the flight tower.
@@ -1561,7 +1561,7 @@ Desc     A large, circular room carved out of the sewer stone. Auctioneer Yul
 stands behind a heavy iron podium, fielding bids from the shadowy
 figures that inhabit the city.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11607
 Desc      The Trade Quarter central ring.
@@ -1578,7 +1578,7 @@ Desc     A narrow iron bridge spans the toxic green canal. The liquid below is
 thick and moves slowly, carrying the waste of the Apothecarium deeper
 into the city's sewer system.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11607
 Desc      The Trade Quarter central ring.
@@ -1595,13 +1595,13 @@ Desc     The stench of the Trade Quarter fades as you enter the Magic Quarter,
 replaced by the sharp smell of ozone and sulfur. The cobblestones here
 are remarkably clean, kept immaculate by invisible magical brooms.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11606
 Desc      The tunnel leads back to the Trade Quarter entrance.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11621
 Desc      The inner circle of the Magic Quarter.
@@ -1620,25 +1620,25 @@ echo with the chants of apprentices. To the north lies the grand
 library of the Mage's Guild, while to the south, the shadows deepen
 around the Warlock's Sanctum.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11622
 Desc      The grand doors of the Mage's Guild.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11620
 Desc      The entrance path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11624
 Desc      The ominous entrance to the Warlock's Sanctum.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11626
 Desc      A small shop filled with oddities.
@@ -1656,13 +1656,13 @@ Floating candles illuminate ancient, moldering texts. Forsaken mages
 sit at long wooden tables, frantically transcribing spell scrolls
 before their flesh rots away completely.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11623
 Desc      A freezing chill emanates from the eastern alcove.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11621
 Desc      The inner circle of the Magic Quarter.
@@ -1681,7 +1681,7 @@ Desc     The temperature in this small alcove is well below freezing. A thick
 layer of ice coats the stone walls and the bookshelves. This is where
 the masters of frost magic practice their chilling arts.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11622
 Desc      The relative warmth of the grand library.
@@ -1701,13 +1701,13 @@ with skulls and demonic runes painted in dried blood. Unsettling whispers
 echo from the shadows as warlocks commune with entities from the
 Twisting Nether.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11621
 Desc      The inner circle of the Magic Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11625
 Desc      The searing heat of the summoning pits.
@@ -1727,7 +1727,7 @@ glowing with a sickly green fel light. Chains and manacles hang from
 the walls, used to bind the more uncooperative demons brought into
 this world.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11624
 Desc      The main hall of the Sanctum.
@@ -1747,13 +1747,13 @@ eyeballs, powdered bat wings, and glowing crystals. The merchant
 watches you carefully, calculating exactly how much gold you are
 willing to part with.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11621
 Desc      The inner circle of the Magic Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11627
 Desc      A path winding along the slime canal.
@@ -1770,13 +1770,13 @@ Desc     You stand on a small stone balcony overlooking the great green slime
 canal that divides the Undercity. A small pipe constantly drains
 volatile, magical runoff into the sluggish green river below.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11626
 Desc      The reagent shop.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11628
 Desc      The path continues deeper into the shadows.
@@ -1792,13 +1792,13 @@ Desc     The magical illumination of the quarter fades here, plunging the stone
 walkway into near darkness. The damp chill of the subterranean cavern
 is absolute.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11627
 Desc      The slime overlook.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11629
 Desc      The path winds toward the edge of the canal.
@@ -1816,7 +1816,7 @@ Desc     The path ends abruptly at the edge of the toxic green canal. Across the
 sluggish expanse of slime, you can see the imposing iron and stone
 structures of the Trade Quarter. There is no bridge here.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11628
 Desc      The deep shadows of the Magic Quarter.
@@ -1834,13 +1834,13 @@ and heavy iron plating. The unmistakable sounds of clashing steel and
 barking orders echo down the tunnel. The War Quarter is the martial
 heart of the Forsaken army.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11631
 Desc      The Ring of Blood training area.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11606
 Desc      The tunnel leads back to the Trade Quarter entrance.
@@ -1860,25 +1860,25 @@ floor is deeply stained with old blood and ichor. Forsaken warriors
 and deathguards spar here relentlessly, honing their combat skills
 in a never-ending cycle of violence.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11634
 Desc      A dark alley leading toward the Rogue's Den.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11632
 Desc      The grand doors of the Warrior's Guild.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11637
 Desc      The entrance to the Deathguard Barracks.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11630
 Desc      The entrance tunnel.
@@ -1896,13 +1896,13 @@ this massive, vaulted hall. The air is thick with the smell of sweat
 and oiled iron. An immense orc stands in the center of the room,
 shouting orders at the undead recruits.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11633
 Desc      The heavily guarded armory.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11631
 Desc      The Ring of Blood.
@@ -1922,7 +1922,7 @@ Desc     Rows upon rows of perfectly maintained weapons and armor line the walls
 of this secure vault. Deathguards ensure that nothing leaves this room
 without the proper requisition forms signed by the Dark Lady herself.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11632
 Desc      The training floor.
@@ -1941,13 +1941,13 @@ Desc     The torches here are spaced far apart, leaving deep pools of shadow
 between the stone buildings. This is the domain of the Deathstalkers,
 the elite assassins who serve as the eyes and ears of the Undercity.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11635
 Desc      The entrance to the Rogue's Den.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11631
 Desc      The Ring of Blood.
@@ -1964,13 +1964,13 @@ Desc     A large table dominates this dimly lit room, covered in maps of Lordaer
 and the Eastern Kingdoms. Several daggers pin important notes to the
 wood. The rogues here speak in hushed, urgent whispers.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11636
 Desc      The pungent smell of the poison lab.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11634
 Desc      The dark alleys outside.
@@ -1990,7 +1990,7 @@ green and purple liquids sit on iron workbenches. Deathstalkers carefully
 coat their weapons in these deadly concoctions before heading out on
 their lethal assignments.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11635
 Desc      The planning room.
@@ -2008,13 +2008,13 @@ Desc     This large, spartan hall serves as the primary barracks for the city's
 Deathguards. Rows of stone slabs serve as 'beds' for the undead soldiers
 when they are not on patrol.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11631
 Desc      The Ring of Blood.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11638
 Desc      A stone path leading toward the canal.
@@ -2030,13 +2030,13 @@ Desc     A heavy iron bridge arches over the glowing green slime canal, connecti
 the barracks to the outer ring of the War Quarter. The canal moves
 slowly beneath you, thick with the refuse of the city.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11639
 Desc      The lower walk of the War Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11637
 Desc      The barracks.
@@ -2053,7 +2053,7 @@ stone perimeter. The sounds of the training arenas are muted here,
 replaced by the rhythmic dripping of water from the cavern roof high
 above.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11638
 Desc      The iron bridge over the canal.
@@ -2070,13 +2070,13 @@ The architecture here is distinctly more regal, echoing the high elven
 heritage of the Banshee Queen mixed with the gothic horror of the
 Forsaken. Purple banners hang from high stone pillars.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11641
 Desc      The path winds deeper into the royal sanctuary.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11615
 Desc      The toxic labs of the Apothecarium.
@@ -2095,25 +2095,25 @@ the Trade Quarter are entirely absent, replaced by a tense, chilling
 silence. To the north lies the Banshee's Choir, and to the east is
 the Dark Lady's Antechamber.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11645
 Desc      The ethereal wailing of the Banshee's Choir.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11642
 Desc      The grand antechamber leading to the throne.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11647
 Desc      The Dark Ranger Barracks.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11640
 Desc      The entrance walk.
@@ -2132,13 +2132,13 @@ faces chipped away and replaced by the crest of the Forsaken. Royal
 Dreadguards stand at perfect attention, securing the heavy obsidian
 doors that lead to the throne room.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11643
 Desc      The Court of the Banshee Queen.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11641
 Desc      The inner walk of the Royal Quarter.
@@ -2158,25 +2158,25 @@ a vaulted ceiling. In the center sits Sylvanas Windrunner atop a throne
 of dark stone. The air is freezing cold, heavy with the weight of her
 undying vengeance against the Lich King.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11646
 Desc      Master Faranell's private laboratory.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11644
 Desc      The chamber of the dreadlord Varimathras.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11649
 Desc      The Forsaken Command Room.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11642
 Desc      The grand antechamber.
@@ -2198,7 +2198,7 @@ faintly of brimstone and fel magic. The massive dreadlord Varimathras
 stands here, serving as Sylvanas' lieutenant and advisor, though his
 loyalty is always a matter of debate.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11643
 Desc      The Court of the Banshee Queen.
@@ -2217,7 +2217,7 @@ Desc     The sound here is bone-chilling. Dozens of incorporeal banshees hover
 in this high-vaulted stone room, their wails harmonizing into a
 haunting, sorrowful melody that speaks of lost Quel'Thalas.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11641
 Desc      The inner walk of the Royal Quarter.
@@ -2235,7 +2235,7 @@ Desc     A private, highly advanced laboratory reserved for Master Faranell.
 Only the most potent and dangerous strains of the Blight are developed
 here, directly under the watchful eye of the Dark Lady.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11643
 Desc      The Court of the Banshee Queen.
@@ -2254,13 +2254,13 @@ Desc     The walls are lined with masterfully crafted black yew bows and quivers
 of dark arrows. This is the staging ground for Sylvanas' personal guard,
 the elite Dark Rangers who execute her most sensitive missions.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11641
 Desc      The inner walk of the Royal Quarter.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11648
 Desc      A dark stone bridge over the royal canal.
@@ -2278,13 +2278,13 @@ Desc     A narrow, arching bridge made of black iron spans a deep, sluggish
 canal of purple slime. The air is toxic and burns the lungs of the
 living. Across the bridge lies the Forsaken Command Room.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11649
 Desc      The Forsaken Command Room.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11647
 Desc      The Dark Ranger Barracks.
@@ -2301,19 +2301,19 @@ Desc     A massive tactical map of Lordaeron is spread across a heavy iron table
 Markers indicate the movements of the Scourge, the Scarlet Crusade, and
 Alliance forces. High Executor Darthalia directs the war effort from here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11643
 Desc      The Court of the Banshee Queen.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11650
 Desc      A dark, spiraling staircase descends into the dungeons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11648
 Desc      The iron bridge over the deep canal.
@@ -2333,19 +2333,19 @@ Desc     You have descended into the cold, miserable dungeons beneath the Royal
 Quarter. Heavy iron bars separate the cells. The screams of the living
 prisoners undergoing interrogation echo terribly off the wet stone walls.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11649
 Desc      The stairs lead back to the Command Room.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11651
 Desc      The stairs continue down into the darkness.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11654
 Desc      The secure doors of the Royal Armory.
@@ -2362,7 +2362,7 @@ Desc     This is where the enemies of the Forsaken are kept before they are
 handed over to the Apothecaries for experimentation. The smell of
 fear, blood, and filth is overpowering.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11650
 Desc      The upper tier of the dungeons.
@@ -2381,7 +2381,7 @@ Desc     A surprisingly elegant room tucked away from the main court. Books of
 high elven poetry sit beside gruesome treatises on necromancy. It is
 a stark reminder of what the Dark Lady was, and what she has become.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11643
 Desc      A hidden door leads back to the Throne Room.
@@ -2397,13 +2397,13 @@ Desc     A wide stone bridge flanked by gargoyles. This bridge connects the
 main court area to the heavily secured vaults at the back of the
 Royal Quarter.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11655
 Desc      The Hall of the Forgotten.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11644
 Desc      Varimathras' Chamber.
@@ -2422,7 +2422,7 @@ Desc     The personal armory for Sylvanas and her elite guard. Weapons of dark
 iron, enchanted bows, and shields bearing the Forsaken crest are neatly
 organized and heavily guarded.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11650
 Desc      The upper tier of the dungeons.
@@ -2439,13 +2439,13 @@ Desc     A quiet, somber hall lined with empty urns. It is a monument to the
 Forsaken who have fallen a second time in service to the Dark Lady,
 their names lost to history.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11656
 Desc      The heavy doors to the Obsidian Vault.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11653
 Desc      The Shadow Bridge.
@@ -2462,13 +2462,13 @@ Desc     A massive door made of solid black obsidian bars the way forward. The
 Royal Vault Keeper stands here, silent and unmoving, guarding the most
 dangerous magical artifacts possessed by the Horde.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11655
 Desc      The Hall of the Forgotten.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11657
 Desc      The inner depths of the vault.
@@ -2487,7 +2487,7 @@ Desc     The air in the vault is freezing, preserving the ancient, terrible
 relics stored within. Glowing crystals illuminate chests of cursed
 gold and weapons radiating dark magic.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11656
 Desc      The vault entrance.
@@ -2504,7 +2504,7 @@ Desc     A small stone balcony offering a view over the sprawling, circular
 expanse of the Undercity below. From here, you can see the toxic
 canals winding through the Trade Quarter.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11655
 Desc      The Hall of the Forgotten.
@@ -2521,7 +2521,7 @@ Desc     A collapsed wall behind the throne room reveals a dark, forgotten
 catacomb. Sylvanas keeps this passage open as an emergency escape
 route should the Undercity ever fall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11652
 Desc      A hidden door back to Sylvanas' study.

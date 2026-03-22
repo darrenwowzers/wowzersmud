@@ -946,12 +946,12 @@ Plaguelands. Soldiers of the Argent Dawn stand firm here,
 watching the eastern horizon for any movement. The air is 
 thick with a yellow, sulfurous mist that burns the throat.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11699
 Desc      Return to the Tirisfal Glades.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38053
 Desc      The path leads into the Western Plaguelands.~
@@ -969,17 +969,17 @@ trees. The bark of the trees is grey and peeling, and no
 birds sing in their branches. To the north, a small trail 
 winds up toward a ruined farmstead.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38052
 Desc      Return to the Bulwark.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38054
 Desc      The road continues east.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38058
 Desc      The path to Felstone Field.~
@@ -998,22 +998,22 @@ Andorhal dominates the horizon. A Scourge plague cauldron
 sits in a nearby field, emitting a constant stream of 
 toxic gas.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38053
 Desc      Western Sullied Path.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38070
 Desc      The gates of Andorhal.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38090
 Desc      The road to Hearthglen.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    38062
 Desc      The path to Dalson's Tears.~
@@ -1031,7 +1031,7 @@ The top has been blown off by some ancient magical explosion,
 leaving a jagged stone crown that provides an excellent 
 view of the surrounding blight.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    38052
 Desc      The Bulwark.~
@@ -1048,7 +1048,7 @@ Desc     A small collection of tents and crates near the Bulwark.
 Commander Ashlam Valormane stands here, planning the 
 Dawn's next move against the cauldrons.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38052
 Desc      The Bulwark.~
@@ -1066,7 +1066,7 @@ Desc     A flat stone landing on the Bulwark wall. Several gryphons
 rest here, ready to carry messages back to Stormwind or 
 Ironforge.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    38052
 Desc      The Bulwark.~
@@ -1082,12 +1082,12 @@ Desc     A large farm that has been completely consumed by the
 plague. The soil is black and oily, and the crops have 
 turned into twisted, skeletal stalks.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38053
 Desc      The sullied path.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38059
 Desc      The Felstone Farmhouse.~
@@ -1104,7 +1104,7 @@ Desc     The interior of the house is a mess of broken furniture and
 shattered glass. Skeletal flayers lurk in the shadows of 
 the kitchen and upstairs bedrooms.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38058
 Desc      The field entrance.~
@@ -1121,7 +1121,7 @@ Flags    ~
 Desc     A massive Scourge cauldron sits in the center of the field, 
 bubbling with a luminous green liquid. A skeletal mage carefully monitors the mixture.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38058
 Desc      The field entrance.~
@@ -1139,7 +1139,7 @@ Desc     A shallow depression north of Felstone Field where the
 Scourge dumps the remains of their victims. Carrion grubs 
 are found here in disgusting numbers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38058
 Desc      Return to the field.~
@@ -1156,12 +1156,12 @@ Desc     Named for the family that once owned it, this farm is now
 a place of absolute sorrow. The air is cold and the 
 sound of ghostly weeping can be heard from the barn.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38054
 Desc      The blighted crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    38063
 Desc      The Dalson Barn.~
@@ -1178,7 +1178,7 @@ Desc     The smell of wet hay and rotting flesh is overwhelming.
 Ghouls have made a nest within the rafters, dropping down 
 on anyone who enters.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38062
 Desc      The farm entrance.~
@@ -1194,7 +1194,7 @@ Flags    ~
 Desc     The second Scourge cauldron in the region. It is guarded 
 by a powerful skeletal knight and his pack of hounds.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38062
 Desc      The farm entrance.~
@@ -1211,7 +1211,7 @@ Flags    ~
 Desc     A stone grain silo that has partially collapsed. A small, 
 secluded room remains intact at the top.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    38062
 Desc      Return to the farm.~
@@ -1228,12 +1228,12 @@ Desc     The farthest of the western farms. The plague here is
 particularly potent, and the ground is littered with 
 bubbling slimes.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38054
 Desc      Return to the crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38067
 Desc      The Gahrron Farmhouse.~
@@ -1250,7 +1250,7 @@ Desc     Most of the roof has fallen in, letting the sickly yellow
 light of the sky illuminate the skeletal remains of the 
 former residents.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38066
 Desc      The farm entrance.~
@@ -1267,7 +1267,7 @@ Desc     The third cauldron, bubbling with an intense purple gas.
 Cult acolytes are seen here delivering supplies of 
 fresh corpses.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38066
 Desc      The farm entrance.~
@@ -1285,7 +1285,7 @@ Desc     A dark thicket of gnarled trees between the farms. Diseased
 bears prowl the undergrowth, their roars muffled by the 
 thick fog.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38066
 Desc      Return to the farm.~
@@ -1302,12 +1302,12 @@ Desc     Massive iron gates that once protected the breadbasket of
 Lordaeron. They are now twisted and off their hinges, 
 inviting all into the nightmare of the ruined city.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38054
 Desc      The blighted crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38071
 Desc      Andorhal Town Square.~
@@ -1325,22 +1325,22 @@ square, and the central fountain is filled with stagnant,
 dark water. Andorhal watchers float above, their unblinking 
 eyes scanning the wreckage.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38070
 Desc      The gates.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38072
 Desc      The Andorhal Inn ruins.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    38073
 Desc      The Town Hall ruins.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38075
 Desc      Toward the Andorhal Grain Warehouses.~
@@ -1357,7 +1357,7 @@ Desc     Once a bustling tavern, now a scene of absolute carnage.
 The floorboards are stained with old blood and the rafters 
 are filled with ghouls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38071
 Desc      The square.~
@@ -1374,12 +1374,12 @@ Desc     The grandest building in the city is now a shell of its
 former self. Cult acolytes use the main hall to conduct 
 their dark business.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38071
 Desc      The square.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    38074
 Desc      The Town Hall Cellars.~
@@ -1395,7 +1395,7 @@ Flags    indoors dark~
 Desc     A dark, damp cellar filled with piles of bones and broken 
 crates. Flickering ghosts wander the narrow passages.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    38073
 Desc      Return to the hall.~
@@ -1413,12 +1413,12 @@ Desc     Massive stone warehouses that once stored the grain for all
 of Lordaeron. They are now used by the Scourge to brew 
 the plague in massive quantities.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38071
 Desc      The square.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38076
 Desc      Toward the Lake Darrowmere.~
@@ -1436,17 +1436,17 @@ The water of Lake Darrowmere is dark and stagnant, reflecting
 the bruised purple of the sky. To the east, a large island 
 with a ruined castle is visible.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38075
 Desc      The warehouse district.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38085
 Desc      Swim toward Caer Darrow.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    38077
 Desc      The road to Uther's Tomb.~
@@ -1463,12 +1463,12 @@ Desc     A narrow, respectful path leading into the southern mountains.
 The air here feels remarkably lighter and the mist 
 seems to pull back from the road.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38076
 Desc      The lakeshore.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    38078
 Desc      Uther's Tomb.~
@@ -1486,7 +1486,7 @@ surrounding decay. A golden statue of Uther stands in the
 center, and the air hums with the pure energy of the Light. 
 The ghost of Turalyon can sometimes be seen here in deep prayer.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38077
 Desc      Return to the path.~
@@ -1504,12 +1504,12 @@ Desc     A long stone bridge anchored to the island. Skeletal warriors
 patrol the length of the span, ensuring no living being 
 reaches the castle ruins.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38076
 Desc      The lakeshore.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38080
 Desc      Ruins of Caer Darrow.~
@@ -1527,7 +1527,7 @@ memory. Ruins of elven houses surround the massive
 keep in the center. A shimmering, dark blue portal glows 
 within the keep's main archway—the entrance to Scholomance.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38079
 Desc      Return to the bridge.~
@@ -1545,12 +1545,12 @@ Desc     A small beach on the back side of the island. Lost souls
 flutter near the water's edge, their cries echoing across 
 the lake.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38080
 Desc      Return to the ruins.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38500
 Desc      Swim toward the Eastern Plaguelands.~
@@ -1566,12 +1566,12 @@ Flags    ~
 Desc     A half-submerged wooden boat in the center of the lake. 
 It once carried travelers between Andorhal and the island.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38076
 Desc      The lakeshore.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38081
 Desc      The island shore.~
@@ -1587,7 +1587,7 @@ Flags    ~
 Desc     A series of low, rocky hills between the lakeshore and 
 the southern mountains.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38076
 Desc      The lakeshore.~
@@ -1603,7 +1603,7 @@ Flags    indoors dark~
 Desc     A small, hidden cave where ghost mushrooms thrive in 
 the cold dark.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38083
 Desc      Return to the hills.~
@@ -1620,12 +1620,12 @@ Desc     The water is dark and freezing cold. Schools of dead
 fish float on the surface, and the lake floor is 
 composed of deep, sucking mud.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38076
 Desc      The lakeshore.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38079
 Desc      The bridge to the island.~
@@ -1642,12 +1642,12 @@ Desc     Another ruined farmstead, now completely controlled by
 the Cult of the Damned. The air here smells of 
 chemicals and sulfur.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    38054
 Desc      Return to the crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38087
 Desc      The Writhing Cauldron.~
@@ -1663,7 +1663,7 @@ Flags    ~
 Desc     The fourth Scourge cauldron. It is guarded by a massive 
 stitched horror that stands ten feet tall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38086
 Desc      The farm entrance.~
@@ -1680,7 +1680,7 @@ Flags    ~
 Desc     A collection of Scourge supply wagons and piles of 
 discarded corpses, ready to be processed into ghouls.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38075
 Desc      The warehouse district.~
@@ -1696,7 +1696,7 @@ Flags    ~
 Desc     A high point on the northern hills, offering a clear 
 view of the road leading to Hearthglen.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    38054
 Desc      The crossroads.~
@@ -1713,12 +1713,12 @@ Desc     A narrow canyon road leading into the northern mountains.
 Scarlet Crusade watchtowers line the cliffs, their archers 
 watching for any sign of the plague.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38054
 Desc      The blighted crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38091
 Desc      The road continues north.~
@@ -1735,12 +1735,12 @@ Desc     The road widens as it approaches the massive stone gates
 of Hearthglen. The banners of the Scarlet Crusade fly 
 defiantly from the ramparts.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38090
 Desc      The southern road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38092
 Desc      The Gates of Hearthglen.~
@@ -1757,12 +1757,12 @@ Desc     A massive set of white stone gates, reinforced with steel
 sunbursts. Scarlet praetors stand guard here, checking 
 everyone for the slightest sign of infection.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38091
 Desc      The approach road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38093
 Desc      Hearthglen Plaza.~
@@ -1780,22 +1780,22 @@ The city is clean and well-maintained, a stark contrast to
 the blighted wasteland outside its walls. A massive 
 cathedral dominates the northern side of the square.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38092
 Desc      The gates.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38094
 Desc      The Mardenholde Keep.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    38096
 Desc      The Scarlet Inn.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    38097
 Desc      The Scarlet Barracks.~
@@ -1812,12 +1812,12 @@ Desc     The primary administrative building for Hearthglen. High
 Abbot Landgren stands in the main hall, leading the 
 assembled warriors in a prayer of hatred.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38093
 Desc      The plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    38095
 Desc      The Keep Sanctuary.~
@@ -1835,7 +1835,7 @@ Desc     A quiet, circular room at the back of the keep. The walls
 are decorated with portraits of Scarlet heroes who 
 died in the First and Second Wars.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38094
 Desc      The entrance hall.~
@@ -1852,7 +1852,7 @@ Desc     A warm, bright inn filled with the sounds of military songs
 and clanking armor. The food here is fresh and untainted, 
 a luxury in the Plaguelands.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38093
 Desc      The plaza.~
@@ -1868,7 +1868,7 @@ Desc     Rows of neatly made bunks and racks of polished weapons.
 Scarlet Praetors rest here between their long shifts 
 at the gate.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    38093
 Desc      The plaza.~
@@ -1884,7 +1884,7 @@ Flags    ~
 Desc     A small courtyard in the ruined city where several ghouls 
 are fighting over a pile of scrap metal.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38071
 Desc      The town square.~
@@ -1900,7 +1900,7 @@ Flags    ~
 Desc     A dark alleyway between two warehouses, where an Andorhal 
 watcher keeps its unblinking gaze on the path.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38075
 Desc      The warehouse district.~
@@ -1916,7 +1916,7 @@ Flags    ~
 Desc     A quiet section of the blighted plains, filled with 
 withered stalks of grain and thick plaguebloom.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38054
 Desc      The crossroads.~
@@ -1932,7 +1932,7 @@ Flags    ~
 Desc     A small hill overlooking Dalson's Tears, where several 
 diseased wolves have made their den.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    38062
 Desc      Dalson's entrance.~
@@ -1948,7 +1948,7 @@ Flags    ~
 Desc     A dark corner of the lake where the water is particularly 
 still and stagnant. Bubbling sludges move near the bottom.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    38085
 Desc      The shallows.~
@@ -1965,12 +1965,12 @@ Desc     A hidden trail behind the Bulwark leads toward the northern
 cliffs, offering a quick way back toward the Tirisfal 
 Glades for those who know the way.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    38052
 Desc      The Bulwark.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11699
 Desc      Return to the Tirisfal Glades.~

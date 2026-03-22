@@ -371,12 +371,12 @@ Crude obsidian steps lead down into the volcanic fissures that run
 deep beneath Orgrimmar. A shimmering, orange portal hums with power,
 separating the city from the dangerous depths.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    11298
 Desc      Return to the Cleft of Shadow.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11301
 Desc      Descend deeper into the chasm.~
@@ -393,12 +393,12 @@ Small fissures in the walls emit a faint, red glow from the magma
 churning far below. Footprints of heavy, three-toed creatures are
 visible in the thick dust.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11300
 Desc      The entrance portal.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11302
 Desc      The path continues south.~
@@ -416,12 +416,12 @@ sound of rhythmic chanting and the clatter of stone on stone echo
 from the east. Crude trogg trophies—skulls and bird feathers—hang
 from the jagged ceiling.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11301
 Desc      The path back to the entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11303
 Desc      The path leads toward a wider cavern.~
@@ -439,22 +439,22 @@ the Ragefire troggs. The walls are stained with soot from primitive
 braziers. To the north and south, smaller alcoves serve as living
 quarters for the primal dwellers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11304
 Desc      A small side cavern.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11305
 Desc      A small side cavern.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11306
 Desc      The main trogg corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11302
 Desc      The jagged bend.~
@@ -471,7 +471,7 @@ Desc     This small alcove is filled with piles of moldy fur and gnawed bones.
 The smell of unwashed trogg is nearly overwhelming in the cramped
 space.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11303
 Desc      The entrance cavern.~
@@ -489,7 +489,7 @@ Desc     Several primitive stone tools lie scattered across the floor here.
 A small pile of glowing coals in the center of the room provides a
 dim, flickering light.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11303
 Desc      The entrance cavern.~
@@ -508,12 +508,12 @@ territory. Several trogg warriors stand guard here, their low grunts
 echoing off the obsidian walls. To the east, the corridor opens into
 a massive, multi-tiered chamber.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11307
 Desc      The central trogg chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11303
 Desc      The entrance cavern.~
@@ -531,17 +531,17 @@ tribe. Stone platforms have been carved into the walls, connected
 by rickety wooden walkways. In the center, a large fire pit burns
 constantly, casting long, dancing shadows across the rock.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11308
 Desc      A path leading to the upper tiers.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11309
 Desc      A path leading to the lower tiers.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11306
 Desc      The main corridor.~
@@ -559,12 +559,12 @@ Desc     From this vantage point, you can look down upon the central fire
 pit of the trogg chamber. The air is thinner and hotter here, as 
 the tunnel climbs toward a dead end.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11307
 Desc      The central chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11311
 Desc      Oggleflint's Crag.~
@@ -581,12 +581,12 @@ Desc     The ground slopes downward, leading away from the trogg dwellings
 and toward the subterranean river of lava. The rock beneath your
 feet feels uncomfortably warm.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11307
 Desc      The central chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11310
 Desc      The descent to the Searing Chasm.~
@@ -604,12 +604,12 @@ this steep, narrow tunnel. The air is shimmering with heat, and
 sweat begins to pour down your face. The troggs seem to avoid this
 area, fearing the elementals below.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11309
 Desc      The lower trogg tier.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11312
 Desc      The entrance to the Searing Chasm.~
@@ -626,7 +626,7 @@ most defensible position in the upper chasm, occupied by the leader
 of the Ragefire tribe. A massive, blood-stained bone rests against
 the back wall.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11308
 Desc      The upper tier.~
@@ -646,12 +646,12 @@ massive cavern, illuminating the darkness with a violent, orange
 glare. Pillars of basalt rise from the magma like the teeth of some
 ancient beast.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11310
 Desc      The path back to the trogg tunnels.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11313
 Desc      Descend to the floor of the chasm.~
@@ -668,12 +668,12 @@ bubbling in places, revealing the lava just inches beneath the
 surface. Strange, flickering spirits of flame drift through the air,
 guarding the elemental heart of the chasm.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11312
 Desc      The overlook ledge.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11314
 Desc      The floor of the chasm continues south.~
@@ -691,22 +691,22 @@ intense. To the east and west, narrow paths lead around the
 central lava pool. The air is thick with ash and the smell of
 burning minerals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11313
 Desc      The northern floor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11315
 Desc      The eastern path.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11316
 Desc      The southern floor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11317
 Desc      The western path.~
@@ -723,7 +723,7 @@ Desc     A narrow ledge of rock skirts the edge of the lava pool. The
 magma bubbles and pops just a few feet away, occasionally splashing
 the path with liquid fire.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11314
 Desc      The central floor.~
@@ -740,12 +740,12 @@ Desc     The volcanic activity seems slightly more stable here. The floor
 is solid rock, though still incredibly hot. To the south, the 
 cavern narrows into a series of jagged tunnels.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11314
 Desc      The central floor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11318
 Desc      The southern tunnels.~
@@ -762,12 +762,12 @@ Desc     This path is precarious, requiring careful footwork to avoid the
 many fissures that lead directly into the molten depths. A small
 cave entrance is visible to the west.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11314
 Desc      The central floor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11326
 Desc      Maur Grimtotem's Outlook.~
@@ -785,12 +785,12 @@ timbers. Purple silk banners emblazoned with the symbol of the
 Shadow Council hang from the walls. The primal, volcanic heat is
 replaced by a chilling, magical cold.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11316
 Desc      The Searing Chasm.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11319
 Desc      The outpost corridor.~
@@ -808,22 +808,22 @@ forgotten tongue of the Eredar. The air vibrates with the hum of
 contained demonic energy. To the east and west, small rooms have 
 been carved out for dark rituals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11318
 Desc      The outpost entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11320
 Desc      A ritual chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11321
 Desc      The corridor continues south.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11322
 Desc      A ritual chamber.~
@@ -840,7 +840,7 @@ Desc     A large, circular seal has been painted on the floor in dried
 blood. Several black candles burn with a flickering, purple flame,
 casting long, distorted shadows against the jagged walls.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11319
 Desc      The northern corridor.~
@@ -857,12 +857,12 @@ Desc     The corridor widens as it approaches the lower sanctum. Massive
 iron chains hang from the ceiling, their purpose unknown but 
 ominous. The sound of a deep, demonic roar echoes from the south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11319
 Desc      The northern corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11336
 Desc      The Shadow Council Sanctum.~
@@ -880,7 +880,7 @@ against the far wall, covered in strange, glowing runes. It seems
 the Shadow Council is attempting to bind the volcanic fire to their
 own dark purposes.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11319
 Desc      The northern corridor.~
@@ -898,7 +898,7 @@ outside. It is sparsely furnished with a single bedroll and a small
 stone table. Maur Grimtotem stands here, watching the bubbling
 magma with a grim expression.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11317
 Desc      The western path.~
@@ -918,12 +918,12 @@ cool. The walls are smooth, as if melted by a powerful acid or
 ground down by some massive creature. To the east, the tunnel
 slopes downward into the dark.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11307
 Desc      The central trogg chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11328
 Desc      The worm tunnels.~
@@ -940,22 +940,22 @@ movement difficult. To the north and south, smaller burrows lead
 into the solid rock, likely the nests of the giant worms that
 inhabit this area.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11329
 Desc      A small burrow.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11330
 Desc      A small burrow.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11327
 Desc      The entry tunnel.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11331
 Desc      The tunnels continue east.~
@@ -972,7 +972,7 @@ Desc     The walls here are lined with segmented shells and discarded
 mandibles. The smell of decay is strong, as if this burrow is used
 to store food for the swarm.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11328
 Desc      The main tunnel.~
@@ -990,7 +990,7 @@ Desc     Several large, leathery eggs are nestled in a bed of sand in the
 corner. A low, wet squelching sound suggests that something is
 moving just beyond the reach of your light.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11328
 Desc      The main tunnel.~
@@ -1007,12 +1007,12 @@ Desc     The smooth walls of the tunnel begin to give way to jagged,
 volcanic rock once more. To the east, the tunnel opens into a large,
 shadowy chamber.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11328
 Desc      The slanted tunnel.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11332
 Desc      A large, hollow cavern.~
@@ -1030,22 +1030,22 @@ is lost in the darkness above, and the floor is littered with
 pulverized stone. Tunnels lead away in every direction, forming a
 confusing maze for the unwary.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11333
 Desc      A jagged tunnel.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11334
 Desc      A jagged tunnel.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11331
 Desc      The deep tunnel.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11335
 Desc      The end of the worm tunnels.~
@@ -1062,7 +1062,7 @@ Desc     This small tunnel ends abruptly in a wall of solid obsidian.
 Several deep grooves are carved into the rock, as if a massive
 creature tried to burrow through and failed.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11332
 Desc      The hollow cavern.~
@@ -1079,7 +1079,7 @@ Desc     A pile of bleached white bones lies in the center of this small
 alcove. Among them, you spot the remains of an unfortunate orcish
 scout who wandered too deep into the worm territory.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11332
 Desc      The hollow cavern.~
@@ -1096,12 +1096,12 @@ Desc     The worm tunnels end here. A narrow fissure leads through the
 back wall, offering a glimpse into the Shadow Council sanctum beyond.
 The air smells of ozone and dark magic.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11332
 Desc      The hollow cavern.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11336
 Desc      The Shadow Council Sanctum.~
@@ -1118,17 +1118,17 @@ the Shadow Council. Tents made of dark leather are arranged around
 a central dais, and crates of magical supplies are stacked high
 against the walls.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11321
 Desc      The southern corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11337
 Desc      The central sanctum area.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11335
 Desc      The worm tunnels.~
@@ -1145,22 +1145,22 @@ Desc     A large stone dais sits in the center of the room, upon which a
 pool of swirling, purple energy has been summoned. Orcish mages
 stand around it, maintaining the portal with constant incantations.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11336
 Desc      The sanctum entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11338
 Desc      A path to the lower depths.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11339
 Desc      The deep sanctum.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11340
 Desc      A small storage area.~
@@ -1177,12 +1177,12 @@ Desc     A wide set of stairs has been carved into the rock, leading down
 toward the very bottom of the chasm. The sound of a violent, fiery
 clash echoes from below.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11337
 Desc      The central sanctum.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11342
 Desc      The Fiery Descent.~
@@ -1198,12 +1198,12 @@ Desc     The walls here are covered in demonic scripts that seem to pulse
 with their own internal light. This is the inner circle of the
 outpost, where the most powerful warlocks congregate.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11337
 Desc      The central sanctum.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11341
 Desc      Jergosh the Invoker's Altar.~
@@ -1220,7 +1220,7 @@ Desc     Piles of iron ingots, bundles of staves, and sacks of sulfur are
 organized neatly here. It seems the Shadow Council is preparing
 for a long stay beneath Orgrimmar.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11337
 Desc      The central sanctum.~
@@ -1238,7 +1238,7 @@ with a viscous, green liquid. Jergosh the Invoker stands before it,
 clutching a staff of dark iron and screaming commands at the 
 twisting shadows that dance around him.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11339
 Desc      The deep sanctum.~
@@ -1258,12 +1258,12 @@ bottomless pit of roiling magma. The heat here is lethal, and only
 the presence of powerful demonic magic keeps the platform from 
 melting into the depths.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11338
 Desc      The descent stairs.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11343
 Desc      Taragaman's Maw.~
@@ -1281,7 +1281,7 @@ throne where the demon Taragaman the Hungerer stands sentinel.
 The air is screaming with the sound of escaping steam and the
 demon's own guttural roars.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11342
 Desc      The Fiery Descent.~

@@ -731,12 +731,12 @@ statues, worn smooth by centuries of tides, lean precariously against
 the damp walls. A swirling, deep-blue portal blocks the path forward, 
 separating the caverns of Ashenvale from the corrupted temple below.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    28040
 Desc      Return to the surface of Zoram Strand.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30041
 Desc      Enter the submerged tunnels.~
@@ -752,12 +752,12 @@ Desc     The floor is covered in a foot of murky water. Small, eyeless fish
 dart away from your light, and the walls are thick with bioluminescent 
 algae that provides a dim, sickly green glow.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30040
 Desc      The entrance portal.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30042
 Desc      The tunnel opens into a large pool.~
@@ -774,22 +774,22 @@ Desc     This massive natural cavern is half-filled with sea water. Stone
 platforms rise from the depths, connected by crumbling bridges. The 
 sound of rhythmic gurgling suggests a large murloc presence.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30041
 Desc      The entry tunnel.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30046
 Desc      The path toward the turtle's lair.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    30043
 Desc      A small side alcove.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    30044
 Desc      A small side alcove.~
@@ -807,7 +807,7 @@ Desc     A cramped, damp corner of the pool. Piles of fish bones and
 shattered shells suggest this is a feeding ground for the 
 local murlocs.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    30042
 Desc      Return to the pool.~
@@ -824,7 +824,7 @@ Flags    indoors~
 Desc     The water is deeper here. The walls are covered in crude murloc 
 paintings made of crushed coral and squid ink.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    30042
 Desc      Return to the pool.~
@@ -840,12 +840,12 @@ Flags    indoors~
 Desc     The path narrows as it dives beneath a low-hanging rock arch. 
 You must wade through chest-deep water to proceed.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30042
 Desc      The Pool of Ask'ar.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30046
 Desc      Ghamoo-ra's Chamber.~
@@ -862,12 +862,12 @@ Desc     This cavern is dominated by a single, massive stone platform
 surrounded by deep water. Ghamoo-ra, a turtle of legendary size, 
 rests here, his shell looking like an island in the gloom.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30045
 Desc      The flooded passage.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30047
 Desc      The naga hallways.~
@@ -885,12 +885,12 @@ Desc     The architecture here shifts from natural cavern to elven ruins.
 Blue silk banners hang from the walls, and the floor is made of 
 finely polished marble, though it is slick with sea-slime.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30046
 Desc      Ghamoo-ra's Chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30048
 Desc      The hallway continues.~
@@ -907,17 +907,17 @@ Desc     The hallway is wider here. To the east and west, high-arched
 doorways lead to barracks where the naga warriors rest between 
 patrols.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    30050
 Desc      Lady Sarevess's Sanctum.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    30047
 Desc      The hallway entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    30049
 Desc      Naga Barracks.~
@@ -934,7 +934,7 @@ Flags    indoors~
 Desc     Piles of dried kelp serve as beds. Tridents and shields are 
 leaned against the walls, ready for a quick defense.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    30048
 Desc      Return to the hallway.~
@@ -952,12 +952,12 @@ Desc     The room is bone-chillingly cold. Lady Sarevess stands at the
 far end of the hall, her icy gaze fixed on the entrance. The 
 marble floor is covered in a thin layer of frost.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30048
 Desc      The naga hallway.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30051
 Desc      The Moonshrine Ruins.~
@@ -976,12 +976,12 @@ sea. Moonlight filters through the cracks in the ceiling, reflecting
 off the dark water. Murloc priests have built a crude altar over 
 the ruins of a Moonwell.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30050
 Desc      Sarevess's Sanctum.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30052
 Desc      The ritual grounds.~
@@ -998,17 +998,17 @@ Desc     The sound of monotonous chanting echoes from the shadows. Large
 jars of shadow-energy sit on the stone floor, pulsing with a dim 
 purple light.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30051
 Desc      The entry ruins.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30054
 Desc      Gelihast's Altar.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    30053
 Desc      A small storage room.~
@@ -1024,7 +1024,7 @@ Flags    indoors~
 Desc     Crates of ritual components are stacked here. Sacks of sand, 
 jars of squid ink, and bundles of kelp are neatly organized.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    30052
 Desc      Return to the ritual grounds.~
@@ -1042,12 +1042,12 @@ Desc     Gelihast stands atop a jagged piece of obsidian, his four arms
 waving in a frantic, hypnotic dance. He is surrounded by his 
 murloc followers, all chanting in their wet, gurgling language.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30052
 Desc      The ritual grounds.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30055
 Desc      The Twilight's Hammer tunnels.~
@@ -1065,12 +1065,12 @@ Desc     The architecture here turns dark and jagged. Purple silk banners
 hang from the ceiling, and the air is thick with the scent of 
 ozone and shadow magic.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30054
 Desc      Gelihast's Altar.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30056
 Desc      The cultist corridor.~
@@ -1087,17 +1087,17 @@ Desc     Twilight cultists in dark robes pace this hallway, clutching
 iron-bound staves. To the east and west are rooms where the 
 Hammer conducts its most secretive business.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30055
 Desc      The tunnel entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    30057
 Desc      A dark laboratory.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30058
 Desc      Baron Aquanis's Gate.~
@@ -1115,7 +1115,7 @@ Desc     A large, glass vat sits in the center of the room, filled with
 swirling shadow energy. This is where the Hammer experiments 
 with corrupting the natural spirits of the deep.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    30056
 Desc      Return to the corridor.~
@@ -1133,12 +1133,12 @@ Desc     A massive, shimmering wall of water blocks the path forward.
 Baron Aquanis, a towering water elemental, stands guard over 
 the gate, his form constantly shifting and roiling.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30056
 Desc      The cultist corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30059
 Desc      The deep reservoirs.~
@@ -1156,12 +1156,12 @@ Desc     The air is so humid that water drips from your armor. These
 reservoirs are ancient elven storage tanks, now reclaimed by 
 the sea.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30058
 Desc      Baron Aquanis's Gate.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30060
 Desc      The reservoir continues.~
@@ -1178,17 +1178,17 @@ Desc     The path is a narrow stone walkway suspended over a dark,
 bottomless pit of water. Massive, shark-like shapes move 
 just beneath the surface.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30059
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30062
 Desc      Old Serra'kis's Den.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    30061
 Desc      A small maintenance alcove.~
@@ -1205,7 +1205,7 @@ Flags    indoors~
 Desc     A quiet, dark room filled with old elven tools and rusted 
 iron chains.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    30060
 Desc      Return to the reservoir.~
@@ -1222,12 +1222,12 @@ Desc     This massive, underwater cavern is the lair of Old Serra'kis.
 The multi-headed hydra lunges from the depths, its jaws 
 snapping with terrifying speed.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30060
 Desc      The reservoir center.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30063
 Desc      The Sanctum of the Prophecy entrance.~
@@ -1245,12 +1245,12 @@ Desc     The walls are covered in ancient, glowing scripts that detail
 the coming of the Old Gods. Twilight Lord Kelris's presence 
 is felt as a heavy, oppressive weight in the air.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30062
 Desc      Serra'kis's Den.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30064
 Desc      The sanctum corridor.~
@@ -1266,17 +1266,17 @@ Flags    indoors~
 Desc     Elite cultists in black plate armor stand guard here. The 
 sound of a deep, rhythmic humming vibrates through the stone.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30063
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30066
 Desc      Kelris's Chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    30065
 Desc      The Library of Shadows.~
@@ -1294,7 +1294,7 @@ Desc     Hundreds of dusty, leather-bound books are arranged on stone
 shelves. They contain the dark secrets and prophecies of the 
 Twilight's Hammer.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    30064
 Desc      Return to the corridor.~
@@ -1312,12 +1312,12 @@ Desc     Kelris levitates in the center of the room, his form shifting
 between reality and shadow. He is surrounded by four massive 
 braziers that burn with a cold, violet flame.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30064
 Desc      The sanctum corridor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30067
 Desc      The descent to the Maw.~
@@ -1335,12 +1335,12 @@ Desc     The stairs here are built of black obsidian and lead toward
 the very bottom of the Deeps. The roar of a titanic beast 
 echoes from below.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30066
 Desc      Kelris's Chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    30068
 Desc      The final ritual hall.~
@@ -1357,12 +1357,12 @@ Desc     This hall is filled with the most fanatical of the Twilight's
 Hammer cultists. They prepare for the final summoning of 
 their master's greatest servant.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    30067
 Desc      Return to the ascent.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30069
 Desc      The hall continues north.~
@@ -1380,12 +1380,12 @@ Desc     The walls here are covered in demonic scripts that drip with
 a glowing, green liquid. The wailing sound of the Deeps is 
 at its most intense here.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30068
 Desc      The southern hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30070
 Desc      The threshold of the Maw.~
@@ -1403,12 +1403,12 @@ Desc     A massive iron gate blocks the path forward. It requires the
 Blackfathom Key to unlock, or a great deal of force to bypass. 
 The air smells of salt and ozone.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30069
 Desc      The ritual hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    30071
 Desc      Aku'mai's Maw.~
@@ -1426,7 +1426,7 @@ Desc     You stand at the bottom of the Deeps. Aku'mai, the massive,
 three-headed hydra servant of the Old Gods, rises from the 
 dark water, his heads snapping with primal fury.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30070
 Desc      Return to the threshold.~
@@ -1442,7 +1442,7 @@ Flags    indoors~
 Desc     A quiet, water-filled alcove where the only sound is the 
 steady dripping from the ceiling.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    30041
 Desc      The entry tunnel.~
@@ -1459,7 +1459,7 @@ Flags    indoors~
 Desc     A small maintenance tunnel that appears to have been 
 abandoned long ago.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30043
 Desc      Murloc Alcove.~
@@ -1475,7 +1475,7 @@ Flags    indoors~
 Desc     A high, narrow ledge that overlooks the central naga hallway. 
 It is a good vantage point for sentries.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    30048
 Desc      The naga hallway.~
@@ -1492,7 +1492,7 @@ Flags    indoors~
 Desc     A quiet room filled with the scent of dried kelp and 
 old marble.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    30050
 Desc      Sarevess's Sanctum.~
@@ -1508,7 +1508,7 @@ Flags    indoors~
 Desc     A jagged alcove where the rock walls have been smoothed by 
 centuries of water and sand.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    30052
 Desc      The ritual grounds.~
@@ -1523,7 +1523,7 @@ Sector   underground~
 Flags    indoors~
 Desc     A small side chamber filled with ancient, crumbling stalactites.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30054
 Desc      Gelihast's Altar.~
@@ -1539,7 +1539,7 @@ Flags    indoors~
 Desc     A dark, quiet room where the only sound is the distant 
 humming of the ritual magic.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    30056
 Desc      The cultist corridor.~
@@ -1555,7 +1555,7 @@ Flags    indoors~
 Desc     A storage room for the Twilight's Hammer. Several iron-bound 
 staves are leaned against the wall.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    30058
 Desc      Baron Aquanis's Gate.~
@@ -1572,12 +1572,12 @@ Desc     A narrow, hidden tunnel behind Aku'mai's Maw leads toward
 the surface of Ashenvale, offering a quick way out for 
 those who have defeated the hydra god.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    30071
 Desc      Aku'mai's Maw.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    30040
 Desc      The entrance portal.~

@@ -1078,12 +1078,12 @@ Spire. Massive stone stairs wind upward, while high balconies
 overlook the deep pits of the mountain. The sound of 
 distant chanting and the clash of steel is constant.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    36561
 Desc      Return to the Hall of the Mountain.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20561
 Desc      The main thoroughfare.~
@@ -1100,12 +1100,12 @@ armies. The walls are decorated with the tattered banners
  of the Spirestone and Smolderthorn clans. Spirestone 
 ogres patrol the area with heavy clubs.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20560
 Desc      The landing.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20562
 Desc      The Spirestone Commons.~
@@ -1122,17 +1122,17 @@ Desc     The start of the ogre residential area. Large, messy
 caverns branch off the main path, each filled with 
 crude bedding and the remains of many meals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20561
 Desc      The thoroughfare.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20563
 Desc      The Spirestone Commons Central.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    20590
 Desc      Toward the Smolderthorn Quarter.~
@@ -1149,12 +1149,12 @@ Desc     The heart of the ogre territory. A massive stone pillar
 in the center is carved with the history of the Spirestone 
 clan. Highlord Omokk's throne is visible to the north.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20562
 Desc      The southern commons.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20564
 Desc      The Highlord's Seat.~
@@ -1172,12 +1172,12 @@ upon a throne of mismatched skulls and iron, surveying
 his people. To the north, a high bridge leads toward 
 the Bloodaxe military district.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20563
 Desc      The central commons.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20565
 Desc      The bridge to the Spire.~
@@ -1196,12 +1196,12 @@ shaft. From here, you can see the Molten Core far below
 and the peaks of the Upper Spire high above. Obsidian 
 gargoyles watch from the high rafters.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20564
 Desc      Omokk's throne.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20566
 Desc      The Bloodaxe Garrison.~
@@ -1218,12 +1218,12 @@ Desc     A heavily fortified stone chamber housing the primary
 guard contingent for the lower Spire. The walls are 
 lined with sharp iron halberds and heavy shields.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20565
 Desc      The bridge.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20567
 Desc      The Bloodaxe Courtyard.~
@@ -1241,17 +1241,17 @@ at various crafting stations, and a large bonfire burns
 in the center. Quartermaster Zigris oversees the stores 
 from a high platform.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20566
 Desc      The garrison entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20568
 Desc      Toward the Halycon Lair.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    20580
 Desc      Toward the Overlord's Balcony.~
@@ -1268,12 +1268,12 @@ Desc     The air here is warm and carries the unmistakable scent
 of wet fur. The walls are covered in matted hair and 
 gnawed bones.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20567
 Desc      The courtyard.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20569
 Desc      Halycon's Lair.~
@@ -1290,12 +1290,12 @@ Desc     A large, dry cavern filled with dozens of white wolf pups.
 The massive winter-wolf Halycon stands in the center, 
 her eyes glowing with protective rage.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20568
 Desc      The pack hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20570
 Desc      Toward the Slave Pens.~
@@ -1312,12 +1312,12 @@ Desc     Cramped, dirty tunnels where the Dark Horde keeps its
 captives. Gizrul the Slavener can be heard shouting 
 orders from the room ahead.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20569
 Desc      Halycon's lair.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20571
 Desc      The Slavener's Seat.~
@@ -1334,7 +1334,7 @@ Desc     A high stone ledge overlooking the labor pits. Gizrul
 stands here with a heavy whip, watching the slaves 
 work in the heat below.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20570
 Desc      The pens entrance.~
@@ -1352,12 +1352,12 @@ Spire. Overlord Wyrmthalak stands here, his wings
 shading the entire floor. He overlooks his domain 
 with the cold patience of a dragon.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20567
 Desc      The Bloodaxe courtyard.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20599
 Desc      The exit path.~
@@ -1377,12 +1377,12 @@ The walls are decorated with colorful feathers and
 stone idols. Troll shadow-hunters move silently 
 through the shadows.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20562
 Desc      The Spirestone commons.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    20591
 Desc      The Smolderthorn Central.~
@@ -1399,17 +1399,17 @@ Desc     The heart of the troll district. A large pool of dark
 voodoo-infused water sits in the center of the square. 
 War Master Voone's command post is visible to the north.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20590
 Desc      The west quarter.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20592
 Desc      War Master Voone's Post.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    20594
 Desc      Toward the Tazz'Alaq Tunnels.~
@@ -1427,7 +1427,7 @@ taken from the Alliance and Horde. War Master Voone
 stands before a large sand-table, planning the next 
 Smolderthorn raid.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20591
 Desc      The central commons.~
@@ -1445,7 +1445,7 @@ Desc     A small, quiet room behind the command post. Smolderthorn
 seers meditate here, their eyes closed as they commune 
 with the spirits.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20592
 Desc      The command post.~
@@ -1462,12 +1462,12 @@ Desc     The well-maintained stone of the troll quarter gives way to
 jagged rock and thick white webbing. The air is stagnant 
 and smells of old decay.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20591
 Desc      The central commons.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    20595
 Desc      The Webbed Tunnels.~
@@ -1484,12 +1484,12 @@ Desc     The walls and ceiling are completely covered in thick,
 sticky silk. Mother Smolderweb hangs from the ceiling 
 in the center of the room, her red eyes watching for movement.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20594
 Desc      The tunnel entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20596
 Desc      The Crystal Fang Grotto.~
@@ -1507,7 +1507,7 @@ Desc     A small, hidden cavern where the rarest spiders of the
 Spire make their nest. Translucent crystals grow from 
 the walls, reflecting your light in strange ways.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20595
 Desc      The webbed tunnels.~
@@ -1524,12 +1524,12 @@ Desc     A side tunnel leading away from the Spirestone quarters.
 A large, blackened altar stands at the far end of 
 the cavern.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20562
 Desc      The Spirestone commons.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    20598
 Desc      The Altar of Doomhowl.~
@@ -1546,7 +1546,7 @@ Desc     The air here is cold enough to see your breath. The
 ghost of Urok Doomhowl stands before the altar, his 
 wails echoing through the stone like a physical blow.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20597
 Desc      The altar entrance.~
@@ -1564,12 +1564,12 @@ leads toward a hidden opening in the side of Blackrock
 Mountain, offering a quick way back toward the 
 Searing Gorge for those who have defeated the Overlord.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20580
 Desc      Wyrmthalak's balcony.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    20560
 Desc      The entrance landing.~
@@ -1584,7 +1584,7 @@ Flags    indoors~
 Desc     A quiet stone ledge overlooking the landing, frequently 
 patrolled by Bloodaxe scouts.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20560
 Desc      The entrance landing.~
@@ -1600,7 +1600,7 @@ Flags    indoors~
 Desc     A side tunnel in the main thoroughfare filled with 
 discarded masonry and bits of iron ore.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20561
 Desc      The thoroughfare.~
@@ -1616,7 +1616,7 @@ Flags    indoors~
 Desc     A small, damp chamber where the ogres store their 
 crude bedding and leather furs.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20561
 Desc      The thoroughfare.~
@@ -1632,7 +1632,7 @@ Flags    indoors~
 Desc     A quiet corner of the Spirestone commons, filled with 
 piles of gnawed bones and the scent of decay.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20562
 Desc      The southern commons.~
@@ -1648,7 +1648,7 @@ Flags    indoors~
 Desc     A side workshop where the ogre butchers process 
 the daily catch for the clan.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20563
 Desc      The central commons.~
@@ -1664,7 +1664,7 @@ Flags    indoors~
 Desc     A high stone landing near Omokk's throne, 
 offering a view of the southern thoroughfare.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20564
 Desc      Omokk's throne.~
@@ -1679,7 +1679,7 @@ Sector   city~
 Flags    indoors~
 Desc     A storage room for ogre maces and heavy iron bars.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20564
 Desc      Omokk's throne.~
@@ -1695,7 +1695,7 @@ Flags    indoors~
 Desc     A small room for storing powder and ammunition for 
 the Bloodaxe rifles.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20566
 Desc      Garrison entrance.~
@@ -1711,7 +1711,7 @@ Flags    indoors~
 Desc     A quiet section of the garrison where legionnaires 
 can rest between their long shifts at the bridge.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20566
 Desc      Garrison entrance.~
@@ -1727,7 +1727,7 @@ Flags    indoors~
 Desc     A side workshop in the courtyard where the orc smiths 
 repair damaged plate armor.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20567
 Desc      Bloodaxe courtyard.~
@@ -1743,7 +1743,7 @@ Flags    indoors~
 Desc     A storage area filled with crates of orcish rations 
 and vials of troll blood.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20567
 Desc      Bloodaxe courtyard.~
@@ -1759,7 +1759,7 @@ Flags    indoors~
 Desc     A small side cavern where several white wolf pups 
 are playing.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20568
 Desc      Hall of the Pack.~
@@ -1775,7 +1775,7 @@ Flags    indoors~
 Desc     A rocky ledge overlooking Halycon's lair, 
 frequently patrolled by Bloodaxe raiders.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20569
 Desc      Halycon's lair.~
@@ -1791,7 +1791,7 @@ Flags    indoors~
 Desc     A quiet grotto filled with Smolderthorn mojo 
 and the scent of decayed voodoo.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20590
 Desc      West quarter.~
@@ -1807,7 +1807,7 @@ Flags    indoors~
 Desc     A side street in the Smolderthorn Quarter, 
 where headhunters prepare their axes.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20591
 Desc      Central commons.~
@@ -1823,7 +1823,7 @@ Flags    indoors~
 Desc     A high stone balcony in Voone's post, 
 offering a view of the eastern city streets.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20592
 Desc      Voone's post.~
@@ -1839,7 +1839,7 @@ Flags    indoors~
 Desc     A side room filled with Spirestone maces 
 and the seals of ascension.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20592
 Desc      Voone's post.~
@@ -1855,7 +1855,7 @@ Flags    indoors~
 Desc     A dark corner of the spider tunnels filled with 
 thick spire silk and bones.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20594
 Desc      Tunnel entrance.~
@@ -1871,7 +1871,7 @@ Flags    indoors~
 Desc     A small, web-wrapped chamber where several 
 spindleweb spiders keep watch.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20594
 Desc      Tunnel entrance.~
@@ -1887,7 +1887,7 @@ Flags    indoors~
 Desc     A side tunnel in the altar room, filled with 
 ancient stone tablets and dust.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20597
 Desc      Altar entrance.~
@@ -1903,7 +1903,7 @@ Flags    indoors~
 Desc     A narrow ledge where several spirestone mystics 
 conduct their rituals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20597
 Desc      Altar entrance.~
@@ -1919,12 +1919,12 @@ Flags    indoors~
 Desc     A wide road of massive stone pavers leading toward the 
 upper military districts.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20622
 Desc      The High Road North.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    20567
 Desc      Bloodaxe Courtyard.~
@@ -1940,12 +1940,12 @@ Flags    indoors~
 Desc     The road turns sharply as it approaches the Overlord's 
 balcony. High-level orc legionnaires stand in silence.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20621
 Desc      High Road South.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    20580
 Desc      Wyrmthalak's balcony.~
@@ -1961,7 +1961,7 @@ Flags    indoors~
 Desc     A small storage area near the Overlord's balcony, filled with 
 tactical briefs and polished obsidian.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20580
 Desc      Wyrmthalak's balcony.~
@@ -1977,7 +1977,7 @@ Flags    indoors~
 Desc     A quiet ridge north of the balcony, where Blackhand elites 
 keep watch over the inner Spire.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20580
 Desc      Wyrmthalak's balcony.~
@@ -1993,7 +1993,7 @@ Flags    indoors~
 Desc     A dark room near the Spirestone quarters where the 
 ogre butchers prepare the daily meals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20562
 Desc      Spirestone commons.~
@@ -2009,7 +2009,7 @@ Flags    indoors~
 Desc     A side room in the Bloodaxe garrison where orc 
 engineers work on their blunderbusses.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20566
 Desc      Garrison entrance.~
@@ -2025,7 +2025,7 @@ Flags    indoors~
 Desc     A high point in the Spirestone commons, home to 
 several obsidian gargoyles.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    20563
 Desc      Central commons.~
@@ -2041,7 +2041,7 @@ Flags    indoors dark~
 Desc     A small grotto in the spider tunnels, filled with 
 hundreds of small, white spider egg sacs.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20595
 Desc      Webbed tunnels heart.~
@@ -2057,7 +2057,7 @@ Flags    indoors~
 Desc     A high stone platform in the spider tunnels, 
 offering a view of the central commons far below.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20595
 Desc      Webbed tunnels heart.~
@@ -2074,7 +2074,7 @@ Desc     A small, isolated balcony near the Overlord's seat.
 Dark Vreeke can sometimes be seen here watching 
 the orcish troops.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20580
 Desc      Wyrmthalak's balcony.~
@@ -2090,7 +2090,7 @@ Flags    indoors~
 Desc     A small chamber dedicated to the worship of the black 
 dragonflight. The air smells of burning sulfur.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    20621
 Desc      High Spire Road.~
@@ -2106,7 +2106,7 @@ Flags    indoors~
 Desc     A dark corner of the military district where Scarshield 
 warlocks practice their forbidden arts.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    20567
 Desc      Bloodaxe courtyard.~
@@ -2122,7 +2122,7 @@ Flags    indoors~
 Desc     A narrow, dirty tunnel that runs beneath the thoroughly 
 military streets. Spire rats are the only inhabitants.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    20560
 Desc      Entrance landing.~
@@ -2139,7 +2139,7 @@ Desc     A rare balcony that looks out through a crack in the
 mountain. You can see the smoking plains of the 
 Burning Steppes far below.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20567
 Desc      Bloodaxe courtyard.~
@@ -2155,7 +2155,7 @@ Flags    indoors~
 Desc     A quiet, central garden of lava-roots and glowing 
 mushrooms in the middle of the lower Spire.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    20563
 Desc      Ogre central commons.~

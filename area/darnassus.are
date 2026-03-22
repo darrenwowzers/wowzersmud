@@ -562,7 +562,7 @@ The architecture is seamlessly blended with the towering, ancient trees
 of Teldrassil. The air here is cool, still, and smells of blooming
 moonweeds. To the north lies the heart of the city.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11801
 Desc      A pristine marble bridge leads into the city.
@@ -582,25 +582,25 @@ built over a crystal-clear lake. Glowing wisps dart among the branches
 above. To the east is the city's Bank, and to the west is the Auction
 House.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11804
 Desc      The path winds toward the Craftsmen's Terrace.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11803
 Desc      The Darnassus Bank.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11800
 Desc      The city gates.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11802
 Desc      The Darnassus Auction House.
@@ -619,7 +619,7 @@ house of Darnassus operates in hushed, polite tones. Night elves and
 visiting Alliance members quietly inspect magical goods and rare herbs
 under the soft light of the moon.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11801
 Desc      The Tradesmen's Terrace.
@@ -638,7 +638,7 @@ immense ancient tree. Roots naturally form secure vaults and lockboxes.
 Banker Ulthir stands watch, relying on ancient magic to secure the
 treasures within.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11801
 Desc      The Tradesmen's Terrace.
@@ -657,25 +657,25 @@ Desc     This terrace is dedicated to the peaceful arts. The sounds of gentle
 hammering and the smell of cooking food fill the air. To the north
 lies a welcoming inn, its hearth glowing warmly through the open arches.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11805
 Desc      The local Inn.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11806
 Desc      A path over a bubbling stream.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11801
 Desc      The Tradesmen's Terrace.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11807
 Desc      The Warrior's Terrace.
@@ -692,7 +692,7 @@ Desc     The inn is open and airy, built entirely of polished wood without a
 single nail. Soft, moss-covered beds provide incredible comfort to weary
 travelers. Innkeeper Saelienne hums a quiet elven tune as she works.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11804
 Desc      The Craftsmen's Terrace.
@@ -711,13 +711,13 @@ Desc     An elegant, arching bridge spans the tranquil waters of the city's
 central lake. To the east, the awe-inspiring architecture of the
 Temple of the Moon begins to rise above the treeline.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11812
 Desc      The Temple Gardens.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11804
 Desc      The Craftsmen's Terrace.
@@ -734,19 +734,19 @@ Desc     The serene atmosphere of the city is contrasted here by the sharp sound
 of clashing steel and the roar of tamed beasts. This district is where
 the Sentinels and hunters of Darnassus hone their lethal skills.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11808
 Desc      The Hunter's Enclave.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11804
 Desc      The Craftsmen's Terrace.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11810
 Desc      The training rings.
@@ -764,13 +764,13 @@ Desc     Massive nightsabers rest in the cool grass, watching you with intellige
 predatory eyes. Hunters practice their archery on targets set deep into
 the woods.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11807
 Desc      The entrance of the terrace.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11809
 Desc      The tracking grounds.
@@ -788,7 +788,7 @@ Desc     Erion Shadewhisper stands here, analyzing the footprints left in the
 soft earth. This area is used to teach young night elves how to move
 without leaving a trace and how to survive in the deep wilds.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11808
 Desc      The Hunter's Enclave.
@@ -806,13 +806,13 @@ Desc     The grass here is worn down from centuries of combat practice. Darnath
 Bladesinger guides initiates through fluid, deadly combat forms, teaching
 them that agility and precision will always overcome brute strength.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11807
 Desc      The entrance of the terrace.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11811
 Desc      A dark, shadowed alcove.
@@ -832,7 +832,7 @@ Desc     The canopy is incredibly thick here, plunging the area into perpetual
 twilight. The rogues of Darnassus train here, mastering the arts of
 stealth, sabotage, and assassination in service to the Goddess.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11810
 Desc      The training ring.
@@ -850,13 +850,13 @@ Desc     You have crossed the bridge into the holiest district in the city. The
 Temple Gardens are perfectly manicured, glowing with a soft, ethereal
 light that seems to emanate from the plants themselves.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11813
 Desc      The grand steps of the Temple.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11806
 Desc      The bridge back to the city center.
@@ -872,13 +872,13 @@ Desc     A massive flight of marble stairs leads up into the awe-inspiring Templ
 of the Moon. The architecture is breathtaking, completely open to the
 sky to allow the moonlight to bathe the interior at night.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11814
 Desc      The entrance hall of the Temple.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11812
 Desc      The Temple Gardens.
@@ -898,13 +898,13 @@ Desc     You stand within the great Temple. The silence here is profound and dee
 comforting. The air is perfectly still. To the east lies the central
 moonwell and the High Priestess herself.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11815
 Desc      The heart of the Temple.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11813
 Desc      The grand steps outside.
@@ -921,19 +921,19 @@ Desc     A large, perfectly circular pool of glowing, silver water dominates the
 room. This is the great Moonwell of Darnassus. High Priestess Tyrande
 Whisperwind stands before it, bathed in the divine light of Elune.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11817
 Desc      The Priest's Quarters.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11816
 Desc      The eastern balcony.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11814
 Desc      The entrance hall.
@@ -953,7 +953,7 @@ Desc     This open-air balcony provides a stunning view of the vast, mystical
 forests of Teldrassil. The wind sighs softly through the marble pillars,
 carrying the scent of pine.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11815
 Desc      The central moonwell.
@@ -970,7 +970,7 @@ Desc     The acolytes and priestesses of Elune study ancient scrolls and practic
 their healing prayers here. The atmosphere is one of absolute devotion
 and unwavering faith in the Goddess.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11815
 Desc      The central moonwell.
@@ -988,13 +988,13 @@ Desc     You leave the Craftsmen's Terrace and head north over a series of elega
 wooden bridges that span the city's waterways. The magic in the air grows
 wilder and more untamed as you approach the Cenarion Enclave.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11819
 Desc      The Cenarion Enclave entrance.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11804
 Desc      The Craftsmen's Terrace.
@@ -1010,13 +1010,13 @@ Desc     The pristine marble of the city gives way entirely to untamed, vibrant
 nature. The Cenarion Enclave is the domain of the druids, a lush,
 overgrown sanctuary of ancient trees, deep moss, and powerful earth magic.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11820
 Desc      The heart of the enclave.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11818
 Desc      The bridges back to the city.
@@ -1033,25 +1033,25 @@ Desc     An impossibly massive tree towers above you, its roots forming natural
 pathways and dwellings. Druids in various animal forms wander peacefully
 through the brush.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11821
 Desc      The druidic training grounds.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11824
 Desc      A path winding around the roots.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11819
 Desc      The enclave entrance.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11825
 Desc      The protector's grove.
@@ -1067,19 +1067,19 @@ Desc     The grass here is thick and soft. Initiates practice their shapeshiftin
 learning to command the forms of the bear, the cat, and the aquatic
 creatures of the world.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11822
 Desc      The Archdruid's Rise.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11820
 Desc      The Great Tree.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11823
 Desc      The Sleeping Den.
@@ -1096,7 +1096,7 @@ Desc     A raised platform of living wood. Archdruid Fandral Staghelm paces here
 his expression severe. He commands the Cenarion Circle with an iron fist,
 believing that the druids must take a more active, militant role.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11821
 Desc      The training grounds.
@@ -1115,7 +1115,7 @@ Desc     A dark, quiet hollow carved into the roots of a giant oak. Several drui
 slumber deeply here, their spirits wandering the vast, untouched wilds
 of the Emerald Dream.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11821
 Desc      The training grounds.
@@ -1132,7 +1132,7 @@ Desc     The pathway here is formed entirely by the massive, interwoven roots of
 the great trees. Small, glowing flowers bloom wherever you step, a sign
 of the deep natural magic permeating the enclave.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11820
 Desc      The Great Tree.
@@ -1148,7 +1148,7 @@ Desc     The trees here seem to watch you. Suddenly, one of the massive oaks shi
 its weight, revealing itself to be an Ancient of War. These colossal,
 sentient trees guard the enclave from any who would harm the forest.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11820
 Desc      The Great Tree.
@@ -1166,13 +1166,13 @@ Desc     Leaving the enclave behind, this path slopes upward, winding its way
 toward the highest branches of Darnassus. The air grows thinner, and
 the squawks of large, winged beasts echo from above.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11827
 Desc      The base of the roost.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11819
 Desc      The Cenarion Enclave entrance.
@@ -1188,13 +1188,13 @@ Desc     You stand at the base of a towering wooden ramp that spirals upward int
 the canopy. Feathers and scratches in the wood mark the frequent passage
 of the city's favored flying mounts.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11828
 Desc      Ascend to the roost.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11826
 Desc      The path back down.
@@ -1212,13 +1212,13 @@ the upper branches of a massive tree. Several majestic Hippogryphs rest
 here. From this vantage point, you can see the edge of the world tree,
 Teldrassil, dropping off into the ocean.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    11827
 Desc      The ramp down.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11829
 Desc      A small observation deck.
@@ -1235,7 +1235,7 @@ Desc     A small, quiet deck extending out from the main roost. It offers an
 unparalleled, unobstructed view of the stars and the moon. Many Night
 Elves come here simply to marvel at the beauty of Elune's light.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11828
 Desc      The main roost.

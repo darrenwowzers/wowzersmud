@@ -809,12 +809,12 @@ so hot it blisters the skin, and the ground vibrates with the
 heartbeat of the mountain. A shimmering, white-hot portal 
 glows within the mouth of the cave.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    36562
 Desc      Return to the Window of the Core in Searing Gorge.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41701
 Desc      The path into the deep fire.~
@@ -832,12 +832,12 @@ in a haze of thick, sulfurous smoke. Molten giants stand like
 statues in alcoves along the path, their eyes tracking your 
 every movement.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41700
 Desc      The entrance portal.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41702
 Desc      The intersection of ash.~
@@ -856,22 +856,22 @@ meat. To the east, the sound of rhythmic chanting echoes
 from a high stone hall. To the north, the road leads deeper 
 into the volcanic heart.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41701
 Desc      The entry thoroughfare.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    41703
 Desc      Toward the Magmadar Den.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    41720
 Desc      Toward the Flamewaker Quarter.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41750
 Desc      Toward the Hall of the Firelord.~
@@ -889,12 +889,12 @@ charred bone. The sound of deep, rhythmic snoring causes the
 stone floor to vibrate. Lucifron can be seen slithering 
 between the massive pillars ahead.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41702
 Desc      The intersection.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41704
 Desc      The Lair of Lucifron.~
@@ -912,12 +912,12 @@ Lucifron stands before a large obsidian altar, his curved
 blade reflecting the orange glow of the nearby lava pits. 
 His loyal guards hiss in anticipation.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41703
 Desc      The den entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41705
 Desc      The Lair of Magmadar.~
@@ -937,7 +937,7 @@ Magmadar sleeps upon a bed of cooling lava, his three heads
 shifting in his sleep. The air is stagnant and reeks of 
 reptile musk and smoke.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41704
 Desc      Lucifron's lair.~
@@ -956,12 +956,12 @@ Desc     The architecture here is more refined, with pillars carved in the
 image of serpents. Firelords hover near the ceiling, summoning 
 minor elementals to patrol the halls.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41702
 Desc      The intersection.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41721
 Desc      The Hall of Gehennas.~
@@ -979,12 +979,12 @@ a glowing ritual circle, his hands weaving a spell of
 pure shadow-fire. The walls are lined with high-ranking 
 flamewaker guards.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41720
 Desc      The quarter entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41722
 Desc      Toward Garr's Enclave.~
@@ -1004,12 +1004,12 @@ thousands of small, obsidian stones that crunch underfoot.
 A massive rock elemental can be seen standing like a mountain 
 in the distance.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41721
 Desc      The hall of gehennas.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    41723
 Desc      The Peak of Garr.~
@@ -1026,7 +1026,7 @@ Desc     The highest point of the eastern halls. Garr stands in the
 center of a wide stone terrace, surrounded by eight 
 smaller rock elementals who hum in a low, grounding pitch.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41722
 Desc      The enclave entry.~
@@ -1045,12 +1045,12 @@ Desc     The air becomes blistering hot as you approach the volcanic
 center. A wide road of massive pavers leads toward a 
 circular loop of stone. The scent of brimstone is overwhelming.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41702
 Desc      The intersection.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41751
 Desc      The Searing Loop.~
@@ -1067,17 +1067,17 @@ Desc     A long stone path that circles a massive central pit of lava.
 Baron Geddon patrols this loop in a never-ending cycle, 
 his body a pillar of pure, white-hot flame.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41750
 Desc      The road entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    41752
 Desc      The Searing Loop West.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    41753
 Desc      The Searing Loop East.~
@@ -1094,12 +1094,12 @@ Desc     The western half of the loop. To the west, a high bridge
 leads toward the Shazzrah's quarters. Molten giants 
 keep watch over the burning abyss.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41751
 Desc      The loop south.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    41754
 Desc      Toward Shazzrah's Hall.~
@@ -1117,7 +1117,7 @@ Shazzrah stands in the center, his many heads muttering
 contradictory incantations. He teleports rapidly across 
 the floor, leaving a trail of blue static.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41752
 Desc      The loop west.~
@@ -1135,12 +1135,12 @@ Desc     The eastern half of the loop. To the east, a wide thoroughfare
 leads toward Sulfuron's balcony. Lava surgers rush 
 along the stone path.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41751
 Desc      The loop south.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    41755
 Desc      Toward Sulfuron's Hall.~
@@ -1158,7 +1158,7 @@ Sulfuron Harbinger stands in the center, surrounded by
 his elite flamewaker guards. He balances a massive 
 obsidian mace, his eyes glowing with inner fire.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41753
 Desc      The loop east.~
@@ -1177,12 +1177,12 @@ Desc     The stone path narrows as it leads into the very heart of the
 mountain. The sound of thousands of tons of falling magma 
 creates a constant, low-frequency roar.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41751
 Desc      The loop south.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41801
 Desc      The Lair of Golemagg.~
@@ -1200,12 +1200,12 @@ molten giant Golemagg stands guard, flanked by two
 ferocious core ragers. He is the final barrier before 
 the Firelord's throne.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41800
 Desc      The road entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41810
 Desc      Toward Majordomo Executus.~
@@ -1224,12 +1224,12 @@ Desc     The architecture here is grand and ancient, with white marble
 statues of elementals lining the hall. The air is clear of 
 smoke, but the heat is even more intense.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41801
 Desc      Golemagg's lair.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41811
 Desc      The Seat of Majordomo Executus.~
@@ -1247,12 +1247,12 @@ guards. Majordomo Executus stands before a shimmering pool
 of molten gold, his hands raised as he prepares the 
 ritual of summoning.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41810
 Desc      The hall entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    41850
 Desc      The Pit of Ragnaros.~
@@ -1272,7 +1272,7 @@ the center of the room. This is the place where the Firelord
 has slumbered since the dawn of time. The air hums with 
 unfathomable power.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    41811
 Desc      Return to the Majordomo's seat.~
@@ -1290,7 +1290,7 @@ Flags    indoors~
 Desc     A quiet corner of the den filled with small pools of 
 cooling lava and bits of obsidian.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41705
 Desc      Magmadar's lair.~
@@ -1306,7 +1306,7 @@ Flags    indoors~
 Desc     A side tunnel in the den filled with piles of 
 bleached humanoid bones and soot.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41705
 Desc      Magmadar's lair.~
@@ -1322,7 +1322,7 @@ Flags    indoors~
 Desc     A high stone landing in the quarter, offering a 
 view of the southern thoroughfare.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41721
 Desc      Gehennas's hall.~
@@ -1338,7 +1338,7 @@ Flags    indoors~
 Desc     A side room filled with flamewaker spears and 
 small stone statues of serpents.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41721
 Desc      Gehennas's hall.~
@@ -1354,7 +1354,7 @@ Flags    indoors~
 Desc     A rocky ledge overlooking the central lava pit, 
 frequently patrolled by molten giants.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41751
 Desc      Loop south.~
@@ -1370,7 +1370,7 @@ Flags    indoors~
 Desc     A dark corner of the loop where several lava 
 annihilators have formed from the intense heat.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41752
 Desc      Loop west.~
@@ -1386,7 +1386,7 @@ Flags    indoors~
 Desc     A side tunnel in the giant's lair filled with 
 discarded basalt and bits of iron ore.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41801
 Desc      Golemagg's lair.~
@@ -1402,7 +1402,7 @@ Flags    indoors~
 Desc     A narrow ledge where several firelords study 
 the flow of the lava falls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41801
 Desc      Golemagg's lair.~
@@ -1417,12 +1417,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A series of confusing stone corridors near the entrance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41709
 Desc      Labyrinth 2.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    41701
 Desc      Thoroughfare.~
@@ -1437,7 +1437,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entrance labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41708
 Desc      Labyrinth 1.~
@@ -1452,12 +1452,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the flamewaker quarter.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41720
 Desc      Quarter entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    41727
 Desc      Labyrinth 2.~
@@ -1472,12 +1472,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for fiery plate gauntlets and coal.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41726
 Desc      Labyrinth 1.~
 #ENDEXIT
-Reset O 41617 10 0 41727
+Reset O 41617 10 41727 0
 #ENDROOM
 
 #ROOM
@@ -1487,12 +1487,12 @@ Sector   inside~
 Flags    indoors~
 Desc     High stone rooms near the searing loop.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41751
 Desc      Loop south.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41759
 Desc      Labyrinth 2.~
@@ -1507,7 +1507,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the loop labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41758
 Desc      Labyrinth 1.~
@@ -1522,12 +1522,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Elegant stone rooms near the Majordomo's seat.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41810
 Desc      Hall entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    41813
 Desc      Labyrinth 2.~
@@ -1542,7 +1542,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41812
 Desc      Labyrinth 1.~
@@ -1557,7 +1557,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet stone ledge overlooking the thoroughfare.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41701
 Desc      Thoroughfare.~
@@ -1572,7 +1572,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark alcove in the magmadar dens.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41703
 Desc      Den entry.~
@@ -1587,7 +1587,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A high point in the flamewaker quarter.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41720
 Desc      Quarter entry.~
@@ -1602,12 +1602,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A side storage room for rock elemental cores.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41722
 Desc      Enclave entry.~
 #ENDEXIT
-Reset O 41613 10 0 41729
+Reset O 41613 10 41729 0
 #ENDROOM
 
 #ROOM
@@ -1617,7 +1617,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A stone landing near Shazzrah's hall.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41752
 Desc      Loop west.~
@@ -1632,12 +1632,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for essences of fire.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41753
 Desc      Loop east.~
 #ENDEXIT
-Reset O 41612 10 0 41761
+Reset O 41612 10 41761 0
 #ENDROOM
 
 #ROOM
@@ -1647,7 +1647,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A high stone landing in the command hall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41810
 Desc      Hall entrance.~
@@ -1662,12 +1662,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A small, well-tended garden of fire-etched stones.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41810
 Desc      Hall entrance.~
 #ENDEXIT
-Reset O 41620 10 0 41815
+Reset O 41620 10 41815 0
 #ENDROOM
 
 #ROOM
@@ -1677,7 +1677,7 @@ Sector   underground~
 Flags    indoors~
 Desc     A narrow, dirty tunnel near the descent.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41701
 Desc      Thoroughfare.~
@@ -1692,7 +1692,7 @@ Sector   underground~
 Flags    indoors~
 Desc     Another narrow tunnel used by the mountain's vermin.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41701
 Desc      Thoroughfare.~
@@ -1707,7 +1707,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner where warlocks practice magic.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41720
 Desc      Quarter entry.~
@@ -1722,7 +1722,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small room for repairing basalt blocks.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41720
 Desc      Quarter entry.~
@@ -1737,12 +1737,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A lavish room filled with fine silks and gold jewelry.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41750
 Desc      Road entrance.~
 #ENDEXIT
-Reset O 41601 1 0 41762
+Reset O 41601 1 41762 0
 #ENDROOM
 
 #ROOM
@@ -1752,7 +1752,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room filled with scrolls detailing the Firelord's history.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41750
 Desc      Road entrance.~
@@ -1767,12 +1767,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A room for storing spears and shields.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41810
 Desc      Hall entrance.~
 #ENDEXIT
-Reset O 41610 5 0 41816
+Reset O 41610 5 41816 0
 #ENDROOM
 
 #ROOM
@@ -1782,7 +1782,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the elite flamewakers study rituals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41810
 Desc      Hall entrance.~
@@ -1797,7 +1797,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet central square in the middle of the Core.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41702
 Desc      Intersection.~
@@ -1812,7 +1812,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the entrance.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41701
 Desc      Thoroughfare.~
@@ -1827,7 +1827,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the fire labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41701
 Desc      Thoroughfare.~
@@ -1842,7 +1842,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the den.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41703
 Desc      Den entry.~
@@ -1857,7 +1857,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hound labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41703
 Desc      Den entry.~
@@ -1872,7 +1872,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the hall of Gehennas.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41721
 Desc      Gehennas's hall.~
@@ -1887,7 +1887,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the flamewaker labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41721
 Desc      Gehennas's hall.~
@@ -1902,7 +1902,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the loop.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41751
 Desc      Loop south.~
@@ -1917,7 +1917,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the elementals' labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41751
 Desc      Loop south.~
@@ -1932,7 +1932,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the command hall.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41810
 Desc      Hall entrance.~
@@ -1947,7 +1947,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the elite labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41810
 Desc      Hall entrance.~
@@ -1962,7 +1962,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the Firelord's throne.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    41850
 Desc      Ragnaros's pit.~
@@ -1977,7 +1977,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the final fire labyrinth.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    41850
 Desc      Ragnaros's pit.~
@@ -1992,7 +1992,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the entrance gateway.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41700
 Desc      Entrance portal.~
@@ -2007,7 +2007,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entry-shield labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41700
 Desc      Entrance portal.~
@@ -2022,7 +2022,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the intersection.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41702
 Desc      Intersection.~
@@ -2037,7 +2037,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the intersection labyrinth.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41702
 Desc      Intersection.~
@@ -2052,7 +2052,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the den entry.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41703
 Desc      Den entry.~
@@ -2067,7 +2067,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hound-den labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41703
 Desc      Den entry.~
@@ -2082,7 +2082,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Lucifron's lair.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41704
 Desc      Lucifron's lair.~
@@ -2097,7 +2097,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the shadow-priest labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41704
 Desc      Lucifron's lair.~
@@ -2112,7 +2112,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Magmadar's lair.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41705
 Desc      Magmadar's lair.~
@@ -2127,7 +2127,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the sire-hound labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41705
 Desc      Magmadar's lair.~
@@ -2142,7 +2142,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the quarter entry.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41720
 Desc      Quarter entry.~
@@ -2157,7 +2157,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the Firelord-quarter labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41720
 Desc      Quarter entry.~
@@ -2172,7 +2172,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Gehennas's hall.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41721
 Desc      Gehennas's hall.~
@@ -2187,7 +2187,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the shadow-caster labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41721
 Desc      Gehennas's hall.~
@@ -2202,7 +2202,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Garr's enclave.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41722
 Desc      Enclave entry.~
@@ -2217,7 +2217,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the rock-elemental labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41722
 Desc      Enclave entry.~
@@ -2232,7 +2232,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the searing loop.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41751
 Desc      Loop south.~
@@ -2247,7 +2247,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the Surger labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41751
 Desc      Loop south.~
@@ -2262,7 +2262,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Shazzrah's hall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41754
 Desc      Shazzrah's hall.~
@@ -2277,7 +2277,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the distorted-arcane labyrinth.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41754
 Desc      Shazzrah's hall.~
@@ -2292,7 +2292,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Sulfuron's hall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41755
 Desc      Sulfuron's hall.~
@@ -2307,7 +2307,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the Harbinger-guard labyrinth.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41755
 Desc      Sulfuron's hall.~
@@ -2322,7 +2322,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Golemagg's lair.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41801
 Desc      Golemagg's lair.~
@@ -2337,7 +2337,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the Annihilator labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41801
 Desc      Golemagg's lair.~
@@ -2352,7 +2352,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the Majordomo's seat.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    41811
 Desc      Executus's seat.~
@@ -2367,7 +2367,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the high-command labyrinth.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    41811
 Desc      Executus's seat.~
@@ -2382,7 +2382,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The final dark tunnel near the Firelord.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41850
 Desc      Ragnaros's pit.~
@@ -2397,7 +2397,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the Core.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    41850
 Desc      Ragnaros's pit.~
@@ -2414,12 +2414,12 @@ Desc     A narrow, magically-reinforced tunnel behind the Firelord's
 throne leads toward a hidden opening in the Searing Gorge, 
 offering a quick way out for those who have defeated Ragnaros.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    41850
 Desc      Ragnaros's pit.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    41700
 Desc      The entrance archway.~

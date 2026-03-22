@@ -1476,7 +1476,7 @@ Massive iron spikes and logs the size of houses form a heavily fortified
 gate protecting the canyon within. The dry heat of Durotar bears down
 mercilessly.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11201
 Desc      The path leads under the massive iron spikes into the city.
@@ -1496,13 +1496,13 @@ as the only ground entrance to the Horde capital. Torches flicker against
 the rough-hewn stone walls. The smell of dust, sweat, and forge fires
 drifts from the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11202
 Desc      The gateway opens up into the Valley of Strength.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11200
 Desc      The blazing sun of Durotar waits outside.
@@ -1521,13 +1521,13 @@ ground is baked red earth. Enormous wooden structures with taut hide
 roofs surround a central pillar of stone. The constant sound of drums
 and hammering fills the air.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11203
 Desc      The bustling central pillar of the Valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11201
 Desc      The gateway leading out of the city.
@@ -1545,25 +1545,25 @@ a massive natural pillar of red rock. Warriors, peons, and shaman
 hurry past. To the west is the heavily guarded Bank, and to the east
 lies the chaotic Auction House.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11208
 Desc      The path winds northward.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11206
 Desc      The entrance to the Orgrimmar Auction House.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11202
 Desc      The path back toward the main gates.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11204
 Desc      The heavily reinforced Orgrimmar Bank.
@@ -1583,13 +1583,13 @@ thick iron plates and heavy wooden beams. Goblins and orcs alike manage
 the immense wealth of the Horde here, keeping a highly suspicious eye
 on anyone who lingers too long.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11203
 Desc      The dusty central pillar of the valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11205
 Desc      A ramp leads down into the vaults.
@@ -1608,7 +1608,7 @@ Desc     The air down here is cool and smells of oiled iron and gold dust. Rows
 upon rows of heavy strongboxes are bolted to the solid stone floor. It
 would take an army to break into this subterranean fortress.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11204
 Desc      The ramp leads up to the main banking floor.
@@ -1629,13 +1629,13 @@ the Eastern Kingdoms crowd the floor, shouting prices, inspecting
 strange magical reagents, and trading armor. Several raised platforms
 hold the busy auctioneers.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11207
 Desc      The auction floor continues deeper into the building.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11203
 Desc      The central pillar of the valley.
@@ -1653,7 +1653,7 @@ Desc     More auctioneers stand upon wooden crates here, rapidly fielding bids
 from the chaotic crowd of trolls, tauren, orcs, and forsaken. A large
 chalkboard tracks the fluctuating prices of copper ore and heavy leather.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11206
 Desc      The entrance of the Auction House.
@@ -1670,25 +1670,25 @@ east is a large, inviting wooden structure with smoke billowing from its
 chimney—the renowned Broken Tusk inn. To the north, a tunnel leads
 deeper into the city.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11219
 Desc      A dark tunnel leads toward The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11209
 Desc      The entrance to The Broken Tusk inn.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11203
 Desc      The central pillar of the valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11212
 Desc      A path winding toward Grommash Hold.
@@ -1707,13 +1707,13 @@ Tusk is a massive, multi-level tavern built of logs and hide. It is the
 premier resting spot in Orgrimmar, filled with the loud boasting of
 victorious warbands.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11210
 Desc      The main bar area.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11208
 Desc      The dusty path of the valley.
@@ -1731,13 +1731,13 @@ entire boar. Sturdy wooden tables are scattered about, surrounded by
 patrons drinking heavily from clay jugs. The innkeeper watches the room
 with a hawkish glare.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11209
 Desc      The entrance to the inn.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11211
 Desc      A heavy wooden ramp leads to the upper sleeping quarters.
@@ -1760,7 +1760,7 @@ Several hammocks and rough beds are set up here, offering weary
 travelers a safe place to rest and recover before heading back out
 into the harsh Barrens.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    11210
 Desc      The noisy bar is below.
@@ -1776,13 +1776,13 @@ Desc     The path winds westward, approaching the most heavily fortified structu
 in the Valley. Elite grunts patrol this area with rigorous discipline.
 The imposing spires of Grommash Hold rise ominously just to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11213
 Desc      The heavily guarded entrance to Grommash Hold.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11208
 Desc      The main walk of the valley.
@@ -1802,13 +1802,13 @@ Orgrimmar. The architecture here is jagged, aggressive, and built for
 war. The air is thick with tension and the smell of ozone from dark
 shamanistic rituals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11214
 Desc      The central war room of the Hold.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11212
 Desc      The path leading back to the valley.
@@ -1828,7 +1828,7 @@ ranking warlords and advisors surround it, arguing over supply lines
 and troop movements in Ashenvale. The walls are lined with the weapons
 and armor of defeated enemies.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11213
 Desc      The entrance to the Hold.
@@ -1849,13 +1849,13 @@ from massive open-air furnaces and anvils located just to the north.
 The rhythmic clang of metal striking metal drowns out almost all other
 sounds.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11216
 Desc      The searing heat of the Forge.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11203
 Desc      The central pillar of the valley.
@@ -1874,7 +1874,7 @@ Massive iron cauldrons bubble with molten metal. Racks of freshly
 forged axes, maces, and thick armor plates line the walls, ready to be
 shipped to the front lines.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11215
 Desc      The eastern walk of the valley.
@@ -1893,13 +1893,13 @@ base of the Orgrimmar Sky Tower, the hub for the city's Wind Riders.
 A spiraling wooden ramp wraps around the central pillar, leading up
 to the roosts.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11208
 Desc      The main walk of the valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11218
 Desc      The ramp winds upward to the Wyvern Master.
@@ -1916,7 +1916,7 @@ here. Several tame Wind Riders rest on wooden perches, awaiting their
 next long-distance flight across the Barrens or beyond. The view of
 the city below is spectacular.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    11217
 Desc      The ramp winds back down to the dusty valley floor.
@@ -1934,13 +1934,13 @@ through the rock. The light of the sun is blocked out here, replaced by
 the eerie glow of shamanistic braziers. This tunnel marks the border
 between the Valley of Strength and the shadowy alleys of The Drag.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11220
 Desc      The shadowy expanse of The Drag begins here.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11208
 Desc      The sunlit Valley of Strength.
@@ -1957,13 +1957,13 @@ are stretched across the top of the canyon walls, plunging the entire
 district into perpetual twilight. The air is thick with the smell of
 spices, alchemy, and dark magic.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11221
 Desc      The path winds deeper into The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11219
 Desc      The tunnel leading back to the Valley of Strength.
@@ -1981,25 +1981,25 @@ Desc     The dirt path winds between rough-hewn stone buildings and leather tent
 Citizens hurry past, keeping their heads down. To the east, you can hear
 the vigorous bubbling of a massive cooking pot and the chopping of meat.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11223
 Desc      The path continues north into the shadows.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11222
 Desc      The smell of strange stew wafts from the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11220
 Desc      The southern entrance of The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11298
 Desc      A dark, sloping tunnel leads down into the Cleft of Shadow.
@@ -2020,7 +2020,7 @@ over a roaring fire. Spices hang from the rafters, drying in the intense
 heat. It is the central hub for learning the culinary arts in Orgrimmar,
 though the ingredients are often highly questionable.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11221
 Desc      The main path of The Drag.
@@ -2040,19 +2040,19 @@ Desc     The canyon walls close in tightly here, creating deep, impenetrable
 shadows. A fast-talking goblin has set up a small cart here, peddling
 goods that glint suspiciously in the dim light.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11225
 Desc      The central hub of The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11221
 Desc      The path leading south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11224
 Desc      A small shop filled with bolts of cloth.
@@ -2072,7 +2072,7 @@ Bolts of silk, mageweave, and wool are stacked neatly on wooden shelves.
 This is where the Horde's spellcasters come to have their robes mended
 and tailored.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11223
 Desc      The shady corner of The Drag.
@@ -2091,25 +2091,25 @@ hides blocks out the sky completely. To the east, the rhythmic scraping
 of hide tanning echoes loudly. To the west, a dark, ominous ramp spirals
 downward into the earth.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11233
 Desc      The path continues north toward the engineering shops.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11226
 Desc      The pungent smell of tanning oil comes from the east.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11223
 Desc      The shady corner of The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11227
 Desc      A dark ramp leads down into the Cleft of Shadow.
@@ -2128,7 +2128,7 @@ Desc     The smell in here is incredibly strong, a mix of salt, blood, and harsh
 tanning chemicals. Massive hides from kodos and thunder lizards are
 stretched across wooden frames, curing in the dry heat.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11225
 Desc      The central walk of The Drag.
@@ -2148,13 +2148,13 @@ darkness below. Purple and green torches cast long, sickly shadows on
 the walls. The air temperature drops noticeably as you stand near the
 descent.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11225
 Desc      The central walk of The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11228
 Desc      The ramp winds down into the subterranean caverns.
@@ -2172,13 +2172,13 @@ Orgrimmar. The noise of the city above fades away, replaced by the
 unsettling whispers of demonic entities and the sharp hiss of sharpening
 blades.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11227
 Desc      The ramp leads back up to The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11229
 Desc      The ramp bottoms out into a large cavern.
@@ -2196,19 +2196,19 @@ fungus and fel-green braziers provide the only light. This hidden
 sanctuary is where the Horde's warlocks and rogues practice arts deemed
 too dangerous or unseemly for the streets above.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11232
 Desc      The shadows deepen to the north, favored by the rogues.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11230
 Desc      The warlock encampment lies to the south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11228
 Desc      The ramp leads back to the surface.
@@ -2226,13 +2226,13 @@ leather are piled haphazardly on stone tables. The warlocks here study
 the dark arts, summoning entities from the Twisting Nether to do their
 bidding, regardless of the terrible risks.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11229
 Desc      The central cavern.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11231
 Desc      A summoning circle is etched into the floor to the west.
@@ -2252,7 +2252,7 @@ glowing with a harsh, fel-green light. The air here tastes like ash and
 brimstone. This is where demons are pulled from the void and broken to
 the will of the Horde.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11230
 Desc      The warlock encampment.
@@ -2271,7 +2271,7 @@ dark leather, speaking in hushed whispers or communicating in thieves'
 cant. Poisons are mixed, and daggers are honed to razor edges in the
 gloom.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11229
 Desc      The central cavern.
@@ -2290,19 +2290,19 @@ here is filled with the acrid smell of alchemy and the sharp tang of
 black powder. To the east, strange, bubbling sounds emanate from an
 apothecary station.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11236
 Desc      The path winds deeper into the shadows.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11234
 Desc      The entrance to the Apothecarium.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11225
 Desc      The central walk of The Drag.
@@ -2320,7 +2320,7 @@ glowing liquids, dried herbs, and strange anatomical specimens line the
 walls. The Forsaken apothecaries here work tirelessly on new plagues
 and potent elixirs.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11233
 Desc      The northern path of The Drag.
@@ -2339,7 +2339,7 @@ Desc     This small workshop is a chaotic mess of gears, springs, and black powd
 Explosion marks scorch the walls and ceiling. It is loud, dangerous,
 and fully operational. Buy at your own risk.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11236
 Desc      The shadowy path outside.
@@ -2357,19 +2357,19 @@ Desc     The overhead hides are thickest here, creating an area of almost total
 darkness during the day. Sparks flash periodically from the engineering
 shop to the west, briefly illuminating the dust motes dancing in the air.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11238
 Desc      The path approaches the northern exit.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11233
 Desc      The northern path of The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11235
 Desc      The chaotic Goblin Engineering Shop.
@@ -2387,7 +2387,7 @@ Desc     This small hut is adorned with carved wooden masks and shrunken heads.
 Incense burns heavily, filling the room with a thick, sweet smoke. This
 is a place of voodoo, spirit whispering, and ancient troll magic.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11238
 Desc      The path near the northern exit of The Drag.
@@ -2404,19 +2404,19 @@ Desc     The tight, oppressive canyon walls of The Drag finally begin to widen
 here. The overhead canopy of hides ends abruptly just to the north,
 letting the blinding Durotar sunlight spill onto the red dirt path.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11239
 Desc      The path opens up, leading toward the Valley of Honor.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11237
 Desc      A small, smoke-filled Troll hut.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11236
 Desc      The deep shadows of The Drag.
@@ -2435,13 +2435,13 @@ The claustrophobic shadows of The Drag are behind you. The path here
 widens significantly, winding its way north toward the martial heart of
 the city, the Valley of Honor.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11240
 Desc      The path opens into the Valley of Honor.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11238
 Desc      The dark entrance back into The Drag.
@@ -2458,13 +2458,13 @@ dedicated to the art of war. Unlike the industrial clatter of the
 Valley of Strength, here you hear the rhythmic thrum of drums and
 the clash of steel on steel.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11241
 Desc      The main path leads toward a large body of water.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11239
 Desc      The path leading back toward The Drag.
@@ -2483,19 +2483,19 @@ springs. The water is clear but still, providing a stark contrast to
 the dry dust of the valley. A lone troll sits quietly at the edge,
 watching a fishing line.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11243
 Desc      A path winds around the western shore of the water.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11242
 Desc      A dirt path leads to the stables.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11240
 Desc      The valley entrance.
@@ -2514,7 +2514,7 @@ lumbering wolves. The smell of hay and animal musk is thick here.
 Stable hands move about, ensuring the Horde's mounts are ready for
 the next long patrol.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11241
 Desc      The water's edge.
@@ -2532,19 +2532,19 @@ Desc     The path follows the western bank of the valley lake. To the west,
 a series of small gardens and huts have been built into the rock,
 where the city's herbalists tend to their rare specimens.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11245
 Desc      The path continues toward the Hunter's Hall.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11241
 Desc      The southern edge of the water.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11244
 Desc      The entrance to a vibrant garden hut.
@@ -2561,7 +2561,7 @@ of blooming herbs. It is meticulously cared for by the Horde's
 herbalists, providing the necessary reagents for alchemy and
 shamanic rituals.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11243
 Desc      The western shore of the lake.
@@ -2579,19 +2579,19 @@ Desc     The sound of snarling beasts and the whistle of arrows marks your
 approach to the Hunter's Hall. A large, open-air structure made of
 dark wood and kodo bone stands just to the west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11247
 Desc      The path leads to the northern end of the valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11243
 Desc      The western shore of the lake.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11246
 Desc      The entrance to the Hunter's Hall.
@@ -2609,7 +2609,7 @@ all over Kalimdor. Hunters sit on the floor, cleaning their bows and
 feeding their raptors. The air is thick with the smell of musk and
 raw meat.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11245
 Desc      The path outside.
@@ -2629,19 +2629,19 @@ Desc     You stand at the northern tip of the lake. From here, you have a
 clear view of the Ring of Valor to the east—a massive, sunken arena
 where the Horde's greatest warriors prove their worth.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11249
 Desc      The path leads toward the Ring of Valor.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11245
 Desc      The path back toward the Hunter's Hall.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11248
 Desc      A path spirals upward to the Hall of the Brave.
@@ -2659,7 +2659,7 @@ Horde's warriors. The floor is covered in red sand to absorb the
 spilled blood of initiates. The air rings with the constant clash
 of heavy iron axes.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11247
 Desc      The northern shore of the lake.
@@ -2678,13 +2678,13 @@ Desc     The ground here is heavily trampled by thousands of boots. The
 excitement is palpable as you approach the legendary arena. Cheers
 and jeers echo from the sunken pit to the east.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11250
 Desc      The entrance to the Ring of Valor.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11247
 Desc      The northern shore of the lake.
@@ -2702,19 +2702,19 @@ Desc     You stand at the edge of the Ring of Valor. A massive pit has been
 excavated from the red earth, lined with stone seating for the
 thousands of spectators who come to watch the combat. 
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11251
 Desc      The path continues around the arena.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11249
 Desc      The path back toward the lake.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11252
 Desc      A ramp leads down into the combat floor.
@@ -2730,7 +2730,7 @@ Desc     The stone walkway circles the upper edge of the arena. Looking down,
 you can see the blood-stained sand where countless warriors have
 found either glory or death. 
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11250
 Desc      The entrance to the arena.
@@ -2747,7 +2747,7 @@ Desc     You stand in the center of the pit. The walls rise high around you,
 leaving you with no escape but victory. The sand is coarse and red,
 clogging your nostrils with the smell of old copper and sweat.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11250
 Desc      The ramp leads back to the surface.
@@ -2765,13 +2765,13 @@ Desc     The path follows the eastern bank of the lake. To the east, several
 large, communal huts have been built, their roofs draped with heavy
 hides and bones. 
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11255
 Desc      The path leads toward the Shamanic dwellings.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11254
 Desc      The path winds around the southern end of the lake.
@@ -2787,13 +2787,13 @@ Desc     You are at the southern curve of the valley lake. The sound of
 drums from the Ring of Valor is slightly muted here. To the west,
 the path leads back to the main entrance of the valley.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11253
 Desc      The eastern shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11241
 Desc      The water's edge.
@@ -2809,19 +2809,19 @@ Desc     The air here feels heavy and charged with static. To the east, a
 large tent with smoke rising from a center hole marks the dwelling
 of the city's shamans.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11257
 Desc      The path continues toward the valley's northern exit.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11253
 Desc      The eastern shore of the lake.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11256
 Desc      The entrance to the Shamanic Lodge.
@@ -2838,7 +2838,7 @@ Desc     Incense and herbs burn in a central pit, sending sweet-smelling
 smoke up into the rafters. Totems representing the four elements
 stand in each corner, glowing with a soft, natural light.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11255
 Desc      The path outside.
@@ -2856,19 +2856,19 @@ Desc     The path winds north, moving away from the lake. The canyon walls
 here are sheer and high. To the east, a tunnel has been carved into
 the rock, leading toward the Valley of Wisdom.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11259
 Desc      The path leads to the northernmost part of the valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11258
 Desc      A tunnel leads toward the Valley of Wisdom.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11255
 Desc      The path toward the Shamanic Lodge.
@@ -2884,13 +2884,13 @@ Desc     A dark, cool tunnel carved straight through the red stone of the
 canyon. Torches flicker at regular intervals, casting long shadows.
 The bustling noise of the Valley of Honor fades behind you.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11260
 Desc      The tunnel opens into the Valley of Wisdom.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11257
 Desc      The Valley of Honor.
@@ -2907,7 +2907,7 @@ The canyon walls meet here, forming a natural dead end. A few
 tattered Horde banners flutter in the wind, marking the borders
 of the city's martial district.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11257
 Desc      The path leading back toward the lake.
@@ -2925,13 +2925,13 @@ grass and small pools of water replace the harsh red dust of the other
 valleys. Massive wooden elevators hiss as they move people to the upper
 plateaus. The air is sweet with the scent of burning herbs.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11258
 Desc      The tunnel back to the Valley of Honor.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    11261
 Desc      The path leads toward the central pool.
@@ -2948,19 +2948,19 @@ Desc     A large, crystal-clear pool sits in the center of the valley, fed by
 cascading waterfalls from the cliffs above. Small wooden bridges span
 the water, connecting the various Tauren dwellings. 
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11263
 Desc      The path continues around the water.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    11262
 Desc      A small hut sits at the water's edge.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11260
 Desc      The valley entrance.
@@ -2978,7 +2978,7 @@ Desc     This circular hut is sparsely furnished with woven mats and smooth
 stones. Bunches of drying herbs hang from the rafters. It is a place of
 quiet contemplation and elemental study.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11261
 Desc      The central pool.
@@ -2997,19 +2997,19 @@ Desc     The path winds north toward a massive, fortified structure built into
 the northern cliff face. To the west, the ground rises toward the base
 of a large wooden elevator. 
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11267
 Desc      The entrance to Grommash Hold.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11261
 Desc      The central pool.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    11264
 Desc      The path leads to the lower elevator platform.
@@ -3026,13 +3026,13 @@ Desc     You stand at the base of a marvel of engineering. A massive wooden
 platform is suspended by thick, greased chains. A goblin stands nearby,
 tinkering with a series of levers and gears.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11263
 Desc      The northern path of the valley.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    11265
 Desc      The elevator platform rises to the upper tier.
@@ -3049,13 +3049,13 @@ Desc     You are high above the valley floor. From here, you have a stunning
 view of the waterfalls and the lush greenery below. The platform creaks
 slightly as it settles into place against the upper cliff.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11266
 Desc      The path leads to the Tauren delegates.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    11264
 Desc      The elevator platform descends to the valley floor.
@@ -3071,7 +3071,7 @@ Desc     This upper plateau is home to the Tauren who represent their people in
 Orgrimmar. Several large, colorful tents have been erected here. A
 massive bonfire burns in a central pit, surrounded by elders.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11265
 Desc      The upper elevator platform.
@@ -3092,13 +3092,13 @@ Desc     The seat of the Warchief is a daunting fortress of iron and wood. Two
 Kor'kron Elite Guards stand like statues flanking the massive iron-bound
 doors. The air inside is cool and smells of iron and old battles.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11268
 Desc      The Hall of the Warchief.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11263
 Desc      The northern path of the valley.
@@ -3117,13 +3117,13 @@ Desc     This vast hall is the political center of the Horde. Massive banners of
 all the Horde races hang from the high ceiling. The Warchief sits upon
 his throne at the far end of the room, surrounded by his advisors.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11269
 Desc      You approach the throne.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11267
 Desc      The entrance of the hold.
@@ -3143,7 +3143,7 @@ presence filling the room. To his right stands the veteran Etrigg.
 Maps of the world are spread across a nearby table, detailing the
 struggles of the Horde across Azeroth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11268
 Desc      The hall leads back to the entrance.
@@ -3163,13 +3163,13 @@ Desc     The path follows the western edge of the central pool. The sound of
 the crashing waterfalls is deafening here, spraying a fine mist into
 the air that keeps the surroundings cool and moist.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11264
 Desc      The path to the lower elevator.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11271
 Desc      The path winds south.
@@ -3185,7 +3185,7 @@ Desc     The valley ends here against a sheer red cliff. A small, secluded
 grove of trees provides a quiet place for meditation. The water from
 the pool laps gently against the shore.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11270
 Desc      The western shore of the pool.
@@ -3202,13 +3202,13 @@ Desc     The path follows the eastern bank of the central water. Several small
 Tauren tents are set up along the cliffside, decorated with beads
 and feathers. 
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11273
 Desc      The path leads toward the waterfalls.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    11262
 Desc      Shikay's Mystic Hut.
@@ -3224,7 +3224,7 @@ Desc     You stand directly beneath a massive waterfall. The power of the fallin
 water is immense, creating a constant breeze and a shimmering rainbow
 in the sunlight. 
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11272
 Desc      The eastern shore.
@@ -3241,7 +3241,7 @@ Desc     A small, hidden grove of ancient trees tucked into a corner of the
 valley. The spirits of the elements are strong here, and the air
 seems to shimmer with a pale, ethereal light.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11261
 Desc      The central pool.
@@ -3259,7 +3259,7 @@ Desc     A large, communal tent for visiting Tauren dignitaries. It is filled
 with comfortable furs and the smell of sweetgrass. Maps and treaties
 are piled on a central table.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    11266
 Desc      The Plateau of the Elders.
@@ -3277,7 +3277,7 @@ Desc     A small room off the side of Grommash Hold dedicated to the history
 of the Horde. Tattered banners and ancient weapons are displayed
 with great care.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11268
 Desc      The Hall of the Warchief.
@@ -3295,7 +3295,7 @@ Desc     A smaller, more private strategy room where Thrall meets with his
 closest military advisors. Detailed scouts' reports are pinned to
 the walls.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    11268
 Desc      The Hall of the Warchief.
@@ -3311,7 +3311,7 @@ Desc     Standing at the edge of the upper plateau, you can see across the
 entire Valley of Wisdom and even glimpse the rooftops of The Drag
 to the south.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    11266
 Desc      The Plateau of the Elders.
@@ -3326,7 +3326,7 @@ Sector   city~
 Desc     The very edge of the city. The canyon walls drop off sharply here,
 leading out into the untamed wilderness of Durotar.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    11266
 Desc      The Plateau of the Elders.
@@ -3345,13 +3345,13 @@ and dark magic. Warlocks and rogues gather here, away from the prying
 eyes of the Warchief's guards. Deep within the cavern, a fiery, swirling
 portal leads into the volcanic depths of Ragefire Chasm.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    11221
 Desc      The tunnel leads back up to The Drag.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction in~
 ToRoom    11900
 Desc      Step through the fiery portal into Ragefire Chasm.

@@ -1770,12 +1770,12 @@ the beginning of a wide, stone road that leads into the upper
 command hub of the Spire. The air is thick with the scent of 
 sulfur and the rhythmic pounding of war-drums.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    36561
 Desc      Return to the Spire Landing hub in Searing Gorge.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40101
 Desc      The Hall of Blackhand.~
@@ -1792,12 +1792,12 @@ legions. High stone pillars supporting the vaulted ceiling
 are draped in the red and black banners of the Dark Horde. 
 Blackhand legionnaires stand in silent vigil.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40100
 Desc      The entrance landing.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40102
 Desc      The Hall of Blackhand Central.~
@@ -1815,17 +1815,17 @@ To the east lies the Hall of Binding, where the pyroguards
 commune with the fire. To the north, a high archway leads 
 toward the rookery.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40101
 Desc      Hall of Blackhand entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    40103
 Desc      Toward the Hall of Binding.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40115
 Desc      Toward the Rookery.~
@@ -1842,12 +1842,12 @@ Desc     The walls here are glowing with internal heat. Arcane runes
 are etched into the stone, and the floor is hot to the 
 touch. Blackhand summoners work here, maintaining the wards.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40102
 Desc      The central hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40104
 Desc      The Altar of the Pyroguard.~
@@ -1865,7 +1865,7 @@ altar is wreathed in permanent orange flames. Pyroguard
 Emberstrider stands before the altar, his hands glowing 
 with the heat of the mountain.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40103
 Desc      The binding entry.~
@@ -1886,12 +1886,12 @@ and the air is humid and smells of reptile musk.
 Solakar Flamewreath can be heard shouting orders from 
 the room ahead.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40102
 Desc      The central hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40116
 Desc      The Hatchery Basin.~
@@ -1909,12 +1909,12 @@ and black eggs. Chromatic whelps play in the warm
 updrafts rising from the floor, while dragonspawn 
 patrol the perimeter of the nest.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40115
 Desc      The rookery entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    40120
 Desc      Toward the Hall of Fortune.~
@@ -1931,12 +1931,12 @@ Desc     The architecture becomes more regal here. Gold and silver
 inlays decorate the stone, and the floor is polished 
 obsidian. This is the approach to the Warchief's arena.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40116
 Desc      The hatchery basin.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40121
 Desc      The Blackhand Arena.~
@@ -1955,12 +1955,12 @@ the field. Warchief Rend Blackhand sits upon his
 dragon-mount, Gyth, watching the combat below with 
 an unblinking stare.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40120
 Desc      The hall of fortune entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40130
 Desc      Toward the Altar of the Beast.~
@@ -1982,12 +1982,12 @@ Desc     A dark, ominous hallway leading away from the arena. The
 ground is scorched and the air reeks of sulfur and 
 burning meat.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40121
 Desc      The arena.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40131
 Desc      The Lair of the Beast.~
@@ -2005,12 +2005,12 @@ of impossible size stands guard. Its body is composed
 of living magma and basalt, and every breath it 
 takes illuminates the cavern in a hellish orange glow.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40130
 Desc      The altar entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40140
 Desc      Toward the General's Command.~
@@ -2029,12 +2029,12 @@ Desc     The architecture here is distinctly draconic, with white
 marble pillars carved in the image of massive, winged 
 serpents. High-ranking dragonspawn stand in silent vigil.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40131
 Desc      The beast's lair.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40141
 Desc      The Hall of General Drakkisath.~
@@ -2053,12 +2053,12 @@ most loyal chromatic wardens. He oversees the Dark
 Horde's military operations from this very seat. 
 The air hums with the power of the black dragonflight.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40140
 Desc      The command entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40200
 Desc      The exit path.~
@@ -2078,7 +2078,7 @@ Flags    indoors~
 Desc     A quiet corner of the binding hall filled with jars of 
 shadow-fire essence and small stone idols.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40103
 Desc      The binding entry.~
@@ -2094,7 +2094,7 @@ Flags    indoors~
 Desc     A side room where the Blackhand summoners study their 
 most advanced rituals.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40103
 Desc      The binding entry.~
@@ -2110,7 +2110,7 @@ Flags    indoors~
 Desc     A smaller nest filled with the youngest chromatic whelps. 
 The air is warm and moist.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40116
 Desc      The hatchery basin.~
@@ -2126,7 +2126,7 @@ Flags    indoors dark~
 Desc     A natural cave hidden beneath a large egg-sac. 
 Feral whelps have made a nest here.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    40116
 Desc      The hatchery basin.~
@@ -2142,7 +2142,7 @@ Flags    indoors~
 Desc     A side workshop near the arena where the orc smiths 
 repair damaged plate armor for the champions.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40120
 Desc      The fortune hall entry.~
@@ -2158,7 +2158,7 @@ Flags    indoors~
 Desc     A small storage area near the arena, filled with 
 chests of gold and stolen elven artifacts.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40120
 Desc      The fortune hall entry.~
@@ -2174,7 +2174,7 @@ Flags    indoors~
 Desc     A high stone ledge overlooking the burning pit, home 
 to several rockwing gargoyles.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    40131
 Desc      The beast's lair.~
@@ -2189,7 +2189,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow maintenance tunnel for the city's steam system.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40131
 Desc      The beast's lair.~
@@ -2205,7 +2205,7 @@ Flags    indoors~
 Desc     A side room near the command hall where the General's 
 top lieutenants prepare for the next tactical briefing.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40140
 Desc      The command entry.~
@@ -2221,7 +2221,7 @@ Flags    indoors~
 Desc     A small storage area near the peak, filled with 
 tactical briefs and polished obsidian.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40140
 Desc      The command entry.~
@@ -2237,7 +2237,7 @@ Flags    indoors~
 Desc     A quiet corner of the main entrance hall, frequently 
 patrolled by Blackhand assassins.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40101
 Desc      Hall entrance.~
@@ -2253,7 +2253,7 @@ Flags    indoors~
 Desc     A side workshop where the orc engineers repair the Spire's 
 heavy blunderbusses.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40101
 Desc      Hall entrance.~
@@ -2269,12 +2269,12 @@ Flags    indoors~
 Desc     A massive stone bridge crossing the industrial district. 
 Blackhand legionnaires stand guard in pairs.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40155
 Desc      High bridge center.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    40102
 Desc      Central hall.~
@@ -2290,12 +2290,12 @@ Flags    indoors~
 Desc     The center of the high span. From here, you can see the 
 Molten Core far below and the General's Hall high above.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40154
 Desc      Southern bridge.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    40156
 Desc      Northern bridge.~
@@ -2310,12 +2310,12 @@ Sector   city~
 Flags    indoors~
 Desc     The north end of the bridge. The air is thin and cold.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40155
 Desc      Center bridge.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    40140
 Desc      Command entry.~
@@ -2331,7 +2331,7 @@ Flags    indoors dark~
 Desc     A high, secluded ledge above the hall where assassins 
 can watch the entire city floor in absolute silence.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    40102
 Desc      The central hall.~
@@ -2347,7 +2347,7 @@ Flags    indoors dark~
 Desc     A small room behind a tapestry in the fortune hall. 
 It contains ancient elven treasures and dust.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40120
 Desc      The fortune hall entry.~
@@ -2363,7 +2363,7 @@ Flags    indoors~
 Desc     A dark room near the ogre quarters where the 
 laborers prepare the Dark Horde's meals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40120
 Desc      The fortune entry.~
@@ -2379,7 +2379,7 @@ Flags    indoors~
 Desc     A quiet room near the garrison where the Blackhand 
 medics treat the wounded.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40120
 Desc      The fortune entry.~
@@ -2395,7 +2395,7 @@ Flags    indoors~
 Desc     A high stone platform overlooking the hatchery, frequently 
 patrolled by chromatic dragonspawn.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40116
 Desc      The hatchery basin.~
@@ -2411,7 +2411,7 @@ Flags    indoors~
 Desc     A narrow tunnel lined with emerald dragon-scales. 
 Chromatic whelps often hide here.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40116
 Desc      The hatchery basin.~
@@ -2427,7 +2427,7 @@ Flags    indoors~
 Desc     Rows of stone benches occupied by rowdy Gordok mercenaries. 
 They throw meat and insults at the combatants.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40121
 Desc      The arena field.~
@@ -2443,7 +2443,7 @@ Flags    indoors~
 Desc     A mirror image of the west stands. Blackhand veterans 
 watch the spectacle with professional interest.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40121
 Desc      The arena field.~
@@ -2459,7 +2459,7 @@ Flags    indoors~
 Desc     A high stone balcony overlooking the entire arena. This is 
 where the Warchief sits when he is not in the field.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    40121
 Desc      The arena field.~
@@ -2475,7 +2475,7 @@ Flags    indoors~
 Desc     A side tunnel in the beast's lair, filled with 
 burned masonry and piles of ash.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40131
 Desc      The beast's lair.~
@@ -2491,7 +2491,7 @@ Flags    indoors~
 Desc     A quiet ridge north of the lair, where Blackhand snipers 
 keep watch over the inner Spire.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40131
 Desc      The beast's lair.~
@@ -2507,7 +2507,7 @@ Flags    indoors~
 Desc     A small chamber where the General's top advisors 
 conduct their dark rituals.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40141
 Desc      General's throne.~
@@ -2523,7 +2523,7 @@ Flags    indoors~
 Desc     A quiet room filled with the collective knowledge of 
 the black dragonflight.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40141
 Desc      General's throne.~
@@ -2539,7 +2539,7 @@ Flags    indoors~
 Desc     A high point in the Hall of Blackhand, home to 
 several obsidian gargoyles.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    40101
 Desc      The hall entrance.~
@@ -2555,7 +2555,7 @@ Flags    indoors~
 Desc     A quiet, central garden of lava-roots and glowing 
 mushrooms in the middle of the upper Spire.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40101
 Desc      The entrance hall.~
@@ -2572,12 +2572,12 @@ Desc     A narrow, stone-lined tunnel behind General Drakkisath's throne
 leads toward a hidden opening in the peak of Blackrock 
 Mountain, offering a quick way out.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40141
 Desc      General's throne.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    40100
 Desc      The entrance landing.~
@@ -2591,7 +2591,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the rituals are prepared.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40103
 Desc      Binding entrance.~
@@ -2606,7 +2606,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small storage area for magical coal and crystals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40103
 Desc      Binding entrance.~
@@ -2622,7 +2622,7 @@ Flags    indoors~
 Desc     A high stone landing offering a commanding view 
 of the hatchery basin.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    40116
 Desc      Hatchery basin.~
@@ -2638,7 +2638,7 @@ Flags    indoors~
 Desc     A side tunnel in the fortune hall filled with ancient 
 Lordaeron gold coins and dust.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40120
 Desc      Fortune entry.~
@@ -2654,7 +2654,7 @@ Flags    indoors~
 Desc     The entrance to the arena for the combatants. 
 The air smells of blood and sweat.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40121
 Desc      Arena field.~
@@ -2670,7 +2670,7 @@ Flags    indoors~
 Desc     The entrance to the arena for the beasts. 
 Large iron bars block the way.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40121
 Desc      Arena field.~
@@ -2685,7 +2685,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small room where the beast's handlers prepare for their shifts.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40131
 Desc      Beast's lair.~
@@ -2700,7 +2700,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage area filled with raw meat and bone-piles.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40131
 Desc      Beast's lair.~
@@ -2716,7 +2716,7 @@ Flags    indoors~
 Desc     A high stone landing in the command hall, 
 offering a view of the southern bridge.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40141
 Desc      General's throne.~
@@ -2732,7 +2732,7 @@ Flags    indoors~
 Desc     A quiet section of the peak filled with 
 Dreamfoil and the sound of distant drums.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40141
 Desc      General's throne.~
@@ -2747,12 +2747,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A confusing series of small stone rooms near the entrance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40183
 Desc      Labyrinth North.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    40101
 Desc      Hall entrance.~
@@ -2767,7 +2767,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The deepest part of the entrance labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40182
 Desc      Labyrinth South.~
@@ -2782,12 +2782,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A series of hot, smoldering tunnels near the binding hall.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40185
 Desc      Labyrinth North.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    40103
 Desc      Binding entry.~
@@ -2802,7 +2802,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the smoldering labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40184
 Desc      Labyrinth South.~
@@ -2817,12 +2817,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A Confusion of small, webbed tunnels near the basin.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40187
 Desc      Labyrinth North.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    40116
 Desc      Basin.~
@@ -2837,7 +2837,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the webbed labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40186
 Desc      Labyrinth South.~
@@ -2852,12 +2852,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the arena.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40189
 Desc      Labyrinth North.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    40120
 Desc      Fortune entry.~
@@ -2872,7 +2872,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the fortune labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40188
 Desc      Labyrinth South.~
@@ -2887,12 +2887,12 @@ Sector   inside~
 Flags    indoors~
 Desc     High stone rooms near the General's throne.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40191
 Desc      Labyrinth North.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    40141
 Desc      General's throne.~
@@ -2907,7 +2907,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40190
 Desc      Labyrinth South.~
@@ -2922,7 +2922,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for iron-guard shields and halberds.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40101
 Desc      Hall entrance.~
@@ -2937,7 +2937,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the legionnaires can rest between shifts.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40101
 Desc      Hall entrance.~
@@ -2952,7 +2952,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for dragon-scales and bone-poles.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40116
 Desc      Basin.~
@@ -2967,7 +2967,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the watchers can study their magical focus.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40116
 Desc      Basin.~
@@ -2982,7 +2982,7 @@ Sector   city~
 Flags    indoors~
 Desc     A small room where the arena combatants can prepare.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    40121
 Desc      Arena field.~
@@ -2997,7 +2997,7 @@ Sector   city~
 Flags    indoors~
 Desc     A small room where the arena spectators can purchase meat and ale.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    40121
 Desc      Arena field.~
@@ -3012,7 +3012,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for General Drakkisath's capes and signets.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    40141
 Desc      General's throne.~
@@ -3027,7 +3027,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the chromatic reavers can rest.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    40141
 Desc      General's throne.~

@@ -1430,12 +1430,12 @@ island's inner keep. A shimmering, dark blue portal glows within
 the archway, leading into the Academy of Necromancy. The air 
 is absolute still, and the sky is a permanent, bruised purple.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    38080
 Desc      Return to the ruins of Caer Darrow.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21601
 Desc      The Entry Hall.~
@@ -1452,12 +1452,12 @@ statues of the Barov ancestors line the walls, and the floor
 is covered in a thick layer of dust. Spectral chamberlains 
 hurry through the shadows, ignoring your presence.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21600
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21602
 Desc      The Grand Crossroads.~
@@ -1475,22 +1475,22 @@ the Reliquary, while to the west, a wide ramp leads down
 into the Great Ossuary. To the north, the sounds of shouting 
 and clanking armor suggest the military quarters.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21601
 Desc      The entry hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21603
 Desc      Toward the Reliquary.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21615
 Desc      Toward the Great Ossuary.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21630
 Desc      Toward the Dungeons.~
@@ -1507,12 +1507,12 @@ Desc     A long, narrow hallway filled with glass display cases. Inside
 are the shriveled remains of saints and kings, now used as 
 arcane batteries for the academy's research.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21602
 Desc      The crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21604
 Desc      Deep into the Reliquary.~
@@ -1529,17 +1529,17 @@ Desc     A wide intersection where several wings of the Reliquary meet.
 High-level specters strike from the rafters, their wails 
 echoing through the stone like a physical blow.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21603
 Desc      The reliquary entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21605
 Desc      The Herald's Balcony.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    21606
 Desc      Toward the Blood-Pit.~
@@ -1556,7 +1556,7 @@ Desc     A high stone balcony overlooking the lake. A large stone
 altar is used to summon Kirtonos the Herald. The air 
 smells of fresh blood and ozone.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21604
 Desc      The central hall.~
@@ -1574,12 +1574,12 @@ Desc     The walls here are stained with a permanent layer of dried
 gore. The sound of wet squelching comes from the cavern 
 ahead, along with the giggles of Doctor Krastinov.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21604
 Desc      The central hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    21607
 Desc      Krastinov's Lab.~
@@ -1597,7 +1597,7 @@ piles, and several large tables are covered in jagged surgical
 tools. Doctor Krastinov stands here, his hands dripping 
 with blood as he prepares a new subject.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21606
 Desc      The pit entrance.~
@@ -1615,7 +1615,7 @@ Flags    indoors~
 Desc     A small side chamber filled with jars of ectoplasmic residue 
 and shriveled fingers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21603
 Desc      Reliquary entry.~
@@ -1631,7 +1631,7 @@ Flags    indoors~
 Desc     A high stone landing near the Herald's balcony, frequently 
 patrolled by spectral tutors.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21604
 Desc      Reliquary central.~
@@ -1647,7 +1647,7 @@ Flags    indoors~
 Desc     A dark room near Krastinov's lab where the reanimated 
 corpses are stored before being processed.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21607
 Desc      Krastinov's lab.~
@@ -1664,12 +1664,12 @@ Desc     A wide stone ramp descending into a massive subterranean
 chamber. The air is cold and smells of ancient bone-dust. 
 Piles of bleached skulls line the path.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21602
 Desc      The crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21616
 Desc      The Bone-Pit Floor.~
@@ -1687,17 +1687,17 @@ of assorted humanoid bones. Rattlegore stands in the center,
 his massive frame towering over the heaps of bleached 
 remains.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21615
 Desc      The entrance ramp.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21617
 Desc      Toward the Crypt of the Barovs.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21622
 Desc      Toward the Alchemy Lab.~
@@ -1716,12 +1716,12 @@ Desc     The walls here are decorated with the family crest of the
 Barovs. Stone sarcophagi are built into the mountain 
 side, their lids long ago pried open by the Scourge.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21616
 Desc      The bone-pit floor.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21618
 Desc      Deep into the Crypt.~
@@ -1738,7 +1738,7 @@ Desc     The highest-ranking members of the family are interred here.
 Lord Alexei Barov stands in silent vigil, his spectral 
 armor reflecting the cold light of the room.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21617
 Desc      The crypt entry.~
@@ -1756,7 +1756,7 @@ Flags    indoors dark~
 Desc     A small, isolated crypt used for the family's distant 
 relatives. It is now infested with crypt stalkers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21617
 Desc      The crypt entry.~
@@ -1772,7 +1772,7 @@ Flags    indoors~
 Desc     A quiet section of the bone-pit where the marrow 
 has been extracted for magical fuel.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21616
 Desc      The bone-pit floor.~
@@ -1788,7 +1788,7 @@ Flags    indoors~
 Desc     A high stone landing near the ossuary ceiling, 
 home to several large plaguehounds.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    21616
 Desc      The bone-pit floor.~
@@ -1805,12 +1805,12 @@ Desc     A hallway lined with cold iron pillars. The air becomes
 noticeably more chemical and bitter as you approach 
 the alchemy district.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21616
 Desc      The bone-pit.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21623
 Desc      The Alchemy Lab Entry.~
@@ -1827,12 +1827,12 @@ Desc     A large room filled with workbenches, beakers, and bubbling
 cauldrons. Lab assistants move mindlessly, following the 
 orders of the master lich.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21622
 Desc      The road to the lab.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21624
 Desc      Ras Frostwhisper's Lab.~
@@ -1850,7 +1850,7 @@ blue frost. Ras Frostwhisper floats in the center,
 his power keeping the reagents from spoiling. Arcane 
 energies pulse from his staff, shaking the floor.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21623
 Desc      The lab entrance.~
@@ -1868,7 +1868,7 @@ Flags    indoors~
 Desc     A side storage room filled with crates of plaguebloom 
 and bottles of frozen ichor.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21623
 Desc      The lab entrance.~
@@ -1886,12 +1886,12 @@ mountain. The walls are damp and the air reeks of
 Hopelessness and old rot. The sound of chains 
 clanking is constant.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21602
 Desc      The crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21631
 Desc      The Central Detention Hall.~
@@ -1908,17 +1908,17 @@ Desc     A wide intersection where several dungeon wings meet.
 The Ravenian can be seen feasting on a pile of 
 refuse in the center of the hall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21630
 Desc      The entrance stairs.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21632
 Desc      Toward the Summoning Rooms.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21636
 Desc      Toward the Study.~
@@ -1936,12 +1936,12 @@ Desc     A series of high-domed rooms where the academy teaches
 the art of spirit-manifestation. The air here is thin 
 and hums with a permanent spectral pitch.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21631
 Desc      The detention hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21633
 Desc      Jandice Barov's Hall.~
@@ -1959,7 +1959,7 @@ Barov stands in the center, her image reflected hundreds
 of times in the glass. It is impossible to tell which 
 one is the true mistress.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21632
 Desc      The entry hall.~
@@ -1975,7 +1975,7 @@ Flags    indoors~
 Desc     A small side cell where the most rebellious students 
 are kept before their final "exam."
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21631
 Desc      Detention hall.~
@@ -1990,7 +1990,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner of the hall home to several diseased ghouls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21631
 Desc      Detention hall.~
@@ -2007,12 +2007,12 @@ Desc     A wide road of massive stone pavers leading toward the
 Headmaster's private sanctum. Elite guardians stand in 
 silent vigil.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21631
 Desc      Detention hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21637
 Desc      The Study Gate.~
@@ -2029,12 +2029,12 @@ Desc     A heavy iron door reinforced with ancient magic. Beyond
 lies the personal domain of Darkmaster Gandling. The 
 air here tastes of shadow-smoke and old paper.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21636
 Desc      The road to the study.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21640
 Desc      The Study Plaza.~
@@ -2052,22 +2052,22 @@ six smaller rooms lead off, each housing one of
 Gandling's top instructors. A grand staircase leads 
 up to the Darkmaster's throne.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21637
 Desc      The entry gate.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21641
 Desc      Gandling's Throne.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21642
 Desc      Toward Malicia and Polkelt.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21644
 Desc      Toward the Barov Family Rooms.~
@@ -2085,12 +2085,12 @@ upon a throne of bone and shadow, his eyes glowing with
 unholy power. He oversees the final corruption of 
 Lordaeron from this very seat.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21640
 Desc      The plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21680
 Desc      The exit path.~
@@ -2108,12 +2108,12 @@ Flags    indoors~
 Desc     A tiered classroom filled with desks and beakers. Instructor 
 Malicia stands at the front, her hands glowing green.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21640
 Desc      The plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21643
 Desc      Lorekeeper Polkelt's Office.~
@@ -2131,7 +2131,7 @@ Desc     A room overflowing with books, scrolls, and ancient
 tomes. Polkelt sits at a large oak desk, muttering to 
 himself as he records his findings.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21642
 Desc      Malicia's hall.~
@@ -2150,12 +2150,12 @@ Desc     Once a place of comfort, now a room of absolute grief.
 Lady Illucia Barov sits in a tattered chair, her face 
 buried in her hands.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21640
 Desc      The plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21645
 Desc      Lord Alexei's Private Study.~
@@ -2173,7 +2173,7 @@ tapestries of Lordaeron's former glory. Lord Alexei
 stands before a map of the Plaguelands, weeping 
 silently.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21644
 Desc      The sitting room.~
@@ -2189,7 +2189,7 @@ Flags    indoors~
 Desc     A high stone balcony in the study plaza, offering a view of 
 the eastern city streets.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21640
 Desc      The plaza.~
@@ -2205,7 +2205,7 @@ Flags    indoors~
 Desc     A side room filled with Headmaster's Charge-staves and 
 ancient Lordaeron coins.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21640
 Desc      The plaza.~
@@ -2222,12 +2222,12 @@ Desc     A massive stone hall filled with the scent of old paper
 and magic. Cursed books float through the air, 
 striking at anyone who dares interrupt their studies.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21651
 Desc      The main library stacks.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21602
 Desc      The crossroads.~
@@ -2244,12 +2244,12 @@ Desc     Row upon row of books reaching toward the high ceiling.
 Spectral apprentices can be seen searching for 
 specific scrolls for their mentors.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21650
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21652
 Desc      The forbidden archive.~
@@ -2266,7 +2266,7 @@ Desc     The deepest part of the library, where the most dangerous
 texts are kept. The air is cold and the shadows 
 seem to move with a life of their own.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21651
 Desc      The central stacks.~
@@ -2282,7 +2282,7 @@ Flags    indoors~
 Desc     A small side room used for the repair of damaged books 
 and the storage of ink.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21651
 Desc      The central stacks.~
@@ -2298,12 +2298,12 @@ Flags    indoors~
 Desc     A large room filled with bottles, beakers, and raw 
 elemental essence.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21655
 Desc      The Storage Center.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    21623
 Desc      The lab entrance.~
@@ -2320,7 +2320,7 @@ Desc     The heart of the academy's alchemical supplies. Lab
 assistants move about, gathering ingredients for 
 Ras Frostwhisper's experiments.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21654
 Desc      The southern storage.~
@@ -2336,7 +2336,7 @@ Flags    indoors~
 Desc     A small side room filled with jars of spectral dust 
 and vials of necrotic essence.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21655
 Desc      The storage center.~
@@ -2353,12 +2353,12 @@ Desc     A dark hallway filled with the screams of those who
 have failed the Headmaster. Flickering shades 
 move through the shadows.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21661
 Desc      The Central Chambers.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    21631
 Desc      The detention hall.~
@@ -2375,12 +2375,12 @@ Desc     The center of the dungeon. Various horrific devices
 are being used on students and intruders alike. 
 Dark summoners oversee the work.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21660
 Desc      The southern chambers.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21665
 Desc      Toward the Ghouls' Den.~
@@ -2396,7 +2396,7 @@ Flags    indoors~
 Desc     A side room filled with bloody cleavers and 
 mummified troll skulls.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21661
 Desc      The central chambers.~
@@ -2413,12 +2413,12 @@ Desc     A large, dark cavern that serves as the primary nest for
 the academy's ghouls. The floor is covered in 
 filth and gnawed bones.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21661
 Desc      The torture chambers.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    21664
 Desc      The Heart of the Den.~
@@ -2435,7 +2435,7 @@ Desc     The deepest part of the ghoul nest. A massive rotting
 monstrosity stands here, surrounded by dozens 
 of smaller, cackling ghouls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21663
 Desc      The den entrance.~
@@ -2451,7 +2451,7 @@ Flags    indoors~
 Desc     A rocky ledge overlooking the detention hall, 
 frequently patrolled by acolyte of shadow.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    21631
 Desc      Detention hall.~
@@ -2467,7 +2467,7 @@ Flags    indoors~
 Desc     A high stone landing near the Herald's balcony, 
 offering a view of the southern entrance hall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21604
 Desc      Reliquary central.~
@@ -2484,7 +2484,7 @@ Desc     A large room filled with comfortable chairs and small
 tables. From here, visitors can watch the lessons 
 in the study plaza below.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21640
 Desc      The study plaza.~
@@ -2501,7 +2501,7 @@ Desc     The center of the viewing room. A high-ranking
 Highborne noblewoman can be seen here, her 
 face a mask of silent sorrow.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21667
 Desc      The room entrance.~
@@ -2517,7 +2517,7 @@ Flags    indoors~
 Desc     A small side room used for the storage of 
 fine wines and silken tapestries.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21667
 Desc      The viewing room.~
@@ -2533,7 +2533,7 @@ Flags    indoors dark~
 Desc     A massive, dark cavern deep beneath the bone-pit. 
 Crypt fiends move through the shadows here.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    21616
 Desc      The bone-pit.~
@@ -2549,7 +2549,7 @@ Flags    indoors~
 Desc     A dark room near the entry hall where the spectral 
 cooks prepare the academy's meager meals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21601
 Desc      The entry hall.~
@@ -2565,7 +2565,7 @@ Flags    indoors~
 Desc     A storage room for soul shards and vials of shadow-residue 
 near Gandling's throne.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21641
 Desc      Gandling's throne.~
@@ -2581,7 +2581,7 @@ Flags    indoors~
 Desc     A quiet ridge north of the throne, where royal guards 
 keep watch over the inner academy.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21641
 Desc      Gandling's throne.~
@@ -2597,7 +2597,7 @@ Flags    indoors~
 Desc     A side tunnel in the ossuary filled with ancient 
 Lordaeron gold coins and dust.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    21616
 Desc      The bone-pit.~
@@ -2613,7 +2613,7 @@ Flags    indoors~
 Desc     A narrow maintenance tunnel that leads from the lab 
 straight into the side of the mountain.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    21623
 Desc      The lab entrance.~
@@ -2629,7 +2629,7 @@ Flags    indoors~
 Desc     A small side chamber where the Headmaster's most 
 loyal acolytes prepare for their next ritual.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21640
 Desc      The study plaza.~
@@ -2645,7 +2645,7 @@ Flags    indoors~
 Desc     A high point in the Reliquary, home to several 
 unstable ectoplasms.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    21604
 Desc      Reliquary central.~
@@ -2661,7 +2661,7 @@ Flags    indoors~
 Desc     A quiet room near the library where students can 
 study the most basic necromantic texts.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21650
 Desc      Library entrance.~
@@ -2677,7 +2677,7 @@ Flags    indoors~
 Desc     A quiet, central garden of ghost mushrooms and 
 plaguebloom in the middle of the academy.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    21602
 Desc      The grand crossroads.~
@@ -2695,12 +2695,12 @@ leads toward a hidden opening in the cliffs of Caer
 Darrow, offering a quick way out for those who have 
 defeated the Darkmaster.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    21641
 Desc      Gandling's throne.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    21600
 Desc      The entrance gates.~

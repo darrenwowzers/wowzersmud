@@ -947,12 +947,12 @@ carved in the image of massive, winged serpents. To the
 north, a grand staircase winds upward into the main body of 
 the temple.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    36090
 Desc      Return to the surface of the swamp.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19553
 Desc      The spiral staircase.~
@@ -968,12 +968,12 @@ Desc     A massive stone ramp winds around a central vertical shaft.
 The air is stagnant and smells of old incense. Skeletal trolls 
 in rusted armor stand in alcoves along the walls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19552
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    19554
 Desc      The spiral continues.~
@@ -991,17 +991,17 @@ Desc     Halfway up the main shaft. The walls are covered in intricate
 bas-reliefs depicting the rise of the Blood God, Hakkar. 
 A narrow doorway to the east leads toward the balcony levels.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    19553
 Desc      Lower spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    19555
 Desc      Upper spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    19561
 Desc      The lower balconies.~
@@ -1019,17 +1019,17 @@ thick with the scent of green dragon scales and magical
 exhaust. To the north, a set of heavy doors leads into 
 the inner sanctum of the Shade.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    19554
 Desc      Middle spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19581
 Desc      The Hall of the Shade.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    19576
 Desc      Toward Jammal'an's Sanctum.~
@@ -1046,12 +1046,12 @@ Desc     A massive, circular chamber deep in the temple's basement.
 Six large stone statues surround a central altar. The 
 water here is waist-deep and filled with primordial ooze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19553
 Desc      Return to the staircase.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19557
 Desc      Toward the deep basement.~
@@ -1068,12 +1068,12 @@ Desc     A dark, damp tunnel leading away from the statue room.
 The sound of slithering scales echoes off the walls, and 
 the air is humid and difficult to breathe.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19556
 Desc      The statue room.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19558
 Desc      The snake pits.~
@@ -1090,12 +1090,12 @@ Desc     This room is filled with hundreds of small, interlocking
 cages. Vile snakes move between them, hiss at anyone who 
 approaches.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19557
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    19559
 Desc      Toward the behemoth's lair.~
@@ -1114,7 +1114,7 @@ allowed to grow in this corner of the basement. A
 gargantuan plant elemental stands guard over the 
 debris.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19558
 Desc      The snake pits.~
@@ -1131,7 +1131,7 @@ Desc     A series of low-ceilinged rooms filled with sarcophagi.
 Unyielding dead stand in silent vigil over their 
 fallen kin.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19556
 Desc      Return to the pit.~
@@ -1148,12 +1148,12 @@ Desc     A wide balcony overlooking the temple entrance. From here,
 you can see the spiral staircase winding down into the 
 dark. Atal'ai priests maintain a constant patrol here.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19554
 Desc      The grand spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    19562
 Desc      The eastern balcony.~
@@ -1170,12 +1170,12 @@ Desc     The balcony turns to follow the curve of the temple wall.
 Large braziers of blue fire burn every ten feet, and 
 the walls are decorated with colorful troll feathers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19561
 Desc      The western balcony.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19563
 Desc      The approach to the Dragon Wing.~
@@ -1193,12 +1193,12 @@ Desc     The architecture here changes from troll-stone to a more
 organic, scale-covered appearance. This is the 
 gateway to the territory of the green dragonflight.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19562
 Desc      The lower balconies.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19569
 Desc      The Dragon Wing corridor.~
@@ -1215,12 +1215,12 @@ Desc     Directly above the lower levels. The air here is thinner and
 smells of high-altitude incense. Vile-tongue scouts 
 hide among the decorative pillars.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19555
 Desc      The grand spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    19565
 Desc      The eastern upper balcony.~
@@ -1237,7 +1237,7 @@ Desc     The balcony provides a perfect view of the entire temple
 floor. High-ranking Atal'ai priests can be seen 
 moving toward the Prophet's sanctum to the west.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19564
 Desc      The western balcony.~
@@ -1254,7 +1254,7 @@ Flags    indoors~
 Desc     A quiet section of the lower balcony filled with 
 small stone statues and the sound of dripping water.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19561
 Desc      The western balcony.~
@@ -1270,7 +1270,7 @@ Flags    indoors~
 Desc     A small side chamber used by the priests to 
 store their ritual supplies and feathers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19562
 Desc      The eastern balcony.~
@@ -1286,7 +1286,7 @@ Flags    indoors~
 Desc     A high stone landing near the upper levels, 
 frequently patrolled by Atal'ai deathcasters.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19564
 Desc      The upper western balcony.~
@@ -1303,12 +1303,12 @@ Desc     A long, wide hallway lined with emerald dragonscales.
 The air hums with the power of the Emerald Dream, 
 twisted and turned into a nightmare.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19563
 Desc      The hall entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19570
 Desc      The Central Roost.~
@@ -1326,16 +1326,16 @@ away. Each tunnel leads to the lair of one of the
 great dragon guardians. Nightmare whelps play 
 in the warm updrafts rising from the floor.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19569
 Desc      The corridor.~
-Exit
+#EXIT
 Direction north~
 ToRoom    19571
 Desc      Toward Hazzas and Morphaz.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    19573
 Desc      Toward Dreamscythe and Weaver.~
@@ -1352,12 +1352,12 @@ Desc     A high, stone ledge overlooking the temple basement. Hazzas
 stands here, his green scales matted with swamp mud 
 and blood.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19570
 Desc      The central roost.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    19572
 Desc      The Lair of Morphaz.~
@@ -1375,7 +1375,7 @@ Desc     A wide balcony filled with dozens of dragon egg sacs.
 Morphaz stands guard over his future brood, his eyes 
 burning with Nightmare fever.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19571
 Desc      Hazzas's lair.~
@@ -1393,12 +1393,12 @@ Desc     A rocky shelf at the highest point of the wing. Dreamscythe
 rests here, his massive wings draped over the side of 
 the ledge.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19570
 Desc      The central roost.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19574
 Desc      The Lair of Weaver.~
@@ -1416,7 +1416,7 @@ Desc     A small, magically-warded chamber. Weaver stands before
 a shimmering orb of green energy, focusing the 
 Nightmare's power into the temple below.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19573
 Desc      Dreamscythe's lair.~
@@ -1433,7 +1433,7 @@ Flags    indoors~
 Desc     A narrow tunnel lined with emerald crystals, where 
 Nightmare whelps often hide.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19570
 Desc      The central roost.~
@@ -1450,12 +1450,12 @@ Desc     The air here is thick with the scent of blood and dark
 voodoo. Ceremonial drums thrum through the floor, 
 a rhythmic, pounding beat that matches the city's heart.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19555
 Desc      The grand spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    19577
 Desc      The inner sanctum approach.~
@@ -1472,12 +1472,12 @@ Desc     The road widens as it approaches the Prophet's throne.
 Elite trolls in ceremonial armor patrol the way, 
 ensuring the ritual sacrifices are not interrupted.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19576
 Desc      The hall entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    19578
 Desc      Jammal'an's Hall of Power.~
@@ -1496,12 +1496,12 @@ Jammal'an the Prophet stands here, his hands
 stained with the blood of his victims. Ogom the 
 Wretched stands at his side, axe ready.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19577
 Desc      The hall central.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    19579
 Desc      The Altar of the Blood God.~
@@ -1522,7 +1522,7 @@ in the temple. A massive slab of basalt sits in the
 center of the room, pulsing with a deep red light. 
 The Avatar of Hakkar can be summoned here.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    19578
 Desc      Return to the sanctum.~
@@ -1539,7 +1539,7 @@ Flags    indoors~
 Desc     A small side chamber where the Prophet's most loyal 
 acolytes prepare for the next ritual.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19577
 Desc      The hall central.~
@@ -1556,12 +1556,12 @@ Desc     The final level of the temple. The architecture is a
 blend of night elven grace and Nightmare corruption. 
 High-level dragonspawn stand in silent vigil.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19555
 Desc      The grand spiral.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19582
 Desc      The inner falls.~
@@ -1579,12 +1579,12 @@ glowing flowers. A gentle waterfall plunges into a
 circular pool in the center. Nightmare wanderers 
 drift through the mist.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19581
 Desc      The hall entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19583
 Desc      The Throne of Eranikus.~
@@ -1602,12 +1602,12 @@ of Eranikus looms over the pool, his multiple heads
 hissing in a chorus of madness. The air is heavy with 
 the scent of the Emerald Dream turned to ash.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19582
 Desc      The inner falls.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    19600
 Desc      The exit path.~
@@ -1624,7 +1624,7 @@ Flags    indoors~
 Desc     A high stone landing overlooking the inner falls, 
 frequently patrolled by Nightmare overseers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19582
 Desc      The inner falls.~
@@ -1640,7 +1640,7 @@ Flags    indoors~
 Desc     A quiet section of the inner sanctum filled with 
 Dreamfoil and the sound of distant wailing.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19582
 Desc      The inner falls.~
@@ -1656,7 +1656,7 @@ Flags    indoors~
 Desc     A small storage area in the basement filled with 
 bottles of venom and bundles of feathers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19556
 Desc      The pit statue room.~
@@ -1672,7 +1672,7 @@ Flags    indoors~
 Desc     A quiet ridge in the snake pits, where Atal'ai 
 scouts keep watch over the lower levels.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19558
 Desc      The snake pits.~
@@ -1688,7 +1688,7 @@ Flags    indoors~
 Desc     A side tunnel in the main temple filled with 
 discarded masonry and bits of dragonscale.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19553
 Desc      The lower spiral.~
@@ -1704,7 +1704,7 @@ Flags    indoors~
 Desc     A small, damp chamber where the ghouls are 
 allowed to feast on the remains of the sacrifices.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19553
 Desc      The lower spiral.~
@@ -1720,7 +1720,7 @@ Flags    indoors~
 Desc     A rocky ledge overlooking the statue pit, 
 frequently patrolled by skeletal berserkers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19556
 Desc      The statue pit.~
@@ -1736,7 +1736,7 @@ Flags    indoors~
 Desc     A small hollow near the Prophet's sanctum, 
 where several eyes of Hakkar keep watch.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19577
 Desc      The prophecy hall.~
@@ -1752,7 +1752,7 @@ Flags    indoors~
 Desc     A high stone balcony in the dragon wing, 
 offering a view of the southern swamp through a hole in the wall.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19570
 Desc      The central roost.~
@@ -1768,7 +1768,7 @@ Flags    indoors~
 Desc     A small, well-tended garden of ghost mushrooms 
 near Weaver's lair.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19574
 Desc      Weaver's lair.~
@@ -1785,7 +1785,7 @@ Desc     A high stone ridge overlooking the inner temple. Jammal'an
 stands here when he is not conducting rituals, watching 
 the stars for signs of his god.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    19578
 Desc      Jammal'an's sanctum.~
@@ -1801,7 +1801,7 @@ Flags    indoors~
 Desc     A long, dark tunnel where the cries of the miserable 
 souls are constant.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19554
 Desc      The middle spiral.~
@@ -1817,7 +1817,7 @@ Flags    indoors~
 Desc     A side tunnel in the statue room, filled with 
 ancient stone tablets and dust.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19556
 Desc      The pit room.~
@@ -1833,7 +1833,7 @@ Flags    indoors~
 Desc     A narrow ledge where several gas-filled oozes have 
 formed from the stagnant air.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19556
 Desc      The pit room.~
@@ -1849,12 +1849,12 @@ Flags    indoors~
 Desc     A small staircase winding through the wall between 
 the lower balconies and the Prophet's level.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    19564
 Desc      Upper balcony.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    19561
 Desc      Lower balcony.~
@@ -1869,7 +1869,7 @@ Flags    indoors dark~
 Desc     A secret room behind a statue in the Prophet's hall. 
 It contains the most forbidden texts of the Atal'ai.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    19577
 Desc      The prophecy hall.~
@@ -1887,12 +1887,12 @@ leads toward a hidden opening in the lake floor,
 offering a quick way out for those who have defeated 
 the Nightmare corruption.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19583
 Desc      The Shade's throne.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    19552
 Desc      The entrance portal.~
@@ -1907,7 +1907,7 @@ Flags    indoors~
 Desc     A quiet, respectful room near the temple entrance, 
 dedicated to the green dragons who died in the war.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    19552
 Desc      The entrance.~
@@ -1923,7 +1923,7 @@ Flags    indoors dark~
 Desc     The deepest point of the sarcophagus rooms. The air 
 is absolute still and freezing cold.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    19560
 Desc      The crypts.~
@@ -1939,7 +1939,7 @@ Flags    indoors~
 Desc     A small, high ledge in the dragon wing that has been 
 left untouched by the Nightmare.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    19570
 Desc      The central roost.~

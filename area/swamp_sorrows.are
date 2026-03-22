@@ -904,12 +904,12 @@ heavy with the scent of stagnant water and blooming night-plants.
 A narrow, mud-choked path leads east into the depths of the 
 Sorrowmurk.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13500
 Desc      Return to the Deadwind Pass.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36051
 Desc      The path leads into the swamp.~
@@ -927,17 +927,17 @@ roots twisting like snakes through the shallow water. Massive
 insects drone in the air, and the ground is soft and spongy 
 underfoot.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36050
 Desc      The western entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36052
 Desc      The path continues east.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36056
 Desc      A path leads toward a small camp.~
@@ -955,17 +955,17 @@ than a few yards away. The only landmarks are the giant
 mushrooms and the occasional bleached rib-cage of some 
 forgotten beast.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36051
 Desc      Western Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36053
 Desc      Toward the village of Stonard.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    36065
 Desc      The path to The Harborage.~
@@ -982,12 +982,12 @@ Desc     The ground begins to rise slightly as the swamp gives way to
 a more solid stone path. To the east, the spiked wooden walls 
 of a Horde outpost are visible through the fog.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36052
 Desc      Central Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36057
 Desc      Entrance to Stonard.~
@@ -1004,7 +1004,7 @@ Desc     A treacherous expanse of deep, bubbling mud. Fallen trees
 provide a series of unstable bridges across the mire, but one 
 wrong step could lead to a slow, suffocating death.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36051
 Desc      Return to the path.~
@@ -1022,7 +1022,7 @@ Desc     A dry, rocky shelf tucked beneath a massive weeping willow.
 Several jaguars rest here, their spotted fur blending perfectly 
 with the dappled shadows.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    36051
 Desc      Return to the path.~
@@ -1040,12 +1040,12 @@ Desc     A collection of crude leather tents and smoldering campfires.
 Corrupted draenei move with hunched, wary movements, watching 
 the path for intruders.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36051
 Desc      Return to the Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36061
 Desc      The Lost One village.~
@@ -1062,12 +1062,12 @@ Desc     Massive logs, sharpened to points, form the defensive walls of
 Stonard. Orc grunts stand firm at the gate, their axes 
 gleaming in the soft swamp light.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36053
 Desc      Return to the swamp.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36058
 Desc      Stonard Town Square.~
@@ -1084,17 +1084,17 @@ Desc     The heart of the Horde's southern outpost. A large bonfire
 burns in the center of the square, and several sturdy 
 stone buildings provide shelter and supplies.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36057
 Desc      The west gate.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    36059
 Desc      The Stonard Inn.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36060
 Desc      The Mage's Sanctum.~
@@ -1111,7 +1111,7 @@ Desc     A warm, smoky inn that provides a welcome respite from the
 damp swamp air. The walls are decorated with trophies 
 taken from the local basilisks and crocolisks.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36058
 Desc      The square.~
@@ -1126,7 +1126,7 @@ Flags    indoors~
 Desc     A tower of grey stone filled with arcane scrolls and bubbling 
 cauldrons. A portal to Orgrimmar flickers against the back wall.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36058
 Desc      The square.~
@@ -1143,12 +1143,12 @@ Flags    ~
 Desc     The center of the corrupted draenei settlement. A large pile 
 of bones and swamp-relics serves as a primitive shrine.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36056
 Desc      The camp entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36062
 Desc      The Seer's Tent.~
@@ -1165,7 +1165,7 @@ Desc     A cramped, foul-smelling tent filled with dried herbs and
 shrunken heads. A Lost One Seer kneels here, muttering 
 prophecies of doom.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36061
 Desc      The village center.~
@@ -1183,12 +1183,12 @@ Desc     The swamp water meets the Veiled Sea here. A long, sandy
 beach stretches south, littered with driftwood and the 
 shells of giant crustaceans.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36053
 Desc      Return to the Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36064
 Desc      The southern strand.~
@@ -1205,7 +1205,7 @@ Desc     Naga have established a presence on this section of the coast.
 A series of small, coral-encrusted huts have been built 
 along the shoreline.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36063
 Desc      The northern strand.~
@@ -1223,12 +1223,12 @@ Desc     A narrow, hidden trail that leads north through a thicket
 of giant ferns. The air is slightly clearer here, and the 
 sound of the deep swamp is muffled.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36052
 Desc      The Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    36066
 Desc      The Harborage entrance.~
@@ -1245,12 +1245,12 @@ Desc     A small, neutral outpost of Broken and Lost Ones who have
 not yet succumbed to madness. They offer a safe haven for 
 travelers of all factions.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36065
 Desc      The trail.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    36067
 Desc      The central clearing.~
@@ -1267,7 +1267,7 @@ Desc     A peaceful clearing where several Broken work at various
 crafting stations. A small, clean spring provides fresh 
 water for the outpost.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36066
 Desc      The entrance.~
@@ -1284,12 +1284,12 @@ Desc     A quiet section of the swamp that seems untouched by the
 corruption of the Atal'ai. The trees are healthier here, and 
 the light of the moon filters through the canopy.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36052
 Desc      The Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36069
 Desc      Itharius's Cave entrance.~
@@ -1306,12 +1306,12 @@ Desc     A large cavern mouth hidden behind a waterfall of murky swamp
 water. High-level green dragonspawn stand guard, their 
 halberds crossed to block the way.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36068
 Desc      The sanctuary.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36070
 Desc      Itharius's Cave.~
@@ -1328,7 +1328,7 @@ Desc     The interior of the cave is surprisingly dry and warm. The
 green dragon Itharius rests here in his humanoid form, 
 watching the Sunken Temple through a magical pool.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36069
 Desc      The cave entrance.~
@@ -1345,12 +1345,12 @@ Desc     A winding mountain road leading south toward the Blasted Lands.
 The green swamp mud is slowly replaced by a dark, reddish 
 clay.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36053
 Desc      The Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36072
 Desc      The pass continues.~
@@ -1367,12 +1367,12 @@ Desc     The path turns sharply between two massive stone cliffs. From
 here, you can feel a strange, pulsating energy coming from 
 the south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36071
 Desc      The northern pass.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    44000
 Desc      Enter the Blasted Lands.~
@@ -1389,12 +1389,12 @@ Desc     A cluster of dark, spiked tents built in the shadow of a large
 hill. Dragonmaw raiders sharpen their weapons and prepare 
 their nets for the next hunt.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36071
 Desc      Return to the pass.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    36074
 Desc      The inner encampment.~
@@ -1411,7 +1411,7 @@ Desc     The center of the renegade orc camp. Captured dreaming whelps
 shackle to heavy iron posts, their cries muffled by the 
 constant chanting of the shamans.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36073
 Desc      The entrance.~
@@ -1429,7 +1429,7 @@ Desc     A particularly gloomy section of the swamp where the mist
 glows with a faint, ghostly light. The wails of fallen 
 heroes echo through the gnarled trees.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36051
 Desc      The Sorrowmurk.~
@@ -1446,7 +1446,7 @@ Desc     A naga encampment built on a small island just off the coast.
 Trident-wielding warriors patrol the shoreline, watching 
 for any sign of Stonard scouts.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36064
 Desc      The southern strand.~
@@ -1462,7 +1462,7 @@ Flags    ~
 Desc     A shallow depression in the swamp floor filled with dozens of 
 mud snappers sunning themselves on the rocks.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    36052
 Desc      The Sorrowmurk.~
@@ -1479,7 +1479,7 @@ Flags    ~
 Desc     A quiet corner of the swamp filled with thick blindweed 
 and the occasional swamp ooze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36051
 Desc      The Sorrowmurk.~
@@ -1495,7 +1495,7 @@ Flags    ~
 Desc     A gnarled grove of trees where several giant mosquitoes 
 have built their nests.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36053
 Desc      The Sorrowmurk.~
@@ -1511,7 +1511,7 @@ Flags    ~
 Desc     A small, dry island in the middle of a deep bog, used by 
 Lost One hunters as a temporary camp.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36056
 Desc      The Lost One camp.~
@@ -1527,7 +1527,7 @@ Flags    ~
 Desc     A rocky ledge near the eastern coast, offering a good 
 view of the naga outposts.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36063
 Desc      The northern strand.~
@@ -1543,7 +1543,7 @@ Flags    ~
 Desc     A dark, quiet section of the swamp where the trees are 
 particularly old and gnarled.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    36052
 Desc      The Sorrowmurk.~
@@ -1559,7 +1559,7 @@ Flags    ~
 Desc     The sound of distant, ghostly weeping is constant here. 
 Shadowy spirits flicker in and out of existence.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36051
 Desc      The Sorrowmurk.~
@@ -1575,7 +1575,7 @@ Flags    ~
 Desc     The ground is churned and broken here, as if some massive 
 entity recently passed through.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36052
 Desc      The Sorrowmurk.~
@@ -1591,12 +1591,12 @@ Flags    ~
 Desc     The architecture here becomes distinctly more troll-like, 
 with stone ziggurats and braziers of blue fire.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36053
 Desc      The Sorrowmurk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36086
 Desc      The approach to the Pool.~
@@ -1612,12 +1612,12 @@ Flags    ~
 Desc     The trees thin out as you approach a large, perfectly circular 
 lake. The air is heavy with the scent of ancient magic.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36085
 Desc      The Atal'ai outpost.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36090
 Desc      The Pool of Tears.~
@@ -1633,7 +1633,7 @@ Flags    ~
 Desc     A high stone ridge overlooking the western side of the 
 lake. Several dreaming whelps rest on the rocks.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    36090
 Desc      The Pool of Tears.~
@@ -1649,7 +1649,7 @@ Flags    ~
 Desc     A muddy path leading along the eastern side of the lake, 
 frequently patrolled by green dragonspawn.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36090
 Desc      The Pool of Tears.~
@@ -1665,7 +1665,7 @@ Flags    ~
 Desc     The southern bank of the Pool of Tears. The massive dragon 
 Somnus can often be seen resting here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36090
 Desc      The Pool of Tears.~
@@ -1683,7 +1683,7 @@ pokes through the water. This is the Sunken Temple, the
 final sanctuary of the Atal'ai. A shimmering green portal 
 glows beneath the surface of the water.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36086
 Desc      Return to the bank.~
@@ -1698,12 +1698,12 @@ Flags    ~
 Desc     The southern exit from Stonard, leading toward the pass 
 to the Blasted Lands.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36058
 Desc      Stonard Square.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    36071
 Desc      The southern pass.~
@@ -1719,7 +1719,7 @@ Flags    ~
 Desc     A high ledge overlooking the western pass, used by Horde 
 scouts to watch for Alliance movement from Redridge.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    36050
 Desc      The western entrance.~
@@ -1735,7 +1735,7 @@ Flags    ~
 Desc     A collection of small stone buildings that have almost entirely 
 submerged into the swamp.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    36051
 Desc      The Sorrowmurk.~
@@ -1751,7 +1751,7 @@ Flags    ~
 Desc     A small hill in the center of the swamp that stays remarkably 
 clear of the thickest fog.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36052
 Desc      The Sorrowmurk.~
@@ -1767,7 +1767,7 @@ Flags    ~
 Desc     A quiet, dark corner of the eastern swamp, filled with 
 Silt Creepers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    36053
 Desc      The Sorrowmurk.~
@@ -1783,7 +1783,7 @@ Flags    ~
 Desc     A small clearing near the southern pass where several 
 Swamp Rats have gathered.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36071
 Desc      The southern pass.~
@@ -1799,7 +1799,7 @@ Flags    ~
 Desc     A gnarled thicket near the Pool of Tears, frequently 
 patrolled by Green Dragonspawn.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36086
 Desc      The approach to the pool.~
@@ -1815,7 +1815,7 @@ Flags    ~
 Desc     A low, muddy section of the eastern coast where several 
 Malignant Spirits can be heard wailing.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    36064
 Desc      The southern strand.~
@@ -1832,12 +1832,12 @@ Desc     A narrow, hidden trail behind Stonard leads toward the
 western mountains, offering a quick way back toward 
 the Deadwind Pass.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36058
 Desc      Stonard Square.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    36050
 Desc      The western entrance.~

@@ -550,13 +550,13 @@ Desc     You stand at the edge of a massive precipice. A heavy wooden platform,
 suspended by thick hempen ropes and iron chains, serves as the only
 safe way down into the canyon floor far below.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    26550
 Desc      Back to the Southern Barrens.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    28501
 Desc      The canyon floor.
@@ -573,13 +573,13 @@ Desc     The air is noticeably hotter here at the bottom of the needles.
 The orange sandstone walls rise hundreds of feet on either side, 
 casting long, jagged shadows across the dusty trail.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    28500
 Desc      The Great Lift.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28502
 Desc      The winding canyon.
@@ -596,19 +596,19 @@ Desc     The path snakes between towering pillars of rock. To the south, a
 narrower pass seems to lead toward the territory of the quilboar. 
 The sound of wind whistling through the needles is constant.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28501
 Desc      The lift area.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28503
 Desc      Toward Freewind Post.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    28504
 Desc      The Razorfen Path.
@@ -625,13 +625,13 @@ Desc     A series of rope ladders and a smaller mechanical lift lead up the
 side of one of the tallest mesas in the region. This is the 
 heavily defended home of the Thousand Needles Tauren.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28502
 Desc      The canyon.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    28505
 Desc      Freewind Post.
@@ -648,7 +648,7 @@ Desc     The canyon walls here are covered in thick, thorny vines. The
 ground is littered with bones, and the air carries a musky, 
 unpleasant odor.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    28502
 Desc      The winding canyon.
@@ -666,13 +666,13 @@ Desc     Perched high above the canyon floor, this outpost is safe from
 centaur raids. Tents and totems fill the flat top of the mesa. 
 Bridges of rope and wood connect this spire to several others.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    28503
 Desc      The canyon floor.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28506
 Desc      The Flight Master's Terrace.
@@ -690,7 +690,7 @@ Desc     A dizzying ledge where tamed wyverns roost. From here, you can see
 for miles across the needles. To the east, the horizon begins to 
 shimmer with an intense white light.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28505
 Desc      The plaza.
@@ -707,13 +707,13 @@ Desc     The canyon widens here, but the walls are riddled with caves.
 This is the primary nesting ground for the cliff wyverns, and 
 their cries echo off the stones.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28503
 Desc      The base of Freewind.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28508
 Desc      Toward the flats.
@@ -731,13 +731,13 @@ Desc     The path climbs steadily, leaving the shadows of the canyon floor.
 Scrub brush and hardy desert trees cling to the rocks, and the 
 sun beats down with increasing intensity.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28507
 Desc      The wyvern canyon.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28509
 Desc      The Eastern Pass.
@@ -754,13 +754,13 @@ Desc     The needles begin to thin out. Ahead, the claustrophobic canyons
 give way to a vast, open expanse of white. A hot, dry wind 
 blows from the east, carrying the scent of salt.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28508
 Desc      The mesa trail.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28510
 Desc      The Shimmering Flats.
@@ -777,13 +777,13 @@ Desc     The transition is jarring. The ground is no longer red dust, but
 a hard-packed crust of blindingly white salt. The heat creates 
 mirages that dance on the horizon.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28509
 Desc      The canyons.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28511
 Desc      Mirage Raceway.
@@ -800,25 +800,25 @@ Desc     A chaotic camp of gnomes and goblins. Strange mechanical vehicles
 with oversized tires and smoking engines are lined up along a 
 marked track that stretches across the salt.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28510
 Desc      The entrance.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    28512
 Desc      The Gnomish Pits.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    28513
 Desc      The Goblin Pits.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28514
 Desc      The salt flats.
@@ -835,7 +835,7 @@ Desc     A collection of precision tools, blueprints, and clean-burning
 engines. The gnomes here value aerodynamics and safety—relatively 
 speaking.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    28511
 Desc      The raceway.
@@ -853,7 +853,7 @@ Desc     Oil spills, stacks of dynamite, and engines that sound like
 dying dragons. The goblins prioritize raw power and "fun" 
 over anything as mundane as a brake pedal.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    28511
 Desc      The raceway.
@@ -871,13 +871,13 @@ Desc     Far from the noise of the raceway, the flats are eerily quiet.
 The white salt stretches in every direction, broken only by 
 the occasional sun-bleached skeleton of a land thresher.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28511
 Desc      The raceway.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    28515
 Desc      Toward Tanaris.
@@ -894,13 +894,13 @@ Desc     The salt flats begin to transition into the dunes of a true
 desert. The path south leads toward the legendary sands of 
 Tanaris.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    28514
 Desc      The flats.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    25500
 Desc      Into Tanaris.
@@ -918,7 +918,7 @@ Desc     A sprawling camp of leather tents and bone-hewn totems. The
 Galak centaur gathered here are preparing for another raid 
 on the Tauren outposts.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    28502
 Desc      The winding canyon.
@@ -935,7 +935,7 @@ Sector   mountain~
 Desc     A hidden ledge overlooking the main canyon trail. It is the 
 perfect spot for an ambush, and the Grimtotem have used it well.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    28502
 Desc      The canyon.
@@ -952,7 +952,7 @@ Sector   water_swim~
 Desc     A miracle in the dry canyons. A small spring bubbles up into 
 a pool surrounded by lush green ferns and a single date palm.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    28508
 Desc      The mesa trail.
@@ -968,7 +968,7 @@ Sector   field~
 Desc     A narrow crack in the canyon wall where the sun never reaches. 
 It is significantly cooler here, but the air is stagnant.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28507
 Desc      The wyvern canyon.
@@ -986,7 +986,7 @@ Desc     A shallow cave on the edge of the Shimmering Flats. The walls
 glitter with salt crystals, and the floor is covered in fine 
 white powder.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    28510
 Desc      The flats entrance.
@@ -1003,7 +1003,7 @@ Sector   mountain~
 Desc     You have climbed to the top of a lone needle. The wind is fierce 
 here, and the view of the surrounding mesa is unparalleled.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    28508
 Desc      The mesa trail.
@@ -1019,7 +1019,7 @@ Sector   field~
 Desc     A natural depression in the canyon floor where the wind 
 collects the remains of animals that didn't survive the heat.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28504
 Desc      The Razorfen Path.
@@ -1035,7 +1035,7 @@ Sector   field~
 Desc     The remains of a massive racing machine that exploded years 
 ago. The metal is pitted and white from the salt.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    28514
 Desc      The deep flats.
@@ -1051,7 +1051,7 @@ Sector   field~
 Desc     The canyon walls lean together here, forming a natural stone 
 arch that spans the trail.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    28502
 Desc      The winding canyon.
@@ -1066,7 +1066,7 @@ Sector   field~
 Desc     A pile of sun-warmed rocks that serves as a nesting site 
 for the local reptiles.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    28502
 Desc      The winding canyon.
@@ -1084,7 +1084,7 @@ Desc     You are deep in the flats. In every direction, the world is
 white. Without the raceway as a landmark, it is very easy to 
 lose one's way.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    28514
 Desc      The deep flats.
@@ -1100,7 +1100,7 @@ Sector   mountain~
 Desc     A precarious bridge made of vines and wood that sways 
 violently in the mountain gusts.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    28505
 Desc      Freewind plaza.
@@ -1114,7 +1114,7 @@ Name     &OThe Dusty Cul-de-sac&d~
 Sector   field~
 Desc     A dead-end canyon where the dust is ankle-deep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    28501
 Desc      The canyon floor.
@@ -1129,7 +1129,7 @@ Sector   field~
 Desc     The very eastern edge of the flats, where the ground 
 begins to break up into rocky outcroppings again.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    28514
 Desc      The deep flats.

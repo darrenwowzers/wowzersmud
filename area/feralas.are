@@ -945,12 +945,12 @@ golden sunlight reach the forest floor. A wide stone road,
 cracked by ancient roots, leads south into the heart of 
 Feralas.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    35096
 Desc      Return to the southern exit of Desolace.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37051
 Desc      The path leads deeper into the jungle.~
@@ -968,12 +968,12 @@ that have stood for millennia. The air is humid and filled with
 the scent of damp earth and exotic flowers. High above, the 
 calls of colorful birds echo through the leaves.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37050
 Desc      The northern entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37052
 Desc      The walk continues south.~
@@ -991,17 +991,17 @@ series of high, jagged cliffs loom over the valley, while
 to the west, the ground slopes down toward the coast. The 
 sound of rhythmic chanting can be heard from the south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37051
 Desc      The verdant walk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37053
 Desc      Toward the central valley.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    37065
 Desc      The climb to Camp Mojache.~
@@ -1019,17 +1019,17 @@ archways, half-swallowed by the jungle, mark the paths. To
 the south, the massive silhouette of Dire Maul dominates 
 the horizon.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37052
 Desc      Northern Wilderness.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37040
 Desc      The approach to Dire Maul.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    37054
 Desc      The path to the Forgotten Coast.~
@@ -1048,7 +1048,7 @@ decayed, with vines and moss clinging to the white marble.
 A shimmering portal glows within the main archway, leading 
 into the once-great city of the Highborne.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37053
 Desc      Return to the wilderness.~
@@ -1065,12 +1065,12 @@ Desc     The path winds down the cliffs toward the western ocean. The
 jungle thins out, replaced by rocky outcrops and small 
 sandy beaches. The roar of the Veiled Sea becomes constant.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37053
 Desc      The central wilderness.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    37055
 Desc      The shore of the Forgotten Coast.~
@@ -1088,22 +1088,22 @@ shipwrecks are scattered along the tide line. To the west,
 across a short stretch of water, the spires of Feathermoon 
 Stronghold are visible on Sardor Isle.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37054
 Desc      The cliff descent.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    37056
 Desc      The northern strand.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37060
 Desc      The southern strand.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    37085
 Desc      Swim to Sardor Isle.~
@@ -1120,7 +1120,7 @@ Desc     The beach is narrow here, squeezed between the high cliffs
 and the sea. Several large water elementals hover near the 
 surf, guarding the mouth of a nearby spring.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37055
 Desc      The main shoreline.~
@@ -1137,12 +1137,12 @@ Desc     The primary dock for the Alliance on Sardor Isle. Elegant
 night elven boats are tethered to stone piers, and 
 sentinels patrol the ramparts above.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37058
 Desc      Entrance to the stronghold.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    37055
 Desc      Swim back to the mainland.~
@@ -1160,17 +1160,17 @@ moonwell sits in the center of the square, and the
 architecture is a beautiful blend of white stone and living 
 wood.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37057
 Desc      The landing.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    37059
 Desc      The General's Quarters.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37086
 Desc      The Feathermoon Inn.~
@@ -1187,7 +1187,7 @@ Desc     A high, circular room filled with maps and tactical markers.
 Shandris Feathermoon stands here, conferring with her 
 top lieutenants.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37058
 Desc      The plaza.~
@@ -1205,7 +1205,7 @@ Desc     The shoreline turns into a series of shallow tide pools.
 The ruins of an ancient elven pier can be seen jutting 
 into the sea, covered in kelp and barnacles.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37055
 Desc      The main shoreline.~
@@ -1223,12 +1223,12 @@ marble and overgrown courtyards. The air is stagnant,
 and the sound of wailing spirits can be heard from the deep 
 ruins.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37060
 Desc      Return to the coast.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37062
 Desc      The central ruins.~
@@ -1246,12 +1246,12 @@ the intricate mosaics of the Highborne. Gordunni ogres
 have established a large camp here, desecrating the ruins 
 with their filth.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37061
 Desc      The ruins entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37063
 Desc      The Temple of Isildien.~
@@ -1268,7 +1268,7 @@ Desc     A massive dome that has partially collapsed. In the center,
 a large arcane node hums with energy, guarded by 
 magical eyes and ogre mage-lords.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37062
 Desc      The central court.~
@@ -1285,7 +1285,7 @@ Flags    indoors dark~
 Desc     A small, subterranean room beneath the temple. Dust-covered 
 scrolls and broken furniture litter the floor.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    37063
 Desc      Return to the temple.~
@@ -1302,12 +1302,12 @@ Desc     The climb toward the Horde outpost is steep. Massive totems
 line the path, their carvings representing the various tribes 
 of the Horde.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37052
 Desc      Return to the wilderness.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    37066
 Desc      Entrance to Camp Mojache.~
@@ -1325,12 +1325,12 @@ The air is clear and smells of pine and roasted meat.
 Wyverns circle overhead, and braves stand guard at the 
 main gates.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    36065
 Desc      The southern path.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    36067
 Desc      The central clearing.~
@@ -1347,17 +1347,17 @@ Desc     The heart of the Mojache outpost. A massive bonfire burns
 eternally in the center, and the surrounding tents are 
 filled with hunters and explorers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37066
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    37068
 Desc      Sage Korolusk's Tent.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    37069
 Desc      The Mojache Inn.~
@@ -1374,7 +1374,7 @@ Desc     The interior of the tent is quiet and peaceful. The walls
 are decorated with dreamcatchers and sacred furs. Sage 
 Korolusk kneels here in deep meditation.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37067
 Desc      The clearing.~
@@ -1391,7 +1391,7 @@ Flags    indoors~
 Desc     A large, sturdy building that serves as the inn for the camp. 
 The air is warm and smells of sweetgrass and ale.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37067
 Desc      The clearing.~
@@ -1407,12 +1407,12 @@ Desc     A series of low, rolling hills east of the central valley.
 Gnoll tents and trash heaps are scattered through the 
 undergrowth, and the sound of barking is constant.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37053
 Desc      The wilderness crossroads.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    37071
 Desc      Deep Woodpaw territory.~
@@ -1429,17 +1429,17 @@ Desc     The heart of the Woodpaw infestation. The trees are scarred
 with gnoll markings, and the air reeks of rotting food 
 and wet fur.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37070
 Desc      The western hills.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    37072
 Desc      The Woodpaw Den.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    37074
 Desc      The descent to Thousand Needles.~
@@ -1457,7 +1457,7 @@ Desc     A large, dark cave that serves as the primary nest for the
 Woodpaw pack. The floor is covered in a thick layer of 
 stolen goods and filth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37071
 Desc      Return to the hills.~
@@ -1473,7 +1473,7 @@ Flags    ~
 Desc     A high point on the eastern hills, providing a clear view 
 of the road leading to Thousand Needles.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    37071
 Desc      Return to the hills.~
@@ -1490,12 +1490,12 @@ Desc     The lush greenery of Feralas begins to thin as the path
 descends into the dry, red-rock canyons of Thousand 
 Needles. A wide stone arch marks the border.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37071
 Desc      The Woodpaw hills.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    28550
 Desc      Enter the Thousand Needles.~
@@ -1512,12 +1512,12 @@ Desc     You stand at the base of two massive, natural stone pillars
 that tower over the northern jungle. Ancient elven 
 stairs wind up the side of the western pillar.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37052
 Desc      The high wilderness.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    37076
 Desc      Climb the western colossal.~
@@ -1534,7 +1534,7 @@ Desc     The view from the top of the colossal is breathtaking. You
 can see the entirety of Feralas, from the coast to the 
 eastern mountains. Several hippogryphs nest here.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    37075
 Desc      The base.~
@@ -1550,12 +1550,12 @@ Flags    ~
 Desc     A collection of large hide tents and massive cooking fires 
 at the northern edge of the wilderness.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37052
 Desc      The high wilderness.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    37078
 Desc      The inner outpost.~
@@ -1571,7 +1571,7 @@ Flags    ~
 Desc     The heart of the Gordunni presence in the north. A large, 
 two-headed ogre stands here, barking orders.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37077
 Desc      The entrance.~
@@ -1588,12 +1588,12 @@ Desc     A dark, ominous camp tucked away in the shadows of the
 northern cliffs. The air is cold and the tauren here 
 watch you with suspicion.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37051
 Desc      The verdant walk.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    37080
 Desc      The inner post.~
@@ -1610,7 +1610,7 @@ Desc     The center of the Grimtotem encampment. Several captives
 are kept in small cages, and the sound of dark rituals 
 echoes from the large central tent.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37079
 Desc      The entrance.~
@@ -1627,7 +1627,7 @@ Flags    ~
 Desc     A massive pile of magical waste and broken stone. 
 Floating eyes patrol the area, looking for scavengers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37062
 Desc      The Isildien court.~
@@ -1643,7 +1643,7 @@ Flags    ~
 Desc     A small valley filled with thermal springs and hissing 
 steam vents. Scaldalards pulse with heat in the water.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37051
 Desc      The verdant walk.~
@@ -1659,7 +1659,7 @@ Flags    ~
 Desc     A beautiful clearing filled with blooming lilies and 
 glowing butterflies. Sprite darters flit through the air.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37052
 Desc      The high wilderness.~
@@ -1675,7 +1675,7 @@ Flags    ~
 Desc     A gnarled thicket where the light of the sun never 
 reaches. Warp-stalkers move through the shadows.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37051
 Desc      The verdant walk.~
@@ -1691,12 +1691,12 @@ Flags    ~
 Desc     The water is clear and cool, with kelp forests waving 
 gently in the currents below.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37055
 Desc      The mainland coast.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    37057
 Desc      Approach Sardor Isle.~
@@ -1712,7 +1712,7 @@ Flags    indoors~
 Desc     A peaceful, open-air structure built for the comfort 
 of visiting Alliance dignitaries and explorers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37058
 Desc      The stronghold center.~
@@ -1728,12 +1728,12 @@ Desc     The southern jungle gives way to a massive, sand-filled
 crater. Silithid hives erupt from the ground like 
 pulsing, chitinous towers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37062
 Desc      Return to the ruins.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    37088
 Desc      The Zukk'ash Hive.~
@@ -1750,7 +1750,7 @@ Desc     The interior of the silithid hive is warm and moist.
 The walls are composed of a hardened, resin-like 
 substance, and workers move frantically through the halls.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37087
 Desc      The entrance.~
@@ -1767,7 +1767,7 @@ Flags    ~
 Desc     A rocky platform providing a clear view of the 
 road leading to Desolace.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37051
 Desc      The verdant walk.~
@@ -1783,7 +1783,7 @@ Flags    ~
 Desc     A quiet corner of the Isildien ruins, dominated by 
 shattered pillars and ancient elven statues.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37061
 Desc      Isildien entry.~
@@ -1799,7 +1799,7 @@ Flags    ~
 Desc     A small, overgrown courtyard where several Gordunni 
 maulers have set up a defensive post.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37062
 Desc      The central court.~
@@ -1815,7 +1815,7 @@ Flags    ~
 Desc     A dense thicket near the central valley, home to a 
 large pack of ironfur bears.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37053
 Desc      The central wilderness.~
@@ -1831,7 +1831,7 @@ Flags    ~
 Desc     A small clearing filled with sweet-smelling jungle 
 fruit and colorful birds.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    37052
 Desc      The northern wilderness.~
@@ -1847,7 +1847,7 @@ Flags    ~
 Desc     A rocky outcrop along the Forgotten Coast, used by 
 shriekers as a nesting site.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37055
 Desc      The main shoreline.~
@@ -1863,7 +1863,7 @@ Flags    ~
 Desc     A high balcony in the stronghold, offering a view of 
 the western ocean and the distant mainland.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37058
 Desc      Stronghold center.~
@@ -1879,7 +1879,7 @@ Flags    ~
 Desc     A small storage area near the Horde inn, filled with 
 fishing nets and turtle shells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37067
 Desc      The camp clearing.~
@@ -1895,7 +1895,7 @@ Flags    ~
 Desc     A wide trail of flattened ferns and snapped trees, 
 marking the passage of something massive.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37052
 Desc      The northern wilderness.~
@@ -1911,7 +1911,7 @@ Flags    ~
 Desc     A rare gap in the jungle canopy where sungrass grows 
 in abundance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37053
 Desc      The central wilderness.~
@@ -1927,7 +1927,7 @@ Flags    ~
 Desc     A dark, quiet section of the jungle where the air 
 feels heavy and the warp-stalkers hunt.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    37052
 Desc      The northern wilderness.~
@@ -1944,12 +1944,12 @@ Desc     A hidden trail behind Camp Mojache leads toward the
 northern mountains, offering a quick way back toward 
 Desolace.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    37067
 Desc      Camp Mojache.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    37050
 Desc      The northern entrance.~
@@ -1965,12 +1965,12 @@ Desc     The lush greenery of Feralas finally gives way to a
 wind-swept canyon of white sand. A narrow path leads 
 south into the desolate wastes of Silithus.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    37062
 Desc      Isildien court.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39000
 Desc      Enter the wastes of Silithus.~

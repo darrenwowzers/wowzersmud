@@ -1826,12 +1826,12 @@ Vnum     9810
 Name     Winter Altar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction south~
 ToRoom    9833
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    9834
 #ENDEXIT
@@ -1843,7 +1843,7 @@ Vnum     9811
 Name     The Winter Pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction south~
 ToRoom    9895
 #ENDEXIT
@@ -1855,7 +1855,7 @@ Vnum     9812
 Name     A dark cell~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9813
 Flags     isdoor closed~
@@ -1869,17 +1869,17 @@ Vnum     9813
 Name     North Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9814
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9836
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9812
 Flags     isdoor closed~
@@ -1893,13 +1893,13 @@ Vnum     9814
 Name     North Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9815
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9813
 #ENDEXIT
@@ -1912,12 +1912,12 @@ Vnum     9815
 Name     Spring~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9816
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9814
 Flags     isdoor closed~
@@ -1931,12 +1931,12 @@ Vnum     9816
 Name     Spring Altar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction west~
 ToRoom    9815
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    9838
 #ENDEXIT
@@ -1948,7 +1948,7 @@ Vnum     9817
 Name     The Spring Pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction south~
 ToRoom    9897
 #ENDEXIT
@@ -1960,7 +1960,7 @@ Vnum     9818
 Name     A dark cell~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction south~
 ToRoom    9819
 Flags     isdoor closed~
@@ -1974,18 +1974,18 @@ Vnum     9819
 Name     East Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9818
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9820
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9840
 #ENDEXIT
@@ -1998,12 +1998,12 @@ Vnum     9820
 Name     East Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9819
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9821
 Flags     isdoor closed~
@@ -2017,13 +2017,13 @@ Vnum     9821
 Name     Summer~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9820
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9822
 #ENDEXIT
@@ -2036,17 +2036,17 @@ Vnum     9822
 Name     Summer Altar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9821
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9823
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northwest~
 ToRoom    9842
 #ENDEXIT
@@ -2058,17 +2058,17 @@ Vnum     9823
 Name     The Summer Pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9897
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9822
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9824
 Flags     isdoor closed~
@@ -2082,13 +2082,13 @@ Vnum     9824
 Name     A dark cell~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9823
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9825
 Flags     isdoor closed~
@@ -2103,18 +2103,18 @@ Vnum     9825
 Name     South Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9844
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9824
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9826
 #ENDEXIT
@@ -2127,12 +2127,12 @@ Vnum     9826
 Name     South Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9825
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9827
 Flags     isdoor closed~
@@ -2146,13 +2146,13 @@ Vnum     9827
 Name     Autumn~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9826
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9828
 #ENDEXIT
@@ -2165,12 +2165,12 @@ Vnum     9828
 Name     Autumn Altar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9827
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northeast~
 ToRoom    9846
 #ENDEXIT
@@ -2182,7 +2182,7 @@ Vnum     9829
 Name     The Autumn Pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9895
 #ENDEXIT
@@ -2194,13 +2194,13 @@ Vnum     9830
 Name     A dark cell~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9831
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9829
 Flags     isdoor closed~
@@ -2215,17 +2215,17 @@ Vnum     9831
 Name     West Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9832
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9848
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9830
 Flags     isdoor closed~
@@ -2239,13 +2239,13 @@ Vnum     9832
 Name     West Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9833
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9831
 #ENDEXIT
@@ -2258,12 +2258,12 @@ Vnum     9833
 Name     Winter~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9810
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9832
 Flags     isdoor closed~
@@ -2277,12 +2277,12 @@ Vnum     9834
 Name     Winter Attendant~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction northwest~
 ToRoom    9810
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    9835
 #ENDEXIT
@@ -2294,12 +2294,12 @@ Vnum     9835
 Name     Winter Liar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction down~
 ToRoom    9811
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northwest~
 ToRoom    9834
 #ENDEXIT
@@ -2311,12 +2311,12 @@ Vnum     9836
 Name     North Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9813
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9837
 #ENDEXIT
@@ -2328,12 +2328,12 @@ Vnum     9837
 Name     North Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9836
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9891
 #ENDEXIT
@@ -2345,12 +2345,12 @@ Vnum     9838
 Name     Spring Attendant~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction northeast~
 ToRoom    9816
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    9839
 #ENDEXIT
@@ -2362,12 +2362,12 @@ Vnum     9839
 Name     Spring Liar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction down~
 ToRoom    9817
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northeast~
 ToRoom    9838
 #ENDEXIT
@@ -2379,12 +2379,12 @@ Vnum     9840
 Name     East Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9819
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9841
 #ENDEXIT
@@ -2396,12 +2396,12 @@ Vnum     9841
 Name     East Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9840
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9891
 #ENDEXIT
@@ -2413,12 +2413,12 @@ Vnum     9842
 Name     Summer Attendant~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction northwest~
 ToRoom    9843
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    9822
 #ENDEXIT
@@ -2430,12 +2430,12 @@ Vnum     9843
 Name     Summer Liar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction down~
 ToRoom    9823
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    9842
 #ENDEXIT
@@ -2447,12 +2447,12 @@ Vnum     9844
 Name     South Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9845
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9825
 #ENDEXIT
@@ -2464,12 +2464,12 @@ Vnum     9845
 Name     South Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9891
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9844
 #ENDEXIT
@@ -2481,12 +2481,12 @@ Vnum     9846
 Name     Autumn Attendant~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction northeast~
 ToRoom    9847
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    9828
 #ENDEXIT
@@ -2498,12 +2498,12 @@ Vnum     9847
 Name     Autumn Liar~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction down~
 ToRoom    9829
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    9846
 #ENDEXIT
@@ -2515,12 +2515,12 @@ Vnum     9848
 Name     West Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9849
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9831
 #ENDEXIT
@@ -2532,12 +2532,12 @@ Vnum     9849
 Name     West Mage Route~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction east~
 ToRoom    9891
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9848
 #ENDEXIT
@@ -2559,7 +2559,7 @@ in stature and design.  A few potted plants stand sentry along the north
 wall, framing a door that blocks travel deeper into this building.  A
 small, golden plaque is attached to the north wall.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9851
 Key       9825
@@ -2569,7 +2569,7 @@ Keywords  door~
 Flags     isdoor closed locked pickproof~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    21019
 Desc      To the south is Law Avenue, of the town of Darkhaven.
@@ -2713,14 +2713,14 @@ of this hallway.  The room is completely bare of color and decor.  The
 emptiness appears purposeful, a ruse to make the building appear bland
 enough to deter potential adventurers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9852
 Desc      The Corridor continues North.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9850
 Key       9825
@@ -2745,14 +2745,14 @@ paintings on the west wall.  To the north is an open doorway, leading
 to a brightly lit room.  South is the hallway leading back toward the
 reception area.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9853
 Desc      You see an office.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9851
 Desc      You see a corridor.
@@ -2796,7 +2796,7 @@ far.  The walls maintain the flat golden hue, but the knick knacks are
 more overblown.  Bigger and brighter seems to be the theme here.  The
 variety of colors and styles almost turns your stomach.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9880
 Desc      There is a door to the east, with a sign reading: Caution -- Do not enter!
@@ -2805,21 +2805,21 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9852
 Desc      You see Dragon Hall.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9871
 Desc      You see the waiting room.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9854
 Desc      There is a trapdoor leading down.
@@ -2890,35 +2890,35 @@ north, south, east, and west.  Above you, you can see the outlines of
 a trap door.  From the south you notice a bright glow, catching your
 attention.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9856
 Desc      There is an exit.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9857
 Desc      A hallway leads east.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9855
 Desc      You see a bright light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9859
 Desc      You see a hallway.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    9853
 Desc      As you look up you can see a trapdoor.
@@ -2942,7 +2942,7 @@ Desc     The light in this place is overwhelming.  Candles completely cover
 the walls, making this place hot as well as bright.  This place is
 a place of worship, and the idol is a golden dragon statue.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9854
 Desc      You see the intersection.
@@ -2966,7 +2966,7 @@ tapestry to the east.  As you begin to look them over in detail, you see
 the east tapestry begin to move.  This may not be the best places to hang
 around.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9886
 Desc      A beautiful tapestry of a wyrmling covers a passageway to the east.
@@ -2975,7 +2975,7 @@ Keywords  tapestry~
 Flags     isdoor closed nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9854
 Desc      You see the intersection.
@@ -3057,7 +3057,7 @@ temple area.  The walls here are deprived of color and decor.  Only
 the doors have any color.  One door leads off the the east and the
 other to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9892
 Desc      You see a small store.
@@ -3065,7 +3065,7 @@ Desc      You see a small store.
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9858
 Desc      You see a door.
@@ -3074,7 +3074,7 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9854
 Desc      You see the intersection.
@@ -3097,7 +3097,7 @@ to several places within this putrid room.  You allow the strange and
 powerfully mystic writings on the walls to draw your attention from the
 awful smell.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    9857
 Desc      You see a door.
@@ -3120,14 +3120,14 @@ rising from the floor.  It's as if the stones had an internal light,
 making them radiate this faint lambency.  No matter how closely you
 peer into the flooring, you cannot locate the source of this power.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9854
 Desc      You see the intersection.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9860
 Desc      You see a bend in the hallway.
@@ -3152,14 +3152,14 @@ room is dark and dismal, devoid of all light and color.  The walls
 look as if they have never experienced a cleaning, and the floors
 are scuffed from the passing of many feet over time.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9861
 Desc      Its too far to make out.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9859
 Desc      You see a hallway.
@@ -3189,21 +3189,21 @@ of the rites performed here.  Worked into the patterning on the floor
 is an image of a door, a seeming trapdoor leading to the heart of the
 temple.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9894
 Desc      You see a staircase.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9860
 Desc      You still can run back to the hallway.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9862
 Desc      A trapdoor leads deeper into the Dragon cult temple.
@@ -3255,14 +3255,14 @@ Desc     The darkness is everpresent here.  The light you have barely breaks thr
 its tight grip.  Above is a small ladder, leading up to the minor priests'
 section of the temple.  To the south is a circular room.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9863
 Desc      It's too dark to see anything.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    9861
 Desc      You see a trapdoor.
@@ -3294,21 +3294,21 @@ the south wall being a perfect curve.  In the center of the room is a
 long, rectangular table, painted blood red.  Attached to each corner is
 thick leather straps.  The leather appears to be used for restaints.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9862
 Desc      It's very dark.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9864
 Desc      You see a room.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9865
 Desc      You see a corridor.
@@ -3357,14 +3357,14 @@ Desc     The Priests of the Dragon Cult sleep here.  The room is very neat and t
 except for one large tile on the floor with dirt around the edges.  The
 only way out is west.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    9863
 Desc      You see the inner circle.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9888
 Desc      A small stairway leads down into a pit, deep under the ground.
@@ -3393,7 +3393,7 @@ Desc     A cold chill soaks through your garments as you enter this room.  You
 hear echos of soft weeping resounding through this darkened corridor.
 A small cell lies to the north.  The hall continues east and west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9866
 Key       9826
@@ -3403,14 +3403,14 @@ Keywords  cell~
 Flags     isdoor closed locked~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9863
 Desc      You see the inner circle.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9867
 Desc      It's not a safe place to go.
@@ -3436,7 +3436,7 @@ show scratch marks along the seems, where countless maidens have tried
 to claw their way to freedom.  One corner has straw packed in what must
 be the excrement of the one waiting now.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9865
 Desc      You see a cell door.
@@ -3445,7 +3445,7 @@ Keywords  cell~
 Flags     isdoor closed locked~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    9873
 Key       3
@@ -3470,14 +3470,14 @@ Desc     You're really getting somewhere now.  This you can tell by the knots
 forming in your stomach.  Exits open to the east and, if you really
 wish to continue, to the west.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9865
 Desc      It's the hallway you just came from.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9868
 Desc      The chamber of a powerful being.
@@ -3501,7 +3501,7 @@ candle light, as hundreds of candles flicker in holders along the walls.
 It is rumored that his priestess beds the dragons, and that she is perhaps
 herself half dragon.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9869
 Desc      A foul stench floats in from the north.
@@ -3509,7 +3509,7 @@ Desc      A foul stench floats in from the north.
 Flags     isdoor closed nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9867
 Desc      The forboding hallway isn't NEARLY as forboding as what lies beyond it.
@@ -3553,7 +3553,7 @@ blood. You must get out of this gruesome place!  There are two doors
 leading from this room, once back to the south and a wide door leading
 to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9870
 Key       9827
@@ -3563,7 +3563,7 @@ Keywords  door~
 Flags     isdoor closed locked nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9868
 Desc      You see the room in which the High Priestess resides.
@@ -3587,7 +3587,7 @@ It's then that you notice the gnawed bones and large piles of dragon feces
 littering the ground.  You give a shudder of revulsion as you absorb the
 state of this place.  You suddenly feel you should leave, and soon.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9869
 Key       9826
@@ -3612,21 +3612,21 @@ employees about, doing their jobs.  The front office is to the east and
 the workshops, the Portable Dragon, and the main offices can be found
 to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9872
 Desc      Heading deeper into the building.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9853
 Desc      You see the front office.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9873
 Desc      You see an evil glow.
@@ -3653,28 +3653,28 @@ creations are made to supply to the shop.  This is quite an active
 export business, for all its outward attempts to remain unnoticed
 by the Darkhaven population.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9874
 Desc      You see a hallway in the office.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9878
 Desc      You see the main workshop.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9871
 Desc      You see the waiting room.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9879
 Desc      The Portable Dragon shop.
@@ -3693,7 +3693,7 @@ Desc     The door snaps shut and you are left standing, locked in a small, tight
 glowing room ... it does not look like there is any way out, so you may
 as well lie down on the rug that covers the floor.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9871
 Key       9850
@@ -3701,7 +3701,7 @@ Keywords  door~
 Flags     isdoor closed locked secret pickproof nopassdoor hidden searchable~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9866
 Desc      A dark, damp cell.
@@ -3744,7 +3744,7 @@ save one large painting on the east wall.  This hall sees much less
 traffic than the one south, as only Gemma's office and an odd door
 can be accessed from this direction.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9893
 Desc      You see a staircase.
@@ -3752,14 +3752,14 @@ Desc      You see a staircase.
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9872
 Desc      You see the central hall on the Dragon Cult building.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9875
 Desc      You see Gemma's office to the west.
@@ -3799,7 +3799,7 @@ work.  The windows sure add a brightness and goodness to the room,
 wiping out the tinge of darkness and evil felt throughout the rest
 of the building.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9874
 Desc      You see a hallway in the office.
@@ -3844,7 +3844,7 @@ look of things, you doubt he really does any work around here.  Back
 to the south you can see the workshop, and can hear the people as they
 work and talk.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9878
 Desc      You see a large workshop directly south if this office.
@@ -3872,7 +3872,7 @@ rather than spend the extra two minutes walking between rooms.  On lunch
 break, the workers prefer to leave the building to get away from their
 employer's dark mood and fits of ill temper.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9882
 Desc      The supply room.
@@ -3894,21 +3894,21 @@ designed the workshop directly south of his office, he can watch
 the progress without leaving his desk.  To the east is the storage
 and supply room.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9876
 Desc      Fandarel office lies to the north.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9882
 Desc      The supply room.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9872
 Desc      Dragon Cult central hall is west from here.
@@ -3939,7 +3939,7 @@ style of dragon.  The only furnishing here is a counter and a tall stool
 for the shopkeeper.  The counter is somewhat cluttered with parchments
 and various items.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9872
 Desc      You see the entranceway to the office.
@@ -3998,14 +3998,14 @@ as nothing dangerous appears to be lurking here.  The hallway leads
 further north and there is a door to the west, leading back to the
 front office.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9881
 Desc      The hallway ends.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9853
 Desc      You see an open door leading to the front office.
@@ -4026,7 +4026,7 @@ Desc     This hallway is completely bare.  You can not understand the reason for
 the cautions on the doors leading here.  The hallway continues south and
 there is a door leading west.  There is also a closed door to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9887
 Desc      A dark room, you can not even make out the floor.
@@ -4035,14 +4035,14 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9880
 Desc      The beginning of the back hallway.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9882
 Desc      You see a door.
@@ -4075,14 +4075,14 @@ to touch.  North from here is the employee breakroom.  There is a
 closed door to the east.  You can leave to the west back to the
 workshop.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9877
 Desc      You see the break room.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9881
 Desc      You see a door, with a sign that says: Do not enter.
@@ -4091,7 +4091,7 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9878
 Desc      You see the middle of the office.
@@ -4121,7 +4121,7 @@ extremes in disguising their true purpose here.  To the west is a door,
 possibly offering the chance to discover just what secrets these walls
 truly hold.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    9884
 Key       9893
@@ -4147,7 +4147,7 @@ it.  You will want to leave here, as quickly, and hopefully painlessly,
 as you possibly can.  There are two exits out of here, one to the north
 and one to the east, but they are both locked!  You must find the key.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9886
 Key       9837
@@ -4155,7 +4155,7 @@ Keywords  secret~
 Flags     isdoor closed locked pickproof nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9883
 Key       9837
@@ -4193,13 +4193,13 @@ and see you dropped a good twenty-five feet.  The sides are far too
 slick here to make your way back up.  Now, do you let go and fall
 the last twenty feet to the bottom?  It appears you have no choice.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    9887
 Flags     climb can_climb~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9883
 Desc      The tunnel ends at a dark dungeon.
@@ -4221,7 +4221,7 @@ You also notice worn scratches in the floor, before the panelled wall
 to the south.  It looks like a great weight was dragged through the
 crack between the wall and the floor.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9884
 Key       9886
@@ -4231,7 +4231,7 @@ Keywords  wall panel paneling~
 Flags     isdoor closed pickproof nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9856
 Desc      You see the room to the front of the tapestry.
@@ -4275,7 +4275,7 @@ of death and decay.  Whatever is down there may not like your
 presence, perhaps you should head back to the hallway to the
 south.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9881
 Desc      Sliding down the vertical tunnel, into the darkness.
@@ -4283,7 +4283,7 @@ Desc      Sliding down the vertical tunnel, into the darkness.
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9885
 Desc      sliding down the vertical tunnel.
@@ -4303,7 +4303,7 @@ not only visual, but has a distinct presence.  This staircase leads
 away from the Priests Quarters, to the deepest parts of the Cultists
 Temple. The stairs are sturdy, but seem to not welcome your intrusion.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    9864
 Desc      Above you is the sleeping quarters of the Cultist Priests.
@@ -4312,7 +4312,7 @@ Keywords  tile door trapdoor trap~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9889
 Desc      You see a spiral staircase leading down, deep into the ground.
@@ -4333,7 +4333,7 @@ is a gaping whole, leading to the bottom of the pit.  You can see
 movement below, but have trouble finding the cause.  Should you explore
 below, investigate to the east, or return to relative safety above?
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9890
 Desc      There is an intersting alcove to the east.  It is well lit, a relief from this darkness.
@@ -4342,14 +4342,14 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    9888
 Desc      The stairway leads up from this pit, to the safety of the Priests.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9891
 Desc      Below you is the bottom of this deep pit.
@@ -4369,7 +4369,7 @@ is a spigot in the upper southeast corner, dripping a steady flow of
 water.  This looks like a place for bathing.  On the eastern wall are
 several hooks, holding various articles of clothing.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    9889
 Desc      To the west is a landing of a staircase, leading back to the upper temple.
@@ -4405,7 +4405,7 @@ sinks into your spine as you realize the full magnitude of what you've
 stumbled upon.  This is the home of Adrathom, a powerful lich, and he
 does not look pleased at your intrusion.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    9889
 Desc      It is too dark to see.
@@ -4425,7 +4425,7 @@ candy is a secret brew of magical ingredients.  You should be cautious
 of eating anything you buy here, as the place does not look clean.  The
 walls are covered in a thick layer of dust, and so is the shopkeeper!
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9857
 Desc      You see the hallway.
@@ -4455,7 +4455,7 @@ not only seen, but felt.  The walls change from the painted walls
 of the office area to a dark stone surface.  Whatever is below,
 they do not want to make you feel too welcome.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9874
 Desc      You see a hallway in the office.
@@ -4463,7 +4463,7 @@ Desc      You see a hallway in the office.
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9894
 Desc      You see the bottom of the staircase.
@@ -4484,14 +4484,14 @@ almost physical presence.  The result is oppressive.  The cold, harsh
 stone walls seem to close in on you as you listen to the mezmerizing
 chants coming from the south.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9861
 Desc      It is to blurred to see anything of note.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    9893
 Desc      You see the top of the staircase.
@@ -4505,17 +4505,17 @@ Vnum     9895
 Name     The deepest pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9811
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9896
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9829
 #ENDEXIT
@@ -4527,17 +4527,17 @@ Vnum     9896
 Name     The fire pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9898
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9897
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9895
 #ENDEXIT
@@ -4549,17 +4549,17 @@ Vnum     9897
 Name     The deepest pit~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction north~
 ToRoom    9817
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9823
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9896
 #ENDEXIT
@@ -4571,12 +4571,12 @@ Vnum     9898
 Name     The Passage to the pits~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction south~
 ToRoom    9896
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    9899
 #ENDEXIT
@@ -4588,12 +4588,12 @@ Vnum     9899
 Name     The servants passage~
 Sector   inside~
 Flags    dark indoors~
-Exit
+#EXIT
 Direction south~
 ToRoom    9890
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    9898
 #ENDEXIT

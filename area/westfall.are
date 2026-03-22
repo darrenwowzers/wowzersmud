@@ -564,13 +564,13 @@ the dry, golden plains of Westfall. The wind picks up, carrying a fine
 layer of dust. To the west, the road continues into the heart of the
 abandoned farmlands.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    12502
 Desc      The road continues toward a neglected farm.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    12090
 Desc      The tree line of Elwynn Forest.
@@ -586,13 +586,13 @@ Desc     A dilapidated wagon sits by the side of the road. The pumpkin patch her
 is overgrown with weeds, and the scarecrows look unnervingly sinister in
 the dry wind. The Furlbrows were forced out by the Defias long ago.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12501
 Desc      The road back to Elwynn Forest.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12503
 Desc      The dusty plains stretch out before you.
@@ -609,19 +609,19 @@ Desc     The golden grass of Westfall is parched and brittle. The wind howls
 across the open plains, kicking up small dust devils. Great Goretusks
 root through the hard earth here, searching for scraps.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12502
 Desc      Furlbrow's Pumpkin Patch.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12506
 Desc      The plains continue south.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12504
 Desc      The fields of Saldean's Farm.
@@ -639,13 +639,13 @@ Desc     The wheat here is dead and rotting on the stalk. Massive mechanical
 Harvest Watchers patrol the fields erratically, their gears grinding
 as they attack anything that moves. 
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12503
 Desc      The Dust Plains.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12505
 Desc      The Saldean farmhouse.
@@ -665,7 +665,7 @@ Desc     One of the few farmhouses in Westfall that hasn't been burned to the
 ground. It is sturdy but shows signs of recent attacks. The smell of
 hearty stew fills the room, offering a rare comfort in this harsh land.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12504
 Desc      The fields outside.
@@ -686,19 +686,19 @@ Desc     The road becomes deeply rutted here from the passage of heavy carts.
 To the west, a large, fortified hill rises above the plains. You can
 see the banners of the People's Militia snapping in the wind.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12503
 Desc      The northern plains.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12507
 Desc      The base of Sentinel Hill.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    12528
 Desc      A dusty path leading toward a gnoll camp.
@@ -715,13 +715,13 @@ Desc     You stand at the foot of the only safe haven in Westfall. Makeshift
 barricades of sharpened logs and overturned wagons line the path leading
 up the hill. Militia recruits practice their spear thrusts nearby.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12506
 Desc      The Dust Plains.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    12508
 Desc      The path winds up to the tower.
@@ -737,19 +737,19 @@ Desc     A sturdy stone tower stands at the peak of the hill, offering a command
 view of the entire zone. Gryan Stoutmantle stands here, shouting orders
 and organizing the resistance against the Defias Brotherhood.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    12507
 Desc      The base of the hill.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    12509
 Desc      The militia barracks.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12510
 Desc      The militia encampment.
@@ -769,7 +769,7 @@ Desc     A large wooden building serving as the command center and sleeping
 quarters for the People's Militia. Maps of Defias movements are pinned
 to the walls. Captain Danuvin looks over the rosters with a grim face.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    12508
 Desc      The tower outside.
@@ -787,19 +787,19 @@ Desc     Tents are clustered tightly together here for warmth and protection.
 Wounded soldiers rest on cots, and the smell of woodsmoke is thick.
 From here, the road continues southwest toward the Dagger Hills.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12508
 Desc      The tower.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction southwest~
 ToRoom    12513
 Desc      The road to the Dagger Hills.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12511
 Desc      The Dead Acre.
@@ -815,13 +815,13 @@ Desc     A massive, abandoned farm that has completely fallen to ruin. The soil
 here is dead, and the mechanical Harvest Watchers have completely taken
 over. It is a dangerous place to wander alone.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12510
 Desc      Sentinel Hill.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12512
 Desc      Deeper into the Dead Acre.
@@ -838,7 +838,7 @@ Desc     The wreckage of a windmill groans in the wind. Huge Fleshripper birds
 circle overhead, waiting for the mechanical golems to finish off any
 foolish travelers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12511
 Desc      The northern edge of the farm.
@@ -855,13 +855,13 @@ Desc     The terrain becomes rugged and rocky here. The hills provide perfect
 cover for Defias Trappers, who hide in the scrub brush waiting to ambush
 caravans. The road winds its way south toward the town of Moonbrook.
 ~
-Exit
+#EXIT
 Direction northeast~
 ToRoom    12510
 Desc      The safety of Sentinel Hill.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12514
 Desc      The outskirts of Moonbrook.
@@ -879,19 +879,19 @@ has been completely taken over by the Defias Brotherhood. Pillagers and
 looters roam the streets freely. The buildings are burned and heavily
 damaged.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12513
 Desc      The Dagger Hills.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12515
 Desc      The ruined inn.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12516
 Desc      The center of town.
@@ -910,7 +910,7 @@ Desc     The roof of the inn has caved in, and the bar is smashed to splinters.
 Defias thugs use this place as a hideout. The walls are scorched black
 from the fire magic of the Pillagers.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12514
 Desc      The outskirts of town.
@@ -927,13 +927,13 @@ Desc     The town square is a mess of broken carts and looted goods. Defias Loot
 scavenge whatever they can find. To the east stands a large, ominously
 intact barn that the Brotherhood heavily guards.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12514
 Desc      The outskirts of town.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    12517
 Desc      The Old Barn.
@@ -953,13 +953,13 @@ have been pulled up, revealing a dark, spiraling tunnel leading deep into
 the earth. This is the secret entrance to the Defias Brotherhood's
 underground stronghold.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    12516
 Desc      The town center.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    12900
 Desc      The tunnel leads down into The Deadmines.
@@ -975,19 +975,19 @@ Desc     Heading west from Sentinel Hill, the plains stretch out toward the
 ocean. The wind is incredibly fierce here, frequently whipping up
 violent, sentient Dust Devils that batter everything in their path.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12510
 Desc      Sentinel Hill.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12521
 Desc      The Gold Coast.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12519
 Desc      The Jangolode Mine entrance.
@@ -1004,13 +1004,13 @@ Desc     A large, gaping hole in the earth marks the entrance to the Jangolode
 Mine. Defias Trappers guard the entrance, ensuring their illicit mining
 operations are not disturbed.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12518
 Desc      The western plains.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    12520
 Desc      Descend into the mine.
@@ -1028,7 +1028,7 @@ Desc     The air in the mine is thick with dust and the sounds of pickaxes.
 The Defias are stripping the mine bare of copper and tin to fund
 VanCleef's war machine.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    12519
 Desc      The surface.
@@ -1044,19 +1044,19 @@ Desc     The dusty plains finally give way to the sandy shores of the Great Sea.
 The water is cool and inviting, but the beach is crawling with vicious,
 gurgling murlocs who violently defend their territory.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12518
 Desc      The Dust Plains.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    12525
 Desc      The Long Shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12522
 Desc      A clustered murloc camp.
@@ -1074,13 +1074,13 @@ Desc     Crude huts made of driftwood and seaweed are clustered here. The smell
 of rotting fish is overwhelming. Murloc Coastrunners charge at you with
 jagged spears the moment you are spotted.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12521
 Desc      The Gold Coast.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12523
 Desc      The shallow waters of the sea.
@@ -1098,13 +1098,13 @@ Desc     You are wading in the cool, salty waters of the Great Sea. To the south
 the massive, rusted hull of a shipwreck juts out of the water, a stark
 reminder of the treacherous reefs along this coast.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    12522
 Desc      The murloc camp on the beach.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12524
 Desc      The shipwreck.
@@ -1120,7 +1120,7 @@ Desc     The ruined hull of a merchant vessel provides a perfect lair for the
 terror of the Gold Coast. Old Murk-Eye, a massive and unusually intelligent
 murloc, claims this wreck as his throne.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12523
 Desc      The shallow waters.
@@ -1137,13 +1137,13 @@ Desc     The beach stretches out to the north. In the distance, rising high abov
 the rocky cliffs, you can see the flashing beacon of the Westfall
 Lighthouse, warning ships away from the deadly shore.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    12521
 Desc      The Gold Coast.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    12526
 Desc      The base of the lighthouse.
@@ -1159,13 +1159,13 @@ Desc     The lighthouse is built on a high, rocky promontory overlooking the sea
 The structure is old but sturdy. A heavy wooden door at the base leads
 up to the beacon.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    12525
 Desc      The Long Shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    12527
 Desc      Climb the lighthouse stairs.
@@ -1182,7 +1182,7 @@ Desc     A massive, oil-burning beacon illuminates the room, casting sweeping
 beams of light out over the ocean. The spectral form of Captain Grayson,
 the Keeper of the Flame, stands here, eternally bound to his duty.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    12526
 Desc      The base of the lighthouse.
@@ -1199,13 +1199,13 @@ Desc     The plains on the eastern side of Westfall are infested with scavengers
 The scent of wet dog and decaying meat signals your approach to a major
 encampment of Riverpaw Gnolls.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    12506
 Desc      The plains south of Furlbrow's.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    12529
 Desc      The Riverpaw Encampment.
@@ -1222,13 +1222,13 @@ Desc     A chaotic, filthy camp filled with crude hide tents and gnawed bones.
 Packs of Riverpaw Gnolls bicker and fight among themselves, only uniting
 when an intruder stumbles into their territory.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    12528
 Desc      The eastern plains.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    12530
 Desc      A dusty crossroad.
@@ -1246,19 +1246,19 @@ Desc     A three-way fork in the dusty road. To the north lies the gnoll camp,
 to the west is the safety of Sentinel Hill, and the southern path winds
 toward the treacherous jungles of Stranglethorn Vale.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12529
 Desc      The Riverpaw Encampment.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12506
 Desc      The Dust Plains leading to Sentinel Hill.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13019
 Desc      The gloomy path leads toward the dark woods of Duskwood.

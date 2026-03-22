@@ -952,12 +952,12 @@ side of the narrow pass, and the wind howls between the rocks
 like a dying animal. A wide, sand-swept road leads south toward 
 the center of the wastes.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    37101
 Desc      Return to the southern pass in Feralas.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39053
 Desc      The path leads into the Silithus desert.~
@@ -976,17 +976,17 @@ hundred yards. Small dust-devils dance across the dunes,
 kicking up fine white silt that coats everything in a layer of 
 grit.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39052
 Desc      The northern entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39054
 Desc      The road continues south.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39058
 Desc      A trail leads toward the Crystal Vale.~
@@ -1004,17 +1004,17 @@ towers of a major outpost are visible against the horizon.
 Silithid workers can be seen scurrying across the dunes, 
 carrying bits of chitin and bone toward the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39053
 Desc      Northern Shifting Sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39061
 Desc      Entrance to Cenarion Hold.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    39055
 Desc      Toward the Twilight Base Camp.~
@@ -1031,12 +1031,12 @@ Desc     A cluster of purple and black tents built in the shadow of a
 large, red crystal formation. Twilight cultists move with 
 religious intensity, ignoring the heat of the desert.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39054
 Desc      Return to the road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39056
 Desc      The inner camp.~
@@ -1053,12 +1053,12 @@ Desc     The center of the cultist camp. A large, smoking brazier burns
 in the middle of a ritual circle drawn in the sand. 
 Geologists work to extract power from the nearby crystals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39055
 Desc      The camp entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    39057
 Desc      The Overlord's Tent.~
@@ -1076,7 +1076,7 @@ Desc     A large, well-furnished tent filled with dark artifacts and
 encrypted scrolls. The air inside is heavy with the scent 
 of burning incense and shadow magic.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39056
 Desc      The inner circle.~
@@ -1094,12 +1094,12 @@ Desc     A shallow valley filled with towering shards of red and blue
 crystal. The air here hums with magical energy, and the 
 ground is covered in fine crystalline dust.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39053
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39059
 Desc      Deep into the vale.~
@@ -1117,12 +1117,12 @@ shard of immense size. It pulses with a rhythmic, low-
 frequency sound that can be felt in the marrow of your 
 bones. Shattered rock elementals roam the area.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39058
 Desc      The vale entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    39060
 Desc      The Templar's Spire.~
@@ -1140,7 +1140,7 @@ Desc     A high stone platform built into the valley wall. A
 massive elemental templar stands guard here, protecting 
 the most potent crystal formations.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    39059
 Desc      The vale heart.~
@@ -1160,12 +1160,12 @@ sentinels watch the road from the ramparts. The air
 here is significantly cooler, thanks to the magic 
 emanating from the hold's central moonwell.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39054
 Desc      The desert road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39062
 Desc      Cenarion Hold Plaza.~
@@ -1183,22 +1183,22 @@ from all races. A beautiful moonwell sits in the center
 of the square, and several large stone buildings provide 
 shelter, trade, and tactical planning.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39061
 Desc      The north gate.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39063
 Desc      The Cenarion Inn.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39065
 Desc      The Commander's Hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    39064
 Desc      The Flight Roost.~
@@ -1215,7 +1215,7 @@ Desc     A warm, quiet inn filled with the scent of pine and
 sweetgrass. Leather-bound books and dried herbs line 
 the walls, providing a peaceful retreat from the desert.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39062
 Desc      The plaza.~
@@ -1231,7 +1231,7 @@ Desc     A high stone ledge overlooking the northern sands. Several
 gryphons and hippogryphs rest here, ready to carry 
 travelers across the continent.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39062
 Desc      The plaza.~
@@ -1247,7 +1247,7 @@ Desc     The primary military building in the hold. Tactical maps
 of the silithid hives are pinned to the walls, and 
 General Andorov can often be seen here reviewing reports.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39062
 Desc      The plaza.~
@@ -1265,12 +1265,12 @@ massive, pulsating hives of the Silithid. The white
 sand is increasingly churned and broken, and the smell 
 of insectoid rot becomes intense.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39061
 Desc      Return to Cenarion Hold.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39067
 Desc      Toward Hive'Zora.~
@@ -1287,12 +1287,12 @@ Desc     A massive, chitinous tower erupts from the sand. Silithid
 warriors patrol the perimeter of the entrance, and 
 thousands of smaller insects swarm in the air.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39066
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    39068
 Desc      Enter Hive'Zora.~
@@ -1309,12 +1309,12 @@ Desc     The interior of the hive is warm and moist. The walls are
 composed of a hardened, resin-like substance, and the 
 hum of the hive-mind is constant and deafening.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    39067
 Desc      Return to the surface.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    39069
 Desc      Deep Hive'Zora.~
@@ -1331,7 +1331,7 @@ Desc     The deepest part of the hive. Massive silithid creepers
 guard the egg sacs, and the air is thick with the 
 scent of caustic bile.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    39068
 Desc      Upper tunnels.~
@@ -1349,12 +1349,12 @@ Desc     Once a thriving night elven outpost, Southwind Village is
 now a haunted ruin infested with Silithid. The white 
 marble buildings are stained with ichor and shadows.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39066
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39071
 Desc      The village center.~
@@ -1371,12 +1371,12 @@ Desc     The heart of the ruined village. A cracked fountain is
 now a nest for silithid swarmers, and the air is 
 filled with the screams of tortured spirits.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39070
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39072
 Desc      The Village Hall ruins.~
@@ -1393,7 +1393,7 @@ Desc     The grandest building in the village is now a shell.
 Silithid warriors have established a barracks within 
  the main hall.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39071
 Desc      The square.~
@@ -1411,12 +1411,12 @@ Desc     A section of the desert that has been turned into glass by
 intense elemental heat. To the south, a massive 
 volcanic ridge rises from the plain.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39066
 Desc      The desert road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39074
 Desc      The path to Lord Kazzak.~
@@ -1433,12 +1433,12 @@ Desc     The air becomes blistering hot as you approach the volcanic
 ridge. The scent of brimstone and fel magic is 
 overwhelming, and the sky turns a sickly green.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39073
 Desc      The scorched sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39075
 Desc      Kazzak's Overlook.~
@@ -1456,7 +1456,7 @@ stands here, his massive form silhouetted against the
 bruised sky. He watches the world with an unblinking 
 stare of pure hatred.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39074
 Desc      The ridge entry.~
@@ -1474,12 +1474,12 @@ Desc     The desert widens toward the east, where the mountains
 of Thousand Needles meet the Silithus wastes. Large 
 sand worms can be seen undulating beneath the surface.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39066
 Desc      The desert road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39077
 Desc      Toward Hive'Ashi.~
@@ -1496,12 +1496,12 @@ Desc     The second major hive in Silithus. The entrance is a
 massive mound of hardened earth and ichor, swarming 
 with silithid workers and drones.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39076
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    39078
 Desc      Enter Hive'Ashi.~
@@ -1518,12 +1518,12 @@ Desc     A series of cramped, dark tunnels leading into the heart of
 the eastern hive. The air is stagnant and smells of 
 ammonia.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    39077
 Desc      Return to the surface.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    39079
 Desc      Deep Hive'Ashi.~
@@ -1539,7 +1539,7 @@ Flags    indoors~
 Desc     The heart of Hive'Ashi. A massive silithid colossus often 
 dwells here, overseeing the production of new swarmers.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    39078
 Desc      Upper tunnels.~
@@ -1557,12 +1557,12 @@ Desc     A collection of crude stone walls and black banners
 near the eastern mountains. Twilight avengers patrol the 
 perimeter with grim purpose.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39076
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39081
 Desc      The inner outpost.~
@@ -1579,12 +1579,12 @@ Desc     The center of the eastern cultist camp. A large stone
 altar is used for the ritual slaughter of desert 
 wildlife and travelers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39080
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    39082
 Desc      The Prophet's Outlook.~
@@ -1602,7 +1602,7 @@ Desc     A high stone ridge overlooking the eastern desert. A
 Twilight Prophet stands here, preaching to the wind 
 about the coming darkness.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    39081
 Desc      The outpost center.~
@@ -1619,12 +1619,12 @@ Desc     A small, unassuming crack in the western mountains. The
 white sand has drifted high against the entrance, 
 nearly concealing it from view.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39053
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    39084
 Desc      Ortell's Hideout.~
@@ -1642,7 +1642,7 @@ parchment and half-eaten desert worms. Hermit Ortell
 sits in a corner, scribbling madly by the light of a 
 single candle.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39083
 Desc      The cleft entrance.~
@@ -1659,12 +1659,12 @@ Desc     The remains of a small troll village that has been
 overrun by the silithid. Shattered ziggurats and 
 overturned idols are scattered through the sand.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39076
 Desc      Return to the sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    39086
 Desc      The High Priestess's Altar.~
@@ -1681,7 +1681,7 @@ Desc     A massive basalt altar covered in thick webbing. High
 Priestess Mar'li stands here, her hands glowing with 
 shadowy power as she communes with the hive-mind.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39085
 Desc      The village ruins.~
@@ -1699,12 +1699,12 @@ Desc     The very center of the Silithus wastes. A constant wind
 blows here, uncovering and burying ancient ruins with 
 every passing hour.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39054
 Desc      The desert road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39090
 Desc      The road to the Scarab Wall.~
@@ -1721,7 +1721,7 @@ Desc     A field of fine, diamond-like sand that sparkles with
 unnatural intensity. Small scorpions skitter through 
 the shimmering dunes.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39087
 Desc      The central sands.~
@@ -1739,7 +1739,7 @@ Desc     Deep, white sandstone canyons near the southern border.
 The air is absolute still, and every sound echoes 
 with eerie clarity.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39087
 Desc      The central sands.~
@@ -1757,12 +1757,12 @@ southern mountains. The ground vibrates with a heavy,
 rhythmic thrumming, like a giant heart beating 
 beneath the earth.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39087
 Desc      The central sands.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    39091
 Desc      The road continues south.~
@@ -1779,12 +1779,12 @@ Desc     The road turns sharply to the west as it approaches the
 massive stone barrier. The air is thick with the scent 
 of ancient magic and the hum of the hive.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39091
 Desc      The northern road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    39100
 Desc      The Scarab Wall.~
@@ -1804,7 +1804,7 @@ runes, and a grand gong stands in the center of the
 plaza. Two shimmering portals glow within the wall's 
 main gates, leading into the Ruins and Temple of Ahn'Qiraj.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39091
 Desc      Return to the road.~
@@ -1822,7 +1822,7 @@ Flags    ~
 Desc     A small storage area near the hold's commander, filled with 
 tactical briefs and medicinal herbs.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39062
 Desc      The town plaza.~
@@ -1838,7 +1838,7 @@ Flags    ~
 Desc     A quiet ridge north of the hold, where sentinels keep 
 watch over the northern desert road.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    39062
 Desc      The town plaza.~
@@ -1854,7 +1854,7 @@ Flags    indoors~
 Desc     A side tunnel in the silithid hive, filled with 
 piles of large, discarded chitin plates.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39068
 Desc      Upper Hive'Zora.~
@@ -1870,7 +1870,7 @@ Flags    indoors~
 Desc     A small, damp chamber where the silithid store their 
 paralyzed prey for later consumption.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39068
 Desc      Upper Hive'Zora.~
@@ -1886,7 +1886,7 @@ Flags    ~
 Desc     A quiet section of the white sands, dominated by 
 large sandstone boulders and sparse vegetation.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    39053
 Desc      The northern sands.~
@@ -1902,7 +1902,7 @@ Flags    ~
 Desc     A small, dusty hollow where several sand skitterers 
 have made their den.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39066
 Desc      The southern sands.~
@@ -1918,7 +1918,7 @@ Flags    ~
 Desc     A flat, wind-swept section of the central desert, 
 frequently patrolled by silithid sand-stalkers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    39087
 Desc      The central sands.~
@@ -1934,7 +1934,7 @@ Flags    ~
 Desc     A rocky outcrop near the Scarab Wall, offering a 
 good view of the massive stone gates.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    39090
 Desc      The Scarab road.~
@@ -1951,12 +1951,12 @@ Desc     A hidden trail behind Cenarion Hold leads toward the
 northern mountains, offering a quick way back toward 
 Feralas for those who can navigate the cliffs.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    39062
 Desc      Cenarion Hold plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    39052
 Desc      The northern entrance.~
@@ -1972,7 +1972,7 @@ Desc     A deep depression in the southeastern corner of Silithus.
 The air here is remarkably still and heavy with the 
 scent of old magic.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39076
 Desc      Eastern Shifting Sands.~
@@ -1989,7 +1989,7 @@ Desc     The very edge of the desert where the white sand meets the
 unreachable mountains. From here, the world feels vast 
 and terrifyingly empty.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    39053
 Desc      Northern Shifting Sands.~

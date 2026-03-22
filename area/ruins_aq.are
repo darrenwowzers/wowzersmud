@@ -1349,12 +1349,12 @@ dry and carries the scent of ancient stone and buzzing
 insectoid wings. A shimmering portal glows within the 
 main archway.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    39100
 Desc      Return to the Scarab Wall in Silithus.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42701
 Desc      The Entry Plaza.~
@@ -1372,17 +1372,17 @@ wide ramp leads toward the Grand Terrace of Kurinnaxx.
 To the east, the city streets lead toward the General's 
 Command. High above, the towers of the inner city loom.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42700
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    42702
 Desc      Toward the Grand Terrace.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    42800
 Desc      Toward the General's Command.~
@@ -1400,12 +1400,12 @@ ground rises into a series of tiered balconies. Qiraji
 gladiators patrol the road in pairs, their blades 
 gleaming in the desert haze.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      The entry plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    42703
 Desc      The Grand Terrace.~
@@ -1424,12 +1424,12 @@ heat. Kurinnaxx stands in the center, his massive pinchers
 snapping as he scans the plaza for movement. To the 
 north, a tunnel leads toward the Hive'Ashi tunnels.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42702
 Desc      The terrace road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42704
 Desc      Toward the Silithid Tunnels.~
@@ -1449,12 +1449,12 @@ ramparts and watchtowers. The sound of thousands of
 clashing blades echoes from the square ahead. General 
 Rajaxx can be heard shouting orders to his men.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      The entry plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    42711
 Desc      The Command Square.~
@@ -1472,12 +1472,12 @@ for battle. General Rajaxx stands upon a raised stone
 platform, his eyes glowing with the fire of a thousand 
 campaigns. He is the heartbeat of the city's army.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42710
 Desc      The command entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42720
 Desc      Toward the Reservoir.~
@@ -1496,12 +1496,12 @@ Desc     The jungle paths give way to a large circular hall filled with
 shimmering magical static. This is the city's primary 
 mana-storage facility. The air hums with unstable energy.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      The entry plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42801
 Desc      The Reservoir Basin.~
@@ -1519,12 +1519,12 @@ The winged construct Moam hovers in the center, siphoning
 the mana from the air. Three large mana-aberrations circle 
 him, their bodies pulsing with stolen power.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42800
 Desc      The reservoir entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    42810
 Desc      Toward the Hatchery.~
@@ -1544,12 +1544,12 @@ substance. The air is warm and moist, smelling of
 ammonia and old decay. Hundreds of small insects 
 swarm in the dim light.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42801
 Desc      The reservoir.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42811
 Desc      The Brood Chamber.~
@@ -1567,12 +1567,12 @@ sacs. Buru the Feast-watcher stands in the center, his
 bloated form blocking the way. He watches the eggs 
 with the single-minded focus of a protector.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42810
 Desc      The hatchery entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    42812
 Desc      The Nest of Ayamiss.~
@@ -1591,12 +1591,12 @@ Ayamiss the Hunter circles overhead, her wings casting
 a wide shadow over the eggs below. She dives on 
 anyone who threatens her brood.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    42811
 Desc      Return to the chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Toward the Terrace of Watchers.~
@@ -1616,12 +1616,12 @@ and clinical, with white marble pillars carved in the
 image of massive winged sentinels. High-ranking 
 dragonspawn stand in silent vigil.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42812
 Desc      The hatchery nest.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42851
 Desc      The Hall of Ossirian.~
@@ -1640,12 +1640,12 @@ magical crystals. He oversees the Qiraji's southern
 operations from this very seat. The air hums with 
 unfathomable power.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42850
 Desc      The terrace entry.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42900
 Desc      The exit path.~
@@ -1665,7 +1665,7 @@ Flags    indoors~
 Desc     A quiet corner of the grand terrace filled with 
 shattered statues and bits of obsidian.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42703
 Desc      Grand terrace.~
@@ -1681,7 +1681,7 @@ Flags    indoors~
 Desc     A side room used by the reavers to 
 store their jagged pincers and coins.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42703
 Desc      Grand terrace.~
@@ -1697,7 +1697,7 @@ Flags    indoors~
 Desc     A high stone landing near the command square, 
 offering a view of the southern city.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42711
 Desc      Rajaxx's square.~
@@ -1713,7 +1713,7 @@ Flags    indoors~
 Desc     A side workshop where the orc smiths 
 repair damaged plate armor.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42711
 Desc      Rajaxx's square.~
@@ -1729,7 +1729,7 @@ Flags    indoors~
 Desc     A side tunnel in the reservoir filled with 
 discarded basalt and bits of iron ore.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42801
 Desc      Moam's pit.~
@@ -1745,7 +1745,7 @@ Flags    indoors~
 Desc     A narrow ledge where several mindslayers study 
 the flow of the arcane mana.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42801
 Desc      Moam's pit.~
@@ -1761,7 +1761,7 @@ Flags    indoors~
 Desc     A quiet corner of the brood chamber filled with 
 thick webs and the scent of ammonia.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42811
 Desc      Buru's chamber.~
@@ -1777,7 +1777,7 @@ Flags    indoors~
 Desc     A side room filled with dragon-hide belts 
 and ancient Qiraji bijoux.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42811
 Desc      Buru's chamber.~
@@ -1793,7 +1793,7 @@ Flags    indoors~
 Desc     A section of the city where the sand has piled 
 high against the walls.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -1809,7 +1809,7 @@ Flags    indoors~
 Desc     Another section of the white dunes, home 
 to several large sand crawlers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -1825,12 +1825,12 @@ Flags    indoors~
 Desc     A wide stone road leading through the city's 
 residential district.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42731
 Desc      West Road 2.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    42702
 Desc      Terrace road entry.~
@@ -1846,17 +1846,17 @@ Flags    indoors~
 Desc     The road turns sharply as it approaches the 
 high ziggurat of the watchers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42730
 Desc      West Road 1.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    42732
 Desc      West Road 3.~
 #ENDEXIT
-Reset O 42616 10 0 42731
+Reset O 42616 10 42731 0
 #ENDROOM
 
 #ROOM
@@ -1867,12 +1867,12 @@ Flags    indoors~
 Desc     The road opens into a wide plateau overlooking 
 the western city ruins.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42731
 Desc      West Road 2.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Terrace of Watchers entry.~
@@ -1888,12 +1888,12 @@ Flags    indoors~
 Desc     A muddy trail leading into the eastern industrial 
 hub. The air is stagnant.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42821
 Desc      East Road 2.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    42710
 Desc      Command entry.~
@@ -1909,17 +1909,17 @@ Flags    indoors~
 Desc     The road winds up a low hill. Several 
 obsidian-idols line the trail.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42820
 Desc      East Road 1.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42800
 Desc      Reservoir entry.~
 #ENDEXIT
-Reset O 42621 1 0 42821
+Reset O 42621 1 42821 0
 #ENDROOM
 
 #ROOM
@@ -1930,12 +1930,12 @@ Flags    indoors~
 Desc     A massive circular pit filled with hundreds of 
 sand skitterers.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      Entry plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42751
 Desc      The Pit Floor.~
@@ -1951,7 +1951,7 @@ Flags    indoors~
 Desc     The heart of the pit. Gurd the Gladiator can 
 be seen standing in the center.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42750
 Desc      Pit entrance.~
@@ -1967,7 +1967,7 @@ Flags    indoors~
 Desc     A side workshop where the pit armor 
 is polished.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42751
 Desc      Pit floor.~
@@ -1983,7 +1983,7 @@ Flags    indoors~
 Desc     A high-walled room filled with dozens of 
 hungry blackrock worgs.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42751
 Desc      Pit floor.~
@@ -1999,12 +1999,12 @@ Flags    indoors~
 Desc     Once a bustling trade hub, now a ruin 
 filled with white sand.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42761
 Desc      Market Center.~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2020,12 +2020,12 @@ Flags    indoors~
 Desc     The center of the trade hub. A large 
 fountain is now a nest for wasps.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42760
 Desc      Market West.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    42762
 Desc      Market East.~
@@ -2041,12 +2041,12 @@ Flags    indoors~
 Desc     The eastern end of the market, leading 
 toward the high terraces.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42761
 Desc      Market Center.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Terrace of Watchers entrance.~
@@ -2062,12 +2062,12 @@ Flags    indoors~
 Desc     A large stone hall filled with the scent 
 of old parchment and magic.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42771
 Desc      The Library Stacks.~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2083,7 +2083,7 @@ Flags    indoors~
 Desc     Row upon row of books reaching toward the 
 high ceiling. Many are written in Qiraji.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42770
 Desc      Library entrance.~
@@ -2099,12 +2099,12 @@ Flags    indoors~
 Desc     A dark hallway leading toward the city's 
 ritual basements.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42781
 Desc      The Central Chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2120,7 +2120,7 @@ Flags    indoors~
 Desc     A wide circular room filled with jars 
 of shadow-residue and mojos.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42780
 Desc      Chamber entry.~
@@ -2136,7 +2136,7 @@ Flags    indoors~
 Desc     A stone balcony offering a clear view of 
 the inner city from the north.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42851
 Desc      Ossirian's hall.~
@@ -2152,12 +2152,12 @@ Flags    indoors~
 Desc     A stone balcony overlooking the entire 
 southern city ruins.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42851
 Desc      Ossirian's hall.~
 #ENDEXIT
-Reset O 42620 10 0 42871
+Reset O 42620 10 42871 0
 #ENDROOM
 
 #ROOM
@@ -2168,7 +2168,7 @@ Flags    indoors~
 Desc     The poorest section of the city, now a 
 mess of broken huts and garbage.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2184,7 +2184,7 @@ Flags    indoors~
 Desc     Another section of the slums, home to 
 several large Plagueland rats.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2200,7 +2200,7 @@ Flags    indoors~
 Desc     A small room near the entrance where 
 Zandalar envoys monitor the city.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42700
 Desc      The city gates.~
@@ -2218,12 +2218,12 @@ leads toward a hidden opening in the Silithus
 cliffs, offering a quick way back for those who 
 have defeated the Unscarred.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42851
 Desc      Ossirian's hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    42700
 Desc      The entrance gates.~
@@ -2238,7 +2238,7 @@ Flags    indoors~
 Desc     A dense thicket of ferns where blood-petal 
 sprouts dance in the damp air.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42732
 Desc      West Road 3.~
@@ -2254,7 +2254,7 @@ Flags    indoors~
 Desc     A quiet grotto filled with sungrass and 
 the scent of exotic flowers.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42732
 Desc      West Road 3.~
@@ -2270,7 +2270,7 @@ Flags    indoors~
 Desc     A side tunnel near the tiger plateau, 
 frequently patrolled by qiraji gladiators.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42821
 Desc      East Road 2.~
@@ -2286,7 +2286,7 @@ Flags    indoors~
 Desc     A rocky ledge near the panther sanctuary, 
 offering a good view of the eastern city.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42821
 Desc      East Road 2.~
@@ -2302,7 +2302,7 @@ Flags    indoors~
 Desc     A small side chamber in the entry plaza 
 filled with murloc eyes and bones.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2318,7 +2318,7 @@ Flags    indoors~
 Desc     A high stone landing near the gates, 
 home to several rockwing gargoyles.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2334,7 +2334,7 @@ Flags    indoors~
 Desc     A dark alcove near the command square where 
 shadowcasters rest between rituals.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42711
 Desc      Command square.~
@@ -2350,7 +2350,7 @@ Flags    indoors~
 Desc     A side room filled with snake venom and 
 the fragments of a broken altar.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42711
 Desc      Command square.~
@@ -2366,7 +2366,7 @@ Flags    indoors~
 Desc     A high point in the reservoir, 
 offering a view of the western river.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42801
 Desc      Moam's pit.~
@@ -2382,12 +2382,12 @@ Flags    indoors~
 Desc     A small storage room for skitterer pelts 
 and bone-piles.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42801
 Desc      Moam's pit.~
 #ENDEXIT
-Reset O 42608 5 0 42806
+Reset O 42608 5 42806 0
 #ENDROOM
 
 #ROOM
@@ -2398,7 +2398,7 @@ Flags    indoors~
 Desc     A dark corner of the hatchery sanctuary 
 where the shadows seem to move.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42811
 Desc      Buru's chamber.~
@@ -2414,7 +2414,7 @@ Flags    indoors~
 Desc     A side room filled with sharp mandibles 
 and spectral silk.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42811
 Desc      Buru's chamber.~
@@ -2430,7 +2430,7 @@ Flags    indoors~
 Desc     A side tunnel in the terrace base filled 
 with ancient stone tablets and dust.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Terrace base.~
@@ -2446,7 +2446,7 @@ Flags    indoors~
 Desc     A narrow ledge where several shadowcasters 
 conduct their rituals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42850
 Desc      Terrace base.~
@@ -2462,7 +2462,7 @@ Flags    indoors~
 Desc     A muddy bank filled with large stones and 
 the scent of old blood.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42751
 Desc      Pit floor.~
@@ -2478,7 +2478,7 @@ Flags    indoors~
 Desc     A sandy bank where several sand skitterers 
 have come to drink.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42751
 Desc      Pit floor.~
@@ -2494,12 +2494,12 @@ Flags    indoors~
 Desc     An elegant stone arch crossing the city district. 
 The carvings are worn but still beautiful.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Terrace entry.~
@@ -2515,7 +2515,7 @@ Flags    indoors dark~
 Desc     A secret room tucked away behind a fallen statue. 
 The air is pure and glows with a soft light.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2531,7 +2531,7 @@ Flags    indoors~
 Desc     A wide stone landing offering a commanding 
 view of the city's northern district.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42850
 Desc      Terrace base.~
@@ -2547,7 +2547,7 @@ Flags    indoors~
 Desc     A quiet square filled with mummified 
 remains and the smell of rot.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Terrace base.~
@@ -2563,7 +2563,7 @@ Flags    indoors~
 Desc     A narrow trail leading through the city's 
 religious district.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2579,7 +2579,7 @@ Flags    indoors~
 Desc     The grandest building in the city is now 
 a shell filled with desert-roots.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2595,7 +2595,7 @@ Flags    indoors~
 Desc     A storage room for ancient scrolls and 
 voodoo rattles.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42771
 Desc      Library stacks.~
@@ -2611,7 +2611,7 @@ Flags    indoors~
 Desc     A dark corner where the hakkari initiate 
 study their hexes.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42771
 Desc      Library stacks.~
@@ -2627,7 +2627,7 @@ Flags    indoors~
 Desc     A dark room near the slums where the 
 butchers prepare the city's meat.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42880
 Desc      West slums.~
@@ -2643,7 +2643,7 @@ Flags    indoors~
 Desc     A quiet room in the basements where 
 the witch-doctors treat the veterans.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42781
 Desc      Voodoo chamber.~
@@ -2659,12 +2659,12 @@ Flags    indoors~
 Desc     A rare balcony that stays remarkably 
 clear of the city's decay.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
 #ENDEXIT
-Reset O 42616 10 0 42838
+Reset O 42616 10 42838 0
 #ENDROOM
 
 #ROOM
@@ -2674,7 +2674,7 @@ Sector   city~
 Flags    indoors dark~
 Desc     A small cavern hidden beneath the watchers terrace.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    42850
 Desc      Terrace base.~
@@ -2690,7 +2690,7 @@ Flags    indoors~
 Desc     A high stone landing near the terrace 
 summit, home to several mindslayers.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    42851
 Desc      Ossirian's hall.~
@@ -2705,7 +2705,7 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet central garden near the city's exit.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42900
 Desc      Exit path.~
@@ -2720,7 +2720,7 @@ Sector   city~
 Flags    indoors~
 Desc     A winding section of the western jungle trail.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42703
 Desc      Grand Terrace.~
@@ -2735,7 +2735,7 @@ Sector   city~
 Flags    indoors~
 Desc     A humid section of the trail near the command square.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    42711
 Desc      Command square.~
@@ -2750,7 +2750,7 @@ Sector   city~
 Flags    indoors~
 Desc     A section of the trail filled with obsidian idols.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42850
 Desc      Terrace entry.~
@@ -2765,7 +2765,7 @@ Sector   city~
 Flags    indoors~
 Desc     A dark section of the trail where the light never reaches.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42800
 Desc      Reservoir entry.~
@@ -2780,11 +2780,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A confusing series of stone rooms near the city base.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42847
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -2799,11 +2799,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the base labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42846
 Desc      Labyrinth 1.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42848
 Desc      Labyrinth 3.~
@@ -2818,11 +2818,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The third cell of the base labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42847
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42849
 Desc      Labyrinth 4.~
@@ -2837,7 +2837,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the base labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42848
 Desc      Labyrinth 3.~
@@ -2852,12 +2852,12 @@ Sector   city~
 Flags    indoors~
 Desc     A beautiful stone landing overlooking the northern city.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42838
 Desc      High Garden.~
 #ENDEXIT
-Reset O 42616 10 0 42872
+Reset O 42616 10 42872 0
 #ENDROOM
 
 #ROOM
@@ -2867,7 +2867,7 @@ Sector   city~
 Flags    indoors~
 Desc     A stone landing near the gardens entrance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42838
 Desc      High Garden.~
@@ -2882,11 +2882,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing dark corridors near the ritual basements.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42875
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42781
 Desc      Voodoo chamber.~
@@ -2901,11 +2901,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the voodoo labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42874
 Desc      Labyrinth 1.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42876
 Desc      Labyrinth 3.~
@@ -2920,7 +2920,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the voodoo labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42875
 Desc      Labyrinth 2.~
@@ -2935,11 +2935,11 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing messy corridors near the western slums.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42878
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42880
 Desc      West slums.~
@@ -2954,7 +2954,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the slums labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42877
 Desc      Labyrinth 1.~
@@ -2969,11 +2969,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the city's stacks.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42882
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42771
 Desc      Library stacks.~
@@ -2988,7 +2988,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the library labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42879
 Desc      Labyrinth 1.~
@@ -3003,11 +3003,11 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing stone corridors near the gladiator pit.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42884
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42751
 Desc      Pit floor.~
@@ -3022,7 +3022,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the arena labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42883
 Desc      Labyrinth 1.~
@@ -3037,11 +3037,11 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing stone corridors near the city's exit.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42886
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42900
 Desc      Exit path.~
@@ -3056,7 +3056,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42885
 Desc      Labyrinth 1.~
@@ -3071,11 +3071,11 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing overgrown corridors near the city's entrance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42888
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -3090,7 +3090,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the entry labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42887
 Desc      Labyrinth 1.~
@@ -3105,11 +3105,11 @@ Sector   city~
 Flags    indoors~
 Desc     A confusion of leathery-winged tunnels near the bat plateau.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42891
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42704
 Desc      Jeklik's sanctuary.~
@@ -3124,7 +3124,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the bat labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42889
 Desc      Labyrinth 1.~
@@ -3139,11 +3139,11 @@ Sector   city~
 Flags    indoors~
 Desc     A confusion of slithering emerald tunnels near the command square.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42893
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42711
 Desc      Command square.~
@@ -3158,7 +3158,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42892
 Desc      Labyrinth 1.~
@@ -3173,11 +3173,11 @@ Sector   city~
 Flags    indoors~
 Desc     A confusion of bone-filled tunnels near the reservoir entry.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42895
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42800
 Desc      Reservoir entry.~
@@ -3192,7 +3192,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the reservoir labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42894
 Desc      Labyrinth 1.~
@@ -3207,11 +3207,11 @@ Sector   city~
 Flags    indoors~
 Desc     A confusion of shadowy tunnels near the brood chamber.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42897
 Desc      Labyrinth 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42811
 Desc      Buru's chamber.~
@@ -3226,7 +3226,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the hatchery labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42896
 Desc      Labyrinth 1.~
@@ -3241,11 +3241,11 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing tunnels near the watcher's terrace.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42899
 Desc      Labyrinth 6.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42850
 Desc      Terrace base.~
@@ -3260,7 +3260,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the terrace labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42898
 Desc      Labyrinth 5.~
@@ -3275,7 +3275,7 @@ Sector   city~
 Flags    indoors~
 Desc     A hidden alleyway connecting the two city districts.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -3290,11 +3290,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of many interconnected cells in the city's underbelly.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42903
 Desc      Cell 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -3309,11 +3309,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42902
 Desc      Cell 1.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42904
 Desc      Cell 3.~
@@ -3328,11 +3328,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The third cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42903
 Desc      Cell 2.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42905
 Desc      Cell 4.~
@@ -3347,11 +3347,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The fourth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42904
 Desc      Cell 3.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42906
 Desc      Cell 5.~
@@ -3366,11 +3366,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The fifth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42905
 Desc      Cell 4.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42907
 Desc      Cell 6.~
@@ -3385,11 +3385,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The sixth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42906
 Desc      Cell 5.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42908
 Desc      Cell 7.~
@@ -3404,11 +3404,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The seventh cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42907
 Desc      Cell 6.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42909
 Desc      Cell 8.~
@@ -3423,11 +3423,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The eighth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42908
 Desc      Cell 7.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42910
 Desc      Cell 9.~
@@ -3442,11 +3442,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The ninth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42909
 Desc      Cell 8.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42911
 Desc      Cell 10.~
@@ -3461,11 +3461,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The tenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42910
 Desc      Cell 9.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42912
 Desc      Cell 11.~
@@ -3480,11 +3480,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The eleventh cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42911
 Desc      Cell 10.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42913
 Desc      Cell 12.~
@@ -3499,11 +3499,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The twelfth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42912
 Desc      Cell 11.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42914
 Desc      Cell 13.~
@@ -3518,11 +3518,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The thirteenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42913
 Desc      Cell 12.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42915
 Desc      Cell 14.~
@@ -3537,11 +3537,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The fourteenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42914
 Desc      Cell 13.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42916
 Desc      Cell 15.~
@@ -3556,11 +3556,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The fifteenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42915
 Desc      Cell 14.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42917
 Desc      Cell 16.~
@@ -3575,11 +3575,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The sixteenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42916
 Desc      Cell 15.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42918
 Desc      Cell 17.~
@@ -3594,11 +3594,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The seventeenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42917
 Desc      Cell 16.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42919
 Desc      Cell 18.~
@@ -3613,11 +3613,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The eighteenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42918
 Desc      Cell 17.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42920
 Desc      Cell 19.~
@@ -3632,11 +3632,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The nineteenth cell of the underbelly.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42919
 Desc      Cell 18.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42921
 Desc      Cell 20.~
@@ -3651,7 +3651,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the underbelly-guard labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42920
 Desc      Cell 19.~
@@ -3666,11 +3666,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The start of a confusing maze of stone corridors.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    42923
 Desc      Hall 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
@@ -3685,11 +3685,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42922
 Desc      Hall 1.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42924
 Desc      Hall 3.~
@@ -3704,11 +3704,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The third section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42923
 Desc      Hall 2.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42925
 Desc      Hall 4.~
@@ -3723,11 +3723,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The fourth section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42924
 Desc      Hall 3.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42926
 Desc      Hall 5.~
@@ -3742,11 +3742,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The fifth section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42925
 Desc      Hall 4.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42927
 Desc      Hall 6.~
@@ -3761,11 +3761,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The sixth section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42926
 Desc      Hall 5.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42928
 Desc      Hall 7.~
@@ -3780,11 +3780,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The seventh section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42927
 Desc      Hall 6.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42929
 Desc      Hall 8.~
@@ -3799,11 +3799,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The eighth section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42928
 Desc      Hall 7.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42930
 Desc      Hall 9.~
@@ -3818,11 +3818,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The ninth section of the stone maze.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42929
 Desc      Hall 8.~
-Exit
+#EXIT
 Direction north~
 ToRoom    42931
 Desc      Hall 10.~
@@ -3837,7 +3837,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the stone maze-guard labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    42930
 Desc      Hall 9.~

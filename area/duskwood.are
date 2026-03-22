@@ -567,25 +567,25 @@ cursed forest of Duskwood. A large bonfire burns in the center of the
 square, constantly fed by the Night Watch. Commander Ebonlocke and the
 Mayor discuss the defense of the town here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13002
 Desc      The Town Hall.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13023
 Desc      The dark road leading east toward Deadwind Pass.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13001
 Desc      The Scarlet Raven Tavern.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13003
 Desc      The western outskirts of town.
@@ -607,7 +607,7 @@ Desc     A warm, bustling tavern filled with weary guards and terrified locals.
 Tavernkeep Smitts cleans mugs behind the bar, while Jitters shakes
 uncontrollably in the corner, traumatized by the horrors in the woods.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13000
 Desc      The town square.
@@ -628,7 +628,7 @@ Desc     The administrative center of Darkshire. Desperate bounties and warnings
 about Stitches and the Nightbane Worgen are pinned to a large wooden
 notice board.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13000
 Desc      The town square.
@@ -644,13 +644,13 @@ Desc     The cobblestones give way to a deeply rutted dirt road. The canopy of
 ancient, twisted trees completely blocks out the sun, leaving the area
 in a state of perpetual twilight. 
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13000
 Desc      The town square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13004
 Desc      The road winds deeper into the cursed woods.
@@ -668,19 +668,19 @@ Desc     The trees press in closely on either side of the road. The hooting of
 owls and the distant, terrifying howls of wolves echo through the mist.
 Giant footprints in the mud suggest something massive patrols this path.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13003
 Desc      The outskirts of Darkshire.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13007
 Desc      The Duskwood Crossroads.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    13006
 Desc      A ruined graveyard overgrown with weeds.
@@ -699,7 +699,7 @@ Desc     A rotting wooden shack tucked away from the main road. The smell of
 formaldehyde and decaying flesh is overpowering. Abercrombie the Embalmer
 lives here, secretly constructing his undead horrors.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13006
 Desc      The Tranquil Gardens Cemetery.
@@ -718,13 +718,13 @@ Desc     A small, ruined cemetery where the spirit of Blind Mary aimlessly wande
 The gravestones have been knocked over, and the wrought-iron fences are
 rusted and broken.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13004
 Desc      The Darkened Road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13005
 Desc      Abercrombie's Cabin.
@@ -742,25 +742,25 @@ Desc     A major intersection heavily shrouded in fog. A rotting wooden signpost
 points north to Elwynn Forest, west to Westfall, and east to Darkshire.
 The path to the south leads to the massive Ravenhill Cemetery.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    12100
 Desc      The road to Elwynn Forest.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13004
 Desc      The Darkened Road to Darkshire.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13008
 Desc      Ravenhill Village Ruins.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13019
 Desc      The Gloomy Path toward Westfall.
@@ -776,13 +776,13 @@ Desc     Once a small settlement supporting the massive cemetery, Ravenhill is n
 nothing but charred timber and collapsed stone walls. Defias Smugglers
 hide among the wreckage.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13007
 Desc      The Crossroads.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13009
 Desc      The iron gates of Ravenhill Cemetery.
@@ -799,19 +799,19 @@ Desc     Massive, terrifying wrought-iron gates mark the entrance to the largest
 graveyard in the region. The fog is incredibly thick here, chilling you
 to the bone. Skeletal Fiends pull themselves from the loose soil.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13008
 Desc      Ravenhill Village Ruins.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13010
 Desc      The rows of gravestones.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13012
 Desc      Morladim's Path.
@@ -828,13 +828,13 @@ Desc     Row upon row of crumbling headstones stretch out into the fog. The dead
 do not rest easy in Duskwood. Skeletons and ghouls roam freely, hunting
 the living.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13009
 Desc      The cemetery gates.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13011
 Desc      A large stone mausoleum.
@@ -852,7 +852,7 @@ Desc     A grand, gothic crypt built for the nobility of Lordaeron. The stone do
 have been smashed open. A terrible darkness emanates from the stairs leading
 down into the catacombs.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13010
 Desc      The gravestones.
@@ -868,13 +868,13 @@ Desc     A lonely, overgrown path winding along the eastern edge of the cemetery
 This is the patrol route of the tragic and terrifying undead paladin,
 Morladim, who strikes down intruders with a glowing two-handed blade.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13009
 Desc      The cemetery gates.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13013
 Desc      The Rotting Orchard.
@@ -892,13 +892,13 @@ Desc     The apple trees here have succumbed to the blight. Their branches are
 bare and twisted, and the fruit on the ground is black and teeming with
 maggots. Mutated Brain Racker ghouls feast on the decay.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13012
 Desc      Morladim's Path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13014
 Desc      Deeper into the orchard.
@@ -916,13 +916,13 @@ Desc     The canopy is completely closed here. The smell of rot is sickening. To
 the west, thick, sticky spider webs begin to cover the trees and the
 ground.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13013
 Desc      The edge of the orchard.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13018
 Desc      The Weaver's Web.
@@ -940,7 +940,7 @@ Desc     A dark, wet cave mouth completely obscured by massive, suffocating webs
 Black Widow spiders the size of mastiffs drop from the ceiling, their
 venom highly lethal to the unprepared.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13018
 Desc      The Weaver's Web outside.
@@ -958,13 +958,13 @@ Desc     An isolated farm that was overrun by rabid wolves. The fields are torn
 up, and the fences are smashed. Snarling Rabid Dire Wolves prowl the
 area, driven mad by the forest's curse.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13019
 Desc      The Gloomy Path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13017
 Desc      The ruined barn.
@@ -982,7 +982,7 @@ Desc     The barn doors have been clawed to pieces. Bloodstains on the floor tel
 a grim story of the farmers' final moments. More rabid wolves sleep in
 the hay lofts.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13016
 Desc      The farmhouse yard.
@@ -999,13 +999,13 @@ Desc     The forest is choked with webs. Mummified bodies of deer, wolves, and
 even human travelers hang suspended in the trees. The giant Black Widows
 skitter silently across the silk threads.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13014
 Desc      The deep orchard.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13015
 Desc      The Weeping Cave.
@@ -1022,19 +1022,19 @@ Desc     This rough dirt path connects the Crossroads to the western reaches of
 Duskwood. Defias Smugglers operate out of the heavy brush here, moving
 goods between Westfall and the southern coast.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13007
 Desc      The Duskwood Crossroads.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13016
 Desc      The Yorgen Farmstead.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    12530
 Desc      The path opens up into the dusty plains of Westfall.
@@ -1052,13 +1052,13 @@ Desc     The hills here are riddled with abandoned mine shafts. The area has bee
 completely taken over by the Nightbane Worgen. These ferocious beastmen
 leap from the shadows with razor-sharp claws.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13019
 Desc      The Gloomy Path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13021
 Desc      An open mine shaft.
@@ -1076,7 +1076,7 @@ Flags    dark indoors~
 Desc     The timber supports of this mine are rotting away. The Worgen use these
 tunnels as a den, their terrifying howls echoing off the stone walls.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13020
 Desc      The hills outside.
@@ -1093,7 +1093,7 @@ Desc     A massive, crude mound of dirt and logs rises from the southern woods.
 It is home to the brutish Vul'Gol ogres. The smell of unwashed bodies
 and roasting meat is incredibly strong.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13023
 Desc      The Darkened Road East.
@@ -1109,25 +1109,25 @@ Desc     Leaving Darkshire to the east, the road becomes even more treacherous.
 The fog clings to the ground, hiding the roots and rocks. Stitches the
 Abomination is known to march down this road on his path of destruction.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13000
 Desc      Darkshire Town Square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13029
 Desc      The road to Deadwind Pass.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13022
 Desc      The Ogre Mound.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    13024
 Desc      Brightwood Grove.
@@ -1143,13 +1143,13 @@ Desc     Despite its name, there is nothing bright about this grove. It is heavi
 infested with Nightbane Worgen who stalk the perimeter of Darkshire,
 waiting for the Night Watch to drop their guard.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13023
 Desc      The eastern road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    13025
 Desc      Deeper into the grove.
@@ -1166,13 +1166,13 @@ Desc     The Worgen are relentless here. The trees are heavily scarred by massiv
 claw marks, and the undergrowth is trampled down by pack hunting. To the
 north, a faint, pure light glows through the fog.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13024
 Desc      The edge of the grove.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    13026
 Desc      Twilight Grove.
@@ -1189,13 +1189,13 @@ Desc     The fog suddenly lifts. The trees here are ancient and incredibly tall,
 their leaves a vibrant, glowing green. A pristine sanctuary hidden within
 the cursed woods, protected by ancient magic.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13025
 Desc      Brightwood Grove.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    13027
 Desc      The Moonwell.
@@ -1211,7 +1211,7 @@ Desc     A massive, glowing Moonwell sits in the center of a crater. A colossal
 tree with a portal in its roots towers above it, connecting to the
 Emerald Dream. The air is perfectly calm and pure.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13026
 Desc      The grove approach.
@@ -1226,7 +1226,7 @@ Sector   forest~
 Desc     A lonely, ruined tower sits on a hill near the eastern border. It is a
 place of dark rumors and ghost stories, avoided by the locals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13029
 Desc      The road to Deadwind Pass.
@@ -1242,13 +1242,13 @@ Desc     The trees begin to thin out, replaced by sharp, jagged rocks and dead
 stumps. The air grows incredibly still and oppressive. To the east lies
 the cursed canyon of Deadwind Pass.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13023
 Desc      The Darkened Road to Darkshire.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    13028
 Desc      Beggar's Haunt.

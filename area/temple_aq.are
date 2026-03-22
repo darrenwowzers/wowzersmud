@@ -1277,12 +1277,12 @@ pillars reach toward the dark ceiling, and the walls are etched
 with the history of the Qiraji empire. A long, descending ramp 
 leads deep into the earth.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    39100
 Desc      Return to the Scarab Wall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43201
 Desc      The path into the deep.~
@@ -1299,12 +1299,12 @@ lined with hundreds of small alcoves where silithid swarm-guards
 stand in silent vigil. The air hums with a permanent, 
 low-frequency buzzing.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43200
 Desc      The entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43202
 Desc      The Chamber of the Prophet.~
@@ -1322,12 +1322,12 @@ platform is used by the Prophet Skeram to preach to the
 assembled legions. The air here tastes of ozone and madness. 
 Three images of the Prophet flicker on the dais.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43201
 Desc      The entry hall.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43210
 Desc      Toward the Bug Trio.~
@@ -1346,12 +1346,12 @@ environment. The walls are made of a hardened resin, and
 the ceiling is covered in thick webs. The Bug Trio—Vem, 
 Yauj, and Kri—patrol this intersection.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43202
 Desc      Skeram's chamber.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43220
 Desc      Toward huhuran's garden.~
@@ -1369,12 +1369,12 @@ ferns. The air is thick with a toxic green pollen, and
 the sound of beating wings is constant. Princess 
 Huhuran circles the high rafters.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43210
 Desc      The swarm road.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43230
 Desc      Toward the Twin Emperors.~
@@ -1395,12 +1395,12 @@ The air is clear of smoke, but the sense of dread
 only increases. High-ranking dragonspawn stand in 
 silent vigil.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43220
 Desc      Huhuran's garden.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43231
 Desc      The Throne of the Twins.~
@@ -1419,12 +1419,12 @@ glowing with unholy power. They oversee the final
 corruption of Kalimdor from this very seat. The 
 air hums with the power of the Old Gods.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43230
 Desc      The hall entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction down~
 ToRoom    43240
 Desc      The Descent to C'Thun.~
@@ -1445,12 +1445,12 @@ mountain. The walls are damp and the air reeks of
 Hopelessness and old rot. The sound of a giant 
 heartbeat thrums through the floor.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    43231
 Desc      The twins' throne.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43250
 Desc      The Chamber of C'Thun.~
@@ -1469,12 +1469,12 @@ in the center of the room. In the middle of the pit, the
 monstrous Eye of C'Thun stares at you, unblinking. The 
 very air screams with the whispers of the Old God.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43240
 Desc      The descent entrance.~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    43401
 Desc      The exit path.~
@@ -1494,7 +1494,7 @@ Desc     A wide circular room near the entrance. Battleguard
 Sartura stands here, surrounded by her personal 
 guard. She is a whirlwind of blades and fury.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43201
 Desc      Hall of Swarm.~
@@ -1513,7 +1513,7 @@ Desc     A massive circular chamber filled with hundreds of small
 sand-reaver hatchlings. Fankriss the Unyielding stands 
 in the center, his golden armor reflecting the dim light.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    43210
 Desc      Swarm road.~
@@ -1532,7 +1532,7 @@ white sand. Ouro often rises from the center of
 the pit, his body shaking the foundations of 
 the temple.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    43240
 Desc      Descent entry.~
@@ -1549,7 +1549,7 @@ Desc     A deep, circular pit filled with freezing green slime.
 Viscidus stands in the center, his body pulsing with 
 necrotic energy.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    43210
 Desc      Swarm road.~
@@ -1565,7 +1565,7 @@ Flags    indoors~
 Desc     A quiet corner of the entry hall filled with 
 shattered statues and bits of obsidian.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43201
 Desc      Hall of Swarm.~
@@ -1581,12 +1581,12 @@ Flags    indoors~
 Desc     A side tunnel near Skeram's chamber filled with 
 piles of bleached bones and dust.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    43202
 Desc      Skeram's chamber.~
 #ENDEXIT
-Reset O 43106 10 0 43256
+Reset O 43106 10 43256 0
 #ENDROOM
 
 #ROOM
@@ -1596,7 +1596,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A high stone landing overlooking the swarm road.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43210
 Desc      Swarm road.~
@@ -1612,12 +1612,12 @@ Flags    indoors~
 Desc     A side room filled with Qiraji sacred blades 
 and ancient gold coins.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
-Reset O 43104 5 0 43258
+Reset O 43104 5 43258 0
 #ENDROOM
 
 #ROOM
@@ -1628,7 +1628,7 @@ Flags    indoors~
 Desc     A dark alcove in Huhuran's garden where 
 whelps rest between patrols.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43220
 Desc      Huhuran's garden.~
@@ -1644,12 +1644,12 @@ Flags    indoors~
 Desc     A side room filled with wasp stingers and 
 small, bubbling jars of venom.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    43220
 Desc      Huhuran's garden.~
 #ENDEXIT
-Reset O 43109 10 0 43260
+Reset O 43109 10 43260 0
 #ENDROOM
 
 #ROOM
@@ -1660,7 +1660,7 @@ Flags    indoors~
 Desc     A high stone landing near the twins' throne, 
 offering a view of the southern garden.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43231
 Desc      Twins' throne.~
@@ -1676,7 +1676,7 @@ Flags    indoors~
 Desc     A side room filled with obsidian eradicators and 
 ancient stone tablets.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43231
 Desc      Twins' throne.~
@@ -1692,7 +1692,7 @@ Flags    indoors~
 Desc     A dark corner of the pit where the shadows 
 seem to move with a life of their own.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43250
 Desc      C'Thun's chamber.~
@@ -1708,7 +1708,7 @@ Flags    indoors~
 Desc     A small side chamber used for the storage of 
 fine silks and shadow-vials.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43250
 Desc      C'Thun's chamber.~
@@ -1723,11 +1723,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of one hundred interconnected cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43266
 Desc      Cell 2.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43201
 Desc      Hall of Swarm.~
@@ -1742,11 +1742,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow stone room filled with the hum of the swarm.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43265
 Desc      Cell 1.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43267
 Desc      Cell 3.~
@@ -1761,11 +1761,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the lower swarm labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43266
 Desc      Cell 2.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43268
 Desc      Cell 4.~
@@ -1780,11 +1780,11 @@ Sector   inside~
 Flags    indoors~
 Desc     High stone rooms near Skeram's chamber.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43267
 Desc      Cell 3.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43269
 Desc      Cell 5.~
@@ -1799,11 +1799,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the Prophet-guard labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43268
 Desc      Cell 4.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43270
 Desc      Cell 6.~
@@ -1818,11 +1818,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the bug trio entry.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43269
 Desc      Cell 5.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43271
 Desc      Cell 7.~
@@ -1837,11 +1837,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the insect-trio labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43270
 Desc      Cell 6.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43272
 Desc      Cell 8.~
@@ -1856,11 +1856,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Huhuran's garden.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43271
 Desc      Cell 7.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43273
 Desc      Cell 9.~
@@ -1875,11 +1875,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the upper temple tunnels.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43272
 Desc      Cell 8.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43274
 Desc      Cell 10.~
@@ -1894,7 +1894,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A series of confusing stone corridors near the garden.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43273
 Desc      Cell 9.~
@@ -1909,11 +1909,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected garden-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43276
 Desc      Cell 12.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43220
 Desc      Huhuran's garden.~
@@ -1928,11 +1928,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A clinical chamber filled with poisonous pollen.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43275
 Desc      Cell 11.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43277
 Desc      Cell 13.~
@@ -1947,11 +1947,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with organic resin.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43276
 Desc      Cell 12.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43278
 Desc      Cell 14.~
@@ -1966,11 +1966,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where swarmers are hatched.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43277
 Desc      Cell 13.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43279
 Desc      Cell 15.~
@@ -1985,11 +1985,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with shadow-fire residue.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43278
 Desc      Cell 14.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43280
 Desc      Cell 16.~
@@ -2004,11 +2004,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for heavy obsidian maces.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43279
 Desc      Cell 15.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43281
 Desc      Cell 17.~
@@ -2023,11 +2023,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where armor is repaired.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43280
 Desc      Cell 16.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43282
 Desc      Cell 18.~
@@ -2042,11 +2042,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where menders study rituals.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43281
 Desc      Cell 17.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43283
 Desc      Cell 19.~
@@ -2061,11 +2061,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several spiders.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43282
 Desc      Cell 18.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43284
 Desc      Cell 20.~
@@ -2080,11 +2080,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the mid-level garden-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43283
 Desc      Cell 19.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43285
 Desc      Cell 21.~
@@ -2099,11 +2099,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected throne-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43286
 Desc      Cell 22.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43231
 Desc      Twins' throne.~
@@ -2118,11 +2118,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A royal chamber filled with silken banners.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43285
 Desc      Cell 21.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43287
 Desc      Cell 23.~
@@ -2137,11 +2137,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with gold-chased stone.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43286
 Desc      Cell 22.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43288
 Desc      Cell 24.~
@@ -2156,11 +2156,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where guardians are trained.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43287
 Desc      Cell 23.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43289
 Desc      Cell 25.~
@@ -2175,11 +2175,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with the scent of incense.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43288
 Desc      Cell 24.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43290
 Desc      Cell 26.~
@@ -2194,16 +2194,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for elementium bars.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43289
 Desc      Cell 25.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43291
 Desc      Cell 27.~
 #ENDEXIT
-Reset O 43118 10 0 43290
+Reset O 43118 10 43290 0
 #ENDROOM
 
 #ROOM
@@ -2213,11 +2213,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where armor is polished.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43290
 Desc      Cell 26.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43292
 Desc      Cell 28.~
@@ -2232,11 +2232,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where priests study prayers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43291
 Desc      Cell 27.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43293
 Desc      Cell 29.~
@@ -2251,11 +2251,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several shades.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43292
 Desc      Cell 28.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43294
 Desc      Cell 30.~
@@ -2270,11 +2270,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the high-level throne-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43293
 Desc      Cell 29.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43295
 Desc      Cell 31.~
@@ -2289,11 +2289,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected pit-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43296
 Desc      Cell 32.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43250
 Desc      C'Thun's chamber.~
@@ -2308,11 +2308,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark chamber filled with pulsating eyes.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43295
 Desc      Cell 31.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43297
 Desc      Cell 33.~
@@ -2327,11 +2327,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with writhing tentacles.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43296
 Desc      Cell 32.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43298
 Desc      Cell 34.~
@@ -2346,11 +2346,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where shadow-essence is brewed.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43297
 Desc      Cell 33.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43299
 Desc      Cell 35.~
@@ -2365,11 +2365,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with absolute silence.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43298
 Desc      Cell 34.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43300
 Desc      Cell 36.~
@@ -2384,16 +2384,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for dark-ritual robes.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43299
 Desc      Cell 35.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43301
 Desc      Cell 37.~
 #ENDEXIT
-Reset O 43102 10 0 43300
+Reset O 43102 10 43300 0
 #ENDROOM
 
 #ROOM
@@ -2403,11 +2403,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the soul-draining tools are kept.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43300
 Desc      Cell 36.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43302
 Desc      Cell 38.~
@@ -2422,11 +2422,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the whispers are the loudest.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43301
 Desc      Cell 37.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43303
 Desc      Cell 39.~
@@ -2441,11 +2441,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several lost souls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43302
 Desc      Cell 38.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43304
 Desc      Cell 40.~
@@ -2460,7 +2460,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the pit-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43303
 Desc      Cell 39.~
@@ -2475,11 +2475,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected entrance-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43306
 Desc      Cell 42.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43200
 Desc      Entryway.~
@@ -2494,11 +2494,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A wide stone room filled with desert dust.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43305
 Desc      Cell 41.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43307
 Desc      Cell 43.~
@@ -2513,11 +2513,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with obsidian shards.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43306
 Desc      Cell 42.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43308
 Desc      Cell 44.~
@@ -2532,11 +2532,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where guards prepare their shifts.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43307
 Desc      Cell 43.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43309
 Desc      Cell 45.~
@@ -2551,11 +2551,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with the scent of old sand.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43308
 Desc      Cell 44.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43310
 Desc      Cell 46.~
@@ -2570,16 +2570,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for stone maces and bone-cleavers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43309
 Desc      Cell 45.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43311
 Desc      Cell 47.~
 #ENDEXIT
-Reset O 43139 10 0 43310
+Reset O 43139 10 43310 0
 #ENDROOM
 
 #ROOM
@@ -2589,11 +2589,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the stone is carved.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43310
 Desc      Cell 46.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43312
 Desc      Cell 48.~
@@ -2608,11 +2608,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the echoes of war are faint.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43311
 Desc      Cell 47.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43313
 Desc      Cell 49.~
@@ -2627,11 +2627,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several spiders.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43312
 Desc      Cell 48.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43314
 Desc      Cell 50.~
@@ -2646,7 +2646,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entry-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43313
 Desc      Cell 49.~
@@ -2661,11 +2661,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected swarm-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43316
 Desc      Cell 52.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43210
 Desc      Swarm road.~
@@ -2680,11 +2680,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A clinical chamber filled with silithid eggs.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43315
 Desc      Cell 51.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43317
 Desc      Cell 53.~
@@ -2699,11 +2699,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with chitinous plates.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43316
 Desc      Cell 52.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43318
 Desc      Cell 54.~
@@ -2718,11 +2718,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where soldiers prepare for battle.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43317
 Desc      Cell 53.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43319
 Desc      Cell 55.~
@@ -2737,11 +2737,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with the scent of decay.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43318
 Desc      Cell 54.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43320
 Desc      Cell 56.~
@@ -2756,16 +2756,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for silithid brain-matter.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43319
 Desc      Cell 55.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43321
 Desc      Cell 57.~
 #ENDEXIT
-Reset O 43119 10 0 43320
+Reset O 43119 10 43320 0
 #ENDROOM
 
 #ROOM
@@ -2775,11 +2775,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the chitin is shaped.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43320
 Desc      Cell 56.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43322
 Desc      Cell 58.~
@@ -2794,11 +2794,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the clicking of claws is muffled.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43321
 Desc      Cell 57.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43323
 Desc      Cell 59.~
@@ -2813,11 +2813,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several swarmer scouts.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43322
 Desc      Cell 58.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43324
 Desc      Cell 60.~
@@ -2832,7 +2832,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the swarm-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43323
 Desc      Cell 59.~
@@ -2847,11 +2847,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected terrace-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43326
 Desc      Cell 62.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43230
 Desc      Terrace entry.~
@@ -2866,11 +2866,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A clinical chamber filled with magical fluids.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43325
 Desc      Cell 61.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43327
 Desc      Cell 63.~
@@ -2885,11 +2885,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with prismatic scales.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43326
 Desc      Cell 62.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43328
 Desc      Cell 64.~
@@ -2904,11 +2904,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where wardens prepare for battle.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43327
 Desc      Cell 63.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43329
 Desc      Cell 65.~
@@ -2923,11 +2923,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with the scent of ancient scales.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43328
 Desc      Cell 64.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43330
 Desc      Cell 66.~
@@ -2942,16 +2942,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for elementium armor plates.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43329
 Desc      Cell 65.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43331
 Desc      Cell 67.~
 #ENDEXIT
-Reset O 43118 10 0 43330
+Reset O 43118 10 43330 0
 #ENDROOM
 
 #ROOM
@@ -2961,11 +2961,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the stone is shaped.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43330
 Desc      Cell 66.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43332
 Desc      Cell 68.~
@@ -2980,11 +2980,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the echoes of the twins are loud.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43331
 Desc      Cell 67.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43333
 Desc      Cell 69.~
@@ -2999,11 +2999,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several lashlayers.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43332
 Desc      Cell 68.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43334
 Desc      Cell 70.~
@@ -3018,7 +3018,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the terrace-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43333
 Desc      Cell 69.~
@@ -3033,11 +3033,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty interconnected pit-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43336
 Desc      Cell 72.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43240
 Desc      Descent entry.~
@@ -3052,11 +3052,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A clinical chamber filled with pulsating eyes.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43335
 Desc      Cell 71.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43337
 Desc      Cell 73.~
@@ -3071,11 +3071,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with writhing tentacles.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43336
 Desc      Cell 72.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43338
 Desc      Cell 74.~
@@ -3090,11 +3090,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where shadow-essence is brewed.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43337
 Desc      Cell 73.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43339
 Desc      Cell 75.~
@@ -3109,11 +3109,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with absolute silence.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43338
 Desc      Cell 74.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43340
 Desc      Cell 76.~
@@ -3128,16 +3128,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for dark-ritual robes.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43339
 Desc      Cell 75.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43341
 Desc      Cell 77.~
 #ENDEXIT
-Reset O 43102 10 0 43340
+Reset O 43102 10 43340 0
 #ENDROOM
 
 #ROOM
@@ -3147,11 +3147,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the soul-draining tools are kept.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43340
 Desc      Cell 76.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43342
 Desc      Cell 78.~
@@ -3166,11 +3166,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the whispers are the loudest.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43341
 Desc      Cell 77.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43343
 Desc      Cell 79.~
@@ -3185,11 +3185,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several lost souls.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43342
 Desc      Cell 78.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43344
 Desc      Cell 80.~
@@ -3204,7 +3204,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the pit-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43343
 Desc      Cell 79.~
@@ -3219,11 +3219,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of interconnected Skeram-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43346
 Desc      Cell 82.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43202
 Desc      Skeram's chamber.~
@@ -3238,11 +3238,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the Prophet's guard.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43345
 Desc      Cell 81.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43347
 Desc      Cell 83.~
@@ -3257,7 +3257,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the Prophet-guard labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43346
 Desc      Cell 82.~
@@ -3272,11 +3272,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of interconnected Sartura-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43349
 Desc      Cell 85.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43251
 Desc      Sartura's hall.~
@@ -3291,11 +3291,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the whirlwind guard.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43348
 Desc      Cell 84.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43350
 Desc      Cell 86.~
@@ -3310,7 +3310,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the whirlwind labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43349
 Desc      Cell 85.~
@@ -3325,11 +3325,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of interconnected Fankriss-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43352
 Desc      Cell 88.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43252
 Desc      Fankriss's lair.~
@@ -3344,11 +3344,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the reaver brood.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43351
 Desc      Cell 87.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43353
 Desc      Cell 89.~
@@ -3363,7 +3363,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the reaver labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43352
 Desc      Cell 88.~
@@ -3378,11 +3378,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of interconnected Viscidus-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43355
 Desc      Cell 91.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43254
 Desc      Viscidus's pit.~
@@ -3397,11 +3397,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the toxic guard.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43354
 Desc      Cell 90.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43356
 Desc      Cell 92.~
@@ -3416,7 +3416,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the toxic labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43355
 Desc      Cell 91.~
@@ -3431,11 +3431,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of interconnected Ouro-cells.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43358
 Desc      Cell 94.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43253
 Desc      Ouro's lair.~
@@ -3450,11 +3450,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The second cell of the worm-guard.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43357
 Desc      Cell 93.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43359
 Desc      Cell 95.~
@@ -3469,7 +3469,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the worm labyrinth.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43358
 Desc      Cell 94.~
@@ -3484,11 +3484,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43361
 Desc      Cell 97.~
-Exit
+#EXIT
 Direction south~
 ToRoom    43250
 Desc      C'Thun's chamber.~
@@ -3503,11 +3503,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43360
 Desc      Cell 96.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43362
 Desc      Cell 98.~
@@ -3522,11 +3522,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43361
 Desc      Cell 97.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43363
 Desc      Cell 99.~
@@ -3541,11 +3541,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43362
 Desc      Cell 98.~
-Exit
+#EXIT
 Direction north~
 ToRoom    43364
 Desc      Cell 100.~
@@ -3560,7 +3560,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire pit-cells.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    43363
 Desc      Cell 99.~
@@ -3578,7 +3578,7 @@ writhing tentacles, and the air hums with the madness of the
 Old God. You have survived the Temple, but the whispers 
 remain in your mind.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    43201
 Desc      Return to the Hall of Swarm.~

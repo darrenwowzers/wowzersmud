@@ -18,12 +18,12 @@ Desc     You are inside the hermit's hut. It is rather old, but serves it purpos
 It keeps its habitant from the rough winds and dangerous beasts of the
 plains and foothills. There is a small fireplace here.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9501
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9504
 #ENDEXIT
@@ -40,17 +40,17 @@ Desc     This is a small and simple tent with few possessions in sight. Lying
 here and there are young-looking men and women, possibly slaves to the
 leader of this band.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9502
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9505
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9500
 #ENDEXIT
@@ -66,17 +66,17 @@ Desc     You are inside the hermit's hut. It is rather old, but serves it purpos
 It keeps its habitant from the rough winds and dangerous beasts of the
 plains and foothills. There is a small fireplace here.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9503
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9506
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9501
 #ENDEXIT
@@ -92,12 +92,12 @@ and refresh themselves beside this beautiful oasis. Three tents and some
 camels make up the party. From within two of the tents you hear muffled
 voices, obviously surprised at your visit.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    9507
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9502
 #ENDEXIT
@@ -113,17 +113,17 @@ Desc     You are inside the hermit's hut. It is rather old, but serves it purpos
 It keeps its habitant from the rough winds and dangerous beasts of the
 plains and foothills. There is a small fireplace here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9500
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9505
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9508
 #ENDEXIT
@@ -139,22 +139,22 @@ Desc     You are inside a small one-room cabin made entirely from heavy logs.  I
 very sparsely furnished, containing only most basic housekeeping equipment,
 such as a bed, a chair and a table.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9501
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9506
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9509
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9504
 #ENDEXIT
@@ -170,22 +170,22 @@ Desc     You are inside a small one-room cabin made entirely from heavy logs.  I
 very sparsely furnished, containing only most basic housekeeping equipment,
 such as a bed, a chair and a table.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9502
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9507
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9510
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9505
 #ENDEXIT
@@ -201,17 +201,17 @@ various make and appearance are spread about. The ceiling above supports huge
 candelabras, which light the room. To the east, you see a bright light and
 hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9503
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9511
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9506
 #ENDEXIT
@@ -228,17 +228,17 @@ various make and appearance are spread about. The ceiling above supports huge
 candelabras, which light the room. To the east, you see a bright light and
 hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9504
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9509
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9513
 #ENDEXIT
@@ -255,22 +255,22 @@ various make and appearance are spread about. The ceiling above supports huge
 candelabras, which light the room. To the east, you see a bright light and
 hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9505
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9510
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9514
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9508
 #ENDEXIT
@@ -285,22 +285,22 @@ Flags    dark indoors~
 Desc     You are in the guard house to the west of the entrance
 to the castle.  There are nude posters covering the walls.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9506
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9511
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9515
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9509
 #ENDEXIT
@@ -316,17 +316,17 @@ Desc     You are by the temple altar in the northern end of the Temple of Darkha
 A huge altar made from white polished marble is standing in front of you and
 behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9507
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9516
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9510
 #ENDEXIT
@@ -343,12 +343,12 @@ Dividing the room in two is a large desk, and on the wall behind it are
 numerous shelves crammed with jars, bottles, books and scrolls of all
 sorts and sizes.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9513
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9517
 #ENDEXIT
@@ -363,22 +363,22 @@ Desc     You are on a well-kept gravel road that leads north-south through the
 graveyard.  On both sides of the road grow dark evergreen trees.  An iron
 grate is to the north and narrow gravel paths lead east and west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9508
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9514
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9518
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9512
 #ENDEXIT
@@ -395,22 +395,22 @@ various make and appearance are spread about. The ceiling above supports huge
 candelabras, which light the room. To the east, you see a bright light and
 hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9509
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9515
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9519
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9513
 #ENDEXIT
@@ -428,22 +428,22 @@ excitable and sleek looking stallion that stands nearly 18 hands tall.
 There are a number of different stalls here each holding a different mount,
 from the every day pack mule to the exotic Tros horse.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9510
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9516
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9520
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9514
 #ENDEXIT
@@ -461,17 +461,17 @@ the western wall, and through the southeastern windows you can see the temple
 square.  This place makes you feel like home.
 A small sign with big letters is fastened to the bar.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9511
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9521
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9515
 #ENDEXIT
@@ -487,17 +487,17 @@ Desc     This seems like your average basement.  Old Christmas decorations,
 suitcases, bicycles litter your way.  You hear the squeaking of
 rats in the corners.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9512
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9518
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9522
 #ENDEXIT
@@ -516,22 +516,22 @@ room.  This stretches at least 300 square feet, so can you imagine the BED?
 A large staircase leads down to the hall.  A couple of doors open up to a
 broad balcony to the south. 
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9513
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9519
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9523
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9517
 #ENDEXIT
@@ -548,22 +548,22 @@ tables and chairs here, you can see that this room could easily seat
 several hundred people. It is oddly deserted here, obviously not meal time.
   Exits lead west to the kitchen, and back east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9514
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9520
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9524
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9518
 #ENDEXIT
@@ -580,22 +580,22 @@ ceiling and torch light glimmers off the marble floor here. You are amazed at
 the sheer size of the hall. The hall itself leads north and east. You notice a
 smaller hall leading south, deeper into the keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9515
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9521
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9525
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9519
 #ENDEXIT
@@ -612,17 +612,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9516
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9526
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9520
 #ENDEXIT
@@ -639,17 +639,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9517
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9523
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9527
 #ENDEXIT
@@ -666,22 +666,22 @@ decorated with paintings of smiling Kings and Queens. The most attractive
 picture is one of a Prince in shiny armour. By one of the walls there is an
 old arm-chair. The only exit is through the aspenwood door to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9518
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9524
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9528
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9522
 #ENDEXIT
@@ -699,22 +699,22 @@ into the wall here there hang several travel worthy cloaks, and a small
 leather backpack.  It looks as if someone has prepared this room to be used
 in the event speedy of a evacuation.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9519
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9525
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9529
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9523
 #ENDEXIT
@@ -728,22 +728,22 @@ Sector   city~
 Flags    dark indoors tunnel~
 Desc     This Passageway branches off from the main hall and leads somewhere ... where?
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9520
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9526
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9530
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9524
 #ENDEXIT
@@ -761,17 +761,17 @@ the night sky.  The room is dark and there is almost a musty odor
 to it.  You are surprised that you can't detect any dust or dirt,
 although there are a couple of cobwebs in the corner.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9521
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9531
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9525
 #ENDEXIT
@@ -787,17 +787,17 @@ Desc     You are in a large room which continues to the west.  You notice many
 coffins here.  Open coffins reveal remains of something other than man.  
 The smell of reptile is very strong here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9522
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9528
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9532
 #ENDEXIT
@@ -814,22 +814,22 @@ glass tubes and scores of oddly shaped vials and bottles are everywhere.
 It is incredibly messy here, crushed glass and other trash litter the floor.
   The only apparent exit is the one you entered by.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9523
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9529
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9533
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9527
 #ENDEXIT
@@ -846,22 +846,22 @@ glass tubes and scores of oddly shaped vials and bottles are everywhere.
 It is incredibly messy here, crushed glass and other trash litter the floor.
   The only apparent exit is the one you entered by.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9524
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9530
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9534
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9528
 #ENDEXIT
@@ -877,22 +877,22 @@ Desc     You are in a long hallway leading north and south. The walls emit a fai
 magical glow which provides enough light to see by.
   The sharp sound of metal on metal can be heard to the west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9525
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9531
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9535
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9529
 #ENDEXIT
@@ -910,17 +910,17 @@ the night sky.  The room is dark and there is almost a musty odor
 to it.  You are surprised that you can't detect any dust or dirt,
 although there are a couple of cobwebs in the corner.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9526
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9536
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9530
 #ENDEXIT
@@ -936,17 +936,17 @@ Desc     You are in a small store room. Assorted junk is piled on shelves or
 leaning against walls.
   The only apparent exit it back south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9527
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9533
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9537
 #ENDEXIT
@@ -964,22 +964,22 @@ makes you feel the agony of HUNGER. The only visible exit is south to the
 Northern end of the hall. To the north there is a larder, and to the east
 stands a fridge.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9528
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9534
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9538
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9532
 #ENDEXIT
@@ -994,22 +994,22 @@ Flags    dark indoors private~
 Desc     You can see food all over. Among the heaps of food you notice HUGE rats
 scuttering around, nibbling pieces off the heaps here and there.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9529
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9535
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9539
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9533
 #ENDEXIT
@@ -1023,22 +1023,22 @@ Sector   inside~
 Flags    dark indoors~
 Desc     The stairs continue to circle up and down here.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9530
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9536
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9540
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9534
 #ENDEXIT
@@ -1054,17 +1054,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9531
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9541
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9535
 #ENDEXIT
@@ -1080,17 +1080,17 @@ Desc     You are in a dark broom closet. Many straw brooms and other cleaning
 instruments have been left here, apparently unused (perhaps the maid quit?).
   The only exit leads back north to the hallway.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9532
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9538
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9542
 #ENDEXIT
@@ -1106,22 +1106,22 @@ Desc     This is the central office of Discordia.  Here meetings are held and
 important issues discussed.  Here the deities and leaders merge together
 their trains of thought, to form the governing body of Discordia.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9533
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9539
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9543
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9537
 #ENDEXIT
@@ -1136,22 +1136,22 @@ Flags    dark indoors~
 Desc     You are in a small chamber, the stale air here is testament to the fact
 that it has gone undisturbed for many years.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9534
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9540
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9544
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9538
 #ENDEXIT
@@ -1167,22 +1167,22 @@ Desc     You are on a small landing in the middle of a long stairway leading up.
 Your senses seem dulled here, no sound or smell can be detected at all, and
 the only thing you can see in any direction is endless stairway.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9535
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9541
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9545
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9539
 #ENDEXIT
@@ -1198,17 +1198,17 @@ Desc     You see a splendid of the most of this world. The valleys stretch as fa
 the eye reaches to the south from here. Down below you can see the entrance
 of this magnificent building. To the north are the doors to Redferne's Bedroom.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9536
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9546
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9540
 #ENDEXIT
@@ -1227,17 +1227,17 @@ oblivious to your presence.
   Exits lead north to the common room, west to the dinning room, east to
 a plain hallway and back south through the gate.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9537
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9543
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9547
 #ENDEXIT
@@ -1254,22 +1254,22 @@ are racks of finely crafted weapons. A huge chest with a glowing lock is
 set to one side. Several unfinished looking blades rest atop a small work
 table.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9538
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9544
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9548
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9542
 #ENDEXIT
@@ -1286,22 +1286,22 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9539
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9545
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9549
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9543
 #ENDEXIT
@@ -1318,22 +1318,22 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9540
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9546
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9550
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9544
 #ENDEXIT
@@ -1348,17 +1348,17 @@ Flags    private~
 Desc     You stand on a precarious catwalk, high above the ground.
 This small beam is so thin that your toes hang off into the air.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9541
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9551
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9545
 #ENDEXIT
@@ -1377,17 +1377,17 @@ from throughout history.  Antiques furnitures and oriental rugs are
 tastefully placed in ideal spots.  The door is at least 10 feet
 high and is made of oak.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9542
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9548
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9552
 #ENDEXIT
@@ -1403,22 +1403,22 @@ Desc     A small indoor garden so that the residents don't have to go
 outside to enjoy plants and commune with nature.  There are several
 trees, a small pond and flowers of every kind.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9543
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9549
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9553
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9547
 #ENDEXIT
@@ -1439,22 +1439,22 @@ hanging down from the ceiling approximately 10 feet off the floor. To the
 east there is a great old ashen door. A large glass window is set in the
 west wall.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9544
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9550
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9554
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9548
 #ENDEXIT
@@ -1468,22 +1468,22 @@ Sector   inside~
 Flags    dark indoors tunnel private~
 Desc     It is very dark here...
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9545
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9551
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9555
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9549
 #ENDEXIT
@@ -1500,17 +1500,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9546
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9556
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9550
 #ENDEXIT
@@ -1528,17 +1528,17 @@ into the storm clouds above.
   A diamond gate is to the north, guarded by a huge golem. The trail
 back south has disappeared behind you.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9547
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9553
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9557
 #ENDEXIT
@@ -1557,22 +1557,22 @@ and fade again at random times. All this splendor plays about and draws
 attention to a large throne in the center of the room, it seems to be cut
 from a single enormous emerald.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9548
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9554
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9558
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9552
 #ENDEXIT
@@ -1588,22 +1588,22 @@ Desc     Here was the rehearsal and recital room for the residents of the
 estate.  There is a Steinway piano in the corner and various gilded
 instruments are on display in a glass cabinet.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9549
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9555
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9559
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9553
 #ENDEXIT
@@ -1617,22 +1617,22 @@ Sector   inside~
 Flags    dark indoors tunnel private~
 Desc     It is very dark here...
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9550
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9556
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9560
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9554
 #ENDEXIT
@@ -1649,17 +1649,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9551
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9561
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9555
 #ENDEXIT
@@ -1675,17 +1675,17 @@ chairs for a party of 100.  The tables and chairs are ornate and
 expensive, tasteful and elegant.  Stairs lead up to the main
 house.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9552
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9558
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9562
 #ENDEXIT
@@ -1701,22 +1701,22 @@ Desc     You are in an apparently empty classroom. A strange feeling of being
 watched comes over you, and you hear the faint rustle of robes.
   The only apparent exit is back east to the hallway.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9553
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9559
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9563
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9557
 #ENDEXIT
@@ -1733,22 +1733,22 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9554
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9560
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9564
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9558
 #ENDEXIT
@@ -1763,22 +1763,22 @@ Desc     The lawn seems to stretch and stretch to the south and to the west.
 North of you is a gate.  The grass is emerald green and luscious,
 obviously well cared for.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9555
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9561
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9565
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9559
 #ENDEXIT
@@ -1795,17 +1795,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9556
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9566
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9560
 #ENDEXIT
@@ -1821,17 +1821,17 @@ chairs for a party of 100.  The tables and chairs are ornate and
 expensive, tasteful and elegant.  Stairs lead up to the main
 house.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9557
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9563
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9567
 #ENDEXIT
@@ -1847,22 +1847,22 @@ Desc     You are in an apparently empty classroom. A strange feeling of being
 watched comes over you, and you hear the faint rustle of robes.
   The only apparent exit is back east to the hallway.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9558
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9564
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9568
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9562
 #ENDEXIT
@@ -1879,22 +1879,22 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9559
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9565
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9569
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9563
 #ENDEXIT
@@ -1910,22 +1910,22 @@ Desc     The lawn seems to stretch and stretch to the south and to the west.
 North of you is a gate.  The grass is emerald green and luscious,
 obviously well cared for.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9560
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9566
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9570
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9564
 #ENDEXIT
@@ -1942,17 +1942,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9561
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9571
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9565
 #ENDEXIT
@@ -1967,17 +1967,17 @@ Flags    dark~
 Desc     The levee is directly north of here.  The river flows in an east west
 direction.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9562
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9568
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9572
 #ENDEXIT
@@ -1993,22 +1993,22 @@ going about their business, while others seem to have no business at all.
 In general, it is calm, yet there is always a incessant buzz of things
 going on about.  The canyon continues north and east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9563
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9569
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9573
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9567
 #ENDEXIT
@@ -2023,22 +2023,22 @@ Desc     This damp, cold beach is covered in a thick grey mist limiting vision
 to arms reach.  The ghostly sound of the waves can be heard off to the
 east. The mist itself seem to be flowing in from the west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9564
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9570
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9574
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9568
 #ENDEXIT
@@ -2053,22 +2053,22 @@ Flags    dark indoors tunnel~
 Desc     You are at the bottom of the mineshaft.  The air here is very sooty, and
 it is very hard to breath.  The mineshaft leads up and east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9565
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9571
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9575
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9569
 #ENDEXIT
@@ -2082,17 +2082,17 @@ Sector   hills~
 Desc     You stand on Bywater Road, the busiest street in all of Shiredom.  The road
 continues to the east and west while to the north lies the general store.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9566
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9576
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9570
 #ENDEXIT
@@ -2106,12 +2106,12 @@ Sector   water_swim~
 Desc     The stream is cold and frigid, yet it supports plenty of life beneath its
 surface.  The current trickles west and there is a field to the south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9567
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9573
 #ENDEXIT
@@ -2126,17 +2126,17 @@ Desc     You are in a clearing in the forest.  Lots of fresh stumps of varying s
 protrude from the ground and heavy logs are stacked neatly in a big pile
 supported by stakes set into the ground.  Paths lead north, east and west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9568
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9574
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9572
 #ENDEXIT
@@ -2152,22 +2152,22 @@ Desc     You stand beside a large dark pond.  The water boils not with heat, but
 motion, as if it is alive.  A creaking beat pulses through the air, leaving
 you with a cold sweat and fear in your heart.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9569
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9575
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9577
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9573
 #ENDEXIT
@@ -2184,22 +2184,22 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9570
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9576
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9578
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9574
 #ENDEXIT
@@ -2214,17 +2214,17 @@ Desc     You are on a small path leading through the dense forest.  The crowns o
 old trees leave the forest in an unreal twilight illumination.  The path
 continues east and west.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9571
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9579
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9575
 #ENDEXIT
@@ -2238,17 +2238,17 @@ Sector   desert~
 Desc     A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9574
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9578
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9582
 #ENDEXIT
@@ -2264,22 +2264,22 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9575
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9579
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9583
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9577
 #ENDEXIT
@@ -2294,17 +2294,17 @@ Desc     Being very careful not to lose your balance, you look around and
 find that this canyon is about a half a kilometer deep. To the west is
 a dark cave leading under the desert sands.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9576
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9584
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9578
 #ENDEXIT
@@ -2319,12 +2319,12 @@ Flags    dark indoors tunnel~
 Desc     You are standing in water, the tunnel continues both to the
 north and south.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9581
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9585
 #ENDEXIT
@@ -2340,17 +2340,17 @@ Desc     You stand beside a large dark pond.  The water boils not with heat, but
 motion, as if it is alive.  A creaking beat pulses through the air, leaving
 you with a cold sweat and fear in your heart.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    9582
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9586
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9580
 #ENDEXIT
@@ -2363,22 +2363,22 @@ Name     Sand Bar~
 Sector   desert~
 Desc     You are on a little sand bar in the water.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9577
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9583
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9587
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9581
 #ENDEXIT
@@ -2395,22 +2395,22 @@ smaller valley with a building in the center of it.  To the north-west, you
 can see a very small valley with a shack in it's center.  A rope ladder
 leads down into a trail.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9578
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9584
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9588
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9582
 #ENDEXIT
@@ -2427,17 +2427,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9579
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    9589
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9583
 #ENDEXIT
@@ -2453,12 +2453,12 @@ Desc     You stand beside a large dark pond.  The water boils not with heat, but
 motion, as if it is alive.  A creaking beat pulses through the air, leaving
 you with a cold sweat and fear in your heart.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9580
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9586
 #ENDEXIT
@@ -2473,17 +2473,17 @@ Flags    dark indoors~
 Desc     This cavern overwhelms you. The walls and ceiling seem miles away.
 Bones of previous adventurers lie strewn on the cavern floor.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9581
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9587
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9585
 #ENDEXIT
@@ -2500,17 +2500,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9582
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9588
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9586
 #ENDEXIT
@@ -2526,17 +2526,17 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9583
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    9589
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9587
 #ENDEXIT
@@ -2553,12 +2553,12 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    9584
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    9588
 #ENDEXIT

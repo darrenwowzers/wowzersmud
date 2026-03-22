@@ -1508,14 +1508,14 @@ Desc     You are standing before a shimmering rainbow arching high up into the
 sky.  You feel somehow separated from the natural world, even though the
 city of Darkhaven lies below you.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    801
 Desc      The rainbow extends above you, fading out of existence only meters away.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    21338
 Desc      You can see the Temple of Darkhaven below you.
@@ -1539,14 +1539,14 @@ Desc     You are standing on the rainbow, surrounded by many beams of multicolor
 light.  Through the bottom of the rainbow you can barely make out the
 cathedral of Darkhaven.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    802
 Desc      The rainbow extends far above you, slowly fading into darkness.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    800
 Desc      The rainbow extends below you towards Darkhaven.
@@ -1570,14 +1570,14 @@ Desc     You are standing on the rainbow, surrounded by many beams of multicolor
 light.  Through the bottom of the rainbow you can see the city of Darkhaven and
 the land surrounding it.  The vast landscape seems to be leagues below you.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    803
 Desc      The rainbow extends far above you, slowly fading into darkness.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    801
 Desc      The rainbow extends below you towards the land you once knew as home.
@@ -1600,7 +1600,7 @@ Sector   air~
 Desc     You are standing on the rainbow, surrounded by many beams of multicolored
 light.  The rainbow extends above and below you as far as you can see.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    804
 Desc      The rainbow extends far above you.  You see a glowing white light at the 
@@ -1608,7 +1608,7 @@ rainbow's end.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    802
 Desc      The rainbow extends far below you, slowly fading into darkness.
@@ -1632,7 +1632,7 @@ Desc     You are nearing the end of the rainbow.  The beams of multicolored
 light have begun to merge and solidify.  All around you you see glowing
 star-like motes of dust.  High above you is a floating bridge.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    805
 Desc      The rainbow extends above you, merging into a brilliant glowing
@@ -1640,7 +1640,7 @@ bridge.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    803
 Desc      The rainbow extends far below you, slowly fading into darkness.
@@ -1679,7 +1679,7 @@ colors have twisted and merged into a beautiful glowing bridge that leads
 toward a massive white gate to the north.  All around you is a soft, peaceful 
 glow interrupted only by the passing of star-like dust motes before your eyes.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    806
 Desc      The bridge leads on to a massive white gate.  You see a large grey figure
@@ -1687,7 +1687,7 @@ standing there.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    804
 Desc      The bridge fragments into a beautiful spectrum of colors that drops out of sight below you.
@@ -1732,7 +1732,7 @@ you can see a field of blackness filled with silvery snake-like tendrils,
 stars, and occasional flashes of light.  A slate plaque inset in the wall
 next to the gate catches your eye.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    807
 Key       800
@@ -1743,7 +1743,7 @@ Keywords  gate~
 Flags     isdoor closed locked pickproof nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    805
 Desc      The bridge extends towards the rainbow, which drops out of sight
@@ -1792,21 +1792,21 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting.  To the south is a set of pearly
 gates: the sole mundane manner of leaving the Astral Plane.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    808
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    809
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    806
 Key       800
@@ -1816,21 +1816,21 @@ Keywords  gate~
 Flags     isdoor closed locked pickproof nopassdoor~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    810
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    811
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    812
 Desc      The astral field leads off into infinity.
@@ -1858,35 +1858,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting, and it is difficult to maintain your 
 bearings and sense of direction.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    813
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    807
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    814
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    812
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    810
 Desc      The astral field leads off into infinity.
@@ -1906,35 +1906,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting, and it is difficult to maintain your 
 bearings and sense of direction.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    814
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    816
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    807
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    811
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    810
 Desc      The astral field leads off into infinity.
@@ -1954,35 +1954,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting, and it is difficult to maintain your 
 bearings and sense of direction.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    809
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    813
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    808
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    807
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    815
 Desc      The astral field leads off into infinity.
@@ -2002,35 +2002,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting, and it is difficult to maintain your 
 bearings and sense of direction.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    812
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    809
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    807
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    816
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    817
 Desc      The astral field leads off into infinity.
@@ -2050,35 +2050,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting, and it is difficult to maintain your 
 bearings and sense of direction.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    815
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    817
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    807
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    808
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    811
 Desc      The astral field leads off into infinity.
@@ -2098,42 +2098,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting.  The astral field lies in all
 directions.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    810
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    815
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    814
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    808
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    820
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    818
 Desc      The astral field leads off into infinity.
@@ -2154,42 +2154,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is very disorienting.  The vast expanse of the astral
 field lies in all directions.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    808
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    817
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    819
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    813
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    818
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    809
 Desc      The astral field leads off into infinity.
@@ -2209,42 +2209,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is disorienting, yet your instincts say you are
 nearing what you seek.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    813
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    812
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    822
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    820
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    816
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    810
 Desc      The astral field leads off into infinity.
@@ -2264,42 +2264,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is disorienting, yet your instincts say you are nearing
 what you seek.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    815
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    821
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    809
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    817
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    811
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    819
 Desc      The astral field leads off into infinity.
@@ -2319,42 +2319,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is disorienting, yet your instincts say you are nearing
 what you seek.  All exits lead off into the astral plane.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    821
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    816
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    812
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    814
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    822
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    811
 Desc      The astral field leads off into infinity.
@@ -2374,42 +2374,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is highly disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    809
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    819
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    833
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    836
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    813
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    814
 Desc      The astral field leads off into infinity.
@@ -2431,42 +2431,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is highly disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    814
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    816
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    834
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    810
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    818
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    838
 Desc      You see a tangible strand of silvery light.
@@ -2486,42 +2486,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is highly disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    815
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    840
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    821
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    813
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    835
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    811
 Desc      The astral field leads off into infinity.
@@ -2545,42 +2545,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is highly disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    842
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    816
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    820
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    833
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    817
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    812
 Desc      The astral field leads off into infinity.
@@ -2600,35 +2600,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is highly disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    834
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    844
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    817
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    812
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    815
 Desc      The astral field leads off into infinity.
@@ -2650,42 +2650,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    826
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    832
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    828
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    835
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    837
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    824
 Desc      The astral field leads off into infinity.
@@ -2708,42 +2708,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    839
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    833
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    829
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    823
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    825
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    830
 Desc      The astral field leads off into infinity.
@@ -2767,42 +2767,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    827
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    830
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    828
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    841
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    824
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    834
 Desc      The astral field leads off into infinity.
@@ -2822,42 +2822,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    827
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    843
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    829
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    835
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    823
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    831
 Desc      The astral field leads off into infinity.
@@ -2879,42 +2879,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting.  Nearby you see a large silvery
 strand of light.  All but one exit leads off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    825
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    831
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    844
 Desc      You see a tangible strand of silvery light.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    832
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    833
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    826
 Desc      The astral field leads off into infinity.
@@ -2937,42 +2937,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting, and you are having trouble 
 keeping your sense of direction.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    809
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    845
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    847
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    834
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    825
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    823
 Desc      The astral field leads off into infinity.
@@ -2992,42 +2992,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting, and you are having trouble 
 keeping your sense of direction.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    826
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    849
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    835
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    846
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    824
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    830
 Desc      The astral field leads off into infinity.
@@ -3049,42 +3049,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting, and you are having trouble 
 keeping your sense of direction.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    833
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    845
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    825
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    847
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    824
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    829
 Desc      The astral field leads off into infinity.
@@ -3111,42 +3111,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting, and you are having trouble 
 keeping your sense of direction.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    826
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    846
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    834
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    832
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    827
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    848
 Desc      The astral field leads off into the depths.
@@ -3168,42 +3168,42 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is extremely disorienting, and you are having trouble 
 keeping your sense of direction.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    835
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    849
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    823
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    831
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    848
 Desc      The astral field leads off into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    827
 Desc      The astral field leads off into infinity.
@@ -3223,35 +3223,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is incredibly disorienting, and you are having trouble 
 keeping your senses straight.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    818
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    821
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    830
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    827
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    824
 Desc      The astral field leads off into infinity.
@@ -3273,35 +3273,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is incredibly disorienting, and you are having trouble 
 keeping your senses straight.  All exits lead off into the astral plane.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    828
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    825
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    831
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    822
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    819
 Desc      The astral field leads off into infinity.
@@ -3323,35 +3323,35 @@ of silvery light and insubstantial shining motes of dust.  The weightlessness
 of this environment is incredibly disorienting, and you are having trouble 
 keeping your senses straight.  All exits lead off into the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    829
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    820
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    823
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    832
 Desc      The astral field leads off into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    826
 Desc      The astral field leads off into infinity.
@@ -3369,14 +3369,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    837
 Desc      The strand of light twists and turns out of sight.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    818
 Desc      You see the infinite expanse of the astral field.
@@ -3394,14 +3394,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    823
 Desc      You see the infinite expanse of the astral field.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    836
 Desc      The strand of light twists and turns out of sight.
@@ -3419,14 +3419,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    819
 Desc      You see the infinite expanse of the astral field.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    839
 Desc      The strand of light twists and turns out of sight.
@@ -3444,14 +3444,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    824
 Desc      You see the infinite expanse of the astral field.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    838
 Desc      The strand of light twists and turns out of sight.
@@ -3469,14 +3469,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    841
 Desc      The strand of light twists and turns out of sight.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    820
 Desc      You see the infinite expanse of the astral field.
@@ -3494,14 +3494,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    825
 Desc      You see the infinite expanse of the astral field.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    840
 Desc      The strand of light twists and turns out of sight.
@@ -3519,14 +3519,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction up~
 ToRoom    821
 Desc      You see the infinite expanse of the astral field.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    843
 Desc      The strand of light twists and turns out of sight.
@@ -3544,14 +3544,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    842
 Desc      The strand of light twists and turns out of sight.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    826
 Desc      You see the infinite expanse of the astral field.
@@ -3569,14 +3569,14 @@ Flags    indoors~
 Desc     You are standing atop a silvery strand of light that twists and turns
 through the astral field.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    822
 Desc      You see the infinite expanse of the astral field.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    827
 Desc      You see the endless expanse of the astral field.
@@ -3597,35 +3597,35 @@ existence.  Some of the tendrils of light that line the astral field have been
 warped and twisted into portals to other worlds.  However, all but one of these
 appears to be sealed by powerful magics.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    846
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    830
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    849
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    850
 Desc      Through the nexial link you can see a stony keep.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    828
 Desc      The astral field leads on into infinity.
@@ -3647,35 +3647,35 @@ existence.  Some of the tendrils of light that line the astral field have been
 warped and twisted into portals to other worlds.  However, these appear to be
 forever sealed by powerful magics.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    833
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    845
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    847
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    829
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    831
 Desc      The astral field leads on into infinity.
@@ -3697,35 +3697,35 @@ existence.  Some of the tendrils of light that line the astral field have been
 warped and twisted into portals to other worlds.  However, these appear to be
 forever sealed by powerful magics.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    834
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    846
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    830
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    828
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    848
 Desc      The astral field leads on into the depths.
@@ -3747,35 +3747,35 @@ existence.  Some of the tendrils of light that line the astral field have been
 warped and twisted into portals to other worlds.  However these appear to be
 sealed forever by powerful magics.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    835
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    831
 Desc      The astral field leads on into infinity.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    849
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction up~
 ToRoom    847
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    832
 Desc      The astral field leads on into infinity.
@@ -3795,28 +3795,28 @@ existence.  Some of the tendrils of light that line the astral field have been
 warped and twisted into portals to other worlds.  However, these appear to be
 forever sealed by powerful magics.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    848
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    845
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    832
 Desc      The astral field leads on into the depths.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    829
 Desc      The astral field leads on into infinity.
@@ -3837,7 +3837,7 @@ Astral Plane.  It seems that you have found the lair of the Githyanki,
 the once-human followers of Lady Gith.  Ahead of you stands a steel door
 leading into the keep hewn from stone.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    851
 Desc      You see a rusty steel door which leads into the keep.
@@ -3846,7 +3846,7 @@ Keywords  steel~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction down~
 ToRoom    845
 Desc      Below you is the nexial portal that leads into the astral plane.
@@ -3871,7 +3871,7 @@ Desc     This is a small building just inside the keep.  Doors lead out to the e
 and west.  Some small weapons hang on hooks on the walls, for use in defense
 of the keep.  Doors stand in all directions save north.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    861
 Desc      You see an iron door which leads out onto a grey stone road.
@@ -3880,7 +3880,7 @@ Keywords  door iron~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    850
 Desc      You see a rusty steel door which leads out to the nexial link.
@@ -3889,7 +3889,7 @@ Keywords  steel~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    852
 Desc      You see an iron door which leads out onto a grey stone road.
@@ -3931,14 +3931,14 @@ sun hangs in the orange sky above your head, strangely still.  You hear
 none of the sounds you would commonly associate with a normal city.  The
 cobblestone road turns to the north, while to the east is a strong iron door.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    853
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    851
 Desc      You see an iron door which leads into a small stone building set into the wall
@@ -3968,14 +3968,14 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone road continues to the north and south, while doors to the east
 and west allow you to enter two stone buildings.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    854
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    862
 Desc      You see a small stone building with a wooden door.
@@ -3984,14 +3984,14 @@ Keywords  door wooden~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    852
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    869
 Desc      An iron door blocks your entrance into a large stone building.
@@ -4028,14 +4028,14 @@ hangs in the orange sky above your head, strangely still.  You hear none
 of the sounds you would commonly associate with a normal city.  The
 cobblestone road extends to the east and south.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    855
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    853
 Desc      The grey cobblestones continue.
@@ -4055,7 +4055,7 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone extends to the east and west, while two double doors to the
 north allow you to enter an enormous building.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    874
 Desc      Looming before you is a forbidding pair of metal doors.
@@ -4064,14 +4064,14 @@ Keywords  doors metal~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    856
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    854
 Desc      The grey cobblestones continue.
@@ -4105,14 +4105,14 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone road ranges to the east and west, while a door to the south
 leads into a tall stone building.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    857
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    864
 Desc      You see a tall stone building with a wooden door.
@@ -4121,7 +4121,7 @@ Keywords  door wooden~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    855
 Desc      The grey cobblestones continue.
@@ -4148,7 +4148,7 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone road lies to the south and west, while a door to the north leads
 into a tall stone building.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    873
 Desc      You see a tall stone building with a wooden door.
@@ -4157,14 +4157,14 @@ Keywords  door wooden~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    858
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    856
 Desc      The grey cobblestones continue.
@@ -4191,14 +4191,14 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone road lies to the north and south, while a door is set in a large
 stone building to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    857
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    867
 Desc      An iron door blocks your entrance into a large stone building.
@@ -4207,7 +4207,7 @@ Keywords  door iron~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    859
 Desc      The grey cobblestones continue.
@@ -4233,14 +4233,14 @@ hangs in the orange sky above your head, strangely still.  You hear none
 of the sounds you would commonly associate with a normal city.  The
 cobblestone road continues to the north and south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    858
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    860
 Desc      The grey cobblestones continue.
@@ -4262,14 +4262,14 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone road lies to the north and west, while to the east is a door
 which leads into a large stone building.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    859
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    865
 Desc      An iron door blocks your entrance into a large stone building.
@@ -4278,7 +4278,7 @@ Keywords  door iron~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    861
 Desc      The grey cobblestones continue.
@@ -4305,7 +4305,7 @@ of the sounds you would commonly associate with a normal city.  The
 cobblestone road stretches eastward, while doors to the north and west
 allow entrance into two stone buildings.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    863
 Desc      You see a small stone building with a wooden door.
@@ -4314,14 +4314,14 @@ Keywords  door wooden~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    860
 Desc      The grey cobblestones continue.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    851
 Desc      You see an iron door which leads into a small stone building set into the wall
@@ -4357,7 +4357,7 @@ living quarters for several githyanki gish.  The walls are heavy stone blocks,
 covered with panels of strangely knotted and twisted wood.  A couple of candles
 burn dimly in sconces here and there.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    853
 Desc      The wooden door leads back out onto the grey cobblestone road.
@@ -4390,7 +4390,7 @@ living quarters for several githyanki gish.  The walls are heavy stone blocks,
 covered with panels of strangely knotted and twisted wood.  A couple of candles
 burn dimly in sconces here and there.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    861
 Desc      The wooden door leads back out onto the grey cobblestone road.
@@ -4423,7 +4423,7 @@ windows.  The walls are heavy stone blocks that rise tens of feet above your
 head, covered with panels of strangely knotted and twisted wood.  On the floor
 are charcoal stencils of pentagrams and various other ominous sigils.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    856
 Desc      The wooden door leads back out onto the grey cobblestone road.
@@ -4456,14 +4456,14 @@ of hammering and fierce waves of heat emerge from the archway to the north.
 To the west is an iron door which leads back to the sole road of the githyanki 
 keep.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    866
 Desc      You see a massive forgeroom, lit by a white-hot furnace.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    860
 Desc      The iron door leads back out onto the grey cobblestone road.
@@ -4498,14 +4498,14 @@ by the githyanki.  A large trough of icy water stands to the west, used for
 quenching hot metal.  Archways lie to the north and south, while the door to
 the furnace lies to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    867
 Desc      You see the armoury.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    868
 Desc      Through the grille in the furnace door you see only flames.
@@ -4514,7 +4514,7 @@ Keywords  door furnace~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    865
 Desc      You see the weaponry.
@@ -4542,14 +4542,14 @@ shaped into ornately fashioned suits of mail.  Sounds of hammering and
 waves of heat emerge from the archway to the south, while a door to the
 west leads back out to the cobblestone road.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    866
 Desc      You see a massive forgeroom, lit by a white-hot furnace.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    858
 Desc      The iron door leads back out onto the grey cobblestone road.
@@ -4582,7 +4582,7 @@ Desc     You gasp for breath and choke on toxic sulphur and brimstone.  The swea
 on your forehead is instantly vaporized by the flames that surround you.  You
 begin to feel faint and dizzy from the heat...
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    866
 Desc      The flames blind you and obscure your vision.
@@ -4619,7 +4619,7 @@ of taking prisoners and those that they do capture do not last long.  The
 cells lie to the west, while the grey cobblestone road lies beyond a door
 to the east.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    853
 Desc      You see an iron door which leads back out onto the grey cobblestone road.
@@ -4628,7 +4628,7 @@ Keywords  door iron~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction west~
 ToRoom    870
 Desc      You see the cellblock.
@@ -4660,7 +4660,7 @@ corridor.  Recently used whips, manacles and chains hang on the walls, soaked
 with many different types of blood.  Cell doors stand to the north and south,
 while the guard station lies to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    871
 Desc      You see a small cell.
@@ -4669,14 +4669,14 @@ Keywords  door cell~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction east~
 ToRoom    869
 Desc      You see the guard station.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    872
 Desc      You see a small cell.
@@ -4705,7 +4705,7 @@ Desc     You are in a tiny, dank cell.  The chill air lashes at your flesh and
 you wonder how long the githyanki expect the cell's occupant to
 survive.  The only exit is back through the door to the south.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    870
 Desc      You see the cellblock.
@@ -4734,7 +4734,7 @@ Desc     You are in a tiny, dank cell.  The chill air lashes at your flesh and
 you wonder how long the githyanki expect the cell's occupant to
 survive.  The only exit is back through the door to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    870
 Desc      You see the cellblock.
@@ -4764,7 +4764,7 @@ windows.  The walls are heavy stone blocks that rise tens of feet above your
 head, covered with panels of strangely knotted and twisted wood.  On the floor
 are charcoal stencils of pentagrams and various other ominous sigils.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    857
 Desc      The wooden door leads back out onto the grey cobblestone road.
@@ -4795,14 +4795,14 @@ Massive suits of armor line the walls, holding weapons fashioned from a strange
 silvery metal.  The great hall continues to the north and ends in a pair
 of huge metal doors to the south.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    875
 Desc      The great hall continues to the north.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    855
 Desc      The metal doors lead out onto the grey cobblestone road.
@@ -4850,7 +4850,7 @@ Massive suits of armor line the walls, holding weapons fashioned from a strange
 silvery metal.  The great hall continues to the south, while thick mists
 to the north prevent further passage.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    876
 Desc      You think you can see some steps leading up to an altar...
@@ -4859,7 +4859,7 @@ Keywords  mist door~
 Flags     isdoor closed~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    874
 Desc      The great hall continues to the south.
@@ -4896,14 +4896,14 @@ Desc     Your eyes have trouble adjusting to the dim lighting.  All around you a
 statues of githyanki turned towards the altar which stands at the top of a
 short flight of steps to the north.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    877
 Desc      The steps lead north and up to a massive sacrificial altar.
 ~
 #ENDEXIT
 
-Exit
+#EXIT
 Direction south~
 ToRoom    875
 Desc      You think you can see the hall.
@@ -4943,7 +4943,7 @@ huge altar used to pay tribute to Lady Gith, the long-dead ruler of the
 githyanki.  The altar is covered in blood and radiates an unspeakable
 power that is absorbed by the horrible presence which stands before you.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    876
 Desc      The steps lie to the south, leading back down to the altar chamber floor.
@@ -4983,7 +4983,7 @@ Desc     You step through the tiny hole in the altar, and stand before a swirlin
 field of blackness.  Through the field you can hear the howls of lost souls
 and long-dead beings.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    879
 Key       824
@@ -5031,7 +5031,7 @@ Reset M 0 814 1 879
 Vnum     880
 Name     Entrance to Limbo~
 Sector   city~
-Exit
+#EXIT
 Direction west~
 ToRoom    881
 #ENDEXIT
@@ -5042,17 +5042,17 @@ ToRoom    881
 Vnum     881
 Name     Door to Githzerai Keep~
 Sector   city~
-Exit
+#EXIT
 Direction east~
 ToRoom    880
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northwest~
 ToRoom    882
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    898
 #ENDEXIT
@@ -5063,12 +5063,12 @@ ToRoom    898
 Vnum     882
 Name     Path Skirting Keep~
 Sector   city~
-Exit
+#EXIT
 Direction north~
 ToRoom    883
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    881
 #ENDEXIT
@@ -5079,12 +5079,12 @@ ToRoom    881
 Vnum     883
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction south~
 ToRoom    882
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northwest~
 ToRoom    884
 #ENDEXIT
@@ -5095,12 +5095,12 @@ ToRoom    884
 Vnum     884
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction northwest~
 ToRoom    885
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    883
 #ENDEXIT
@@ -5111,12 +5111,12 @@ ToRoom    883
 Vnum     885
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction west~
 ToRoom    886
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    884
 #ENDEXIT
@@ -5127,12 +5127,12 @@ ToRoom    884
 Vnum     886
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction east~
 ToRoom    885
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    887
 #ENDEXIT
@@ -5143,12 +5143,12 @@ ToRoom    887
 Vnum     887
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction northeast~
 ToRoom    886
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    888
 #ENDEXIT
@@ -5159,12 +5159,12 @@ ToRoom    888
 Vnum     888
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction south~
 ToRoom    889
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northeast~
 ToRoom    887
 #ENDEXIT
@@ -5175,12 +5175,12 @@ ToRoom    887
 Vnum     889
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction north~
 ToRoom    888
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    890
 #ENDEXIT
@@ -5191,12 +5191,12 @@ ToRoom    890
 Vnum     890
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction northeast~
 ToRoom    889
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    891
 #ENDEXIT
@@ -5207,12 +5207,12 @@ ToRoom    891
 Vnum     891
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction south~
 ToRoom    892
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northwest~
 ToRoom    890
 #ENDEXIT
@@ -5223,12 +5223,12 @@ ToRoom    890
 Vnum     892
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction north~
 ToRoom    891
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    893
 #ENDEXIT
@@ -5239,12 +5239,12 @@ ToRoom    893
 Vnum     893
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction northwest~
 ToRoom    892
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southeast~
 ToRoom    894
 #ENDEXIT
@@ -5255,12 +5255,12 @@ ToRoom    894
 Vnum     894
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction east~
 ToRoom    895
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northwest~
 ToRoom    893
 #ENDEXIT
@@ -5271,12 +5271,12 @@ ToRoom    893
 Vnum     895
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction west~
 ToRoom    894
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northeast~
 ToRoom    896
 #ENDEXIT
@@ -5287,12 +5287,12 @@ ToRoom    896
 Vnum     896
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction northeast~
 ToRoom    897
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    895
 #ENDEXIT
@@ -5303,12 +5303,12 @@ ToRoom    895
 Vnum     897
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction north~
 ToRoom    898
 #ENDEXIT
 
-Exit
+#EXIT
 Direction southwest~
 ToRoom    896
 #ENDEXIT
@@ -5319,12 +5319,12 @@ ToRoom    896
 Vnum     898
 Name     path~
 Sector   city~
-Exit
+#EXIT
 Direction south~
 ToRoom    897
 #ENDEXIT
 
-Exit
+#EXIT
 Direction northeast~
 ToRoom    881
 #ENDEXIT

@@ -555,13 +555,13 @@ Desc     The dense, ancient trees of Ashenvale give way to a thinner, mistier
 woodland. The air is perpetually damp here, and the sound of the 
 crashing Great Sea can be heard to the west. 
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    28016
 Desc      Back to Ashenvale.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27001
 Desc      The road to Auberdine.
@@ -578,19 +578,19 @@ Desc     The road is little more than a muddy track through the silver-grey
 trees. To the west, the forest thins out into the sandy dunes of the 
 coastline. A cold drizzle falls relentlessly from the grey sky.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27000
 Desc      The southern gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27002
 Desc      Toward the ruins.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    27005
 Desc      Toward the shoreline.
@@ -607,13 +607,13 @@ Desc     Two massive, crumbling stone pillars mark the entrance to what was
 once a magnificent Highborne city. Ivy and moss cling to the white 
 stone, and a palpable sense of sorrow hangs in the air.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27001
 Desc      The muddy path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27003
 Desc      Ameth'Aran Center.
@@ -630,19 +630,19 @@ Desc     A large, circular plaza filled with the remains of fountains and
 broken statues. Ghostly figures flicker in and out of existence, 
 re-enacting a life that ended ten thousand years ago.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27002
 Desc      The gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    27004
 Desc      The Highborne Sanctum.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27007
 Desc      Toward Auberdine.
@@ -661,7 +661,7 @@ Desc     The roof of this structure has long since collapsed, but the walls
 still hum with residual arcane energy. Ancient scrolls rot in niches 
 along the walls.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    27003
 Desc      The plaza.
@@ -678,13 +678,13 @@ Desc     The Great Sea stretches out to the west, hidden behind a wall of
 dense fog. Beached logs and large, bleached ribcages of sea 
 creatures litter the sand.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    27001
 Desc      Back to the road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27006
 Desc      The Beached Sea Turtle.
@@ -701,7 +701,7 @@ Desc     The massive carcass of a sea turtle lies here, half-buried in the
 tide. Scavengers pick at the remains, and the stench of decay is 
 heavy in the damp air.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27005
 Desc      The shoreline.
@@ -718,13 +718,13 @@ Desc     The road widens as it approaches the main settlement of Darkshore.
 Sentinel watchtowers are visible through the trees, their silver 
 beacons cutting through the gloom.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27003
 Desc      Ameth'Aran.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27008
 Desc      Auberdine Entrance.
@@ -741,13 +741,13 @@ Desc     A sturdy wooden bridge leads across a small stream into the town
 of Auberdine. Night Elf Sentinels stand guard, checking all who 
 enter for signs of corruption.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27007
 Desc      The road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27009
 Desc      Auberdine Center.
@@ -764,19 +764,19 @@ Desc     A bustling elven village built on the edge of the sea. Docks extend
 to the west, while several longhouses provide shelter for travelers 
 and residents alike. A moonwell glows softly in the center.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27008
 Desc      The gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    27010
 Desc      Auberdine Docks.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27011
 Desc      The Northern Road.
@@ -794,7 +794,7 @@ Desc     Wooden piers reach out into the foggy harbor. Great hippogryphs
 roost on high perches, and boats from Rut'theran Village dock here 
 regularly. The salt air is refreshing.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    27009
 Desc      Town square.
@@ -810,13 +810,13 @@ Desc     North of Auberdine, the forest grows wilder and more dangerous.
 The trees lean inward as if trying to reclaim the path, and the 
 calls of wild beasts echo through the hills.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27009
 Desc      Auberdine.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27012
 Desc      Toward Blackwood Village.
@@ -833,13 +833,13 @@ Desc     The smell of wet fur and smoke fills the air. Crude wooden
 effigies hang from the trees, marking the territory of the 
 corrupted Blackwood furbolgs.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27011
 Desc      The road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27013
 Desc      Blackwood Village.
@@ -856,13 +856,13 @@ Desc     A collection of bark-covered huts arranged around a large bonfire.
 The furbolgs here move with a jagged, unnatural energy, their 
 eyes burning with a dark light.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27012
 Desc      The entrance.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    27014
 Desc      The Chieftain's Hut.
@@ -881,7 +881,7 @@ Desc     The largest hut in the village, filled with trophies of past hunts
 and strange, dark totems. The air is thick with the musk of a 
 thousand bears.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    27013
 Desc      The village.
@@ -897,7 +897,7 @@ Desc     A giant, jagged red crystal has crashed into the hillside here.
 It hums with an alien frequency, and the surrounding flora has 
 begun to turn a sickly, vibrant red.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    27011
 Desc      The road.
@@ -914,7 +914,7 @@ Desc     Another set of Highborne ruins, though these are more overgrown
 than Ameth'Aran. Ancient magics still flicker in the shadows of 
 the fallen arches.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    27007
 Desc      The road.
@@ -931,13 +931,13 @@ Desc     A cold, fast-moving river that flows down from the mountains to the
 east. The water is clear but icy, and small silver fish dart 
 between the rocks.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27011
 Desc      The road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27018
 Desc      Across the river.
@@ -954,7 +954,7 @@ Desc     A thunderous waterfall pours over a high ledge into a deep basin.
 The mist from the falls blends with the natural fog of Darkshore, 
 making visibility nearly zero.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27017
 Desc      The river.
@@ -971,13 +971,13 @@ Desc     High on a northern ridge stands a dark, forbidding tower. It
 belongs to no elven architecture and radiates a palpable sense 
 of malice.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27012
 Desc      Near Blackwood.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    27020
 Desc      The Tower Gates.
@@ -993,7 +993,7 @@ Desc     A sinister spire that pierces the grey clouds. Dark cultists and
 spirits haunt the grounds, conducting rituals that threaten the 
 balance of the entire forest.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27019
 Desc      The approach.
@@ -1010,7 +1010,7 @@ Desc     A massive, ancient tree stands here, its roots sprawling across the
 entire clearing. This is a sacred place of power, where the druids 
 come to commune with the forest.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    27007
 Desc      The road.
@@ -1026,7 +1026,7 @@ Sector   water_swim~
 Desc     A small, sheltered inlet where the waves are calm. It's a peaceful 
 spot, hidden away from the dangers of the main road.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27005
 Desc      The shoreline.
@@ -1041,7 +1041,7 @@ Sector   field~
 Desc     A series of small pits and trenches have been dug into the sandy 
 soil. Crates of "valuable rocks" are stacked neatly nearby.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    27001
 Desc      The road.
@@ -1058,7 +1058,7 @@ Sector   forest~
 Desc     An old elven bridge that crosses a small ravine. The stone is 
 slick with moss and lichen.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    27001
 Desc      The road.
@@ -1073,7 +1073,7 @@ Sector   field~
 Desc     The long, eel-like body of a deep-sea thresher has washed up on 
 the beach. Its skin is a shimmering purple, even in death.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    27005
 Desc      The shoreline.
@@ -1090,7 +1090,7 @@ Desc     A clearing where the rain seems to stop, and the only sound is
 the dripping of water from the leaves. It feels like the forest 
 is holding its breath.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    27011
 Desc      The road.
@@ -1106,7 +1106,7 @@ Sector   hills~
 Desc     From here, you can see the lights of Auberdine to the north and 
 the ruins of Ameth'Aran to the south.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    27007
 Desc      The road.
@@ -1121,7 +1121,7 @@ Sector   field~
 Desc     A small, stagnant swamp on the edge of the woods. The water is 
 black and smells of sulfur.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    27012
 Desc      The road.
@@ -1138,7 +1138,7 @@ Desc     The shoreline ends in a series of impassable cliffs that rise
 steeply into the northern mountains. The Great Sea roars 
 furiously against the rocks.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    27005
 Desc      The shoreline.

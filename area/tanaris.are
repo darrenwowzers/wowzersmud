@@ -549,13 +549,13 @@ Desc     The blinding white salt of Thousand Needles abruptly ends here, giving
 way to an endless ocean of golden sand. The heat is dry and absolute.
 The desert of Tanaris stretches out before you, unforgiving and vast.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    26015
 Desc      Back to the Shimmering Flats.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33001
 Desc      The road to Gadgetzan.
@@ -572,13 +572,13 @@ Desc     A wide, sandy trail marked by bleached animal skulls and rusted
 mechanical parts. In the distance, the high metal walls of a desert
 fortress rise above the shifting dunes.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33000
 Desc      The Shimmering Pass.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33002
 Desc      Gadgetzan North Gate.
@@ -594,13 +594,13 @@ Desc     Massive steel doors stand open, heavily guarded by goblin bruisers.
 Water purifiers hum loudly along the walls, providing the lifeblood
 that keeps this neutral trading post alive.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33001
 Desc      The desert approach.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33003
 Desc      Gadgetzan Square.
@@ -618,25 +618,25 @@ Desc     The heart of the goblin city. Tents and metal shacks are crammed
 together, offering everything from rare engineering schematics to
 questionable drinking water. An arena sits to the east.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33002
 Desc      The North Gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33005
 Desc      The South Gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    33004
 Desc      Marin's Shop.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    33025
 Desc      The Thunderdrome.
@@ -655,7 +655,7 @@ Desc     A cramped, poorly ventilated shack filled with bubbling beakers and
 vats of brightly colored liquids. It smells strongly of sulfur and
 sweet desert cactus.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    33003
 Desc      The Central Square.
@@ -673,13 +673,13 @@ Desc     The southern exit from the safety of the goblin city. The metal walls
 are scored by sandstorms and the occasional stray bullet. Beyond
 these gates lies the deep desert.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33003
 Desc      The Central Square.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33006
 Desc      The Deep Desert.
@@ -696,19 +696,19 @@ Desc     Rolling dunes of golden sand stretch out in every direction. The heat
 distorts the horizon, making it incredibly difficult to navigate.
 Predators stalk the shadows of the dunes.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33005
 Desc      Gadgetzan South Gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    33008
 Desc      Toward Steamwheedle Port.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33012
 Desc      Waterspring Field.
@@ -725,7 +725,7 @@ Desc     The crumbling, sand-swept remains of an ancient troll city. Broken
 pillars and cracked stone altars poke out from the dunes, guarded
 by the remnants of the Sandfury tribe.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    33012
 Desc      Waterspring Field.
@@ -743,13 +743,13 @@ Desc     The sand begins to thin, replaced by hard-packed earth and the smell
 of salt water. A trail leads east toward the goblin port on the
 Great Sea.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    33006
 Desc      The desert.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    33009
 Desc      Steamwheedle Port.
@@ -765,13 +765,13 @@ Desc     A small, neutral harbor built on the eastern coast. Goblin ships
 dock here to avoid the pirates to the south. The sound of crashing
 waves provides a welcome relief from the silent desert.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    33008
 Desc      The desert road.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33010
 Desc      The Pirate Cove.
@@ -789,13 +789,13 @@ Desc     Hidden behind a massive rock formation, this secluded cove serves as
 the primary base for the Southsea pirates. Ships are anchored just
 offshore, and the beach is heavily guarded.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33009
 Desc      Steamwheedle Port.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33011
 Desc      The Pirate Compound.
@@ -813,7 +813,7 @@ Desc     A fortified camp built from the timber of wrecked ships. Plunder is
 piled high, and drunken pirates sing bawdy songs around a massive
 bonfire in the center of the yard.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33010
 Desc      The Cove.
@@ -830,25 +830,25 @@ Desc     A rare collection of natural wells that provide the only fresh water
 for miles. The Wastewander bandits have laid claim to this area,
 forcing travelers to pay a steep price or fight.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33006
 Desc      The northern desert.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    33007
 Desc      Noonshade Ruins.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    33013
 Desc      Wastewander Encampment.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33014
 Desc      The deep sands.
@@ -865,7 +865,7 @@ Desc     A sprawling camp of dusty tents. Stolen supplies from Gadgetzan are
 hoarded here. The bandits are well-armed and view any outsider as a
 threat to their water supply.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    33012
 Desc      Waterspring Field.
@@ -883,13 +883,13 @@ Desc     The dunes give way to a rocky gorge. The sand here is stained a deep,
 rusty red. Giant carved faces stare down from the canyon walls, a
 warning to those who would enter the troll city.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33012
 Desc      Waterspring Field.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33015
 Desc      The Gates of Zul'Farrak.
@@ -907,19 +907,19 @@ trolls patrol the ramparts above, raining spears down on any who
 approach without a massive army behind them. A narrow gap between the 
 heavy stone doors allows brave adventurers to slip inside.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33014
 Desc      The gorge.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33016
 Desc      The Altar of Zul.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction in~
 ToRoom    33030
 Desc      Slip through the heavy stone doors.
@@ -941,7 +941,7 @@ deep within the city. A swirling, sand-colored portal blocks the path
 forward, separating the outer ruins from the heavily guarded inner 
 sanctum of the Sandfury tribe.
 ~
-Exit
+#EXIT
 Direction out~
 ToRoom    33015
 Desc      Squeeze back outside the gates.
@@ -957,7 +957,7 @@ Desc     A blood-stained pyramid stands just outside the city gates. The Chief
 of the Sandfury tribe occasionally presides over sacrifices here,
 calling to the sleeping hydra god.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33015
 Desc      The Gates.
@@ -974,13 +974,13 @@ Desc     Colossal stone statues of troll ancestors line this wide, sandy valley.
 The wind whistling through the statues creates a low, moaning sound
 that unnerves even the bravest explorers.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    33012
 Desc      Waterspring Field.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    33018
 Desc      The Noxious Lair.
@@ -997,13 +997,13 @@ Desc     The ground here is porous and covered in a strange, sticky resin.
 Massive sinkholes lead into darkness. This is the territory of the
 silithid bugs, and the buzzing is deafening.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    33017
 Desc      Valley of the Watchers.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33019
 Desc      The Gaping Chasm.
@@ -1020,7 +1020,7 @@ Desc     A massive crater in the desert floor. The hive structures of the
 silithid tower above the sand like twisted, organic castles. Protectors
 swarm from the tunnels to defend their queen.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33018
 Desc      The Noxious Lair.
@@ -1039,13 +1039,13 @@ Desc     A crude camp built entirely of giant bones and stretched animal hides.
 The Dunemaul ogres have claimed this southern corner of the desert,
 smashing anything that enters their territory.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33019
 Desc      The Gaping Chasm.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    33022
 Desc      Eastmoon Ruins.
@@ -1063,7 +1063,7 @@ Desc     A deep, dry valley where aggressive, animated cacti and basilisks
 roam. The heat here is magnified by the surrounding rock walls,
 making it feel like an oven.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33020
 Desc      Dunemaul Compound.
@@ -1081,13 +1081,13 @@ Desc     The twin city to Noonshade. These troll ruins are completely buried
 in sand, with only the tops of the tallest pyramids visible. Ogres
 frequently dig here, looking for shiny trinkets.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    33020
 Desc      Dunemaul Compound.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    33023
 Desc      Southbreak Shore.
@@ -1104,13 +1104,13 @@ Desc     The southern edge of the continent. The Great Sea stretches endlessly
 to the south, cold and unforgiving. The beach is littered with
 strange, glowing kelp.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33022
 Desc      Eastmoon Ruins.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    33024
 Desc      Land's End Beach.
@@ -1126,13 +1126,13 @@ Desc     The southeastern tip of Tanaris. Giant sea turtles lay their eggs
 in the warm sand here. It is one of the few peaceful spots in the
 entire desert.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    33023
 Desc      Southbreak Shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction north~
 ToRoom    33025
 Desc      Narain's Camp.
@@ -1148,7 +1148,7 @@ Desc     A bizarre camp filled with strange mechanical contraptions, scrying
 orbs, and a crashed flying machine. Narain Soothfancy lives here in
 self-imposed exile, trying to decode the secrets of the sands.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    33024
 Desc      Land's End Beach.
@@ -1165,7 +1165,7 @@ Sector   field~
 Desc     The deepest part of the desert, where the sand turns a stark, pale
 yellow. Giant basilisks slither silently through the dunes.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    33017
 Desc      Valley of the Watchers.
@@ -1181,7 +1181,7 @@ Sector   field~
 Desc     The wreckage of a goblin trade caravan lies here, stripped bare by
 bandits and scavengers. Vultures circle lazily in the sky above.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33012
 Desc      Waterspring Field.
@@ -1198,7 +1198,7 @@ Sector   mountain~
 Desc     A high sandstone mesa that provides a roost for the massive Fire
 Rocs. The ground is littered with large, glowing feathers.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    33006
 Desc      The desert below.
@@ -1215,7 +1215,7 @@ Sector   field~
 Desc     There is nothing here but sand, heat, and death. To venture any
 further is madness. The sun beats down with a physical weight.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    33006
 Desc      Back toward civilization.

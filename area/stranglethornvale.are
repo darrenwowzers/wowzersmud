@@ -571,7 +571,7 @@ heat of the Stranglethorn Vale jungle. Massive ferns and towering ancient
 trees form a thick canopy overhead. The air is filled with the shrieks
 of exotic birds and the roars of deadly predators.
 ~
-Exit
+#EXIT
 Direction south~
 ToRoom    13252
 Desc      The path leads to a large dwarven encampment.
@@ -588,13 +588,13 @@ been erected here, surrounded by the mounted heads of massive panthers,
 raptors, and tigers. Hemet Nesingwary and his crew use this camp as a
 base of operations for their grand safari.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13251
 Desc      The path leading back toward Duskwood.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13253
 Desc      The deep jungle to the south.
@@ -613,19 +613,19 @@ Desc     The shadows are incredibly deep here. The trees are scarred with deep
 claw marks. This area is the favored hunting ground of the stealthy
 Shadowmaw Panthers. You feel eyes watching you from the canopy above.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13252
 Desc      Nesingwary's camp.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13254
 Desc      A rocky clearing favored by raptors.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13255
 Desc      A heavily guarded military compound.
@@ -643,7 +643,7 @@ Desc     The thick jungle breaks open into a rocky ridge. The ground is littered
 with chewed bones and brightly colored, shed feathers. Vicious, highly
 intelligent Stranglethorn Raptors hunt in packs across this ridge.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13253
 Desc      The panther hunting grounds.
@@ -662,19 +662,19 @@ Kurzen has fortified this area, turning his former Stormwind soldiers
 into a brainwashed, highly lethal mercenary army. Mindslaves patrol
 the perimeter with blank, terrifying stares.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13253
 Desc      The jungle path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13256
 Desc      The interior of the compound.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13257
 Desc      A scarred, deforested path.
@@ -693,7 +693,7 @@ Desc     The heart of the rogue military operation. Stolen Alliance supplies and
 cruel voodoo totems fill the tent. Colonel Kurzen stands here, utterly
 mad, barking orders to his enthralled troops.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13255
 Desc      The gates of the compound.
@@ -710,19 +710,19 @@ Desc     The jungle has been completely clear-cut here. Stumps and shattered
 trunks litter the ground. The Venture Trading Company is rapidly and
 carelessly stripping the land of its natural resources.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13255
 Desc      Kurzen's Compound.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13258
 Desc      The Venture Co. Crystal Mine.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13259
 Desc      Ancient stone ruins loom to the south.
@@ -740,7 +740,7 @@ Desc     A deep, artificial cave dug into the side of a hill. Sparks fly as
 Goblin Mechanics desperately try to keep their massive shredders running.
 Glowing blue crystals line the walls, pulsing with raw magic.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13257
 Desc      The approach outside.
@@ -758,19 +758,19 @@ Desc     Massive, moss-covered stone ziggurats rise from the jungle floor. These
 ancient troll ruins are fiercely defended by the Bloodscalp tribe. The
 smell of blood and dark voodoo hangs heavily in the air.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13257
 Desc      The deforested path.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13260
 Desc      The top of the ziggurat.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13261
 Desc      A quiet clearing deep in the jungle.
@@ -787,7 +787,7 @@ Desc     You stand at the peak of the ancient ziggurat. The stone altar is stain
 crimson. Bloodscalp Hunters and Mystics perform dark rituals here,
 sacrificing their enemies to the loa spirits of the jungle.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13259
 Desc      The base of the ruins.
@@ -806,13 +806,13 @@ Desc     The jungle is unnervingly quiet here. The birds have stopped singing,
 and the insects are silent. The grass is trampled down. This is the lair
 of King Bangalash, the most feared predator in all of Stranglethorn.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13259
 Desc      The Ruins of Zul'Kunda.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13262
 Desc      The deepest part of the jungle.
@@ -830,13 +830,13 @@ Desc     The foliage is incredibly dense, blocking almost all light. Thick,
 thorny vines snare your boots. Panthers and raptors hunt freely here,
 far from the relative safety of the northern camps.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13261
 Desc      Bangalash's Clearing.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13263
 Desc      The grand walls of the Arena.
@@ -855,19 +855,19 @@ Desc     You stand before the colossal, ruined gates of the Gurubashi Arena. Onc
 the crown jewel of the troll empire, it is now a lawless, free-for-all
 bloodbath. Elite Gurubashi Berserkers guard the entrance.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13262
 Desc      The Deep Jungle.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13264
 Desc      The floor of the Arena.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13265
 Desc      The Ruins of Zul'Mamwe.
@@ -885,7 +885,7 @@ stone. There are no rules here, and no allegiances. Anyone who steps
 into the pit is fair game. Periodically, a chest of treasure is placed
 in the center, sparking absolute chaos.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13263
 Desc      The Arena Entrance.
@@ -903,25 +903,25 @@ tribe. Voodoo wards hang from the trees, and the smell of dark magic
 is potent. A well-worn, blood-stained path leads east, deeper into
 the ancient empire's territory.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13263
 Desc      The Gurubashi Arena.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13281
 Desc      The path toward the ancient capital.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13266
 Desc      The Wild Shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction west~
 ToRoom    13269
 Desc      Mistvale Valley.
@@ -940,13 +940,13 @@ of the Gurubashi Empire. Colossal stone serpents flank the path, their
 emerald eyes seeming to watch your every move. The relentless beating
 of tribal drums echoes from the east.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13265
 Desc      The Ruins of Zul'Mamwe.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13282
 Desc      The temple gates.
@@ -965,7 +965,7 @@ stains the steps leading up to a swirling, emerald-green portal.
 The air here is thick with the scent of ozone and dark voodoo, 
 guarding the terrifying raid that lies beyond.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13281
 Desc      The path back to Zul'Mamwe.
@@ -981,13 +981,13 @@ Desc     The jungle thins out as you reach the western coastline. The ocean is
 a brilliant, sparkling blue. However, the white sand is littered with
 debris and the dangerous, slithering forms of Naga Explorers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13265
 Desc      The Ruins of Zul'Mamwe.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13267
 Desc      The southern stretch of the shore.
@@ -1003,19 +1003,19 @@ Desc     The sandy beach continues southward. The wreckage of several merchant
 ships has washed ashore here, thoroughly picked over by the Bloodsail
 Buccaneers that terrorize the coast.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13266
 Desc      The northern shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13268
 Desc      A flooded ruin.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13270
 Desc      The Savage Coast.
@@ -1031,7 +1031,7 @@ Desc     The ocean has reclaimed these ancient troll ruins. Naga slither through
 the shallow water, examining the stonework and violently attacking any
 land-dwellers who approach.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13267
 Desc      The Wild Shore.
@@ -1049,7 +1049,7 @@ Desc     A deep, mist-filled valley entirely cut off from the ocean breeze.
 Massive Elder Silverback Gorillas dominate this area, beating their
 chests to warn away intruders.
 ~
-Exit
+#EXIT
 Direction east~
 ToRoom    13265
 Desc      The Ruins of Zul'Mamwe.
@@ -1067,19 +1067,19 @@ Desc     The southern tip of the western shore. The jungle here is incredibly
 hostile, blending directly into the sandy beaches. Pirate camps dot the
 shoreline, flying the blood-red flag of the Buccaneers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13267
 Desc      The Wild Shore.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13271
 Desc      The Bloodsail Encampment.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13272
 Desc      Jaguero Isle.
@@ -1095,13 +1095,13 @@ Desc     A massive pirate camp filled with stolen loot, rum barrels, and rowdy
 Bloodsail Buccaneers. They are a ruthless crew, heavily armed and
 looking for an excuse to draw their cutlasses.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13270
 Desc      The Savage Coast.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13274
 Desc      The path to Booty Bay.
@@ -1119,13 +1119,13 @@ Desc     A small, tropical island just off the southern coast. The beaches are
 pristine, but the interior of the island is incredibly dangerous, home
 to the largest and oldest gorillas in the Vale.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13270
 Desc      The Savage Coast.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13273
 Desc      The interior of the isle.
@@ -1140,7 +1140,7 @@ Sector   forest~
 Desc     The heart of the island. Colossal Silverback Gorillas fiercely defend
 their territory here. The foliage is so thick it feels like a green cave.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13272
 Desc      The shore of the isle.
@@ -1158,13 +1158,13 @@ mountain. Massive, heavily armed Booty Bay Bruisers stand guard here.
 They ensure that the war between the Horde and Alliance stops the
 moment anyone steps inside the goblin city.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13271
 Desc      The Bloodsail Encampment.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13275
 Desc      The Salty Sailor Tavern.
@@ -1182,19 +1182,19 @@ Desc     A loud, raucous, multi-level tavern built directly into the wooden
 scaffolding of Booty Bay. Pirates, merchants, and adventurers from every
 faction drink and gamble here under the watchful eye of the Bruisers.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13274
 Desc      The northern gate.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13276
 Desc      The wooden docks.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13278
 Desc      The Booty Bay Inn.
@@ -1211,25 +1211,25 @@ Desc     The engineering of Booty Bay is a marvel. The entire city is built on
 sturdy wooden planks suspended over a beautiful, sheltered lagoon. Ships
 from across Azeroth are moored here, loading exotic cargo.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13275
 Desc      The Salty Sailor Tavern.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction south~
 ToRoom    13279
 Desc      The Auction House.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction up~
 ToRoom    13277
 Desc      A ramp leading up to the command deck.
 ~
 #ENDEXIT
-Exit
+#EXIT
 Direction east~
 ToRoom    13280
 Desc      The Maiden's Folly moored offshore.
@@ -1246,7 +1246,7 @@ Desc     The highest point in Booty Bay. Baron Revilgaz stands on the balcony
 here, overlooking his incredibly profitable pirate empire. He smiles as
 ships filled with gold sail into the harbor.
 ~
-Exit
+#EXIT
 Direction down~
 ToRoom    13276
 Desc      The docks below.
@@ -1264,7 +1264,7 @@ Desc     A surprisingly clean and secure inn located in the lower levels of the
 city. It is a favored resting spot for travelers preparing to board ships
 to the continent of Kalimdor.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13275
 Desc      The Salty Sailor Tavern.
@@ -1281,7 +1281,7 @@ Desc     A massive, highly neutral auction house. Goblins facilitate incredibly
 lucrative trades between Horde and Alliance players here, taking a
 sizeable cut of the profits for themselves, of course.
 ~
-Exit
+#EXIT
 Direction north~
 ToRoom    13276
 Desc      The docks.
@@ -1297,7 +1297,7 @@ Desc     Moored just outside the safe zone of the harbor, this massive warship
 is controlled entirely by Bloodsail Buccaneers. They are constantly
 plotting to overthrow Baron Revilgaz and sack the goblin town.
 ~
-Exit
+#EXIT
 Direction west~
 ToRoom    13276
 Desc      The safety of the Booty Bay docks.
