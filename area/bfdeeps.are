@@ -504,7 +504,7 @@ Affect -1 -1 2 1 0
 
 #OBJECT
 Vnum     30023
-Keywords naga heart necklace jewelry~
+Keywords naga heart necklace rune~
 Type     treasure~
 Short    a Naga Heart Necklace~
 Long     A pendant made from a preserved, pulsating naga heart.~
@@ -531,7 +531,7 @@ Affect -1 -1 5 2 0
 
 #OBJECT
 Vnum     30025
-Keywords deepfathom ring finger jewelry~
+Keywords deepfathom ring finger rune~
 Type     treasure~
 Short    the Deepfathom Ring~
 Long     A ring of swirling turquoise that smells of the deep ocean.~
@@ -812,7 +812,7 @@ Direction west~
 ToRoom    30042
 Desc      Return to the pool.~
 #ENDEXIT
-Reset M 30009 10 30043
+Reset M 0 30009 10 30043
 Reset O 0 30032 5 30043
 #ENDROOM
 

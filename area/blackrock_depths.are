@@ -989,7 +989,7 @@ Affect   4 15 0 0 0
 #OBJECT
 Vnum     20046
 Keywords guzzler mug drink~
-Type     drink_con~
+Type     drinkcon~
 Short    a mug of Thunderbrew Stout~
 Long     A massive stone mug filled with an incredibly strong ale.~
 WFlags   take~

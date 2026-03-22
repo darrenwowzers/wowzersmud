@@ -533,7 +533,7 @@ Affect -1 -1 12 5 0
 
 #OBJECT
 Vnum     29525
-Keywords Mordresh Flaming Finger ring jewelry~
+Keywords Mordresh Flaming Finger ring rune~
 Type     treasure~
 Short    Mordresh's Flaming Finger~
 Long     A ring of bone with a small, eternally burning ember set in it.~
@@ -613,7 +613,7 @@ Affect -1 -1 6 1 0
 
 #OBJECT
 Vnum     29531
-Keywords Bone-Link Fetish necklace jewelry~
+Keywords Bone-Link Fetish necklace rune~
 Type     treasure~
 Short    a Bone-Link Fetish~
 Long     A necklace made of finger bones strung together with wire.~

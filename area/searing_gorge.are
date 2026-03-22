@@ -713,8 +713,8 @@ Affect   5 15 0 0 0
 
 #OBJECT
 Vnum     36535
-Keywords thorium brotherhood insignia jewelry~
-Type     jewelry~
+Keywords thorium brotherhood insignia rune~
+Type     rune~
 Short    a Thorium Brotherhood Insignia~
 Long     A small, heavy medallion marked with a green sunburst.~
 WFlags   take neck~

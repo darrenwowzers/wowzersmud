@@ -179,7 +179,7 @@ Desc       Crafted by the Titans to guard the inner sanctum, these
 automations are relentless. Their stone fists can crush a 
 warrior's plate like parchment.
 ~
-Race       undead~ // Using undead/construct flags for damage immunities
+Race       undead~
 Class      warrior~
 Position   standing~
 DefPos     standing~
@@ -294,7 +294,7 @@ Desc       Not quite a trogg and not quite a dwarf, these Earthen
 remain loyal to their original Titan programming, defending 
 the depths with stone and fist.
 ~
-Race       mammal~ // Using mammal for elemental-like baseline
+Race       mammal~
 Class      warrior~
 Position   standing~
 DefPos     standing~
@@ -577,8 +577,8 @@ Affect -1 -1 6 3 0
 
 #OBJECT
 Vnum     17028
-Keywords gni'kiv medallion necklace jewelry~
-Type     jewelry~
+Keywords gni'kiv medallion necklace rune~
+Type     rune~
 Short    the Gni'kiv Medallion~
 Long     A circular medallion made of a strange, non-reflective alloy.~
 WFlags   take neck~
@@ -589,7 +589,7 @@ Affect -1 -1 6 4 0
 #ENDOBJECT
 
 #OBJECT
-#17029
+Vnum     17029
 Keywords shadowforge excavator pick axe weapon~
 Type     weapon~
 Short    a Shadowforge Excavator~

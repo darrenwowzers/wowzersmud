@@ -410,7 +410,7 @@ Desc       A true Qiraji, escaped from the confines of the Scarab Wall.
 They are the masters of the Silithid, biological 
 killing machines forged by the Old Gods.
 ~
-Race       undead~ // Using undead/spirit base for resistances
+Race       undead~
 Class      warrior~
 Position   standing~
 DefPos     standing~
@@ -631,8 +631,8 @@ Rarity   1
 
 #OBJECT
 Vnum     39028
-Keywords abyssal crest jewelry~
-Type     jewelry~
+Keywords abyssal crest rune~
+Type     rune~
 Short    an Abyssal Crest~
 Long     A stone medallion that hums with the power of the earth.~
 WFlags   take neck~
@@ -696,8 +696,8 @@ Rarity   1
 
 #OBJECT
 Vnum     39033
-Keywords cenarion signet ring jewelry~
-Type     jewelry~
+Keywords cenarion signet ring rune~
+Type     rune~
 Short    a Cenarion Circle Signet~
 Long     A gold ring featuring the sigil of a spreading tree.~
 WFlags   take finger~
@@ -761,7 +761,7 @@ Affect   14 20 0 0 0
 #OBJECT
 Vnum     39038
 Keywords twilight signet ring~
-Type     jewelry~
+Type     rune~
 Short    a Twilight Signet Ring~
 Long     An obsidian ring that feels freezing cold to the touch.~
 WFlags   take finger~
@@ -1279,7 +1279,7 @@ Reset M 0 39003 5 39066
 #ENDROOM
 
 #ROOM
-#39067
+Vnum     39067
 Name     &yHive'Zora - Entrance&d~
 Sector   field~
 Flags    ~
@@ -1891,7 +1891,7 @@ Direction south~
 ToRoom    39053
 Desc      The northern sands.~
 #ENDEXIT
-Reset O 39029 10 39096
+Reset O 0 39029 10 39096
 #ENDROOM
 
 #ROOM

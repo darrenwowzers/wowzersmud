@@ -370,8 +370,8 @@ Attribs    26 10 22 14 12 10 10
 #ENDMOBILE
 
 #MOBILE
-#35016
-Keywords scorpashi venomlash beast~
+Vnum       35016
+Keywords   scorpashi venomlash beast~
 Short      a Scorpashi Venomlash~
 Long       A pale yellow scorpion snaps its pincers, tail poised to strike.
 ~
@@ -556,7 +556,7 @@ Long       A massive tauren brave stands firm, guarding the hilltop.
 Desc       The Ghost Walker tribe has chosen this grim land to act as 
 guardians against the rising demonic threat.
 ~
-Race       humanoid~ // Using humanoid as baseline for Tauren
+Race       humanoid~
 Class      warrior~
 Position   standing~
 DefPos     standing~
@@ -633,8 +633,8 @@ Rarity   0
 
 #OBJECT
 Vnum     35030
-Keywords burning blade medallion jewelry~
-Type     jewelry~
+Keywords burning blade medallion rune~
+Type     rune~
 Short    a Burning Blade Medallion~
 Long     An iron medallion etched with a weeping, flaming eye.~
 WFlags   take neck~
@@ -782,8 +782,8 @@ Affect   3 10 0 0 0
 
 #OBJECT
 Vnum     35042
-Keywords magram clan badge jewelry~
-Type     jewelry~
+Keywords magram clan badge rune~
+Type     rune~
 Short    a Magram Clan Badge~
 Long     A crude medallion made of bone and leather, marking clan ally status.~
 WFlags   take neck~
@@ -795,8 +795,8 @@ Affect   5 8 0 0 0
 
 #OBJECT
 Vnum     35043
-Keywords gelkis clan badge jewelry~
-Type     jewelry~
+Keywords gelkis clan badge rune~
+Type     rune~
 Short    a Gelkis Clan Badge~
 Long     A crude medallion made of stone and vines, marking clan ally status.~
 WFlags   take neck~
@@ -894,6 +894,7 @@ Direction out~
 ToRoom    27550
 Desc      Return to the Charred Vale in Stonetalon.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    35051
@@ -980,12 +981,13 @@ Sector   field~
 Flags    ~
 Desc     The canyon walls tower overhead, providing some relief from the 
 merciless sun. Maraudine centaurs patrol these narrow passages, 
-protecting the entrance to their most sacred site.
+protecting the entrance to their most sacred site.~
 #EXIT
 Direction north~
 ToRoom    35053
 Desc      The valley entrance.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    35055

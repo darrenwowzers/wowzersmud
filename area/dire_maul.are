@@ -728,7 +728,7 @@ Affect   1 12 0 0 0
 #OBJECT
 Vnum     21160
 Keywords mana-infused water drink~
-Type     drink_con~
+Type     drinkcon~
 Short    a flask of Mana-infused Water~
 Long     A glass vial containing sparkling, pale blue water.~
 WFlags   take~

@@ -1,0 +1,1980 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Feralas~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       40 50 0 60
+Economy      0 42000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       37000
+Keywords   feathermoon sentinel nightelf warrior~
+Short      a Feathermoon Sentinel~
+Long       A Feathermoon Sentinel stands vigil, her bow drawn and ready.
+~
+Desc       A veteran warrior of the Kaldorei, clad in ornate silver and 
+purple plate. She guards the interests of the Alliance with a 
+keen eye and a lethal aim.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 48 0 0 2500 7000
+Stats2     48 48 400
+Stats3     12 35 48
+Stats4     0 0 0 0 0
+Attribs    18 22 14 12 16 15 15
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       37001
+Keywords   mojache brave tauren warrior~
+Short      a Mojache Brave~
+Long       A massive Tauren Brave stands firm, guarding the Horde outpost.
+~
+Desc       A powerful warrior of the Ghost Walker tribe. They wear thick 
+leather kilt and carry a totem-like log as a weapon, dedicated 
+to protecting the Horde's interests in the jungle.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 48 0 0 2800 7500
+Stats2     48 48 300
+Stats3     13 40 48
+Stats4     0 0 0 0 0
+Attribs    26 10 18 12 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       37002
+Keywords   gordunni mauler ogre~
+Short      a Gordunni Mauler~
+Long       A hulking Gordunni Ogre snarls, flexing his tree-trunk arms.
+~
+Desc       The Gordunni have claimed the ruins of Feralas as their own. 
+They are larger and more aggressive than their cousins in 
+other lands, fueled by the residual magic of the ruins.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1800 5000
+Stats2     44 44 0
+Stats3     10 28 44
+Stats4     0 0 0 0 0
+Attribs    24 8 18 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37003
+Keywords   gordunni mage-lord ogre~
+Short      a Gordunni Mage-Lord~
+Long       A two-headed ogre mutters incantations, arcane sparks flying.
+~
+Desc       Possessing a crude but effective grasp of the arcane, these 
+ogres lead their clans with a mixture of brute force and 
+destructive magic.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 1500 4500
+Stats2     46 46 1200
+Stats3     11 30 46
+Stats4     0 0 0 0 0
+Attribs    14 12 16 28 24 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37004
+Keywords   woodpaw alpha gnoll~
+Short      a Woodpaw Alpha~
+Long       A large Woodpaw gnoll barks an order to his pack.
+~
+Desc       The Woodpaw gnolls infest the eastern forests of Feralas. The 
+Alphas are the strongest of their kind, wearing the furs of 
+slain rivals as trophies.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1200 3500
+Stats2     42 42 100
+Stats3     8 22 42
+Stats4     0 0 0 0 0
+Attribs    20 14 14 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37005
+Keywords   feralas ape gorilla beast~
+Short      a Feralas Ape~
+Long       A silverback gorilla beats its chest in a display of dominance.
+~
+Desc       These massive primates are territorial and fiercely protective 
+of their jungle clearings. They possess incredible strength 
+and can easily crush a man's skull.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1600 4200
+Stats2     43 43 0
+Stats3     9 24 43
+Stats4     0 0 0 0 0
+Attribs    22 12 18 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37006
+Keywords   grimtotem marauder tauren warrior~
+Short      a Grimtotem Marauder~
+Long       A Grimtotem warrior stalks the shadows, eyes full of malice.
+~
+Desc       Renegade tauren who seek to claim Feralas for their own 
+nefarious purposes. They are ruthless and view the Horde 
+as weak and misguided.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 2000 5500
+Stats2     45 45 200
+Stats3     12 32 45
+Stats4     0 0 0 0 0
+Attribs    22 10 16 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37007
+Keywords   hippogryph fledgling beast~
+Short      a Hippogryph Fledgling~
+Long       A small hippogryph screeches and flutters its wings.
+~
+Desc       Native to the high peaks of Feralas, these noble creatures 
+are often sought by the Sentinels as loyal mounts.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 800 2400
+Stats2     41 41 0
+Stats3     5 14 41
+Stats4     0 0 0 0 0
+Attribs    14 20 12 10 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37008
+Keywords   sprite darter beast~
+Short      a Sprite Darter~
+Long       A small, colorful dragon-like creature flits through the air.
+~
+Desc       These magical creatures are guardians of the forest, often 
+using their innate magic to play tricks on travelers or 
+defend the woodland spirits.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 42 0 0 600 1800
+Stats2     42 42 1000
+Stats3     4 12 42
+Stats4     0 0 0 0 0
+Attribs    10 24 12 20 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37009
+Keywords   warpstalker lizard beast~
+Short      a Warpstalker~
+Long       A lizard with shimmering, translucent scales flickers in and out of sight.
+~
+Desc       Predators that can phase through the Emerald Dream, these 
+creatures strike from the void before vanishing back into 
+the shadows of the jungle.
+~
+Race       mammal~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1300 3800
+Stats2     44 44 300
+Stats3     8 20 44
+Stats4     0 0 0 0 0
+Attribs    16 22 14 12 12 8 8
+#ENDMOBILE
+
+#MOBILE
+Vnum       37010
+Keywords   ironfur bear beast~
+Short      an Ironfur Bear~
+Long       A massive bear with silver-tipped fur growls a warning.
+~
+Desc       The Ironfur bears are the ancient protectors of the Feralas 
+valleys. Their hide is as tough as leather armor and their 
+claws can rend iron.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 2200 6000
+Stats2     45 45 0
+Stats3     11 28 45
+Stats4     0 0 0 0 0
+Attribs    24 8 20 6 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37011
+Keywords   shrieker bird beast~
+Short      a Feralas Shrieker~
+Long       A large, blue-feathered bird emits a deafening shriek.
+~
+Desc       These birds are scavengers that inhabit the coastal ruins. 
+Their piercing cries are often the last thing an intruder 
+hears before being swarmed.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 750 2000
+Stats2     41 41 0
+Stats3     5 12 41
+Stats4     0 0 0 0 0
+Attribs    12 22 12 8 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37012
+Keywords   grimtotem shaman tauren~
+Short      a Grimtotem Shaman~
+Long       A Grimtotem tauren calls upon the thunder to strike.
+~
+Desc       Wielding a corrupted form of shamanism, these tauren seek to 
+dominate the elements rather than commune with them.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 1600 4800
+Stats2     46 46 900
+Stats3     10 28 46
+Stats4     0 0 0 0 0
+Attribs    14 12 16 24 22 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37013
+Keywords   gordunni cobalt-node guardian~
+Short      a Cobalt-node Guardian~
+Long       A floating eye of arcane energy scans the ruins.
+~
+Desc       Summoned by the Gordunni mage-lords to guard their magical 
+reserves, these entities are relentless in their pursuit 
+of thieves.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 900 2800
+Stats2     44 44 1000
+Stats3     6 18 44
+Stats4     0 0 0 0 0
+Attribs    10 18 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37014
+Keywords   woodpaw mystic gnoll shaman~
+Short      a Woodpaw Mystic~
+Long       A gnoll in tattered robes shakes a bag of mojo.
+~
+Desc       The spiritual leaders of the Woodpaw. They use the bones of 
+fallen enemies to cast debilitating hexes on the living.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1000 3000
+Stats2     41 41 700
+Stats3     7 18 41
+Stats4     0 0 0 0 0
+Attribs    12 12 14 20 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37015
+Keywords   longtooth runner wolf beast~
+Short      a Longtooth Runner~
+Long       A sleek, grey wolf lopes through the undergrowth.
+~
+Desc       The wolves of Feralas are renowned for their speed and stamina. 
+They hunt in large packs, capable of taking down a full-grown 
+kodo if necessary.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1100 3200
+Stats2     40 40 0
+Stats3     7 16 40
+Stats4     0 0 0 0 0
+Attribs    16 20 14 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37016
+Keywords   scaldalard fire-elemental~
+Short      a Scaldalard~
+Long       A being of pure steam and heat pulses near the volcanic vents.
+~
+Desc       Born from the thermal springs of Feralas, these elementals 
+are hot to the touch and can scald the flesh of any who 
+approach.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1400 4000
+Stats2     45 45 1000
+Stats3     9 24 45
+Stats4     0 0 0 0 0
+Attribs    12 16 16 26 24 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37017
+Keywords   feralas wanderer spirit~
+Short      a Feralas Wanderer~
+Long       A spectral night elf wanders the ruins, weeping for the past.
+~
+Desc       Restless spirits that remain bound to the ruins of Isildien. 
+They are not inherently aggressive but will lash out if 
+their grief is interrupted.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 44 0 0 1000 3000
+Stats2     44 44 800
+Stats3     6 18 44
+Stats4     0 0 0 0 0
+Attribs    10 14 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37018
+Keywords   mountain giant elite~
+Short      a Feralas Mountain Giant~
+Long       A gargantuan being of stone and moss stands perfectly still.
+~
+Desc       Ancient guardians of the world, these giants are as old as 
+the mountains themselves. They are peaceful unless the 
+balance of the forest is threatened.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 15000 45000
+Stats2     55 55 0
+Stats3     30 90 70
+Stats4     0 0 0 0 0
+Attribs    40 4 35 10 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       37019
+Keywords   water elemental spirit~
+Short      a Feralas Water Elemental~
+Long       A churning mass of clear, cool water rises from the pool.
+~
+Desc       Spirits of the pure springs that flow through the jungle. 
+They serve as guardians of the life-giving waters.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1800 5000
+Stats2     43 43 500
+Stats3     11 28 43
+Stats4     0 0 0 0 0
+Attribs    20 10 18 14 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37020
+Keywords   shandris feathermoon boss elf~
+Short      Shandris Feathermoon~
+Long       Shandris Feathermoon, General of the Sentinels, oversees the defense.
+~
+Desc       The adopted daughter of Tyrande Whisperwind and the highest 
+ranking military leader in Feralas. She is a legend among 
+her people, a master of the bow and a brilliant strategist.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 10000 30000
+Stats2     60 60 1000
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    20 30 20 20 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       37021
+Keywords   sage korolusk tauren boss~
+Short      Sage Korolusk~
+Long       Sage Korolusk meditates near the bonfire, eyes closed.
+~
+Desc       The spiritual leader of Camp Mojache. He works tirelessly to 
+commune with the spirits of Feralas and protect the 
+Horde from the encroaching corruption.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 6000 20000
+Stats2     55 55 2000
+Stats3     20 55 55
+Stats4     0 0 0 0 0
+Attribs    18 12 20 30 28 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       37022
+Keywords   gordunni scout ogre~
+Short      a Gordunni Scout~
+Long       An ogre hides clumsily behind a large fern, watching the path.
+~
+Desc       Tasked with providing early warning of any intruders entering 
+Gordunni territory.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1400 3800
+Stats2     41 41 0
+Stats3     8 20 41
+Stats4     0 0 0 0 0
+Attribs    22 10 16 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37023
+Keywords   zukk'ash stinger insect~
+Short      a Zukk'ash Stinger~
+Long       A massive, winged insect drones through the air, tail coiled.
+~
+Desc       The Zukk'ash silithid have established a hive in the southern 
+jungle. These stingers are their primary aerial defense.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1800 4800
+Stats2     45 45 0
+Stats3     11 28 45
+Stats4     0 0 0 0 0
+Attribs    20 22 18 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37024
+Keywords   zukk'ash worker insect~
+Short      a Zukk'ash Worker~
+Long       A beetle-like insect carries a piece of food toward the hive.
+~
+Desc       Mindless drones that serve the collective will of the hive. 
+They are docile unless the hive is threatened.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1200 3200
+Stats2     42 42 0
+Stats3     8 20 42
+Stats4     0 0 0 0 0
+Attribs    18 14 20 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       37025
+Keywords   arokk boss ogre~
+Short      Cho'Rush the Observer~
+Long       A massive, two-headed ogre stands guard over the ruins.
+~
+Desc       A powerful lieutenant of the Gordunni, tasked with observing 
+the magical fluctuations emanating from Dire Maul.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 5000 15000
+Stats2     52 52 1500
+Stats3     18 50 52
+Stats4     0 0 0 0 0
+Attribs    20 12 18 28 24 20 20
+#ENDMOBILE
+
+#OBJECT
+Vnum     37026
+Keywords feathermoon tabard~
+Type     armor~
+Short    a Feathermoon Tabard~
+Long     A silver and purple tabard featuring the night elven moon.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 45 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37027
+Keywords camp mojache tabard~
+Type     armor~
+Short    a Camp Mojache Tabard~
+Long     A brown and green tabard featuring the tauren totem.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 45 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37028
+Keywords gordunni bracers wrist~
+Type     armor~
+Short    a pair of Gordunni Bracers~
+Long     Heavy, oversized iron bracers taken from a dead ogre.~
+WFlags   take wrist~
+Values   12 0 0 0 0 0
+Stats    8 850 44 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37029
+Keywords sungrass herb~
+Type     treasure~
+Short    a sprig of Sungrass~
+Long     A vibrant, golden herb that grows in the sun-drenched clearings.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37030
+Keywords purple lotus herb~
+Type     treasure~
+Short    a Purple Lotus~
+Long     A beautiful, dark purple flower that grows near the ancient ruins.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 200 48 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37031
+Keywords woodpaw spear weapon~
+Type     weapon~
+Short    a Woodpaw Spear~
+Long     A jagged, bone-tipped spear used by the eastern gnolls.~
+WFlags   take wield~
+Values   12 12 22 11 0 0
+Stats    12 450 42 0 0
+Rarity   1
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37032
+Keywords gorilla pelt fur~
+Type     trash~
+Short    a thick gorilla pelt~
+Long     A heavy, silver-tipped pelt taken from a Feralas ape.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 150 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37033
+Keywords warpstalker eye treasure~
+Type     treasure~
+Short    a shimmering warpstalker eye~
+Long     A translucent eye that seems to shift in color as you look at it.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 450 44 0 0
+Rarity   2
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37034
+Keywords feathermoon bow weapon~
+Type     weapon~
+Short    a Feathermoon Longbow~
+Long     A finely crafted bow of silverwood and moonlight.~
+WFlags   take wield~
+Values   12 15 25 5 0 0
+Stats    10 3500 48 0 0
+Rarity   2
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37035
+Keywords mojache totem mace weapon~
+Type     weapon~
+Short    a Mojache Ritual Totem~
+Long     A heavy log carved with the spirits of the jungle.~
+WFlags   take wield~
+Values   12 18 30 8 0 0
+Stats    35 3800 50 0 0
+Rarity   2
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37036
+Keywords dreamfoil herb~
+Type     treasure~
+Short    a bunch of Dreamfoil~
+Long     A silvery, thin-leaved herb that smells of the Emerald Dream.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 50 0 0
+Rarity   1
+Affect   3 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37037
+Keywords golden sansam herb~
+Type     treasure~
+Short    a Golden Sansam~
+Long     A thick, golden root prized for its life-giving properties.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 300 50 0 0
+Rarity   1
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37038
+Keywords zukk'ash mandible trophy~
+Type     trash~
+Short    a sharp Zukk'ash mandible~
+Long     A jagged chitinous claw taken from a silithid worker.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37039
+Keywords ironfur claw trophy~
+Type     trash~
+Short    a heavy ironfur claw~
+Long     A thick, curved claw taken from an ironfur bear.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 80 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37040
+Keywords grimtotem badge rune~
+Type     rune~
+Short    a Grimtotem Badge~
+Long     A small, iron medallion marking clan status.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   1
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37041
+Keywords cobalt shard treasure~
+Type     treasure~
+Short    a glowing cobalt shard~
+Long     A piece of magical cobalt, humming with arcane energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 650 44 0 0
+Rarity   1
+Affect   3 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37042
+Keywords feralas water treasure hold~
+Type     treasure~
+Short    a vial of Feralas Spring Water~
+Long     A crystal vial containing pure, cool spring water.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37043
+Keywords mountain giant stone trash~
+Type     trash~
+Short    a piece of ancient stone~
+Long     A moss-covered stone taken from a mountain giant.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37044
+Keywords scalding essence treasure~
+Type     treasure~
+Short    a Scalding Essence~
+Long     A swirling cloud of hot steam contained in a glass jar.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 45 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37045
+Keywords gordunni ring rune~
+Type     rune~
+Short    a Gordunni Signet Ring~
+Long     A massive, crude ring that could fit around a human's wrist.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 1200 48 0 0
+Rarity   2
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37046
+Keywords sprite darter wing trophy~
+Type     trash~
+Short    a delicate darter wing~
+Long     A thin, iridescent wing taken from a sprite darter.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37047
+Keywords ghost-walker fur leggings~
+Type     armor~
+Short    Ghost-walker Fur Leggings~
+Long     Leggings made from the white fur of the rarest wolves.~
+WFlags   take legs~
+Values   15 0 0 0 0 0
+Stats    8 2500 50 0 0
+Rarity   2
+Affect   2 10 0 0 0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37048
+Keywords ruins key~
+Type     key~
+Short    a tarnished ruins key~
+Long     A small, bronze key used to unlock chests in Isildien.~
+WFlags   take~
+Values   37048 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37049
+Keywords feralas jungle-fruit food~
+Type     food~
+Short    a ripe jungle fruit~
+Long     A sweet-smelling fruit with a bright red rind.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 15 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37050
+Keywords obsidian skull trophy~
+Type     trash~
+Short    a miniature obsidian skull~
+Long     A small skull carved from solid obsidian, found in the hive.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 100 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37051
+Keywords observer's focus staff~
+Type     weapon~
+Short    Cho'Rush's Observer Focus~
+Long     A tall staff topped with a large, unblinking arcane eye.~
+WFlags   take wield~
+Values   12 15 25 7 0 0
+Stats    15 6500 52 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     37050
+Name     &gNorthern Entrance from Desolace&d~
+Sector   forest~
+Flags    ~
+Desc     The grey, wind-swept wastes of Desolace are suddenly left 
+behind as the path descends into a lush, emerald jungle. The 
+canopy overhead is so thick that only narrow shafts of 
+golden sunlight reach the forest floor. A wide stone road, 
+cracked by ancient roots, leads south into the heart of 
+Feralas.
+~
+#EXIT
+Direction out~
+ToRoom    35096
+Desc      Return to the southern exit of Desolace.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37051
+Desc      The path leads deeper into the jungle.~
+#ENDEXIT
+Reset M 0 37015 5 37050
+#ENDROOM
+
+#ROOM
+Vnum     37051
+Name     &gThe Verdant Walk&d~
+Sector   forest~
+Flags    ~
+Desc     A beautiful, moss-covered trail winding between massive trees 
+that have stood for millennia. The air is humid and filled with 
+the scent of damp earth and exotic flowers. High above, the 
+calls of colorful birds echo through the leaves.
+~
+#EXIT
+Direction north~
+ToRoom    37050
+Desc      The northern entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37052
+Desc      The walk continues south.~
+#ENDEXIT
+Reset M 0 37010 5 37051
+#ENDROOM
+
+#ROOM
+Vnum     37052
+Name     &gThe High Wilderness - Entry&d~
+Sector   forest~
+Flags    ~
+Desc     The jungle opens slightly into a wide plateau. To the east, a 
+series of high, jagged cliffs loom over the valley, while 
+to the west, the ground slopes down toward the coast. The 
+sound of rhythmic chanting can be heard from the south.
+~
+#EXIT
+Direction north~
+ToRoom    37051
+Desc      The verdant walk.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37053
+Desc      Toward the central valley.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37065
+Desc      The climb to Camp Mojache.~
+#ENDEXIT
+Reset M 0 37022 5 37052
+#ENDROOM
+
+#ROOM
+Vnum     37053
+Name     &gThe High Wilderness - Central&d~
+Sector   forest~
+Flags    ~
+Desc     A crossroad in the heart of northern Feralas. Ancient stone 
+archways, half-swallowed by the jungle, mark the paths. To 
+the south, the massive silhouette of Dire Maul dominates 
+the horizon.
+~
+#EXIT
+Direction north~
+ToRoom    37052
+Desc      Northern Wilderness.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37040
+Desc      The approach to Dire Maul.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37054
+Desc      The path to the Forgotten Coast.~
+#ENDEXIT
+Reset M 0 37015 5 37053
+#ENDROOM
+
+#ROOM
+Vnum     37040
+Name     &gThe Entrance to Dire Maul&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand before the massive, crumbling gates of Eldre'Thalas, 
+now known as Dire Maul. The architecture is grand but 
+decayed, with vines and moss clinging to the white marble. 
+A shimmering portal glows within the main archway, leading 
+into the once-great city of the Highborne.
+~
+#EXIT
+Direction north~
+ToRoom    37053
+Desc      Return to the wilderness.~
+#ENDEXIT
+Reset M 0 37025 1 37040
+#ENDROOM
+
+#ROOM
+Vnum     37054
+Name     &gThe Forgotten Coast - Descent&d~
+Sector   field~
+Flags    ~
+Desc     The path winds down the cliffs toward the western ocean. The 
+jungle thins out, replaced by rocky outcrops and small 
+sandy beaches. The roar of the Veiled Sea becomes constant.
+~
+#EXIT
+Direction east~
+ToRoom    37053
+Desc      The central wilderness.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37055
+Desc      The shore of the Forgotten Coast.~
+#ENDEXIT
+Reset M 0 37011 5 37054
+#ENDROOM
+
+#ROOM
+Vnum     37055
+Name     &gThe Forgotten Coast - Shoreline&d~
+Sector   field~
+Flags    ~
+Desc     A long, windswept beach of grey sand. Massive bones and 
+shipwrecks are scattered along the tide line. To the west, 
+across a short stretch of water, the spires of Feathermoon 
+Stronghold are visible on Sardor Isle.
+~
+#EXIT
+Direction east~
+ToRoom    37054
+Desc      The cliff descent.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37056
+Desc      The northern strand.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37060
+Desc      The southern strand.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37085
+Desc      Swim to Sardor Isle.~
+#ENDEXIT
+Reset M 0 37011 10 37055
+#ENDROOM
+
+#ROOM
+Vnum     37056
+Name     &gForgotten Coast - North Strand&d~
+Sector   field~
+Flags    ~
+Desc     The beach is narrow here, squeezed between the high cliffs 
+and the sea. Several large water elementals hover near the 
+surf, guarding the mouth of a nearby spring.
+~
+#EXIT
+Direction south~
+ToRoom    37055
+Desc      The main shoreline.~
+#ENDEXIT
+Reset M 0 37019 5 37056
+#ENDROOM
+
+#ROOM
+Vnum     37057
+Name     &BFeathermoon Stronghold - Landing&d~
+Sector   city~
+Flags    ~
+Desc     The primary dock for the Alliance on Sardor Isle. Elegant 
+night elven boats are tethered to stone piers, and 
+sentinels patrol the ramparts above.
+~
+#EXIT
+Direction west~
+ToRoom    37058
+Desc      Entrance to the stronghold.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37055
+Desc      Swim back to the mainland.~
+#ENDEXIT
+Reset M 0 37000 5 37057
+#ENDROOM
+
+#ROOM
+Vnum     37058
+Name     &BFeathermoon Stronghold - Center&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the Kaldorei presence in Feralas. A massive 
+moonwell sits in the center of the square, and the 
+architecture is a beautiful blend of white stone and living 
+wood.
+~
+#EXIT
+Direction east~
+ToRoom    37057
+Desc      The landing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37059
+Desc      The General's Quarters.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37086
+Desc      The Feathermoon Inn.~
+#ENDEXIT
+Reset O 0 37026 1 37058
+#ENDROOM
+
+#ROOM
+Vnum     37059
+Name     &BGeneral Shandris's War Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high, circular room filled with maps and tactical markers. 
+Shandris Feathermoon stands here, conferring with her 
+top lieutenants.
+~
+#EXIT
+Direction south~
+ToRoom    37058
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 37020 1 37059
+  Reset G 1 37034 1
+#ENDROOM
+
+#ROOM
+Vnum     37060
+Name     &gForgotten Coast - South Strand&d~
+Sector   field~
+Flags    ~
+Desc     The shoreline turns into a series of shallow tide pools. 
+The ruins of an ancient elven pier can be seen jutting 
+into the sea, covered in kelp and barnacles.
+~
+#EXIT
+Direction north~
+ToRoom    37055
+Desc      The main shoreline.~
+#ENDEXIT
+Reset M 0 37011 5 37060
+#ENDROOM
+
+#ROOM
+Vnum     37061
+Name     &gThe Ruins of Isildien - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     Once a thriving city, Isildien is now a sprawl of shattered 
+marble and overgrown courtyards. The air is stagnant, 
+and the sound of wailing spirits can be heard from the deep 
+ruins.
+~
+#EXIT
+Direction north~
+ToRoom    37060
+Desc      Return to the coast.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37062
+Desc      The central ruins.~
+#ENDEXIT
+Reset M 0 37017 5 37061
+#ENDROOM
+
+#ROOM
+Vnum     37062
+Name     &gIsildien - Central Court&d~
+Sector   field~
+Flags    ~
+Desc     The floor of this court is still partially intact, showing 
+the intricate mosaics of the Highborne. Gordunni ogres 
+have established a large camp here, desecrating the ruins 
+with their filth.
+~
+#EXIT
+Direction north~
+ToRoom    37061
+Desc      The ruins entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37063
+Desc      The Temple of Isildien.~
+#ENDEXIT
+Reset M 0 37002 5 37062
+#ENDROOM
+
+#ROOM
+Vnum     37063
+Name     &gThe Temple of Isildien&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive dome that has partially collapsed. In the center, 
+a large arcane node hums with energy, guarded by 
+magical eyes and ogre mage-lords.
+~
+#EXIT
+Direction north~
+ToRoom    37062
+Desc      The central court.~
+#ENDEXIT
+Reset M 0 37003 5 37063
+Reset O 0 37028 5 37063
+#ENDROOM
+
+#ROOM
+Vnum     37064
+Name     &gIsildien - Hidden Archive&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small, subterranean room beneath the temple. Dust-covered 
+scrolls and broken furniture litter the floor.
+~
+#EXIT
+Direction up~
+ToRoom    37063
+Desc      Return to the temple.~
+#ENDEXIT
+Reset O 0 37030 5 37064
+#ENDROOM
+
+#ROOM
+Vnum     37065
+Name     &OCamp Mojache - Southern Path&d~
+Sector   field~
+Flags    ~
+Desc     The climb toward the Horde outpost is steep. Massive totems 
+line the path, their carvings representing the various tribes 
+of the Horde.
+~
+#EXIT
+Direction west~
+ToRoom    37052
+Desc      Return to the wilderness.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37066
+Desc      Entrance to Camp Mojache.~
+#ENDEXIT
+Reset M 0 37001 5 37065
+#ENDROOM
+
+#ROOM
+Vnum     37066
+Name     &OCamp Mojache - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A well-defended Tauren settlement built atop a high ridge. 
+The air is clear and smells of pine and roasted meat. 
+Wyverns circle overhead, and braves stand guard at the 
+main gates.
+~
+#EXIT
+Direction south~
+ToRoom    36065
+Desc      The southern path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36067
+Desc      The central clearing.~
+#ENDEXIT
+Reset M 0 37001 5 37066
+#ENDROOM
+
+#ROOM
+Vnum     37067
+Name     &OCamp Mojache - Central Clearing&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the Mojache outpost. A massive bonfire burns 
+eternally in the center, and the surrounding tents are 
+filled with hunters and explorers.
+~
+#EXIT
+Direction south~
+ToRoom    37066
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37068
+Desc      Sage Korolusk's Tent.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37069
+Desc      The Mojache Inn.~
+#ENDEXIT
+Reset O 0 37027 1 37067
+#ENDROOM
+
+#ROOM
+Vnum     37068
+Name     &OTent of Sage Korolusk&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the tent is quiet and peaceful. The walls 
+are decorated with dreamcatchers and sacred furs. Sage 
+Korolusk kneels here in deep meditation.
+~
+#EXIT
+Direction south~
+ToRoom    37067
+Desc      The clearing.~
+#ENDEXIT
+Reset M 0 37021 1 37068
+  Reset G 1 37035 1
+#ENDROOM
+
+#ROOM
+Vnum     37069
+Name     &OThe Brave's Rest&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, sturdy building that serves as the inn for the camp. 
+The air is warm and smells of sweetgrass and ale.
+~
+#EXIT
+Direction west~
+ToRoom    37067
+Desc      The clearing.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37070
+Name     &gThe Woodpaw Hills - West&d~
+Sector   forest~
+Flags    ~
+Desc     A series of low, rolling hills east of the central valley. 
+Gnoll tents and trash heaps are scattered through the 
+undergrowth, and the sound of barking is constant.
+~
+#EXIT
+Direction west~
+ToRoom    37053
+Desc      The wilderness crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37071
+Desc      Deep Woodpaw territory.~
+#ENDEXIT
+Reset M 0 37004 5 37070
+#ENDROOM
+
+#ROOM
+Vnum     37071
+Name     &gThe Woodpaw Hills - East&d~
+Sector   forest~
+Flags    ~
+Desc     The heart of the Woodpaw infestation. The trees are scarred 
+with gnoll markings, and the air reeks of rotting food 
+and wet fur.
+~
+#EXIT
+Direction west~
+ToRoom    37070
+Desc      The western hills.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37072
+Desc      The Woodpaw Den.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37074
+Desc      The descent to Thousand Needles.~
+#ENDEXIT
+Reset M 0 37014 5 37071
+Reset O 0 37031 5 37071
+#ENDROOM
+
+#ROOM
+Vnum     37072
+Name     &gThe Woodpaw Den&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, dark cave that serves as the primary nest for the 
+Woodpaw pack. The floor is covered in a thick layer of 
+stolen goods and filth.
+~
+#EXIT
+Direction south~
+ToRoom    37071
+Desc      Return to the hills.~
+#ENDEXIT
+Reset M 0 37004 10 37072
+#ENDROOM
+
+#ROOM
+Vnum     37073
+Name     &gThe Woodpaw Lookout&d~
+Sector   forest~
+Flags    ~
+Desc     A high point on the eastern hills, providing a clear view 
+of the road leading to Thousand Needles.
+~
+#EXIT
+Direction down~
+ToRoom    37071
+Desc      Return to the hills.~
+#ENDEXIT
+Reset M 0 37004 5 37073
+#ENDROOM
+
+#ROOM
+Vnum     37074
+Name     &gEastern Descent to Thousand Needles&d~
+Sector   field~
+Flags    ~
+Desc     The lush greenery of Feralas begins to thin as the path 
+descends into the dry, red-rock canyons of Thousand 
+Needles. A wide stone arch marks the border.
+~
+#EXIT
+Direction west~
+ToRoom    37071
+Desc      The Woodpaw hills.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    28550
+Desc      Enter the Thousand Needles.~
+#ENDEXIT
+Reset M 0 37007 5 37074
+#ENDROOM
+
+#ROOM
+Vnum     37075
+Name     &gThe Twin Colossals - Base&d~
+Sector   field~
+Flags    ~
+Desc     You stand at the base of two massive, natural stone pillars 
+that tower over the northern jungle. Ancient elven 
+stairs wind up the side of the western pillar.
+~
+#EXIT
+Direction south~
+ToRoom    37052
+Desc      The high wilderness.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    37076
+Desc      Climb the western colossal.~
+#ENDEXIT
+Reset M 0 37007 5 37075
+#ENDROOM
+
+#ROOM
+Vnum     37076
+Name     &gThe Twin Colossals - Summit&d~
+Sector   field~
+Flags    ~
+Desc     The view from the top of the colossal is breathtaking. You 
+can see the entirety of Feralas, from the coast to the 
+eastern mountains. Several hippogryphs nest here.
+~
+#EXIT
+Direction down~
+ToRoom    37075
+Desc      The base.~
+#ENDEXIT
+Reset M 0 37007 10 37076
+#ENDROOM
+
+#ROOM
+Vnum     37077
+Name     &gThe Gordunni Outpost - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A collection of large hide tents and massive cooking fires 
+at the northern edge of the wilderness.
+~
+#EXIT
+Direction south~
+ToRoom    37052
+Desc      The high wilderness.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37078
+Desc      The inner outpost.~
+#ENDEXIT
+Reset M 0 37022 5 37077
+#ENDROOM
+
+#ROOM
+Vnum     37078
+Name     &gGordunni Outpost - Inner Circle&d~
+Sector   field~
+Flags    ~
+Desc     The heart of the Gordunni presence in the north. A large, 
+two-headed ogre stands here, barking orders.
+~
+#EXIT
+Direction south~
+ToRoom    37077
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 37003 5 37078
+#ENDROOM
+
+#ROOM
+Vnum     37079
+Name     &gThe Grimtotem Post - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A dark, ominous camp tucked away in the shadows of the 
+northern cliffs. The air is cold and the tauren here 
+watch you with suspicion.
+~
+#EXIT
+Direction west~
+ToRoom    37051
+Desc      The verdant walk.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37080
+Desc      The inner post.~
+#ENDEXIT
+Reset M 0 37006 5 37079
+#ENDROOM
+
+#ROOM
+Vnum     37080
+Name     &gGrimtotem Post - Inner Circle&d~
+Sector   field~
+Flags    ~
+Desc     The center of the Grimtotem encampment. Several captives 
+are kept in small cages, and the sound of dark rituals 
+echoes from the large central tent.
+~
+#EXIT
+Direction west~
+ToRoom    37079
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 37012 5 37080
+Reset O 0 37040 5 37080
+#ENDROOM
+
+#ROOM
+Vnum     37081
+Name     &gThe Gordunni Slag-heap&d~
+Sector   field~
+Flags    ~
+Desc     A massive pile of magical waste and broken stone. 
+Floating eyes patrol the area, looking for scavengers.
+~
+#EXIT
+Direction north~
+ToRoom    37062
+Desc      The Isildien court.~
+#ENDEXIT
+Reset M 0 37013 10 37081
+#ENDROOM
+
+#ROOM
+Vnum     37082
+Name     &gThe Scalding Vents&d~
+Sector   field~
+Flags    ~
+Desc     A small valley filled with thermal springs and hissing 
+steam vents. Scaldalards pulse with heat in the water.
+~
+#EXIT
+Direction south~
+ToRoom    37051
+Desc      The verdant walk.~
+#ENDEXIT
+Reset M 0 37016 5 37082
+#ENDROOM
+
+#ROOM
+Vnum     37083
+Name     &gThe Sprite Grove&d~
+Sector   forest~
+Flags    ~
+Desc     A beautiful clearing filled with blooming lilies and 
+glowing butterflies. Sprite darters flit through the air.
+~
+#EXIT
+Direction west~
+ToRoom    37052
+Desc      The high wilderness.~
+#ENDEXIT
+Reset M 0 37008 10 37083
+#ENDROOM
+
+#ROOM
+Vnum     37084
+Name     &gThe Warp-stalker's Den&d~
+Sector   forest~
+Flags    ~
+Desc     A gnarled thicket where the light of the sun never 
+reaches. Warp-stalkers move through the shadows.
+~
+#EXIT
+Direction east~
+ToRoom    37051
+Desc      The verdant walk.~
+#ENDEXIT
+Reset M 0 37009 5 37084
+#ENDROOM
+
+#ROOM
+Vnum     37085
+Name     &BThe Veiled Sea - Shallows&d~
+Sector   water_noswim~
+Flags    ~
+Desc     The water is clear and cool, with kelp forests waving 
+gently in the currents below.
+~
+#EXIT
+Direction east~
+ToRoom    37055
+Desc      The mainland coast.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37057
+Desc      Approach Sardor Isle.~
+#ENDEXIT
+Reset M 0 37019 5 37085
+#ENDROOM
+
+#ROOM
+Vnum     37086
+Name     &BThe Feathermoon Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     A peaceful, open-air structure built for the comfort 
+of visiting Alliance dignitaries and explorers.
+~
+#EXIT
+Direction north~
+ToRoom    37058
+Desc      The stronghold center.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37087
+Name     &gThe Writhing Deep - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The southern jungle gives way to a massive, sand-filled 
+crater. Silithid hives erupt from the ground like 
+pulsing, chitinous towers.
+~
+#EXIT
+Direction north~
+ToRoom    37062
+Desc      Return to the ruins.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37088
+Desc      The Zukk'ash Hive.~
+#ENDEXIT
+Reset M 0 37023 5 37087
+#ENDROOM
+
+#ROOM
+Vnum     37088
+Name     &gThe Zukk'ash Hive&d~
+Sector   underground~
+Flags    indoors~
+Desc     The interior of the silithid hive is warm and moist. 
+The walls are composed of a hardened, resin-like 
+substance, and workers move frantically through the halls.
+~
+#EXIT
+Direction north~
+ToRoom    37087
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 37024 10 37088
+Reset O 0 37038 10 37088
+#ENDROOM
+
+#ROOM
+Vnum     37089
+Name     &gThe High Wilderness Lookout&d~
+Sector   forest~
+Flags    ~
+Desc     A rocky platform providing a clear view of the 
+road leading to Desolace.
+~
+#EXIT
+Direction south~
+ToRoom    37051
+Desc      The verdant walk.~
+#ENDEXIT
+Reset M 0 37000 5 37089
+#ENDROOM
+
+#ROOM
+Vnum     37090
+Name     &gRuins Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet corner of the Isildien ruins, dominated by 
+shattered pillars and ancient elven statues.
+~
+#EXIT
+Direction south~
+ToRoom    37061
+Desc      Isildien entry.~
+#ENDEXIT
+Reset M 0 37017 10 37090
+#ENDROOM
+
+#ROOM
+Vnum     37091
+Name     &gRuins Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small, overgrown courtyard where several Gordunni 
+maulers have set up a defensive post.
+~
+#EXIT
+Direction north~
+ToRoom    37062
+Desc      The central court.~
+#ENDEXIT
+Reset M 0 37002 5 37091
+#ENDROOM
+
+#ROOM
+Vnum     37092
+Name     &gWilderness Overflow A&d~
+Sector   forest~
+Flags    ~
+Desc     A dense thicket near the central valley, home to a 
+large pack of ironfur bears.
+~
+#EXIT
+Direction east~
+ToRoom    37053
+Desc      The central wilderness.~
+#ENDEXIT
+Reset M 0 37010 10 37092
+#ENDROOM
+
+#ROOM
+Vnum     37093
+Name     &gWilderness Overflow B&d~
+Sector   forest~
+Flags    ~
+Desc     A small clearing filled with sweet-smelling jungle 
+fruit and colorful birds.
+~
+#EXIT
+Direction west~
+ToRoom    37052
+Desc      The northern wilderness.~
+#ENDEXIT
+Reset O 0 37049 10 37093
+#ENDROOM
+
+#ROOM
+Vnum     37094
+Name     &gCoast Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A rocky outcrop along the Forgotten Coast, used by 
+shriekers as a nesting site.
+~
+#EXIT
+Direction east~
+ToRoom    37055
+Desc      The main shoreline.~
+#ENDEXIT
+Reset M 0 37011 10 37094
+#ENDROOM
+
+#ROOM
+Vnum     37095
+Name     &BFeathermoon Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A high balcony in the stronghold, offering a view of 
+the western ocean and the distant mainland.
+~
+#EXIT
+Direction south~
+ToRoom    37058
+Desc      Stronghold center.~
+#ENDEXIT
+Reset M 0 37000 5 37095
+#ENDROOM
+
+#ROOM
+Vnum     37096
+Name     &OCamp Mojache Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small storage area near the Horde inn, filled with 
+fishing nets and turtle shells.
+~
+#EXIT
+Direction north~
+ToRoom    37067
+Desc      The camp clearing.~
+#ENDEXIT
+Reset O 0 37032 10 37096
+#ENDROOM
+
+#ROOM
+Vnum     37097
+Name     &gThe Ancient Giant's Path&d~
+Sector   forest~
+Flags    ~
+Desc     A wide trail of flattened ferns and snapped trees, 
+marking the passage of something massive.
+~
+#EXIT
+Direction south~
+ToRoom    37052
+Desc      The northern wilderness.~
+#ENDEXIT
+Reset M 0 37018 1 37097
+#ENDROOM
+
+#ROOM
+Vnum     37098
+Name     &gThe Sun-drenched Clearing&d~
+Sector   forest~
+Flags    ~
+Desc     A rare gap in the jungle canopy where sungrass grows 
+in abundance.
+~
+#EXIT
+Direction north~
+ToRoom    37053
+Desc      The central wilderness.~
+#ENDEXIT
+Reset O 0 37029 10 37098
+#ENDROOM
+
+#ROOM
+Vnum     37099
+Name     &gThe Shifting Shadows&d~
+Sector   forest~
+Flags    ~
+Desc     A dark, quiet section of the jungle where the air 
+feels heavy and the warp-stalkers hunt.
+~
+#EXIT
+Direction east~
+ToRoom    37052
+Desc      The northern wilderness.~
+#ENDEXIT
+Reset M 0 37009 5 37099
+#ENDROOM
+
+#ROOM
+Vnum     37100
+Name     &gThe Feralas Exit Path&d~
+Sector   forest~
+Flags    ~
+Desc     A hidden trail behind Camp Mojache leads toward the 
+northern mountains, offering a quick way back toward 
+Desolace.
+~
+#EXIT
+Direction south~
+ToRoom    37067
+Desc      Camp Mojache.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    37050
+Desc      The northern entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37101
+Name     &gThe Southern Pass to Silithus&d~
+Sector   field~
+Flags    ~
+Desc     The lush greenery of Feralas finally gives way to a 
+wind-swept canyon of white sand. A narrow path leads 
+south into the desolate wastes of Silithus.
+~
+#EXIT
+Direction north~
+ToRoom    37062
+Desc      Isildien court.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39000
+Desc      Enter the wastes of Silithus.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

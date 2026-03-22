@@ -619,8 +619,8 @@ Affect   4 8 0 0 0
 
 #OBJECT
 Vnum     36028
-Keywords dragonmaw medallion jewelry~
-Type     jewelry~
+Keywords dragonmaw medallion rune~
+Type     rune~
 Short    a Dragonmaw Medallion~
 Long     A heavy iron medallion etched with the symbol of an orc fist.~
 WFlags   take neck~
@@ -708,8 +708,8 @@ Rarity   1
 
 #OBJECT
 Vnum     36035
-Keywords voodoo charm jewelry~
-Type     jewelry~
+Keywords voodoo charm rune~
+Type     rune~
 Short    an Atal'ai Voodoo Charm~
 Long     A necklace made of bird skulls and polished beads.~
 WFlags   take neck~
@@ -1568,7 +1568,7 @@ Reset M 0 36017 10 36083
 #ENDROOM
 
 #ROOM
-#36084
+Vnum     36084
 Name     &gThe Mire Lord's Path&d~
 Sector   field~
 Flags    ~

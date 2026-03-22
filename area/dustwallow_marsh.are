@@ -689,7 +689,7 @@ Rarity   0
 #OBJECT
 Vnum     37533
 Keywords stagnant water drink~
-Type     drink_con~
+Type     drinkcon~
 Short    a flask of stagnant water~
 Long     A leather flask containing murky, slightly foul water.~
 WFlags   take~
@@ -753,7 +753,7 @@ Affect   5 8 0 0 0
 #OBJECT
 Vnum     37538
 Keywords proudmoore signet ring~
-Type     jewelry~
+Type     rune~
 Short    a replica Proudmoore Signet~
 Long     A silver ring engraved with a high-quality anchor crest.~
 WFlags   take finger~
@@ -878,7 +878,7 @@ Affect   3 12 0 0 0
 #OBJECT
 Vnum     37548
 Keywords mok'morokk's grog drink~
-Type     drink_con~
+Type     drinkcon~
 Short    a jug of Mok'Morokk's Grog~
 Long     A large ceramic jug containing an incredibly potent liquid.~
 WFlags   take~
@@ -889,8 +889,8 @@ Rarity   1
 
 #OBJECT
 Vnum     37549
-Keywords grimtotem necklace jewelry~
-Type     jewelry~
+Keywords grimtotem necklace rune~
+Type     rune~
 Short    a Grimtotem Bone Necklace~
 Long     A necklace made of bird skulls and polished teeth.~
 WFlags   take neck~
@@ -1148,7 +1148,6 @@ ToRoom    37554
 Desc      Return to the Quagmire.~
 #ENDEXIT
 Reset M 0 37507 5 37561
-Reset O 0 37525 10 37561
 #ENDROOM
 
 #ROOM

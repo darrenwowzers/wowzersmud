@@ -425,7 +425,7 @@ Affect -1 -1 5 4 0
 
 #OBJECT
 Vnum     26909
-Keywords deepfathom ring finger jewelry~
+Keywords deepfathom ring finger rune~
 Type     treasure~
 Short    Deepfathom Ring~
 Long     A ring of polished turquoise that smells of the deep ocean.~
@@ -1182,7 +1182,7 @@ Desc      Verdan's Grove.~
 #ENDROOM
 
 #ROOM
-#26932
+Vnum     26932
 Name     &gVerdan the Everliving's Grove&d~
 Sector   underground~
 Flags    indoors~

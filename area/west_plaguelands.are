@@ -705,8 +705,8 @@ Affect   1 8 0 0 0
 
 #OBJECT
 Vnum     38034
-Keywords argent dawn insignia jewelry~
-Type     jewelry~
+Keywords argent dawn insignia rune~
+Type     rune~
 Short    an Argent Dawn Insignia~
 Long     A silver badge marking the bearer as an ally of the Dawn.~
 WFlags   take neck~
@@ -923,8 +923,8 @@ Rarity   0
 
 #OBJECT
 Vnum     38051
-Keywords lordaeron signet ring jewelry~
-Type     jewelry~
+Keywords lordaeron signet ring rune~
+Type     rune~
 Short    a Royal Signet of Lordaeron~
 Long     A gold ring featuring the crest of the fallen kingdom.~
 WFlags   take finger~
@@ -1054,7 +1054,7 @@ ToRoom    38052
 Desc      The Bulwark.~
 #ENDEXIT
 Reset M 0 38012 1 38056
-Reset O 38030 5 38056
+Reset O 0 38030 5 38056
 #ENDROOM
 
 #ROOM
@@ -1110,7 +1110,7 @@ ToRoom    38058
 Desc      The field entrance.~
 #ENDEXIT
 Reset M 0 38000 5 38059
-Reset O 38036 5 38059
+Reset O 0 38036 5 38059
 #ENDROOM
 
 #ROOM
@@ -1119,8 +1119,7 @@ Name     &xFelstone Field - The Cauldron&d~
 Sector   field~
 Flags    ~
 Desc     A massive Scourge cauldron sits in the center of the field, 
-bubbling with a luminous green liquid. A skeletal mage 
-carefully monitors the mixture.
+bubbling with a luminous green liquid. A skeletal mage carefully monitors the mixture.
 ~
 #EXIT
 Direction west~
@@ -1128,7 +1127,7 @@ ToRoom    38058
 Desc      The field entrance.~
 #ENDEXIT
 Reset M 0 38019 1 38060
-Reset O 38035 1 38060
+Reset O 0 38035 1 38060
 #ENDROOM
 
 #ROOM
@@ -1217,7 +1216,7 @@ Direction down~
 ToRoom    38062
 Desc      Return to the farm.~
 #ENDEXIT
-Reset O 38028 1 38065
+Reset O 0 38028 1 38065
 #ENDROOM
 
 #ROOM
@@ -1402,7 +1401,7 @@ ToRoom    38073
 Desc      Return to the hall.~
 #ENDEXIT
 Reset M 0 38016 10 38074
-Reset O 38036 5 38074
+Reset O 0 38036 5 38074
 #ENDROOM
 
 #ROOM
@@ -1534,7 +1533,7 @@ ToRoom    38079
 Desc      Return to the bridge.~
 #ENDEXIT
 Reset M 0 38022 5 38080
-Reset O 38048 5 38080
+Reset O 0 38048 5 38080
 #ENDROOM
 
 #ROOM
@@ -1577,7 +1576,7 @@ Direction east~
 ToRoom    38081
 Desc      The island shore.~
 #ENDEXIT
-Reset O 38044 1 38082
+Reset O 0 38044 1 38082
 #ENDROOM
 
 #ROOM
@@ -1609,7 +1608,7 @@ Direction north~
 ToRoom    38083
 Desc      Return to the hills.~
 #ENDEXIT
-Reset O 38039 10 38084
+Reset O 0 38039 10 38084
 #ENDROOM
 
 #ROOM
@@ -1670,7 +1669,7 @@ ToRoom    38086
 Desc      The farm entrance.~
 #ENDEXIT
 Reset M 0 38010 1 38087
-Reset O 38050 10 38087
+Reset O 0 38050 10 38087
 #ENDROOM
 
 #ROOM
@@ -1686,7 +1685,7 @@ Direction west~
 ToRoom    38075
 Desc      The warehouse district.~
 #ENDEXIT
-Reset O 38026 10 38088
+Reset O 0 38026 10 38088
 #ENDROOM
 
 #ROOM
@@ -1801,7 +1800,7 @@ Direction west~
 ToRoom    38097
 Desc      The Scarlet Barracks.~
 #ENDEXIT
-Reset O 38029 5 38093
+Reset O 0 38029 5 38093
 #ENDROOM
 
 #ROOM
@@ -1841,7 +1840,7 @@ Direction south~
 ToRoom    38094
 Desc      The entrance hall.~
 #ENDEXIT
-Reset O 38040 5 38095
+Reset O 0 38040 5 38095
 #ENDROOM
 
 #ROOM
@@ -1922,7 +1921,7 @@ Direction south~
 ToRoom    38054
 Desc      The crossroads.~
 #ENDEXIT
-Reset O 38027 10 38100
+Reset O 0 38027 10 38100
 #ENDROOM
 
 #ROOM
@@ -1979,3 +1978,4 @@ Desc      Return to the Tirisfal Glades.~
 #ENDROOM
 
 #ENDAREA
+

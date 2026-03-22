@@ -1,0 +1,1871 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Badlands~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       35 45 0 60
+Economy      0 38000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       35500
+Keywords   ridge stalker coyote beast~
+Short      a Ridge Stalker Coyote~
+Long       A lean, dusty coyote stalks between the jagged rocks.
+~
+Desc       Scavengers of the wastes, these coyotes have adapted to the 
+brutal heat of the Badlands. Their fur is matted with orange 
+dust and they watch you with hungry, yellow eyes.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 900 2800
+Stats2     35 35 0
+Stats3     6 14 35
+Stats4     0 0 0 0 0
+Attribs    16 18 14 6 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35501
+Keywords   lesser rock elemental~
+Short      a Lesser Rock Elemental~
+Long       A pile of animated stones rumbles as it moves across the path.
+~
+Desc       Born from the very earth of the Badlands, these elementals are 
+mindless guardians of the mountains. Their bodies are composed 
+of jagged granite and sparkling quartz.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1500 4200
+Stats2     37 37 0
+Stats3     8 20 37
+Stats4     0 0 0 0 0
+Attribs    24 6 22 4 10 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       35502
+Keywords   scorpashi lasher scorpid~
+Short      a Scorpashi Lasher~
+Long       A large, copper-colored scorpion snaps its heavy pincers.
+~
+Desc       These scorpids are notorious for their aggressive nature and 
+potent venom. They hide in the shadows of the mesas, waiting for 
+unwary travelers to pass by.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1000 3000
+Stats2     36 36 0
+Stats3     7 16 36
+Stats4     0 0 0 0 0
+Attribs    18 14 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35503
+Keywords   buzzard carrion bird~
+Short      a Badlands Buzzard~
+Long       A tattered buzzard circles overhead, waiting for its next meal.
+~
+Desc       The vultures of the Badlands are hardy survivors. They follow 
+the scent of death across the orange plains, rarely attacking 
+anything that is still moving.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 800 2400
+Stats2     35 35 0
+Stats3     5 12 35
+Stats4     0 0 0 0 0
+Attribs    14 20 12 8 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35504
+Keywords   dustbelch ogre warrior~
+Short      a Dustbelch Ogre~
+Long       A massive, dim-witted ogre lumbers toward you, club raised.
+~
+Desc       The Dustbelch clan has inhabited the southern caves for 
+generations. They are brutish, violent, and highly territorial, 
+clashing frequently with the Dark Iron dwarves.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 2500 6000
+Stats2     39 39 100
+Stats3     12 30 39
+Stats4     0 0 0 0 0
+Attribs    24 8 18 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35505
+Keywords   shadowforge tunneler dwarf~
+Short      a Shadowforge Tunneler~
+Long       A Dark Iron dwarf glares at you, clutching a heavy mining pick.
+~
+Desc       Members of the Shadowforge expedition, these dwarves are 
+obsessed with the Titan secrets buried within Uldaman. They 
+view any non-dwarf as a threat to their operation.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1800 4500
+Stats2     38 38 200
+Stats3     10 25 38
+Stats4     0 0 0 0 0
+Attribs    20 12 14 10 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35506
+Keywords   shadowforge darkcaster dwarf mage~
+Short      a Shadowforge Darkcaster~
+Long       A Dark Iron mage mutters a dark, fiery incantation.
+~
+Desc       Wielding the elemental power of Ragnaros, these casters are 
+dangerous adversaries. They wear heavy black robes and carry 
+staves topped with smoldering embers.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1100 3200
+Stats2     38 38 800
+Stats3     8 20 38
+Stats4     0 0 0 0 0
+Attribs    12 14 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35507
+Keywords   black whelp dragon~
+Short      a Black Whelp~
+Long       A small, obsidian-scaled dragonet hisses and snaps its jaws.
+~
+Desc       Though small, these whelps are the offspring of Deathwing's 
+flight. They are fiercely aggressive and breathe small puffs 
+of searing flame.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1600 4800
+Stats2     40 40 150
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    18 16 14 10 14 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35508
+Keywords   black drake dragon~
+Short      a Black Drake~
+Long       A large black drake let out a roar, smoke curling from its nostrils.
+~
+Desc       A powerful member of the Black Dragonflight. Its scales are 
+as hard as iron, and its breath can melt through a warrior's 
+shield in seconds.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 4500 12000
+Stats2     44 44 300
+Stats3     20 50 45
+Stats4     0 0 0 0 0
+Attribs    28 12 24 14 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       35509
+Keywords   lotwil veriatus gnome mage~
+Short      Lotwil Veriatus~
+Long       A frantic gnome scribbles notes on a large piece of parchment.
+~
+Desc       An eccentric gnome scientist who is obsessed with the 
+elementals of the Badlands. He is constantly seeking 
+volunteers for his "groundbreaking" experiments.
+~
+Race       gnome~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 42 0 0 1200 3500
+Stats2     42 42 1200
+Stats3     8 20 42
+Stats4     0 0 0 0 0
+Attribs    10 16 14 28 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       35510
+Keywords   rigglefuzz goblin merchant~
+Short      Rigglefuzz~
+Long       A goblin merchant stands next to a pile of salvaged junk.
+~
+Desc       Rigglefuzz has found a lucrative niche selling supplies to 
+travelers and buying whatever "artifacts" they happen to 
+find in the dig sites.
+~
+Race       gnome~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1500 4000
+Stats2     40 40 0
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    14 18 14 14 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       35511
+Keywords   camp kosh guard orc warrior~
+Short      a Camp Kosh Guard~
+Long       An orc grunt stands guard, hand resting on the hilt of his axe.
+~
+Desc       The Horde's presence in the Badlands is centered around 
+Camp Kosh. These guards ensure the safety of the post 
+from the constant threat of ogres and dwarves.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 42 0 0 2500 6500
+Stats2     42 42 200
+Stats3     12 35 42
+Stats4     0 0 0 0 0
+Attribs    24 12 16 10 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       35512
+Keywords   kargath expeditionary warrior~
+Short      a Kargath Expeditionary~
+Long       A determined orc scout prepares his gear for a journey east.
+~
+Desc       Tasked with scouting the path to the Blasted Lands, these 
+warriors are the toughest the Horde has to offer in the region.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 43 0 0 2800 7000
+Stats2     43 43 250
+Stats3     13 40 43
+Stats4     0 0 0 0 0
+Attribs    26 10 18 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       35513
+Keywords   hammertoe grez dwarf explorer~
+Short      Hammertoe Grez~
+Long       Hammertoe Grez mutters to himself while digging in the dirt.
+~
+Desc       An explorer's league dwarf who has been separated from his 
+team. He is obsessed with finding a specific stone tablet 
+lost in the southern ruins.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 38 0 0 1400 3800
+Stats2     38 38 100
+Stats3     9 22 38
+Stats4     0 0 0 0 0
+Attribs    18 12 16 10 18 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       35514
+Keywords   dustbelch brute ogre~
+Short      a Dustbelch Brute~
+Long       A particularly large ogre roars, flexes his slab-like muscles.
+~
+Desc       The heavy muscle of the Dustbelch clan. They carry 
+massive tree trunks as clubs and have no concept of mercy.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 3500 9000
+Stats2     41 41 0
+Stats3     15 45 42
+Stats4     0 0 0 0 0
+Attribs    28 6 22 4 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35515
+Keywords   shadowforge commander dwarf~
+Short      a Shadowforge Commander~
+Long       A Dark Iron dwarf in ornate plate armor bark orders.
+~
+Desc       The field leaders of the Shadowforge expedition. They are 
+ruthless tacticians who will sacrifice their own men to 
+achieve their goals.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 3200 8500
+Stats2     42 42 300
+Stats3     14 40 42
+Stats4     0 0 0 0 0
+Attribs    24 10 18 14 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       35516
+Keywords   greater rock elemental~
+Short      a Greater Rock Elemental~
+Long       A towering mountain of sentient stone looms over you.
+~
+Desc       These elementals are the oldest inhabitants of the Badlands. 
+They move with the weight of the earth itself, and their 
+fists can shatter steel.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 5000 14000
+Stats2     45 45 0
+Stats3     20 55 46
+Stats4     0 0 0 0 0
+Attribs    32 4 28 6 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35517
+Keywords   black broodling dragon~
+Short      a Black Broodling~
+Long       A medium-sized black dragon stalks through the ravine.
+~
+Desc       More dangerous than whelps, broodlings are adolescent 
+dragons that have begun to develop their full range of 
+elemental powers.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 2200 6500
+Stats2     42 42 200
+Stats3     12 35 42
+Stats4     0 0 0 0 0
+Attribs    22 14 18 12 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35518
+Keywords   shadowforge surveyor dwarf~
+Short      a Shadowforge Surveyor~
+Long       A Dark Iron dwarf peer through a complex brass lens.
+~
+Desc       Specialists in architectural analysis, these dwarves are 
+mapping the exterior of Uldaman to find weaknesses.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1000 3000
+Stats2     39 39 600
+Stats3     7 18 39
+Stats4     0 0 0 0 0
+Attribs    10 14 14 22 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35519
+Keywords   scalding elemental fire~
+Short      a Scalding Elemental~
+Long       A being of pure steam and heat pulses near a volcanic vent.
+~
+Desc       A rare elemental hybrid born from the intense heat 
+underground meeting the arid surface air.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1400 3800
+Stats2     40 40 1000
+Stats3     10 28 40
+Stats4     0 0 0 0 0
+Attribs    12 16 16 26 24 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35520
+Keywords   martek the exiled orc warrior~
+Short      Martek the Exiled~
+Long       An old orc sits alone in a small, tattered tent.
+~
+Desc       Martek was once a great warrior of the Horde who chose 
+a life of solitude in the Badlands. He possesses a wealth 
+of knowledge about the region's history.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 45 0 0 3000 8000
+Stats2     45 45 250
+Stats3     12 35 45
+Stats4     0 0 0 0 0
+Attribs    22 14 16 16 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       35521
+Keywords   theolen krastinov ghost~
+Short      the Ghost of Theolen~
+Long       A translucent figure mutters about lost medical supplies.
+~
+Desc       A restless spirit who died during the early days of 
+the Badlands excavation. He seems unable to move on 
+until his missing kit is found.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1000 2800
+Stats2     40 40 600
+Stats3     6 18 40
+Stats4     0 0 0 0 0
+Attribs    10 14 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35522
+Keywords   dustbelch mystic ogre shaman~
+Short      a Dustbelch Mystic~
+Long       An ogre mutters to a pile of burning bones.
+~
+Desc       The spiritual leaders of the Dustbelch ogres. They wield 
+a crude form of shamanism, calling upon the spirits of the 
+earth to crush their enemies.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1800 5000
+Stats2     40 40 700
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    18 10 16 20 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35523
+Keywords   starving buzzard bird~
+Short      a Starving Buzzard~
+Long       A buzzard with patchy feathers hops toward you expectantly.
+~
+Desc       This bird is desperate for its next meal. It will attack 
+anything it thinks it can overpower.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 600 1500
+Stats2     34 34 0
+Stats3     4 10 34
+Stats4     0 0 0 0 0
+Attribs    12 22 10 6 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35524
+Keywords   shadowforge guard dwarf~
+Short      a Shadowforge Guard~
+Long       A Dark Iron dwarf stands firm, his shield etched with a hammer.
+~
+Desc       The rank-and-file soldiers of the Shadowforge expedition. 
+They are well-trained and fanatically loyal to their clan.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 2000 5000
+Stats2     38 38 100
+Stats3     9 24 38
+Stats4     0 0 0 0 0
+Attribs    22 10 16 10 16 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     35525
+Keywords orange sand dust~
+Type     trash~
+Short    a handful of orange dust~
+Long     A pile of fine, orange dust that seems to coat everything.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35526
+Keywords jagged rock stone~
+Type     trash~
+Short    a jagged rock~
+Long     A sharp, heavy rock broken from the mountain side.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35527
+Keywords coyote pelt fur~
+Type     trash~
+Short    a dusty coyote pelt~
+Long     A rough, sun-bleached pelt taken from a ridge stalker.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 15 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35528
+Keywords scorpids stinger trophy~
+Type     trash~
+Short    a venomous scorpid stinger~
+Long     A large, curved stinger that still drips with toxic fluid.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35529
+Keywords rock elemental core treasure~
+Type     treasure~
+Short    a Rock Elemental Core~
+Long     A glowing, heavy stone that pulses with rhythmic energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    8 250 35 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35530
+Keywords black dragonscale trophy~
+Type     trash~
+Short    a Black Dragonscale~
+Long     A thick, obsidian scale that is warm to the touch.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35531
+Keywords shadowforge mining pick weapon~
+Type     weapon~
+Short    a Shadowforge Mining Pick~
+Long     A heavy, dark iron pickaxe used for excavation and combat.~
+WFlags   take wield~
+Values   12 10 18 3 0 0
+Stats    12 450 38 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35532
+Keywords ogre club weapon~
+Type     weapon~
+Short    a massive ogre club~
+Long     A crude, heavy log used as a weapon by the Dustbelch clan.~
+WFlags   take wield~
+Values   12 12 24 8 0 0
+Stats    30 150 40 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35533
+Keywords lotwil's notes treasure~
+Type     treasure~
+Short    Lotwil's Experimental Notes~
+Long     A thick stack of parchment covered in frantic, scribbled data.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 100 30 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35534
+Keywords cool spring water drink~
+Type     drinkcon~
+Short    a flask of cool spring water~
+Long     A leather flask containing precious, clean water.~
+WFlags   take~
+Values   10 10 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35535
+Keywords kingsblood herb~
+Type     treasure~
+Short    a sprig of Kingsblood~
+Long     A bright green herb with small, purple flowers.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 80 35 0 0
+Rarity   0
+Affect   5 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35536
+Keywords mountain silversage herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     A silver-leafed herb that thrives in the high altitudes.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   1
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35537
+Keywords mithril casing treasure~
+Type     treasure~
+Short    a Mithril Casing~
+Long     A hollow cylinder of polished, shimmering mithril.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 800 40 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35538
+Keywords camp kosh insignia rune~
+Type     rune~
+Short    a Camp Kosh Insignia~
+Long     A small, iron badge marking the bearer as an ally of the post.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 150 35 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35539
+Keywords shadowforge surveyor lens treasure~
+Type     treasure~
+Short    a Shadowforge Surveyor's Lens~
+Long     A brass-rimmed lens used to detect structural weaknesses.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 450 38 0 0
+Rarity   1
+Affect   3 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35540
+Keywords dragon-breath chili food~
+Type     food~
+Short    a bowl of Dragon-breath Chili~
+Long     A steaming bowl of chili that smells incredibly spicy.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 35 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35541
+Keywords ancient stone tablet treasure~
+Type     treasure~
+Short    an Ancient Stone Tablet~
+Long     A heavy, weathered tablet covered in faded Titan runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    15 1200 42 0 0
+Rarity   2
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35542
+Keywords scalding bracers wrist~
+Type     armor~
+Short    a pair of Scalding Bracers~
+Long     Metallic bracers that feel uncomfortably warm to the touch.~
+WFlags   take wrist~
+Values   10 0 0 0 0 0
+Stats    4 1500 40 0 0
+Rarity   2
+Affect   3 6 0 0 0
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35543
+Keywords blackened dragonbone trophy~
+Type     trash~
+Short    a blackened dragonbone~
+Long     A large, heavy bone taken from a black drake.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    8 200 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35544
+Keywords dustbelch talisman rune~
+Type     rune~
+Short    a Dustbelch Talisman~
+Long     A crude necklace made of string and polished ogre teeth.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 100 35 0 0
+Rarity   1
+Affect   1 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35545
+Keywords iron bar mineral~
+Type     treasure~
+Short    a solid Iron Bar~
+Long     A heavy, rectangular bar of refined iron.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 150 25 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35546
+Keywords gold bar mineral~
+Type     treasure~
+Short    a solid Gold Bar~
+Long     A shimmering, soft bar of pure gold.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1200 35 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35547
+Keywords truesilver bar mineral~
+Type     treasure~
+Short    a solid Truesilver Bar~
+Long     A bar of white-hot shimmering truesilver.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 2500 45 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     35548
+Keywords explorer's spade tool~
+Type     weapon~
+Short    an Explorer's Spade~
+Long     A well-used, sturdy spade used for archaeological work.~
+WFlags   take wield~
+Values   12 4 10 8 0 0
+Stats    8 50 30 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35549
+Keywords shadowforge tabard about~
+Type     armor~
+Short    a Shadowforge Tabard~
+Long     A black cloth tabard featuring a glowing red anvil.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 40 0 0
+Rarity   1
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     35500
+Name     &OEntrance from Loch Modan&d~
+Sector   field~
+Flags    ~
+Desc     The lush greenery and cool air of Loch Modan are suddenly 
+replaced by a harsh, orange-tinted wasteland. The path 
+descends sharply between two massive stone pillars that mark 
+the northern boundary of the Badlands.
+~
+#EXIT
+Direction out~
+ToRoom    15500
+Desc      Return to Loch Modan.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35501
+Desc      The path leads into the wastes.~
+#ENDEXIT
+Reset M 0 35503 5 35500
+#ENDROOM
+
+#ROOM
+Vnum     35501
+Name     &OThe North Pass&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, winding road leading through a series of jagged 
+rock formations. The air is dry and carries a faint scent 
+of sulfur and hot stone.
+~
+#EXIT
+Direction north~
+ToRoom    35500
+Desc      The northern entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35502
+Desc      The road opens up into a large plain.~
+#ENDEXIT
+Reset M 0 35500 5 35501
+#ENDROOM
+
+#ROOM
+Vnum     35502
+Name     &OThe Dusty Plains - North&d~
+Sector   field~
+Flags    ~
+Desc     Flat, orange plains stretch out toward the southern horizon. 
+Small clouds of dust are kicked up by the wind, and the 
+sun beats down mercilessly on the scorched earth.
+~
+#EXIT
+Direction north~
+ToRoom    35501
+Desc      The north pass.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35503
+Desc      The plains continue.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35504
+Desc      A small encampment is visible to the east.~
+#ENDEXIT
+Reset M 0 35501 5 35502
+#ENDROOM
+
+#ROOM
+Vnum     35503
+Name     &OThe Dusty Plains - Central&d~
+Sector   field~
+Flags    ~
+Desc     The center of the Badlands. To the west, the jagged peaks 
+of the mountains loom large, while to the south, the 
+land becomes more uneven and broken.
+~
+#EXIT
+Direction north~
+ToRoom    35502
+Desc      The northern plains.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35506
+Desc      The southern plains.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35520
+Desc      The path to the Searing Gorge.~
+#ENDEXIT
+Reset M 0 35500 5 35503
+#ENDROOM
+
+#ROOM
+Vnum     35504
+Name     &YLotwil's Camp - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A small collection of tents and strange, humming machines has 
+been set up here. A frantic gnome can be seen scurrying 
+between several large stone pedestals.
+~
+#EXIT
+Direction west~
+ToRoom    35502
+Desc      Return to the plains.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35505
+Desc      Lotwil's Workstation.~
+#ENDEXIT
+Reset M 0 35510 1 35504
+#ENDROOM
+
+#ROOM
+Vnum     35505
+Name     &YLotwil Veriatus's Workstation&d~
+Sector   field~
+Flags    ~
+Desc     The workstation is covered in gears, coils, and jars of 
+elemental essence. Lotwil Veriatus stands in the center 
+of the chaos, his hair singed and his goggles askew.
+~
+#EXIT
+Direction west~
+ToRoom    35504
+Desc      The camp entrance.~
+#ENDEXIT
+Reset M 0 35509 1 35505
+  Reset G 1 35533 1
+#ENDROOM
+
+#ROOM
+Vnum     35506
+Name     &OThe Dusty Plains - South&d~
+Sector   field~
+Flags    ~
+Desc     The ground becomes more rocky and uneven as you approach the 
+southern mountains. Large fissures have opened in the earth, 
+some of which emit a faint, hot steam.
+~
+#EXIT
+Direction north~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35510
+Desc      The approach to the ogre caves.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35507
+Desc      The path to the Uldaman dig site.~
+#ENDEXIT
+Reset M 0 35502 5 35506
+#ENDROOM
+
+#ROOM
+Vnum     35507
+Name     &OThe Road to Uldaman&d~
+Sector   field~
+Flags    ~
+Desc     The path winds through a series of shallow ravines. Discarded 
+mining tools and broken crates litter the ground, suggesting 
+a large-scale excavation nearby.
+~
+#EXIT
+Direction west~
+ToRoom    35506
+Desc      The southern plains.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35508
+Desc      The Uldaman Excavation Site.~
+#ENDEXIT
+Reset M 0 35505 5 35507
+#ENDROOM
+
+#ROOM
+Vnum     35508
+Name     &OThe Uldaman Excavation Site&d~
+Sector   field~
+Flags    ~
+Desc     A massive pit has been dug into the mountain side. Scaffolding 
+and ladders lead down into the dark, and the sound of 
+hammering and shouting echoes from below.
+~
+#EXIT
+Direction west~
+ToRoom    35507
+Desc      The road.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    35550
+Desc      The Excavation Pit (Portal to Uldaman).~
+#ENDEXIT
+Reset M 0 35506 5 35508
+#ENDROOM
+
+#ROOM
+Vnum     35550
+Name     &WThe Uldaman Excavation Pit&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand at the bottom of the massive pit. A grand, Titan-built 
+archway has been uncovered here, glowing with a soft, blue 
+light. This is the entrance to the ancient halls of Uldaman.
+~
+#EXIT
+Direction up~
+ToRoom    35508
+Desc      Return to the surface.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35509
+Name     &OThe High Ridge&d~
+Sector   field~
+Flags    ~
+Desc     A rocky shelf overlooking the central plains. It provides an 
+excellent vantage point for anyone wishing to scan the 
+Badlands for movement.
+~
+#EXIT
+Direction down~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+Reset M 0 35503 5 35509
+#ENDROOM
+
+#ROOM
+Vnum     35510
+Name     &OApproach to Dustbelch Grotto&d~
+Sector   field~
+Flags    ~
+Desc     The mountain walls close in, forming a narrow, steep canyon. 
+The scent of woodsmoke and roasting meat is heavy in the 
+air, along with the unmistakable smell of ogres.
+~
+#EXIT
+Direction north~
+ToRoom    35506
+Desc      The southern plains.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35511
+Desc      The Grotto entrance.~
+#ENDEXIT
+Reset M 0 35504 5 35510
+#ENDROOM
+
+#ROOM
+Vnum     35511
+Name     &xDustbelch Grotto - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     A large, dark cavern mouth opens at the base of the mountain. 
+The walls are decorated with crude, bloody handprints and 
+piles of refuse.
+~
+#EXIT
+Direction north~
+ToRoom    35510
+Desc      The approach.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35512
+Desc      The main cavern.~
+#ENDEXIT
+Reset M 0 35504 5 35511
+#ENDROOM
+
+#ROOM
+Vnum     35512
+Name     &xDustbelch Grotto - Main Cavern&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive natural chamber lit by several large bonfires. 
+Dustbelch ogres rest on piles of furs, while others 
+sharpen their crude weapons.
+~
+#EXIT
+Direction north~
+ToRoom    35511
+Desc      The grotto entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35513
+Desc      The Deep Grotto.~
+#ENDEXIT
+Reset M 0 35514 5 35512
+Reset O 0 35532 5 35512
+#ENDROOM
+
+#ROOM
+Vnum     35513
+Name     &xDustbelch Grotto - Deep Cavern&d~
+Sector   underground~
+Flags    indoors~
+Desc     The deepest part of the grotto. The ceiling is low and the air 
+is stagnant. This is where the ogre mystics conduct their 
+primitive rituals.
+~
+#EXIT
+Direction north~
+ToRoom    35512
+Desc      The main cavern.~
+#ENDEXIT
+Reset M 0 35522 5 35513
+#ENDROOM
+
+#ROOM
+Vnum     35514
+Name     &OThe Eastern Ravine - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A wide, sandy ravine that cuts deep into the eastern mountains. 
+To the north, the terrain becomes extremely rocky and 
+difficult to navigate.
+~
+#EXIT
+Direction west~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35515
+Desc      The ravine continues.~
+#ENDEXIT
+Reset M 0 35502 5 35514
+#ENDROOM
+
+#ROOM
+Vnum     35515
+Name     &OThe Eastern Ravine - Bend&d~
+Sector   field~
+Flags    ~
+Desc     The ravine turns sharply to the north. Massive pillars of 
+natural stone stand like guardians along the path.
+~
+#EXIT
+Direction west~
+ToRoom    35514
+Desc      The ravine entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35516
+Desc      The path to Camp Kosh.~
+#ENDEXIT
+Reset M 0 35501 5 35515
+#ENDROOM
+
+#ROOM
+Vnum     35516
+Name     &rCamp Kosh - Southern Gate&d~
+Sector   city~
+Flags    ~
+Desc     A well-fortified Horde outpost built into the eastern ridge. 
+Spiked wooden walls and watchtowers provide a clear view 
+of the surrounding ravine.
+~
+#EXIT
+Direction south~
+ToRoom    35515
+Desc      The eastern ravine.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35517
+Desc      The main courtyard of Camp Kosh.~
+#ENDEXIT
+Reset M 0 35511 5 35516
+#ENDROOM
+
+#ROOM
+Vnum     35517
+Name     &rCamp Kosh - Main Courtyard&d~
+Sector   city~
+Flags    ~
+Desc     The center of the outpost is busy with orcs preparing for 
+patrols. Several large kodo are tethered near the supply 
+tents, and a blacksmith's forge rings with the sound of steel.
+~
+#EXIT
+Direction south~
+ToRoom    35516
+Desc      The southern gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35518
+Desc      The Horde Inn.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35519
+Desc      The Wyvern Roost.~
+#ENDEXIT
+Reset O 0 35538 5 35517
+#ENDROOM
+
+#ROOM
+Vnum     35518
+Name     &rThe Grunt's Respite&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, sturdy building that serves as the inn for Camp Kosh. 
+The air is warm and smells of roasted boar and strong ale.
+~
+#EXIT
+Direction south~
+ToRoom    35517
+Desc      The courtyard.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35519
+Name     &rCamp Kosh - Wyvern Roost&d~
+Sector   city~
+Flags    ~
+Desc     A flat ledge at the highest point of the camp. Several 
+wyverns rest here, ready to carry messages and warriors 
+to Kargath.
+~
+#EXIT
+Direction west~
+ToRoom    35517
+Desc      The courtyard.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35520
+Name     &OThe West Pass - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The orange plains give way to a steep, rocky pass leading 
+west into the Searing Gorge. The air becomes noticeably 
+warmer and the scent of smoke more intense.
+~
+#EXIT
+Direction east~
+ToRoom    35503
+Desc      Return to the plains.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35521
+Desc      The pass continues west.~
+#ENDEXIT
+Reset M 0 35505 5 35520
+#ENDROOM
+
+#ROOM
+Vnum     35521
+Name     &OThe West Pass - Higher Ridge&d~
+Sector   field~
+Flags    ~
+Desc     The path winds up along a narrow ridge. From here, you can 
+see the black, smoke-choked sky of the Searing Gorge 
+looming in the distance.
+~
+#EXIT
+Direction east~
+ToRoom    35520
+Desc      The pass entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35522
+Desc      The exit to Searing Gorge.~
+#ENDEXIT
+Reset M 0 35518 5 35521
+#ENDROOM
+
+#ROOM
+Vnum     35522
+Name     &xWestern Exit to Searing Gorge&d~
+Sector   field~
+Flags    ~
+Desc     A massive iron gate, built by the Dark Iron dwarves, marks 
+the boundary between the Badlands and the Searing Gorge. 
+The air is thick with the soot of Blackrock Mountain.
+~
+#EXIT
+Direction east~
+ToRoom    35521
+Desc      The ridge path.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36500
+Desc      Enter the Searing Gorge.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35523
+Name     &OThe Shattered Mesa&d~
+Sector   field~
+Flags    ~
+Desc     A high, flat-topped hill in the center of the Badlands. 
+The ground is cracked and dry, and small scorpions 
+scuttle between the shards of stone.
+~
+#EXIT
+Direction down~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+Reset M 0 35502 10 35523
+#ENDROOM
+
+#ROOM
+Vnum     35524
+Name     &OThe Lethlor Ravine - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A deep, narrow ravine that cuts into the southeastern mountains. 
+The air is heavy and the scent of brimstone and old scales 
+is overwhelming.
+~
+#EXIT
+Direction north~
+ToRoom    35506
+Desc      The southern plains.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35525
+Desc      The Dragonflight territory.~
+#ENDEXIT
+Reset M 0 35507 5 35524
+#ENDROOM
+
+#ROOM
+Vnum     35525
+Name     &OThe Lethlor Ravine - Heart&d~
+Sector   field~
+Flags    ~
+Desc     The heart of the black dragonflight's territory in the Badlands. 
+Massive, charred rocks and piles of bones litter the ground, 
+and the roar of drakes echoes off the walls.
+~
+#EXIT
+Direction north~
+ToRoom    35524
+Desc      The ravine entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35526
+Desc      The Black Dragonflight Roost.~
+#ENDEXIT
+Reset M 0 35508 5 35525
+Reset O 0 35530 5 35525
+#ENDROOM
+
+#ROOM
+Vnum     35526
+Name     &OThe Black Dragonflight Roost&d~
+Sector   field~
+Flags    ~
+Desc     A high, volcanic ledge where the larger drakes of the black 
+flight rest. The heat is intense, and the ground is 
+stained with the soot of countless breath attacks.
+~
+#EXIT
+Direction north~
+ToRoom    35525
+Desc      The heart of the ravine.~
+#ENDEXIT
+Reset M 0 35508 1 35526
+  Reset G 1 35543 1
+#ENDROOM
+
+#ROOM
+Vnum     35527
+Name     &YHammertoe's Digsite&d~
+Sector   field~
+Flags    ~
+Desc     A small, disorganized dig site near the southern mountains. 
+Hammertoe Grez can be seen frantically searching 
+through a pile of rubble.
+~
+#EXIT
+Direction north~
+ToRoom    35506
+Desc      The southern plains.~
+#ENDEXIT
+Reset M 0 35513 1 35527
+  Reset G 1 35541 1
+#ENDROOM
+
+#ROOM
+Vnum     35528
+Name     &OThe Sunken Temple Ruins&d~
+Sector   field~
+Flags    ~
+Desc     The remains of a small stone structure that has been nearly 
+swallowed by the shifting sands. Shadowforge dwarves are 
+working to clear the debris.
+~
+#EXIT
+Direction south~
+ToRoom    35502
+Desc      The northern plains.~
+#ENDEXIT
+Reset M 0 35515 5 35528
+#ENDROOM
+
+#ROOM
+Vnum     35529
+Name     &OThe Scorched Vale&d~
+Sector   field~
+Flags    ~
+Desc     A small valley filled with volcanic vents and boiling mud 
+pools. The air is thick with steam and the scent of 
+burning stone.
+~
+#EXIT
+Direction south~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+Reset M 0 35519 5 35529
+#ENDROOM
+
+#ROOM
+Vnum     35530
+Name     &YMartek's Retreat&d~
+Sector   field~
+Flags    ~
+Desc     A small, secluded tent tucked away in a quiet corner of 
+the western mountains. Martek the Exiled sits here, 
+quietly contemplating the horizon.
+~
+#EXIT
+Direction east~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+Reset M 0 35520 1 35530
+#ENDROOM
+
+#ROOM
+Vnum     35531
+Name     &OPlains Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet section of the northern plains, dominated by 
+large orange boulders and sparse vegetation.
+~
+#EXIT
+Direction south~
+ToRoom    35502
+Desc      The northern plains.~
+#ENDEXIT
+Reset M 0 35501 5 35531
+#ENDROOM
+
+#ROOM
+Vnum     35532
+Name     &OPlains Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small, dusty hollow where several coyotes have made 
+their den.
+~
+#EXIT
+Direction north~
+ToRoom    35506
+Desc      The southern plains.~
+#ENDEXIT
+Reset M 0 35500 10 35532
+#ENDROOM
+
+#ROOM
+Vnum     35533
+Name     &OPlains Overflow C&d~
+Sector   field~
+Flags    ~
+Desc     A flat, wind-swept section of the central plains, 
+frequently patrolled by buzzards.
+~
+#EXIT
+Direction west~
+ToRoom    35503
+Desc      The central plains.~
+#ENDEXIT
+Reset M 0 35523 10 35533
+#ENDROOM
+
+#ROOM
+Vnum     35534
+Name     &OPlains Overflow D&d~
+Sector   field~
+Flags    ~
+Desc     A rocky outcrop near the western pass, offering a 
+good view of the mountain trail.
+~
+#EXIT
+Direction east~
+ToRoom    35520
+Desc      The west pass entrance.~
+#ENDEXIT
+Reset M 0 35524 5 35534
+#ENDROOM
+
+#ROOM
+Vnum     35535
+Name     &rCamp Kosh Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small storage area near the Horde inn, filled with 
+crates of food and equipment.
+~
+#EXIT
+Direction north~
+ToRoom    35517
+Desc      The camp courtyard.~
+#ENDEXIT
+Reset O 0 35540 10 35535
+#ENDROOM
+
+#ROOM
+Vnum     35536
+Name     &rCamp Kosh Overflow B&d~
+Sector   city~
+Flags    ~
+Desc     A quiet section of the camp where guards can rest 
+between patrols.
+~
+#EXIT
+Direction south~
+ToRoom    35517
+Desc      The camp courtyard.~
+#ENDEXIT
+Reset M 0 35511 5 35536
+#ENDROOM
+
+#ROOM
+Vnum     35537
+Name     &xGrotto Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A side tunnel in the ogre grotto, filled with 
+piles of large, gnawed bones.
+~
+#EXIT
+Direction east~
+ToRoom    35512
+Desc      The main grotto cavern.~
+#ENDEXIT
+Reset O 0 35544 5 35537
+#ENDROOM
+
+#ROOM
+Vnum     35538
+Name     &xGrotto Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, damp chamber where the ogres store their 
+crude weapons and armor.
+~
+#EXIT
+Direction west~
+ToRoom    35512
+Desc      The main grotto cavern.~
+#ENDEXIT
+Reset M 0 35504 5 35538
+#ENDROOM
+
+#ROOM
+Vnum     35539
+Name     &OExcavation Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A small ridge overlooking the Uldaman dig site, 
+heavily patrolled by Dark Iron guards.
+~
+#EXIT
+Direction down~
+ToRoom    35508
+Desc      The excavation site.~
+#ENDEXIT
+Reset M 0 35524 5 35539
+#ENDROOM
+
+#ROOM
+Vnum     35540
+Name     &OExcavation Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A shallow pit where several surveyors are 
+conducting an analysis of the rock layers.
+~
+#EXIT
+Direction north~
+ToRoom    35508
+Desc      The excavation site.~
+#ENDEXIT
+Reset M 0 35518 5 35540
+#ENDROOM
+
+#ROOM
+Vnum     35541
+Name     &OThe Forgotten Road&d~
+Sector   field~
+Flags    ~
+Desc     An overgrown, dusty trail that leads into the deep 
+southern mountains. It hasn't been used in years.
+~
+#EXIT
+Direction north~
+ToRoom    35510
+Desc      The ogre approach.~
+#ENDEXIT
+Reset M 0 35501 5 35541
+#ENDROOM
+
+#ROOM
+Vnum     35542
+Name     &OThe High Pass&d~
+Sector   field~
+Flags    ~
+Desc     A high, narrow mountain trail that provides a 
+commanding view of the southeastern Badlands.
+~
+#EXIT
+Direction north~
+ToRoom    35514
+Desc      The eastern ravine entrance.~
+#ENDEXIT
+Reset M 0 35503 5 35542
+#ENDROOM
+
+#ROOM
+Vnum     35543
+Name     &OThe Crystal Cave - Entry&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     The entrance to a small, hidden cave filled with 
+glowing crystals. The air is cool and stagnant.
+~
+#EXIT
+Direction up~
+ToRoom    35523
+Desc      The shattered mesa.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    35544
+Desc      The deeper cave.~
+#ENDEXIT
+Reset O 0 35529 5 35543
+#ENDROOM
+
+#ROOM
+Vnum     35544
+Name     &OThe Crystal Cave - Deep&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     The deepest point of the hidden cave. The walls 
+shimmer with a brilliant, blue light.
+~
+#EXIT
+Direction up~
+ToRoom    35543
+Desc      The cave entry.~
+#ENDEXIT
+Reset M 0 35516 1 35544
+#ENDROOM
+
+#ROOM
+Vnum     35545
+Name     &OThe Ghostly Alcove&d~
+Sector   field~
+Flags    ~
+Desc     A quiet, shadowed corner of the ravine where the 
+Ghost of Theolen wanders.
+~
+#EXIT
+Direction north~
+ToRoom    35514
+Desc      The eastern ravine entrance.~
+#ENDEXIT
+Reset M 0 35521 1 35545
+#ENDROOM
+
+#ROOM
+Vnum     35546
+Name     &OThe Rocky Ledge&d~
+Sector   field~
+Flags    ~
+Desc     A small ledge overlooking the southern ogre caves. 
+Several buzzards rest here, watching the path below.
+~
+#EXIT
+Direction down~
+ToRoom    35510
+Desc      The ogre approach.~
+#ENDEXIT
+Reset M 0 35503 10 35546
+#ENDROOM
+
+#ROOM
+Vnum     35547
+Name     &OThe Hidden Valley&d~
+Sector   field~
+Flags    ~
+Desc     A small, green oasis tucked away in the western 
+mountains. A tiny stream flows from a crack in the rock.
+~
+#EXIT
+Direction east~
+ToRoom    35520
+Desc      The west pass entrance.~
+#ENDEXIT
+Reset O 0 35536 5 35547
+#ENDROOM
+
+#ROOM
+Vnum     35548
+Name     &OThe Sunken Vault&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small, subterranean room beneath the sunken temple 
+ruins. It is filled with dust and broken machinery.
+~
+#EXIT
+Direction up~
+ToRoom    35528
+Desc      Return to the ruins.~
+#ENDEXIT
+Reset O 0 35541 1 35548
+#ENDROOM
+
+#ROOM
+Vnum     35549
+Name     &OThe Badlands Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, hidden tunnel behind the Uldaman pit leads 
+toward the surface of Loch Modan, offering a quick 
+way out for tired explorers.
+~
+#EXIT
+Direction south~
+ToRoom    35550
+Desc      The excavation pit.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    35500
+Desc      The northern entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

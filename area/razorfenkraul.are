@@ -10,7 +10,7 @@ Economy      0 20000000
 #ENDAREADATA
 
 #MOBILE
-Vnum       26930
+Vnum       29000
 Keywords   quilboar thornweaver razorfen~
 Short      a Razorfen Thornweaver~
 Long       A Razorfen Thornweaver brandishes a staff made of twisted briars.
@@ -35,7 +35,7 @@ Speaking   orcish~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26931
+Vnum       29001
 Keywords   quilboar defender razorfen~
 Short      a Razorfen Defender~
 Long       A Razorfen Defender snorts aggressively, leveling a crude spear.
@@ -60,7 +60,7 @@ Speaking   orcish~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26932
+Vnum       29002
 Keywords   razorfen bat beast~
 Short      a Razorfen Bat~
 Long       A large, leathery-winged bat hangs from the ceiling.
@@ -85,7 +85,7 @@ Speaking   ~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26933
+Vnum       29003
 Keywords   razorfen stalker quilboar~
 Short      a Razorfen Stalker~
 Long       A Razorfen Stalker crouches in the shadows, quills twitching.
@@ -107,7 +107,7 @@ Attribs    14 18 14 10 10 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26934
+Vnum       29004
 Keywords   razorfen totem-shaker~
 Short      a Razorfen Totem-Shaker~
 Long       A Razorfen Totem-Shaker plants a glowing wooden totem.
@@ -129,7 +129,7 @@ Attribs    14 14 16 16 16 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26935
+Vnum       29005
 Keywords   razorfen earthbreaker warrior~
 Short      a Razorfen Earthbreaker~
 Long       A massive Razorfen Earthbreaker stomps the ground.
@@ -151,7 +151,7 @@ Attribs    20 10 20 8 8 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26936
+Vnum       29006
 Keywords   razorfen mystic mage~
 Short      a Razorfen Mystic~
 Long       A Razorfen Mystic chants a low, guttural spell.
@@ -173,7 +173,7 @@ Attribs    10 12 12 20 18 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26937
+Vnum       29007
 Keywords   razorfen beastmaster~
 Short      a Razorfen Beastmaster~
 Long       A Razorfen Beastmaster commands a pack of snarling hyenas.
@@ -195,7 +195,7 @@ Attribs    16 16 16 12 12 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26938
+Vnum       29008
 Keywords   razorfen hyena beast~
 Short      a Razorfen Hyena~
 Long       A mangy Razorfen Hyena snaps its jaws at you.
@@ -216,7 +216,7 @@ Attribs    14 16 14 6 6 6 6
 #ENDMOBILE
 
 #MOBILE
-Vnum       26939
+Vnum       29009
 Keywords   razorfen ward-watcher~
 Short      a Razorfen Ward-Watcher~
 Long       A Razorfen Ward-Watcher stands vigilant near the thorns.
@@ -238,7 +238,7 @@ Attribs    18 12 18 10 10 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26940
+Vnum       29010
 Keywords   greater kraul bat beast~
 Short      a Greater Kraul Bat~
 Long       A massive, shadowed bat circles the cavern roof.
@@ -260,7 +260,7 @@ Attribs    16 20 18 8 8 6 6
 #ENDMOBILE
 
 #MOBILE
-Vnum       26941
+Vnum       29011
 Keywords   quilboar outcast trash~
 Short      a Quilboar Outcast~
 Long       A desperate Quilboar Outcast scavenges for scraps.
@@ -282,7 +282,7 @@ Attribs    12 10 12 8 8 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26942
+Vnum       29012
 Keywords   death's head acolyte~
 Short      a Death's Head Acolyte~
 Long       A Death's Head Acolyte kneels in prayer to the Scourge.
@@ -304,7 +304,7 @@ Attribs    10 12 12 18 16 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26943
+Vnum       29013
 Keywords   death's head geomancer~
 Short      a Death's Head Geomancer~
 Long       A Death's Head Geomancer pulls dark energy from the earth.
@@ -326,7 +326,7 @@ Attribs    10 14 12 19 17 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       26944
+Vnum       29014
 Keywords   blind hunter rare bat~
 Short      The Blind Hunter~
 Long       A massive, albino bat screeches, sensing your presence.
@@ -348,7 +348,7 @@ Attribs    18 25 20 10 10 6 6
 #ENDMOBILE
 
 #MOBILE
-Vnum       26945
+Vnum       29015
 Keywords   roalgorth boss warrior~
 Short      Roalgorth~
 Long       Roalgorth, the massive quilboar guardian, bellows a challenge.
@@ -369,7 +369,7 @@ Attribs    22 10 14 12 20 12 12
 #ENDMOBILE
 
 #MOBILE
-Vnum       26946
+Vnum       29016
 Keywords   death speaker jargba boss~
 Short      Death Speaker Jargba~
 Long       Death Speaker Jargba mutters dark prayers over a pile of skulls.
@@ -390,7 +390,7 @@ Attribs    14 18 18 14 14 12 12
 #ENDMOBILE
 
 #MOBILE
-Vnum       26947
+Vnum       29017
 Keywords   overlord ramtusk boss~
 Short      Overlord Ramtusk~
 Long       Overlord Ramtusk stands tall, his tusks capped in jagged iron.
@@ -411,7 +411,7 @@ Attribs    24 12 14 14 22 14 14
 #ENDMOBILE
 
 #MOBILE
-Vnum       26948
+Vnum       29018
 Keywords   agathelos raging boss boar~
 Short      Agathelos the Raging~
 Long       A massive, ancient boar snorts steam, its eyes red with fury.
@@ -432,7 +432,7 @@ Attribs    26 6 18 10 24 6 6
 #ENDMOBILE
 
 #MOBILE
-Vnum       26949
+Vnum       29019
 Keywords   charlga razorflank boss~
 Short      Charlga Razorflank~
 Long       Charlga Razorflank cackles, her quills vibrating with magical power.
@@ -453,7 +453,7 @@ Attribs    18 20 22 16 18 16 16
 #ENDMOBILE
 
 #OBJECT
-Vnum     26950
+Vnum     29020
 Keywords Agathelos back plate armor~
 Type     armor~
 Short    the Back of Agathelos~
@@ -467,7 +467,7 @@ Affect -1 -1 8 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26951
+Vnum     29021
 Keywords Swinetusk Shank dagger weapon~
 Type     weapon~
 Short    the Swinetusk Shank~
@@ -480,7 +480,7 @@ Affect -1 -1 5 2 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26952
+Vnum     29022
 Keywords Heart Agathelos trinket treasure~
 Type     treasure~
 Short    the Heart of Agathelos~
@@ -493,9 +493,9 @@ Affect -1 -1 10 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26953
+Vnum     29023
 Keywords Razorflank medallion necklace~
-Type     jewelry~
+Type     rune~
 Short    Razorflank's Medallion~
 Long     A heavy medallion made of twisted briars and dark jade.~
 WFlags   take neck~
@@ -507,7 +507,7 @@ Affect -1 -1 4 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26954
+Vnum     29024
 Keywords Death Speaker scepter mace weapon~
 Type     weapon~
 Short    the Death Speaker's Scepter~
@@ -521,7 +521,7 @@ Affect -1 -1 5 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26955
+Vnum     29025
 Keywords Ramtusk helm head armor~
 Type     armor~
 Short    Ramtusk's Helm~
@@ -535,7 +535,7 @@ Affect -1 -1 5 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26956
+Vnum     29026
 Keywords Roalgorth bracers wrist armor~
 Type     armor~
 Short    Roalgorth's Bracers~
@@ -549,7 +549,7 @@ Affect -1 -1 4 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26957
+Vnum     29027
 Keywords Batwing mantle shoulder armor~
 Type     armor~
 Short    a Batwing Mantle~
@@ -562,7 +562,7 @@ Affect -1 -1 4 2 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26958
+Vnum     29028
 Keywords Thorned staff weapon~
 Type     weapon~
 Short    a Thorned Staff~
@@ -576,7 +576,7 @@ Affect -1 -1 2 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26959
+Vnum     29029
 Keywords Tusk-capped spear polearm weapon~
 Type     weapon~
 Short    a Tusk-Capped Spear~
@@ -589,7 +589,7 @@ Affect -1 -1 4 1 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26960
+Vnum     29030
 Keywords Quilboar war mask head~
 Type     armor~
 Short    a Quilboar War Mask~
@@ -602,7 +602,7 @@ Affect -1 -1 3 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26961
+Vnum     29031
 Keywords Warped wood bow weapon~
 Type     weapon~
 Short    a Warped Wood Bow~
@@ -615,7 +615,7 @@ Affect -1 -1 3 2 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26962
+Vnum     29032
 Keywords Grim Totem hold~
 Type     treasure~
 Short    a Grim Totem~
@@ -628,31 +628,31 @@ Affect -1 -1 5 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26963
+Vnum     29033
 Keywords small briar key~
 Type     key~
 Short    a Small Briar Key~
 Long     A key made of hardened, blackened wood.~
 WFlags   take~
-Values   26963 0 0 0 0 0
+Values   29033 0 0 0 0 0
 Stats    1 0 1 0 0
 Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26964
+Vnum     29034
 Keywords large kraul key~
 Type     key~
 Short    a Large Kraul Key~
 Long     A heavy key made from the bone of a kodo.~
 WFlags   take~
-Values   26964 0 0 0 0 0
+Values   29034 0 0 0 0 0
 Stats    1 0 1 0 0
 Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26965
+Vnum     29035
 Keywords Quilboar skin gloves hands armor~
 Type     armor~
 Short    Quilboar Skin Gloves~
@@ -664,7 +664,7 @@ Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26966
+Vnum     29036
 Keywords Boar-hide belt waist armor~
 Type     armor~
 Short    a Boar-hide Belt~
@@ -676,7 +676,7 @@ Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26967
+Vnum     29037
 Keywords Briarthorn seed treasure~
 Type     treasure~
 Short    a Briarthorn Seed~
@@ -688,7 +688,7 @@ Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26968
+Vnum     29038
 Keywords Sharpened Tusk treasure~
 Type     treasure~
 Short    a Sharpened Tusk~
@@ -700,7 +700,7 @@ Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26969
+Vnum     29039
 Keywords blood-stained bandage salve~
 Type     salve~
 Short    a blood-stained bandage~
@@ -712,7 +712,7 @@ Rarity   0
 #ENDOBJECT
 
 #ROOM
-Vnum     26930
+Vnum     29000
 Name     &rThe Kraul Entrance&d~
 Sector   underground~
 Flags    indoors~
@@ -729,13 +729,13 @@ Desc      Return to the Barrens.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26931
+ToRoom    29001
 Desc      The path leads into the thorns.~
 #ENDEXIT
 #ENDROOM
 
 #ROOM
-Vnum     26931
+Vnum     29001
 Name     &rOuter Thorns - Path Entry&d~
 Sector   underground~
 Flags    indoors~
@@ -746,19 +746,19 @@ echoes through the passage.
 ~
 #EXIT
 Direction south~
-ToRoom    26930
+ToRoom    29000
 Desc      The entrance portal.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26932
+ToRoom    29002
 Desc      The path continues deeper.~
 #ENDEXIT
-Reset M 0 26931 10 26931
+Reset M 0 29001 10 29001
 #ENDROOM
 
 #ROOM
-Vnum     26932
+Vnum     29002
 Name     &rOuter Thorns - Narrow Bend&d~
 Sector   underground~
 Flags    indoors~
@@ -768,24 +768,24 @@ vines here are thicker, almost choking the path.
 ~
 #EXIT
 Direction south~
-ToRoom    26931
+ToRoom    29001
 Desc      The entry path.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26933
+ToRoom    29003
 Desc      A small side cavern.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26934
+ToRoom    29004
 Desc      The path toward the crossroads.~
 #ENDEXIT
-Reset M 0 26932 10 26932
+Reset M 0 29002 10 29002
 #ENDROOM
 
 #ROOM
-Vnum     26933
+Vnum     29003
 Name     &rThorny Side Cavern&d~
 Sector   underground~
 Flags    indoors~
@@ -795,15 +795,15 @@ twisting walls.
 ~
 #EXIT
 Direction west~
-ToRoom    26932
+ToRoom    29002
 Desc      Return to the path.~
 #ENDEXIT
-Reset M 0 26941 10 26933
-Reset O 0 26968 10 26933
+Reset M 0 29011 10 29003
+Reset O 0 29038 10 29003
 #ENDROOM
 
 #ROOM
-Vnum     26934
+Vnum     29004
 Name     &rOuter Thorns - Approaching the Hub&d~
 Sector   underground~
 Flags    indoors~
@@ -813,19 +813,19 @@ blue light upon the jagged briars.
 ~
 #EXIT
 Direction south~
-ToRoom    26932
+ToRoom    29002
 Desc      The narrow bend.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26935
+ToRoom    29005
 Desc      The central crossroads.~
 #ENDEXIT
-Reset M 0 26930 10 26934
+Reset M 0 29000 10 29004
 #ENDROOM
 
 #ROOM
-Vnum     26935
+Vnum     29005
 Name     &rRoalgorth's Crossroads&d~
 Sector   underground~
 Flags    indoors~
@@ -836,30 +836,30 @@ altar sits in the center.
 ~
 #EXIT
 Direction south~
-ToRoom    26934
+ToRoom    29004
 Desc      The outer thorns.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26941
+ToRoom    29011
 Desc      The path to Overlord Ramtusk.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26936
+ToRoom    29006
 Desc      The path to Death Speaker Jargba.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    26946
+ToRoom    29016
 Desc      The path to Agathelos.~
 #ENDEXIT
-Reset M 0 26945 1 26935
-  Reset E 1 26956 1 14
+Reset M 0 29015 1 29005
+  Reset E 1 29026 1 14
 #ENDROOM
 
 #ROOM
-Vnum     26936
+Vnum     29006
 Name     &dDeath's Head Passage - Entry&d~
 Sector   underground~
 Flags    indoors~
@@ -869,19 +869,19 @@ monotonous chanting vibrates through the floor.
 ~
 #EXIT
 Direction west~
-ToRoom    26935
+ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26937
+ToRoom    29007
 Desc      The passage continues.~
 #ENDEXIT
-Reset M 0 26942 10 26936
+Reset M 0 29012 10 29006
 #ENDROOM
 
 #ROOM
-Vnum     26937
+Vnum     29007
 Name     &dDeath's Head Passage - Acolyte Hall&d~
 Sector   underground~
 Flags    indoors~
@@ -891,29 +891,29 @@ braziers burn with a cold, purple flame.
 ~
 #EXIT
 Direction west~
-ToRoom    26936
+ToRoom    29006
 Desc      The passage entrance.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26938
+ToRoom    29008
 Desc      A small ritual room.~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    26939
+ToRoom    29009
 Desc      A small ritual room.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26940
+ToRoom    29010
 Desc      The inner sanctum entrance.~
 #ENDEXIT
-Reset M 0 26942 10 26937
+Reset M 0 29012 10 29007
 #ENDROOM
 
 #ROOM
-Vnum     26938
+Vnum     29008
 Name     &dRitual Room of Bones&d~
 Sector   underground~
 Flags    indoors~
@@ -923,15 +923,15 @@ space to harvest energy from the deceased.
 ~
 #EXIT
 Direction south~
-ToRoom    26937
+ToRoom    29007
 Desc      The acolyte hall.~
 #ENDEXIT
-Reset M 0 26943 10 26938
-Reset O 0 26963 1 26938
+Reset M 0 29013 10 29008
+Reset O 0 29033 1 29008
 #ENDROOM
 
 #ROOM
-Vnum     26939
+Vnum     29009
 Name     &dRitual Room of Shadows&d~
 Sector   underground~
 Flags    indoors~
@@ -941,15 +941,15 @@ that sounds like grinding stone.
 ~
 #EXIT
 Direction north~
-ToRoom    26937
+ToRoom    29007
 Desc      The acolyte hall.~
 #ENDEXIT
-Reset M 0 26943 10 26939
-Reset O 0 26969 10 26939
+Reset M 0 29013 10 29009
+Reset O 0 29039 10 29009
 #ENDROOM
 
 #ROOM
-Vnum     26940
+Vnum     29010
 Name     &dDeath Speaker's Threshold&d~
 Sector   underground~
 Flags    indoors~
@@ -959,19 +959,19 @@ braziers is almost extinguished by the darkness beyond.
 ~
 #EXIT
 Direction west~
-ToRoom    26937
+ToRoom    29007
 Desc      The acolyte hall.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26941
+ToRoom    29011
 Desc      The Death Speaker's Chamber.~
 #ENDEXIT
-Reset M 0 26934 10 26940
+Reset M 0 29004 10 29010
 #ENDROOM
 
 #ROOM
-Vnum     26941
+Vnum     29011
 Name     &dDeath Speaker Jargba's Chamber&d~
 Sector   underground~
 Flags    indoors~
@@ -982,15 +982,15 @@ life from the earth.
 ~
 #EXIT
 Direction south~
-ToRoom    26940
+ToRoom    29010
 Desc      The threshold.~
 #ENDEXIT
-Reset M 0 26946 1 26941
-  Reset E 1 26954 1 16
+Reset M 0 29016 1 29011
+  Reset E 1 29024 1 16
 #ENDROOM
 
 #ROOM
-Vnum     26942
+Vnum     29012
 Name     &WThe High Road - North&d~
 Sector   underground~
 Flags    indoors~
@@ -1000,19 +1000,19 @@ way to the tribe's military leadership.
 ~
 #EXIT
 Direction south~
-ToRoom    26935
+ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26943
+ToRoom    29013
 Desc      The military corridor.~
 #ENDEXIT
-Reset M 0 26931 10 26942
+Reset M 0 29001 10 29012
 #ENDROOM
 
 #ROOM
-Vnum     26943
+Vnum     29013
 Name     &WThe Military Corridor&d~
 Sector   underground~
 Flags    indoors~
@@ -1022,19 +1022,19 @@ clanking with every step.
 ~
 #EXIT
 Direction south~
-ToRoom    26942
+ToRoom    29012
 Desc      The north path.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26944
+ToRoom    29014
 Desc      The Overlord's approach.~
 #ENDEXIT
-Reset M 0 26935 10 26943
+Reset M 0 29005 10 29013
 #ENDROOM
 
 #ROOM
-Vnum     26944
+Vnum     29014
 Name     &WThe Overlord's Approach&d~
 Sector   underground~
 Flags    indoors~
@@ -1044,20 +1044,20 @@ for the Overlord's many victories.
 ~
 #EXIT
 Direction south~
-ToRoom    26943
+ToRoom    29013
 Desc      The military corridor.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26945
+ToRoom    29015
 Desc      Overlord Ramtusk's Seat.~
 #ENDEXIT
-Reset M 0 26939 10 26944
-Reset O 0 26960 5 26944
+Reset M 0 29009 10 29014
+Reset O 0 29030 5 29014
 #ENDROOM
 
 #ROOM
-Vnum     26945
+Vnum     29015
 Name     &WOverlord Ramtusk's Seat&d~
 Sector   underground~
 Flags    indoors~
@@ -1067,16 +1067,16 @@ loyal advisors, planning the next strike against the Barrens.
 ~
 #EXIT
 Direction west~
-ToRoom    26944
+ToRoom    29014
 Desc      The approach.~
 #ENDEXIT
-Reset M 0 26947 1 26945
-  Reset E 1 26955 1 6
-  Reset G 1 26964 1
+Reset M 0 29017 1 29015
+  Reset E 1 29025 1 6
+  Reset G 1 29034 1
 #ENDROOM
 
 #ROOM
-Vnum     26946
+Vnum     29016
 Name     &gThe Great Boar's Path - West&d~
 Sector   underground~
 Flags    indoors~
@@ -1086,19 +1086,19 @@ spiritual home of the tribe's beastmasters.
 ~
 #EXIT
 Direction east~
-ToRoom    26935
+ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    26947
+ToRoom    29017
 Desc      The beastmaster's walk.~
 #ENDEXIT
-Reset M 0 26937 10 26946
+Reset M 0 29007 10 29016
 #ENDROOM
 
 #ROOM
-Vnum     26947
+Vnum     29017
 Name     &gThe Beastmaster's Walk&d~
 Sector   underground~
 Flags    indoors~
@@ -1108,29 +1108,29 @@ barking and snapping jaws fill the air.
 ~
 #EXIT
 Direction east~
-ToRoom    26946
+ToRoom    29016
 Desc      The western path.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26948
+ToRoom    29018
 Desc      A small beast pen.~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    26949
+ToRoom    29019
 Desc      A small beast pen.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    26950
+ToRoom    29020
 Desc      The descent to the lair.~
 #ENDEXIT
-Reset M 0 26938 10 26947
+Reset M 0 29008 10 29017
 #ENDROOM
 
 #ROOM
-Vnum     26948
+Vnum     29018
 Name     &gBeast Pen - North&d~
 Sector   underground~
 Flags    indoors~
@@ -1140,15 +1140,15 @@ standards.
 ~
 #EXIT
 Direction south~
-ToRoom    26947
+ToRoom    29017
 Desc      The walk.~
 #ENDEXIT
-Reset M 0 26938 10 26948
-Reset O 0 26966 5 26948
+Reset M 0 29008 10 29018
+Reset O 0 29036 5 29018
 #ENDROOM
 
 #ROOM
-Vnum     26949
+Vnum     29019
 Name     &gBeast Pen - South&d~
 Sector   underground~
 Flags    indoors~
@@ -1157,14 +1157,14 @@ the inhabitants of this pen were particularly restless.
 ~
 #EXIT
 Direction north~
-ToRoom    26947
+ToRoom    29017
 Desc      The walk.~
 #ENDEXIT
-Reset M 0 26938 10 26949
+Reset M 0 29008 10 29019
 #ENDROOM
 
 #ROOM
-Vnum     26950
+Vnum     29020
 Name     &gThe Descent to the Lair&d~
 Sector   underground~
 Flags    indoors~
@@ -1174,19 +1174,19 @@ grunting echoes from below.
 ~
 #EXIT
 Direction east~
-ToRoom    26947
+ToRoom    29017
 Desc      The walk.~
 #ENDEXIT
 #EXIT
 Direction down~
-ToRoom    26951
+ToRoom    29021
 Desc      Agathelos's Lair.~
 #ENDEXIT
-Reset M 0 26937 10 26950
+Reset M 0 29007 10 29020
 #ENDROOM
 
 #ROOM
-Vnum     26951
+Vnum     29021
 Name     &gAgathelos's Lair&d~
 Sector   underground~
 Flags    indoors~
@@ -1197,16 +1197,16 @@ boar spirit stands in the center, a primal force of nature.
 ~
 #EXIT
 Direction up~
-ToRoom    26950
+ToRoom    29020
 Desc      Return to the path.~
 #ENDEXIT
-Reset M 0 26948 1 26951
-  Reset G 1 26950 1
-  Reset G 1 26952 1
+Reset M 0 29018 1 29021
+  Reset G 1 29020 1
+  Reset G 1 29022 1
 #ENDROOM
 
 #ROOM
-Vnum     26952
+Vnum     29022
 Name     &MThe Path to the Crone - entry&d~
 Sector   underground~
 Flags    indoors~
@@ -1216,19 +1216,19 @@ narrow, winding path through the center.
 ~
 #EXIT
 Direction south~
-ToRoom    26935
+ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26953
+ToRoom    29023
 Desc      The inner path.~
 #ENDEXIT
-Reset M 0 26936 10 26952
+Reset M 0 29006 10 29022
 #ENDROOM
 
 #ROOM
-Vnum     26953
+Vnum     29023
 Name     &MThe Inner Path&d~
 Sector   underground~
 Flags    indoors~
@@ -1238,20 +1238,20 @@ is vibrating with power.
 ~
 #EXIT
 Direction south~
-ToRoom    26952
+ToRoom    29022
 Desc      The entry path.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26954
+ToRoom    29024
 Desc      The final ascent.~
 #ENDEXIT
-Reset M 0 26933 10 26953
-Reset O 0 26961 5 26953
+Reset M 0 29003 10 29023
+Reset O 0 29031 5 29023
 #ENDROOM
 
 #ROOM
-Vnum     26954
+Vnum     29024
 Name     &MThe Final Ascent&d~
 Sector   underground~
 Flags    indoors~
@@ -1261,19 +1261,19 @@ marking the location of Charlga Razorflank.
 ~
 #EXIT
 Direction south~
-ToRoom    26953
+ToRoom    29023
 Desc      The inner path.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26955
+ToRoom    29025
 Desc      The Crone's Encampment entrance.~
 #ENDEXIT
-Reset M 0 26939 10 26954
+Reset M 0 29009 10 29024
 #ENDROOM
 
 #ROOM
-Vnum     26955
+Vnum     29025
 Name     &MThe Crone's Encampment - Entrance&d~
 Sector   underground~
 Flags    indoors~
@@ -1283,20 +1283,20 @@ the seat of power for the entire Razorfen tribe.
 ~
 #EXIT
 Direction south~
-ToRoom    26954
+ToRoom    29024
 Desc      The ascent.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26956
+ToRoom    29026
 Desc      Charlga Razorflank's Seat.~
 #ENDEXIT
-Reset M 0 26935 10 26955
-Reset O 0 26965 10 26955
+Reset M 0 29005 10 29025
+Reset O 0 29035 10 29025
 #ENDROOM
 
 #ROOM
-Vnum     26956
+Vnum     29026
 Name     &MCharlga Razorflank's Seat&d~
 Sector   underground~
 Flags    indoors~
@@ -1307,16 +1307,16 @@ calculated, dangerous intelligence.
 ~
 #EXIT
 Direction south~
-ToRoom    26955
+ToRoom    29025
 Desc      The entrance.~
 #ENDEXIT
-Reset M 0 26949 1 26956
-  Reset G 1 26953 1
-  Reset E 1 26951 1 16
+Reset M 0 29019 1 29026
+  Reset G 1 29023 1
+  Reset E 1 29021 1 16
 #ENDROOM
 
 #ROOM
-Vnum     26957
+Vnum     29027
 Name     &dThe Bat Caves - Entry&d~
 Sector   underground~
 Flags    indoors~
@@ -1326,19 +1326,19 @@ covered in thousands of sleeping bats.
 ~
 #EXIT
 Direction south~
-ToRoom    26932
+ToRoom    29002
 Desc      The outer thorns.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26958
+ToRoom    29028
 Desc      The bat caves deeper.~
 #ENDEXIT
-Reset M 0 26932 10 26957
+Reset M 0 29002 10 29027
 #ENDROOM
 
 #ROOM
-Vnum     26958
+Vnum     29028
 Name     &dBat Caves - Central Hall&d~
 Sector   underground~
 Flags    indoors~
@@ -1348,25 +1348,25 @@ overhead, watching for anything that might be food.
 ~
 #EXIT
 Direction south~
-ToRoom    26957
+ToRoom    29027
 Desc      The cave entry.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26959
+ToRoom    29029
 Desc      A small side cave.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26960
+ToRoom    29030
 Desc      The Blind Hunter's Lair entrance.~
 #ENDEXIT
-Reset M 0 26940 10 26958
-Reset O 0 26957 5 26958
+Reset M 0 29010 10 29028
+Reset O 0 29027 5 29028
 #ENDROOM
 
 #ROOM
-Vnum     26959
+Vnum     29029
 Name     &dBat Caves - Side Burrow&d~
 Sector   underground~
 Flags    indoors~
@@ -1376,14 +1376,14 @@ this area.
 ~
 #EXIT
 Direction west~
-ToRoom    26958
+ToRoom    29028
 Desc      The central hall.~
 #ENDEXIT
-Reset M 0 26932 10 26959
+Reset M 0 29002 10 29029
 #ENDROOM
 
 #ROOM
-Vnum     26960
+Vnum     29030
 Name     &dThe Blind Hunter's Lair&d~
 Sector   underground~
 Flags    indoors~
@@ -1393,14 +1393,14 @@ The Blind Hunter as it stalks its territory.
 ~
 #EXIT
 Direction south~
-ToRoom    26958
+ToRoom    29028
 Desc      The central hall.~
 #ENDEXIT
-Reset M 0 26944 1 26960
+Reset M 0 29014 1 29030
 #ENDROOM
 
 #ROOM
-Vnum     26961
+Vnum     29031
 Name     &rThorny Overflow A&d~
 Sector   underground~
 Flags    indoors~
@@ -1409,15 +1409,15 @@ bones. The air is stagnant and warm.
 ~
 #EXIT
 Direction north~
-ToRoom    26934
+ToRoom    29004
 Desc      Outer Thorns.~
 #ENDEXIT
-Reset M 0 26930 10 26961
-Reset O 0 26967 10 26961
+Reset M 0 29000 10 29031
+Reset O 0 29037 10 29031
 #ENDROOM
 
 #ROOM
-Vnum     26962
+Vnum     29032
 Name     &rThorny Overflow B&d~
 Sector   underground~
 Flags    indoors~
@@ -1426,15 +1426,15 @@ small patch of particularly vibrant, and sharp, briars.
 ~
 #EXIT
 Direction east~
-ToRoom    26946
+ToRoom    29016
 Desc      The Great Boar's Path.~
 #ENDEXIT
-Reset M 0 26931 10 26962
-Reset O 0 26959 10 26962
+Reset M 0 29001 10 29032
+Reset O 0 29029 10 29032
 #ENDROOM
 
 #ROOM
-Vnum     26963
+Vnum     29033
 Name     &dShadow Overflow A&d~
 Sector   underground~
 Flags    indoors~
@@ -1443,15 +1443,15 @@ appears the acolytes were practicing fire magic here.
 ~
 #EXIT
 Direction south~
-ToRoom    26937
+ToRoom    29007
 Desc      Acolyte Hall.~
 #ENDEXIT
-Reset M 0 26942 10 26963
-Reset O 0 26958 10 26963
+Reset M 0 29012 10 29033
+Reset O 0 29028 10 29033
 #ENDROOM
 
 #ROOM
-Vnum     26964
+Vnum     29034
 Name     &dShadow Overflow B&d~
 Sector   underground~
 Flags    indoors~
@@ -1460,15 +1460,15 @@ humming of the portal.
 ~
 #EXIT
 Direction west~
-ToRoom    26940
+ToRoom    29010
 Desc      Death Speaker Threshold.~
 #ENDEXIT
-Reset M 0 26943 10 26964
-Reset O 0 26962 10 26964
+Reset M 0 29013 10 29034
+Reset O 0 29032 10 29034
 #ENDROOM
 
 #ROOM
-Vnum     26965
+Vnum     29035
 Name     &WMilitary Overflow A&d~
 Sector   underground~
 Flags    indoors~
@@ -1477,14 +1477,14 @@ tables are arranged neatly.
 ~
 #EXIT
 Direction east~
-ToRoom    26943
+ToRoom    29013
 Desc      Military Corridor.~
 #ENDEXIT
-Reset M 0 26935 10 26965
+Reset M 0 29005 10 29035
 #ENDROOM
 
 #ROOM
-Vnum     26966
+Vnum     29036
 Name     &WMilitary Overflow B&d~
 Sector   underground~
 Flags    indoors~
@@ -1493,14 +1493,14 @@ spears are leaned against the wall.
 ~
 #EXIT
 Direction south~
-ToRoom    26944
+ToRoom    29014
 Desc      Overlord Approach.~
 #ENDEXIT
-Reset M 0 26931 10 26966
+Reset M 0 29001 10 29036
 #ENDROOM
 
 #ROOM
-Vnum     26967
+Vnum     29037
 Name     &gBeast Overflow A&d~
 Sector   underground~
 Flags    indoors~
@@ -1509,14 +1509,14 @@ other pens, though still quite smelly.
 ~
 #EXIT
 Direction north~
-ToRoom    26947
+ToRoom    29017
 Desc      Beastmaster Walk.~
 #ENDEXIT
-Reset M 0 26938 10 26967
+Reset M 0 29008 10 29037
 #ENDROOM
 
 #ROOM
-Vnum     26968
+Vnum     29038
 Name     &gBeast Overflow B&d~
 Sector   underground~
 Flags    indoors~
@@ -1525,14 +1525,14 @@ this is where the pack animals are fed.
 ~
 #EXIT
 Direction west~
-ToRoom    26950
+ToRoom    29020
 Desc      Descent to the lair.~
 #ENDEXIT
-Reset M 0 26933 10 26968
+Reset M 0 29003 10 29038
 #ENDROOM
 
 #ROOM
-Vnum     26969
+Vnum     29039
 Name     &MCrone Overflow A&d~
 Sector   underground~
 Flags    indoors~
@@ -1541,14 +1541,14 @@ arena. It is a good vantage point for sentries.
 ~
 #EXIT
 Direction east~
-ToRoom    26955
+ToRoom    29025
 Desc      Crone Encampment entrance.~
 #ENDEXIT
-Reset M 0 26939 10 26969
+Reset M 0 29009 10 29039
 #ENDROOM
 
 #ROOM
-Vnum     26970
+Vnum     29040
 Name     &MThe Kraul Exit Path&d~
 Sector   underground~
 Flags    indoors~
@@ -1558,12 +1558,12 @@ those who have defeated the Crone.
 ~
 #EXIT
 Direction south~
-ToRoom    26956
+ToRoom    29026
 Desc      Charlga's Seat.~
 #ENDEXIT
 #EXIT
 Direction up~
-ToRoom    26930
+ToRoom    29000
 Desc      The entrance portal.~
 #ENDEXIT
 #ENDROOM

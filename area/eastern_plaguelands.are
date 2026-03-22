@@ -658,7 +658,7 @@ Rarity   1
 #OBJECT
 Vnum     38530
 Keywords tyr'hand signet ring~
-Type     jewelry~
+Type     rune~
 Short    a Tyr's Hand Signet Ring~
 Long     A heavy gold ring featuring the fist-and-sword of the Crusade.~
 WFlags   take finger~
@@ -671,7 +671,7 @@ Affect   5 12 0 0 0
 #OBJECT
 Vnum     38531
 Keywords lights hope medallion~
-Type     jewelry~
+Type     rune~
 Short    a Light's Hope Medallion~
 Long     A silver medallion marking the bearer as a hero of the Dawn.~
 WFlags   take neck~
@@ -923,8 +923,8 @@ Rarity   2
 
 #OBJECT
 Vnum     38551
-Keywords naxxramas attunement ring jewelry~
-Type     jewelry~
+Keywords naxxramas attunement ring rune~
+Type     rune~
 Short    an Argent Dawn Attunement Ring~
 Long     A ring that hums with a frequency designed to bypass necropolis wards.~
 WFlags   take finger~

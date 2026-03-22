@@ -1138,7 +1138,7 @@ Reset M 0 16013 10 16057
 #ENDROOM
 
 #ROOM
-#16058
+Vnum     16058
 Name     &WTraining Grounds - South&d~
 Sector   inside~
 Flags    indoors~
