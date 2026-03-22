@@ -1,0 +1,1683 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Scarlet Monastery~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       26 45 0 60
+Economy      0 30000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       16000
+Keywords   scarlet sentry human warrior~
+Short      a Scarlet Sentry~
+Long       A Scarlet Sentry stands at attention, eyes narrowing as you approach.
+~
+Desc       Clad in the iconic red and white tabard of the Crusade, this guard
+is a fanatic dedicated to the "cleansing" of all non-humans and
+undead alike. Their steel is sharp and their resolve is iron.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 30 0 0 1000 3000
+Stats2     30 30 300
+Stats3     6 15 30
+Stats4     0 0 0 0 0
+Attribs    16 12 14 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       16001
+Keywords   scarlet adept human mage~
+Short      a Scarlet Adept~
+Long       A Scarlet Adept weaves a fanatical prayer of holy fire.
+~
+Desc       The casters of the Monastery have twisted the light into a 
+weapon of pure heat. They wear heavy red robes and carry staves 
+topped with the Scarlet symbol.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 31 0 0 850 2500
+Stats2     31 31 600
+Stats3     5 12 31
+Stats4     0 0 0 0 0
+Attribs    10 14 14 20 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       16002
+Keywords   scarlet hound beast~
+Short      a Scarlet Hound~
+Long       A lean Scarlet Hound snarls, its hackles raised in aggression.
+~
+Desc       Trained from birth to hunt down "heretics," these dogs are
+vicious and loyal only to their Scarlet handlers.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 28 0 0 600 1800
+Stats2     28 28 0
+Stats3     4 12 28
+Stats4     0 0 0 0 0
+Attribs    14 18 12 6 6 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       16003
+Keywords   scarlet abbot shaman healer~
+Short      a Scarlet Abbot~
+Long       A Scarlet Abbot raises a mace to mend the wounds of the faithful.
+~
+Desc       A high-ranking member of the church, the Abbot ensures the
+front-line soldiers remain standing to continue the Crusade.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 1100 3200
+Stats2     34 34 500
+Stats3     7 16 34
+Stats4     0 0 0 0 0
+Attribs    14 10 12 22 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       16004
+Keywords   interrogator vishas boss human~
+Short      Interrogator Vishas~
+Long       Interrogator Vishas prepares his tools, a sadistic grin on his face.
+~
+Desc       Vishas is the master of pain in the Graveyard. He takes great
+joy in extracting "confessions" from those the Crusade deems 
+unworthy of a quick death.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 32 0 0 1800 4500
+Stats2     32 32 300
+Stats3     8 20 32
+Stats4     0 0 0 0 0
+Attribs    20 14 14 12 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       16005
+Keywords   bloodmage thalnos boss undead~
+Short      Bloodmage Thalnos~
+Long       Bloodmage Thalnos, a skeletal horror, rises from the soil.
+~
+Desc       A fallen mage who experimented too deeply with necrotic arts.
+The Crusade keeps him in the graveyard as a dark deterrent for
+any who would try to escape the Monastery.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 34 0 0 2200 6000
+Stats2     34 34 1000
+Stats3     10 25 35
+Stats4     0 0 0 0 0
+Attribs    10 16 16 26 24 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       16006
+Keywords   houndmaster loksey boss human~
+Short      Houndmaster Loksey~
+Long       Houndmaster Loksey whistles for his pack to strike.
+~
+Desc       Loksey is the primary trainer of the war hounds in the Library.
+He views his dogs as more valuable than the soldiers he serves 
+with.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 250
+Stats3     8 22 35
+Stats4     0 0 0 0 0
+Attribs    18 16 16 14 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       16007
+Keywords   arcanist doan boss human~
+Short      Arcanist Doan~
+Long       Arcanist Doan stands before his scrolls, surrounded by arcane power.
+~
+Desc       The chief librarian and master of magic. Doan is a brilliant
+scholar who has rationalized the Crusade's atrocities through 
+warped logic and ancient texts.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 37 0 0 2500 7000
+Stats2     37 37 1200
+Stats3     12 30 38
+Stats4     0 0 0 0 0
+Attribs    12 14 16 28 26 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       16008
+Keywords   herod scarlet champion boss warrior~
+Short      Herod~
+Long       Herod, the Scarlet Champion, readies his massive axe for a whirlwind.
+~
+Desc       A legend among the Crusade, Herod is the master of the Armory.
+He is a titan of a man, his strength nearly supernatural as he 
+spins his massive blade in a dance of death.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 40 0 0 4500 12000
+Stats2     40 40 400
+Stats3     15 45 40
+Stats4     0 0 0 0 0
+Attribs    28 12 16 10 24 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       16009
+Keywords   scarlet commander mograine boss~
+Short      Scarlet Commander Mograine~
+Long       Commander Mograine stands firm, his plate armor gleaming under the Light.
+~
+Desc       The military leader of the Monastery and wielder of a righteous
+blade. He is fanatically loyal to the High Inquisitor and will 
+defend the Cathedral to his last breath.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 42 0 0 5000 13000
+Stats2     42 42 600
+Stats3     18 50 42
+Stats4     0 0 0 0 0
+Attribs    26 14 18 16 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       16010
+Keywords   high inquisitor whitemane boss~
+Short      High Inquisitor Whitemane~
+Long       Whitemane's voice rings out: "Arise, my champion!"
+~
+Desc       Sally Whitemane is the spiritual heart of the Crusade. Her 
+connection to the Light is so powerful that she can restore 
+life to the fallen, making her a terrifying adversary.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 43 0 0 4000 11000
+Stats2     43 43 1500
+Stats3     15 45 43
+Stats4     0 0 0 0 0
+Attribs    14 16 18 30 25 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       16011
+Keywords   scarlet monk human~
+Short      a Scarlet Monk~
+Long       A Scarlet Monk stands in a meditative fighting stance.
+~
+Desc       These warriors have forsaken heavy plate for speed and agility,
+using their bare fists to pummel the Crusade's enemies.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1300 3500
+Stats2     36 36 100
+Stats3     10 25 36
+Stats4     0 0 0 0 0
+Attribs    18 22 14 10 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       16012
+Keywords   scarlet chaplain shaman~
+Short      a Scarlet Chaplain~
+Long       A Scarlet Chaplain mutters a prayer of fortitude.
+~
+Desc       Lower-ranking priests who handle the daily spiritual needs of 
+the trainees in the Armory.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 950 2800
+Stats2     33 33 450
+Stats3     6 18 33
+Stats4     0 0 0 0 0
+Attribs    12 12 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       16013
+Keywords   scarlet myrmidon human~
+Short      a Scarlet Myrmidon~
+Long       A Scarlet Myrmidon patrols with a heavy tower shield.
+~
+Desc       The heavy shock troops of the Crusade. They are nearly 
+impenetrable from the front.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 1600 4000
+Stats2     35 35 150
+Stats3     8 22 35
+Stats4     0 0 0 0 0
+Attribs    22 8 20 10 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       16014
+Keywords   scarlet trainee human~
+Short      a Scarlet Trainee~
+Long       A Scarlet Trainee clumsily swings a wooden practice sword.
+~
+Desc       Young recruits eager to prove themselves. They are dangerous 
+only in large numbers.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 500 1200
+Stats2     26 26 0
+Stats3     3 10 26
+Stats4     0 0 0 0 0
+Attribs    14 12 14 8 8 8 8
+#ENDMOBILE
+
+#MOBILE
+Vnum       16015
+Keywords   scarlet defender human~
+Short      a Scarlet Defender~
+Long       A Scarlet Defender levels a halberd at your chest.
+~
+Desc       Veteran guards stationed at the intersections of the 
+monastery wings.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 2000 5000
+Stats2     38 38 200
+Stats3     10 30 38
+Stats4     0 0 0 0 0
+Attribs    24 10 18 10 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       16016
+Keywords   scarlet torturer human~
+Short      a Scarlet Torturer~
+Long       A Scarlet Torturer cracks a whip and pulls a lever.
+~
+Desc       The assistants of Vishas. They are broken individuals who 
+find solace in the suffering of others.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 30 0 0 1100 2900
+Stats2     30 30 100
+Stats3     6 18 30
+Stats4     0 0 0 0 0
+Attribs    18 16 12 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       16017
+Keywords   scarlet scribe human mage~
+Short      a Scarlet Scribe~
+Long       A Scarlet Scribe frantically copies a forbidden text.
+~
+Desc       Found in the Library, these workers are more concerned with 
+inks and parchments than swords, but they will defend their 
+archives with magic if provoked.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 800 2400
+Stats2     34 34 500
+Stats3     5 15 34
+Stats4     0 0 0 0 0
+Attribs    10 14 16 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       16018
+Keywords   scarlet champion elite~
+Short      a Scarlet Champion~
+Long       A Scarlet Champion stands in gleaming gold-trimmed plate.
+~
+Desc       The personal guard of Whitemane. These are the finest 
+warriors the Crusade has to offer.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 44 0 0 3500 9000
+Stats2     44 44 500
+Stats3     15 40 44
+Stats4     0 0 0 0 0
+Attribs    25 12 18 12 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       16019
+Keywords   scarlet beastmaster human~
+Short      a Scarlet Beastmaster~
+Long       A Scarlet Beastmaster snaps a whip at a group of hounds.
+~
+Desc       Loksey's subordinates. They are experts at coordinating 
+beast attacks.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 1200 3300
+Stats2     34 34 250
+Stats3     8 20 34
+Stats4     0 0 0 0 0
+Attribs    18 18 16 12 14 12 12
+#ENDMOBILE
+
+#OBJECT
+Vnum     16020
+Keywords ravager axe two-handed weapon~
+Type     weapon~
+Short    the Ravager~
+Long     A massive, serrated two-handed axe that seems to hum with bloodlust.~
+WFlags   take wield~
+Values   12 12 22 3 0 0
+Stats    20 3500 40 0 0
+Rarity   2
+Affect   1 10
+Affect   5 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     16021
+Keywords whitemane chapeau head armor~
+Type     armor~
+Short    Whitemane's Chapeau~
+Long     A vibrant red hat with a wide brim and a gold-trimmed feather.~
+WFlags   take head~
+Values   12 0 0 0 0 0
+Stats    2 2800 43 0 0
+Rarity   2
+Affect   3 12
+Affect   4 10
+#ENDOBJECT
+
+#OBJECT
+Vnum     16022
+Keywords mograine might mace weapon~
+Type     weapon~
+Short    Mograine's Might~
+Long     A heavy, silver-plated mace embossed with the Scarlet symbol.~
+WFlags   take wield~
+Values   12 10 18 8 0 0
+Stats    18 3200 42 0 0
+Rarity   2
+Affect   1 8
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     16023
+Keywords scarlet leggings mail legs armor~
+Type     armor~
+Short    a pair of Scarlet Leggings~
+Long     Sturdy chainmail leggings lacquered in a bright crimson finish.~
+WFlags   take legs~
+Values   15 0 0 0 0 0
+Stats    12 2500 38 0 0
+Rarity   2
+Affect   1 6
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     16024
+Keywords arcanist doan robe cloth body~
+Type     armor~
+Short    the Robe of Doan~
+Long     A set of fine silken robes, pulsing with faint arcane energy.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    4 2200 37 0 0
+Rarity   2
+Affect   3 8
+Affect   4 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     16025
+Keywords hand righteousness mace weapon~
+Type     weapon~
+Short    the Hand of Righteousness~
+Long     A ceremonial mace used by the high interrogators of the monastery.~
+WFlags   take wield~
+Values   12 6 14 8 0 0
+Stats    8 1800 32 0 0
+Rarity   2
+Affect   1 4
+Affect   4 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     16026
+Keywords thalnos shoulderpads armor~
+Type     armor~
+Short    Bloodmage Thalnos' Shoulderpads~
+Long     Spectral, translucent pauldrons that feel freezing to the touch.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    6 1600 34 0 0
+Rarity   2
+Affect   3 6
+Affect   5 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     16027
+Keywords loksey training stick staff weapon~
+Type     weapon~
+Short    Loksey's Training Stick~
+Long     A heavy wooden staff used for disciplining hounds and heretics.~
+WFlags   take wield~
+Values   12 5 12 7 0 0
+Stats    10 1200 35 0 0
+Rarity   2
+Affect   2 6
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     16028
+Keywords scarlet tabard about body~
+Type     armor~
+Short    a Scarlet Tabard~
+Long     A white tabard featuring the flaming red sword of the Crusade.~
+WFlags   take about~
+Values   2 0 0 0 0 0
+Stats    1 500 30 0 0
+Rarity   1
+Affect   5 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     16029
+Keywords scarlet defender shield armor~
+Type     armor~
+Short    a Scarlet Defender's Shield~
+Long     A heavy kite shield painted with a red sunburst.~
+WFlags   take shield~
+Values   20 0 0 0 0 0
+Stats    22 1400 36 0 0
+Rarity   1
+Affect   1 4
+Affect   5 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     16030
+Keywords dog training gloves hands armor~
+Type     armor~
+Short    a pair of Dog Training Gloves~
+Long     Thick, reinforced leather gloves designed to withstand bites.~
+WFlags   take hands~
+Values   6 0 0 0 0 0
+Stats    3 400 31 0 0
+Rarity   1
+Affect   2 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     16031
+Keywords zealot blade sword weapon~
+Type     weapon~
+Short    a Scarlet Zealot's Blade~
+Long     A sharp, well-balanced longsword with a red leather hilt.~
+WFlags   take wield~
+Values   12 6 12 3 0 0
+Stats    7 650 34 0 0
+Rarity   1
+Affect   1 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     16032
+Keywords scarlet monastery key~
+Type     key~
+Short    the Scarlet Monastery Key~
+Long     A heavy iron key used to unlock the Armory and Cathedral gates.~
+WFlags   take~
+Values   16032 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     16033
+Keywords holy water flask treasure~
+Type     treasure~
+Short    a flask of Holy Water~
+Long     A small glass vial containing blessed water from the Cathedral.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 25 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     16034
+Keywords scarlet initiate sash waist~
+Type     armor~
+Short    a Scarlet Initiate's Sash~
+Long     A simple red cloth belt given to those newly joined to the Crusade.~
+WFlags   take waist~
+Values   4 0 0 0 0 0
+Stats    1 80 26 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     16035
+Keywords practice sword weapon~
+Type     weapon~
+Short    a wooden practice sword~
+Long     A blunt wooden sword used for training Scarlet recruits.~
+WFlags   take wield~
+Values   12 2 5 3 0 0
+Stats    5 10 20 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     16036
+Keywords scribe quill treasure hold~
+Type     treasure~
+Short    a Scarlet Scribe's Quill~
+Long     A long feather quill stained with red ink.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50 25 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     16037
+Keywords iron maiden key~
+Type     key~
+Short    an Iron Maiden Key~
+Long     A small, notched key used to unlock the torture devices in the hall.~
+WFlags   take~
+Values   16037 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     16038
+Keywords scarlet torturer whip weapon~
+Type     weapon~
+Short    a Scarlet Torturer's Whip~
+Long     A braided leather whip designed for maximum pain.~
+WFlags   take wield~
+Values   12 3 8 4 0 0
+Stats    4 350 30 0 0
+Rarity   1
+Affect   2 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     16039
+Keywords scarlet boots feet armor~
+Type     armor~
+Short    a pair of Scarlet Boots~
+Long     Durable leather boots with iron-capped toes.~
+WFlags   take feet~
+Values   8 0 0 0 0 0
+Stats    4 450 33 0 0
+Rarity   1
+Affect   5 4
+#ENDOBJECT
+
+#ROOM
+Vnum     16040
+Name     &rMonastery Entrance Gates&d~
+Sector   city~
+Flags    indoors~
+Desc     Massive stone walls rise on either side of the heavy iron-bound
+gates. The air is filled with the smell of incense and the distant
+sound of military drills. High above, the symbol of the Scarlet
+Crusade—a flaming red sword—hangs in defiance of the surrounding 
+plaguelands.
+~
+#EXIT
+Direction out~
+ToRoom    11699
+Desc      Return to the Tirisfal Glades.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11641
+Desc      The path leads to the central atrium.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     16041
+Name     &rThe Scarlet Atrium&d~
+Sector   city~
+Flags    indoors~
+Desc     This large, open-air courtyard serves as the intersection for the
+four wings of the monastery. To the west lies the Graveyard and
+Armory, while the east leads to the Library and Cathedral. Scarlet
+sentries stand at every corner, their eyes searching for any sign
+of the plague.
+~
+#EXIT
+Direction south~
+ToRoom    16040
+Desc      The entrance gates.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    16042
+Desc      The path to the Graveyard and Armory.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16050
+Desc      The path to the Library and Cathedral.~
+#ENDEXIT
+Reset M 0 16000 10 16041
+#ENDROOM
+
+#ROOM
+Vnum     16042
+Name     &xThe Forlorn Cloister&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are damp and covered in thin moss. To the north, 
+the heavy steel doors of the Armory are visible, while to the 
+south, a descending staircase leads toward the dark interrogation 
+halls of the Graveyard.
+~
+#EXIT
+Direction east~
+ToRoom    16041
+Desc      Return to the atrium.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16057
+Desc      The entrance to the Armory.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    16043
+Desc      The descent to the Graveyard.~
+#ENDEXIT
+Reset M 0 16015 10 16042
+#ENDROOM
+
+#ROOM
+Vnum     16043
+Name     &xHall of Interrogation - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A chilling draft blows up from the depths. The sound of a whip 
+cracking and a muffled scream echoes through the hallway. This is 
+where the Crusade brings those they suspect of being touched by 
+the Scourge.
+~
+#EXIT
+Direction north~
+ToRoom    16042
+Desc      Return to the cloister.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    16044
+Desc      The interrogation chamber.~
+#ENDEXIT
+Reset M 0 16016 10 16043
+#ENDROOM
+
+#ROOM
+Vnum     16044
+Name     &xInterrogator Vishas's Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are lined with terrifying tools of the trade—pliers, 
+brands, and rusted saws. In the center of the room, Interrogator 
+Vishas stands near a blood-stained chair, his eyes gleaming with 
+sadistic pleasure.
+~
+#EXIT
+Direction north~
+ToRoom    16043
+Desc      The entrance hall.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    16045
+Desc      The Iron Maiden room.~
+#ENDEXIT
+Reset M 0 16004 1 16044
+  Reset G 1 16025 1
+  Reset G 1 16037 1
+#ENDROOM
+
+#ROOM
+Vnum     16045
+Name     &xThe Iron Maiden Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     Several upright sarcophagi lined with spikes stand against the 
+walls. A narrow, heavy door to the south leads out into the 
+outdoor graveyard.
+~
+#EXIT
+Direction north~
+ToRoom    16044
+Desc      Vishas's chamber.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    16046
+Desc      The path to the graveyard.~
+#ENDEXIT
+Reset O 0 16038 5 16045
+#ENDROOM
+
+#ROOM
+Vnum     16046
+Name     &xExit to the Monastery Graveyard&d~
+Sector   field~
+Flags    indoors~
+Desc     The sterile, cold stone of the halls is replaced by tattered 
+grass and the smell of wet earth. A low stone wall surrounds the 
+cemetery, and the iron gates to the south are rusted shut.
+~
+#EXIT
+Direction north~
+ToRoom    16045
+Desc      The interrogation halls.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    16047
+Desc      The graveyard proper.~
+#ENDEXIT
+Reset M 0 16001 10 16046
+#ENDROOM
+
+#ROOM
+Vnum     16047
+Name     &xThe Desecrated Graveyard&d~
+Sector   field~
+Flags    indoors~
+Desc     Tilted tombstones and shallow graves cover the landscape. The 
+Crusade does not bury its enemies with honor—they are simply 
+tossed into the dirt and forgotten. A thick, purple mist clings 
+to the ground.
+~
+#EXIT
+Direction north~
+ToRoom    16046
+Desc      The exit path.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    16048
+Desc      Deep graveyard.~
+#ENDEXIT
+Reset M 0 16005 1 16047
+  Reset G 1 16026 1
+#ENDROOM
+
+#ROOM
+Vnum     16048
+Name     &xRow of Gravestones&d~
+Sector   field~
+Flags    indoors~
+Desc     The names on these stones have been scrubbed away by the wind. 
+It's a lonely, quiet place where the only sound is the rustle of 
+dry leaves.
+~
+#EXIT
+Direction north~
+ToRoom    16047
+Desc      The main graveyard.~
+#ENDEXIT
+Reset M 0 16016 10 16048
+#ENDROOM
+
+#ROOM
+Vnum     16049
+Name     &xThe Abandoned Crypt&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small stone building at the back of the graveyard leads down 
+into a dark, cramped crypt. The air is stagnant and smells of 
+death.
+~
+#EXIT
+Direction up~
+ToRoom    16047
+Desc      Return to the graveyard.~
+#ENDEXIT
+Reset M 0 16001 10 16049
+#ENDROOM
+
+#ROOM
+Vnum     16050
+Name     &yMonastery Garden&d~
+Sector   field~
+Flags    indoors~
+Desc     Well-manicured hedges and bright flowers grow here, a stark 
+contrast to the death on the other side of the atrium. To the 
+north, the great stained-glass windows of the Cathedral loom 
+large, while the east path leads into the Library.
+~
+#EXIT
+Direction west~
+ToRoom    16041
+Desc      Return to the atrium.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16064
+Desc      The path to the Cathedral.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16051
+Desc      The entrance to the Library.~
+#ENDEXIT
+Reset M 0 16000 10 16050
+#ENDROOM
+
+#ROOM
+Vnum     16051
+Name     &yLibrary Hallway - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are lined with shelves containing mundane texts on 
+history and theology. Scribes move quietly through the hall, 
+carrying stacks of parchment and ink-wells.
+~
+#EXIT
+Direction west~
+ToRoom    16050
+Desc      The garden.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16052
+Desc      The Houndmaster's Kennels.~
+#ENDEXIT
+Reset M 0 16017 10 16051
+Reset O 0 16036 10 16051
+#ENDROOM
+
+#ROOM
+Vnum     16052
+Name     &yThe Houndmaster's Kennels&d~
+Sector   inside~
+Flags    indoors~
+Desc     The smell of wet dog and raw meat is overpowering. Houndmaster 
+Loksey stands at the center of the room, surrounded by his 
+vicious, barking war hounds.
+~
+#EXIT
+Direction west~
+ToRoom    16051
+Desc      The library hallway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16053
+Desc      The Scriptorium.~
+#ENDEXIT
+Reset M 0 16006 1 16052
+  Reset G 1 16027 1
+  Reset G 1 16030 1
+Reset M 0 16002 10 16052
+#ENDROOM
+
+#ROOM
+Vnum     16053
+Name     &yThe Scriptorium - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     Dozens of monks sit at slanted desks, their quills scratching 
+frantically against vellum. They are copying the various 
+prophecies and laws that govern the Scarlet Crusade.
+~
+#EXIT
+Direction south~
+ToRoom    16052
+Desc      The kennels.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16054
+Desc      The Scriptorium continues.~
+#ENDEXIT
+Reset M 0 16017 10 16053
+#ENDROOM
+
+#ROOM
+Vnum     16054
+Name     &yThe Scriptorium - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     The archives are more restricted here. Only the highest-ranking 
+adepts are allowed to study the texts found on these shelves.
+~
+#EXIT
+Direction west~
+ToRoom    16053
+Desc      The north scriptorium.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16055
+Desc      The Gallery of Treasures.~
+#ENDEXIT
+Reset M 0 16001 10 16054
+#ENDROOM
+
+#ROOM
+Vnum     16055
+Name     &yThe Gallery of Treasures&d~
+Sector   inside~
+Flags    indoors~
+Desc     Relics from the Third War are displayed in glass cases along the 
+walls. Ancient shields, broken swords, and tattered flags serve 
+as a reminder of the Crusade's origins.
+~
+#EXIT
+Direction south~
+ToRoom    16054
+Desc      The scriptorium.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16056
+Desc      The Athenaeum.~
+#ENDEXIT
+Reset O 0 16031 5 16055
+#ENDROOM
+
+#ROOM
+Vnum     16056
+Name     &yThe Athenaeum - Doan's Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     This circular room is the heart of the Monastery's knowledge. 
+Arcanist Doan stands before a massive, floating crystal, his 
+mind lost in the study of a forbidden scroll.
+~
+#EXIT
+Direction south~
+ToRoom    16055
+Desc      The gallery.~
+#ENDEXIT
+Reset M 0 16007 1 16056
+  Reset G 1 16024 1
+  Reset G 1 16032 1
+#ENDROOM
+
+#ROOM
+Vnum     16057
+Name     &WThe Hall of Champions - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide hallway lined with statues of famous Scarlet heroes. The 
+sound of clashing steel and rhythmic shouting echoes from the 
+north.
+~
+#EXIT
+Direction south~
+ToRoom    16042
+Desc      The cloister.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16058
+Desc      The training grounds.~
+#ENDEXIT
+Reset M 0 16013 10 16057
+#ENDROOM
+
+#ROOM
+#16058
+Name     &WTraining Grounds - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, open hall where Scarlet trainees practice their footwork 
+and swordplay. Several wooden dummies have been hacked to 
+splinters.
+~
+#EXIT
+Direction south~
+ToRoom    16057
+Desc      The entrance hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16059
+Desc      The training grounds continue.~
+#ENDEXIT
+Reset M 0 16014 10 16058
+Reset O 0 16035 10 16058
+#ENDROOM
+
+#ROOM
+Vnum     16059
+Name     &WTraining Grounds - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     Veterans of the Crusade oversee the training here. The discipline 
+is harsh, and any mistake is met with immediate punishment 
+from the chaplains.
+~
+#EXIT
+Direction south~
+ToRoom    16058
+Desc      South training grounds.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16060
+Desc      The Armory warehouse.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16061
+Desc      The Hall corridor.~
+#ENDEXIT
+Reset M 0 16012 10 16059
+#ENDROOM
+
+#ROOM
+Vnum     16060
+Name     &WThe Armory Warehouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     Crates of steel plate armor and racks of sharpened halberds are 
+stacked high. This is the source of the Crusade's military 
+might.
+~
+#EXIT
+Direction west~
+ToRoom    16059
+Desc      The training grounds.~
+#ENDEXIT
+Reset M 0 16013 10 16060
+Reset O 0 16029 5 16060
+#ENDROOM
+
+#ROOM
+Vnum     16061
+Name     &WThe Hall of Champions - Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The hallway turns north, leading toward the central arena of 
+the Armory. The walls are decorated with tapestries depicting 
+the Crusade's victories.
+~
+#EXIT
+Direction south~
+ToRoom    16059
+Desc      The training grounds.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16062
+Desc      The Gauntlet.~
+#ENDEXIT
+Reset M 0 16015 10 16061
+#ENDROOM
+
+#ROOM
+Vnum     16062
+Name     &WThe Armory Gauntlet&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow passage where the guards have established a heavy 
+defensive line. You must fight your way through a wall of 
+shields to reach the champion.
+~
+#EXIT
+Direction south~
+ToRoom    16061
+Desc      The corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16063
+Desc      Herod's Arena.~
+#ENDEXIT
+Reset M 0 16013 10 16062
+#ENDROOM
+
+#ROOM
+Vnum     16063
+Name     &WHerod's Arena&d~
+Sector   inside~
+Flags    indoors~
+Desc     This circular hall is the grand training arena of the monastery. 
+Herod, the Scarlet Champion, stands at the center, his massive 
+two-handed axe resting on his shoulder. He watches you with 
+grim anticipation.
+~
+#EXIT
+Direction south~
+ToRoom    16062
+Desc      The gauntlet.~
+#ENDEXIT
+Reset M 0 16008 1 16063
+  Reset G 1 16020 1
+  Reset G 1 16023 1
+#ENDROOM
+
+#ROOM
+Vnum     16064
+Name     &YThe Cathedral Courtyard&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide, cobbled courtyard leading to the massive doors of the 
+Cathedral. Scarlet defenders patrol the perimeter, and the 
+air is heavy with the smell of burning incense.
+~
+#EXIT
+Direction south~
+ToRoom    16050
+Desc      The garden.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16067
+Desc      Entrance to the Chapel.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    16065
+Desc      The left courtyard wing.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16066
+Desc      The right courtyard wing.~
+#ENDEXIT
+Reset M 0 16015 10 16064
+#ENDROOM
+
+#ROOM
+Vnum     16065
+Name     &YCourtyard - Left Wing&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet section of the courtyard where monks often practice 
+their meditative fighting styles.
+~
+#EXIT
+Direction east~
+ToRoom    16064
+Desc      The main courtyard.~
+#ENDEXIT
+Reset M 0 16011 10 16065
+#ENDROOM
+
+#ROOM
+Vnum     16066
+Name     &YCourtyard - Right Wing&d~
+Sector   city~
+Flags    indoors~
+Desc     This section of the courtyard is used for the storage of holy 
+oils and ceremonial supplies.
+~
+#EXIT
+Direction west~
+ToRoom    16064
+Desc      The main courtyard.~
+#ENDEXIT
+Reset M 0 16003 10 16066
+Reset O 0 16033 10 16066
+#ENDROOM
+
+#ROOM
+Vnum     16067
+Name     &YEntrance to the Chapel&d~
+Sector   inside~
+Flags    indoors~
+Desc     Massive oak doors, reinforced with iron sunbursts, stand open. 
+The interior is lit by thousands of candles, casting long, 
+flickering shadows against the white marble walls.
+~
+#EXIT
+Direction south~
+ToRoom    16064
+Desc      The courtyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16068
+Desc      The Great Nave.~
+#ENDEXIT
+Reset M 0 16015 10 16067
+#ENDROOM
+
+#ROOM
+Vnum     16068
+Name     &YThe Great Nave - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows of red-cushioned pews are arranged facing the high altar. 
+The ceiling is a series of massive stone arches, decorated with 
+gold leaf and holy symbols.
+~
+#EXIT
+Direction south~
+ToRoom    16067
+Desc      The chapel entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16069
+Desc      The center of the nave.~
+#ENDEXIT
+Reset M 0 16003 10 16068
+#ENDROOM
+
+#ROOM
+Vnum     16069
+Name     &YThe Great Nave - Center&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Cathedral. High above, a massive stained-glass 
+window depicts the fall of the Scourge. To the east and west, 
+smaller side chapels offer space for private prayer.
+~
+#EXIT
+Direction south~
+ToRoom    16068
+Desc      The entry nave.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16072
+Desc      The High Altar.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    16070
+Desc      The west side chapel.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    16071
+Desc      The east side chapel.~
+#ENDEXIT
+Reset M 0 16018 10 16069
+#ENDROOM
+
+#ROOM
+Vnum     16070
+Name     &YSide Chapel - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet, dark corner of the Cathedral where the faithful come 
+to light candles for the fallen.
+~
+#EXIT
+Direction east~
+ToRoom    16069
+Desc      The central nave.~
+#ENDEXIT
+Reset M 0 16011 10 16070
+Reset O 0 16034 10 16070
+#ENDROOM
+
+#ROOM
+Vnum     16071
+Name     &YSide Chapel - East&d~
+Sector   inside~
+Flags    indoors~
+Desc     This chapel contains several small reliquaries housing the 
+bones of early Scarlet martyrs.
+~
+#EXIT
+Direction west~
+ToRoom    16069
+Desc      The central nave.~
+#ENDEXIT
+Reset M 0 16001 10 16071
+#ENDROOM
+
+#ROOM
+Vnum     16072
+Name     &YHigh Altar of the Scarlet Crusade&d~
+Sector   inside~
+Flags    indoors~
+Desc     The most sacred place in the Monastery. A massive gold sunburst 
+hangs over a marble altar. Scarlet Commander Mograine stands 
+here, his sword ready to defend the sanctity of the church.
+~
+#EXIT
+Direction south~
+ToRoom    16069
+Desc      The central nave.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    16073
+Desc      Whitemane's Sanctum.~
+#ENDEXIT
+Reset M 0 16009 1 16072
+  Reset G 1 16022 1
+  Reset G 1 16028 1
+#ENDROOM
+
+#ROOM
+Vnum     16073
+Name     &YWhitemane's Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     This secluded room behind the high altar is the private retreat 
+of the High Inquisitor. Sally Whitemane stands here, her 
+presence radiating a terrifyingly pure connection to the Light.
+~
+#EXIT
+Direction south~
+ToRoom    16072
+Desc      The high altar.~
+#ENDEXIT
+Reset M 0 16010 1 16073
+  Reset G 1 16021 1
+Reset M 0 16018 10 16073
+#ENDROOM
+
+#ROOM
+Vnum     16074
+Name     &yHidden Reliquary&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A secret room tucked away behind the library shelves, used for 
+storing the most dangerous artifacts.
+~
+#EXIT
+Direction south~
+ToRoom    16056
+Desc      Return to Doan's sanctum.~
+#ENDEXIT
+Reset O 0 16039 5 16074
+#ENDROOM
+
+#ROOM
+Vnum     16075
+Name     &YMonk's Retreat&d~
+Sector   inside~
+Flags    indoors~
+Desc     A simple, sparsely furnished room where the Scarlet monks sleep 
+and meditate.
+~
+#EXIT
+Direction north~
+ToRoom    16065
+Desc      Courtyard wing.~
+#ENDEXIT
+Reset M 0 16011 10 16075
+#ENDROOM
+
+#ROOM
+Vnum     16076
+Name     &rScarlet Bastion&d~
+Sector   city~
+Flags    indoors~
+Desc     A heavily fortified section of the outer wall, providing a 
+commanding view of the Tirisfal Glades.
+~
+#EXIT
+Direction north~
+ToRoom    16041
+Desc      The atrium.~
+#ENDEXIT
+Reset M 0 16000 10 16076
+#ENDROOM
+
+#ROOM
+Vnum     16077
+Name     &rGuard Post - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room where guards can rest and change their equipment.
+~
+#EXIT
+Direction east~
+ToRoom    16042
+Desc      The cloister.~
+#ENDEXIT
+Reset M 0 16000 10 16077
+#ENDROOM
+
+#ROOM
+Vnum     16078
+Name     &yGuard Post - East&d~
+Sector   inside~
+Flags    indoors~
+Desc     A matching room for the guards assigned to the library wing.
+~
+#EXIT
+Direction west~
+ToRoom    16050
+Desc      The garden.~
+#ENDEXIT
+Reset M 0 16000 10 16078
+#ENDROOM
+
+#ROOM
+Vnum     16079
+Name     &xSilent Cloister&d~
+Sector   inside~
+Flags    indoors~
+Desc     A peaceful, roofed walkway where members of the Crusade can 
+meditate away from the military bustle.
+~
+#EXIT
+Direction north~
+ToRoom    16043
+Desc      The Graveyard halls.~
+#ENDEXIT
+Reset M 0 16001 10 16079
+#ENDROOM
+
+#ROOM
+Vnum     16080
+Name     &yTattered Library Wing&d~
+Sector   inside~
+Flags    indoors~
+Desc     An older section of the library where the books are in poor 
+condition. The air is dry and smells of old paper.
+~
+#EXIT
+Direction south~
+ToRoom    16051
+Desc      Library entry.~
+#ENDEXIT
+Reset M 0 16017 10 16080
+#ENDROOM
+
+#ROOM
+Vnum     16081
+Name     &xAbandoned Crypt - Entry&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     The stairs descend into the cold dark. Spiderwebs hang thick 
+from the ceiling.
+~
+#EXIT
+Direction up~
+ToRoom    16049
+Desc      The upper crypt.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    16082
+Desc      The deep crypt.~
+#ENDEXIT
+Reset M 0 16005 10 16081
+#ENDROOM
+
+#ROOM
+Vnum     16082
+Name     &xDeep Abandoned Crypt&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     The bottom of the monastery's graveyard system. It is a place 
+of absolute silence and dark magic.
+~
+#EXIT
+Direction up~
+ToRoom    16081
+Desc      Return to the entry.~
+#ENDEXIT
+Reset M 0 16005 10 16082
+#ENDROOM
+
+#ROOM
+Vnum     16083
+Name     &WArmory Forge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small forge where weapons are repaired and sharpened for 
+the Scarlet champions.
+~
+#EXIT
+Direction south~
+ToRoom    16060
+Desc      The warehouse.~
+#ENDEXIT
+Reset M 0 16019 10 16083
+#ENDROOM
+
+#ROOM
+Vnum     16084
+Name     &YCathedral Balcony - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high balcony overlooking the great nave. It offers an 
+excellent vantage point for archers.
+~
+#EXIT
+Direction south~
+ToRoom    16069
+Desc      The central nave.~
+#ENDEXIT
+Reset M 0 16015 10 16084
+#ENDROOM
+
+#ROOM
+Vnum     16085
+Name     &YCathedral Balcony - East&d~
+Sector   inside~
+Flags    indoors~
+Desc     The matching balcony on the eastern side of the Cathedral.
+~
+#EXIT
+Direction south~
+ToRoom    16069
+Desc      The central nave.~
+#ENDEXIT
+Reset M 0 16015 10 16085
+#ENDROOM
+
+#ENDAREA
