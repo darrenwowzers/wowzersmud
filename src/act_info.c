@@ -1312,6 +1312,13 @@ void do_look( CHAR_DATA * ch, const char *argument )
          print_compass( ch );
       else
       {
+   /* Wowzers MUD: Immortal Area/Vnum display above room name --Hansth */
+   if( IS_IMMORTAL( ch ) )
+   {
+      ch_printf( ch, "&z[&c%s &z- &wVnum: %d&z]&D\r\n",
+                 ch->in_room->area ? ch->in_room->area->name : "No Area",
+                 ch->in_room->vnum );
+   }
          set_char_color( AT_RMNAME, ch );
          send_to_char( ch->in_room->name, ch );
          send_to_char( "\r\n", ch );
@@ -4532,8 +4539,8 @@ extern int top_area;
  */
 void do_areas( CHAR_DATA* ch, const char* argument )
 {
-   const char *header_string1 = "\r\n   Author    |             Area" "                     | " "Recommended |  Enforced\r\n";
-   const char *header_string2 = "-------------+-----------------" "---------------------+----" "---------+-----------\r\n";
+   const char *header_string1 = "\r\n   Type   |   Author  |          Area" "                     | " "Recommended |  Enforced\r\n";
+   const char *header_string2 = "----------+---------------" "---+----" "---------+-----------\r\n";
    const char *print_string = "%-12s | %-36s | %4d - %-4d | %3d - " "%-3d \r\n";
 
    AREA_DATA *pArea;
@@ -4625,6 +4632,7 @@ if( pArea->hi_soft_range >= lower_bound && pArea->low_soft_range <= upper_bound 
             case AREA_NEUTRAL:  area_type = "&G[Neutral ]&D"; break;
             case AREA_DUNGEON:  area_type = "&c[Dungeon ]&D"; break;
             case AREA_RAID:     area_type = "&P[  Raid  ]&D"; break;
+            case AREA_OFFLIMITS: area_type= "&C[Offlimit]&D"; break;
             case AREA_LEVELING:
             default:            area_type = "&Y[Leveling]&D"; break;
          }
