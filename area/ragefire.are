@@ -1,0 +1,1293 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Ragefire Chasm~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       13 18 0 60
+Economy      0 10000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       11300
+Keywords   ragefire trogg dweller~
+Short      a Ragefire Trogg~
+Long       A hulking Ragefire Trogg snarls, clutching a jagged stone club.
+~
+Desc       This trogg is covered in soot and grime from the volcanic depths
+of the chasm. Its eyes glow with a dim, primitive hunger as it 
+patrols the jagged tunnels.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 13 0 0 350 1000
+Stats2     13 13 100
+Stats3     2 5 10
+Stats4     0 0 0 0 0
+Attribs    14 10 12 8 8 8 8
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11301
+Keywords   ragefire trogg shaman~
+Short      a Ragefire Shaman~
+Long       A Ragefire Shaman mutters incantations over a flickering flame.
+~
+Desc       Adorned with bird skulls and scorched feathers, this trogg wields
+primitive elemental magic. Sparks jump from its fingertips as it
+calls upon the heat of the chasm.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 14 0 0 380 1100
+Stats2     14 14 150
+Stats3     2 6 12
+Stats4     0 0 0 0 0
+Attribs    10 10 12 14 14 8 8
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11302
+Keywords   searing elemental fire~
+Short      a Searing Elemental~
+Long       A being of pure, flickering flame drifts through the air.
+~
+Desc       The intense heat of the chasm has given birth to these aggressive
+spirits. They are formless masses of fire that lash out at anything
+colder than the surrounding lava.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 15 0 0 450 1300
+Stats2     15 15 120
+Stats3     3 7 14
+Stats4     0 0 0 0 0
+Attribs    12 16 12 10 10 8 8
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11303
+Keywords   earthborer worm beast~
+Short      an Earthborer~
+Long       A massive, segmented worm tunnel through the volcanic rock.
+~
+Desc       Covered in thick, chitinous plates, this worm feeds on the mineral-rich
+veins found deep beneath Orgrimmar. It is highly territorial and 
+attacks with jagged mandibles.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 14 0 0 500 1200
+Stats2     14 14 100
+Stats3     3 6 12
+Stats4     0 0 0 0 0
+Attribs    16 8 16 6 6 6 6
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11304
+Keywords   oggleflint trogg boss~
+Short      Oggleflint~
+Long       The massive trogg Oggleflint stands guard over his tribe.
+~
+Desc       Oggleflint is nearly twice the size of his kin. He is the alpha
+of the Ragefire Troggs, wielding a club made from the femur of
+a kodo.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 16 0 0 800 2500
+Stats2     16 16 200
+Stats3     4 10 20
+Stats4     0 0 0 0 0
+Attribs    18 10 16 8 8 8 8
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11305
+Keywords   maur grimtotem tauren boss~
+Short      Maur Grimtotem~
+Long       Maur Grimtotem scowls, his dark fur matted with soot.
+~
+Desc       A member of the treacherous Grimtotem clan, Maur has hidden himself
+away in the chasm to conduct dark business away from the eyes of
+Cairne Bloodhoof.
+~
+Race       tauren~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 16 0 0 900 2800
+Stats2     16 16 250
+Stats3     4 12 24
+Stats4     0 0 0 0 0
+Attribs    20 8 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common taurahe~
+Speaking   taurahe~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11306
+Keywords   jergosh invoker orc warlock boss~
+Short      Jergosh the Invoker~
+Long       Jergosh the Invoker cackles as shadow energy swirls around his hands.
+~
+Desc       A member of the Shadow Council who has infiltrated the depths of
+Orgrimmar. He seeks to summon demonic forces to destabilize the
+Horde from within.
+~
+Race       orc~
+Class      warlock~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 17 0 0 750 2200
+Stats2     17 17 500
+Stats3     4 14 28
+Stats4     0 0 0 0 0
+Attribs    10 12 12 18 16 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11307
+Keywords   taragaman hungerer felguard boss demon~
+Short      Taragaman the Hungerer~
+Long       The massive felguard Taragaman the Hungerer roars in fury.
+~
+Desc       This towering demon was pulled from the Twisting Nether by Jergosh.
+It stands as the final line of defense for the Shadow Council
+presence in Ragefire Chasm.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 18 0 0 1500 5000
+Stats2     18 18 300
+Stats3     6 20 40
+Stats4     0 0 0 0 0
+Attribs    22 14 20 12 12 12 12
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11300
+Keywords jagged stone club weapon~
+Type     weapon~
+Short    a jagged stone club~
+Long     A heavy club fashioned from volcanic stone lies here.~
+WFlags   take wield~
+Values   12 2 5 8 0 0
+Stats    8 10 13 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11301
+Keywords chasm shaman torch hold~
+Type     light~
+Short    a chasm shaman's torch~
+Long     A torch flickering with a strange, orange flame rests here.~
+WFlags   take hold~
+Values   0 0 300 0 0 0
+Stats    2 15 14 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+#11302
+Keywords earthborer mandible dagger weapon~
+Type     weapon~
+Short    an Earthborer mandible~
+Long     A sharp, serrated mandible from a giant worm lies here.~
+WFlags   take wield~
+Values   12 3 6 11 0 0
+Stats    2 20 14 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11303
+Keywords oggleflint inspiration mace weapon~
+Type     weapon~
+Short    Oggleflint's Inspiration~
+Long     A massive kodo femur, polished and reinforced with iron bands.~
+WFlags   take wield~
+Values   12 5 9 8 0 0
+Stats    10 150 16 0 0
+Rarity   2
+Affect   1 3
+Affect   5 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11304
+Keywords crystalline cuffs leather wrist armor~
+Type     armor~
+Short    a pair of Crystalline Cuffs~
+Long     Leather bracers embedded with glowing volcanic crystals.~
+WFlags   take wrist~
+Values   5 0 0 0 0 0
+Stats    2 120 15 0 0
+Rarity   2
+Affect   2 2
+Affect   5 1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11305
+Keywords robe evocation cloth chest armor~
+Type     armor~
+Short    the Robe of Evocation~
+Long     A tattered red robe pulsing with faint arcane energy.~
+WFlags   take body~
+Values   4 0 0 0 0 0
+Stats    3 200 17 0 0
+Rarity   2
+Affect   3 4
+Affect   4 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11306
+Keywords subterranean cape back about armor~
+Type     armor~
+Short    a Subterranean Cape~
+Long     A heavy, dirt-stained cloak made of thick beast hide.~
+WFlags   take about~
+Values   6 0 0 0 0 0
+Stats    4 180 18 0 0
+Rarity   2
+Affect   5 3
+Affect   1 1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11307
+Keywords cinderhide armsplints leather wrist armor~
+Type     armor~
+Short    a pair of Cinderhide Armsplints~
+Long     Dark, singed leather armguards that feel warm to the touch.~
+WFlags   take wrist~
+Values   5 0 0 0 0 0
+Stats    2 110 16 0 0
+Rarity   2
+Affect   1 2
+Affect   2 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11308
+Keywords roughshod pike polearm weapon~
+Type     weapon~
+Short    a roughshod pike~
+Long     A crude but effective polearm with a jagged obsidian tip.~
+WFlags   take wield~
+Values   12 4 10 5 0 0
+Stats    12 90 15 0 0
+Rarity   1
+Affect   1 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11309
+Keywords lava leather boots feet armor~
+Type     armor~
+Short    a pair of lava-stained boots~
+Long     Heavy leather boots with thick soles designed for heat.~
+WFlags   take feet~
+Values   4 0 0 0 0 0
+Stats    3 40 14 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11310
+Keywords searing coal treasure~
+Type     treasure~
+Short    a searing coal~
+Long     A lump of coal that glows with an intense internal heat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 13 0 0
+Rarity   0
+#ENDOBJECT
+
+#ROOM
+Vnum     11300
+Name     &rThe Ragefire Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The temperature here is noticeably higher than in the Cleft of Shadow
+above. The air is thick with the scent of sulfur and parched earth.
+Crude obsidian steps lead down into the volcanic fissures that run
+deep beneath Orgrimmar. A shimmering, orange portal hums with power,
+separating the city from the dangerous depths.
+~
+#EXIT
+Direction out~
+ToRoom    11298
+Desc      Return to the Cleft of Shadow.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11301
+Desc      Descend deeper into the chasm.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11301
+Name     &rThe Jagged Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     This narrow tunnel is carved directly into the dark, volcanic rock.
+Small fissures in the walls emit a faint, red glow from the magma
+churning far below. Footprints of heavy, three-toed creatures are
+visible in the thick dust.
+~
+#EXIT
+Direction up~
+ToRoom    11300
+Desc      The entrance portal.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11302
+Desc      The path continues south.~
+#ENDEXIT
+Reset M 0 11300 10 11301
+#ENDROOM
+
+#ROOM
+Vnum     11302
+Name     &rThe Jagged Path - Bend&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel turns sharply here, opening into a wider passage. The
+sound of rhythmic chanting and the clatter of stone on stone echo
+from the east. Crude trogg trophies—skulls and bird feathers—hang
+from the jagged ceiling.
+~
+#EXIT
+Direction north~
+ToRoom    11301
+Desc      The path back to the entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11303
+Desc      The path leads toward a wider cavern.~
+#ENDEXIT
+Reset M 0 11300 10 11302
+#ENDROOM
+
+#ROOM
+Vnum     11303
+Name     &rThe Trogg Tunnels - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The cavern widens here, revealing a network of tunnels claimed by
+the Ragefire troggs. The walls are stained with soot from primitive
+braziers. To the north and south, smaller alcoves serve as living
+quarters for the primal dwellers.
+~
+#EXIT
+Direction north~
+ToRoom    11304
+Desc      A small side cavern.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11305
+Desc      A small side cavern.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11306
+Desc      The main trogg corridor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11302
+Desc      The jagged bend.~
+#ENDEXIT
+Reset M 0 11300 10 11303
+#ENDROOM
+
+#ROOM
+Vnum     11304
+Name     &rTrogg Dwelling - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     This small alcove is filled with piles of moldy fur and gnawed bones.
+The smell of unwashed trogg is nearly overwhelming in the cramped
+space.
+~
+#EXIT
+Direction south~
+ToRoom    11303
+Desc      The entrance cavern.~
+#ENDEXIT
+Reset M 0 11300 10 11304
+Reset O 0 11300 5 11304
+#ENDROOM
+
+#ROOM
+Vnum     11305
+Name     &rTrogg Dwelling - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     Several primitive stone tools lie scattered across the floor here.
+A small pile of glowing coals in the center of the room provides a
+dim, flickering light.
+~
+#EXIT
+Direction north~
+ToRoom    11303
+Desc      The entrance cavern.~
+#ENDEXIT
+Reset M 0 11301 10 11305
+  Reset G 1 11301 10
+#ENDROOM
+
+#ROOM
+Vnum     11306
+Name     &rThe Main Trogg Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     This high-ceilinged corridor is the primary artery of the trogg
+territory. Several trogg warriors stand guard here, their low grunts
+echoing off the obsidian walls. To the east, the corridor opens into
+a massive, multi-tiered chamber.
+~
+#EXIT
+Direction east~
+ToRoom    11307
+Desc      The central trogg chamber.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11303
+Desc      The entrance cavern.~
+#ENDEXIT
+Reset M 0 11300 10 11306
+#ENDROOM
+
+#ROOM
+Vnum     11307
+Name     &rThe Central Trogg Chamber&d~
+Sector   underground~
+Flags    indoors~
+Desc     This immense natural cavern serves as the heart of the Ragefire
+tribe. Stone platforms have been carved into the walls, connected
+by rickety wooden walkways. In the center, a large fire pit burns
+constantly, casting long, dancing shadows across the rock.
+~
+#EXIT
+Direction north~
+ToRoom    11308
+Desc      A path leading to the upper tiers.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11309
+Desc      A path leading to the lower tiers.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11306
+Desc      The main corridor.~
+#ENDEXIT
+Reset M 0 11300 10 11307
+Reset M 0 11301 10 11307
+#ENDROOM
+
+#ROOM
+Vnum     11308
+Name     &rTrogg Tunnels - Upper Tier&d~
+Sector   underground~
+Flags    indoors~
+Desc     From this vantage point, you can look down upon the central fire
+pit of the trogg chamber. The air is thinner and hotter here, as 
+the tunnel climbs toward a dead end.
+~
+#EXIT
+Direction south~
+ToRoom    11307
+Desc      The central chamber.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11311
+Desc      Oggleflint's Crag.~
+#ENDEXIT
+Reset M 0 11300 10 11308
+#ENDROOM
+
+#ROOM
+Vnum     11309
+Name     &rTrogg Tunnels - Lower Tier&d~
+Sector   underground~
+Flags    indoors~
+Desc     The ground slopes downward, leading away from the trogg dwellings
+and toward the subterranean river of lava. The rock beneath your
+feet feels uncomfortably warm.
+~
+#EXIT
+Direction north~
+ToRoom    11307
+Desc      The central chamber.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11310
+Desc      The descent to the Searing Chasm.~
+#ENDEXIT
+Reset M 0 11300 10 11309
+#ENDROOM
+
+#ROOM
+Vnum     11310
+Name     &rThe descent to the Searing Chasm&d~
+Sector   underground~
+Flags    indoors~
+Desc     The sound of rushing lava becomes a constant roar as you descend
+this steep, narrow tunnel. The air is shimmering with heat, and
+sweat begins to pour down your face. The troggs seem to avoid this
+area, fearing the elementals below.
+~
+#EXIT
+Direction north~
+ToRoom    11309
+Desc      The lower trogg tier.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11312
+Desc      The entrance to the Searing Chasm.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11311
+Name     &rOggleflint's Crag&d~
+Sector   underground~
+Flags    indoors~
+Desc     This elevated crag overlooks the entire trogg village. It is the
+most defensible position in the upper chasm, occupied by the leader
+of the Ragefire tribe. A massive, blood-stained bone rests against
+the back wall.
+~
+#EXIT
+Direction west~
+ToRoom    11308
+Desc      The upper tier.~
+#ENDEXIT
+Reset M 0 11304 1 11311
+  Reset E 1 11303 1 16
+#ENDROOM
+
+#ROOM
+Vnum     11312
+Name     &ROverlook of the Searing Chasm&d~
+Sector   underground~
+Flags    indoors~
+Desc     You stand on a high ledge overlooking a spectacular and terrifying
+vista. A wide river of molten rock flows through the center of a
+massive cavern, illuminating the darkness with a violent, orange
+glare. Pillars of basalt rise from the magma like the teeth of some
+ancient beast.
+~
+#EXIT
+Direction up~
+ToRoom    11310
+Desc      The path back to the trogg tunnels.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11313
+Desc      Descend to the floor of the chasm.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11313
+Name     &RThe Chasm Floor - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     The heat here is nearly suffocating. The rock floor is cracked and
+bubbling in places, revealing the lava just inches beneath the
+surface. Strange, flickering spirits of flame drift through the air,
+guarding the elemental heart of the chasm.
+~
+#EXIT
+Direction up~
+ToRoom    11312
+Desc      The overlook ledge.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11314
+Desc      The floor of the chasm continues south.~
+#ENDEXIT
+Reset M 0 11302 10 11313
+#ENDROOM
+
+#ROOM
+Vnum     11314
+Name     &RThe Chasm Floor - Central&d~
+Sector   underground~
+Flags    indoors~
+Desc     In the center of this volcanic hall, the heat is at its most
+intense. To the east and west, narrow paths lead around the 
+central lava pool. The air is thick with ash and the smell of
+burning minerals.
+~
+#EXIT
+Direction north~
+ToRoom    11313
+Desc      The northern floor.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11315
+Desc      The eastern path.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11316
+Desc      The southern floor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11317
+Desc      The western path.~
+#ENDEXIT
+Reset M 0 11302 10 11314
+#ENDROOM
+
+#ROOM
+Vnum     11315
+Name     &RThe Searing Path - East&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow ledge of rock skirts the edge of the lava pool. The
+magma bubbles and pops just a few feet away, occasionally splashing
+the path with liquid fire.
+~
+#EXIT
+Direction west~
+ToRoom    11314
+Desc      The central floor.~
+#ENDEXIT
+Reset M 0 11302 10 11315
+#ENDROOM
+
+#ROOM
+Vnum     11316
+Name     &RThe Chasm Floor - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     The volcanic activity seems slightly more stable here. The floor
+is solid rock, though still incredibly hot. To the south, the 
+cavern narrows into a series of jagged tunnels.
+~
+#EXIT
+Direction north~
+ToRoom    11314
+Desc      The central floor.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11318
+Desc      The southern tunnels.~
+#ENDEXIT
+Reset M 0 11302 10 11316
+#ENDROOM
+
+#ROOM
+Vnum     11317
+Name     &RThe Searing Path - West&d~
+Sector   underground~
+Flags    indoors~
+Desc     This path is precarious, requiring careful footwork to avoid the
+many fissures that lead directly into the molten depths. A small
+cave entrance is visible to the west.
+~
+#EXIT
+Direction east~
+ToRoom    11314
+Desc      The central floor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11326
+Desc      Maur Grimtotem's Outlook.~
+#ENDEXIT
+Reset M 0 11302 10 11317
+#ENDROOM
+
+#ROOM
+Vnum     11318
+Name     &rThe Shadow Council Outpost - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     The natural rock has been reinforced here with heavy, iron-bound
+timbers. Purple silk banners emblazoned with the symbol of the
+Shadow Council hang from the walls. The primal, volcanic heat is
+replaced by a chilling, magical cold.
+~
+#EXIT
+Direction north~
+ToRoom    11316
+Desc      The Searing Chasm.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11319
+Desc      The outpost corridor.~
+#ENDEXIT
+Reset M 0 11306 1 11318
+#ENDROOM
+
+#ROOM
+Vnum     11319
+Name     &rShadow Council Corridor - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     Orc warlocks in dark robes pace this hallway, chanting in the
+forgotten tongue of the Eredar. The air vibrates with the hum of
+contained demonic energy. To the east and west, small rooms have 
+been carved out for dark rituals.
+~
+#EXIT
+Direction north~
+ToRoom    11318
+Desc      The outpost entry.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11320
+Desc      A ritual chamber.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11321
+Desc      The corridor continues south.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11322
+Desc      A ritual chamber.~
+#ENDEXIT
+Reset M 0 11306 1 11319
+#ENDROOM
+
+#ROOM
+Vnum     11320
+Name     &rRitual Chamber of Shadow&d~
+Sector   underground~
+Flags    indoors~
+Desc     A large, circular seal has been painted on the floor in dried
+blood. Several black candles burn with a flickering, purple flame,
+casting long, distorted shadows against the jagged walls.
+~
+#EXIT
+Direction west~
+ToRoom    11319
+Desc      The northern corridor.~
+#ENDEXIT
+Reset M 0 11306 1 11320
+#ENDROOM
+
+#ROOM
+Vnum     11321
+Name     &rShadow Council Corridor - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     The corridor widens as it approaches the lower sanctum. Massive
+iron chains hang from the ceiling, their purpose unknown but 
+ominous. The sound of a deep, demonic roar echoes from the south.
+~
+#EXIT
+Direction north~
+ToRoom    11319
+Desc      The northern corridor.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11336
+Desc      The Shadow Council Sanctum.~
+#ENDEXIT
+Reset M 0 11306 1 11321
+#ENDROOM
+
+#ROOM
+Vnum     11322
+Name     &rRitual Chamber of Flame&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air in this room is thick with smoke. An obsidian altar sits
+against the far wall, covered in strange, glowing runes. It seems
+the Shadow Council is attempting to bind the volcanic fire to their
+own dark purposes.
+~
+#EXIT
+Direction east~
+ToRoom    11319
+Desc      The northern corridor.~
+#ENDEXIT
+Reset M 0 11306 1 11322
+#ENDROOM
+
+#ROOM
+Vnum     11326
+Name     &RMaur Grimtotem's Outlook&d~
+Sector   underground~
+Flags    indoors~
+Desc     This secluded cave offers a quiet sanctuary from the roaring lava
+outside. It is sparsely furnished with a single bedroll and a small
+stone table. Maur Grimtotem stands here, watching the bubbling
+magma with a grim expression.
+~
+#EXIT
+Direction east~
+ToRoom    11317
+Desc      The western path.~
+#ENDEXIT
+Reset M 0 11305 1 11326
+  Reset G 1 11304 1
+  Reset G 1 11306 1
+#ENDROOM
+
+#ROOM
+Vnum     11327
+Name     &rThe Earthborer Tunnels - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     Branching off from the searing heat, these tunnels are damp and
+cool. The walls are smooth, as if melted by a powerful acid or
+ground down by some massive creature. To the east, the tunnel
+slopes downward into the dark.
+~
+#EXIT
+Direction west~
+ToRoom    11307
+Desc      The central trogg chamber.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11328
+Desc      The worm tunnels.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11328
+Name     &rEarthborer Tunnel - Slant&d~
+Sector   underground~
+Flags    indoors~
+Desc     The ground is covered in a sticky, translucent slime that makes
+movement difficult. To the north and south, smaller burrows lead
+into the solid rock, likely the nests of the giant worms that
+inhabit this area.
+~
+#EXIT
+Direction north~
+ToRoom    11329
+Desc      A small burrow.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11330
+Desc      A small burrow.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11327
+Desc      The entry tunnel.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11331
+Desc      The tunnels continue east.~
+#ENDEXIT
+Reset M 0 11303 10 11328
+#ENDROOM
+
+#ROOM
+Vnum     11329
+Name     &rEarthborer Nest - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls here are lined with segmented shells and discarded
+mandibles. The smell of decay is strong, as if this burrow is used
+to store food for the swarm.
+~
+#EXIT
+Direction south~
+ToRoom    11328
+Desc      The main tunnel.~
+#ENDEXIT
+Reset M 0 11303 10 11329
+  Reset G 1 11302 10
+#ENDROOM
+
+#ROOM
+Vnum     11330
+Name     &rEarthborer Nest - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     Several large, leathery eggs are nestled in a bed of sand in the
+corner. A low, wet squelching sound suggests that something is
+moving just beyond the reach of your light.
+~
+#EXIT
+Direction north~
+ToRoom    11328
+Desc      The main tunnel.~
+#ENDEXIT
+Reset M 0 11303 10 11330
+#ENDROOM
+
+#ROOM
+Vnum     11331
+Name     &rEarthborer Tunnel - Deep&d~
+Sector   underground~
+Flags    indoors~
+Desc     The smooth walls of the tunnel begin to give way to jagged, 
+volcanic rock once more. To the east, the tunnel opens into a large,
+shadowy chamber.
+~
+#EXIT
+Direction west~
+ToRoom    11328
+Desc      The slanted tunnel.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11332
+Desc      A large, hollow cavern.~
+#ENDEXIT
+Reset M 0 11303 10 11331
+#ENDROOM
+
+#ROOM
+Vnum     11332
+Name     &rThe Hollow Cavern&d~
+Sector   underground~
+Flags    indoors~
+Desc     This large, naturally formed cavern is eerily silent. The ceiling
+is lost in the darkness above, and the floor is littered with
+pulverized stone. Tunnels lead away in every direction, forming a
+confusing maze for the unwary.
+~
+#EXIT
+Direction north~
+ToRoom    11333
+Desc      A jagged tunnel.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11334
+Desc      A jagged tunnel.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11331
+Desc      The deep tunnel.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11335
+Desc      The end of the worm tunnels.~
+#ENDEXIT
+Reset M 0 11303 10 11332
+#ENDROOM
+
+#ROOM
+Vnum     11333
+Name     &rThe Jagged Cul-de-sac - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     This small tunnel ends abruptly in a wall of solid obsidian.
+Several deep grooves are carved into the rock, as if a massive
+creature tried to burrow through and failed.
+~
+#EXIT
+Direction south~
+ToRoom    11332
+Desc      The hollow cavern.~
+#ENDEXIT
+Reset M 0 11303 10 11333
+#ENDROOM
+
+#ROOM
+Vnum     11334
+Name     &rThe Jagged Cul-de-sac - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     A pile of bleached white bones lies in the center of this small
+alcove. Among them, you spot the remains of an unfortunate orcish
+scout who wandered too deep into the worm territory.
+~
+#EXIT
+Direction north~
+ToRoom    11332
+Desc      The hollow cavern.~
+#ENDEXIT
+Reset M 0 11303 10 11334
+#ENDROOM
+
+#ROOM
+Vnum     11335
+Name     &rTunnel's End&d~
+Sector   underground~
+Flags    indoors~
+Desc     The worm tunnels end here. A narrow fissure leads through the
+back wall, offering a glimpse into the Shadow Council sanctum beyond.
+The air smells of ozone and dark magic.
+~
+#EXIT
+Direction west~
+ToRoom    11332
+Desc      The hollow cavern.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11336
+Desc      The Shadow Council Sanctum.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11336
+Name     &MThe Shadow Council Sanctum - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     This massive chamber has been converted into a fortified camp for
+the Shadow Council. Tents made of dark leather are arranged around
+a central dais, and crates of magical supplies are stacked high
+against the walls.
+~
+#EXIT
+Direction north~
+ToRoom    11321
+Desc      The southern corridor.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11337
+Desc      The central sanctum area.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11335
+Desc      The worm tunnels.~
+#ENDEXIT
+Reset M 0 11306 1 11336
+#ENDROOM
+
+#ROOM
+Vnum     11337
+Name     &MThe Shadow Council Sanctum - Center&d~
+Sector   underground~
+Flags    indoors~
+Desc     A large stone dais sits in the center of the room, upon which a
+pool of swirling, purple energy has been summoned. Orcish mages
+stand around it, maintaining the portal with constant incantations.
+~
+#EXIT
+Direction north~
+ToRoom    11336
+Desc      The sanctum entry.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11338
+Desc      A path to the lower depths.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11339
+Desc      The deep sanctum.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11340
+Desc      A small storage area.~
+#ENDEXIT
+Reset M 0 11306 1 11337
+#ENDROOM
+
+#ROOM
+Vnum     11338
+Name     &MThe descent to the Lower Depths&d~
+Sector   underground~
+Flags    indoors~
+Desc     A wide set of stairs has been carved into the rock, leading down
+toward the very bottom of the chasm. The sound of a violent, fiery
+clash echoes from below.
+~
+#EXIT
+Direction west~
+ToRoom    11337
+Desc      The central sanctum.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11342
+Desc      The Fiery Descent.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11339
+Name     &MThe Deep Sanctum&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls here are covered in demonic scripts that seem to pulse
+with their own internal light. This is the inner circle of the
+outpost, where the most powerful warlocks congregate.
+~
+#EXIT
+Direction north~
+ToRoom    11337
+Desc      The central sanctum.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11341
+Desc      Jergosh the Invoker's Altar.~
+#ENDEXIT
+Reset M 0 11306 1 11339
+#ENDROOM
+
+#ROOM
+Vnum     11340
+Name     &MSanctum Storage Area&d~
+Sector   underground~
+Flags    indoors~
+Desc     Piles of iron ingots, bundles of staves, and sacks of sulfur are
+organized neatly here. It seems the Shadow Council is preparing
+for a long stay beneath Orgrimmar.
+~
+#EXIT
+Direction east~
+ToRoom    11337
+Desc      The central sanctum.~
+#ENDEXIT
+Reset O 0 11310 10 11340
+#ENDROOM
+
+#ROOM
+Vnum     11341
+Name     &MJergosh the Invoker's Altar&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive obsidian altar dominates the southern wall, dripping
+with a viscous, green liquid. Jergosh the Invoker stands before it,
+clutching a staff of dark iron and screaming commands at the 
+twisting shadows that dance around him.
+~
+#EXIT
+Direction north~
+ToRoom    11339
+Desc      The deep sanctum.~
+#ENDEXIT
+Reset M 0 11306 1 11341
+  Reset G 1 11305 1
+  Reset G 1 11307 1
+#ENDROOM
+
+#ROOM
+Vnum     11342
+Name     &RThe Fiery Descent&d~
+Sector   underground~
+Flags    indoors~
+Desc     The stairs end in a wide, circular platform suspended over a 
+bottomless pit of roiling magma. The heat here is lethal, and only
+the presence of powerful demonic magic keeps the platform from 
+melting into the depths.
+~
+#EXIT
+Direction up~
+ToRoom    11338
+Desc      The descent stairs.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11343
+Desc      Taragaman's Maw.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11343
+Name     &RTaragaman's Maw&d~
+Sector   underground~
+Flags    indoors~
+Desc     This is the lowest point of Ragefire Chasm. A massive bridge of
+twisted, dark iron crosses the lava pit, leading to a central 
+throne where the demon Taragaman the Hungerer stands sentinel. 
+The air is screaming with the sound of escaping steam and the
+demon's own guttural roars.
+~
+#EXIT
+Direction north~
+ToRoom    11342
+Desc      The Fiery Descent.~
+#ENDEXIT
+Reset M 0 11307 1 11343
+  Reset E 1 11308 1 16
+#ENDROOM
+
+#ENDAREA
