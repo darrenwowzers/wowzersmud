@@ -1,0 +1,2166 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Lower Blackrock Spire~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       55 60 0 60
+Economy      0 85000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       20500
+Keywords   spirestone ogre brute~
+Short      a Spirestone Ogre~
+Long       A massive Spirestone Ogre lumbers through the corridor, dragging a club.
+~
+Desc       Dim-witted but incredibly strong, these ogres form the bulk 
+of the Spire's heavy defense. Their skin is grey and 
+calloused from years of living in the mountain.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 3500 9000
+Stats2     55 55 0
+Stats3     15 45 55
+Stats4     0 0 0 0 0
+Attribs    28 8 22 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20501
+Keywords   smolderthorn troll shadow-hunter~
+Short      a Smolderthorn Troll~
+Long       A Smolderthorn Troll lurks in the shadows, his daggers dripping venom.
+~
+Desc       The Smolderthorn have allied with the Dark Horde to reclaim 
+their lost glory. They are experts in ambush and dark voodoo.
+~
+Race       troll~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 2000 5500
+Stats2     54 54 400
+Stats3     12 35 54
+Stats4     0 0 0 0 0
+Attribs    18 24 16 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20502
+Keywords   bloodaxe orc veteran~
+Short      a Bloodaxe Veteran~
+Long       An orc veteran in blackened plate armor stand watch.
+~
+Desc       Decorated soldiers of the Bloodaxe legion. They are 
+highly disciplined and follow the orders of Wyrmthalak without 
+question.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2800 7500
+Stats2     56 56 200
+Stats3     14 40 56
+Stats4     0 0 0 0 0
+Attribs    24 12 18 10 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       20503
+Keywords   darkvreeke rare dragonspawn warrior~
+Short      Dark Vreeke~
+Long       A dark-scaled dragonspawn stalks the high ledges.
+~
+Desc       A rare and deadly scout of the black dragonflight, sent to 
+ensure the orcish clans remain loyal to Rend Blackhand.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 5000 15000
+Stats2     58 58 500
+Stats3     20 60 58
+Stats4     0 0 0 0 0
+Attribs    28 14 24 12 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20504
+Keywords   highlord omokk boss ogre warrior~
+Short      Highlord Omokk~
+Long       Highlord Omokk sits upon a throne of skulls, gnawing on a bone.
+~
+Desc       The leader of the Spirestone ogres. He is a mountain of 
+flesh and muscle, known for crushing his enemies with 
+unrivaled physical force.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 10000 30000
+Stats2     58 58 200
+Stats3     25 75 58
+Stats4     0 0 0 0 0
+Attribs    35 8 30 10 15 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20505
+Keywords   war master voone boss troll warrior~
+Short      War Master Voone~
+Long       War Master Voone balances a jagged spear, eyes full of tactical intent.
+~
+Desc       The commander of the Smolderthorn forces. Voone is a 
+master of multiple weapons and can strike with a speed 
+that defies his heavy armor.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 9000 28000
+Stats2     58 58 500
+Stats3     22 70 58
+Stats4     0 0 0 0 0
+Attribs    24 22 20 16 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20506
+Keywords   mother smolderweb boss spider beast~
+Short      Mother Smolderweb~
+Long       A gargantuan black spider clicks its mandibles from the ceiling.
+~
+Desc       The matriarch of the Spire's spiders. She has grown massive 
+on a diet of orcish and ogre flesh, her venom now a 
+concentrated necrotic toxin.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 8500 25000
+Stats2     57 57 0
+Stats3     20 65 57
+Stats4     0 0 0 0 0
+Attribs    28 18 24 4 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20507
+Keywords   urok doomhowl boss ogre spirit~
+Short      Urok Doomhowl~
+Long       A spectral ogre wails, his body translucent and burning with shadow.
+~
+Desc       Summoned through a dark ritual, Urok is the ghost of a 
+fallen Spirestone hero. He strikes fear into the hearts 
+of all who hear his howl.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 12000 35000
+Stats2     59 59 1000
+Stats3     30 90 60
+Stats4     0 0 0 0 0
+Attribs    32 12 25 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20508
+Keywords   overlord wyrmthalak boss dragonspawn~
+Short      Overlord Wyrmthalak~
+Long       Overlord Wyrmthalak stands atop the high balcony, wings fanned.
+~
+Desc       The supreme commander of Lower Blackrock Spire. He is a 
+massive dragonspawn of the black flight, wielding 
+unmatched martial power.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 20000 60000
+Stats2     60 60 1000
+Stats3     40 120 70
+Stats4     0 0 0 0 0
+Attribs    40 14 35 20 25 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       20509
+Keywords   halycon boss beast hound~
+Short      Halycon~
+Long       A giant, white-furred wolf growls, protecting her pups.
+~
+Desc       The legendary winter-wolf who has made her den within the 
+warm stone of the Spire. She is fiercely territorial.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 7500 22000
+Stats2     58 58 0
+Stats3     18 55 58
+Stats4     0 0 0 0 0
+Attribs    26 22 20 6 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20510
+Keywords   gizrul slavener boss gnoll warrior~
+Short      Gizrul the Slavener~
+Long       A massive gnoll in plate armor bellows at his slaves.
+~
+Desc       A mercenary commander who oversees the Spire's labor 
+force. He is a brute who enjoys the sound of the whip.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 9500 28000
+Stats2     59 59 100
+Stats3     22 65 59
+Stats4     0 0 0 0 0
+Attribs    30 14 24 10 14 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20511
+Keywords   quartermaster zigris boss orc thief~
+Short      Quartermaster Zigris~
+Long       An orc in light leather armor checks a pile of crates.
+~
+Desc       Responsible for the Spire's logistics. Zigris is an 
+expert in camouflage and will use traps and shadow-magic 
+to defend his stores.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 6000 18000
+Stats2     57 57 500
+Stats3     16 45 57
+Stats4     0 0 0 0 0
+Attribs    18 28 16 14 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20512
+Keywords   spirestone battle-lord ogre warrior~
+Short      a Spirestone Battle-lord~
+Long       An ogre in ornate iron plate swings a massive mace.
+~
+Desc       The field commanders of the Spirestone clan. They lead 
+from the front, their physical size alone enough to 
+intimidate most enemies.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3200 9000
+Stats2     57 57 150
+Stats3     15 42 57
+Stats4     0 0 0 0 0
+Attribs    30 10 20 8 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20513
+Keywords   smolderthorn berserker troll warrior~
+Short      a Smolderthorn Berserker~
+Long       A troll warrior enters a blood-rage, his eyes glowing red.
+~
+Desc       Driven to a frenzy by the taste of blood, these trolls 
+ignore pain and strike with reckless power.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 2500 7000
+Stats2     55 55 100
+Stats3     13 38 55
+Stats4     0 0 0 0 0
+Attribs    24 18 16 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20514
+Keywords   bloodaxe evoker orc mage~
+Short      a Bloodaxe Evoker~
+Long       An orc mage weaves a shield of flickering shadow-flame.
+~
+Desc       Casters who specialize in defensive and area-denial 
+magic, protecting the Bloodaxe legion from spell-casters.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1500 4500
+Stats2     56 56 1200
+Stats3     11 32 56
+Stats4     0 0 0 0 0
+Attribs    12 14 14 30 25 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20515
+Keywords   crystal fang spider beast~
+Short      a Crystal Fang~
+Long       A pale spider with translucent legs skitters silently.
+~
+Desc       Native to the high peaks, these spiders weave webs 
+that are nearly invisible against the obsidian walls.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1100 3200
+Stats2     54 54 0
+Stats3     8 20 54
+Stats4     0 0 0 0 0
+Attribs    18 20 16 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       20516
+Keywords   firebrand invoker orc mage~
+Short      a Firebrand Invoker~
+Long       An orc priest mutters a prayer to the black dragons.
+~
+Desc       Fanatical worshipers of the black flight. They use 
+elemental magic to empower their warriors.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1400 4000
+Stats2     57 57 1000
+Stats3     10 28 57
+Stats4     0 0 0 0 0
+Attribs    14 12 16 28 24 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20517
+Keywords   scarshield legionnaire orc warrior~
+Short      a Scarshield Legionnaire~
+Long       An orc legionnaire stand firm, his shield etched with a dragon.
+~
+Desc       The elite infantry of Rend Blackhand's legion. They are 
+the most disciplined orcs in the mountain.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 3500 9500
+Stats2     58 58 300
+Stats3     16 45 58
+Stats4     0 0 0 0 0
+Attribs    26 12 20 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       20518
+Keywords   spirestone mystic ogre shaman~
+Short      a Spirestone Mystic~
+Long       An ogre shaman mutters to a pile of burning bones.
+~
+Desc       The spiritual leaders of the ogre clan. They possess 
+a crude but effective control over the elements.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1800 5000
+Stats2     56 56 900
+Stats3     12 35 56
+Stats4     0 0 0 0 0
+Attribs    18 10 18 26 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20519
+Keywords   smolderthorn headhunter troll warrior~
+Short      a Smolderthorn Headhunter~
+Long       A troll balances a heavy throwing axe, eyes narrow.
+~
+Desc       Skilled marksmen who prefer to bleed their enemies from 
+a distance before closing in for the kill.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1600 4500
+Stats2     55 55 200
+Stats3     11 30 55
+Stats4     0 0 0 0 0
+Attribs    20 22 14 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20520
+Keywords   bloodaxe raider orc warrior~
+Short      a Bloodaxe Raider~
+Long       An orc in light mail prowls the hall, a dagger in his hand.
+~
+Desc       Specialists in infiltration and guerrilla tactics within 
+the Spire's winding tunnels.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1200 3500
+Stats2     54 54 300
+Stats3     9 24 54
+Stats4     0 0 0 0 0
+Attribs    16 24 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20521
+Keywords   spindleweb spider beast~
+Short      a Spindleweb Spider~
+Long       A large, hairy spider skitters across the wall.
+~
+Desc       A common predator in the Spire's lower levels, feeding 
+on rats and unlucky goblin laborers.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 950 2800
+Stats2     52 52 0
+Stats3     7 18 52
+Stats4     0 0 0 0 0
+Attribs    16 20 14 4 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       20522
+Keywords   firebrand pyromancer orc mage~
+Short      a Firebrand Pyromancer~
+Long       An orc in flaming robes mutters an incantation.
+~
+Desc       Specialists in destructive fire magic, they are 
+tasked with turning intruders into ash.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1600 4800
+Stats2     57 57 1500
+Stats3     12 35 57
+Stats4     0 0 0 0 0
+Attribs    10 14 16 32 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20523
+Keywords   scarshield warlock orc mage~
+Short      a Scarshield Warlock~
+Long       An orc in purple robes mutters to a void-walker shadow.
+~
+Desc       Practitioners of demonic magic who provide magical 
+support to the Legionnaire infantry.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1800 5200
+Stats2     58 58 1800
+Stats3     13 40 58
+Stats4     0 0 0 0 0
+Attribs    12 12 14 34 28 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20524
+Keywords   blackhand elite orc warrior~
+Short      a Blackhand Elite~
+Long       A massive orc in heavy plate stands silent guard.
+~
+Desc       The personal guards of Rend Blackhand, hand-picked 
+for their size and unyielding loyalty.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 4500 13000
+Stats2     59 59 300
+Stats3     20 55 59
+Stats4     0 0 0 0 0
+Attribs    30 12 22 14 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20525
+Keywords   spirestone butcher ogre warrior~
+Short      a Spirestone Butcher~
+Long       An ogre in a bloody leather apron sharpen a massive cleaver.
+~
+Desc       Responsible for providing meat for the ogre clans. They 
+view all biological entities as potential ingredients.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 3000 8500
+Stats2     56 56 100
+Stats3     14 38 56
+Stats4     0 0 0 0 0
+Attribs    28 10 20 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20526
+Keywords   smolderthorn seer troll mage~
+Short      a Smolderthorn Seer~
+Long       A troll in feathered robes gazes into a magical pool.
+~
+Desc       Mystics who use the power of the Loa to predict the movements 
+of their enemies.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1300 3800
+Stats2     56 56 1500
+Stats3     10 28 56
+Stats4     0 0 0 0 0
+Attribs    12 16 14 30 25 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20527
+Keywords   halycon pup beast wolf~
+Short      a Halycon Pup~
+Long       A small, white-furred wolf pup yips and snaps at you.
+~
+Desc       Though small, these pups are already aggressive and 
+will fight to defend their mother's den.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 600 1800
+Stats2     54 54 0
+Stats3     6 14 54
+Stats4     0 0 0 0 0
+Attribs    14 18 12 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       20528
+Keywords   spire rat beast~
+Short      a Spire Rat~
+Long       A large, grey rat scurries along the base of the wall.
+~
+Desc       Ubiquitous inhabitants of the Spire's darker corners. 
+They are harmless but annoying.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 200 800
+Stats2     50 50 0
+Stats3     3 10 50
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       20529
+Keywords   shadowshard focus elemental~
+Short      a Shadowshard Focus~
+Long       A floating shard of dark crystal pulses with energy.
+~
+Desc       A magical sentinel summoned to guard the high bridges 
+of the Spire.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 900 2500
+Stats2     58 58 1200
+Stats3     8 20 58
+Stats4     0 0 0 0 0
+Attribs    10 24 14 35 20 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     20530
+Keywords plate shaman king body~
+Type     armor~
+Short    the Plate of the Shaman King~
+Long     Heavy bronze plate armor featuring a fanned serpent crest.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 15000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   4 15 0 0 0
+Affect   17 -25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20531
+Keywords omokk's girth waist~
+Type     armor~
+Short    Omokk's Girth~
+Long     A massive leather belt reinforced with heavy iron plates.~
+WFlags   take waist~
+Values   15 0 0 0 0 0
+Stats    8 5500 58 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20532
+Keywords voone's vice-grip hands~
+Type     armor~
+Short    Voone's Vice-Grip~
+Long     Gauntlets made of thick troll-hide and reinforced with bone.~
+WFlags   take hands~
+Values   15 0 0 0 0 0
+Stats    5 4500 58 0 0
+Rarity   2
+Affect   2 15 0 0 0
+Affect   12 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20533
+Keywords smolderweb's eye treasure hold~
+Type     treasure~
+Short    Smolderweb's Eye~
+Long     A massive, multi-faceted spider eye that glows with an inner light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 3500 57 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20534
+Keywords rosewine circle ring jewelry~
+Type     jewelry~
+Short    the Rosewine Circle~
+Long     A gold ring featuring a small, blood-red gemstone.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 2800 56 0 0
+Rarity   1
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20535
+Keywords hand power jewelry hold~
+Type     treasure~
+Short    the Hand of Power~
+Long     A small iron hand that grants the bearer increased magical focus.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 12000 58 0 0
+Rarity   3
+Affect   3 15 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20536
+Keywords talisman evasion jewelry~
+Type     jewelry~
+Short    the Talisman of Evasion~
+Long     A silver pendant that seems to slightly blur the wearer's image.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 8500 58 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20537
+Keywords wyrmthalak's battle-axe weapon~
+Type     weapon~
+Short    Wyrmthalak's Battle-Axe~
+Long     A massive, two-handed axe with a blade of solid obsidian.~
+WFlags   take wield~
+Values   12 20 45 2 0 0
+Stats    30 25000 60 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20538
+Keywords bloodaxe medallion jewelry~
+Type     jewelry~
+Short    a Bloodaxe Medallion~
+Long     A heavy iron medallion marked with the seal of the Bloodaxe legion.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 1200 56 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20539
+Keywords spirestone mace weapon~
+Type     weapon~
+Short    a Spirestone Ogre Mace~
+Long     A crude, heavy log with a head made of reinforced iron.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    35 1500 55 0 0
+Rarity   1
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20540
+Keywords smolderthorn mojo treasure hold~
+Type     treasure~
+Short    a jar of Smolderthorn Mojo~
+Long     A ceramic jar filled with a bubbling, dark purple liquid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 54 0 0
+Rarity   1
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20541
+Keywords firebrand leggings legs~
+Type     armor~
+Short    Firebrand Scaled Leggings~
+Long     Leggings reinforced with the scales of a volcanic lizard.~
+WFlags   take legs~
+Values   20 0 0 0 0 0
+Stats    12 3500 57 0 0
+Rarity   2
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20542
+Keywords scarshield shield armor~
+Type     armor~
+Short    a Scarshield Kite Shield~
+Long     A heavy iron shield etched with the crest of a dragon.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 4500 58 0 0
+Rarity   2
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20543
+Keywords blackhand slayer boots feet~
+Type     armor~
+Short    a pair of Blackhand Slayers~
+Long     Boots made of thick orc-hide and reinforced with steel studs.~
+WFlags   take feet~
+Values   15 0 0 0 0 0
+Stats    8 2500 59 0 0
+Rarity   2
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20544
+Keywords truncheon five thunders mace~
+Type     weapon~
+Short    the Truncheon of Five Thunders~
+Long     A perfectly balanced mace that hums with elemental energy.~
+WFlags   take wield~
+Values   12 12 25 8 0 0
+Stats    15 12000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20545
+Keywords riphook weapon~
+Type     weapon~
+Short    the Riphook~
+Long     A jagged polearm with a hook designed for pulling riders down.~
+WFlags   take wield~
+Values   12 18 35 11 0 0
+Stats    25 15000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20546
+Keywords heart mountain treasure hold~
+Type     treasure~
+Short    the Heart of the Mountain~
+Long     A glowing ruby that pulses with the heartbeat of Blackrock.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 25000 65 0 0
+Rarity   3
+Affect   5 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20547
+Keywords gem command treasure hold~
+Type     treasure~
+Short    the Gem of Command~
+Long     A dark emerald that grants the bearer increased authority.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15000 60 0 0
+Rarity   3
+Affect   3 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20548
+Keywords seal ascension ring jewelry~
+Type     jewelry~
+Short    the Seal of Ascension~
+Long     A ring that hums with the frequency of the high spire.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 50000 60 0 0
+Rarity   3
+Affect   13 20 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20549
+Keywords rough bronze key~
+Type     key~
+Short    a rough bronze key~
+Long     A simple key required to navigate the Spire's back gates.~
+WFlags   take~
+Values   20549 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20550
+Keywords spider silk loot~
+Type     treasure~
+Short    a spool of Spire Silk~
+Long     Durable thread taken from the Spire's spiders.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 850 52 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20551
+Keywords ogre bone trophy~
+Type     trash~
+Short    a heavy ogre bone~
+Long     A thick, bleached bone taken from a Spirestone ogre.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20552
+Keywords orcish rations food~
+Type     food~
+Short    a slab of dried orcish meat~
+Long     Tough, salty meat that provides lasting sustenance.~
+WFlags   take~
+Values   30 0 0 0 0 0
+Stats    5 15 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20553
+Keywords troll blood treasure~
+Type     treasure~
+Short    a vial of Troll Blood~
+Long     A glass vial containing thick, dark red blood.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 54 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20554
+Keywords spire dust trash~
+Type     trash~
+Short    a handful of spire dust~
+Long     Fine grey dust that seems to coat everything in the Spire.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20555
+Keywords blackrock ore mineral~
+Type     treasure~
+Short    a chunk of Blackrock Ore~
+Long     A heavy, black stone with a metallic luster.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    12 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20556
+Keywords dragonbreath chili food~
+Type     food~
+Short    a bowl of Dragonbreath Chili~
+Long     A steaming bowl of chili that smells incredibly spicy.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 35 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20557
+Keywords heavy runecloth loot~
+Type     treasure~
+Short    a bolt of Heavy Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1500 58 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20558
+Keywords polished obsidian treasure~
+Type     treasure~
+Short    a piece of Polished Obsidian~
+Long     A stone that looks like glass but is as hard as iron.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1800 56 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     20559
+Keywords ash-stained map treasure~
+Type     treasure~
+Short    an ash-stained map~
+Long     A document detailing the tactical positions of the Spire army.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 450 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#ROOM
+Vnum     20560
+Name     &rThe Lower Spire Landing&d~
+Sector   city~
+Flags    indoors~
+Desc     The high, smoke-choked air of Blackrock Mountain becomes 
+oppressive as you step into the lower military hub of the 
+Spire. Massive stone stairs wind upward, while high balconies 
+overlook the deep pits of the mountain. The sound of 
+distant chanting and the clash of steel is constant.
+~
+#EXIT
+Direction out~
+ToRoom    36561
+Desc      Return to the Hall of the Mountain.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20561
+Desc      The main thoroughfare.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     20561
+Name     &rThe Thoroughfare of War&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide hallway built to accommodate the passage of ogre 
+armies. The walls are decorated with the tattered banners 
+ of the Spirestone and Smolderthorn clans. Spirestone 
+ogres patrol the area with heavy clubs.
+~
+#EXIT
+Direction south~
+ToRoom    20560
+Desc      The landing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20562
+Desc      The Spirestone Commons.~
+#ENDEXIT
+Reset M 0 20500 10 20561
+#ENDROOM
+
+#ROOM
+Vnum     20562
+Name     &rThe Spirestone Commons - South&d~
+Sector   city~
+Flags    indoors~
+Desc     The start of the ogre residential area. Large, messy 
+caverns branch off the main path, each filled with 
+crude bedding and the remains of many meals.
+~
+#EXIT
+Direction south~
+ToRoom    20561
+Desc      The thoroughfare.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20563
+Desc      The Spirestone Commons Central.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20590
+Desc      Toward the Smolderthorn Quarter.~
+#ENDEXIT
+Reset M 0 20500 10 20562
+#ENDROOM
+
+#ROOM
+Vnum     20563
+Name     &rThe Spirestone Commons - Central&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the ogre territory. A massive stone pillar 
+in the center is carved with the history of the Spirestone 
+clan. Highlord Omokk's throne is visible to the north.
+~
+#EXIT
+Direction south~
+ToRoom    20562
+Desc      The southern commons.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20564
+Desc      The Highlord's Seat.~
+#ENDEXIT
+Reset M 0 20512 5 20563
+#ENDROOM
+
+#ROOM
+Vnum     20564
+Name     &rThe Throne of Highlord Omokk&d~
+Sector   city~
+Flags    indoors~
+Desc     The highest point of the ogre quarters. Highlord Omokk sits 
+upon a throne of mismatched skulls and iron, surveying 
+his people. To the north, a high bridge leads toward 
+the Bloodaxe military district.
+~
+#EXIT
+Direction south~
+ToRoom    20563
+Desc      The central commons.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20565
+Desc      The bridge to the Spire.~
+#ENDEXIT
+Reset M 0 20504 1 20564
+  Reset G 1 20531 1
+#ENDROOM
+
+#ROOM
+Vnum     20565
+Name     &rThe Bridge of the Spire&d~
+Sector   city~
+Flags    indoors~
+Desc     A long, narrow stone bridge crossing a massive vertical 
+shaft. From here, you can see the Molten Core far below 
+and the peaks of the Upper Spire high above. Obsidian 
+gargoyles watch from the high rafters.
+~
+#EXIT
+Direction south~
+ToRoom    20564
+Desc      Omokk's throne.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20566
+Desc      The Bloodaxe Garrison.~
+#ENDEXIT
+Reset M 0 20529 5 20565
+#ENDROOM
+
+#ROOM
+Vnum     20566
+Name     &rThe Bloodaxe Garrison - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A heavily fortified stone chamber housing the primary 
+guard contingent for the lower Spire. The walls are 
+lined with sharp iron halberds and heavy shields.
+~
+#EXIT
+Direction south~
+ToRoom    20565
+Desc      The bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20567
+Desc      The Bloodaxe Courtyard.~
+#ENDEXIT
+Reset M 0 20502 10 20566
+#ENDROOM
+
+#ROOM
+Vnum     20567
+Name     &rThe Bloodaxe Courtyard&d~
+Sector   city~
+Flags    indoors~
+Desc     The center of the military district. Orc soldiers work 
+at various crafting stations, and a large bonfire burns 
+in the center. Quartermaster Zigris oversees the stores 
+from a high platform.
+~
+#EXIT
+Direction south~
+ToRoom    20566
+Desc      The garrison entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20568
+Desc      Toward the Halycon Lair.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20580
+Desc      Toward the Overlord's Balcony.~
+#ENDEXIT
+Reset M 0 20511 1 20567
+#ENDROOM
+
+#ROOM
+Vnum     20568
+Name     &rThe Hall of the Pack&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is warm and carries the unmistakable scent 
+of wet fur. The walls are covered in matted hair and 
+gnawed bones.
+~
+#EXIT
+Direction south~
+ToRoom    20567
+Desc      The courtyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20569
+Desc      Halycon's Lair.~
+#ENDEXIT
+Reset M 0 20527 10 20568
+#ENDROOM
+
+#ROOM
+Vnum     20569
+Name     &rThe Lair of Halycon&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, dry cavern filled with dozens of white wolf pups. 
+The massive winter-wolf Halycon stands in the center, 
+her eyes glowing with protective rage.
+~
+#EXIT
+Direction south~
+ToRoom    20568
+Desc      The pack hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20570
+Desc      Toward the Slave Pens.~
+#ENDEXIT
+Reset M 0 20509 1 20569
+#ENDROOM
+
+#ROOM
+Vnum     20570
+Name     &rThe Slave Pens - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     Cramped, dirty tunnels where the Dark Horde keeps its 
+captives. Gizrul the Slavener can be heard shouting 
+orders from the room ahead.
+~
+#EXIT
+Direction south~
+ToRoom    20569
+Desc      Halycon's lair.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20571
+Desc      The Slavener's Seat.~
+#ENDEXIT
+Reset M 0 20510 5 20570
+#ENDROOM
+
+#ROOM
+Vnum     20571
+Name     &rThe Seat of Gizrul the Slavener&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone ledge overlooking the labor pits. Gizrul 
+stands here with a heavy whip, watching the slaves 
+work in the heat below.
+~
+#EXIT
+Direction south~
+ToRoom    20570
+Desc      The pens entrance.~
+#ENDEXIT
+Reset M 0 20510 1 20571
+#ENDROOM
+
+#ROOM
+Vnum     20580
+Name     &rOverlord Wyrmthalak's Balcony&d~
+Sector   city~
+Flags    indoors~
+Desc     A grand stone balcony at the highest point of the lower 
+Spire. Overlord Wyrmthalak stands here, his wings 
+shading the entire floor. He overlooks his domain 
+with the cold patience of a dragon.
+~
+#EXIT
+Direction west~
+ToRoom    20567
+Desc      The Bloodaxe courtyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20599
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 20508 1 20580
+  Reset G 1 20537 1
+  Reset G 1 20548 1
+#ENDROOM
+
+#ROOM
+Vnum     20590
+Name     &rSmolderthorn Quarter - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here becomes more ornate and troll-like. 
+The walls are decorated with colorful feathers and 
+stone idols. Troll shadow-hunters move silently 
+through the shadows.
+~
+#EXIT
+Direction west~
+ToRoom    20562
+Desc      The Spirestone commons.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20591
+Desc      The Smolderthorn Central.~
+#ENDEXIT
+Reset M 0 20501 10 20590
+#ENDROOM
+
+#ROOM
+Vnum     20591
+Name     &rThe Smolderthorn Commons - Central&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the troll district. A large pool of dark 
+voodoo-infused water sits in the center of the square. 
+War Master Voone's command post is visible to the north.
+~
+#EXIT
+Direction west~
+ToRoom    20590
+Desc      The west quarter.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20592
+Desc      War Master Voone's Post.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20594
+Desc      Toward the Tazz'Alaq Tunnels.~
+#ENDEXIT
+Reset M 0 20513 5 20591
+#ENDROOM
+
+#ROOM
+Vnum     20592
+Name     &rWar Master Voone's Command Post&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high room filled with tactical maps and trophies 
+taken from the Alliance and Horde. War Master Voone 
+stands before a large sand-table, planning the next 
+Smolderthorn raid.
+~
+#EXIT
+Direction south~
+ToRoom    20591
+Desc      The central commons.~
+#ENDEXIT
+Reset M 0 20505 1 20592
+  Reset G 1 20532 1
+#ENDROOM
+
+#ROOM
+Vnum     20593
+Name     &rThe Seer's Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, quiet room behind the command post. Smolderthorn 
+seers meditate here, their eyes closed as they commune 
+with the spirits.
+~
+#EXIT
+Direction south~
+ToRoom    20592
+Desc      The command post.~
+#ENDEXIT
+Reset M 0 20526 5 20593
+#ENDROOM
+
+#ROOM
+Vnum     20594
+Name     &rTazz'Alaq Tunnels - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The well-maintained stone of the troll quarter gives way to 
+jagged rock and thick white webbing. The air is stagnant 
+and smells of old decay.
+~
+#EXIT
+Direction west~
+ToRoom    20591
+Desc      The central commons.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20595
+Desc      The Webbed Tunnels.~
+#ENDEXIT
+Reset M 0 20521 10 20594
+#ENDROOM
+
+#ROOM
+Vnum     20595
+Name     &rThe Webbed Tunnels - Heart&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls and ceiling are completely covered in thick, 
+sticky silk. Mother Smolderweb hangs from the ceiling 
+in the center of the room, her red eyes watching for movement.
+~
+#EXIT
+Direction west~
+ToRoom    20594
+Desc      The tunnel entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20596
+Desc      The Crystal Fang Grotto.~
+#ENDEXIT
+Reset M 0 20506 1 20595
+  Reset G 1 20533 1
+#ENDROOM
+
+#ROOM
+Vnum     20596
+Name     &rThe Crystal Fang Grotto&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small, hidden cavern where the rarest spiders of the 
+Spire make their nest. Translucent crystals grow from 
+the walls, reflecting your light in strange ways.
+~
+#EXIT
+Direction south~
+ToRoom    20595
+Desc      The webbed tunnels.~
+#ENDEXIT
+Reset M 0 20515 5 20596
+#ENDROOM
+
+#ROOM
+Vnum     20597
+Name     &rThe Urok Altar - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel leading away from the Spirestone quarters. 
+A large, blackened altar stands at the far end of 
+the cavern.
+~
+#EXIT
+Direction west~
+ToRoom    20562
+Desc      The Spirestone commons.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20598
+Desc      The Altar of Doomhowl.~
+#ENDEXIT
+Reset M 0 20518 5 20597
+#ENDROOM
+
+#ROOM
+Vnum     20598
+Name     &rThe Altar of Urok Doomhowl&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is cold enough to see your breath. The 
+ghost of Urok Doomhowl stands before the altar, his 
+wails echoing through the stone like a physical blow.
+~
+#EXIT
+Direction west~
+ToRoom    20597
+Desc      The altar entrance.~
+#ENDEXIT
+Reset M 0 20507 1 20598
+#ENDROOM
+
+#ROOM
+Vnum     20599
+Name     &rThe Lower Spire Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, hidden tunnel behind Wyrmthalak's balcony 
+leads toward a hidden opening in the side of Blackrock 
+Mountain, offering a quick way back toward the 
+Searing Gorge for those who have defeated the Overlord.
+~
+#EXIT
+Direction south~
+ToRoom    20580
+Desc      Wyrmthalak's balcony.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    20560
+Desc      The entrance landing.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     20600
+Name     &rLanding Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet stone ledge overlooking the landing, frequently 
+patrolled by Bloodaxe scouts.
+~
+#EXIT
+Direction north~
+ToRoom    20560
+Desc      The entrance landing.~
+#ENDEXIT
+Reset M 0 20520 5 20600
+#ENDROOM
+
+#ROOM
+Vnum     20601
+Name     &rThoroughfare Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the main thoroughfare filled with 
+discarded masonry and bits of iron ore.
+~
+#EXIT
+Direction east~
+ToRoom    20561
+Desc      The thoroughfare.~
+#ENDEXIT
+Reset O 0 20555 10 20601
+#ENDROOM
+
+#ROOM
+Vnum     20602
+Name     &rThoroughfare Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, damp chamber where the ogres store their 
+crude bedding and leather furs.
+~
+#EXIT
+Direction west~
+ToRoom    20561
+Desc      The thoroughfare.~
+#ENDEXIT
+Reset M 0 20500 5 20602
+#ENDROOM
+
+#ROOM
+Vnum     20603
+Name     &rCommons Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the Spirestone commons, filled with 
+piles of gnawed bones and the scent of decay.
+~
+#EXIT
+Direction south~
+ToRoom    20562
+Desc      The southern commons.~
+#ENDEXIT
+Reset M 0 20525 5 20603
+#ENDROOM
+
+#ROOM
+Vnum     20604
+Name     &rCommons Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop where the ogre butchers process 
+the daily catch for the clan.
+~
+#EXIT
+Direction north~
+ToRoom    20563
+Desc      The central commons.~
+#ENDEXIT
+Reset M 0 20525 5 20604
+#ENDROOM
+
+#ROOM
+Vnum     20605
+Name     &rOmokk Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near Omokk's throne, 
+offering a view of the southern thoroughfare.
+~
+#EXIT
+Direction north~
+ToRoom    20564
+Desc      Omokk's throne.~
+#ENDEXIT
+Reset M 0 20512 5 20605
+#ENDROOM
+
+#ROOM
+Vnum     20606
+Name     &rOmokk Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A storage room for ogre maces and heavy iron bars.
+~
+#EXIT
+Direction south~
+ToRoom    20564
+Desc      Omokk's throne.~
+#ENDEXIT
+Reset O 0 20539 10 20606
+#ENDROOM
+
+#ROOM
+Vnum     20607
+Name     &rGarrison Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room for storing powder and ammunition for 
+the Bloodaxe rifles.
+~
+#EXIT
+Direction north~
+ToRoom    20566
+Desc      Garrison entrance.~
+#ENDEXIT
+Reset O 0 20559 10 20607
+#ENDROOM
+
+#ROOM
+Vnum     20608
+Name     &rGarrison Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet section of the garrison where legionnaires 
+can rest between their long shifts at the bridge.
+~
+#EXIT
+Direction south~
+ToRoom    20566
+Desc      Garrison entrance.~
+#ENDEXIT
+Reset M 0 20517 5 20608
+#ENDROOM
+
+#ROOM
+Vnum     20609
+Name     &rCourtyard Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop in the courtyard where the orc smiths 
+repair damaged plate armor.
+~
+#EXIT
+Direction west~
+ToRoom    20567
+Desc      Bloodaxe courtyard.~
+#ENDEXIT
+Reset O 0 20557 10 20609
+#ENDROOM
+
+#ROOM
+Vnum     20610
+Name     &rCourtyard Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A storage area filled with crates of orcish rations 
+and vials of troll blood.
+~
+#EXIT
+Direction east~
+ToRoom    20567
+Desc      Bloodaxe courtyard.~
+#ENDEXIT
+Reset O 0 20552 10 20610
+#ENDROOM
+
+#ROOM
+Vnum     20611
+Name     &rPack Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side cavern where several white wolf pups 
+are playing.
+~
+#EXIT
+Direction north~
+ToRoom    20568
+Desc      Hall of the Pack.~
+#ENDEXIT
+Reset M 0 20527 5 20611
+#ENDROOM
+
+#ROOM
+Vnum     20612
+Name     &rPack Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky ledge overlooking Halycon's lair, 
+frequently patrolled by Bloodaxe raiders.
+~
+#EXIT
+Direction south~
+ToRoom    20569
+Desc      Halycon's lair.~
+#ENDEXIT
+Reset M 0 20520 5 20612
+#ENDROOM
+
+#ROOM
+Vnum     20613
+Name     &rTroll Quarter Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet grotto filled with Smolderthorn mojo 
+and the scent of decayed voodoo.
+~
+#EXIT
+Direction south~
+ToRoom    20590
+Desc      West quarter.~
+#ENDEXIT
+Reset O 0 20540 10 20613
+#ENDROOM
+
+#ROOM
+Vnum     20614
+Name     &rTroll Quarter Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side street in the Smolderthorn Quarter, 
+where headhunters prepare their axes.
+~
+#EXIT
+Direction north~
+ToRoom    20591
+Desc      Central commons.~
+#ENDEXIT
+Reset M 0 20519 5 20614
+#ENDROOM
+
+#ROOM
+Vnum     20615
+Name     &rVoone Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone balcony in Voone's post, 
+offering a view of the eastern city streets.
+~
+#EXIT
+Direction south~
+ToRoom    20592
+Desc      Voone's post.~
+#ENDEXIT
+Reset M 0 20513 5 20615
+#ENDROOM
+
+#ROOM
+Vnum     20616
+Name     &rVoone Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with Spirestone maces 
+and the seals of ascension.
+~
+#EXIT
+Direction east~
+ToRoom    20592
+Desc      Voone's post.~
+#ENDEXIT
+Reset O 0 20539 5 20616
+#ENDROOM
+
+#ROOM
+Vnum     20617
+Name     &rWebbed Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A dark corner of the spider tunnels filled with 
+thick spire silk and bones.
+~
+#EXIT
+Direction east~
+ToRoom    20594
+Desc      Tunnel entrance.~
+#ENDEXIT
+Reset O 0 20550 10 20617
+#ENDROOM
+
+#ROOM
+Vnum     20618
+Name     &rWebbed Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, web-wrapped chamber where several 
+spindleweb spiders keep watch.
+~
+#EXIT
+Direction west~
+ToRoom    20594
+Desc      Tunnel entrance.~
+#ENDEXIT
+Reset M 0 20521 5 20618
+#ENDROOM
+
+#ROOM
+Vnum     20619
+Name     &rAltar Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the altar room, filled with 
+ancient stone tablets and dust.
+~
+#EXIT
+Direction south~
+ToRoom    20597
+Desc      Altar entrance.~
+#ENDEXIT
+Reset O 0 20554 10 20619
+#ENDROOM
+
+#ROOM
+Vnum     20620
+Name     &rAltar Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow ledge where several spirestone mystics 
+conduct their rituals.
+~
+#EXIT
+Direction north~
+ToRoom    20597
+Desc      Altar entrance.~
+#ENDEXIT
+Reset M 0 20518 5 20620
+#ENDROOM
+
+#ROOM
+Vnum     20621
+Name     &rThe High Spire Road - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide road of massive stone pavers leading toward the 
+upper military districts.
+~
+#EXIT
+Direction north~
+ToRoom    20622
+Desc      The High Road North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    20567
+Desc      Bloodaxe Courtyard.~
+#ENDEXIT
+Reset M 0 20517 5 20621
+#ENDROOM
+
+#ROOM
+Vnum     20622
+Name     &rThe High Spire Road - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The road turns sharply as it approaches the Overlord's 
+balcony. High-level orc legionnaires stand in silence.
+~
+#EXIT
+Direction south~
+ToRoom    20621
+Desc      High Road South.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20580
+Desc      Wyrmthalak's balcony.~
+#ENDEXIT
+Reset M 0 20517 5 20622
+#ENDROOM
+
+#ROOM
+Vnum     20623
+Name     &rOverlord Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small storage area near the Overlord's balcony, filled with 
+tactical briefs and polished obsidian.
+~
+#EXIT
+Direction west~
+ToRoom    20580
+Desc      Wyrmthalak's balcony.~
+#ENDEXIT
+Reset O 0 20559 10 20623
+#ENDROOM
+
+#ROOM
+Vnum     20624
+Name     &rOverlord Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet ridge north of the balcony, where Blackhand elites 
+keep watch over the inner Spire.
+~
+#EXIT
+Direction south~
+ToRoom    20580
+Desc      Wyrmthalak's balcony.~
+#ENDEXIT
+Reset M 0 20524 5 20624
+#ENDROOM
+
+#ROOM
+Vnum     20625
+Name     &rThe Silent Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the Spirestone quarters where the 
+ogre butchers prepare the daily meals.
+~
+#EXIT
+Direction north~
+ToRoom    20562
+Desc      Spirestone commons.~
+#ENDEXIT
+Reset M 0 20525 5 20625
+#ENDROOM
+
+#ROOM
+Vnum     20626
+Name     &rThe Scorched Workshop&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room in the Bloodaxe garrison where orc 
+engineers work on their blunderbusses.
+~
+#EXIT
+Direction east~
+ToRoom    20566
+Desc      Garrison entrance.~
+#ENDEXIT
+Reset O 0 20559 10 20626
+#ENDROOM
+
+#ROOM
+Vnum     20627
+Name     &rThe Shadowed Ledge&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the Spirestone commons, home to 
+several obsidian gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    20563
+Desc      Central commons.~
+#ENDEXIT
+Reset M 0 20529 5 20627
+#ENDROOM
+
+#ROOM
+Vnum     20628
+Name     &rThe Tazz'Alaq Nest&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small grotto in the spider tunnels, filled with 
+hundreds of small, white spider egg sacs.
+~
+#EXIT
+Direction west~
+ToRoom    20595
+Desc      Webbed tunnels heart.~
+#ENDEXIT
+Reset M 0 20521 10 20628
+#ENDROOM
+
+#ROOM
+Vnum     20629
+Name     &rThe Smolderweb Ledge&d~
+Sector   underground~
+Flags    indoors~
+Desc     A high stone platform in the spider tunnels, 
+offering a view of the central commons far below.
+~
+#EXIT
+Direction south~
+ToRoom    20595
+Desc      Webbed tunnels heart.~
+#ENDEXIT
+Reset O 0 20550 10 20629
+#ENDROOM
+
+#ROOM
+Vnum     20630
+Name     &rThe Wyrmthalak Overlook&d~
+Sector   city~
+Flags    indoors~
+Desc     A small, isolated balcony near the Overlord's seat. 
+Dark Vreeke can sometimes be seen here watching 
+the orcish troops.
+~
+#EXIT
+Direction east~
+ToRoom    20580
+Desc      Wyrmthalak's balcony.~
+#ENDEXIT
+Reset M 0 20503 1 20630
+#ENDROOM
+
+#ROOM
+Vnum     20631
+Name     &rThe Firebrand Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small chamber dedicated to the worship of the black 
+dragonflight. The air smells of burning sulfur.
+~
+#EXIT
+Direction west~
+ToRoom    20621
+Desc      High Spire Road.~
+#ENDEXIT
+Reset M 0 20516 5 20631
+#ENDROOM
+
+#ROOM
+Vnum     20632
+Name     &rThe Warlock's Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the military district where Scarshield 
+warlocks practice their forbidden arts.
+~
+#EXIT
+Direction east~
+ToRoom    20567
+Desc      Bloodaxe courtyard.~
+#ENDEXIT
+Reset M 0 20523 5 20632
+#ENDROOM
+
+#ROOM
+Vnum     20633
+Name     &rThe Spire Rat Tunnel&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow, dirty tunnel that runs beneath the thoroughly 
+military streets. Spire rats are the only inhabitants.
+~
+#EXIT
+Direction south~
+ToRoom    20560
+Desc      Entrance landing.~
+#ENDEXIT
+Reset M 0 20528 10 20633
+#ENDROOM
+
+#ROOM
+Vnum     20634
+Name     &rThe High Desert View&d~
+Sector   city~
+Flags    indoors~
+Desc     A rare balcony that looks out through a crack in the 
+mountain. You can see the smoking plains of the 
+Burning Steppes far below.
+~
+#EXIT
+Direction north~
+ToRoom    20567
+Desc      Bloodaxe courtyard.~
+#ENDEXIT
+Reset O 0 20554 10 20634
+#ENDROOM
+
+#ROOM
+Vnum     20635
+Name     &rThe LBRS Final Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet, central garden of lava-roots and glowing 
+mushrooms in the middle of the lower Spire.
+~
+#EXIT
+Direction north~
+ToRoom    20563
+Desc      Ogre central commons.~
+#ENDEXIT
+Reset O 0 20556 10 20635
+#ENDROOM
+
+#ENDAREA
