@@ -832,7 +832,7 @@ Stats    1 4 1 0 0
 #OBJECT
 Vnum     14712
 Keywords ale thunderbrew mug~
-Type     drink~
+Type     drinkcon~
 Short    a mug of Thunderbrew Ale~
 Long     A frothy mug of Thunderbrew Ale sits here.~
 WFlags   take hold~
@@ -843,7 +843,7 @@ Stats    1 8 1 0 0
 #OBJECT
 Vnum     14713
 Keywords lager frostbrew bottle~
-Type     drink~
+Type     drinkcon~
 Short    a bottle of Frostbrew Lager~
 Long     A bottle of Frostbrew Lager sits here, frosty cold.~
 WFlags   take hold~
@@ -1678,7 +1678,8 @@ Sector   field~
 Desc     Even in winter, the frozen remnants of hop vines cling to wooden frames.
 Come spring, these fields will burst with the plants that give Thunderbrew
 Ale its distinctive flavor. Workers prepare the soil and repair frames
-despite the cold.
+despite the cold. A trampled, snowy path leads northwest away from the
+safety of the village.
 ~
 #EXIT
 Direction south~
@@ -1686,7 +1687,56 @@ ToRoom    14732
 Desc      The village center lies to the south.
 ~
 #ENDEXIT
+#EXIT
+Direction northwest~
+ToRoom    14766
+Desc      A treacherous path leading toward the irradiated ruins.
+~
+#ENDEXIT
 Reset M 0 14721 2 14735
+#ENDROOM
+
+#ROOM
+Vnum     14766
+Name     &WPath to Gnomeregan&d~
+Sector   mountain~
+Desc     The pristine white snow of Dun Morogh begins to take on a sickly, 
+glowing green tint here. Discarded cogwheels, twisted metal pipes, and 
+the faint sound of erratic mechanical whirring echo down the canyon. The 
+massive, steel-vaulted entrance to the fallen gnome capital looms ahead.
+~
+#EXIT
+Direction southeast~
+ToRoom    14735
+Desc      The path leads back to the safety of Brewnall Village.
+~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    14767
+Desc      The loading elevator leading down into the city.
+~
+#ENDEXIT
+Reset M 0 14713 3 14766
+#ENDROOM
+
+#ROOM
+Vnum     14767
+Name     &GGnomeregan - The Loading Bay&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand on a massive, rusted gear that serves as a makeshift 
+loading bay. Toxic green sludge drips from the ceiling, and the air is 
+thick with radiation and the smell of ozone. A swirling, mechanized 
+portal hums violently here, sealing off the deeper, infected depths of 
+the city. 
+~
+#EXIT
+Direction south~
+ToRoom    14766
+Desc      The path outside the vault.
+~
+#ENDEXIT
 #ENDROOM
 
 #ROOM
