@@ -1278,7 +1278,7 @@ of wonder which pulls at you is tinged with a dose of trepidation.  The
 views about you, while wondrous, are nevertheless quite ominous; these
 images are of a truly darkened land.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    101
 Desc      You see a spiral staircase leading to a reception room.
@@ -1445,14 +1445,14 @@ globes always manage to remain equidistant from one another.  The huge
 bust of a fantastical lizard has been set upon the wall, an amazing
 hunting trophy of some sort.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    102
 Desc      Before you is a path past a giant tree.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    100
 Desc      Up a spiral staircase is a observation tower, overlooking the Realms.
@@ -1551,21 +1551,21 @@ to the south, heading toward your future.  After a time, you see a stocky
 man leaning casually against a large tree to the side of road.  Your path
 leads on to the north, or you can return to the structure to the south.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    103
 Desc      The path divides north of here.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    101
 Desc      To the south is the reception area.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction somewhere~
 ToRoom    104
 Keywords  opening~
@@ -1618,7 +1618,7 @@ in the way of assistance to pkillers.
 - If you have read this and would like to remain on the peaceful path, type:
 "say I choose to walk on the lighted path of the peaceful."
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    102
 Desc      Behind you is a path by the leading back to the reception area.
@@ -1689,7 +1689,7 @@ rest of the place is relatively clean.  Against the north wall you see a
 large chest.  Upon closer inspection you see the chest is open, and you
 wonder what it might contain.  The opening is back to the south.
 ~
-#EXIT
+Exit
 Direction somewhere~
 ToRoom    102
 Keywords  opening~
@@ -1744,7 +1744,7 @@ green, the grass thick and flowing, and you realize how lush this path
 is and how full of life it feels.  A large sign floats before a tree
 on the eastern side of the path.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    106
 Desc      Before you is an adventure, are you ready to embrace it?
@@ -1772,7 +1772,7 @@ You notice a parting ahead, towards the north.  Beyond this parting lies
 an open field, a joining of the two paths at which you see a small round
 piece of metal.  You can pick it up as you head north.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    109
 Desc      Before you is a large, open field.
@@ -1805,7 +1805,7 @@ Desc     The path here is dark, shadowy.  The trees alongside look skeletal, the
 grass lays a dull brown, and you realize how lonely this path may prove
 to be.  A large sign floats before the trees on the eastern pathside.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    108
 Desc      Before you is an adventure, are you ready to embrace it?
@@ -1833,7 +1833,7 @@ You notice a parting ahead, towards the north.  Beyond the parting lies
 an open field, a joining of the two paths, and at this joining you see
 a small round piece of metal.  You can pick it up as you head north.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    109
 Desc      Before you is a large, open field.
@@ -1870,7 +1870,7 @@ disappeared, leaving behind no trace of its remains.  The trees are thick
 and impenetrable, removing your choices on ways to proceed.  There is no
 turning back; the only direction is forward, further into this new world.
 ~
-#EXIT
+Exit
 Direction northwest~
 ToRoom    110
 Desc      Leading away from this field is a path through a circle of trees.
@@ -1898,14 +1898,14 @@ Desc     You have entered a shadowy path, surrounded with trees.  This mystical
 cirle engulfs you with a strange, almost magical feeling.  This clearing
 leaves you with a sense of safety, a sense of well being.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    111
 Desc      You see the path continues through the trees.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    109
 Desc      Behind you is a field of daisies and clovers.
@@ -1955,14 +1955,14 @@ musty smell, and small beetles work industriously in the moss, moulding it
 into a haven from predators.  A gentle splashing sound causes your eyes to
 drift northward, to a small pond.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    112
 Desc      To the north the pathway passes a small pond.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    110
 Desc      To the east is a tight circle of trees.
@@ -2007,14 +2007,14 @@ shallow and with a crystal clarity which captures your attention.  Lithe
 lapis-toned fish swim about, nibbling at the various plants growing among
 the depths of the pond.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    111
 Desc      The path goes back through the trees to the south.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    113
 Desc      The base of a hill meets the trail to the west.
@@ -2040,14 +2040,14 @@ Desc     The trees fall away here from the hill's edge, and jumbled rocks lie ab
 like forgotten toys left behind after a day's play.  Sharp edges and jagged
 lines define the pathway as it wends its way upward.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    112
 Desc      East you can travel along the shore of the pond.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    114
 Desc      The trail wends its way up the hillside.
@@ -2080,14 +2080,14 @@ who slew him.  Charred and shattered, hundreds of smaller bones splay
 across the hillside, tangible proof that this great beast fought
 fiercely before succumbing to its own death.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    115
 Desc      You can see a large plateau in this direction.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    113
 Desc      The path descends the hill to the south.
@@ -2128,21 +2128,21 @@ hillside to the east and west, and deep, intermittent rumblings come from
 nearby.  Glancing southward you see the likely source - the dark opening
 of a cave mouth.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    117
 Desc      The greener grass on the other side of the hill.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    116
 Desc      You stand before the darkened mouth of a cave.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    114
 Desc      Back down the desolate hillside.
@@ -2172,7 +2172,7 @@ a growing dread and caution.  Looking about with care, you easily discover
 the skeletal remains of many humanoid creatures.  This barely has time to
 register before a sharp rumbling causes you to look up suddenly. 
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    115
 Desc      North is the path to your future.
@@ -2200,14 +2200,14 @@ of the hill was somehow spared the ravages of the battle which took place
 on its southern front.  A feeling of safety comes over you as you wend
 your way along, as though you yourself had avoided some great danger. 
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    118
 Desc      North is the entrance to a valley.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    115
 Desc      You see a plateau on the hill.
@@ -2226,14 +2226,14 @@ flowering thistle.  The soft sound of the wind through the grass, the scent
 of flowers on the air, all combine to give a feeling of accomplishment and
 expectation... as though you are quickly approaching some indefinable goal.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    119
 Desc      You see a path through the valley and a small wooden cabin.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    117
 Desc      A path leading up the side of a hill.
@@ -2264,7 +2264,7 @@ this place.  The very air seems to hold itself in hushed reverence.
 Glancing to the south, you see a small wooden cabin built into the face
 of the hill.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    120
 Desc      A door to into a cabin
@@ -2273,14 +2273,14 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    118
 Desc      Back towards the valley entrance.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    121
 Desc      The path ends before a large gate
@@ -2329,7 +2329,7 @@ Simple, well-made furniture adorns this well kept home.  As your eyes move
 about, enjoying the rustic comfort of your surroundings, the gentle sound
 of a rocking chair intrudes upon your reverie.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    119
 Desc      Back to the valley pathway
@@ -2338,7 +2338,7 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    123
 Key       114
@@ -2417,7 +2417,7 @@ gold in color.  The size of the gate and its obvious magical bestowments
 give it the power to bar further passage into the world beyond until
 unlocked by those who find its key.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    122
 Key       114
@@ -2425,7 +2425,7 @@ Keywords  gate~
 Flags     isdoor closed locked~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    119
 #ENDEXIT
@@ -2458,7 +2458,7 @@ Desc     You find yourself standing atop a wide mesa offering a spectacular view
 the world below.   Expectation permeates the air, and you feel compelled
 to do something, as though some force awaits your actions.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    121
 Key       114
@@ -2493,7 +2493,7 @@ The creaking from above is magnified, changed, and lends a haunting
 feel to this place.  Deep in the shadows is a small table, it holds
 only one item:  a partially burned wooden box.  The trapdoor is up.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    120
 Key       114

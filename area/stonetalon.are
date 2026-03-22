@@ -549,13 +549,13 @@ Desc     You stand at the entrance to the Stonetalon Mountains. The wide, dusty
 plains of the Barrens drop away behind you as the path begins a steep,
 winding ascent into the jagged grey peaks.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26512
 Desc      Back to the Barrens.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27501
 Desc      Higher into the mountains.
@@ -572,19 +572,19 @@ Desc     Surprisingly, the lower elevations of the mountains are lush and green.
 Ancient trees cling to the rocky slopes, and a cool breeze carries the
 scent of pine. The path splits here, heading north and west.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27500
 Desc      The mountain pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27502
 Desc      Toward Windshear Crag.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27510
 Desc      Toward the Charred Vale.
@@ -601,13 +601,13 @@ Desc     The natural beauty of the vale is suddenly replaced by the sounds of
 industry. Large wooden scaffolds and steam-powered drills have been
 erected along the cliffs. The Venture Company has arrived.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27501
 Desc      Back to the vale.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27503
 Desc      Toward the logging camp.
@@ -624,19 +624,19 @@ Desc     A bustling hive of goblin activity. Goblins scurry about with clipboard
 while massive saws chew through the ancient timber of the mountains.
 The air is thick with black smoke and the smell of hot grease.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27502
 Desc      The lower shelf.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27504
 Desc      The Windshear Mine.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    27505
 Desc      Braun's Tool Shed.
@@ -654,7 +654,7 @@ Desc     The entrance to a deep, dark tunnel carved into the side of the
 mountain. The sound of pickaxes hitting stone echoes from within,
 along with the occasional high-pitched squeak of a kobold.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27503
 Desc      The logging camp.
@@ -673,7 +673,7 @@ Desc     A small, sturdy shack filled with various mechanical parts, rusted
 wrenches, and bundles of dynamite. Braun Wheelyam uses this space to
 repair equipment—for a steep price.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    27503
 Desc      The logging camp.
@@ -691,13 +691,13 @@ Desc     The road climbs higher, hugging the side of a massive precipice. Below,
 the Windshear Crag looks like a scar on the land. To the north, the
 peaks are perpetually shrouded in mist.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27503
 Desc      The logging camp.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27507
 Desc      Toward Sun Rock Retreat.
@@ -713,13 +713,13 @@ Desc     The path narrows into a defensible canyon. Massive totems made of
 cedar and stone stand on either side of the trail, marking the
 territory of the Horde.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27506
 Desc      The high road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27508
 Desc      Sun Rock Retreat.
@@ -736,13 +736,13 @@ Desc     A peaceful sanctuary nestled in a high-altitude basin. Tauren tents
 surround a central fire pit where elders gather to speak with the
 spirits. A crystal-clear pond sits at the northern end.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27507
 Desc      The entrance.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27509
 Desc      The Shaman's Overlook.
@@ -760,13 +760,13 @@ Desc     From this vantage point, you can see the entirety of the Stonetalon
 range. The air is thin and cold. To the northwest, the mountains
 become even more rugged and inhospitable.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27508
 Desc      The retreat.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27520
 Desc      The path to the Peak.
@@ -782,13 +782,13 @@ Desc     As you head west, the vegetation begins to die. The trees are
 stunted and black, and the ground is covered in a fine layer of
 grey ash. The air grows uncomfortably warm.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27501
 Desc      The Greatwood Vale.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27511
 Desc      The Scorched Basin.
@@ -804,13 +804,13 @@ Desc     This entire valley was decimated by a magical fire of immense power.
 Twisted, blackened trunks of ancient trees stand like skeletons against
 the orange sky. Small fires still flicker in the cracks of the earth.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27510
 Desc      The road back.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27512
 Desc      The heart of the vale.
@@ -827,13 +827,13 @@ Desc     The devastation here is absolute. The ground is molten in some places,
 and the air is thick with the scent of sulfur and old smoke. Dark
 spirits of fire roam the ruins of the forest.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27511
 Desc      The basin.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27513
 Desc      Toward Mirkfallon Post.
@@ -850,13 +850,13 @@ Desc     The ash begins to clear as the path climbs north away from the
 Charred Vale. A small Night Elf outpost is visible ahead, guarded by
 Sentinels determined to protect the remaining green lands.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27512
 Desc      The Charred Vale.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27514
 Desc      Mirkfallon Post.
@@ -873,13 +873,13 @@ Desc     A modest Alliance encampment built on a high ridge. The Sentinels
 here keep a close eye on both the Venture Company to the east and the
 corruption of the Charred Vale to the south.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27513
 Desc      The approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27515
 Desc      The Talon Den.
@@ -896,13 +896,13 @@ Desc     A lush, hidden valley protected by the mountains. This is one of the
 few places in Stonetalon where the wildlife still thrives. The entrance
 to an underground barrow den is hidden behind a waterfall.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27514
 Desc      Mirkfallon Post.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28011
 Desc      Into Ashenvale (Mystral Lake).
@@ -919,13 +919,13 @@ Desc     The mountain path is choked with thick, sticky spider webs. Large
 cocoons hang from the rock walls, twitching occasionally. The air is
 silent, save for the sound of skittering legs.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    27517
 Desc      Deep into the pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    27506
 Desc      The high road.
@@ -941,13 +941,13 @@ Sector   mountain~
 Desc     A deep crack in the mountain floor reveals a flow of lava far below.
 The heat is intense, and the path narrows to a precarious ledge.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27516
 Desc      The webbed pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27518
 Desc      Grimtotem Post.
@@ -963,7 +963,7 @@ Desc     A dark and unwelcoming camp. Unlike the Tauren of Sun Rock, these
 warriors are aggressive and suspicious. Their tents are made of dark
 leather and decorated with the bones of their enemies.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27517
 Desc      The chasm.
@@ -980,7 +980,7 @@ Sector   mountain~
 Desc     A wide, flat area on the mountainside. Several large boulders look
 as though they could tumble down into the vale at any moment.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    27509
 Desc      The overlook.
@@ -997,13 +997,13 @@ Desc     The path becomes a series of switchbacks as it nears the highest
 point in the range. The air is thin, and patches of snow cling to the
 shadowed crevices.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27509
 Desc      The overlook.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    27521
 Desc      Stonetalon Peak.
@@ -1019,7 +1019,7 @@ Desc     You have reached the highest summit. The view is staggering, stretching
 from the Great Sea to the west to the Barrens in the east. An ancient,
 ethereal energy permeates the air here.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    27520
 Desc      The path down.
@@ -1037,13 +1037,13 @@ Desc     The northern slopes of the mountains are home to the Bloodfury
 harpy tribe. Their nests are built into the high cliffs, and their
 screeches echo through the canyons.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27508
 Desc      Sun Rock Retreat.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27523
 Desc      The Harpy Rookery.
@@ -1060,7 +1060,7 @@ Desc     The stench of filth and rotting meat is overwhelming. The ground is
 carpeted with feathers and bones. Harpies dive from the sky to protect
 their territory.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27522
 Desc      The hills.
@@ -1079,7 +1079,7 @@ Desc     Deep underground, the air is stagnant and warm. The Venture Company
 has broken into an ancient cavern system, much to the chagrin of the
 original inhabitants.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27504
 Desc      Mine entrance.
@@ -1095,7 +1095,7 @@ Sector   mountain~
 Desc     A natural ravine that has been widened by goblin explosives. The
 walls are unnaturally smooth and scarred by drill bits.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    27502
 Desc      The lower shelf.
@@ -1111,7 +1111,7 @@ Sector   water_swim~
 Desc     A small, cold spring bubbles up from the rocks. It is a rare
 source of clean water in these rugged mountains.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27510
 Desc      Road to Charred Vale.
@@ -1126,7 +1126,7 @@ Sector   mountain~
 Desc     Massive slabs of granite lean against one another, creating small,
 natural caves. Basilisks often hide in the shadows here.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    27500
 Desc      The pass entrance.
@@ -1142,7 +1142,7 @@ Sector   mountain~
 Desc     A small ledge that provides a perfect view of the road coming up
 from the Barrens.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    27500
 Desc      The pass entrance.
@@ -1157,7 +1157,7 @@ Sector   forest~
 Desc     A tiny, glowing grove hidden near the peak. Fey dragons flutter
 among the bioluminescent flowers, ignoring the chaos below.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    27521
 Desc      The peak.

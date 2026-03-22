@@ -938,22 +938,22 @@ crumbling archway marks the entrance to the once-great city of
 Eldre'Thalas. The air here hums with the residue of thousands 
 of years of arcane experimentation.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    37040
 Desc      Return to the Feralas jungle.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21001
 Desc      The path to the Warpwood Quarter.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    21030
 Desc      The path to the Capital Gardens.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    21060
 Desc      The path to the Gordok Commons.~
@@ -971,12 +971,12 @@ the marble floors, and a thick green mist clings to the
 ground. The sound of high-pitched giggling can be heard 
 from the shadows.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21000
 Desc      The main archway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21002
 Desc      The overgrown garden.~
@@ -993,12 +993,12 @@ Desc     A large, circular courtyard filled with gnarled trees and
 blooming, multi-colored flowers. Warpwood lashers move through 
 the undergrowth, their thorns dripping with a paralytic sap.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21001
 Desc      The quarter entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21003
 Desc      The Satyr's Sanctuary.~
@@ -1016,12 +1016,12 @@ vile demonic runes. The air smells of sulfur and old
 blood. Vile-tongue tricksters lurk behind the pillars, 
 waiting for prey.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21002
 Desc      The overgrown garden.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    21004
 Desc      Deep into the sanctuary.~
@@ -1039,12 +1039,12 @@ large, blackened altar sits in the center of the room,
 pulsing with shadow energy. Lord Vyletongue can sometimes 
 be seen here conferring with his lieutenants.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21003
 Desc      The sanctuary entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21005
 Desc      Toward Alzzin's Lair.~
@@ -1063,7 +1063,7 @@ of the cavern. Alzzin stands before the tree, his
 hands glowing with dark green magic as he continues 
 to corrupt the forest spirits.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21004
 Desc      The satyr heart.~
@@ -1083,12 +1083,12 @@ halls stretch out into the dark, and a ghostly blue
 light emanates from the walls. Highborne spirits 
 wander these halls in a permanent trance.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21000
 Desc      The main archway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    21031
 Desc      The Hall of the Highborne.~
@@ -1106,17 +1106,17 @@ statues of ancient queens line the walls, though many
 have been defaced. Arcane aberrations float through 
 the hall, looking for mana to consume.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21030
 Desc      The gardens entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21032
 Desc      The Athenaeum.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    21040
 Desc      Toward Immol'thar's Prison.~
@@ -1134,12 +1134,12 @@ and books. Many are written in a dialect of Darnassian
 that has not been spoken in millennia. Spectral 
 librarians carefully tend to the shelves.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21031
 Desc      The Highborne hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21033
 Desc      The Library Archive.~
@@ -1157,7 +1157,7 @@ petrified wood are scattered through the room. Magister
 Kalendris stands near a high window, gazing out at the 
 ruins with unblinking eyes.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21032
 Desc      The library entrance.~
@@ -1176,12 +1176,12 @@ central pit. Five large pylons pulse with a sickly
 purple light, focusing their energy into the center 
 of the room. Shen'dralar zealots stand guard at each pylon.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21031
 Desc      The Highborne hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    21041
 Desc      The floor of the prison.~
@@ -1199,12 +1199,12 @@ gargantuan void-terror is held within a cage of
 pure arcane energy. Its many eyes watch your every 
 movement with murderous intent.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    21040
 Desc      The balconies.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21042
 Desc      The Throne of Tortheldrin.~
@@ -1224,12 +1224,12 @@ his armor tarnished and his mind far away. He
 grips his sword with trembling hands, ready to 
 kill anyone who threatens his immortality.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21041
 Desc      The prison basin.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21050
 Desc      The West Exit path.~
@@ -1250,12 +1250,12 @@ ogres who now occupy this quarter. Spiked wooden walls
 and piles of trash litter the once-elegant streets. 
 Gordok reavers patrol the entry in pairs.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21000
 Desc      The main archway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    21061
 Desc      The Gordok Courtyard.~
@@ -1273,17 +1273,17 @@ Several large bonfires burn in the center, and the air
 is thick with the smell of roasting meat. Gordok 
 mastiffs snarl from their iron cages.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21060
 Desc      The commons entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21062
 Desc      Kromcrush's Gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    21070
 Desc      Toward the High Arena.~
@@ -1301,12 +1301,12 @@ Kromcrush stands here, his massive form blocking the
 only way to the King's seat. He levels a heavy 
 halberd at you with professional coldness.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21061
 Desc      The courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21063
 Desc      The King's Approach.~
@@ -1325,12 +1325,12 @@ highest point of the city. The walls are lined with
 statues of the former Highborne kings, their faces 
 now smashed and replaced with ogre totems.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21062
 Desc      Kromcrush's gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    21064
 Desc      The King's Approach Upper.~
@@ -1348,12 +1348,12 @@ entire northern quarter. The sound of massive drums
 thrums through the floor, a rhythmic, pounding beat 
 that matches the heart of the Gordok tribe.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    21063
 Desc      Lower approach.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21065
 Desc      King Gordok's Throne.~
@@ -1372,12 +1372,12 @@ by his most loyal warriors and mastiffs. He is a
 figure of immense physical power, his golden crown 
 radiating a soft magical light.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21064
 Desc      The upper approach.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21080
 Desc      The North Exit path.~
@@ -1397,12 +1397,12 @@ Desc     A wide stone balcony overlooking the city's central arena.
 The tiers of seating are filled with rowdy ogres 
 shouting for blood.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21061
 Desc      The Gordok courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    21071
 Desc      The Arena Stands.~
@@ -1418,7 +1418,7 @@ Flags    indoors~
 Desc     Rows of stone benches occupied by Gordok ogres. They throw 
 bones and insults at the combatants in the pit below.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21070
 Desc      The arena entrance.~
@@ -1434,7 +1434,7 @@ Flags    indoors~
 Desc     A quiet corner of the overgrown garden filled with 
 small stone statues and the sound of dripping water.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21002
 Desc      The garden.~
@@ -1450,7 +1450,7 @@ Flags    indoors~
 Desc     A side tunnel in the garden filled with 
 discarded elven masonry and bits of thorn.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21002
 Desc      The garden.~
@@ -1466,7 +1466,7 @@ Flags    indoors~
 Desc     A dark alcove in the satyr halls where tricksters 
 rest between patrols.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21003
 Desc      Sanctuary entrance.~
@@ -1482,7 +1482,7 @@ Flags    indoors~
 Desc     A side room filled with satyr horns and small, 
 bubbling jars of mojo.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21004
 Desc      Sanctuary heart.~
@@ -1498,7 +1498,7 @@ Flags    indoors~
 Desc     A high point in the Warpwood Quarter, home to 
 several ironbark protectors.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    21002
 Desc      The garden.~
@@ -1514,7 +1514,7 @@ Flags    indoors dark~
 Desc     A secret pool tucked away behind a tangle of vines. 
 The water is pure and glows with a soft light.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21005
 Desc      Alzzin's lair.~
@@ -1530,7 +1530,7 @@ Flags    indoors~
 Desc     A quiet section of the western gardens filled with 
 shattered pillars and the scent of decayed magic.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21030
 Desc      Gardens entry.~
@@ -1546,7 +1546,7 @@ Flags    indoors~
 Desc     A side street in the Highborne Quarter, 
 where zealots prepare their blades.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21031
 Desc      Highborne hall.~
@@ -1562,7 +1562,7 @@ Flags    indoors~
 Desc     A high stone balcony in the library, 
 offering a view of the southern thoroughfare.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21032
 Desc      Library entry.~
@@ -1578,7 +1578,7 @@ Flags    indoors~
 Desc     A side room filled with Highborne signets 
 and ancient elven tomes.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21032
 Desc      Library entry.~
@@ -1594,7 +1594,7 @@ Flags    indoors~
 Desc     A dark corner of the balconies filled with 
 thick arcane static and spirits.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21040
 Desc      Prison balconies.~
@@ -1610,7 +1610,7 @@ Flags    indoors~
 Desc     A small, magically-warded chamber where several 
 mana remnants keep watch.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21040
 Desc      Prison balconies.~
@@ -1626,7 +1626,7 @@ Flags    indoors~
 Desc     A side tunnel in the Gordok Quarter, filled with 
 massive stone pillars and dust.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21060
 Desc      Commons entry.~
@@ -1642,7 +1642,7 @@ Flags    indoors~
 Desc     A narrow ledge where several gordok shamans 
 conduct their rituals.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21060
 Desc      Commons entry.~
@@ -1658,7 +1658,7 @@ Flags    indoors~
 Desc     A small storage area near the courtyard, filled with 
 kodo-bones and jug of ale.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21061
 Desc      Courtyard.~
@@ -1674,7 +1674,7 @@ Flags    indoors~
 Desc     A quiet ridge north of the courtyard, where reavers 
 keep watch over the inner gate.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21061
 Desc      Courtyard.~
@@ -1690,7 +1690,7 @@ Flags    indoors~
 Desc     A high, narrow mountain trail that provides a 
 commanding view of the eastern Quarter.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21001
 Desc      Quarter entrance.~
@@ -1706,7 +1706,7 @@ Flags    indoors~
 Desc     A dark corner of the overgrown garden where the trees 
 seem to whisper in the wind.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21002
 Desc      The garden.~
@@ -1722,7 +1722,7 @@ Flags    indoors~
 Desc     A narrow trail that leads through the heart of the Quarter. 
 Vines coat everything in a fine green dust.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21002
 Desc      The garden.~
@@ -1738,7 +1738,7 @@ Flags    indoors dark~
 Desc     A small, damp cave where several satyrs 
 have sought refuge.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21003
 Desc      Sanctuary entrance.~
@@ -1754,7 +1754,7 @@ Flags    indoors~
 Desc     A rocky platform providing a clear view of the 
 road leading to the main entrance.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21030
 Desc      Gardens entry.~
@@ -1771,12 +1771,12 @@ Desc     A narrow, stone-lined tunnel behind the Prince's throne
 leads toward a hidden opening in the side of the 
 mountain, offering a quick way back toward Feralas.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21042
 Desc      The throne room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    21000
 Desc      The main archway.~
@@ -1791,7 +1791,7 @@ Flags    indoors~
 Desc     A small, isolated balcony near the King's seat. 
 A Gordunni battle-master can sometimes be seen here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21065
 Desc      The throne room.~
@@ -1807,12 +1807,12 @@ Flags    indoors~
 Desc     A narrow, stone-lined tunnel behind King Gordok's throne 
 leads toward a hidden opening in the north Spire walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21065
 Desc      The throne room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    21000
 Desc      The main archway.~
@@ -1827,7 +1827,7 @@ Flags    indoors~
 Desc     A small, hidden room behind a waterfall in the gardens. 
 It contains ancient Highborne treasures.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21002
 Desc      The garden.~
@@ -1843,12 +1843,12 @@ Flags    indoors~
 Desc     A confusing series of interlocking tunnels filled with 
 thorny vines and the sound of buzzing insects.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21018
 Desc      Deep Labyrinth.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    21001
 Desc      Quarter entrance.~
@@ -1864,7 +1864,7 @@ Flags    indoors~
 Desc     The deepest part of the labyrinth. The ceiling is low 
 and the air is absolute still.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21017
 Desc      Southern labyrinth.~
@@ -1880,7 +1880,7 @@ Flags    indoors~
 Desc     A dark room near the sanctuary where the satyrs 
 prepare their daily meals of forest roots.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21003
 Desc      Sanctuary entrance.~
@@ -1896,7 +1896,7 @@ Flags    indoors~
 Desc     A deep, circular pit filled with smoldering bones and 
 the residue of shadow-magic.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21004
 Desc      Sanctuary heart.~
@@ -1912,7 +1912,7 @@ Flags    indoors~
 Desc     A high stone ledge overlooking Alzzin's lair, 
 frequently patrolled by Moss-flayers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21005
 Desc      Alzzin's lair.~
@@ -1928,12 +1928,12 @@ Flags    indoors~
 Desc     A long, wide hallway lined with emerald dragonscales. 
 The air hums with the power of the Emerald Dream.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21031
 Desc      Highborne hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    21023
 Desc      Deep thoroughfare.~
@@ -1950,7 +1950,7 @@ Desc     The thoroughfare ends at a large iron-bound door.
 Arcane static is so intense here that it makes 
 your skin crawl.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21022
 Desc      Thoroughfare entry.~
@@ -1966,7 +1966,7 @@ Flags    indoors~
 Desc     A small storage area near the Athenaeum, filled with 
 blank parchment and vials of ink.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21032
 Desc      Library entry.~
@@ -1982,7 +1982,7 @@ Flags    indoors~
 Desc     Rows of neatly made bunks and racks of polished 
 weapons. Zealots rest here between patrols.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21031
 Desc      Highborne hall.~
@@ -1998,7 +1998,7 @@ Flags    indoors~
 Desc     A high room containing one of the prison's five pylons. 
 It pulses with a rhythmic, purple light.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21040
 Desc      Prison balconies.~
@@ -2014,7 +2014,7 @@ Flags    indoors~
 Desc     A mirror image of the northern pylon chamber. 
 Zealots stand in silent vigil.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21040
 Desc      Prison balconies.~
@@ -2030,7 +2030,7 @@ Flags    indoors~
 Desc     A beautiful balcony that looks out through a gap 
 in the mountain. You can see the jungle below.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21030
 Desc      Gardens entry.~
@@ -2046,7 +2046,7 @@ Flags    indoors dark~
 Desc     A small vault that was walled off centuries ago, 
 filled with ancient coins and dust.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21031
 Desc      Highborne hall.~
@@ -2062,12 +2062,12 @@ Flags    indoors~
 Desc     A wide stone ramp leading down into the city's 
 industrial basements.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21060
 Desc      Commons entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    21052
 Desc      The Pit floor.~
@@ -2083,7 +2083,7 @@ Flags    indoors~
 Desc     The bottom of the northern industrial hub. 
 Ogre smiths work at various large anvils.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21051
 Desc      Pit entrance.~
@@ -2099,7 +2099,7 @@ Flags    indoors~
 Desc     A side workshop where the ogre smiths 
 repair damaged plate armor.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21052
 Desc      Pit floor.~
@@ -2115,7 +2115,7 @@ Flags    indoors~
 Desc     A large, smelly room filled with mastiffs. 
 A trainer stands in the center with a whip.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21061
 Desc      Courtyard.~
@@ -2131,7 +2131,7 @@ Flags    indoors~
 Desc     A high point on the arena wall, home to 
 several Gordunni battle-masters.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    21070
 Desc      Arena entry.~
@@ -2147,7 +2147,7 @@ Flags    indoors~
 Desc     A small room for storing weaponry for the 
 arena combatants.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21070
 Desc      Arena entry.~
@@ -2162,7 +2162,7 @@ Sector   city~
 Flags    indoors~
 Desc     A small, well-fortified room near Kromcrush's gate.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21062
 Desc      Kromcrush's gate.~
@@ -2178,7 +2178,7 @@ Flags    indoors~
 Desc     A large, hide-covered tent filled with 
 lightning-totems and burning bones.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21063
 Desc      Lower approach.~
@@ -2194,7 +2194,7 @@ Flags    indoors~
 Desc     A dark corner of the King's approach where 
 warlocks practice their stolen magic.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21064
 Desc      Upper approach.~
@@ -2210,7 +2210,7 @@ Flags    indoors~
 Desc     A side room behind the throne filled with 
 chests of gold and stolen elven artifacts.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21065
 Desc      Gordok's throne.~
@@ -2226,7 +2226,7 @@ Flags    indoors~
 Desc     A high, clean cavern where the King's 
 personal mastiffs are kept.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    21065
 Desc      Gordok's throne.~
@@ -2242,7 +2242,7 @@ Flags    indoors dark~
 Desc     A massive crack in the city's lower wall 
 where the silithid have bored through.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    21060
 Desc      Commons entry.~
@@ -2258,7 +2258,7 @@ Flags    indoors~
 Desc     A quiet, central garden of jungle-roots and 
 glowing mushrooms in the Gordok Quarter.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21061
 Desc      Courtyard.~
@@ -2274,7 +2274,7 @@ Flags    indoors~
 Desc     A central garden area within the Warpwood 
 Quarter, surprisingly peaceful.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    21001
 Desc      Quarter entrance.~
@@ -2290,7 +2290,7 @@ Flags    indoors~
 Desc     A central archive area within the 
 West Wing gardens.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    21031
 Desc      Highborne hall.~

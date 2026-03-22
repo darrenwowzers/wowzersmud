@@ -565,13 +565,13 @@ the even larger boughs of Teldrassil. The air here is thick with natural
 magic, and the eternal twilight of the Night Elven lands paints the
 forest in beautiful shades of violet and silver.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26001
 Desc      The center of the Shadowglen encampment.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    26005
 Desc      The high branches of Aldrassil.
@@ -588,25 +588,25 @@ Desc     A peaceful, bustling glade where young Night Elves take their first
 steps. Trainers offer guidance under the glowing leaves, while initiates
 practice their strikes on the woodland creatures wandering nearby.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26000
 Desc      The base of the great tree.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26003
 Desc      A rocky outcropping.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26004
 Desc      A thicket of ancient trees.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26002
 Desc      The northern edge of the glen.
@@ -623,13 +623,13 @@ Desc     The glowing foliage thins out here, revealing the darker, more untamed
 woods. Young Nightsabers prowl through the tall grass, practicing their
 hunting skills.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26001
 Desc      The center of Shadowglen.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26008
 Desc      A dark, web-filled cave.
@@ -647,7 +647,7 @@ Desc     Small, mischievous Grells dance among these mossy rocks. They are mostl
 harmless, though they delight in stealing shiny things from passing
 adventurers.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26001
 Desc      The center of Shadowglen.
@@ -665,13 +665,13 @@ Desc     The trees here are ancient and incredibly thick. Small, peaceful nature
 elementals known as Timberlings shuffle through the fallen leaves, tending
 to the roots of the forest.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26001
 Desc      The center of Shadowglen.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26007
 Desc      The path leading out of the glen.
@@ -689,7 +689,7 @@ Desc     You have climbed into the dizzying heights of the great tree. The view
 of the forest below is breathtaking. Tenaron Stormgrip meditates here,
 watching over the balance of the glen.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    26000
 Desc      The base of the tree.
@@ -707,13 +707,13 @@ Desc     A dark, jagged cave entrance completely devoid of natural life. The ear
 around it is stained a sickly purple and green. Vicious Grellkin guard
 this corrupted cave.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26007
 Desc      The path back to the forest.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    26011
 Desc      The depths of Fel Rock.
@@ -730,19 +730,19 @@ Desc     The main path leading out of the safety of the starting glen. The woods
 become significantly more dangerous from here on out. To the west, a
 corrupted cave radiates dark magic.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26004
 Desc      The western thicket.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26009
 Desc      The road to Dolanaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26006
 Desc      Fel Rock.
@@ -759,7 +759,7 @@ Desc     This cave is completely choked with thick, sticky spider webs. The bodi
 of trapped animals hang from the ceiling. A terrifyingly large Giant
 Webwood Spider claims this dark tunnel as her own.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26002
 Desc      The edge of the glen.
@@ -778,19 +778,19 @@ Desc     A wide, well-traveled dirt path. Night Elf sentinels patrol this route,
 keeping it clear of aggressive wildlife. To the south, the once-peaceful
 Starbreeze Village has fallen strangely quiet.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26007
 Desc      The path back to Shadowglen.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26012
 Desc      Continuing toward the town.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26010
 Desc      Starbreeze Village.
@@ -806,13 +806,13 @@ Desc     The beautiful, open-air buildings of the Night Elves have been violentl
 ransacked here. The Gnarlpine furbolgs, driven mad by an unseen corruption,
 have violently taken over the town.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26009
 Desc      The main road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26021
 Desc      The center of the ruined village.
@@ -830,7 +830,7 @@ Flags    dark indoors~
 Desc     The air is suffocatingly foul. Fel magic seeps from the very stone,
 corrupting the earth and twisting the local grells into aggressive monsters.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    26006
 Desc      The cave entrance.
@@ -847,13 +847,13 @@ Desc     The forest opens up into a large, beautiful clearing. Ahead, built into
 the massive roots and branches of the world tree, is the bustling Night
 Elf town of Dolanaar.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26009
 Desc      The main road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26013
 Desc      The gates of Dolanaar.
@@ -870,13 +870,13 @@ Desc     The entrance to the primary settlement outside of Darnassus. Sentinels
 stand tall here, gripping their moonblades. The town is a haven for
 travelers and a bastion against the creeping corruption.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26012
 Desc      The approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26014
 Desc      The center of town.
@@ -894,19 +894,19 @@ Desc     A lively hub of commerce and rest. An inn provides shelter to weary
 adventurers, while merchants trade goods beneath the glowing leaves. The
 air smells of sweet apples and clean rain.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26013
 Desc      The gates.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26015
 Desc      The Moonwell.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26018
 Desc      The road deeper into Teldrassil.
@@ -923,7 +923,7 @@ Desc     A beautiful, shallow pool of glowing silver water. This is a Moonwell,
 a sacred fount of magical and physical healing blessed by Elune. Priestesses
 tend to the waters day and night.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26014
 Desc      The center of town.
@@ -941,13 +941,13 @@ Desc     A massive, earthen archway leads deep underground. These ancient barrow
 dens are where the druids of the claw sleep their long slumbers, but
 something has gone terribly wrong inside.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26018
 Desc      The main road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    26017
 Desc      Descend into the dens.
@@ -965,7 +965,7 @@ Desc     The sleeping chambers are completely overrun by dark magic and corrupte
 timberlings. The druids trapped inside are suffering from a terrible
 nightmare.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    26016
 Desc      The entrance.
@@ -981,19 +981,19 @@ Sector   forest~
 Desc     The road continues westward, cutting through dense, ancient groves.
 Majestic Strigid Owls watch you silently from the high branches.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26014
 Desc      Dolanaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26016
 Desc      The Barrow Den.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26019
 Desc      Lake Al'Ameth.
@@ -1011,13 +1011,13 @@ Desc     A crystal clear, placid lake situated in the center of the world tree.
 The water is incredibly refreshing. Small boats are tied to a wooden
 dock on the western shore.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26018
 Desc      The road to Dolanaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26020
 Desc      The Oracle Glade.
@@ -1033,13 +1033,13 @@ Desc     A deeply magical, secluded glade. Ancient dryads and keepers of the gro
 often gather here to discuss the health of the world tree. The air hums
 with a soothing, restorative energy.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26019
 Desc      Lake Al'Ameth.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26022
 Desc      The Wellspring River.
@@ -1055,7 +1055,7 @@ Desc     The corruption is palpable here. Gnarlpine Shamans chant twisted spells
 burning the once-beautiful Elven architecture. They attack any outsiders
 on sight.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26010
 Desc      The outskirts.
@@ -1072,13 +1072,13 @@ Desc     A rushing, shallow river that feeds the various lakes and moonwells of
 Teldrassil. Following it north leads into a dark, foreboding stretch of
 woods where the corruption is thickest.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26020
 Desc      The Oracle Glade.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26023
 Desc      The Twisted Glade.
@@ -1094,13 +1094,13 @@ Desc     The trees here are completely dead, their bark blackened and rotting.
 Disgusting clumps of Fel Moss slither across the ground, attacking anything
 that breathes. The source of the corruption is near.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26022
 Desc      The river.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26024
 Desc      A dark cave entrance.
@@ -1118,13 +1118,13 @@ Desc     The stench of sulfur and decay is overwhelming. The corruption that thr
 the entire world tree flows from this very cave. The jagged rocks look
 like the teeth of a massive demon.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26023
 Desc      The Twisted Glade.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    26025
 Desc      Enter the demonic lair.
@@ -1142,7 +1142,7 @@ Desc     The heart of the rot. Lord Melenas, a cruel and twisted satyr, commands
 the corruption from this dark chamber. He seeks to poison the roots of
 Teldrassil entirely on behalf of the Burning Legion.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    26024
 Desc      The entrance.
@@ -1161,19 +1161,19 @@ Desc     Leaving the wilder parts of the forest behind, the path becomes paved
 with smooth, glowing stones. The immense pink glow of the capital city
 can be seen shining through the trees ahead.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26019
 Desc      Lake Al'Ameth.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26028
 Desc      The Darnassus Approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26027
 Desc      The path to Rut'theran.
@@ -1189,7 +1189,7 @@ Desc     This winding trail leads to the glowing portal that connects Teldrassil
 to the small village of Rut'theran at the base of the world tree, allowing
 passage to the mainland of Kalimdor.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26026
 Desc      The road to Darnassus.
@@ -1205,13 +1205,13 @@ Desc     The trees part, revealing the breathtaking architecture of the Night El
 capital. Elaborate bridges cross glowing streams, and the majestic Temple
 of the Moon dominates the skyline.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26026
 Desc      The forest road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26029
 Desc      The gates of the city.
@@ -1228,13 +1228,13 @@ Sentinels stand guard, welcoming allies of the Alliance while keeping a
 vigilant watch for any signs of Horde intrusion. The glory of the Night
 Elves awaits within.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26028
 Desc      The approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    11800
 Desc      Enter the Tradesmen's Terrace.

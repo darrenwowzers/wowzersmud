@@ -1083,12 +1083,12 @@ here is an absolute furnace, and the walls are composed of
 solid black glass. A long, descending tunnel of obsidian leads 
 deep into the heart of the mountain.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    37590
 Desc      Return to the surface of Dustwallow Marsh.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41201
 Desc      The descending corridor.~
@@ -1105,12 +1105,12 @@ ground is hot to the touch, and the air carries the scent of
 sulfur and ancient scales. Onyxian warders stand in alcoves 
 along the walls, watching for intruders.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41200
 Desc      The entrance archway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41202
 Desc      The crossroads of fire.~
@@ -1128,22 +1128,22 @@ Hatchery, where the next generation of the flight is
 prepared. To the east, a wide bridge crosses a river of 
 magma toward the military quarters.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41201
 Desc      The entrance corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    41203
 Desc      Toward the Hatchery.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    41250
 Desc      Toward the Foundries.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41300
 Desc      Toward the Broodmother's Hall.~
@@ -1161,12 +1161,12 @@ the air. The walls are covered in web-like dragon-silk, and
 the air is humid and smells of reptile musk. Hatchery 
 assistants move about, inspecting the egg sacs.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41202
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41204
 Desc      The Egg Chambers.~
@@ -1184,12 +1184,12 @@ Onyxian whelps play in the warm updrafts rising from
 floor vents, while technicians carefully maintain the 
 temperature.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41203
 Desc      The hatchery entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41205
 Desc      The Breeding Pit.~
@@ -1207,7 +1207,7 @@ black drake stands guard over a pool of magical fluid,
 ensuring the stability of the chromatic brood. The floor 
 is littered with broken eggshells and bone.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      The egg chambers.~
@@ -1226,12 +1226,12 @@ From here, you can see the foundries where the Dark Horde's
 armor is forged. Molten giants stand at either end of the 
 bridge, acting as living barriers.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41202
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    41251
 Desc      The Foundries entrance.~
@@ -1248,12 +1248,12 @@ Desc     A massive industrial hall filled with the roar of dozens
 of magical furnaces. Fireguard destroyers work the 
 bellows, their heat making the air shimmer with mirages.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41250
 Desc      The bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41252
 Desc      Foundries Center.~
@@ -1271,12 +1271,12 @@ thorium bars are stacked ten feet high. Taskmasters
 shout orders to exhausted orc laborers who hammer at 
 glowing plates of steel.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Southern foundries.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    41253
 Desc      The Blacksmith's Wing.~
@@ -1295,12 +1295,12 @@ marble pillars carved in the image of dragons line the
 hall. This is the final approach to Onyxia's inner 
 sanctum.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41202
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41301
 Desc      The Hall of the Wardens.~
@@ -1318,12 +1318,12 @@ Lashlayer stands here, his massive form silhouetted
 against the glowing portal behind him. He levels a 
 heavy polearm with cold, murderous intent.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      The path entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41310
 Desc      Onyxia's Sanctum.~
@@ -1344,12 +1344,12 @@ of solid, black glass, reflecting the infernal glow of
 the ceiling. This is the place where the Alliance and 
 Horde come to die.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      The wardens' hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41400
 Desc      The exit path.~
@@ -1372,12 +1372,12 @@ leads toward a hidden opening in the Dustwallow
 cliffs, offering a quick way out for those who 
 have defeated the Broodmother.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    41200
 Desc      The entrance archway.~
@@ -1391,12 +1391,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A confusing series of narrow, burning tunnels near the hatchery.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      The egg chambers.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41207
 Desc      Labyrinth 2.~
@@ -1411,12 +1411,12 @@ Sector   inside~
 Flags    indoors~
 Desc     The air is thick with smoke and sulfur.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41206
 Desc      Labyrinth 1.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41208
 Desc      Labyrinth 3.~
@@ -1431,7 +1431,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A deep cavern filled with whelp nests.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41207
 Desc      Labyrinth 2.~
@@ -1446,12 +1446,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A small room for storing magical heating crystals.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41203
 Desc      Hatchery entry.~
 #ENDEXIT
-Reset O 41114 10 41209 0
+Reset O 41114 10 0 41209
 #ENDROOM
 
 #ROOM
@@ -1461,7 +1461,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the technicians can rest.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41203
 Desc      Hatchery entry.~
@@ -1476,7 +1476,7 @@ Sector   city~
 Flags    indoors~
 Desc     A large room filled with anvils and tool racks.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41252
 Desc      Foundries center.~
@@ -1491,12 +1491,12 @@ Sector   city~
 Flags    indoors~
 Desc     A storage room for dragon-scale armor.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Foundries south.~
 #ENDEXIT
-Reset O 41112 10 41254 0
+Reset O 41112 10 0 41254
 #ENDROOM
 
 #ROOM
@@ -1506,12 +1506,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A room for storing polearms and shields.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41301
 Desc      Wardens' hall.~
 #ENDEXIT
-Reset O 41116 5 41302 0
+Reset O 41116 5 0 41302
 #ENDROOM
 
 #ROOM
@@ -1521,7 +1521,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the elite dragonspawn can rest.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -1536,12 +1536,12 @@ Sector   city~
 Flags    indoors~
 Desc     A side cavern filled with a portion of Onyxia's hoard.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
 #ENDEXIT
-Reset O 41112 10 41311 0
+Reset O 41112 10 0 41311
 #ENDROOM
 
 #ROOM
@@ -1551,7 +1551,7 @@ Sector   city~
 Flags    indoors~
 Desc     A high stone ledge overlooking the Broodmother.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -1566,12 +1566,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Hot tunnels leading toward the magma rivers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41202
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41212
 Desc      Labyrinth 2.~
@@ -1586,7 +1586,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A chamber filled with searing elementals.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41211
 Desc      Labyrinth 1.~
@@ -1601,12 +1601,12 @@ Sector   city~
 Flags    indoors~
 Desc     Corridors connecting the foundries to the deep pits.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41252
 Desc      Foundries center.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    41256
 Desc      Labyrinth 2.~
@@ -1621,12 +1621,12 @@ Sector   city~
 Flags    indoors~
 Desc     A storage room for heavy iron bars and coal.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41255
 Desc      Labyrinth 1.~
 #ENDEXIT
-Reset O 41118 10 41256 0
+Reset O 41118 10 0 41256
 #ENDROOM
 
 #ROOM
@@ -1636,12 +1636,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Elegant stone rooms near the inner sanctum.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Broodmother path entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    41321
 Desc      Labyrinth 2.~
@@ -1656,7 +1656,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the high-level quarters.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41320
 Desc      Labyrinth 1.~
@@ -1671,7 +1671,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small, well-fortified room near the entrance.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41201
 Desc      Entrance corridor.~
@@ -1686,7 +1686,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark room filled with lightning-totems and burning bones.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41201
 Desc      Entrance corridor.~
@@ -1701,7 +1701,7 @@ Sector   city~
 Flags    indoors~
 Desc     A dark corner of the foundries where warlocks practice magic.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Foundries south.~
@@ -1716,7 +1716,7 @@ Sector   city~
 Flags    indoors~
 Desc     A small room for repairing steam valves and pipes.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41251
 Desc      Foundries south.~
@@ -1731,12 +1731,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A lavish room filled with fine silks and gold jewelry.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Broodmother path entrance.~
 #ENDEXIT
-Reset O 41101 1 41330 0
+Reset O 41101 1 0 41330
 #ENDROOM
 
 #ROOM
@@ -1746,7 +1746,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room filled with scrolls detailing the history of the flight.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41330
 Desc      Sitting room.~
@@ -1761,12 +1761,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for whelp-pelts and tooth-piles.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41204
 Desc      Egg chambers.~
 #ENDEXIT
-Reset O 41112 10 41215 0
+Reset O 41112 10 0 41215
 #ENDROOM
 
 #ROOM
@@ -1776,7 +1776,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel where several black drakes are resting.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41205
 Desc      Breeding pit.~
@@ -1791,12 +1791,12 @@ Sector   city~
 Flags    indoors~
 Desc     A storage area filled with crates of orcish rations.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41252
 Desc      Foundries center.~
 #ENDEXIT
-Reset O 41120 10 41260 0
+Reset O 41120 10 0 41260
 #ENDROOM
 
 #ROOM
@@ -1806,7 +1806,7 @@ Sector   city~
 Flags    indoors~
 Desc     A high point in the smithy, home to several obsidian gargoyles.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    41253
 Desc      Smithy wing.~
@@ -1821,7 +1821,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A high stone landing in the warden's hall.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -1836,12 +1836,12 @@ Sector   city~
 Flags    indoors~
 Desc     A small, well-tended garden of lava-roots near the hoard.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
 #ENDEXIT
-Reset O 41114 10 41341 0
+Reset O 41114 10 0 41341
 #ENDROOM
 
 #ROOM
@@ -1851,7 +1851,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the hatchery entrance.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41203
 Desc      Hatchery entry.~
@@ -1866,7 +1866,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small cavern hidden beneath a large rock formation.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41203
 Desc      Hatchery entry.~
@@ -1881,7 +1881,7 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing tunnels near the magma river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -1896,12 +1896,12 @@ Sector   city~
 Flags    indoors~
 Desc     A side room filled with black iron bars and soot.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
 #ENDEXIT
-Reset O 41118 10 41263 0
+Reset O 41118 10 0 41263
 #ENDROOM
 
 #ROOM
@@ -1911,7 +1911,7 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the General's quarters.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41300
 Desc      Path entrance.~
@@ -1926,7 +1926,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41300
 Desc      Path entrance.~
@@ -1941,12 +1941,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet corner of the hatchery filled with broken bones.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
 #ENDEXIT
-Reset M 41003 10 41220
+Reset M 0 41003 10 41220
 #ENDROOM
 
 #ROOM
@@ -1956,7 +1956,7 @@ Sector   city~
 Flags    indoors~
 Desc     A side street in the foundries where blood-drinker orcs rest.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41252
 Desc      Foundries center.~
@@ -1971,7 +1971,7 @@ Sector   city~
 Flags    indoors~
 Desc     A high point in the foundries, home to several gargoyles.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    41252
 Desc      Foundries center.~
@@ -1986,7 +1986,7 @@ Sector   inside~
 Flags    indoors dark~
 Desc     A high, secluded ledge above the path where wardens watch in silence.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -2001,12 +2001,12 @@ Sector   inside~
 Flags    indoors dark~
 Desc     A small vault behind a tapestry in the path entrance.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41300
 Desc      Path entrance.~
 #ENDEXIT
-Reset O 41101 1 41361 0
+Reset O 41101 1 0 41361
 #ENDROOM
 
 #ROOM
@@ -2016,7 +2016,7 @@ Sector   underground~
 Flags    indoors~
 Desc     A narrow, dirty tunnel near the descent.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41201
 Desc      Entrance corridor.~
@@ -2031,7 +2031,7 @@ Sector   underground~
 Flags    indoors~
 Desc     Another narrow tunnel used by the mountain's vermin.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41201
 Desc      Entrance corridor.~
@@ -2046,7 +2046,7 @@ Sector   city~
 Flags    indoors~
 Desc     A side room in the foundries where technicians work.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41251
 Desc      Foundries south.~
@@ -2061,12 +2061,12 @@ Sector   city~
 Flags    indoors~
 Desc     A storage room for coals and volcanic stones.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41251
 Desc      Foundries south.~
 #ENDEXIT
-Reset O 41114 10 41281 0
+Reset O 41114 10 0 41281
 #ENDROOM
 
 #ROOM
@@ -2076,7 +2076,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where the high-level dragonspawn study rituals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -2091,7 +2091,7 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet room where the high-priests treat the wounded.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -2106,12 +2106,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A central garden area near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41204
 Desc      Egg chambers.~
 #ENDEXIT
-Reset O 41114 10 41224 0
+Reset O 41114 10 0 41224
 #ENDROOM
 
 #ROOM
@@ -2121,7 +2121,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A long, wide thoroughfare connecting the wings.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41202
 Desc      The crossroads.~
@@ -2136,7 +2136,7 @@ Sector   city~
 Flags    indoors~
 Desc     A wide road of massive stone pavers leading to the bridge.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -2151,7 +2151,7 @@ Sector   city~
 Flags    indoors~
 Desc     The north end of the foundries.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -2166,7 +2166,7 @@ Sector   city~
 Flags    indoors~
 Desc     A high stone landing near the sanctum summit.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -2181,12 +2181,12 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet central garden near the lair's exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41400
 Desc      Exit path.~
 #ENDEXIT
-Reset O 41115 10 41381 0
+Reset O 41115 10 0 41381
 #ENDROOM
 
 #ROOM
@@ -2196,12 +2196,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A confusing series of small stone rooms.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41231
 Desc      Labyrinth 11.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41201
 Desc      Entrance corridor.~
@@ -2216,7 +2216,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The deepest part of the entry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41230
 Desc      Labyrinth 10.~
@@ -2231,12 +2231,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A series of hot, smoldering tunnels near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41233
 Desc      Labyrinth 13.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -2251,7 +2251,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the smoldering labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41232
 Desc      Labyrinth 12.~
@@ -2266,12 +2266,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A Confusion of small, webbed tunnels near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41235
 Desc      Labyrinth 15.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
@@ -2286,7 +2286,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the webbed labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41234
 Desc      Labyrinth 14.~
@@ -2301,12 +2301,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the path entrance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41237
 Desc      Labyrinth 17.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Path entrance.~
@@ -2321,7 +2321,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41236
 Desc      Labyrinth 16.~
@@ -2336,12 +2336,12 @@ Sector   inside~
 Flags    indoors~
 Desc     High stone rooms near the wardens' hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41239
 Desc      Labyrinth 19.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -2356,7 +2356,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41238
 Desc      Labyrinth 18.~
@@ -2371,12 +2371,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A series of small rooms near the Broodmother.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41241
 Desc      Labyrinth 21.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -2391,7 +2391,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The deepest part of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41240
 Desc      Labyrinth 20.~
@@ -2406,12 +2406,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room near the entrance landing.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41243
 Desc      Labyrinth 23.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41200
 Desc      Entrance archway.~
@@ -2426,7 +2426,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entrance labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41242
 Desc      Labyrinth 22.~
@@ -2441,12 +2441,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the magma river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41245
 Desc      Labyrinth 25.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -2461,7 +2461,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the river labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41244
 Desc      Labyrinth 24.~
@@ -2476,12 +2476,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the smithy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41247
 Desc      Labyrinth 27.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41253
 Desc      Smithy wing.~
@@ -2496,7 +2496,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the gargoyle labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41246
 Desc      Labyrinth 26.~
@@ -2511,12 +2511,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side rooms near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41249
 Desc      Labyrinth 29.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
@@ -2531,7 +2531,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hatchery labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41248
 Desc      Labyrinth 28.~
@@ -2546,12 +2546,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the path entrance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41391
 Desc      Labyrinth 31.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Path entrance.~
@@ -2566,7 +2566,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41390
 Desc      Labyrinth 30.~
@@ -2581,12 +2581,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the wardens' hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41393
 Desc      Labyrinth 33.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -2601,7 +2601,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41392
 Desc      Labyrinth 32.~
@@ -2616,12 +2616,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the Broodmother.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41395
 Desc      Labyrinth 35.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -2636,7 +2636,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41394
 Desc      Labyrinth 34.~
@@ -2651,12 +2651,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the entrance landing.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41397
 Desc      Labyrinth 37.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41200
 Desc      Entrance archway.~
@@ -2671,7 +2671,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41396
 Desc      Labyrinth 36.~
@@ -2686,12 +2686,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the magma river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41399
 Desc      Labyrinth 39.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -2706,7 +2706,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the river labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41398
 Desc      Labyrinth 38.~
@@ -2721,12 +2721,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41402
 Desc      Labyrinth 41.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Foundries south.~
@@ -2741,7 +2741,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41401
 Desc      Labyrinth 40.~
@@ -2756,12 +2756,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the smithy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41404
 Desc      Labyrinth 43.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41253
 Desc      Smithy wing.~
@@ -2776,7 +2776,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the gargoyle labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41403
 Desc      Labyrinth 42.~
@@ -2791,12 +2791,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41406
 Desc      Labyrinth 45.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
@@ -2811,7 +2811,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hatchery labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41405
 Desc      Labyrinth 44.~
@@ -2826,12 +2826,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the command entry.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41408
 Desc      Labyrinth 47.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Path entrance.~
@@ -2846,7 +2846,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41407
 Desc      Labyrinth 46.~
@@ -2861,12 +2861,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the wardens' hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41410
 Desc      Labyrinth 49.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -2881,7 +2881,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41409
 Desc      Labyrinth 48.~
@@ -2896,12 +2896,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the Broodmother.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41412
 Desc      Labyrinth 51.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -2916,7 +2916,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41411
 Desc      Labyrinth 50.~
@@ -2931,12 +2931,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the entrance landing.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41414
 Desc      Labyrinth 53.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41200
 Desc      Entrance archway.~
@@ -2951,7 +2951,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41413
 Desc      Labyrinth 52.~
@@ -2966,12 +2966,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the magma river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41416
 Desc      Labyrinth 55.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -2986,7 +2986,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the river labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41415
 Desc      Labyrinth 54.~
@@ -3001,12 +3001,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41418
 Desc      Labyrinth 57.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Foundries south.~
@@ -3021,7 +3021,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41417
 Desc      Labyrinth 56.~
@@ -3036,12 +3036,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the smithy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41420
 Desc      Labyrinth 59.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41253
 Desc      Smithy wing.~
@@ -3056,7 +3056,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the gargoyle labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41419
 Desc      Labyrinth 58.~
@@ -3071,12 +3071,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41422
 Desc      Labyrinth 61.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
@@ -3091,7 +3091,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hatchery labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41421
 Desc      Labyrinth 60.~
@@ -3106,12 +3106,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the command entry.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41424
 Desc      Labyrinth 63.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Path entrance.~
@@ -3126,7 +3126,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41423
 Desc      Labyrinth 62.~
@@ -3141,12 +3141,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the wardens' hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41426
 Desc      Labyrinth 65.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -3161,7 +3161,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41425
 Desc      Labyrinth 64.~
@@ -3176,12 +3176,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the Broodmother.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41428
 Desc      Labyrinth 67.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -3196,7 +3196,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41427
 Desc      Labyrinth 66.~
@@ -3211,12 +3211,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the entrance landing.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41430
 Desc      Labyrinth 69.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41200
 Desc      Entrance archway.~
@@ -3231,7 +3231,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41429
 Desc      Labyrinth 68.~
@@ -3246,12 +3246,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the magma river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41432
 Desc      Labyrinth 71.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -3266,7 +3266,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the river labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41431
 Desc      Labyrinth 70.~
@@ -3281,12 +3281,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41434
 Desc      Labyrinth 73.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Foundries south.~
@@ -3301,7 +3301,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41433
 Desc      Labyrinth 72.~
@@ -3316,12 +3316,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the smithy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41436
 Desc      Labyrinth 75.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41253
 Desc      Smithy wing.~
@@ -3336,7 +3336,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the gargoyle labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41435
 Desc      Labyrinth 74.~
@@ -3351,12 +3351,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41438
 Desc      Labyrinth 77.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
@@ -3371,7 +3371,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hatchery labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41437
 Desc      Labyrinth 76.~
@@ -3386,12 +3386,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the command entry.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41440
 Desc      Labyrinth 79.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Path entrance.~
@@ -3406,7 +3406,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41439
 Desc      Labyrinth 78.~
@@ -3421,12 +3421,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the wardens' hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41442
 Desc      Labyrinth 81.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -3441,7 +3441,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41441
 Desc      Labyrinth 80.~
@@ -3456,12 +3456,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the Broodmother.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41444
 Desc      Labyrinth 83.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -3476,7 +3476,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41443
 Desc      Labyrinth 82.~
@@ -3491,12 +3491,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the entrance landing.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41446
 Desc      Labyrinth 85.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41200
 Desc      Entrance archway.~
@@ -3511,7 +3511,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41445
 Desc      Labyrinth 84.~
@@ -3526,12 +3526,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the magma river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41448
 Desc      Labyrinth 87.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
@@ -3546,7 +3546,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the river labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41447
 Desc      Labyrinth 86.~
@@ -3561,12 +3561,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41450
 Desc      Labyrinth 89.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41251
 Desc      Foundries south.~
@@ -3581,7 +3581,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41449
 Desc      Labyrinth 88.~
@@ -3596,12 +3596,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the smithy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41452
 Desc      Labyrinth 91.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41253
 Desc      Smithy wing.~
@@ -3616,7 +3616,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the gargoyle labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41451
 Desc      Labyrinth 90.~
@@ -3631,12 +3631,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the egg chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41454
 Desc      Labyrinth 93.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
@@ -3651,7 +3651,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hatchery labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41453
 Desc      Labyrinth 92.~
@@ -3666,12 +3666,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the command entry.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41456
 Desc      Labyrinth 95.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41300
 Desc      Path entrance.~
@@ -3686,7 +3686,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41455
 Desc      Labyrinth 94.~
@@ -3701,12 +3701,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the wardens' hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41458
 Desc      Labyrinth 97.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41301
 Desc      Wardens' hall.~
@@ -3721,7 +3721,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41457
 Desc      Labyrinth 96.~
@@ -3736,12 +3736,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the Broodmother.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41460
 Desc      Labyrinth 99.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
@@ -3756,7 +3756,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    41459
 Desc      Labyrinth 98.~
@@ -3771,7 +3771,7 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet, central square in the middle of the magma-hold.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    41202
 Desc      The crossroads of fire.~

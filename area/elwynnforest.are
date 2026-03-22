@@ -977,13 +977,13 @@ drifts from within. A cobblestone path leads &Ysouth&d into the valley, while
 the heavy oak doors to the &Wnorth&d stand open in welcome.
 ~
 Flags    nomob~
-#EXIT
+Exit
 Direction north~
 ToRoom    12001
 Desc      The heavy oak doors lead into the abbey proper.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12003
 Desc      A cobblestone path winds into Northshire Valley.
@@ -1003,19 +1003,19 @@ altar at the far end. Candles flicker in iron sconces, and the murmur of
 prayers echoes softly. A door to the &Yeast&d leads to the Marshal's quarters,
 while stairs descend to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12002
 Desc      A wooden door leads to the Marshal's office.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12000
 Desc      The main entrance leads outside.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12005
 Desc      Stone stairs descend to the cellar.
@@ -1034,7 +1034,7 @@ desk dominates the room, piled high with parchment and inkwells. A sword
 and shield hang on the wall behind the desk, polished to a mirror shine.
 A single window overlooks the valley below.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12001
 Desc      The main hall of the abbey lies through this door.
@@ -1053,19 +1053,19 @@ fruit. To the &Ynorth&d, the abbey rises majestically. The path continues
 &Ysouth&d toward a small vineyard, and a dirt trail branches &Yeast&d toward
 a cluster of training dummies.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12000
 Desc      The path leads to Northshire Abbey.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12004
 Desc      A dirt trail leads to the training area.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12006
 Desc      The path continues toward the vineyard.
@@ -1083,7 +1083,7 @@ countless practice strikes. Young recruits spar with wooden swords under
 the watchful eyes of veteran soldiers. The clang of metal and shouts of
 instructors fill the air. The main path lies to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12003
 Desc      The cobblestone path leads back toward the abbey.
@@ -1102,7 +1102,7 @@ Cobwebs hang from the low ceiling, and the smell of mildew mingles with
 aged oak. Rats scurry in the shadows. Stone stairs lead &Yup&d to the main
 hall.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    12001
 Desc      Stone stairs lead up to the abbey.
@@ -1119,19 +1119,19 @@ Workers tend the vines, pruning and harvesting under the warm sun. A
 stone farmhouse sits to the &Yeast&d, and the cobblestone path continues
 &Ynorth&d toward the abbey and &Ysouth&d into the wilder parts of the valley.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12003
 Desc      The path leads back toward the abbey.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12007
 Desc      A stone farmhouse sits among the vines.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12008
 Desc      The valley opens up to the south.
@@ -1149,7 +1149,7 @@ stone hearth crackles with a small fire, and bundles of herbs hang from
 the rafters. A sturdy wooden table sits in the center of the room, covered
 with the remnants of a simple meal.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12006
 Desc      The vineyard lies just outside.
@@ -1168,19 +1168,19 @@ forest grows thicker and wolves have been spotted prowling. Wildflowers
 dot the grass, and butterflies drift lazily in the breeze. The vineyard
 lies to the &Ynorth&d, and a narrow trail winds &Yeast&d toward an echo ridge.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12006
 Desc      The vineyard lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12009
 Desc      A narrow trail leads toward Echo Ridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12010
 Desc      The forest grows thicker to the south.
@@ -1199,13 +1199,13 @@ long since overrun by kobolds. Discarded mining equipment lies rusted
 and broken near the entrance. Flickering candlelight glows from within,
 and high-pitched voices echo from the depths. The valley lies to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12008
 Desc      The hills of Northshire Valley lie to the west.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    12011
 Desc      A rough tunnel descends into the mine.
@@ -1223,13 +1223,13 @@ sunlight. Underbrush rustles with unseen movement, and the distant howl
 of a wolf echoes through the woods. The safer hills of Northshire lie to
 the &Ynorth&d, while a forest path continues &Ysouth&d toward the main road.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12008
 Desc      The open hills of the valley lie to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12020
 Desc      A forest path leads toward the main road.
@@ -1249,19 +1249,19 @@ timber. Candle stubs are wedged into cracks in the walls, casting
 flickering shadows. The air is stale and smells of unwashed kobold. Picks
 and shovels clatter somewhere deeper in the mine.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    12009
 Desc      The mine entrance lies above.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    12012
 Desc      The tunnel continues deeper into the mine.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12013
 Desc      A narrow passage branches to the east.
@@ -1282,7 +1282,7 @@ living space. Crude bedrolls and piles of stolen goods litter the floor.
 A cooking fire smolders in the center, roasting something unidentifiable.
 The stench is almost unbearable.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12011
 Desc      The tunnel leads back toward the entrance.
@@ -1305,7 +1305,7 @@ throne made of stacked ore crates sits against the far wall, draped with
 a moth-eaten blanket. This is clearly the domain of the kobold leader.
 Nuggets of gold are scattered carelessly around the room.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12011
 Desc      The main tunnels lie to the west.
@@ -1327,26 +1327,26 @@ leaves rustling in a gentle breeze. Sunlight filters through the canopy
 in golden shafts. The road continues &Ywest&d toward Goldshire and &Yeast&d
 toward the logging camp. Northshire lies to the &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12010
 Desc      A path leads into Northshire Valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12050
 Desc      The road leads toward Eastvale Logging Camp.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12021
 Desc      The road leads toward Goldshire.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    11045
 Desc      The towering white walls of Stormwind City can be seen in the distance.
@@ -1364,13 +1364,13 @@ across the path and up a nearby tree. The forest feels peaceful here,
 though wise travelers keep one hand on their weapons. The road continues
 &Yeast&d and &Ywest&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12020
 Desc      The road continues east toward Northshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12022
 Desc      The road continues west toward Goldshire.
@@ -1389,19 +1389,19 @@ toward "Goldshire," another points &Yeast&d toward "Northshire," and a
 third points &Ysouth&d toward "Stonefield Farm." The forest presses close
 on all sides.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12021
 Desc      The road leads east toward Northshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12070
 Desc      A dirt road leads to Stonefield Farm.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12023
 Desc      The road leads west to Goldshire.
@@ -1418,13 +1418,13 @@ see smoke rising from chimneys ahead, and the sound of a blacksmith's
 hammer rings through the air. A wooden fence marks the boundary of the
 town. The road continues &Yeast&d into the forest and &Ywest&d into town.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12022
 Desc      The forest crossroads lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12024
 Desc      The road enters Goldshire.
@@ -1441,13 +1441,13 @@ in Elwynn Forest outside of Stormwind itself. The cobblestone main street
 runs &Ywest&d toward the town square. Buildings of timber and stone line
 the road, and townsfolk go about their daily business.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12023
 Desc      The forest outskirts lie to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12025
 Desc      The main street continues to the town square.
@@ -1466,25 +1466,25 @@ The famous &WLion's Pride Inn&d stands to the &Ynorth&d, its sign creaking in
 the breeze. The &Yblacksmith&d lies to the &Ysouth&d. The main road continues
 &Yeast&d and &Ywest&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12026
 Desc      The Lion's Pride Inn welcomes weary travelers.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12024
 Desc      The road leads to the east gate.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12028
 Desc      Smoke rises from the blacksmith's forge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12029
 Desc      The road continues west out of town.
@@ -1503,13 +1503,13 @@ makes your mouth water. Adventurers and locals alike crowd around wooden
 tables, sharing tales and tankards of ale. A staircase leads &Yup&d to the
 guest rooms.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12025
 Desc      The town square lies outside.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    12027
 Desc      A creaky staircase leads to the guest rooms.
@@ -1530,7 +1530,7 @@ doors to modest guest rooms. The floorboards creak underfoot, and muffled
 conversations drift through the thin walls. A window at the end of the
 hall overlooks the town square.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    12026
 Desc      The stairs lead down to the common room.
@@ -1547,7 +1547,7 @@ the anvil. Weapons, horseshoes, and tools hang from racks on the walls.
 The rhythmic clang of hammer on metal echoes constantly. Soot and sparks
 fill the air.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12025
 Desc      The town square lies to the north.
@@ -1568,19 +1568,19 @@ sunlight. The road continues &Ywest&d toward Crystal Lake, and the town
 square lies to the &Yeast&d. A path branches &Ysouth&d toward the Maclure
 Vineyards.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12025
 Desc      The town square lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12080
 Desc      A path leads to the Maclure Vineyards.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12030
 Desc      The road continues toward Crystal Lake.
@@ -1596,13 +1596,13 @@ Desc     The road curves gently as it approaches &CCrystal Lake&d. You can hear
 the gentle lapping of water through the trees. Dragonflies buzz over
 the tall grass, and the air smells of wildflowers and damp earth.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12029
 Desc      The road leads back to Goldshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12031
 Desc      The road continues toward Crystal Lake.
@@ -1619,19 +1619,19 @@ pebbles line the shore, and fish dart beneath the surface. Lily pads
 float lazily near the water's edge. A wooden dock extends into the lake
 to the &Ynorth&d, and the shore curves around to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12032
 Desc      A wooden dock extends into the lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12030
 Desc      The road leads back toward Goldshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12033
 Desc      The shore curves around the lake.
@@ -1650,7 +1650,7 @@ rowboats are tied to posts, bobbing gently on the water. Fishermen
 occasionally come here seeking their catch, though lately murlocs have
 made that a dangerous proposition.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12031
 Desc      The shore lies to the south.
@@ -1669,13 +1669,13 @@ and squelches underfoot. Crude murloc huts have been constructed nearby,
 woven from reeds and driftwood. The gurgling calls of murlocs echo across
 the water.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12031
 Desc      The eastern shore lies around the bend.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    12034
 Desc      The murloc camp sprawls to the north.
@@ -1694,7 +1694,7 @@ murloc encampment. The stench of rotting fish is overpowering. Murlocs
 waddle about, croaking to each other in their bizarre language. Bones
 and refuse litter the muddy ground.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12033
 Desc      The western shore lies to the south.
@@ -1715,13 +1715,13 @@ through the thick canopy overhead. Wagon ruts mark the well-traveled path
 toward the logging camp. The smell of pine and fresh-cut wood drifts on
 the breeze. The road continues &Yeast&d and &Ywest&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12051
 Desc      The road continues toward the logging camp.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12020
 Desc      The road leads back toward Northshire.
@@ -1740,19 +1740,19 @@ Sawdust carpets the ground, and the rhythmic sound of axes echoes from
 the &Yeast&d. A narrow trail branches &Ysouth&d into darker woods where wolves
 have been spotted.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12052
 Desc      The logging camp lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12060
 Desc      A narrow trail leads into the deep woods.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12050
 Desc      The road leads back west.
@@ -1770,25 +1770,25 @@ loggers haul freshly cut logs to the sawmill, their axes gleaming in the
 sun. A foreman's shack sits to the &Ynorth&d, and the main work area lies
 to the &Yeast&d. The forest road leads &Ywest&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12053
 Desc      The foreman's shack stands nearby.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12054
 Desc      The sawmill and main work area lie ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12051
 Desc      The forest road leads back west.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction northeast~
 ToRoom    13750
 Desc      The road winds up into the Redridge Mountains.
@@ -1808,7 +1808,7 @@ desk covered in paperwork sits beneath a window, and logging schedules
 are pinned to every wall. Tools hang from hooks near the door, and a
 pot of bitter coffee simmers on a small stove.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12052
 Desc      The camp entrance lies outside.
@@ -1826,19 +1826,19 @@ shrieking as it slices through massive logs. Sawdust fills the air like
 golden snow. Workers shout over the noise, guiding timber into position.
 Stacks of finished planks are piled to the &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12052
 Desc      The camp entrance lies to the west.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12055
 Desc      Lumber storage lies to the south.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12056
 Desc      Worker barracks stand to the east.
@@ -1855,7 +1855,7 @@ Desc     Mountains of cut lumber are stacked here in neat rows, ready for transp
 to Stormwind. The sweet smell of fresh pine is overwhelming. Workers mark
 inventory on slate boards, tallying the camp's output.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12054
 Desc      The sawmill lies to the north.
@@ -1874,7 +1874,7 @@ belongings hang from hooks and sit in footlockers. The smell of sweat and
 wood shavings permeates everything. A few off-duty workers rest on their
 bunks.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12054
 Desc      The sawmill lies to the west.
@@ -1893,13 +1893,13 @@ the sunlight, and the undergrowth is thick with thorny brambles. Wolf
 tracks crisscross the muddy ground, and a feral howl echoes in the
 distance. The trail continues &Ysouth&d, and the logger's trail lies &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12051
 Desc      The logger's trail lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12061
 Desc      The wolf den lies deeper in the woods.
@@ -1918,7 +1918,7 @@ for the timber wolves that plague the logging camp. Bones and scraps of
 fur litter the ground. Yellow eyes gleam from the shadows, and low growls
 warn you to keep your distance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12060
 Desc      The forest trail leads back north.
@@ -1937,13 +1937,13 @@ scarecrow stands sentinel among the stalks, its burlap face sagging.
 The main farmhouse lies to the &Ysouth&d, and the forest crossroads are
 to the &Ynorth&d. You can hear chickens clucking nearby.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12022
 Desc      The forest crossroads lie to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12071
 Desc      The farmhouse lies to the south.
@@ -1961,19 +1961,19 @@ Stonefield property. Chickens peck at the dirt in a fenced yard, and a
 milk cow lows from a nearby pen. The smell of home cooking drifts from
 within. Fields stretch &Ynorth&d and &Ysouth&d, and a barn stands to the &Yeast&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12070
 Desc      The north field lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12072
 Desc      The barn stands to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12073
 Desc      The south pasture lies beyond.
@@ -1992,7 +1992,7 @@ from the walls, and the smell of animals and grain fills the air. A
 horse whickers from its stall, and a fat tabby cat lounges on a hay bale,
 watching mice with lazy disinterest.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12071
 Desc      The farmhouse lies to the west.
@@ -2010,13 +2010,13 @@ A small pond provides water for the livestock. The fence shows signs of
 recent repair—gnolls have been testing the boundaries at night. The
 farmhouse lies &Ynorth&d, and a gate leads &Ysouth&d toward gnoll territory.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12071
 Desc      The farmhouse lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12074
 Desc      A gate leads toward dangerous territory.
@@ -2034,19 +2034,19 @@ The creatures have established camps throughout these hills, raiding the
 nearby farms. Stonefield Farm lies to the &Ynorth&d, and the hills continue
 &Ysouth&d and &Ywest&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12073
 Desc      The safety of Stonefield Farm lies north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12075
 Desc      The gnoll encampment lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12076
 Desc      More gnoll-infested hills stretch westward.
@@ -2066,13 +2066,13 @@ central fire pit. Gnolls squat around the flames, gnawing on bones and
 snarling at each other. Stolen goods from local farms are piled carelessly
 around the camp. The stench of rotting meat is nauseating.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12074
 Desc      The hills lead back toward the farm.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12077
 Desc      Hogger's ridge lies to the west.
@@ -2093,13 +2093,13 @@ Desc     Boulders and scraggly trees dot these windswept hills. Gnoll scouts
 patrol the area, watching for intruders—or easy prey. The ground is
 littered with bones picked clean. The hills continue &Yeast&d and &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12074
 Desc      The hills continue eastward.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12077
 Desc      A ridge rises to the south.
@@ -2119,13 +2119,13 @@ throne, surrounded by his most loyal warriors. Bones of fallen adventurers
 litter the ground as a warning to others. The gnoll camp lies &Yeast&d,
 and the hills stretch &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12076
 Desc      The hills continue north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12075
 Desc      The gnoll camp lies to the east.
@@ -2146,13 +2146,13 @@ The Maclure family has tended these vineyards for generations, producing
 some of Elwynn's finest wines. A dirt path leads &Ysouth&d to the main
 estate, and the road to Goldshire lies &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12029
 Desc      The road leads to Goldshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12081
 Desc      The vineyard estate lies ahead.
@@ -2169,19 +2169,19 @@ gleaming in the sun. Wine barrels are stacked near a stone cellar entrance,
 and workers carry baskets of grapes toward the pressing house to the &Yeast&d.
 The vineyard stretches &Ynorth&d, and a garden path leads &Ywest&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12080
 Desc      The vineyard entrance lies north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12082
 Desc      The pressing house stands to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12083
 Desc      A garden path leads west.
@@ -2199,7 +2199,7 @@ Desc     The sweet, heady aroma of fermenting grapes fills this building. Large
 wooden vats hold the grape must, and workers stomp the fruit in traditional
 fashion. Wine barrels line the walls in various stages of aging.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12081
 Desc      The estate grounds lie to the west.
@@ -2217,7 +2217,7 @@ retreat from the work of the vineyard. Stone benches sit beneath arbors
 heavy with climbing roses. This is where young Maybell Maclure often
 comes to dream of her forbidden love.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12081
 Desc      The estate grounds lie to the east.
@@ -2234,25 +2234,25 @@ have been spotted in this area, preying on travelers heading to and from
 Westfall. A path branches &Ywest&d toward Fargodeep Mine. The road continues
 &Ynorth&d toward Goldshire and &Ysouth&d toward Mirror Lake.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12029
 Desc      The road leads north toward Goldshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12100
 Desc      The road continues toward Mirror Lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12091
 Desc      A path leads toward Fargodeep Mine.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction southwest~
 ToRoom    12501
 Desc      The road turns to dust as it enters Westfall.
@@ -2271,13 +2271,13 @@ entrance yawns darkly ahead, and the glint of candles can be seen within.
 Kobolds have overrun this once-productive gold mine, making it too
 dangerous for legitimate miners. The main road lies &Yeast&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12090
 Desc      The main road lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12092
 Desc      The mine entrance beckons.
@@ -2296,19 +2296,19 @@ mine. Kobold graffiti covers the walls—crude drawings and warnings in
 their guttural language. The flicker of candles illuminates tunnels
 leading &Ywest&d and &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12091
 Desc      The approach lies outside.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    12093
 Desc      A tunnel branches north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12094
 Desc      The main tunnel continues west.
@@ -2328,7 +2328,7 @@ Desc     This cramped tunnel shows signs of recent excavation. Kobolds have been
 expanding the mine, following veins of gold deep into the earth. Piles
 of loose rock and abandoned tools lie scattered about.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12092
 Desc      The entrance lies to the south.
@@ -2350,13 +2350,13 @@ Rickety wooden scaffolding clings to the walls, and rope ladders dangle
 into deeper darkness below. The kobolds have made this their main base of
 operations within the mine.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12092
 Desc      The entrance tunnel lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    12095
 Desc      A rope ladder descends into the depths.
@@ -2378,7 +2378,7 @@ ceiling, and the air is thick with the smell of earth and kobold. Rich
 veins of gold glitter in the walls, explaining why the creatures guard
 this place so fiercely.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    12094
 Desc      The rope ladder leads back up.
@@ -2399,25 +2399,25 @@ Desc     The forest thins as the road approaches &CMirror Lake&d. You can glimps
 the still waters through the trees, reflecting the sky like polished glass.
 An orchard lies to the &Yeast&d, and the road continues &Ynorth&d and &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12090
 Desc      The road leads north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12105
 Desc      The orchard lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    12101
 Desc      The road continues toward Mirror Lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction southeast~
 ToRoom    13007
 Desc      The road descends into the gloom of Duskwood.
@@ -2434,19 +2434,19 @@ the clouds above with uncanny clarity. Reeds grow thick along the shore,
 and the calls of waterfowl echo across the water. The shore curves &Ywest&d
 and &Yeast&d, and the road lies &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12100
 Desc      The forest road lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12102
 Desc      The shore curves to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12103
 Desc      The shore curves to the west.
@@ -2462,7 +2462,7 @@ Desc     Willow trees drape their branches over the water here, creating a
 peaceful, secluded spot. Frogs croak from lily pads, and dragonflies
 skim the surface. A few fish rise to snatch insects from the air.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12101
 Desc      The northern shore lies to the west.
@@ -2479,13 +2479,13 @@ Desc     A small dock extends into the lake here, used by local fishermen. An
 abandoned rowboat has been pulled up on the shore, its oars missing.
 The tower of &YRidgepoint&d is visible to the &Ywest&d, rising above the trees.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12101
 Desc      The northern shore lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12110
 Desc      A path leads toward Ridgepoint Tower.
@@ -2502,13 +2502,13 @@ Ripe fruit hangs heavy on the branches, and fallen apples dot the grass
 beneath. The sweet smell of fruit mingles with the buzz of bees. A small
 farmhouse sits to the &Yeast&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12100
 Desc      The road lies to the west.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    12106
 Desc      A farmhouse sits among the trees.
@@ -2526,7 +2526,7 @@ Desc     This cozy farmhouse smells of apple pie and cinnamon. Baskets of fruit
 are stacked near the door, ready for transport to market. A spinning wheel
 sits by the hearth, and bundles of dried herbs hang from the rafters.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12105
 Desc      The orchard lies outside.
@@ -2545,13 +2545,13 @@ Desc     A narrow path winds up a rocky hill toward the crumbling remains of
 Elwynn, it has fallen into disrepair. Defias bandits have been seen in
 the area. Mirror Lake lies to the &Yeast&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12103
 Desc      The lake shore lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12111
 Desc      The path climbs toward the tower.
@@ -2569,13 +2569,13 @@ level has collapsed into rubble, but a makeshift wooden staircase leads
 &Yup&d to the intact upper floors. Defias graffiti marks the walls, and
 the remains of campfires suggest recent occupation.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12110
 Desc      The approach path lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    12112
 Desc      A rickety staircase leads up.
@@ -2597,13 +2597,13 @@ in rain and starlight. The Defias have converted it into a hideout, with
 stolen crates and bedrolls scattered about. A ladder leads &Yup&d to the
 roof.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    12111
 Desc      The stairs lead down.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    12113
 Desc      A ladder leads to the roof.
@@ -2625,7 +2625,7 @@ Desc     From the top of Ridgepoint Tower, you can see for miles in every direct
 toward &WStormwind&d in the north. To the &Ysouth&d and &Ywest&d, the brown
 fields of &yWestfall&d mark the edge of Alliance-controlled territory.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    12112
 Desc      The ladder leads back down.
@@ -2645,7 +2645,7 @@ gleaming in the sun. The Brackwell family has abandoned the place after
 repeated Defias raids. Now Princess, a lost pig from Westfall, roots
 through the vines, feasting on fallen pumpkins.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12090
 Desc      The southern road lies to the north.

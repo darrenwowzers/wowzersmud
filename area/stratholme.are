@@ -1438,12 +1438,12 @@ thick with the scent of burning flesh and the sulfurous gas of
 the plague. A shimmering white portal glows within the main 
 archway, leading into the city's cursed interior.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    38563
 Desc      Return to the Eastern Plaguelands.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22101
 Desc      The Entry Square.~
@@ -1461,17 +1461,17 @@ toward the Scarlet bastion. To the east, a wide thoroughfare
 leads toward the undead quarter. High above, the necropolis 
 of Naxxramas casts a permanent shadow over the square.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22100
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22102
 Desc      Toward King's Square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    22140
 Desc      Toward Elders' Square.~
@@ -1490,17 +1490,17 @@ wander the center of the road, their eyes glowing with
 madness. To the north, a small alleyway leads toward 
 the city's post office.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22101
 Desc      The entry square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22103
 Desc      King's Square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22108
 Desc      Toward the Post Office.~
@@ -1518,17 +1518,17 @@ A high stone fountain in the center is filled with blood,
 and the air is thick with the cries of restless souls. 
 Timmy the Cruel can often be seen prowling the square.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22102
 Desc      The burning way.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22104
 Desc      Deep into King's Square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22115
 Desc      Toward Crusader's Square.~
@@ -1546,12 +1546,12 @@ square, and the central fountain overflows with stagnant
 darkness. Rockwing gargoyles watch from the high roofs, 
 ready to dive on anyone who enters the plaza.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22103
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22105
 Desc      Toward the Festival Lane.~
@@ -1568,12 +1568,12 @@ Desc     A narrow, festive street that has been turned into a scene
 of carnage. Colorful banners, now tattered and grey, hang 
 from the houses.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22104
 Desc      King's Square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22106
 Desc      The Festival Lane Center.~
@@ -1590,7 +1590,7 @@ Desc     The deepest part of the lane. A large bonfire burns in the
 middle of the street, fueled by the remains of the city's 
 furniture.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22105
 Desc      The lane entrance.~
@@ -1608,12 +1608,12 @@ mailboxes stand outside, though they have been dented
 and stained with rust. The sound of a ringing bell 
 echoes from within.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22102
 Desc      The burning way.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22109
 Desc      The Sorting Room.~
@@ -1631,7 +1631,7 @@ Desc     Crates and sacks of undelivered mail are piled to the
 ceiling. Restless souls of former couriers wander the 
 room, attempting to complete their final deliveries.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22108
 Desc      The entrance.~
@@ -1647,7 +1647,7 @@ Flags    indoors~
 Desc     A quiet corner of the plaza filled with overturned carts 
 and the smell of old ozone.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22103
 Desc      The entrance.~
@@ -1665,12 +1665,12 @@ Scarlet territory. The burning buildings are replaced by
 stone barricades and bright red banners. Scarlet 
 defenders stand guard at every intersection.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22103
 Desc      King's Square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22116
 Desc      Crusader's Square.~
@@ -1688,17 +1688,17 @@ The square is impeccably clean, and the air is clear of
 the plague-smoke. A grand cathedral stands on the north 
 side of the plaza, its white stone reflecting the pale sky.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22115
 Desc      The road entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22117
 Desc      The Scarlet Bastion Entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22125
 Desc      Toward the Cannon Master's Lair.~
@@ -1717,12 +1717,12 @@ polished marble and the walls are draped in fine red
 silks. Scarlet centurions stand in silent vigil at the 
 main archway.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22116
 Desc      The square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22118
 Desc      The Hall of Valour.~
@@ -1740,17 +1740,17 @@ greatest heroes. To the east lies the city's archive,
 while to the west, a high bridge leads toward the 
 Commander's private quarters.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22117
 Desc      The entrance hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    22119
 Desc      The Archivist's Office.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22121
 Desc      The Grand Crusader's Throne.~
@@ -1768,7 +1768,7 @@ books. Archivist Galford stands before a massive,
 burning fireplace, tossing handfuls of parchment 
 into the flames.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22118
 Desc      The hall of valour.~
@@ -1786,7 +1786,7 @@ Desc     A small, subterranean room beneath the archivist's office.
 It contains the few texts that Galford deemed "pure" 
 enough to survive.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    22119
 Desc      Return to the office.~
@@ -1805,12 +1805,12 @@ with an unnatural red light. He oversees the final
 purification of Stratholme with eyes full of hidden 
 malice.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22118
 Desc      The hall of valour.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22122
 Desc      Toward the Balnazzar Chamber.~
@@ -1829,7 +1829,7 @@ center, the dreadlord Balnazzar has shed his human
 skin, his massive wings fanned as he drinks in the 
 shadowy energy of the mountain.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22121
 Desc      The throne room.~
@@ -1846,7 +1846,7 @@ Flags    indoors~
 Desc     A quiet hallway in the back of the bastion, used by 
 the Crimson Conjurers to study their spells.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22118
 Desc      The hall of valour.~
@@ -1862,7 +1862,7 @@ Flags    indoors~
 Desc     A side room filled with Headmaster's Charge-staves and 
 ancient Lordaeron coins.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22118
 Desc      The hall of valour.~
@@ -1880,7 +1880,7 @@ Cannon Master Willey stands near a pile of black-powder
 barrels, his fuse already lit. The air is thick with 
 the scent of grease and charcoal.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22116
 Desc      Return to the square.~
@@ -1898,7 +1898,7 @@ Desc     A large stone forge where the Crimson Hammersmiths
 work. The sound of hammering is constant, and the 
 room is blistering hot.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22116
 Desc      The square.~
@@ -1916,12 +1916,12 @@ is noticeably more decayed, with bones and mummified
 remains used as building materials. Magistrate 
 Barthilas can often be seen patrolling the entrance.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22101
 Desc      The entry square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    22141
 Desc      Elders' Square Central.~
@@ -1938,22 +1938,22 @@ Desc     A wide plaza filled with ancient ziggurats. Each ziggurat
 is guarded by a powerful Scourge champion. The air 
 is absolute still and freezing cold.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22140
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22142
 Desc      Toward Baroness Anastari's Ziggurat.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    22144
 Desc      Toward Nerub'enkan's Ziggurat.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    22146
 Desc      Toward Maleki's Ziggurat.~
@@ -1970,12 +1970,12 @@ Desc     A narrow stone staircase leads up to the peak of the
 ziggurat. The air hums with the wailing of souls. 
 Baroness Anastari stands at the summit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22141
 Desc      The square central.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22143
 Desc      Anastari's Peak.~
@@ -1992,7 +1992,7 @@ Desc     A circular platform overlooking the city. Anastari stands
 here, her translucent form radiating waves of pure 
 mental agony.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22142
 Desc      Return to the stairs.~
@@ -2010,12 +2010,12 @@ Desc     The walls here are completely covered in thick Nerubian
 silk. Crypt fiends skitter along the ceiling, waiting 
 for prey to be ensnared.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22141
 Desc      The square central.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    22145
 Desc      Nerub'enkan's Peak.~
@@ -2032,7 +2032,7 @@ Desc     A large room filled with spider egg sacs and web-wrapped
 humanoid remains. Nerub'enkan stands in the center, 
 his golden armor glinting in the dim light.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22144
 Desc      Return to the stairs.~
@@ -2048,12 +2048,12 @@ Flags    indoors~
 Desc     A frost-covered staircase leading up toward Maleki's 
 sanctum. The air here is freezing cold.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22141
 Desc      The square central.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    22147
 Desc      Maleki's Peak.~
@@ -2070,7 +2070,7 @@ Desc     A small circular room filled with ice crystals. Maleki
 the Pallid stands before a frozen altar, focusing 
 the Scourge's power into the square below.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22146
 Desc      Return to the stairs.~
@@ -2088,12 +2088,12 @@ Desc     The thoroughfare leads toward the city's industrial heart.
 Massive abominations patrol the street, their feet 
 shaking the ground with every step.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22141
 Desc      The Elders' Square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    22151
 Desc      The Slaughter Square.~
@@ -2111,12 +2111,12 @@ This is the "gauntlet" of Stratholme. If all the
 ziggurat lords are defeated, the gates to the 
 slaughterhouse will open.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22150
 Desc      The entry road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22152
 Desc      The Slaughterhouse Entrance.~
@@ -2134,12 +2134,12 @@ iron hooks in the ceiling, and the floor is slick
 with blood and bile. Ramstein the Gorger stands 
 here, surrounded by his personal guard.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22151
 Desc      The square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22155
 Desc      Toward Baron Rivendare's Keep.~
@@ -2156,12 +2156,12 @@ Desc     A heavily fortified stone chamber housing the final
 guard contingent of the city. Magmus stands here, his 
 molten body illuminating the room in a hellish glow.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22152
 Desc      The slaughterhouse.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22156
 Desc      The Baron's Throne Room.~
@@ -2179,12 +2179,12 @@ sits upon a skeletal throne, his runeblade resting
 across his knees. He oversees the final destruction 
 of Lordaeron from this very seat.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22155
 Desc      The keep entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    22180
 Desc      The exit path.~
@@ -2202,7 +2202,7 @@ Flags    indoors~
 Desc     A quiet corner of the city filled with skeletal 
 remains and the smell of old decay.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22141
 Desc      Elders' square central.~
@@ -2218,7 +2218,7 @@ Flags    indoors~
 Desc     A side tunnel in the slaughter square filled with 
 discarded masonry and bits of bone.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22151
 Desc      Slaughter square.~
@@ -2234,7 +2234,7 @@ Flags    indoors~
 Desc     A high stone platform in the western city, home to 
 several rockwing gargoyles.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    22104
 Desc      King's Square.~
@@ -2250,7 +2250,7 @@ Flags    indoors~
 Desc     A dark room near the entry hall where the 
 Scarlet Crusade prepares its meager meals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22117
 Desc      Bastion entrance.~
@@ -2266,7 +2266,7 @@ Flags    indoors~
 Desc     A high point in Elders' square, home to 
 several obsidian gargoyles.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    22141
 Desc      Elders' square.~
@@ -2282,7 +2282,7 @@ Flags    indoors~
 Desc     A small storage area near the slaughterhouse, filled with 
 bottles of venom and bundles of feathers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22152
 Desc      The slaughterhouse.~
@@ -2298,7 +2298,7 @@ Flags    indoors dark~
 Desc     A side room behind the throne filled with 
 chests of gold and stolen Lordaeron artifacts.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22156
 Desc      Baron's throne.~
@@ -2314,7 +2314,7 @@ Flags    indoors~
 Desc     A small chamber where the necromancers study their 
 advanced spells.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22141
 Desc      Elders' square.~
@@ -2330,7 +2330,7 @@ Flags    indoors~
 Desc     A room for storing weaponry for the 
 Crusade combatants.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22116
 Desc      Crusader's square.~
@@ -2346,7 +2346,7 @@ Flags    indoors~
 Desc     A small room in the back of the bastion dedicated 
 to the memory of the Crusade's fallen.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22118
 Desc      Hall of valour.~
@@ -2362,7 +2362,7 @@ Flags    indoors~
 Desc     A high stone landing near the Slaughterhouse, 
 offering a view of the eastern city streets.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22151
 Desc      Slaughter square.~
@@ -2378,7 +2378,7 @@ Flags    indoors~
 Desc     A small side room used for the repair of damaged 
 blueprints and sorting equipment.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22109
 Desc      Sorting room.~
@@ -2393,7 +2393,7 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet, central square in the middle of the city.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22101
 Desc      The entry square.~
@@ -2410,12 +2410,12 @@ Desc     A narrow, stone-lined tunnel behind Baron Rivendare's throne
 leads toward a hidden opening in the side of the 
 mountain, offering a quick way out.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22156
 Desc      Baron's throne.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    22100
 Desc      The entrance gates.~
@@ -2430,12 +2430,12 @@ Flags    indoors~
 Desc     A narrow alleyway leading toward the Slaughterhouse. 
 Bile spewers patrol the path in pairs.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22151
 Desc      Slaughter square.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22182
 Desc      Middle of the gauntlet.~
@@ -2451,12 +2451,12 @@ Flags    indoors~
 Desc     The deepest part of the alleyway. The air here is 
 toxic and green with plague gas.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22181
 Desc      Gauntlet entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    22183
 Desc      Toward the back gate.~
@@ -2472,7 +2472,7 @@ Flags    indoors~
 Desc     The end of the alleyway. A heavy stone gate leads 
 back toward the Eastern Plaguelands.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22182
 Desc      Middle gauntlet.~
@@ -2488,7 +2488,7 @@ Flags    indoors~
 Desc     A dark corner of the western city where the fire is 
 particularly intense.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22102
 Desc      Burning way.~
@@ -2504,7 +2504,7 @@ Flags    indoors~
 Desc     A stone building used for storing grain, now a shell 
 filled with plague-slimes.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22102
 Desc      Burning way.~
@@ -2519,7 +2519,7 @@ Sector   city~
 Flags    indoors~
 Desc     A bridge connecting two high buildings in King's Square.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22104
 Desc      King's square.~
@@ -2535,7 +2535,7 @@ Flags    indoors dark~
 Desc     A shop that was looted during the initial invasion, 
 filled with broken furniture.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    22104
 Desc      King's square.~
@@ -2551,7 +2551,7 @@ Flags    indoors~
 Desc     A large room in the bastion where recruits 
 train in holy combat.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22116
 Desc      Crusader's square.~
@@ -2566,7 +2566,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small, well-furnished room near the Bastion throne.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22121
 Desc      Dathrohan's throne.~
@@ -2581,7 +2581,7 @@ Sector   underground~
 Flags    indoors dark~
 Desc     A natural cave hidden beneath a ziggurat in Elders' square.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    22144
 Desc      Spider ziggurat.~
@@ -2597,7 +2597,7 @@ Flags    indoors dark~
 Desc     A quiet room in the undead quarter filled with 
 miserable souls.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22141
 Desc      Elders' square.~
@@ -2612,7 +2612,7 @@ Sector   city~
 Flags    indoors~
 Desc     A narrow trail leading toward the Slaughterhouse.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22150
 Desc      Slaughterhouse road.~
@@ -2628,7 +2628,7 @@ Flags    indoors~
 Desc     A high stone landing offering a commanding view 
 of the western city.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22118
 Desc      Hall of valour.~
@@ -2644,7 +2644,7 @@ Flags    indoors dark~
 Desc     A dark cellar filled with piles of bones and 
 undelivered mail.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    22109
 Desc      Sorting room.~
@@ -2659,7 +2659,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where the cannons are repaired.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22125
 Desc      The arsenal.~
@@ -2674,7 +2674,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A side storage room for heavy iron bars.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22126
 Desc      The smithy.~
@@ -2690,7 +2690,7 @@ Flags    indoors~
 Desc     A high point in Elders' square, home to 
 several rockwing gargoyles.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    22141
 Desc      Elders' square.~
@@ -2705,7 +2705,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room filled with stitched-abominations.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    22152
 Desc      The slaughterhouse.~
@@ -2721,7 +2721,7 @@ Flags    indoors~
 Desc     A side room filled with Baron Rivendare's 
 personal guard.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    22155
 Desc      Keep entrance.~
@@ -2736,7 +2736,7 @@ Sector   city~
 Flags    indoors~
 Desc     A hidden alleyway connecting the two quarters.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    22101
 Desc      Entry square.~

@@ -569,13 +569,13 @@ Desc     The gloomy trees of Duskwood abruptly die off as you enter this steep,
 desolate canyon. The air is unnaturally still and smells of sulfur and
 dry dust. The sky above is perpetually choked with dark, swirling clouds.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13029
 Desc      The road back to Duskwood.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13501
 Desc      The path winds deeper into the pass.
@@ -591,13 +591,13 @@ Desc     Shattered boulders and petrified tree stumps litter the sides of the
 canyon. The wind whistles eerily through the cracks in the stone. You
 feel a profound sense of dread settling over you.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13500
 Desc      The entrance of the ravine.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13502
 Desc      A bridge over a dry riverbed.
@@ -614,19 +614,19 @@ Desc     A crumbling stone bridge spans a deep, completely dry riverbed. Massive
 Flesheating Worms occasionally burrow through the cracked earth below,
 searching for the corpses of foolish travelers.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13501
 Desc      The desolate path.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13503
 Desc      An ogre campsite.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    13509
 Desc      The dry riverbed.
@@ -642,19 +642,19 @@ Desc     A crude, filthy camp set up by the starving Deadwind Ogres. Piles of
 gnawed bones and shattered armor are scattered around a smoldering fire.
 The brutes here are highly aggressive and desperately hungry.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13502
 Desc      Deadman's Crossing.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13504
 Desc      A dark, reeking cave.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13505
 Desc      The barren valley.
@@ -673,7 +673,7 @@ Desc     The stench of dark magic is suffocating inside this shallow cave. Ogres
 twisted by the corruption of the pass practice destructive fel spells
 here, drawing power directly from the tainted earth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13503
 Desc      The ogre campsite.
@@ -691,19 +691,19 @@ Desc     The canyon widens slightly, revealing a vast expanse of dead, grey dirt
 Nothing grows here. The silence is broken only by the shrieks of the
 massive bats diving from the cliffs above.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13503
 Desc      The ogre campsite.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13510
 Desc      A fork in the pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13506
 Desc      A gorge choked with webs.
@@ -721,13 +721,13 @@ Desc     The canyon walls here are completely coated in thick, black spider silk
 Mummified remains are suspended high above. This is the hunting ground
 of the colossal Shadow Weaver spiders.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13505
 Desc      The barren valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13507
 Desc      The heart of the spider's lair.
@@ -746,13 +746,13 @@ Desc     The webs are so thick here they block out the sky entirely, creating a
 dark, terrifying tunnel. You can hear the skittering of countless eight-
 legged horrors moving through the shadows just out of sight.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13506
 Desc      The web-choked gorge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13508
 Desc      A side path leading back to the valley.
@@ -768,13 +768,13 @@ Sector   hills~
 Desc     A narrow, perilous path that skirts the edge of the spider's territory.
 The ground is unstable and crumbles easily beneath your boots.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13507
 Desc      The Spider's Lair.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    13510
 Desc      The fork in the pass.
@@ -790,7 +790,7 @@ Desc     You are standing in the dry riverbed beneath Deadman's Crossing. The
 dirt is loose and shifting. Suddenly, the ground erupts as massive,
 flesheating worms burst from the soil to attack!
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    13502
 Desc      The bridge above.
@@ -808,25 +808,25 @@ eventually toward the Swamp of Sorrows. To the south, the canyon widens,
 revealing the terrifying, looming presence of Medivh's tower in the
 distance.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13505
 Desc      The barren valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13511
 Desc      The northern path.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13512
 Desc      The path to Karazhan.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13508
 Desc      The darkened trail.
@@ -842,7 +842,7 @@ Desc     This rough path winds northward through the mountains, leading toward t
 dismal wetlands of the Swamp of Sorrows. Deadwind Ogres heavily patrol
 this route to ambush merchants.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13510
 Desc      The fork in the pass.
@@ -859,13 +859,13 @@ Desc     The oppressive aura of dark magic becomes physically heavy here. The sk
 is a sickly, swirling purple. The trees are twisted into agonizing shapes.
 You are approaching the Guardian's domain.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13510
 Desc      The fork in the pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13513
 Desc      The hanging trees.
@@ -881,13 +881,13 @@ Desc     The petrified trees here are draped with tattered black cloth and ruste
 iron cages. The air is freezing. Restless Phantoms drift through the
 branches, mourning their eternal imprisonment.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13512
 Desc      The path back to the fork.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13514
 Desc      The foggy incline.
@@ -905,13 +905,13 @@ Desc     A thick, unnatural fog rolls down the hill from the ruined village abov
 It chills you to the bone and obscures your vision. You hear the distinct,
 terrifying sound of ghostly hooves striking the stone.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13513
 Desc      The hanging trees.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    13515
 Desc      The Rider's Patrol.
@@ -927,19 +927,19 @@ Desc     The fog parts slightly to reveal a terrifying sight. Dark Riders, clad
 in heavy black cloaks and mounted on spectral stallions, patrol this
 ridge. They are searching for artifacts and deal death to all intruders.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    13514
 Desc      The foggy incline.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13517
 Desc      The ruined village of Grand Hamlet.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13516
 Desc      A dark encampment.
@@ -958,7 +958,7 @@ Desc     A chilling, shadowy camp hidden off the main path. Ariden, the leader
 of the Dark Riders, commands his forces from here. The ground is frozen
 solid, and the dark magic is palpable.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13515
 Desc      The Rider's Patrol.
@@ -977,25 +977,25 @@ Desc     Once a thriving village that served the tower, Grand Hamlet was complet
 destroyed when Medivh's madness was unleashed. Now, it is a cursed ruin
 inhabited only by ghosts and lingering nightmares.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13515
 Desc      The Rider's Patrol.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13520
 Desc      The slopes of Karazhan.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13518
 Desc      The ruined tavern.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    13519
 Desc      The collapsed blacksmith.
@@ -1013,7 +1013,7 @@ Desc     The roof has completely caved in. Shattered tables and broken glass lit
 the floor. Restless Phantoms of the former patrons drift aimlessly here,
 trapped in their final, terrifying moments.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13517
 Desc      The ruined village center.
@@ -1032,7 +1032,7 @@ Desc     An old forge that still glows with a faint, spectral heat. The ghost of
 Grimand Elmore, a master dwarven smith, continuously strikes a ghostly
 anvil here, cursed to work for eternity.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    13517
 Desc      The ruined village center.
@@ -1050,13 +1050,13 @@ Desc     You have passed the village and now stand on the steep, rocky incline
 leading directly up to the Guardian's tower. The sheer size of the
 structure is staggering. It blocks out the sky entirely.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13517
 Desc      Grand Hamlet.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    13521
 Desc      The Guardian's Path.
@@ -1072,19 +1072,19 @@ Desc     A massive cobblestone path leading to the front gates. The stones are
 cracked and overgrown with dead weeds. The air hums with immense, barely
 contained arcane energy.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    13520
 Desc      The slopes below.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13524
 Desc      The gates of Karazhan.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13522
 Desc      The Master's Cellar entrance.
@@ -1101,13 +1101,13 @@ Desc     A heavy iron grate has been torn off its hinges, revealing a dark stair
 leading beneath the tower grounds. This is the entrance to the vast,
 cursed wine cellars of Karazhan.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13521
 Desc      The Guardian's Path.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    13523
 Desc      The depths of the cellar.
@@ -1124,7 +1124,7 @@ Desc     The cellars are massive and completely pitch black. Hundreds of wine
 casks rot in the dark. Restless Phantoms and horrors born of wild magic
 haunt these suffocating tunnels.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    13522
 Desc      The cellar entrance.
@@ -1142,13 +1142,13 @@ Desc     You stand before the colossal iron gates of the courtyard. They are
 twisted and warped, as if something massive tried to break *out*. You
 can see the spectral inhabitants of the tower wandering the grounds inside.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13521
 Desc      The Guardian's Path.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13525
 Desc      Enter the courtyard.
@@ -1164,25 +1164,25 @@ Desc     The grand courtyard of the Guardian. Karazhan Phantoms, dressed in the
 finery of a bygone era, waltz silently to music only they can hear. The
 curse has trapped them in a horrific, never-ending gala.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13524
 Desc      The exterior gates.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13527
 Desc      The stables.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    13526
 Desc      The servant's quarters.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13528
 Desc      The Guardhouse.
@@ -1201,7 +1201,7 @@ Desc     The ruined quarters for the tower's massive staff. Phantom Attendants
 drift through the rubble, endlessly offering spectral wine and food to
 guests that died decades ago.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    13525
 Desc      The courtyard.
@@ -1220,7 +1220,7 @@ Desc     The magnificent stables of the tower. Spectral Stallions stand in their
 rotting stalls, perfectly preserved as ghostly apparitions. A heavy layer
 of dust covers the saddles and bridles.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13525
 Desc      The courtyard.
@@ -1238,13 +1238,13 @@ Desc     The final line of defense before the main doors of the tower. Heavily
 armored Haunted Footmen stand at attention here, raising their ghostly
 weapons the moment you step inside.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13525
 Desc      The courtyard.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13529
 Desc      The Great Wooden Doors.
@@ -1264,13 +1264,13 @@ small crack in the heavy timber allows a brave soul to squeeze through.
 A shimmering magical projection, Medivh's Echo, stands here, eternally 
 warning travelers to turn back before the master's madness consumes them too.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13528
 Desc      The Guardhouse.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction in~
 ToRoom    13530
 Desc      Slip through the cracked oak doors.
@@ -1292,7 +1292,7 @@ above, while the sounds of a spectral opera echo from the halls. A
 swirling, violet portal dominates the foyer, blocking the path into 
 the true depths of the raid.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    13529
 Desc      Squeeze back outside through the heavy wooden doors.

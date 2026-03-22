@@ -937,12 +937,12 @@ complex. The sound of thousands of tons of falling water
 echoes through the halls. To the north, a tunnel of glowing 
 orange crystals leads deeper into the dark.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    35055
 Desc      Return to the surface of Desolace.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19001
 Desc      The cavern entrance.~
@@ -959,12 +959,12 @@ a soft green light. The air is stagnant and smells of damp
 earth. Small subterranean beasts can be heard scurrying 
 just out of sight.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19000
 Desc      The entrance portal.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19002
 Desc      The cavern forks.~
@@ -982,17 +982,17 @@ sharp and metallic as the tunnel becomes lined with bright
 orange crystals. To the east, the light turns a deep, 
 ominous purple.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19001
 Desc      The whispering caverns.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    19003
 Desc      The Orange Crystal Wing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    19015
 Desc      The Purple Crystal Wing.~
@@ -1009,12 +1009,12 @@ Desc     The crystals here are sharp and emit a steady heat. Maraudine
 centaurs patrol these halls, their heavy hooves clicking 
 against the stone.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    19002
 Desc      Return to the fork.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    19004
 Desc      Deep orange wing.~
@@ -1031,12 +1031,12 @@ Desc     Giant orange crystals grow like trees from the floor and
 ceiling, making navigation difficult. Subterranean flayers 
 hide among the jagged edges.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    19003
 Desc      Wing entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    19005
 Desc      Toward Noxxion's Lair.~
@@ -1055,12 +1055,12 @@ liquid. The air is toxic and the scent of acid is
 overwhelming. In the center of the room, a massive slime 
 shifts and gurgles.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    19004
 Desc      The crystal spires.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19006
 Desc      The inner garden approach.~
@@ -1079,12 +1079,12 @@ Desc     The crystals give way to a damp, subterranean garden. Massive
 mushrooms and tangles of vines choke the path. The sound of 
 water is much louder here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19005
 Desc      Noxxion's lair.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19007
 Desc      Toward Razorlash.~
@@ -1101,12 +1101,12 @@ Desc     The vines here are active, twitching and lashing out at
 movement. A gargantuan plant-creature stands in the center 
 of a clearing, its vines covered in sharp thorns.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19006
 Desc      The fungal garden.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    19030
 Desc      The descent to the inner falls.~
@@ -1125,12 +1125,12 @@ Desc     The crystals here emit a cold, dim purple light. The air
 smells of brimstone and old magic. Satyrs prowl the 
 shadows, their eyes glowing with demonic fire.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    19002
 Desc      Return to the fork.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    19016
 Desc      Deep purple wing.~
@@ -1147,12 +1147,12 @@ Desc     Large obsidian shards have been carved with demonic runes.
 Shadowshard elementals move between the formations, 
 guarding the path to their master.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    19015
 Desc      Wing entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    19017
 Desc      Toward Lord Vyletongue.~
@@ -1170,12 +1170,12 @@ Desc     A large, circular room filled with the hum of the Twisting
 Nether. Lord Vyletongue stands upon a raised dais, 
 conducting a dark ritual with his loyal rogues.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    19016
 Desc      The shadow spires.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19018
 Desc      Toward the central garden.~
@@ -1195,12 +1195,12 @@ Desc     A beautiful but dangerous garden of subterranean flowers and
 ferns. Sprite darters flit through the air, while 
 large spiders hide in the undergrowth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19017
 Desc      Vyletongue's sanctum.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19019
 Desc      Toward Celebras.~
@@ -1217,12 +1217,12 @@ Desc     The trees here are twisted and grey, their leaves turned
 to dust. Celebras the Cursed wanders this grove, his 
 wails echoing off the cavern walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19018
 Desc      The lush grotto.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    19020
 Desc      The pool of Celebras.~
@@ -1241,12 +1241,12 @@ Desc     A small, crystal-clear pool fed by a trickle of water from
 the ceiling. The spirit of Zaetar is said to linger 
 here, watching over his son.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    19019
 Desc      The cursed grove.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19030
 Desc      The descent to the inner falls.~
@@ -1264,17 +1264,17 @@ vertical drop. A gargantuan waterfall plunges into the
 darkness below, creating a constant mist. A narrow ledge 
 winds down into the depths.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    19007
 Desc      The thicket of vines.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    19020
 Desc      The pool of the keeper.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    19031
 Desc      Descend the falls ledge.~
@@ -1290,12 +1290,12 @@ Desc     The ledge is slippery and narrow. Tinkerer Gizlock has set
 up a small camp here, surrounded by piles of discarded 
 gears and explosives.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    19030
 Desc      The top of the falls.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    19032
 Desc      Middle falls ledge.~
@@ -1314,12 +1314,12 @@ Desc     Halfway down the descent. The roar of the water is deafening.
 Hydras lurk in the small pools that have formed on the 
 rocky shelves.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    19031
 Desc      Upper ledge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    19033
 Desc      Lower falls ledge.~
@@ -1337,12 +1337,12 @@ Desc     You reach the bottom of the ledge. The cavern opens into a
 massive subterranean lake. A bridge of natural stone 
 leads across the water toward a high, sun-drenched plateau.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    19032
 Desc      Middle ledge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19034
 Desc      The bridge of stone.~
@@ -1359,12 +1359,12 @@ Desc     A bridge of solid granite crossing the churning water.
 Landslide stands in the center, his massive form 
 blocking the way to the Princess.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19033
 Desc      The falls ledge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19035
 Desc      The plateau approach.~
@@ -1383,12 +1383,12 @@ Desc     The ground here is level and covered in soft sand. Stone
 guardians patrol the approach, their eyes glowing with 
 elemental light.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19034
 Desc      The bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19036
 Desc      The Throne of the Princess.~
@@ -1406,12 +1406,12 @@ stands before the tomb of Zaetar, her multiple arms
 waving in a grotesque dance. Primal energy pulses from 
 her body, shaking the very air.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19035
 Desc      The approach.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    19050
 Desc      The exit path.~
@@ -1429,7 +1429,7 @@ Flags    indoors~
 Desc     A quiet corner of the orange wing filled with small crystal 
 clusters and the scent of ozone.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    19003
 Desc      Orange wing entrance.~
@@ -1445,7 +1445,7 @@ Flags    indoors~
 Desc     A narrow tunnel lined with razor-sharp crystals. Deep borers 
 can be heard grinding through the rock.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    19004
 Desc      Crystal spires.~
@@ -1461,7 +1461,7 @@ Flags    indoors~
 Desc     A small chamber filled with pools of corrosive slime and 
 discarded bones.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19005
 Desc      Noxxion's lair.~
@@ -1477,7 +1477,7 @@ Flags    indoors~
 Desc     A dark alcove in the purple wing where satyrs rest between 
 patrols.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19015
 Desc      Purple wing entrance.~
@@ -1493,7 +1493,7 @@ Flags    indoors~
 Desc     A shimmering tunnel where the purple light is particularly 
 intense. Shadowshard seers focus their magic here.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    19016
 Desc      Shadow spires.~
@@ -1509,7 +1509,7 @@ Flags    indoors~
 Desc     A quiet grotto filled with purple lotus and the scent of 
 decayed magic.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    19018
 Desc      Lush grotto.~
@@ -1525,7 +1525,7 @@ Flags    indoors~
 Desc     A dense thicket of lashweed and vines that seems to 
 vibrate with a low hum.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19007
 Desc      Razorlash's thicket.~
@@ -1541,7 +1541,7 @@ Flags    indoors~
 Desc     A small clearing filled with blood-petal sprouts dancing 
 in the damp air.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    19018
 Desc      Lush grotto.~
@@ -1557,7 +1557,7 @@ Flags    indoors~
 Desc     A rocky shelf overlooking the lower falls, frequently 
 patrolled by cavern shamblers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    19033
 Desc      Lower falls ledge.~
@@ -1573,7 +1573,7 @@ Flags    indoors~
 Desc     A dark corner of the subterranean lake where the water is 
 particularly still and deep.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19033
 Desc      Lower falls ledge.~
@@ -1589,7 +1589,7 @@ Flags    indoors~
 Desc     A row of ancient, stone trees standing in a perfect circle. 
 Petrified protectors stand motionless between the trunks.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    19035
 Desc      Plateau approach.~
@@ -1605,7 +1605,7 @@ Flags    indoors~
 Desc     A high ledge overlooking the Princess's throne, where 
 elite centaur warriors prepare for the final defense.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    19036
 Desc      Theradras's throne.~
@@ -1621,7 +1621,7 @@ Flags    indoors~
 Desc     A secret pool tucked away behind the falls. The water is 
 pure and glows with a soft, natural light.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    19032
 Desc      Middle falls ledge.~
@@ -1639,12 +1639,12 @@ leads toward a hidden opening in the cliffs of Desolace,
 offering a quick way out for those who have defeated 
 the Earth Song corruption.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    19036
 Desc      Theradras's throne.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    19000
 Desc      The entrance portal.~

@@ -740,12 +740,12 @@ stands between the jagged desert rocks and the ancient city of
 the Sandfury trolls. The air is dry and smells of old incense 
 and scorched earth.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    33001
 Desc      Return to the Tanaris desert.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18041
 Desc      The path leads into the city streets.~
@@ -761,12 +761,12 @@ Desc     Ancient stone pavers are nearly buried under drifting dunes. To
 the north, the city opens up into a wide plaza. High stone walls 
 on either side are carved with the fierce visages of troll gods.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18040
 Desc      The entrance gates.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18042
 Desc      The thoroughfare continues.~
@@ -784,17 +784,17 @@ Tunnels branch off in several directions. To the west, the
 sound of hissing suggests a beast's lair, while the north 
 leads toward the sacred temples.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18041
 Desc      The thoroughfare.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    18043
 Desc      The path to Antu'sul.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18047
 Desc      The path to the temple district.~
@@ -811,12 +811,12 @@ Desc     The well-maintained stone of the plaza gives way to jagged
 rock and loose sand. Large, multi-legged tracks are visible 
 in the dust, leading deeper into the western canyons.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    18042
 Desc      Return to the plaza.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    18044
 Desc      The trail continues.~
@@ -833,12 +833,12 @@ Desc     The canyon walls tower high overhead, casting long, dark
 shadows even in the midday heat. The air is stagnant and 
 heavy with the scent of reptile musk.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    18043
 Desc      The trail entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18045
 Desc      The approach to the warden.~
@@ -856,12 +856,12 @@ Desc     The ground is littered with the petrified remains of unlucky
 explorers. The cave mouth to the north is framed by massive 
 rib-bones of some long-dead desert beast.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18044
 Desc      The trail bend.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18046
 Desc      Antu'sul's Lair.~
@@ -878,7 +878,7 @@ Desc     Antu'sul, the Warden of the Basilisks, stands before a large
 clutch of eggs. His pets hiss and snap their jaws, protecting 
 their master and their future brood.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18045
 Desc      The approach.~
@@ -898,17 +898,17 @@ sandstone walls, and braziers of blue fire burn eternally at
 the intersections. To the east, a gloomy path leads toward 
 the city's necropolis.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18042
 Desc      The plaza.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    18048
 Desc      The path to the Graveyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18055
 Desc      The path to the Great Pyramid.~
@@ -925,12 +925,12 @@ Desc     The transition to the graveyard is marked by a sudden drop in
 temperature. The air is still, and the only sound is the 
 faint rattle of bone charms hanging from the walls.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    18047
 Desc      Return to the temple way.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    18049
 Desc      The outer tombs.~
@@ -947,17 +947,17 @@ Desc     Rows of stone sarcophagi are built into the canyon walls.
 Most have been pried open, their contents looted or 
 reanimated by dark voodoo.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    18048
 Desc      The ancestor path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18050
 Desc      The Martyr's Rest entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    18052
 Desc      Zum'rah's Graveyard.~
@@ -975,12 +975,12 @@ Desc     A heavy stone slab engraved with protective runes blocks the
 way to the inner sanctum of the priests. The air smells of 
 dried herbs and old parchment.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18049
 Desc      The outer tombs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18051
 Desc      Theka's Tomb.~
@@ -997,7 +997,7 @@ Desc     A ghostly light illuminates this circular chamber. Theka the
 Martyr floats over his own physical remains, clutching the 
 sacred tablets he swore to protect even in death.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18050
 Desc      The entrance.~
@@ -1016,12 +1016,12 @@ graves. The ground is soft and seems to churn with a life
 of its own. Witch Doctor Zum'rah stands at the far end, 
 conducting a dark ritual.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    18049
 Desc      The outer tombs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    18053
 Desc      The heart of the graveyard.~
@@ -1038,7 +1038,7 @@ Desc     The necromantic energy here is overwhelming. Zum'rah cackles
 as he calls forth shadowy illusions to strike at any who 
 dare interrupt his work.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    18052
 Desc      The entrance.~
@@ -1057,7 +1057,7 @@ Flags    indoors dark~
 Desc     A small, hidden alcove behind a large tombstone. Zum'rah 
 keeps his most potent mojos and stolen artifacts hidden here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18053
 Desc      Return to the graveyard.~
@@ -1074,12 +1074,12 @@ Desc     The road widens as it approaches the city's massive sacrificial
 pyramid. Elite trolls in ceremonial armor patrol the way, 
 ensuring the ritual sacrifices are not interrupted.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18047
 Desc      The temple district.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18056
 Desc      The path continues north.~
@@ -1096,12 +1096,12 @@ Desc     The massive silhouette of the pyramid looms ahead. The sound
 of drums begins to thrum through the ground, a rhythmic, 
 pounding beat that matches the city's heart.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18055
 Desc      The southern path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18057
 Desc      The base of the Pyramid.~
@@ -1119,17 +1119,17 @@ Desc     You stand at the foot of hundreds of steep stone steps. Blood
 stains the cracks in the masonry, and the scent of death 
 is carried on the desert wind.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18056
 Desc      The path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18058
 Desc      The entrance to the pyramid cage.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    18060
 Desc      Climb the sacrificial stairs.~
@@ -1146,7 +1146,7 @@ Desc     A small room built into the base of the pyramid. Nekrum
 Gutchewer prepares his blades here, surrounded by the 
 cages of those waiting for their turn on the altar.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18057
 Desc      Return to the base.~
@@ -1163,7 +1163,7 @@ Flags    indoors~
 Desc     A high stone ledge overlooking the lower city. The Prophet Sul 
 stands here, watching the dunes for signs and portents.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18057
 Desc      Return to the base.~
@@ -1180,12 +1180,12 @@ Flags    indoors~
 Desc     The climb is steep and exhausting. From here, you can see the 
 entirety of Zul'Farrak stretching out to the Tanaris horizon.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    18057
 Desc      The base.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    18061
 Desc      The middle stairs.~
@@ -1202,12 +1202,12 @@ Desc     Halfway up the pyramid. The drums are louder here, and the
 heat is intense. The steps are slick with a mixture of sand 
 and old blood.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    18060
 Desc      The lower stairs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    18062
 Desc      The upper stairs.~
@@ -1224,12 +1224,12 @@ Desc     You reach the top of the pyramid. The altar is visible just a
 few steps further. Shadowpriest Sezz'ziz stands waiting 
 to conduct the final rite.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    18061
 Desc      The middle stairs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18063
 Desc      The Altar of Sacrifice.~
@@ -1246,12 +1246,12 @@ Desc     A massive slab of basalt sits at the peak of the pyramid.
 Shadowpriest Sezz'ziz stands over the altar, his hands 
 stained with the blood of his victims.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18062
 Desc      The upper stairs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    18064
 Desc      The Temple of the Sun.~
@@ -1269,12 +1269,12 @@ Desc     Beneath the sacrificial peak lies the inner temple. The walls
 are covered in pure gold, reflecting the light of the sun 
 into every corner.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    18063
 Desc      Return to the altar.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18065
 Desc      The Chief's Way.~
@@ -1292,12 +1292,12 @@ Desc     This path is reserved for the highest-ranking members of the
 Sandfury tribe. The walls are lined with captured weapons 
 and shields from the tribe's many wars.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18064
 Desc      The Temple of the Sun.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18066
 Desc      The chief's path continues.~
@@ -1313,12 +1313,12 @@ Flags    indoors~
 Desc     The hallway turns sharply. Ruuzlu, the Chief's right hand, 
 patrols this area with a group of elite blood-drinkers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18065
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18067
 Desc      The approach to the Chief's Seat.~
@@ -1336,12 +1336,12 @@ Desc     The walls are covered in the scalps of the tribe's enemies.
 Chief Ukorz Sandscalp can be heard shouting orders from 
 the room ahead.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18066
 Desc      The inner hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    18068
 Desc      Chief Ukorz's Hall.~
@@ -1359,12 +1359,12 @@ Desc     Chief Ukorz Sandscalp sits upon a throne of ivory and gold.
 He is a figure of immense physical power, surrounded by his 
 most loyal warriors.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    18067
 Desc      The approach.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18069
 Desc      The path to the Sacred Pool.~
@@ -1382,12 +1382,12 @@ Flags    indoors~
 Desc     The dry desert air is suddenly replaced by a cool, moist 
 breeze. The sound of splashing water echoes from the north.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18068
 Desc      Ukorz's Hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18070
 Desc      The Pool of Gahz'rilla.~
@@ -1405,7 +1405,7 @@ cavern. A large bronze gong stands at the water's edge.
 Gahz'rilla, the three-headed hydra god, rises from the 
 depths to claim any who dare ring the gong.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18069
 Desc      The sacred path.~
@@ -1424,12 +1424,12 @@ Flags    indoors~
 Desc     A small, hidden tunnel leading away from the thoroughfare. 
 Thousands of small scarabs skitter across the floor.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18041
 Desc      The thoroughfare.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18072
 Desc      The deeper caverns.~
@@ -1445,12 +1445,12 @@ Flags    indoors~
 Desc     The walls are covered in thick webbing. Rare artifacts from 
 unlucky explorers are often found tangled in the silk.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18071
 Desc      The entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    18073
 Desc      A small webbed alcove.~
@@ -1467,7 +1467,7 @@ Flags    indoors~
 Desc     A quiet, dark corner of the caverns where a master scout 
 often hides to watch for intruders.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18072
 Desc      The deeper caverns.~
@@ -1483,7 +1483,7 @@ Flags    indoors~
 Desc     A quiet corner of the great plaza, filled with the scent of 
 dried herbs and old stone.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    18042
 Desc      The great plaza.~
@@ -1499,7 +1499,7 @@ Flags    indoors~
 Desc     A small room where city guards can find shade from the 
 relentless Tanaris sun.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    18042
 Desc      The great plaza.~
@@ -1515,7 +1515,7 @@ Flags    indoors~
 Desc     A secluded corner of the graveyard where the shadows seem 
 particularly long and cold.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18052
 Desc      Zum'rah's Graveyard.~
@@ -1531,7 +1531,7 @@ Flags    indoors~
 Desc     A row of forgotten tombs, their inscriptions worn away by the 
 blowing sands of the desert.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    18053
 Desc      Heart of the Graveyard.~
@@ -1547,7 +1547,7 @@ Flags    indoors~
 Desc     A small storage area at the base of the pyramid, filled with 
 ceremonial supplies.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    18057
 Desc      Base of the pyramid.~
@@ -1563,7 +1563,7 @@ Flags    indoors~
 Desc     A high, narrow ledge overlooking the Chief's Hall, used by 
 the guards to scan for trouble.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18068
 Desc      Ukorz's Hall.~
@@ -1580,12 +1580,12 @@ Desc     A narrow, hidden tunnel behind Gahz'rilla's pool leads toward
 the surface of Tanaris, offering a quick way out for those 
 who have defeated the Sandfury gods.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    18070
 Desc      The sacred pool.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    18040
 Desc      The entrance portal.~

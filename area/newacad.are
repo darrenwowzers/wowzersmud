@@ -5205,7 +5205,7 @@ Type N to move north to the next room in the Academy.  If you have already
 completed the rigors of the Academy and wish to test your combat mettle in
 the battlegrounds, type OPEN S or OPEN DOOR, then S to enter the arena.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10301
 Desc      A Stone Corridor
@@ -5213,14 +5213,14 @@ Desc      A Stone Corridor
 Flags     nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10382
 Keywords  door~
 Flags     isdoor closed nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    21280
 Desc      Above you is the entrance to the town of Darkhaven.
@@ -5272,28 +5272,28 @@ is where Domick will assist you in practicing your weapons, skills
 and spells.  When you are finished with your lessons, come back
 here and continue north through the Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10304
 Desc      Reading Room
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10303
 Desc      The Laboratory of Skills and Spells.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10300
 Desc      Entrance to Darkhaven Academy
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10306
 Desc      Abbigayle's Language Lessons.
@@ -5334,7 +5334,7 @@ Flags    nomob indoors nosummon noastral~
 Desc     You did it! You are an excellent student! To continue your education,
 please leave north. That will return you to the Reading room.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10304
 Desc      The Reading Room
@@ -5364,7 +5364,7 @@ HELP <spell, skill or weapon style>.  For general questions on practicing,
 type HELP PRACTICE.  The number of practice sessions you may gain at each
 level is determined by the amount of wisdom you have when you level.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10301
 Desc      A Stone Corridor
@@ -5396,21 +5396,21 @@ point. If at any time you become lost, type U to return to this room. Once
 you have successfully returned here, please continue to the north to
 explore the rest of the Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10314
 Desc      A Marble Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10301
 Desc      A Stone Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10307
 Desc      Wandering the Academy
@@ -5437,35 +5437,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process. 
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10389
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10388
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10387
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10390
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -5494,7 +5494,7 @@ a few practice sessions each time you wish to increase your fluency in a
 language.  Those who are intelligent, wise and lucky will find it takes
 fewer practice sessions to become adept at a language.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10301
 Desc      A Stone Corridor
@@ -5520,21 +5520,21 @@ be close by. You may also try to LOOK in adjoining rooms. You do this by
 typing LOOK <direction>. Your next move is to the west, to see what you
 are walking into, try typing EXIT and L W. 
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10304
 Desc      The Reading Room
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10309
 Desc      Wandering Darkhaven Academy, it looks safe
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10304
 Desc      Back to the beginning
@@ -5566,7 +5566,7 @@ ALWAYS consider a mob before fighting it the first time.  This will many
 times save your life, as mobs are often a lot more difficult then they
 outwardly appear.  Be careful and enjoy your fight.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10316
 Desc      A Dank Pit
@@ -5591,7 +5591,7 @@ may end up in a room you would rather not visit. Now, type OPEN N or OPEN
 DOOR. Next type EXIT, you will now see the north exit listed under "Exits".
 Type HELP OPEN to find out more information on doors.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10310
 Desc      An Enclosed Room
@@ -5600,21 +5600,21 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10307
 Desc      Wandering the Academy
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10311
 Desc      Lost in Darkhaven Academy
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10304
 Desc      Back to the beginning
@@ -5648,7 +5648,7 @@ gives you information on what level you may practice each, to what percent
 you are currently practiced in each, and what the maximum percent that you
 may practice each.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10309
 Desc      Wandering Darkhaven Academy
@@ -5680,21 +5680,21 @@ N, E, W, S, NE, NW, SE, SW, U, or D. There are also SOMEWHERE exits that
 use "leave", "climb", "enter", or just a word to use. To the north you
 will experience a hidden exit, use the room description to find the door name.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10312
 Desc      Lost in Darkhaven Academy
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10309
 Desc      Wandering Darkhaven Academy
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10304
 Desc      Back to the beginning
@@ -5718,14 +5718,14 @@ right word by typing LOOK <word>. For example, try LOOK GLOBES. Sometimes
 looking at other things in the rooms description will lead you to the word
 that will open the exit. 
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10311
 Desc      Lost in Darkhaven Academy
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10313
 Desc      door
@@ -5734,7 +5734,7 @@ Keywords  tapestry door~
 Flags     isdoor closed secret~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10304
 Desc      Back to the beginning
@@ -5790,7 +5790,7 @@ This is a where you will experience a Somewhere exit. To find your way
 out, try looking at the picture on the wall. If you can not figure it out, 
 you may leave by the up exit. Good luck!
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10312
 Desc      Lost in Darkhaven Academy
@@ -5799,14 +5799,14 @@ Keywords  door~
 Flags     isdoor closed~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10304
 Desc      Back to the beginning
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction somewhere~
 ToRoom    10302
 Keywords  crack~
@@ -5862,14 +5862,14 @@ experience points, and the experience needed for the next few levels.
 Use the help menu to get more information on the topics covered here,
 type HELP <subject>.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10315
 Desc      Preparing for combat
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10304
 Desc      The Reading Room
@@ -5897,21 +5897,21 @@ the most popular skills used to begin an attack are STEAL and BACKSTAB.
  
 Wands, staves and scrolls may also be used to start fights. 
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10317
 Desc      A Marble Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10314
 Desc      A Marble Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10316
 Desc      A Dank Pit
@@ -5938,14 +5938,14 @@ is done with the spell "word of recall" or reciting a recall scroll. You
 lose more experience when you recall from a fight then when you use wimpy
 or flee. Recall should be used as a last resort.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10308
 Desc      A Dank Pit
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10315
 Desc      Preparing for combat
@@ -5965,14 +5965,14 @@ of here is the Academy Healer, Lord Toric.  He will cast spells on you,
 to help with your fights. Sit with him until you are ready to proceed in
 your training.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10319
 Desc      The Academy Healer
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10315
 Desc      Preparing for combat
@@ -5990,7 +5990,7 @@ Desc     You see shields of every make and shape mounted on the walls here. Dona
 by the warriors who have passed through these hallowed halls before you. The
 clash and ring of steel can be heard coming from the floor beneath you.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10325
 Desc      Chamber of Trials for Warriors
@@ -6015,7 +6015,7 @@ to them. It is important to look at mobiles to read their descriptions.
 Many will have hints in their descriptions that will tell you what to
 say or do to get their favor.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10355
 Desc      The Room of Portals
@@ -6023,7 +6023,7 @@ Desc      The Room of Portals
 Flags     nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10317
 Desc      A Marble Corridor
@@ -6044,7 +6044,7 @@ lush forest. A light breeze touches your cheek and you look twice to make
 sure you are indeed in Darkhaven Academy. You see a soft glow coming from
 the floor.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10326
 Desc      Chamber of Trials for Druids
@@ -6064,7 +6064,7 @@ of dead leaves, blowing in the wind, fills your ears. As you grow to realize
 they are more whispers than leaves, you find yourself compelled. Willingly,
 you proceed to their source.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10327
 Desc      Chamber of Trials for Vampires
@@ -6084,7 +6084,7 @@ Every now and then you catch glimpses of shadows dancing across the wall.
 You can feel a slight breeze, as if someone has passed close by you. Upon
 searching the area, you confirm you are the only person in sight.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10328
 Desc      Chamber of Trials for Thieves
@@ -6103,7 +6103,7 @@ Desc     The pungent odour of sulphur is dominant here. Fine mists cover the flo
 and a harsh chanting seems to be coming from all around you. Thunder claps
 and bursts of light can be seen and heard coming from below you.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10329
 Desc      Chamber of Trials for Mages
@@ -6122,7 +6122,7 @@ Desc     A feeling of utter peace and tranquility fills your spirit, ahead you
 see the horrors of your nightmares come to life, not giving them a second
 glance you pass right through them to fulfill your destiny.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10330
 Desc      Chamber of Trials for Clerics
@@ -6150,35 +6150,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10339
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10342
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10340
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10341
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -6207,35 +6207,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10343
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10346
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10344
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10345
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -6264,35 +6264,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10347
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10350
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10348
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10349
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -6321,35 +6321,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10351
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10354
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10352
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10353
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -6378,35 +6378,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10335
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10338
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10336
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10337
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -6435,35 +6435,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10332
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10334
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10333
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10331
 Desc      A cage
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor
@@ -6485,7 +6485,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10330
 Desc      Chamber of Trials for Clerics
@@ -6518,7 +6518,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10330
 Desc      Chamber of Trials for Clerics
@@ -6547,7 +6547,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10330
 Desc      Chamber of Trials for Clerics
@@ -6574,7 +6574,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10330
 Desc      Chamber of Trials for Clerics
@@ -6607,7 +6607,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10329
 Desc      Chamber of Trials for Mages
@@ -6636,7 +6636,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10329
 Desc      Chamber of Trials for Mages
@@ -6662,7 +6662,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10329
 Desc      Chamber of Trials for Mages
@@ -6689,7 +6689,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10329
 Desc      Chamber of Trials for Mages
@@ -6722,7 +6722,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10325
 Desc      Chamber of Trials for Warriors
@@ -6751,7 +6751,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10325
 Desc      Chamber of Trials for Warriors
@@ -6777,7 +6777,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10325
 Desc      Chamber of Trials for Warriors
@@ -6804,7 +6804,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10325
 Desc      Chamber of Trials for Warriors
@@ -6837,7 +6837,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10326
 Desc      Chamber of Trials for Druids
@@ -6866,7 +6866,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10326
 Desc      Chamber of Trials for Druids
@@ -6892,7 +6892,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10326
 Desc      Chamber of Trials for Druids
@@ -6919,7 +6919,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10326
 Desc      Chamber of Trials for Druids
@@ -6952,7 +6952,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10327
 Desc      Chamber of Trials for Vampires
@@ -6981,7 +6981,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10327
 Desc      Chamber of Trials for Vampires
@@ -7007,7 +7007,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10327
 Desc      Chamber of Trials for Vampires
@@ -7034,7 +7034,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10327
 Desc      Chamber of Trials for Vampires
@@ -7066,7 +7066,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10328
 Desc      Chamber of Trials for Thieves
@@ -7095,7 +7095,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10328
 Desc      Chamber of Trials for Thieves
@@ -7121,7 +7121,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10328
 Desc      Chamber of Trials for Thieves
@@ -7148,7 +7148,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10328
 Desc      Chamber of Trials for Thieves
@@ -7175,7 +7175,7 @@ ready to face the Chamber of Trials, you can return to the south.  You
 notice a large certificate on the wall; at least you have something
 to read while you wait.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10319
 Desc      The Academy Healer
@@ -7263,14 +7263,14 @@ To the east is the Darkhaven Supply Store. You may purchase water and
 some meat. Once you have eaten and drunk, you will be ready to proceed
 north.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10358
 Desc      A Stone Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10357
 Desc      To the east is the Darkhaven Academy Supply Store.
@@ -7291,7 +7291,7 @@ in this world that will sell you keys, items or information in exchange
 for a few gold coins. Be sure to look at the mobiles for hints on these
 types of programs. 
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10356
 Desc      A Stone Corridor can be seen to the west.
@@ -7317,21 +7317,21 @@ were wearing and carrying are destroyed. You do not leave a corpse behind.
 You are then transported back to the Temple in Darkhaven. Going west will
 give you more information about death traps.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10360
 Desc      A Stone Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10356
 Desc      A Stone Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10359
 Desc      This is a DEATH TRAP!! The only one in the game that won't kill you!
@@ -7351,7 +7351,7 @@ have at the time.  Hints as to the placement of a death trap are sometimes
 given in the room that preceeds them.  Also remember to use "exit" and
 "look" to find these deadly rooms.  Note:  no DTS are found in Darkhaven.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10358
 Desc      A Stone Corridor
@@ -7369,14 +7369,14 @@ Desc     One final challenge remains for you. Then you may enter the battlegroun
 to further hone your combat skills. To the west is a creature that holds
 the visor of completion. Kill him and it is yours.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10358
 Desc      A Stone Corridor
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10361
 Desc      A Final Test
@@ -7395,12 +7395,12 @@ you. This room smells of decay. The walls are dripping with some sort of
 green ichor. It looks as if it is burning right through. You see a flash
 of light from the above, then it is gone.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10360
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10362
 Desc      A door leading to the Battlegrounds
@@ -7439,28 +7439,28 @@ level of the Academy. The battleground were supplied to allow you to further
 hone the combat skills learned in your schooling. Kill the beasts that wander
 here. If you wish to leave, exiting up will take you to Lord Toric.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10363
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10365
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10369
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10361
 Desc      A door that leads to the lower level of the Academy
@@ -7480,22 +7480,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10364
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10362
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10370
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7513,17 +7513,17 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10363
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10371
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7541,22 +7541,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10362
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10366
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10368
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7575,17 +7575,17 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10365
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10367
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7603,22 +7603,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10368
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10366
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10376
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7636,27 +7636,27 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10369
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10365
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10367
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10375
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7674,27 +7674,27 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10370
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10362
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10368
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10374
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7711,27 +7711,27 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10371
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10363
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10369
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10373
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7751,22 +7751,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10364
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10370
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10372
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7783,22 +7783,22 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10371
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10373
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10381
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7819,33 +7819,33 @@ of creature ... but what?  You can hear a load wail of pain coming from
 somewhere below!  Yet another sound catches your attention, as someone
 succumbs to death.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10372
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10370
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10374
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10380
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10406
 Desc      Below is a dark, muddy tunnel, leading deep underground.
@@ -7865,27 +7865,27 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10373
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10369
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10375
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10379
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7904,27 +7904,27 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10374
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10368
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10376
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10378
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7942,22 +7942,22 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10375
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10367
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10377
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -7974,22 +7974,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10378
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10376
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10386
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8007,27 +8007,27 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10379
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10375
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10377
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10385
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8044,27 +8044,27 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10380
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10374
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10378
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10384
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8082,27 +8082,27 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10381
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10373
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10379
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10383
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8119,22 +8119,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10372
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10380
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10382
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8152,23 +8152,23 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10300
 Flags     isdoor closed nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10381
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10383
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8211,22 +8211,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10382
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10380
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10384
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8243,22 +8243,22 @@ Desc     This area will allow you to further hone your combat skills. Kill the b
 that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10383
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10379
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10385
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8275,22 +8275,22 @@ Desc     You hear the howl of some unnatural beast echo off the walls. The groun
 is stained with dried blood, looking closer you see tracks of some sort
 of creature ... but what?
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10384
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10378
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10386
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Flags     nomob~
@@ -8308,21 +8308,21 @@ that wander here. If you wish to leave, exiting up will take you to the room
 for Toric, the Lord of Healing, in the Darkhaven Academy. You see some strange
 symbols glowing in the ground here.  They look like RUNES.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10385
 Desc      West Wall
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10377
 Desc      East Wall
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10319
 Desc      The Temple Of Darkhaven
@@ -8330,7 +8330,7 @@ Desc      The Temple Of Darkhaven
 Flags     nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10392
 Flags     isdoor closed~
@@ -8361,7 +8361,7 @@ if you have CONFIG +AUTOLOOT, there are times when your hands are full or
 you have reached maximum weight and will be unable to get everything from
 the corpse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10305
 Desc      Chamber of Trials
@@ -8388,7 +8388,7 @@ as "arena" in addition to their name. Also, all equipment available in the
 Academy is named "academy". You can WEAR ACADEMY or REMOVE ACADEMY in
 addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10305
 Desc      Chamber of Trials
@@ -8421,7 +8421,7 @@ and repaired. To see the condition of a piece of equipment, type EXAM <item>.
 If is it in need of repair, you need to find a blacksmith. Once in the room
 with the blacksmith, remove item to inventory and type REPAIR <item>.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10305
 Desc      Chamber of Trials
@@ -8447,7 +8447,7 @@ the corpse to the gods and they reward you for it. To use, type SAC CORPSE.
 You may also sacrifice unwanted items, by first dropping them on the ground,
 then typing SAC <item>. For more information on sacrifice, see the help.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10305
 Desc      Chamber of Trials
@@ -8471,7 +8471,7 @@ Desc     The freedom of the wild, always has it fascinated you. To be free in th
 land, independent of cities and civilizations. These thoughts flood your
 mind as you walk this hallway.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10305
 Desc      Chamber of Trials for Rangers
@@ -8490,12 +8490,12 @@ Desc     You are standing in an underground cavern, moss is prevalent along the 
 and walls. A steady dripping is echoing through the area and seems to be coming
 from everywhere.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10393
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    10386
 Flags     isdoor closed~
@@ -8528,12 +8528,12 @@ Flags    dark indoors nosummon noastral~
 Desc     The steady sound of hissing can be heard in the distance.  The air here
 is extremely humid, you are finding it very difficult to breathe.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10392
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10394
 #ENDEXIT
@@ -8548,17 +8548,17 @@ Flags    dark indoors nosummon noastral~
 Desc     You feel as if you are being pulled into the mire, the constant dampness
 of the cavern has caused the ground to be turned into a mud bog.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10393
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10395
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10396
 #ENDEXIT
@@ -8573,12 +8573,12 @@ Flags    dark indoors nosummon noastral~
 Desc     The steady sound of hissing can be heard in the distance, closer actually
 than you would like. The air here is humid and breathing is difficult.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10397
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10394
 #ENDEXIT
@@ -8595,7 +8595,7 @@ Flags    dark indoors nosummon noastral~
 Desc     You feel you are being pulled into the mire, the constant dampness and
 humidity have caused the ground to be transformed into a mud bog.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10394
 #ENDEXIT
@@ -8613,7 +8613,7 @@ Desc     You have inadvertently stumbled upon the cove of the Queen of the Nagas
 This room is littered with bloated corpses of adventurers who have been
 reported lost in the past few days.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10395
 #ENDEXIT
@@ -8638,7 +8638,7 @@ is no use of profanity on this or any note board.
 
 **--**     Any note posted here may be removed at any time.     **--**
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10300
 Desc      Entrance to Darkhaven Academy
@@ -8721,7 +8721,7 @@ Augurers come to meditate and reflect upon their activities of the
 day.  Small, spartan cots line the walls, each well-padded to make a
 comfortable resting place for an exhausted adventurer.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    10401
 Desc      Chamber of Trials for Augurers.
@@ -8761,35 +8761,35 @@ transferred to your inventory. You may suffer injury during the battle, so
 return here and type REST or SLEEP. This will speed your healing process.
 When you are finished healing, type WAKE or STAND to continue.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10402
 Desc      A cage.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10403
 Desc      A cage.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10404
 Desc      A cage.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10405
 Desc      A cage.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    10356
 Desc      A Stone Corridor.
@@ -8815,7 +8815,7 @@ inventory, type "drop <item>".  To wield a weapon, type "wield <weapon>".
 Many items may be damaged and repaired.  To see an item's condition, type
 "exam <item>".  To repair an item type "repair <item>" at a blacksmith.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10401
 Desc      Chamber of Trials for Augurers.
@@ -8841,7 +8841,7 @@ the corpse to the gods and they reward you for it (albeit minorly).  To use,
 type 'sac corpse'.  You may also sacrifice unwanted items by first dropping
 them and then typing 'sac <item>'.  See 'help sacrifice' for information.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    10401
 Desc      Chamber of Trials for Augurers.
@@ -8870,7 +8870,7 @@ are also sacrificed.  Even if you have 'config +autloot', there are times
 when your hands are full or you have reached maximum weight and will be
 unable to get everything from the corpse automatically.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10401
 Desc      Chamber of Trials for Augurers.
@@ -8897,7 +8897,7 @@ be referred to as "arena" in addition to their name.  Also, all equipment
 available in the Academy is named "academy".  You can 'wear academy' or
 'remove academy' in addition to the actual name of the item.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10401
 Desc      Chamber of Trials for Augurers.
@@ -8924,7 +8924,7 @@ similar to sweat.  Below your feet, the ground seems to sink slightly,
 barely handling your weight.  Crudely carved tunnels lead deeper into
 this underground chamber to the southwest and southeast.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    10373
 Desc      Above you is the Darkhaven Academy battlegrounds.
@@ -8932,14 +8932,14 @@ Desc      Above you is the Darkhaven Academy battlegrounds.
 Flags     nomob~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10407
 Desc      To the southeast is a tunnel leading away from the Battlegrounds.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10427
 Desc      To the southwest is a tunnel leading away from the Battlegrounds.
@@ -8958,12 +8958,12 @@ The earth under your feet is damp and sticking to your boots.  A
 squeal can be heard coming from the south.  You may want to return
 back to the safety of the Battlegrounds.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10408
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10406
 #ENDEXIT
@@ -8981,12 +8981,12 @@ light source.  Water drips slowly down the tunnel walls, adding to
 the moisture in the soil and humidity in the air.  This place does
 appear to be very welcoming.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10407
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10409
 #ENDEXIT
@@ -9004,12 +9004,12 @@ The earth under your feet is damp and sticking to your boots.  A
 squeal can be heard coming from the south.  You may want to return
 back to the safety of the Battlegrounds far towards the north.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10410
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10408
 #ENDEXIT
@@ -9027,12 +9027,12 @@ light source.  Water drips slowly down the tunnel walls, adding to
 the moisture in the soil and humidity in the air.  This place does
 appear to be very welcoming.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10409
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10411
 #ENDEXIT
@@ -9049,22 +9049,22 @@ to the east.  Sounds echo around you, coming from everywhere and
 nowhere. This place gives you a sick feeling in the pit of your
 stomach.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10410
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10412
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10420
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10416
 #ENDEXIT
@@ -9081,22 +9081,22 @@ Desc     The tunnel stops abruptly at the southern wall.  There are several
 openings leading away from the tunnel, into a large cavern.  You can
 hear a lot of noise in the area, and none of it sounds pleasant.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10411
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10416
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10420
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10413
 #ENDEXIT
@@ -9114,22 +9114,22 @@ many large hammers crashing against the stone walls, assault your every
 moment. Cries of death surround and torment you.  You get a distinct
 urge to move away from here as quickly, and unnoticed, as possible.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10416
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10414
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10412
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10417
 #ENDEXIT
@@ -9148,27 +9148,27 @@ drips of water roll down its face, collecting in a puddle at your feet.
 You have a desire to leave this place, and venture somewhere less
 deafening.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10417
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10413
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10415
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10416
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10418
 #ENDEXIT
@@ -9186,22 +9186,22 @@ many large hammers crashing against the stone walls, assault your every
 moment. Cries of death surround and torment you.  You get a distinct
 urge to move away from here as quickly, and unnoticed, as possible.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10418
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10414
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10417
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10419
 #ENDEXIT
@@ -9219,37 +9219,37 @@ cavern. Darkness and noise punctuate the devestating nothingness
 that fills this space.  If there is life to be found in this place, 
 you are sure you do not want to run across it.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10420
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10412
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10413
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10417
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10411
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10421
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10414
 #ENDEXIT
@@ -9269,42 +9269,42 @@ corner you may find two combatents struggling for life. You continue
 onwards through the gloom, your senses screaming for you to flee before
 it's too late.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10421
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10416
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10414
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10418
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10420
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10422
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10413
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10415
 #ENDEXIT
@@ -9321,37 +9321,37 @@ sounds and moisture.  The sound of water dripping and wails of pain and
 death can be heard all around you.  Whatever resides in this awful place
 does not welcome strangers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10422
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10417
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10415
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10419
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10421
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northwest~
 ToRoom    10423
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10414
 #ENDEXIT
@@ -9368,22 +9368,22 @@ Desc     The tunnel stops abruptly at the southern wall.  There are several
 openings leading away from the tunnel, into a large cavern.  You can
 hear a lot of noise in the area, and none of it sounds pleasant.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10423
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10418
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10422
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10415
 #ENDEXIT
@@ -9400,27 +9400,27 @@ sounds and moisture.  The sound of water dripping and wails of pain and
 death can be heard all around you.  Whatever resides in this awful place
 does not welcome strangers.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10411
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10416
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10421
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10412
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10417
 #ENDEXIT
@@ -9437,27 +9437,27 @@ film of an unknown source.  From all directions you are assaulted by
 howls of pain, and cries of death.  Moisture clings to your skin,
 making you feel much hotter then you should for the air temperature.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10420
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10417
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10422
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10416
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10418
 #ENDEXIT
@@ -9475,27 +9475,27 @@ cavern. Darkness and noise punctuate the devestating nothingness
 that fills this space.  If there is life to be found in this place,
 you are sure you do not want to run across it.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10421
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10418
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10423
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10417
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southwest~
 ToRoom    10419
 #ENDEXIT
@@ -9513,22 +9513,22 @@ to the west.  Sounds echo around you, coming from everywhere and
 nowhere. This place gives you a sick feeling in the pit of your
 stomach.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10424
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    10422
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10419
 #ENDEXIT
 
-#EXIT
+Exit
 Direction southeast~
 ToRoom    10418
 #ENDEXIT
@@ -9546,12 +9546,12 @@ light source.  Water drips slowly down the tunnel walls, adding to
 the moisture in the soil and humidity in the air.  This place does
 appear to be very welcoming.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10425
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10423
 #ENDEXIT
@@ -9569,12 +9569,12 @@ The earth under your feet is damp and sticking to your boots.  A
 squeal can be heard coming from the south.  You may want to return
 back to the safety of the Battlegrounds far towards the north.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    10426
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    10424
 #ENDEXIT
@@ -9592,12 +9592,12 @@ light source.  Water drips slowly down the tunnel walls, adding to
 the moisture in the soil and humidity in the air.  This place does
 appear to be very welcoming.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    10427
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    10425
 #ENDEXIT
@@ -9615,12 +9615,12 @@ The earth under your feet is damp and sticking to your boots.  A
 squeal can be heard coming from the south.  You may want to return
 back to the safety of the Battlegrounds.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    10426
 #ENDEXIT
 
-#EXIT
+Exit
 Direction northeast~
 ToRoom    10406
 #ENDEXIT

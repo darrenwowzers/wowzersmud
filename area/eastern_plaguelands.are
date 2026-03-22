@@ -946,12 +946,12 @@ the eastern bank, and the sky is a permanent shade of bruised
 orange. A wide, cracked road leads east into the heart of the 
 blight.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38103
 Desc      Return to the Western Plaguelands.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    38551
 Desc      The path leads into the Eastern Plaguelands.~
@@ -970,17 +970,17 @@ remarkably well-maintained. Several large plaguehounds prowl
 the perimeter, and the air carries the scent of sharpened 
 steel and wet fur.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38550
 Desc      Return to the river.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    38552
 Desc      Toward the Marris Farmhouse.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    38553
 Desc      Toward Corin's Crossing.~
@@ -998,7 +998,7 @@ Blightcaller stands near a large fireplace, cleaning a
 massive black longbow. His red eyes track your movement 
 with cold, predatory efficiency.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38551
 Desc      The stead entrance.~
@@ -1017,17 +1017,17 @@ Corin's Crossing is now a graveyard of stone and bone.
 The buildings are shattered, and the streets are filled 
 with the ghosts of the former residents.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38551
 Desc      The Marris Stead.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    38554
 Desc      Corin's Crossing East.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    38555
 Desc      The road to Stratholme.~
@@ -1045,12 +1045,12 @@ ruined inn. The air here is stagnant and the sound of
 distant wailing is constant. A Scourge plague cauldron 
 sits in the center of the town square.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38553
 Desc      Corin's Crossing West.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    38558
 Desc      Toward Light's Hope Chapel.~
@@ -1068,12 +1068,12 @@ mountains rise high into the smoke, while to the west,
 the blighted forest stretches toward the horizon. 
 Massive abomination-parts are seen in the ditches.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38553
 Desc      Return to Corin's Crossing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    38556
 Desc      The road continues north.~
@@ -1090,12 +1090,12 @@ Desc     The road turns sharply to the west as it approaches the massive
 white stone walls of the city. The sky here is dark with the 
 smoke of eternally burning buildings.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38555
 Desc      The southern road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    38563
 Desc      The Gates of Stratholme.~
@@ -1115,7 +1115,7 @@ shimmering white portal glows within the main gate, while
 high above, the shadow of a massive necropolis—Naxxramas—blots 
 out the sickly orange sky.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38556
 Desc      Return to the road.~
@@ -1132,12 +1132,12 @@ Desc     A deep, web-choked tunnel leading through the northern mountains.
 Massive spiders hang from the ceiling, their glowing eyes 
 reflecting your light.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38558
 Desc      The eastern tunnel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    38553
 Desc      Corin's Crossing.~
@@ -1154,12 +1154,12 @@ Desc     The tunnel widens here, opening into a large cavern filled
 with cocoons. The air is warm and moist, and the sound of 
 skittering legs is constant.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38557
 Desc      The western tunnel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    38559
 Desc      Toward Light's Hope.~
@@ -1178,17 +1178,17 @@ shining marble chapel stands atop the hill, protected by
 a series of spiked barricades and professional soldiers. 
 This is the heart of the Argent Dawn's resistance.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38558
 Desc      The terrorweb tunnel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    38560
 Desc      The Chapel Interior.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    38564
 Desc      The road to Tyr's Hand.~
@@ -1206,7 +1206,7 @@ of incense and old paper. Lord Maxwell Tyrosus stands near
 the altar, his silver armor reflecting the light of thousands 
 of candles.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38559
 Desc      The chapel entrance.~
@@ -1226,12 +1226,12 @@ sunbursts. Scarlet knights stand guard here, checking
 everyone for the slightest sign of infection. Beyond the 
 gates lies the last great stronghold of the Scarlet Crusade.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38564
 Desc      The road to Light's Hope.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    38562
 Desc      The Tyr's Hand Plaza.~
@@ -1248,7 +1248,7 @@ Desc     A grand cathedral built into the southern mountains. Grand
 Inquisitor Isillien stands atop a marble podium, leading 
 the assembled warriors in a prayer of absolute hatred.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38561
 Desc      The plaza gates.~
@@ -1267,12 +1267,12 @@ Desc     A wide road leading through a valley of dead trees. To the
 south, the high white walls of Tyr's Hand are visible. 
 Scarlet patrols are frequent here.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38559
 Desc      Light's Hope Chapel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    38561
 Desc      The Gates of Tyr's Hand.~
@@ -1289,7 +1289,7 @@ Desc     Once a productive apple orchard, the trees here are now
 twisted, skeletal remains. Frenzied bats roost in the 
 branches, waiting for something to pass below.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38551
 Desc      Return to the stead.~
@@ -1306,7 +1306,7 @@ Desc     A shallow depression filled with towering, blue and green
 mushrooms. The air is thick with spores, and the ground is 
 soft and spongy.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38554
 Desc      Corin's Crossing.~
@@ -1324,7 +1324,7 @@ Desc     The center of the fungal infestation. Massive mushrooms
 pulsate with a soft, bioluminescent light. Noxious 
 plaguebats circle above the spores.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38566
 Desc      The valley entry.~
@@ -1341,12 +1341,12 @@ Desc     A small village that was completely destroyed by the Scourge.
 The ruins are now haunted by the spirits of those who 
 died during the initial invasion.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38555
 Desc      Return to the road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    38569
 Desc      The Northdale Center.~
@@ -1363,7 +1363,7 @@ Desc     The heart of the ruined village. A small fountain, now
 cracked and dry, sits in the center of the square. 
 Skeletal berserkers roam the alleys.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38568
 Desc      The entrance.~
@@ -1380,12 +1380,12 @@ Desc     The ruins of an ancient troll city built into the northern
 cliffs. The architecture is a mixture of stone ziggurats 
 and Scourge-blight.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38555
 Desc      Return to the road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    38571
 Desc      The Zul'Mashar Ziggurat.~
@@ -1402,7 +1402,7 @@ Desc     The peak of the troll ruins. Mossflayer shadowhunters
 conduct dark rituals here, calling upon the Loa of 
 the dead to protect their ruined home.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38570
 Desc      The entrance.~
@@ -1419,7 +1419,7 @@ Flags    ~
 Desc     A small, stone-lined well near the farmhouse. The water 
 inside is dark and stagnant, reflecting the orange sky.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38551
 Desc      Return to the stead.~
@@ -1436,12 +1436,12 @@ Desc     A large grain mill and warehouse at the northern edge of the
 Plaguelands. It is now a primary processing plant for 
 the Scourge's plague-grain.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38554
 Desc      Return to Corin's Crossing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    38574
 Desc      The Mill Interior.~
@@ -1458,7 +1458,7 @@ Desc     The interior of the mill is filled with the sound of grinding
 stones. Skeletal workers move mindlessly, tossing sacks of 
 blighted grain into the hoppers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38573
 Desc      The entrance.~
@@ -1476,12 +1476,12 @@ Desc     A massive canyon that has been torn through the center of the
 Plaguelands. The ground here is raw and bleeding, and 
 the air hums with necromantic energy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38554
 Desc      Corin's Crossing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    38576
 Desc      Deep into the Scar.~
@@ -1498,7 +1498,7 @@ Desc     The deepest point of the scar. Massive blighted monstrosities
 patrol the bottom, guarding the ley-lines that power 
 the necropolis of Naxxramas.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38575
 Desc      The entrance.~
@@ -1514,7 +1514,7 @@ Flags    ~
 Desc     A series of low, sunny hills south of Light's Hope. Dozens 
 of venomsauroks sun themselves on the warm rocks.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38559
 Desc      Light's Hope Chapel.~
@@ -1531,7 +1531,7 @@ Desc     A small, humble cabin tucked away in a quiet corner of the
 northwestern Plaguelands. Tirion Fordring sits on a 
 wooden bench outside, watching the river.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38550
 Desc      Return to the river.~
@@ -1548,12 +1548,12 @@ Desc     The muddy shoreline of the eastern lake. Across the water to
 the west, the ruins of Caer Darrow are visible through the 
 thick fog.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38081
 Desc      Swim toward Caer Darrow.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    38550
 Desc      Return to the river.~
@@ -1570,7 +1570,7 @@ Desc     A dark, quiet section of the forest where the trees are
 particularly old and gnarled. Flesh hunters move 
 through the undergrowth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38553
 Desc      Corin's Crossing.~
@@ -1586,7 +1586,7 @@ Flags    ~
 Desc     A quiet section of the blighted plains, filled with 
 withered stalks of grain and thick plaguebloom.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38553
 Desc      Corin's Crossing.~
@@ -1602,7 +1602,7 @@ Flags    ~
 Desc     A small hill overlooking the Marris Stead, where several 
 plaguehounds have made their den.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38551
 Desc      Marris Stead.~
@@ -1618,7 +1618,7 @@ Flags    ~
 Desc     A flat, wind-swept section of the central plains, 
 frequently patrolled by Scourge champions.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38554
 Desc      Corin's Crossing.~
@@ -1634,7 +1634,7 @@ Flags    ~
 Desc     A rocky outcrop near the Stratholme gates, offering a 
 good view of the city walls.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38556
 Desc      The Stratholme road.~
@@ -1650,7 +1650,7 @@ Flags    ~
 Desc     A small storage area near the chapel, filled with 
 bottles of holy water and bundles of herbs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38559
 Desc      The chapel entrance.~
@@ -1666,7 +1666,7 @@ Flags    ~
 Desc     A quiet ridge north of the chapel, where Argent Dawn 
 scouts keep watch over the northern mountains.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38559
 Desc      The chapel entrance.~
@@ -1682,7 +1682,7 @@ Flags    ~
 Desc     A side street in the Scarlet enclave, filled with 
 piles of supplies and broken training dummies.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38561
 Desc      The plaza gates.~
@@ -1698,7 +1698,7 @@ Flags    ~
 Desc     A small, damp chamber where the Scarlet Crusade stores its 
 captured mojos and Scourgestones.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38561
 Desc      The plaza gates.~
@@ -1714,7 +1714,7 @@ Flags    ~
 Desc     A section of the northern road where several buildings 
 are still smoldering, sparking with elemental energy.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38556
 Desc      Stratholme road.~
@@ -1730,7 +1730,7 @@ Flags    ~
 Desc     A rocky platform providing a clear view of the road leading 
 to the Western Plaguelands.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38550
 Desc      The Thondroril bank.~
@@ -1746,7 +1746,7 @@ Flags    ~
 Desc     A dark corner of the Marris Orchard where the trees 
 seem to whisper in the wind.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38565
 Desc      The main orchard.~
@@ -1762,7 +1762,7 @@ Flags    ~
 Desc     A narrow trail that leads through the heart of the fungal 
 valley. Spores coat everything in a fine blue dust.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38566
 Desc      The fungal entry.~
@@ -1778,7 +1778,7 @@ Flags    indoors~
 Desc     A small, humble house that was left untouched during the 
 purge. It is now filled with dust and memories.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    38553
 Desc      Corin's Crossing.~
@@ -1794,7 +1794,7 @@ Flags    indoors dark~
 Desc     A natural cave hidden beneath a large blue mushroom. 
 Crypt fiends have woven thick, sticky webs here.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    38567
 Desc      The fungal heart.~
@@ -1810,7 +1810,7 @@ Flags    ~
 Desc     A small, dark clearing where the mist is particularly 
 thick. Dark summoners can be heard chanting here.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38554
 Desc      Corin's Crossing.~
@@ -1826,12 +1826,12 @@ Flags    ~
 Desc     A series of iron rungs bolted into the mountain side, 
 providing a shortcut between the road and the high hills.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    38555
 Desc      Stratholme road south.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    38575
 Desc      The pestilent scar.~
@@ -1846,12 +1846,12 @@ Flags    ~
 Desc     A narrow, dark ravine that leads south toward the mountains 
 of Zul'Aman. The air is even thicker here.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    38553
 Desc      Corin's Crossing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    45000
 Desc      Enter the Ghostlands (Zul'Aman).~
@@ -1867,7 +1867,7 @@ Flags    ~
 Desc     Large cracks in the ground emit constant, high-pressure 
 plague-gas, making the air humid and difficult to breathe.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38554
 Desc      Corin's Crossing.~
@@ -1883,12 +1883,12 @@ Flags    indoors~
 Desc     A narrow maintenance tunnel that leads from the road 
 straight into the side of the mountains.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    38555
 Desc      Stratholme road south.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    38550
 Desc      The Thondroril bank.~
@@ -1904,12 +1904,12 @@ Desc     A hidden trail behind Light's Hope Chapel that leads toward
 the northern mountains, offering a quick way back toward 
 the Western Plaguelands.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    38559
 Desc      Light's Hope.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    38550
 Desc      The Thondroril bank.~
@@ -1924,7 +1924,7 @@ Flags    indoors dark~
 Desc     A massive, dark cavern deep beneath the Marris Stead. 
 Patchwork horrors move through the dark here.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    38551
 Desc      The Marris Stead.~

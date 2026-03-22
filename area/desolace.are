@@ -889,13 +889,13 @@ replaced by a bleak, grey wasteland. The air is dry and carries
 the scent of rot and ancient stone. To the south, the vast 
 reaches of Desolace stretch out toward the horizon.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    27550
 Desc      Return to the Charred Vale in Stonetalon.~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    35051
 Desc      The path leads deeper into the wastes.~
@@ -912,17 +912,17 @@ Desc     A wide, dusty trail leads through a series of jagged rock
 formations. To the east, a narrow path winds up into the 
 northern mountain range toward an Alliance output.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35050
 Desc      The northern exit.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35052
 Desc      The road continues.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35056
 Desc      The climb to Nijel's Point.~
@@ -939,12 +939,12 @@ Desc     Flat, grey plains stretch out in every direction. Scanty, dead
 vegetation and bleached bones provide the only landmarks in 
 this gods-forsaken place.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35051
 Desc      The high road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35053
 Desc      Deleterious path south.~
@@ -961,12 +961,12 @@ Desc     The ground becomes uneven here, leading into a series of jagged
 canyons. Massive ribs of long-dead monsters emerge from the 
 sand like skeletal fingers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35052
 Desc      The wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35054
 Desc      Deep into the Valley of Spears.~
@@ -982,13 +982,13 @@ Flags    ~
 Desc     The canyon walls tower overhead, providing some relief from the 
 merciless sun. Maraudine centaurs patrol these narrow passages, 
 protecting the entrance to their most sacred site.~
-#EXIT
+Exit
 Direction north~
 ToRoom    35053
 Desc      The valley entrance.~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    35055
 Desc      The Earth Song Gate.~
@@ -1006,7 +1006,7 @@ caverns of Maraudon. Primal energy hums through the stone,
 and the sound of falling water echoes from deep within. This 
 is a place of great power and ancient sorrow.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35054
 Desc      The canyon path.~
@@ -1023,12 +1023,12 @@ into the northern mountain ridge. Stone towers and night
 elven ruins provide a sense of permanence in this shifting 
 wasteland.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35051
 Desc      Return to the high road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35057
 Desc      The main square of Nijel's Point.~
@@ -1045,17 +1045,17 @@ Desc     The center of the outpost is busy with activity. Sentinels
 rest near a small fountain, while merchants trade in the 
 shadow of a large, ruined archway.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35056
 Desc      The southern gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35058
 Desc      The Alliance Inn.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35059
 Desc      The Gryphon Roost.~
@@ -1071,7 +1071,7 @@ Flags    indoors~
 Desc     A cozy inn built within a refurbished night elven structure. 
 The air is warm and smells of roasted meat and pine.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35057
 Desc      The plaza.~
@@ -1087,7 +1087,7 @@ Desc     A high stone ledge overlooking the northern pass. Several
 gryphons are tethered here, ready to carry travelers to 
 safer lands.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35057
 Desc      The plaza.~
@@ -1102,7 +1102,7 @@ Flags    indoors~
 Desc     A small, stone tower at the highest point of the outpost. 
 Maps of the surrounding territories are pinned to the walls.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35057
 Desc      The plaza.~
@@ -1119,12 +1119,12 @@ Desc     A crude but formidable stone fortress looms over the northern
 plains. It is controlled by the Burning Blade, and the 
 stench of demonic magic hangs heavy in the air.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35052
 Desc      The wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35062
 Desc      The main courtyard.~
@@ -1141,17 +1141,17 @@ Desc     Orc cultists move with fanatical purpose through this dirty
 courtyard. Piles of captured equipment and blood-stained 
 altars litter the ground.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35061
 Desc      The outer walls.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35063
 Desc      The inner keep.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35064
 Desc      The summoning pits.~
@@ -1169,7 +1169,7 @@ Desc     The interior of the fortress is dark and cramped. Torches of
 green fel fire cast flickering, sickly shadows on the 
 walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35062
 Desc      The courtyard.~
@@ -1186,7 +1186,7 @@ Desc     A deep, circular pit has been excavated here. The air hums
 with raw demonic power as summoners work to bring 
 horrors from the Twisting Nether into this world.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35062
 Desc      The courtyard.~
@@ -1202,7 +1202,7 @@ Flags    ~
 Desc     A rickety wooden platform built onto the fortress walls. 
 It provides a wide view of the northern plains.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35062
 Desc      The courtyard.~
@@ -1219,12 +1219,12 @@ Desc     The ruins of an ancient night elven city are now infested
 with satyrs. The marble columns are stained with dark 
 magic and the ground is littered with bones.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35052
 Desc      The wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35067
 Desc      The central ruins.~
@@ -1241,17 +1241,17 @@ Desc     The heart of the satyr-infested ruins. A large, cracked
 fountain sits in the center, its water long ago turned 
 to stagnant filth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35066
 Desc      The ruins entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35068
 Desc      The high temple ruins.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35069
 Desc      The shadow-haunted grove.~
@@ -1268,7 +1268,7 @@ Flags    indoors~
 Desc     Once a place of worship for Elune, these ruins are now 
 used by the Hatefury satyrs for their dark rituals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35067
 Desc      The central plaza.~
@@ -1284,7 +1284,7 @@ Flags    ~
 Desc     A small patch of gnarled, blackened trees that seem to 
 thrive on the demonic energy of the ruins.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35067
 Desc      The central plaza.~
@@ -1300,7 +1300,7 @@ Flags    indoors~
 Desc     A massive slab of basalt, dripping with fresh blood. This 
 is the primary ritual site for the Hatefury.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35067
 Desc      The central plaza.~
@@ -1317,17 +1317,17 @@ Desc     A vast expanse of bleached white bones and massive skulls.
 This is the final resting place of the kodos, a sacred 
 and quiet place in an otherwise violent land.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35052
 Desc      The wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35072
 Desc      The center of the graveyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35076
 Desc      The path to Ghost Walker Post.~
@@ -1345,12 +1345,12 @@ Desc     In the center of the graveyard sits the skull of a kodo
 of impossible size. Hyenas prowl through the ribs, 
 searching for scraps.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35071
 Desc      The graveyard entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35073
 Desc      The southern edge.~
@@ -1367,17 +1367,17 @@ Desc     The bones are fewer here as the graveyard gives way to the
 southern plains. To the west, the scent of the sea 
 begins to cut through the dry air.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35072
 Desc      The great skull.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35074
 Desc      The southern waste.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35086
 Desc      The road to Shadowprey Village.~
@@ -1393,12 +1393,12 @@ Flags    ~
 Desc     The land here is even more desolate. Jagged outcrops of 
 rock rise from the sand like broken teeth.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35073
 Desc      The graveyard edge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35096
 Desc      The exit to Feralas.~
@@ -1414,7 +1414,7 @@ Flags    ~
 Desc     A high, rocky shelf overlooking the kodo graveyard. Large 
 scorpions hide in the crevices, waiting for prey.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35072
 Desc      The graveyard.~
@@ -1432,12 +1432,12 @@ overlooking the kodo graveyard. The tauren of the
 Ghost Walker tribe maintain a peaceful but wary 
 presence here.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35071
 Desc      Return to the graveyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35077
 Desc      The central hilltop.~
@@ -1454,17 +1454,17 @@ Desc     The center of the tauren post is dominated by a large bonfire.
 Braves stand guard while tribal elders share stories of 
 the spirits.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35076
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35078
 Desc      The Elders' Tent.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35079
 Desc      The Wyvern Roost.~
@@ -1481,7 +1481,7 @@ Desc     The interior of the massive tent is quiet and smells of
 sweetgrass and sage. Furs are spread across the ground 
 for comfort.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35077
 Desc      The center.~
@@ -1497,7 +1497,7 @@ Desc     A flat section of the hilltop where several wyverns rest.
 This is the primary transport hub for the Horde in 
 northern Desolace.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35077
 Desc      The center.~
@@ -1512,7 +1512,7 @@ Flags    ~
 Desc     A small platform providing a clear view of the Burning Blade 
 fortress to the north.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35077
 Desc      The center.~
@@ -1529,12 +1529,12 @@ Desc     A collection of crude leather yurts and large communal
 fires. The Magram centaur dwell here in a state of 
 perpetual readiness for war.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35074
 Desc      The southern wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35082
 Desc      The heart of the village.~
@@ -1551,12 +1551,12 @@ Desc     The air is thick with the smell of cooking meat and unwashed
 bodies. The centaurs here are large and aggressive, 
 shouting challenges at one another.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35081
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35083
 Desc      The Khan's Tent.~
@@ -1573,7 +1573,7 @@ Flags    indoors~
 Desc     The largest yurt in the village, decorated with the 
 bleached skulls of Gelkis centaurs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35082
 Desc      The heart of the village.~
@@ -1589,12 +1589,12 @@ Desc     The Gelkis village is built into a series of deep ravines
 in the southern mountains. The air is cooler here, and 
 the sounds of chanting echo off the walls.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35074
 Desc      The southern wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35085
 Desc      The central ravine.~
@@ -1611,12 +1611,12 @@ Desc     The heart of the Gelkis territory. Shamanic totems are
 placed around the ravine, pulsing with a faint earthen 
 light.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35084
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35100
 Desc      The Gelkis Council Chamber.~
@@ -1634,12 +1634,12 @@ Desc     The road turns west, leading away from the dry interior
 toward the coast. The vegetation becomes slightly more 
 frequent as you approach the Veiled Sea.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35073
 Desc      The graveyard edge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35087
 Desc      The coastal descent.~
@@ -1655,12 +1655,12 @@ Flags    ~
 Desc     The path winds down a series of low hills. The roar of the 
 surf and the cry of seagulls can be heard in the distance.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35086
 Desc      The road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35088
 Desc      Shadowprey Village Entrance.~
@@ -1677,12 +1677,12 @@ Desc     A vibrant Darkspear troll village built along the shoreline.
 Raised wooden walkways connect the various structures, and 
 fishing nets hang from every pier.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35087
 Desc      The descent.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35089
 Desc      The main pier.~
@@ -1699,17 +1699,17 @@ Desc     The heart of the village's fishing industry. Trolls work
 tirelessly to process the daily catch, while boats bob 
 gently in the harbor.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35088
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35090
 Desc      The Shadowprey Inn.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35091
 Desc      The sar'theris strand.~
@@ -1725,7 +1725,7 @@ Flags    indoors~
 Desc     A large, open-air inn with a beautiful view of the Veiled 
 Sea. The air is salty and smells of fresh fish.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35089
 Desc      The main pier.~
@@ -1741,17 +1741,17 @@ Desc     A long, sandy beach stretching south from Shadowprey.
 Giant turtles sun themselves on the rocks, and crabs 
 scuttle through the tide pools.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35089
 Desc      Return to Shadowprey.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35092
 Desc      The strand continues south.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35094
 Desc      Swim toward Ranazjar Isle.~
@@ -1768,12 +1768,12 @@ Desc     The beach narrows here as the cliffs of the southern
 mountains meet the sea. Naga have established a series 
 of small camps along the waterline.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35091
 Desc      The northern strand.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35093
 Desc      The Slitherblade Shore.~
@@ -1790,7 +1790,7 @@ Desc     The naga presence is strongest here. Stone ruins from some
 ancient, sunken city have been pushed up through the 
 sand.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35092
 Desc      The southern strand.~
@@ -1807,12 +1807,12 @@ Flags    ~
 Desc     The water is clear and surprisingly warm. Schools of fish 
 dart through the kelp forests below.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35091
 Desc      Return to the strand.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35095
 Desc      Approach Ranazjar Isle.~
@@ -1829,7 +1829,7 @@ Desc     A small, rocky island dominated by the ruins of a naga temple.
 The air is heavy with the scent of salt and ancient 
 magic.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35094
 Desc      Return to the shallows.~
@@ -1847,12 +1847,12 @@ Desc     The grey wastes of Desolace slowly begin to give way to the
 lush, green canopy of Feralas. A wide stone path leads 
 south into the deep forest.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35074
 Desc      The southern wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    36500
 Desc      Enter the forest of Feralas.~
@@ -1869,12 +1869,12 @@ Desc     A deep, jagged scar in the earth filled with demonic energy.
 This is the heart of the Legion's presence in southern 
 Desolace.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35074
 Desc      The southern wastes.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35098
 Desc      The burning pits.~
@@ -1891,12 +1891,12 @@ Desc     Fires of pure fel energy burn in the depths of the coven.
 Doomwarders patrol the edges of the pits, their roars 
 echoing through the canyon.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35097
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35099
 Desc      Azrethoc's Seat.~
@@ -1913,7 +1913,7 @@ Desc     The deepest point of the coven. Lord Azrethoc stands atop a
 pile of blackened rocks, overseeing the corruption of 
 the land.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35098
 Desc      The burning pits.~

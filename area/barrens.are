@@ -529,13 +529,13 @@ terrain of Durotar lies just across the rushing water to the east. The
 vast, golden savannah of the Barrens stretches out before you to the west,
 heat shimmering off the dry earth.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25022
 Desc      Across the river to Razor Hill.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26501
 Desc      Further into the Barrens.
@@ -551,13 +551,13 @@ Desc     A small Horde outpost stands here, guarding the crossing from Durotar.
 Spiked wooden barricades and a few lean-tos provide meager shelter for
 the guards stationed here. The Gold Road begins just to the west.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26500
 Desc      The river bank.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26502
 Desc      The Gold Road.
@@ -574,19 +574,19 @@ Desc     You are standing on the Gold Road, a well-traveled dirt path that bisec
 the Barrens from north to south. To the north, the road leads toward the
 forests of Ashenvale. To the south, it continues toward the Crossroads.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26528
 Desc      Toward Ashenvale.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26503
 Desc      Toward the Crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26501
 Desc      The Far Watch Post.
@@ -603,13 +603,13 @@ Desc     The Gold Road stretches endlessly in both directions. The air is dry an
 tastes of dust. Stunted trees and tall, yellowed grass line the path,
 providing perfect cover for the predators of the plains.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26502
 Desc      Northern Junction.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26504
 Desc      Approaching the Crossroads.
@@ -626,13 +626,13 @@ Desc     A large, spiked watchtower looms over the road here. The sound of bustl
 activity and the smell of roasting meat drift from the south. This is the
 heart of the Barrens, where all paths eventually meet.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26503
 Desc      The Gold Road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26505
 Desc      The Crossroads center.
@@ -649,25 +649,25 @@ Desc     The Crossroads is a chaotic hub of Horde activity. Orcs, Trolls, and Ta
 mingle here, preparing for hunts or resting between travels. A massive
 bonfire burns in the center of the square, surrounded by basic supply huts.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26504
 Desc      The north gate.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26510
 Desc      The south gate.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26514
 Desc      Toward Ratchet.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26506
 Desc      Toward the Oases.
@@ -685,13 +685,13 @@ Desc     A narrow trail winds west away from the Crossroads. The dry grass gives
 way to strange, vibrant flora as you approach a hidden source of water.
 The air feels slightly more humid here.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26505
 Desc      The Crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26507
 Desc      The Forgotten Pools.
@@ -709,13 +709,13 @@ bubbles up from the earth, feeding a variety of plants that shouldn't
 exist in this climate. Strange fissures in the ground glow with a faint,
 unnatural light.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26506
 Desc      The path back.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26508
 Desc      Grol'dom Farm.
@@ -732,13 +732,13 @@ Desc     A small, struggling farmstead has been carved out of the savannah. A fe
 huts stand near a small field of dry crops. The area is plagued by
 constant raids from the nearby quilboar tribes.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26507
 Desc      The Forgotten Pools.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26509
 Desc      Thorn Hill.
@@ -754,7 +754,7 @@ Desc     The terrain rises sharply here, dominated by massive, razor-sharp thorn
 that erupt from the earth like giant claws. This is the edge of quilboar
 territory, and the grunts of the beast-men echo through the ravines.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26508
 Desc      Grol'dom Farm.
@@ -772,19 +772,19 @@ Desc     South of the Crossroads, the Gold Road continues its steady path throug
 the heart of the Barrens. To the west, you can see the shimmering heat
 waves rising from the Stagnant Oasis.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26505
 Desc      The Crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26512
 Desc      Further south.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26511
 Desc      The Stagnant Oasis.
@@ -801,7 +801,7 @@ Desc     Unlike the Forgotten Pools, this oasis is choked with thick reeds and
 murky water. A massive, shell-like mountain rises from the center of the
 pool, claimed by a powerful tribe of Kolkar centaur.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26510
 Desc      The Gold Road.
@@ -820,19 +820,19 @@ Desc     The road splits here. To the south, the path leads toward Camp Taurajo
 and the Great Lift. To the west, a rugged trail winds through the hills
 toward the entrance of Mulgore.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26510
 Desc      Toward Crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26521
 Desc      Toward Camp Taurajo.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26513
 Desc      The road to Mulgore.
@@ -849,13 +849,13 @@ Desc     The path climbs steadily into the foothills of the western mountains.
 A massive wooden gate, the Red Rocks, marks the boundary between the
 savannah and the ancestral lands of the Tauren.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26512
 Desc      The Gold Road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25500
 Desc      Into Mulgore.
@@ -871,13 +871,13 @@ Desc     This well-worn path leads east from the Crossroads toward the coast.
 Trade caravans frequently travel this route, bringing supplies from the
 neutral port of Ratchet to the Horde interior.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26505
 Desc      The Crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26515
 Desc      Toward the coast.
@@ -894,13 +894,13 @@ Desc     From this vantage point, you can see the Great Sea stretching out to th
 eastern horizon. Below, the bustling goblin port of Ratchet is visible,
 its mechanical cranes and wooden docks humming with activity.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26514
 Desc      The road back.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    26516
 Desc      Down into Ratchet.
@@ -916,19 +916,19 @@ Desc     Ratchet is a marvel of goblin engineering and greed. The smell of oil,
 saltwater, and exotic spices fills the air. Steam-powered machines hiss
 in the background as merchants of all races haggle over goods.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    26515
 Desc      The overlook.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26517
 Desc      The docks.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26519
 Desc      The South Road.
@@ -946,13 +946,13 @@ Desc     A massive wooden pier extends into the bay. Large merchant ships are
 moored here, being loaded and unloaded by frantic peons and mechanical
 lifts. A large boat with a shark-head prow is currently docked.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26516
 Desc      Ratchet Square.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26518
 Desc      North Merchant Coast.
@@ -969,7 +969,7 @@ Desc     The sandy beach stretches north away from Ratchet. The wrecks of severa
 ships lie rotting in the surf, casualties of the treacherous reefs or
 pirate raids.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26517
 Desc      Ratchet Docks.
@@ -987,13 +987,13 @@ Desc     A dusty trail follows the coastline south from Ratchet. To the east, th
 waves of the Great Sea crash against the rocks. To the west, the arid
 plains of the Southern Barrens begin to take hold.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26516
 Desc      Ratchet.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26520
 Desc      The Tideskipper Wreck.
@@ -1009,7 +1009,7 @@ Desc     The remains of a massive human vessel lie shattered on the rocks here.
 Debris is scattered across the sand, and the area has been claimed by
 a group of aggressive pirates who use the wreck as a base.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26519
 Desc      The South Road.
@@ -1027,13 +1027,13 @@ Desc     The savannah here feels even more desolate. The grass is thinner, and
 the heat is more oppressive. Massive thunderhawks circle high above,
 waiting for something to succumb to the elements.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26512
 Desc      Southern Junction.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26522
 Desc      Toward Camp Taurajo.
@@ -1050,19 +1050,19 @@ Desc     A modest Tauren settlement serves as a waypoint for travelers heading
 south. Several large hide tents and a central fire pit provide a place
 to rest. The scent of sweetgrass and leather is strong here.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26521
 Desc      The Gold Road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26524
 Desc      The Great Lift approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26523
 Desc      Field of Giants.
@@ -1078,7 +1078,7 @@ Desc     The earth is littered with the colossal bones of ancient creatures.
 Massive ribcages and skulls rise from the dust like monuments. It is
 a somber place, filled with the echoes of a prehistoric age.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26522
 Desc      Camp Taurajo.
@@ -1097,25 +1097,25 @@ counterweights, stands ready to lower travelers into the canyon below.
 Massive walls of thorny vines rise to the east and west, the strongholds
 of the quilboar.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26522
 Desc      Camp Taurajo.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26525
 Desc      The Great Lift.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26532
 Desc      A path carved through massive briars leads to Razorfen Kraul.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26533
 Desc      A dark, thorn-choked path leads to Razorfen Downs.
@@ -1132,13 +1132,13 @@ home of the Razorfen quilboar tribe. The grunting of the beast-men can
 be heard from every direction. At the end of the path, a swirling instance
 portal blocks the entrance to their inner sanctum.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26524
 Desc      The path to the Great Lift.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction in~
 ToRoom    26930
 Desc      Step through the portal into Razorfen Kraul.
@@ -1155,7 +1155,7 @@ necromantic blight. The air is thick with the smell of decay. Undead
 quilboar shamble in the distance, and a swirling purple portal marks the
 entrance to the Scourge-infected depths.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26524
 Desc      The path to the Great Lift.
@@ -1171,13 +1171,13 @@ Desc     You stand on a large wooden platform suspended by thick hempen ropes.
 Looking down, you can see the orange, needle-like mesas of Thousand
 Needles far below. This is the only safe way down the cliffs.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26524
 Desc      The path back.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    28500
 Desc      Down to Thousand Needles.
@@ -1195,13 +1195,13 @@ paradise of greenery and clear water. However, the beauty is deceptive,
 as the area is heavily guarded by the warlike centaur tribes. A gaping
 cavern entrance shaped like a giant beast's skull leads deep underground.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26521
 Desc      Back to the Gold Road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    26531
 Desc      A dark cavern smelling of damp earth and raptors.
@@ -1221,7 +1221,7 @@ strongly of ozone and overgrown vegetation. Vines hang from the ceiling,
 and the sound of weeping echoes through the tunnels. A glowing blue portal
 swirls before you, leading into the heart of the Wailing Caverns. 
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    26526
 Desc      Back to the surface.
@@ -1237,7 +1237,7 @@ Desc     A jagged, obsidian-colored mountain rises from the northern plains.
 Dark, swirling mists cling to its slopes, and the air feels cold and
 unnatural. It is a place of dark rituals and shadow magic.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26528
 Desc      Back to the road.
@@ -1254,19 +1254,19 @@ Desc     The Gold Road reaches its northernmost point here. The air begins to
 cool, and the golden savannah starts to blend into the thick, ancient
 trees of the north.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26502
 Desc      Toward Crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26529
 Desc      The Mor'shan Rampart.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    26527
 Desc      Dreadmist Peak.
@@ -1282,13 +1282,13 @@ Desc     A massive wooden wall and gatehouse block the road here, serving as a
 fortified border between the Barrens and Ashenvale. Horde banners fly
 proudly from the towers, and the guards are on high alert.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26528
 Desc      The Gold Road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28000
 Desc      Into Ashenvale.
@@ -1305,7 +1305,7 @@ Desc     In the northeastern corner of the Barrens, the ground becomes soft and
 muddy. Foul-smelling runoff from goblin industrial operations has
 created a toxic marshland, filled with mutated creatures and sludge.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26502
 Desc      Back to the junction.

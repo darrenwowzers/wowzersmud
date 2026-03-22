@@ -1481,7 +1481,7 @@ of feet above you is the awe-inspiring Central Mesa of Thunder Bluff.
 A massive wooden platform, operated by immense ropes and counterweights,
 waits to carry travelers to the city above.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    15001
 Desc      You step onto the massive wooden elevator platform.
@@ -1499,13 +1499,13 @@ Desc     The massive wooden platform creaks and sways slightly as it ascends the
 sheer rock face of the mesa. The view of Mulgore expanding below you is
 breathtaking. The wind whips fiercely as you approach the peak.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    15002
 Desc      The elevator locks into place at the top of the mesa.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    15000
 Desc      The elevator descends back to the plains of Mulgore.
@@ -1522,13 +1522,13 @@ Central Mesa. The air here is thin, crisp, and smells of sweetgrass and
 woodsmoke. To the north, a towering totem pole marks the center of the
 city's main square.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15003
 Desc      The bustling Totem Square.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    15001
 Desc      The Great Elevator awaits.
@@ -1547,25 +1547,25 @@ totem pole towers into the sky, representing the unity of the Tauren
 tribes. Tauren, Orcs, and Trolls mingle peacefully here. Pathways
 branch out in all directions.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15006
 Desc      The northern path across the grass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15008
 Desc      The path winds toward the Auction House.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15002
 Desc      The top of the Great Elevators.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15014
 Desc      The path winds toward the Wind Rider Roost.
@@ -1587,13 +1587,13 @@ over heavy timber. It serves as the bank for the city. Despite the
 lack of stone walls, the wealth of the Horde is well protected here by
 several very large, very well-armed guards.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15006
 Desc      The northern walk of the Central Mesa.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    15005
 Desc      A ramp leads down into a secure earthen cellar.
@@ -1612,7 +1612,7 @@ Desc     Carved directly into the earth of the mesa, this cool, dry cellar holds
 the heavy iron strongboxes that contain the city's reserves of gold and
 valuable resources. 
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    15004
 Desc      The main banking tent.
@@ -1630,19 +1630,19 @@ To the west is the large hide tent of the Thunder Bluff Bank, and to
 the north, a rope bridge stretches precariously across the open sky
 toward Spirit Rise.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15018
 Desc      The rope bridge to Spirit Rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15003
 Desc      Totem Square.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15004
 Desc      The Thunder Bluff Bank.
@@ -1661,7 +1661,7 @@ Merchants and adventurers from across Kalimdor gather here to trade
 goods. A raised wooden platform holds the auctioneers, who bark out
 bids over the low rumble of the crowd.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15008
 Desc      The eastern walk of the Central Mesa.
@@ -1679,19 +1679,19 @@ sits the busy Auction House tent, and further east, a massive rope
 bridge connects to Elder Rise. To the south, the smell of roasted
 meat drifts from the local inn.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15007
 Desc      The entrance to the Auction House.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15011
 Desc      The path continues toward the Inn.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15003
 Desc      Totem Square.
@@ -1708,13 +1708,13 @@ Desc     The largest tent on the Central Mesa, the inn is a welcoming haven
 for all travelers. The floor is covered in soft, woven rugs, and the
 air is warm and inviting. 
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15011
 Desc      The path leading back to the mesa proper.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15010
 Desc      The central hearth of the inn.
@@ -1732,7 +1732,7 @@ iron spit slowly turns a roasting plainstrider. Tauren sit on colorful
 cushions, sharing stories, drinking water from hollowed horns, and
 smoking ceremonial pipes.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15009
 Desc      The entrance to the inn.
@@ -1752,19 +1752,19 @@ south is the entrance to the Bloodhoof Village Inn. To the west,
 a prominent tent flanked by massive totems marks the dwelling of the
 High Chieftain.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15008
 Desc      The eastern walk of the mesa.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15009
 Desc      The entrance to the Inn.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15012
 Desc      The entrance to Cairne's tent.
@@ -1781,13 +1781,13 @@ and most ornate tent in Thunder Bluff. Elite Bloodhoof Braves stand guard
 here, ensuring that the High Chieftain is not disturbed without good
 reason.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15011
 Desc      The southern walk of the mesa.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15013
 Desc      You step inside the Chieftain's tent.
@@ -1807,7 +1807,7 @@ throne, only a large, woven mat upon the earth. Maps of Mulgore and
 the Barrens are spread across a low wooden table. High Chieftain
 Cairne Bloodhoof stands here, exuding a quiet, immense power.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15012
 Desc      The entrance back to the mesa.
@@ -1828,19 +1828,19 @@ Desc     The grass here gives way to a sturdy wooden ramp that spirals upward
 around a massive central pillar of stone. This is the base of the
 Wind Rider Roost, the highest point in all of Thunder Bluff.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15003
 Desc      Totem Square.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    15015
 Desc      The ramp leads up toward the roost.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15017
 Desc      A rope bridge connects to Hunter Rise.
@@ -1856,13 +1856,13 @@ Desc     You are ascending a wide wooden ramp that spirals around a towering
 stone pinnacle. The wind whips fiercely here, pulling at your clothes.
 Above you, you can hear the shrieks of the mighty Wind Riders.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    15016
 Desc      The ramp continues to the peak.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    15014
 Desc      The ramp leads down to the mesa.
@@ -1878,7 +1878,7 @@ Desc     You stand at the very apex of Thunder Bluff. The view is unparalleled;
 you can see for miles across the golden plains of Mulgore. Several
 large, tawny Wind Riders rest on wooden perches, waiting for passengers.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    15015
 Desc      The ramp winds back down.
@@ -1896,13 +1896,13 @@ across the terrifying drop between the Central Mesa and Hunter Rise
 to the west. The bridge sways heavily in the wind, a true test of
 balance for those crossing.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15014
 Desc      The Central Mesa.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15020
 Desc      The martial grounds of Hunter Rise.
@@ -1918,13 +1918,13 @@ Desc     This swaying rope bridge connects the Central Mesa to the mysterious
 Spirit Rise to the north. The air flowing from the north smells strongly
 of incense and ancient magic, a stark contrast to the dust of the plains.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15040
 Desc      The grassy landing of Spirit Rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15006
 Desc      The Central Mesa.
@@ -1940,13 +1940,13 @@ Desc     You are carefully crossing a wide rope bridge suspended thousands of
 feet in the air. This bridge connects the Central Mesa to Elder Rise
 in the east, the seat of wisdom and history for the Tauren people.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15060
 Desc      The landing of Elder Rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15008
 Desc      The Central Mesa.
@@ -1963,13 +1963,13 @@ Hunter Rise. The sound of clashing weapons and roaring beasts immediately
 replaces the gentle hum of the Central Mesa. To the west lies the main
 camp of the martial trainers.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15017
 Desc      The rope bridge leading back to the Central Mesa.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15021
 Desc      The bustling main camp of Hunter Rise.
@@ -1988,25 +1988,25 @@ tents are pitched around a roaring communal fire. Braves and hunters
 gather here to swap stories of their conquests and prepare their gear
 for the next excursion into the Barrens.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15022
 Desc      The imposing entrance to the Warrior's Lodge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15020
 Desc      The landing near the rope bridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15023
 Desc      The open archway of the Hunter's Hall.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15025
 Desc      A dirt path leading to the training ring.
@@ -2025,13 +2025,13 @@ environment. Weapon racks line the walls, holding massive totems and
 heavy axes. Keltor Bloodhoof stands in the center, analyzing the forms
 of his students with a critical eye.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15021
 Desc      The main camp of Hunter Rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15024
 Desc      The intense heat of the weapon forge.
@@ -2051,13 +2051,13 @@ wooden supports of this open-air hall. The hunters here are quiet and
 methodical, carefully fletching arrows and tending to their animal
 companions.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15021
 Desc      The main camp of Hunter Rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15036
 Desc      A small tent dedicated to bow crafting.
@@ -2078,7 +2078,7 @@ with brightly glowing coals. Turak Runetotem works tirelessly here,
 striking red-hot iron into shape. The rhythmic clanging of his hammer
 echoes across the rise.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15022
 Desc      The Warrior's Lodge.
@@ -2097,25 +2097,25 @@ hard-packed dirt. This is where the warriors and braves of Thunder Bluff
 spar. The energy is intense, filled with the sounds of heavy impacts and
 bellowed war cries.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15021
 Desc      The main camp.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15031
 Desc      A path winding along the southern edge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15026
 Desc      The center of the training ring.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    15030
 Desc      A path leading toward the northern overlook.
@@ -2132,13 +2132,13 @@ target dummies are set up here for practicing strikes and archery.
 Sweat and dust mingle in the air as trainees push themselves to their
 absolute physical limits.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15025
 Desc      The edge of the training ring.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15028
 Desc      A path leading to the western cliff edge.
@@ -2160,7 +2160,7 @@ here. Large racks holding stretched hides dominate the space. Ansekhwa
 works meticulously, transforming raw skins into the durable armor her
 people rely upon.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15031
 Desc      The southern path.
@@ -2180,19 +2180,19 @@ sheer, plummeting hundreds of feet down to the plains below. The wind is
 unobstructed and incredibly strong, carrying the scent of rain from the
 distant horizon.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15026
 Desc      The center of the training ring.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    15029
 Desc      The beast pens.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15037
 Desc      The edge of the rise continues southward.
@@ -2211,7 +2211,7 @@ as a temporary holding pen for tamed beasts and occasionally houses
 injured Wind Riders. The ground is heavily trampled and smells of animal
 musk and hay.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15028
 Desc      The western cliff.
@@ -2229,13 +2229,13 @@ Desc     The northern edge of the rise offers a spectacular view of the rolling
 plains of Mulgore. A small campfire crackles cheerfully here, providing
 warmth against the chill high-altitude winds.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15025
 Desc      The edge of the training ring.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15032
 Desc      Uthan's campfire.
@@ -2251,13 +2251,13 @@ Desc     This path winds quietly along the southern curve of the rise, keeping
 a safe distance from the chaotic training ring. To the west is the busy
 tent of the leatherworker.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15025
 Desc      The edge of the training ring.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15027
 Desc      The Leatherworker's tent.
@@ -2273,13 +2273,13 @@ Desc     A serene spot near the northern edge. Uthan Stillwater sits comfortably
 by the fire, offering advice on survival and the patience required for
 fishing. A few wooden racks hold drying fish nearby.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15030
 Desc      The northern overlook.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15033
 Desc      A quiet meditation spot.
@@ -2297,7 +2297,7 @@ Desc     Tucked away in the northwest corner, this small patch of grass is a
 favorite for warriors seeking a moment of peace and mental clarity before
 a difficult trial or hunt.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15032
 Desc      Uthan's campfire.
@@ -2314,7 +2314,7 @@ Desc     A long, communal tent serving as the barracks for the braves stationed
 on Hunter Rise. Simple woven mats serve as beds, and the personal
 belongings of the warriors are stored neatly in wooden chests.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15037
 Desc      The edge of the rise.
@@ -2330,7 +2330,7 @@ Desc     Several tall wooden structures stand here, draped with strips of kodo
 and plainstrider meat. The dry wind and smoke from nearby fires preserve
 the meat perfectly, providing rations for long journeys.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15037
 Desc      The edge of the rise.
@@ -2347,7 +2347,7 @@ Desc     This small tent is littered with wood shavings and feathers. The finest
 hunting bows in Thunder Bluff are crafted and strung here, utilizing
 flexible yew wood and strong sinew.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15023
 Desc      The Hunter's Hall.
@@ -2365,25 +2365,25 @@ Desc     The grass here is lush and green, untouched by the heavy footfalls of
 the training ring. The massive watchtower rises to the south, casting a
 long shadow over the area.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15028
 Desc      The western cliff.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15035
 Desc      The meat curing racks.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15034
 Desc      The Brave's Rest barracks.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15038
 Desc      The base of the watchtower.
@@ -2399,13 +2399,13 @@ Desc     You stand at the foot of a towering wooden structure built to give the
 tauren a commanding view of the surrounding plains. A spiraling wooden
 ladder leads up to the observation deck.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15037
 Desc      The edge of the rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    15039
 Desc      Climb the ladder to the watchtower.
@@ -2422,7 +2422,7 @@ able to spot a kodo herd or an incoming centaur raiding party from miles
 away. A large ceremonial horn rests on a wooden stand, ready to be blown
 in times of danger.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    15038
 Desc      Descend back to the rise.
@@ -2440,13 +2440,13 @@ of Spirit Rise. The atmosphere here is profoundly peaceful. To the
 north, the path winds toward a central gathering of beautifully painted
 tents and totems.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15041
 Desc      The central totem of the rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15018
 Desc      The rope bridge back to the Central Mesa.
@@ -2463,25 +2463,25 @@ Desc     A massive, ancient totem pole stands in the center of the rise, carved
 with the likenesses of animal spirits. Braziers burn sweet-smelling
 herbs, creating a thin veil of smoke that drifts lazily through the air.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15049
 Desc      The path toward the northern overlook.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15050
 Desc      The eastern walk of the rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15040
 Desc      The bridge landing.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15046
 Desc      The western path toward the Druids.
@@ -2500,7 +2500,7 @@ The hides are dyed a dark, ominous black, marking it as the domain of
 the Grimtotem tribe. Magatha Grimtotem stands inside, watching you
 suspiciously.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15046
 Desc      The western path of the rise.
@@ -2520,7 +2520,7 @@ make up this large tent. The air is fresh and vibrant with natural
 energy. Archdruid Hamuul Runetotem resides here, serving as the
 spiritual compass for the Tauren.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15050
 Desc      The eastern walk of the rise.
@@ -2539,7 +2539,7 @@ representing earth, fire, water, and air are placed at the cardinal
 directions. Shaman trainees sit here in deep meditation, seeking
 communion with the elements.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15046
 Desc      The western path of the rise.
@@ -2558,13 +2558,13 @@ A spiraling stone path leads downwards into the depths of the earth.
 The faint sound of dripping water and a cool, damp breeze drift up
 from the darkness below.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15050
 Desc      The eastern walk of the rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    15051
 Desc      Descend into the Pools of Vision.
@@ -2580,25 +2580,25 @@ Desc     The grass path winds along the western side of the rise. To the south
 is the Shamanic Circle, and to the west stands the dark, imposing tent
 of the Grimtotem leader.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15047
 Desc      A lush, overgrown grove.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15041
 Desc      The central totem.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15044
 Desc      The Shamanic Circle.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15042
 Desc      The Elder Crone's Tent.
@@ -2614,13 +2614,13 @@ Desc     This corner of the rise has been carefully cultivated into a miniature
 forest. Ancient trees provide deep shade, and rare herbs grow in
 abundance. It is a place of healing and learning for the druids.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15046
 Desc      The western path.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15048
 Desc      The edge of the western cliff.
@@ -2639,7 +2639,7 @@ Desc     You stand at the sheer western edge of Thunder Bluff. The wind howls
 up from the plains below, carrying the distant calls of plainstriders.
 The view of the setting sun from here is legendary.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15047
 Desc      The Druid's Grove.
@@ -2655,19 +2655,19 @@ Desc     The northern tip of Spirit Rise looks out over the vast expanse of the
 Barrens to the northeast. A few wooden benches have been placed here
 for those who wish to sit and ponder the mysteries of the Earthmother.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15041
 Desc      The central totem.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15059
 Desc      A quiet clearing.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15058
 Desc      The Spirit Lodge.
@@ -2683,25 +2683,25 @@ Desc     The path winds along the eastern half of the rise. To the east is the
 vibrant, living tent of the Archdruid. To the north, a dark cave mouth
 leads down into the subterranean pools.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15045
 Desc      The entrance to the caves.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15043
 Desc      The Archdruid's tent.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15057
 Desc      The Healing Lodge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15041
 Desc      The central totem.
@@ -2718,13 +2718,13 @@ Desc     You are walking down a spiraling, natural ramp carved into the rock
 of the mesa. The air grows noticeably cooler and more humid with every
 step. Faint, bioluminescent fungus provides a dim, eerie light.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    15045
 Desc      The cave entrance above.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    15052
 Desc      The cavern opens up below.
@@ -2742,13 +2742,13 @@ inside the mesa. The sound of gentle, flowing water echoes off the
 walls. Glowing crystals are embedded in the rock, casting a magical
 blue light over the area.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15053
 Desc      The main crystal pool.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    15051
 Desc      The ramp leads back to the surface.
@@ -2766,19 +2766,19 @@ cavern. The water glows with a soft, internal magic. Tauren mystics
 stare into the depths, seeking visions of the future and communion
 with the spirits.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15054
 Desc      The Forsaken encampment.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15052
 Desc      The entrance of the caverns.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15056
 Desc      The deeper waters.
@@ -2796,13 +2796,13 @@ Desc     A small, highly incongruous camp has been set up here by emissaries
 from the Undercity. Alchemical equipment and bubbling vials clash with
 the natural, spiritual atmosphere of the caves.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15055
 Desc      A dark, unlit cavern.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15053
 Desc      The crystal pool.
@@ -2822,7 +2822,7 @@ Desc     The glowing crystals do not reach this far into the caves. It is pitch
 black, and the air is perfectly still. The Tauren avoid this area, claiming
 the spirits here are restless and unhappy.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15054
 Desc      The Forsaken camp.
@@ -2839,7 +2839,7 @@ Desc     The pool is incredibly deep here. A powerful Water Elemental stands
 guard over the sacred liquid, ensuring that it is not defiled by those
 who do not respect the Earthmother.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15053
 Desc      The crystal pool.
@@ -2857,7 +2857,7 @@ Desc     A long tent filled with simple woven beds. The air smells strongly of
 medicinal herbs and clean water. Sick or injured members of the tribe
 are brought here to be tended to by the druids and shaman.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15050
 Desc      The eastern walk of the rise.
@@ -2875,7 +2875,7 @@ Desc     This tent is adorned with countless dreamcatchers and wind chimes. It
 is the dwelling of the Spirit Walkers, those tauren who have completely
 dedicated their lives to crossing the veil between the living and the dead.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15049
 Desc      The northern overlook.
@@ -2894,7 +2894,7 @@ Desc     A small, unremarkable clearing of grass near the northern edge. It is
 quiet and out of the way, offering a private place to rest away from
 the chanting of the main square.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15049
 Desc      The northern overlook.
@@ -2910,13 +2910,13 @@ Desc     You step off the massive rope bridge onto Elder Rise. The atmosphere
 is incredibly calm. Gentle drumming echoes from the center of the
 mesa, and the smell of burning sage purifies the air.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15061
 Desc      The main walk of the rise.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15019
 Desc      The bridge leading back to the Central Mesa.
@@ -2935,25 +2935,25 @@ decorated tents. To the north lies the enclave of the city's
 enchanters and tailors. To the east, the path opens up into the
 Ancestral Bonfire.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15064
 Desc      The crafting tents.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15062
 Desc      The glowing Ancestral Bonfire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15068
 Desc      A path winding toward the southern peak.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15060
 Desc      The bridge landing.
@@ -2972,25 +2972,25 @@ Rise. Tauren gather around the flames at all hours, sharing the history
 of their tribes. The air shimmers with the heat and the faint, glowing
 presence of ancestral spirits.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15063
 Desc      The Tent of the Lorekeepers.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15070
 Desc      The Drummer's Circle.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15073
 Desc      Grandmother's Tent.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15061
 Desc      The main walk.
@@ -3009,7 +3009,7 @@ Desc     The walls of this tent are painted with the sprawling history of the
 Tauren people, depicting their endless hunt and their battles against
 the centaur. Elder Cloudsong sits here, surrounded by ancient scrolls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15062
 Desc      The Ancestral Bonfire.
@@ -3029,13 +3029,13 @@ Desc     Colorful bolts of cloth and intricate dreamcatchers hang from the ceili
 Kitha Earthweaver works the loom here, producing the fine robes and
 garments utilized by the spellcasters of the Horde.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15065
 Desc      The Mystic's Alcove.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15061
 Desc      The main walk of the rise.
@@ -3056,7 +3056,7 @@ covers the workbenches. This is the domain of Thrag Dawnstrider,
 where the art of enchanting is taught to those with the focus to
 manipulate raw essence.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15064
 Desc      The Weaver's Hut.
@@ -3074,13 +3074,13 @@ Desc     You stand at the southern edge of the rise. The drop is dizzying, and
 the view stretches out across the golden fields of Bloodhoof Village
 far below.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15068
 Desc      The path winds back toward the center.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15067
 Desc      The Alchemist's Den.
@@ -3097,7 +3097,7 @@ Desc     Glass vials bubble over small fires, filling the tent with the earthy
 smell of crushed roots and potent herbs. Bena Winterhoof works here,
 instructing initiates in the creation of powerful elixirs.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15066
 Desc      The southern overlook.
@@ -3114,19 +3114,19 @@ Desc     The ground slopes upward here, leading toward the highest point on
 Elder Rise. The sounds of the bonfire begin to fade, replaced by the
 whistling of the wind.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15061
 Desc      The main walk.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15066
 Desc      The southern overlook.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    15069
 Desc      The highest peak of Elder Rise.
@@ -3142,7 +3142,7 @@ Desc     You stand atop a rocky outcropping that overlooks the entire mesa.
 This isolated spot is often used by the elders when they need absolute
 solitude to commune with the Earthmother.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    15068
 Desc      The path back down.
@@ -3159,13 +3159,13 @@ Desc     Several large, ceremonial drums are set up in a circle here. A dedicate
 tauren drummer beats a slow, rhythmic pulse that provides the heartbeat
 for all of Thunder Bluff. It is a deeply calming sound.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15071
 Desc      The Spirit Walk.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15062
 Desc      The Ancestral Bonfire.
@@ -3183,13 +3183,13 @@ Desc     The grass here is lush and untrampled. Translucent ancestral spirits
 often drift along this path, checking on the descendants they left
 behind. The air is cool and smells of rain.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15072
 Desc      The Monument to the Fallen.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15070
 Desc      The Drummer's Circle.
@@ -3206,7 +3206,7 @@ Desc     A grand, incredibly old totem stands here, carved with the names of
 every tribe that was lost to the centaur wars before the Horde arrived.
 It is a place of profound respect and mourning.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    15071
 Desc      The Spirit Walk.
@@ -3224,13 +3224,13 @@ Desc     This tent feels like a home. It is warm, smells of herbal tea, and is
 filled with comfortable woven mats. A wise grandmother sits here,
 offering counsel to any who seek her wisdom.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15062
 Desc      The Ancestral Bonfire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    15074
 Desc      A quiet garden.
@@ -3248,13 +3248,13 @@ Desc     A beautifully maintained garden of rare Mulgore flowers and herbs.
 It is completely silent here, sheltered from the wind by the
 surrounding tents.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15075
 Desc      The Eagle's Roost.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15073
 Desc      Grandmother's Tent.
@@ -3270,13 +3270,13 @@ Desc     The cliff edge here is sheer and highly dangerous. Several massive nest
 have been built into the rock face below, home to the majestic Mulgore
 Eagles that circle the city.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    15076
 Desc      The eastern cliff edge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15074
 Desc      The Quiet Garden.
@@ -3293,13 +3293,13 @@ Desc     The easternmost point of Thunder Bluff. The sun rises over the Barrens
 from this vantage point, casting long, golden shadows across the entire
 mesa. It is breathtaking.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15075
 Desc      The Eagle's Roost.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15077
 Desc      A meditation point.
@@ -3317,13 +3317,13 @@ Desc     A small, isolated patch of grass right on the edge of the cliff. An
 iron incense burner provides a sweet, calming smoke that drifts out
 over the open plains below.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15076
 Desc      The eastern cliff.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    15078
 Desc      The Council Tent.
@@ -3341,13 +3341,13 @@ Desc     A large, open tent where the elders of the various tribes meet to
 discuss matters of state before presenting their thoughts to Cairne.
 It is empty at the moment, waiting for the next gathering.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    15077
 Desc      The Meditation Point.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    15079
 Desc      The very edge of the mesa.
@@ -3363,7 +3363,7 @@ Desc     The path dead-ends here at a sheer drop. The wind is incredibly strong,
 and the view of the winding road leading down to Bloodhoof Village is
 crystal clear from this height.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    15078
 Desc      The Council Tent.

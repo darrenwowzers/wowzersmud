@@ -1299,12 +1299,12 @@ entire mountain seems to vibrate with the hum of dark arcane
 machinery. To the north, a massive set of obsidian doors leads 
 into the laboratory of Nefarian.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    36563
 Desc      Return to the Hall of the Mountain in Searing Gorge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42201
 Desc      The Hatchery Entrance.~
@@ -1322,12 +1322,12 @@ Blackwing technicians move frantically between control orbs,
 maintaining the stability of the brood. Razorgore the Untamed 
 stands in the center, his mind controlled by the orcs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42200
 Desc      The overlook.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42202
 Desc      The Hatchery Control Room.~
@@ -1346,12 +1346,12 @@ large crystal orbs glow with a sickly green light, used
 to dominate the minds of the dragonspawn. Blueprints 
 of chromatic experiments are pinned to the walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42201
 Desc      The hatchery.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42203
 Desc      The Burning Hall.~
@@ -1371,12 +1371,12 @@ noble red dragon Vaelastrasz writhes in the center of the
 hall, his sanity slipping away as the shadow-flame 
 consumes his soul.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42202
 Desc      The control room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42210
 Desc      The Suppression Room.~
@@ -1394,12 +1394,12 @@ pillars pulse with a green magical field, making every
 step feel like wading through mud. Laboratory assistants 
 and whelps swarm the narrow paths between the traps.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42203
 Desc      The burning hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42211
 Desc      Suppression Room Central.~
@@ -1417,12 +1417,12 @@ Desc     The heart of the magical gauntlet. The field of suppression
 is at its strongest here. To the north, a high stone ramp 
 leads toward the Broodlord's seat.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42210
 Desc      Suppression entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42212
 Desc      The Broodlord's Balcony.~
@@ -1441,12 +1441,12 @@ district. Broodlord Lashlayer stands here, his massive
 blade reflecting the orange glow of the mountain's core. 
 He laughs as he watches the intruders struggle below.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42211
 Desc      Suppression central.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    42220
 Desc      The Dragon Laboratories.~
@@ -1465,12 +1465,12 @@ chambers are filled with massive brewing vats and
 anatomical models of dragons. Firemaw can be seen 
 perched on a high bridge to the north.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    42212
 Desc      The broodlord's balcony.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42221
 Desc      The First Laboratory Bridge.~
@@ -1487,12 +1487,12 @@ Desc     A narrow stone span crossing a massive vertical shaft.
 Firemaw guards this bridge, his presence alone enough 
 to heat the stone to a dull red glow.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42220
 Desc      Lab entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42222
 Desc      The Second Laboratory Bridge.~
@@ -1510,12 +1510,12 @@ Desc     A second high span crossing the laboratory pits. Ebonroc
 stands here, his obsidian scales drinking in the light. 
 The air is cold and smells of shadow-fire.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42221
 Desc      First bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42223
 Desc      The Third Laboratory Bridge.~
@@ -1533,12 +1533,12 @@ Desc     The final bridge of the labs. Flamegor stands guard here,
 his constant roars shaking the rafters. Beyond this 
 bridge lies the kennel of the chromatic horror.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42222
 Desc      Second bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42230
 Desc      The Kennel of Chromaggus.~
@@ -1558,12 +1558,12 @@ his multiple heads shifting in and out of phase with
 the physical world. A large lever on the wall is the 
 only way to release him from his magical shackles.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42223
 Desc      Third bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42240
 Desc      The Nefarian Overlook.~
@@ -1583,12 +1583,12 @@ the mountain. The air becomes noticeably fresher, but the
 sense of dread only increases. Lord Victor Nefarius sits 
 upon a throne at the far end of the terrace.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42230
 Desc      Chromaggus's kennel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42241
 Desc      The Throne of Nefarian.~
@@ -1607,12 +1607,12 @@ amusement. This is the place of final judgment. If his
 guards fall, he will take to the air in his true 
 form.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42240
 Desc      The overlook entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    42242
 Desc      The Blackwing Sky-terrace.~
@@ -1632,12 +1632,12 @@ blocking out the sun. Primal energy pulses from his
 body, and the air hums with the power of the black 
 dragonflight.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    42241
 Desc      The throne room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    42400
 Desc      The exit path.~
@@ -1656,7 +1656,7 @@ Flags    indoors~
 Desc     A side tunnel in the hatchery filled with discarded shells 
 and the smell of reptile musk.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42201
 Desc      Hatchery entrance.~
@@ -1672,7 +1672,7 @@ Flags    indoors~
 Desc     A small side chamber filled with jars of dragon blood 
 and ancient elven scrolls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42220
 Desc      Laboratory entry.~
@@ -1688,7 +1688,7 @@ Flags    indoors~
 Desc     A high point in the suppression room, home to several 
 obsidian gargoyles.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    42211
 Desc      Suppression central.~
@@ -1706,12 +1706,12 @@ throne leads toward a hidden opening in the side of
 Blackrock Mountain, offering a quick way out for those 
 who have defeated the Lord of Blackrock.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42242
 Desc      The sky-terrace.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    42200
 Desc      The entrance overlook.~
@@ -1725,7 +1725,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for elementium bars and coals near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42220
 Desc      Laboratory entry.~
@@ -1741,7 +1741,7 @@ Flags    indoors~
 Desc     A dark room near the hatchery where the technicians 
 prepare the Dark Horde's meals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42201
 Desc      Hatchery entrance.~
@@ -1757,7 +1757,7 @@ Flags    indoors~
 Desc     A high stone landing near the first bridge, 
 offering a view of the southern thoroughfare.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42221
 Desc      First bridge.~
@@ -1773,7 +1773,7 @@ Flags    indoors~
 Desc     A side room filled with chromatic whelp scales 
 and ancient gold coins.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42221
 Desc      First bridge.~
@@ -1788,11 +1788,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A Confusion of small, magically-warded rooms near the labs.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42251
 Desc      Labyrinth 1.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42220
 Desc      Lab entry.~
@@ -1807,11 +1807,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The air is thick with the scent of ozone and shadow-magic.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42250
 Desc      Labyrinth entrance.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42252
 Desc      Labyrinth 2.~
@@ -1826,11 +1826,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow hallway lined with glass vats of experimental fluids.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42251
 Desc      Labyrinth 1.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42253
 Desc      Labyrinth 3.~
@@ -1845,11 +1845,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the lower laboratory labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42252
 Desc      Labyrinth 2.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42254
 Desc      Labyrinth 4.~
@@ -1864,11 +1864,11 @@ Sector   inside~
 Flags    indoors~
 Desc     High stone rooms near the second bridge.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42253
 Desc      Labyrinth 3.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42255
 Desc      Labyrinth 5.~
@@ -1883,11 +1883,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the mid-level labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42254
 Desc      Labyrinth 4.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42256
 Desc      Labyrinth 6.~
@@ -1902,11 +1902,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the kennel entrance.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42255
 Desc      Labyrinth 5.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42257
 Desc      Labyrinth 7.~
@@ -1921,11 +1921,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the upper laboratory labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42256
 Desc      Labyrinth 6.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42258
 Desc      Labyrinth 8.~
@@ -1940,11 +1940,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near Nefarian's throne room.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42257
 Desc      Labyrinth 7.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42259
 Desc      Labyrinth 9.~
@@ -1959,11 +1959,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the laboratory tunnels.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42258
 Desc      Labyrinth 8.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42260
 Desc      Labyrinth 10.~
@@ -1978,7 +1978,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A series of confusing stone corridors near the sky-terrace.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42259
 Desc      Labyrinth 9.~
@@ -1993,11 +1993,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The first of forty-one interconnected lab-cells.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42262
 Desc      Labyrinth 12.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42210
 Desc      Suppression entry.~
@@ -2012,11 +2012,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A clinical chamber filled with bubbling vats.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42261
 Desc      Labyrinth 11.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42263
 Desc      Labyrinth 13.~
@@ -2031,11 +2031,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with dragon-bone.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42262
 Desc      Labyrinth 12.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42264
 Desc      Labyrinth 14.~
@@ -2050,11 +2050,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where chromatic whelps are fed.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42263
 Desc      Labyrinth 13.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42265
 Desc      Labyrinth 15.~
@@ -2069,11 +2069,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with shadow-fire residue.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42264
 Desc      Labyrinth 14.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42266
 Desc      Labyrinth 16.~
@@ -2088,11 +2088,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for heavy obsidian maces.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42265
 Desc      Labyrinth 15.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42267
 Desc      Labyrinth 17.~
@@ -2107,11 +2107,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side workshop where armor is repaired.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42266
 Desc      Labyrinth 16.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42268
 Desc      Labyrinth 18.~
@@ -2126,11 +2126,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A quiet room where menders study rituals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42267
 Desc      Labyrinth 17.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42269
 Desc      Labyrinth 19.~
@@ -2145,11 +2145,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark hallway home to several lava spiders.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42268
 Desc      Labyrinth 18.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42270
 Desc      Labyrinth 20.~
@@ -2164,11 +2164,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the mid-level suppression lab.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42269
 Desc      Labyrinth 19.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42271
 Desc      Labyrinth 21.~
@@ -2183,11 +2183,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow crawlway used by technicians.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42270
 Desc      Labyrinth 20.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42272
 Desc      Labyrinth 22.~
@@ -2202,11 +2202,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A clinical chamber filled with shrivelled organs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42271
 Desc      Labyrinth 21.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42273
 Desc      Labyrinth 23.~
@@ -2221,11 +2221,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for elementium dust and coal.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42272
 Desc      Labyrinth 22.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42274
 Desc      Labyrinth 24.~
@@ -2240,11 +2240,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A high stone landing near the third bridge.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42273
 Desc      Labyrinth 23.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42275
 Desc      Labyrinth 25.~
@@ -2259,11 +2259,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the high-level laboratory labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42274
 Desc      Labyrinth 24.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42276
 Desc      Labyrinth 26.~
@@ -2278,11 +2278,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A narrow tunnel lined with obsidian pillars.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42275
 Desc      Labyrinth 25.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42277
 Desc      Labyrinth 27.~
@@ -2297,11 +2297,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side room where ritualists prepare prayers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42276
 Desc      Labyrinth 26.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42278
 Desc      Labyrinth 28.~
@@ -2316,16 +2316,16 @@ Sector   inside~
 Flags    indoors~
 Desc     A dark corner filled with the scent of ash.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42277
 Desc      Labyrinth 27.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42279
 Desc      Labyrinth 29.~
 #ENDEXIT
-Reset O 42113 10 42278 0
+Reset O 42113 10 0 42278
 #ENDROOM
 
 #ROOM
@@ -2335,11 +2335,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A storage room for heavy obsidian war-maces.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42278
 Desc      Labyrinth 28.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42280
 Desc      Labyrinth 30.~
@@ -2354,11 +2354,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the command-level labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42279
 Desc      Labyrinth 29.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42281
 Desc      Labyrinth 31.~
@@ -2373,11 +2373,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42280
 Desc      Labyrinth 30.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42282
 Desc      Labyrinth 32.~
@@ -2392,11 +2392,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42281
 Desc      Labyrinth 31.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42283
 Desc      Labyrinth 33.~
@@ -2411,11 +2411,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42282
 Desc      Labyrinth 32.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42284
 Desc      Labyrinth 34.~
@@ -2430,11 +2430,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42283
 Desc      Labyrinth 33.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42285
 Desc      Labyrinth 35.~
@@ -2449,11 +2449,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42284
 Desc      Labyrinth 34.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42286
 Desc      Labyrinth 36.~
@@ -2468,11 +2468,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42285
 Desc      Labyrinth 35.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42287
 Desc      Labyrinth 37.~
@@ -2487,11 +2487,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42286
 Desc      Labyrinth 36.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42288
 Desc      Labyrinth 38.~
@@ -2506,11 +2506,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42287
 Desc      Labyrinth 37.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42289
 Desc      Labyrinth 39.~
@@ -2525,11 +2525,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the throne room exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42288
 Desc      Labyrinth 38.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42290
 Desc      Labyrinth 40.~
@@ -2544,7 +2544,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The deepest part of the final throne-labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42289
 Desc      Labyrinth 39.~
@@ -2559,11 +2559,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A high stone landing near the Sky-terrace.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42292
 Desc      Lab Cell 42.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42242
 Desc      Sky-terrace.~
@@ -2578,11 +2578,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42291
 Desc      Lab Cell 41.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42293
 Desc      Lab Cell 43.~
@@ -2597,11 +2597,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42292
 Desc      Lab Cell 42.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42294
 Desc      Lab Cell 44.~
@@ -2616,11 +2616,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42293
 Desc      Lab Cell 43.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42295
 Desc      Lab Cell 45.~
@@ -2635,11 +2635,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42294
 Desc      Lab Cell 44.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42296
 Desc      Lab Cell 46.~
@@ -2654,11 +2654,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42295
 Desc      Lab Cell 45.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42297
 Desc      Lab Cell 47.~
@@ -2673,11 +2673,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42296
 Desc      Lab Cell 46.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42298
 Desc      Lab Cell 48.~
@@ -2692,11 +2692,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42297
 Desc      Lab Cell 47.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42299
 Desc      Lab Cell 49.~
@@ -2711,11 +2711,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42298
 Desc      Lab Cell 48.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42300
 Desc      Lab Cell 50.~
@@ -2730,7 +2730,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The deepest part of the Sky-terrace labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42299
 Desc      Lab Cell 49.~
@@ -2746,7 +2746,7 @@ Flags    indoors~
 Desc     A quiet, central garden of lava-roots and glowing 
 mushrooms in the middle of the labyrinthine hold.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42202
 Desc      The hatchery control room.~
@@ -2762,7 +2762,7 @@ Flags    indoors~
 Desc     A dark room near the hatchery where the technicians 
 prepare the Dark Horde's meals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42201
 Desc      Hatchery entrance.~
@@ -2778,7 +2778,7 @@ Flags    indoors~
 Desc     A quiet room in the labs where the high-priests 
 treat the veterans.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42220
 Desc      Laboratory entry.~
@@ -2794,12 +2794,12 @@ Flags    indoors~
 Desc     A rare balcony that stays remarkably clear of 
 the laboratory's smoke and smell of decay.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42220
 Desc      Laboratory entry.~
 #ENDEXIT
-Reset O 42101 1 42304 0
+Reset O 42101 1 0 42304
 #ENDROOM
 
 #ROOM
@@ -2809,7 +2809,7 @@ Sector   underground~
 Flags    indoors dark~
 Desc     A small cavern hidden beneath the suppression room.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    42211
 Desc      Suppression central.~
@@ -2825,7 +2825,7 @@ Flags    indoors~
 Desc     A high stone landing near the throne summit, 
 home to several chromatic watchers.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    42241
 Desc      Nefarius's throne.~
@@ -2840,7 +2840,7 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet central garden near the Lair's exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42400
 Desc      Exit path.~
@@ -2855,11 +2855,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Side tunnels near the foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42309
 Desc      Lab Cell 52.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42220
 Desc      Lab entry.~
@@ -2874,11 +2874,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42308
 Desc      Lab Cell 51.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42310
 Desc      Lab Cell 53.~
@@ -2893,11 +2893,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42309
 Desc      Lab Cell 52.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42311
 Desc      Lab Cell 54.~
@@ -2912,11 +2912,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42310
 Desc      Lab Cell 53.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42312
 Desc      Lab Cell 55.~
@@ -2931,11 +2931,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42311
 Desc      Lab Cell 54.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42313
 Desc      Lab Cell 56.~
@@ -2950,11 +2950,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42312
 Desc      Lab Cell 55.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42314
 Desc      Lab Cell 57.~
@@ -2969,11 +2969,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42313
 Desc      Lab Cell 56.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42315
 Desc      Lab Cell 58.~
@@ -2988,11 +2988,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42314
 Desc      Lab Cell 57.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42316
 Desc      Lab Cell 59.~
@@ -3007,11 +3007,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42315
 Desc      Lab Cell 58.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42317
 Desc      Lab Cell 60.~
@@ -3026,11 +3026,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42316
 Desc      Lab Cell 59.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42318
 Desc      Lab Cell 61.~
@@ -3045,11 +3045,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42317
 Desc      Lab Cell 60.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42319
 Desc      Lab Cell 62.~
@@ -3064,11 +3064,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42318
 Desc      Lab Cell 61.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42320
 Desc      Lab Cell 63.~
@@ -3083,11 +3083,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42319
 Desc      Lab Cell 62.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42321
 Desc      Lab Cell 64.~
@@ -3102,11 +3102,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42320
 Desc      Lab Cell 63.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42322
 Desc      Lab Cell 65.~
@@ -3121,11 +3121,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42321
 Desc      Lab Cell 64.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42323
 Desc      Lab Cell 66.~
@@ -3140,11 +3140,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42322
 Desc      Lab Cell 65.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42324
 Desc      Lab Cell 67.~
@@ -3159,11 +3159,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42323
 Desc      Lab Cell 66.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42325
 Desc      Lab Cell 68.~
@@ -3178,11 +3178,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42324
 Desc      Lab Cell 67.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42326
 Desc      Lab Cell 69.~
@@ -3197,11 +3197,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42325
 Desc      Lab Cell 68.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42327
 Desc      Lab Cell 70.~
@@ -3216,11 +3216,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42326
 Desc      Lab Cell 69.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42328
 Desc      Lab Cell 71.~
@@ -3235,11 +3235,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42327
 Desc      Lab Cell 70.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42329
 Desc      Lab Cell 72.~
@@ -3254,11 +3254,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42328
 Desc      Lab Cell 71.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42330
 Desc      Lab Cell 73.~
@@ -3273,11 +3273,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42329
 Desc      Lab Cell 72.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42331
 Desc      Lab Cell 74.~
@@ -3292,11 +3292,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42330
 Desc      Lab Cell 73.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42332
 Desc      Lab Cell 75.~
@@ -3311,11 +3311,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42331
 Desc      Lab Cell 74.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42333
 Desc      Lab Cell 76.~
@@ -3330,11 +3330,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42332
 Desc      Lab Cell 75.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42334
 Desc      Lab Cell 77.~
@@ -3349,11 +3349,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42333
 Desc      Lab Cell 76.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42335
 Desc      Lab Cell 78.~
@@ -3368,11 +3368,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42334
 Desc      Lab Cell 77.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42336
 Desc      Lab Cell 79.~
@@ -3387,11 +3387,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42335
 Desc      Lab Cell 78.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42337
 Desc      Lab Cell 80.~
@@ -3406,11 +3406,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42336
 Desc      Lab Cell 79.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42338
 Desc      Lab Cell 81.~
@@ -3425,11 +3425,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42337
 Desc      Lab Cell 80.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42339
 Desc      Lab Cell 82.~
@@ -3444,11 +3444,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42338
 Desc      Lab Cell 81.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42340
 Desc      Lab Cell 83.~
@@ -3463,11 +3463,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42339
 Desc      Lab Cell 82.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42341
 Desc      Lab Cell 84.~
@@ -3482,11 +3482,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42340
 Desc      Lab Cell 83.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42342
 Desc      Lab Cell 85.~
@@ -3501,11 +3501,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42341
 Desc      Lab Cell 84.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42343
 Desc      Lab Cell 86.~
@@ -3520,11 +3520,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42342
 Desc      Lab Cell 85.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42344
 Desc      Lab Cell 87.~
@@ -3539,11 +3539,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42343
 Desc      Lab Cell 86.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42345
 Desc      Lab Cell 88.~
@@ -3558,11 +3558,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42344
 Desc      Lab Cell 87.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42346
 Desc      Lab Cell 89.~
@@ -3577,11 +3577,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42345
 Desc      Lab Cell 88.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42347
 Desc      Lab Cell 90.~
@@ -3596,11 +3596,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42346
 Desc      Lab Cell 89.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42348
 Desc      Lab Cell 91.~
@@ -3615,11 +3615,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42347
 Desc      Lab Cell 90.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42349
 Desc      Lab Cell 92.~
@@ -3634,11 +3634,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42348
 Desc      Lab Cell 91.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42350
 Desc      Lab Cell 93.~
@@ -3653,11 +3653,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42349
 Desc      Lab Cell 92.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42351
 Desc      Lab Cell 94.~
@@ -3672,11 +3672,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42350
 Desc      Lab Cell 93.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42352
 Desc      Lab Cell 95.~
@@ -3691,11 +3691,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42351
 Desc      Lab Cell 94.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42353
 Desc      Lab Cell 96.~
@@ -3710,11 +3710,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42352
 Desc      Lab Cell 95.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42354
 Desc      Lab Cell 97.~
@@ -3729,11 +3729,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42353
 Desc      Lab Cell 96.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42355
 Desc      Lab Cell 98.~
@@ -3748,11 +3748,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42354
 Desc      Lab Cell 97.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42356
 Desc      Lab Cell 99.~
@@ -3767,11 +3767,11 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42355
 Desc      Lab Cell 98.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42357
 Desc      Lab Cell 100.~
@@ -3786,7 +3786,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the High Foundry tunnels.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42356
 Desc      Lab Cell 99.~
@@ -3801,11 +3801,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Breeding Pit.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42359
 Desc      Lab Cell 102.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42205
 Desc      Breeding Pit.~
@@ -3820,11 +3820,11 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing tunnels near the dragon-breeding pits.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42358
 Desc      Lab Cell 101.~
-#EXIT
+Exit
 Direction north~
 ToRoom    42360
 Desc      Lab Cell 103.~
@@ -3839,7 +3839,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the breeding-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42359
 Desc      Lab Cell 102.~
@@ -3854,11 +3854,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the First Bridge.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42362
 Desc      Lab Cell 105.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42221
 Desc      First Bridge.~
@@ -3873,7 +3873,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the bridge-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42361
 Desc      Lab Cell 104.~
@@ -3888,11 +3888,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Second Bridge.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42364
 Desc      Lab Cell 107.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42222
 Desc      Second Bridge.~
@@ -3907,7 +3907,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the obsidian-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42363
 Desc      Lab Cell 106.~
@@ -3922,11 +3922,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Third Bridge.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42366
 Desc      Lab Cell 109.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42223
 Desc      Third Bridge.~
@@ -3941,7 +3941,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the roar-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42365
 Desc      Lab Cell 108.~
@@ -3956,11 +3956,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Broodlord's Balcony.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42368
 Desc      Lab Cell 111.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42212
 Desc      Broodlord's Balcony.~
@@ -3975,7 +3975,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the brood-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42367
 Desc      Lab Cell 110.~
@@ -3990,11 +3990,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Burning Hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42370
 Desc      Lab Cell 113.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42203
 Desc      Burning Hall.~
@@ -4009,7 +4009,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the shadow-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42369
 Desc      Lab Cell 112.~
@@ -4024,11 +4024,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Hatchery Control Room.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42372
 Desc      Lab Cell 115.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42202
 Desc      Control Room.~
@@ -4043,7 +4043,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the technician-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42371
 Desc      Lab Cell 114.~
@@ -4058,11 +4058,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Lair Entrance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42374
 Desc      Lab Cell 117.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42200
 Desc      Lair Overlook.~
@@ -4077,7 +4077,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the entry-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42373
 Desc      Lab Cell 116.~
@@ -4092,11 +4092,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Volcanic Bridge.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42376
 Desc      Lab Cell 119.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42250
 Desc      Volcanic Bridge.~
@@ -4111,7 +4111,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the bridge-stomp labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42375
 Desc      Lab Cell 118.~
@@ -4126,11 +4126,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Magma Foundries.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42378
 Desc      Lab Cell 121.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42251
 Desc      Foundries South.~
@@ -4145,7 +4145,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the foundry-fire labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42377
 Desc      Lab Cell 120.~
@@ -4160,11 +4160,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Blacksmith's Wing.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42380
 Desc      Lab Cell 123.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42253
 Desc      Blacksmith's Wing.~
@@ -4179,7 +4179,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hammer-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42379
 Desc      Lab Cell 122.~
@@ -4194,11 +4194,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Broodmother's Path.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42382
 Desc      Lab Cell 125.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42300
 Desc      Broodmother Path.~
@@ -4213,7 +4213,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the path-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42381
 Desc      Lab Cell 124.~
@@ -4228,11 +4228,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Wardens' Hall.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42384
 Desc      Lab Cell 127.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42301
 Desc      Wardens' Hall.~
@@ -4247,7 +4247,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the warden-shield labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42383
 Desc      Lab Cell 126.~
@@ -4262,11 +4262,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Sanctum Overflow.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42386
 Desc      Lab Cell 129.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42311
 Desc      Sanctum Overflow.~
@@ -4281,7 +4281,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the hoard-guard labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42385
 Desc      Lab Cell 128.~
@@ -4296,11 +4296,11 @@ Sector   inside~
 Flags    indoors~
 Desc     A side tunnel near the Sky-terrace Labyrinth.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42388
 Desc      Lab Cell 131.~
-#EXIT
+Exit
 Direction south~
 ToRoom    42250
 Desc      Sky-terrace Labyrinth.~
@@ -4315,7 +4315,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the terrace-wing labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42387
 Desc      Lab Cell 130.~
@@ -4330,7 +4330,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42388
 Desc      Lab Cell 131.~
@@ -4345,7 +4345,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42389
 Desc      Lab Cell 132.~
@@ -4360,7 +4360,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42390
 Desc      Lab Cell 133.~
@@ -4375,7 +4375,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42391
 Desc      Lab Cell 134.~
@@ -4390,7 +4390,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42392
 Desc      Lab Cell 135.~
@@ -4405,7 +4405,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42393
 Desc      Lab Cell 136.~
@@ -4420,7 +4420,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42394
 Desc      Lab Cell 137.~
@@ -4435,7 +4435,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42395
 Desc      Lab Cell 138.~
@@ -4450,7 +4450,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42396
 Desc      Lab Cell 139.~
@@ -4465,7 +4465,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42397
 Desc      Lab Cell 140.~
@@ -4480,7 +4480,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The absolute deepest part of the entire labyrinthine structure.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    42398
 Desc      Lab Cell 141.~
@@ -4497,7 +4497,7 @@ Desc     The end of the laboratory crawl. The walls are covered in
 shifting chromatic scales, and the air hums with the power 
 of the Black Dragonflight.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    42201
 Desc      Return to the hatchery.~

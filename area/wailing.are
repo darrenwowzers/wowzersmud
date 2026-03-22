@@ -474,12 +474,12 @@ deep within the earth, carried on a constant subterranean breeze.
 A swirling, emerald portal hums with primal energy, marking the 
 boundary between the Barrens and the nightmare-tainted depths.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    26531
 Desc      Return to the Lush Oasis.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26901
 Desc      The path leads into the Screaming Gully.~
@@ -496,12 +496,12 @@ overhead. Wind whistles through narrow fissures in the rock,
 creating a haunting, shrieking sound. The ground is slick with 
 condensation and moss.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26900
 Desc      The cavern entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26902
 Desc      The gully continues deeper.~
@@ -519,17 +519,17 @@ raptors are scattered across the floor, suggesting the presence of
 dangerous predators. To the east and west, narrow crawlways lead 
 to side chambers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26903
 Desc      The north branch of the gully.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26904
 Desc      A small side cavern.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26901
 Desc      The southern gully.~
@@ -546,12 +546,12 @@ Desc     The sound of running water is audible from ahead. The walls are
 thick with bioluminescent fungi that provide a dim, greenish light. 
 Raptor tracks are everywhere in the soft mud.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26902
 Desc      The central gully.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26905
 Desc      The path toward the Fissure.~
@@ -567,7 +567,7 @@ Flags    indoors~
 Desc     This secluded alcove serves as a nesting ground for the local 
 wildlife. The air is heavy with the smell of musk and decay.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26902
 Desc      Return to the central gully.~
@@ -584,12 +584,12 @@ Desc     A deep crack in the cavern floor divides this room. A bridge of
 solidified vine and root crosses the gap, leading toward the 
 central chambers of the Druids of the Fang.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26903
 Desc      The north gully.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26906
 Desc      The central fissure.~
@@ -607,17 +607,17 @@ Ancient night elf ruins, half-buried in the rock, suggest this
 cavern was once a place of worship. The wailing sound is much 
 louder here, vibrating through the floor.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26908
 Desc      Lord Cobrahn's Sanctum.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26905
 Desc      The western fissure.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26907
 Desc      The eastern fissure.~
@@ -634,7 +634,7 @@ Desc     The fissure ends in a wall of solid rock, though a narrow opening
 near the ceiling allows a trickle of water to fall into a shallow 
 pool below.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26906
 Desc      The central fissure.~
@@ -652,12 +652,12 @@ braziers. Lord Cobrahn stands on a raised stone platform, his
 eyes glowing with a rhythmic, hypnotic light. The air feels 
 stagnant and thick with the scent of venom.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26906
 Desc      The central fissure.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26909
 Desc      A hidden path behind the platform.~
@@ -675,12 +675,12 @@ Desc     A narrow, winding tunnel slips between the layers of the cavern
 wall. The floor is smooth and worn, as if something massive has 
 slithered through here for centuries.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26908
 Desc      Cobrahn's Sanctum.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26910
 Desc      The Serpent's Coil.~
@@ -696,12 +696,12 @@ Desc     The tunnel curves sharply, looping back on itself as it descends
 deeper into the earth. The walls are covered in a sticky, green 
 slime that glows faintly in the dark.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26909
 Desc      The hidden path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26911
 Desc      The coils continues.~
@@ -718,17 +718,17 @@ Desc     The path opens into a wider tunnel. To the south, a large alcove
 is filled with the sounds of chanting and the crackle of magical 
 energies.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26910
 Desc      The upper coil.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26912
 Desc      Lady Anacondra's Alcove.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26913
 Desc      The Lush Cavern entrance.~
@@ -745,7 +745,7 @@ Desc     Fine silk curtains hang from the rock walls, and the floor is
 covered in plush animal furs. Lady Anacondra stands near a small, 
 corrupted Moonwell, weaving a dark pattern of nightmare energy.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26911
 Desc      The serpent's coil.~
@@ -764,17 +764,17 @@ flowering vines grow from every surface, sustained by an unseen
 source of magical light. The humidity is stifling, and the sound of 
 buzzing insects fills the air.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26915
 Desc      The central cavern.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26911
 Desc      The serpent's coil.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26914
 Desc      The western cavern.~
@@ -791,7 +791,7 @@ Desc     The jungle is particularly dense here. Thick roots cross the path,
 forcing you to climb over or hack through them. Strange, colorful 
 birds watch you from the canopy.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26913
 Desc      The southern cavern.~
@@ -809,22 +809,22 @@ cavern ceiling. Its roots have shattered the rock, creating a
 network of paths leading in all directions. To the west, the 
 cavern floor gives way to a large, still lake.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26916
 Desc      The northern cavern.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26917
 Desc      The eastern cavern.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26913
 Desc      The southern cavern.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26918
 Desc      The Subterranean Lake.~
@@ -841,7 +841,7 @@ Desc     The jungle begins to thin as the ground rises toward the northern
 tunnels. The air is slightly cooler here, though still heavy with 
 the scent of damp earth and flowers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26915
 Desc      The central cavern.~
@@ -858,7 +858,7 @@ Desc     A narrow path leads through a grove of massive mushrooms. Their
 caps glow with a soft, pulsing light, illuminating the many 
 insects that dance in the air.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26915
 Desc      The central cavern.~
@@ -876,12 +876,12 @@ cavern. The ceiling is very high here, reflecting the faint
 glow from the plants in the jungle. A series of flat rocks form 
 a natural path toward a small island in the center.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26915
 Desc      Return to the jungle.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26919
 Desc      The central island.~
@@ -898,12 +898,12 @@ Desc     This low, rocky island is covered in slippery algae. Kresh, the
 ancient turtle, often rests here, his massive shell blending in 
 with the surrounding boulders.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26918
 Desc      The shore.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26920
 Desc      The far bank.~
@@ -921,12 +921,12 @@ Desc     The water laps gently against the jagged stone of the far bank.
 A steep path climbs away from the lake, leading toward the 
 haunted tunnels of the upper caverns.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26919
 Desc      The island.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    26921
 Desc      The path of Skum.~
@@ -943,17 +943,17 @@ Desc     The air here crackles with static electricity. Scorch marks cover
 the walls, and the smell of ozone is pungent. The tunnel narrows 
 sharply as it approaches the lair of the warped kodo.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    26920
 Desc      Return to the lake.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26922
 Desc      Skum's Den.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26923
 Desc      The Pit of Trumpets.~
@@ -971,7 +971,7 @@ Blue lightning arcs across the ceiling, occasionally striking the
 floor with a deafening crack. Skum stands in the center, his 
 eyes wide with a mindless, electric fury.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26921
 Desc      The path.~
@@ -989,17 +989,17 @@ Desc     The sound of distant, booming trumpets echoes through these
 tunnels. The air is incredibly dry here, and the floor is covered 
 in a fine, white powder. Tunnels branch off to the east and west.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26921
 Desc      The path of Skum.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26926
 Desc      The eastern corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    26924
 Desc      The western corridor.~
@@ -1015,12 +1015,12 @@ Desc     The tunnel turns sharply toward the south. Deep gouges are visible
 in the rock, as if something large and powerful has been 
 dragging itself through the passage.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26923
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26925
 Desc      Pythas' Overlook.~
@@ -1038,7 +1038,7 @@ stands guard here, his muscles rippling under skin that has
 hardened into thick, green scales. He watches the path below 
 with grim determination.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26924
 Desc      The western corridor.~
@@ -1056,12 +1056,12 @@ Desc     This corridor is quiet and dark. The bioluminescent plants from
 the lower levels are absent here, leaving only the faint, 
 natural glow of the volcanic rock.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26923
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26927
 Desc      The Great Chasm rim.~
@@ -1079,12 +1079,12 @@ stone bridge crosses the chasm, leading toward the final sanctum
 of the Druids of the Fang. The air is cold and smells of the 
 ancient earth.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26926
 Desc      The eastern corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26928
 Desc      The bridge.~
@@ -1101,12 +1101,12 @@ Desc     The bridge is narrow and lacks railings. The darkness of the chasm
 below is absolute. The wailing sound is at its peak here, a 
 constant, mournful scream that threatens to overwhelm your senses.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26927
 Desc      The rim.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26929
 Desc      The far side.~
@@ -1122,12 +1122,12 @@ Desc     You have crossed the chasm. The tunnels ahead are reinforced with
 heavy timber and draped in emerald banners. This is the heart 
 of the Druids of the Fang territory.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26928
 Desc      The bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26930
 Desc      Lord Serpentis' Stand.~
@@ -1145,12 +1145,12 @@ stands at a massive stone altar. He is surrounded by his loyal
 followers, all chanting in unison. The air is thick with 
 emerald-green energy that pulses with each word of their prayer.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26929
 Desc      The chasm.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26931
 Desc      The path to Verdan.~
@@ -1169,12 +1169,12 @@ Desc     The tunnel descends steeply, the ground becoming soft and
 covered in thick, spongy moss. Massive roots push through the 
 rock walls, forming natural arches over the path.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26930
 Desc      Serpentis' Stand.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    26932
 Desc      Verdan's Grove.~
@@ -1191,12 +1191,12 @@ seem to be part of the cavern itself. Verdan the Everliving,
 a towering behemoth of wood and stone, stands guard over the 
 heart of the nightmare.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    26931
 Desc      Return to the upper path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26933
 Desc      The Hidden Pool.~
@@ -1215,12 +1215,12 @@ cavern. The wailing sound has faded to a soft whisper. A narrow
 passageway to the south leads toward the final rest of the 
 great dreamer.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26932
 Desc      Verdan's Grove.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26934
 Desc      The Wailing Pass.~
@@ -1237,12 +1237,12 @@ Desc     The tunnel is filled with a thick, purple mist that tastes of
 lilacs and old iron. This is the source of the nightmare energy 
 that has corrupted the caverns.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26933
 Desc      The hidden pool.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    26935
 Desc      The Dreamer's Rest.~
@@ -1260,12 +1260,12 @@ slumber. He is surrounded by a protective barrier of emerald
 light, but his face is twisted in a mask of terror. This is the 
 heart of the Wailing Caverns.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26934
 Desc      The wailing pass.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    26936
 Desc      The Ritual Site.~
@@ -1281,12 +1281,12 @@ Desc     A large stone circle has been prepared for the ritual of
 awakening. Disciple Beluar stands here, waiting for brave 
 adventurers to help him cleanse Naralex's dream.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26935
 Desc      Return to Naralex.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26937
 Desc      The ritual stage 1.~
@@ -1302,12 +1302,12 @@ Desc     The air is thick with shadow energy as waves of nightmare
 corrupted creatures begin to manifest. You must defend the 
 site until the final devourer arrives.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26936
 Desc      The ritual start.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26938
 Desc      The final stand.~
@@ -1325,12 +1325,12 @@ Desc     The mist has turned black, and the ground itself seems to be
 screaming. Mutanus the Devourer, the final manifestation of 
 Naralex's terror, emerges from the shadows to consume all.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26937
 Desc      The ritual waves.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26939
 Desc      The exit tunnel.~
@@ -1345,12 +1345,12 @@ Flags    indoors~
 Desc     The nightmare energy has dissipated. A narrow, smooth tunnel 
 leads upward, offering a quick way back to the cavern entrance.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26938
 Desc      The ritual site.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    26940
 Desc      The shortcut path.~
@@ -1365,12 +1365,12 @@ Flags    indoors~
 Desc     This tunnel is much warmer than the lower levels. The scent of the 
 Barrens is faint but unmistakable.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    26939
 Desc      Return to the ritual site.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    26900
 Desc      Return to the entrance.~
@@ -1385,7 +1385,7 @@ Flags    indoors~
 Desc     A small side chamber filled with ancient, crumbling stalactites. 
 The air is stagnant here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26902
 Desc      The central gully.~
@@ -1401,7 +1401,7 @@ Flags    indoors~
 Desc     A damp alcove where water drips steadily from the ceiling, 
 forming small, clear puddles on the floor.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    26915
 Desc      The central jungle.~
@@ -1417,7 +1417,7 @@ Flags    indoors~
 Desc     A jagged chamber where the rock walls have been smoothed by 
 centuries of wind and sand.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    26923
 Desc      The Pit of Trumpets.~
@@ -1433,7 +1433,7 @@ Flags    indoors~
 Desc     This small room is filled with a dense, sweet-smelling moss 
 that cushions your footsteps.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    26927
 Desc      The Great Chasm rim.~
@@ -1449,7 +1449,7 @@ Flags    indoors~
 Desc     The northernmost point of the entry gully. The wailing sound 
 echoes off the walls with startling clarity.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26903
 Desc      The north gully branch.~

@@ -731,13 +731,13 @@ Rampart. The dry heat of the Barrens fades, replaced by the cool, damp
 scent of ancient pine and damp earth. A few Horde supply crates are
 scattered near a small campfire.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26529
 Desc      Back to the Barrens.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28001
 Desc      The path into the forest.
@@ -754,13 +754,13 @@ Desc     Giant trees with silver-grey bark tower overhead, their canopy so thick
 that only slivers of moonlight reach the forest floor. The road is
 overgrown with thick ferns and glowing moss.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28000
 Desc      The Rampart.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28002
 Desc      The road continues north.
@@ -778,13 +778,13 @@ This outpost serves as the first line of defense against Horde
 incursions from the south. Silverwing Sentinels keep a sharp watch
 from the high branches.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28001
 Desc      The South Road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28003
 Desc      Toward Silverwing Grove.
@@ -801,13 +801,13 @@ Desc     The forest opens up into a beautiful grove. A small, clear stream winds
 between the trees. The air is filled with the soft rustle of leaves and
 the distant cry of a nightsaber.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28002
 Desc      The outpost.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28004
 Desc      The main thoroughfare.
@@ -824,19 +824,19 @@ Desc     The primary road through Ashenvale runs east to west here. To the east,
 the forest grows darker and more dangerous. To the west lies the
 settlement of Astranaar.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28003
 Desc      Silverwing Grove.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    28030
 Desc      The road toward Azshara.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28005
 Desc      Toward Astranaar.
@@ -852,13 +852,13 @@ Desc     The road is wide and well-traveled. Ancient elven statues, worn by time
 and covered in ivy, stand like silent sentinels along the path. The
 sound of rushing water can be heard to the west.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28004
 Desc      The thoroughfare.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28006
 Desc      The Bridge of Astranaar.
@@ -875,13 +875,13 @@ Desc     A magnificent stone bridge arches over a sparkling lake. The architectu
 is quintessentially elven—graceful, flowing curves that blend seamlessly
 with the surrounding nature. Astranaar lies just across the water.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28005
 Desc      The road back.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28007
 Desc      Astranaar Center.
@@ -899,19 +899,19 @@ Desc     The heart of the Night Elf presence in Ashenvale. Several elegant
 buildings are situated around a central moonwell. Wisps drift through
 the air, and Sentinels move with purpose through the streets.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28006
 Desc      The bridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28008
 Desc      Astranaar Inn.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28009
 Desc      The Western Road.
@@ -929,7 +929,7 @@ Desc     A cozy and serene resting place for weary travelers. The walls are
 decorated with intricate tapestries, and the air smells of jasmine and
 pressed flowers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28007
 Desc      The plaza.
@@ -946,13 +946,13 @@ Desc     As you leave Astranaar, the forest becomes denser. The road heads west
 toward the Zoram Strand. Fallen logs and thick bushes make off-road
 travel difficult.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28007
 Desc      Astranaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28010
 Desc      Mystral Lake.
@@ -969,13 +969,13 @@ Desc     A large, fog-shrouded lake sits to the south of the road. Strange,
 blue-skinned water elementals can sometimes be seen drifting just
 beneath the surface.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28009
 Desc      The road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    28011
 Desc      Mystral Lake - Shoreline.
@@ -991,13 +991,13 @@ Desc     The shoreline is rocky and damp. The influence of the nearby elementals
 makes the air hum with static. To the west, a mountain pass leads toward
 the Stonetalon Mountains.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28010
 Desc      The lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    27500
 Desc      Into Stonetalon Mountains.
@@ -1014,13 +1014,13 @@ Desc     A secluded elven grove dedicated to the study of nature. However, the
 peace has been shattered by the nearby Warsong lumber operations.
 Tensions here are at a breaking point.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28004
 Desc      The thoroughfare.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28013
 Desc      Warsong Lumber Camp.
@@ -1037,13 +1037,13 @@ Desc     A scene of industrial devastation. The ancient trees have been clear-cu
 leaving only jagged stumps. The ground is churned into mud by the
 massive treads of goblin shredders.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28012
 Desc      Raynewood Retreat.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    28014
 Desc      Deep into the logging site.
@@ -1060,7 +1060,7 @@ Desc     Steam-powered saws scream as they bite into wood. Orcish peons work
 tirelessly to load logs onto massive wagons while overseers bark orders.
 The air is thick with smoke and sawdust.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    28013
 Desc      Camp entrance.
@@ -1078,7 +1078,7 @@ Desc     High atop a hill stands a ruined elven tower. Though crumbling, it
 still radiates a faint, magical energy. From here, you can see across
 much of central Ashenvale.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    28005
 Desc      Back to the road.
@@ -1096,19 +1096,19 @@ Desc     An Alliance outpost located on the western road toward Darkshore.
 Sentinels here are focused on stopping the corruption spreading from
 the north.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28009
 Desc      Toward Astranaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    27000
 Desc      Into Darkshore.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28017
 Desc      Toward Zoram Strand.
@@ -1125,13 +1125,13 @@ Desc     The forest begins to thin out, and the smell of salt spray is carried
 on the wind. The ground becomes sandy as you approach the western
 coast of Kalimdor.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28016
 Desc      Maestra's Post.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28018
 Desc      Zoram Strand.
@@ -1148,19 +1148,19 @@ Desc     A wide, sandy beach littered with shells and driftwood. The Great Sea
 crashes against the shore to the west. Ancient ruins poke out of the
 sand like the ribs of a dead giant.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28017
 Desc      The forest path.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    28019
 Desc      Northern Strand.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    28020
 Desc      Zoram'gar Outpost.
@@ -1178,13 +1178,13 @@ to a series of underwater caverns. Murlocs and naga patrol the area,
 defending their territory. A slippery set of stone stairs descends into 
 the watery darkness.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28018
 Desc      Central Strand.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    28040
 Desc      Descend the slippery stairs into the caverns.
@@ -1204,7 +1204,7 @@ At the end of the hall, a corrupted Moonwell glows with a sickly
 purple light, housing the swirling portal that leads into the 
 depths of Blackfathom. 
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    28019
 Desc      Return to the surface of Zoram Strand.
@@ -1220,7 +1220,7 @@ Desc     A fortified Horde encampment on the coast. It is built from dark wood
 and iron, standing in stark contrast to the natural beauty of the
 beach. It serves as a base for Horde operations in the west.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28018
 Desc      Zoram Strand.
@@ -1237,7 +1237,7 @@ Sector   water_swim~
 Desc     A small, circular lake surrounded by weeping willows. The water is
 still and dark, reflecting the canopy above like a black mirror.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28007
 Desc      Astranaar.
@@ -1254,7 +1254,7 @@ Desc     A collection of crude wooden huts and totems. The furbolgs who live
 here have become violent and xenophobic, attacking anyone who
 approaches their village.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28009
 Desc      The western road.
@@ -1272,7 +1272,7 @@ Desc     A narrow valley where the wind whistles through the trees with a
 haunting, mournful sound. The shadows here seem longer and darker
 than elsewhere in the forest.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28012
 Desc      Raynewood Retreat.
@@ -1288,13 +1288,13 @@ Sector   forest~
 Desc     A dark path through the trees, known for being infested with aggressive
 beasts. The Night Elves avoid this area when the moon is hidden.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28025
 Desc      Toward Satyrnaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    28004
 Desc      The thoroughfare.
@@ -1311,7 +1311,7 @@ Desc     The forest is twisted and corrupted here. Sickly purple vines cling to
 dead trees, and the air is heavy with the smell of sulfur. Satyrs
 lurk in the shadows, plotting their next strike.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28024
 Desc      The Night Run.
@@ -1327,7 +1327,7 @@ Sector   water_swim~
 Desc     The water here is murky and stagnant. Legend says a piece of the moon
 once fell here, but now only corruption remains.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    28004
 Desc      The thoroughfare.
@@ -1344,7 +1344,7 @@ Desc     A charred patch of forest where nothing grows. The ground is covered
 in soot and ash, and the heat of a magical fire still lingers in the
 soil.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28026
 Desc      Fallen Sky Lake.
@@ -1359,7 +1359,7 @@ Sector   forest~
 Desc     A hidden altar dedicated to the goddess of the forest. It is a place
 of peace and healing, though its location is known to few.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28007
 Desc      Astranaar.
@@ -1376,7 +1376,7 @@ Desc     On the border of Felwood, the land is dying. Green flames occasionally
 flicker from cracks in the ground, and the trees are skeletal and
 leafless.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28012
 Desc      Raynewood.
@@ -1393,13 +1393,13 @@ Desc     The road continues east toward the high cliffs of Azshara. The trees
 here are older and more gnarled, their roots crossing the path like
 giant wooden serpents.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    28004
 Desc      The thoroughfare.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    28031
 Desc      Toward Splintertree Post.
@@ -1415,7 +1415,7 @@ Desc     The main Horde hub in eastern Ashenvale. Built as a strategic outpost,
 it is heavily fortified to withstand Sentinel raids. The sound of
 sharpening blades is constant.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    28030
 Desc      The East Road.
@@ -1431,7 +1431,7 @@ Sector   forest~
 Desc     The entrance to a series of underground caves where Druids once slept.
 Now, the den has been overrun by corrupted creatures and dark whispers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28031
 Desc      Splintertree Post.
@@ -1447,7 +1447,7 @@ Sector   forest~
 Desc     The very edge of the woods. Beyond this point, the terrain drops off
 into the rocky canyons of the Barrens.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28030
 Desc      The East Road.
@@ -1462,13 +1462,13 @@ Sector   forest~
 Desc     A narrow trail that loops behind the main road. It is often used by
 scouts to bypass the more heavily patrolled areas.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28007
 Desc      Astranaar.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    28005
 Desc      Road to Astranaar.
@@ -1483,7 +1483,7 @@ Sector   forest~
 Desc     The ground is soft and carpeted with moss. The weeping willows of the
 nearby lake sway gently in the breeze.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    28021
 Desc      Iris Lake.
@@ -1499,7 +1499,7 @@ Sector   hills~
 Desc     A deep cleft in the earth filled with ferns and ancient rocks. The
 dampness here makes every surface slippery.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    28030
 Desc      Back to the road.
@@ -1516,7 +1516,7 @@ Desc     The trees here seem to lean in close, their leaves rustling even when
 there is no wind. Some say you can hear the voices of the forest if
 you listen closely.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    28004
 Desc      The thoroughfare.
@@ -1531,7 +1531,7 @@ Sector   hills~
 Desc     A high point overlooking the south road. A small wooden watchtower
 provides an excellent view of any movement coming from the Barrens.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    28001
 Desc      The south road.
@@ -1547,7 +1547,7 @@ Sector   forest~
 Desc     A perfectly circular clearing in the densest part of the forest.
 The canopy is so thick here that it is perpetually dark.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    28030
 Desc      The East Road.

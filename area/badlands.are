@@ -900,12 +900,12 @@ replaced by a harsh, orange-tinted wasteland. The path
 descends sharply between two massive stone pillars that mark 
 the northern boundary of the Badlands.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    15500
 Desc      Return to Loch Modan.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35501
 Desc      The path leads into the wastes.~
@@ -922,12 +922,12 @@ Desc     A narrow, winding road leading through a series of jagged
 rock formations. The air is dry and carries a faint scent 
 of sulfur and hot stone.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35500
 Desc      The northern entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35502
 Desc      The road opens up into a large plain.~
@@ -944,17 +944,17 @@ Desc     Flat, orange plains stretch out toward the southern horizon.
 Small clouds of dust are kicked up by the wind, and the 
 sun beats down mercilessly on the scorched earth.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35501
 Desc      The north pass.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35503
 Desc      The plains continue.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35504
 Desc      A small encampment is visible to the east.~
@@ -971,17 +971,17 @@ Desc     The center of the Badlands. To the west, the jagged peaks
 of the mountains loom large, while to the south, the 
 land becomes more uneven and broken.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35502
 Desc      The northern plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35506
 Desc      The southern plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35520
 Desc      The path to the Searing Gorge.~
@@ -998,12 +998,12 @@ Desc     A small collection of tents and strange, humming machines has
 been set up here. A frantic gnome can be seen scurrying 
 between several large stone pedestals.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35502
 Desc      Return to the plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35505
 Desc      Lotwil's Workstation.~
@@ -1020,7 +1020,7 @@ Desc     The workstation is covered in gears, coils, and jars of
 elemental essence. Lotwil Veriatus stands in the center 
 of the chaos, his hair singed and his goggles askew.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35504
 Desc      The camp entrance.~
@@ -1038,17 +1038,17 @@ Desc     The ground becomes more rocky and uneven as you approach the
 southern mountains. Large fissures have opened in the earth, 
 some of which emit a faint, hot steam.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35503
 Desc      The central plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35510
 Desc      The approach to the ogre caves.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35507
 Desc      The path to the Uldaman dig site.~
@@ -1065,12 +1065,12 @@ Desc     The path winds through a series of shallow ravines. Discarded
 mining tools and broken crates litter the ground, suggesting 
 a large-scale excavation nearby.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35506
 Desc      The southern plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35508
 Desc      The Uldaman Excavation Site.~
@@ -1087,12 +1087,12 @@ Desc     A massive pit has been dug into the mountain side. Scaffolding
 and ladders lead down into the dark, and the sound of 
 hammering and shouting echoes from below.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35507
 Desc      The road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    35550
 Desc      The Excavation Pit (Portal to Uldaman).~
@@ -1109,7 +1109,7 @@ Desc     You stand at the bottom of the massive pit. A grand, Titan-built
 archway has been uncovered here, glowing with a soft, blue 
 light. This is the entrance to the ancient halls of Uldaman.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    35508
 Desc      Return to the surface.~
@@ -1125,7 +1125,7 @@ Desc     A rocky shelf overlooking the central plains. It provides an
 excellent vantage point for anyone wishing to scan the 
 Badlands for movement.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35503
 Desc      The central plains.~
@@ -1142,12 +1142,12 @@ Desc     The mountain walls close in, forming a narrow, steep canyon.
 The scent of woodsmoke and roasting meat is heavy in the 
 air, along with the unmistakable smell of ogres.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35506
 Desc      The southern plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35511
 Desc      The Grotto entrance.~
@@ -1164,12 +1164,12 @@ Desc     A large, dark cavern mouth opens at the base of the mountain.
 The walls are decorated with crude, bloody handprints and 
 piles of refuse.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35510
 Desc      The approach.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35512
 Desc      The main cavern.~
@@ -1186,12 +1186,12 @@ Desc     A massive natural chamber lit by several large bonfires.
 Dustbelch ogres rest on piles of furs, while others 
 sharpen their crude weapons.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35511
 Desc      The grotto entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35513
 Desc      The Deep Grotto.~
@@ -1209,7 +1209,7 @@ Desc     The deepest part of the grotto. The ceiling is low and the air
 is stagnant. This is where the ogre mystics conduct their 
 primitive rituals.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35512
 Desc      The main cavern.~
@@ -1226,12 +1226,12 @@ Desc     A wide, sandy ravine that cuts deep into the eastern mountains.
 To the north, the terrain becomes extremely rocky and 
 difficult to navigate.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35503
 Desc      The central plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35515
 Desc      The ravine continues.~
@@ -1247,12 +1247,12 @@ Flags    ~
 Desc     The ravine turns sharply to the north. Massive pillars of 
 natural stone stand like guardians along the path.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35514
 Desc      The ravine entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35516
 Desc      The path to Camp Kosh.~
@@ -1269,12 +1269,12 @@ Desc     A well-fortified Horde outpost built into the eastern ridge.
 Spiked wooden walls and watchtowers provide a clear view 
 of the surrounding ravine.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35515
 Desc      The eastern ravine.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35517
 Desc      The main courtyard of Camp Kosh.~
@@ -1291,17 +1291,17 @@ Desc     The center of the outpost is busy with orcs preparing for
 patrols. Several large kodo are tethered near the supply 
 tents, and a blacksmith's forge rings with the sound of steel.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35516
 Desc      The southern gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    35518
 Desc      The Horde Inn.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    35519
 Desc      The Wyvern Roost.~
@@ -1317,7 +1317,7 @@ Flags    indoors~
 Desc     A large, sturdy building that serves as the inn for Camp Kosh. 
 The air is warm and smells of roasted boar and strong ale.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35517
 Desc      The courtyard.~
@@ -1333,7 +1333,7 @@ Desc     A flat ledge at the highest point of the camp. Several
 wyverns rest here, ready to carry messages and warriors 
 to Kargath.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35517
 Desc      The courtyard.~
@@ -1349,12 +1349,12 @@ Desc     The orange plains give way to a steep, rocky pass leading
 west into the Searing Gorge. The air becomes noticeably 
 warmer and the scent of smoke more intense.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35503
 Desc      Return to the plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35521
 Desc      The pass continues west.~
@@ -1371,12 +1371,12 @@ Desc     The path winds up along a narrow ridge. From here, you can
 see the black, smoke-choked sky of the Searing Gorge 
 looming in the distance.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35520
 Desc      The pass entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    35522
 Desc      The exit to Searing Gorge.~
@@ -1393,12 +1393,12 @@ Desc     A massive iron gate, built by the Dark Iron dwarves, marks
 the boundary between the Badlands and the Searing Gorge. 
 The air is thick with the soot of Blackrock Mountain.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35521
 Desc      The ridge path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36500
 Desc      Enter the Searing Gorge.~
@@ -1414,7 +1414,7 @@ Desc     A high, flat-topped hill in the center of the Badlands.
 The ground is cracked and dry, and small scorpions 
 scuttle between the shards of stone.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35503
 Desc      The central plains.~
@@ -1431,12 +1431,12 @@ Desc     A deep, narrow ravine that cuts into the southeastern mountains.
 The air is heavy and the scent of brimstone and old scales 
 is overwhelming.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35506
 Desc      The southern plains.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35525
 Desc      The Dragonflight territory.~
@@ -1453,12 +1453,12 @@ Desc     The heart of the black dragonflight's territory in the Badlands.
 Massive, charred rocks and piles of bones litter the ground, 
 and the roar of drakes echoes off the walls.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35524
 Desc      The ravine entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    35526
 Desc      The Black Dragonflight Roost.~
@@ -1476,7 +1476,7 @@ Desc     A high, volcanic ledge where the larger drakes of the black
 flight rest. The heat is intense, and the ground is 
 stained with the soot of countless breath attacks.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35525
 Desc      The heart of the ravine.~
@@ -1494,7 +1494,7 @@ Desc     A small, disorganized dig site near the southern mountains.
 Hammertoe Grez can be seen frantically searching 
 through a pile of rubble.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35506
 Desc      The southern plains.~
@@ -1512,7 +1512,7 @@ Desc     The remains of a small stone structure that has been nearly
 swallowed by the shifting sands. Shadowforge dwarves are 
 working to clear the debris.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35502
 Desc      The northern plains.~
@@ -1529,7 +1529,7 @@ Desc     A small valley filled with volcanic vents and boiling mud
 pools. The air is thick with steam and the scent of 
 burning stone.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35503
 Desc      The central plains.~
@@ -1546,7 +1546,7 @@ Desc     A small, secluded tent tucked away in a quiet corner of
 the western mountains. Martek the Exiled sits here, 
 quietly contemplating the horizon.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35503
 Desc      The central plains.~
@@ -1562,7 +1562,7 @@ Flags    ~
 Desc     A quiet section of the northern plains, dominated by 
 large orange boulders and sparse vegetation.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35502
 Desc      The northern plains.~
@@ -1578,7 +1578,7 @@ Flags    ~
 Desc     A small, dusty hollow where several coyotes have made 
 their den.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35506
 Desc      The southern plains.~
@@ -1594,7 +1594,7 @@ Flags    ~
 Desc     A flat, wind-swept section of the central plains, 
 frequently patrolled by buzzards.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35503
 Desc      The central plains.~
@@ -1610,7 +1610,7 @@ Flags    ~
 Desc     A rocky outcrop near the western pass, offering a 
 good view of the mountain trail.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35520
 Desc      The west pass entrance.~
@@ -1626,7 +1626,7 @@ Flags    ~
 Desc     A small storage area near the Horde inn, filled with 
 crates of food and equipment.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35517
 Desc      The camp courtyard.~
@@ -1642,7 +1642,7 @@ Flags    ~
 Desc     A quiet section of the camp where guards can rest 
 between patrols.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35517
 Desc      The camp courtyard.~
@@ -1658,7 +1658,7 @@ Flags    indoors~
 Desc     A side tunnel in the ogre grotto, filled with 
 piles of large, gnawed bones.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35512
 Desc      The main grotto cavern.~
@@ -1674,7 +1674,7 @@ Flags    indoors~
 Desc     A small, damp chamber where the ogres store their 
 crude weapons and armor.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    35512
 Desc      The main grotto cavern.~
@@ -1690,7 +1690,7 @@ Flags    ~
 Desc     A small ridge overlooking the Uldaman dig site, 
 heavily patrolled by Dark Iron guards.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35508
 Desc      The excavation site.~
@@ -1706,7 +1706,7 @@ Flags    ~
 Desc     A shallow pit where several surveyors are 
 conducting an analysis of the rock layers.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35508
 Desc      The excavation site.~
@@ -1722,7 +1722,7 @@ Flags    ~
 Desc     An overgrown, dusty trail that leads into the deep 
 southern mountains. It hasn't been used in years.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35510
 Desc      The ogre approach.~
@@ -1738,7 +1738,7 @@ Flags    ~
 Desc     A high, narrow mountain trail that provides a 
 commanding view of the southeastern Badlands.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35514
 Desc      The eastern ravine entrance.~
@@ -1754,12 +1754,12 @@ Flags    indoors dark~
 Desc     The entrance to a small, hidden cave filled with 
 glowing crystals. The air is cool and stagnant.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    35523
 Desc      The shattered mesa.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    35544
 Desc      The deeper cave.~
@@ -1775,7 +1775,7 @@ Flags    indoors dark~
 Desc     The deepest point of the hidden cave. The walls 
 shimmer with a brilliant, blue light.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    35543
 Desc      The cave entry.~
@@ -1791,7 +1791,7 @@ Flags    ~
 Desc     A quiet, shadowed corner of the ravine where the 
 Ghost of Theolen wanders.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    35514
 Desc      The eastern ravine entrance.~
@@ -1807,7 +1807,7 @@ Flags    ~
 Desc     A small ledge overlooking the southern ogre caves. 
 Several buzzards rest here, watching the path below.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    35510
 Desc      The ogre approach.~
@@ -1823,7 +1823,7 @@ Flags    ~
 Desc     A small, green oasis tucked away in the western 
 mountains. A tiny stream flows from a crack in the rock.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    35520
 Desc      The west pass entrance.~
@@ -1839,7 +1839,7 @@ Flags    indoors dark~
 Desc     A small, subterranean room beneath the sunken temple 
 ruins. It is filled with dust and broken machinery.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    35528
 Desc      Return to the ruins.~
@@ -1856,12 +1856,12 @@ Desc     A narrow, hidden tunnel behind the Uldaman pit leads
 toward the surface of Loch Modan, offering a quick 
 way out for tired explorers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    35550
 Desc      The excavation pit.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    35500
 Desc      The northern entrance.~

@@ -937,12 +937,12 @@ humid basin where the air is heavy with the scent of stagnant
 water and blooming night-lilies. A narrow, mud-slicked trail 
 leads east into the Quagmire.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    26650
 Desc      Return to the southern Barrens.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37553
 Desc      The path leads into the swamp.~
@@ -960,12 +960,12 @@ roots twisting like snakes through the shallow water. Massive
 insects drone in the air, and the ground is soft and spongy 
 underfoot.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37552
 Desc      The western entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37554
 Desc      The path continues east.~
@@ -983,17 +983,17 @@ than a few yards away. The only landmarks are the giant
 mushrooms and the occasional bleached rib-cage of some 
 forgotten beast.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37553
 Desc      Western Quagmire.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37555
 Desc      Toward the village of Brackenwall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37565
 Desc      A path leads toward a small island.~
@@ -1010,12 +1010,12 @@ Desc     The ground begins to rise slightly as the swamp gives way to
 a more solid stone path. To the east, the spiked wooden walls 
 of a Horde outpost are visible through the fog.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37554
 Desc      Central Quagmire.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37556
 Desc      Entrance to Brackenwall Village.~
@@ -1032,12 +1032,12 @@ Desc     Massive logs, sharpened to points, form the defensive walls of
 Brackenwall. Orc grunts stand firm at the gate, their axes 
 gleaming in the soft marsh light.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37555
 Desc      Return to the swamp.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37557
 Desc      Brackenwall Town Square.~
@@ -1055,22 +1055,22 @@ burns in the center of the square, and several sturdy
 stone buildings provide shelter and supplies for the 
 warriors stationed here.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37556
 Desc      The west gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    37558
 Desc      The Brackenwall Inn.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37559
 Desc      Overlord Mok'Morokk's Seat.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37560
 Desc      The Wyvern Roost.~
@@ -1087,7 +1087,7 @@ Desc     A warm, smoky inn that provides a welcome respite from the
 damp swamp air. The walls are decorated with trophies 
 taken from the local raptors and turtles.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37557
 Desc      The square.~
@@ -1103,7 +1103,7 @@ Desc     A high stone platform overlooking the village. Overlord
 Mok'Morokk sits upon a massive, stolen chest, gnawing 
 on a roasted haunch of kodo meat.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37557
 Desc      The square.~
@@ -1121,7 +1121,7 @@ Desc     A flat ledge at the highest point of the camp. Several
 wyverns rest here, ready to carry messages and warriors 
 to Orgrimmar.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37557
 Desc      The square.~
@@ -1137,12 +1137,12 @@ Desc     A treacherous expanse of deep, bubbling mud. Fallen trees
 provide a series of unstable bridges across the bogs, but 
 one wrong step could lead to a slow, suffocating death.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37562
 Desc      The bogs continue south.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    37554
 Desc      Return to the Quagmire.~
@@ -1159,12 +1159,12 @@ Desc     The trees are thinner here, but the mud is deeper. Small
 bubbles of swamp gas rise to the surface of the pools, 
 bursting with a faint, sulfurous pop.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37561
 Desc      The northern bogs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37563
 Desc      Toward the eastern coast.~
@@ -1181,12 +1181,12 @@ Desc     A wide, stone road that has been partially reclaimed by the
 swamp. It leads east toward the Alliance stronghold of 
 Theramore Isle.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37562
 Desc      The bogs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37567
 Desc      The entrance to Theramore.~
@@ -1203,12 +1203,12 @@ Desc     A large, web-choked cavern mouth in the northern mountains.
 The air is stagnant and smells of old decay and the 
 metallic scent of spider-venom.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37554
 Desc      Return to the Quagmire.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    37565
 Desc      The webbed tunnels.~
@@ -1225,12 +1225,12 @@ Desc     The walls and ceiling are completely covered in thick,
 sticky white silk. Hundreds of small spiders skitter 
 across the floor, following the vibrations of your footsteps.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37564
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    37566
 Desc      The Widow's Chamber.~
@@ -1248,7 +1248,7 @@ Desc     A massive circular chamber. In the center, a gargantuan
 spider hangs from the ceiling, surrounded by dozens of 
 web-wrapped cocoons—the remnants of unlucky travelers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37565
 Desc      The tunnels.~
@@ -1265,12 +1265,12 @@ Desc     The primary entrance to the Alliance stronghold. Massive
 white stone walls and heavy iron-bound gates provide a 
 sense of absolute security against the surrounding marsh.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37563
 Desc      Return to the road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37568
 Desc      Theramore Town Square.~
@@ -1288,22 +1288,22 @@ citizens move with purpose through the clean stone streets.
 A large fountain depicting the Crest of Lordaeron sits in 
 the center.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37567
 Desc      The north gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    37569
 Desc      The Theramore Inn.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37571
 Desc      The Keep of Jaina Proudmoore.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    37570
 Desc      The Theramore Docks.~
@@ -1320,7 +1320,7 @@ Desc     A warm, well-furnished inn built with the elegant
 craftsmanship of Kul Tiras. The air smells of pine 
 and sea salt.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37568
 Desc      The square.~
@@ -1336,7 +1336,7 @@ Desc     A massive stone pier jutting into the Veiled Sea. Elegant
 ships are tethered to the docks, and several gryphons rest 
 near the harbor office.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37568
 Desc      The square.~
@@ -1352,7 +1352,7 @@ Desc     The heart of Theramore's leadership. Lady Jaina Proudmoore
 stands before a massive table covered in maps and scrolls, 
 ber thoughts focused on the preservation of peace.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37568
 Desc      The square.~
@@ -1370,12 +1370,12 @@ Desc     A long, sandy beach stretching along the northern coast.
 Murloc huts made of seaweed and driftwood line the shore, 
 and the air is filled with the sound of gurgling cries.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37573
 Desc      The strand continues south.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    37553
 Desc      Return to the Quagmire.~
@@ -1392,7 +1392,7 @@ Desc     The beach widens here, meeting the edge of the deep swamp.
 Murloc oracles can be seen performing rituals in the 
 shallow surf, calling upon the power of the sea.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37572
 Desc      The northern strand.~
@@ -1411,12 +1411,12 @@ the southern bogs. The air is warm and smells of sulfur
 and ancient scales. Black dragonspawn patrol the narrow 
 stone paths.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37563
 Desc      Return to the road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37575
 Desc      Deep into the Wyrmbog.~
@@ -1433,12 +1433,12 @@ Desc     The heart of the Black Dragonflight's territory in Dustwallow.
 Massive, obsidian-scaled drakes circle overhead, and the 
 ground is littered with the charred bones of intruders.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37574
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37576
 Desc      Toward the Dragonmurk.~
@@ -1456,12 +1456,12 @@ Desc     A high stone ridge overlooking the southern marshes. From
 here, you can see the smoking entrance to the dragon lair. 
 Onyxian whelps play in the warm updrafts rising from the pools.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37575
 Desc      The central Wyrmbog.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37590
 Desc      The Dragonmurk Mouth (Portal to Onyxia's Lair).~
@@ -1479,7 +1479,7 @@ Onyxia, the Broodmother. The air is blistering hot, and
 the ground is composed of solid, black glass. A shimmering, 
 fiery portal glows within the deep cavern.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37576
 Desc      Return to the ridge.~
@@ -1495,12 +1495,12 @@ Desc     A small, well-tended clearing in the deep marsh. A humble
 thatched-roof hut sits in the center, surrounded by 
 several strange, magical gardens.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37562
 Desc      Return to the bogs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    37578
 Desc      Tabetha's Hut.~
@@ -1517,7 +1517,7 @@ Desc     The interior of the hut is filled with bookshelves and
 arcane reagents. A large iron cauldron bubbles in the 
 corner, emitting a pleasant, herbal scent.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37577
 Desc      The farm entrance.~
@@ -1534,12 +1534,12 @@ Desc     A collection of crude leather tents built into the southern
 cliffs. Firetree trolls move about with religious fervor, 
 preparing for their next dark ritual.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37574
 Desc      Return to the Wyrmbog entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37580
 Desc      The inner coven.~
@@ -1556,7 +1556,7 @@ Desc     The center of the troll encampment. A large, blackened
 altar sits in the center, and the sound of constant 
 chanting echoes off the cliff walls.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37579
 Desc      The entrance.~
@@ -1574,12 +1574,12 @@ Desc     The marsh gives way to a wide, flat expanse of white salt.
 The air is incredibly dry here, and the glare of the 
 sun is blinding.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37562
 Desc      Return to the bogs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37582
 Desc      The saltpan continues south.~
@@ -1596,7 +1596,7 @@ Desc     The very center of the salt flats. Bleached bones of
 large beasts are scattered across the white ground, 
 turned into salt-statues by the environment.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37581
 Desc      The northern edge.~
@@ -1613,12 +1613,12 @@ Desc     A dark, ominous camp tucked away in the deep southern
 marsh. The tauren here are heavily armed and watch the 
 surrounding paths with suspicion.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37574
 Desc      Return to the Wyrmbog entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37584
 Desc      The inner post.~
@@ -1635,7 +1635,7 @@ Desc     The center of the renegade tauren camp. Several captured
 Theramore marines are kept in small cages, and the 
 sound of dark planning fills the air.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37583
 Desc      The entrance.~
@@ -1652,12 +1652,12 @@ Desc     The water is shallow and murky, with thick kelp forests
 waving in the currents. Saltwater snapjaws can be seen 
 swimming near the surface.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37557
 Desc      Swim toward Sardor Isle.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    37572
 Desc      Return to the Mirefin strand.~
@@ -1673,7 +1673,7 @@ Flags    ~
 Desc     A quiet, dark corner of the eastern swamp, filled with 
 thick stranglekelp and rotting behemoths.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37553
 Desc      The Quagmire entrance.~
@@ -1690,7 +1690,7 @@ Flags    ~
 Desc     A gnarled thicket where several giant marsh spiders 
 have built their nests.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37555
 Desc      The Quagmire east.~
@@ -1706,7 +1706,7 @@ Flags    ~
 Desc     A small, dry island in the middle of a deep bog, used by 
 strangelost survivors as a temporary camp.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37562
 Desc      The southern bogs.~
@@ -1722,7 +1722,7 @@ Flags    ~
 Desc     A shallow depression in the swamp floor where several 
 rotting behemoths have gathered.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37554
 Desc      The central Quagmire.~
@@ -1738,7 +1738,7 @@ Flags    ~
 Desc     A quiet corner of the northern Quagmire, filled with 
 Mudrock Turtles sunning themselves.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37553
 Desc      The Quagmire entrance.~
@@ -1754,7 +1754,7 @@ Flags    ~
 Desc     A small clearing near the Barrens exit where several 
 Swamp Rats have gathered.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37552
 Desc      The western entrance.~
@@ -1770,7 +1770,7 @@ Flags    ~
 Desc     A thicket near Tabetha's farm, frequently patrolled by 
 Mottled Crocolisks.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37577
 Desc      Tabetha's farm.~
@@ -1786,7 +1786,7 @@ Flags    ~
 Desc     A rocky ledge near the salt flats, offering a good 
 view of the southern bogs.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    37581
 Desc      The northern saltpan.~
@@ -1802,7 +1802,7 @@ Flags    ~
 Desc     A charred clearing near the dragon lair, filled with 
 obsidian fragments.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37576
 Desc      The Dragonmurk ridge.~
@@ -1817,7 +1817,7 @@ Sector   field~
 Flags    ~
 Desc     A narrow canyon where black dragonspawn stand in silent vigil.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37574
 Desc      The Wyrmbog entrance.~
@@ -1833,7 +1833,7 @@ Flags    ~
 Desc     A high balcony in Jaina's tower, offering a view of 
 the western marsh and the distant mainland.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    37571
 Desc      Jaina's tower.~
@@ -1849,7 +1849,7 @@ Flags    ~
 Desc     A small storage area near the Horde inn, filled with 
 totems and grog jugs.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37557
 Desc      The village square.~
@@ -1865,7 +1865,7 @@ Flags    ~
 Desc     A narrow trail that smells particularly foul. The ghost 
 Stinky can often be found here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37554
 Desc      The central Quagmire.~
@@ -1881,7 +1881,7 @@ Flags    indoors dark~
 Desc     A small, damp cave where several deserted soldiers 
 have sought refuge from their own memories.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37553
 Desc      The Quagmire entrance.~
@@ -1897,7 +1897,7 @@ Flags    ~
 Desc     A rare gap in the swamp canopy where kingsblood grows 
 in abundance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    37554
 Desc      The central Quagmire.~
@@ -1913,7 +1913,7 @@ Flags    ~
 Desc     A dark, quiet section of the marsh where the air 
 feels heavy and the spiders hunt.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    37554
 Desc      The central Quagmire.~
@@ -1930,12 +1930,12 @@ Desc     A hidden trail behind Brackenwall Village leads toward the
 western mountains, offering a quick way back toward 
 the Barrens.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    37557
 Desc      Brackenwall Village.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    37552
 Desc      The western entrance.~

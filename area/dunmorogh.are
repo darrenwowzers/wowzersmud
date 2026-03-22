@@ -993,13 +993,13 @@ massive gates of &YIronforge&d loom to the &Ynorth&d, their bronze surfaces
 gleaming despite the frost. The road winds &Ysouth&d down into the frozen
 wilderness, where troggs, trolls, and worse await the unwary.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14000
 Desc      The great gates of Ironforge beckon.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14701
 Desc      The road descends into the snowy wilderness.
@@ -1020,13 +1020,13 @@ the weight. The air is bitterly cold, and your breath fogs before you.
 Ironforge lies to the &Ynorth&d, and the road continues &Ysouth&d toward
 Kharanos.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14700
 Desc      The road leads north toward Ironforge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14702
 Desc      The road continues south.
@@ -1046,19 +1046,19 @@ Mist drifts between the snow-covered branches, giving the area an ethereal
 quality. The road continues &Ynorth&d and &Ysouth&d, and a trail leads &Yeast&d
 into the deeper forest.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14701
 Desc      The road leads north toward Ironforge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14703
 Desc      A trail leads into the misty forest.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14710
 Desc      The road continues south toward Kharanos.
@@ -1078,13 +1078,13 @@ mist muffles all sound. It would be easy to become lost in this frozen
 maze. The trail leads &Ywest&d back to the road, and continues &Yeast&d
 deeper into the woods.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14704
 Desc      The trail continues deeper into the woods.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14702
 Desc      The trail leads back to the road.
@@ -1106,13 +1106,13 @@ outside—this is clearly the den of the Ice Claw wolf pack. Snarls and
 howls echo from within. The woods lie to the &Ywest&d, and the cave
 continues &Yeast&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14705
 Desc      The cave descends into darkness.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14703
 Desc      The misty woods lie outside.
@@ -1131,7 +1131,7 @@ home. Bones of prey animals are scattered across the frozen floor, and
 crude nests of dried grass line the walls. The alpha wolf watches from
 a raised ledge, its pale eyes gleaming in the darkness.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14704
 Desc      The cave entrance lies to the west.
@@ -1152,25 +1152,25 @@ can see smoke rising from chimneys to the &Ysouth&d, and the smell of
 brewing ale carries on the wind. A signpost points &Ywest&d toward
 Brewnall Village and &Yeast&d toward the Gol'Bolar Quarry.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14702
 Desc      The road leads north toward Ironforge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14740
 Desc      The road leads toward Gol'Bolar Quarry.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14711
 Desc      The village of Kharanos lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14730
 Desc      The road leads toward Brewnall Village.
@@ -1190,13 +1190,13 @@ and the sound of hammering and laughter fills the air. The famous
 &WThunderbrew Distillery&d dominates the town center to the &Ysouth&d.
 Villagers go about their business despite the bitter cold.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14710
 Desc      The road leads north into the mountains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14712
 Desc      The main square lies ahead.
@@ -1216,25 +1216,25 @@ sits to the &Yeast&d, and the main road runs &Ynorth&d and &Ysouth&d. Despite
 the cold, the square bustles with activity—merchants hawking wares,
 children playing in the snow, and off-duty Mountaineers sharing tales.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14711
 Desc      The north gate lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14714
 Desc      The general store lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14713
 Desc      The road continues south toward Coldridge Pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14715
 Desc      The Thunderbrew Distillery beckons.
@@ -1253,19 +1253,19 @@ small stable stands to the &Ywest&d, where mountain rams are tended. The
 village square lies to the &Ynorth&d, and the road continues &Ysouth&d into
 increasingly wild territory.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14712
 Desc      The town square lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14720
 Desc      The road leads south toward Coldridge Pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14716
 Desc      The village stable lies to the west.
@@ -1284,7 +1284,7 @@ need in the frozen wilderness. Warm cloaks, sturdy boots, dried rations,
 and mining supplies line the shelves. A potbellied stove in the corner
 keeps the shop warm, and the proprietor eyes you appraisingly.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14712
 Desc      The town square lies outside.
@@ -1310,13 +1310,13 @@ is thick with the smell of hops, malt, and roasting meat. Dwarves crowd
 around sturdy wooden tables, singing, arguing, and drinking the legendary
 Thunderbrew Ale. A staircase leads &Ydown&d to the brewing floor.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    14717
 Desc      Stone stairs lead down to the brewing floor.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14712
 Desc      The town square lies outside.
@@ -1339,7 +1339,7 @@ stamp in their stalls, their thick wool keeping them warm even in the
 unheated building. A handler tends to the beasts, ensuring they are fed
 and healthy. Saddles and harnesses hang from hooks on the walls.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14713
 Desc      The south road lies outside.
@@ -1360,7 +1360,7 @@ and alcohol. Workers monitor temperatures, add ingredients, and tend the
 fires that keep the process going. This is where the legendary Thunderbrew
 Ale is born.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    14715
 Desc      The taproom lies above.
@@ -1380,13 +1380,13 @@ and snow-laden pines cling precariously to the slopes. The wind howls
 through the pass, carrying flurries of ice. Kharanos lies to the &Ynorth&d,
 and the pass continues &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14713
 Desc      The road leads back to Kharanos.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14721
 Desc      The pass continues south.
@@ -1406,19 +1406,19 @@ can see the smoke of Kharanos to the &Ynorth&d and the distant lights of
 Anvilmar to the &Ysouth&d. A narrow trail branches &Ywest&d toward a cave
 rumored to house wendigos.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14720
 Desc      The pass descends toward Kharanos.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14722
 Desc      The pass descends toward Coldridge Valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14725
 Desc      A treacherous trail leads toward Wendigo Cave.
@@ -1438,13 +1438,13 @@ cliffs begin to recede, and the valley opens before you. You can see the
 frozen lake and small settlement of Coldridge Valley below. Trogg totems
 mark territory dangerously close to the road.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14721
 Desc      The pass leads back up to the summit.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14750
 Desc      The road descends into Coldridge Valley.
@@ -1463,13 +1463,13 @@ fangs. An unnatural cold emanates from within, and massive clawed footprints
 mark the snow. This is the lair of the dreaded wendigos—only the brave or
 foolish enter here. The trail back to the pass lies &Yeast&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14721
 Desc      The trail leads back to Coldridge Pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14726
 Desc      The cave descends into frozen darkness.
@@ -1488,13 +1488,13 @@ instantly, and the cold saps the strength from your limbs. The bones of
 unfortunate victims lie scattered on the floor, gnawed clean. Growls and
 the scrape of claws echo from deeper within.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14725
 Desc      The entrance lies to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14727
 Desc      The tunnel continues deeper.
@@ -1515,7 +1515,7 @@ like frozen trees, and the cold is so intense that even fire struggles
 to burn. The massive creature watches from the shadows, its eyes gleaming
 with predatory hunger.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14726
 Desc      The frozen tunnels lie to the east.
@@ -1537,19 +1537,19 @@ Village lies ahead, a small settlement known for its hops farms that
 supply the Thunderbrew Distillery. The hills to the &Ynorth&d are rumored
 to harbor Frostmane troll camps.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14710
 Desc      The road leads back toward Kharanos.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    14733
 Desc      A trail leads into the troll-infested hills.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14731
 Desc      The road continues toward Brewnall Village.
@@ -1569,13 +1569,13 @@ cottages with snow-covered roofs cluster around frozen fields. Despite
 the cold, workers tend to winter preparations. The village center lies
 to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14730
 Desc      The road leads back toward Kharanos.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14732
 Desc      The village center lies ahead.
@@ -1594,19 +1594,19 @@ frontier, but the villagers are proud of their contribution to dwarven
 culture. The hop fields stretch to the &Ynorth&d, and a farmhouse stands
 to the &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14735
 Desc      The hop fields lie to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14731
 Desc      The east entrance lies behind you.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14736
 Desc      A sturdy farmhouse stands to the south.
@@ -1626,13 +1626,13 @@ blood. Troll scouts watch from the ridges, and war drums echo in the
 distance. The safe road lies to the &Ysouth&d, and the hills continue
 &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14734
 Desc      The hills continue into troll territory.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14730
 Desc      The road lies to the south.
@@ -1653,13 +1653,13 @@ cooking fires within. Shrunken heads and Alliance banners hang from
 poles as grim trophies. This is the heart of Frostmane power in Dun
 Morogh.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14738
 Desc      The main camp lies beyond the palisade.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14733
 Desc      The hills lead back south.
@@ -1681,13 +1681,13 @@ Ale its distinctive flavor. Workers prepare the soil and repair frames
 despite the cold. A trampled, snowy path leads northwest away from the
 safety of the village.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    14732
 Desc      The village center lies to the south.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction northwest~
 ToRoom    14766
 Desc      A treacherous path leading toward the irradiated ruins.
@@ -1705,13 +1705,13 @@ glowing green tint here. Discarded cogwheels, twisted metal pipes, and
 the faint sound of erratic mechanical whirring echo down the canyon. The 
 massive, steel-vaulted entrance to the fallen gnome capital looms ahead.
 ~
-#EXIT
+Exit
 Direction southeast~
 ToRoom    14735
 Desc      The path leads back to the safety of Brewnall Village.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    14767
 Desc      The loading elevator leading down into the city.
@@ -1731,7 +1731,7 @@ thick with radiation and the smell of ozone. A swirling, mechanized
 portal hums violently here, sealing off the deeper, infected depths of 
 the city. 
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    14766
 Desc      The path outside the vault.
@@ -1749,7 +1749,7 @@ A fire crackles in the hearth, and the smell of cooking fills the air.
 Simple but comfortable furniture fills the room, and farming tools hang
 from hooks near the door.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14732
 Desc      The village center lies outside.
@@ -1769,13 +1769,13 @@ weapons around smoking fires, and the witch doctors conduct dark rituals
 in a sheltered corner. The stench of unwashed troll and rotting meat is
 overpowering. The chieftain's hut lies to the &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14739
 Desc      The chieftain's hut looms ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14734
 Desc      The entrance lies to the south.
@@ -1801,7 +1801,7 @@ trophies of war. A fire pit smolders in the center, and crude weapons
 line the walls. The Frostmane chieftain holds court here, planning
 raids against the dwarven settlements.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    14738
 Desc      The main camp lies outside.
@@ -1824,19 +1824,19 @@ of Ironforge's primary sources of stone and ore. Trogg attacks have
 made the journey increasingly dangerous. The road continues &Yeast&d,
 and a trail branches &Ysouth&d toward Helm's Bed Lake.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14741
 Desc      The road continues toward the quarry.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14745
 Desc      A trail leads toward Helm's Bed Lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14710
 Desc      The road leads back toward Kharanos.
@@ -1856,19 +1856,19 @@ been partially overrun by Stonesplinter troggs. Mountaineers guard the
 perimeter, trying to hold back the infestation. The quarry continues
 &Yeast&d and &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14742
 Desc      The quarry continues to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14743
 Desc      The main excavation lies to the south.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14740
 Desc      The road leads back west.
@@ -1889,13 +1889,13 @@ of copper and tin. Abandoned mining carts sit on rusted tracks, and
 picks and shovels lie where workers dropped them when fleeing trogg
 attacks. The creatures now claim this section of the quarry.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14741
 Desc      The quarry entrance lies to the west.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    14744
 Desc      A ramp descends into the mine tunnels.
@@ -1918,13 +1918,13 @@ walls descend deep into the earth, and tunnels branch off in several
 directions. Fighting between dwarves and troggs has turned this into a
 contested battleground.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14741
 Desc      The quarry entrance lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    14744
 Desc      A ramp descends into the mine tunnels.
@@ -1947,13 +1947,13 @@ the mountain. Troggs have made these passages their own, driving out the
 dwarven miners. Their crude camps and foul refuse litter the floor. The
 trogg leader is said to lurk in the deepest chambers.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    14743
 Desc      The ramp leads back up to the excavation.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    14748
 Desc      A tunnel leads deeper into trogg territory.
@@ -1978,19 +1978,19 @@ surface covered in thick ice. Fishermen have cut holes in the ice,
 sitting patiently with their lines despite the cold. The Amberstill
 Ranch is visible to the &Yeast&d, and the road lies to the &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14740
 Desc      The road lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14746
 Desc      The path leads toward Amberstill Ranch.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14749
 Desc      The lake shore continues south.
@@ -2009,19 +2009,19 @@ finest ram breeding operation in Dun Morogh. You can see the main
 farmhouse to the &Yeast&d and ram pens to the &Ysouth&d. The bleating of
 rams and smell of hay fill the air.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14747
 Desc      The farmhouse lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14765
 Desc      The ram pens lie to the south.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14745
 Desc      The lake shore lies to the west.
@@ -2040,7 +2040,7 @@ breeders for generations. Trophies of prize-winning rams hang on the
 walls, and the smell of hearty stew simmers from the kitchen. A fire
 crackles warmly in the hearth.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14746
 Desc      The ranch entrance lies outside.
@@ -2061,7 +2061,7 @@ Cold&d, chieftain of the Stonesplinter troggs. Ice coats the walls despite
 being deep underground, and the air is frigid. The massive trogg sits on
 a throne of skulls and ore, his frozen club within easy reach.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    14744
 Desc      The tunnels lead back south.
@@ -2087,7 +2087,7 @@ Snow-covered pines line the water's edge, and a small shrine to the
 ancestors sits on a rocky outcrop. The north shore lies back to the
 &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14745
 Desc      The north shore lies ahead.
@@ -2107,13 +2107,13 @@ from the worst weather, the valley is still bitterly cold. The settlement
 of &YAnvilmar&d is visible to the &Ysouth&d. Coldridge Pass lies to the
 &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14722
 Desc      The pass leads back north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14751
 Desc      The road leads toward Anvilmar.
@@ -2133,19 +2133,19 @@ boars root through the snow, and the occasional rabbit darts across the
 path. Anvilmar lies to the &Ysouth&d, and the valley continues &Ynorth&d. A
 trail branches &Yeast&d toward the frozen lake.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14750
 Desc      The valley continues north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14760
 Desc      A trail leads toward Iceflow Lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14752
 Desc      The road leads toward Anvilmar.
@@ -2164,13 +2164,13 @@ of civilization for those venturing into Coldridge Valley. Stone walls
 provide some protection, and Mountaineers patrol vigilantly. The main
 square lies to the &Ysouth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14751
 Desc      The valley road lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14753
 Desc      The main square lies ahead.
@@ -2190,25 +2190,25 @@ and a few merchant stalls offer basic supplies. The main building lies to
 the &Ywest&d, and training grounds are to the &Yeast&d. The road continues
 &Ysouth&d toward the Grizzled Den.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14752
 Desc      The north gate lies ahead.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14755
 Desc      The training grounds lie to the east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14756
 Desc      The road leads south toward the Grizzled Den.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14754
 Desc      The main building lies to the west.
@@ -2228,7 +2228,7 @@ large hearth keeps the interior warm, and maps of the valley cover the
 walls. The local commander coordinates defense efforts against trogg
 incursions from here. Supplies are stacked along one wall.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14753
 Desc      The main square lies outside.
@@ -2249,7 +2249,7 @@ learn the basics of combat. Veteran Mountaineers put trainees through
 their paces, teaching them to fight with rifle, axe, and hammer. The
 main square lies to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14753
 Desc      The main square lies to the west.
@@ -2270,13 +2270,13 @@ become more frequent, warning of the creatures' presence. The infamous
 &RGrizzled Den&d, a cave complex overrun by troggs, lies to the &Yeast&d.
 Anvilmar lies to the &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14753
 Desc      Anvilmar lies to the north.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14757
 Desc      The path leads toward the Grizzled Den.
@@ -2295,13 +2295,13 @@ totems and the bones of unfortunate victims. This is &RThe Grizzled Den&d,
 home to a large tribe of Stonesplinter troggs. Growls and the clatter of
 stone tools echo from within. The valley road lies to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14756
 Desc      The valley road lies to the west.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    14758
 Desc      The cave descends into darkness.
@@ -2322,13 +2322,13 @@ bones. Trogg guards lurk in the shadows, ready to alert the tribe to
 intruders. The stench of the creatures is nearly overwhelming. The cave
 continues &Yeast&d, and the entrance lies to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14759
 Desc      The tunnels continue deeper.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14757
 Desc      The entrance lies to the west.
@@ -2351,19 +2351,19 @@ cast flickering shadows, and troggs go about their primitive existence—
 crafting weapons, squabbling over food, and grunting in their guttural
 language. Tunnels branch &Ynorth&d and &Ysouth&d to sleeping areas.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14763
 Desc      A tunnel leads to the northern chambers.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    14764
 Desc      A tunnel leads to the southern chambers.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14758
 Desc      The outer tunnels lie to the west.
@@ -2387,13 +2387,13 @@ and more isolated body of water than Helm's Bed Lake. Few venture here,
 making it a haven for wildlife—and occasionally trolls. The valley road
 lies to the &Ywest&d, and the shore continues &Yeast&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14761
 Desc      The shore continues around the lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14751
 Desc      The valley road lies to the west.
@@ -2412,13 +2412,13 @@ its twisted metal half-buried in the snow. A gnome pilot works frantically
 on repairs, surrounded by scattered parts. The shore continues &Ywest&d
 and &Yeast&d.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    14762
 Desc      The shore continues east.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    14760
 Desc      The shore continues west.
@@ -2436,7 +2436,7 @@ Desc     The eastern shore of the lake is wilder and more remote. Animal tracks
 crisscross the snow, and the occasional howl echoes from the nearby hills.
 The shore continues back to the &Ywest&d.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    14761
 Desc      The shore continues west.
@@ -2456,7 +2456,7 @@ tribe. Crude bedding of moss and animal skins covers the floor, and
 the stench is indescribable. A few troggs rest here between raids on
 the surface.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    14759
 Desc      The central chamber lies to the south.
@@ -2477,7 +2477,7 @@ hot spring that bubbles in one corner. The troggs have fouled the water
 with their refuse, but the warmth makes this a prized location in the
 tribe.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14759
 Desc      The central chamber lies to the north.
@@ -2498,7 +2498,7 @@ beasts have thick wool and curling horns, bred for strength and endurance.
 Handlers move among them, checking their health and preparing them for
 sale or service. The ranch entrance lies to the &Ynorth&d.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    14746
 Desc      The ranch entrance lies to the north.

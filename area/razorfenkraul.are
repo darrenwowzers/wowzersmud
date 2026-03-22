@@ -722,12 +722,12 @@ and the musk of quilboar. A swirling, blood-red portal hums with
 magical energy, separating the thorny tunnels from the Barrens 
 outside.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    26532
 Desc      Return to the Barrens.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29001
 Desc      The path leads into the thorns.~
@@ -744,12 +744,12 @@ Sharp thorns protrude from every surface, making any movement
 hazardous. The sound of distant snorting and the clatter of bone 
 echoes through the passage.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29000
 Desc      The entrance portal.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29002
 Desc      The path continues deeper.~
@@ -766,17 +766,17 @@ Desc     The tunnel turns sharply here. Deep gouges in the rock floor
 suggest the frequent passage of heavy kodo or boar beasts. The 
 vines here are thicker, almost choking the path.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29001
 Desc      The entry path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29003
 Desc      A small side cavern.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29004
 Desc      The path toward the crossroads.~
@@ -793,7 +793,7 @@ Desc     This small alcove is used as a temporary storage area. Piles of
 discarded bone and crude wooden staves are stacked against the 
 twisting walls.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29002
 Desc      Return to the path.~
@@ -811,12 +811,12 @@ Desc     The air is heavy with the scent of ozone. Strange, glowing
 totems have been planted along the walls, casting a flickering, 
 blue light upon the jagged briars.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29002
 Desc      The narrow bend.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29005
 Desc      The central crossroads.~
@@ -834,22 +834,22 @@ lower Kraul. Tunnels branch off in all directions, guarded by
 the elite warriors of the Razorfen tribe. A massive, blood-stained 
 altar sits in the center.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29004
 Desc      The outer thorns.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29011
 Desc      The path to Overlord Ramtusk.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29006
 Desc      The path to Death Speaker Jargba.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29016
 Desc      The path to Agathelos.~
@@ -867,12 +867,12 @@ Desc     The natural briars here have been draped in dark, tattered
 banners. The atmosphere is chilling, and the sound of 
 monotonous chanting vibrates through the floor.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29007
 Desc      The passage continues.~
@@ -889,22 +889,22 @@ Desc     Shadowy figures move through the gloom here. The walls are
 covered in necromantic symbols painted in ash. Several small 
 braziers burn with a cold, purple flame.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29006
 Desc      The passage entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29008
 Desc      A small ritual room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    29009
 Desc      A small ritual room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29010
 Desc      The inner sanctum entrance.~
@@ -921,7 +921,7 @@ Desc     Piles of quilboar skulls are arranged in neat circles on the
 floor. It appears the Death's Head acolytes are using this 
 space to harvest energy from the deceased.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29007
 Desc      The acolyte hall.~
@@ -939,7 +939,7 @@ Desc     The air is thick with a magical fog that obscures your vision.
 Ghostly whispers echo off the walls, speaking in a tongue 
 that sounds like grinding stone.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29007
 Desc      The acolyte hall.~
@@ -957,12 +957,12 @@ Desc     A heavy gate made of sharpened bones blocks the path forward.
 The scent of rot is overwhelming here, and the light from the 
 braziers is almost extinguished by the darkness beyond.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29007
 Desc      The acolyte hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29011
 Desc      The Death Speaker's Chamber.~
@@ -980,7 +980,7 @@ operations. Jargba stands before a massive, pulsating pile of
 corrupted thorns, conducting a ritual that bleeds the very 
 life from the earth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29010
 Desc      The threshold.~
@@ -998,12 +998,12 @@ Desc     This path climbs steeply away from the crossroads. The tunnels
 here are wider and better maintained, indicating this is the 
 way to the tribe's military leadership.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29013
 Desc      The military corridor.~
@@ -1020,12 +1020,12 @@ Desc     Iron-capped pillars support the ceiling here. Quilboar guards
 patrol this hallway with disciplined precision, their armor 
 clanking with every step.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29012
 Desc      The north path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29014
 Desc      The Overlord's approach.~
@@ -1042,12 +1042,12 @@ Desc     The walls are lined with captured banners from various Horde and
 Alliance outposts. This hallway serves as a grim trophy room 
 for the Overlord's many victories.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29013
 Desc      The military corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29015
 Desc      Overlord Ramtusk's Seat.~
@@ -1065,7 +1065,7 @@ Desc     A massive throne carved from the skull of a kodo dominates the
 far wall. Overlord Ramtusk sits here, surrounded by his most 
 loyal advisors, planning the next strike against the Barrens.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29014
 Desc      The approach.~
@@ -1084,12 +1084,12 @@ Desc     The stone here is replaced by thick, spongy moss. The tunnels
 smell of fresh water and ancient forest. This wing is the 
 spiritual home of the tribe's beastmasters.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29017
 Desc      The beastmaster's walk.~
@@ -1106,22 +1106,22 @@ Desc     Small pens have been carved into the rock here, housing the
 snarling hyenas and boars used by the tribe. The sounds of 
 barking and snapping jaws fill the air.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29016
 Desc      The western path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29018
 Desc      A small beast pen.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    29019
 Desc      A small beast pen.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29020
 Desc      The descent to the lair.~
@@ -1138,7 +1138,7 @@ Desc     The floor is covered in shredded leather and half-eaten kodo
 meat. It is a violent and messy place, even by quilboar 
 standards.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29017
 Desc      The walk.~
@@ -1155,7 +1155,7 @@ Flags    indoors~
 Desc     The walls here are covered in deep scratch marks. It seems 
 the inhabitants of this pen were particularly restless.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29017
 Desc      The walk.~
@@ -1172,12 +1172,12 @@ Desc     The tunnel slopes steeply downward into a massive, natural
 cavern. The air is warm and smells of damp fur. A low, rhythmic 
 grunting echoes from below.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29017
 Desc      The walk.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    29021
 Desc      Agathelos's Lair.~
@@ -1195,7 +1195,7 @@ Raging. The floor is soft sand, and the walls are draped in
 flowering briars that glow with a soft, green light. The great 
 boar spirit stands in the center, a primal force of nature.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    29020
 Desc      Return to the path.~
@@ -1214,12 +1214,12 @@ Desc     This path is the most heavily fortified in the Kraul. Massive
 thorns are braided into impenetrable walls, leaving only a 
 narrow, winding path through the center.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29005
 Desc      The crossroads.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29023
 Desc      The inner path.~
@@ -1236,12 +1236,12 @@ Desc     Magical energy crackles through the air here. Small sparks of
 static jump between the thorns, and the ground feels as if it 
 is vibrating with power.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29022
 Desc      The entry path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29024
 Desc      The final ascent.~
@@ -1259,12 +1259,12 @@ Desc     The path climbs toward a high, sunlit opening in the cavern
 roof. The sound of a cackling laugh echoes down the tunnel, 
 marking the location of Charlga Razorflank.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29023
 Desc      The inner path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29025
 Desc      The Crone's Encampment entrance.~
@@ -1281,12 +1281,12 @@ Desc     You stand at the edge of a massive, open-air arena. The walls
 are hundreds of feet high, covered in thick thorns. This is 
 the seat of power for the entire Razorfen tribe.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29024
 Desc      The ascent.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29026
 Desc      Charlga Razorflank's Seat.~
@@ -1305,7 +1305,7 @@ her tribe. She is surrounded by jars of strange fluids and
 piles of ancient, dusty scrolls. Her eyes glow with a 
 calculated, dangerous intelligence.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29025
 Desc      The entrance.~
@@ -1324,12 +1324,12 @@ Desc     A small side tunnel leads away from the main path and into the
 darker, more damp sections of the Kraul. The ceiling is 
 covered in thousands of sleeping bats.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29002
 Desc      The outer thorns.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29028
 Desc      The bat caves deeper.~
@@ -1346,17 +1346,17 @@ Desc     The floor is covered in thick layers of guano, making the air
 pungent and difficult to breathe. Large, predatory bats circle 
 overhead, watching for anything that might be food.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29027
 Desc      The cave entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29029
 Desc      A small side cave.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29030
 Desc      The Blind Hunter's Lair entrance.~
@@ -1374,7 +1374,7 @@ Desc     This small burrow is relatively quiet. A few small, harmless
 bats flutter about, but the larger predators seem to avoid 
 this area.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29028
 Desc      The central hall.~
@@ -1391,7 +1391,7 @@ Desc     This cavern is absolute darkness. No light from the upper levels
 reaches here. The only sound is the soft, rhythmic clicking of 
 The Blind Hunter as it stalks its territory.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29028
 Desc      The central hall.~
@@ -1407,7 +1407,7 @@ Flags    indoors~
 Desc     A small, jagged alcove filled with dried vines and old kodo 
 bones. The air is stagnant and warm.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29004
 Desc      Outer Thorns.~
@@ -1424,7 +1424,7 @@ Flags    indoors~
 Desc     A damp chamber where water drips from the ceiling, feeding a 
 small patch of particularly vibrant, and sharp, briars.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29016
 Desc      The Great Boar's Path.~
@@ -1441,7 +1441,7 @@ Flags    indoors~
 Desc     A small room where the walls are covered in black soot. It 
 appears the acolytes were practicing fire magic here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29007
 Desc      Acolyte Hall.~
@@ -1458,7 +1458,7 @@ Flags    indoors~
 Desc     A quiet, dark chamber where the only sound is the distant 
 humming of the portal.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29010
 Desc      Death Speaker Threshold.~
@@ -1475,7 +1475,7 @@ Flags    indoors~
 Desc     A small barracks area for the guards. Crude bedrolls and stone 
 tables are arranged neatly.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29013
 Desc      Military Corridor.~
@@ -1491,7 +1491,7 @@ Flags    indoors~
 Desc     A storage room for weapons and armor. Several iron-capped 
 spears are leaned against the wall.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29014
 Desc      Overlord Approach.~
@@ -1507,7 +1507,7 @@ Flags    indoors~
 Desc     A small pen for young boars. It is slightly cleaner than the 
 other pens, though still quite smelly.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29017
 Desc      Beastmaster Walk.~
@@ -1523,7 +1523,7 @@ Flags    indoors~
 Desc     A room filled with dried hay and water troughs. It appears 
 this is where the pack animals are fed.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29020
 Desc      Descent to the lair.~
@@ -1539,7 +1539,7 @@ Flags    indoors~
 Desc     A high, narrow ledge that overlooks the entrance to the Crone's 
 arena. It is a good vantage point for sentries.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29025
 Desc      Crone Encampment entrance.~
@@ -1556,12 +1556,12 @@ Desc     A narrow, hidden tunnel behind Charlga's platform leads toward
 the upper levels of the Barrens, offering a quick way out for 
 those who have defeated the Crone.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29026
 Desc      Charlga's Seat.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    29000
 Desc      The entrance portal.~

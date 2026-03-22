@@ -1380,12 +1380,12 @@ of the Gurubashi empire. High stone walls, etched with the
 images of primal gods, tower over the jungle floor. A 
 shimmering white portal glows within the main gate.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    13210
 Desc      Return to the Stranglethorn Vale jungle.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40701
 Desc      The Entry Courtyard.~
@@ -1403,17 +1403,17 @@ plateaus. To the east, the jungle paths wind toward the
 Tiger and Panther sanctuaries. High above, the Great 
 Ziggurat of Hakkar blots out the sun.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40700
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    40702
 Desc      Toward the western sanctuaries.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    40800
 Desc      Toward the eastern sanctuaries.~
@@ -1430,12 +1430,12 @@ Desc     The sound of high-pitched screeches is deafening here. The
 trees are draped in leathery bat-wings, and the air smells 
 of ammonia. Gurubashi berserkers patrol the entry in pairs.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40701
 Desc      The entry courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40703
 Desc      The Bat Plateau Ledge.~
@@ -1453,12 +1453,12 @@ of raging bats roost in the high rafters, ready to dive
 on any intruders. High Priestess Jeklik's sanctuary is visible 
 to the north.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40702
 Desc      The path entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40704
 Desc      The Sanctuary of Jeklik.~
@@ -1476,7 +1476,7 @@ stands in the center of a circular altar, her feathered
 robes billowing in a magical wind. She screeches a 
 challenge to all who dare enter her domain.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40703
 Desc      The plateau ledge.~
@@ -1495,12 +1495,12 @@ Desc     The ground here is slick with a strange emerald mist.
 Brightly colored snakes weave through the ferns, their 
 hisses echoing off the ruined stone walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40702
 Desc      The bat path entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40711
 Desc      The Snake Plateau Basin.~
@@ -1517,7 +1517,7 @@ Desc     A wide circular plaza filled with stone snake-statues.
 High Priest Venoxis stands at the far end, his body 
 already partially transformed into a massive cobra.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40710
 Desc      The path entrance.~
@@ -1536,12 +1536,12 @@ Desc     The jungle thickens here, with massive ferns blocking the
 view of the path ahead. The sound of growling and 
 clicking claws is constant.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40701
 Desc      The entry courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40801
 Desc      The Tiger Plateau Gates.~
@@ -1559,12 +1559,12 @@ Thekkal stands here, flanked by his most loyal feline
 companions. He overlooks the path with the cold 
 patience of a predator.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40800
 Desc      The path entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40802
 Desc      The Sanctuary of Thekkal.~
@@ -1583,12 +1583,12 @@ Desc     The light fades as you enter a section of the city where
 the jungle canopy has completely blocked out the sun. 
 Black panthers move silently through the shadows.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40800
 Desc      The tiger path entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40811
 Desc      The Panther Sanctuary.~
@@ -1605,7 +1605,7 @@ Desc     A dark circular room filled with the scent of shadow-smoke.
 High Priestess Arlokk watches from the shadows of a 
 central pillar, her hands glowing with shadowy power.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40810
 Desc      The path entrance.~
@@ -1625,12 +1625,12 @@ tiers of white stone rise into the clouds, each tiered
 deck guarded by elite hakkari champions. The air hums 
 with the raw power of the Blood God.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40701
 Desc      The entry courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    40851
 Desc      The First Tier.~
@@ -1647,17 +1647,17 @@ Desc     The first landing of the temple. Stone braziers of blue
 fire light the way. To the north, a high bridge leads 
 toward Jin'do's plateau.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    40850
 Desc      The base.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    40852
 Desc      The Second Tier.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40860
 Desc      Toward Jin'do the Hexxer.~
@@ -1674,12 +1674,12 @@ Desc     The air becomes thinner and smells of blood. Hakkari
 priests conduct rituals on the wide stone landing, 
 offering life force to the serpent above.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    40851
 Desc      The first tier.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    40853
 Desc      The Third Tier.~
@@ -1696,12 +1696,12 @@ Desc     The sound of beating wings is close now. Sons of Hakkar
 drift through the air, their poisonous clouds 
 obscuring the view of the summit.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    40852
 Desc      The second tier.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    40854
 Desc      The Fourth Tier.~
@@ -1718,12 +1718,12 @@ Desc     The final landing before the Blood God's seat. Elite
 black-iron guardians stand in a circle around the 
 central stairs, their eyes glowing red with madness.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    40853
 Desc      The third tier.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    40855
 Desc      The Summit of Hakkar.~
@@ -1741,12 +1741,12 @@ coils upon a massive stone altar, his wings shading
 the entire city. He watches the world with an unblinking 
 stare of absolute hunger, ready to devour all life.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    40854
 Desc      The fourth tier.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40900
 Desc      The exit path.~
@@ -1766,12 +1766,12 @@ Desc     A high stone bridge connecting the ziggurat to a
 secluded hilltop. The air is thick with spectral 
 static and the smell of old incense.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40851
 Desc      The ziggurat.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40861
 Desc      The Sanctuary of Jin'do.~
@@ -1789,7 +1789,7 @@ and skeletal remains. Jin'do stands before a
 shimmering pool of blood, his hands weaving a complex 
 hex of shadow and spirit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40860
 Desc      The plateau entrance.~
@@ -1806,7 +1806,7 @@ Flags    indoors~
 Desc     A quiet corner of the bat plateau filled with 
 shattered stones and the scent of old ammonia.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40704
 Desc      Jeklik's sanctuary.~
@@ -1822,7 +1822,7 @@ Flags    indoors~
 Desc     A side room used by the priestesses to 
 store their feathered robes and Sonic-fetishes.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40704
 Desc      Jeklik's sanctuary.~
@@ -1838,7 +1838,7 @@ Flags    indoors~
 Desc     A frost-covered ledge near the snake plateau, 
 home to several large cobras.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40711
 Desc      Venoxis's plateau.~
@@ -1854,7 +1854,7 @@ Flags    indoors~
 Desc     A side workshop where the witch-doctors 
 brew their most potent venoms.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40711
 Desc      Venoxis's plateau.~
@@ -1870,7 +1870,7 @@ Flags    indoors~
 Desc     A quiet section of the tiger plateau where 
 the cubs are allowed to hunt in peace.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40801
 Desc      Thekkal's gates.~
@@ -1886,7 +1886,7 @@ Flags    indoors~
 Desc     A side room filled with tiger-bone necklaces 
 and ancient gold coins.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40801
 Desc      Thekkal's gates.~
@@ -1902,7 +1902,7 @@ Flags    indoors~
 Desc     A dark corner of the panther sanctuary 
 filled with thick shadow-smoke and spirits.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40811
 Desc      Arlokk's sanctuary.~
@@ -1918,7 +1918,7 @@ Flags    indoors~
 Desc     A small side chamber used for the storage of 
 fine silks and shadow-vials.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40811
 Desc      Arlokk's sanctuary.~
@@ -1934,12 +1934,12 @@ Flags    indoors~
 Desc     A slow-moving river of dark red water that 
 bisects the city. Zulian crocolisks lurk near the banks.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40721
 Desc      River Center.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -1955,12 +1955,12 @@ Flags    indoors~
 Desc     The middle of the river. A series of stepping 
 stones provide the only way across.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40720
 Desc      River South.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40722
 Desc      River North.~
@@ -1976,7 +1976,7 @@ Flags    indoors~
 Desc     The river ends here at the base of a high 
 waterfall. The water is absolute still.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40721
 Desc      River Center.~
@@ -1992,12 +1992,12 @@ Flags    indoors~
 Desc     A narrow trail winding through massive ferns 
 and gnarled trees.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40731
 Desc      West Path 2.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40702
 Desc      Bat path entrance.~
@@ -2013,12 +2013,12 @@ Flags    indoors~
 Desc     The path turns sharply to the east, leading 
 deeper into the city's interior.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40730
 Desc      West Path 1.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    40732
 Desc      West Path 3.~
@@ -2034,12 +2034,12 @@ Flags    indoors~
 Desc     The trees thin out slightly here, revealing 
 the towers of the snake plateau.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40731
 Desc      West Path 2.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40710
 Desc      Snake path entrance.~
@@ -2055,12 +2055,12 @@ Flags    indoors~
 Desc     A muddy trail leading into the eastern jungle. 
 The air is absolute still.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40821
 Desc      East Path 2.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40800
 Desc      Tiger path entrance.~
@@ -2076,12 +2076,12 @@ Flags    indoors~
 Desc     The path winds up a low hill. Several 
 panther-idols line the trail.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40820
 Desc      East Path 1.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40810
 Desc      Panther path entrance.~
@@ -2098,12 +2098,12 @@ Desc     A massive circular pit filled with hundreds of
 raptors. This is the place of final judgment 
 for the city's gladiators.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40701
 Desc      Entry courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40751
 Desc      The Arena Floor.~
@@ -2120,7 +2120,7 @@ Desc     The heart of the pit. Bloodlord Mandokir sits
 upon his massive raptor in the center, watching 
 the combat with predatory interest.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40750
 Desc      Arena entrance.~
@@ -2137,7 +2137,7 @@ Flags    indoors~
 Desc     A side workshop where the arena armor 
 is repaired and polished.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40751
 Desc      Arena floor.~
@@ -2153,7 +2153,7 @@ Flags    indoors~
 Desc     A high-walled room filled with dozens of 
 hungry zulian raptors.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40751
 Desc      Arena floor.~
@@ -2169,12 +2169,12 @@ Flags    indoors~
 Desc     Once a bustling trade hub, now a ruin 
 filled with overturned tables and dust.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40761
 Desc      Market Center.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2190,12 +2190,12 @@ Flags    indoors~
 Desc     The center of the trade hub. A large 
 fountain is now a nest for wasps.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40760
 Desc      Market West.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    40762
 Desc      Market East.~
@@ -2211,12 +2211,12 @@ Flags    indoors~
 Desc     The eastern end of the market, leading 
 toward the high ziggurat.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40761
 Desc      Market Center.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40850
 Desc      Ziggurat base.~
@@ -2232,12 +2232,12 @@ Flags    indoors~
 Desc     A large stone hall filled with the scent 
 of old paper and decaying magic.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40771
 Desc      The Library Stacks.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2253,7 +2253,7 @@ Flags    indoors~
 Desc     Row upon row of books reaching toward the 
 high ceiling. Many are written in Highborne.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40770
 Desc      Library entrance.~
@@ -2269,12 +2269,12 @@ Flags    indoors~
 Desc     A dark hallway leading toward the city's 
 ritual basements. The air is cold.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40781
 Desc      The Central Chamber.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2290,7 +2290,7 @@ Flags    indoors~
 Desc     A wide circular room filled with jars 
 of shadow-residue and mojos.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40780
 Desc      Chamber entry.~
@@ -2306,7 +2306,7 @@ Flags    indoors~
 Desc     A stone balcony offering a clear view of 
 the Great Ziggurat from the north.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40855
 Desc      Hakkar's summit.~
@@ -2322,7 +2322,7 @@ Flags    indoors~
 Desc     A stone balcony overlooking the entire 
 southern city ruins.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40855
 Desc      Hakkar's summit.~
@@ -2338,7 +2338,7 @@ Flags    indoors~
 Desc     The poorest section of the city, now a 
 mess of broken huts and garbage.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2354,7 +2354,7 @@ Flags    indoors~
 Desc     Another section of the slums, home to 
 several large Plagueland rats.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2370,7 +2370,7 @@ Flags    indoors~
 Desc     A small room near the entrance where 
 Zandalar envoys monitor the city.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40700
 Desc      The city gates.~
@@ -2388,12 +2388,12 @@ leads toward a hidden opening in the Stranglethorn
 cliffs, offering a quick way back for those who 
 have defeated the Soulflayer.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40855
 Desc      Hakkar's summit.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    40700
 Desc      The entrance gates.~
@@ -2408,7 +2408,7 @@ Flags    indoors~
 Desc     A dense thicket of ferns where blood-petal 
 sprouts dance in the damp air.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40732
 Desc      West Path 3.~
@@ -2424,7 +2424,7 @@ Flags    indoors~
 Desc     A quiet grotto filled with sungrass and 
 the scent of exotic flowers.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40732
 Desc      West Path 3.~
@@ -2440,7 +2440,7 @@ Flags    indoors~
 Desc     A side tunnel near the tiger plateau, 
 frequently patrolled by gurubashi berserkers.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40821
 Desc      East Path 2.~
@@ -2456,7 +2456,7 @@ Flags    indoors~
 Desc     A rocky ledge near the panther sanctuary, 
 offering a good view of the eastern city.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40821
 Desc      East Path 2.~
@@ -2472,7 +2472,7 @@ Flags    indoors~
 Desc     A small side chamber in the entry courtyard 
 filled with murloc eyes and bones.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2488,7 +2488,7 @@ Flags    indoors~
 Desc     A high stone landing near the gates, 
 home to several rockwing gargoyles.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2504,7 +2504,7 @@ Flags    indoors~
 Desc     A dark alcove in the snake plateau where 
 shadowcasters rest between rituals.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40711
 Desc      Venoxis's plateau.~
@@ -2520,7 +2520,7 @@ Flags    indoors~
 Desc     A side room filled with snake venom and 
 the fragments of a broken altar.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40711
 Desc      Venoxis's plateau.~
@@ -2536,7 +2536,7 @@ Flags    indoors~
 Desc     A high point in the tiger sanctuary, 
 offering a view of the western river.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40801
 Desc      Thekkal's gates.~
@@ -2552,7 +2552,7 @@ Flags    indoors~
 Desc     A small storage room for tiger pelts 
 and bone-piles.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40801
 Desc      Thekkal's gates.~
@@ -2568,7 +2568,7 @@ Flags    indoors~
 Desc     A dark corner of the panther sanctuary 
 where the shadows seem to move.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40811
 Desc      Arlokk's sanctuary.~
@@ -2584,7 +2584,7 @@ Flags    indoors~
 Desc     A side room filled with panther-claws 
 and spectral silk.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40811
 Desc      Arlokk's sanctuary.~
@@ -2600,7 +2600,7 @@ Flags    indoors~
 Desc     A side tunnel in the ziggurat base filled 
 with ancient stone tablets and dust.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40850
 Desc      Ziggurat base.~
@@ -2616,7 +2616,7 @@ Flags    indoors~
 Desc     A narrow ledge where several shadowcasters 
 conduct their rituals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40850
 Desc      Ziggurat base.~
@@ -2632,7 +2632,7 @@ Flags    indoors~
 Desc     A high stone balcony in Jin'do's post, 
 offering a view of the southern city.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40861
 Desc      Jin'do's sanctuary.~
@@ -2648,7 +2648,7 @@ Flags    indoors~
 Desc     A side room filled with voodoo fetishes 
 and bloodlord bijoux.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40861
 Desc      Jin'do's sanctuary.~
@@ -2664,7 +2664,7 @@ Flags    indoors~
 Desc     A muddy bank filled with large stones and 
 the scent of old blood.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40720
 Desc      River South.~
@@ -2680,7 +2680,7 @@ Flags    indoors~
 Desc     A sandy bank where several zulian tigers 
 have come to drink.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40720
 Desc      River South.~
@@ -2696,12 +2696,12 @@ Flags    indoors~
 Desc     An elegant stone arch crossing the northern river. 
 The carvings are worn but still beautiful.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40722
 Desc      River North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    40850
 Desc      Ziggurat base.~
@@ -2717,7 +2717,7 @@ Flags    indoors dark~
 Desc     A secret pool tucked away behind the falls. 
 The water is pure and glows with a soft light.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40722
 Desc      River North.~
@@ -2733,7 +2733,7 @@ Flags    indoors~
 Desc     A wide stone landing offering a commanding 
 view of the city's northern district.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40850
 Desc      Ziggurat base.~
@@ -2749,7 +2749,7 @@ Flags    indoors~
 Desc     A quiet square filled with mummified 
 remains and the smell of rot.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40850
 Desc      Ziggurat base.~
@@ -2765,7 +2765,7 @@ Flags    indoors~
 Desc     A narrow trail leading through the city's 
 religious district.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2781,7 +2781,7 @@ Flags    indoors~
 Desc     The grandest building in the city is now 
 a shell filled with jungle-roots.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2797,7 +2797,7 @@ Flags    indoors~
 Desc     A storage room for ancient scrolls and 
 voodoo rattles.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    40771
 Desc      Library stacks.~
@@ -2813,7 +2813,7 @@ Flags    indoors~
 Desc     A dark corner of the library where the 
 hakkari initiate study their hexes.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40771
 Desc      Library stacks.~
@@ -2829,7 +2829,7 @@ Flags    indoors~
 Desc     A dark room near the slums where the 
 butchers prepare the city's meat.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40880
 Desc      West slums.~
@@ -2845,7 +2845,7 @@ Flags    indoors~
 Desc     A quiet room in the basements where 
 the witch-doctors treat the veterans.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40781
 Desc      Voodoo chamber.~
@@ -2861,7 +2861,7 @@ Flags    indoors~
 Desc     A rare balcony that stays remarkably 
 clear of the city's decay.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40701
 Desc      Entry courtyard.~
@@ -2876,7 +2876,7 @@ Sector   forest~
 Flags    indoors dark~
 Desc     A small cavern hidden beneath the tiger plateau.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    40801
 Desc      Thekkal's gates.~
@@ -2892,7 +2892,7 @@ Flags    indoors~
 Desc     A high stone landing near the ziggurat 
 summit, home to several sons of hakkar.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    40854
 Desc      Fourth tier.~
@@ -2907,7 +2907,7 @@ Sector   city~
 Flags    indoors~
 Desc     A quiet central garden near the city's exit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40900
 Desc      Exit path.~
@@ -2922,7 +2922,7 @@ Sector   forest~
 Flags    indoors~
 Desc     A winding section of the western jungle trail.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40730
 Desc      West Path 1.~
@@ -2937,7 +2937,7 @@ Sector   forest~
 Flags    indoors~
 Desc     A humid section of the trail near the emerald fog.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    40710
 Desc      Snake Path Entrance.~
@@ -2952,7 +2952,7 @@ Sector   forest~
 Flags    indoors~
 Desc     A section of the trail filled with tiger-bone idols.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40820
 Desc      East Path 1.~
@@ -2967,7 +2967,7 @@ Sector   forest~
 Flags    indoors~
 Desc     A dark section of the trail where the light never reaches.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40810
 Desc      Panther Path Entrance.~
@@ -2982,12 +2982,12 @@ Sector   inside~
 Flags    indoors~
 Desc     A confusing series of stone rooms near the temple base.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40847
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40850
 Desc      Ziggurat Base.~
@@ -3002,7 +3002,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The deepest part of the base labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40846
 Desc      Labyrinth South.~
@@ -3017,12 +3017,12 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing stone corridors near the city trade hub.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40849
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40761
 Desc      Market Center.~
@@ -3037,7 +3037,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the market labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40848
 Desc      Labyrinth South.~
@@ -3052,12 +3052,12 @@ Sector   forest~
 Flags    indoors~
 Desc     A beautiful stone landing overlooking the northern city.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40838
 Desc      High Garden.~
 #ENDEXIT
-Reset O 40616 10 40872 0
+Reset O 40616 10 0 40872
 #ENDROOM
 
 #ROOM
@@ -3067,7 +3067,7 @@ Sector   forest~
 Flags    indoors~
 Desc     A stone landing near the gardens entrance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40838
 Desc      High Garden.~
@@ -3082,12 +3082,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing dark corridors near the ritual basements.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40875
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40781
 Desc      Voodoo Chamber.~
@@ -3102,7 +3102,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the voodoo labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40874
 Desc      Labyrinth South.~
@@ -3117,12 +3117,12 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing messy corridors near the western slums.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40877
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40880
 Desc      West Slums.~
@@ -3137,7 +3137,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the slums labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40876
 Desc      Labyrinth South.~
@@ -3152,12 +3152,12 @@ Sector   forest~
 Flags    indoors~
 Desc     A confusion of muddy tunnels near the blood river.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40879
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40721
 Desc      River Center.~
@@ -3172,7 +3172,7 @@ Sector   forest~
 Flags    indoors~
 Desc     The heart of the river labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40878
 Desc      Labyrinth South.~
@@ -3187,12 +3187,12 @@ Sector   inside~
 Flags    indoors~
 Desc     Confusing stone corridors near the city's stacks.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40883
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40771
 Desc      Library Stacks.~
@@ -3207,7 +3207,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The heart of the library labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40882
 Desc      Labyrinth South.~
@@ -3222,12 +3222,12 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing stone corridors near the Mandokir arena.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40885
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40751
 Desc      Arena Floor.~
@@ -3242,7 +3242,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the arena labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40884
 Desc      Labyrinth South.~
@@ -3257,12 +3257,12 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing stone corridors near the city's exit.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40887
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40900
 Desc      Exit Path.~
@@ -3277,7 +3277,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the final labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40886
 Desc      Labyrinth South.~
@@ -3292,12 +3292,12 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing overgrown corridors near the city's entrance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40889
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40701
 Desc      Entry Courtyard.~
@@ -3312,7 +3312,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the entry labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40888
 Desc      Labyrinth South.~
@@ -3327,12 +3327,12 @@ Sector   forest~
 Flags    indoors~
 Desc     A confusion of leathery-winged tunnels near the bat plateau.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40892
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40704
 Desc      Jeklik's Sanctuary.~
@@ -3347,7 +3347,7 @@ Sector   forest~
 Flags    indoors~
 Desc     The heart of the bat labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40891
 Desc      Labyrinth South.~
@@ -3362,12 +3362,12 @@ Sector   forest~
 Flags    indoors~
 Desc     A confusion of slithering emerald tunnels near the snake plateau.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40894
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40711
 Desc      Venoxis's Plateau.~
@@ -3382,7 +3382,7 @@ Sector   forest~
 Flags    indoors~
 Desc     The heart of the snake labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40893
 Desc      Labyrinth South.~
@@ -3397,12 +3397,12 @@ Sector   forest~
 Flags    indoors~
 Desc     A confusion of bone-filled tunnels near the tiger plateau.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40896
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40801
 Desc      Thekkal's Gates.~
@@ -3417,7 +3417,7 @@ Sector   forest~
 Flags    indoors~
 Desc     The heart of the tiger labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40895
 Desc      Labyrinth South.~
@@ -3432,12 +3432,12 @@ Sector   forest~
 Flags    indoors~
 Desc     A confusion of shadowy tunnels near the panther sanctuary.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40898
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40811
 Desc      Arlokk's Sanctuary.~
@@ -3452,7 +3452,7 @@ Sector   forest~
 Flags    indoors~
 Desc     The heart of the panther labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40897
 Desc      Labyrinth South.~
@@ -3467,12 +3467,12 @@ Sector   city~
 Flags    indoors~
 Desc     Confusing spectral tunnels near Jin'do's post.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    40901
 Desc      Labyrinth North.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    40861
 Desc      Jin'do's Sanctuary.~
@@ -3487,7 +3487,7 @@ Sector   city~
 Flags    indoors~
 Desc     The heart of the spectral labyrinth.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    40899
 Desc      Labyrinth South.~

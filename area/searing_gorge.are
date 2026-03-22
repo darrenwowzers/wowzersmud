@@ -935,12 +935,12 @@ black-rock ravine. The air is thick with the scent of sulfur and
 burning coal. A massive iron gate, built by the Dark Iron dwarves, 
 stands open, leading into the smoke-choked sky of the Searing Gorge.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    35522
 Desc      Return to the Badlands ridge path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36551
 Desc      The road leads into the Gorge.~
@@ -958,17 +958,17 @@ volcanic rock. To the north, the ground falls away into a
 massive basin filled with smoldering slag heaps and the 
 skeletons of giant machines.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36550
 Desc      The western gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36552
 Desc      The road continues toward the mountain.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    36565
 Desc      The descent into the Slag Pit.~
@@ -986,12 +986,12 @@ jagged obsidian formations rise from the plains like the
 claws of some buried monster. The heat is intense, and the 
 sky is a permanent, bruised purple.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36551
 Desc      The slag road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36553
 Desc      The approach to the Great Bridge.~
@@ -1009,12 +1009,12 @@ spans a wide, lava-filled canyon. To the west, the base of
 Blackrock Mountain towers over the land, its peaks lost in 
 the smoke.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36552
 Desc      The ashlands.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36554
 Desc      Cross the Iron Bridge.~
@@ -1032,12 +1032,12 @@ solid black iron and anchored deep into the living rock.
 Far below, a river of magma flows north, lighting the 
 canyon walls in a hellish orange glow.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36553
 Desc      Return to the approach.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36555
 Desc      The mountain entrance.~
@@ -1056,12 +1056,12 @@ wide, iron-shod stairs leads up into the dark, while the
 air rumbles with the sound of thousands of hammers and 
 the heartbeat of the earth itself.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36554
 Desc      The great bridge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36556
 Desc      Enter the Hall of the Mountain.~
@@ -1079,22 +1079,22 @@ machinery of the Dark Irons. To the north and south,
 balconies overlook the deep pits of the mountain, while 
 central stairs lead deeper into the stone.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36555
 Desc      The mountain gate.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    36561
 Desc      The Spire Landing (Portal Hub).~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    36560
 Desc      The Depths Entrance (Portal Hub).~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36562
 Desc      The Window of the Core (Portal Hub).~
@@ -1112,7 +1112,7 @@ Dark Irons. This is the gateway to the Blackrock Depths,
 a sprawling metropolis of iron, fire, and industry. A 
 heavy iron gate glows with the heat of the city below.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36556
 Desc      The mountain hall.~
@@ -1129,7 +1129,7 @@ Blackrock Mountain. Stone stairs wind upward toward the
 entrance of Blackrock Spire, where the black dragonflight 
 makes its nest in the high peaks.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36556
 Desc      The mountain hall.~
@@ -1146,7 +1146,7 @@ leads straight down into the molten heart of the mountain.
 A shimmering, white-hot portal marks the entrance to the 
 Molten Core, the domain of the Firelord.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36556
 Desc      The mountain hall.~
@@ -1162,7 +1162,7 @@ Desc     A high, secluded balcony reached through the upper spire.
 From here, the entrance to Nefarian's sanctum—the Blackwing 
 Lair—is visible through a shimmering orb of draconic energy.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    36561
 Desc      Return to the landing.~
@@ -1178,12 +1178,12 @@ Desc     A small, well-defended outpost built into the northern ridge
 of the Gorge. The members of the Thorium Brotherhood work 
 here in peace, separated from their fanatical kin.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36552
 Desc      The ashlands.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    36565
 Desc      The main square of Thorium Point.~
@@ -1201,17 +1201,17 @@ stand in the open air, and the sound of hammering is
 constant. A small, soot-stained inn provides shelter 
 for travelers and smiths alike.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36564
 Desc      The southern entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    36566
 Desc      The Brotherhood Inn.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    36567
 Desc      The Flight Path.~
@@ -1229,7 +1229,7 @@ Desc     A warm, smoky inn that smells of charcoal and dark ale.
 The walls are decorated with masterfully crafted weapons 
 and pieces of thorium armor.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36565
 Desc      The plaza.~
@@ -1245,7 +1245,7 @@ Desc     A flat, stone ledge overlooking the northern Gorge. Several
 gryphons and wyverns rest here, ready to carry messages 
 and cargo out of the smoke.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36565
 Desc      The plaza.~
@@ -1261,12 +1261,12 @@ Desc     A series of rickety wooden ramps and ladders leads down into
 the massive, bowl-shaped basin known as the Slag Pit. 
 The air is thick with the smoke from hundreds of forges.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36551
 Desc      The slag road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    36569
 Desc      The bottom of the Slag Pit.~
@@ -1284,17 +1284,17 @@ tirelessly in the heat, while Dark Iron taskmasters
 patrol with whips and hammers. Piles of glowing slag 
 are stacked everywhere.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    36568
 Desc      Return to the surface.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    36570
 Desc      The Iron Summit.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    36574
 Desc      The Firegut Caves.~
@@ -1312,12 +1312,12 @@ Desc     A high stone platform in the center of the Slag Pit where the
 Dark Iron engineers oversee the work. A massive steam 
 engine chugs rhythmically, powering the various elevators.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36569
 Desc      The basin floor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    36571
 Desc      The Overseer's Office.~
@@ -1334,7 +1334,7 @@ Desc     A small, well-furnished stone building overlooking the pit.
 Maps of the mountain's tunnels and production quotas 
 are pinned to the walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36570
 Desc      The summit.~
@@ -1352,7 +1352,7 @@ Desc     A series of cramped, dirty tunnels where the slaves are
 housed. The air is stagnant and filled with the scent 
 of hopelessness and sickness.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36569
 Desc      The basin floor.~
@@ -1370,7 +1370,7 @@ Desc     A massive pile of burning waste from the forges. Scorpions
 prowl through the glowing embers, feeding on the small 
 fire elementals that spawn here.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36569
 Desc      The basin floor.~
@@ -1388,12 +1388,12 @@ Desc     The natural caverns on the eastern side of the Slag Pit are
 controlled by the Firegut ogres. The walls are decorated 
 with crude, bloody drawings and piles of animal bones.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36569
 Desc      The basin floor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    36575
 Desc      The main ogre cavern.~
@@ -1410,12 +1410,12 @@ Desc     A massive natural chamber lit by several large bonfires.
 Firegut ogres rest on piles of furs, while others 
 sharpen their crude wooden clubs.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36574
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    36576
 Desc      The Mystic's Alcove.~
@@ -1433,7 +1433,7 @@ Desc     The air is thick with the scent of burning herbs. A Firegut
 shaman kneels before a large obsidian skull, muttering 
 incantations that cause the flames to dance.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36575
 Desc      The main hall.~
@@ -1451,7 +1451,7 @@ Desc     A high, jagged ridge of volcanic glass overlooking the
 western Gorge. The cliff face is nearly vertical, and 
 small lava-spiders crawl along its surface.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36552
 Desc      The ashlands.~
@@ -1468,7 +1468,7 @@ Desc     The earth has split open here, revealing a deep, glowing
 river of magma below. Intense heat radiates from the 
 crack, and the air hums with elemental energy.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36551
 Desc      The slag road.~
@@ -1486,7 +1486,7 @@ Desc     A small, dark tunnel hidden behind a large rock formation.
 Infernal sentries stand motionless in the dark, their green 
 flames lighting the cavern in a sickly glow.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36553
 Desc      The bridge approach.~
@@ -1502,7 +1502,7 @@ Flags    ~
 Desc     A quiet section of the basin floor, filled with discarded 
 mining carts and piles of low-quality iron ore.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36569
 Desc      The basin floor.~
@@ -1518,7 +1518,7 @@ Flags    ~
 Desc     A rocky ledge overlooking the slave quarters, frequently 
 patrolled by Dark Iron slavers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36569
 Desc      The basin floor.~
@@ -1534,7 +1534,7 @@ Flags    ~
 Desc     A flat expanse of grey ash, where several buzzards are 
 fighting over the remains of a slagspider.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36552
 Desc      The ashlands.~
@@ -1550,7 +1550,7 @@ Flags    ~
 Desc     A jagged field of obsidian shards that makes travel 
 slow and dangerous.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36552
 Desc      The ashlands.~
@@ -1567,7 +1567,7 @@ Desc     A massive crack in the earth near the base of the mountain.
 From here, you can see the glowing forms of molten giants 
 moving in the depths.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36553
 Desc      The bridge approach.~
@@ -1583,7 +1583,7 @@ Flags    ~
 Desc     A small storage shed containing spools of silk and 
 finished thorium armor.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36565
 Desc      The plaza.~
@@ -1599,7 +1599,7 @@ Flags    ~
 Desc     A quiet ridge north of the outpost, where Brotherhood scouts 
 keep watch over the northern mountains.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36565
 Desc      The plaza.~
@@ -1615,7 +1615,7 @@ Flags    indoors~
 Desc     A side tunnel in the ogre caves where several large 
 Firegut smashers are resting.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36575
 Desc      The main hall.~
@@ -1631,7 +1631,7 @@ Flags    indoors~
 Desc     A small, damp chamber where the ogres store their 
 captured mojos and relics.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36575
 Desc      The main hall.~
@@ -1647,7 +1647,7 @@ Flags    ~
 Desc     A section of the basin where the slag is particularly fresh 
 and hot, sparking with elemental energy.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36569
 Desc      The basin floor.~
@@ -1663,7 +1663,7 @@ Flags    ~
 Desc     A rocky platform providing a clear view of the road leading 
 to the Badlands.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36551
 Desc      The slag road.~
@@ -1679,7 +1679,7 @@ Flags    indoors~
 Desc     A high, stone balcony overlooking the lava canyon to the west. 
 Flamewaker scouts slither through the shadows here.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36561
 Desc      The spire landing.~
@@ -1695,7 +1695,7 @@ Flags    indoors~
 Desc     A stone ledge that provides a view of the Searing Gorge's 
 eastern plains from within the mountain.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    36561
 Desc      The spire landing.~
@@ -1711,7 +1711,7 @@ Flags    indoors~
 Desc     A small, burning chamber where the Dark Iron priests conduct 
 their rituals in the shadow of the mountain.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36556
 Desc      The mountain hall.~
@@ -1727,7 +1727,7 @@ Flags    indoors dark~
 Desc     A natural cave filled with sharp obsidian formations. 
 Glassweb spiders have spun nearly invisible webs here.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    36577
 Desc      The obsidian cliffs.~
@@ -1743,7 +1743,7 @@ Flags    ~
 Desc     A small, bubbling pool of lava that seems to be a natural 
 wellspring of fire elementals.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36578
 Desc      The magma fissure.~
@@ -1759,12 +1759,12 @@ Flags    ~
 Desc     A series of iron rungs bolted directly into the cliff side, 
 providing a shortcut between the ashlands and the Slag Pit.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    36552
 Desc      The ashlands.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    36569
 Desc      The basin floor.~
@@ -1779,12 +1779,12 @@ Flags    ~
 Desc     A narrow, dark ravine that leads south toward the burning 
 plains of the Steppes. The air is even thicker here.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    36551
 Desc      The slag road.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    37000
 Desc      Enter the Burning Steppes.~
@@ -1800,7 +1800,7 @@ Flags    ~
 Desc     Large cracks in the ground emit constant, high-pressure steam, 
 making the air humid and difficult to breathe.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36552
 Desc      The ashlands.~
@@ -1816,12 +1816,12 @@ Flags    indoors~
 Desc     A narrow maintenance tunnel that leads from the Slag Pit 
 straight into the side of Blackrock Mountain.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    36569
 Desc      The basin floor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    36556
 Desc      The mountain hall.~
@@ -1837,12 +1837,12 @@ Desc     A hidden trail behind Thorium Point that leads toward the
 eastern mountains, offering a quick way back toward the 
 Badlands for those who can navigate the crags.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    36565
 Desc      The Thorium plaza.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    36550
 Desc      The western entrance.~

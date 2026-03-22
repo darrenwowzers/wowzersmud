@@ -750,7 +750,7 @@ Desc     You have stepped through the swirling instance portal deep beneath the
 Moonbrook barn. The air here is damp and smells of undisturbed earth
 and black powder. The tunnel slopes sharply downward into the dark.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    12901
 Desc      The tunnel descends deeper into the mines.
@@ -768,14 +768,14 @@ Desc     The walls of this narrow tunnel are supported by rotting wooden beams.
 The sound of pickaxes striking stone echoes faintly from the east. The
 Defias Brotherhood has been busy excavating these old shafts.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12902
 Desc      The tunnel continues east.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    12900
 Desc      The path back to the instance portal.
@@ -793,14 +793,14 @@ Desc     Rusted iron cart tracks crisscross the stone floor here. Several wooden
 mine carts sit abandoned, filled with useless rubble. The tracks lead
 northward into a wider excavation area.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12903
 Desc      The tracks lead north.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12901
 Desc      The dusty tunnel leading back.
@@ -821,14 +821,14 @@ walls, casting long, dancing shadows. Evokers and miners coordinate
 their efforts here, moving massive amounts of stone to clear a path
 deeper into the mountain.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12904
 Desc      A heavy wooden barricade blocks the way east.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    12902
 Desc      The cart track crossing.
@@ -851,14 +851,14 @@ Desc     The tunnel ends in a massive chamber sealed by enormous, iron-banded
 wooden doors. The ground is littered with chewed bones and broken
 mining equipment. This is the domain of the Brotherhood's brute enforcer.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12905
 Desc      The heavy wooden doors lead to the Mast Room.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12903
 Desc      The excavation site.
@@ -879,14 +879,14 @@ Desc     You have passed Rhahk'Zor's guard post. The immense wooden doors have
 been forced open, revealing a breathtakingly large subterranean cavern.
 A complex network of wooden walkways hangs suspended in the dark.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12906
 Desc      You step out onto the upper walkway.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12904
 Desc      The ogre's guard post.
@@ -905,14 +905,14 @@ Desc     You stand on a rickety wooden platform suspended high above the cavern
 floor. Huge gaps in the planks reveal a dizzying drop. Below, you can
 see dozens of goblins and Defias members working on massive wooden masts.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12907
 Desc      The walkway continues south.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12905
 Desc      The heavy doors.
@@ -932,14 +932,14 @@ Desc     The wooden walkway spirals downwards along the cavern wall. The sound
 of buzzing saws and shouting goblins grows significantly louder. The
 sheer scale of the Defias operation is beginning to become clear.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12906
 Desc      The upper walkway.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12908
 Desc      The ramp descends to the cavern floor.
@@ -959,14 +959,14 @@ Desc     You have reached the bottom of the cavern. Massive tree trunks, strippe
 of their bark, lie everywhere. Defias workers and goblin engineers are
 frantically shaping the wood for some massive, unseen project.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12909
 Desc      A pathway leads toward the Lumber Mill.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    12907
 Desc      The ramp leading back up.
@@ -984,14 +984,14 @@ Desc     A sturdy stone bridge spans a deep chasm within the cavern. On the
 other side, you can see a massive, multi-level wooden structure built
 into the rock. Black smoke billows from its chimneys.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12910
 Desc      The entrance to the Lumber Mill.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12908
 Desc      The Mast Room floor.
@@ -1013,14 +1013,14 @@ grinding gears and saws. Goblins rush about with planks of wood. In the
 center of the room, a massive mechanical shredder is currently powered
 down, but its pilot looks eager for a fight.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12909
 Desc      The bridge back to the Mast Room.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    12911
 Desc      A ramp leads up to the Shredder platform.
@@ -1039,14 +1039,14 @@ in grease, sawdust, and scattered tools. Sneed controls the lumber
 production from here, strapped tightly into his lethal, blade-covered
 machine.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12912
 Desc      A door leads toward the Goblin Foundry.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12910
 Desc      The ramp leads down to the main floor.
@@ -1066,7 +1066,7 @@ Desc     Leaving the deafening saws of the Lumber Mill behind, this tunnel grows
 increasingly hotter the further east you walk. The walls glow with the
 faint orange light of molten metal.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12911
 Desc      Sneed's platform.
@@ -1086,14 +1086,14 @@ Foundry is massive, lit entirely by the hellish orange glow of open
 smelting pits. The air is thick with ash and the metallic tang of
 melting iron.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12914
 Desc      The main floor of the Foundry.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12912
 Desc      The tunnel leading back to the Lumber Mill.
@@ -1113,21 +1113,21 @@ of you. Goblin craftsmen are working furiously, pouring the metal into
 molds to create weapons, armor, and massive iron plates for an unknown
 project.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12915
 Desc      Gilnid's personal forge.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    12916
 Desc      The rear exit of the Foundry.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12913
 Desc      The entrance of the Foundry.
@@ -1147,7 +1147,7 @@ and hottest furnace in the cavern roars here. Gilnid, the goblin
 overseer, stands here directing the flow of molten iron and screaming
 at his subordinates.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12914
 Desc      The main floor of the Foundry.
@@ -1168,14 +1168,14 @@ Desc     The heat begins to dissipate slightly as you reach the eastern edge of
 the Foundry. The stone trenches of molten iron stop here, giving way
 to a dark, natural cavern path that slopes steeply downward.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12917
 Desc      The cavern descends into the darkness.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12914
 Desc      The main floor of the Foundry.
@@ -1195,14 +1195,14 @@ and the orange glow of the Foundry is entirely swallowed by the shadows.
 You can hear the faint, echoing sound of water lapping against stone far
 below.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12918
 Desc      The path continues to descend.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12916
 Desc      The rear exit of the Foundry.
@@ -1221,21 +1221,21 @@ Desc     The tunnel widens into a small cavern. A makeshift barricade of wooden
 crates and barrels has been set up here to protect the approach to the
 docks. Defias Pirates stand guard, eyeing the shadows suspiciously.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12919
 Desc      A small side cave holding explosive supplies.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    12920
 Desc      The tunnel opens up toward a massive door.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12917
 Desc      The cavern descent.
@@ -1254,7 +1254,7 @@ of wooden barrels marked with skull and crossbones line the walls. The
 smell of sulfur and black powder is overwhelmingly strong here. One wrong
 spark could collapse the entire mountain.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12918
 Desc      The Defias checkpoint.
@@ -1275,14 +1275,14 @@ Desc     The narrow tunnel opens up into an impossibly large subterranean cavern
 The salty smell of the ocean is unmistakable now. Ahead of you, the
 path is completely blocked by a structure of colossal proportions.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12921
 Desc      A massive iron cannon points at a closed door.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12918
 Desc      The Defias checkpoint.
@@ -1301,14 +1301,14 @@ point-blank at a colossal ironclad door to the east. Several heavy
 cannonballs and empty powder kegs are scattered around its base. It
 looks like it was dragged down here for a very specific purpose.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12922
 Desc      The towering Ironclad Door.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12920
 Desc      The approach tunnel.
@@ -1328,14 +1328,14 @@ massive they defy logic. The smell of the blasted black powder hangs
 heavy in the air. Through the smoking breach, you can hear the lapping
 of water and the shouts of pirates.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12923
 Desc      You step through the blasted doorway into the Cove.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12921
 Desc      The Defias Cannon.
@@ -1354,14 +1354,14 @@ in an impossibly massive underground cove. A subterranean saltwater lake
 stretches out before you. Moored at the far docks is an enormous, fully
 constructed warship: The Defias Juggernaut.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12924
 Desc      The path winds down to the water's edge.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12922
 Desc      The shattered Ironclad Doors.
@@ -1379,14 +1379,14 @@ Desc     The rocky path meets the calm, dark water of the underground lake. To
 the south, a sturdy wooden dock extends out toward the towering warship.
 Defias pirates patrol the area, highly alerted by the explosion.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12925
 Desc      The beginning of the wooden docks.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12923
 Desc      The entrance of the cove.
@@ -1403,14 +1403,14 @@ Desc     You step onto the creaking wooden planks of the docks. Heavy ropes and
 mooring cleats line the edges. The sheer size of the Juggernaut looming
 ahead is intimidating.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12924
 Desc      The water's edge.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    12926
 Desc      The docks continue toward the ship.
@@ -1427,14 +1427,14 @@ Desc     This wide section of the docks serves as a staging area for loading car
 onto the ship. Dozens of crates are stacked here. A massive tauren stands
 in the center of the docks, blocking the path forward.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12925
 Desc      The start of the docks.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    12927
 Desc      The end of the docks, near the gangplank.
@@ -1455,21 +1455,21 @@ the Defias Juggernaut rises straight up like a wooden wall. A heavy,
 reinforced gangplank stretches upwards, connecting the docks to the
 main deck of the ship.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12926
 Desc      The center of the docks.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction east~
 ToRoom    12941
 Desc      A small, hidden path runs along the shoreline.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    12928
 Desc      Climb the gangplank to the ship.
@@ -1486,14 +1486,14 @@ Desc     You are walking up the steep, swaying gangplank. Below you is the dark,
 freezing water of the cove. Above you, heavily armed pirates wait to
 repel boarders.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    12929
 Desc      The main deck of the ship.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12927
 Desc      The docks below.
@@ -1512,21 +1512,21 @@ is flawless, a testament to VanCleef's skill as a stonemason and builder.
 To the north, the deck stretches forward. Behind you are the stairs up
 to the captain's wheel.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12930
 Desc      The midship deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    12933
 Desc      The captain's wheel.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12928
 Desc      The gangplank.
@@ -1545,21 +1545,21 @@ and rigging stretch up into the darkness of the cavern ceiling. Defias
 Squallshapers channel magic here, preparing to summon the winds needed
 to sail the ship out of the mountain.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12931
 Desc      The forward deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    12929
 Desc      The aft deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12936
 Desc      A hatch leads down to the lower decks.
@@ -1575,14 +1575,14 @@ Sector   city~
 Desc     The deck begins to narrow here as it approaches the bow. Several heavy
 ballistae are mounted to the rails, pointed toward the cave entrance.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12932
 Desc      The bow of the ship.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    12930
 Desc      The midship deck.
@@ -1599,7 +1599,7 @@ Desc     You stand at the very front of the ship. A beautifully carved wooden
 figurehead looks out over the dark waters. From here, you have a perfect
 view of the colossal cavern that hides the Defias fleet.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12931
 Desc      The forward deck.
@@ -1619,14 +1619,14 @@ steering wheel. Captain Greenskin stands here, looking down at the deck
 with a scowl. A set of elegant wooden doors to the east leads into the
 captain's cabin.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12934
 Desc      The entrance to the captain's cabin.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12929
 Desc      The aft main deck.
@@ -1647,14 +1647,14 @@ Desc     You step into a richly furnished antechamber. Fine rugs and looted
 paintings from Westfall adorn the walls. Defias Companions lounge here,
 guarding the final set of doors that lead to the mastermind himself.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12935
 Desc      VanCleef's personal quarters.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12933
 Desc      The captain's wheel outside.
@@ -1673,7 +1673,7 @@ City are pinned to the walls alongside tactical maps outlining its
 destruction. Edwin VanCleef stands here in the shadows, his cruel
 blades drawn and ready.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12934
 Desc      The cabin entrance.
@@ -1696,28 +1696,28 @@ Desc     You climb down the ladder into the claustrophobic lower deck of the shi
 The ceiling is low, forcing you to stoop. This is the gun deck, where the
 ship's massive firepower is housed.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12937
 Desc      The port cannon deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction south~
 ToRoom    12938
 Desc      The starboard cannon deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction up~
 ToRoom    12930
 Desc      The main deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12939
 Desc      The cargo hold.
@@ -1735,7 +1735,7 @@ Desc     Row upon row of heavy black iron cannons face out of the open gunports.
 Stacks of cannonballs and powder kegs sit ready. It is clear that this
 ship was built to besiege a city.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    12936
 Desc      The center of the lower deck.
@@ -1753,7 +1753,7 @@ Desc     More heavy cannons line the starboard side. The sheer weight of the iro
 here makes the entire deck groan slightly as the ship rocks in the
 underground waters.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    12936
 Desc      The center of the lower deck.
@@ -1772,14 +1772,14 @@ Desc     You descend into the dark, damp belly of the ship. The cargo hold is
 packed to the ceiling with stolen grain, weapons, and gold from the
 plundered farms of Westfall.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    12936
 Desc      The lower deck.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction down~
 ToRoom    12940
 Desc      A small hatch leads to the bilge.
@@ -1798,7 +1798,7 @@ Desc     You are at the very bottom of the ship, below the waterline. Seawater
 sloshes ankle-deep around your boots. It smells foul and stagnant down
 here.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    12939
 Desc      The cargo hold.
@@ -1817,14 +1817,14 @@ Desc     Following a small, muddy path around the edge of the water from the doc
 you discover a secluded, sandy shore. A bubbling cauldron sits over a fire.
 This is where Cookie, the ship's murloc chef, prepares the crew's meals.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    12942
 Desc      A tunnel leading out of the cove.
 ~
 #ENDEXIT
 
-#EXIT
+Exit
 Direction west~
 ToRoom    12927
 Desc      The end of the wooden docks.
@@ -1845,7 +1845,7 @@ Desc     A small, natural tunnel opens up in the rock face just past the shore.
 You can smell fresh air and feel a breeze coming from the east. This
 must be the secret exit that leads out to the western shores of Westfall.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    12941
 Desc      Cookie's hidden shore.

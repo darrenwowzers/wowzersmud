@@ -738,12 +738,12 @@ necromancy, twist around a swirling, frost-covered portal. This
 unholy gateway separates the southern Barrens from the frozen 
 stronghold of the Coldbringer.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    26533
 Desc      Return to the southern Barrens.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29541
 Desc      The path leads into the darkness.~
@@ -760,12 +760,12 @@ banners. The ground is littered with bleached bones that crunch
 beneath your feet. A low, constant moaning echoes from the north, 
 carried on a freezing wind.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29540
 Desc      The entrance portal.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29542
 Desc      The path continues.~
@@ -782,17 +782,17 @@ Desc     The tunnel turns sharply. To the east, a narrow fissure in the
 wall leads to a dark, web-choked passage. The main path continues 
 north, toward a large, shadowy chamber.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29541
 Desc      The entry path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29546
 Desc      The entrance to the Spiral.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29543
 Desc      The path to the central plaza.~
@@ -810,12 +810,12 @@ Desc     The ceiling rises into a vaulted dome. Massive piles of skulls
 are arranged in the corners of the room, their hollow sockets 
 glowing with a dim, purple light.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29542
 Desc      The withered path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29544
 Desc      The central plaza.~
@@ -832,17 +832,17 @@ Desc     This wide-open space was once a place of gathering for the
 tribe, but it is now a harvesting ground for the Scourge. 
 Zombies shuffle aimlessly between piles of debris.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29551
 Desc      The path to the Cathedral.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    29543
 Desc      The entry hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29545
 Desc      A small side chamber.~
@@ -859,7 +859,7 @@ Flags    indoors~
 Desc     This room is used for the disposal of "failed" experiments. The 
 stench of rot is nearly physical here.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29544
 Desc      Return to the plaza.~
@@ -877,12 +877,12 @@ Desc     Thick, iron-strong webbing covers the walls and ceiling. The
 air is stagnant and smells of old venom. Tiny shadows skitter 
 just beyond the reach of your light.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29542
 Desc      Return to the main path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29547
 Desc      The spiral corridor.~
@@ -899,17 +899,17 @@ Desc     The passage begins to curve downward, looping toward the center
 of the spider wing. Several large, silk-wrapped cocoons hang from 
 the ceiling, some of them still twitching.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29546
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29548
 Desc      A side burrow.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29549
 Desc      The approach to the lair.~
@@ -925,7 +925,7 @@ Flags    indoors~
 Desc     This small burrow is filled with the discarded husks of giant 
 insects and small beasts.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29547
 Desc      The corridor.~
@@ -943,12 +943,12 @@ Desc     The webbing becomes so thick that it forms a natural carpet
 on the floor. The sound of thousands of tiny legs scuttling 
 over stone is deafening.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29547
 Desc      The corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29550
 Desc      Tuten'kash's Lair.~
@@ -965,7 +965,7 @@ Desc     This massive cavern is a nightmare of silk and shadow. Tuten'kash
 sits at the center of a giant web, his multi-faceted eyes 
 reflecting your light with a cold hunger.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29549
 Desc      The approach.~
@@ -983,12 +983,12 @@ Desc     The transition from natural cave to constructed cathedral is
 striking. Pillars made of fused bone support a ceiling covered 
 in blasphemous murals.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29544
 Desc      The plaza.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29552
 Desc      The nave.~
@@ -1005,17 +1005,17 @@ Desc     Rows of stone pews are arranged facing the northern altar.
 Undead acolytes stand in the aisles, their voices joined in 
 a low, soul-chilling dirge.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29551
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    29553
 Desc      The eastern transept.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29554
 Desc      Mordresh's Altar.~
@@ -1032,7 +1032,7 @@ Desc     A side wing of the cathedral where several large bells have
 been hung. They are made of a dull, dark metal that looks like 
 hardened blood.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29552
 Desc      The nave.~
@@ -1051,12 +1051,12 @@ center of the altar. Mordresh Fire Eye stands before it,
 directing the defense of the cathedral with a staff of burning 
 ash.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29552
 Desc      The nave.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29556
 Desc      The descent to the Sewers.~
@@ -1073,7 +1073,7 @@ Flags    indoors dark~
 Desc     A narrow slit behind the altar leads into a maintenance tunnel 
 filled with dust and cobwebs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29554
 Desc      Return to the altar.~
@@ -1090,12 +1090,12 @@ Flags    indoors~
 Desc     The air turns foul and humid. A narrow staircase spirals downward 
 into a series of damp, slime-slicked tunnels.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29554
 Desc      The Cathedral.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    29557
 Desc      The lower sewers.~
@@ -1111,17 +1111,17 @@ Desc     Green sludge flows through channels in the floor. The sound
 of liquid splashing and deep, gurgling laughter echoes off 
 the damp walls.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    29556
 Desc      Return to the ascent.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29558
 Desc      The abomination corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29561
 Desc      The high tunnels.~
@@ -1137,12 +1137,12 @@ Flags    indoors~
 Desc     The tunnels are wider here, built to accommodate the massive 
 forms of the stitched horrors that patrol this wing.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29557
 Desc      The junction.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29559
 Desc      The feeding grounds.~
@@ -1159,12 +1159,12 @@ Flags    indoors~
 Desc     Heaps of raw meat are piled in the corners of this room. It 
 is a gruesome sight, even for the Downs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29558
 Desc      The corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29560
 Desc      Glutton's Lair.~
@@ -1182,7 +1182,7 @@ Desc     This chamber is nearly flooded with acidic slime. The massive
 abomination Glutton stands in the center, his many arms 
 clutching rusted meat hooks and jagged cleavers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29559
 Desc      The feeding grounds.~
@@ -1200,12 +1200,12 @@ Desc     These tunnels were once part of the natural cavern system
 before the quilboar arrived. They are dryer and more stable 
 than the lower wings.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29557
 Desc      The sewer junction.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29562
 Desc      The western tunnels.~
@@ -1221,22 +1221,22 @@ Flags    indoors~
 Desc     A central point in the upper tunnels. Paths lead off to 
 several side burrows used by the tribe's animals.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29561
 Desc      The entrance tunnel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29563
 Desc      A small burrow.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    29564
 Desc      A small burrow.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    29566
 Desc      The Frozen Ascent.~
@@ -1252,7 +1252,7 @@ Flags    indoors~
 Desc     A quiet alcove where a rare, massive boar often comes to 
 rest and feed.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29562
 Desc      The crossroads.~
@@ -1268,7 +1268,7 @@ Flags    indoors~
 Desc     This burrow is filled with the scent of dried hay and 
 old leather.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29562
 Desc      The crossroads.~
@@ -1285,7 +1285,7 @@ Flags    indoors dark~
 Desc     A hidden ledge high above the tunnel floor, accessible only 
 by climbing the thick thorns.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    29562
 Desc      Return to the crossroads.~
@@ -1303,12 +1303,12 @@ Desc     The air turns lethal. Ice begins to cover the thorns, and
 your breath hitches in your chest. You have reached the 
 domain of Amnennar.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29562
 Desc      The high tunnels.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29567
 Desc      The stairs of frost.~
@@ -1325,12 +1325,12 @@ Desc     Massive stone steps, slick with black ice, climb toward the
 final spire. Skeletal mages stand on the landings, their 
 magic turning the very air to glass.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29566
 Desc      The ascent entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29568
 Desc      The middle landing.~
@@ -1347,12 +1347,12 @@ Flags    indoors~
 Desc     A wide platform halfway up the spire. From here, you can see 
 the flickering green fires of the cathedral far below.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29567
 Desc      The lower stairs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29569
 Desc      The upper stairs.~
@@ -1368,12 +1368,12 @@ Flags    indoors~
 Desc     The climb is grueling. Every surface is covered in razor-sharp 
 icicles that threaten to impale any who slip.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29568
 Desc      The middle landing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29570
 Desc      The spire threshold.~
@@ -1390,12 +1390,12 @@ Flags    indoors~
 Desc     A massive archway made of iron and ice. This is the final 
 checkpoint before reaching the Coldbringer's throne.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    26069
 Desc      The upper stairs.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29571
 Desc      Amnennar's Overlook.~
@@ -1412,12 +1412,12 @@ Desc     A high balcony that looks out over the entire Downs. The
 necromantic energy here is so thick it is visible as a 
 shimmering, purple haze.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29570
 Desc      The threshold.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29572
 Desc      The inner sanctum corridor.~
@@ -1433,12 +1433,12 @@ Flags    indoors~
 Desc     The walls are made of solid, blue ice. You can see the 
 twisted forms of frozen quilboars trapped within the walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29571
 Desc      The overlook.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29573
 Desc      The final corridor.~
@@ -1455,12 +1455,12 @@ Desc     The sound of Amnennar's voice, cold and hollow, echoes
 from the north. The floor is so cold it burns through 
 your boots.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29572
 Desc      The inner corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29574
 Desc      The approach to the throne.~
@@ -1476,12 +1476,12 @@ Flags    indoors~
 Desc     A wide hall lined with spectral guards who watch you with 
 expressionless faces.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29573
 Desc      The hallway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    29575
 Desc      The Frozen Throne.~
@@ -1500,7 +1500,7 @@ and iron. He is a terrifying figure of ancient undeath,
 holding the fate of the southern Barrens in his freezing 
 grasp.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29574
 Desc      The approach.~
@@ -1519,7 +1519,7 @@ Flags    indoors~
 Desc     A jagged, quiet alcove where the wind from the entrance 
 is but a whisper.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    29541
 Desc      The withered path.~
@@ -1535,7 +1535,7 @@ Flags    indoors~
 Desc     A room filled with the dust of centuries. Small, spectral 
 mists drift between the shadows.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29544
 Desc      The plaza.~
@@ -1552,7 +1552,7 @@ Flags    indoors~
 Desc     A small maintenance tunnel that appears to have been 
 abandoned long ago.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    29552
 Desc      The Cathedral Nave.~
@@ -1568,7 +1568,7 @@ Flags    indoors~
 Desc     A secluded corner of the high tunnels where the 
 ground is covered in a soft, white frost.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    29562
 Desc      The crossroads.~
@@ -1585,12 +1585,12 @@ Desc     A narrow fissure behind Amnennar's throne leads toward
 the surface of the Barrens, offering a quick way out for 
 those who have defeated the Coldbringer.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    29575
 Desc      The throne.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    29540
 Desc      The entrance portal.~

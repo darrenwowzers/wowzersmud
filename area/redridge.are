@@ -570,13 +570,13 @@ Desc     The lush canopy of Elwynn Forest thins out as you step onto the dusty,
 red-dirt path of the Lakeshire Highway. The temperature rises noticeably,
 and the jagged peaks of the Redridge Mountains loom in the east.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    13751
 Desc      The highway winds toward Lakeshire.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    12052
 Desc      The road back to Elwynn Forest.
@@ -592,25 +592,25 @@ Desc     The picturesque town of Lakeshire is built along the edge of a massive
 lake. Despite the beautiful scenery, the atmosphere is incredibly tense.
 Guards patrol frantically, and the townsfolk look exhausted.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13752
 Desc      The Town Hall.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13754
 Desc      The great bridge over Lake Everstill.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13753
 Desc      The Lakeshire Inn.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    13750
 Desc      The road back to Elwynn.
@@ -628,7 +628,7 @@ Desc     The administrative center of the town is currently operating as a war
 room. Maps detailing Blackrock and Shadowhide movements are scattered
 everywhere. Magistrate Solomon paces nervously, awaiting reinforcements.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13751
 Desc      The town square.
@@ -647,7 +647,7 @@ Desc     A warm, bustling tavern filled with weary militiamen and adventurers.
 The smell of hearty goulash and strong stout fills the air. Bailor
 Stonehand wipes down the bar, offering a brief respite from the war.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13751
 Desc      The town square.
@@ -667,25 +667,25 @@ Desc     A grand stone bridge spanning the narrowest point of Lake Everstill.
 It is heavily guarded, as it serves as the primary chokepoint between
 the safety of the town and the hostile eastern valleys.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    13758
 Desc      The eastern highway.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    13751
 Desc      The town square.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13774
 Desc      The town docks.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13755
 Desc      The southern shore of the lake.
@@ -702,13 +702,13 @@ Desc     The water of the lake is incredibly clear and cool. Unfortunately, the
 shoreline is infested with aggressive murlocs that frequently harass
 the local fishermen.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13754
 Desc      The great stone bridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13756
 Desc      The shallow waters.
@@ -727,13 +727,13 @@ Desc     You wade into the refreshing waters of the lake. The mud beneath your
 boots is soft. Murloc Oracles gurgle warnings from the deeper water
 to the north.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13755
 Desc      The southern shore.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13757
 Desc      The deep water.
@@ -749,7 +749,7 @@ Sector   water_swim~
 Desc     The lake drops off sharply here. The water is deep and dark, hiding
 sunken ruins and whatever aquatic beasts prey upon the murlocs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13756
 Desc      The shallow water.
@@ -765,25 +765,25 @@ Desc     Crossing the bridge, the road immediately becomes far more dangerous.
 The trees grow thicker, providing perfect ambush spots for the Shadowhide
 gnolls that terrorize this stretch of the highway.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13754
 Desc      Lakeshire Bridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13761
 Desc      Render's Valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13763
 Desc      A dirt path leading into the woods.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13759
 Desc      Alther's Mill.
@@ -801,13 +801,13 @@ Desc     Once a productive lumber mill, this area has been completely overrun by
 Giant Tarantulas. The buildings are choked with thick, sticky webs, and
 the loggers have long since fled.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13758
 Desc      The highway.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13776
 Desc      The forest edge.
@@ -825,13 +825,13 @@ Desc     The red dirt gives way to steep, rocky canyons. The wind howls through
 the narrow passages. Massive Dire Condors nest in the crags above,
 swooping down to attack travelers.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    13779
 Desc      The High Pass.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13761
 Desc      Render's Valley.
@@ -849,25 +849,25 @@ Desc     The highway cuts through a deep valley named after the infamous orc
 chieftain. Blackrock Grunts heavily patrol this area, serving as the
 vanguard for the massive invasion force.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13758
 Desc      The eastern highway.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13765
 Desc      The approach to Stonewatch.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13760
 Desc      The canyons.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13762
 Desc      A Blackrock encampment.
@@ -885,13 +885,13 @@ Desc     A heavily fortified orc camp built with crude spiked barricades. Blackr
 Warlocks channel dark fel magic here, practicing their devastating spells
 on captured gnolls and wildlife.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13761
 Desc      Render's Valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13772
 Desc      Render's Camp.
@@ -908,19 +908,19 @@ Desc     The woods south of the highway are the domain of the Shadowhide pack.
 The trees are decorated with crude totems made of bone and sinew. The
 snarling of aggressive brutes echoes through the brush.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13758
 Desc      The eastern highway.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    13764
 Desc      The center of the gnoll camp.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13777
 Desc      A patrol path.
@@ -937,7 +937,7 @@ Desc     The heart of the gnoll territory. A large bonfire burns in the center.
 Shadowhide Darkweavers chant curses, while the massive pack alpha,
 Yowler, commands his forces with terrifying howls.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    13763
 Desc      The camp entrance.
@@ -957,13 +957,13 @@ Desc     The path steeply inclines toward a massive, imposing stone fortress
 built into the mountainside. Blackrock Champions, clad in heavy dark
 iron armor, hold this chokepoint against any Alliance counter-attacks.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13761
 Desc      Render's Valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13766
 Desc      The gates of Stonewatch.
@@ -981,13 +981,13 @@ Desc     You stand before the towering, shattered gates of Stonewatch Keep. The
 orcs have completely overrun this former human bastion, defacing its
 walls with the bloody handprint of the Blackrock clan.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13765
 Desc      The approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    13767
 Desc      The inner courtyard.
@@ -1004,19 +1004,19 @@ Desc     The grand courtyard is filled with weapon racks and sparring rings. Doz
 of orcs train here tirelessly, preparing for the final assault on Lakeshire.
 Warlocks oversee the drills, punishing failure with fire.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13766
 Desc      The gates.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13768
 Desc      The barracks.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    13769
 Desc      The tower stairs.
@@ -1034,7 +1034,7 @@ Desc     The old human barracks have been repurposed by the orcish horde. Crude
 furs cover the stone floors, and the smell of sweat and roasted meat
 is overwhelming. 
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13767
 Desc      The courtyard.
@@ -1051,13 +1051,13 @@ Desc     A spiraling stone staircase leads up into the main watchtower. The step
 are slick with blood and incredibly steep. You can hear the booming voice
 of the Warlord echoing from above.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    13767
 Desc      The courtyard.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    13770
 Desc      The pinnacle of the tower.
@@ -1074,7 +1074,7 @@ Desc     The highest point in Redridge. From here, the Blackrock commanders can
 see all the way to Elwynn Forest. Warlord Gath'Ilzogg stands here, a
 towering mountain of muscle and iron, ready to crush any who oppose him.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    13769
 Desc      The tower stairs.
@@ -1092,7 +1092,7 @@ Desc     The highway turns sharply north here, winding precariously upward into
 the ash-choked mountains. This treacherous path eventually leads into
 the terrifying, volcanic wasteland of the Burning Steppes.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13760
 Desc      The Redridge Canyons.
@@ -1108,7 +1108,7 @@ Desc     A heavily entrenched command post located deep in the valley. Tharil'zu
 the cruel lieutenant of the Blackrock forces, coordinates the raiding
 parties that strike at Lakeshire from this location.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13762
 Desc      The Blackrock encampment.
@@ -1126,7 +1126,7 @@ Desc     A small, fortified watchtower overlooking the Lakeshire Bridge. A lone
 Redridge Guard is stationed here, tasked with sounding the alarm the
 moment the orcish army begins its march.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13774
 Desc      The town docks.
@@ -1143,13 +1143,13 @@ Desc     Wooden piers extend out into the clear waters of Lake Everstill. Small
 fishing boats are tied up here. It is one of the few peaceful spots left
 in the embattled town.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13754
 Desc      Lakeshire Bridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    13773
 Desc      The watchtower.
@@ -1164,7 +1164,7 @@ Sector   city~
 Desc     The northern edge of the great bridge. The stone is heavily scarred from
 recent skirmishes with raiding gnolls who attempted to cross into town.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    13754
 Desc      The center of the bridge.
@@ -1180,7 +1180,7 @@ Desc     The woods east of Alther's Mill are dangerously quiet. The trees are
 shrouded in thick webs, and giant tarantulas wait patiently in the canopy
 for unsuspecting prey.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13759
 Desc      Alther's Mill.
@@ -1197,7 +1197,7 @@ Desc     A crude, muddy path beaten into the forest floor by the constant pacing
 of Shadowhide patrols. The gnolls fiercely protect the borders of their
 territory.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13763
 Desc      The Shadowhide camp entrance.
@@ -1213,7 +1213,7 @@ Desc     A small clearing filled with stolen crates of food and weapons meant fo
 Lakeshire. Blackrock Grunts guard the supplies, keeping them ready for
 the front lines.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13761
 Desc      Render's Valley.
@@ -1231,7 +1231,7 @@ Desc     A narrow, perilous pass high above the valleys. The wind threatens to
 blow you off the edge. From here, you have a breathtaking, terrifying
 view of the Blackrock army gathering below.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    13760
 Desc      The Redridge Canyons.

@@ -740,12 +740,12 @@ by the weight of centuries, hold back the crumbling ceiling.
 To the north, a shimmering golden portal marks the boundary 
 between the surface world and the halls of the makers.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    28500
 Desc      Return to the Badlands digsite.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17041
 Desc      Enter the excavation tunnels.~
@@ -762,12 +762,12 @@ tools. Primitive trogg drawings are scrawled on the walls in
 dried blood, contrasting sharply with the smooth, geometric 
 lines of the Titan-built archways.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17040
 Desc      The entrance portal.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17042
 Desc      The path opens into a large pit.~
@@ -784,17 +784,17 @@ Desc     This massive natural cavern has been hollowed out by centuries of
 mining. Stone ramps lead down into the depths of the pit, where 
 the troggs continue to mindlessly dig through the rubble.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17041
 Desc      The dusty path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    17043
 Desc      The bottom of the pit.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    17044
 Desc      A side tunnel filled with smoke.~
@@ -812,7 +812,7 @@ Desc     A cramped, foul-smelling alcove where the troggs huddle for warmth.
 The floor is littered with gnawed bones and shards of broken 
 pottery.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    17042
 Desc      Return to the excavation pit.~
@@ -829,7 +829,7 @@ Desc     The walls here are covered in strange, glowing moss. A primitive
 altar of stacked stones sits in the center of the room, used by 
 the trogg shamans to commune with the earth.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    17042
 Desc      Return to the pit.~
@@ -845,12 +845,12 @@ Flags    indoors~
 Desc     A massive collapse has blocked much of this tunnel. Diggers work 
 tirelessly to clear the path, tossing rocks into messy piles.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    17046
 Desc      The tunnel continues.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    17042
 Desc      The excavation pit.~
@@ -867,12 +867,12 @@ Desc     The ceiling is low here, and the air is thick with the scent of
 musk and wet stone. Scorpids scuttle through the dust, feeding 
 on the insects attracted by the troggs.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17045
 Desc      The rubble pile.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17048
 Desc      A light in the distance.~
@@ -889,7 +889,7 @@ Desc     A secluded corner of the tunnels where the shadows seem to be
 thicker than elsewhere. Bats hang in clusters from the jagged 
 rocks above.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17046
 Desc      Return to the tunnel.~
@@ -906,12 +906,12 @@ Desc     A small, well-maintained camp has been set up here. A cooking
 fire crackles in the center, and several bedrolls are neatly 
 arranged. Baelog stands near a small table covered in maps.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17046
 Desc      The infested tunnel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17049
 Desc      The path to Revelosh.~
@@ -929,12 +929,12 @@ Desc     A high stone ledge overlooking the upper excavation. Revelosh
 stands here, guarding the vital components of the keystone. He 
 watches the tunnels below with sharp, intelligent eyes.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17048
 Desc      Baelog's camp.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17050
 Desc      Entrance to the Shadowforge site.~
@@ -952,12 +952,12 @@ Desc     The architecture shifts dramatically as you enter the Dark Iron
 territory. Iron-shod pillars support the ceiling, and the smell 
 of sulfur and hot metal fills the air.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17049
 Desc      Revelosh's Crag.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17051
 Desc      The archaeology site.~
@@ -973,17 +973,17 @@ Desc     Tables are covered in delicate brushes and measuring tools. Dark
 Iron archaeologists work carefully to extract Titan tablets from 
  the stone walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17050
 Desc      The entry hallway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    17052
 Desc      The surveyor post.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17054
 Desc      The Hall of Specimens.~
@@ -1001,7 +1001,7 @@ Desc     Maps of the inner vaults are pinned to a large board. Magical
 lenses and prisms are used here to analyze the structure of the 
 Titan foundations.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    17051
 Desc      The archaeology site.~
@@ -1019,7 +1019,7 @@ Desc     A narrow crack in the wall leads to a hidden chamber. The
 Dark Iron dwarves use this space to hide their most valuable 
 and dangerous finds.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17051
 Desc      Return to the site.~
@@ -1037,17 +1037,17 @@ Desc     Crates of relics are stacked high, ready for transport back to
 Shadowforge City. This is the primary storage area for the 
 Dark Iron expedition.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17051
 Desc      The archaeology site.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17055
 Desc      Galgann's Forge.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    17056
 Desc      Grimlok's Tribal Hall.~
@@ -1064,7 +1064,7 @@ Desc     A massive forge burns with intense heat. Galgann Firehammer
 stands near the anvil, hammering out dark iron components for 
 their excavation machines.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17054
 Desc      The hall of specimens.~
@@ -1082,12 +1082,12 @@ Desc     A massive, crude throne made of bone and stone sits at the end of
 this cavern. Grimlok the chieftain holds court here, surrounded 
 by his elite Stonevault brawlers.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    17054
 Desc      The hall of specimens.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17057
 Desc      The Seer's Chamber.~
@@ -1104,7 +1104,7 @@ Flags    indoors~
 Desc     The air is thick with smoke from burning herbs. A Stonevault Seer 
 chants to the shadows, her eyes rolled back into her head.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17056
 Desc      Grimlok's hall.~
@@ -1121,12 +1121,12 @@ Desc     The deepest part of the upper excavation. The transition to Titan
 architecture is almost complete here, with the stone giving way to 
 shimmering platinum walls.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    17054
 Desc      The hall of specimens.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    17059
 Desc      The Pre-Vault Hallway.~
@@ -1142,12 +1142,12 @@ Flags    indoors~
 Desc     A long, perfectly straight hallway built of unknown metal. The 
 sound of your footsteps echoes with a metallic ring.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    17058
 Desc      The inner dig site.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    17060
 Desc      The Map Chamber Entrance.~
@@ -1163,12 +1163,12 @@ Flags    indoors~
 Desc     A massive set of stone doors, engraved with celestial maps, stands 
 ajar. The air inside is humming with a low-frequency vibration.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    17059
 Desc      The pre-vault hallway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    17061
 Desc      The Keystone Pedestal.~
@@ -1184,12 +1184,12 @@ Desc     In the center of the room, a stone pedestal stands ready to
 receive the keystone. To the north and south, massive statues 
 of watchers stand in silent vigil.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    17060
 Desc      The entrance doors.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17062
 Desc      The Hall of the Makers.~
@@ -1206,12 +1206,12 @@ Desc     A grand hall built to a scale that makes mortals feel like
 insects. Floating eyes of arcane energy drift through the air, 
 scanning for intruders.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17061
 Desc      The keystone pedestal.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17063
 Desc      Ironaya's Altar.~
@@ -1228,12 +1228,12 @@ Desc     Ironaya, the Titan watcher, stands before a massive golden altar.
 She is a figure of terrifying power, her skin made of polished 
 metal and her eyes glowing with ancient law.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17062
 Desc      The Hall of the Makers.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17064
 Desc      The Vault Corridor.~
@@ -1251,12 +1251,12 @@ Desc     The walls here are covered in flickering runes that provide a
 constant, soft light. Massive stone golems stand perfectly 
 still in alcoves along the hall.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17063
 Desc      Ironaya's Altar.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17065
 Desc      Sentry Post.~
@@ -1272,12 +1272,12 @@ Flags    indoors~
 Desc     A small room where several floating eyes are docked in metal 
 stations, charging their arcane energies.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17064
 Desc      The corridor entry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17066
 Desc      The Crumbling Archway.~
@@ -1294,12 +1294,12 @@ Desc     A section of the inner vault that has begun to decay. Shards
 of stone are scattered across the floor, and the runes on 
 the walls are flickering erratically.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17065
 Desc      The sentry post.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17067
 Desc      Earthen Hall - South.~
@@ -1316,12 +1316,12 @@ Desc     Earthen guardians patrol this hall, their stone forms blending
 into the walls until they move. They are silent and relentless 
 in their duty.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17066
 Desc      The archway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17068
 Desc      Earthen Hall - North.~
@@ -1338,17 +1338,17 @@ Desc     The hall narrows slightly as it approaches the deeper vaults.
 The air is alive with the hum of the Titan machinery hidden 
 behind the walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17067
 Desc      South hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    17069
 Desc      The Gem Room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17070
 Desc      The Deep Vault Gates.~
@@ -1364,7 +1364,7 @@ Flags    indoors~
 Desc     A small, highly secure room where Titan components are stored. 
 Several glowing crystals provide light and power to the wing.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    17068
 Desc      Return to the hall.~
@@ -1381,12 +1381,12 @@ Desc     A pair of massive platinum doors, etched with the visage of
 Archaedas, blocks the way to the final chamber. They 
 radiate a sense of absolute permanence.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17068
 Desc      The earthen hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17071
 Desc      The warder sentry room.~
@@ -1402,12 +1402,12 @@ Desc     This circular room serves as the final guard post. Massive
 stone warders stand in four alcoves, their hands resting 
 on the hilts of giant stone hammers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17070
 Desc      The vault gates.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17072
 Desc      The Hall of History.~
@@ -1425,12 +1425,12 @@ Desc     The walls of this grand corridor are covered in detailed
 bas-reliefs depicting the creation of the world and the 
 ordering of Azeroth by the Titans.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17071
 Desc      The sentry room.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17073
 Desc      The Stasis Chamber.~
@@ -1447,12 +1447,12 @@ Desc     Dozens of metal pods are built into the walls. Inside, Earthen
 sleep in a state of suspended animation, waiting for the 
 call to awaken.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17072
 Desc      The hall of history.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17074
 Desc      The Golem Foundry.~
@@ -1469,12 +1469,12 @@ Desc     The sound of grinding stone and hissing steam is constant here.
 Titan machines are at work, slowly assembling new vault warders 
 to replace those that have fallen.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17073
 Desc      The stasis chamber.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17075
 Desc      The Pristine Walkway.~
@@ -1491,12 +1491,12 @@ Desc     A beautiful, perfectly polished bridge made of a strange,
 silver-white metal. It spans a dark pit from which a faint 
 blue light emerges.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17074
 Desc      The foundry.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17076
 Desc      The Sentry Overlook.~
@@ -1512,17 +1512,17 @@ Flags    indoors~
 Desc     A high balcony that overlooks the final descent to the vault. 
 Floating eyes scan the area with unwavering focus.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17075
 Desc      The walkway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17078
 Desc      The Final Stairwell.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    17077
 Desc      A hidden alcove.~
@@ -1538,7 +1538,7 @@ Flags    indoors dark~
 Desc     A small, dusty room that seems to have been forgotten by the 
 facility's maintenance systems.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    17076
 Desc      Return to the overlook.~
@@ -1555,12 +1555,12 @@ Desc     A wide set of platinum stairs descends into the dark. Every
 step you take makes the ground vibrate with a low, 
 menacing hum.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17076
 Desc      The overlook.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    17079
 Desc      The Vault Door.~
@@ -1576,12 +1576,12 @@ Desc     This door is the final barrier. It is a solid slab of white
 stone, engraved with the sigil of Norgannon. It hums with 
 unmatched power.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    17078
 Desc      The stairwell.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17080
 Desc      The Vault of Archaedas.~
@@ -1599,12 +1599,12 @@ stone throne at the far end of the hall. The room is filled
 with stone statues that seem to be waiting for a single word 
 of command to awaken.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17079
 Desc      The vault door.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    17081
 Desc      The Treasure Chamber.~
@@ -1623,12 +1623,12 @@ Titans stored their most important records and artifacts. The
 Discs of Norgannon rest on a central pedestal, glowing with 
 a soft, silver light.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    17080
 Desc      Return to the vault.~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    17040
 Desc      The shortcut exit to the surface.~

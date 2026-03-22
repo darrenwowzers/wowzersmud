@@ -736,12 +736,12 @@ sound of military drills. High above, the symbol of the Scarlet
 Crusade—a flaming red sword—hangs in defiance of the surrounding 
 plaguelands.
 ~
-#EXIT
+Exit
 Direction out~
 ToRoom    11699
 Desc      Return to the Tirisfal Glades.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    11641
 Desc      The path leads to the central atrium.~
@@ -759,17 +759,17 @@ Armory, while the east leads to the Library and Cathedral. Scarlet
 sentries stand at every corner, their eyes searching for any sign
 of the plague.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16040
 Desc      The entrance gates.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    16042
 Desc      The path to the Graveyard and Armory.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16050
 Desc      The path to the Library and Cathedral.~
@@ -787,17 +787,17 @@ the heavy steel doors of the Armory are visible, while to the
 south, a descending staircase leads toward the dark interrogation 
 halls of the Graveyard.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    16041
 Desc      Return to the atrium.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16057
 Desc      The entrance to the Armory.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    16043
 Desc      The descent to the Graveyard.~
@@ -815,12 +815,12 @@ cracking and a muffled scream echoes through the hallway. This is
 where the Crusade brings those they suspect of being touched by 
 the Scourge.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16042
 Desc      Return to the cloister.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    16044
 Desc      The interrogation chamber.~
@@ -838,12 +838,12 @@ brands, and rusted saws. In the center of the room, Interrogator
 Vishas stands near a blood-stained chair, his eyes gleaming with 
 sadistic pleasure.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16043
 Desc      The entrance hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    16045
 Desc      The Iron Maiden room.~
@@ -862,12 +862,12 @@ Desc     Several upright sarcophagi lined with spikes stand against the
 walls. A narrow, heavy door to the south leads out into the 
 outdoor graveyard.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16044
 Desc      Vishas's chamber.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    16046
 Desc      The path to the graveyard.~
@@ -884,12 +884,12 @@ Desc     The sterile, cold stone of the halls is replaced by tattered
 grass and the smell of wet earth. A low stone wall surrounds the 
 cemetery, and the iron gates to the south are rusted shut.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16045
 Desc      The interrogation halls.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    16047
 Desc      The graveyard proper.~
@@ -907,12 +907,12 @@ Crusade does not bury its enemies with honor—they are simply
 tossed into the dirt and forgotten. A thick, purple mist clings 
 to the ground.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16046
 Desc      The exit path.~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    16048
 Desc      Deep graveyard.~
@@ -930,7 +930,7 @@ Desc     The names on these stones have been scrubbed away by the wind.
 It's a lonely, quiet place where the only sound is the rustle of 
 dry leaves.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16047
 Desc      The main graveyard.~
@@ -947,7 +947,7 @@ Desc     A small stone building at the back of the graveyard leads down
 into a dark, cramped crypt. The air is stagnant and smells of 
 death.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    16047
 Desc      Return to the graveyard.~
@@ -965,17 +965,17 @@ contrast to the death on the other side of the atrium. To the
 north, the great stained-glass windows of the Cathedral loom 
 large, while the east path leads into the Library.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16041
 Desc      Return to the atrium.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16064
 Desc      The path to the Cathedral.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16051
 Desc      The entrance to the Library.~
@@ -992,12 +992,12 @@ Desc     The walls are lined with shelves containing mundane texts on
 history and theology. Scribes move quietly through the hall, 
 carrying stacks of parchment and ink-wells.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16050
 Desc      The garden.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16052
 Desc      The Houndmaster's Kennels.~
@@ -1015,12 +1015,12 @@ Desc     The smell of wet dog and raw meat is overpowering. Houndmaster
 Loksey stands at the center of the room, surrounded by his 
 vicious, barking war hounds.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16051
 Desc      The library hallway.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16053
 Desc      The Scriptorium.~
@@ -1040,12 +1040,12 @@ Desc     Dozens of monks sit at slanted desks, their quills scratching
 frantically against vellum. They are copying the various 
 prophecies and laws that govern the Scarlet Crusade.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16052
 Desc      The kennels.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16054
 Desc      The Scriptorium continues.~
@@ -1061,12 +1061,12 @@ Flags    indoors~
 Desc     The archives are more restricted here. Only the highest-ranking 
 adepts are allowed to study the texts found on these shelves.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16053
 Desc      The north scriptorium.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16055
 Desc      The Gallery of Treasures.~
@@ -1083,12 +1083,12 @@ Desc     Relics from the Third War are displayed in glass cases along the
 walls. Ancient shields, broken swords, and tattered flags serve 
 as a reminder of the Crusade's origins.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16054
 Desc      The scriptorium.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16056
 Desc      The Athenaeum.~
@@ -1105,7 +1105,7 @@ Desc     This circular room is the heart of the Monastery's knowledge.
 Arcanist Doan stands before a massive, floating crystal, his 
 mind lost in the study of a forbidden scroll.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16055
 Desc      The gallery.~
@@ -1124,12 +1124,12 @@ Desc     A wide hallway lined with statues of famous Scarlet heroes. The
 sound of clashing steel and rhythmic shouting echoes from the 
 north.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16042
 Desc      The cloister.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16058
 Desc      The training grounds.~
@@ -1146,12 +1146,12 @@ Desc     A large, open hall where Scarlet trainees practice their footwork
 and swordplay. Several wooden dummies have been hacked to 
 splinters.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16057
 Desc      The entrance hall.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16059
 Desc      The training grounds continue.~
@@ -1169,17 +1169,17 @@ Desc     Veterans of the Crusade oversee the training here. The discipline
 is harsh, and any mistake is met with immediate punishment 
 from the chaplains.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16058
 Desc      South training grounds.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16060
 Desc      The Armory warehouse.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16061
 Desc      The Hall corridor.~
@@ -1196,7 +1196,7 @@ Desc     Crates of steel plate armor and racks of sharpened halberds are
 stacked high. This is the source of the Crusade's military 
 might.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16059
 Desc      The training grounds.~
@@ -1214,12 +1214,12 @@ Desc     The hallway turns north, leading toward the central arena of
 the Armory. The walls are decorated with tapestries depicting 
 the Crusade's victories.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16059
 Desc      The training grounds.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16062
 Desc      The Gauntlet.~
@@ -1236,12 +1236,12 @@ Desc     A narrow passage where the guards have established a heavy
 defensive line. You must fight your way through a wall of 
 shields to reach the champion.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16061
 Desc      The corridor.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16063
 Desc      Herod's Arena.~
@@ -1259,7 +1259,7 @@ Herod, the Scarlet Champion, stands at the center, his massive
 two-handed axe resting on his shoulder. He watches you with 
 grim anticipation.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16062
 Desc      The gauntlet.~
@@ -1278,22 +1278,22 @@ Desc     A wide, cobbled courtyard leading to the massive doors of the
 Cathedral. Scarlet defenders patrol the perimeter, and the 
 air is heavy with the smell of burning incense.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16050
 Desc      The garden.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16067
 Desc      Entrance to the Chapel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    16065
 Desc      The left courtyard wing.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16066
 Desc      The right courtyard wing.~
@@ -1309,7 +1309,7 @@ Flags    indoors~
 Desc     A quiet section of the courtyard where monks often practice 
 their meditative fighting styles.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    16064
 Desc      The main courtyard.~
@@ -1325,7 +1325,7 @@ Flags    indoors~
 Desc     This section of the courtyard is used for the storage of holy 
 oils and ceremonial supplies.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16064
 Desc      The main courtyard.~
@@ -1343,12 +1343,12 @@ Desc     Massive oak doors, reinforced with iron sunbursts, stand open.
 The interior is lit by thousands of candles, casting long, 
 flickering shadows against the white marble walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16064
 Desc      The courtyard.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16068
 Desc      The Great Nave.~
@@ -1365,12 +1365,12 @@ Desc     Rows of red-cushioned pews are arranged facing the high altar.
 The ceiling is a series of massive stone arches, decorated with 
 gold leaf and holy symbols.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16067
 Desc      The chapel entrance.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16069
 Desc      The center of the nave.~
@@ -1387,22 +1387,22 @@ Desc     The heart of the Cathedral. High above, a massive stained-glass
 window depicts the fall of the Scourge. To the east and west, 
 smaller side chapels offer space for private prayer.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16068
 Desc      The entry nave.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16072
 Desc      The High Altar.~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    16070
 Desc      The west side chapel.~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    16071
 Desc      The east side chapel.~
@@ -1418,7 +1418,7 @@ Flags    indoors~
 Desc     A quiet, dark corner of the Cathedral where the faithful come 
 to light candles for the fallen.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    16069
 Desc      The central nave.~
@@ -1435,7 +1435,7 @@ Flags    indoors~
 Desc     This chapel contains several small reliquaries housing the 
 bones of early Scarlet martyrs.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16069
 Desc      The central nave.~
@@ -1452,12 +1452,12 @@ Desc     The most sacred place in the Monastery. A massive gold sunburst
 hangs over a marble altar. Scarlet Commander Mograine stands 
 here, his sword ready to defend the sanctity of the church.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16069
 Desc      The central nave.~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    16073
 Desc      Whitemane's Sanctum.~
@@ -1476,7 +1476,7 @@ Desc     This secluded room behind the high altar is the private retreat
 of the High Inquisitor. Sally Whitemane stands here, her 
 presence radiating a terrifyingly pure connection to the Light.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16072
 Desc      The high altar.~
@@ -1494,7 +1494,7 @@ Flags    indoors dark~
 Desc     A secret room tucked away behind the library shelves, used for 
 storing the most dangerous artifacts.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16056
 Desc      Return to Doan's sanctum.~
@@ -1510,7 +1510,7 @@ Flags    indoors~
 Desc     A simple, sparsely furnished room where the Scarlet monks sleep 
 and meditate.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16065
 Desc      Courtyard wing.~
@@ -1526,7 +1526,7 @@ Flags    indoors~
 Desc     A heavily fortified section of the outer wall, providing a 
 commanding view of the Tirisfal Glades.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16041
 Desc      The atrium.~
@@ -1541,7 +1541,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small room where guards can rest and change their equipment.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    16042
 Desc      The cloister.~
@@ -1556,7 +1556,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A matching room for the guards assigned to the library wing.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    16050
 Desc      The garden.~
@@ -1572,7 +1572,7 @@ Flags    indoors~
 Desc     A peaceful, roofed walkway where members of the Crusade can 
 meditate away from the military bustle.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    16043
 Desc      The Graveyard halls.~
@@ -1588,7 +1588,7 @@ Flags    indoors~
 Desc     An older section of the library where the books are in poor 
 condition. The air is dry and smells of old paper.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16051
 Desc      Library entry.~
@@ -1604,12 +1604,12 @@ Flags    indoors dark~
 Desc     The stairs descend into the cold dark. Spiderwebs hang thick 
 from the ceiling.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    16049
 Desc      The upper crypt.~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    16082
 Desc      The deep crypt.~
@@ -1625,7 +1625,7 @@ Flags    indoors dark~
 Desc     The bottom of the monastery's graveyard system. It is a place 
 of absolute silence and dark magic.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    16081
 Desc      Return to the entry.~
@@ -1641,7 +1641,7 @@ Flags    indoors~
 Desc     A small forge where weapons are repaired and sharpened for 
 the Scarlet champions.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16060
 Desc      The warehouse.~
@@ -1657,7 +1657,7 @@ Flags    indoors~
 Desc     A high balcony overlooking the great nave. It offers an 
 excellent vantage point for archers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16069
 Desc      The central nave.~
@@ -1672,7 +1672,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The matching balcony on the eastern side of the Cathedral.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    16069
 Desc      The central nave.~

@@ -566,7 +566,7 @@ timber known as The Den. This sunk-in valley is the cradle of the new
 Horde, where young orcs and trolls are tested to see if they are worthy
 of serving the Warchief.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    25001
 Desc      The dusty center of the valley.
@@ -583,19 +583,19 @@ Desc     The red dirt here is baked hard by the relentless sun. Lazy peons sleep
 in the shade of the few thorny trees, while young warriors chase after
 the tough Mottled Boars that root through the dust.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    25002
 Desc      The northern edge of the valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25003
 Desc      A rocky gorge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    25000
 Desc      The Den.
@@ -613,13 +613,13 @@ Desc     The canyon walls close in tightly here, providing a small bit of shade
 from the glaring sun. The boars are more plentiful here, aggressive and
 territorial.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25001
 Desc      The center of the valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25004
 Desc      A dark cave entrance.
@@ -636,13 +636,13 @@ Desc     The ground becomes rocky and treacherous. The shadows of the canyon wal
 hide deadly Scorpid Workers that scurry out to pinch the boots of unwary
 travelers.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25001
 Desc      The center of the valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction south~
 ToRoom    25007
 Desc      A hidden, shaded canyon.
@@ -660,13 +660,13 @@ Desc     A dark, ominous cave mouth cuts into the northern canyon wall. The air
 smells sharply of ozone and fel magic. Cackling Vile Familiars dance
 around the entrance, hurling small sparks of green fire.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25002
 Desc      The northern valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    25005
 Desc      Descend into the coven.
@@ -684,13 +684,13 @@ Desc     The air in the cave is suffocatingly hot. The walls glow with a faint,
 sickly green light. Cultists have set up a crude altar here, summoning
 minor demons to test their dark magic.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    25004
 Desc      The cave entrance.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25006
 Desc      Deeper into the twisting tunnels.
@@ -709,7 +709,7 @@ Desc     A large, flat rock serves as an altar for the Burning Blade. Blood and
 fel soot stain the stone. The familiars here are numerous and highly
 aggressive, swarming anyone who approaches.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25005
 Desc      The upper cave.
@@ -726,7 +726,7 @@ Desc     A small, dead-end canyon littered with the bones of boars and careless
 peons. Sarkoth, a massive and unusually vicious scorpid, claims this
 shaded patch of dirt as his own.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    25003
 Desc      The eastern valley.
@@ -744,13 +744,13 @@ Desc     A narrow, winding path leads out of the Valley of Trials and into the
 greater expanse of Durotar. The wind picks up, carrying the salty scent
 of the ocean from the southeast.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25000
 Desc      The Den.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25009
 Desc      The outskirts of a troll village.
@@ -766,19 +766,19 @@ Desc     The red dirt begins to mix with white beach sand. You approach a coasta
 settlement built by the Darkspear trolls. Crude wooden totems and fishing
 nets line the path.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25008
 Desc      The path back to the Valley.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25010
 Desc      The center of Sen'jin Village.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25015
 Desc      The Durotar coastline.
@@ -795,13 +795,13 @@ here on the coast, fiercely loyal to the orcs who saved them. Sen'jin
 Watchers stand guard, keeping an eye on the treacherous islands just
 offshore.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25009
 Desc      The village outskirts.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25011
 Desc      The beach.
@@ -819,13 +819,13 @@ Desc     The warm waters of the Great Sea lap gently against the white sand. To
 the east, across a shallow strait of water, you can see the dense, jungle-
 like foliage of the Echo Isles.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25010
 Desc      Sen'jin Village.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25012
 Desc      Wade into the shallows.
@@ -841,13 +841,13 @@ Desc     You wade through the warm, waist-deep water separating the mainland fro
 the Echo Isles. The trolls of Sen'jin warn that the islands are cursed,
 taken over by dark voodoo.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25011
 Desc      The mainland beach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25013
 Desc      The shores of the Echo Isles.
@@ -863,13 +863,13 @@ Desc     The moment you step onto the island, the atmosphere changes. The trees
 are unnaturally thick, and the sound of chanting echoes through the brush.
 Echo Isle Hexxers patrol the beaches, hurling curses at intruders.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25012
 Desc      The shallow water.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25014
 Desc      The heart of the island.
@@ -888,7 +888,7 @@ massive, bubbling cauldron of voodoo brews in the center of the clearing.
 The mad witch doctor Zalazane dances wildly around it, commanding his
 enthralled brethren.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25013
 Desc      The island shore.
@@ -906,19 +906,19 @@ Desc     Heading north from Sen'jin Village, the coastline becomes rugged and
 rocky. Shipwrecks litter the shore. In the distance, a large, stone
 fortress flies the green and gold anchor flag of Kul Tiras.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25009
 Desc      Sen'jin Village.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25016
 Desc      The approach to the keep.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25019
 Desc      The central plains of Durotar.
@@ -934,13 +934,13 @@ Desc     The path winds up a steep hill toward the human fortress. The Kul Tiras
 Marines have dug in deep here, determined to wipe out the Horde before
 it can establish a foothold in Kalimdor.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25015
 Desc      The coastline.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25017
 Desc      The courtyard of the keep.
@@ -957,13 +957,13 @@ Desc     The courtyard is bustling with heavily armed human marines. They are
 training, sharpening weapons, and preparing for their next strike against
 Razor Hill. They attack any Horde races on sight.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25016
 Desc      The approach.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    25018
 Desc      The central tower.
@@ -983,7 +983,7 @@ Desc     The command center of the Kul Tiras invasion. Lieutenant Benedict stand
 over a map table, plotting the destruction of Orgrimmar. He is a seasoned
 veteran, incredibly tough and utterly ruthless.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    25017
 Desc      The courtyard below.
@@ -1001,13 +1001,13 @@ Desc     The harsh, red plains of Durotar stretch out in all directions. The hea
 is oppressive. Sleek, deadly Durotar Tigers use the tall, dry grass to
 stalk their prey, striking with lightning speed.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25015
 Desc      The coastline.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25020
 Desc      A major crossroads.
@@ -1025,19 +1025,19 @@ Desc     The dirt path widens into a major, heavily traveled road. Peons carry
 lumber and stone along this route. To the north, the imposing wooden
 watchtowers of Razor Hill rise above the canyon walls.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25019
 Desc      The central plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25021
 Desc      The gates of Razor Hill.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25025
 Desc      A rocky path leading east.
@@ -1053,13 +1053,13 @@ Desc     Massive logs have been sharpened and lashed together to form the walls
 of Razor Hill. It is the primary military outpost for the Horde in Durotar,
 heavily guarded by seasoned orc grunts.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25020
 Desc      The crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25022
 Desc      The center of the outpost.
@@ -1076,25 +1076,25 @@ Desc     A bustling hub of activity. Merchants sell their wares, warriors rest
 between patrols, and peons are constantly yelled at to work harder. An
 inn provides a safe resting place for weary travelers.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25021
 Desc      The south gate.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25023
 Desc      The barracks.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25024
 Desc      The northern watchtower.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25028
 Desc      The path to Orgrimmar.
@@ -1112,7 +1112,7 @@ Desc     The military command center for the region. Weapons line the walls, and
 maps of Kul Tiras and centaur movements are scattered on tables. Commander
 Gar'thok coordinates the defense of Durotar from here.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25022
 Desc      The center of Razor Hill.
@@ -1129,7 +1129,7 @@ Desc     A tall wooden tower providing a commanding view of the northern canyons
 From here, guards can see all the way to the massive iron gates of the
 capital city, Orgrimmar.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25022
 Desc      The center of Razor Hill.
@@ -1145,13 +1145,13 @@ Desc     This rocky path winds east from the main road, leading into the jagged
 cliffs bordering the sea. The air grows cold, and an unsettling silence
 falls over the canyon.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25020
 Desc      The crossroads.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25026
 Desc      The entrance to Skull Rock.
@@ -1167,13 +1167,13 @@ Desc     A massive cave opening naturally shaped like a terrifying, screaming
 skull. This is the hidden base of the Burning Blade cult in Durotar.
 Fel magic oozes from the stone itself.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25025
 Desc      The path back to the road.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25027
 Desc      Enter the dark cavern.
@@ -1192,7 +1192,7 @@ Desc     The caverns are vast and labyrinthine. Burning Blade Cultists perform
 unspeakable rituals in the dark, summoning demons and plotting the
 downfall of the Warchief. The warlock Gazz'uz oversees the corruption.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25026
 Desc      The cave entrance.
@@ -1211,13 +1211,13 @@ Desc     Leaving Razor Hill to the west, the canyon narrows significantly. The
 wind howls through the gulch, kicking up blinding clouds of red dust.
 The massive, spiked iron walls of Orgrimmar are visible just ahead.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25022
 Desc      Razor Hill.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25029
 Desc      The Gates of Orgrimmar.
@@ -1234,13 +1234,13 @@ capital. The sheer scale of the architecture is breathtaking. Massive
 bonfires burn on either side of the entrance, and elite Kor'kron guards
 stand watch. Your journey into the heart of the Horde begins here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25028
 Desc      The Dustwind Gulch back to Razor Hill.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    11200
 Desc      Enter the Valley of Strength.

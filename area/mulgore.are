@@ -564,7 +564,7 @@ Desc     A small, peaceful encampment of hide tents set in a secluded valley
 in southern Mulgore. Young Tauren take their first steps here, guided
 by the wisdom of the Earthmother. A large tribal fire burns in the center.
 ~
-#EXIT
+Exit
 Direction north~
 ToRoom    25501
 Desc      The golden plains stretch out to the north.
@@ -582,19 +582,19 @@ Desc     The grass here is tall, golden, and swaying gently in the warm breeze.
 Peaceful plainstriders peck at the seeds, completely ignoring the young
 hunters practicing their skills nearby.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25500
 Desc      Camp Narache.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25503
 Desc      The rolling plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25502
 Desc      A dark, thorny ravine.
@@ -612,7 +612,7 @@ Desc     A narrow, shadowed ravine heavily overgrown with thick, thorny vines.
 Scavenging Palemane Gnolls have set up a crude camp here, constantly
 harassing the young braves from Camp Narache.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25501
 Desc      The outskirts of the camp.
@@ -630,19 +630,19 @@ Desc     The true scale of Mulgore reveals itself. Endless miles of golden grass
 roll out toward the horizon. The sky is an incredibly clear, brilliant
 blue. Swoops circle overhead, hunting for small prey.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25501
 Desc      Camp Narache outskirts.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25505
 Desc      The gates of Bloodhoof Village.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25504
 Desc      The rocky foothills.
@@ -661,7 +661,7 @@ Desc     The golden plains give way to sharp, rust-colored rocky outcroppings.
 The shadows here hide deadly Mountain Cougars who use the rocks to
 ambush passing caravans.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25503
 Desc      The southern plains.
@@ -679,13 +679,13 @@ Desc     Two massive, beautifully carved wooden totems mark the entrance to
 Bloodhoof Village. Massive Tauren Braves stand guard here, ensuring
 the safety of the tribe from quillboars and harpies.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25503
 Desc      The southern plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25506
 Desc      The center of the village.
@@ -703,19 +703,19 @@ Desc     A bustling, permanent settlement built on the shores of a large lake.
 Huge hide tents, curing racks, and roaring fires fill the area. Baine
 Bloodhoof stands near the central fire, offering wisdom to his people.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25505
 Desc      The village gates.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25507
 Desc      Stonebull Lake.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25508
 Desc      The central plains.
@@ -733,7 +733,7 @@ Desc     A pristine, perfectly still lake providing fresh water for the village.
 Massive, thick-hided Kodo Beasts drink peacefully from the shoreline,
 their heavy footsteps shaking the ground.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25506
 Desc      Bloodhoof Village.
@@ -752,19 +752,19 @@ Desc     The plains north of Bloodhoof are vast and open. Occasionally, young
 hunters spot the incredibly rare pink plainstrider, Mazzranache, darting
 through the tall grass here.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25506
 Desc      Bloodhoof Village.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25512
 Desc      The northern plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25509
 Desc      A ruined caravan.
@@ -781,13 +781,13 @@ Desc     A Tauren supply wagon lies smashed on the dirt path. Goods are scattere
 everywhere, and the draft kodos are missing. Thick, wicked thorns sprout
 unnaturally from the ground here, a sure sign of quillboar magic.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25508
 Desc      The central plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25510
 Desc      The quillboar brambles.
@@ -803,13 +803,13 @@ Desc     The golden grass is choked out entirely by massive, razor-sharp thorn
 vines. This is the territory of the Bristleback Quillboars. Shamans
 patrol the perimeter, tossing earth magic at any who approach.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25509
 Desc      The ruined caravan.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25511
 Desc      The heart of the brambles.
@@ -827,7 +827,7 @@ Desc     The thorns are so thick they block out the sun, creating a dark,
 oppressive fortress. Chief Bloodsear, a massive and scarred quillboar,
 sits on a crude throne of stolen goods, commanding his raiding parties.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25510
 Desc      The entrance to the brambles.
@@ -845,19 +845,19 @@ Desc     The plains stretch tirelessly onward. The legendary, ancient kodo beast
 known as Arra'chea is known to wander this specific stretch of the savanna,
 a highly sought-after prize for seasoned hunters.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25508
 Desc      The central plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25513
 Desc      The Venture Co. mining claim.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25517
 Desc      The rolling hills.
@@ -875,13 +875,13 @@ Desc     The beautiful plains are violently scarred here. Trees have been clear-
 and the earth is torn up by heavy machinery. The goblins of the Venture
 Trading Company have claimed this land by force.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25512
 Desc      The northern plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25514
 Desc      The mine entrance.
@@ -898,13 +898,13 @@ Desc     The air is thick with dust and the smell of exhaust. Goblin workers
 frantically swing pickaxes, trying to extract precious ores from the
 sacred earth of Mulgore as quickly as possible.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25513
 Desc      The approach outside.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction down~
 ToRoom    25515
 Desc      Deeper into the mine.
@@ -923,7 +923,7 @@ Desc     Deep underground, a ruthless Venture Co. Supervisor cracks a whip,
 demanding more production from his exhausted crew. The operation is
 highly illegal and a massive insult to the Tauren.
 ~
-#EXIT
+Exit
 Direction up~
 ToRoom    25514
 Desc      The mine entrance.
@@ -941,7 +941,7 @@ Desc     A deep, stone-lined well providing precious water to travelers on the
 plains. It is carefully maintained by the local tribes and offers a
 peaceful spot to rest in the shade of a large tree.
 ~
-#EXIT
+Exit
 Direction west~
 ToRoom    25517
 Desc      The rolling hills.
@@ -958,25 +958,25 @@ Desc     The flat savanna begins to pitch and roll into gentle hills as you trav
 further north. In the distance, you catch your first glimpse of the
 breathtaking, towering mesas of Thunder Bluff.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25512
 Desc      The northern plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction east~
 ToRoom    25516
 Desc      Thunderhorn Water Well.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25519
 Desc      The northern foothills.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25518
 Desc      Wildmane Water Well.
@@ -992,7 +992,7 @@ Desc     Another vital water source for the plains, though this one is dangerous
 close to the harpy hunting grounds to the north. Travelers fill their
 skins quickly and keep an eye on the sky.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25517
 Desc      The rolling hills.
@@ -1008,19 +1008,19 @@ Desc     The grass becomes sparse, and the wind picks up significantly. The shad
 of enormous mesas stretch across the land. The screech of harpies echoes
 from the cliffs to the west.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25517
 Desc      The rolling hills.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25520
 Desc      The Harpy Roost.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25524
 Desc      The path to the great city.
@@ -1036,7 +1036,7 @@ Desc     The cliffs here are covered in crude nests made of stolen goods and bon
 Vicious Windfury Harpies dive from the high rocks, attacking anyone who
 trespasses in their territory with razor-sharp talons and wind magic.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25519
 Desc      The northern foothills.
@@ -1053,13 +1053,13 @@ Sector   field~
 Desc     A wide, empty expanse of plains on the western edge of Mulgore. The
 wind blows undisturbed for miles. It is a quiet, contemplative place.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25508
 Desc      The central plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25522
 Desc      The Kodo Graveyard.
@@ -1075,7 +1075,7 @@ Desc     A solemn, quiet valley filled with the massive, bleached bones of ancie
 Kodo Beasts who have come here to die. The Tauren consider this a sacred,
 protected site.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25521
 Desc      The western plains.
@@ -1091,7 +1091,7 @@ Desc     A small, isolated Tauren outpost situated perfectly to watch the paths
 leading out of Mulgore and into the Barrens or Desolace. A few braves
 rest here by a small fire.
 ~
-#EXIT
+Exit
 Direction east~
 ToRoom    25524
 Desc      The path to Thunder Bluff.
@@ -1107,19 +1107,19 @@ Desc     The dirt path is incredibly wide here, trampled down by countless hoove
 and paws over generations. Directly ahead, the awe-inspiring capital of
 the Tauren rises impossibly high into the sky on a massive pillar of stone.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25519
 Desc      The northern foothills.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction west~
 ToRoom    25523
 Desc      Ghost Walker Post.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25525
 Desc      The base of the Great Lift.
@@ -1135,13 +1135,13 @@ Desc     You stand at the bottom of a truly massive mesa. Towering wooden scaffo
 and immense ropes stretch all the way to the top, where the city rests.
 Two large wooden platforms serve as elevators to the summit.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25524
 Desc      The path back to the plains.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    25526
 Desc      Step onto the elevator.
@@ -1158,13 +1158,13 @@ Desc     The massive wooden platform shudders and groans as an immense counter-w
 system pulls it upward. The golden plains of Mulgore shrink below you,
 revealing the breathtaking scale of the zone.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    25525
 Desc      The base of the lift.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction up~
 ToRoom    25527
 Desc      The top of the lift.
@@ -1180,13 +1180,13 @@ Desc     The elevator grinds to a halt at the summit of the mesa. You step off
 onto a high wooden platform. The wind up here is incredibly strong and
 pure. To the north lies the entrance to the great city.
 ~
-#EXIT
+Exit
 Direction down~
 ToRoom    25526
 Desc      The descending lift.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25528
 Desc      A rope bridge.
@@ -1202,13 +1202,13 @@ Desc     A dizzyingly high rope and wood bridge connects the lift platform to th
 main mesa of the city. Totems rattle in the wind, and braves patrol the
 span tirelessly.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25527
 Desc      The Great Lift.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    25529
 Desc      The Totem Poles.
@@ -1225,13 +1225,13 @@ carved, and brightly painted totems welcome you. From here, you can step
 forward into the Central Mesa and explore the legendary home of the
 Bloodhoof tribe.
 ~
-#EXIT
+Exit
 Direction south~
 ToRoom    25528
 Desc      The entrance bridge.
 ~
 #ENDEXIT
-#EXIT
+Exit
 Direction north~
 ToRoom    15000
 Desc      Enter the Central Mesa of Thunder Bluff.
