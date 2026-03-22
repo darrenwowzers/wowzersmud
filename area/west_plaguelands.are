@@ -1,0 +1,1981 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Western Plaguelands~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       46 55 0 60
+Economy      0 50000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       38000
+Keywords   skeletal flayer undead warrior~
+Short      a Skeletal Flayer~
+Long       A Skeletal Flayer rattles as it prowls the blighted fields.
+~
+Desc       A humanoid skeleton with jagged blades fused to its finger-bones. 
+It moves with a jerky, unnatural speed, driven by the dark will 
+of the Lich King.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1800 5000
+Stats2     48 48 200
+Stats3     12 32 48
+Stats4     0 0 0 0 0
+Attribs    22 14 16 6 6 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       38001
+Keywords   carrion grub beast~
+Short      a Carrion Grub~
+Long       A bloated, pale grub wriggles through the diseased soil.
+~
+Desc       Grown to the size of a large dog, these maggots feed on the 
+rotting remains of the once-fertile farmland. They spray an 
+acidic bile when threatened.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 1200 3500
+Stats2     46 46 0
+Stats3     8 20 46
+Stats4     0 0 0 0 0
+Attribs    18 10 20 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       38002
+Keywords   scarlet praetor human warrior~
+Short      a Scarlet Praetor~
+Long       A Scarlet Praetor stands tall, eyes burning with fanatical zeal.
+~
+Desc       A high-ranking member of the Scarlet Crusade stationed in 
+Hearthglen. They view the entire world as a plague to be 
+purged with steel and holy fire.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 3500 9500
+Stats2     52 52 400
+Stats3     15 45 52
+Stats4     0 0 0 0 0
+Attribs    24 12 18 14 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38003
+Keywords   scarlet invoker human mage~
+Short      a Scarlet Invoker~
+Long       A Scarlet Invoker weaves a prayer of searing light.
+~
+Desc       Casters who have twisted the Light into a weapon of pure 
+aggression. They wear heavy crimson robes and carry staves 
+that hum with righteous energy.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 1800 5500
+Stats2     51 51 1200
+Stats3     11 30 51
+Stats4     0 0 0 0 0
+Attribs    12 14 16 28 24 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38004
+Keywords   argent Dawn officer warrior~
+Short      an Argent Dawn Officer~
+Long       An officer of the Argent Dawn stands guard at the Bulwark.
+~
+Desc       Members of the multi-racial coalition dedicated to fighting 
+the Scourge. They are disciplined, weary, and determined to 
+restore Lordaeron to its former glory.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 5000 15000
+Stats2     55 55 500
+Stats3     20 55 55
+Stats4     0 0 0 0 0
+Attribs    26 14 18 16 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       38005
+Keywords   diseased wolf beast~
+Short      a Diseased Wolf~
+Long       A mangy wolf with patchy fur snarls, foaming at the mouth.
+~
+Desc       The wolves of the Plaguelands are half-dead themselves, their 
+bodies wracked by the Scourge plague. They hunt in packs, 
+driven by a mindless hunger.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 1400 3800
+Stats2     47 47 0
+Stats3     10 24 47
+Stats4     0 0 0 0 0
+Attribs    20 18 14 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38006
+Keywords   rotten ghoul undead~
+Short      a Rotten Ghoul~
+Long       A decaying ghoul hunches over a corpse, tearing at the flesh.
+~
+Desc       The shock troops of the Scourge. Their skin is grey and 
+sloughing off their bones, and they possess a terrifying 
+agility for creatures of the dead.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 2200 6000
+Stats2     49 49 100
+Stats3     12 35 49
+Stats4     0 0 0 0 0
+Attribs    22 16 18 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38007
+Keywords   skeletal sorcerer undead mage~
+Short      a Skeletal Sorcerer~
+Long       A skeleton in tattered robes raises a bony hand, ice forming.
+~
+Desc       Ancient mages of Lordaeron who have been raised into eternal 
+servitude. They specialize in frost magic, seeking to freeze 
+the hearts of the living.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 1600 4500
+Stats2     50 50 1500
+Stats3     10 28 50
+Stats4     0 0 0 0 0
+Attribs    10 12 14 30 25 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38008
+Keywords   bubbling slime ooze~
+Short      a Bubbling Slime~
+Long       A mass of toxic green sludge undulates toward you.
+~
+Desc       Born from the chemical run-off of the Scourge's plague 
+cauldrons. It is incredibly corrosive and emits a 
+nauseating gas.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1100 3200
+Stats2     48 48 0
+Stats3     9 22 48
+Stats4     0 0 0 0 0
+Attribs    16 8 22 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       38009
+Keywords   cult of the damned acolyte human mage~
+Short      a Cult Acolyte~
+Long       A human in dark purple robes mutters a dark incantation.
+~
+Desc       A living servant of the Scourge. These fanatics believe 
+that the Lich King will grant them eternal life in exchange 
+for their soul and service.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 1400 4000
+Stats2     49 49 1000
+Stats3     9 25 49
+Stats4     0 0 0 0 0
+Attribs    10 14 14 26 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38010
+Keywords   blighted horror undead~
+Short      a Blighted Horror~
+Long       A massive, sewn-together monstrosity lumbers through the ruins.
+~
+Desc       A Frankenstein-like creation made of multiple corpses. It 
+is immensely strong and durable, acting as a living tank 
+for the Scourge.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 5500 16000
+Stats2     54 54 0
+Stats3     22 60 55
+Stats4     0 0 0 0 0
+Attribs    35 4 30 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38011
+Keywords   highlord turalyon ghost boss~
+Short      the Ghost of Turalyon~
+Long       A shimmering, ethereal figure in knightly armor stands silently.
+~
+Desc       A rare vision of the past. This spirit remains to guide 
+those who would truly take up the fight against the 
+shadows that have consumed his home.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 15000 40000
+Stats2     60 60 2000
+Stats3     30 90 75
+Stats4     0 0 0 0 0
+Attribs    25 15 25 30 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       38012
+Keywords   commander ashlam valormane human boss~
+Short      Commander Ashlam Valormane~
+Long       Commander Valormane of the Argent Dawn surveys the fields.
+~
+Desc       The leader of the Argent Dawn's efforts in the Western 
+Plaguelands. He is a man of few words, his focus entirely 
+on the destruction of the Scourge cauldrons.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 8000 22000
+Stats2     55 55 600
+Stats3     18 50 55
+Stats4     0 0 0 0 0
+Attribs    24 14 20 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       38013
+Keywords   high abbot landgren human boss~
+Short      High Abbot Landgren~
+Long       High Abbot Landgren of the Scarlet Crusade bellows a sermon.
+~
+Desc       One of the highest religious leaders in Hearthglen. He 
+is a man of immense charisma and terrifying conviction.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 6000 18000
+Stats2     55 55 2500
+Stats3     15 45 55
+Stats4     0 0 0 0 0
+Attribs    18 12 20 32 30 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       38014
+Keywords   cauldron lord undead warrior~
+Short      a Cauldron Lord~
+Long       A skeletal knight in rusted armor guards the plague cauldron.
+~
+Desc       Specifically chosen to protect the Scourge's chemical 
+weapons. They are relentless defenders who will never 
+retreat from their post.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 3800 10000
+Stats2     52 52 300
+Stats3     14 42 52
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 10 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38015
+Keywords   plagueland hound beast~
+Short      a Plagueland Hound~
+Long       A skeletal hound with glowing green eyes stalks the path.
+~
+Desc       The Scourge's version of a hunting dog. They are fast, 
+quiet, and their bite carries the same rotting plague 
+that destroyed Lordaeron.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1300 3500
+Stats2     48 48 0
+Stats3     8 20 48
+Stats4     0 0 0 0 0
+Attribs    18 20 16 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38016
+Keywords   flickering ghost spirit~
+Short      a Flickering Ghost~
+Long       A translucent civilian wanders the ruins of Andorhal.
+~
+Desc       The spirit of a former resident of Andorhal, unable to 
+comprehend the destruction of their home. They flicker 
+in and out of existence, lost in a nightmare.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 47 0 0 900 2800
+Stats2     47 47 1000
+Stats3     6 18 47
+Stats4     0 0 0 0 0
+Attribs    10 14 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38017
+Keywords   scarlet cavalier human warrior~
+Short      a Scarlet Cavalier~
+Long       A knight in red-lacquered plate patrols the Hearthglen road.
+~
+Desc       The heavy cavalry of the Scarlet Crusade. Though they 
+lack mounts in this terrain, they retain the training 
+and heavy armament of their order.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 3200 8500
+Stats2     53 53 250
+Stats3     13 40 53
+Stats4     0 0 0 0 0
+Attribs    25 10 20 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38018
+Keywords   andorhal watcher undead mage~
+Short      an Andorhal Watcher~
+Long       A spectral eye floats above the ruined city streets.
+~
+Desc       Summoned by the Kel'Thuzad to monitor the ruins of Andorhal 
+for any Argent Dawn infiltrators.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 800 2400
+Stats2     50 50 1200
+Stats3     5 14 50
+Stats4     0 0 0 0 0
+Attribs    10 22 12 28 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38019
+Keywords   cauldron master undead mage~
+Short      a Cauldron Master~
+Long       A skeletal mage stirs the glowing green fluid of the cauldron.
+~
+Desc       Responsible for the chemical balance of the Scourge plague. 
+They possess a dark knowledge of alchemy and necromancy.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 1600 4800
+Stats2     52 52 1800
+Stats3     12 32 52
+Stats4     0 0 0 0 0
+Attribs    10 12 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38020
+Keywords   argent dawn scout human warrior~
+Short      an Argent Dawn Scout~
+Long       A scout in light armor hides behind a blighted tree.
+~
+Desc       Risking their lives to map the Scourge movements and find 
+the location of the plague cauldrons.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 1800 5000
+Stats2     50 50 200
+Stats3     11 28 50
+Stats4     0 0 0 0 0
+Attribs    16 22 14 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38021
+Keywords   diseased bear beast~
+Short      a Diseased Bear~
+Long       A massive bear with exposed ribs and grey skin lumber forward.
+~
+Desc       A terrifying example of the plague's effect on nature. The 
+Ironfur bears of Feralas's cousins, now turned into 
+shambling, aggressive horrors.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 3500 9000
+Stats2     50 50 0
+Stats3     18 45 50
+Stats4     0 0 0 0 0
+Attribs    30 6 25 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38022
+Keywords   spectral researcher undead mage~
+Short      a Spectral Researcher~
+Long       A ghostly figure in a scholar's robe inspects a pile of bones.
+~
+Desc       Former faculty members of Scholomance who have been allowed 
+to wander the ruins to gather data for the Darkmaster.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 2000 6000
+Stats2     53 53 2000
+Stats3     13 35 53
+Stats4     0 0 0 0 0
+Attribs    12 14 16 34 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       38023
+Keywords   scarlet sentinel human warrior~
+Short      a Scarlet Sentinel~
+Long       A guard in red plate stands watch over the Hearthglen gates.
+~
+Desc       Elite defenders of the Scarlet Crusade's primary base in 
+the Plaguelands.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 4200 12000
+Stats2     54 54 400
+Stats3     16 48 54
+Stats4     0 0 0 0 0
+Attribs    26 12 22 14 18 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38024
+Keywords   bubbling sludge ooze~
+Short      a Bubbling Sludge~
+Long       A thick, dark purple slime undulates through the ruins.
+~
+Desc       A more concentrated version of the marsh slimes, composed 
+of pure necromantic waste.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 2400 6500
+Stats2     51 51 0
+Stats3     14 38 51
+Stats4     0 0 0 0 0
+Attribs    24 8 26 4 10 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       38025
+Keywords   lost soul spirit~
+Short      a Lost Soul~
+Long       A small, flickering light wails as it floats near the lake.
+~
+Desc       The tiny remnants of souls that were consumed by the Scourge, 
+too weak to fully manifest but still capable of lashing 
+out in pain.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 600 1800
+Stats2     46 46 600
+Stats3     4 12 46
+Stats4     0 0 0 0 0
+Attribs    10 16 12 20 15 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     38026
+Keywords scourge stone treasure~
+Type     treasure~
+Short    a Minion's Scourgestone~
+Long     A small, jagged stone marked with the seal of the Scourge.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38027
+Keywords plaguebloom herb~
+Type     treasure~
+Short    a bunch of Plaguebloom~
+Long     A grey, diseased-looking flower with a sickly sweet scent.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 50 0 0
+Rarity   1
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38028
+Keywords arthas coin treasure~
+Type     treasure~
+Short    a tarnished Lordaeron gold coin~
+Long     An old gold coin featuring the profile of King Terenas II.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 50 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     38029
+Keywords scarlet crusade tabard about~
+Type     armor~
+Short    a Scarlet Crusade Tabard~
+Long     A bright red tabard featuring the white flame of the Crusade.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 800 45 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38030
+Keywords argent dawn tabard about~
+Type     armor~
+Short    an Argent Dawn Tabard~
+Long     A white tabard featuring a golden sunburst.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 800 45 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38031
+Keywords skeletal finger trash~
+Type     trash~
+Short    a yellowed skeletal finger~
+Long     A thin, brittle bone taken from a skeletal flayer.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38032
+Keywords diseased bear gall trophy~
+Type     trash~
+Short    a diseased bear gall~
+Long     A small, blackened organ that reeks of the plague.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38033
+Keywords scarlet longsword weapon~
+Type     weapon~
+Short    a Scarlet Zealot's Longsword~
+Long     A sharp steel sword with a bright red leather hilt.~
+WFlags   take wield~
+Values   12 12 24 3 0 0
+Stats    15 1200 48 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38034
+Keywords argent dawn insignia jewelry~
+Type     jewelry~
+Short    an Argent Dawn Insignia~
+Long     A silver badge marking the bearer as an ally of the Dawn.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 500 45 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38035
+Keywords plague cauldron key~
+Type     key~
+Short    a rusted cauldron key~
+Long     A heavy iron key used to open the locks on a plague cauldron.~
+WFlags   take~
+Values   38035 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38036
+Keywords andorhal artifact treasure~
+Type     treasure~
+Short    a ruined Andorhal artifact~
+Long     A piece of decorative pottery from the fallen city.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 250 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38037
+Keywords dreamfoil herb~
+Type     treasure~
+Short    a bundle of Dreamfoil~
+Long     Silvery, thin leaves that smell of the Emerald Dream.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 50 0 0
+Rarity   0
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38038
+Keywords mountain silversage herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     A silver-leafed herb found in high altitudes.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 180 52 0 0
+Rarity   1
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38039
+Keywords ghost mushroom treasure~
+Type     treasure~
+Short    a Ghost Mushroom~
+Long     A translucent mushroom that glows with a faint blue light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 48 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38040
+Keywords hearthglen pass key~
+Type     key~
+Short    a Scarlet Crusade Pass~
+Long     A small iron token allowing passage into Hearthglen.~
+WFlags   take~
+Values   38040 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38041
+Keywords skeletal sorcerer staff weapon~
+Type     weapon~
+Short    a Frosted Skeletal Staff~
+Long     A wooden staff coated in a permanent layer of magical ice.~
+WFlags   take wield~
+Values   12 10 20 7 0 0
+Stats    12 2500 52 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38042
+Keywords cultist cowl head~
+Type     armor~
+Short    a Cult of the Damned Cowl~
+Long     A deep purple hood that obscures the wearer's features.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    2 650 45 0 0
+Rarity   1
+Affect   3 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38043
+Keywords blighted leather gloves hands~
+Type     armor~
+Short    a pair of blighted gloves~
+Long     Leather gloves stained with a toxic green residue.~
+WFlags   take hands~
+Values   8 0 0 0 0 0
+Stats    3 450 46 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38044
+Keywords tattered lordaeron flag treasure~
+Type     trash~
+Short    a tattered Lordaeron flag~
+Long     A dusty blue banner featuring a faded golden L.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38045
+Keywords valormane shield armor~
+Type     armor~
+Short    an Argent Dawn Defender~
+Long     A heavy kite shield featuring the silver sunburst.~
+WFlags   take shield~
+Values   30 0 0 0 0 0
+Stats    30 4500 55 0 0
+Rarity   2
+Affect   1 10 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38046
+Keywords rotten ghoul tongue trophy~
+Type     trash~
+Short    a blackened ghoul tongue~
+Long     A shriveled, dark tongue taken from a Scourge ghoul.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38047
+Keywords shimmering ghost-essence~
+Type     treasure~
+Short    a Shimmering Ghost-Essence~
+Long     A vial containing a swirling cloud of spectral energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 50 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38048
+Keywords scholarly scroll loot~
+Type     treasure~
+Short    a Scholomance Research Scroll~
+Long     A scroll filled with disturbing anatomical diagrams.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 53 0 0
+Rarity   2
+Affect   3 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38049
+Keywords scarlet praetor chestplate body~
+Type     armor~
+Short    a Scarlet Praetor's Chestplate~
+Long     Heavy plate armor lacquered in a vibrant crimson finish.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 5500 55 0 0
+Rarity   2
+Affect   5 15 0 0 0
+Affect   17 -25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38050
+Keywords bubbling bile trash~
+Type     trash~
+Short    a jar of bubbling bile~
+Long     A glass jar filled with a corrosive, glowing liquid.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38051
+Keywords lordaeron signet ring jewelry~
+Type     jewelry~
+Short    a Royal Signet of Lordaeron~
+Long     A gold ring featuring the crest of the fallen kingdom.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   3
+Affect   3 15 0 0 0
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     38052
+Name     &xThe Bulwark - West Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A massive barricade of sharpened logs and stone blocks marks the 
+border between the safety of Tirisfal and the horror of the 
+Plaguelands. Soldiers of the Argent Dawn stand firm here, 
+watching the eastern horizon for any movement. The air is 
+thick with a yellow, sulfurous mist that burns the throat.
+~
+#EXIT
+Direction west~
+ToRoom    11699
+Desc      Return to the Tirisfal Glades.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38053
+Desc      The path leads into the Western Plaguelands.~
+#ENDEXIT
+Reset M 0 38004 5 38052
+#ENDROOM
+
+#ROOM
+Vnum     38053
+Name     &xThe Sullied Path&d~
+Sector   field~
+Flags    ~
+Desc     A wide, cracked stone road leading through a valley of dead 
+trees. The bark of the trees is grey and peeling, and no 
+birds sing in their branches. To the north, a small trail 
+winds up toward a ruined farmstead.
+~
+#EXIT
+Direction west~
+ToRoom    38052
+Desc      Return to the Bulwark.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38054
+Desc      The road continues east.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38058
+Desc      The path to Felstone Field.~
+#ENDEXIT
+Reset M 0 38015 5 38053
+#ENDROOM
+
+#ROOM
+Vnum     38054
+Name     &xThe Blighted Crossroads&d~
+Sector   field~
+Flags    ~
+Desc     The road splits here. To the north lies the gated community 
+of Hearthglen, while to the east, the ruined city of 
+Andorhal dominates the horizon. A Scourge plague cauldron 
+sits in a nearby field, emitting a constant stream of 
+toxic gas.
+~
+#EXIT
+Direction west~
+ToRoom    38053
+Desc      Western Sullied Path.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38070
+Desc      The gates of Andorhal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38090
+Desc      The road to Hearthglen.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38062
+Desc      The path to Dalson's Tears.~
+#ENDEXIT
+Reset M 0 38014 1 38054
+#ENDROOM
+
+#ROOM
+Vnum     38055
+Name     &xThe Ruined Bulwark Tower&d~
+Sector   city~
+Flags    ~
+Desc     A high stone tower at the western edge of the Plaguelands. 
+The top has been blown off by some ancient magical explosion, 
+leaving a jagged stone crown that provides an excellent 
+view of the surrounding blight.
+~
+#EXIT
+Direction down~
+ToRoom    38052
+Desc      The Bulwark.~
+#ENDEXIT
+Reset M 0 38020 5 38055
+#ENDROOM
+
+#ROOM
+Vnum     38056
+Name     &xArgent Dawn Command Post&d~
+Sector   city~
+Flags    ~
+Desc     A small collection of tents and crates near the Bulwark. 
+Commander Ashlam Valormane stands here, planning the 
+Dawn's next move against the cauldrons.
+~
+#EXIT
+Direction south~
+ToRoom    38052
+Desc      The Bulwark.~
+#ENDEXIT
+Reset M 0 38012 1 38056
+Reset O 38030 5 38056
+#ENDROOM
+
+#ROOM
+Vnum     38057
+Name     &xThe Gryphon Roost - West&d~
+Sector   city~
+Flags    ~
+Desc     A flat stone landing on the Bulwark wall. Several gryphons 
+rest here, ready to carry messages back to Stormwind or 
+Ironforge.
+~
+#EXIT
+Direction east~
+ToRoom    38052
+Desc      The Bulwark.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     38058
+Name     &xFelstone Field - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A large farm that has been completely consumed by the 
+plague. The soil is black and oily, and the crops have 
+turned into twisted, skeletal stalks.
+~
+#EXIT
+Direction south~
+ToRoom    38053
+Desc      The sullied path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38059
+Desc      The Felstone Farmhouse.~
+#ENDEXIT
+Reset M 0 38000 5 38058
+#ENDROOM
+
+#ROOM
+Vnum     38059
+Name     &xThe Felstone Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the house is a mess of broken furniture and 
+shattered glass. Skeletal flayers lurk in the shadows of 
+the kitchen and upstairs bedrooms.
+~
+#EXIT
+Direction south~
+ToRoom    38058
+Desc      The field entrance.~
+#ENDEXIT
+Reset M 0 38000 5 38059
+Reset O 38036 5 38059
+#ENDROOM
+
+#ROOM
+Vnum     38060
+Name     &xFelstone Field - The Cauldron&d~
+Sector   field~
+Flags    ~
+Desc     A massive Scourge cauldron sits in the center of the field, 
+bubbling with a luminous green liquid. A skeletal mage 
+carefully monitors the mixture.
+~
+#EXIT
+Direction west~
+ToRoom    38058
+Desc      The field entrance.~
+#ENDEXIT
+Reset M 0 38019 1 38060
+Reset O 38035 1 38060
+#ENDROOM
+
+#ROOM
+Vnum     38061
+Name     &xThe Carrion Pits&d~
+Sector   field~
+Flags    ~
+Desc     A shallow depression north of Felstone Field where the 
+Scourge dumps the remains of their victims. Carrion grubs 
+are found here in disgusting numbers.
+~
+#EXIT
+Direction south~
+ToRoom    38058
+Desc      Return to the field.~
+#ENDEXIT
+Reset M 0 38001 10 38061
+#ENDROOM
+
+#ROOM
+Vnum     38062
+Name     &xDalson's Tears - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     Named for the family that once owned it, this farm is now 
+a place of absolute sorrow. The air is cold and the 
+sound of ghostly weeping can be heard from the barn.
+~
+#EXIT
+Direction north~
+ToRoom    38054
+Desc      The blighted crossroads.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38063
+Desc      The Dalson Barn.~
+#ENDEXIT
+Reset M 0 38006 5 38062
+#ENDROOM
+
+#ROOM
+Vnum     38063
+Name     &xThe Dalson Barn&d~
+Sector   inside~
+Flags    indoors~
+Desc     The smell of wet hay and rotting flesh is overwhelming. 
+Ghouls have made a nest within the rafters, dropping down 
+on anyone who enters.
+~
+#EXIT
+Direction north~
+ToRoom    38062
+Desc      The farm entrance.~
+#ENDEXIT
+Reset M 0 38006 10 38063
+#ENDROOM
+
+#ROOM
+Vnum     38064
+Name     &xDalson's Tears - The Cauldron&d~
+Sector   field~
+Flags    ~
+Desc     The second Scourge cauldron in the region. It is guarded 
+by a powerful skeletal knight and his pack of hounds.
+~
+#EXIT
+Direction west~
+ToRoom    38062
+Desc      The farm entrance.~
+#ENDEXIT
+Reset M 0 38014 1 38064
+Reset M 0 38015 5 38064
+#ENDROOM
+
+#ROOM
+Vnum     38065
+Name     &xThe Ruined Silo&d~
+Sector   city~
+Flags    ~
+Desc     A stone grain silo that has partially collapsed. A small, 
+secluded room remains intact at the top.
+~
+#EXIT
+Direction down~
+ToRoom    38062
+Desc      Return to the farm.~
+#ENDEXIT
+Reset O 38028 1 38065
+#ENDROOM
+
+#ROOM
+Vnum     38066
+Name     &xGahrron's Withering - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The farthest of the western farms. The plague here is 
+particularly potent, and the ground is littered with 
+bubbling slimes.
+~
+#EXIT
+Direction west~
+ToRoom    38054
+Desc      Return to the crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38067
+Desc      The Gahrron Farmhouse.~
+#ENDEXIT
+Reset M 0 38008 10 38066
+#ENDROOM
+
+#ROOM
+Vnum     38067
+Name     &xThe Gahrron Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     Most of the roof has fallen in, letting the sickly yellow 
+light of the sky illuminate the skeletal remains of the 
+former residents.
+~
+#EXIT
+Direction west~
+ToRoom    38066
+Desc      The farm entrance.~
+#ENDEXIT
+Reset M 0 38007 5 38067
+#ENDROOM
+
+#ROOM
+Vnum     38068
+Name     &xGahrron's Withering - The Cauldron&d~
+Sector   field~
+Flags    ~
+Desc     The third cauldron, bubbling with an intense purple gas. 
+Cult acolytes are seen here delivering supplies of 
+fresh corpses.
+~
+#EXIT
+Direction south~
+ToRoom    38066
+Desc      The farm entrance.~
+#ENDEXIT
+Reset M 0 38019 1 38068
+Reset M 0 38009 5 38068
+#ENDROOM
+
+#ROOM
+Vnum     38069
+Name     &xThe Blighted Woods&d~
+Sector   forest~
+Flags    ~
+Desc     A dark thicket of gnarled trees between the farms. Diseased 
+bears prowl the undergrowth, their roars muffled by the 
+thick fog.
+~
+#EXIT
+Direction north~
+ToRoom    38066
+Desc      Return to the farm.~
+#ENDEXIT
+Reset M 0 38021 5 38069
+#ENDROOM
+
+#ROOM
+Vnum     38070
+Name     &xThe Gates of Andorhal&d~
+Sector   city~
+Flags    ~
+Desc     Massive iron gates that once protected the breadbasket of 
+Lordaeron. They are now twisted and off their hinges, 
+inviting all into the nightmare of the ruined city.
+~
+#EXIT
+Direction west~
+ToRoom    38054
+Desc      The blighted crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38071
+Desc      Andorhal Town Square.~
+#ENDEXIT
+Reset M 0 38006 5 38070
+#ENDROOM
+
+#ROOM
+Vnum     38071
+Name     &xAndorhal - Town Square&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the ruined city. Shattered buildings line the 
+square, and the central fountain is filled with stagnant, 
+dark water. Andorhal watchers float above, their unblinking 
+eyes scanning the wreckage.
+~
+#EXIT
+Direction west~
+ToRoom    38070
+Desc      The gates.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38072
+Desc      The Andorhal Inn ruins.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38073
+Desc      The Town Hall ruins.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38075
+Desc      Toward the Andorhal Grain Warehouses.~
+#ENDEXIT
+Reset M 0 38018 5 38071
+#ENDROOM
+
+#ROOM
+Vnum     38072
+Name     &xThe Slaughtered Lamb - Ruins&d~
+Sector   inside~
+Flags    indoors~
+Desc     Once a bustling tavern, now a scene of absolute carnage. 
+The floorboards are stained with old blood and the rafters 
+are filled with ghouls.
+~
+#EXIT
+Direction south~
+ToRoom    38071
+Desc      The square.~
+#ENDEXIT
+Reset M 0 38006 10 38072
+#ENDROOM
+
+#ROOM
+Vnum     38073
+Name     &xAndorhal Town Hall - Ruins&d~
+Sector   inside~
+Flags    indoors~
+Desc     The grandest building in the city is now a shell of its 
+former self. Cult acolytes use the main hall to conduct 
+their dark business.
+~
+#EXIT
+Direction north~
+ToRoom    38071
+Desc      The square.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    38074
+Desc      The Town Hall Cellars.~
+#ENDEXIT
+Reset M 0 38009 5 38073
+#ENDROOM
+
+#ROOM
+Vnum     38074
+Name     &xAndorhal Town Hall - Cellars&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A dark, damp cellar filled with piles of bones and broken 
+crates. Flickering ghosts wander the narrow passages.
+~
+#EXIT
+Direction up~
+ToRoom    38073
+Desc      Return to the hall.~
+#ENDEXIT
+Reset M 0 38016 10 38074
+Reset O 38036 5 38074
+#ENDROOM
+
+#ROOM
+Vnum     38075
+Name     &xAndorhal - Warehouse District&d~
+Sector   city~
+Flags    ~
+Desc     Massive stone warehouses that once stored the grain for all 
+of Lordaeron. They are now used by the Scourge to brew 
+the plague in massive quantities.
+~
+#EXIT
+Direction west~
+ToRoom    38071
+Desc      The square.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38076
+Desc      Toward the Lake Darrowmere.~
+#ENDEXIT
+Reset M 0 38010 1 38075
+#ENDROOM
+
+#ROOM
+Vnum     38076
+Name     &xThe Shore of Lake Darrowmere&d~
+Sector   field~
+Flags    ~
+Desc     The grey stone of Andorhal gives way to a muddy shoreline. 
+The water of Lake Darrowmere is dark and stagnant, reflecting 
+the bruised purple of the sky. To the east, a large island 
+with a ruined castle is visible.
+~
+#EXIT
+Direction west~
+ToRoom    38075
+Desc      The warehouse district.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38085
+Desc      Swim toward Caer Darrow.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38077
+Desc      The road to Uther's Tomb.~
+#ENDEXIT
+Reset M 0 38025 10 38076
+#ENDROOM
+
+#ROOM
+Vnum     38077
+Name     &xThe Path to Uther's Tomb&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, respectful path leading into the southern mountains. 
+The air here feels remarkably lighter and the mist 
+seems to pull back from the road.
+~
+#EXIT
+Direction north~
+ToRoom    38076
+Desc      The lakeshore.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38078
+Desc      Uther's Tomb.~
+#ENDEXIT
+Reset M 0 38004 5 38077
+#ENDROOM
+
+#ROOM
+Vnum     38078
+Name     &WThe Tomb of Uther the Lightbringer&d~
+Sector   inside~
+Flags    indoors~
+Desc     A beautiful marble structure that stays pristine despite the 
+surrounding decay. A golden statue of Uther stands in the 
+center, and the air hums with the pure energy of the Light. 
+The ghost of Turalyon can sometimes be seen here in deep prayer.
+~
+#EXIT
+Direction north~
+ToRoom    38077
+Desc      Return to the path.~
+#ENDEXIT
+Reset M 0 38011 1 38078
+  Reset G 1 38051 1
+#ENDROOM
+
+#ROOM
+Vnum     38079
+Name     &xThe Bridge to Caer Darrow&d~
+Sector   city~
+Flags    ~
+Desc     A long stone bridge anchored to the island. Skeletal warriors 
+patrol the length of the span, ensuring no living being 
+reaches the castle ruins.
+~
+#EXIT
+Direction west~
+ToRoom    38076
+Desc      The lakeshore.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38080
+Desc      Ruins of Caer Darrow.~
+#ENDEXIT
+Reset M 0 38000 5 38079
+#ENDROOM
+
+#ROOM
+Vnum     38080
+Name     &xThe Ruins of Caer Darrow&d~
+Sector   city~
+Flags    indoors~
+Desc     The island city of Caer Darrow is a haunt of ghosts and 
+memory. Ruins of elven houses surround the massive 
+keep in the center. A shimmering, dark blue portal glows 
+within the keep's main archway—the entrance to Scholomance.
+~
+#EXIT
+Direction west~
+ToRoom    38079
+Desc      Return to the bridge.~
+#ENDEXIT
+Reset M 0 38022 5 38080
+Reset O 38048 5 38080
+#ENDROOM
+
+#ROOM
+Vnum     38081
+Name     &xCaer Darrow - Eastern Shore&d~
+Sector   field~
+Flags    ~
+Desc     A small beach on the back side of the island. Lost souls 
+flutter near the water's edge, their cries echoing across 
+the lake.
+~
+#EXIT
+Direction west~
+ToRoom    38080
+Desc      Return to the ruins.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38500
+Desc      Swim toward the Eastern Plaguelands.~
+#ENDEXIT
+Reset M 0 38025 10 38081
+#ENDROOM
+
+#ROOM
+Vnum     38082
+Name     &xThe Sinking Ferry&d~
+Sector   water_noswim~
+Flags    ~
+Desc     A half-submerged wooden boat in the center of the lake. 
+It once carried travelers between Andorhal and the island.
+~
+#EXIT
+Direction west~
+ToRoom    38076
+Desc      The lakeshore.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38081
+Desc      The island shore.~
+#ENDEXIT
+Reset O 38044 1 38082
+#ENDROOM
+
+#ROOM
+Vnum     38083
+Name     &xThe High Wilderness - Entry&d~
+Sector   field~
+Flags    ~
+Desc     A series of low, rocky hills between the lakeshore and 
+the southern mountains.
+~
+#EXIT
+Direction north~
+ToRoom    38076
+Desc      The lakeshore.~
+#ENDEXIT
+Reset M 0 38021 5 38083
+#ENDROOM
+
+#ROOM
+Vnum     38084
+Name     &xThe Mournful Cleft&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small, hidden cave where ghost mushrooms thrive in 
+the cold dark.
+~
+#EXIT
+Direction north~
+ToRoom    38083
+Desc      Return to the hills.~
+#ENDEXIT
+Reset O 38039 10 38084
+#ENDROOM
+
+#ROOM
+Vnum     38085
+Name     &BThe Lake Darrowmere - Shallows&d~
+Sector   water_noswim~
+Flags    ~
+Desc     The water is dark and freezing cold. Schools of dead 
+fish float on the surface, and the lake floor is 
+composed of deep, sucking mud.
+~
+#EXIT
+Direction west~
+ToRoom    38076
+Desc      The lakeshore.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38079
+Desc      The bridge to the island.~
+#ENDEXIT
+Reset M 0 38024 5 38085
+#ENDROOM
+
+#ROOM
+Vnum     38086
+Name     &xThe Writhing Haunt - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     Another ruined farmstead, now completely controlled by 
+the Cult of the Damned. The air here smells of 
+chemicals and sulfur.
+~
+#EXIT
+Direction east~
+ToRoom    38054
+Desc      Return to the crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38087
+Desc      The Writhing Cauldron.~
+#ENDEXIT
+Reset M 0 38009 5 38086
+#ENDROOM
+
+#ROOM
+Vnum     38087
+Name     &xThe Writhing Cauldron&d~
+Sector   field~
+Flags    ~
+Desc     The fourth Scourge cauldron. It is guarded by a massive 
+stitched horror that stands ten feet tall.
+~
+#EXIT
+Direction south~
+ToRoom    38086
+Desc      The farm entrance.~
+#ENDEXIT
+Reset M 0 38010 1 38087
+Reset O 38050 10 38087
+#ENDROOM
+
+#ROOM
+Vnum     38088
+Name     &xThe Scourge Depot&d~
+Sector   city~
+Flags    ~
+Desc     A collection of Scourge supply wagons and piles of 
+discarded corpses, ready to be processed into ghouls.
+~
+#EXIT
+Direction west~
+ToRoom    38075
+Desc      The warehouse district.~
+#ENDEXIT
+Reset O 38026 10 38088
+#ENDROOM
+
+#ROOM
+Vnum     38089
+Name     &xThe Deadwood Lookout&d~
+Sector   forest~
+Flags    ~
+Desc     A high point on the northern hills, offering a clear 
+view of the road leading to Hearthglen.
+~
+#EXIT
+Direction down~
+ToRoom    38054
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 38020 5 38089
+#ENDROOM
+
+#ROOM
+Vnum     38090
+Name     &xThe Road to Hearthglen - South&d~
+Sector   field~
+Flags    ~
+Desc     A narrow canyon road leading into the northern mountains. 
+Scarlet Crusade watchtowers line the cliffs, their archers 
+watching for any sign of the plague.
+~
+#EXIT
+Direction south~
+ToRoom    38054
+Desc      The blighted crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38091
+Desc      The road continues north.~
+#ENDEXIT
+Reset M 0 38017 5 38090
+#ENDROOM
+
+#ROOM
+Vnum     38091
+Name     &xThe Road to Hearthglen - North&d~
+Sector   field~
+Flags    ~
+Desc     The road widens as it approaches the massive stone gates 
+of Hearthglen. The banners of the Scarlet Crusade fly 
+defiantly from the ramparts.
+~
+#EXIT
+Direction south~
+ToRoom    38090
+Desc      The southern road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38092
+Desc      The Gates of Hearthglen.~
+#ENDEXIT
+Reset M 0 38023 5 38091
+#ENDROOM
+
+#ROOM
+Vnum     38092
+Name     &rThe Gates of Hearthglen&d~
+Sector   city~
+Flags    ~
+Desc     A massive set of white stone gates, reinforced with steel 
+sunbursts. Scarlet praetors stand guard here, checking 
+everyone for the slightest sign of infection.
+~
+#EXIT
+Direction south~
+ToRoom    38091
+Desc      The approach road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38093
+Desc      Hearthglen Plaza.~
+#ENDEXIT
+Reset M 0 38002 5 38092
+#ENDROOM
+
+#ROOM
+Vnum     38093
+Name     &rHearthglen Plaza&d~
+Sector   city~
+Flags    ~
+Desc     The center of the Scarlet Crusade's operations in the West. 
+The city is clean and well-maintained, a stark contrast to 
+the blighted wasteland outside its walls. A massive 
+cathedral dominates the northern side of the square.
+~
+#EXIT
+Direction south~
+ToRoom    38092
+Desc      The gates.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38094
+Desc      The Mardenholde Keep.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38096
+Desc      The Scarlet Inn.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    38097
+Desc      The Scarlet Barracks.~
+#ENDEXIT
+Reset O 38029 5 38093
+#ENDROOM
+
+#ROOM
+Vnum     38094
+Name     &rMardenholde Keep - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The primary administrative building for Hearthglen. High 
+Abbot Landgren stands in the main hall, leading the 
+assembled warriors in a prayer of hatred.
+~
+#EXIT
+Direction south~
+ToRoom    38093
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38095
+Desc      The Keep Sanctuary.~
+#ENDEXIT
+Reset M 0 38013 1 38094
+  Reset G 1 38049 1
+#ENDROOM
+
+#ROOM
+Vnum     38095
+Name     &rMardenholde Keep - Sanctuary&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet, circular room at the back of the keep. The walls 
+are decorated with portraits of Scarlet heroes who 
+died in the First and Second Wars.
+~
+#EXIT
+Direction south~
+ToRoom    38094
+Desc      The entrance hall.~
+#ENDEXIT
+Reset O 38040 5 38095
+#ENDROOM
+
+#ROOM
+Vnum     38096
+Name     &rThe Pure Heart Inn&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, bright inn filled with the sounds of military songs 
+and clanking armor. The food here is fresh and untainted, 
+a luxury in the Plaguelands.
+~
+#EXIT
+Direction west~
+ToRoom    38093
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     38097
+Name     &rThe Scarlet Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows of neatly made bunks and racks of polished weapons. 
+Scarlet Praetors rest here between their long shifts 
+at the gate.
+~
+#EXIT
+Direction east~
+ToRoom    38093
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 38002 10 38097
+#ENDROOM
+
+#ROOM
+Vnum     38098
+Name     &xAndorhal Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small courtyard in the ruined city where several ghouls 
+are fighting over a pile of scrap metal.
+~
+#EXIT
+Direction south~
+ToRoom    38071
+Desc      The town square.~
+#ENDEXIT
+Reset M 0 38006 5 38098
+#ENDROOM
+
+#ROOM
+Vnum     38099
+Name     &xAndorhal Overflow B&d~
+Sector   city~
+Flags    ~
+Desc     A dark alleyway between two warehouses, where an Andorhal 
+watcher keeps its unblinking gaze on the path.
+~
+#EXIT
+Direction north~
+ToRoom    38075
+Desc      The warehouse district.~
+#ENDEXIT
+Reset M 0 38018 5 38099
+#ENDROOM
+
+#ROOM
+Vnum     38100
+Name     &xPlaguelands Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet section of the blighted plains, filled with 
+withered stalks of grain and thick plaguebloom.
+~
+#EXIT
+Direction south~
+ToRoom    38054
+Desc      The crossroads.~
+#ENDEXIT
+Reset O 38027 10 38100
+#ENDROOM
+
+#ROOM
+Vnum     38101
+Name     &xPlaguelands Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small hill overlooking Dalson's Tears, where several 
+diseased wolves have made their den.
+~
+#EXIT
+Direction north~
+ToRoom    38062
+Desc      Dalson's entrance.~
+#ENDEXIT
+Reset M 0 38005 10 38101
+#ENDROOM
+
+#ROOM
+Vnum     38102
+Name     &xLake Overflow A&d~
+Sector   water_noswim~
+Flags    ~
+Desc     A dark corner of the lake where the water is particularly 
+still and stagnant. Bubbling sludges move near the bottom.
+~
+#EXIT
+Direction west~
+ToRoom    38085
+Desc      The shallows.~
+#ENDEXIT
+Reset M 0 38024 5 38102
+#ENDROOM
+
+#ROOM
+Vnum     38103
+Name     &xThe Western Plaguelands Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A hidden trail behind the Bulwark leads toward the northern 
+cliffs, offering a quick way back toward the Tirisfal 
+Glades for those who know the way.
+~
+#EXIT
+Direction south~
+ToRoom    38052
+Desc      The Bulwark.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    11699
+Desc      Return to the Tirisfal Glades.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
