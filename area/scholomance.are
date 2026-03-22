@@ -1,0 +1,2710 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Scholomance~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       55 60 0 60
+Economy      0 100000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       21500
+Keywords   darkmaster gandling boss human mage~
+Short      Darkmaster Gandling~
+Long       Darkmaster Gandling stands at the head of the classroom, shadow energy pulsing.
+~
+Desc       The Headmaster of Scholomance. He is a master of necromancy and 
+teleportation, often banishing his students to the torture 
+chambers if they fail his brutal lessons.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 15000 45000
+Stats2     62 62 3000
+Stats3     35 110 70
+Stats4     0 0 0 0 0
+Attribs    15 15 18 35 32 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       21501
+Keywords   ras frostwhisper boss lich undead~
+Short      Ras Frostwhisper~
+Long       Ras Frostwhisper floats above a frost-covered dais, his flesh frozen blue.
+~
+Desc       A powerful lich who traded his humanity for eternal life. He 
+oversees the alchemy labs and the study of cryogenic 
+necromancy.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 12000 35000
+Stats2     61 61 2500
+Stats3     25 80 62
+Stats4     0 0 0 0 0
+Attribs    12 12 15 35 30 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       21502
+Keywords   rattlegore boss skeletal warrior elite~
+Short      Rattlegore~
+Long       A massive, multi-limbed skeletal horror roars in the bone-pit.
+~
+Desc       Forged from the remains of hundreds of failed students, Rattlegore 
+is a mindless engine of destruction that guards the Great 
+Ossuary.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 20000 60000
+Stats2     61 61 0
+Stats3     40 120 75
+Stats4     0 0 0 0 0
+Attribs    45 8 35 6 6 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       21503
+Keywords   jandice barov boss ghost human mage~
+Short      Jandice Barov~
+Long       Jandice Barov flickers in and out of sight, surrounded by illusions.
+~
+Desc       The former mistress of Caer Darrow. She has mastered the art 
+of mirror-images, making it nearly impossible to strike her 
+true form.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 9500 28000
+Stats2     60 60 1500
+Stats3     20 65 60
+Stats4     0 0 0 0 0
+Attribs    12 25 16 32 28 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       21504
+Keywords   kirtonos the herald boss gargoyle demon~
+Short      Kirtonos the Herald~
+Long       Kirtonos the Herald perches on the balcony, his wings casting a wide shadow.
+~
+Desc       A blood-drinking gargoyle who serves as the messenger for the 
+Cult of the Damned. He must be summoned using the blood 
+of the innocent.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 10000 32000
+Stats2     60 60 500
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    32 18 26 12 14 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       21505
+Keywords   doctor theolen krastinov boss human~
+Short      Doctor Theolen Krastinov~
+Long       The Butcher of Scholomance giggles as he sharpens a bloody cleaver.
+~
+Desc       A madman who finds beauty in the dissection of the living. He 
+is responsible for the "raw materials" used in the creation 
+of the Scourge's abominations.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 7500 22000
+Stats2     59 59 100
+Stats3     22 60 59
+Stats4     0 0 0 0 0
+Attribs    30 14 20 8 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21506
+Keywords   lorekeeper polkelt boss human mage~
+Short      Lorekeeper Polkelt~
+Long       A skeletal man in scholarly robes clutches a forbidden book.
+~
+Desc        Polkelt was the curator of the Barov family's library. Now he 
+guards the academy's most dangerous secrets with withered hands.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 6500 18000
+Stats2     58 58 2000
+Stats3     18 50 58
+Stats4     0 0 0 0 0
+Attribs    12 14 16 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21507
+Keywords   instructor malicia boss human mage~
+Short      Instructor Malicia~
+Long       Instructor Malicia prepares a lecture on the properties of venom.
+~
+Desc       One of the principal instructors at the academy. She is 
+notorious for her strict grading and her lethal poison-magic.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 6000 17000
+Stats2     58 58 1800
+Stats3     16 45 58
+Stats4     0 0 0 0 0
+Attribs    12 18 14 32 26 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21508
+Keywords   lady illucia barov boss ghost~
+Short      Lady Illucia Barov~
+Long       A ghostly noblewoman drifts through the hallway, her face twisted in grief.
+~
+Desc       The mother of the Barov family, eternally regretful of the 
+bargain her family struck with the Lich King.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 5500 16000
+Stats2     58 58 1500
+Stats3     15 42 58
+Stats4     0 0 0 0 0
+Attribs    10 16 14 30 25 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21509
+Keywords   lord alexei barov boss ghost~
+Short      Lord Alexei Barov~
+Long       A spectral knight in rusted plate stands guard over the treasury.
+~
+Desc       The patriarch of the Barov house. He remains as a cursed 
+protector of the family wealth he could not save in life.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 8000 24000
+Stats2     58 58 200
+Stats3     24 65 58
+Stats4     0 0 0 0 0
+Attribs    35 10 25 12 14 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       21510
+Keywords   the ravenian boss undead elite~
+Short      The Ravenian~
+Long       A massive, three-armed ghoul feasts on a pile of scraps.
+~
+Desc       The scavenger of the academy. The Ravenian consumes the failed 
+experiments, growing stronger with every rotting bite.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 9000 28000
+Stats2     59 59 0
+Stats3     25 75 59
+Stats4     0 0 0 0 0
+Attribs    38 12 28 4 4 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21511
+Keywords   skeletal acolyte undead mage~
+Short      a Skeletal Acolyte~
+Long       A skeleton in tattered purple robes mutters a dark prayer.
+~
+Desc       The entry-level students of the academy. They are learning the 
+fundamentals of soul-manipulation and shadow-casting.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1200 3500
+Stats2     55 55 1200
+Stats3     10 25 55
+Stats4     0 0 0 0 0
+Attribs    10 12 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21512
+Keywords   risen aberration undead warrior~
+Short      a Risen Aberration~
+Long       A mass of sewn-together limbs and mismatched organs lumbers forward.
+~
+Desc       A crudely fashioned construct, these aberrations act as 
+muscle for the academy's instructors.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2500 7000
+Stats2     56 56 0
+Stats3     14 38 56
+Stats4     0 0 0 0 0
+Attribs    28 6 24 4 4 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21513
+Keywords   spectral tutor ghost mage~
+Short      a Spectral Tutor~
+Long       A translucent figure points a finger at a chalkboard, lecturing silently.
+~
+Desc       Ghosts of former faculty members who have been granted the 
+privilege of continuing their research in death.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1500 4500
+Stats2     57 57 1800
+Stats3     11 32 57
+Stats4     0 0 0 0 0
+Attribs    10 14 16 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21514
+Keywords   reanimated corpse zombie~
+Short      a Reanimated Corpse~
+Long       A rotting corpse moans, reaching out with withered hands.
+~
+Desc       The most basic form of undead, used as test subjects for 
+beginning necromancers.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1100 3000
+Stats2     54 54 0
+Stats3     8 22 54
+Stats4     0 0 0 0 0
+Attribs    20 4 18 4 4 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       21515
+Keywords   scholomance student human mage~
+Short      a Scholomance Student~
+Long       A living human in academy robes frantically scribbles notes.
+~
+Desc       A member of the Cult of the Damned who has earned a place 
+within the academy. They are desperate to prove their worth.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1300 3800
+Stats2     55 55 1000
+Stats3     9 24 55
+Stats4     0 0 0 0 0
+Attribs    12 16 14 26 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21516
+Keywords   unstable ectoplasm spirit~
+Short      an Unstable Ectoplasm~
+Long       A swirling mass of glowing green fluid pulses on the floor.
+~
+Desc       A byproduct of spectral summoning, these entities are highly 
+corrosive and emit a foul, deathly odor.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 950 2800
+Stats2     55 55 800
+Stats3     7 20 55
+Stats4     0 0 0 0 0
+Attribs    10 20 12 24 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21517
+Keywords   bone guardian skeleton warrior~
+Short      a Bone Guardian~
+Long       A tall skeleton in silver-chased plate stands guard at the door.
+~
+Desc       Elite skeletal warriors assigned to protect the most 
+critical sections of the academy.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3200 8500
+Stats2     57 57 150
+Stats3     15 42 57
+Stats4     0 0 0 0 0
+Attribs    26 12 20 8 10 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21518
+Keywords   plaguehound beast hound~
+Short      a Scholomance Plaguehound~
+Long       A skeletal hound with glowing green eyes stalks the hallway.
+~
+Desc       Trained to hunt down any students who attempt to desert 
+the academy.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1400 4000
+Stats2     54 54 0
+Stats3     10 28 54
+Stats4     0 0 0 0 0
+Attribs    22 18 16 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       21519
+Keywords   death's head warlock human mage~
+Short      a Death's Head Warlock~
+Long       A human in dark robes mutters to a floating skull.
+~
+Desc       Warlocks who have dedicated their studies to the 
+manipulation of souls and shadow.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1800 5200
+Stats2     58 58 2000
+Stats3     13 38 58
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21520
+Keywords   spectral apprentice ghost mage~
+Short      a Spectral Apprentice~
+Long       A ghostly child in academy robes wanders near the library.
+~
+Desc       The youngest victims of the academy's curriculum, eternally 
+searching for a mentor who will never return.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 53 0 0 600 1800
+Stats2     53 53 1000
+Stats3     5 14 53
+Stats4     0 0 0 0 0
+Attribs    10 18 12 22 18 8 8
+#ENDMOBILE
+
+#MOBILE
+Vnum       21521
+Keywords   diseased ghoul undead~
+Short      a Diseased Ghoul~
+Long       A ghoul with festering sores snarls, its teeth like needles.
+~
+Desc       A standard shock-trooper of the Scourge, its claws 
+carry the rotting plague of the academy.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1600 4500
+Stats2     56 56 100
+Stats3     11 30 56
+Stats4     0 0 0 0 0
+Attribs    24 14 18 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21522
+Keywords   crypt stalker spider beast~
+Short      a Crypt Stalker~
+Long       A large, dark spider with red markings skitters on the ceiling.
+~
+Desc       Native to the ossuary, these spiders feed on the marrow 
+of the bones piled within the mountain.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1200 3500
+Stats2     55 55 0
+Stats3     9 24 55
+Stats4     0 0 0 0 0
+Attribs    18 22 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       21523
+Keywords   ghostly noblewoman spirit~
+Short      a Ghostly Noblewoman~
+Long       A spectral woman in a tattered dress gazes into a cold fireplace.
+~
+Desc       A spirit of the Barov family's former guests, unable 
+to move on from the tragedy of the Purge.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 850 2500
+Stats2     55 55 800
+Stats3     7 20 55
+Stats4     0 0 0 0 0
+Attribs    10 14 14 26 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21524
+Keywords   scholomance handler human warrior~
+Short      a Scholomance Handler~
+Long       A human in heavy leather armor checks the collar of a plaguehound.
+~
+Desc       Trainers for the academy's hounds and monstrosities. They 
+carry heavy whips and have little patience for intruders.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2000 5500
+Stats2     56 56 200
+Stats3     13 35 56
+Stats4     0 0 0 0 0
+Attribs    24 14 18 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21525
+Keywords   lab assistant undead mage~
+Short      a Lab Assistant~
+Long       A skeleton in a stained apron stirs a bubbling beaker.
+~
+Desc       Mindless helpers for Ras Frostwhisper, tasked with the 
+repetitive mixing of alchemical reagents.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1000 3000
+Stats2     55 55 1500
+Stats3     8 22 55
+Stats4     0 0 0 0 0
+Attribs    10 12 14 30 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21526
+Keywords   flickering shade spirit~
+Short      a Flickering Shade~
+Long       A dark, shadowy spirit wails as it floats above the floor.
+~
+Desc       The manifestation of pure shadow energy, these shades 
+strike at the souls of the living.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1100 3200
+Stats2     57 57 1200
+Stats3     9 24 57
+Stats4     0 0 0 0 0
+Attribs    10 22 12 32 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21527
+Keywords   risen guardian skeleton warrior~
+Short      a Risen Guardian~
+Long       A skeleton in ancient Lordaeron plate stand perfectly still.
+~
+Desc       The undead remains of the soldiers who defended Caer 
+Darrow, now forced to serve its destroyers.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 3500 9500
+Stats2     58 58 300
+Stats3     16 45 58
+Stats4     0 0 0 0 0
+Attribs    28 12 22 8 8 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21528
+Keywords   cursed book spirit mage~
+Short      a Cursed Book~
+Long       A massive leather-bound tome floats in the air, its pages snapping.
+~
+Desc       A magical defense mechanism within the library. The book 
+itself is possessed by a vengeful spirit.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 800 2400
+Stats2     56 56 1500
+Stats3     6 18 56
+Stats4     0 0 0 0 0
+Attribs    10 24 14 34 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21529
+Keywords   spectral cook ghost~
+Short      a Spectral Cook~
+Long       A ghostly figure in a white apron mutters about a missing roast.
+~
+Desc       The former chef of the Barov family, eternally searching 
+for fresh ingredients in a city of the dead.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 54 0 0 900 2500
+Stats2     54 54 0
+Stats3     8 20 54
+Stats4     0 0 0 0 0
+Attribs    20 12 16 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21530
+Keywords   scholomance rat beast~
+Short      a Scholomance Rat~
+Long       A large, mangy rat scurries through the gutter.
+~
+Desc       They carry the filth and magical residue of the academy 
+in their matted fur.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 200 600
+Stats2     50 50 0
+Stats3     3 10 50
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       21531
+Keywords   unyielding skeletal knight~
+Short      an Unyielding Knight~
+Long       A skeleton in heavy plate armor stand guard at the study entrance.
+~
+Desc       The most elite of the skeletal warriors, personally 
+hand-picked by the Headmaster.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 4500 13000
+Stats2     59 59 400
+Stats3     20 55 59
+Stats4     0 0 0 0 0
+Attribs    32 14 24 12 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21532
+Keywords   dark summoner cultist mage~
+Short      a Dark Summoner~
+Long       A human in heavy purple robes mutters before a swirling portal.
+~
+Desc       High-ranking members of the Cult of the Damned who bolster 
+the Scourge's ranks with demons and spirits.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2200 6500
+Stats2     58 58 2000
+Stats3     13 38 58
+Stats4     0 0 0 0 0
+Attribs    12 14 16 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21533
+Keywords   rotting monstrosity undead elite~
+Short      a Rotting Monstrosity~
+Long       A massive, sewn-together horror lumbers through the courtyard.
+~
+Desc       A triumph of Krastinov's "surgery." It is a mountain of 
+rotting flesh and iron hooks.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 8000 25000
+Stats2     60 60 0
+Stats3     30 85 65
+Stats4     0 0 0 0 0
+Attribs    40 4 35 6 6 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       21534
+Keywords   ghostly student spirit mage~
+Short      a Ghostly Student~
+Long       A spectral night elf in academy robes wanders, looking for a classroom.
+~
+Desc       One of the many students who did not survive the 
+Darkmaster's curriculum.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 950 2800
+Stats2     55 55 1000
+Stats3     8 22 55
+Stats4     0 0 0 0 0
+Attribs    10 16 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21535
+Keywords   bone-pile elemental~
+Short      a Bone-pile Elemental~
+Long       A heap of bleached bones rumbles as it rises from the floor.
+~
+Desc       A minor manifestation of the ossuary's necrotic energy.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1600 4500
+Stats2     56 56 0
+Stats3     11 30 56
+Stats4     0 0 0 0 0
+Attribs    24 10 22 4 4 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       21536
+Keywords   specter shadow spirit~
+Short      a Scholomance Specter~
+Long       A dark figure in tattered robes strikes from the shadows.
+~
+Desc       Shadow-spirits that guard the high ledges of the Reliquary.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1200 3500
+Stats2     57 57 1200
+Stats3     9 25 57
+Stats4     0 0 0 0 0
+Attribs    10 22 14 30 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21537
+Keywords   acolyte of shadow human mage~
+Short      an Acolyte of Shadow~
+Long       A human in tattered robes mutter an incantation of darkness.
+~
+Desc       Students who have chosen to specialize in the darker 
+side of the academy's research.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1100 3200
+Stats2     55 55 1200
+Stats3     8 22 55
+Stats4     0 0 0 0 0
+Attribs    10 14 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       21538
+Keywords   chamberlain ghost human~
+Short      the Spectral Chamberlain~
+Long       A ghostly figure in fine livery stands near the main entrance.
+~
+Desc       The former butler of the Barov family. He remains to 
+"welcome" guests to the academy.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2000 5500
+Stats2     55 55 100
+Stats3     12 32 55
+Stats4     0 0 0 0 0
+Attribs    22 10 18 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       21539
+Keywords   caer darrow watcher spirit~
+Short      a Caer Darrow Watcher~
+Long       A spectral eye with a blue iris floats near the ceiling.
+~
+Desc       Summoned by Gandling to monitor the halls for any signs 
+of weakness among his students.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 800 2400
+Stats2     55 55 1500
+Stats3     6 15 55
+Stats4     0 0 0 0 0
+Attribs    10 24 14 32 20 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     21540
+Keywords headmaster's charge staff weapon~
+Type     weapon~
+Short    the Headmaster's Charge~
+Long     A tall staff topped with a large, glowing skull that radiates power.~
+WFlags   take wield~
+Values   12 25 50 7 0 0
+Stats    25 50000 62 0 0
+Rarity   3
+Affect   3 25 0 0 0
+Affect   14 30 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21541
+Keywords alanna's embrace robe body armor~
+Type     armor~
+Short    Alanna's Embrace~
+Long     Fine silken robes of a deep royal purple, embroidered with silver.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   5 20 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21542
+Keywords barov family sword weapon~
+Type     weapon~
+Short    the Barov Family Sword~
+Long     A perfectly balanced longsword featuring the crest of Caer Darrow.~
+WFlags   take wield~
+Values   12 15 35 3 0 0
+Stats    18 15000 58 0 0
+Rarity   2
+Affect   1 15 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21543
+Keywords staff metanoia weapon~
+Type     weapon~
+Short    the Staff of Metanoia~
+Long     A staff of blackened wood that hums with shadowy energy.~
+WFlags   take wield~
+Values   12 12 24 7 0 0
+Stats    12 12000 58 0 0
+Rarity   2
+Affect   4 15 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21544
+Keywords kirtonos's collar neck jewelry~
+Type     jewelry~
+Short    Kirtonos's Spiked Collar~
+Long     A heavy iron collar taken from a blood-drinking gargoyle.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21545
+Keywords icebane leggings legs armor~
+Type     armor~
+Short    a pair of Icebane Leggings~
+Long     Plate leggings reinforced with magical frost-shards.~
+WFlags   take legs~
+Values   25 0 0 0 0 0
+Stats    20 18000 61 0 0
+Rarity   2
+Affect   5 18 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21546
+Keywords bone-link armor body armor~
+Type     armor~
+Short    the Bone-link Armor~
+Long     Heavy mail fashioned from overlapping layers of polished bone.~
+WFlags   take body~
+Values   25 0 0 0 0 0
+Stats    30 12000 59 0 0
+Rarity   2
+Affect   1 10 0 0 0
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21547
+Keywords polkelt's signet ring jewelry~
+Type     jewelry~
+Short    Polkelt's Signet Ring~
+Long     A gold ring featuring the unblinking eye of a scholar.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 6500 58 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21548
+Keywords blood-stained apron body armor~
+Type     armor~
+Short    Krastinov's Bloody Apron~
+Long     A thick leather apron that is permanently stained with blood.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    15 4500 59 0 0
+Rarity   1
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21549
+Keywords spectral silk cape about~
+Type     armor~
+Short    a Spectral Silk Cape~
+Long     A translucent cape that feels cold to the touch.~
+WFlags   take about~
+Values   5 0 0 0 0 0
+Stats    1 8500 57 0 0
+Rarity   1
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21550
+Keywords viewless barov key~
+Type     key~
+Short    the Viewing Room Key~
+Long     A heavy iron key marked with the initials of the Barov family.~
+WFlags   take~
+Values   21550 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     21551
+Keywords scourge stone corrupt~
+Type     treasure~
+Short    a Corrupt Scourgestone~
+Long     A jagged green stone marked with the seal of the Scourge.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     21552
+Keywords plaguebloom herb~
+Type     treasure~
+Short    a bunch of Plaguebloom~
+Long     A cluster of grey, diseased-looking flowers with a sweet scent.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 60 0 0
+Rarity   1
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21553
+Keywords dreamfoil herb~
+Type     treasure~
+Short    a bundle of Dreamfoil~
+Long     Silvery leaves that smell of the Emerald Dream.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 50 0 0
+Rarity   0
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21554
+Keywords mountain silversage herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     Elegant silvery leaves found on the academy's high ridges.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 280 60 0 0
+Rarity   1
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21555
+Keywords ghost mushroom treasure~
+Type     treasure~
+Short    a glowing Ghost Mushroom~
+Long     A translucent mushroom that pulses with a cold green light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 50 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21556
+Keywords sacrificial dagger weapon~
+Type     weapon~
+Short    a Scholomance Sacrificial Dagger~
+Long     A dagger with a bone handle and a blade of obsidian.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    2 1200 55 0 0
+Rarity   1
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21557
+Keywords acolyte's hood head armor~
+Type     armor~
+Short    a Death's Head Hood~
+Long     A dark purple hood that obscures the wearer's features.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    2 1500 55 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21558
+Keywords necrotic essence treasure hold~
+Type     treasure~
+Short    a shard of Necrotic Essence~
+Long     A dark crystal that pulses with the heartbeat of the Scourge.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 4500 60 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21559
+Keywords academy shield armor~
+Type     armor~
+Short    the Academy Kite Shield~
+Long     A heavy shield featuring the image of a burning book.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 5500 58 0 0
+Rarity   2
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21560
+Keywords polkelt's book hold~
+Type     treasure~
+Short    Polkelt's Forbidden Book~
+Long     A heavy tome bound in shriveled human skin.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 8500 58 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21561
+Keywords alchemy beaker trash~
+Type     trash~
+Short    a stained alchemy beaker~
+Long     A glass beaker filled with a mysterious purple residue.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21562
+Keywords spectral dust trash~
+Type     trash~
+Short    a handful of spectral dust~
+Long     Fine shimmering dust that feels uncomfortably cold.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     21563
+Keywords bones trash~
+Type     trash~
+Short    a pile of bleached bones~
+Long     A collection of assorted humanoid bones.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21564
+Keywords rattlegore's rib trophy~
+Type     trash~
+Short    a massive skeletal rib~
+Long     A bone as long as a spear, taken from a skeletal giant.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 250 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     21565
+Keywords shadow-hide boots feet armor~
+Type     armor~
+Short    a pair of Shadow-hide Boots~
+Long     Durable boots made from the leather of a demonic beast.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    6 3500 57 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21566
+Keywords barov's bracers wrist~
+Type     armor~
+Short    a pair of Barovian Bracers~
+Long     Fine steel wristguards engraved with silver flowers.~
+WFlags   take wrist~
+Values   15 0 0 0 0 0
+Stats    5 4500 58 0 0
+Rarity   2
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21567
+Keywords malicia's needle weapon~
+Type     weapon~
+Short    Malicia's Poisoned Needle~
+Long     A long, thin rapier that still drips with toxic fluid.~
+WFlags   take wield~
+Values   12 12 25 11 0 0
+Stats    10 6500 58 0 0
+Rarity   2
+Affect   2 10 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21568
+Keywords ectoplasmic fluid flask treasure~
+Type     treasure~
+Short    a flask of Ectoplasmic Fluid~
+Long     A glass jar containing a swirling green liquid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 55 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21569
+Keywords runecloth bolt loot~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Fine cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     21570
+Keywords frozen core treasure hold~
+Type     treasure~
+Short    a Frozen Lich Core~
+Long     A crystal that radiates intense cold, taken from Frostwhisper.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15000 61 0 0
+Rarity   3
+Affect   13 15 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21571
+Keywords darkness shard treasure~
+Type     treasure~
+Short    a Shard of pure Darkness~
+Long     A piece of shadow turned into physical form.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   2
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21572
+Keywords master's ring jewelry~
+Type     jewelry~
+Short    the Headmaster's Signet~
+Long     A platinum ring featuring a large, glowing red eye.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 25000 62 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   4 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21573
+Keywords krastinov's bag hold~
+Type     treasure~
+Short    a Bag of Dissected Parts~
+Long     A heavy leather bag that squelches when moved.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    15 1500 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     21574
+Keywords spectral lamp hold~
+Type     treasure~
+Short    a Caer Darrow Spirit-Lamp~
+Long     An ornate silver lamp that burns with a blue flame.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 850 50 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     21575
+Keywords barov family seal jewelry~
+Type     jewelry~
+Short    the Barov Family Seal~
+Long     A silver medallion marked with the family's three-rose crest.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 5500 58 0 0
+Rarity   2
+Affect   3 10 0 0 0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21576
+Keywords mace smiting weapon~
+Type     weapon~
+Short    the Mace of Smiting~
+Long     A heavy hammer that glows with a righteous light.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    22 15000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21577
+Keywords ravenian's tooth trophy~
+Type     trash~
+Short    a jagged Ravenian tooth~
+Long     A sharp, shriveled tooth taken from a massive ghoul.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21578
+Keywords dark-ritual robe body armor~
+Type     armor~
+Short    the Robes of Dark Ritual~
+Long     Heavy silken robes used in the summoning of Hakkar.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 12000 58 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     21579
+Keywords skeleton bone-staff weapon~
+Type     weapon~
+Short    a Bone-staff of the Academy~
+Long     A staff made of fused humanoid vertebrae, humming with power.~
+WFlags   take wield~
+Values   12 10 20 7 0 0
+Stats    12 4500 55 0 0
+Rarity   1
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     21600
+Name     &xThe Gates of Caer Darrow&d~
+Sector   city~
+Flags    indoors~
+Desc     The high stone walls of the Barov family manor tower overhead. 
+A massive iron gate, rusted but immovable, blocks the way to the 
+island's inner keep. A shimmering, dark blue portal glows within 
+the archway, leading into the Academy of Necromancy. The air 
+is absolute still, and the sky is a permanent, bruised purple.
+~
+#EXIT
+Direction out~
+ToRoom    38080
+Desc      Return to the ruins of Caer Darrow.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21601
+Desc      The Entry Hall.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     21601
+Name     &xThe Entry Hall of Scholomance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A grand hall with high, vaulted ceilings. Shattered marble 
+statues of the Barov ancestors line the walls, and the floor 
+is covered in a thick layer of dust. Spectral chamberlains 
+hurry through the shadows, ignoring your presence.
+~
+#EXIT
+Direction south~
+ToRoom    21600
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21602
+Desc      The Grand Crossroads.~
+#ENDEXIT
+Reset M 0 21538 1 21601
+#ENDROOM
+
+#ROOM
+Vnum     21602
+Name     &xThe Grand Crossroads&d~
+Sector   inside~
+Flags    indoors~
+Desc     The main hallway of the academy splits here. To the east lies 
+the Reliquary, while to the west, a wide ramp leads down 
+into the Great Ossuary. To the north, the sounds of shouting 
+and clanking armor suggest the military quarters.
+~
+#EXIT
+Direction south~
+ToRoom    21601
+Desc      The entry hall.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21603
+Desc      Toward the Reliquary.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21615
+Desc      Toward the Great Ossuary.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21630
+Desc      Toward the Dungeons.~
+#ENDEXIT
+Reset M 0 21511 10 21602
+#ENDROOM
+
+#ROOM
+Vnum     21603
+Name     &xThe Reliquary - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, narrow hallway filled with glass display cases. Inside 
+are the shriveled remains of saints and kings, now used as 
+arcane batteries for the academy's research.
+~
+#EXIT
+Direction west~
+ToRoom    21602
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21604
+Desc      Deep into the Reliquary.~
+#ENDEXIT
+Reset M 0 21517 5 21603
+#ENDROOM
+
+#ROOM
+Vnum     21604
+Name     &xThe Reliquary - Central Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide intersection where several wings of the Reliquary meet. 
+High-level specters strike from the rafters, their wails 
+echoing through the stone like a physical blow.
+~
+#EXIT
+Direction west~
+ToRoom    21603
+Desc      The reliquary entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21605
+Desc      The Herald's Balcony.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    21606
+Desc      Toward the Blood-Pit.~
+#ENDEXIT
+Reset M 0 21536 10 21604
+#ENDROOM
+
+#ROOM
+Vnum     21605
+Name     &xThe Herald's Balcony&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone balcony overlooking the lake. A large stone 
+altar is used to summon Kirtonos the Herald. The air 
+smells of fresh blood and ozone.
+~
+#EXIT
+Direction south~
+ToRoom    21604
+Desc      The central hall.~
+#ENDEXIT
+Reset M 0 21504 1 21605
+  Reset G 1 21544 1
+#ENDROOM
+
+#ROOM
+Vnum     21606
+Name     &xThe Blood-Pit - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are stained with a permanent layer of dried 
+gore. The sound of wet squelching comes from the cavern 
+ahead, along with the giggles of Doctor Krastinov.
+~
+#EXIT
+Direction north~
+ToRoom    21604
+Desc      The central hall.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    21607
+Desc      Krastinov's Lab.~
+#ENDEXIT
+Reset M 0 21524 5 21606
+#ENDROOM
+
+#ROOM
+Vnum     21607
+Name     &xThe Lab of Doctor Krastinov&d~
+Sector   inside~
+Flags    indoors~
+Desc     A scene of absolute carnage. Dissected bodies are stacked in 
+piles, and several large tables are covered in jagged surgical 
+tools. Doctor Krastinov stands here, his hands dripping 
+with blood as he prepares a new subject.
+~
+#EXIT
+Direction north~
+ToRoom    21606
+Desc      The pit entrance.~
+#ENDEXIT
+Reset M 0 21505 1 21607
+  Reset E 1 21548 1 16
+  Reset G 1 21573 1
+#ENDROOM
+
+#ROOM
+Vnum     21608
+Name     &xReliquary Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side chamber filled with jars of ectoplasmic residue 
+and shriveled fingers.
+~
+#EXIT
+Direction north~
+ToRoom    21603
+Desc      Reliquary entry.~
+#ENDEXIT
+Reset O 0 21568 10 21608
+#ENDROOM
+
+#ROOM
+Vnum     21609
+Name     &xReliquary Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the Herald's balcony, frequently 
+patrolled by spectral tutors.
+~
+#EXIT
+Direction south~
+ToRoom    21604
+Desc      Reliquary central.~
+#ENDEXIT
+Reset M 0 21513 5 21609
+#ENDROOM
+
+#ROOM
+Vnum     21610
+Name     &xThe Butchery Side-room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near Krastinov's lab where the reanimated 
+corpses are stored before being processed.
+~
+#EXIT
+Direction east~
+ToRoom    21607
+Desc      Krastinov's lab.~
+#ENDEXIT
+Reset M 0 21514 10 21610
+#ENDROOM
+
+#ROOM
+Vnum     21615
+Name     &xThe Great Ossuary - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide stone ramp descending into a massive subterranean 
+chamber. The air is cold and smells of ancient bone-dust. 
+Piles of bleached skulls line the path.
+~
+#EXIT
+Direction east~
+ToRoom    21602
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21616
+Desc      The Bone-Pit Floor.~
+#ENDEXIT
+Reset M 0 21535 10 21615
+#ENDROOM
+
+#ROOM
+Vnum     21616
+Name     &xThe Bone-Pit Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The floor of the ossuary is covered in a five-foot deep pile 
+of assorted humanoid bones. Rattlegore stands in the center, 
+his massive frame towering over the heaps of bleached 
+remains.
+~
+#EXIT
+Direction east~
+ToRoom    21615
+Desc      The entrance ramp.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21617
+Desc      Toward the Crypt of the Barovs.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21622
+Desc      Toward the Alchemy Lab.~
+#ENDEXIT
+Reset M 0 21502 1 21616
+  Reset G 1 21564 1
+  Reset G 1 21546 1
+#ENDROOM
+
+#ROOM
+Vnum     21617
+Name     &xThe Crypt of the Barovs - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are decorated with the family crest of the 
+Barovs. Stone sarcophagi are built into the mountain 
+side, their lids long ago pried open by the Scourge.
+~
+#EXIT
+Direction south~
+ToRoom    21616
+Desc      The bone-pit floor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21618
+Desc      Deep into the Crypt.~
+#ENDEXIT
+Reset M 0 21508 1 21617
+#ENDROOM
+
+#ROOM
+Vnum     21618
+Name     &xThe Crypt of the Barovs - Inner Vault&d~
+Sector   inside~
+Flags    indoors~
+Desc     The highest-ranking members of the family are interred here. 
+Lord Alexei Barov stands in silent vigil, his spectral 
+armor reflecting the cold light of the room.
+~
+#EXIT
+Direction south~
+ToRoom    21617
+Desc      The crypt entry.~
+#ENDEXIT
+Reset M 0 21509 1 21618
+  Reset G 1 21542 1
+  Reset G 1 21575 1
+#ENDROOM
+
+#ROOM
+Vnum     21619
+Name     &xThe Shadowed Crypt&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small, isolated crypt used for the family's distant 
+relatives. It is now infested with crypt stalkers.
+~
+#EXIT
+Direction west~
+ToRoom    21617
+Desc      The crypt entry.~
+#ENDEXIT
+Reset M 0 21522 10 21619
+#ENDROOM
+
+#ROOM
+Vnum     21620
+Name     &xOssuary Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet section of the bone-pit where the marrow 
+has been extracted for magical fuel.
+~
+#EXIT
+Direction south~
+ToRoom    21616
+Desc      The bone-pit floor.~
+#ENDEXIT
+Reset M 0 21535 5 21620
+#ENDROOM
+
+#ROOM
+Vnum     21621
+Name     &xOssuary Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the ossuary ceiling, 
+home to several large plaguehounds.
+~
+#EXIT
+Direction down~
+ToRoom    21616
+Desc      The bone-pit floor.~
+#ENDEXIT
+Reset M 0 21518 5 21621
+#ENDROOM
+
+#ROOM
+Vnum     21622
+Name     &xThe Road to the Lab - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A hallway lined with cold iron pillars. The air becomes 
+noticeably more chemical and bitter as you approach 
+the alchemy district.
+~
+#EXIT
+Direction east~
+ToRoom    21616
+Desc      The bone-pit.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21623
+Desc      The Alchemy Lab Entry.~
+#ENDEXIT
+Reset M 0 21511 5 21622
+#ENDROOM
+
+#ROOM
+Vnum     21623
+Name     &xThe Alchemy Lab - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room filled with workbenches, beakers, and bubbling 
+cauldrons. Lab assistants move mindlessly, following the 
+orders of the master lich.
+~
+#EXIT
+Direction east~
+ToRoom    21622
+Desc      The road to the lab.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21624
+Desc      Ras Frostwhisper's Lab.~
+#ENDEXIT
+Reset M 0 21525 10 21623
+#ENDROOM
+
+#ROOM
+Vnum     21624
+Name     &xThe Lab of Ras Frostwhisper&d~
+Sector   inside~
+Flags    indoors~
+Desc     The entire room is coated in a permanent layer of thick 
+blue frost. Ras Frostwhisper floats in the center, 
+his power keeping the reagents from spoiling. Arcane 
+energies pulse from his staff, shaking the floor.
+~
+#EXIT
+Direction south~
+ToRoom    21623
+Desc      The lab entrance.~
+#ENDEXIT
+Reset M 0 21501 1 21624
+  Reset G 1 21545 1
+  Reset G 1 21570 1
+#ENDROOM
+
+#ROOM
+Vnum     21625
+Name     &xLab Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage room filled with crates of plaguebloom 
+and bottles of frozen ichor.
+~
+#EXIT
+Direction east~
+ToRoom    21623
+Desc      The lab entrance.~
+#ENDEXIT
+Reset O 0 21552 10 21625
+#ENDROOM
+
+#ROOM
+Vnum     21630
+Name     &xThe Dungeons - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A steep set of stairs leads down into the heart of the 
+mountain. The walls are damp and the air reeks of 
+Hopelessness and old rot. The sound of chains 
+clanking is constant.
+~
+#EXIT
+Direction south~
+ToRoom    21602
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21631
+Desc      The Central Detention Hall.~
+#ENDEXIT
+Reset M 0 21511 5 21630
+#ENDROOM
+
+#ROOM
+Vnum     21631
+Name     &xCentral Detention Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide intersection where several dungeon wings meet. 
+The Ravenian can be seen feasting on a pile of 
+refuse in the center of the hall.
+~
+#EXIT
+Direction south~
+ToRoom    21630
+Desc      The entrance stairs.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21632
+Desc      Toward the Summoning Rooms.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21636
+Desc      Toward the Study.~
+#ENDEXIT
+Reset M 0 21510 1 21631
+  Reset G 21577 1
+#ENDROOM
+
+#ROOM
+Vnum     21632
+Name     &xThe Summoning Rooms - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of high-domed rooms where the academy teaches 
+the art of spirit-manifestation. The air here is thin 
+and hums with a permanent spectral pitch.
+~
+#EXIT
+Direction west~
+ToRoom    21631
+Desc      The detention hall.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21633
+Desc      Jandice Barov's Hall.~
+#ENDEXIT
+Reset M 0 21513 5 21632
+#ENDROOM
+
+#ROOM
+Vnum     21633
+Name     &xThe Hall of Illusions&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber filled with mirrors. Jandice 
+Barov stands in the center, her image reflected hundreds 
+of times in the glass. It is impossible to tell which 
+one is the true mistress.
+~
+#EXIT
+Direction west~
+ToRoom    21632
+Desc      The entry hall.~
+#ENDEXIT
+Reset M 0 21503 1 21633
+#ENDROOM
+
+#ROOM
+Vnum     21634
+Name     &xDetention Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side cell where the most rebellious students 
+are kept before their final "exam."
+~
+#EXIT
+Direction north~
+ToRoom    21631
+Desc      Detention hall.~
+#ENDEXIT
+Reset M 0 21515 5 21634
+#ENDROOM
+
+#ROOM
+Vnum     21635
+Name     &xDetention Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the hall home to several diseased ghouls.
+~
+#EXIT
+Direction south~
+ToRoom    21631
+Desc      Detention hall.~
+#ENDEXIT
+Reset M 0 21521 10 21635
+#ENDROOM
+
+#ROOM
+Vnum     21636
+Name     &xThe Road to the Study - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide road of massive stone pavers leading toward the 
+Headmaster's private sanctum. Elite guardians stand in 
+silent vigil.
+~
+#EXIT
+Direction east~
+ToRoom    21631
+Desc      Detention hall.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21637
+Desc      The Study Gate.~
+#ENDEXIT
+Reset M 0 21531 5 21636
+#ENDROOM
+
+#ROOM
+Vnum     21637
+Name     &xThe Headmaster's Study - Entry Gate&d~
+Sector   inside~
+Flags    indoors~
+Desc     A heavy iron door reinforced with ancient magic. Beyond 
+lies the personal domain of Darkmaster Gandling. The 
+air here tastes of shadow-smoke and old paper.
+~
+#EXIT
+Direction east~
+ToRoom    21636
+Desc      The road to the study.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21640
+Desc      The Study Plaza.~
+#ENDEXIT
+Reset M 0 21531 5 21637
+#ENDROOM
+
+#ROOM
+Vnum     21640
+Name     &xThe Study Plaza&d~
+Sector   city~
+Flags    indoors~
+Desc     The central courtyard of the Headmaster's Study. From here, 
+six smaller rooms lead off, each housing one of 
+Gandling's top instructors. A grand staircase leads 
+up to the Darkmaster's throne.
+~
+#EXIT
+Direction south~
+ToRoom    21637
+Desc      The entry gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21641
+Desc      Gandling's Throne.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21642
+Desc      Toward Malicia and Polkelt.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21644
+Desc      Toward the Barov Family Rooms.~
+#ENDEXIT
+Reset M 0 21539 5 21640
+#ENDROOM
+
+#ROOM
+Vnum     21641
+Name     &rThe Throne of Darkmaster Gandling&d~
+Sector   city~
+Flags    indoors~
+Desc     The highest point of Scholomance. Darkmaster Gandling sits 
+upon a throne of bone and shadow, his eyes glowing with 
+unholy power. He oversees the final corruption of 
+Lordaeron from this very seat.
+~
+#EXIT
+Direction south~
+ToRoom    21640
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21680
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 21500 1 21641
+  Reset E 1 21540 1 16
+  Reset G 1 21572 1
+#ENDROOM
+
+#ROOM
+Vnum     21642
+Name     &xInstructor Malicia's Lecture Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     A tiered classroom filled with desks and beakers. Instructor 
+Malicia stands at the front, her hands glowing green.
+~
+#EXIT
+Direction east~
+ToRoom    21640
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21643
+Desc      Lorekeeper Polkelt's Office.~
+#ENDEXIT
+Reset M 0 21507 1 21642
+  Reset G 1 21567 1
+#ENDROOM
+
+#ROOM
+Vnum     21643
+Name     &xLorekeeper Polkelt's Office&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room overflowing with books, scrolls, and ancient 
+tomes. Polkelt sits at a large oak desk, muttering to 
+himself as he records his findings.
+~
+#EXIT
+Direction south~
+ToRoom    21642
+Desc      Malicia's hall.~
+#ENDEXIT
+Reset M 0 21506 1 21643
+  Reset G 1 21560 1
+  Reset G 1 21547 1
+#ENDROOM
+
+#ROOM
+Vnum     21644
+Name     &xThe Barov Family Sitting Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     Once a place of comfort, now a room of absolute grief. 
+Lady Illucia Barov sits in a tattered chair, her face 
+buried in her hands.
+~
+#EXIT
+Direction west~
+ToRoom    21640
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21645
+Desc      Lord Alexei's Private Study.~
+#ENDEXIT
+Reset M 0 21508 1 21644
+#ENDROOM
+
+#ROOM
+Vnum     21645
+Name     &xLord Alexei's Private Study&d~
+Sector   inside~
+Flags    indoors~
+Desc     The patriarch's inner sanctum. The walls are covered in 
+tapestries of Lordaeron's former glory. Lord Alexei 
+stands before a map of the Plaguelands, weeping 
+silently.
+~
+#EXIT
+Direction south~
+ToRoom    21644
+Desc      The sitting room.~
+#ENDEXIT
+Reset M 0 21509 1 21645
+#ENDROOM
+
+#ROOM
+Vnum     21646
+Name     &xStudy Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone balcony in the study plaza, offering a view of 
+the eastern city streets.
+~
+#EXIT
+Direction south~
+ToRoom    21640
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 21539 5 21646
+#ENDROOM
+
+#ROOM
+Vnum     21647
+Name     &xStudy Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with Headmaster's Charge-staves and 
+ancient Lordaeron coins.
+~
+#EXIT
+Direction north~
+ToRoom    21640
+Desc      The plaza.~
+#ENDEXIT
+Reset O 0 21541 1 21647
+#ENDROOM
+
+#ROOM
+Vnum     21650
+Name     &xThe Great Library - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive stone hall filled with the scent of old paper 
+and magic. Cursed books float through the air, 
+striking at anyone who dares interrupt their studies.
+~
+#EXIT
+Direction north~
+ToRoom    21651
+Desc      The main library stacks.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21602
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 21528 10 21650
+#ENDROOM
+
+#ROOM
+Vnum     21651
+Name     &xThe Great Library - Central Stacks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Row upon row of books reaching toward the high ceiling. 
+Spectral apprentices can be seen searching for 
+specific scrolls for their mentors.
+~
+#EXIT
+Direction south~
+ToRoom    21650
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21652
+Desc      The forbidden archive.~
+#ENDEXIT
+Reset M 0 21520 10 21651
+#ENDROOM
+
+#ROOM
+Vnum     21652
+Name     &xThe Forbidden Archive&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The deepest part of the library, where the most dangerous 
+texts are kept. The air is cold and the shadows 
+seem to move with a life of their own.
+~
+#EXIT
+Direction south~
+ToRoom    21651
+Desc      The central stacks.~
+#ENDEXIT
+Reset O 0 21560 1 21652
+#ENDROOM
+
+#ROOM
+Vnum     21653
+Name     &xLibrary Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side room used for the repair of damaged books 
+and the storage of ink.
+~
+#EXIT
+Direction east~
+ToRoom    21651
+Desc      The central stacks.~
+#ENDEXIT
+Reset O 0 21569 10 21653
+#ENDROOM
+
+#ROOM
+Vnum     21654
+Name     &xThe Alchemical Storage - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room filled with bottles, beakers, and raw 
+elemental essence.
+~
+#EXIT
+Direction north~
+ToRoom    21655
+Desc      The Storage Center.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    21623
+Desc      The lab entrance.~
+#ENDEXIT
+Reset O 0 21568 10 21654
+#ENDROOM
+
+#ROOM
+Vnum     21655
+Name     &xThe Alchemical Storage - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the academy's alchemical supplies. Lab 
+assistants move about, gathering ingredients for 
+Ras Frostwhisper's experiments.
+~
+#EXIT
+Direction south~
+ToRoom    21654
+Desc      The southern storage.~
+#ENDEXIT
+Reset M 0 21525 5 21655
+#ENDROOM
+
+#ROOM
+Vnum     21656
+Name     &xStorage Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side room filled with jars of spectral dust 
+and vials of necrotic essence.
+~
+#EXIT
+Direction west~
+ToRoom    21655
+Desc      The storage center.~
+#ENDEXIT
+Reset O 0 21558 5 21656
+#ENDROOM
+
+#ROOM
+Vnum     21660
+Name     &xThe Torture Chambers - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark hallway filled with the screams of those who 
+have failed the Headmaster. Flickering shades 
+move through the shadows.
+~
+#EXIT
+Direction north~
+ToRoom    21661
+Desc      The Central Chambers.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    21631
+Desc      The detention hall.~
+#ENDEXIT
+Reset M 0 21526 10 21660
+#ENDROOM
+
+#ROOM
+Vnum     21661
+Name     &xThe Torture Chambers - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The center of the dungeon. Various horrific devices 
+are being used on students and intruders alike. 
+Dark summoners oversee the work.
+~
+#EXIT
+Direction south~
+ToRoom    21660
+Desc      The southern chambers.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21665
+Desc      Toward the Ghouls' Den.~
+#ENDEXIT
+Reset M 0 21532 5 21661
+#ENDROOM
+
+#ROOM
+Vnum     21662
+Name     &xTorture Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with bloody cleavers and 
+mummified troll skulls.
+~
+#EXIT
+Direction east~
+ToRoom    21661
+Desc      The central chambers.~
+#ENDEXIT
+Reset O 0 21548 5 21662
+#ENDROOM
+
+#ROOM
+Vnum     21663
+Name     &xThe Ghouls' Den - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, dark cavern that serves as the primary nest for 
+the academy's ghouls. The floor is covered in 
+filth and gnawed bones.
+~
+#EXIT
+Direction south~
+ToRoom    21661
+Desc      The torture chambers.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    21664
+Desc      The Heart of the Den.~
+#ENDEXIT
+Reset M 0 21521 10 21663
+#ENDROOM
+
+#ROOM
+Vnum     21664
+Name     &xThe Ghouls' Den - Heart&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the ghoul nest. A massive rotting 
+monstrosity stands here, surrounded by dozens 
+of smaller, cackling ghouls.
+~
+#EXIT
+Direction south~
+ToRoom    21663
+Desc      The den entrance.~
+#ENDEXIT
+Reset M 0 21533 1 21664
+#ENDROOM
+
+#ROOM
+Vnum     21665
+Name     &xDetention Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky ledge overlooking the detention hall, 
+frequently patrolled by acolyte of shadow.
+~
+#EXIT
+Direction down~
+ToRoom    21631
+Desc      Detention hall.~
+#ENDEXIT
+Reset M 0 21537 10 21665
+#ENDROOM
+
+#ROOM
+Vnum     21666
+Name     &xThe Reliquary - Upper Level&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the Herald's balcony, 
+offering a view of the southern entrance hall.
+~
+#EXIT
+Direction south~
+ToRoom    21604
+Desc      Reliquary central.~
+#ENDEXIT
+Reset M 0 21536 5 21666
+#ENDROOM
+
+#ROOM
+Vnum     21667
+Name     &xThe Viewing Room - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room filled with comfortable chairs and small 
+tables. From here, visitors can watch the lessons 
+in the study plaza below.
+~
+#EXIT
+Direction north~
+ToRoom    21640
+Desc      The study plaza.~
+#ENDEXIT
+Reset M 0 21523 5 21667
+#ENDROOM
+
+#ROOM
+Vnum     21668
+Name     &xThe Viewing Room - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The center of the viewing room. A high-ranking 
+Highborne noblewoman can be seen here, her 
+face a mask of silent sorrow.
+~
+#EXIT
+Direction south~
+ToRoom    21667
+Desc      The room entrance.~
+#ENDEXIT
+Reset M 0 21508 1 21668
+#ENDROOM
+
+#ROOM
+Vnum     21669
+Name     &xViewing Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side room used for the storage of 
+fine wines and silken tapestries.
+~
+#EXIT
+Direction west~
+ToRoom    21667
+Desc      The viewing room.~
+#ENDEXIT
+Reset O 0 21549 10 21669
+#ENDROOM
+
+#ROOM
+Vnum     21670
+Name     &xThe Great Ossuary - Deep Cleft&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A massive, dark cavern deep beneath the bone-pit. 
+Crypt fiends move through the shadows here.
+~
+#EXIT
+Direction up~
+ToRoom    21616
+Desc      The bone-pit.~
+#ENDEXIT
+Reset M 0 21503 5 21670
+#ENDROOM
+
+#ROOM
+Vnum     21671
+Name     &xThe Silent Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the entry hall where the spectral 
+cooks prepare the academy's meager meals.
+~
+#EXIT
+Direction south~
+ToRoom    21601
+Desc      The entry hall.~
+#ENDEXIT
+Reset M 0 21529 1 21671
+#ENDROOM
+
+#ROOM
+Vnum     21672
+Name     &xThe Headmaster's Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for soul shards and vials of shadow-residue 
+near Gandling's throne.
+~
+#EXIT
+Direction west~
+ToRoom    21641
+Desc      Gandling's throne.~
+#ENDEXIT
+Reset O 0 21558 5 21672
+#ENDROOM
+
+#ROOM
+Vnum     21673
+Name     &xThe Headmaster's Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet ridge north of the throne, where royal guards 
+keep watch over the inner academy.
+~
+#EXIT
+Direction south~
+ToRoom    21641
+Desc      Gandling's throne.~
+#ENDEXIT
+Reset M 0 21525 5 21673
+#ENDROOM
+
+#ROOM
+Vnum     21674
+Name     &xThe Ossuary Side-tunnel&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the ossuary filled with ancient 
+Lordaeron gold coins and dust.
+~
+#EXIT
+Direction west~
+ToRoom    21616
+Desc      The bone-pit.~
+#ENDEXIT
+Reset O 0 21542 1 21674
+#ENDROOM
+
+#ROOM
+Vnum     21675
+Name     &xThe Lab Side-tunnel&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow maintenance tunnel that leads from the lab 
+straight into the side of the mountain.
+~
+#EXIT
+Direction east~
+ToRoom    21623
+Desc      The lab entrance.~
+#ENDEXIT
+Reset M 0 21525 5 21675
+#ENDROOM
+
+#ROOM
+Vnum     21676
+Name     &xThe Study Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side chamber where the Headmaster's most 
+loyal acolytes prepare for their next ritual.
+~
+#EXIT
+Direction south~
+ToRoom    21640
+Desc      The study plaza.~
+#ENDEXIT
+Reset M 0 21532 5 21676
+#ENDROOM
+
+#ROOM
+Vnum     21677
+Name     &xThe Shadowed Ledge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high point in the Reliquary, home to several 
+unstable ectoplasms.
+~
+#EXIT
+Direction down~
+ToRoom    21604
+Desc      Reliquary central.~
+#ENDEXIT
+Reset M 0 21516 5 21677
+#ENDROOM
+
+#ROOM
+Vnum     21678
+Name     &xThe Silent Study&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room near the library where students can 
+study the most basic necromantic texts.
+~
+#EXIT
+Direction north~
+ToRoom    21650
+Desc      Library entrance.~
+#ENDEXIT
+Reset O 0 21560 5 21678
+#ENDROOM
+
+#ROOM
+Vnum     21679
+Name     &xThe Scholomance Final Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet, central garden of ghost mushrooms and 
+plaguebloom in the middle of the academy.
+~
+#EXIT
+Direction north~
+ToRoom    21602
+Desc      The grand crossroads.~
+#ENDEXIT
+Reset O 0 21552 10 21679
+#ENDROOM
+
+#ROOM
+Vnum     21680
+Name     &xThe Scholomance Exit Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind the Headmaster's throne 
+leads toward a hidden opening in the cliffs of Caer 
+Darrow, offering a quick way out for those who have 
+defeated the Darkmaster.
+~
+#EXIT
+Direction south~
+ToRoom    21641
+Desc      Gandling's throne.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    21600
+Desc      The entrance gates.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
