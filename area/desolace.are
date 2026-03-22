@@ -1,0 +1,1923 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Desolace~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       30 40 0 60
+Economy      0 35000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       35000
+Keywords   kolkar outrunner centaur~
+Short      a Kolkar Outrunner~
+Long       A Kolkar centaur gallops across the waste, scouting for intruders.
+~
+Desc       A lean, brown-skinned centaur with a jagged spear. The Kolkar are
+the most aggressive of the tribes, claiming the northern reaches
+of Desolace as their own hunting grounds.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 32 0 0 1100 3000
+Stats2     32 32 250
+Stats3     6 14 32
+Stats4     0 0 0 0 0
+Attribs    16 14 12 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35001
+Keywords   magram marauder centaur~
+Short      a Magram Marauder~
+Long       A Magram Marauder stands guard near a cluster of hide tents.
+~
+Desc       Vicious and stout, the Magram tribe dominates the eastern plains.
+They are known for their brutal politics and hatred of the Gelkis.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 1300 3500
+Stats2     34 34 200
+Stats3     7 16 34
+Stats4     0 0 0 0 0
+Attribs    18 10 14 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35002
+Keywords   gelkis windchaser centaur shaman~
+Short      a Gelkis Windchaser~
+Long       A Gelkis Windchaser mutters a prayer to the arid winds.
+~
+Desc       The Gelkis are the most spiritually inclined of the centaur clans.
+They dwell in the southern ravines, calling upon the elements to
+batter their enemies.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 950 2800
+Stats2     33 33 500
+Stats3     6 14 33
+Stats4     0 0 0 0 0
+Attribs    10 12 14 20 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35003
+Keywords   burning blade reaver orc~
+Short      a Burning Blade Reaver~
+Long       A Burning Blade Reaver patrols the battlements of the fortress.
+~
+Desc       A fanatical orc cultist dedicated to the Burning Legion. Their
+skin is a sickly grey-green, and their eyes glow with a faint
+demonic fire.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 31 0 0 1000 2900
+Stats2     31 31 200
+Stats3     6 12 31
+Stats4     0 0 0 0 0
+Attribs    18 12 14 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35004
+Keywords   burning blade shadowmage orc mage~
+Short      a Burning Blade Shadowmage~
+Long       A Burning Blade Shadowmage weaves a dark, flickering spell.
+~
+Desc       These casters have forsaken the shamanic roots of their people 
+for the raw power of the void. They wear tattered purple robes
+embroidered with the symbol of a flaming eye.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 32 0 0 850 2400
+Stats2     32 32 600
+Stats3     5 12 32
+Stats4     0 0 0 0 0
+Attribs    10 14 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35005
+Keywords   aged kodo beast~
+Short      an Aged Kodo~
+Long       A massive, grey-skinned Aged Kodo lumber slowly through the dust.
+~
+Desc       Weather-beaten and slow, these ancient beasts wander toward the
+Kodo Graveyard to spend their final days. They are peaceful 
+unless provoked.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 35 0 0 2000 5000
+Stats2     35 35 150
+Stats3     8 20 35
+Stats4     0 0 0 0 0
+Attribs    22 6 20 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35006
+Keywords   bonepaw hyena beast~
+Short      a Bonepaw Hyena~
+Long       A mangy Bonepaw Hyena yips and snarls, eyeing you hungrily.
+~
+Desc       Scavengers of the wastes, these hyenas follow the kodo herds,
+waiting for the weak to fall so they can pick the bones clean.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 30 0 0 700 1800
+Stats2     30 30 100
+Stats3     5 10 30
+Stats4     0 0 0 0 0
+Attribs    14 18 12 6 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35007
+Keywords   slitherblade naga warrior~
+Short      a Slitherblade Warrior~
+Long       A Slitherblade Naga coils in the surf, trident held high.
+~
+Desc       The Slitherblade naga have established a presence on the western
+coast, guarding the ruins of Ethel Rethor for reasons known 
+only to their queen.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1500 4000
+Stats2     36 36 200
+Stats3     8 18 36
+Stats4     0 0 0 0 0
+Attribs    20 12 16 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35008
+Keywords   hatefury satyr demon~
+Short      a Hatefury Satyr~
+Long       A Hatefury Satyr cackles, his hooves clicking against the stone.
+~
+Desc       Twisted and corrupt, the satyrs of Sargeron serve the Burning
+Legion by spreading chaos and corruption throughout the 
+northern reaches.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 1100 3200
+Stats2     34 34 250
+Stats3     7 16 34
+Stats4     0 0 0 0 0
+Attribs    14 22 14 14 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35009
+Keywords   thunder lizard beast~
+Short      a Thunder Lizard~
+Long       A massive Thunder Lizard rumbles, sparks jumping between its horns.
+~
+Desc       These territorial beasts can summon the power of the desert 
+storms to strike down those who wander too close to their nests.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 2500 6500
+Stats2     38 38 100
+Stats3     10 25 38
+Stats4     0 0 0 0 0
+Attribs    24 8 20 6 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35010
+Keywords   dread swoop beast~
+Short      a Dread Swoop~
+Long       A large, tattered Dread Swoop circles overhead.
+~
+Desc       The vultures of Desolace are as grey and grim as the land they
+inhabit. They are patient hunters, waiting for the sun to finish
+what the centaurs started.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 31 0 0 650 1600
+Stats2     31 31 50
+Stats3     4 12 31
+Stats4     0 0 0 0 0
+Attribs    12 20 12 6 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35011
+Keywords   drysnap pincer beast~
+Short      a Drysnap Pincer~
+Long       A hard-shelled Drysnap Pincer scuttles across the wet sand.
+~
+Desc       Found along the Sar'theris Strand, these giant crustaceans 
+possess pincers capable of crushing a shield.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 900 2400
+Stats2     33 33 0
+Stats3     6 14 33
+Stats4     0 0 0 0 0
+Attribs    18 10 20 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       35012
+Keywords   nijel's point sentinel human warrior~
+Short      a Nijel's Point Sentinel~
+Long       An Alliance Sentinel stands watch, eyes scanning the horizon.
+~
+Desc       A professional soldier of the Alliance, tasked with holding the
+mountain pass against the encroaching chaos of the wastes.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2000 5500
+Stats2     40 40 400
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    20 14 16 12 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       35013
+Keywords   shadowprey guardian troll warrior~
+Short      a Shadowprey Guardian~
+Long       A Darkspear Guardian stands at the village entrance, spear in hand.
+~
+Desc       A veteran troll warrior of the Darkspear tribe. They guard the 
+Horde's southern port with fierce loyalty.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2200 6000
+Stats2     40 40 350
+Stats3     11 28 40
+Stats4     0 0 0 0 0
+Attribs    18 16 14 12 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       35014
+Keywords   burning blade summoner orc~
+Short      a Burning Blade Summoner~
+Long       A Burning Blade Summoner kneels before a ritual circle.
+~
+Desc       These cultists spend their days chanting and drawing runes,
+attempting to bridge the gap between Azeroth and the Twisting Nether.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 1000 3000
+Stats2     34 34 800
+Stats3     6 15 34
+Stats4     0 0 0 0 0
+Attribs    12 14 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35015
+Keywords   doomwarder demon~
+Short      a Lesser Doomwarder~
+Long       A hulking, winged demon roars, its footsteps cracking the earth.
+~
+Desc       A minor officer of the Legion, sent to oversee the efforts 
+of the Burning Blade. It reeks of brimstone and malice.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 3000 8500
+Stats2     38 38 100
+Stats3     15 40 40
+Stats4     0 0 0 0 0
+Attribs    26 10 22 14 12 10 10
+#ENDMOBILE
+
+#MOBILE
+#35016
+Keywords scorpashi venomlash beast~
+Short      a Scorpashi Venomlash~
+Long       A pale yellow scorpion snaps its pincers, tail poised to strike.
+~
+Desc       Perfectly camouflaged against the Desolace sands, these scorpions 
+are as deadly as they are hard to spot.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 850 2200
+Stats2     33 33 50
+Stats3     6 14 33
+Stats4     0 0 0 0 0
+Attribs    16 18 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       35017
+Keywords giant softshell turtle beast~
+Short      a Giant Softshell Turtle~
+Long       A massive turtle suns itself on the coastal rocks.
+~
+Desc       These ancient creatures have lived along the Veiled Sea for
+generations. Their shells are prized by the trolls of Shadowprey.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 34 0 0 1600 4500
+Stats2     34 34 0
+Stats3     8 18 34
+Stats4     0 0 0 0 0
+Attribs    20 4 22 4 12 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       35018
+Keywords magram bone-collector centaur~
+Short      a Magram Bone-collector~
+Long       A Magram centaur searches the graveyard for suitable trophies.
+~
+Desc       Obsessed with death and power, these centaurs forage for the
+bones of their ancestors and enemies alike.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 1400 3800
+Stats2     35 35 250
+Stats3     9 22 35
+Stats4     0 0 0 0 0
+Attribs    18 10 16 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35019
+Keywords gelkis earthcaller centaur shaman~
+Short      a Gelkis Earthcaller~
+Long       A Gelkis centaur strikes the ground with a heavy stone staff.
+~
+Desc       They claim that the earth of Desolace speaks to them, guiding 
+their hooves and hardening their skin.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 1100 3200
+Stats2     35 35 700
+Stats3     7 18 35
+Stats4     0 0 0 0 0
+Attribs    14 10 16 22 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35020
+Keywords prince kellen rare human~
+Short      Prince Kellen~
+Long       A finely dressed human wanders the waste, looking lost.
+~
+Desc       A rare sight in such a gods-forsaken place. Kellen seems to 
+have been exiled from some distant land, carrying only his 
+finery and his pride.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 34 0 0 1200 3500
+Stats2     34 34 150
+Stats3     8 20 34
+Stats4     0 0 0 0 0
+Attribs    16 14 12 14 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       35021
+Keywords lord azrethoc elite demon~
+Short      Lord Azrethoc~
+Long       A towering infernal of pure shadow and flame looms over the coven.
+~
+Desc       The master of the Mannoroc Coven. Azrethoc is a terrifying 
+lieutenant of the Legion, his body composed of corrupted 
+rock and demonic energy.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 45 0 0 8000 20000
+Stats2     45 45 600
+Stats3     25 60 50
+Stats4     0 0 0 0 0
+Attribs    35 8 30 18 25 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       35022
+Keywords hatefury rogue satyr~
+Short      a Hatefury Rogue~
+Long       A satyr fades into the shadows, his daggers gleaming.
+~
+Desc       The assassins of Sargeron. They strike without warning, 
+leaving only the scent of brimstone behind.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 33 0 0 950 2600
+Stats2     33 33 300
+Stats3     6 18 33
+Stats4     0 0 0 0 0
+Attribs    12 24 12 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       35023
+Keywords kolkar bloodguard centaur~
+Short      a Kolkar Bloodguard~
+Long       A heavily armored Kolkar centaur bellows a challenge.
+~
+Desc       The elite defenders of the Kolkar village. They wear trophies 
+taken from the night elves and orcs they have slain.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1800 4500
+Stats2     37 37 350
+Stats3     11 30 37
+Stats4     0 0 0 0 0
+Attribs    24 12 18 10 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       35024
+Keywords ghost walker brave tauren~
+Short      a Ghost Walker Brave~
+Long       A massive tauren brave stands firm, guarding the hilltop.
+~
+Desc       The Ghost Walker tribe has chosen this grim land to act as 
+guardians against the rising demonic threat.
+~
+Race       humanoid~ // Using humanoid as baseline for Tauren
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2500 7000
+Stats2     40 40 450
+Stats3     12 35 40
+Stats4     0 0 0 0 0
+Attribs    26 8 22 12 16 15 15
+#ENDMOBILE
+
+#OBJECT
+Vnum     35025
+Keywords centaur ear trophy~
+Type     trash~
+Short    a severed centaur ear~
+Long     A bloody, pointed ear taken as proof of a centaur's death.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35026
+Keywords ghost mushroom herb~
+Type     treasure~
+Short    a Ghost Mushroom~
+Long     A translucent, glowing mushroom found only in dark, damp places.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 35 0 0
+Rarity   1
+Affect   3 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35027
+Keywords gromsblood herb~
+Type     treasure~
+Short    a sprig of Gromsblood~
+Long     A dark, leafy herb that smells faintly of demonic energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 120 38 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35028
+Keywords mithril ore mineral~
+Type     treasure~
+Short    a chunk of Mithril Ore~
+Long     A heavy, shimmering piece of bluish-white metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 500 40 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35029
+Keywords kodo bone trophy~
+Type     trash~
+Short    a weathered kodo bone~
+Long     A heavy, bleached bone from one of the massive kodos.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35030
+Keywords burning blade medallion jewelry~
+Type     jewelry~
+Short    a Burning Blade Medallion~
+Long     An iron medallion etched with a weeping, flaming eye.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 850 32 0 0
+Rarity   1
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35031
+Keywords satyr horn trophy~
+Type     trash~
+Short    a curved satyr horn~
+Long     A sharp, blackened horn taken from a slain Hatefury satyr.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35032
+Keywords slitherblade trident weapon~
+Type     weapon~
+Short    a Slitherblade Trident~
+Long     A long, rusted trident used by the coastal naga.~
+WFlags   take wield~
+Values   12 8 16 9 0 0
+Stats    12 450 36 0 0
+Rarity   1
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35033
+Keywords basilisk eye treasure~
+Type     treasure~
+Short    a crystalline basilisk eye~
+Long     A hard, glassy eye that seems to reflect light in strange ways.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 35 0 0
+Rarity   1
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35034
+Keywords shadowprey spear weapon~
+Type     weapon~
+Short    a Shadowprey Spear~
+Long     A well-crafted spear tipped with a sharpened softshell turtle bone.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    15 650 40 0 0
+Rarity   1
+Affect   2 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35035
+Keywords alliance tabard about~
+Type     armor~
+Short    an Alliance Tabard~
+Long     A blue cloth tabard featuring the gold lion of Stormwind.~
+WFlags   take about~
+Values   2 0 0 0 0 0
+Stats    1 100 20 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35036
+Keywords horde tabard about~
+Type     armor~
+Short    a Horde Tabard~
+Long     A red cloth tabard featuring the black seal of the Horde.~
+WFlags   take about~
+Values   2 0 0 0 0 0
+Stats    1 100 20 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35037
+Keywords kodo kombulator treasure~
+Type     treasure~
+Short    the Kodo Kombulator~
+Long     A complex goblin device with many spinning dials and hums.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 1500 35 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     35038
+Keywords rackmore's log treasure~
+Type     treasure~
+Short    Ulysses Rackmore's Log~
+Long     A water-damaged book detailing a lost shipwreck and treasure.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 30 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35039
+Keywords silver key~
+Type     key~
+Short    a small silver key~
+Long     A delicate silver key found among the coastal wreckage.~
+WFlags   take~
+Values   35039 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35040
+Keywords gold key~
+Type     key~
+Short    a small gold key~
+Long     A heavy gold key used to unlock a sailor's chest.~
+WFlags   take~
+Values   35040 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35041
+Keywords sceptre light staff weapon~
+Type     weapon~
+Short    the Sceptre of Light~
+Long     A shimmering naga sceptre used to focus magical energy.~
+WFlags   take wield~
+Values   12 12 18 7 0 0
+Stats    10 3200 42 0 0
+Rarity   2
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35042
+Keywords magram clan badge jewelry~
+Type     jewelry~
+Short    a Magram Clan Badge~
+Long     A crude medallion made of bone and leather, marking clan ally status.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 100 35 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35043
+Keywords gelkis clan badge jewelry~
+Type     jewelry~
+Short    a Gelkis Clan Badge~
+Long     A crude medallion made of stone and vines, marking clan ally status.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 100 35 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35044
+Keywords flayed demon skin treasure~
+Type     treasure~
+Short    a piece of flayed demon skin~
+Long     A patch of rough, reddish-purple skin covered in glowing runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 500 38 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35045
+Keywords doomwarder blade sword weapon~
+Type     weapon~
+Short    a Doomwarder's Blade~
+Long     A massive, jagged iron blade that pulses with green fel fire.~
+WFlags   take wield~
+Values   12 15 25 3 0 0
+Stats    25 6500 45 0 0
+Rarity   2
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35046
+Keywords stranglekelp herb~
+Type     treasure~
+Short    a bundle of Stranglekelp~
+Long     Vibrant green seaweed found along the coastal reefs.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 80 30 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35047
+Keywords wild steelbloom herb~
+Type     treasure~
+Short    a Wild Steelbloom~
+Long     A sharp, metallic-colored flower that grows on rocky outcrops.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 35 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     35048
+Keywords heavy silken thread treasure~
+Type     treasure~
+Short    a spool of heavy silken thread~
+Long     A spool of durable thread used for high-level tailoring.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 450 40 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     35049
+Keywords desolace sand trash~
+Type     trash~
+Short    a handful of grey sand~
+Long     Coarse, grey sand that seems to get everywhere.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#ROOM
+Vnum     35050
+Name     &xNorth Entrance from Stonetalon&d~
+Sector   field~
+Flags    ~
+Desc     The colorful mesas and lush forests of Stonetalon are suddenly
+replaced by a bleak, grey wasteland. The air is dry and carries 
+the scent of rot and ancient stone. To the south, the vast 
+reaches of Desolace stretch out toward the horizon.
+~
+#EXIT
+Direction out~
+ToRoom    27550
+Desc      Return to the Charred Vale in Stonetalon.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35051
+Desc      The path leads deeper into the wastes.~
+#ENDEXIT
+Reset M 0 35010 5 35050
+#ENDROOM
+
+#ROOM
+Vnum     35051
+Name     &xThe High Road&d~
+Sector   field~
+Flags    ~
+Desc     A wide, dusty trail leads through a series of jagged rock 
+formations. To the east, a narrow path winds up into the 
+northern mountain range toward an Alliance output.
+~
+#EXIT
+Direction north~
+ToRoom    35050
+Desc      The northern exit.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35052
+Desc      The road continues.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35056
+Desc      The climb to Nijel's Point.~
+#ENDEXIT
+Reset M 0 35006 5 35051
+#ENDROOM
+
+#ROOM
+Vnum     35052
+Name     &xThe Desolate Wastes&d~
+Sector   field~
+Flags    ~
+Desc     Flat, grey plains stretch out in every direction. Scanty, dead 
+vegetation and bleached bones provide the only landmarks in 
+this gods-forsaken place.
+~
+#EXIT
+Direction north~
+ToRoom    35051
+Desc      The high road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35053
+Desc      Deleterious path south.~
+#ENDEXIT
+Reset M 0 35010 5 35052
+#ENDROOM
+
+#ROOM
+Vnum     35053
+Name     &xThe Valley of Spears - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The ground becomes uneven here, leading into a series of jagged 
+canyons. Massive ribs of long-dead monsters emerge from the 
+sand like skeletal fingers.
+~
+#EXIT
+Direction north~
+ToRoom    35052
+Desc      The wastes.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35054
+Desc      Deep into the Valley of Spears.~
+#ENDEXIT
+Reset M 0 35016 5 35053
+#ENDROOM
+
+#ROOM
+Vnum     35054
+Name     &xThe Valley of Spears - Canyons&d~
+Sector   field~
+Flags    ~
+Desc     The canyon walls tower overhead, providing some relief from the 
+merciless sun. Maraudine centaurs patrol these narrow passages, 
+protecting the entrance to their most sacred site.
+#EXIT
+Direction north~
+ToRoom    35053
+Desc      The valley entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35055
+Desc      The Earth Song Gate.~
+#ENDEXIT
+Reset M 0 35023 5 35054
+#ENDROOM
+
+#ROOM
+Vnum     35055
+Name     &xThe Earth Song Gate&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand before the massive, vine-covered entrance to the 
+caverns of Maraudon. Primal energy hums through the stone, 
+and the sound of falling water echoes from deep within. This 
+is a place of great power and ancient sorrow.
+~
+#EXIT
+Direction north~
+ToRoom    35054
+Desc      The canyon path.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35056
+Name     &BNijel's Point - Southern Gate&d~
+Sector   city~
+Flags    ~
+Desc     The path opens into a well-defended Alliance settlement built 
+into the northern mountain ridge. Stone towers and night 
+elven ruins provide a sense of permanence in this shifting 
+wasteland.
+~
+#EXIT
+Direction west~
+ToRoom    35051
+Desc      Return to the high road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35057
+Desc      The main square of Nijel's Point.~
+#ENDEXIT
+Reset M 0 35012 5 35056
+#ENDROOM
+
+#ROOM
+Vnum     35057
+Name     &BNijel's Point - Plaza&d~
+Sector   city~
+Flags    ~
+Desc     The center of the outpost is busy with activity. Sentinels 
+rest near a small fountain, while merchants trade in the 
+shadow of a large, ruined archway.
+~
+#EXIT
+Direction south~
+ToRoom    35056
+Desc      The southern gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35058
+Desc      The Alliance Inn.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35059
+Desc      The Gryphon Roost.~
+#ENDEXIT
+Reset O 0 35035 1 35057
+#ENDROOM
+
+#ROOM
+Vnum     35058
+Name     &BThe Sentinel's Rest&d~
+Sector   inside~
+Flags    indoors~
+Desc     A cozy inn built within a refurbished night elven structure. 
+The air is warm and smells of roasted meat and pine.
+~
+#EXIT
+Direction south~
+ToRoom    35057
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35059
+Name     &BNijel's Point - Gryphon Roost&d~
+Sector   city~
+Flags    ~
+Desc     A high stone ledge overlooking the northern pass. Several 
+gryphons are tethered here, ready to carry travelers to 
+safer lands.
+~
+#EXIT
+Direction west~
+ToRoom    35057
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35060
+Name     &BNijel's Point - Commander's Tower&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, stone tower at the highest point of the outpost. 
+Maps of the surrounding territories are pinned to the walls.
+~
+#EXIT
+Direction down~
+ToRoom    35057
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 35012 5 35060
+#ENDROOM
+
+#ROOM
+Vnum     35061
+Name     &rThunder Axe Fortress - Outer Walls&d~
+Sector   city~
+Flags    ~
+Desc     A crude but formidable stone fortress looms over the northern 
+plains. It is controlled by the Burning Blade, and the 
+stench of demonic magic hangs heavy in the air.
+~
+#EXIT
+Direction south~
+ToRoom    35052
+Desc      The wastes.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35062
+Desc      The main courtyard.~
+#ENDEXIT
+Reset M 0 35003 5 35061
+#ENDROOM
+
+#ROOM
+Vnum     35062
+Name     &rThunder Axe Fortress - Courtyard&d~
+Sector   city~
+Flags    ~
+Desc     Orc cultists move with fanatical purpose through this dirty 
+courtyard. Piles of captured equipment and blood-stained 
+altars litter the ground.
+~
+#EXIT
+Direction south~
+ToRoom    35061
+Desc      The outer walls.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35063
+Desc      The inner keep.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35064
+Desc      The summoning pits.~
+#ENDEXIT
+Reset M 0 35004 5 35062
+Reset O 0 35030 5 35062
+#ENDROOM
+
+#ROOM
+Vnum     35063
+Name     &rThunder Axe Fortress - The Keep&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the fortress is dark and cramped. Torches of 
+green fel fire cast flickering, sickly shadows on the 
+walls.
+~
+#EXIT
+Direction south~
+ToRoom    35062
+Desc      The courtyard.~
+#ENDEXIT
+Reset M 0 35014 5 35063
+#ENDROOM
+
+#ROOM
+Vnum     35064
+Name     &rThe Summoning Pits&d~
+Sector   inside~
+Flags    indoors~
+Desc     A deep, circular pit has been excavated here. The air hums 
+with raw demonic power as summoners work to bring 
+horrors from the Twisting Nether into this world.
+~
+#EXIT
+Direction west~
+ToRoom    35062
+Desc      The courtyard.~
+#ENDEXIT
+Reset M 0 35015 5 35064
+#ENDROOM
+
+#ROOM
+Vnum     35065
+Name     &rThunder Axe - Lookout Post&d~
+Sector   city~
+Flags    ~
+Desc     A rickety wooden platform built onto the fortress walls. 
+It provides a wide view of the northern plains.
+~
+#EXIT
+Direction down~
+ToRoom    35062
+Desc      The courtyard.~
+#ENDEXIT
+Reset M 0 35003 5 35065
+#ENDROOM
+
+#ROOM
+Vnum     35066
+Name     &mSargeron - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The ruins of an ancient night elven city are now infested 
+with satyrs. The marble columns are stained with dark 
+magic and the ground is littered with bones.
+~
+#EXIT
+Direction south~
+ToRoom    35052
+Desc      The wastes.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35067
+Desc      The central ruins.~
+#ENDEXIT
+Reset M 0 35008 5 35066
+#ENDROOM
+
+#ROOM
+Vnum     35067
+Name     &mSargeron - Central Plaza&d~
+Sector   field~
+Flags    ~
+Desc     The heart of the satyr-infested ruins. A large, cracked 
+fountain sits in the center, its water long ago turned 
+to stagnant filth.
+~
+#EXIT
+Direction south~
+ToRoom    35066
+Desc      The ruins entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35068
+Desc      The high temple ruins.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35069
+Desc      The shadow-haunted grove.~
+#ENDEXIT
+Reset M 0 35022 5 35067
+Reset O 0 35031 5 35067
+#ENDROOM
+
+#ROOM
+Vnum     35068
+Name     &mSargeron - High Temple Ruins&d~
+Sector   inside~
+Flags    indoors~
+Desc     Once a place of worship for Elune, these ruins are now 
+used by the Hatefury satyrs for their dark rituals.
+~
+#EXIT
+Direction south~
+ToRoom    35067
+Desc      The central plaza.~
+#ENDEXIT
+Reset M 0 35008 5 35068
+#ENDROOM
+
+#ROOM
+Vnum     35069
+Name     &mSargeron - Shadow Grove&d~
+Sector   forest~
+Flags    ~
+Desc     A small patch of gnarled, blackened trees that seem to 
+thrive on the demonic energy of the ruins.
+~
+#EXIT
+Direction west~
+ToRoom    35067
+Desc      The central plaza.~
+#ENDEXIT
+Reset O 0 35048 5 35069
+#ENDROOM
+
+#ROOM
+Vnum     35070
+Name     &mSargeron - The Dark Altar&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive slab of basalt, dripping with fresh blood. This 
+is the primary ritual site for the Hatefury.
+~
+#EXIT
+Direction south~
+ToRoom    35067
+Desc      The central plaza.~
+#ENDEXIT
+Reset M 0 35022 5 35070
+#ENDROOM
+
+#ROOM
+Vnum     35071
+Name     &wThe Kodo Graveyard&d~
+Sector   field~
+Flags    ~
+Desc     A vast expanse of bleached white bones and massive skulls. 
+This is the final resting place of the kodos, a sacred 
+and quiet place in an otherwise violent land.
+~
+#EXIT
+Direction north~
+ToRoom    35052
+Desc      The wastes.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35072
+Desc      The center of the graveyard.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35076
+Desc      The path to Ghost Walker Post.~
+#ENDEXIT
+Reset M 0 35005 5 35071
+Reset O 0 35029 10 35071
+#ENDROOM
+
+#ROOM
+Vnum     35072
+Name     &wKodo Graveyard - The Great Skull&d~
+Sector   field~
+Flags    ~
+Desc     In the center of the graveyard sits the skull of a kodo 
+of impossible size. Hyenas prowl through the ribs, 
+searching for scraps.
+~
+#EXIT
+Direction north~
+ToRoom    35071
+Desc      The graveyard entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35073
+Desc      The southern edge.~
+#ENDEXIT
+Reset M 0 35006 10 35072
+#ENDROOM
+
+#ROOM
+Vnum     35073
+Name     &wKodo Graveyard - Southern Edge&d~
+Sector   field~
+Flags    ~
+Desc     The bones are fewer here as the graveyard gives way to the 
+southern plains. To the west, the scent of the sea 
+begins to cut through the dry air.
+~
+#EXIT
+Direction north~
+ToRoom    35072
+Desc      The great skull.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35074
+Desc      The southern waste.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35086
+Desc      The road to Shadowprey Village.~
+#ENDEXIT
+Reset M 0 35006 5 35073
+#ENDROOM
+
+#ROOM
+Vnum     35074
+Name     &xThe Southern Wastes&d~
+Sector   field~
+Flags    ~
+Desc     The land here is even more desolate. Jagged outcrops of 
+rock rise from the sand like broken teeth.
+~
+#EXIT
+Direction north~
+ToRoom    35073
+Desc      The graveyard edge.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35096
+Desc      The exit to Feralas.~
+#ENDEXIT
+Reset M 0 35000 5 35074
+#ENDROOM
+
+#ROOM
+Vnum     35075
+Name     &xScorpashi Ledge&d~
+Sector   field~
+Flags    ~
+Desc     A high, rocky shelf overlooking the kodo graveyard. Large 
+scorpions hide in the crevices, waiting for prey.
+~
+#EXIT
+Direction down~
+ToRoom    35072
+Desc      The graveyard.~
+#ENDEXIT
+Reset M 0 35016 5 35075
+#ENDROOM
+
+#ROOM
+Vnum     35076
+Name     &OGhost Walker Post - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A cluster of massive leather tents sits atop a hill 
+overlooking the kodo graveyard. The tauren of the 
+Ghost Walker tribe maintain a peaceful but wary 
+presence here.
+~
+#EXIT
+Direction west~
+ToRoom    35071
+Desc      Return to the graveyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35077
+Desc      The central hilltop.~
+#ENDEXIT
+Reset M 0 35024 5 35076
+#ENDROOM
+
+#ROOM
+Vnum     35077
+Name     &OGhost Walker Post - Center&d~
+Sector   city~
+Flags    ~
+Desc     The center of the tauren post is dominated by a large bonfire. 
+Braves stand guard while tribal elders share stories of 
+the spirits.
+~
+#EXIT
+Direction south~
+ToRoom    35076
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35078
+Desc      The Elders' Tent.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35079
+Desc      The Wyvern Roost.~
+#ENDEXIT
+Reset O 0 35036 1 35077
+#ENDROOM
+
+#ROOM
+Vnum     35078
+Name     &OThe Elders' Tent&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the massive tent is quiet and smells of 
+sweetgrass and sage. Furs are spread across the ground 
+for comfort.
+~
+#EXIT
+Direction south~
+ToRoom    35077
+Desc      The center.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35079
+Name     &OGhost Walker Post - Wyvern Roost&d~
+Sector   city~
+Flags    ~
+Desc     A flat section of the hilltop where several wyverns rest. 
+This is the primary transport hub for the Horde in 
+northern Desolace.
+~
+#EXIT
+Direction west~
+ToRoom    35077
+Desc      The center.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35080
+Name     &OGhost Walker - Lookout&d~
+Sector   city~
+Flags    ~
+Desc     A small platform providing a clear view of the Burning Blade 
+fortress to the north.
+~
+#EXIT
+Direction down~
+ToRoom    35077
+Desc      The center.~
+#ENDEXIT
+Reset M 0 35024 5 35080
+#ENDROOM
+
+#ROOM
+Vnum     35081
+Name     &yMagram Village - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A collection of crude leather yurts and large communal 
+fires. The Magram centaur dwell here in a state of 
+perpetual readiness for war.
+~
+#EXIT
+Direction west~
+ToRoom    35074
+Desc      The southern wastes.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    35082
+Desc      The heart of the village.~
+#ENDEXIT
+Reset M 0 35001 5 35081
+#ENDROOM
+
+#ROOM
+Vnum     35082
+Name     &yHeart of the Magram Village&d~
+Sector   field~
+Flags    ~
+Desc     The air is thick with the smell of cooking meat and unwashed 
+bodies. The centaurs here are large and aggressive, 
+shouting challenges at one another.
+~
+#EXIT
+Direction west~
+ToRoom    35081
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35083
+Desc      The Khan's Tent.~
+#ENDEXIT
+Reset M 0 35018 5 35082
+Reset O 0 35042 5 35082
+#ENDROOM
+
+#ROOM
+Vnum     35083
+Name     &yThe Khan's Tent - Magram&d~
+Sector   inside~
+Flags    indoors~
+Desc     The largest yurt in the village, decorated with the 
+bleached skulls of Gelkis centaurs.
+~
+#EXIT
+Direction south~
+ToRoom    35082
+Desc      The heart of the village.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35084
+Name     &yGelkis Village - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The Gelkis village is built into a series of deep ravines 
+in the southern mountains. The air is cooler here, and 
+the sounds of chanting echo off the walls.
+~
+#EXIT
+Direction north~
+ToRoom    35074
+Desc      The southern wastes.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35085
+Desc      The central ravine.~
+#ENDEXIT
+Reset M 0 35002 5 35084
+#ENDROOM
+
+#ROOM
+Vnum     35085
+Name     &yThe Central Ravine - Gelkis&d~
+Sector   field~
+Flags    ~
+Desc     The heart of the Gelkis territory. Shamanic totems are 
+placed around the ravine, pulsing with a faint earthen 
+light.
+~
+#EXIT
+Direction north~
+ToRoom    35084
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35100
+Desc      The Gelkis Council Chamber.~
+#ENDEXIT
+Reset M 0 35019 5 35085
+Reset O 0 35043 5 35085
+#ENDROOM
+
+#ROOM
+Vnum     35086
+Name     &rThe Road to Shadowprey&d~
+Sector   field~
+Flags    ~
+Desc     The road turns west, leading away from the dry interior 
+toward the coast. The vegetation becomes slightly more 
+frequent as you approach the Veiled Sea.
+~
+#EXIT
+Direction east~
+ToRoom    35073
+Desc      The graveyard edge.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35087
+Desc      The coastal descent.~
+#ENDEXIT
+Reset M 0 35009 5 35086
+#ENDROOM
+
+#ROOM
+Vnum     35087
+Name     &rThe Coastal Descent&d~
+Sector   field~
+Flags    ~
+Desc     The path winds down a series of low hills. The roar of the 
+surf and the cry of seagulls can be heard in the distance.
+~
+#EXIT
+Direction east~
+ToRoom    35086
+Desc      The road.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35088
+Desc      Shadowprey Village Entrance.~
+#ENDEXIT
+Reset M 0 35010 5 35087
+#ENDROOM
+
+#ROOM
+Vnum     35088
+Name     &rShadowprey Village - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A vibrant Darkspear troll village built along the shoreline. 
+Raised wooden walkways connect the various structures, and 
+fishing nets hang from every pier.
+~
+#EXIT
+Direction east~
+ToRoom    35087
+Desc      The descent.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35089
+Desc      The main pier.~
+#ENDEXIT
+Reset M 0 35013 5 35088
+#ENDROOM
+
+#ROOM
+Vnum     35089
+Name     &rShadowprey - Main Pier&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the village's fishing industry. Trolls work 
+tirelessly to process the daily catch, while boats bob 
+gently in the harbor.
+~
+#EXIT
+Direction east~
+ToRoom    35088
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    35090
+Desc      The Shadowprey Inn.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35091
+Desc      The sar'theris strand.~
+#ENDEXIT
+Reset O 0 35034 5 35089
+#ENDROOM
+
+#ROOM
+Vnum     35090
+Name     &rThe Fisherman's Hook&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, open-air inn with a beautiful view of the Veiled 
+Sea. The air is salty and smells of fresh fish.
+~
+#EXIT
+Direction south~
+ToRoom    35089
+Desc      The main pier.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     35091
+Name     &xSar'theris Strand - North&d~
+Sector   field~
+Flags    ~
+Desc     A long, sandy beach stretching south from Shadowprey. 
+Giant turtles sun themselves on the rocks, and crabs 
+scuttle through the tide pools.
+~
+#EXIT
+Direction north~
+ToRoom    35089
+Desc      Return to Shadowprey.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35092
+Desc      The strand continues south.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35094
+Desc      Swim toward Ranazjar Isle.~
+#ENDEXIT
+Reset M 0 35017 5 35091
+#ENDROOM
+
+#ROOM
+Vnum     35092
+Name     &xSar'theris Strand - South&d~
+Sector   field~
+Flags    ~
+Desc     The beach narrows here as the cliffs of the southern 
+mountains meet the sea. Naga have established a series 
+of small camps along the waterline.
+~
+#EXIT
+Direction north~
+ToRoom    35091
+Desc      The northern strand.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35093
+Desc      The Slitherblade Shore.~
+#ENDEXIT
+Reset M 0 35011 5 35092
+#ENDROOM
+
+#ROOM
+Vnum     35093
+Name     &xSlitherblade Shore&d~
+Sector   field~
+Flags    ~
+Desc     The naga presence is strongest here. Stone ruins from some 
+ancient, sunken city have been pushed up through the 
+sand.
+~
+#EXIT
+Direction north~
+ToRoom    35092
+Desc      The southern strand.~
+#ENDEXIT
+Reset M 0 35007 5 35093
+Reset O 0 35032 5 35093
+#ENDROOM
+
+#ROOM
+Vnum     35094
+Name     &BThe Veiled Sea - Shallows&d~
+Sector   water_noswim~
+Flags    ~
+Desc     The water is clear and surprisingly warm. Schools of fish 
+dart through the kelp forests below.
+~
+#EXIT
+Direction east~
+ToRoom    35091
+Desc      Return to the strand.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    35095
+Desc      Approach Ranazjar Isle.~
+#ENDEXIT
+Reset O 0 35046 10 35094
+#ENDROOM
+
+#ROOM
+Vnum     35095
+Name     &BRanazjar Isle&d~
+Sector   field~
+Flags    ~
+Desc     A small, rocky island dominated by the ruins of a naga temple. 
+The air is heavy with the scent of salt and ancient 
+magic.
+~
+#EXIT
+Direction east~
+ToRoom    35094
+Desc      Return to the shallows.~
+#ENDEXIT
+Reset M 0 35007 5 35095
+Reset O 0 35041 1 35095
+#ENDROOM
+
+#ROOM
+Vnum     35096
+Name     &xSouthern Exit to Feralas&d~
+Sector   field~
+Flags    ~
+Desc     The grey wastes of Desolace slowly begin to give way to the 
+lush, green canopy of Feralas. A wide stone path leads 
+south into the deep forest.
+~
+#EXIT
+Direction north~
+ToRoom    35074
+Desc      The southern wastes.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36500
+Desc      Enter the forest of Feralas.~
+#ENDEXIT
+Reset M 0 35000 5 35096
+#ENDROOM
+
+#ROOM
+Vnum     35097
+Name     &mMannoroc Coven - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A deep, jagged scar in the earth filled with demonic energy. 
+This is the heart of the Legion's presence in southern 
+Desolace.
+~
+#EXIT
+Direction north~
+ToRoom    35074
+Desc      The southern wastes.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35098
+Desc      The burning pits.~
+#ENDEXIT
+Reset M 0 35015 5 35097
+#ENDROOM
+
+#ROOM
+Vnum     35098
+Name     &mMannoroc Coven - Burning Pits&d~
+Sector   field~
+Flags    ~
+Desc     Fires of pure fel energy burn in the depths of the coven. 
+Doomwarders patrol the edges of the pits, their roars 
+echoing through the canyon.
+~
+#EXIT
+Direction north~
+ToRoom    35097
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    35099
+Desc      Azrethoc's Seat.~
+#ENDEXIT
+Reset M 0 35015 5 35098
+#ENDROOM
+
+#ROOM
+Vnum     35099
+Name     &mMannoroc Coven - Azrethoc's Seat&d~
+Sector   field~
+Flags    ~
+Desc     The deepest point of the coven. Lord Azrethoc stands atop a 
+pile of blackened rocks, overseeing the corruption of 
+the land.
+~
+#EXIT
+Direction north~
+ToRoom    35098
+Desc      The burning pits.~
+#ENDEXIT
+Reset M 0 35021 1 35099
+  Reset G 1 35045 1
+#ENDROOM
+
+#ENDAREA
