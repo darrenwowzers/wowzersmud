@@ -1,0 +1,1946 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Dustwallow Marsh~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       35 45 0 60
+Economy      0 40000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       37500
+Keywords   theramore marine human warrior~
+Short      a Theramore Marine~
+Long       A Theramore Marine stands at attention, hand on the hilt of a cutlass.
+~
+Desc       Clad in the blue and white tabard of Kul Tiras, these professional 
+soldiers are the primary defense for Lady Proudmoore's city. They 
+watch the marshes with a mix of discipline and weariness.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2000 5000
+Stats2     40 40 300
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    18 14 14 12 14 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       37501
+Keywords   brackenwall grunt orc warrior~
+Short      a Brackenwall Grunt~
+Long       A massive orc grunt snarls, patrolling the perimeter of the village.
+~
+Desc       A veteran of many skirmishes, this grunt is tasked with 
+holding the Horde's small foothold in the marsh. Their armor 
+is stained with swamp water and dried mud.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2200 6000
+Stats2     40 40 250
+Stats3     11 28 40
+Stats4     0 0 0 0 0
+Attribs    22 12 16 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       37502
+Keywords   mudrock turtle beast~
+Short      a Mudrock Turtle~
+Long       A heavy, moss-covered turtle pulls its head into its shell.
+~
+Desc       These ancient creatures have lived in the marsh since before 
+the Cataclysm. Their shells are as hard as granite and often 
+have small plants growing on them.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 36 0 0 1600 4500
+Stats2     36 36 0
+Stats3     8 18 36
+Stats4     0 0 0 0 0
+Attribs    20 4 24 4 12 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       37503
+Keywords   mirefin murloc humanoid~
+Short      a Mirefin Murloc~
+Long       A gurgling Mirefin murloc brandishes a sharpened fish-bone.
+~
+Desc       The Mirefin tribe has infested the northern coastline. They are 
+territorial and aggressive, often swarming in large numbers 
+to overwhelm larger prey.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 850 2400
+Stats2     35 35 0
+Stats3     6 14 35
+Stats4     0 0 0 0 0
+Attribs    14 18 12 6 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37504
+Keywords   grimtotem marauder tauren warrior~
+Short      a Grimtotem Marauder~
+Long       A dark-furred tauren stalks the shadows of the twisted trees.
+~
+Desc       Renegade tauren of the Grimtotem tribe. They seek to disrupt 
+the peace between the Horde and Alliance and claim the 
+marsh for Magatha's dark purposes.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1800 5000
+Stats2     42 42 200
+Stats3     10 25 42
+Stats4     0 0 0 0 0
+Attribs    22 10 16 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37505
+Keywords   bloodfen raptor beast~
+Short      a Bloodfen Raptor~
+Long       A lean, crimson-scaled raptor hisses, its claws clicking on the mud.
+~
+Desc       The swiftest predators in Dustwallow. They hunt in small 
+packs and are known for their relentless pursuit of anything 
+that bleeds.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1100 3200
+Stats2     37 37 0
+Stats3     7 16 37
+Stats4     0 0 0 0 0
+Attribs    18 22 14 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37506
+Keywords   darkmist spider beast~
+Short      a Darkmist Spider~
+Long       A large, black-and-white spider weaves a thick web between the trees.
+~
+Desc       These spiders thrive in the dim light of the deep marsh. 
+Their venom causes a localized numbing effect, making it 
+difficult for prey to escape their silk.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1200 3500
+Stats2     38 38 0
+Stats3     8 20 38
+Stats4     0 0 0 0 0
+Attribs    16 20 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37507
+Keywords   mottled crocolisk beast~
+Short      a Mottled Crocolisk~
+Long       A thick-scaled crocolisk slides silently into the murky water.
+~
+Desc       Blending perfectly with the floating vegetation, these 
+reptiles are the silent killers of the swamp pools.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1500 4200
+Stats2     39 39 0
+Stats3     10 24 39
+Stats4     0 0 0 0 0
+Attribs    24 8 22 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37508
+Keywords   black dragonspawn warrior~
+Short      a Black Dragonspawn~
+Long       A draconic warrior in black scales patrols the path to the lair.
+~
+Desc       Loyal servants of Onyxia. They are highly disciplined 
+and possess a cruel intelligence, guarding the Wyrmbog 
+with fanatical devotion.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 3500 9500
+Stats2     44 44 300
+Stats3     14 40 44
+Stats4     0 0 0 0 0
+Attribs    26 12 18 14 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37509
+Keywords   firetree witch doctor troll mage~
+Short      a Firetree Witch Doctor~
+Long       A tattered troll priest shakes a rattle, muttering dark mojo.
+~
+Desc       Members of the Firetree tribe who have sought refuge in the 
+marsh. They utilize the local flora to craft potent poisons 
+and dark curses.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1100 3200
+Stats2     41 41 900
+Stats3     8 22 41
+Stats4     0 0 0 0 0
+Attribs    12 14 14 26 22 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37510
+Keywords   onyxian whelp dragon~
+Short      an Onyxian Whelp~
+Long       A small, obsidian-scaled dragonet hisses, smoke puffing from its nose.
+~
+Desc       The brood of the Broodmother. Though small, they possess 
+the same fiery temper and destructive potential as their 
+larger kin.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1800 4800
+Stats2     42 42 150
+Stats3     11 30 42
+Stats4     0 0 0 0 0
+Attribs    20 16 16 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37511
+Keywords   jaina proudmoore boss human mage~
+Short      Lady Jaina Proudmoore~
+Long       Lady Jaina Proudmoore, ruler of Theramore, stands before her desk.
+~
+Desc       One of the most powerful sorceresses in Azeroth. Jaina 
+seeks to maintain the fragile peace, but her eyes betray 
+the weight of the burdens she carries.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 12000 35000
+Stats2     60 60 2500
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    12 18 16 35 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       37512
+Keywords   overlord mok'morokk boss ogre warrior~
+Short      Overlord Mok'Morokk~
+Long       A massive, bloated ogre sits upon a pile of stolen crates.
+~
+Desc       The self-proclaimed leader of the Brackenwall ogres. He is 
+more interested in food and tribute than the survival of 
+his people.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 6000 18000
+Stats2     50 50 200
+Stats3     18 50 50
+Stats4     0 0 0 0 0
+Attribs    35 6 25 8 12 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       37513
+Keywords   tabetha mage human~
+Short      Tabetha~
+Long       An unassuming woman in plain robes stirs a large iron cauldron.
+~
+Desc       A powerful mage who has chosen a life of seclusion in the 
+deep marsh. She is a source of great knowledge for those 
+who can find her hut.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 5000 15000
+Stats2     55 55 2000
+Stats3     15 45 55
+Stats4     0 0 0 0 0
+Attribs    12 16 16 32 28 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       37514
+Keywords   rotting behemoth plant~
+Short      a Rotting Behemoth~
+Long       A towering pile of animated swamp-growth lumbers forward.
+~
+Desc       A massive plant elemental composed of decayed vines and 
+stagnant mud. It reeks of rot and moves with a slow, 
+crushing momentum.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 4500 12000
+Stats2     45 45 0
+Stats3     20 55 46
+Stats4     0 0 0 0 0
+Attribs    32 4 28 6 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37515
+Keywords   swamp rat beast critter~
+Short      a Swamp Rat~
+Long       A large, grey rat scurries through the muck.
+~
+Desc       The most common inhabitant of the marsh. They are 
+harmless but ubiquitous.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 30 0 0 300 1000
+Stats2     30 30 0
+Stats3     2 8 30
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       37516
+Keywords   deserted soldier ghost human~
+Short      a Deserted Soldier~
+Long       A translucent warrior in tattered plate wanders the fog.
+~
+Desc       The spirit of a soldier who abandoned their post during 
+the war, now cursed to wander the swamp for eternity.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1800 5000
+Stats2     41 41 200
+Stats3     11 28 41
+Stats4     0 0 0 0 0
+Attribs    18 14 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37517
+Keywords   saltwater snapjaw turtle~
+Short      a Saltwater Snapjaw~
+Long       A massive turtle with a razor-sharp beak suns itself on the beach.
+~
+Desc       Found along the eastern coast, these turtles are 
+significantly more aggressive than their inland cousins.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 43 0 0 2500 6500
+Stats2     43 43 0
+Stats3     12 35 43
+Stats4     0 0 0 0 0
+Attribs    26 4 25 4 14 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37518
+Keywords   muddy elemental spirit~
+Short      a Muddy Elemental~
+Long       A being of churning silt and water rises from a pool.
+~
+Desc       Lesser elementals that embody the stagnant nature of 
+the Dustwallow bogs.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1100 3200
+Stats2     38 38 0
+Stats3     7 18 38
+Stats4     0 0 0 0 0
+Attribs    18 10 18 14 14 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37519
+Keywords   darkmist widow spider elite~
+Short      a Darkmist Widow~
+Long       A gargantuan spider with a red hourglass on its abdomen.
+~
+Desc       The matriarch of the Darkmist brood. She is a terrifying 
+predator that has claimed many lives within her webbed lair.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 46 0 0 4000 11000
+Stats2     46 46 0
+Stats3     18 45 46
+Stats4     0 0 0 0 0
+Attribs    28 20 20 8 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37520
+Keywords   dragonkin warden dragonspawn~
+Short      a Dragonkin Warden~
+Long       A heavily armored dragonspawn stands guard over the Wyrmbog.
+~
+Desc       The elite guardians of the black flight. They wield 
+massive polearms and can exhale a blast of searing heat.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 3800 10000
+Stats2     45 45 350
+Stats3     15 42 45
+Stats4     0 0 0 0 0
+Attribs    28 12 22 14 18 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37521
+Keywords   strangelost survivor humanoid~
+Short      a Strangelost Survivor~
+Long       A hunched, tattered draenei mutters to a broken mirror.
+~
+Desc       A Lost One who has completely succumbed to the madness 
+of the marsh. They view all outsiders as demons in disguise.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1400 3800
+Stats2     39 39 100
+Stats3     9 24 39
+Stats4     0 0 0 0 0
+Attribs    16 14 14 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37522
+Keywords   firetree raider troll warrior~
+Short      a Firetree Raider~
+Long       A troll raider balances a jagged throwing axe.
+~
+Desc       Aggressive scouts of the Firetree tribe. they raid 
+caravans passing through the southern marshes.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1600 4200
+Stats2     40 40 200
+Stats3     10 28 40
+Stats4     0 0 0 0 0
+Attribs    20 18 14 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       37523
+Keywords   mirefin oracle murloc shaman~
+Short      a Mirefin Oracle~
+Long       A murloc in fish-scale robes weaves a wall of water.
+~
+Desc       The spiritual leaders of the Mirefin. They possess a 
+crude control over the tides and the creatures of the deep.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1200 3500
+Stats2     41 41 800
+Stats3     8 20 41
+Stats4     0 0 0 0 0
+Attribs    12 14 16 24 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       37524
+Keywords   giant marsh spider beast~
+Short      a Giant Marsh Spider~
+Long       A massive, hairy spider skitters across the mud.
+~
+Desc       A large arachnid that has grown to immense size due to 
+the abundant prey and humid environment of Dustwallow.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1100 3000
+Stats2     40 40 0
+Stats3     7 16 40
+Stats4     0 0 0 0 0
+Attribs    18 18 16 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       37525
+Keywords   stinky undead ghoul~
+Short      Stinky~
+Long       A rotting ghoul stands near a cluster of bones, looking confused.
+~
+Desc       An undead creature that seems remarkably less aggressive 
+than its kin. It emits a truly foul odor that can be 
+smelled from several rooms away.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 42 0 0 2500 6500
+Stats2     42 42 100
+Stats3     12 30 42
+Stats4     0 0 0 0 0
+Attribs    22 8 18 6 6 15 15
+#ENDMOBILE
+
+#OBJECT
+Vnum     37526
+Keywords murloc eye trophy~
+Type     trash~
+Short    a bulging murloc eye~
+Long     A large, glassy eye taken from a Mirefin murloc.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 15 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37527
+Keywords stranglekelp herb~
+Type     treasure~
+Short    a bundle of Stranglekelp~
+Long     A vibrant green seaweed found along the marsh coasts.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 80 35 0 0
+Rarity   0
+Affect   5 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37528
+Keywords crocolisk skin hide~
+Type     trash~
+Short    a mottled crocolisk hide~
+Long     A thick, scaly skin taken from a marsh crocolisk.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37529
+Keywords theramore tabard about~
+Type     armor~
+Short    a Theramore Tabard~
+Long     A blue and white tabard featuring the anchor of Kul Tiras.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 40 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37530
+Keywords brackenwall tabard about~
+Type     armor~
+Short    a Brackenwall Tabard~
+Long     A brown cloth tabard featuring a crude ogre fist.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 40 0 0
+Rarity   1
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37531
+Keywords black dragonscale trophy~
+Type     trash~
+Short    a Black Dragonscale~
+Long     A thick, obsidian scale that is warm to the touch.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 250 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37532
+Keywords muddy shovel tool~
+Type     weapon~
+Short    a muddy explorer's shovel~
+Long     A heavy-duty shovel used for excavating swamp ruins.~
+WFlags   take wield~
+Values   12 4 10 8 0 0
+Stats    12 50 35 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37533
+Keywords stagnant water drink~
+Type     drink_con~
+Short    a flask of stagnant water~
+Long     A leather flask containing murky, slightly foul water.~
+WFlags   take~
+Values   10 10 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37534
+Keywords tortoise shell shield~
+Type     armor~
+Short    a Mudrock Shell Shield~
+Long     A massive, heavy shield fashioned from a turtle shell.~
+WFlags   take shield~
+Values   25 0 0 0 0 0
+Stats    25 1200 42 0 0
+Rarity   1
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37535
+Keywords mirefin trident weapon~
+Type     weapon~
+Short    a Mirefin Bone-Trident~
+Long     A long trident tipped with sharpened fish vertebrae.~
+WFlags   take wield~
+Values   12 8 16 11 0 0
+Stats    12 450 38 0 0
+Rarity   1
+Affect   2 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37536
+Keywords kingsblood herb~
+Type     treasure~
+Short    a sprig of Kingsblood~
+Long     A bright green herb with small, purple flowers.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 120 40 0 0
+Rarity   0
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37537
+Keywords dragon-hide boots feet~
+Type     armor~
+Short    a pair of Dragon-hide Boots~
+Long     Durable boots made from the hide of black dragonspawn.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    6 1800 46 0 0
+Rarity   2
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37538
+Keywords proudmoore signet ring~
+Type     jewelry~
+Short    a replica Proudmoore Signet~
+Long     A silver ring engraved with a high-quality anchor crest.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 2500 50 0 0
+Rarity   2
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37539
+Keywords ogre totem mace weapon~
+Type     weapon~
+Short    a Brackenwall Ritual Totem~
+Long     A heavy log carved with crude faces and swamp-moss.~
+WFlags   take wield~
+Values   12 15 25 8 0 0
+Stats    35 1500 48 0 0
+Rarity   2
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37540
+Keywords spider silk rope~
+Type     treasure~
+Short    a coil of Darkmist Silk~
+Long     A durable rope made of woven spider silk.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 450 40 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37541
+Keywords bog bean treasure~
+Type     food~
+Short    a handful of Bog Beans~
+Long     Small, edible beans found on certain swamp plants.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37542
+Keywords moss-covered bracers wrist~
+Type     armor~
+Short    a pair of mossy bracers~
+Long     Leather bracers completely covered in thick green moss.~
+WFlags   take wrist~
+Values   8 0 0 0 0 0
+Stats    3 350 38 0 0
+Rarity   1
+Affect   5 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37543
+Keywords rusty cutlass weapon~
+Type     weapon~
+Short    a rusty marine cutlass~
+Long     A short, curved sword caked in sea-salt and rust.~
+WFlags   take wield~
+Values   12 6 12 3 0 0
+Stats    10 150 35 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37544
+Keywords swamp gas flask~
+Type     treasure~
+Short    a flask of Marsh Gas~
+Long     A glass jar containing a swirling, yellowish vapor.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 42 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37545
+Keywords raptor claw trophy~
+Type     trash~
+Short    a sharp bloodfen claw~
+Long     A long, curved talon taken from a marsh raptor.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37546
+Keywords saltwater pearl treasure~
+Type     treasure~
+Short    a large Saltwater Pearl~
+Long     A beautiful, shimmering pearl found in a giant oyster.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 45 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     37547
+Keywords tabetha's wand weapon~
+Type     weapon~
+Short    Tabetha's Spare Wand~
+Long     A simple wooden wand that hums with arcane energy.~
+WFlags   take wield~
+Values   12 10 18 13 0 0
+Stats    2 3200 50 0 0
+Rarity   2
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37548
+Keywords mok'morokk's grog drink~
+Type     drink_con~
+Short    a jug of Mok'Morokk's Grog~
+Long     A large ceramic jug containing an incredibly potent liquid.~
+WFlags   take~
+Values   50 50 1 0 0 0
+Stats    15 150 40 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     37549
+Keywords grimtotem necklace jewelry~
+Type     jewelry~
+Short    a Grimtotem Bone Necklace~
+Long     A necklace made of bird skulls and polished teeth.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 450 42 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37550
+Keywords obsidian fragment treasure~
+Type     treasure~
+Short    an Obsidian Fragment~
+Long     A sharp shard of black glass, glowing with internal heat.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 48 0 0
+Rarity   1
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     37551
+Keywords onyxian essence treasure~
+Type     treasure~
+Short    a vial of Onyxian Essence~
+Long     A swirling cloud of black and orange energy in a vial.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 5000 60 0 0
+Rarity   3
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     37552
+Name     &gWestern Entrance from the Barrens&d~
+Sector   field~
+Flags    ~
+Desc     The red, dry dust of the Barrens is suddenly cut short by a wall 
+of thick, tangled vegetation. The path descends into a 
+humid basin where the air is heavy with the scent of stagnant 
+water and blooming night-lilies. A narrow, mud-slicked trail 
+leads east into the Quagmire.
+~
+#EXIT
+Direction out~
+ToRoom    26650
+Desc      Return to the southern Barrens.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37553
+Desc      The path leads into the swamp.~
+#ENDEXIT
+Reset M 0 37515 10 37552
+#ENDROOM
+
+#ROOM
+Vnum     37553
+Name     &gThe Quagmire - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The trees here are gnarled and covered in hanging moss, their 
+roots twisting like snakes through the shallow water. Massive 
+insects drone in the air, and the ground is soft and spongy 
+underfoot.
+~
+#EXIT
+Direction west~
+ToRoom    37552
+Desc      The western entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37554
+Desc      The path continues east.~
+#ENDEXIT
+Reset M 0 37505 5 37553
+#ENDROOM
+
+#ROOM
+Vnum     37554
+Name     &gThe Quagmire - Central&d~
+Sector   field~
+Flags    ~
+Desc     The mist is thick here, obscuring the view of anything more 
+than a few yards away. The only landmarks are the giant 
+mushrooms and the occasional bleached rib-cage of some 
+forgotten beast.
+~
+#EXIT
+Direction west~
+ToRoom    37553
+Desc      Western Quagmire.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37555
+Desc      Toward the village of Brackenwall.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37565
+Desc      A path leads toward a small island.~
+#ENDEXIT
+Reset M 0 37502 5 37554
+#ENDROOM
+
+#ROOM
+Vnum     37555
+Name     &gThe Quagmire - East&d~
+Sector   field~
+Flags    ~
+Desc     The ground begins to rise slightly as the swamp gives way to 
+a more solid stone path. To the east, the spiked wooden walls 
+of a Horde outpost are visible through the fog.
+~
+#EXIT
+Direction west~
+ToRoom    37554
+Desc      Central Quagmire.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37556
+Desc      Entrance to Brackenwall Village.~
+#ENDEXIT
+Reset M 0 37507 5 37555
+#ENDROOM
+
+#ROOM
+Vnum     37556
+Name     &rBrackenwall Village - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     Massive logs, sharpened to points, form the defensive walls of 
+Brackenwall. Orc grunts stand firm at the gate, their axes 
+gleaming in the soft marsh light.
+~
+#EXIT
+Direction west~
+ToRoom    37555
+Desc      Return to the swamp.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37557
+Desc      Brackenwall Town Square.~
+#ENDEXIT
+Reset M 0 37501 5 37556
+#ENDROOM
+
+#ROOM
+Vnum     37557
+Name     &rBrackenwall - Town Square&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the Horde's marsh outpost. A large bonfire 
+burns in the center of the square, and several sturdy 
+stone buildings provide shelter and supplies for the 
+warriors stationed here.
+~
+#EXIT
+Direction west~
+ToRoom    37556
+Desc      The west gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37558
+Desc      The Brackenwall Inn.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37559
+Desc      Overlord Mok'Morokk's Seat.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37560
+Desc      The Wyvern Roost.~
+#ENDEXIT
+Reset O 0 37530 5 37557
+#ENDROOM
+
+#ROOM
+Vnum     37558
+Name     &rThe Ogre's Kettle&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, smoky inn that provides a welcome respite from the 
+damp swamp air. The walls are decorated with trophies 
+taken from the local raptors and turtles.
+~
+#EXIT
+Direction south~
+ToRoom    37557
+Desc      The square.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37559
+Name     &rOverlord Mok'Morokk's Seat&d~
+Sector   city~
+Flags    ~
+Desc     A high stone platform overlooking the village. Overlord 
+Mok'Morokk sits upon a massive, stolen chest, gnawing 
+on a roasted haunch of kodo meat.
+~
+#EXIT
+Direction north~
+ToRoom    37557
+Desc      The square.~
+#ENDEXIT
+Reset M 0 37512 1 37559
+  Reset G 1 37548 1
+#ENDROOM
+
+#ROOM
+Vnum     37560
+Name     &rBrackenwall - Wyvern Roost&d~
+Sector   city~
+Flags    ~
+Desc     A flat ledge at the highest point of the camp. Several 
+wyverns rest here, ready to carry messages and warriors 
+to Orgrimmar.
+~
+#EXIT
+Direction west~
+ToRoom    37557
+Desc      The square.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37561
+Name     &gThe Shifting Bogs - North&d~
+Sector   field~
+Flags    ~
+Desc     A treacherous expanse of deep, bubbling mud. Fallen trees 
+provide a series of unstable bridges across the bogs, but 
+one wrong step could lead to a slow, suffocating death.
+~
+#EXIT
+Direction south~
+ToRoom    37562
+Desc      The bogs continue south.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37554
+Desc      Return to the Quagmire.~
+#ENDEXIT
+Reset M 0 37507 5 37561
+Reset O 0 37525 10 37561
+#ENDROOM
+
+#ROOM
+Vnum     37562
+Name     &gThe Shifting Bogs - South&d~
+Sector   field~
+Flags    ~
+Desc     The trees are thinner here, but the mud is deeper. Small 
+bubbles of swamp gas rise to the surface of the pools, 
+bursting with a faint, sulfurous pop.
+~
+#EXIT
+Direction north~
+ToRoom    37561
+Desc      The northern bogs.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37563
+Desc      Toward the eastern coast.~
+#ENDEXIT
+Reset M 0 37518 5 37562
+#ENDROOM
+
+#ROOM
+Vnum     37563
+Name     &gThe Marshline Road&d~
+Sector   field~
+Flags    ~
+Desc     A wide, stone road that has been partially reclaimed by the 
+swamp. It leads east toward the Alliance stronghold of 
+Theramore Isle.
+~
+#EXIT
+Direction west~
+ToRoom    37562
+Desc      The bogs.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37567
+Desc      The entrance to Theramore.~
+#ENDEXIT
+Reset M 0 37500 5 37563
+#ENDROOM
+
+#ROOM
+Vnum     37564
+Name     &gThe Darkmist Caverns - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     A large, web-choked cavern mouth in the northern mountains. 
+The air is stagnant and smells of old decay and the 
+metallic scent of spider-venom.
+~
+#EXIT
+Direction south~
+ToRoom    37554
+Desc      Return to the Quagmire.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37565
+Desc      The webbed tunnels.~
+#ENDEXIT
+Reset M 0 37506 5 37564
+#ENDROOM
+
+#ROOM
+Vnum     37565
+Name     &gThe Darkmist Tunnels&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls and ceiling are completely covered in thick, 
+sticky white silk. Hundreds of small spiders skitter 
+across the floor, following the vibrations of your footsteps.
+~
+#EXIT
+Direction south~
+ToRoom    37564
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37566
+Desc      The Widow's Chamber.~
+#ENDEXIT
+Reset M 0 37524 10 37565
+Reset O 0 37540 5 37565
+#ENDROOM
+
+#ROOM
+Vnum     37566
+Name     &gThe Darkmist Widow's Chamber&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive circular chamber. In the center, a gargantuan 
+spider hangs from the ceiling, surrounded by dozens of 
+web-wrapped cocoons—the remnants of unlucky travelers.
+~
+#EXIT
+Direction south~
+ToRoom    37565
+Desc      The tunnels.~
+#ENDEXIT
+Reset M 0 37519 1 37566
+#ENDROOM
+
+#ROOM
+Vnum     37567
+Name     &BTheramore Isle - North Gate&d~
+Sector   city~
+Flags    ~
+Desc     The primary entrance to the Alliance stronghold. Massive 
+white stone walls and heavy iron-bound gates provide a 
+sense of absolute security against the surrounding marsh.
+~
+#EXIT
+Direction west~
+ToRoom    37563
+Desc      Return to the road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37568
+Desc      Theramore Town Square.~
+#ENDEXIT
+Reset M 0 37500 5 37567
+#ENDROOM
+
+#ROOM
+Vnum     37568
+Name     &BTheramore - Town Square&d~
+Sector   city~
+Flags    ~
+Desc     The center of the bustling island city. Soldiers and 
+citizens move with purpose through the clean stone streets. 
+A large fountain depicting the Crest of Lordaeron sits in 
+the center.
+~
+#EXIT
+Direction north~
+ToRoom    37567
+Desc      The north gate.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    37569
+Desc      The Theramore Inn.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37571
+Desc      The Keep of Jaina Proudmoore.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37570
+Desc      The Theramore Docks.~
+#ENDEXIT
+Reset O 0 37529 5 37568
+#ENDROOM
+
+#ROOM
+Vnum     37569
+Name     &BThe Anchor's Rest&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, well-furnished inn built with the elegant 
+craftsmanship of Kul Tiras. The air smells of pine 
+and sea salt.
+~
+#EXIT
+Direction west~
+ToRoom    37568
+Desc      The square.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37570
+Name     &BTheramore - Main Docks&d~
+Sector   city~
+Flags    ~
+Desc     A massive stone pier jutting into the Veiled Sea. Elegant 
+ships are tethered to the docks, and several gryphons rest 
+near the harbor office.
+~
+#EXIT
+Direction east~
+ToRoom    37568
+Desc      The square.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37571
+Name     &BThe Tower of Lady Jaina Proudmoore&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of Theramore's leadership. Lady Jaina Proudmoore 
+stands before a massive table covered in maps and scrolls, 
+ber thoughts focused on the preservation of peace.
+~
+#EXIT
+Direction north~
+ToRoom    37568
+Desc      The square.~
+#ENDEXIT
+Reset M 0 37511 1 37571
+  Reset G 1 37538 1
+#ENDROOM
+
+#ROOM
+Vnum     37572
+Name     &gThe Mirefin Strand - North&d~
+Sector   field~
+Flags    ~
+Desc     A long, sandy beach stretching along the northern coast. 
+Murloc huts made of seaweed and driftwood line the shore, 
+and the air is filled with the sound of gurgling cries.
+~
+#EXIT
+Direction south~
+ToRoom    37573
+Desc      The strand continues south.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37553
+Desc      Return to the Quagmire.~
+#ENDEXIT
+Reset M 0 37503 10 37572
+#ENDROOM
+
+#ROOM
+Vnum     37573
+Name     &gThe Mirefin Strand - South&d~
+Sector   field~
+Flags    ~
+Desc     The beach widens here, meeting the edge of the deep swamp. 
+Murloc oracles can be seen performing rituals in the 
+shallow surf, calling upon the power of the sea.
+~
+#EXIT
+Direction north~
+ToRoom    37572
+Desc      The northern strand.~
+#ENDEXIT
+Reset M 0 37523 5 37573
+Reset O 0 37526 10 37573
+#ENDROOM
+
+#ROOM
+Vnum     37574
+Name     &gThe Wyrmbog - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The vegetation becomes more sparse and charred as you approach 
+the southern bogs. The air is warm and smells of sulfur 
+and ancient scales. Black dragonspawn patrol the narrow 
+stone paths.
+~
+#EXIT
+Direction north~
+ToRoom    37563
+Desc      Return to the road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37575
+Desc      Deep into the Wyrmbog.~
+#ENDEXIT
+Reset M 0 37508 5 37574
+#ENDROOM
+
+#ROOM
+Vnum     37575
+Name     &gDeep Wyrmbog - Center&d~
+Sector   field~
+Flags    ~
+Desc     The heart of the Black Dragonflight's territory in Dustwallow. 
+Massive, obsidian-scaled drakes circle overhead, and the 
+ground is littered with the charred bones of intruders.
+~
+#EXIT
+Direction north~
+ToRoom    37574
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37576
+Desc      Toward the Dragonmurk.~
+#ENDEXIT
+Reset M 0 37520 5 37575
+Reset O 0 37531 10 37575
+#ENDROOM
+
+#ROOM
+Vnum     37576
+Name     &gThe Dragonmurk Ridge&d~
+Sector   field~
+Flags    ~
+Desc     A high stone ridge overlooking the southern marshes. From 
+here, you can see the smoking entrance to the dragon lair. 
+Onyxian whelps play in the warm updrafts rising from the pools.
+~
+#EXIT
+Direction north~
+ToRoom    37575
+Desc      The central Wyrmbog.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37590
+Desc      The Dragonmurk Mouth (Portal to Onyxia's Lair).~
+#ENDEXIT
+Reset M 0 37510 10 37576
+#ENDROOM
+
+#ROOM
+Vnum     37590
+Name     &rThe Dragonmurk Mouth&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand before the massive, jagged entrance to the lair of 
+Onyxia, the Broodmother. The air is blistering hot, and 
+the ground is composed of solid, black glass. A shimmering, 
+fiery portal glows within the deep cavern.
+~
+#EXIT
+Direction north~
+ToRoom    37576
+Desc      Return to the ridge.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     37577
+Name     &gTabetha's Farm - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A small, well-tended clearing in the deep marsh. A humble 
+thatched-roof hut sits in the center, surrounded by 
+several strange, magical gardens.
+~
+#EXIT
+Direction west~
+ToRoom    37562
+Desc      Return to the bogs.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    37578
+Desc      Tabetha's Hut.~
+#ENDEXIT
+Reset M 0 37513 1 37577
+#ENDROOM
+
+#ROOM
+Vnum     37578
+Name     &gTabetha's Hut&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the hut is filled with bookshelves and 
+arcane reagents. A large iron cauldron bubbles in the 
+corner, emitting a pleasant, herbal scent.
+~
+#EXIT
+Direction south~
+ToRoom    37577
+Desc      The farm entrance.~
+#ENDEXIT
+Reset O 0 37547 1 37578
+#ENDROOM
+
+#ROOM
+Vnum     37579
+Name     &gThe Firetree Coven - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A collection of crude leather tents built into the southern 
+cliffs. Firetree trolls move about with religious fervor, 
+preparing for their next dark ritual.
+~
+#EXIT
+Direction north~
+ToRoom    37574
+Desc      Return to the Wyrmbog entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37580
+Desc      The inner coven.~
+#ENDEXIT
+Reset M 0 37522 5 37579
+#ENDROOM
+
+#ROOM
+Vnum     37580
+Name     &gFiretree Coven - Inner Circle&d~
+Sector   field~
+Flags    ~
+Desc     The center of the troll encampment. A large, blackened 
+altar sits in the center, and the sound of constant 
+chanting echoes off the cliff walls.
+~
+#EXIT
+Direction north~
+ToRoom    37579
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 37509 5 37580
+Reset O 0 37549 5 37580
+#ENDROOM
+
+#ROOM
+Vnum     37581
+Name     &gThe Saltpan - North Edge&d~
+Sector   field~
+Flags    ~
+Desc     The marsh gives way to a wide, flat expanse of white salt. 
+The air is incredibly dry here, and the glare of the 
+sun is blinding.
+~
+#EXIT
+Direction west~
+ToRoom    37562
+Desc      Return to the bogs.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37582
+Desc      The saltpan continues south.~
+#ENDEXIT
+Reset M 0 37515 10 37581
+#ENDROOM
+
+#ROOM
+Vnum     37582
+Name     &gThe Saltpan - Heart&d~
+Sector   field~
+Flags    ~
+Desc     The very center of the salt flats. Bleached bones of 
+large beasts are scattered across the white ground, 
+turned into salt-statues by the environment.
+~
+#EXIT
+Direction north~
+ToRoom    37581
+Desc      The northern edge.~
+#ENDEXIT
+Reset M 0 37515 5 37582
+#ENDROOM
+
+#ROOM
+Vnum     37583
+Name     &gThe Grimtotem Post - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A dark, ominous camp tucked away in the deep southern 
+marsh. The tauren here are heavily armed and watch the 
+surrounding paths with suspicion.
+~
+#EXIT
+Direction north~
+ToRoom    37574
+Desc      Return to the Wyrmbog entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37584
+Desc      The inner post.~
+#ENDEXIT
+Reset M 0 37504 5 37583
+#ENDROOM
+
+#ROOM
+Vnum     37584
+Name     &gGrimtotem Post - Inner Circle&d~
+Sector   field~
+Flags    ~
+Desc     The center of the renegade tauren camp. Several captured 
+Theramore marines are kept in small cages, and the 
+sound of dark planning fills the air.
+~
+#EXIT
+Direction north~
+ToRoom    37583
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 37504 5 37584
+#ENDROOM
+
+#ROOM
+Vnum     37585
+Name     &BThe Veiled Sea - Coastline&d~
+Sector   water_noswim~
+Flags    ~
+Desc     The water is shallow and murky, with thick kelp forests 
+waving in the currents. Saltwater snapjaws can be seen 
+swimming near the surface.
+~
+#EXIT
+Direction east~
+ToRoom    37557
+Desc      Swim toward Sardor Isle.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    37572
+Desc      Return to the Mirefin strand.~
+#ENDEXIT
+Reset M 0 37517 5 37585
+#ENDROOM
+
+#ROOM
+Vnum     37586
+Name     &gHidden Mire Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet, dark corner of the eastern swamp, filled with 
+thick stranglekelp and rotting behemoths.
+~
+#EXIT
+Direction south~
+ToRoom    37553
+Desc      The Quagmire entrance.~
+#ENDEXIT
+Reset M 0 37514 1 37586
+Reset O 0 37527 10 37586
+#ENDROOM
+
+#ROOM
+Vnum     37587
+Name     &gHidden Mire Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A gnarled thicket where several giant marsh spiders 
+have built their nests.
+~
+#EXIT
+Direction west~
+ToRoom    37555
+Desc      The Quagmire east.~
+#ENDEXIT
+Reset M 0 37524 10 37587
+#ENDROOM
+
+#ROOM
+Vnum     37588
+Name     &gHidden Mire Overflow C&d~
+Sector   field~
+Flags    ~
+Desc     A small, dry island in the middle of a deep bog, used by 
+strangelost survivors as a temporary camp.
+~
+#EXIT
+Direction north~
+ToRoom    37562
+Desc      The southern bogs.~
+#ENDEXIT
+Reset M 0 37521 5 37588
+#ENDROOM
+
+#ROOM
+Vnum     37589
+Name     &gThe Rotting Hollow&d~
+Sector   field~
+Flags    ~
+Desc     A shallow depression in the swamp floor where several 
+rotting behemoths have gathered.
+~
+#EXIT
+Direction east~
+ToRoom    37554
+Desc      The central Quagmire.~
+#ENDEXIT
+Reset M 0 37514 2 37589
+#ENDROOM
+
+#ROOM
+Vnum     37591
+Name     &gQuagmire Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet corner of the northern Quagmire, filled with 
+Mudrock Turtles sunning themselves.
+~
+#EXIT
+Direction south~
+ToRoom    37553
+Desc      The Quagmire entrance.~
+#ENDEXIT
+Reset M 0 37502 10 37591
+#ENDROOM
+
+#ROOM
+Vnum     37592
+Name     &gQuagmire Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small clearing near the Barrens exit where several 
+Swamp Rats have gathered.
+~
+#EXIT
+Direction east~
+ToRoom    37552
+Desc      The western entrance.~
+#ENDEXIT
+Reset M 0 37515 10 37592
+#ENDROOM
+
+#ROOM
+Vnum     37593
+Name     &gBogs Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A thicket near Tabetha's farm, frequently patrolled by 
+Mottled Crocolisks.
+~
+#EXIT
+Direction south~
+ToRoom    37577
+Desc      Tabetha's farm.~
+#ENDEXIT
+Reset M 0 37507 5 37593
+#ENDROOM
+
+#ROOM
+Vnum     37594
+Name     &gBogs Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A rocky ledge near the salt flats, offering a good 
+view of the southern bogs.
+~
+#EXIT
+Direction west~
+ToRoom    37581
+Desc      The northern saltpan.~
+#ENDEXIT
+Reset M 0 37518 5 37594
+#ENDROOM
+
+#ROOM
+Vnum     37595
+Name     &gWyrmbog Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A charred clearing near the dragon lair, filled with 
+obsidian fragments.
+~
+#EXIT
+Direction north~
+ToRoom    37576
+Desc      The Dragonmurk ridge.~
+#ENDEXIT
+Reset O 0 37550 10 37595
+#ENDROOM
+
+#ROOM
+Vnum     37596
+Name     &gWyrmbog Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A narrow canyon where black dragonspawn stand in silent vigil.
+~
+#EXIT
+Direction east~
+ToRoom    37574
+Desc      The Wyrmbog entrance.~
+#ENDEXIT
+Reset M 0 37508 5 37596
+#ENDROOM
+
+#ROOM
+Vnum     37597
+Name     &BTheramore Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A high balcony in Jaina's tower, offering a view of 
+the western marsh and the distant mainland.
+~
+#EXIT
+Direction down~
+ToRoom    37571
+Desc      Jaina's tower.~
+#ENDEXIT
+Reset M 0 37500 5 37597
+#ENDROOM
+
+#ROOM
+Vnum     37598
+Name     &rBrackenwall Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small storage area near the Horde inn, filled with 
+totems and grog jugs.
+~
+#EXIT
+Direction north~
+ToRoom    37557
+Desc      The village square.~
+#ENDEXIT
+Reset O 0 37548 10 37598
+#ENDROOM
+
+#ROOM
+Vnum     37599
+Name     &gThe Stinky Path&d~
+Sector   field~
+Flags    ~
+Desc     A narrow trail that smells particularly foul. The ghost 
+Stinky can often be found here.
+~
+#EXIT
+Direction south~
+ToRoom    37554
+Desc      The central Quagmire.~
+#ENDEXIT
+Reset M 0 37525 1 37599
+#ENDROOM
+
+#ROOM
+Vnum     37600
+Name     &gThe Haunted Cleft&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small, damp cave where several deserted soldiers 
+have sought refuge from their own memories.
+~
+#EXIT
+Direction east~
+ToRoom    37553
+Desc      The Quagmire entrance.~
+#ENDEXIT
+Reset M 0 37516 10 37600
+#ENDROOM
+
+#ROOM
+Vnum     37601
+Name     &gThe Sun-drenched Bog&d~
+Sector   field~
+Flags    ~
+Desc     A rare gap in the swamp canopy where kingsblood grows 
+in abundance.
+~
+#EXIT
+Direction north~
+ToRoom    37554
+Desc      The central Quagmire.~
+#ENDEXIT
+Reset O 0 37536 10 37601
+#ENDROOM
+
+#ROOM
+Vnum     37602
+Name     &gThe Shifting Shadows&d~
+Sector   field~
+Flags    ~
+Desc     A dark, quiet section of the marsh where the air 
+feels heavy and the spiders hunt.
+~
+#EXIT
+Direction east~
+ToRoom    37554
+Desc      The central Quagmire.~
+#ENDEXIT
+Reset M 0 37506 5 37602
+#ENDROOM
+
+#ROOM
+Vnum     37603
+Name     &gThe Dustwallow Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A hidden trail behind Brackenwall Village leads toward the 
+western mountains, offering a quick way back toward 
+the Barrens.
+~
+#EXIT
+Direction south~
+ToRoom    37557
+Desc      Brackenwall Village.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    37552
+Desc      The western entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
