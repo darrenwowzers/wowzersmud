@@ -1,0 +1,2000 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Silithus~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       55 60 0 60
+Economy      0 75000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       39000
+Keywords   cenarion hold sentinel nightelf warrior~
+Short      a Cenarion Sentinel~
+Long       A Cenarion Sentinel stands at attention, silver armor glinting in the haze.
+~
+Desc       A elite defender of the Cenarion Circle. These night elves have 
+dedicated their lives to watching the shifting sands and 
+preventing the return of the Qiraji empire.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 58 0 0 4500 12000
+Stats2     58 58 400
+Stats3     18 55 58
+Stats4     0 0 0 0 0
+Attribs    22 18 16 12 16 15 15
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       39001
+Keywords   twilight avenger cultist warrior~
+Short      a Twilight Avenger~
+Long       A Twilight cultist in dark robes levels a mace at you.
+~
+Desc       Fanatics of the Twilight's Hammer. They believe that the end of 
+the world is imminent and work to usher in the return of the 
+Old Gods from their camps scattered across the desert.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2800 8000
+Stats2     56 56 200
+Stats3     14 40 56
+Stats4     0 0 0 0 0
+Attribs    24 10 18 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       39002
+Keywords   twilight geologist cultist mage~
+Short      a Twilight Geologist~
+Long       A cultist kneels by a glowing crystal, muttering into the sand.
+~
+Desc       Obsessed with the strange red crystals of Silithus, these 
+mages attempt to channel the latent energy of the earth 
+to summon elemental horrors.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 2200 6500
+Stats2     57 57 1500
+Stats3     12 35 57
+Stats4     0 0 0 0 0
+Attribs    12 14 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       39003
+Keywords   silithid worker insect~
+Short      a Silithid Worker~
+Long       A multi-legged insectoid drone scurries through the white sand.
+~
+Desc       The backbone of the silithid hives. While less aggressive than 
+the warriors, they will defend their tunnels with surprising 
+speed and sharp mandibles.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1500 4500
+Stats2     55 55 0
+Stats3     10 28 55
+Stats4     0 0 0 0 0
+Attribs    18 20 18 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       39004
+Keywords   silithid warrior insect warrior~
+Short      a Silithid Warrior~
+Long       A hulking, chitinous warrior snaps its serrated claws in a threat.
+~
+Desc       Heavy shock troops of the hive. Their shells are as hard as 
+steel and they possess a hive-mind intelligence that makes 
+their attacks coordinated and lethal.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 4000 11000
+Stats2     58 58 0
+Stats3     18 48 58
+Stats4     0 0 0 0 0
+Attribs    28 14 24 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       39005
+Keywords   sand skitterer spider~
+Short      a Sand Skitterer~
+Long       A large, pale spider blends perfectly with the white dunes.
+~
+Desc       These spiders have evolved to hunt in the open desert, 
+burying themselves in the sand to ambush travelers.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1300 3800
+Stats2     54 54 0
+Stats3     11 30 54
+Stats4     0 0 0 0 0
+Attribs    18 22 16 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       39006
+Keywords   giant desert worm beast~
+Short      a Giant Desert Worm~
+Long       The sand erupts as a massive, toothy maw rises from the earth.
+~
+Desc       Vicious scavengers that swim through the sand like water. 
+They sense vibrations from miles away and can swallow a 
+full-grown kodo whole.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 5000 15000
+Stats2     59 59 0
+Stats3     22 60 60
+Stats4     0 0 0 0 0
+Attribs    35 6 30 4 8 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       39007
+Keywords   hakkari shadowpriest troll~
+Short      a Hakkari Shadowpriest~
+Long       A troll in feathered robes mutters a dark prayer to the Blood God.
+~
+Desc       Exiled Atal'ai who have wandered into Silithus. They seek to 
+find a way to bring Hakkar into the physical realm using the 
+dark energies of the desert.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1800 5500
+Stats2     58 58 1200
+Stats3     12 35 58
+Stats4     0 0 0 0 0
+Attribs    12 14 16 30 24 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       39008
+Keywords   shattered rock elemental~
+Short      a Shattered Rock Elemental~
+Long       A being of jagged, floating crystals rumbles with deep magic.
+~
+Desc       Born from the chaotic ley-lines of Silithus, these elementals 
+are composed of red crystal and black obsidian. They are 
+extremely volatile.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3200 9000
+Stats2     57 57 0
+Stats3     16 45 57
+Stats4     0 0 0 0 0
+Attribs    30 4 28 6 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       39009
+Keywords   silithid swarmer insect~
+Short      a Silithid Swarmer~
+Long       A cloud of small, flying insects hums with a deafening buzz.
+~
+Desc       While small individually, the swarmers move as a single 
+lethal unit, stripping the flesh from their prey in seconds.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 800 2400
+Stats2     54 54 0
+Stats3     6 18 54
+Stats4     0 0 0 0 0
+Attribs    12 24 10 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       39010
+Keywords   tortured druid ghost nightelf mage~
+Short      a Tortured Druid~
+Long       A spectral night elf wanders the dunes, clutching his head and wailing.
+~
+Desc       A druid of the Cenarion Circle who lost his mind to the 
+whispers of the Silithid. In death, his spirit remains 
+trapped in a cycle of madness.
+~
+Race       elf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1100 3200
+Stats2     56 56 1000
+Stats3     9 24 56
+Stats4     0 0 0 0 0
+Attribs    10 14 14 26 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       39011
+Keywords   general andorov boss nightelf warrior~
+Short      General Andorov~
+Long       General Andorov stands before the Scarab Wall, sword at the ready.
+~
+Desc       The commander of the Cenarion forces at the front lines. He 
+is a veteran of the War of the Shifting Sands, and he will 
+not let the wall fall again.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 62 0 0 12000 45000
+Stats2     62 62 800
+Stats3     35 110 75
+Stats4     0 0 0 0 0
+Attribs    30 18 28 16 22 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       39012
+Keywords   commander mar'li boss troll warrior~
+Short      High Priestess Mar'li~
+Long       High Priestess Mar'li stands near a crystal, spiders crawling over her.
+~
+Desc       A high-ranking servant of Hakkar who has come to Silithus 
+to bargain with the Silithid. She commands the power of 
+the spider and the void.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 10000 35000
+Stats2     62 62 1500
+Stats3     30 90 70
+Stats4     0 0 0 0 0
+Attribs    24 16 22 25 28 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       39013
+Keywords   lord kazzak elite demon boss~
+Short      Lord Kazzak~
+Long       A towering Doomguard stands atop a ridge, radiating pure malice.
+~
+Desc       A powerful lieutenant of the Burning Legion. He has come 
+to Silithus to exploit the instability caused by the 
+Old Gods. His presence is a shadow over the entire land.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 65 0 0 30000 80000
+Stats2     65 65 2000
+Stats3     45 150 90
+Stats4     0 0 0 0 0
+Attribs    45 10 40 25 35 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       39014
+Keywords   silithid sand-stalker insect~
+Short      a Silithid Sand-stalker~
+Long       A lean insect with translucent wings hovers silently.
+~
+Desc       The elite scouts of the hives. They move with absolute 
+silence, their chitin reflecting the white desert sand 
+to make them nearly invisible.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 2000 5500
+Stats2     57 57 0
+Stats3     13 38 57
+Stats4     0 0 0 0 0
+Attribs    22 24 18 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       39015
+Keywords   cenarion emissary human shaman~
+Short      a Cenarion Emissary~
+Long       A human in druidic robes stands near a large map.
+~
+Desc       Sent from the Moonglade to coordinate the efforts of 
+the Alliance and Horde against the Silithid threat.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 58 0 0 3500 10000
+Stats2     58 58 2000
+Stats3     15 45 58
+Stats4     0 0 0 0 0
+Attribs    14 12 20 30 28 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       39016
+Keywords   twilight overlord cultist warrior~
+Short      a Twilight Overlord~
+Long       A cultist in heavy obsidian plate bark orders to his men.
+~
+Desc       The field commanders of the Twilight's Hammer. They are 
+ruthless and harbor a fanatical devotion to the masters 
+trapped beneath the sand.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 13000
+Stats2     60 60 300
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    28 12 24 14 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       39017
+Keywords   qiraji slayer insect warrior~
+Short      a Qiraji Slayer~
+Long       A terrifying insect-warrior with four arms stands guard.
+~
+Desc       A true Qiraji, escaped from the confines of the Scarab Wall. 
+They are the masters of the Silithid, biological 
+killing machines forged by the Old Gods.
+~
+Race       undead~ // Using undead/spirit base for resistances
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 6000 18000
+Stats2     60 60 400
+Stats3     22 65 60
+Stats4     0 0 0 0 0
+Attribs    32 16 26 18 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       39018
+Keywords   dust-devil elemental~
+Short      a Dust-devil~
+Long       A small, violent whirlwind kicks up sand and debris.
+~
+Desc       Minor air elementals that have been corrupted by the 
+suffocating heat and dark magic of the region.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 950 2800
+Stats2     55 55 0
+Stats3     8 20 55
+Stats4     0 0 0 0 0
+Attribs    16 22 14 12 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       39019
+Keywords   hermit ortell human mage~
+Short      Hermit Ortell~
+Long       A crazed human in tattered robes sits inside a small cave.
+~
+Desc       Ortell was once a scholar of the Twilight's Hammer who 
+escaped their clutches. He now lives in hiding, 
+translating their encrypted texts for anyone who brings 
+him food.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 1800 5000
+Stats2     55 55 2000
+Stats3     12 35 55
+Stats4     0 0 0 0 0
+Attribs    12 14 16 34 26 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       39020
+Keywords   silithid creeper insect~
+Short      a Silithid Creeper~
+Long       A beetle-like insect with a glowing abdomen crawls on the wall.
+~
+Desc       These insects produce a caustic bile that they spit at 
+intruders to weaken their armor before the warriors strike.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1600 4800
+Stats2     56 56 0
+Stats3     11 30 56
+Stats4     0 0 0 0 0
+Attribs    20 16 22 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       39021
+Keywords   twilight geologist cultist mage~
+Short      a Twilight Prophet~
+Long       A cultist stands atop a dune, screaming at the sky.
+~
+Desc       The most fanatical of the cultists. They claim to see 
+visions of the world's end and can call down 
+blasts of shadow to smite the unbelievers.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 2500 7500
+Stats2     59 59 2500
+Stats3     14 42 59
+Stats4     0 0 0 0 0
+Attribs    10 14 16 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       39022
+Keywords   abyssal templar elemental boss~
+Short      an Abyssal Templar~
+Long       A massive elemental in suits of stone armor looms over a crystal.
+~
+Desc       Powerful elemental lords summoned by the Twilight's Hammer. 
+They act as guardians for the cult's most important 
+ritual sites.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 8500 25000
+Stats2     62 62 0
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    35 4 35 10 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       39023
+Keywords   colossus of zora boss insect~
+Short      the Colossus of Zora~
+Long       A titan of the silithid hives, nearly fifty feet tall, erupts from the sand.
+~
+Desc       A massive biological siege engine of the silithid. Its 
+claws can level buildings, and its chitin is nearly 
+impenetrable.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 25000 65000
+Stats2     63 63 0
+Stats3     40 120 80
+Stats4     0 0 0 0 0
+Attribs    45 4 45 6 15 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       39024
+Keywords   cenarion guard nightelf warrior~
+Short      a Cenarion Guard~
+Long       A night elf guard in light leather armor patrols the camp.
+~
+Desc       The rank-and-file soldiers of Cenarion Hold. They are 
+swift, silent, and expertly trained in desert survival.
+~
+Race       elf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 57 0 0 2200 6500
+Stats2     57 57 200
+Stats3     13 38 57
+Stats4     0 0 0 0 0
+Attribs    20 22 16 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       39025
+Keywords   qiraji mindslayer spirit mage~
+Short      a Qiraji Mindslayer~
+Long       A floating, spectral insect-priest radiates a wave of mental pain.
+~
+Desc       The masters of psychological warfare within the Qiraji 
+hierarchy. They strike at the minds of their enemies, 
+causing them to turn on their allies in a fit of madness.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 4000
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    12 14 18 35 32 15 15
+#ENDMOBILE
+
+#OBJECT
+Vnum     39026
+Keywords silithid chitin plate~
+Type     trash~
+Short    a piece of silithid chitin~
+Long     A thick, curved plate of hardened insect shell.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39027
+Keywords twilight text encrypted~
+Type     treasure~
+Short    an Encrypted Twilight Text~
+Long     A small scroll covered in strange, pulsating runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 250 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     39028
+Keywords abyssal crest jewelry~
+Type     jewelry~
+Short    an Abyssal Crest~
+Long     A stone medallion that hums with the power of the earth.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 1500 60 0 0
+Rarity   1
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39029
+Keywords mountain silversage herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     Silvery leaves that thrive in the harsh desert environment.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 350 60 0 0
+Rarity   1
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39030
+Keywords golden sansam herb~
+Type     treasure~
+Short    a Golden Sansam~
+Long     A thick, golden root found buried beneath the white sand.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 400 60 0 0
+Rarity   1
+Affect   5 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39031
+Keywords twilight cultist robe body~
+Type     armor~
+Short    a Twilight Cultist Robe~
+Long     Dark, purple robes embroidered with a weeping eye.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    5 850 55 0 0
+Rarity   1
+Affect   3 8 0 0 0
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39032
+Keywords silithid mandibles trophy~
+Type     trash~
+Short    a pair of silithid mandibles~
+Long     Serrated chitinous pincers taken from a silithid warrior.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     39033
+Keywords cenarion signet ring jewelry~
+Type     jewelry~
+Short    a Cenarion Circle Signet~
+Long     A gold ring featuring the sigil of a spreading tree.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 4500 60 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39034
+Keywords tactical task brief treasure~
+Type     treasure~
+Short    a Tactical Task Briefing~
+Long     A document detailing Cenarion military maneuvers.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 58 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     39035
+Keywords crystal of power treasure~
+Type     treasure~
+Short    a Glowing Red Crystal~
+Long     A jagged shard of crystal that vibrates with power.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 1200 60 0 0
+Rarity   1
+Affect   13 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39036
+Keywords sand worm meat food~
+Type     food~
+Short    a slab of sand worm meat~
+Long     Tough, stringy meat that tastes faintly of sulfur.~
+WFlags   take~
+Values   30 0 0 0 0 0
+Stats    5 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39037
+Keywords qiraji artifact loot~
+Type     treasure~
+Short    a Qiraji Ancient Artifact~
+Long     A strange, alien device made of obsidian and bone.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 8500 62 0 0
+Rarity   3
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39038
+Keywords twilight signet ring~
+Type     jewelry~
+Short    a Twilight Signet Ring~
+Long     An obsidian ring that feels freezing cold to the touch.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 2500 58 0 0
+Rarity   2
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39039
+Keywords silithid brain loot~
+Type     trash~
+Short    a pulsing silithid brain~
+Long     A soft, grey organ that still twitches with hive-mind energy.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 500 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     39040
+Keywords desert wind boots feet~
+Type     armor~
+Short    a pair of Desert Wind Boots~
+Long     Light leather boots reinforced with sprite darter scales.~
+WFlags   take feet~
+Values   10 0 0 0 0 0
+Stats    4 1800 58 0 0
+Rarity   2
+Affect   2 12 0 0 0
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39041
+Keywords kazzak's core treasure~
+Type     treasure~
+Short    the Heart of Kazzak~
+Long     A massive, burning demonic core that radiates intense heat.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    15 25000 65 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   5 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39042
+Keywords sand-dusted goggles head~
+Type     armor~
+Short    a pair of sand-dusted goggles~
+Long     Goggles with dark lenses designed to block the desert glare.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    2 450 55 0 0
+Rarity   1
+Affect   2 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39043
+Keywords crystalline mace weapon~
+Type     weapon~
+Short    a Crystalline Earth-mace~
+Long     A mace with a head made of solid, vibrating red crystal.~
+WFlags   take wield~
+Values   12 18 30 8 0 0
+Stats    15 6500 60 0 0
+Rarity   2
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39044
+Keywords thorium bar mineral~
+Type     treasure~
+Short    a solid Thorium Bar~
+Long     A heavy bar of refined, shimmering green thorium.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     39045
+Keywords truesilver bar mineral~
+Type     treasure~
+Short    a solid Truesilver Bar~
+Long     A bar of white-hot, brilliant truesilver metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 2800 60 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     39046
+Keywords dreamfoil herb~
+Type     treasure~
+Short    a bundle of Dreamfoil~
+Long     Silvery leaves that smell of MOONGlow and ancient dreams.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 60 0 0
+Rarity   1
+Affect   3 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39047
+Keywords hakkari bone-staff weapon~
+Type     weapon~
+Short    a Hakkari Bone-staff~
+Long     A staff made of bleached wood and dragon-bone, stained with blood.~
+WFlags   take wield~
+Values   12 12 24 7 0 0
+Stats    10 3500 58 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39048
+Keywords silithid ichor flask~
+Type     treasure~
+Short    a flask of Silithid Ichor~
+Long     A glass vial filled with a thick, yellow-green insect fluid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 55 0 0
+Rarity   1
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39049
+Keywords Cenarion beacon hold~
+Type     treasure~
+Short    a Cenarion Beacon~
+Long     A small, stone beacon that hums with the call of the wild.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 800 60 0 0
+Rarity   2
+Affect   14 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     39050
+Keywords obsidian shard trophy~
+Type     trash~
+Short    a jagged obsidian shard~
+Long     A sharp piece of black glass found near the scarab wall.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     39051
+Keywords might of kalimdor sword weapon~
+Type     weapon~
+Short    the Might of Kalimdor~
+Long     A massive, ornate two-handed sword given to the desert's heroes.~
+WFlags   take wield~
+Values   12 20 40 3 0 0
+Stats    25 15000 65 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   12 25 0 0 0
+Affect   13 25 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     39052
+Name     &WNorthern Entrance from Feralas&d~
+Sector   field~
+Flags    ~
+Desc     The lush greenery of Feralas is left behind as you step into a 
+blinding white desert. The air is dry and tastes of dust and 
+ancient things. Massive cliffs of white sandstone rise on either 
+side of the narrow pass, and the wind howls between the rocks 
+like a dying animal. A wide, sand-swept road leads south toward 
+the center of the wastes.
+~
+#EXIT
+Direction out~
+ToRoom    37101
+Desc      Return to the southern pass in Feralas.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39053
+Desc      The path leads into the Silithus desert.~
+#ENDEXIT
+Reset M 0 39005 5 39052
+#ENDROOM
+
+#ROOM
+Vnum     39053
+Name     &WThe Shifting Sands - North&d~
+Sector   field~
+Flags    ~
+Desc     Flat, white plains stretch out in every direction. The glare of 
+the sun is intense, making it difficult to see more than a few 
+hundred yards. Small dust-devils dance across the dunes, 
+kicking up fine white silt that coats everything in a layer of 
+grit.
+~
+#EXIT
+Direction north~
+ToRoom    39052
+Desc      The northern entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39054
+Desc      The road continues south.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39058
+Desc      A trail leads toward the Crystal Vale.~
+#ENDEXIT
+Reset M 0 39018 5 39053
+#ENDROOM
+
+#ROOM
+Vnum     39054
+Name     &WThe High Desert Road&d~
+Sector   field~
+Flags    ~
+Desc     A wide road marked by large stone pillars. To the south, the 
+towers of a major outpost are visible against the horizon. 
+Silithid workers can be seen scurrying across the dunes, 
+carrying bits of chitin and bone toward the east.
+~
+#EXIT
+Direction north~
+ToRoom    39053
+Desc      Northern Shifting Sands.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39061
+Desc      Entrance to Cenarion Hold.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    39055
+Desc      Toward the Twilight Base Camp.~
+#ENDEXIT
+Reset M 0 39003 5 39054
+#ENDROOM
+
+#ROOM
+Vnum     39055
+Name     &mTwilight Base Camp - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A cluster of purple and black tents built in the shadow of a 
+large, red crystal formation. Twilight cultists move with 
+religious intensity, ignoring the heat of the desert.
+~
+#EXIT
+Direction east~
+ToRoom    39054
+Desc      Return to the road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39056
+Desc      The inner camp.~
+#ENDEXIT
+Reset M 0 39001 5 39055
+#ENDROOM
+
+#ROOM
+Vnum     39056
+Name     &mTwilight Base Camp - Inner Circle&d~
+Sector   field~
+Flags    ~
+Desc     The center of the cultist camp. A large, smoking brazier burns 
+in the middle of a ritual circle drawn in the sand. 
+Geologists work to extract power from the nearby crystals.
+~
+#EXIT
+Direction north~
+ToRoom    39055
+Desc      The camp entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    39057
+Desc      The Overlord's Tent.~
+#ENDEXIT
+Reset M 0 39002 5 39056
+Reset O 0 39031 5 39056
+#ENDROOM
+
+#ROOM
+Vnum     39057
+Name     &mTent of the Twilight Overlord&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, well-furnished tent filled with dark artifacts and 
+encrypted scrolls. The air inside is heavy with the scent 
+of burning incense and shadow magic.
+~
+#EXIT
+Direction east~
+ToRoom    39056
+Desc      The inner circle.~
+#ENDEXIT
+Reset M 0 39016 1 39057
+  Reset G 1 39038 1
+#ENDROOM
+
+#ROOM
+Vnum     39058
+Name     &WThe Crystal Vale - Entry&d~
+Sector   field~
+Flags    ~
+Desc     A shallow valley filled with towering shards of red and blue 
+crystal. The air here hums with magical energy, and the 
+ground is covered in fine crystalline dust.
+~
+#EXIT
+Direction west~
+ToRoom    39053
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39059
+Desc      Deep into the vale.~
+#ENDEXIT
+Reset M 0 39008 5 39058
+#ENDROOM
+
+#ROOM
+Vnum     39059
+Name     &WThe Crystal Vale - Heart&d~
+Sector   field~
+Flags    ~
+Desc     The center of the valley is dominated by a single crystal 
+shard of immense size. It pulses with a rhythmic, low-
+frequency sound that can be felt in the marrow of your 
+bones. Shattered rock elementals roam the area.
+~
+#EXIT
+Direction west~
+ToRoom    39058
+Desc      The vale entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    39060
+Desc      The Templar's Spire.~
+#ENDEXIT
+Reset M 0 39008 10 39059
+Reset O 0 39035 10 39059
+#ENDROOM
+
+#ROOM
+Vnum     39060
+Name     &WThe Abyssal Templar's Spire&d~
+Sector   field~
+Flags    ~
+Desc     A high stone platform built into the valley wall. A 
+massive elemental templar stands guard here, protecting 
+the most potent crystal formations.
+~
+#EXIT
+Direction south~
+ToRoom    39059
+Desc      The vale heart.~
+#ENDEXIT
+Reset M 0 39022 1 39060
+  Reset G 1 39028 1
+#ENDROOM
+
+#ROOM
+Vnum     39061
+Name     &GCenarion Hold - North Gate&d~
+Sector   city~
+Flags    ~
+Desc     The primary entrance to the Cenarion Circle's desert 
+stronghold. Two high stone towers flank the gate, and 
+sentinels watch the road from the ramparts. The air 
+here is significantly cooler, thanks to the magic 
+emanating from the hold's central moonwell.
+~
+#EXIT
+Direction north~
+ToRoom    39054
+Desc      The desert road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39062
+Desc      Cenarion Hold Plaza.~
+#ENDEXIT
+Reset M 0 39000 5 39061
+#ENDROOM
+
+#ROOM
+Vnum     39062
+Name     &GCenarion Hold - Town Plaza&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the hold is busy with druids and warriors 
+from all races. A beautiful moonwell sits in the center 
+of the square, and several large stone buildings provide 
+shelter, trade, and tactical planning.
+~
+#EXIT
+Direction north~
+ToRoom    39061
+Desc      The north gate.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39063
+Desc      The Cenarion Inn.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39065
+Desc      The Commander's Hall.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    39064
+Desc      The Flight Roost.~
+#ENDEXIT
+Reset O 0 39033 1 39062
+#ENDROOM
+
+#ROOM
+Vnum     39063
+Name     &GThe Druid's Rest&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, quiet inn filled with the scent of pine and 
+sweetgrass. Leather-bound books and dried herbs line 
+the walls, providing a peaceful retreat from the desert.
+~
+#EXIT
+Direction west~
+ToRoom    39062
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     39064
+Name     &GCenarion Hold - Flight Roost&d~
+Sector   city~
+Flags    ~
+Desc     A high stone ledge overlooking the northern sands. Several 
+gryphons and hippogryphs rest here, ready to carry 
+travelers across the continent.
+~
+#EXIT
+Direction east~
+ToRoom    39062
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     39065
+Name     &GThe Cenarion Commander's Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The primary military building in the hold. Tactical maps 
+of the silithid hives are pinned to the walls, and 
+General Andorov can often be seen here reviewing reports.
+~
+#EXIT
+Direction north~
+ToRoom    39062
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 39015 1 39065
+#ENDROOM
+
+#ROOM
+Vnum     39066
+Name     &WThe Shifting Sands - South&d~
+Sector   field~
+Flags    ~
+Desc     The desert road leads south from the hold toward the 
+massive, pulsating hives of the Silithid. The white 
+sand is increasingly churned and broken, and the smell 
+of insectoid rot becomes intense.
+~
+#EXIT
+Direction north~
+ToRoom    39061
+Desc      Return to Cenarion Hold.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39067
+Desc      Toward Hive'Zora.~
+#ENDEXIT
+Reset M 0 39003 5 39066
+#ENDROOM
+
+#ROOM
+#39067
+Name     &yHive'Zora - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A massive, chitinous tower erupts from the sand. Silithid 
+warriors patrol the perimeter of the entrance, and 
+thousands of smaller insects swarm in the air.
+~
+#EXIT
+Direction north~
+ToRoom    39066
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    39068
+Desc      Enter Hive'Zora.~
+#ENDEXIT
+Reset M 0 39004 5 39067
+#ENDROOM
+
+#ROOM
+Vnum     39068
+Name     &yHive'Zora - Upper Tunnels&d~
+Sector   underground~
+Flags    indoors~
+Desc     The interior of the hive is warm and moist. The walls are 
+composed of a hardened, resin-like substance, and the 
+hum of the hive-mind is constant and deafening.
+~
+#EXIT
+Direction up~
+ToRoom    39067
+Desc      Return to the surface.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    39069
+Desc      Deep Hive'Zora.~
+#ENDEXIT
+Reset M 0 39003 10 39068
+#ENDROOM
+
+#ROOM
+Vnum     39069
+Name     &yHive'Zora - Deep Chambers&d~
+Sector   underground~
+Flags    indoors~
+Desc     The deepest part of the hive. Massive silithid creepers 
+guard the egg sacs, and the air is thick with the 
+scent of caustic bile.
+~
+#EXIT
+Direction up~
+ToRoom    39068
+Desc      Upper tunnels.~
+#ENDEXIT
+Reset M 0 39020 5 39069
+Reset O 0 39032 5 39069
+#ENDROOM
+
+#ROOM
+Vnum     39070
+Name     &WThe Southwind Village - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     Once a thriving night elven outpost, Southwind Village is 
+now a haunted ruin infested with Silithid. The white 
+marble buildings are stained with ichor and shadows.
+~
+#EXIT
+Direction north~
+ToRoom    39066
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39071
+Desc      The village center.~
+#ENDEXIT
+Reset M 0 39010 5 39070
+#ENDROOM
+
+#ROOM
+Vnum     39071
+Name     &WThe Southwind Village - Center&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the ruined village. A cracked fountain is 
+now a nest for silithid swarmers, and the air is 
+filled with the screams of tortured spirits.
+~
+#EXIT
+Direction north~
+ToRoom    39070
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39072
+Desc      The Village Hall ruins.~
+#ENDEXIT
+Reset M 0 39009 10 39071
+#ENDROOM
+
+#ROOM
+Vnum     39072
+Name     &WThe Southwind Village Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The grandest building in the village is now a shell. 
+Silithid warriors have established a barracks within 
+ the main hall.
+~
+#EXIT
+Direction west~
+ToRoom    39071
+Desc      The square.~
+#ENDEXIT
+Reset M 0 39004 5 39072
+Reset O 0 39026 10 39072
+#ENDROOM
+
+#ROOM
+Vnum     39073
+Name     &WThe Scorched Sands - West&d~
+Sector   field~
+Flags    ~
+Desc     A section of the desert that has been turned into glass by 
+intense elemental heat. To the south, a massive 
+volcanic ridge rises from the plain.
+~
+#EXIT
+Direction east~
+ToRoom    39066
+Desc      The desert road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39074
+Desc      The path to Lord Kazzak.~
+#ENDEXIT
+Reset M 0 39018 5 39073
+#ENDROOM
+
+#ROOM
+Vnum     39074
+Name     &WThe Ridge of Malice - Entry&d~
+Sector   field~
+Flags    ~
+Desc     The air becomes blistering hot as you approach the volcanic 
+ridge. The scent of brimstone and fel magic is 
+overwhelming, and the sky turns a sickly green.
+~
+#EXIT
+Direction north~
+ToRoom    39073
+Desc      The scorched sands.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39075
+Desc      Kazzak's Overlook.~
+#ENDEXIT
+Reset M 0 39018 5 39074
+#ENDROOM
+
+#ROOM
+Vnum     39075
+Name     &WLord Kazzak's Overlook&d~
+Sector   field~
+Flags    ~
+Desc     The highest point of the southern ridge. Lord Kazzak 
+stands here, his massive form silhouetted against the 
+bruised sky. He watches the world with an unblinking 
+stare of pure hatred.
+~
+#EXIT
+Direction north~
+ToRoom    39074
+Desc      The ridge entry.~
+#ENDEXIT
+Reset M 0 39013 1 39075
+  Reset G 1 39041 1
+#ENDROOM
+
+#ROOM
+Vnum     39076
+Name     &WThe Shifting Sands - East&d~
+Sector   field~
+Flags    ~
+Desc     The desert widens toward the east, where the mountains 
+of Thousand Needles meet the Silithus wastes. Large 
+sand worms can be seen undulating beneath the surface.
+~
+#EXIT
+Direction west~
+ToRoom    39066
+Desc      The desert road.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39077
+Desc      Toward Hive'Ashi.~
+#ENDEXIT
+Reset M 0 39006 5 39076
+#ENDROOM
+
+#ROOM
+Vnum     39077
+Name     &yHive'Ashi - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The second major hive in Silithus. The entrance is a 
+massive mound of hardened earth and ichor, swarming 
+with silithid workers and drones.
+~
+#EXIT
+Direction west~
+ToRoom    39076
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    39078
+Desc      Enter Hive'Ashi.~
+#ENDEXIT
+Reset M 0 39003 5 39077
+#ENDROOM
+
+#ROOM
+Vnum     39078
+Name     &yHive'Ashi - Upper Tunnels&d~
+Sector   underground~
+Flags    indoors~
+Desc     A series of cramped, dark tunnels leading into the heart of 
+the eastern hive. The air is stagnant and smells of 
+ammonia.
+~
+#EXIT
+Direction up~
+ToRoom    39077
+Desc      Return to the surface.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    39079
+Desc      Deep Hive'Ashi.~
+#ENDEXIT
+Reset M 0 39003 10 39078
+#ENDROOM
+
+#ROOM
+Vnum     39079
+Name     &yHive'Ashi - Deep Chambers&d~
+Sector   underground~
+Flags    indoors~
+Desc     The heart of Hive'Ashi. A massive silithid colossus often 
+dwells here, overseeing the production of new swarmers.
+~
+#EXIT
+Direction up~
+ToRoom    39078
+Desc      Upper tunnels.~
+#ENDEXIT
+Reset M 0 39023 1 39079
+Reset O 0 39039 5 39079
+#ENDROOM
+
+#ROOM
+Vnum     39080
+Name     &WThe Twilight Outpost - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A collection of crude stone walls and black banners 
+near the eastern mountains. Twilight avengers patrol the 
+perimeter with grim purpose.
+~
+#EXIT
+Direction west~
+ToRoom    39076
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39081
+Desc      The inner outpost.~
+#ENDEXIT
+Reset M 0 39001 5 39080
+#ENDROOM
+
+#ROOM
+Vnum     39081
+Name     &WThe Twilight Outpost - Center&d~
+Sector   field~
+Flags    ~
+Desc     The center of the eastern cultist camp. A large stone 
+altar is used for the ritual slaughter of desert 
+wildlife and travelers.
+~
+#EXIT
+Direction west~
+ToRoom    39080
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    39082
+Desc      The Prophet's Outlook.~
+#ENDEXIT
+Reset M 0 39021 5 39081
+Reset O 0 39027 5 39081
+#ENDROOM
+
+#ROOM
+Vnum     39082
+Name     &WThe Twilight Prophet's Outlook&d~
+Sector   field~
+Flags    ~
+Desc     A high stone ridge overlooking the eastern desert. A 
+Twilight Prophet stands here, preaching to the wind 
+about the coming darkness.
+~
+#EXIT
+Direction south~
+ToRoom    39081
+Desc      The outpost center.~
+#ENDEXIT
+Reset M 0 39021 1 39082
+#ENDROOM
+
+#ROOM
+Vnum     39083
+Name     &WThe Hidden Cleft - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A small, unassuming crack in the western mountains. The 
+white sand has drifted high against the entrance, 
+nearly concealing it from view.
+~
+#EXIT
+Direction east~
+ToRoom    39053
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    39084
+Desc      Ortell's Hideout.~
+#ENDEXIT
+Reset M 0 39005 5 39083
+#ENDROOM
+
+#ROOM
+Vnum     39084
+Name     &WHERMIT ORTELL'S HIDEOUT&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the small cave is filled with stacks of 
+parchment and half-eaten desert worms. Hermit Ortell 
+sits in a corner, scribbling madly by the light of a 
+single candle.
+~
+#EXIT
+Direction east~
+ToRoom    39083
+Desc      The cleft entrance.~
+#ENDEXIT
+Reset M 0 39019 1 39084
+#ENDROOM
+
+#ROOM
+Vnum     39085
+Name     &WThe Village of Zul'Mashar - Ruins&d~
+Sector   field~
+Flags    ~
+Desc     The remains of a small troll village that has been 
+overrun by the silithid. Shattered ziggurats and 
+overturned idols are scattered through the sand.
+~
+#EXIT
+Direction west~
+ToRoom    39076
+Desc      Return to the sands.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    39086
+Desc      The High Priestess's Altar.~
+#ENDEXIT
+Reset M 0 39007 5 39085
+#ENDROOM
+
+#ROOM
+Vnum     39086
+Name     &WThe Altar of High Priestess Mar'li&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive basalt altar covered in thick webbing. High 
+Priestess Mar'li stands here, her hands glowing with 
+shadowy power as she communes with the hive-mind.
+~
+#EXIT
+Direction west~
+ToRoom    39085
+Desc      The village ruins.~
+#ENDEXIT
+Reset M 0 39012 1 39086
+  Reset G 1 39047 1
+#ENDROOM
+
+#ROOM
+Vnum     39087
+Name     &WThe Shifting Sands - Central&d~
+Sector   field~
+Flags    ~
+Desc     The very center of the Silithus wastes. A constant wind 
+blows here, uncovering and burying ancient ruins with 
+every passing hour.
+~
+#EXIT
+Direction north~
+ToRoom    39054
+Desc      The desert road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39090
+Desc      The road to the Scarab Wall.~
+#ENDEXIT
+Reset M 0 39014 5 39087
+#ENDROOM
+
+#ROOM
+Vnum     39088
+Name     &WThe Glistening Dunes&d~
+Sector   field~
+Flags    ~
+Desc     A field of fine, diamond-like sand that sparkles with 
+unnatural intensity. Small scorpions skitter through 
+the shimmering dunes.
+~
+#EXIT
+Direction west~
+ToRoom    39087
+Desc      The central sands.~
+#ENDEXIT
+Reset M 0 39005 10 39088
+Reset O 0 39042 10 39088
+#ENDROOM
+
+#ROOM
+Vnum     39089
+Name     &WThe Silent Canyons&d~
+Sector   field~
+Flags    ~
+Desc     Deep, white sandstone canyons near the southern border. 
+The air is absolute still, and every sound echoes 
+with eerie clarity.
+~
+#EXIT
+Direction north~
+ToRoom    39087
+Desc      The central sands.~
+#ENDEXIT
+Reset M 0 39006 5 39089
+#ENDROOM
+
+#ROOM
+Vnum     39090
+Name     &WThe Road to the Scarab Wall - North&d~
+Sector   field~
+Flags    ~
+Desc     A wide road of massive stone pavers leading toward the 
+southern mountains. The ground vibrates with a heavy, 
+rhythmic thrumming, like a giant heart beating 
+beneath the earth.
+~
+#EXIT
+Direction north~
+ToRoom    39087
+Desc      The central sands.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    39091
+Desc      The road continues south.~
+#ENDEXIT
+Reset M 0 39017 5 39090
+#ENDROOM
+
+#ROOM
+Vnum     39091
+Name     &WThe Road to the Scarab Wall - South&d~
+Sector   field~
+Flags    ~
+Desc     The road turns sharply to the west as it approaches the 
+massive stone barrier. The air is thick with the scent 
+of ancient magic and the hum of the hive.
+~
+#EXIT
+Direction north~
+ToRoom    39091
+Desc      The northern road.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    39100
+Desc      The Scarab Wall.~
+#ENDEXIT
+Reset M 0 39017 5 39091
+#ENDROOM
+
+#ROOM
+Vnum     39100
+Name     &rThe Scarab Wall&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand before the legendary Scarab Wall, a massive 
+barrier of stone and magic that once held back the 
+Qiraji empire. The wall is etched with thousands of 
+runes, and a grand gong stands in the center of the 
+plaza. Two shimmering portals glow within the wall's 
+main gates, leading into the Ruins and Temple of Ahn'Qiraj.
+~
+#EXIT
+Direction east~
+ToRoom    39091
+Desc      Return to the road.~
+#ENDEXIT
+Reset M 0 39011 1 39100
+  Reset G 1 39051 1
+Reset M 0 39025 5 39100
+#ENDROOM
+
+#ROOM
+Vnum     39092
+Name     &GCenarion Hold Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small storage area near the hold's commander, filled with 
+tactical briefs and medicinal herbs.
+~
+#EXIT
+Direction north~
+ToRoom    39062
+Desc      The town plaza.~
+#ENDEXIT
+Reset O 0 39034 10 39092
+#ENDROOM
+
+#ROOM
+Vnum     39093
+Name     &GCenarion Hold Overflow B&d~
+Sector   city~
+Flags    ~
+Desc     A quiet ridge north of the hold, where sentinels keep 
+watch over the northern desert road.
+~
+#EXIT
+Direction south~
+ToRoom    39062
+Desc      The town plaza.~
+#ENDEXIT
+Reset M 0 39024 5 39093
+#ENDROOM
+
+#ROOM
+Vnum     39094
+Name     &yHive Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A side tunnel in the silithid hive, filled with 
+piles of large, discarded chitin plates.
+~
+#EXIT
+Direction east~
+ToRoom    39068
+Desc      Upper Hive'Zora.~
+#ENDEXIT
+Reset O 0 39026 10 39094
+#ENDROOM
+
+#ROOM
+Vnum     39095
+Name     &yHive Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, damp chamber where the silithid store their 
+paralyzed prey for later consumption.
+~
+#EXIT
+Direction west~
+ToRoom    39068
+Desc      Upper Hive'Zora.~
+#ENDEXIT
+Reset M 0 39003 5 39095
+#ENDROOM
+
+#ROOM
+Vnum     39096
+Name     &WDesert Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet section of the white sands, dominated by 
+large sandstone boulders and sparse vegetation.
+~
+#EXIT
+Direction south~
+ToRoom    39053
+Desc      The northern sands.~
+#ENDEXIT
+Reset O 39029 10 39096
+#ENDROOM
+
+#ROOM
+Vnum     39097
+Name     &WDesert Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small, dusty hollow where several sand skitterers 
+have made their den.
+~
+#EXIT
+Direction north~
+ToRoom    39066
+Desc      The southern sands.~
+#ENDEXIT
+Reset M 0 39005 10 39097
+#ENDROOM
+
+#ROOM
+Vnum     39098
+Name     &WDesert Overflow C&d~
+Sector   field~
+Flags    ~
+Desc     A flat, wind-swept section of the central desert, 
+frequently patrolled by silithid sand-stalkers.
+~
+#EXIT
+Direction west~
+ToRoom    39087
+Desc      The central sands.~
+#ENDEXIT
+Reset M 0 39014 10 39098
+#ENDROOM
+
+#ROOM
+Vnum     39099
+Name     &WDesert Overflow D&d~
+Sector   field~
+Flags    ~
+Desc     A rocky outcrop near the Scarab Wall, offering a 
+good view of the massive stone gates.
+~
+#EXIT
+Direction east~
+ToRoom    39090
+Desc      The Scarab road.~
+#ENDEXIT
+Reset M 0 39017 5 39099
+#ENDROOM
+
+#ROOM
+Vnum     39101
+Name     &WThe Silithus Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A hidden trail behind Cenarion Hold leads toward the 
+northern mountains, offering a quick way back toward 
+Feralas for those who can navigate the cliffs.
+~
+#EXIT
+Direction south~
+ToRoom    39062
+Desc      Cenarion Hold plaza.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    39052
+Desc      The northern entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     39102
+Name     &WThe Sunken Valley&d~
+Sector   field~
+Flags    ~
+Desc     A deep depression in the southeastern corner of Silithus. 
+The air here is remarkably still and heavy with the 
+scent of old magic.
+~
+#EXIT
+Direction north~
+ToRoom    39076
+Desc      Eastern Shifting Sands.~
+#ENDEXIT
+Reset O 0 39037 1 39102
+#ENDROOM
+
+#ROOM
+Vnum     39103
+Name     &WThe White Horizon&d~
+Sector   field~
+Flags    ~
+Desc     The very edge of the desert where the white sand meets the 
+unreachable mountains. From here, the world feels vast 
+and terrifyingly empty.
+~
+#EXIT
+Direction north~
+ToRoom    39053
+Desc      Northern Shifting Sands.~
+#ENDEXIT
+Reset O 0 39030 10 39103
+#ENDROOM
+
+#ENDAREA
