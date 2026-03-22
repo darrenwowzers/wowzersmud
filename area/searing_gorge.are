@@ -1,0 +1,1852 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Searing Gorge~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       43 50 0 60
+Economy      0 45000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       36500
+Keywords   dark iron taskmaster dwarf~
+Short      a Dark Iron Taskmaster~
+Long       A Dark Iron Taskmaster cracks a whip over a group of exhausted slaves.
+~
+Desc       Cruel and soot-covered, these dwarves oversee the endless mining 
+operations within the Gorge. They wear heavy black iron plate 
+and harbor an intense hatred for anyone not of their clan.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1800 5000
+Stats2     45 45 200
+Stats3     12 30 45
+Stats4     0 0 0 0 0
+Attribs    22 10 16 12 14 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   dwarven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       36501
+Keywords   dark iron slaver dwarf~
+Short      a Dark Iron Slaver~
+Long       A Dark Iron Slaver prowls the slag heaps, searching for escapees.
+~
+Desc       Equipped with nets and manacles, these dwarves are specialized 
+in capturing the "lesser races" to fuel the forges of Blackrock 
+Mountain.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1600 4500
+Stats2     44 44 150
+Stats3     10 28 44
+Stats4     0 0 0 0 0
+Attribs    20 12 14 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36502
+Keywords   dark iron geomancer dwarf shaman~
+Short      a Dark Iron Geomancer~
+Long       A Dark Iron Geomancer commands the very stone to rise and strike.
+~
+Desc       Masters of the earth and flame, these shamans have traded 
+their ancestral traditions for the raw, destructive power 
+of the Firelord, Ragnaros.
+~
+Race       dwarf~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 1300 3800
+Stats2     46 46 800
+Stats3     8 22 46
+Stats4     0 0 0 0 0
+Attribs    12 14 16 24 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36503
+Keywords   magma elemental spirit~
+Short      a Magma Elemental~
+Long       A churning mass of molten rock and orange flame rumbles toward you.
+~
+Desc       Manifestations of the mountain's rage. These elementals bleed 
+pure lava and leave scorched trails wherever they slide.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 2500 7000
+Stats2     47 47 0
+Stats3     15 35 47
+Stats4     0 0 0 0 0
+Attribs    28 6 25 4 10 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       36504
+Keywords   greater obsidian slagspider spider~
+Short      a Greater Obsidian Slagspider~
+Long       A massive spider with a shell of jagged black glass skitters by.
+~
+Desc       The heat of the Gorge has forged the shells of these spiders 
+into a substance harder than steel. Their venom is a boiling 
+acid that melts armor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1400 3600
+Stats2     45 45 0
+Stats3     10 25 45
+Stats4     0 0 0 0 0
+Attribs    20 18 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       36505
+Keywords   firegut ogre brute~
+Short      a Firegut Brute~
+Long       A hulking Firegut Ogre bellows, soot puffing from his nostrils.
+~
+Desc       The Firegut clan has a tenuous alliance with the Dark Irons. 
+They provide the heavy lifting in exchange for scraps of 
+molten iron and charred meat.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 4000 11000
+Stats2     48 48 0
+Stats3     18 45 48
+Stats4     0 0 0 0 0
+Attribs    30 6 22 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36506
+Keywords   heavy war golem construct~
+Short      a Heavy War Golem~
+Long       A massive iron golem rumbles to life, gears grinding with heat.
+~
+Desc       A triumph of Dark Iron engineering. These automatons are 
+powered by heart-stones taken from fire elementals and 
+exist only to crush intruders.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 5000 15000
+Stats2     50 50 0
+Stats3     20 50 50
+Stats4     0 0 0 0 0
+Attribs    35 4 30 10 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36507
+Keywords   infernal sentry demon~
+Short      an Infernal Sentry~
+Long       A pile of green-flaming rock stands motionless against a pillar.
+~
+Desc       The Burning Legion's influence has touched even the Gorge. 
+These sentries watch for any sign of betrayal from the 
+dwarven "allies."
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 3500 10000
+Stats2     48 48 200
+Stats3     16 40 48
+Stats4     0 0 0 0 0
+Attribs    28 10 24 14 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36508
+Keywords   thorium brotherhood scout dwarf~
+Short      a Brotherhood Scout~
+Long       A dwarf in sturdy leather armor watches the slag heaps.
+~
+Desc       A member of the Thorium Brotherhood. They are master 
+smiths who have broken away from the Dark Iron clan to 
+seek their own path... and profit.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 48 0 0 2500 7000
+Stats2     48 48 300
+Stats3     12 35 48
+Stats4     0 0 0 0 0
+Attribs    22 14 16 12 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       36509
+Keywords   overmaster pyron boss elemental~
+Short      Overmaster Pyron~
+Long       Overmaster Pyron, a colossal fire elemental, guards the iron bridge.
+~
+Desc       The warden of the gates to Blackrock Mountain. Pyron is a 
+living inferno, tasked by the Dark Iron Emperor himself with 
+burning all who approach the mountain.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 8000 22000
+Stats2     52 52 500
+Stats3     25 65 55
+Stats4     0 0 0 0 0
+Attribs    35 8 30 18 25 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       36510
+Keywords   dark iron steamsmith dwarf~
+Short      a Dark Iron Steamsmith~
+Long       A dwarf hammers at a piece of glowing metal, steam hissing.
+~
+Desc       Responsible for maintaining the complex machinery of the 
+Gorge. They are never without their heavy iron hammers.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1500 4200
+Stats2     44 44 100
+Stats3     10 25 44
+Stats4     0 0 0 0 0
+Attribs    20 10 16 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36511
+Keywords   molten giant elite~
+Short      a Molten Giant~
+Long       A gargantuan figure of living magma towers over the terrain.
+~
+Desc       Only seen near the deep fissures leading to the Molten Core. 
+A single footstep from this titan can cause a localized 
+earthquake.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 20000 50000
+Stats2     60 60 0
+Stats3     40 110 80
+Stats4     0 0 0 0 0
+Attribs    45 4 40 10 20 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       36512
+Keywords   firegut shaman ogre~
+Short      a Firegut Shaman~
+Long       An ogre mutters to a burning skull, eyes glowing orange.
+~
+Desc       The spiritual leaders of the Firegut clan. They can summon 
+balls of flame and encase their warriors in stone skin.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 2200 6500
+Stats2     47 47 800
+Stats3     12 30 47
+Stats4     0 0 0 0 0
+Attribs    20 10 18 22 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36513
+Keywords   dark iron reaver dwarf warrior~
+Short      a Dark Iron Reaver~
+Long       A Dark Iron Reaver stands in heavy black-iron plate.
+~
+Desc       The elite infantry of the Dark Iron clan. They are trained 
+to fight in the tight corridors of the mountain and the 
+burning heat of the Gorge.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 2400 6000
+Stats2     46 46 250
+Stats3     12 35 46
+Stats4     0 0 0 0 0
+Attribs    24 10 18 12 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36514
+Keywords   glassweb spider~
+Short      a Glassweb Spider~
+Long       A small spider with translucent legs hides in a crevice.
+~
+Desc       These spiders weave webs made of thin glass fibers. They 
+are almost invisible against the obsidian rocks of the Gorge.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 800 2200
+Stats2     42 42 0
+Stats3     6 14 42
+Stats4     0 0 0 0 0
+Attribs    14 20 12 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       36515
+Keywords   firegut smasher ogre~
+Short      a Firegut Smasher~
+Long       A massive ogre carries a piece of a ruined stone pillar as a club.
+~
+Desc       Brutally strong and dim-witted, the smashers are used to 
+clear paths through the volcanic debris.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 4500 12000
+Stats2     49 49 0
+Stats3     20 50 49
+Stats4     0 0 0 0 0
+Attribs    32 6 24 4 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36516
+Keywords   dark iron watchman dwarf~
+Short      a Dark Iron Watchman~
+Long       A dwarf stands atop a slag heap, looking out over the waste.
+~
+Desc       Stationed at high points to provide early warning of any 
+intruders or slave uprisings.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1800 4800
+Stats2     45 45 100
+Stats3     11 28 45
+Stats4     0 0 0 0 0
+Attribs    20 14 14 10 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36517
+Keywords   searing elemental fire~
+Short      a Searing Elemental~
+Long       A small, intense flame dances along the edge of a fissure.
+~
+Desc       Lesser fire elementals that serve as scouts for the more 
+powerful magma lords.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1100 3200
+Stats2     43 43 600
+Stats3     8 20 43
+Stats4     0 0 0 0 0
+Attribs    10 16 14 22 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36518
+Keywords   thorium brotherhood smith dwarf~
+Short      a Brotherhood Smith~
+Long       A dwarf with soot-stained arms works a massive bellows.
+~
+Desc       The master smiths of the Thorium Brotherhood. They are 
+famed for their ability to work with Dark Iron and Thorium.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 3000 8000
+Stats2     50 50 200
+Stats3     15 40 50
+Stats4     0 0 0 0 0
+Attribs    24 12 20 14 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       36519
+Keywords   dark iron dragoon dwarf~
+Short      a Dark Iron Dragoon~
+Long       A dwarf in gleaming black-iron plate levels a rifle at you.
+~
+Desc       Elite guards assigned to the most critical locations 
+within the Gorge and the mountain entrance.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 3200 8500
+Stats2     48 48 300
+Stats3     14 40 48
+Stats4     0 0 0 0 0
+Attribs    22 16 16 12 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36520
+Keywords   flamewaker scout elite demon~
+Short      a Flamewaker Scout~
+Long       A naga-like entity with scales of burning ember slithers by.
+~
+Desc       Sent from the Molten Core to ensure the Dark Iron clan is 
+meeting their production quotas for the Firelord.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 12000 35000
+Stats2     55 55 500
+Stats3     30 80 65
+Stats4     0 0 0 0 0
+Attribs    35 14 30 20 25 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       36521
+Keywords   slave miner human~
+Short      a Slave Miner~
+Long       A human miner swings a pick with mechanical, hopeless rhythm.
+~
+Desc       A broken soul, captured by the Dark Iron dwarves and forced 
+to work in the slag pits until death.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 35 0 0 800 2400
+Stats2     35 35 0
+Stats3     5 12 35
+Stats4     0 0 0 0 0
+Attribs    14 10 12 8 8 8 8
+#ENDMOBILE
+
+#MOBILE
+Vnum       36522
+Keywords   heavy iron golem guard construct~
+Short      a Heavy Iron Golem Guard~
+Long       A sentinel made of black iron stands motionless near the gate.
+~
+Desc       A larger, more reinforced version of the standard war golem. 
+Its arms are massive iron hammers.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 6000 18000
+Stats2     52 52 0
+Stats3     22 60 55
+Stats4     0 0 0 0 0
+Attribs    40 4 35 10 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36523
+Keywords   dark iron priest dwarf~
+Short      a Dark Iron Priest~
+Long       A dwarf in obsidian robes mutters a dark, fiery blessing.
+~
+Desc       These priests worship the destructive power of Ragnaros, 
+providing magical healing and empowerment to the Dark 
+Iron warriors.
+~
+Race       dwarf~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1600 4500
+Stats2     45 45 1000
+Stats3     10 28 45
+Stats4     0 0 0 0 0
+Attribs    12 12 14 26 24 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36524
+Keywords   searing lava spider~
+Short      a Searing Lava Spider~
+Long       A spider glowing with internal heat crawls along the cliff.
+~
+Desc       These spiders are often found near lava flows, feeding on 
+the small fire elementals that emerge from the magma.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1000 2800
+Stats2     44 44 0
+Stats3     7 16 44
+Stats4     0 0 0 0 0
+Attribs    18 16 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       36525
+Keywords   firegut ogre magi~
+Short      a Firegut Ogre Magi~
+Long       A two-headed ogre mutters two different spells simultaneously.
+~
+Desc       The rare and dangerous elite of the Firegut clan. They 
+possess immense magical power and twice the arrogance of 
+their one-headed kin.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 4000 11000
+Stats2     50 50 1500
+Stats3     18 45 50
+Stats4     0 0 0 0 0
+Attribs    18 12 18 30 25 12 12
+#ENDMOBILE
+
+#OBJECT
+Vnum     36526
+Keywords black iron ore mineral~
+Type     treasure~
+Short    a chunk of Dark Iron Ore~
+Long     A heavy, black stone that pulses with a faint internal heat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 500 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36527
+Keywords thorium ore mineral~
+Type     treasure~
+Short    a chunk of Thorium Ore~
+Long     A dense, shimmering green stone with a metallic luster.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    12 800 50 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     36528
+Keywords obsidian shard trophy~
+Type     trash~
+Short    a jagged obsidian shard~
+Long     A sharp piece of volcanic glass, taken from a slagspider.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36529
+Keywords firegut club weapon~
+Type     weapon~
+Short    a Firegut Ogre Club~
+Long     A massive, blackened tree trunk used as a crude weapon.~
+WFlags   take wield~
+Values   12 12 25 8 0 0
+Stats    35 250 48 0 0
+Rarity   1
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36530
+Keywords dark iron hammer weapon~
+Type     weapon~
+Short    a Dark Iron Smithing Hammer~
+Long     A heavy, soot-stained hammer made of pure black iron.~
+WFlags   take wield~
+Values   12 10 20 8 0 0
+Stats    15 650 44 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36531
+Keywords burning essence treasure~
+Type     treasure~
+Short    a Burning Essence~
+Long     A flickering, hot ember contained within a glass vial.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 45 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36532
+Keywords heavy iron war-plate armor body~
+Type     armor~
+Short    a piece of Heavy Iron War-Plate~
+Long     A thick chestpiece made of overlapping black iron plates.~
+WFlags   take body~
+Values   25 0 0 0 0 0
+Stats    35 2200 48 0 0
+Rarity   2
+Affect   5 12 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36533
+Keywords dark iron scraps trash~
+Type     trash~
+Short    a pile of dark iron scraps~
+Long     A collection of rusted, twisted bits of black iron.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36534
+Keywords heart elemental treasure~
+Type     treasure~
+Short    the Heart of an Elemental~
+Long     A pulsing, hot stone that feels like a living heart.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 1500 50 0 0
+Rarity   2
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36535
+Keywords thorium brotherhood insignia jewelry~
+Type     jewelry~
+Short    a Thorium Brotherhood Insignia~
+Long     A small, heavy medallion marked with a green sunburst.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 1200 45 0 0
+Rarity   1
+Affect   3 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36536
+Keywords searing lava-boots feet~
+Type     armor~
+Short    a pair of Searing Lava-Boots~
+Long     Boots reinforced with heat-resistant obsidian plates.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    6 1400 46 0 0
+Rarity   2
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36537
+Keywords firegut ogre skull trophy~
+Type     trash~
+Short    a massive ogre skull~
+Long     A large, bleached skull taken from a Firegut ogre.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36538
+Keywords charred dragonscale trophy~
+Type     trash~
+Short    a charred dragonscale~
+Long     A blackened, brittle dragonscale that still reeks of smoke.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36539
+Keywords dark iron key~
+Type     key~
+Short    a Dark Iron Prison Key~
+Long     A heavy, notched iron key used to unlock the slave cages.~
+WFlags   take~
+Values   36539 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36540
+Keywords thorium plating treasure~
+Type     treasure~
+Short    a sheet of Thorium Plating~
+Long     A thin, durable sheet of refined green thorium.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    8 2500 50 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     36541
+Keywords smith's heavy apron body~
+Type     armor~
+Short    a Smith's Heavy Apron~
+Long     A thick leather apron stained with oil and soot.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    12 450 40 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36542
+Keywords molten rock trash~
+Type     trash~
+Short    a piece of molten rock~
+Long     A stone that is still glowing with orange heat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36543
+Keywords shadowforge surveyor lens treasure~
+Type     treasure~
+Short    a Shadowforge Surveyor's Lens~
+Long     A brass-rimmed lens used to detect structural weaknesses.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 45 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36544
+Keywords dark iron rifle weapon~
+Type     weapon~
+Short    a Dark Iron Rifle~
+Long     A long-barreled rifle made of blackened steel and oak.~
+WFlags   take wield~
+Values   12 15 25 5 0 0
+Stats    20 4500 48 0 0
+Rarity   2
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36545
+Keywords volcanic ash trash~
+Type     trash~
+Short    a pouch of volcanic ash~
+Long     A small leather pouch filled with fine, grey ash.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36546
+Keywords glassweb spider silk~
+Type     treasure~
+Short    a spool of Glassweb Silk~
+Long     Durable, transparent thread taken from the Gorge spiders.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 950 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36547
+Keywords firegut mojo treasure hold~
+Type     treasure~
+Short    a jar of Firegut Mojo~
+Long     A clay jar filled with a bubbling, spicy-smelling liquid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 44 0 0
+Rarity   1
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36548
+Keywords black iron shield armor~
+Type     armor~
+Short    a Black Iron Kite Shield~
+Long     A heavy iron shield etched with the symbol of an anvil.~
+WFlags   take shield~
+Values   25 0 0 0 0 0
+Stats    25 1800 46 0 0
+Rarity   2
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36549
+Keywords thorium brotherhood tabard~
+Type     armor~
+Short    a Thorium Brotherhood Tabard~
+Long     A dark grey tabard featuring a bright green thorium flame.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 800 45 0 0
+Rarity   1
+Affect   3 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36550
+Keywords obsidian war-hammer weapon~
+Type     weapon~
+Short    an Obsidian War-Hammer~
+Long     A brutal hammer with a head made of solid, jagged obsidian.~
+WFlags   take wield~
+Values   12 18 30 8 0 0
+Stats    30 6500 50 0 0
+Rarity   2
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36551
+Keywords glowing fire-essence treasure~
+Type     treasure~
+Short    a Glowing Fire-Essence~
+Long     A crystal pulsing with the concentrated heat of the mountain.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 2500 55 0 0
+Rarity   2
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     36550
+Name     &xWestern Gate from the Badlands&d~
+Sector   field~
+Flags    ~
+Desc     The orange dust of the Badlands is suddenly cut short by a jagged, 
+black-rock ravine. The air is thick with the scent of sulfur and 
+burning coal. A massive iron gate, built by the Dark Iron dwarves, 
+stands open, leading into the smoke-choked sky of the Searing Gorge.
+~
+#EXIT
+Direction out~
+ToRoom    35522
+Desc      Return to the Badlands ridge path.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36551
+Desc      The road leads into the Gorge.~
+#ENDEXIT
+Reset M 0 36516 5 36550
+#ENDROOM
+
+#ROOM
+Vnum     36551
+Name     &xThe Slag Road&d~
+Sector   field~
+Flags    ~
+Desc     A wide, soot-covered trail leads between towering cliffs of 
+volcanic rock. To the north, the ground falls away into a 
+massive basin filled with smoldering slag heaps and the 
+skeletons of giant machines.
+~
+#EXIT
+Direction east~
+ToRoom    36550
+Desc      The western gate.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36552
+Desc      The road continues toward the mountain.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36565
+Desc      The descent into the Slag Pit.~
+#ENDEXIT
+Reset M 0 36501 5 36551
+#ENDROOM
+
+#ROOM
+Vnum     36552
+Name     &xThe Ashlands&d~
+Sector   field~
+Flags    ~
+Desc     The ground here is covered in a deep layer of grey ash. Strange, 
+jagged obsidian formations rise from the plains like the 
+claws of some buried monster. The heat is intense, and the 
+sky is a permanent, bruised purple.
+~
+#EXIT
+Direction east~
+ToRoom    36551
+Desc      The slag road.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36553
+Desc      The approach to the Great Bridge.~
+#ENDEXIT
+Reset M 0 36500 5 36552
+#ENDROOM
+
+#ROOM
+Vnum     36553
+Name     &xApproach to the Blackrock Bridge&d~
+Sector   field~
+Flags    ~
+Desc     The road narrows as it leads toward a massive iron bridge that 
+spans a wide, lava-filled canyon. To the west, the base of 
+Blackrock Mountain towers over the land, its peaks lost in 
+the smoke.
+~
+#EXIT
+Direction east~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36554
+Desc      Cross the Iron Bridge.~
+#ENDEXIT
+Reset M 0 36513 5 36553
+#ENDROOM
+
+#ROOM
+Vnum     36554
+Name     &rThe Great Blackrock Bridge&d~
+Sector   city~
+Flags    ~
+Desc     A triumph of Dark Iron engineering, this bridge is made of 
+solid black iron and anchored deep into the living rock. 
+Far below, a river of magma flows north, lighting the 
+canyon walls in a hellish orange glow.
+~
+#EXIT
+Direction east~
+ToRoom    36553
+Desc      Return to the approach.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36555
+Desc      The mountain entrance.~
+#ENDEXIT
+Reset M 0 36509 1 36554
+  Reset G 1 36551 1
+#ENDROOM
+
+#ROOM
+Vnum     36555
+Name     &rGate of Blackrock Mountain&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand at the massive base of the mountain. A series of 
+wide, iron-shod stairs leads up into the dark, while the 
+air rumbles with the sound of thousands of hammers and 
+the heartbeat of the earth itself.
+~
+#EXIT
+Direction east~
+ToRoom    36554
+Desc      The great bridge.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36556
+Desc      Enter the Hall of the Mountain.~
+#ENDEXIT
+Reset M 0 36519 5 36555
+#ENDROOM
+
+#ROOM
+Vnum     36556
+Name     &rThe Hall of the Mountain&d~
+Sector   city~
+Flags    indoors~
+Desc     A cavernous entry hall built to accommodate the massive 
+machinery of the Dark Irons. To the north and south, 
+balconies overlook the deep pits of the mountain, while 
+central stairs lead deeper into the stone.
+~
+#EXIT
+Direction east~
+ToRoom    36555
+Desc      The mountain gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36561
+Desc      The Spire Landing (Portal Hub).~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36560
+Desc      The Depths Entrance (Portal Hub).~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36562
+Desc      The Window of the Core (Portal Hub).~
+#ENDEXIT
+Reset M 0 36522 5 36556
+#ENDROOM
+
+#ROOM
+Vnum     36560
+Name     &rEntrance to the Blackrock Depths&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide, descending ramp leads toward the lower city of the 
+Dark Irons. This is the gateway to the Blackrock Depths, 
+a sprawling metropolis of iron, fire, and industry. A 
+heavy iron gate glows with the heat of the city below.
+~
+#EXIT
+Direction north~
+ToRoom    36556
+Desc      The mountain hall.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36561
+Name     &rThe Spire Landing&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing that overlooks the upper reaches of 
+Blackrock Mountain. Stone stairs wind upward toward the 
+entrance of Blackrock Spire, where the black dragonflight 
+makes its nest in the high peaks.
+~
+#EXIT
+Direction south~
+ToRoom    36556
+Desc      The mountain hall.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36562
+Name     &rThe Window of the Core&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow ledge overlooking a massive, vertical shaft that 
+leads straight down into the molten heart of the mountain. 
+A shimmering, white-hot portal marks the entrance to the 
+Molten Core, the domain of the Firelord.
+~
+#EXIT
+Direction east~
+ToRoom    36556
+Desc      The mountain hall.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36563
+Name     &rThe Blackwing Lair Overlook&d~
+Sector   city~
+Flags    indoors~
+Desc     A high, secluded balcony reached through the upper spire. 
+From here, the entrance to Nefarian's sanctum—the Blackwing 
+Lair—is visible through a shimmering orb of draconic energy.
+~
+#EXIT
+Direction down~
+ToRoom    36561
+Desc      Return to the landing.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36564
+Name     &xThorium Point - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A small, well-defended outpost built into the northern ridge 
+of the Gorge. The members of the Thorium Brotherhood work 
+here in peace, separated from their fanatical kin.
+~
+#EXIT
+Direction south~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36565
+Desc      The main square of Thorium Point.~
+#ENDEXIT
+Reset M 0 36508 5 36564
+#ENDROOM
+
+#ROOM
+Vnum     36565
+Name     &xThorium Point - Plaza&d~
+Sector   city~
+Flags    ~
+Desc     The center of the Brotherhood outpost. Several large anvils 
+stand in the open air, and the sound of hammering is 
+constant. A small, soot-stained inn provides shelter 
+for travelers and smiths alike.
+~
+#EXIT
+Direction south~
+ToRoom    36564
+Desc      The southern entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36566
+Desc      The Brotherhood Inn.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36567
+Desc      The Flight Path.~
+#ENDEXIT
+Reset M 0 36518 1 36565
+Reset O 0 36549 5 36565
+#ENDROOM
+
+#ROOM
+Vnum     36566
+Name     &xThe Thorium Anvil&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, smoky inn that smells of charcoal and dark ale. 
+The walls are decorated with masterfully crafted weapons 
+and pieces of thorium armor.
+~
+#EXIT
+Direction south~
+ToRoom    36565
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36567
+Name     &xThorium Point - Flight Roost&d~
+Sector   city~
+Flags    ~
+Desc     A flat, stone ledge overlooking the northern Gorge. Several 
+gryphons and wyverns rest here, ready to carry messages 
+and cargo out of the smoke.
+~
+#EXIT
+Direction west~
+ToRoom    36565
+Desc      The plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36568
+Name     &xThe Slag Pit - Descent&d~
+Sector   field~
+Flags    ~
+Desc     A series of rickety wooden ramps and ladders leads down into 
+the massive, bowl-shaped basin known as the Slag Pit. 
+The air is thick with the smoke from hundreds of forges.
+~
+#EXIT
+Direction south~
+ToRoom    36551
+Desc      The slag road.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    36569
+Desc      The bottom of the Slag Pit.~
+#ENDEXIT
+Reset M 0 36500 5 36568
+#ENDROOM
+
+#ROOM
+Vnum     36569
+Name     &xThe Slag Pit - Basin&d~
+Sector   field~
+Flags    ~
+Desc     The bottom of the Gorge's industrial heart. Slaves work 
+tirelessly in the heat, while Dark Iron taskmasters 
+patrol with whips and hammers. Piles of glowing slag 
+are stacked everywhere.
+~
+#EXIT
+Direction up~
+ToRoom    36568
+Desc      Return to the surface.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36570
+Desc      The Iron Summit.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36574
+Desc      The Firegut Caves.~
+#ENDEXIT
+Reset M 0 36521 10 36569
+Reset O 0 36533 10 36569
+#ENDROOM
+
+#ROOM
+Vnum     36570
+Name     &xThe Iron Summit&d~
+Sector   city~
+Flags    ~
+Desc     A high stone platform in the center of the Slag Pit where the 
+Dark Iron engineers oversee the work. A massive steam 
+engine chugs rhythmically, powering the various elevators.
+~
+#EXIT
+Direction south~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36571
+Desc      The Overseer's Office.~
+#ENDEXIT
+Reset M 0 36510 5 36570
+#ENDROOM
+
+#ROOM
+Vnum     36571
+Name     &xThe Overseer's Office&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-furnished stone building overlooking the pit. 
+Maps of the mountain's tunnels and production quotas 
+are pinned to the walls.
+~
+#EXIT
+Direction south~
+ToRoom    36570
+Desc      The summit.~
+#ENDEXIT
+Reset M 0 36500 5 36571
+Reset O 0 36543 5 36571
+#ENDROOM
+
+#ROOM
+Vnum     36572
+Name     &xSlave Quarters&d~
+Sector   underground~
+Flags    indoors~
+Desc     A series of cramped, dirty tunnels where the slaves are 
+housed. The air is stagnant and filled with the scent 
+of hopelessness and sickness.
+~
+#EXIT
+Direction north~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+Reset M 0 36521 10 36572
+Reset O 0 36539 1 36572
+#ENDROOM
+
+#ROOM
+Vnum     36573
+Name     &xThe Slag Heap&d~
+Sector   field~
+Flags    ~
+Desc     A massive pile of burning waste from the forges. Scorpions 
+prowl through the glowing embers, feeding on the small 
+fire elementals that spawn here.
+~
+#EXIT
+Direction west~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+Reset M 0 36504 5 36573
+Reset O 0 36528 10 36573
+#ENDROOM
+
+#ROOM
+Vnum     36574
+Name     &yFiregut Caves - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The natural caverns on the eastern side of the Slag Pit are 
+controlled by the Firegut ogres. The walls are decorated 
+with crude, bloody drawings and piles of animal bones.
+~
+#EXIT
+Direction west~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36575
+Desc      The main ogre cavern.~
+#ENDEXIT
+Reset M 0 36505 5 36574
+#ENDROOM
+
+#ROOM
+Vnum     36575
+Name     &yFiregut Caves - Main Hall&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive natural chamber lit by several large bonfires. 
+Firegut ogres rest on piles of furs, while others 
+sharpen their crude wooden clubs.
+~
+#EXIT
+Direction west~
+ToRoom    36574
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36576
+Desc      The Mystic's Alcove.~
+#ENDEXIT
+Reset M 0 36515 5 36575
+Reset O 0 36529 5 36575
+#ENDROOM
+
+#ROOM
+Vnum     36576
+Name     &yThe Mystic's Alcove&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air is thick with the scent of burning herbs. A Firegut 
+shaman kneels before a large obsidian skull, muttering 
+incantations that cause the flames to dance.
+~
+#EXIT
+Direction west~
+ToRoom    36575
+Desc      The main hall.~
+#ENDEXIT
+Reset M 0 36512 1 36576
+  Reset G 1 36547 1
+#ENDROOM
+
+#ROOM
+Vnum     36577
+Name     &xThe Obsidian Cliffs&d~
+Sector   field~
+Flags    ~
+Desc     A high, jagged ridge of volcanic glass overlooking the 
+western Gorge. The cliff face is nearly vertical, and 
+small lava-spiders crawl along its surface.
+~
+#EXIT
+Direction north~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+Reset M 0 36524 10 36577
+#ENDROOM
+
+#ROOM
+Vnum     36578
+Name     &xThe Magma Fissure&d~
+Sector   field~
+Flags    ~
+Desc     The earth has split open here, revealing a deep, glowing 
+river of magma below. Intense heat radiates from the 
+crack, and the air hums with elemental energy.
+~
+#EXIT
+Direction south~
+ToRoom    36551
+Desc      The slag road.~
+#ENDEXIT
+Reset M 0 36503 5 36578
+Reset O 0 36542 10 36578
+#ENDROOM
+
+#ROOM
+Vnum     36579
+Name     &xThe Shadowed Cleft&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small, dark tunnel hidden behind a large rock formation. 
+Infernal sentries stand motionless in the dark, their green 
+flames lighting the cavern in a sickly glow.
+~
+#EXIT
+Direction north~
+ToRoom    36553
+Desc      The bridge approach.~
+#ENDEXIT
+Reset M 0 36507 5 36579
+#ENDROOM
+
+#ROOM
+Vnum     36580
+Name     &xSlag Pit Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet section of the basin floor, filled with discarded 
+mining carts and piles of low-quality iron ore.
+~
+#EXIT
+Direction north~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+Reset O 0 36526 10 36580
+#ENDROOM
+
+#ROOM
+Vnum     36581
+Name     &xSlag Pit Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A rocky ledge overlooking the slave quarters, frequently 
+patrolled by Dark Iron slavers.
+~
+#EXIT
+Direction south~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+Reset M 0 36501 5 36581
+#ENDROOM
+
+#ROOM
+Vnum     36582
+Name     &xAshlands Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A flat expanse of grey ash, where several buzzards are 
+fighting over the remains of a slagspider.
+~
+#EXIT
+Direction west~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+Reset M 0 36504 5 36582
+#ENDROOM
+
+#ROOM
+Vnum     36583
+Name     &xAshlands Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A jagged field of obsidian shards that makes travel 
+slow and dangerous.
+~
+#EXIT
+Direction east~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+Reset M 0 36514 10 36583
+#ENDROOM
+
+#ROOM
+Vnum     36584
+Name     &xThe Deep Fissure&d~
+Sector   field~
+Flags    ~
+Desc     A massive crack in the earth near the base of the mountain. 
+From here, you can see the glowing forms of molten giants 
+moving in the depths.
+~
+#EXIT
+Direction north~
+ToRoom    36553
+Desc      The bridge approach.~
+#ENDEXIT
+Reset M 0 36511 1 36584
+#ENDROOM
+
+#ROOM
+Vnum     36585
+Name     &xThorium Point Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small storage shed containing spools of silk and 
+finished thorium armor.
+~
+#EXIT
+Direction south~
+ToRoom    36565
+Desc      The plaza.~
+#ENDEXIT
+Reset O 0 36540 5 36585
+#ENDROOM
+
+#ROOM
+Vnum     36586
+Name     &xThorium Point Overflow B&d~
+Sector   city~
+Flags    ~
+Desc     A quiet ridge north of the outpost, where Brotherhood scouts 
+keep watch over the northern mountains.
+~
+#EXIT
+Direction south~
+ToRoom    36565
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 36508 5 36586
+#ENDROOM
+
+#ROOM
+Vnum     36587
+Name     &yFiregut Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A side tunnel in the ogre caves where several large 
+Firegut smashers are resting.
+~
+#EXIT
+Direction west~
+ToRoom    36575
+Desc      The main hall.~
+#ENDEXIT
+Reset M 0 36515 5 36587
+#ENDROOM
+
+#ROOM
+Vnum     36588
+Name     &yFiregut Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, damp chamber where the ogres store their 
+captured mojos and relics.
+~
+#EXIT
+Direction east~
+ToRoom    36575
+Desc      The main hall.~
+#ENDEXIT
+Reset O 0 36547 5 36588
+#ENDROOM
+
+#ROOM
+Vnum     36589
+Name     &xThe Burning Slag&d~
+Sector   field~
+Flags    ~
+Desc     A section of the basin where the slag is particularly fresh 
+and hot, sparking with elemental energy.
+~
+#EXIT
+Direction south~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+Reset M 0 36517 10 36589
+#ENDROOM
+
+#ROOM
+Vnum     36590
+Name     &xThe High Road Lookout&d~
+Sector   field~
+Flags    ~
+Desc     A rocky platform providing a clear view of the road leading 
+to the Badlands.
+~
+#EXIT
+Direction west~
+ToRoom    36551
+Desc      The slag road.~
+#ENDEXIT
+Reset M 0 36516 5 36590
+#ENDROOM
+
+#ROOM
+Vnum     36591
+Name     &rMountain Landing - West&d~
+Sector   city~
+Flags    indoors~
+Desc     A high, stone balcony overlooking the lava canyon to the west. 
+Flamewaker scouts slither through the shadows here.
+~
+#EXIT
+Direction east~
+ToRoom    36561
+Desc      The spire landing.~
+#ENDEXIT
+Reset M 0 36520 1 36591
+#ENDROOM
+
+#ROOM
+Vnum     36592
+Name     &rMountain Landing - East&d~
+Sector   city~
+Flags    indoors~
+Desc     A stone ledge that provides a view of the Searing Gorge's 
+eastern plains from within the mountain.
+~
+#EXIT
+Direction west~
+ToRoom    36561
+Desc      The spire landing.~
+#ENDEXIT
+Reset M 0 36513 5 36592
+#ENDROOM
+
+#ROOM
+Vnum     36593
+Name     &rThe Priest's Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, burning chamber where the Dark Iron priests conduct 
+their rituals in the shadow of the mountain.
+~
+#EXIT
+Direction north~
+ToRoom    36556
+Desc      The mountain hall.~
+#ENDEXIT
+Reset M 0 36523 5 36593
+#ENDROOM
+
+#ROOM
+Vnum     36594
+Name     &xThe Obsidian Grotto&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A natural cave filled with sharp obsidian formations. 
+Glassweb spiders have spun nearly invisible webs here.
+~
+#EXIT
+Direction up~
+ToRoom    36577
+Desc      The obsidian cliffs.~
+#ENDEXIT
+Reset M 0 36514 10 36594
+#ENDROOM
+
+#ROOM
+Vnum     36595
+Name     &xThe Magma Pool&d~
+Sector   field~
+Flags    ~
+Desc     A small, bubbling pool of lava that seems to be a natural 
+wellspring of fire elementals.
+~
+#EXIT
+Direction north~
+ToRoom    36578
+Desc      The magma fissure.~
+#ENDEXIT
+Reset O 0 36531 10 36595
+#ENDROOM
+
+#ROOM
+Vnum     36596
+Name     &xThe Iron Ladder&d~
+Sector   field~
+Flags    ~
+Desc     A series of iron rungs bolted directly into the cliff side, 
+providing a shortcut between the ashlands and the Slag Pit.
+~
+#EXIT
+Direction up~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36597
+Name     &xThe Searing Gorge - Southern Ravine&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, dark ravine that leads south toward the burning 
+plains of the Steppes. The air is even thicker here.
+~
+#EXIT
+Direction north~
+ToRoom    36551
+Desc      The slag road.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    37000
+Desc      Enter the Burning Steppes.~
+#ENDEXIT
+Reset M 0 36500 5 36597
+#ENDROOM
+
+#ROOM
+Vnum     36598
+Name     &xThe Steam Vents&d~
+Sector   field~
+Flags    ~
+Desc     Large cracks in the ground emit constant, high-pressure steam, 
+making the air humid and difficult to breathe.
+~
+#EXIT
+Direction south~
+ToRoom    36552
+Desc      The ashlands.~
+#ENDEXIT
+Reset M 0 36517 10 36598
+#ENDROOM
+
+#ROOM
+Vnum     36599
+Name     &rThe Mountain Shortcut&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow maintenance tunnel that leads from the Slag Pit 
+straight into the side of Blackrock Mountain.
+~
+#EXIT
+Direction east~
+ToRoom    36569
+Desc      The basin floor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    36556
+Desc      The mountain hall.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36600
+Name     &xThe Searing Gorge Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A hidden trail behind Thorium Point that leads toward the 
+eastern mountains, offering a quick way back toward the 
+Badlands for those who can navigate the crags.
+~
+#EXIT
+Direction south~
+ToRoom    36565
+Desc      The Thorium plaza.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    36550
+Desc      The western entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
