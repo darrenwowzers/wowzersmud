@@ -904,7 +904,8 @@ Name     &OThe Gates of Zul'Farrak&d~
 Sector   city~
 Desc     Massive stone doors block the entrance to the ancient city. Sandfury
 trolls patrol the ramparts above, raining spears down on any who
-approach without a massive army behind them.
+approach without a massive army behind them. A narrow gap between the 
+heavy stone doors allows brave adventurers to slip inside.
 ~
 #EXIT
 Direction north~
@@ -918,9 +919,34 @@ ToRoom    33016
 Desc      The Altar of Zul.
 ~
 #ENDEXIT
+#EXIT
+Direction in~
+ToRoom    33030
+Desc      Slip through the heavy stone doors.
+~
+#ENDEXIT
 Reset M 0 33005 2 33015
   Reset E 1 33003 10 6
 Reset M 0 33004 2 33015
+#ENDROOM
+
+#ROOM
+Vnum     33030
+Name     &OThe Sunken Portal of Zul'Farrak&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand in the shadowed archway just beyond the main gates. The 
+sounds of tribal drums and chanting echo off the sandstone walls from 
+deep within the city. A swirling, sand-colored portal blocks the path 
+forward, separating the outer ruins from the heavily guarded inner 
+sanctum of the Sandfury tribe.
+~
+#EXIT
+Direction out~
+ToRoom    33015
+Desc      Squeeze back outside the gates.
+~
+#ENDEXIT
 #ENDROOM
 
 #ROOM
