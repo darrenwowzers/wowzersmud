@@ -1,0 +1,3498 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Zul'Gurub~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       60 60 0 60
+Economy      0 500000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       40500
+Keywords   hakkar soulflayer boss god~
+Short      Hakkar the Soulflayer~
+Long       A colossal winged serpent of blood and shadow coils atop the ziggurat.
+~
+Desc       The Blood God himself. His presence is a suffocating weight of 
+ancient malice and insatiable hunger. His iridescent scales 
+pulse with the stolen life force of his worshippers.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 100000 250000
+Stats2     63 63 5000
+Stats3     60 250 120
+Stats4     0 0 0 0 0
+Attribs    50 20 40 30 35 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       40501
+Keywords   high priestess jeklik boss bat~
+Short      High Priestess Jeklik~
+Long       A tall troll woman in feathered robes screeches, transforming into a giant bat.
+~
+Desc       The avatar of Hir'eek. She commands the winged terrors of the 
+jungle and uses sonic screams to disorient her prey.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 45000 120000
+Stats2     61 61 3000
+Stats3     35 110 75
+Stats4     0 0 0 0 0
+Attribs    18 25 20 35 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40502
+Keywords   high priest venoxis boss snake~
+Short      High Priest Venoxis~
+Long       High Priest Venoxis weaves through the emerald fog, his lower body a serpent.
+~
+Desc       The avatar of Hethiss. He is a master of toxins and 
+transformation, surrounding his plateau in a lethal cloud of 
+poisonous gas.
+~
+Race       troll~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 48000 125000
+Stats2     61 61 2500
+Stats3     38 115 78
+Stats4     0 0 0 0 0
+Attribs    22 22 22 30 35 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40503
+Keywords   high priestess mar'li boss spider~
+Short      High Priestess Mar'li~
+Long       Mar'li stands amidst a sea of skittering legs, her fingers twitching like webs.
+~
+Desc       The avatar of Shadra. She summons massive spiders from the 
+depths of the temple to entangle and drain her enemies.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 42000 115000
+Stats2     61 61 3500
+Stats3     32 105 72
+Stats4     0 0 0 0 0
+Attribs    15 18 20 38 32 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40504
+Keywords   high lord thekkal boss tiger~
+Short      High Lord Thekkal~
+Long       High Lord Thekkal bellows, flanked by two ferocious tigers.
+~
+Desc       The avatar of Shirvallah. He is a whirlwind of physical 
+might, capable of transforming into a massive humanoid 
+tiger when pushed to the limit.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 55000 140000
+Stats2     61 61 500
+Stats3     42 130 85
+Stats4     0 0 0 0 0
+Attribs    35 25 28 12 18 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40505
+Keywords   high priestess arlokk boss panther~
+Short      High Priestess Arlokk~
+Long       The shadows themselves seem to grow claws as Arlokk pounces from the dark.
+~
+Desc       The avatar of Bethekk. She is a master of stealth and 
+precision, vanishing into the shadows only to strike at the 
+weakest link in a group.
+~
+Race       troll~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 40000 110000
+Stats2     61 61 1000
+Stats3     30 100 70
+Stats4     0 0 0 0 0
+Attribs    20 35 18 15 20 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40506
+Keywords   bloodlord mandokir boss raptor~
+Short      Bloodlord Mandokir~
+Long       Bloodlord Mandokir sits upon his raptor Ohgan, eyes burning with bloodlust.
+~
+Desc       The champion of the Gurubashi. He grows stronger with 
+every kill, absorbing the souls of the fallen to fuel his 
+rampage.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 65000 180000
+Stats2     62 62 800
+Stats3     45 140 90
+Stats4     0 0 0 0 0
+Attribs    38 18 30 14 16 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       40507
+Keywords   jin'do hexxer boss ghost~
+Short      Jin'do the Hexxer~
+Long       Jin'do cackles, waving a staff of shrunken heads as spectral shadows rise.
+~
+Desc       The mastermind behind the summoning of Hakkar. He uses 
+voodoo totems and mind control to turn his enemies 
+against one another.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 50000 150000
+Stats2     62 62 4000
+Stats3     35 110 80
+Stats4     0 0 0 0 0
+Attribs    12 15 20 40 35 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       40508
+Keywords   gurubashi berserker troll warrior~
+Short      a Gurubashi Berserker~
+Long       A massive troll warrior enters a blood-frenzy, his muscles bulging.
+~
+Desc       The heavy shock troops of the city. They ignore pain 
+and strike with a force that can shatter bone.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 8500 22000
+Stats2     60 60 100
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    32 12 24 6 8 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40509
+Keywords   hakkari shadowcaster troll mage~
+Short      a Hakkari Shadowcaster~
+Long       A troll in dark purple robes mutters a soul-draining incantation.
+~
+Desc       The fanatical priesthood of Hakkar. They specialize in 
+life-stealing magic and shadowy curses.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 9000
+Stats2     60 60 2500
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    10 14 16 35 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40510
+Keywords   zulian tiger beast~
+Short      a Zulian Tiger~
+Long       A sleek, orange-and-black striped tiger stalks through the ferns.
+~
+Desc       Feral and territorial, these tigers are the apex predators 
+of the city's overgrown squares.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2500 7500
+Stats2     60 60 0
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    24 22 18 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40511
+Keywords   raging bat beast~
+Short      a Raging Bat~
+Long       A massive leathery-winged bat dives from the canopy, fangs bared.
+~
+Desc       Touched by the madness of Jeklik, these bats attack in 
+swarms, their screeches deafening.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1400 4200
+Stats2     59 59 0
+Stats3     12 35 59
+Stats4     0 0 0 0 0
+Attribs    18 25 14 4 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40512
+Keywords   son of hakkar spirit~
+Short      a Son of Hakkar~
+Long       A shimmering green cloud of poisonous energy drifts through the air.
+~
+Desc       A fragment of the Soulflayer's power. It is highly toxic 
+and is required for the ritual to weaken Hakkar.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5000 15000
+Stats2     60 60 1000
+Stats3     20 60 60
+Stats4     0 0 0 0 0
+Attribs    10 12 25 24 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40513
+Keywords   smolderthorn axethrower troll warrior~
+Short      a Smolderthorn Axethrower~
+Long       A troll balances a heavy throwing axe, eyes narrow and precise.
+~
+Desc       Mercenaries brought in to guard the city's high ledges 
+and ramparts.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2800 8500
+Stats2     60 60 200
+Stats3     16 48 60
+Stats4     0 0 0 0 0
+Attribs    22 24 18 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40514
+Keywords   zulian crocolisk beast~
+Short      a Zulian Crocolisk~
+Long       A thick-scaled crocolisk slides silently into the stagnant water.
+~
+Desc       These reptiles have grown massive on a diet of 
+sacrificial remains.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 0
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    28 6 25 4 10 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       40515
+Keywords   voodoo slave ghost~
+Short      a Voodoo Slave~
+Long       A mind-controlled human wanders aimlessly, eyes blank and white.
+~
+Desc       A victim of Jin'do's hexes, forced to serve the 
+Gurubashi until their life is extinguished.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1100 3200
+Stats2     58 58 0
+Stats3     10 28 58
+Stats4     0 0 0 0 0
+Attribs    18 12 16 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40516
+Keywords   shadowcaster initiate troll mage~
+Short      a Shadowcaster Initiate~
+Long       A young troll priestess mutters a dark prayer.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1500 4500
+Stats2     59 59 1200
+Stats3     11 30 59
+Stats4     0 0 0 0 0
+Attribs    12 14 14 30 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40517
+Keywords   gurubashi headhunter troll warrior~
+Short      a Gurubashi Headhunter~
+Long       A troll balances a jagged throwing axe.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2000 6000
+Stats2     60 60 150
+Stats3     13 38 60
+Stats4     0 0 0 0 0
+Attribs    20 22 16 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40518
+Keywords   vile slitherer snake~
+Short      a Vile Slitherer~
+Long       A massive, purple-scaled snake hisses from a crystal nook.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1300 3600
+Stats2     60 60 0
+Stats3     9 24 60
+Stats4     0 0 0 0 0
+Attribs    20 18 16 6 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40519
+Keywords   hakkari priest troll mage~
+Short      a Hakkari Priest~
+Long       A troll in sacrificial robes stands before a statue.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5500
+Stats2     60 60 2000
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    14 12 16 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40520
+Keywords   bloodseeker bat beast~
+Short      a Bloodseeker Bat~
+Long       A large bat with dark fur circles overhead.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1100 3200
+Stats2     60 60 0
+Stats3     8 22 60
+Stats4     0 0 0 0 0
+Attribs    16 25 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40521
+Keywords   zulian panther beast~
+Short      a Zulian Panther~
+Long       A black panther stalks through the shadows of the ruins.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2200 6500
+Stats2     60 60 0
+Stats3     14 42 60
+Stats4     0 0 0 0 0
+Attribs    22 28 18 6 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40522
+Keywords   death's head warlock human mage~
+Short      a Death's Head Warlock~
+Long       A human in dark robes mutters to a floating skull.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5200
+Stats2     60 60 2000
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40523
+Keywords   spectral researcher ghost~
+Short      a Spectral Researcher~
+Long       A ghostly figure pours over a massive ancient tome.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 1200 3500
+Stats2     60 60 1500
+Stats3     11 30 60
+Stats4     0 0 0 0 0
+Attribs    10 12 14 34 26 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40524
+Keywords   zulian pincer beast insect~
+Short      a Zulian Pincer~
+Long       A large beetle-like insect scuttles through the undergrowth.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1100 3200
+Stats2     60 60 0
+Stats3     9 22 60
+Stats4     0 0 0 0 0
+Attribs    18 20 18 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40525
+Keywords   shadow-stalker ghost troll~
+Short      a Shadow-stalker Ghost~
+Long       A translucent troll warrior strikes from the dark.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1600 4500
+Stats2     60 60 150
+Stats3     11 30 60
+Stats4     0 0 0 0 0
+Attribs    24 25 16 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40526
+Keywords   hakkari witch-doctor troll mage~
+Short      a Hakkari Witch-doctor~
+Long       A troll in feathered robes shakes a voodoo rattle.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 1800
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 16 14 32 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40527
+Keywords   gurubashi blood-drinker troll warrior~
+Short      a Gurubashi Blood-drinker~
+Long       A troll in rusted plate armor licks a curved dagger.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 13000
+Stats2     60 60 200
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40528
+Keywords   zulian cobra snake~
+Short      a Zulian Cobra~
+Long       A massive cobra with a fanned hood hisses at you.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1200 3500
+Stats2     60 60 0
+Stats3     8 22 60
+Stats4     0 0 0 0 0
+Attribs    18 20 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40529
+Keywords   spectral sentinel ghost warrior~
+Short      a Spectral Sentinel~
+Long       A translucent troll in ancient plate armor stands perfectly still.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40530
+Keywords   hakkari warlock troll mage~
+Short      a Hakkari Warlock~
+Long       A troll in shadow-threaded robes mutter to a void-walker.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5200
+Stats2     60 60 2500
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40531
+Keywords   blood-petal sprout plant~
+Short      a Blood-petal Sprout~
+Long       A small, red-flowered plant skips across the garden floor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 400 1200
+Stats2     55 55 0
+Stats3     4 12 55
+Stats4     0 0 0 0 0
+Attribs    14 18 12 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       40532
+Keywords   zandalar envoy troll~
+Short      a Zandalar Envoy~
+Long       A troll in ornate silver armor watches the city with sorrow.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 2500 7000
+Stats2     60 60 100
+Stats3     12 32 60
+Stats4     0 0 0 0 0
+Attribs    22 10 18 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40533
+Keywords   zulian raptor beast~
+Short      a Zulian Raptor~
+Long       A lean raptor with bright red scales hisses at you.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4000
+Stats2     60 60 0
+Stats3     11 28 60
+Stats4     0 0 0 0 0
+Attribs    22 25 18 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40534
+Keywords   hakkari blood-weaver troll mage~
+Short      a Hakkari Blood-weaver~
+Long       A troll in dark purple robes mutter an incantation of shadow.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1500 4500
+Stats2     60 60 2000
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40535
+Keywords   gurubashi butcher troll warrior~
+Short      a Gurubashi Butcher~
+Long       A troll in a bloody leather apron sharpen a massive cleaver.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3000 8500
+Stats2     60 60 100
+Stats3     14 38 60
+Stats4     0 0 0 0 0
+Attribs    28 10 20 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40536
+Keywords   flickering shade spirit~
+Short      a Flickering Shade~
+Long       A dark, shadowy spirit wails as it floats above the floor.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1100 3200
+Stats2     60 60 1200
+Stats3     9 24 60
+Stats4     0 0 0 0 0
+Attribs    10 22 12 32 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40537
+Keywords   hakkari initiate troll mage~
+Short      a Hakkari Initiate~
+Long       A young troll priest mutter a dark prayer to the Blood God.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1200 3500
+Stats2     59 59 1000
+Stats3     10 25 59
+Stats4     0 0 0 0 0
+Attribs    10 12 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40538
+Keywords   zulian wasp beast insect~
+Short      a Zulian Wasp~
+Long       A massive winged insect drones through the air, tail coiled.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 800 2400
+Stats2     59 59 0
+Stats3     7 18 59
+Stats4     0 0 0 0 0
+Attribs    14 22 12 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       40539
+Keywords   spectral dancer ghost~
+Short      a Spectral Dancer~
+Long       A ghostly troll figure dances to a silent rhythm.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 600 1800
+Stats2     60 60 0
+Stats3     5 14 60
+Stats4     0 0 0 0 0
+Attribs    12 24 14 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40540
+Keywords   muddy elemental spirit~
+Short      a Muddy Elemental~
+Long       A being of churning silt and water rises from a pool.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1800 5000
+Stats2     59 59 500
+Stats3     11 28 59
+Stats4     0 0 0 0 0
+Attribs    20 10 18 14 16 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     40600
+Keywords warblade hakkari sword weapon~
+Type     weapon~
+Short    the Warblade of Hakkari~
+Long     A perfectly balanced troll blade, etched with the Soulflayer's runes.~
+WFlags   take wield~
+Values   12 20 45 3 0 0
+Stats    15 50000 62 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   12 25 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40601
+Keywords heart hakkar treasure hold~
+Type     treasure~
+Short    the Heart of Hakkar~
+Long     A massive, pulsing ruby that radiates pure Blood God essence.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 100000 65 0 0
+Rarity   3
+Affect   1 25 0 0 0
+Affect   5 25 0 0 0
+Affect   13 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40602
+Keywords jin'do's hexxer mace weapon~
+Type     weapon~
+Short    Jin'do's Hexxer~
+Long     A wicked mace topped with a shrunken head that whispers hexes.~
+WFlags   take wield~
+Values   12 15 35 8 0 0
+Stats    12 35000 62 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   14 30 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40603
+Keywords zin'rokh destroyer worlds sword~
+Type     weapon~
+Short    Zin'Rokh, Destroyer of Worlds~
+Long     A colossal two-handed sword that seems to devour the air around it.~
+WFlags   take wield~
+Values   12 25 60 3 0 0
+Stats    35 85000 63 0 0
+Rarity   3
+Affect   1 25 0 0 0
+Affect   13 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40604
+Keywords touch of chaos wand weapon~
+Type     weapon~
+Short    the Touch of Chaos~
+Long     A crystalline wand that hums with the erratic energy of the Nether.~
+WFlags   take wield~
+Values   12 12 24 13 0 0
+Stats    2 15000 61 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40605
+Keywords mantle zandalar shoulders armor~
+Type     armor~
+Short    a pair of Zandalar Vindicator's Mantle~
+Long     Ornate silver shoulder plates engraved with Highborne motifs.~
+WFlags   take about~
+Values   15 0 0 0 0 0
+Stats    8 12000 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40606
+Keywords zulian coin gold currency~
+Type     treasure~
+Short    a Zulian Gold Coin~
+Long     An ancient troll coin featuring the profile of King Rastakhan.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40607
+Keywords red hakkari bijou treasure~
+Type     treasure~
+Short    a Red Hakkari Bijou~
+Long     A faceted red gemstone that pulses with blood magic.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 2500 60 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+#40608
+Keywords tiger pelt fur trophy~
+Type     trash~
+Short    a thick zulian tiger pelt~
+Long     A magnificent orange-and-black pelt taken from a jungle cat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40609
+Keywords fang venoxis weapon dagger~
+Type     weapon~
+Short    the Fang of Venoxis~
+Long     A jagged dagger carved from a serpent's tooth, dripping venom.~
+WFlags   take wield~
+Values   12 12 22 11 0 0
+Stats    2 15000 61 0 0
+Rarity   2
+Affect   2 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40610
+Keywords jeklik's crusher mace weapon~
+Type     weapon~
+Short    Jeklik's Crusher~
+Long     A heavy stone mace designed to shatter shields and bone.~
+WFlags   take wield~
+Values   12 18 35 8 0 0
+Stats    25 15000 61 0 0
+Rarity   2
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40611
+Keywords mar'li's eye jewelry neck~
+Type     jewelry~
+Short    Mar'li's Eye~
+Long     A necklace featuring a large, multi-faceted spider eye.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40612
+Keywords thekkal's girth belt waist~
+Type     armor~
+Short    Thekkal's Girth~
+Long     A heavy leather belt reinforced with tiger-bone plates.~
+WFlags   take waist~
+Values   12 0 0 0 0 0
+Stats    5 8500 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40613
+Keywords arlokk's hood head armor~
+Type     armor~
+Short    Arlokk's Hood of Shadows~
+Long     A dark purple hood that seems to slightly blur the wearer's image.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    3 8500 60 0 0
+Rarity   2
+Affect   2 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40614
+Keywords halberd smiting weapon~
+Type     weapon~
+Short    the Halberd of Smiting~
+Long     A massive polearm that glows with a righteous, golden light.~
+WFlags   take wield~
+Values   12 20 40 11 0 0
+Stats    30 25000 62 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   5 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40615
+Keywords aegis grubbashi shield armor~
+Type     armor~
+Short    the Aegis of the Gurubashi~
+Long     A heavy wooden shield reinforced with bronze and bone.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 12000 61 0 0
+Rarity   2
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40616
+Keywords blood-petal bloom treasure~
+Type     treasure~
+Short    a Blood-petal Bloom~
+Long     A vibrant red flower that stays fresh for an eternity.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   0
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40617
+Keywords dreamfoil bundle herb~
+Type     treasure~
+Short    a bundle of Dreamfoil~
+Long     Silvery leaves that smell of the Emerald Dream.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 350 60 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40618
+Keywords gromsblood herb~
+Type     treasure~
+Short    a sprig of Gromsblood~
+Long     A dark leafy herb that smells faintly of demons.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 400 60 0 0
+Rarity   1
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40619
+Keywords sungrass bundle herb~
+Type     treasure~
+Short    a bunch of Sungrass~
+Long     Vibrant golden leaves that grow in the jungle clearings.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 55 0 0
+Rarity   0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40620
+Keywords mountain silversage herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     Elegant silvery leaves found on the city's high cliffs.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 350 60 0 0
+Rarity   1
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40621
+Keywords zandalar signet jewelry ring~
+Type     jewelry~
+Short    a Zandalar Signet Ring~
+Long     A gold ring featuring the sigil of the island of Zandalar.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 5500 60 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40622
+Keywords raptor claw trophy~
+Type     trash~
+Short    a sharp bloodlord claw~
+Long     A long, curved talon taken from a zulian raptor.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40623
+Keywords voodoo fetish treasure~
+Type     treasure~
+Short    an Ancient Voodoo Fetish~
+Long     A small, shriveled hand clutching a bone needle.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 3500 58 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40624
+Keywords spectral silk loot~
+Type     treasure~
+Short    a bolt of Spectral Silk~
+Long     Fine, translucent cloth taken from troll ghosts.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 2500 60 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     40625
+Keywords jungle root food~
+Type     food~
+Short    a bundle of jungle-roots~
+Long     Tough, fibrous roots that provide excellent nourishment.~
+WFlags   take~
+Values   30 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40626
+Keywords bloodvine treasure loot~
+Type     treasure~
+Short    a length of Bloodvine~
+Long     A rare, deep red vine used in high-level tailoring.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 15000 62 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     40627
+Keywords murloc eye trophy~
+Type     trash~
+Short    a bulging murloc eye~
+Long     A large, glassy eye taken from a city murloc.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40628
+Keywords mossy temple stone trash~
+Type     trash~
+Short    a mossy temple stone~
+Long     A heavy square of masonry fallen from a ziggurat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40629
+Keywords spider venom flask~
+Type     treasure~
+Short    a flask of Corrosive Venom~
+Long     A glass jar containing bubbling, purple spider venom.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 55 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40630
+Keywords hakkar's fang dagger weapon~
+Type     weapon~
+Short    the Fang of the Soulflayer~
+Long     A long dagger carved from the tooth of a winged serpent.~
+WFlags   take wield~
+Values   12 15 30 11 0 0
+Stats    2 25000 64 0 0
+Rarity   3
+Affect   2 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40631
+Keywords blood-soaked cowl head armor~
+Type     armor~
+Short    the Blood-soaked Cowl~
+Long     A dark purple hood that smells of copper and rot.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    3 6500 58 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40632
+Keywords gauntlets might hands armor~
+Type     armor~
+Short    a pair of Gauntlets of Might~
+Long     Heavy plate gauntlets featuring the crest of Lordaeron.~
+WFlags   take hands~
+Values   20 0 0 0 0 0
+Stats    8 12000 61 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40633
+Keywords staff shadowweapon weapon~
+Type     weapon~
+Short    the Staff of Shadow-fire~
+Long     A staff of blackened wood that hums with chaotic energy.~
+WFlags   take wield~
+Values   12 12 25 7 0 0
+Stats    12 15000 62 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40634
+Keywords zulian mace weapon~
+Type     weapon~
+Short    a Zulian Ritual Mace~
+Long     A heavy stone mace decorated with colorful feathers.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    22 8500 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40635
+Keywords shadow-vial treasure hold~
+Type     treasure~
+Short    a vial of Shadow-Residue~
+Long     A small glass vial containing a swirling cloud of purple gas.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1500 58 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40636
+Keywords runecloth loot treasure~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40637
+Keywords scourge stone corrupt treasure~
+Type     treasure~
+Short    a Corrupt Scourgestone~
+Long     A jagged green stone marked with the seal of the Scourge.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40638
+Keywords tribal mask head armor~
+Type     armor~
+Short    a Gurubashi Tribal Mask~
+Long     A wooden mask painted with the image of a screaming troll.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    2 3500 56 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40639
+Keywords bone-handled cleaver weapon~
+Type     weapon~
+Short    a Bone-handled Cleaver~
+Long     A massive heavy sword used by the city butchers.~
+WFlags   take wield~
+Values   12 12 25 3 0 0
+Stats    15 2500 55 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     40700
+Name     &gThe Gates of Zul'Gurub&d~
+Sector   city~
+Flags    indoors~
+Desc     The humid heat of Stranglethorn Vale becomes a suffocating, 
+voodoo-infused weight as you step through the massive stone 
+archway. You stand at the entrance of the once-great capital 
+of the Gurubashi empire. High stone walls, etched with the 
+images of primal gods, tower over the jungle floor. A 
+shimmering white portal glows within the main gate.
+~
+#EXIT
+Direction out~
+ToRoom    13210
+Desc      Return to the Stranglethorn Vale jungle.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40701
+Desc      The Entry Courtyard.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     40701
+Name     &gThe Entry Courtyard&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive stone courtyard overgrown with vines and moss. To 
+the west, a wide path leads toward the Bat and Snake 
+plateaus. To the east, the jungle paths wind toward the 
+Tiger and Panther sanctuaries. High above, the Great 
+Ziggurat of Hakkar blots out the sun.
+~
+#EXIT
+Direction south~
+ToRoom    40700
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    40702
+Desc      Toward the western sanctuaries.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    40800
+Desc      Toward the eastern sanctuaries.~
+#ENDEXIT
+Reset M 0 40508 10 40701
+#ENDROOM
+
+#ROOM
+Vnum     40702
+Name     &gThe Path of the Bat - Entrance&d~
+Sector   forest~
+Flags    indoors~
+Desc     The sound of high-pitched screeches is deafening here. The 
+trees are draped in leathery bat-wings, and the air smells 
+of ammonia. Gurubashi berserkers patrol the entry in pairs.
+~
+#EXIT
+Direction east~
+ToRoom    40701
+Desc      The entry courtyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40703
+Desc      The Bat Plateau Ledge.~
+#ENDEXIT
+Reset M 0 40508 5 40702
+#ENDROOM
+
+#ROOM
+Vnum     40703
+Name     &gThe Bat Plateau - Ledge&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone balcony overlooking the western city. Hundreds 
+of raging bats roost in the high rafters, ready to dive 
+on any intruders. High Priestess Jeklik's sanctuary is visible 
+to the north.
+~
+#EXIT
+Direction south~
+ToRoom    40702
+Desc      The path entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40704
+Desc      The Sanctuary of Jeklik.~
+#ENDEXIT
+Reset M 0 40511 20 40703
+#ENDROOM
+
+#ROOM
+Vnum     40704
+Name     &rThe Sanctuary of High Priestess Jeklik&d~
+Sector   city~
+Flags    indoors~
+Desc     The highest point of the bat plateau. High Priestess Jeklik 
+stands in the center of a circular altar, her feathered 
+robes billowing in a magical wind. She screeches a 
+challenge to all who dare enter her domain.
+~
+#EXIT
+Direction south~
+ToRoom    40703
+Desc      The plateau ledge.~
+#ENDEXIT
+Reset M 0 40501 1 40704
+  Reset G 1 40610 1
+Reset M 0 40520 10 40704
+#ENDROOM
+
+#ROOM
+Vnum     40710
+Name     &gThe Path of the Snake - Entrance&d~
+Sector   forest~
+Flags    indoors~
+Desc     The ground here is slick with a strange emerald mist. 
+Brightly colored snakes weave through the ferns, their 
+hisses echoing off the ruined stone walls.
+~
+#EXIT
+Direction south~
+ToRoom    40702
+Desc      The bat path entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40711
+Desc      The Snake Plateau Basin.~
+#ENDEXIT
+Reset M 0 40518 10 40710
+#ENDROOM
+
+#ROOM
+Vnum     40711
+Name     &gThe Snake Plateau - Basin&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide circular plaza filled with stone snake-statues. 
+High Priest Venoxis stands at the far end, his body 
+already partially transformed into a massive cobra.
+~
+#EXIT
+Direction south~
+ToRoom    40710
+Desc      The path entrance.~
+#ENDEXIT
+Reset M 0 40502 10 40711
+  Reset G 1 40609 1
+Reset M 0 40528 10 40711
+#ENDROOM
+
+#ROOM
+Vnum     40800
+Name     &gThe Path of the Tiger - Entrance&d~
+Sector   forest~
+Flags    indoors~
+Desc     The jungle thickens here, with massive ferns blocking the 
+view of the path ahead. The sound of growling and 
+clicking claws is constant.
+~
+#EXIT
+Direction west~
+ToRoom    40701
+Desc      The entry courtyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40801
+Desc      The Tiger Plateau Gates.~
+#ENDEXIT
+Reset M 0 40510 10 40800
+#ENDROOM
+
+#ROOM
+Vnum     40801
+Name     &gThe Tiger Plateau - Gates&d~
+Sector   city~
+Flags    indoors~
+Desc     Massive stone gates reinforced with tiger-bone. High Lord 
+Thekkal stands here, flanked by his most loyal feline 
+companions. He overlooks the path with the cold 
+patience of a predator.
+~
+#EXIT
+Direction south~
+ToRoom    40800
+Desc      The path entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40802
+Desc      The Sanctuary of Thekkal.~
+#ENDEXIT
+Reset M 0 40504 1 40801
+  Reset G 1 40612 1
+Reset M 0 40510 5 40801
+#ENDROOM
+
+#ROOM
+Vnum     40810
+Name     &gThe Path of the Panther - Entrance&d~
+Sector   forest~
+Flags    indoors~
+Desc     The light fades as you enter a section of the city where 
+the jungle canopy has completely blocked out the sun. 
+Black panthers move silently through the shadows.
+~
+#EXIT
+Direction south~
+ToRoom    40800
+Desc      The tiger path entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40811
+Desc      The Panther Sanctuary.~
+#ENDEXIT
+Reset M 0 40521 10 40810
+#ENDROOM
+
+#ROOM
+Vnum     40811
+Name     &rThe Sanctuary of High Priestess Arlokk&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark circular room filled with the scent of shadow-smoke. 
+High Priestess Arlokk watches from the shadows of a 
+central pillar, her hands glowing with shadowy power.
+~
+#EXIT
+Direction south~
+ToRoom    40810
+Desc      The path entrance.~
+#ENDEXIT
+Reset M 0 40505 1 40811
+  Reset G 1 40613 1
+Reset M 0 40521 10 40811
+#ENDROOM
+
+#ROOM
+Vnum     40850
+Name     &rThe Great Ziggurat - Base&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand at the massive base of the central temple. Five 
+tiers of white stone rise into the clouds, each tiered 
+deck guarded by elite hakkari champions. The air hums 
+with the raw power of the Blood God.
+~
+#EXIT
+Direction south~
+ToRoom    40701
+Desc      The entry courtyard.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40851
+Desc      The First Tier.~
+#ENDEXIT
+Reset M 0 40509 10 40850
+#ENDROOM
+
+#ROOM
+Vnum     40851
+Name     &rThe Great Ziggurat - First Tier&d~
+Sector   city~
+Flags    indoors~
+Desc     The first landing of the temple. Stone braziers of blue 
+fire light the way. To the north, a high bridge leads 
+toward Jin'do's plateau.
+~
+#EXIT
+Direction down~
+ToRoom    40850
+Desc      The base.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40852
+Desc      The Second Tier.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40860
+Desc      Toward Jin'do the Hexxer.~
+#ENDEXIT
+Reset M 0 40527 10 40851
+#ENDROOM
+
+#ROOM
+Vnum     40852
+Name     &rThe Great Ziggurat - Second Tier&d~
+Sector   city~
+Flags    indoors~
+Desc     The air becomes thinner and smells of blood. Hakkari 
+priests conduct rituals on the wide stone landing, 
+offering life force to the serpent above.
+~
+#EXIT
+Direction down~
+ToRoom    40851
+Desc      The first tier.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40853
+Desc      The Third Tier.~
+#ENDEXIT
+Reset M 0 40519 10 40852
+#ENDROOM
+
+#ROOM
+Vnum     40853
+Name     &rThe Great Ziggurat - Third Tier&d~
+Sector   city~
+Flags    indoors~
+Desc     The sound of beating wings is close now. Sons of Hakkar 
+drift through the air, their poisonous clouds 
+obscuring the view of the summit.
+~
+#EXIT
+Direction down~
+ToRoom    40852
+Desc      The second tier.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40854
+Desc      The Fourth Tier.~
+#ENDEXIT
+Reset M 0 40512 10 40853
+#ENDROOM
+
+#ROOM
+Vnum     40854
+Name     &rThe Great Ziggurat - Fourth Tier&d~
+Sector   city~
+Flags    indoors~
+Desc     The final landing before the Blood God's seat. Elite 
+black-iron guardians stand in a circle around the 
+central stairs, their eyes glowing red with madness.
+~
+#EXIT
+Direction down~
+ToRoom    40853
+Desc      The third tier.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40855
+Desc      The Summit of Hakkar.~
+#ENDEXIT
+Reset M 0 40529 10 40854
+#ENDROOM
+
+#ROOM
+Vnum     40855
+Name     &rThe Summit of the Blood God&d~
+Sector   city~
+Flags    indoors~
+Desc     The highest point of Zul'Gurub. Hakkar the Soulflayer 
+coils upon a massive stone altar, his wings shading 
+the entire city. He watches the world with an unblinking 
+stare of absolute hunger, ready to devour all life.
+~
+#EXIT
+Direction down~
+ToRoom    40854
+Desc      The fourth tier.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40900
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 40500 1 40855
+  Reset E 1 40600 1 16
+  Reset G 1 40601 1
+  Reset G 1 40603 1
+#ENDROOM
+
+#ROOM
+Vnum     40860
+Name     &rJin'do's Plateau - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone bridge connecting the ziggurat to a 
+secluded hilltop. The air is thick with spectral 
+static and the smell of old incense.
+~
+#EXIT
+Direction south~
+ToRoom    40851
+Desc      The ziggurat.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40861
+Desc      The Sanctuary of Jin'do.~
+#ENDEXIT
+Reset M 0 40515 10 40860
+#ENDROOM
+
+#ROOM
+Vnum     40861
+Name     &rThe Sanctuary of Jin'do the Hexxer&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular chamber filled with voodoo totems 
+and skeletal remains. Jin'do stands before a 
+shimmering pool of blood, his hands weaving a complex 
+hex of shadow and spirit.
+~
+#EXIT
+Direction south~
+ToRoom    40860
+Desc      The plateau entrance.~
+#ENDEXIT
+Reset M 0 40507 1 40861
+  Reset G 1 40602 1
+#ENDROOM
+
+#ROOM
+Vnum     40705
+Name     &gJeklik Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the bat plateau filled with 
+shattered stones and the scent of old ammonia.
+~
+#EXIT
+Direction south~
+ToRoom    40704
+Desc      Jeklik's sanctuary.~
+#ENDEXIT
+Reset M 0 40511 5 40705
+#ENDROOM
+
+#ROOM
+Vnum     40706
+Name     &gJeklik Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room used by the priestesses to 
+store their feathered robes and Sonic-fetishes.
+~
+#EXIT
+Direction west~
+ToRoom    40704
+Desc      Jeklik's sanctuary.~
+#ENDEXIT
+Reset O 0 40606 10 40706
+#ENDROOM
+
+#ROOM
+Vnum     40712
+Name     &gVenoxis Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A frost-covered ledge near the snake plateau, 
+home to several large cobras.
+~
+#EXIT
+Direction south~
+ToRoom    40711
+Desc      Venoxis's plateau.~
+#ENDEXIT
+Reset M 0 40528 5 40712
+#ENDROOM
+
+#ROOM
+Vnum     40713
+Name     &gVenoxis Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop where the witch-doctors 
+brew their most potent venoms.
+~
+#EXIT
+Direction east~
+ToRoom    40711
+Desc      Venoxis's plateau.~
+#ENDEXIT
+Reset O 0 40629 10 40713
+#ENDROOM
+
+#ROOM
+Vnum     40803
+Name     &gThekkal Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet section of the tiger plateau where 
+the cubs are allowed to hunt in peace.
+~
+#EXIT
+Direction south~
+ToRoom    40801
+Desc      Thekkal's gates.~
+#ENDEXIT
+Reset M 0 40510 5 40803
+#ENDROOM
+
+#ROOM
+Vnum     40804
+Name     &gThekkal Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with tiger-bone necklaces 
+and ancient gold coins.
+~
+#EXIT
+Direction north~
+ToRoom    40801
+Desc      Thekkal's gates.~
+#ENDEXIT
+Reset O 0 40612 1 40804
+#ENDROOM
+
+#ROOM
+Vnum     40812
+Name     &rArlokk Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark corner of the panther sanctuary 
+filled with thick shadow-smoke and spirits.
+~
+#EXIT
+Direction south~
+ToRoom    40811
+Desc      Arlokk's sanctuary.~
+#ENDEXIT
+Reset M 0 40536 5 40812
+#ENDROOM
+
+#ROOM
+Vnum     40813
+Name     &rArlokk Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A small side chamber used for the storage of 
+fine silks and shadow-vials.
+~
+#EXIT
+Direction north~
+ToRoom    40811
+Desc      Arlokk's sanctuary.~
+#ENDEXIT
+Reset O 0 40635 10 40813
+#ENDROOM
+
+#ROOM
+Vnum     40720
+Name     &gThe River of Blood - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A slow-moving river of dark red water that 
+bisects the city. Zulian crocolisks lurk near the banks.
+~
+#EXIT
+Direction north~
+ToRoom    40721
+Desc      River Center.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40514 10 40720
+#ENDROOM
+
+#ROOM
+Vnum     40721
+Name     &gThe River of Blood - Center&d~
+Sector   forest~
+Flags    indoors~
+Desc     The middle of the river. A series of stepping 
+stones provide the only way across.
+~
+#EXIT
+Direction south~
+ToRoom    40720
+Desc      River South.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40722
+Desc      River North.~
+#ENDEXIT
+Reset M 0 40540 5 40721
+#ENDROOM
+
+#ROOM
+Vnum     40722
+Name     &gThe River of Blood - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     The river ends here at the base of a high 
+waterfall. The water is absolute still.
+~
+#EXIT
+Direction south~
+ToRoom    40721
+Desc      River Center.~
+#ENDEXIT
+Reset O 0 40627 10 40722
+#ENDROOM
+
+#ROOM
+Vnum     40730
+Name     &gThe Jungle Path - West 1&d~
+Sector   forest~
+Flags    indoors~
+Desc     A narrow trail winding through massive ferns 
+and gnarled trees.
+~
+#EXIT
+Direction north~
+ToRoom    40731
+Desc      West Path 2.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40702
+Desc      Bat path entrance.~
+#ENDEXIT
+Reset M 0 40533 5 40730
+#ENDROOM
+
+#ROOM
+Vnum     40731
+Name     &gThe Jungle Path - West 2&d~
+Sector   forest~
+Flags    indoors~
+Desc     The path turns sharply to the east, leading 
+deeper into the city's interior.
+~
+#EXIT
+Direction south~
+ToRoom    40730
+Desc      West Path 1.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    40732
+Desc      West Path 3.~
+#ENDEXIT
+Reset O 40616 10 40731
+#ENDROOM
+
+#ROOM
+Vnum     40732
+Name     &gThe Jungle Path - West 3&d~
+Sector   forest~
+Flags    indoors~
+Desc     The trees thin out slightly here, revealing 
+the towers of the snake plateau.
+~
+#EXIT
+Direction west~
+ToRoom    40731
+Desc      West Path 2.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40710
+Desc      Snake path entrance.~
+#ENDEXIT
+Reset M 0 40518 5 40732
+#ENDROOM
+
+#ROOM
+Vnum     40820
+Name     &gThe Jungle Path - East 1&d~
+Sector   forest~
+Flags    indoors~
+Desc     A muddy trail leading into the eastern jungle. 
+The air is absolute still.
+~
+#EXIT
+Direction north~
+ToRoom    40821
+Desc      East Path 2.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40800
+Desc      Tiger path entrance.~
+#ENDEXIT
+Reset M 0 40510 5 40820
+#ENDROOM
+
+#ROOM
+Vnum     40821
+Name     &gThe Jungle Path - East 2&d~
+Sector   forest~
+Flags    indoors~
+Desc     The path winds up a low hill. Several 
+panther-idols line the trail.
+~
+#EXIT
+Direction south~
+ToRoom    40820
+Desc      East Path 1.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40810
+Desc      Panther path entrance.~
+#ENDEXIT
+Reset O 40621 1 40821
+#ENDROOM
+
+#ROOM
+Vnum     40750
+Name     &rThe Mandokir Arena - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular pit filled with hundreds of 
+raptors. This is the place of final judgment 
+for the city's gladiators.
+~
+#EXIT
+Direction west~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40751
+Desc      The Arena Floor.~
+#ENDEXIT
+Reset M 0 40517 10 40750
+#ENDROOM
+
+#ROOM
+Vnum     40751
+Name     &rThe Arena Floor&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the pit. Bloodlord Mandokir sits 
+upon his massive raptor in the center, watching 
+the combat with predatory interest.
+~
+#EXIT
+Direction south~
+ToRoom    40750
+Desc      Arena entrance.~
+#ENDEXIT
+Reset M 0 40506 1 40751
+  Reset G 1 40622 1
+#ENDROOM
+
+#ROOM
+Vnum     40752
+Name     &rArena Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop where the arena armor 
+is repaired and polished.
+~
+#EXIT
+Direction west~
+ToRoom    40751
+Desc      Arena floor.~
+#ENDEXIT
+Reset O 0 40638 10 40752
+#ENDROOM
+
+#ROOM
+Vnum     40753
+Name     &rThe Raptor Pen&d~
+Sector   city~
+Flags    indoors~
+Desc     A high-walled room filled with dozens of 
+hungry zulian raptors.
+~
+#EXIT
+Direction south~
+ToRoom    40751
+Desc      Arena floor.~
+#ENDEXIT
+Reset M 0 40533 10 40753
+#ENDROOM
+
+#ROOM
+Vnum     40760
+Name     &gThe City Marketplace - West&d~
+Sector   city~
+Flags    indoors~
+Desc     Once a bustling trade hub, now a ruin 
+filled with overturned tables and dust.
+~
+#EXIT
+Direction east~
+ToRoom    40761
+Desc      Market Center.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40515 5 40760
+#ENDROOM
+
+#ROOM
+Vnum     40761
+Name     &gThe City Marketplace - Center&d~
+Sector   city~
+Flags    indoors~
+Desc     The center of the trade hub. A large 
+fountain is now a nest for wasps.
+~
+#EXIT
+Direction west~
+ToRoom    40760
+Desc      Market West.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    40762
+Desc      Market East.~
+#ENDEXIT
+Reset M 0 40538 10 40761
+#ENDROOM
+
+#ROOM
+Vnum     40762
+Name     &gThe City Marketplace - East&d~
+Sector   city~
+Flags    indoors~
+Desc     The eastern end of the market, leading 
+toward the high ziggurat.
+~
+#EXIT
+Direction west~
+ToRoom    40761
+Desc      Market Center.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40850
+Desc      Ziggurat base.~
+#ENDEXIT
+Reset O 0 40606 10 40762
+#ENDROOM
+
+#ROOM
+Vnum     40770
+Name     &gThe Silent Library - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large stone hall filled with the scent 
+of old paper and decaying magic.
+~
+#EXIT
+Direction north~
+ToRoom    40771
+Desc      The Library Stacks.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40523 5 40770
+#ENDROOM
+
+#ROOM
+Vnum     40771
+Name     &gThe Library Stacks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Row upon row of books reaching toward the 
+high ceiling. Many are written in Highborne.
+~
+#EXIT
+Direction south~
+ToRoom    40770
+Desc      Library entrance.~
+#ENDEXIT
+Reset O 0 40633 1 40771
+#ENDROOM
+
+#ROOM
+Vnum     40780
+Name     &gThe Voodoo Chambers - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark hallway leading toward the city's 
+ritual basements. The air is cold.
+~
+#EXIT
+Direction north~
+ToRoom    40781
+Desc      The Central Chamber.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40537 10 40780
+#ENDROOM
+
+#ROOM
+Vnum     40781
+Name     &gThe Central Voodoo Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide circular room filled with jars 
+of shadow-residue and mojos.
+~
+#EXIT
+Direction south~
+ToRoom    40780
+Desc      Chamber entry.~
+#ENDEXIT
+Reset O 0 40635 10 40781
+#ENDROOM
+
+#ROOM
+Vnum     40870
+Name     &gThe High Ledge - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A stone balcony offering a clear view of 
+the Great Ziggurat from the north.
+~
+#EXIT
+Direction south~
+ToRoom    40855
+Desc      Hakkar's summit.~
+#ENDEXIT
+Reset M 0 40513 5 40870
+#ENDROOM
+
+#ROOM
+Vnum     40871
+Name     &gThe High Ledge - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A stone balcony overlooking the entire 
+southern city ruins.
+~
+#EXIT
+Direction north~
+ToRoom    40855
+Desc      Hakkar's summit.~
+#ENDEXIT
+Reset O 40620 10 40871
+#ENDROOM
+
+#ROOM
+Vnum     40880
+Name     &gThe City Slums - West&d~
+Sector   city~
+Flags    indoors~
+Desc     The poorest section of the city, now a 
+mess of broken huts and garbage.
+~
+#EXIT
+Direction east~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40515 10 40880
+#ENDROOM
+
+#ROOM
+Vnum     40881
+Name     &gThe City Slums - East&d~
+Sector   city~
+Flags    indoors~
+Desc     Another section of the slums, home to 
+several large Plagueland rats.
+~
+#EXIT
+Direction west~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40521 10 40881
+#ENDROOM
+
+#ROOM
+Vnum     40890
+Name     &gThe Zandalar Watch&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room near the entrance where 
+Zandalar envoys monitor the city.
+~
+#EXIT
+Direction north~
+ToRoom    40700
+Desc      The city gates.~
+#ENDEXIT
+Reset M 0 40532 1 40890
+#ENDROOM
+
+#ROOM
+Vnum     40900
+Name     &rThe Zul'Gurub Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow stone tunnel behind the Blood God's altar 
+leads toward a hidden opening in the Stranglethorn 
+cliffs, offering a quick way back for those who 
+have defeated the Soulflayer.
+~
+#EXIT
+Direction south~
+ToRoom    40855
+Desc      Hakkar's summit.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40700
+Desc      The entrance gates.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     40733
+Name     &gJungle Overflow 1&d~
+Sector   forest~
+Flags    indoors~
+Desc     A dense thicket of ferns where blood-petal 
+sprouts dance in the damp air.
+~
+#EXIT
+Direction south~
+ToRoom    40732
+Desc      West Path 3.~
+#ENDEXIT
+Reset M 0 40531 10 40733
+#ENDROOM
+
+#ROOM
+Vnum     40734
+Name     &gJungle Overflow 2&d~
+Sector   forest~
+Flags    indoors~
+Desc     A quiet grotto filled with sungrass and 
+the scent of exotic flowers.
+~
+#EXIT
+Direction east~
+ToRoom    40732
+Desc      West Path 3.~
+#ENDEXIT
+Reset O 0 40619 10 40734
+#ENDROOM
+
+#ROOM
+Vnum     40822
+Name     &gJungle Overflow 3&d~
+Sector   forest~
+Flags    indoors~
+Desc     A side tunnel near the tiger plateau, 
+frequently patrolled by gurubashi berserkers.
+~
+#EXIT
+Direction west~
+ToRoom    40821
+Desc      East Path 2.~
+#ENDEXIT
+Reset M 0 40508 5 40822
+#ENDROOM
+
+#ROOM
+Vnum     40823
+Name     &gJungle Overflow 4&d~
+Sector   forest~
+Flags    indoors~
+Desc     A rocky ledge near the panther sanctuary, 
+offering a good view of the eastern city.
+~
+#EXIT
+Direction south~
+ToRoom    40821
+Desc      East Path 2.~
+#ENDEXIT
+Reset M 0 40525 5 40823
+#ENDROOM
+
+#ROOM
+Vnum     40707
+Name     &gEntry Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small side chamber in the entry courtyard 
+filled with murloc eyes and bones.
+~
+#EXIT
+Direction west~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset O 0 40627 10 40707
+#ENDROOM
+
+#ROOM
+Vnum     40708
+Name     &gEntry Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the gates, 
+home to several rockwing gargoyles.
+~
+#EXIT
+Direction east~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40520 5 40708
+#ENDROOM
+
+#ROOM
+Vnum     40714
+Name     &gSnake Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark alcove in the snake plateau where 
+shadowcasters rest between rituals.
+~
+#EXIT
+Direction north~
+ToRoom    40711
+Desc      Venoxis's plateau.~
+#ENDEXIT
+Reset M 0 40509 5 40714
+#ENDROOM
+
+#ROOM
+Vnum     40715
+Name     &gSnake Overflow D&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with snake venom and 
+the fragments of a broken altar.
+~
+#EXIT
+Direction south~
+ToRoom    40711
+Desc      Venoxis's plateau.~
+#ENDEXIT
+Reset O 0 40629 10 40715
+#ENDROOM
+
+#ROOM
+Vnum     40805
+Name     &gTiger Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the tiger sanctuary, 
+offering a view of the western river.
+~
+#EXIT
+Direction west~
+ToRoom    40801
+Desc      Thekkal's gates.~
+#ENDEXIT
+Reset M 0 40510 5 40805
+#ENDROOM
+
+#ROOM
+Vnum     40806
+Name     &gTiger Overflow D&d~
+Sector   city~
+Flags    indoors~
+Desc     A small storage room for tiger pelts 
+and bone-piles.
+~
+#EXIT
+Direction east~
+ToRoom    40801
+Desc      Thekkal's gates.~
+#ENDEXIT
+Reset O 40608 5 40806
+#ENDROOM
+
+#ROOM
+Vnum     40814
+Name     &rPanther Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark corner of the panther sanctuary 
+where the shadows seem to move.
+~
+#EXIT
+Direction east~
+ToRoom    40811
+Desc      Arlokk's sanctuary.~
+#ENDEXIT
+Reset M 0 40521 10 40814
+#ENDROOM
+
+#ROOM
+Vnum     40815
+Name     &rPanther Overflow D&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with panther-claws 
+and spectral silk.
+~
+#EXIT
+Direction west~
+ToRoom    40811
+Desc      Arlokk's sanctuary.~
+#ENDEXIT
+Reset O 0 40624 10 40815
+#ENDROOM
+
+#ROOM
+Vnum     40856
+Name     &rZiggurat Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side tunnel in the ziggurat base filled 
+with ancient stone tablets and dust.
+~
+#EXIT
+Direction north~
+ToRoom    40850
+Desc      Ziggurat base.~
+#ENDEXIT
+Reset O 0 40628 10 40856
+#ENDROOM
+
+#ROOM
+Vnum     40857
+Name     &rZiggurat Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow ledge where several shadowcasters 
+conduct their rituals.
+~
+#EXIT
+Direction south~
+ToRoom    40850
+Desc      Ziggurat base.~
+#ENDEXIT
+Reset M 0 40509 5 40857
+#ENDROOM
+
+#ROOM
+Vnum     40862
+Name     &rJin'do Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone balcony in Jin'do's post, 
+offering a view of the southern city.
+~
+#EXIT
+Direction south~
+ToRoom    40861
+Desc      Jin'do's sanctuary.~
+#ENDEXIT
+Reset M 0 40515 5 40862
+#ENDROOM
+
+#ROOM
+Vnum     40863
+Name     &rJin'do Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with voodoo fetishes 
+and bloodlord bijoux.
+~
+#EXIT
+Direction west~
+ToRoom    40861
+Desc      Jin'do's sanctuary.~
+#ENDEXIT
+Reset O 0 40623 5 40863
+#ENDROOM
+
+#ROOM
+Vnum     40740
+Name     &gThe Riverbank - West&d~
+Sector   forest~
+Flags    indoors~
+Desc     A muddy bank filled with large stones and 
+the scent of old blood.
+~
+#EXIT
+Direction east~
+ToRoom    40720
+Desc      River South.~
+#ENDEXIT
+Reset M 0 40514 5 40740
+#ENDROOM
+
+#ROOM
+Vnum     40741
+Name     &gThe Riverbank - East&d~
+Sector   forest~
+Flags    indoors~
+Desc     A sandy bank where several zulian tigers 
+have come to drink.
+~
+#EXIT
+Direction west~
+ToRoom    40720
+Desc      River South.~
+#ENDEXIT
+Reset M 0 40510 5 40741
+#ENDROOM
+
+#ROOM
+Vnum     40742
+Name     &gThe Stone Arch Bridge&d~
+Sector   city~
+Flags    indoors~
+Desc     An elegant stone arch crossing the northern river. 
+The carvings are worn but still beautiful.
+~
+#EXIT
+Direction south~
+ToRoom    40722
+Desc      River North.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40850
+Desc      Ziggurat base.~
+#ENDEXIT
+Reset M 0 40529 5 40742
+#ENDROOM
+
+#ROOM
+Vnum     40743
+Name     &gThe Hidden Grotto&d~
+Sector   forest~
+Flags    indoors dark~
+Desc     A secret pool tucked away behind the falls. 
+The water is pure and glows with a soft light.
+~
+#EXIT
+Direction east~
+ToRoom    40722
+Desc      River North.~
+#ENDEXIT
+Reset O 0 40616 10 40743
+#ENDROOM
+
+#ROOM
+Vnum     40830
+Name     &gThe Temple Plaza - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide stone landing offering a commanding 
+view of the city's northern district.
+~
+#EXIT
+Direction south~
+ToRoom    40850
+Desc      Ziggurat base.~
+#ENDEXIT
+Reset M 0 40527 5 40830
+#ENDROOM
+
+#ROOM
+Vnum     40831
+Name     &gThe Temple Plaza - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet square filled with mummified 
+remains and the smell of rot.
+~
+#EXIT
+Direction north~
+ToRoom    40850
+Desc      Ziggurat base.~
+#ENDEXIT
+Reset M 0 40521 10 40831
+#ENDROOM
+
+#ROOM
+Vnum     40832
+Name     &gThe Priest's Walk&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow trail leading through the city's 
+religious district.
+~
+#EXIT
+Direction south~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset M 0 40509 10 40832
+#ENDROOM
+
+#ROOM
+Vnum     40833
+Name     &gThe City Hall - Ruins&d~
+Sector   inside~
+Flags    indoors~
+Desc     The grandest building in the city is now 
+a shell filled with jungle-roots.
+~
+#EXIT
+Direction east~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset O 0 40636 10 40833
+#ENDROOM
+
+#ROOM
+Vnum     40834
+Name     &gThe Archive Side-room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for ancient scrolls and 
+voodoo rattles.
+~
+#EXIT
+Direction west~
+ToRoom    40771
+Desc      Library stacks.~
+#ENDEXIT
+Reset O 0 40633 1 40834
+#ENDROOM
+
+#ROOM
+Vnum     40835
+Name     &gThe Summoner's Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the library where the 
+hakkari initiate study their hexes.
+~
+#EXIT
+Direction east~
+ToRoom    40771
+Desc      Library stacks.~
+#ENDEXIT
+Reset M 0 40537 5 40835
+#ENDROOM
+
+#ROOM
+Vnum     40836
+Name     &gThe Kitchen Overflow&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the slums where the 
+butchers prepare the city's meat.
+~
+#EXIT
+Direction north~
+ToRoom    40880
+Desc      West slums.~
+#ENDEXIT
+Reset M 0 40535 5 40836
+#ENDROOM
+
+#ROOM
+Vnum     40837
+Name     &gThe Hospital Overflow&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room in the basements where 
+the witch-doctors treat the veterans.
+~
+#EXIT
+Direction south~
+ToRoom    40781
+Desc      Voodoo chamber.~
+#ENDEXIT
+Reset M 0 40526 5 40837
+#ENDROOM
+
+#ROOM
+Vnum     40838
+Name     &gThe High Garden&d~
+Sector   forest~
+Flags    indoors~
+Desc     A rare balcony that stays remarkably 
+clear of the city's decay.
+~
+#EXIT
+Direction south~
+ToRoom    40701
+Desc      Entry courtyard.~
+#ENDEXIT
+Reset O 40616 10 40838
+#ENDROOM
+
+#ROOM
+Vnum     40839
+Name     &gThe Shadowed Grotto&d~
+Sector   forest~
+Flags    indoors dark~
+Desc     A small cavern hidden beneath the tiger plateau.
+~
+#EXIT
+Direction up~
+ToRoom    40801
+Desc      Thekkal's gates.~
+#ENDEXIT
+Reset M 0 40510 10 40839
+#ENDROOM
+
+#ROOM
+Vnum     40840
+Name     &gThe Ledge of the God&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the ziggurat 
+summit, home to several sons of hakkar.
+~
+#EXIT
+Direction down~
+ToRoom    40854
+Desc      Fourth tier.~
+#ENDEXIT
+Reset M 0 40512 10 40840
+#ENDROOM
+
+#ROOM
+Vnum     40841
+Name     &gThe Final Path - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet central garden near the city's exit.
+~
+#EXIT
+Direction south~
+ToRoom    40900
+Desc      Exit path.~
+#ENDEXIT
+Reset O 0 40625 10 40841
+#ENDROOM
+
+#ROOM
+Vnum     40842
+Name     &gThe Path of the Bat - Middle&d~
+Sector   forest~
+Flags    indoors~
+Desc     A winding section of the western jungle trail.
+~
+#EXIT
+Direction north~
+ToRoom    40730
+Desc      West Path 1.~
+#ENDEXIT
+Reset M 0 40511 5 40842
+#ENDROOM
+
+#ROOM
+Vnum     40843
+Name     &gThe Path of the Snake - Middle&d~
+Sector   forest~
+Flags    indoors~
+Desc     A humid section of the trail near the emerald fog.
+~
+#EXIT
+Direction east~
+ToRoom    40710
+Desc      Snake Path Entrance.~
+#ENDEXIT
+Reset M 0 40518 5 40843
+#ENDROOM
+
+#ROOM
+Vnum     40844
+Name     &gThe Path of the Tiger - Middle&d~
+Sector   forest~
+Flags    indoors~
+Desc     A section of the trail filled with tiger-bone idols.
+~
+#EXIT
+Direction north~
+ToRoom    40820
+Desc      East Path 1.~
+#ENDEXIT
+Reset M 0 40510 5 40844
+#ENDROOM
+
+#ROOM
+Vnum     40845
+Name     &gThe Path of the Panther - Middle&d~
+Sector   forest~
+Flags    indoors~
+Desc     A dark section of the trail where the light never reaches.
+~
+#EXIT
+Direction south~
+ToRoom    40810
+Desc      Panther Path Entrance.~
+#ENDEXIT
+Reset M 0 40521 5 40845
+#ENDROOM
+
+#ROOM
+Vnum     40846
+Name     &gThe Ziggurat Labyrinth - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A confusing series of stone rooms near the temple base.
+~
+#EXIT
+Direction north~
+ToRoom    40847
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40850
+Desc      Ziggurat Base.~
+#ENDEXIT
+Reset M 0 40509 5 40846
+#ENDROOM
+
+#ROOM
+Vnum     40847
+Name     &gThe Ziggurat Labyrinth - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the base labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40846
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40509 5 40847
+#ENDROOM
+
+#ROOM
+Vnum     40848
+Name     &gThe Market Labyrinth - South&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing stone corridors near the city trade hub.
+~
+#EXIT
+Direction north~
+ToRoom    40849
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40761
+Desc      Market Center.~
+#ENDEXIT
+Reset M 0 40515 5 40848
+#ENDROOM
+
+#ROOM
+Vnum     40849
+Name     &gThe Market Labyrinth - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the market labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40848
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40515 5 40849
+#ENDROOM
+
+#ROOM
+Vnum     40872
+Name     &gThe High Garden - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     A beautiful stone landing overlooking the northern city.
+~
+#EXIT
+Direction south~
+ToRoom    40838
+Desc      High Garden.~
+#ENDEXIT
+Reset O 40616 10 40872
+#ENDROOM
+
+#ROOM
+Vnum     40873
+Name     &gThe High Garden - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A stone landing near the gardens entrance.
+~
+#EXIT
+Direction north~
+ToRoom    40838
+Desc      High Garden.~
+#ENDEXIT
+Reset M 0 40531 10 40873
+#ENDROOM
+
+#ROOM
+Vnum     40874
+Name     &gThe Voodoo Labyrinth - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing dark corridors near the ritual basements.
+~
+#EXIT
+Direction north~
+ToRoom    40875
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40781
+Desc      Voodoo Chamber.~
+#ENDEXIT
+Reset M 0 40537 10 40874
+#ENDROOM
+
+#ROOM
+Vnum     40875
+Name     &gThe Voodoo Labyrinth - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the voodoo labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40874
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40537 10 40875
+#ENDROOM
+
+#ROOM
+Vnum     40876
+Name     &gThe Slums Labyrinth - South&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing messy corridors near the western slums.
+~
+#EXIT
+Direction north~
+ToRoom    40877
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40880
+Desc      West Slums.~
+#ENDEXIT
+Reset M 0 40515 10 40876
+#ENDROOM
+
+#ROOM
+Vnum     40877
+Name     &gThe Slums Labyrinth - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the slums labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40876
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40515 10 40877
+#ENDROOM
+
+#ROOM
+Vnum     40878
+Name     &gThe River Labyrinth - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A confusion of muddy tunnels near the blood river.
+~
+#EXIT
+Direction north~
+ToRoom    40879
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40721
+Desc      River Center.~
+#ENDEXIT
+Reset M 0 40514 10 40878
+#ENDROOM
+
+#ROOM
+Vnum     40879
+Name     &gThe River Labyrinth - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     The heart of the river labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40878
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40514 10 40879
+#ENDROOM
+
+#ROOM
+Vnum     40882
+Name     &gThe Library Labyrinth - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the city's stacks.
+~
+#EXIT
+Direction north~
+ToRoom    40883
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40771
+Desc      Library Stacks.~
+#ENDEXIT
+Reset M 0 40523 5 40882
+#ENDROOM
+
+#ROOM
+Vnum     40883
+Name     &gThe Library Labyrinth - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the library labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40882
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40523 5 40883
+#ENDROOM
+
+#ROOM
+Vnum     40884
+Name     &gThe Arena Labyrinth - South&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing stone corridors near the Mandokir arena.
+~
+#EXIT
+Direction north~
+ToRoom    40885
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40751
+Desc      Arena Floor.~
+#ENDEXIT
+Reset M 0 40517 10 40884
+#ENDROOM
+
+#ROOM
+Vnum     40885
+Name     &gThe Arena Labyrinth - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the arena labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40884
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40517 10 40885
+#ENDROOM
+
+#ROOM
+Vnum     40886
+Name     &gThe Final Labyrinth - South&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing stone corridors near the city's exit.
+~
+#EXIT
+Direction north~
+ToRoom    40887
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40900
+Desc      Exit Path.~
+#ENDEXIT
+Reset M 0 40527 5 40886
+#ENDROOM
+
+#ROOM
+Vnum     40887
+Name     &gThe Final Labyrinth - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40886
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40527 5 40887
+#ENDROOM
+
+#ROOM
+Vnum     40888
+Name     &gThe Entry Labyrinth - South&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing overgrown corridors near the city's entrance.
+~
+#EXIT
+Direction north~
+ToRoom    40889
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40701
+Desc      Entry Courtyard.~
+#ENDEXIT
+Reset M 0 40508 10 40888
+#ENDROOM
+
+#ROOM
+Vnum     40889
+Name     &gThe Entry Labyrinth - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40888
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40508 10 40889
+#ENDROOM
+
+#ROOM
+Vnum     40891
+Name     &gThe Bat Labyrinth - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A confusion of leathery-winged tunnels near the bat plateau.
+~
+#EXIT
+Direction north~
+ToRoom    40892
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40704
+Desc      Jeklik's Sanctuary.~
+#ENDEXIT
+Reset M 0 40511 10 40891
+#ENDROOM
+
+#ROOM
+Vnum     40892
+Name     &gThe Bat Labyrinth - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     The heart of the bat labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40891
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40511 10 40892
+#ENDROOM
+
+#ROOM
+Vnum     40893
+Name     &gThe Snake Labyrinth - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A confusion of slithering emerald tunnels near the snake plateau.
+~
+#EXIT
+Direction north~
+ToRoom    40894
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40711
+Desc      Venoxis's Plateau.~
+#ENDEXIT
+Reset M 0 40518 10 40893
+#ENDROOM
+
+#ROOM
+Vnum     40894
+Name     &gThe Snake Labyrinth - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     The heart of the snake labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40893
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40518 10 40894
+#ENDROOM
+
+#ROOM
+Vnum     40895
+Name     &gThe Tiger Labyrinth - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A confusion of bone-filled tunnels near the tiger plateau.
+~
+#EXIT
+Direction north~
+ToRoom    40896
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40801
+Desc      Thekkal's Gates.~
+#ENDEXIT
+Reset M 0 40510 10 40895
+#ENDROOM
+
+#ROOM
+Vnum     40896
+Name     &gThe Tiger Labyrinth - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     The heart of the tiger labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40895
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40510 10 40896
+#ENDROOM
+
+#ROOM
+Vnum     40897
+Name     &gThe Panther Labyrinth - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A confusion of shadowy tunnels near the panther sanctuary.
+~
+#EXIT
+Direction north~
+ToRoom    40898
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40811
+Desc      Arlokk's Sanctuary.~
+#ENDEXIT
+Reset M 0 40521 10 40897
+#ENDROOM
+
+#ROOM
+Vnum     40898
+Name     &gThe Panther Labyrinth - North&d~
+Sector   forest~
+Flags    indoors~
+Desc     The heart of the panther labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40897
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40521 10 40898
+#ENDROOM
+
+#ROOM
+Vnum     40899
+Name     &gThe Jin'do Labyrinth - South&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing spectral tunnels near Jin'do's post.
+~
+#EXIT
+Direction north~
+ToRoom    40901
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40861
+Desc      Jin'do's Sanctuary.~
+#ENDEXIT
+Reset M 0 40515 10 40899
+#ENDROOM
+
+#ROOM
+Vnum     40901
+Name     &gThe Jin'do Labyrinth - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the spectral labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40899
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40515 10 40901
+#ENDROOM
+
+#ENDAREA
