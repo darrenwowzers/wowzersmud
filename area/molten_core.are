@@ -1,0 +1,2429 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Molten Core~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       60 60 0 60
+Economy      0 1000000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       41500
+Keywords   ragnaros firelord boss elemental~
+Short      Ragnaros~
+Long       The Firelord Ragnaros rises from the pool of lava, Sulfuras held high.
+~
+Desc       A being of pure, destructive fire and the master of the Molten Core. 
+His voice rumbles like an erupting volcano, and his presence alone 
+is enough to incinerate the unworthy.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 1000000 2000000
+Stats2     63 63 20000
+Stats3     100 500 200
+Stats4     0 0 0 0 0
+Attribs    50 10 50 40 40 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       41501
+Keywords   majordomo executus boss flamewaker~
+Short      Majordomo Executus~
+Long       Majordomo Executus stands before the runes, flanked by his elite guards.
+~
+Desc       The highest-ranking servant of Ragnaros. He coordinates the 
+defense of the Core and is the only one capable of summoning 
+the Firelord from his slumber.
+~
+Race       demon~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 150000 400000
+Stats2     62 62 5000
+Stats3     45 150 95
+Stats4     0 0 0 0 0
+Attribs    25 15 25 40 35 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       41502
+Keywords   lucifron boss flamewaker~
+Short      Lucifron~
+Long       Lucifron slithers forward, his curved blade dripping with shadow-fire.
+~
+Desc       A powerful flamewaker priest who uses dark curses to weaken 
+and disorient those who enter the Core.
+~
+Race       demon~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 85000 250000
+Stats2     61 61 3000
+Stats3     35 110 80
+Stats4     0 0 0 0 0
+Attribs    18 20 20 35 32 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41503
+Keywords   magmadar boss beast hound~
+Short      Magmadar~
+Long       The massive core hound Magmadar growls, fire dripping from his triple jaws.
+~
+Desc       The favorite pet of Ragnaros and the sire of all core hounds. 
+He is a beast of pure flame and ferocity.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 95000 280000
+Stats2     61 61 0
+Stats3     38 115 82
+Stats4     0 0 0 0 0
+Attribs    45 8 38 4 6 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41504
+Keywords   gehennas boss flamewaker~
+Short      Gehennas~
+Long       Gehennas weaves a spell of shadow, his scales shimmering with heat.
+~
+Race       demon~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 88000 260000
+Stats2     61 61 3500
+Stats3     36 112 80
+Stats4     0 0 0 0 0
+Attribs    20 18 20 38 34 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41505
+Keywords   garr boss elemental elite~
+Short      Garr~
+Long       A massive rock elemental surrounded by eight smaller firesworn rumbles.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 110000 300000
+Stats2     61 61 0
+Stats3     40 120 85
+Stats4     0 0 0 0 0
+Attribs    48 4 45 10 12 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41506
+Keywords   baron geddon boss elemental~
+Short      Baron Geddon~
+Long       Baron Geddon, a pillar of living fire, patrols the stone loop.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 90000 270000
+Stats2     61 61 1000
+Stats3     38 115 80
+Stats4     0 0 0 0 0
+Attribs    35 25 30 20 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41507
+Keywords   shazzrah boss flamewaker mage~
+Short      Shazzrah~
+Long       Shazzrah flickers in and out of sight, muttering arcane curses.
+~
+Race       demon~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 82000 240000
+Stats2     61 61 4000
+Stats3     32 105 78
+Stats4     0 0 0 0 0
+Attribs    12 25 18 40 32 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41508
+Keywords   sulfuron harbinger boss flamewaker~
+Short      Sulfuron Harbinger~
+Long       Sulfuron balances a dark mace, his four guards standing ready.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 98000 290000
+Stats2     61 61 1000
+Stats3     40 118 82
+Stats4     0 0 0 0 0
+Attribs    32 14 26 22 24 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41509
+Keywords   golemagg incinerator boss giant~
+Short      Golemagg the Incinerator~
+Long       A titanic molten giant flanked by two core ragers bellows.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 180000 500000
+Stats2     62 62 0
+Stats3     50 180 95
+Stats4     0 0 0 0 0
+Attribs    50 4 45 8 10 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       41510
+Keywords   molten giant elite~
+Short      a Molten Giant~
+Long       A massive figure of rock and magma stand guard at the entrance.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 8500 22000
+Stats2     60 60 0
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    35 6 30 4 8 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41511
+Keywords   ancient core hound beast hound~
+Short      an Ancient Core Hound~
+Long       A massive two-headed dog with flaming breath stalks the corridor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 12000 35000
+Stats2     60 60 0
+Stats3     30 85 65
+Stats4     0 0 0 0 0
+Attribs    32 18 28 4 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41512
+Keywords   firelord elemental elite~
+Short      a Firelord~
+Long       A being of pure orange flame summons smaller spawns.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 6000 18000
+Stats2     60 60 2500
+Stats3     22 65 60
+Stats4     0 0 0 0 0
+Attribs    14 12 20 35 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41513
+Keywords   lava surger elemental~
+Short      a Lava Surger~
+Long       A fast-moving wave of molten stone rushes toward you.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 12000
+Stats2     60 60 0
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    30 25 24 4 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41514
+Keywords   flamewaker elite demon~
+Short      a Flamewaker Elite~
+Long       A lizard-like humanoid in black-iron plate levels a spear.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5500 15000
+Stats2     60 60 200
+Stats3     22 60 60
+Stats4     0 0 0 0 0
+Attribs    28 14 24 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41515
+Keywords   lava annihilator elemental~
+Short      a Lava Annihilator~
+Long       A pile of hot basalt and fire slams its fists into the ground.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 7500 20000
+Stats2     60 60 0
+Stats3     24 68 60
+Stats4     0 0 0 0 0
+Attribs    35 6 32 4 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41516
+Keywords   molten destroyer elemental elite~
+Short      a Molten Destroyer~
+Long       A gargantuan giant of hardened magma roars, eyes glowing.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 15000 45000
+Stats2     61 61 0
+Stats3     35 110 70
+Stats4     0 0 0 0 0
+Attribs    42 4 40 8 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41517
+Keywords   firebrand warlock orc mage~
+Short      a Firebrand Warlock~
+Long       A human-shaped shadow mutters to a burning void-walker.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5000
+Stats2     60 60 2500
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 34 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41518
+Keywords   lava crab beast~
+Short      a Lava Crab~
+Long       A large beetle-like insect with a shell of obsidian crawls by.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1100 3200
+Stats2     59 59 0
+Stats3     9 22 59
+Stats4     0 0 0 0 0
+Attribs    20 18 20 4 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       41519
+Keywords   flamewaker protector demon warrior~
+Short      a Flamewaker Protector~
+Long       A heavily armored flamewaker stands silent guard.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 8500 24000
+Stats2     61 61 300
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    32 14 26 12 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41520
+Keywords   firesworn elemental~
+Short      a Firesworn~
+Long       A small, burning rock elemental waits for its master's command.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2500 7500
+Stats2     58 58 0
+Stats3     14 42 58
+Stats4     0 0 0 0 0
+Attribs    24 10 22 4 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41521
+Keywords   lava elemental spawn elemental~
+Short      a Lava Elemental Spawn~
+Long       A tiny fragment of living fire dances on the floor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 800 2200
+Stats2     55 55 0
+Stats3     7 18 55
+Stats4     0 0 0 0 0
+Attribs    16 22 14 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       41522
+Keywords   core hound pack beast~
+Short      a Core Hound Pack-Leader~
+Long       A large red hound bellows, leading a swarm of smaller pups.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5500 15000
+Stats2     60 60 0
+Stats3     22 65 60
+Stats4     0 0 0 0 0
+Attribs    30 20 24 4 10 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41523
+Keywords   flamewaker healer demon shaman~
+Short      a Flamewaker Healer~
+Long       A flamewaker mutters a fiery prayer, mending wounds.
+~
+Race       demon~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1600 4800
+Stats2     60 60 2200
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41524
+Keywords   lava spawn elemental~
+Short      a Lava Spawn~
+Long       A small puddle of living lava attempts to split into two.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1200 3500
+Stats2     57 57 0
+Stats3     9 24 57
+Stats4     0 0 0 0 0
+Attribs    18 16 18 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       41525
+Keywords   firewalker demon shaman~
+Short      a Firewalker~
+Long       A tall, thin flame-demon mutters an incantation of heat.
+~
+Race       demon~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 2000
+Stats3     11 30 60
+Stats4     0 0 0 0 0
+Attribs    14 16 18 30 25 12 12
+#ENDMOBILE
+
+#OBJECT
+Vnum     41600
+Keywords sulfuras hand ragnaros mace weapon~
+Type     weapon~
+Short    Sulfuras, Hand of Ragnaros~
+Long     A gargantuan hammer of burning orange metal, the weight of a mountain.~
+WFlags   take wield~
+Values   12 35 70 8 0 0
+Stats    50 500000 60 0 0
+Rarity   3
+Affect   1 30 0 0 0
+Affect   13 50 0 0 0
+Affect   18 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41601
+Keywords eye sulfuras legendary treasure~
+Type     treasure~
+Short    the Eye of Sulfuras~
+Long     A massive, glowing orange crystal that pulses with pure fire.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    10 250000 60 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     41602
+Keywords binding windseeker legendary treasure~
+Type     treasure~
+Short    a Binding of the Windseeker~
+Long     A heavy iron shackle that hums with the power of the air.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 250000 60 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     41603
+Keywords perdition's blade dagger weapon~
+Type     weapon~
+Short    Perdition's Blade~
+Long     A glowing red dagger that leaves a trail of ash in the air.~
+WFlags   take wield~
+Values   12 20 45 11 0 0
+Stats    2 50000 62 0 0
+Rarity   3
+Affect   2 25 0 0 0
+Affect   12 30 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41604
+Keywords spinal reaper axe weapon~
+Type     weapon~
+Short    the Spinal Reaper~
+Long     A massive two-handed axe with a blade carved from a giant's bone.~
+WFlags   take wield~
+Values   12 25 60 2 0 0
+Stats    30 45000 62 0 0
+Rarity   3
+Affect   1 25 0 0 0
+Affect   13 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41605
+Keywords bonereaver's edge sword weapon~
+Type     weapon~
+Short    the Bonereaver's Edge~
+Long     A jagged greatsword that seems to hunger for the blood of giants.~
+WFlags   take wield~
+Values   12 25 55 3 0 0
+Stats    35 50000 63 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 30 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41606
+Keywords obsidian edged blade dagger~
+Type     weapon~
+Short    the Obsidian Edged Blade~
+Long     A sleek black sword with a razor-sharp volcanic edge.~
+WFlags   take wield~
+Values   12 18 40 3 0 0
+Stats    15 35000 61 0 0
+Rarity   2
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41607
+Keywords giantstalker breastplate body armor~
+Type     armor~
+Short    the Giantstalker's Breastplate~
+Long     Heavy mail armor fashioned from the scales of a core hound.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 25000 60 0 0
+Rarity   3
+Affect   2 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41608
+Keywords felheart robes body armor~
+Type     armor~
+Short    the Felheart Robes~
+Long     Dark purple robes embroidered with the sigil of a demon.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41609
+Keywords cenarion vestments body armor~
+Type     armor~
+Short    the Cenarion Vestments~
+Long     Robes of living bark and glowing emerald leaves.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    6 25000 60 0 0
+Rarity   3
+Affect   3 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41610
+Keywords earthshatter mace weapon~
+Type     weapon~
+Short    the Earthshatter~
+Long     A heavy stone mace that hums with the power of the deep earth.~
+WFlags   take wield~
+Values   12 15 35 8 0 0
+Stats    25 15000 61 0 0
+Rarity   2
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41611
+Keywords core leather gloves hands~
+Type     armor~
+Short    a pair of Core Leather Gloves~
+Long     Gloves made from the fire-resistant hide of a core hound.~
+WFlags   take hands~
+Values   15 0 0 0 0 0
+Stats    5 8500 60 0 0
+Rarity   2
+Affect   2 12 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41612
+Keywords essence fire treasure hold~
+Type     treasure~
+Short    an Essence of Fire~
+Long     A swirling cloud of orange flame contained in a glass jar.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1500 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     41613
+Keywords core of earth treasure hold~
+Type     treasure~
+Short    a Core of Earth~
+Long     A heavy, pulsing stone taken from a molten giant.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     41614
+Keywords dark iron bar mineral~
+Type     treasure~
+Short    a solid Black Iron Bar~
+Long     A rectangular bar of refined Dark Iron metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 2500 58 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     41615
+Keywords blood of the mountain treasure~
+Type     treasure~
+Short    the Blood of the Mountain~
+Long     A glowing red liquid that is extremely hot to the touch.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 5500 60 0 0
+Rarity   2
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41616
+Keywords molten core hound tooth trophy~
+Type     trash~
+Short    a massive core hound tooth~
+Long     A long, jagged canine tooth that still smokes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     41617
+Keywords fiery plate gauntlets hands~
+Type     armor~
+Short    a pair of Fiery Plate Gauntlets~
+Long     Plate gauntlets that glow with an internal heat.~
+WFlags   take hands~
+Values   20 0 0 0 0 0
+Stats    10 12000 61 0 0
+Rarity   2
+Affect   1 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41618
+Keywords staff dominance weapon~
+Type     weapon~
+Short    the Staff of Dominance~
+Long     A tall staff topped with a large, swirling red gem.~
+WFlags   take wield~
+Values   12 12 25 7 0 0
+Stats    12 25000 62 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41619
+Keywords drillborer disk shield armor~
+Type     armor~
+Short    the Drillborer Disk~
+Long     A heavy rotating shield reinforced with obsidian spikes.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 35000 62 0 0
+Rarity   3
+Affect   5 20 0 0 0
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41620
+Keywords fire-etched belt waist armor~
+Type     armor~
+Short    a Fire-etched Girdle~
+Long     A heavy iron belt etched with runes of flame.~
+WFlags   take waist~
+Values   15 0 0 0 0 0
+Stats    8 15000 61 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     41700
+Name     &rThe Entrance to the Molten Core&d~
+Sector   city~
+Flags    indoors~
+Desc     The narrow ledge of the Searing Gorge falls away into a massive, 
+vertical shaft of fire and smoke. You stand on the threshold of 
+the Molten Core, the deepest prison of the Firelord. The air is 
+so hot it blisters the skin, and the ground vibrates with the 
+heartbeat of the mountain. A shimmering, white-hot portal 
+glows within the mouth of the cave.
+~
+#EXIT
+Direction out~
+ToRoom    36562
+Desc      Return to the Window of the Core in Searing Gorge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41701
+Desc      The path into the deep fire.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     41701
+Name     &rThe Magma Thoroughfare&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide thoroughfare carved from solid basalt. The walls are 
+streaked with veins of glowing iron, and the ceiling is lost 
+in a haze of thick, sulfurous smoke. Molten giants stand like 
+statues in alcoves along the path, their eyes tracking your 
+every movement.
+~
+#EXIT
+Direction south~
+ToRoom    41700
+Desc      The entrance portal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41702
+Desc      The intersection of ash.~
+#ENDEXIT
+Reset M 0 41510 10 41701
+#ENDROOM
+
+#ROOM
+Vnum     41702
+Name     &rThe Intersection of Ash&d~
+Sector   inside~
+Flags    indoors~
+Desc     The main road splits here into three distinct paths. To the 
+west, the air is thick with the scent of wet fur and raw 
+meat. To the east, the sound of rhythmic chanting echoes 
+from a high stone hall. To the north, the road leads deeper 
+into the volcanic heart.
+~
+#EXIT
+Direction south~
+ToRoom    41701
+Desc      The entry thoroughfare.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    41703
+Desc      Toward the Magmadar Den.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41720
+Desc      Toward the Flamewaker Quarter.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41750
+Desc      Toward the Hall of the Firelord.~
+#ENDEXIT
+Reset M 0 41511 5 41702
+#ENDROOM
+
+#ROOM
+Vnum     41703
+Name     &rThe Magmadar Den - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are covered in thick, black hair and bits of 
+charred bone. The sound of deep, rhythmic snoring causes the 
+stone floor to vibrate. Lucifron can be seen slithering 
+between the massive pillars ahead.
+~
+#EXIT
+Direction east~
+ToRoom    41702
+Desc      The intersection.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41704
+Desc      The Lair of Lucifron.~
+#ENDEXIT
+Reset M 0 41502 1 41703
+#ENDROOM
+
+#ROOM
+Vnum     41704
+Name     &rThe Lair of Lucifron&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide circular hall filled with the shadow of the mountain. 
+Lucifron stands before a large obsidian altar, his curved 
+blade reflecting the orange glow of the nearby lava pits. 
+His loyal guards hiss in anticipation.
+~
+#EXIT
+Direction south~
+ToRoom    41703
+Desc      The den entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41705
+Desc      The Lair of Magmadar.~
+#ENDEXIT
+Reset M 0 41502 1 41704
+  Reset G 1 41606 1
+Reset M 0 41514 5 41704
+#ENDROOM
+
+#ROOM
+Vnum     41705
+Name     &rThe Lair of Magmadar&d~
+Sector   inside~
+Flags    indoors~
+Desc     The highest point of the southern dens. The massive core hound 
+Magmadar sleeps upon a bed of cooling lava, his three heads 
+shifting in his sleep. The air is stagnant and reeks of 
+reptile musk and smoke.
+~
+#EXIT
+Direction south~
+ToRoom    41704
+Desc      Lucifron's lair.~
+#ENDEXIT
+Reset M 0 41503 1 41705
+  Reset G 1 41603 1
+  Reset G 1 41611 1
+#ENDROOM
+
+#ROOM
+Vnum     41720
+Name     &rThe Flamewaker Quarter - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here is more refined, with pillars carved in the 
+image of serpents. Firelords hover near the ceiling, summoning 
+minor elementals to patrol the halls.
+~
+#EXIT
+Direction west~
+ToRoom    41702
+Desc      The intersection.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41721
+Desc      The Hall of Gehennas.~
+#ENDEXIT
+Reset M 0 41512 5 41720
+#ENDROOM
+
+#ROOM
+Vnum     41721
+Name     &rThe Hall of Gehennas&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber. Gehennas stands in the center of 
+a glowing ritual circle, his hands weaving a spell of 
+pure shadow-fire. The walls are lined with high-ranking 
+flamewaker guards.
+~
+#EXIT
+Direction south~
+ToRoom    41720
+Desc      The quarter entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41722
+Desc      Toward Garr's Enclave.~
+#ENDEXIT
+Reset M 0 41504 1 41721
+  Reset G 1 41610 1
+Reset M 0 41514 5 41721
+#ENDROOM
+
+#ROOM
+Vnum     41722
+Name     &rGarr's Enclave - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is heavy and still. The ground is composed of 
+thousands of small, obsidian stones that crunch underfoot. 
+A massive rock elemental can be seen standing like a mountain 
+in the distance.
+~
+#EXIT
+Direction south~
+ToRoom    41721
+Desc      The hall of gehennas.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41723
+Desc      The Peak of Garr.~
+#ENDEXIT
+Reset M 0 41505 1 41722
+#ENDROOM
+
+#ROOM
+Vnum     41723
+Name     &rThe Peak of Garr&d~
+Sector   inside~
+Flags    indoors~
+Desc     The highest point of the eastern halls. Garr stands in the 
+center of a wide stone terrace, surrounded by eight 
+smaller rock elementals who hum in a low, grounding pitch.
+~
+#EXIT
+Direction west~
+ToRoom    41722
+Desc      The enclave entry.~
+#ENDEXIT
+Reset M 0 41505 1 41723
+  Reset G 1 41602 1
+  Reset G 1 41613 1
+#ENDROOM
+
+#ROOM
+Vnum     41750
+Name     &rThe Road to the Firelord - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air becomes blistering hot as you approach the volcanic 
+center. A wide road of massive pavers leads toward a 
+circular loop of stone. The scent of brimstone is overwhelming.
+~
+#EXIT
+Direction south~
+ToRoom    41702
+Desc      The intersection.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41751
+Desc      The Searing Loop.~
+#ENDEXIT
+Reset M 0 41513 10 41750
+#ENDROOM
+
+#ROOM
+Vnum     41751
+Name     &rThe Searing Loop - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long stone path that circles a massive central pit of lava. 
+Baron Geddon patrols this loop in a never-ending cycle, 
+his body a pillar of pure, white-hot flame.
+~
+#EXIT
+Direction south~
+ToRoom    41750
+Desc      The road entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    41752
+Desc      The Searing Loop West.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41753
+Desc      The Searing Loop East.~
+#ENDEXIT
+Reset M 0 41506 1 41751
+#ENDROOM
+
+#ROOM
+Vnum     41752
+Name     &rThe Searing Loop - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     The western half of the loop. To the west, a high bridge 
+leads toward the Shazzrah's quarters. Molten giants 
+keep watch over the burning abyss.
+~
+#EXIT
+Direction east~
+ToRoom    41751
+Desc      The loop south.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    41754
+Desc      Toward Shazzrah's Hall.~
+#ENDEXIT
+Reset M 0 41516 5 41752
+#ENDROOM
+
+#ROOM
+Vnum     41754
+Name     &rThe Hall of Shazzrah&d~
+Sector   inside~
+Flags    indoors~
+Desc     A circular room filled with shimmering arcane distortion. 
+Shazzrah stands in the center, his many heads muttering 
+contradictory incantations. He teleports rapidly across 
+the floor, leaving a trail of blue static.
+~
+#EXIT
+Direction east~
+ToRoom    41752
+Desc      The loop west.~
+#ENDEXIT
+Reset M 0 41507 1 41754
+  Reset G 1 41618 1
+#ENDROOM
+
+#ROOM
+Vnum     41753
+Name     &rThe Searing Loop - East&d~
+Sector   inside~
+Flags    indoors~
+Desc     The eastern half of the loop. To the east, a wide thoroughfare 
+leads toward Sulfuron's balcony. Lava surgers rush 
+along the stone path.
+~
+#EXIT
+Direction west~
+ToRoom    41751
+Desc      The loop south.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41755
+Desc      Toward Sulfuron's Hall.~
+#ENDEXIT
+Reset M 0 41513 10 41753
+#ENDROOM
+
+#ROOM
+Vnum     41755
+Name     &rThe Hall of Sulfuron Harbinger&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large stone platform overlooking a river of magma. 
+Sulfuron Harbinger stands in the center, surrounded by 
+his elite flamewaker guards. He balances a massive 
+obsidian mace, his eyes glowing with inner fire.
+~
+#EXIT
+Direction west~
+ToRoom    41753
+Desc      The loop east.~
+#ENDEXIT
+Reset M 0 41508 1 41755
+  Reset G 1 41604 1
+Reset M 0 41514 4 41755
+#ENDROOM
+
+#ROOM
+Vnum     41800
+Name     &rThe Road to the Core - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The stone path narrows as it leads into the very heart of the 
+mountain. The sound of thousands of tons of falling magma 
+creates a constant, low-frequency roar.
+~
+#EXIT
+Direction south~
+ToRoom    41751
+Desc      The loop south.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41801
+Desc      The Lair of Golemagg.~
+#ENDEXIT
+Reset M 0 41515 5 41800
+#ENDROOM
+
+#ROOM
+Vnum     41801
+Name     &rThe Lair of Golemagg the Incinerator&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber. In the center, the titanic 
+molten giant Golemagg stands guard, flanked by two 
+ferocious core ragers. He is the final barrier before 
+the Firelord's throne.
+~
+#EXIT
+Direction south~
+ToRoom    41800
+Desc      The road entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41810
+Desc      Toward Majordomo Executus.~
+#ENDEXIT
+Reset M 0 41509 1 41801
+  Reset G 1 41605 1
+  Reset G 1 41619 1
+#ENDROOM
+
+#ROOM
+Vnum     41810
+Name     &rThe Hall of the Majordomo - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here is grand and ancient, with white marble 
+statues of elementals lining the hall. The air is clear of 
+smoke, but the heat is even more intense.
+~
+#EXIT
+Direction south~
+ToRoom    41801
+Desc      Golemagg's lair.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41811
+Desc      The Seat of Majordomo Executus.~
+#ENDEXIT
+Reset M 0 41519 5 41810
+#ENDROOM
+
+#ROOM
+Vnum     41811
+Name     &rThe Seat of Majordomo Executus&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular room filled with dozens of flamewaker 
+guards. Majordomo Executus stands before a shimmering pool 
+of molten gold, his hands raised as he prepares the 
+ritual of summoning.
+~
+#EXIT
+Direction south~
+ToRoom    41810
+Desc      The hall entrance.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    41850
+Desc      The Pit of Ragnaros.~
+#ENDEXIT
+Reset M 0 41501 1 41811
+Reset M 0 41514 10 41811
+#ENDROOM
+
+#ROOM
+Vnum     41850
+Name     &rThe Pit of Ragnaros&d~
+Sector   inside~
+Flags    indoors~
+Desc     You have reached the absolute heart of the world. A massive, 
+circular pool of lava nearly five hundred feet wide sits in 
+the center of the room. This is the place where the Firelord 
+has slumbered since the dawn of time. The air hums with 
+unfathomable power.
+~
+#EXIT
+Direction up~
+ToRoom    41811
+Desc      Return to the Majordomo's seat.~
+#ENDEXIT
+Reset M 0 41500 1 41850
+  Reset E 1 41600 1 16
+  Reset G 1 41601 1
+#ENDROOM
+
+#ROOM
+Vnum     41706
+Name     &rMagmadar Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet corner of the den filled with small pools of 
+cooling lava and bits of obsidian.
+~
+#EXIT
+Direction south~
+ToRoom    41705
+Desc      Magmadar's lair.~
+#ENDEXIT
+Reset M 0 41511 5 41706
+#ENDROOM
+
+#ROOM
+Vnum     41707
+Name     &rMagmadar Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the den filled with piles of 
+bleached humanoid bones and soot.
+~
+#EXIT
+Direction east~
+ToRoom    41705
+Desc      Magmadar's lair.~
+#ENDEXIT
+Reset O 0 41616 10 41707
+#ENDROOM
+
+#ROOM
+Vnum     41724
+Name     &rGehennas Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing in the quarter, offering a 
+view of the southern thoroughfare.
+~
+#EXIT
+Direction south~
+ToRoom    41721
+Desc      Gehennas's hall.~
+#ENDEXIT
+Reset M 0 41512 5 41724
+#ENDROOM
+
+#ROOM
+Vnum     41725
+Name     &rGehennas Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with flamewaker spears and 
+small stone statues of serpents.
+~
+#EXIT
+Direction north~
+ToRoom    41721
+Desc      Gehennas's hall.~
+#ENDEXIT
+Reset O 0 41614 10 41725
+#ENDROOM
+
+#ROOM
+Vnum     41756
+Name     &rSearing Loop Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky ledge overlooking the central lava pit, 
+frequently patrolled by molten giants.
+~
+#EXIT
+Direction south~
+ToRoom    41751
+Desc      Loop south.~
+#ENDEXIT
+Reset M 0 41510 5 41756
+#ENDROOM
+
+#ROOM
+Vnum     41757
+Name     &rSearing Loop Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the loop where several lava 
+annihilators have formed from the intense heat.
+~
+#EXIT
+Direction west~
+ToRoom    41752
+Desc      Loop west.~
+#ENDEXIT
+Reset M 0 41515 5 41757
+#ENDROOM
+
+#ROOM
+Vnum     41802
+Name     &rGolemagg Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the giant's lair filled with 
+discarded basalt and bits of iron ore.
+~
+#EXIT
+Direction north~
+ToRoom    41801
+Desc      Golemagg's lair.~
+#ENDEXIT
+Reset O 0 41613 10 41802
+#ENDROOM
+
+#ROOM
+Vnum     41803
+Name     &rGolemagg Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow ledge where several firelords study 
+the flow of the lava falls.
+~
+#EXIT
+Direction south~
+ToRoom    41801
+Desc      Golemagg's lair.~
+#ENDEXIT
+Reset M 0 41512 5 41803
+#ENDROOM
+
+#ROOM
+Vnum     41708
+Name     &rThe Labyrinth of Magma - South 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    41709
+Desc      Labyrinth 2.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41701
+Desc      Thoroughfare.~
+#ENDEXIT
+Reset M 0 41510 5 41708
+#ENDROOM
+
+#ROOM
+Vnum     41709
+Name     &rThe Labyrinth of Magma - South 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entrance labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41708
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 41510 5 41709
+#ENDROOM
+
+#ROOM
+Vnum     41726
+Name     &rThe Labyrinth of Ash - East 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the flamewaker quarter.
+~
+#EXIT
+Direction west~
+ToRoom    41720
+Desc      Quarter entry.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41727
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41514 5 41726
+#ENDROOM
+
+#ROOM
+Vnum     41727
+Name     &rThe Labyrinth of Ash - East 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for fiery plate gauntlets and coal.
+~
+#EXIT
+Direction west~
+ToRoom    41726
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset O 41617 10 41727
+#ENDROOM
+
+#ROOM
+Vnum     41758
+Name     &rThe Labyrinth of Flame - North 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     High stone rooms near the searing loop.
+~
+#EXIT
+Direction south~
+ToRoom    41751
+Desc      Loop south.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41759
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41513 10 41758
+#ENDROOM
+
+#ROOM
+Vnum     41759
+Name     &rThe Labyrinth of Flame - North 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the loop labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41758
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 41513 10 41759
+#ENDROOM
+
+#ROOM
+Vnum     41812
+Name     &rThe Labyrinth of Command - North 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Elegant stone rooms near the Majordomo's seat.
+~
+#EXIT
+Direction south~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41813
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41519 5 41812
+#ENDROOM
+
+#ROOM
+Vnum     41813
+Name     &rThe Labyrinth of Command - North 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41812
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 41519 5 41813
+#ENDROOM
+
+#ROOM
+Vnum     41710
+Name     &rThoroughfare Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet stone ledge overlooking the thoroughfare.
+~
+#EXIT
+Direction south~
+ToRoom    41701
+Desc      Thoroughfare.~
+#ENDEXIT
+Reset M 0 41510 5 41710
+#ENDROOM
+
+#ROOM
+Vnum     41711
+Name     &rDen Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark alcove in the magmadar dens.
+~
+#EXIT
+Direction north~
+ToRoom    41703
+Desc      Den entry.~
+#ENDEXIT
+Reset M 0 41511 5 41711
+#ENDROOM
+
+#ROOM
+Vnum     41728
+Name     &rQuarter Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high point in the flamewaker quarter.
+~
+#EXIT
+Direction west~
+ToRoom    41720
+Desc      Quarter entry.~
+#ENDEXIT
+Reset M 0 41514 5 41728
+#ENDROOM
+
+#ROOM
+Vnum     41729
+Name     &rEnclave Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage room for rock elemental cores.
+~
+#EXIT
+Direction south~
+ToRoom    41722
+Desc      Enclave entry.~
+#ENDEXIT
+Reset O 41613 10 41729
+#ENDROOM
+
+#ROOM
+Vnum     41760
+Name     &rLoop Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A stone landing near Shazzrah's hall.
+~
+#EXIT
+Direction east~
+ToRoom    41752
+Desc      Loop west.~
+#ENDEXIT
+Reset M 0 41507 1 41760
+#ENDROOM
+
+#ROOM
+Vnum     41761
+Name     &rLoop Overflow D&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for essences of fire.
+~
+#EXIT
+Direction west~
+ToRoom    41753
+Desc      Loop east.~
+#ENDEXIT
+Reset O 41612 10 41761
+#ENDROOM
+
+#ROOM
+Vnum     41814
+Name     &rCommand Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing in the command hall.
+~
+#EXIT
+Direction south~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 41519 5 41814
+#ENDROOM
+
+#ROOM
+Vnum     41815
+Name     &rCommand Overflow D&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-tended garden of fire-etched stones.
+~
+#EXIT
+Direction north~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+Reset O 41620 10 41815
+#ENDROOM
+
+#ROOM
+Vnum     41712
+Name     &rThe Spire Rat Tunnel A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow, dirty tunnel near the descent.
+~
+#EXIT
+Direction north~
+ToRoom    41701
+Desc      Thoroughfare.~
+#ENDEXIT
+Reset M 0 41528 10 41712
+#ENDROOM
+
+#ROOM
+Vnum     41713
+Name     &rThe Spire Rat Tunnel B&d~
+Sector   underground~
+Flags    indoors~
+Desc     Another narrow tunnel used by the mountain's vermin.
+~
+#EXIT
+Direction south~
+ToRoom    41701
+Desc      Thoroughfare.~
+#ENDEXIT
+Reset M 0 41528 10 41713
+#ENDROOM
+
+#ROOM
+Vnum     41730
+Name     &rThe Warlock's Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner where warlocks practice magic.
+~
+#EXIT
+Direction east~
+ToRoom    41720
+Desc      Quarter entry.~
+#ENDEXIT
+Reset M 0 41517 5 41730
+#ENDROOM
+
+#ROOM
+Vnum     41731
+Name     &rThe Technician's Side-room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room for repairing basalt blocks.
+~
+#EXIT
+Direction west~
+ToRoom    41720
+Desc      Quarter entry.~
+#ENDEXIT
+Reset M 0 41512 5 41731
+#ENDROOM
+
+#ROOM
+Vnum     41762
+Name     &rThe Noble's Sitting Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A lavish room filled with fine silks and gold jewelry.
+~
+#EXIT
+Direction south~
+ToRoom    41750
+Desc      Road entrance.~
+#ENDEXIT
+Reset O 41601 1 41762
+#ENDROOM
+
+#ROOM
+Vnum     41763
+Name     &rThe Private Study&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room filled with scrolls detailing the Firelord's history.
+~
+#EXIT
+Direction north~
+ToRoom    41750
+Desc      Road entrance.~
+#ENDEXIT
+Reset M 0 41513 5 41763
+#ENDROOM
+
+#ROOM
+Vnum     41816
+Name     &rThe Warden Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room for storing spears and shields.
+~
+#EXIT
+Direction south~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+Reset O 41610 5 41816
+#ENDROOM
+
+#ROOM
+Vnum     41817
+Name     &rThe Warden Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the elite flamewakers study rituals.
+~
+#EXIT
+Direction north~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 41523 5 41817
+#ENDROOM
+
+#ROOM
+Vnum     41860
+Name     &rThe Molten Core Final Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet central square in the middle of the Core.
+~
+#EXIT
+Direction north~
+ToRoom    41702
+Desc      Intersection.~
+#ENDEXIT
+Reset O 0 41612 10 41860
+#ENDROOM
+
+#ROOM
+Vnum     41861
+Name     &rLabyrinth 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the entrance.
+~
+#EXIT
+Direction east~
+ToRoom    41701
+Desc      Thoroughfare.~
+#ENDEXIT
+Reset M 0 41510 10 41861
+#ENDROOM
+
+#ROOM
+Vnum     41862
+Name     &rLabyrinth 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the fire labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41701
+Desc      Thoroughfare.~
+#ENDEXIT
+Reset M 0 41510 10 41862
+#ENDROOM
+
+#ROOM
+Vnum     41863
+Name     &rLabyrinth 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the den.
+~
+#EXIT
+Direction north~
+ToRoom    41703
+Desc      Den entry.~
+#ENDEXIT
+Reset M 0 41511 5 41863
+#ENDROOM
+
+#ROOM
+Vnum     41864
+Name     &rLabyrinth 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hound labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41703
+Desc      Den entry.~
+#ENDEXIT
+Reset M 0 41511 5 41864
+#ENDROOM
+
+#ROOM
+Vnum     41865
+Name     &rLabyrinth 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the hall of Gehennas.
+~
+#EXIT
+Direction east~
+ToRoom    41721
+Desc      Gehennas's hall.~
+#ENDEXIT
+Reset M 0 41514 5 41865
+#ENDROOM
+
+#ROOM
+Vnum     41866
+Name     &rLabyrinth 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the flamewaker labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41721
+Desc      Gehennas's hall.~
+#ENDEXIT
+Reset M 0 41514 5 41866
+#ENDROOM
+
+#ROOM
+Vnum     41867
+Name     &rLabyrinth 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the loop.
+~
+#EXIT
+Direction north~
+ToRoom    41751
+Desc      Loop south.~
+#ENDEXIT
+Reset M 0 41513 10 41867
+#ENDROOM
+
+#ROOM
+Vnum     41868
+Name     &rLabyrinth 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the elementals' labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41751
+Desc      Loop south.~
+#ENDEXIT
+Reset M 0 41513 10 41868
+#ENDROOM
+
+#ROOM
+Vnum     41869
+Name     &rLabyrinth 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the command hall.
+~
+#EXIT
+Direction east~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 41519 5 41869
+#ENDROOM
+
+#ROOM
+Vnum     41870
+Name     &rLabyrinth 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the elite labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41810
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 41519 5 41870
+#ENDROOM
+
+#ROOM
+Vnum     41871
+Name     &rLabyrinth 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the Firelord's throne.
+~
+#EXIT
+Direction up~
+ToRoom    41850
+Desc      Ragnaros's pit.~
+#ENDEXIT
+Reset M 0 41514 10 41871
+#ENDROOM
+
+#ROOM
+Vnum     41872
+Name     &rLabyrinth 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the final fire labyrinth.
+~
+#EXIT
+Direction up~
+ToRoom    41850
+Desc      Ragnaros's pit.~
+#ENDEXIT
+Reset M 0 41514 10 41872
+#ENDROOM
+
+#ROOM
+Vnum     41873
+Name     &rLabyrinth 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the entrance gateway.
+~
+#EXIT
+Direction north~
+ToRoom    41700
+Desc      Entrance portal.~
+#ENDEXIT
+Reset M 0 41510 10 41873
+#ENDROOM
+
+#ROOM
+Vnum     41874
+Name     &rLabyrinth 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-shield labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41700
+Desc      Entrance portal.~
+#ENDEXIT
+Reset M 0 41510 10 41874
+#ENDROOM
+
+#ROOM
+Vnum     41875
+Name     &rLabyrinth 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the intersection.
+~
+#EXIT
+Direction west~
+ToRoom    41702
+Desc      Intersection.~
+#ENDEXIT
+Reset M 0 41511 10 41875
+#ENDROOM
+
+#ROOM
+Vnum     41876
+Name     &rLabyrinth 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the intersection labyrinth.
+~
+#EXIT
+Direction east~
+ToRoom    41702
+Desc      Intersection.~
+#ENDEXIT
+Reset M 0 41511 10 41876
+#ENDROOM
+
+#ROOM
+Vnum     41877
+Name     &rLabyrinth 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the den entry.
+~
+#EXIT
+Direction east~
+ToRoom    41703
+Desc      Den entry.~
+#ENDEXIT
+Reset M 0 41511 5 41877
+#ENDROOM
+
+#ROOM
+Vnum     41878
+Name     &rLabyrinth 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hound-den labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41703
+Desc      Den entry.~
+#ENDEXIT
+Reset M 0 41511 5 41878
+#ENDROOM
+
+#ROOM
+Vnum     41879
+Name     &rLabyrinth 21&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Lucifron's lair.
+~
+#EXIT
+Direction north~
+ToRoom    41704
+Desc      Lucifron's lair.~
+#ENDEXIT
+Reset M 0 41514 5 41879
+#ENDROOM
+
+#ROOM
+Vnum     41880
+Name     &rLabyrinth 22&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the shadow-priest labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41704
+Desc      Lucifron's lair.~
+#ENDEXIT
+Reset M 0 41514 5 41880
+#ENDROOM
+
+#ROOM
+Vnum     41881
+Name     &rLabyrinth 23&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Magmadar's lair.
+~
+#EXIT
+Direction north~
+ToRoom    41705
+Desc      Magmadar's lair.~
+#ENDEXIT
+Reset M 0 41511 10 41881
+#ENDROOM
+
+#ROOM
+Vnum     41882
+Name     &rLabyrinth 24&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the sire-hound labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41705
+Desc      Magmadar's lair.~
+#ENDEXIT
+Reset M 0 41511 10 41882
+#ENDROOM
+
+#ROOM
+Vnum     41883
+Name     &rLabyrinth 25&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the quarter entry.
+~
+#EXIT
+Direction north~
+ToRoom    41720
+Desc      Quarter entry.~
+#ENDEXIT
+Reset M 0 41512 10 41883
+#ENDROOM
+
+#ROOM
+Vnum     41884
+Name     &rLabyrinth 26&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Firelord-quarter labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41720
+Desc      Quarter entry.~
+#ENDEXIT
+Reset M 0 41512 10 41884
+#ENDROOM
+
+#ROOM
+Vnum     41885
+Name     &rLabyrinth 27&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Gehennas's hall.
+~
+#EXIT
+Direction east~
+ToRoom    41721
+Desc      Gehennas's hall.~
+#ENDEXIT
+Reset M 0 41514 5 41885
+#ENDROOM
+
+#ROOM
+Vnum     41886
+Name     &rLabyrinth 28&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the shadow-caster labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41721
+Desc      Gehennas's hall.~
+#ENDEXIT
+Reset M 0 41514 5 41886
+#ENDROOM
+
+#ROOM
+Vnum     41887
+Name     &rLabyrinth 29&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Garr's enclave.
+~
+#EXIT
+Direction north~
+ToRoom    41722
+Desc      Enclave entry.~
+#ENDEXIT
+Reset M 0 41520 10 41887
+#ENDROOM
+
+#ROOM
+Vnum     41888
+Name     &rLabyrinth 30&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the rock-elemental labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41722
+Desc      Enclave entry.~
+#ENDEXIT
+Reset M 0 41520 10 41888
+#ENDROOM
+
+#ROOM
+Vnum     41889
+Name     &rLabyrinth 31&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the searing loop.
+~
+#EXIT
+Direction east~
+ToRoom    41751
+Desc      Loop south.~
+#ENDEXIT
+Reset M 0 41513 10 41889
+#ENDROOM
+
+#ROOM
+Vnum     41890
+Name     &rLabyrinth 32&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Surger labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41751
+Desc      Loop south.~
+#ENDEXIT
+Reset M 0 41513 10 41890
+#ENDROOM
+
+#ROOM
+Vnum     41891
+Name     &rLabyrinth 33&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Shazzrah's hall.
+~
+#EXIT
+Direction south~
+ToRoom    41754
+Desc      Shazzrah's hall.~
+#ENDEXIT
+Reset M 0 41507 1 41891
+#ENDROOM
+
+#ROOM
+Vnum     41892
+Name     &rLabyrinth 34&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the distorted-arcane labyrinth.
+~
+#EXIT
+Direction north~
+ToRoom    41754
+Desc      Shazzrah's hall.~
+#ENDEXIT
+Reset M 0 41507 1 41892
+#ENDROOM
+
+#ROOM
+Vnum     41893
+Name     &rLabyrinth 35&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Sulfuron's hall.
+~
+#EXIT
+Direction south~
+ToRoom    41755
+Desc      Sulfuron's hall.~
+#ENDEXIT
+Reset M 0 41514 5 41893
+#ENDROOM
+
+#ROOM
+Vnum     41894
+Name     &rLabyrinth 36&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Harbinger-guard labyrinth.
+~
+#EXIT
+Direction north~
+ToRoom    41755
+Desc      Sulfuron's hall.~
+#ENDEXIT
+Reset M 0 41514 5 41894
+#ENDROOM
+
+#ROOM
+Vnum     41895
+Name     &rLabyrinth 37&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Golemagg's lair.
+~
+#EXIT
+Direction east~
+ToRoom    41801
+Desc      Golemagg's lair.~
+#ENDEXIT
+Reset M 0 41515 5 41895
+#ENDROOM
+
+#ROOM
+Vnum     41896
+Name     &rLabyrinth 38&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Annihilator labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41801
+Desc      Golemagg's lair.~
+#ENDEXIT
+Reset M 0 41515 5 41896
+#ENDROOM
+
+#ROOM
+Vnum     41897
+Name     &rLabyrinth 39&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the Majordomo's seat.
+~
+#EXIT
+Direction east~
+ToRoom    41811
+Desc      Executus's seat.~
+#ENDEXIT
+Reset M 0 41514 10 41897
+#ENDROOM
+
+#ROOM
+Vnum     41898
+Name     &rLabyrinth 40&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the high-command labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41811
+Desc      Executus's seat.~
+#ENDEXIT
+Reset M 0 41514 10 41898
+#ENDROOM
+
+#ROOM
+Vnum     41899
+Name     &rLabyrinth 41&d~
+Sector   inside~
+Flags    indoors~
+Desc     The final dark tunnel near the Firelord.
+~
+#EXIT
+Direction south~
+ToRoom    41850
+Desc      Ragnaros's pit.~
+#ENDEXIT
+Reset M 0 41512 5 41899
+#ENDROOM
+
+#ROOM
+Vnum     41900
+Name     &rLabyrinth 42&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the Core.
+~
+#EXIT
+Direction north~
+ToRoom    41850
+Desc      Ragnaros's pit.~
+#ENDEXIT
+Reset M 0 41512 5 41900
+#ENDROOM
+
+#ROOM
+Vnum     41901
+Name     &rThe Molten Core Exit Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, magically-reinforced tunnel behind the Firelord's 
+throne leads toward a hidden opening in the Searing Gorge, 
+offering a quick way out for those who have defeated Ragnaros.
+~
+#EXIT
+Direction south~
+ToRoom    41850
+Desc      Ragnaros's pit.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    41700
+Desc      The entrance archway.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
