@@ -1,0 +1,1950 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Sunken Temple~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       45 55 0 60
+Economy      0 60000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       19500
+Keywords   atal'ai deathwalker troll undead~
+Short      an Atal'ai Deathwalker~
+Long       A spectral troll warrior patrols the damp stone hallway.
+~
+Desc       Clad in tattered ceremonial wrappings, this spirit remains 
+to guard the temple long after its physical body has rotted 
+away. It wields a translucent blade of shadow.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1800 4800
+Stats2     48 48 200
+Stats3     12 32 48
+Stats4     0 0 0 0 0
+Attribs    24 12 16 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19501
+Keywords   atal'ai highlander troll warrior~
+Short      an Atal'ai Highlander~
+Long       A massive troll warrior stands firm, his skin a sickly moss-green.
+~
+Desc       The elite infantry of the Atal'ai. They have undergone 
+voodoo rituals to increase their size and strength, making 
+them formidable guardians of the inner sanctum.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 2500 6500
+Stats2     50 50 150
+Stats3     14 40 50
+Stats4     0 0 0 0 0
+Attribs    26 10 18 8 10 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19502
+Keywords   atal'ai witch doctor troll mage~
+Short      an Atal'ai Witch Doctor~
+Long       A troll in feathered robes mutters a dark hex, a totem at his feet.
+~
+Desc       Masters of the darker arts of voodoo. They can summon 
+the spirits of the air and earth to batter their enemies 
+and heal their allies.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 1400 4200
+Stats2     49 49 1200
+Stats3     10 28 49
+Stats4     0 0 0 0 0
+Attribs    12 14 14 28 24 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19503
+Keywords   nightmare scalebane dragonspawn~
+Short      a Nightmare Scalebane~
+Long       A draconic warrior in dark green scales guards the balcony.
+~
+Desc       Twisted by the Emerald Nightmare, these dragonspawn 
+serve the corrupted Shade of Eranikus. They are 
+merciless and highly disciplined.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 3500 9500
+Stats2     52 52 300
+Stats3     16 45 52
+Stats4     0 0 0 0 0
+Attribs    28 12 22 14 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19504
+Keywords   hazzas boss dragon elite~
+Short      Hazzas~
+Long       The green dragon Hazzas lets out a low hiss, eyes glowing with fever.
+~
+Desc       One of the four dragons guarding the inner sanctum. Hazzas 
+has been driven mad by the Nightmare, his breath now 
+carrying the scent of sleep and decay.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 6000 18000
+Stats2     54 54 500
+Stats3     22 65 55
+Stats4     0 0 0 0 0
+Attribs    35 12 25 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       19505
+Keywords   morphaz boss dragon elite~
+Short      Morphaz~
+Long       The massive dragon Morphaz rumbles, his wings stirring the stagnant air.
+~
+Desc       The second of the dragon guardians. Morphaz is known for 
+his resilience and his ability to summon smaller whelps 
+to his side during combat.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 6500 19000
+Stats2     54 54 500
+Stats3     24 68 55
+Stats4     0 0 0 0 0
+Attribs    36 10 26 16 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       19506
+Keywords   dreamscythe boss dragon elite~
+Short      Dreamscythe~
+Long       Dreamscythe circles above the temple floor, his scales like emerald glass.
+~
+Desc       The swiftest of the guardians. Dreamscythe strikes from the air 
+with talons as sharp as scythes, hence his name.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 5800 17500
+Stats2     54 54 500
+Stats3     20 62 55
+Stats4     0 0 0 0 0
+Attribs    32 18 24 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       19507
+Keywords   weaver boss dragon elite~
+Short      Weaver~
+Long       The dragon Weaver mutters a draconic spell, the air shimmering.
+~
+Desc       The most magically inclined of the four guardians. Weaver 
+has mastered the ability to weave the Nightmare into 
+lethal arcane bolts.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 5000 15000
+Stats2     54 54 1500
+Stats3     18 55 54
+Stats4     0 0 0 0 0
+Attribs    22 14 20 32 28 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       19508
+Keywords   jammal'an the prophet boss troll mage~
+Short      Jammal'an the Prophet~
+Long       Jammal'an the Prophet stands before the altar, arms raised in supplication.
+~
+Desc       The high priest of the Atal'ai. He is obsessed with the 
+summoning of Hakkar the Soulflayer and will sacrifice 
+anything—and anyone—to see his god return.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 8000 22000
+Stats2     55 55 2500
+Stats3     20 60 55
+Stats4     0 0 0 0 0
+Attribs    14 12 18 35 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       19509
+Keywords   ogom the wretched boss troll warrior~
+Short      Ogom the Wretched~
+Long       Ogom the Wretched stands by his master's side, axe dripping with gore.
+~
+Desc       The fanatical protector of Jammal'an. Ogom has lost his 
+mind to the dark whispers of Hakkar, becoming a 
+mindless engine of destruction.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 6500 18000
+Stats2     55 55 200
+Stats3     22 55 55
+Stats4     0 0 0 0 0
+Attribs    32 10 24 12 14 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       19510
+Keywords   shade of eranikus boss dragon elite~
+Short      the Shade of Eranikus~
+Long       The titanic shade of the dragon Eranikus looms in the inner sanctum.
+~
+Desc       The corrupted spirit of the green dragon who was sent 
+to stop the Atal'ai. Now he is the final guardian of 
+the temple, a prisoner of his own nightmare.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 25000 65000
+Stats2     58 58 2000
+Stats3     40 120 70
+Stats4     0 0 0 0 0
+Attribs    45 10 40 25 35 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       19511
+Keywords   atal'ai corpse hunter beast~
+Short      an Atal'ai Corpse Hunter~
+Long       A mangy swamp-wolf with glowing eyes sniffs the floor.
+~
+Desc       Trained by the trolls to find intruders in the dark halls 
+of the temple. They are relentless trackers.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 1100 3200
+Stats2     47 47 0
+Stats3     8 22 47
+Stats4     0 0 0 0 0
+Attribs    18 20 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       19512
+Keywords   miserable soul ghost spirit~
+Short      a Miserable Soul~
+Long       A translucent figure wails, drifting through the stone wall.
+~
+Desc       The spirit of a victim of the Atal'ai sacrifices. They 
+know only pain and seek to share it with the living.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 900 2800
+Stats2     46 46 800
+Stats3     7 20 46
+Stats4     0 0 0 0 0
+Attribs    10 18 12 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19513
+Keywords   nightmare whelp dragon~
+Short      a Nightmare Whelp~
+Long       A small green whelp sleepily circles a pile of bones.
+~
+Desc       Untouched by the light of the sun, these whelps have grown 
+up within the Nightmare-tainted halls.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1500 4000
+Stats2     48 48 100
+Stats3     10 25 48
+Stats4     0 0 0 0 0
+Attribs    18 16 14 12 14 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       19514
+Keywords   avatar of hakkar boss spirit elite~
+Short      the Avatar of Hakkar~
+Long       A massive winged serpent of pure shadow rises from the altar.
+~
+Desc       The physical manifestation of the Blood God's will. It 
+is a terrifying entity of shadow and hunger.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 56 0 0 15000 45000
+Stats2     56 56 1000
+Stats3     30 90 65
+Stats4     0 0 0 0 0
+Attribs    40 14 30 20 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       19515
+Keywords   atal'ai priest troll mage~
+Short      an Atal'ai Priest~
+Long       A troll in sacrificial robes stands before a statue.
+~
+Desc       Lower-ranking members of the priesthood. They oversee 
+the daily maintenance of the statues and the sacrifices.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 1600 4500
+Stats2     51 51 1500
+Stats3     11 30 51
+Stats4     0 0 0 0 0
+Attribs    12 14 14 30 25 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19516
+Keywords   murk slitherer snake~
+Short      a Murk Slitherer~
+Long       A thick-bodied snake with iridescent scales coils in the corner.
+~
+Desc       Adapted to the moist, magical environment of the temple. 
+Its bite causes a powerful paralyzing toxin.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1200 3500
+Stats2     48 48 0
+Stats3     9 24 48
+Stats4     0 0 0 0 0
+Attribs    20 18 16 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       19517
+Keywords   unyielding dead skeleton warrior~
+Short      an Unyielding Dead~
+Long       A skeleton in rusted ancient armor stands guard.
+~
+Desc       The remains of the Gurubashi trolls who died defending 
+the temple from the initial invasion.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 1800 5000
+Stats2     49 49 100
+Stats3     12 35 49
+Stats4     0 0 0 0 0
+Attribs    24 10 16 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19518
+Keywords   gas-filled ooze slime~
+Short      a Gas-filled Ooze~
+Long       A pulsing mass of yellow slime gurgles near a floor vent.
+~
+Desc       Composed of the toxic swamp gases that have been 
+concentrated by the temple's magic. It explodes upon death.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 1000 3000
+Stats2     47 47 0
+Stats3     8 20 47
+Stats4     0 0 0 0 0
+Attribs    16 6 22 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19519
+Keywords   nightmare overseer dragonspawn mage~
+Short      a Nightmare Overseer~
+Long       A dragonspawn mage focuses a beam of green energy into the pit.
+~
+Desc       Responsible for maintaining the Nightmare wards that 
+keep the temple isolated from the physical world.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 2000 6000
+Stats2     53 53 1800
+Stats3     14 38 53
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       19520
+Keywords   vile-tongue scout satyr~
+Short      a Vile-tongue Scout~
+Long       A satyr crouches on a high ledge, watching the entrance.
+~
+Desc       Mercenaries hired by the Atal'ai to keep a watch on the 
+green dragonflight's movements outside.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 1100 3200
+Stats2     49 49 300
+Stats3     9 22 49
+Stats4     0 0 0 0 0
+Attribs    14 24 14 14 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19521
+Keywords   atal'ai deathcaster troll undead mage~
+Short      an Atal'ai Deathcaster~
+Long       A spectral troll mage raises a staff, shadow-energy swirling.
+~
+Desc       The undead remains of the temple's most powerful casters. 
+They specialize in life-draining magic.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 1500 4500
+Stats2     52 52 2000
+Stats3     11 30 52
+Stats4     0 0 0 0 0
+Attribs    10 12 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19522
+Keywords   nightmare wanderer spirit~
+Short      a Nightmare Wanderer~
+Long       A translucent green figure wanders the inner falls, weeping.
+~
+Desc       A druid of the Green Dragonflight who was completely 
+consumed by the Nightmare.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 950 2800
+Stats2     51 51 1000
+Stats3     8 22 51
+Stats4     0 0 0 0 0
+Attribs    10 16 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19523
+Keywords   festering behemoth plant~
+Short      a Festering Behemoth~
+Long       A massive pile of rotting vines and swamp-peat moves slowly.
+~
+Desc       A large plant elemental that has grown in the moist dark 
+of the lower temple basement.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 4500 13000
+Stats2     54 54 0
+Stats3     20 55 54
+Stats4     0 0 0 0 0
+Attribs    35 4 32 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19524
+Keywords   cursed worshipper troll~
+Short      a Cursed Worshipper~
+Long       A troll in commoner's rags kneels before an empty altar.
+~
+Desc       The descendants of the original Atal'ai followers, now 
+completely insane and fanatically violent.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 48 0 0 1200 3500
+Stats2     48 48 0
+Stats3     9 24 48
+Stats4     0 0 0 0 0
+Attribs    22 14 16 8 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19525
+Keywords   hakkar's eye spirit mage~
+Short      an Eye of Hakkar~
+Long       A small, floating red eye watches you from the ceiling.
+~
+Desc       A magical construct used by the Blood God to monitor 
+the progress of his summoners.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 600 1800
+Stats2     50 50 1200
+Stats3     5 14 50
+Stats4     0 0 0 0 0
+Attribs    10 24 14 30 18 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     19526
+Keywords kilt jammal'an legs armor~
+Type     armor~
+Short    the Kilt of Jammal'an~
+Long     Fine silken leggings embroidered with the feathers of a serpent.~
+WFlags   take legs~
+Values   15 0 0 0 0 0
+Stats    5 8500 55 0 0
+Rarity   3
+Affect   3 15 0 0 0
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19527
+Keywords eranikus's tooth dagger weapon~
+Type     weapon~
+Short    Eranikus's Tooth~
+Long     A jagged, translucent green dagger carved from a dragon's tooth.~
+WFlags   take wield~
+Values   12 12 24 11 0 0
+Stats    2 15000 58 0 0
+Rarity   3
+Affect   2 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19528
+Keywords heart hakkar treasure hold~
+Type     treasure~
+Short    the Essence of Hakkar~
+Long     A pulsing sphere of deep red energy that smells of blood.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19529
+Keywords dragonspire polearm weapon~
+Type     weapon~
+Short    the Dragonspire~
+Long     A long spear tipped with a sharpened dragonscale.~
+WFlags   take wield~
+Values   12 15 30 11 0 0
+Stats    25 12000 54 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19530
+Keywords blade prophecy sword weapon~
+Type     weapon~
+Short    the Blade of Prophecy~
+Long     A curved elven blade etched with Atal'ai runes.~
+WFlags   take wield~
+Values   12 12 22 3 0 0
+Stats    12 6500 55 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19531
+Keywords atal'ai breastplate body armor~
+Type     armor~
+Short    the Atal'ai Breastplate~
+Long     Heavy bronze plate armor featuring the fanned crest of a serpent.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 5500 50 0 0
+Rarity   1
+Affect   5 10 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19532
+Keywords dragonclaw ring jewelry~
+Type     jewelry~
+Short    a Dragonclaw Signet~
+Long     A ring made of solid obsidian, carved in the shape of a claw.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 2500 52 0 0
+Rarity   2
+Affect   2 10 0 0 0
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19533
+Keywords staff nightmare weapon~
+Type     weapon~
+Short    the Staff of the Nightmare~
+Long     A tall staff of blackened wood that hums with green energy.~
+WFlags   take wield~
+Values   12 12 20 7 0 0
+Stats    12 8500 54 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19534
+Keywords voodoo fetish treasure hold~
+Type     treasure~
+Short    an Atal'ai Voodoo Fetish~
+Long     A small, shriveled hand clutching a bone needle.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1200 49 0 0
+Rarity   1
+Affect   14 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19535
+Keywords serpent shield armor~
+Type     armor~
+Short    the Serpent Shield~
+Long     A heavy kite shield featuring the golden image of Hakkar.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 4500 55 0 0
+Rarity   2
+Affect   1 8 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19536
+Keywords dreamfoil herb~
+Type     treasure~
+Short    a bundle of Dreamfoil~
+Long     Silvery leaves that smell of the Emerald Dream.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 50 0 0
+Rarity   0
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19537
+Keywords ghost mushroom treasure~
+Type     treasure~
+Short    a glowing Ghost Mushroom~
+Long     A translucent mushroom found only in damp, dark places.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 48 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19538
+Keywords atal'ai medallion jewelry~
+Type     jewelry~
+Short    an Atal'ai Medallion~
+Long     A heavy iron medallion marked with the Blood God's seal.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 850 52 0 0
+Rarity   1
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19539
+Keywords dragon-hide belt waist~
+Type     armor~
+Short    a Dragon-hide Belt~
+Long     A sturdy leather belt reinforced with emerald dragonscales.~
+WFlags   take waist~
+Values   12 0 0 0 0 0
+Stats    5 1500 53 0 0
+Rarity   2
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19540
+Keywords atal'ai skull trophy~
+Type     trash~
+Short    a mummified troll skull~
+Long     A dark, shriveled skull painted with bright sacrificial dyes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     19541
+Keywords sacrificial dagger weapon~
+Type     weapon~
+Short    an Atal'ai Sacrificial Dagger~
+Long     A bone-handled dagger with a blade of obsidian.~
+WFlags   take wield~
+Values   12 8 16 11 0 0
+Stats    2 650 48 0 0
+Rarity   1
+Affect   13 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19542
+Keywords vial dragon blood treasure~
+Type     treasure~
+Short    a vial of Green Dragon Blood~
+Long     A glass vial containing thick, glowing emerald fluid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1200 54 0 0
+Rarity   2
+Affect   13 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19543
+Keywords ancient stone tablet treasure~
+Type     treasure~
+Short    an Ancient Atal'ai Tablet~
+Long     A heavy stone tablet detailing the summoning of Hakkar.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    15 2500 55 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19544
+Keywords mist-shrouded boots feet~
+Type     armor~
+Short    a pair of Mist-shrouded Boots~
+Long     Boots that seem to slightly fade in and out of focus.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    6 3200 54 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19545
+Keywords nightmare essence hold~
+Type     treasure~
+Short    a shard of Nightmare Essence~
+Long     A jagged crystal of dark green energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1800 55 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19546
+Keywords temple stone trash~
+Type     trash~
+Short    a mossy temple stone~
+Long     A heavy square of masonry fallen from the temple ceiling.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19547
+Keywords atal'ai feathers loot~
+Type     treasure~
+Short    a handful of Atal'ai feathers~
+Long     Bright, colorful feathers used in troll ritual clothing.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     19548
+Keywords dragonscale loot~
+Type     trash~
+Short    a thick dragonscale~
+Long     A large, heavy scale taken from a green dragonspawn.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 250 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     19549
+Keywords bone-trident weapon~
+Type     weapon~
+Short    an Atal'ai Bone-Trident~
+Long     A long spear tipped with the three-pronged jaw of a beast.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    15 1200 50 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19550
+Keywords snake venom flask~
+Type     treasure~
+Short    a flask of Corrosive Venom~
+Long     A glass jar containing bubbling, purple snake venom.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 48 0 0
+Rarity   1
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19551
+Keywords soul-stealer sword weapon~
+Type     weapon~
+Short    the Soul-stealer Broadsword~
+Long     A massive black blade that pulses with an unholy light.~
+WFlags   take wield~
+Values   12 18 35 3 0 0
+Stats    30 15000 58 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     19552
+Name     &BThe Sunken Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The murky waters of the Pool of Tears give way to a large, air-filled 
+stone chamber. The ceiling is high and supported by pillars 
+carved in the image of massive, winged serpents. To the 
+north, a grand staircase winds upward into the main body of 
+the temple.
+~
+#EXIT
+Direction out~
+ToRoom    36090
+Desc      Return to the surface of the swamp.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19553
+Desc      The spiral staircase.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     19553
+Name     &BThe Grand Spiral - Lower&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive stone ramp winds around a central vertical shaft. 
+The air is stagnant and smells of old incense. Skeletal trolls 
+in rusted armor stand in alcoves along the walls.
+~
+#EXIT
+Direction south~
+ToRoom    19552
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    19554
+Desc      The spiral continues.~
+#ENDEXIT
+Reset M 0 19500 10 19553
+Reset O 0 19546 10 19553
+#ENDROOM
+
+#ROOM
+Vnum     19554
+Name     &BThe Grand Spiral - Middle&d~
+Sector   inside~
+Flags    indoors~
+Desc     Halfway up the main shaft. The walls are covered in intricate 
+bas-reliefs depicting the rise of the Blood God, Hakkar. 
+A narrow doorway to the east leads toward the balcony levels.
+~
+#EXIT
+Direction down~
+ToRoom    19553
+Desc      Lower spiral.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    19555
+Desc      Upper spiral.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19561
+Desc      The lower balconies.~
+#ENDEXIT
+Reset M 0 19512 10 19554
+#ENDROOM
+
+#ROOM
+Vnum     19555
+Name     &BThe Grand Spiral - Upper&d~
+Sector   inside~
+Flags    indoors~
+Desc     You reach the top of the main staircase. The air here is 
+thick with the scent of green dragon scales and magical 
+exhaust. To the north, a set of heavy doors leads into 
+the inner sanctum of the Shade.
+~
+#EXIT
+Direction down~
+ToRoom    19554
+Desc      Middle spiral.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19581
+Desc      The Hall of the Shade.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19576
+Desc      Toward Jammal'an's Sanctum.~
+#ENDEXIT
+Reset M 0 19515 5 19555
+#ENDROOM
+
+#ROOM
+Vnum     19556
+Name     &BThe Statue Room - The Pit&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive, circular chamber deep in the temple's basement. 
+Six large stone statues surround a central altar. The 
+water here is waist-deep and filled with primordial ooze.
+~
+#EXIT
+Direction south~
+ToRoom    19553
+Desc      Return to the staircase.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19557
+Desc      Toward the deep basement.~
+#ENDEXIT
+Reset M 0 19518 10 19556
+#ENDROOM
+
+#ROOM
+Vnum     19557
+Name     &BThe Deep Basement - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark, damp tunnel leading away from the statue room. 
+The sound of slithering scales echoes off the walls, and 
+the air is humid and difficult to breathe.
+~
+#EXIT
+Direction south~
+ToRoom    19556
+Desc      The statue room.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19558
+Desc      The snake pits.~
+#ENDEXIT
+Reset M 0 19511 5 19557
+#ENDROOM
+
+#ROOM
+Vnum     19558
+Name     &BThe Serpent Pits&d~
+Sector   inside~
+Flags    indoors~
+Desc     This room is filled with hundreds of small, interlocking 
+cages. Vile snakes move between them, hiss at anyone who 
+approaches.
+~
+#EXIT
+Direction south~
+ToRoom    19557
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19559
+Desc      Toward the behemoth's lair.~
+#ENDEXIT
+Reset M 0 19516 10 19558
+Reset O 0 19550 5 19558
+#ENDROOM
+
+#ROOM
+Vnum     19559
+Name     &BThe Lair of the Festering Behemoth&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive pile of rotting organic matter has been 
+allowed to grow in this corner of the basement. A 
+gargantuan plant elemental stands guard over the 
+debris.
+~
+#EXIT
+Direction west~
+ToRoom    19558
+Desc      The snake pits.~
+#ENDEXIT
+Reset M 0 19523 1 19559
+#ENDROOM
+
+#ROOM
+Vnum     19560
+Name     &BThe Sunken Crypts&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A series of low-ceilinged rooms filled with sarcophagi. 
+Unyielding dead stand in silent vigil over their 
+fallen kin.
+~
+#EXIT
+Direction south~
+ToRoom    19556
+Desc      Return to the pit.~
+#ENDEXIT
+Reset M 0 19517 10 19560
+#ENDROOM
+
+#ROOM
+Vnum     19561
+Name     &BThe Lower Balconies - West&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide balcony overlooking the temple entrance. From here, 
+you can see the spiral staircase winding down into the 
+dark. Atal'ai priests maintain a constant patrol here.
+~
+#EXIT
+Direction west~
+ToRoom    19554
+Desc      The grand spiral.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19562
+Desc      The eastern balcony.~
+#ENDEXIT
+Reset M 0 19515 5 19561
+#ENDROOM
+
+#ROOM
+Vnum     19562
+Name     &BThe Lower Balconies - East&d~
+Sector   city~
+Flags    indoors~
+Desc     The balcony turns to follow the curve of the temple wall. 
+Large braziers of blue fire burn every ten feet, and 
+the walls are decorated with colorful troll feathers.
+~
+#EXIT
+Direction west~
+ToRoom    19561
+Desc      The western balcony.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19563
+Desc      The approach to the Dragon Wing.~
+#ENDEXIT
+Reset M 0 19502 5 19562
+Reset O 0 19547 10 19562
+#ENDROOM
+
+#ROOM
+Vnum     19563
+Name     &BThe Hall of Scales - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here changes from troll-stone to a more 
+organic, scale-covered appearance. This is the 
+gateway to the territory of the green dragonflight.
+~
+#EXIT
+Direction south~
+ToRoom    19562
+Desc      The lower balconies.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19569
+Desc      The Dragon Wing corridor.~
+#ENDEXIT
+Reset M 0 19503 5 19563
+#ENDROOM
+
+#ROOM
+Vnum     19564
+Name     &BThe Upper Balconies - West&d~
+Sector   city~
+Flags    indoors~
+Desc     Directly above the lower levels. The air here is thinner and 
+smells of high-altitude incense. Vile-tongue scouts 
+hide among the decorative pillars.
+~
+#EXIT
+Direction south~
+ToRoom    19555
+Desc      The grand spiral.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19565
+Desc      The eastern upper balcony.~
+#ENDEXIT
+Reset M 0 19520 5 19564
+#ENDROOM
+
+#ROOM
+Vnum     19565
+Name     &BThe Upper Balconies - East&d~
+Sector   city~
+Flags    indoors~
+Desc     The balcony provides a perfect view of the entire temple 
+floor. High-ranking Atal'ai priests can be seen 
+moving toward the Prophet's sanctum to the west.
+~
+#EXIT
+Direction west~
+ToRoom    19564
+Desc      The western balcony.~
+#ENDEXIT
+Reset M 0 19515 5 19565
+Reset O 0 19538 5 19565
+#ENDROOM
+
+#ROOM
+Vnum     19566
+Name     &BBalcony Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet section of the lower balcony filled with 
+small stone statues and the sound of dripping water.
+~
+#EXIT
+Direction south~
+ToRoom    19561
+Desc      The western balcony.~
+#ENDEXIT
+Reset M 0 19512 5 19566
+#ENDROOM
+
+#ROOM
+Vnum     19567
+Name     &BBalcony Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A small side chamber used by the priests to 
+store their ritual supplies and feathers.
+~
+#EXIT
+Direction north~
+ToRoom    19562
+Desc      The eastern balcony.~
+#ENDEXIT
+Reset O 0 19547 10 19567
+#ENDROOM
+
+#ROOM
+Vnum     19568
+Name     &BBalcony Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the upper levels, 
+frequently patrolled by Atal'ai deathcasters.
+~
+#EXIT
+Direction east~
+ToRoom    19564
+Desc      The upper western balcony.~
+#ENDEXIT
+Reset M 0 19521 5 19568
+#ENDROOM
+
+#ROOM
+Vnum     19569
+Name     &gThe Dragon Wing - Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, wide hallway lined with emerald dragonscales. 
+The air hums with the power of the Emerald Dream, 
+twisted and turned into a nightmare.
+~
+#EXIT
+Direction south~
+ToRoom    19563
+Desc      The hall entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19570
+Desc      The Central Roost.~
+#ENDEXIT
+Reset M 0 19503 5 19569
+#ENDROOM
+
+#ROOM
+Vnum     19570
+Name     &gThe Central Roost&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular room with four smaller tunnels leading 
+away. Each tunnel leads to the lair of one of the 
+great dragon guardians. Nightmare whelps play 
+in the warm updrafts rising from the floor.
+~
+#EXIT
+Direction south~
+ToRoom    19569
+Desc      The corridor.~
+#EXIT
+Direction north~
+ToRoom    19571
+Desc      Toward Hazzas and Morphaz.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19573
+Desc      Toward Dreamscythe and Weaver.~
+#ENDEXIT
+Reset M 0 19513 10 19570
+#ENDROOM
+
+#ROOM
+Vnum     19571
+Name     &gThe Lair of Hazzas&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high, stone ledge overlooking the temple basement. Hazzas 
+stands here, his green scales matted with swamp mud 
+and blood.
+~
+#EXIT
+Direction south~
+ToRoom    19570
+Desc      The central roost.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19572
+Desc      The Lair of Morphaz.~
+#ENDEXIT
+Reset M 0 19504 1 19571
+  Reset G 1 19542 1
+#ENDROOM
+
+#ROOM
+Vnum     19572
+Name     &gThe Lair of Morphaz&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide balcony filled with dozens of dragon egg sacs. 
+Morphaz stands guard over his future brood, his eyes 
+burning with Nightmare fever.
+~
+#EXIT
+Direction west~
+ToRoom    19571
+Desc      Hazzas's lair.~
+#ENDEXIT
+Reset M 0 19505 1 19572
+  Reset G 1 19539 1
+#ENDROOM
+
+#ROOM
+Vnum     19573
+Name     &gThe Lair of Dreamscythe&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky shelf at the highest point of the wing. Dreamscythe 
+rests here, his massive wings draped over the side of 
+the ledge.
+~
+#EXIT
+Direction east~
+ToRoom    19570
+Desc      The central roost.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19574
+Desc      The Lair of Weaver.~
+#ENDEXIT
+Reset M 0 19506 1 19573
+  Reset G 1 19529 1
+#ENDROOM
+
+#ROOM
+Vnum     19574
+Name     &gThe Lair of Weaver&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, magically-warded chamber. Weaver stands before 
+a shimmering orb of green energy, focusing the 
+Nightmare's power into the temple below.
+~
+#EXIT
+Direction south~
+ToRoom    19573
+Desc      Dreamscythe's lair.~
+#ENDEXIT
+Reset M 0 19507 1 19574
+  Reset G 1 19533 1
+#ENDROOM
+
+#ROOM
+Vnum     19575
+Name     &gDragon Wing Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow tunnel lined with emerald crystals, where 
+Nightmare whelps often hide.
+~
+#EXIT
+Direction north~
+ToRoom    19570
+Desc      The central roost.~
+#ENDEXIT
+Reset M 0 19513 5 19575
+#ENDROOM
+
+#ROOM
+Vnum     19576
+Name     &BThe Hall of Prophecy - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is thick with the scent of blood and dark 
+voodoo. Ceremonial drums thrum through the floor, 
+a rhythmic, pounding beat that matches the city's heart.
+~
+#EXIT
+Direction east~
+ToRoom    19555
+Desc      The grand spiral.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19577
+Desc      The inner sanctum approach.~
+#ENDEXIT
+Reset M 0 19501 5 19576
+#ENDROOM
+
+#ROOM
+Vnum     19577
+Name     &BThe Hall of Prophecy - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The road widens as it approaches the Prophet's throne. 
+Elite trolls in ceremonial armor patrol the way, 
+ensuring the ritual sacrifices are not interrupted.
+~
+#EXIT
+Direction east~
+ToRoom    19576
+Desc      The hall entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19578
+Desc      Jammal'an's Hall of Power.~
+#ENDEXIT
+Reset M 0 19501 5 19577
+Reset O 0 19531 5 19577
+#ENDROOM
+
+#ROOM
+Vnum     19578
+Name     &rThe Sanctum of Jammal'an the Prophet&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular room dominated by a stone altar. 
+Jammal'an the Prophet stands here, his hands 
+stained with the blood of his victims. Ogom the 
+Wretched stands at his side, axe ready.
+~
+#EXIT
+Direction east~
+ToRoom    19577
+Desc      The hall central.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    19579
+Desc      The Altar of the Blood God.~
+#ENDEXIT
+Reset M 0 19508 1 19578
+  Reset G 1 19526 1
+Reset M 0 19509 1 19578
+  Reset E 1 19551 1 16
+#ENDROOM
+
+#ROOM
+Vnum     19579
+Name     &rThe Altar of the Blood God&d~
+Sector   inside~
+Flags    indoors~
+Desc     Beneath the Prophet's sanctum lies the most sacred site 
+in the temple. A massive slab of basalt sits in the 
+center of the room, pulsing with a deep red light. 
+The Avatar of Hakkar can be summoned here.
+~
+#EXIT
+Direction up~
+ToRoom    19578
+Desc      Return to the sanctum.~
+#ENDEXIT
+Reset M 0 19514 1 19579
+  Reset G 1 19528 1
+#ENDROOM
+
+#ROOM
+Vnum     19580
+Name     &rProphecy Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side chamber where the Prophet's most loyal 
+acolytes prepare for the next ritual.
+~
+#EXIT
+Direction north~
+ToRoom    19577
+Desc      The hall central.~
+#ENDEXIT
+Reset M 0 19524 10 19580
+#ENDROOM
+
+#ROOM
+Vnum     19581
+Name     &gThe Hall of the Shade - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The final level of the temple. The architecture is a 
+blend of night elven grace and Nightmare corruption. 
+High-level dragonspawn stand in silent vigil.
+~
+#EXIT
+Direction south~
+ToRoom    19555
+Desc      The grand spiral.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19582
+Desc      The inner falls.~
+#ENDEXIT
+Reset M 0 19503 5 19581
+#ENDROOM
+
+#ROOM
+Vnum     19582
+Name     &gThe Inner Falls&d~
+Sector   inside~
+Flags    indoors~
+Desc     A beautiful but dangerous garden of emerald moss and 
+glowing flowers. A gentle waterfall plunges into a 
+circular pool in the center. Nightmare wanderers 
+drift through the mist.
+~
+#EXIT
+Direction south~
+ToRoom    19581
+Desc      The hall entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19583
+Desc      The Throne of Eranikus.~
+#ENDEXIT
+Reset M 0 19522 10 19582
+#ENDROOM
+
+#ROOM
+Vnum     19583
+Name     &rThe Throne of the Shade of Eranikus&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the temple's corruption. The massive shade 
+of Eranikus looms over the pool, his multiple heads 
+hissing in a chorus of madness. The air is heavy with 
+the scent of the Emerald Dream turned to ash.
+~
+#EXIT
+Direction south~
+ToRoom    19582
+Desc      The inner falls.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19600
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 19510 1 19583
+  Reset G 1 19527 1
+#ENDROOM
+
+#ROOM
+Vnum     19584
+Name     &gShade Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing overlooking the inner falls, 
+frequently patrolled by Nightmare overseers.
+~
+#EXIT
+Direction south~
+ToRoom    19582
+Desc      The inner falls.~
+#ENDEXIT
+Reset M 0 19519 5 19584
+#ENDROOM
+
+#ROOM
+Vnum     19585
+Name     &gShade Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet section of the inner sanctum filled with 
+Dreamfoil and the sound of distant wailing.
+~
+#EXIT
+Direction north~
+ToRoom    19582
+Desc      The inner falls.~
+#ENDEXIT
+Reset O 0 19536 10 19585
+#ENDROOM
+
+#ROOM
+Vnum     19586
+Name     &BDeep Basement Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small storage area in the basement filled with 
+bottles of venom and bundles of feathers.
+~
+#EXIT
+Direction north~
+ToRoom    19556
+Desc      The pit statue room.~
+#ENDEXIT
+Reset O 0 19547 10 19586
+#ENDROOM
+
+#ROOM
+Vnum     19587
+Name     &BDeep Basement Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet ridge in the snake pits, where Atal'ai 
+scouts keep watch over the lower levels.
+~
+#EXIT
+Direction south~
+ToRoom    19558
+Desc      The snake pits.~
+#ENDEXIT
+Reset M 0 19520 5 19587
+#ENDROOM
+
+#ROOM
+Vnum     19588
+Name     &BTemple Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the main temple filled with 
+discarded masonry and bits of dragonscale.
+~
+#EXIT
+Direction east~
+ToRoom    19553
+Desc      The lower spiral.~
+#ENDEXIT
+Reset O 0 19548 10 19588
+#ENDROOM
+
+#ROOM
+Vnum     19589
+Name     &BTemple Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, damp chamber where the ghouls are 
+allowed to feast on the remains of the sacrifices.
+~
+#EXIT
+Direction west~
+ToRoom    19553
+Desc      The lower spiral.~
+#ENDEXIT
+Reset M 0 19511 5 19589
+#ENDROOM
+
+#ROOM
+Vnum     19590
+Name     &BTemple Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky ledge overlooking the statue pit, 
+frequently patrolled by skeletal berserkers.
+~
+#EXIT
+Direction south~
+ToRoom    19556
+Desc      The statue pit.~
+#ENDEXIT
+Reset M 0 19517 5 19590
+#ENDROOM
+
+#ROOM
+Vnum     19591
+Name     &BTemple Overflow D&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small hollow near the Prophet's sanctum, 
+where several eyes of Hakkar keep watch.
+~
+#EXIT
+Direction north~
+ToRoom    19577
+Desc      The prophecy hall.~
+#ENDEXIT
+Reset M 0 19525 10 19591
+#ENDROOM
+
+#ROOM
+Vnum     19592
+Name     &gDragon Wing Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone balcony in the dragon wing, 
+offering a view of the southern swamp through a hole in the wall.
+~
+#EXIT
+Direction south~
+ToRoom    19570
+Desc      The central roost.~
+#ENDEXIT
+Reset M 0 19503 5 19592
+#ENDROOM
+
+#ROOM
+Vnum     19593
+Name     &gDragon Wing Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-tended garden of ghost mushrooms 
+near Weaver's lair.
+~
+#EXIT
+Direction west~
+ToRoom    19574
+Desc      Weaver's lair.~
+#ENDEXIT
+Reset O 0 19537 10 19593
+#ENDROOM
+
+#ROOM
+Vnum     19594
+Name     &rThe Prophet's Outlook&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone ridge overlooking the inner temple. Jammal'an 
+stands here when he is not conducting rituals, watching 
+the stars for signs of his god.
+~
+#EXIT
+Direction east~
+ToRoom    19578
+Desc      Jammal'an's sanctum.~
+#ENDEXIT
+Reset O 0 19543 1 19594
+#ENDROOM
+
+#ROOM
+Vnum     19595
+Name     &BThe Wailing Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, dark tunnel where the cries of the miserable 
+souls are constant.
+~
+#EXIT
+Direction north~
+ToRoom    19554
+Desc      The middle spiral.~
+#ENDEXIT
+Reset M 0 19512 10 19595
+#ENDROOM
+
+#ROOM
+Vnum     19596
+Name     &BThe Pit Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the statue room, filled with 
+ancient stone tablets and dust.
+~
+#EXIT
+Direction south~
+ToRoom    19556
+Desc      The pit room.~
+#ENDEXIT
+Reset O 0 19543 5 19596
+#ENDROOM
+
+#ROOM
+Vnum     19597
+Name     &BThe Pit Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow ledge where several gas-filled oozes have 
+formed from the stagnant air.
+~
+#EXIT
+Direction north~
+ToRoom    19556
+Desc      The pit room.~
+#ENDEXIT
+Reset M 0 19518 5 19597
+#ENDROOM
+
+#ROOM
+Vnum     19598
+Name     &BThe Inner Spiral Staircase&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small staircase winding through the wall between 
+the lower balconies and the Prophet's level.
+~
+#EXIT
+Direction up~
+ToRoom    19564
+Desc      Upper balcony.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    19561
+Desc      Lower balcony.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     19599
+Name     &BThe Hidden Archive&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A secret room behind a statue in the Prophet's hall. 
+It contains the most forbidden texts of the Atal'ai.
+~
+#EXIT
+Direction west~
+ToRoom    19577
+Desc      The prophecy hall.~
+#ENDEXIT
+Reset O 0 19543 1 19599
+#ENDROOM
+
+#ROOM
+Vnum     19600
+Name     &BThe Sunken Temple Exit Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind the Shade's throne 
+leads toward a hidden opening in the lake floor, 
+offering a quick way out for those who have defeated 
+the Nightmare corruption.
+~
+#EXIT
+Direction south~
+ToRoom    19583
+Desc      The Shade's throne.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    19552
+Desc      The entrance portal.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     19601
+Name     &BThe Hall of the Fallen Hero&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet, respectful room near the temple entrance, 
+dedicated to the green dragons who died in the war.
+~
+#EXIT
+Direction north~
+ToRoom    19552
+Desc      The entrance.~
+#ENDEXIT
+Reset O 0 19546 5 19601
+#ENDROOM
+
+#ROOM
+Vnum     19602
+Name     &BThe Sunken Crypt - Deep&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The deepest point of the sarcophagus rooms. The air 
+is absolute still and freezing cold.
+~
+#EXIT
+Direction up~
+ToRoom    19560
+Desc      The crypts.~
+#ENDEXIT
+Reset M 0 19517 5 19602
+#ENDROOM
+
+#ROOM
+Vnum     19603
+Name     &BThe Silent Roost&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, high ledge in the dragon wing that has been 
+left untouched by the Nightmare.
+~
+#EXIT
+Direction south~
+ToRoom    19570
+Desc      The central roost.~
+#ENDEXIT
+Reset O 0 19536 5 19603
+#ENDROOM
+
+#ENDAREA
