@@ -1,0 +1,1654 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Maraudon~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       40 52 0 60
+Economy      0 55000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       19100
+Keywords   maraudine bone-shredder centaur~
+Short      a Maraudine Bone-shredder~
+Long       A hulking centaur with jagged blades gallops through the crystal hall.
+~
+Desc       Vicious protectors of the inner sanctum, these centaurs have 
+spent their lives in the dark, turning them pale and cruel.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1600 4500
+Stats2     42 42 200
+Stats3     10 25 42
+Stats4     0 0 0 0 0
+Attribs    20 12 16 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19101
+Keywords   subterranean flayer beast~
+Short      a Subterranean Flayer~
+Long       A pale, multi-limbed creature skitters across the ceiling.
+~
+Desc       A blind predator adapted to the lightless depths of the 
+caverns. It uses tremors to track its prey.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1200 3800
+Stats2     41 41 0
+Stats3     8 20 41
+Stats4     0 0 0 0 0
+Attribs    18 18 14 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19102
+Keywords   noxxion boss elemental~
+Short      Noxxion~
+Long       A massive mass of poisonous green sludge gurgles before you.
+~
+Desc       A manifestation of the rot within Maraudon. Noxxion is 
+a sentient pile of toxic waste that seeks to dissolve any 
+signs of life.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 45 0 0 4500 12000
+Stats2     45 45 800
+Stats3     15 45 45
+Stats4     0 0 0 0 0
+Attribs    28 6 25 14 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19103
+Keywords   razorlash boss plant~
+Short      Razorlash~
+Long       A gargantuan lashweed with serrated vines snaps at the air.
+~
+Desc       A plant elemental corrupted by the presence of Theradras. 
+Its vines can shred plate armor like paper.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 45 0 0 4200 11000
+Stats2     45 45 0
+Stats3     14 42 45
+Stats4     0 0 0 0 0
+Attribs    26 14 22 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19104
+Keywords   tinkerer gizlock boss goblin~
+Short      Tinkerer Gizlock~
+Long       A frantic goblin balances on a pile of explosives, tinkering madly.
+~
+Desc       An engineer who got lost looking for mineral deposits. Now 
+mad from the whispers of the falls, he defends his 
+"claim" with bombs and fire.
+~
+Race       gnome~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 46 0 0 3500 9500
+Stats2     46 46 1500
+Stats3     12 35 46
+Stats4     0 0 0 0 0
+Attribs    12 18 14 28 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       19105
+Keywords   lord vyletongue boss satyr demon~
+Short      Lord Vyletongue~
+Long       A purple-skinned satyr sneers, twirling a pair of jagged daggers.
+~
+Desc       A servant of the Burning Legion who has taken up residence 
+in the crystal caverns to siphons the primal energies of the earth.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 47 0 0 3800 10000
+Stats2     47 47 600
+Stats3     16 40 47
+Stats4     0 0 0 0 0
+Attribs    18 25 16 18 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       19106
+Keywords   celebras cursed boss spirit~
+Short      Celebras the Cursed~
+Long       A spectral keeper of the grove wails, his body translucent and grey.
+~
+Desc       The son of Remulos, cursed and driven mad by the death of 
+his father and the corruption of his home. He must be 
+defeated to cleanse his spirit.
+~
+Race       undead~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 49 0 0 5000 14000
+Stats2     49 49 1200
+Stats3     18 50 49
+Stats4     0 0 0 0 0
+Attribs    22 14 20 25 24 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       19107
+Keywords   landslide boss elemental~
+Short      Landslide~
+Long       A mountain of sentient stone rumbles, its fists heavy enough to crush mountains.
+~
+Desc       A massive earth elemental sworn to protect the Princess. 
+Every movement he makes shakes the very foundations 
+of the cavern.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 50 0 0 6500 18000
+Stats2     50 50 0
+Stats3     22 60 50
+Stats4     0 0 0 0 0
+Attribs    35 4 30 10 15 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       19108
+Keywords   princess theradras boss giant~
+Short      Princess Theradras~
+Long       The titanic Princess of the Earth rumbles, her multiple arms reaching out.
+~
+Desc       A daughter of Therazane the Stonemother. She is a 
+grotesque, multi-armed giant who has corrupted the 
+tomb of her lover, Zaetar.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 15000 45000
+Stats2     52 52 1000
+Stats3     35 100 65
+Stats4     0 0 0 0 0
+Attribs    40 10 35 25 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       19109
+Keywords   rotgrip boss hydra~
+Short      Rotgrip~
+Long       A massive, decaying hydra lurks beneath the surface of the falls.
+~
+Desc       A three-headed beast that has grown fat on the rot 
+of the inner gardens. Its bite causes immediate festering.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 48 0 0 4500 12000
+Stats2     48 48 0
+Stats3     18 50 48
+Stats4     0 0 0 0 0
+Attribs    30 8 25 4 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       19110
+Keywords   deep borer worm beast~
+Short      a Deep Borer~
+Long       A large, segmented worm burrows through the cavern wall.
+~
+Desc       These worms feed on the rich mineral deposits within 
+the crystal caverns, leaving behind smooth, circular tunnels.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1100 3000
+Stats2     40 40 0
+Stats3     7 16 40
+Stats4     0 0 0 0 0
+Attribs    16 12 18 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19111
+Keywords   primordial ooze~
+Short      a Primordial Ooze~
+Long       A thick, brown sludge undulates across the stone.
+~
+Desc       An ancient slime that has existed since the dawn of Azeroth, 
+unfathomably sticky and extremely acidic.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1400 3800
+Stats2     42 42 0
+Stats3     9 22 42
+Stats4     0 0 0 0 0
+Attribs    20 4 22 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19112
+Keywords   theradrim guardian elemental~
+Short      a Theradrim Guardian~
+Long       A jagged shard of living crystal watches the path.
+~
+Desc       A smaller cousin to Landslide, tasked with guarding the 
+approach to the Princess's seat.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 2200 6500
+Stats2     46 46 0
+Stats3     12 35 46
+Stats4     0 0 0 0 0
+Attribs    26 8 20 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19113
+Keywords   corrupt lashweed plant~
+Short      a Corrupt Lashweed~
+Long       A cluster of vines lashes out from the swampy water.
+~
+Desc       Sentient plants that thrive in the shadow of Razorlash. 
+They feed on the remains of whatever the hydras leave behind.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1000 3200
+Stats2     43 43 0
+Stats3     8 20 43
+Stats4     0 0 0 0 0
+Attribs    18 16 18 6 8 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19114
+Keywords   shadowshard elemental~
+Short      a Shadowshard Elemental~
+Long       A being of dark, pulsing crystal looms in the purple wing.
+~
+Desc       An elemental touched by the shadow-taint of Lord Vyletongue. 
+It radiates an aura of coldness.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1500 4200
+Stats2     44 44 200
+Stats3     10 28 44
+Stats4     0 0 0 0 0
+Attribs    22 10 18 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19115
+Keywords   maraudine scout centaur~
+Short      a Maraudine Scout~
+Long       A pale centaur archer watches from a high ledge.
+~
+Desc       The eyes of the centaur tribes within Maraudon. They 
+use bows of flexible root to fire poisoned shafts.
+~
+Race       humanoid~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 950 2800
+Stats2     41 41 300
+Stats3     7 18 41
+Stats4     0 0 0 0 0
+Attribs    14 22 12 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19116
+Keywords   deepmoss creeper spider~
+Short      a Deepmoss Creeper~
+Long       A large, moss-covered spider skitters through the undergrowth.
+~
+Desc       These spiders weave webs of thick, green silk that is 
+strong enough to trap a centaur.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1200 3500
+Stats2     42 42 0
+Stats3     8 22 42
+Stats4     0 0 0 0 0
+Attribs    16 20 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       19117
+Keywords   constrictor vine plant~
+Short      a Constrictor Vine~
+Long       A thick, serpentine vine twitches on the ground.
+~
+Desc       A stationary but deadly plant that attempts to wrap 
+itself around any warm-blooded creature that passes.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 43 0 0 1100 3000
+Stats2     43 43 0
+Stats3     10 30 43
+Stats4     0 0 0 0 0
+Attribs    24 4 20 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19118
+Keywords   vile slitherer snake~
+Short      a Vile Slitherer~
+Long       A massive, purple-scaled snake hisses from a crystal nook.
+~
+Desc       A desert cobra that has mutated in the magical depths 
+of the caverns, its venom now highly corrosive.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1300 3600
+Stats2     44 44 0
+Stats3     9 24 44
+Stats4     0 0 0 0 0
+Attribs    20 18 16 6 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       19119
+Keywords   cavern shambler plant~
+Short      a Cavern Shambler~
+Long       A walking pile of mushrooms and damp wood moves slowly.
+~
+Desc       A fungal behemoth that exists in the dampest parts of 
+the inner falls.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 47 0 0 2500 7000
+Stats2     47 47 0
+Stats3     14 38 47
+Stats4     0 0 0 0 0
+Attribs    28 6 22 8 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19120
+Keywords   maraudine mauler centaur warrior~
+Short      a Maraudine Mauler~
+Long       A heavily armored centaur bellows, swinging a massive mace.
+~
+Desc       The elite shock troops of the centaur clans. They wear 
+plate armor fashioned from the scales of subterranean beasts.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 2000 5500
+Stats2     45 45 200
+Stats3     12 32 45
+Stats4     0 0 0 0 0
+Attribs    24 10 18 8 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19121
+Keywords   shadowshard seer elemental mage~
+Short      a Shadowshard Seer~
+Long       A floating crystal focus hums with dark magic.
+~
+Desc       Casters of the shadowshard brood, they focus the corrupted 
+energies of the crystal caverns into lethal bolts.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 1300 3800
+Stats2     45 45 1000
+Stats3     9 25 45
+Stats4     0 0 0 0 0
+Attribs    10 14 16 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19122
+Keywords   petrified tree protector~
+Short      a Petrified Protector~
+Long       An ancient, stone-like tree-giant stands in silent vigil.
+~
+Desc       Once a lush protector of nature, now turned to stone by 
+the proximity of the Earth Princess.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 51 0 0 4500 12000
+Stats2     51 51 0
+Stats3     20 55 51
+Stats4     0 0 0 0 0
+Attribs    35 4 32 6 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       19123
+Keywords   vile-tongue rogue satyr thief~
+Short      a Vile-tongue Rogue~
+Long       A satyr fades from sight, the scent of brimstone lingering.
+~
+Desc       Assassins in the service of Lord Vyletongue, experts at 
+striking from the shadows of the purple crystals.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 950 2800
+Stats2     44 44 300
+Stats3     7 20 44
+Stats4     0 0 0 0 0
+Attribs    12 24 14 14 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       19124
+Keywords   blood-petal sprout plant~
+Short      a Blood-petal Sprout~
+Long       A small, red-flowered plant skips across the garden floor.
+~
+Desc       Annoying, mobile plants that swarm in large numbers, biting 
+at the ankles of intruders.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 400 1200
+Stats2     40 40 0
+Stats3     4 12 40
+Stats4     0 0 0 0 0
+Attribs    14 18 12 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       19125
+Keywords   ancient keeper spirit~
+Short      an Ancient Keeper~
+Long       A translucent spirit of nature watches the falls with sorrow.
+~
+Desc       The remnants of the keepers who once tended to Zaetar's 
+grove. They are peaceful but will defend the falls.
+~
+Race       undead~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 3000 8500
+Stats2     50 50 1500
+Stats3     15 45 50
+Stats4     0 0 0 0 0
+Attribs    18 12 20 30 25 20 20
+#ENDMOBILE
+
+#OBJECT
+Vnum     19200
+Keywords noxxion's shackles wrist~
+Type     armor~
+Short    Noxxion's Shackles~
+Long     A pair of heavy iron wristguards dripping with green slime.~
+WFlags   take wrist~
+Values   15 0 0 0 0 0
+Stats    8 2500 45 0 0
+Rarity   2
+Affect   5 10 0 0 0
+Affect   17 -10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19201
+Keywords blade eternal darkness dagger weapon~
+Type     weapon~
+Short    the Blade of Eternal Darkness~
+Long     A wicked dagger that seems to swallow the light around it.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    2 15000 52 0 0
+Rarity   3
+Affect   2 15 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19202
+Keywords satyr's lash whip weapon~
+Type     weapon~
+Short    the Satyr's Lash~
+Long     A long, stinging whip made from the tail of a demon.~
+WFlags   take wield~
+Values   12 12 18 4 0 0
+Stats    12 4500 47 0 0
+Rarity   2
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19203
+Keywords mark of celebras jewelry~
+Type     jewelry~
+Short    the Mark of Celebras~
+Long     A wooden medallion etched with the leaves of a world tree.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 3200 49 0 0
+Rarity   2
+Affect   3 10 0 0 0
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19204
+Keywords megashot rifle weapon~
+Type     weapon~
+Short    Gizlock's Hyper-Precise Megashot~
+Long     A complex goblin rifle with far too many scopes and dials.~
+WFlags   take wield~
+Values   12 15 30 5 0 0
+Stats    18 6500 46 0 0
+Rarity   2
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19205
+Keywords landslide's heart treasure hold~
+Type     treasure~
+Short    the Heart of Landslide~
+Long     A massive ruby that pulses with the rhythm of the earth.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    12 8500 50 0 0
+Rarity   2
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19206
+Keywords scepter celebras key~
+Type     key~
+Short    the Scepter of Celebras~
+Long     A staff of living wood that hums with primal energy.~
+WFlags   take hold~
+Values   19206 0 0 0 0 0
+Stats    5 0 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     19207
+Keywords gemstone maraudon treasure~
+Type     treasure~
+Short    a Shimmering Maraudon Gemstone~
+Long     A large, multi-faceted crystal found in the cave walls.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19208
+Keywords centaur ear trophy~
+Type     trash~
+Short    a severed centaur ear~
+Long     A pale, pointed ear taken as proof of a centaur's death.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19209
+Keywords princess crown head~
+Type     armor~
+Short    the Crown of the Earth Princess~
+Long     A jagged circlet of rock and crystal.~
+WFlags   take head~
+Values   20 0 0 0 0 0
+Stats    5 12000 52 0 0
+Rarity   3
+Affect   1 12 0 0 0
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19210
+Keywords rotgrip's scale trophy~
+Type     trash~
+Short    a decaying hydra scale~
+Long     A thick, slimy scale that reeks of the swamp.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     19211
+Keywords moss-covered boots feet~
+Type     armor~
+Short    a pair of Deepmoss Treaders~
+Long     Boots woven from durable spider silk and forest moss.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    5 850 42 0 0
+Rarity   1
+Affect   2 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19212
+Keywords crystal-shard dagger weapon~
+Type     weapon~
+Short    a Jagged Crystal Dagger~
+Long     A blade made from a single, razor-sharp orange crystal.~
+WFlags   take wield~
+Values   12 8 16 11 0 0
+Stats    2 650 43 0 0
+Rarity   1
+Affect   13 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19213
+Keywords venom-sac trophy~
+Type     trash~
+Short    a pulsating venom sac~
+Long     A small, leather-like bag filled with corrosive fluid.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19214
+Keywords ghost mushroom treasure~
+Type     treasure~
+Short    a translucent Ghost Mushroom~
+Long     A mushroom that seems to exist partially in the spirit world.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   1
+Affect   3 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19215
+Keywords stone-fist mace weapon~
+Type     weapon~
+Short    a Stone-fist Warhammer~
+Long     A heavy hammer with a head carved in the shape of a fist.~
+WFlags   take wield~
+Values   12 15 25 8 0 0
+Stats    22 2500 50 0 0
+Rarity   2
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19216
+Keywords vyletongue's sash waist~
+Type     armor~
+Short    Vyletongue's Silk Sash~
+Long     A fine purple belt embroidered with demonic runes.~
+WFlags   take waist~
+Values   8 0 0 0 0 0
+Stats    2 3200 47 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19217
+Keywords blood-petal bloom treasure~
+Type     treasure~
+Short    a Blood-petal Bloom~
+Long     A vibrant red flower that stays fresh long after being picked.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 40 0 0
+Rarity   0
+Affect   5 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19218
+Keywords shadowshard amulet jewelry~
+Type     jewelry~
+Short    a Shadowshard Amulet~
+Long     A dark crystal pendant that feels cold to the touch.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 1500 45 0 0
+Rarity   1
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19219
+Keywords subterranean hide body~
+Type     armor~
+Short    a piece of Subterranean Hide~
+Long     Tough, pale leather taken from a cave-dwelling beast.~
+WFlags   take body~
+Values   20 0 0 0 0 0
+Stats    15 650 41 0 0
+Rarity   1
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19220
+Keywords gizlock's wrench tool~
+Type     weapon~
+Short    Gizlock's Oversized Wrench~
+Long     A massive heavy wrench used more for bludgeoning than fixing.~
+WFlags   take wield~
+Values   12 10 18 8 0 0
+Stats    15 500 46 0 0
+Rarity   1
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19221
+Keywords fungal robe body~
+Type     armor~
+Short    a Shambler's Fungal Robe~
+Long     Robes fashioned from overlapping layers of dry mushroom skin.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 1200 47 0 0
+Rarity   1
+Affect   4 8 0 0 0
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19222
+Keywords primordial sludge treasure~
+Type     treasure~
+Short    a vial of Primordial Sludge~
+Long     A glass jar containing an ancient, bubbling green liquid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 42 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19223
+Keywords keeper's staff weapon~
+Type     weapon~
+Short    an Ancient Keeper's Staff~
+Long     A staff of white wood that glows with a soft, natural light.~
+WFlags   take wield~
+Values   12 12 24 7 0 0
+Stats    12 5500 50 0 0
+Rarity   2
+Affect   3 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19224
+Keywords serrated claw trophy~
+Type     trash~
+Short    a serrated flayer claw~
+Long     A sharp, curved claw used for rending flesh.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     19225
+Keywords Zaetar's focus hold~
+Type     treasure~
+Short    Zaetar's Spirit Focus~
+Long     A crystal sphere containing a swirling vortex of leaves.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 15000 52 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   4 20 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     19000
+Name     &gThe Earth Song Portal&d~
+Sector   city~
+Flags    indoors~
+Desc     The humid air of Desolace is replaced by a heavy, primal 
+energy. You stand at the entrance of a massive subterranean 
+complex. The sound of thousands of tons of falling water 
+echoes through the halls. To the north, a tunnel of glowing 
+orange crystals leads deeper into the dark.
+~
+#EXIT
+Direction out~
+ToRoom    35055
+Desc      Return to the surface of Desolace.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19001
+Desc      The cavern entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     19001
+Name     &gThe Whispering Caverns&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are covered in bioluminescent moss that pulses with 
+a soft green light. The air is stagnant and smells of damp 
+earth. Small subterranean beasts can be heard scurrying 
+just out of sight.
+~
+#EXIT
+Direction south~
+ToRoom    19000
+Desc      The entrance portal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19002
+Desc      The cavern forks.~
+#ENDEXIT
+Reset M 0 19101 10 19001
+#ENDROOM
+
+#ROOM
+Vnum     19002
+Name     &gThe Fork of Earth and Shadow&d~
+Sector   inside~
+Flags    indoors~
+Desc     The main tunnel splits here. To the west, the air turns 
+sharp and metallic as the tunnel becomes lined with bright 
+orange crystals. To the east, the light turns a deep, 
+ominous purple.
+~
+#EXIT
+Direction south~
+ToRoom    19001
+Desc      The whispering caverns.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19003
+Desc      The Orange Crystal Wing.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19015
+Desc      The Purple Crystal Wing.~
+#ENDEXIT
+Reset M 0 19110 5 19002
+#ENDROOM
+
+#ROOM
+Vnum     19003
+Name     &OThe Orange Wing - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The crystals here are sharp and emit a steady heat. Maraudine 
+centaurs patrol these halls, their heavy hooves clicking 
+against the stone.
+~
+#EXIT
+Direction east~
+ToRoom    19002
+Desc      Return to the fork.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19004
+Desc      Deep orange wing.~
+#ENDEXIT
+Reset M 0 19100 10 19003
+#ENDROOM
+
+#ROOM
+Vnum     19004
+Name     &OThe Orange Wing - Crystal Spires&d~
+Sector   inside~
+Flags    indoors~
+Desc     Giant orange crystals grow like trees from the floor and 
+ceiling, making navigation difficult. Subterranean flayers 
+hide among the jagged edges.
+~
+#EXIT
+Direction east~
+ToRoom    19003
+Desc      Wing entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19005
+Desc      Toward Noxxion's Lair.~
+#ENDEXIT
+Reset M 0 19101 10 19004
+Reset O 0 19207 10 19004
+#ENDROOM
+
+#ROOM
+Vnum     19005
+Name     &OThe Cavern of Corrosive Sludge&d~
+Sector   inside~
+Flags    indoors~
+Desc     The floor is covered in a shallow pool of green, bubbling 
+liquid. The air is toxic and the scent of acid is 
+overwhelming. In the center of the room, a massive slime 
+shifts and gurgles.
+~
+#EXIT
+Direction east~
+ToRoom    19004
+Desc      The crystal spires.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19006
+Desc      The inner garden approach.~
+#ENDEXIT
+Reset M 0 19102 1 19005
+  Reset G 1 19200 1
+  Reset G 1 19222 5
+#ENDROOM
+
+#ROOM
+Vnum     19006
+Name     &gThe Fungal Overgrowth&d~
+Sector   forest~
+Flags    indoors~
+Desc     The crystals give way to a damp, subterranean garden. Massive 
+mushrooms and tangles of vines choke the path. The sound of 
+water is much louder here.
+~
+#EXIT
+Direction south~
+ToRoom    19005
+Desc      Noxxion's lair.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19007
+Desc      Toward Razorlash.~
+#ENDEXIT
+Reset M 0 19116 10 19006
+#ENDROOM
+
+#ROOM
+Vnum     19007
+Name     &gThe Thicket of Vines&d~
+Sector   forest~
+Flags    indoors~
+Desc     The vines here are active, twitching and lashing out at 
+movement. A gargantuan plant-creature stands in the center 
+of a clearing, its vines covered in sharp thorns.
+~
+#EXIT
+Direction south~
+ToRoom    19006
+Desc      The fungal garden.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19030
+Desc      The descent to the inner falls.~
+#ENDEXIT
+Reset M 0 19103 1 19007
+  Reset G 1 19201 1
+Reset M 0 19117 5 19007
+#ENDROOM
+
+#ROOM
+Vnum     19015
+Name     &mThe Purple Wing - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The crystals here emit a cold, dim purple light. The air 
+smells of brimstone and old magic. Satyrs prowl the 
+shadows, their eyes glowing with demonic fire.
+~
+#EXIT
+Direction west~
+ToRoom    19002
+Desc      Return to the fork.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19016
+Desc      Deep purple wing.~
+#ENDEXIT
+Reset M 0 19123 10 19015
+#ENDROOM
+
+#ROOM
+Vnum     19016
+Name     &mThe Purple Wing - Shadow Spires&d~
+Sector   inside~
+Flags    indoors~
+Desc     Large obsidian shards have been carved with demonic runes. 
+Shadowshard elementals move between the formations, 
+guarding the path to their master.
+~
+#EXIT
+Direction west~
+ToRoom    19015
+Desc      Wing entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19017
+Desc      Toward Lord Vyletongue.~
+#ENDEXIT
+Reset M 0 19114 10 19016
+Reset O 0 19218 5 19016
+#ENDROOM
+
+#ROOM
+Vnum     19017
+Name     &mThe Sanctum of Shadow&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, circular room filled with the hum of the Twisting 
+Nether. Lord Vyletongue stands upon a raised dais, 
+conducting a dark ritual with his loyal rogues.
+~
+#EXIT
+Direction west~
+ToRoom    19016
+Desc      The shadow spires.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19018
+Desc      Toward the central garden.~
+#ENDEXIT
+Reset M 0 19105 1 19017
+  Reset G 1 19202 1
+  Reset G 1 19216 1
+Reset M 0 19123 5 19017
+#ENDROOM
+
+#ROOM
+Vnum     19018
+Name     &gThe Lush Grotto&d~
+Sector   forest~
+Flags    indoors~
+Desc     A beautiful but dangerous garden of subterranean flowers and 
+ferns. Sprite darters flit through the air, while 
+large spiders hide in the undergrowth.
+~
+#EXIT
+Direction south~
+ToRoom    19017
+Desc      Vyletongue's sanctum.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19019
+Desc      Toward Celebras.~
+#ENDEXIT
+Reset M 0 19108 5 19018
+#ENDROOM
+
+#ROOM
+Vnum     19019
+Name     &gThe Cursed Grove&d~
+Sector   forest~
+Flags    indoors~
+Desc     The trees here are twisted and grey, their leaves turned 
+to dust. Celebras the Cursed wanders this grove, his 
+wails echoing off the cavern walls.
+~
+#EXIT
+Direction south~
+ToRoom    19018
+Desc      The lush grotto.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    19020
+Desc      The pool of Celebras.~
+#ENDEXIT
+Reset M 0 19106 1 19019
+  Reset G 1 19203 1
+  Reset G 1 19206 1
+#ENDROOM
+
+#ROOM
+Vnum     19020
+Name     &BThe Pool of the Keeper&d~
+Sector   water_noswim~
+Flags    indoors~
+Desc     A small, crystal-clear pool fed by a trickle of water from 
+the ceiling. The spirit of Zaetar is said to linger 
+here, watching over his son.
+~
+#EXIT
+Direction west~
+ToRoom    19019
+Desc      The cursed grove.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19030
+Desc      The descent to the inner falls.~
+#ENDEXIT
+Reset M 0 19125 5 19020
+#ENDROOM
+
+#ROOM
+Vnum     19030
+Name     &BThe Great Earth Song Falls&d~
+Sector   inside~
+Flags    indoors~
+Desc     Both wings of the dungeon meet here at the edge of a massive 
+vertical drop. A gargantuan waterfall plunges into the 
+darkness below, creating a constant mist. A narrow ledge 
+winds down into the depths.
+~
+#EXIT
+Direction east~
+ToRoom    19007
+Desc      The thicket of vines.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    19020
+Desc      The pool of the keeper.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    19031
+Desc      Descend the falls ledge.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     19031
+Name     &BThe Falls Ledge - Upper&d~
+Sector   inside~
+Flags    indoors~
+Desc     The ledge is slippery and narrow. Tinkerer Gizlock has set 
+up a small camp here, surrounded by piles of discarded 
+gears and explosives.
+~
+#EXIT
+Direction up~
+ToRoom    19030
+Desc      The top of the falls.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    19032
+Desc      Middle falls ledge.~
+#ENDEXIT
+Reset M 0 19104 1 19031
+  Reset G 1 19204 1
+  Reset G 1 19220 1
+#ENDROOM
+
+#ROOM
+Vnum     19032
+Name     &BThe Falls Ledge - Middle&d~
+Sector   inside~
+Flags    indoors~
+Desc     Halfway down the descent. The roar of the water is deafening. 
+Hydras lurk in the small pools that have formed on the 
+rocky shelves.
+~
+#EXIT
+Direction up~
+ToRoom    19031
+Desc      Upper ledge.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    19033
+Desc      Lower falls ledge.~
+#ENDEXIT
+Reset M 0 19109 1 19032
+  Reset G 1 19201 1
+#ENDROOM
+
+#ROOM
+Vnum     19033
+Name     &BThe Falls Ledge - Lower&d~
+Sector   inside~
+Flags    indoors~
+Desc     You reach the bottom of the ledge. The cavern opens into a 
+massive subterranean lake. A bridge of natural stone 
+leads across the water toward a high, sun-drenched plateau.
+~
+#EXIT
+Direction up~
+ToRoom    19032
+Desc      Middle ledge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19034
+Desc      The bridge of stone.~
+#ENDEXIT
+Reset M 0 19109 1 19033
+#ENDROOM
+
+#ROOM
+Vnum     19034
+Name     &BThe Bridge of Zaetar&d~
+Sector   inside~
+Flags    indoors~
+Desc     A bridge of solid granite crossing the churning water. 
+Landslide stands in the center, his massive form 
+blocking the way to the Princess.
+~
+#EXIT
+Direction south~
+ToRoom    19033
+Desc      The falls ledge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19035
+Desc      The plateau approach.~
+#ENDEXIT
+Reset M 0 19107 1 19034
+  Reset G 1 19205 1
+  Reset G 1 19215 1
+#ENDROOM
+
+#ROOM
+Vnum     19035
+Name     &gThe Teradrim Plateau - Approach&d~
+Sector   inside~
+Flags    indoors~
+Desc     The ground here is level and covered in soft sand. Stone 
+guardians patrol the approach, their eyes glowing with 
+elemental light.
+~
+#EXIT
+Direction south~
+ToRoom    19034
+Desc      The bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19036
+Desc      The Throne of the Princess.~
+#ENDEXIT
+Reset M 0 19112 10 19035
+#ENDROOM
+
+#ROOM
+Vnum     19036
+Name     &rThe Throne of Princess Theradras&d~
+Sector   inside~
+Flags    indoors~
+Desc     The highest point of the inner caverns. Princess Theradras 
+stands before the tomb of Zaetar, her multiple arms 
+waving in a grotesque dance. Primal energy pulses from 
+her body, shaking the very air.
+~
+#EXIT
+Direction south~
+ToRoom    19035
+Desc      The approach.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    19050
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 19108 1 19036
+  Reset G 1 19209 1
+  Reset G 1 19225 1
+#ENDROOM
+
+#ROOM
+Vnum     19037
+Name     &OOrange Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet corner of the orange wing filled with small crystal 
+clusters and the scent of ozone.
+~
+#EXIT
+Direction north~
+ToRoom    19003
+Desc      Orange wing entrance.~
+#ENDEXIT
+Reset M 0 19100 5 19037
+#ENDROOM
+
+#ROOM
+Vnum     19038
+Name     &OOrange Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow tunnel lined with razor-sharp crystals. Deep borers 
+can be heard grinding through the rock.
+~
+#EXIT
+Direction east~
+ToRoom    19004
+Desc      Crystal spires.~
+#ENDEXIT
+Reset M 0 19110 5 19038
+#ENDROOM
+
+#ROOM
+Vnum     19039
+Name     &OOrange Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small chamber filled with pools of corrosive slime and 
+discarded bones.
+~
+#EXIT
+Direction south~
+ToRoom    19005
+Desc      Noxxion's lair.~
+#ENDEXIT
+Reset M 0 19111 5 19039
+#ENDROOM
+
+#ROOM
+Vnum     19040
+Name     &mPurple Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark alcove in the purple wing where satyrs rest between 
+patrols.
+~
+#EXIT
+Direction south~
+ToRoom    19015
+Desc      Purple wing entrance.~
+#ENDEXIT
+Reset M 0 19123 5 19040
+#ENDROOM
+
+#ROOM
+Vnum     19041
+Name     &mPurple Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A shimmering tunnel where the purple light is particularly 
+intense. Shadowshard seers focus their magic here.
+~
+#EXIT
+Direction west~
+ToRoom    19016
+Desc      Shadow spires.~
+#ENDEXIT
+Reset M 0 19121 5 19041
+#ENDROOM
+
+#ROOM
+Vnum     19042
+Name     &mPurple Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet grotto filled with purple lotus and the scent of 
+decayed magic.
+~
+#EXIT
+Direction north~
+ToRoom    19018
+Desc      Lush grotto.~
+#ENDEXIT
+Reset O 0 19214 10 19042
+#ENDROOM
+
+#ROOM
+Vnum     19043
+Name     &gGarden Overflow A&d~
+Sector   forest~
+Flags    indoors~
+Desc     A dense thicket of lashweed and vines that seems to 
+vibrate with a low hum.
+~
+#EXIT
+Direction south~
+ToRoom    19007
+Desc      Razorlash's thicket.~
+#ENDEXIT
+Reset M 0 19113 10 19043
+#ENDROOM
+
+#ROOM
+Vnum     19044
+Name     &gGarden Overflow B&d~
+Sector   forest~
+Flags    indoors~
+Desc     A small clearing filled with blood-petal sprouts dancing 
+in the damp air.
+~
+#EXIT
+Direction east~
+ToRoom    19018
+Desc      Lush grotto.~
+#ENDEXIT
+Reset M 0 19124 10 19044
+#ENDROOM
+
+#ROOM
+Vnum     19045
+Name     &BInner Falls Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky shelf overlooking the lower falls, frequently 
+patrolled by cavern shamblers.
+~
+#EXIT
+Direction north~
+ToRoom    19033
+Desc      Lower falls ledge.~
+#ENDEXIT
+Reset M 0 19119 5 19045
+#ENDROOM
+
+#ROOM
+Vnum     19046
+Name     &BInner Falls Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the subterranean lake where the water is 
+particularly still and deep.
+~
+#EXIT
+Direction south~
+ToRoom    19033
+Desc      Lower falls ledge.~
+#ENDEXIT
+Reset M 0 19109 1 19046
+#ENDROOM
+
+#ROOM
+Vnum     19047
+Name     &gThe Petrified Forest&d~
+Sector   forest~
+Flags    indoors~
+Desc     A row of ancient, stone trees standing in a perfect circle. 
+Petrified protectors stand motionless between the trunks.
+~
+#EXIT
+Direction north~
+ToRoom    19035
+Desc      Plateau approach.~
+#ENDEXIT
+Reset M 0 19122 5 19047
+#ENDROOM
+
+#ROOM
+Vnum     19048
+Name     &gThe Centaur's Last Stand&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high ledge overlooking the Princess's throne, where 
+elite centaur warriors prepare for the final defense.
+~
+#EXIT
+Direction down~
+ToRoom    19036
+Desc      Theradras's throne.~
+#ENDEXIT
+Reset M 0 19120 10 19048
+#ENDROOM
+
+#ROOM
+Vnum     19049
+Name     &BThe Hidden Spring&d~
+Sector   water_noswim~
+Flags    indoors~
+Desc     A secret pool tucked away behind the falls. The water is 
+pure and glows with a soft, natural light.
+~
+#EXIT
+Direction west~
+ToRoom    19032
+Desc      Middle falls ledge.~
+#ENDEXIT
+Reset O 0 19217 10 19049
+#ENDROOM
+
+#ROOM
+Vnum     19050
+Name     &gThe Maraudon Exit Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind the Princess's throne 
+leads toward a hidden opening in the cliffs of Desolace, 
+offering a quick way out for those who have defeated 
+the Earth Song corruption.
+~
+#EXIT
+Direction south~
+ToRoom    19036
+Desc      Theradras's throne.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    19000
+Desc      The entrance portal.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
