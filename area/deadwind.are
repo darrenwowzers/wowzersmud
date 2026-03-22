@@ -1259,9 +1259,10 @@ Vnum     13529
 Name     &OThe Great Wooden Doors&d~
 Sector   city~
 Desc     You have reached the entrance to the raid. The massive oak doors of
-Karazhan are sealed shut by incredibly powerful warding magic. A shimmering
-magical projection, Medivh's Echo, stands here, eternally warning travelers
-to turn back before the master's madness consumes them too.
+Karazhan are sealed shut by incredibly powerful warding magic, but a 
+small crack in the heavy timber allows a brave soul to squeeze through. 
+A shimmering magical projection, Medivh's Echo, stands here, eternally 
+warning travelers to turn back before the master's madness consumes them too.
 ~
 #EXIT
 Direction north~
@@ -1269,9 +1270,34 @@ ToRoom    13528
 Desc      The Guardhouse.
 ~
 #ENDEXIT
+#EXIT
+Direction in~
+ToRoom    13530
+Desc      Slip through the cracked oak doors.
+~
+#ENDEXIT
 Reset M 0 13513 1 13529
   Reset G 1 13513 10
   Reset G 1 13514 10
+#ENDROOM
+
+#ROOM
+Vnum     13530
+Name     &dKarazhan - The Grand Foyer&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The air inside the Guardian's tower is suffocatingly thick with 
+arcane energy. A massive, sweeping staircase climbs into the darkness 
+above, while the sounds of a spectral opera echo from the halls. A 
+swirling, violet portal dominates the foyer, blocking the path into 
+the true depths of the raid.
+~
+#EXIT
+Direction out~
+ToRoom    13529
+Desc      Squeeze back outside through the heavy wooden doors.
+~
+#ENDEXIT
 #ENDROOM
 
 #ENDAREA
