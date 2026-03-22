@@ -1,0 +1,1595 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Zul'Farrak~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       42 50 0 60
+Economy      0 40000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       18000
+Keywords   sandfury shadowcaster troll mage~
+Short      a Sandfury Shadowcaster~
+Long       A Sandfury Shadowcaster weaves a dark hex in the shimmering heat.
+~
+Desc       Clad in tattered purple silks and bone jewelry, this troll has
+mastered the darker side of voodoo. Their eyes glow with an 
+unnatural yellow light, sensing the life force of intruders.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1500 4500
+Stats2     42 42 500
+Stats3     8 20 42
+Stats4     0 0 0 0 0
+Attribs    12 14 14 22 20 10 10
+Saves      0 0 0 0 0
+Speaks     common troll~
+Speaking   troll~
+#ENDMOBILE
+
+#MOBILE
+Vnum       18001
+Keywords   sandfury axe-thrower troll warrior~
+Short      a Sandfury Axe-thrower~
+Long       A Sandfury Axe-thrower balances a jagged hatchet, ready to strike.
+~
+Desc       Vicious and agile, these trolls prefer to bleed their enemies from 
+a distance before closing in for the kill. Their skin is dry and 
+cracked from the Tanaris sun.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1800 4200
+Stats2     43 43 300
+Stats3     10 25 43
+Stats4     0 0 0 0 0
+Attribs    18 16 12 18 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18002
+Keywords   sandfury fire-caller troll mage~
+Short      a Sandfury Fire-caller~
+Long       A Sandfury Fire-caller screams a prayer to the sun, hands ablaze.
+~
+Desc       The Sandfury have a deep reverence for the heat of the desert. 
+These casters channel that heat into devastating blasts of 
+holy fire.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1400 4000
+Stats2     44 44 800
+Stats3     8 22 44
+Stats4     0 0 0 0 0
+Attribs    10 12 12 25 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18003
+Keywords   sul'lithuz basilisk beast~
+Short      a Sul'lithuz Basilisk~
+Long       A Sul'lithuz Basilisk hisses, its scales shimmering like glass.
+~
+Desc       These multi-legged lizards are native to the sun-drenched ruins. 
+Their gaze is said to turn a man's blood to sand.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1200 3500
+Stats2     42 42 0
+Stats3     7 20 42
+Stats4     0 0 0 0 0
+Attribs    20 4 18 6 22 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       18004
+Keywords   zulfarrak scarab beast~
+Short      a Zul'Farrak Scarab~
+Long       A golden Zul'Farrak Scarab skitters across the warm stone.
+~
+Desc       Drawn to the ancient magic of the city, these beetles have grown 
+to immense size. They are swarmers, overwhelming their prey with 
+claws and numbers.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 800 2000
+Stats2     41 41 0
+Stats3     5 14 41
+Stats4     0 0 0 0 0
+Attribs    14 18 14 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       18005
+Keywords   antu'sul boss troll warden~
+Short      Antu'sul~
+Long       Antu'sul, the Warden of the Basilisks, snarls a command to his pets.
+~
+Desc       The master of the Sul'lithuz brood. Antu'sul has spent his long 
+life training the desert lizards to serve as the city's first 
+line of defense.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 45 0 0 3500 9000
+Stats2     45 45 400
+Stats3     12 35 45
+Stats4     0 0 0 0 0
+Attribs    24 12 14 16 22 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       18006
+Keywords   theka martyr boss ghost troll~
+Short      Theka the Martyr~
+Long       The ghostly form of Theka the Martyr floats silently near the tombs.
+~
+Desc       Theka was once a high priest who gave his life to protect the 
+sacred tablets. In death, he remains as a spectral guardian, 
+immune to many physical threats.
+~
+Race       undead~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 46 0 0 3000 8500
+Stats2     46 46 1000
+Stats3     10 28 46
+Stats4     0 0 0 0 0
+Attribs    12 18 18 14 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       18007
+Keywords   witch doctor zum'rah boss troll~
+Short      Witch Doctor Zum'rah~
+Long       Witch Doctor Zum'rah shakes a mojo-filled rattle, cackling wildly.
+~
+Desc       A master of necromancy who has raised the fallen Sandfury as 
+mindless zombies. He is surrounded by the spirits of the dead, 
+ready to consume any who enter his graveyard.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 46 0 0 3200 8000
+Stats2     46 46 1200
+Stats3     12 30 46
+Stats4     0 0 0 0 0
+Attribs    14 20 20 18 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       18008
+Keywords   shadowy illusion spirit~
+Short      a Shadowy Illusion~
+Long       A flickering, translucent figure strikes from the shadows.
+~
+Desc       The spectral remnants of the Witch Doctor's victims. They exist 
+only to serve their master's will.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 800 2500
+Stats2     44 44 600
+Stats3     6 18 44
+Stats4     0 0 0 0 0
+Attribs    10 14 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18009
+Keywords   prophet sul boss troll~
+Short      The Prophet Sul~
+Long       The Prophet Sul stands atop a dune, sand swirling around him.
+~
+Desc       A mystic who claims to speak for the earth itself. Sul can 
+command the very desert to rise up and bury his enemies alive.
+~
+Race       troll~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 47 0 0 4000 10000
+Stats2     47 47 800
+Stats3     15 40 47
+Stats4     0 0 0 0 0
+Attribs    18 18 20 20 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       18010
+Keywords   sandfury guardian zombie troll~
+Short      a Sandfury Guardian~
+Long       A rotting Sandfury Guardian moans, reaching out with withered hands.
+~
+Desc       Once a noble defender of the city, now a mindless thrall of 
+Zum'rah. Its flesh is grey and sloughing off its bones.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1600 3800
+Stats2     43 43 0
+Stats3     8 22 43
+Stats4     0 0 0 0 0
+Attribs    22 4 20 6 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       18011
+Keywords   nekrum gutchewer boss troll~
+Short      Nekrum Gutchewer~
+Long       Nekrum Gutchewer stands at the base of the stairs, axe dripping.
+~
+Desc       The executioner of the Sandfury. He is a massive, brutish troll 
+who takes great pride in his bloody work at the top of the pyramid.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 48 0 0 4500 11000
+Stats2     48 48 500
+Stats3     18 45 48
+Stats4     0 0 0 0 0
+Attribs    26 10 14 12 24 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18012
+Keywords   shadowpriest sezz'ziz boss troll~
+Short      Shadowpriest Sezz'ziz~
+Long       Shadowpriest Sezz'ziz mutters a curse from the pyramid landing.
+~
+Desc       The dark spiritual advisor to Chief Ukorz. He orchestrates the 
+sacrifices and ensures the people remain loyal to the Sandfury name.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 48 0 0 3800 9500
+Stats2     48 48 1000
+Stats3     12 35 48
+Stats4     0 0 0 0 0
+Attribs    14 22 22 20 18 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       18013
+Keywords   sandfury executioner troll~
+Short      a Sandfury Executioner~
+Long       A Sandfury Executioner sharpens his blade for the next sacrifice.
+~
+Desc       The lower-ranking butchers of the tribe. They are heartless 
+and efficient.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 2000 5000
+Stats2     45 45 300
+Stats3     12 30 45
+Stats4     0 0 0 0 0
+Attribs    22 12 14 14 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18014
+Keywords   chief ukorz sandscalp boss troll~
+Short      Chief Ukorz Sandscalp~
+Long       Chief Ukorz Sandscalp stands tall, his ceremonial armor clanking.
+~
+Desc       The supreme leader of Zul'Farrak. He is a master of combat and 
+tactics, having held his city against countless sieges over 
+the years.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 50 0 0 6000 15000
+Stats2     50 50 600
+Stats3     22 60 50
+Stats4     0 0 0 0 0
+Attribs    28 14 16 14 26 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       18015
+Keywords   ruuzlu boss troll~
+Short      Ruuzlu~
+Long       Ruuzlu, the Chief's personal guard, bellows a challenge.
+~
+Desc       A massive troll who serves as the Chief's right hand. He is 
+infamous for his relentless charging attacks.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 49 0 0 5000 13000
+Stats2     49 49 400
+Stats3     20 50 49
+Stats4     0 0 0 0 0
+Attribs    26 12 14 14 24 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       18016
+Keywords   gahz'rilla boss hydra~
+Short      Gahz'rilla~
+Long       The titanic hydra Gahz'rilla roars, ice water dripping from its heads.
+~
+Desc       The legendary god of the Sandfury. Gahz'rilla is a three-headed 
+hydra of impossible size, said to have been summoned from the 
+deepest parts of the ocean.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 10000 25000
+Stats2     52 52 200
+Stats3     25 75 55
+Stats4     0 0 0 0 0
+Attribs    35 10 25 12 35 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       18017
+Keywords   zerulis rare troll~
+Short      Zerulis~
+Long       A lean Sandfury scout stalks through the ruins.
+~
+Desc       A rare sight in the city. Zerulis is a master of camouflage, 
+using the desert sun and shadows to remain unseen.
+~
+Race       troll~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 2500 6500
+Stats2     46 46 300
+Stats3     12 35 46
+Stats4     0 0 0 0 0
+Attribs    16 22 18 12 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18018
+Keywords   sandfury blood-drinker troll~
+Short      a Sandfury Blood-drinker~
+Long       A Sandfury Blood-drinker licks a curved dagger with anticipation.
+~
+Desc       Elite warriors who have partaken in dark voodoo rituals to 
+enhance their strength and bloodlust.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 45 0 0 2200 5500
+Stats2     45 45 200
+Stats3     10 28 45
+Stats4     0 0 0 0 0
+Attribs    22 10 14 16 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       18019
+Keywords   sandfury hextalker troll shaman~
+Short      a Sandfury Hextalker~
+Long       A Sandfury Hextalker shakes a mojo bag, muttering curses.
+~
+Desc       Masters of debilitating magic. A single word from a Hextalker 
+can turn a champion's strength into weakness.
+~
+Race       troll~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1300 3800
+Stats2     44 44 600
+Stats3     8 20 44
+Stats4     0 0 0 0 0
+Attribs    12 14 16 20 20 10 10
+#ENDMOBILE
+
+#OBJECT
+Vnum     18020
+Keywords sang'thraze deflector sword weapon~
+Type     weapon~
+Short    Sang'thraze the Deflector~
+Long     A curved elven blade, stained with the sand of Tanaris.~
+WFlags   take wield~
+Values   12 10 18 3 0 0
+Stats    12 4500 45 0 0
+Rarity   2
+Affect   1 8 0 0 0
+Affect   12 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18021
+Keywords jang'thraze protector sword weapon~
+Type     weapon~
+Short    Jang'thraze the Protector~
+Long     A heavy, jagged blade featuring the ancient sigil of the Sandfury.~
+WFlags   take wield~
+Values   12 12 22 3 0 0
+Stats    18 4200 45 0 0
+Rarity   2
+Affect   5 10 0 0 0
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18022
+Keywords sul'thraze lasher sword weapon~
+Type     weapon~
+Short    the Sul'thraze the Lasher~
+Long     The legendary combined blade of Zul'Farrak, pulsing with dark mojo.~
+WFlags   take wield~
+Values   12 15 30 3 0 0
+Stats    25 15000 50 0 0
+Rarity   3
+Affect   1 12 0 0 0
+Affect   12 15 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18023
+Keywords embrace lycan head armor~
+Type     armor~
+Short    the Embrace of the Lycan~
+Long     A mask fashioned from the skull and pelt of a desert wolf.~
+WFlags   take head~
+Values   15 0 0 0 0 0
+Stats    5 3200 44 0 0
+Rarity   2
+Affect   1 6 0 0 0
+Affect   2 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18024
+Keywords zum'rah voodoo pole staff weapon~
+Type     weapon~
+Short    Zum'rah's Voodoo Pole~
+Long     A tall staff topped with a shrunken head and glowing feathers.~
+WFlags   take wield~
+Values   12 8 16 7 0 0
+Stats    12 2800 46 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18025
+Keywords antu'sul wig head treasure~
+Type     armor~
+Short    Antu'sul's Wig~
+Long     A bizarre, colorful headpiece made from basilisk skin and feathers.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    2 1200 45 0 0
+Rarity   2
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18026
+Keywords badlands treaders boots feet armor~
+Type     armor~
+Short    a pair of Badlands Treaders~
+Long     Durable leather boots reinforced with copper plating and studs.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    6 1800 42 0 0
+Rarity   2
+Affect   2 6 0 0 0
+Affect   5 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18027
+Keywords gahz'rilla scale armor body~
+Type     armor~
+Short    Gahz'rilla Scale Armor~
+Long     A heavy chestpiece made from the iridescent scales of the hydra god.~
+WFlags   take body~
+Values   25 0 0 0 0 0
+Stats    30 6500 50 0 0
+Rarity   2
+Affect   5 12 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18028
+Keywords sandfury tabard about body~
+Type     armor~
+Short    a Sandfury Tabard~
+Long     A tattered purple cloth bearing the golden sunburst of the Sandfury.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 40 0 0
+Rarity   1
+Affect   5 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18029
+Keywords executioner cleaver axe weapon~
+Type     weapon~
+Short    an Executioner's Cleaver~
+Long     A massive, blood-stained axe used by Nekrum for the sacrifices.~
+WFlags   take wield~
+Values   12 12 20 2 0 0
+Stats    22 2500 48 0 0
+Rarity   1
+Affect   1 8 0 0 0
+Affect   13 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18030
+Keywords big bad voodoo mask head~
+Type     armor~
+Short    the Big Bad Voodoo Mask~
+Long     A terrifying wooden mask painted with vibrant, swirling patterns.~
+WFlags   take head~
+Values   12 0 0 0 0 0
+Stats    3 2000 44 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18031
+Keywords tablet theka treasure hold~
+Type     treasure~
+Short    the Tablet of Theka~
+Long     An ancient stone tablet covered in cryptic Sandfury hieroglyphs.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 1500 46 0 0
+Rarity   1
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18032
+Keywords sand polished glass treasure~
+Type     treasure~
+Short    a piece of sand-polished glass~
+Long     A smooth shard of glass, turned translucent by years in the dunes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 40 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18033
+Keywords mallet zul'farrak key~
+Type     key~
+Short    the Mallet of Zul'Farrak~
+Long     A heavy stone mallet used to ring the sacred gong and summon the god.~
+WFlags   take~
+Values   18033 0 0 0 0 0
+Stats    15 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18034
+Keywords gahz'rilla fang dagger weapon~
+Type     weapon~
+Short    Gahz'rilla's Fang~
+Long     A jagged, translucent dagger carved from a hydra's tooth.~
+WFlags   take wield~
+Values   12 6 12 11 0 0
+Stats    2 2200 48 0 0
+Rarity   2
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18035
+Keywords witch doctor mojo treasure hold~
+Type     treasure~
+Short    a Witch Doctor's Mojo~
+Long     A small, pulsing leather bag filled with mysterious voodoo powders.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 46 0 0
+Rarity   1
+Affect   3 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18036
+Keywords shadowcaster robes cloth body~
+Type     armor~
+Short    Shadowcaster's Robes~
+Long     Dark, tattered robes that seem to absorb the surrounding light.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    4 1400 42 0 0
+Rarity   1
+Affect   3 5 0 0 0
+Affect   4 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18037
+Keywords sandfury wristguards armor~
+Type     armor~
+Short    a pair of Sandfury Wristguards~
+Long     Sturdy leather wristguards reinforced with polished copper.~
+WFlags   take wrist~
+Values   6 0 0 0 0 0
+Stats    3 650 43 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18038
+Keywords dried basilisk meat food~
+Type     food~
+Short    a strip of dried basilisk meat~
+Long     A tough, salty piece of meat that provides lasting sustenance.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     18039
+Keywords scarab shell shield armor~
+Type     armor~
+Short    a Scarab Shell Shield~
+Long     A large, iridescent shield fashioned from a giant scarab's wing.~
+WFlags   take shield~
+Values   18 0 0 0 0 0
+Stats    12 900 41 0 0
+Rarity   1
+Affect   1 4 0 0 0
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     18040
+Name     &YThe Gates of Zul'Farrak&d~
+Sector   city~
+Flags    indoors~
+Desc     The blinding glare of the Tanaris sun is partially blocked by 
+massive sandstone pillars. A shimmering, heat-distorted portal 
+stands between the jagged desert rocks and the ancient city of 
+the Sandfury trolls. The air is dry and smells of old incense 
+and scorched earth.
+~
+#EXIT
+Direction out~
+ToRoom    33001
+Desc      Return to the Tanaris desert.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18041
+Desc      The path leads into the city streets.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     18041
+Name     &YThe Sand-Swept Thoroughfare&d~
+Sector   city~
+Flags    indoors~
+Desc     Ancient stone pavers are nearly buried under drifting dunes. To 
+the north, the city opens up into a wide plaza. High stone walls 
+on either side are carved with the fierce visages of troll gods.
+~
+#EXIT
+Direction south~
+ToRoom    18040
+Desc      The entrance gates.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18042
+Desc      The thoroughfare continues.~
+#ENDEXIT
+Reset M 0 18001 10 18041
+#ENDROOM
+
+#ROOM
+Vnum     18042
+Name     &YThe Great Plaza of the Sun&d~
+Sector   city~
+Flags    indoors~
+Desc     This massive open-air square is the heart of the lower city. 
+Tunnels branch off in several directions. To the west, the 
+sound of hissing suggests a beast's lair, while the north 
+leads toward the sacred temples.
+~
+#EXIT
+Direction south~
+ToRoom    18041
+Desc      The thoroughfare.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    18043
+Desc      The path to Antu'sul.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18047
+Desc      The path to the temple district.~
+#ENDEXIT
+Reset M 0 18000 10 18042
+#ENDROOM
+
+#ROOM
+Vnum     18043
+Name     &yThe Basilisk Trails - Entry&d~
+Sector   field~
+Flags    indoors~
+Desc     The well-maintained stone of the plaza gives way to jagged 
+rock and loose sand. Large, multi-legged tracks are visible 
+in the dust, leading deeper into the western canyons.
+~
+#EXIT
+Direction east~
+ToRoom    18042
+Desc      Return to the plaza.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    18044
+Desc      The trail continues.~
+#ENDEXIT
+Reset M 0 18003 10 18043
+#ENDROOM
+
+#ROOM
+Vnum     18044
+Name     &yThe Basilisk Trails - Bend&d~
+Sector   field~
+Flags    indoors~
+Desc     The canyon walls tower high overhead, casting long, dark 
+shadows even in the midday heat. The air is stagnant and 
+heavy with the scent of reptile musk.
+~
+#EXIT
+Direction east~
+ToRoom    18043
+Desc      The trail entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18045
+Desc      The approach to the warden.~
+#ENDEXIT
+Reset M 0 18003 10 18044
+Reset O 0 18038 10 18044
+#ENDROOM
+
+#ROOM
+Vnum     18045
+Name     &yApproach to the Warden's Lair&d~
+Sector   field~
+Flags    indoors~
+Desc     The ground is littered with the petrified remains of unlucky 
+explorers. The cave mouth to the north is framed by massive 
+rib-bones of some long-dead desert beast.
+~
+#EXIT
+Direction south~
+ToRoom    18044
+Desc      The trail bend.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18046
+Desc      Antu'sul's Lair.~
+#ENDEXIT
+Reset M 0 18019 10 18045
+#ENDROOM
+
+#ROOM
+Vnum     18046
+Name     &yAntu'sul's Den&d~
+Sector   field~
+Flags    indoors~
+Desc     Antu'sul, the Warden of the Basilisks, stands before a large 
+clutch of eggs. His pets hiss and snap their jaws, protecting 
+their master and their future brood.
+~
+#EXIT
+Direction south~
+ToRoom    18045
+Desc      The approach.~
+#ENDEXIT
+Reset M 0 18005 1 18046
+  Reset G 1 18025 1
+Reset M 0 18003 10 18046
+#ENDROOM
+
+#ROOM
+Vnum     18047
+Name     &YThe Temple District - Main Way&d~
+Sector   city~
+Flags    indoors~
+Desc     The architecture here is more grand. Gold leaf accents the 
+sandstone walls, and braziers of blue fire burn eternally at 
+the intersections. To the east, a gloomy path leads toward 
+the city's necropolis.
+~
+#EXIT
+Direction south~
+ToRoom    18042
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    18048
+Desc      The path to the Graveyard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18055
+Desc      The path to the Great Pyramid.~
+#ENDEXIT
+Reset M 0 18001 10 18047
+#ENDROOM
+
+#ROOM
+Vnum     18048
+Name     &wThe Path of Ancestors - East&d~
+Sector   field~
+Flags    indoors~
+Desc     The transition to the graveyard is marked by a sudden drop in 
+temperature. The air is still, and the only sound is the 
+faint rattle of bone charms hanging from the walls.
+~
+#EXIT
+Direction west~
+ToRoom    18047
+Desc      Return to the temple way.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    18049
+Desc      The outer tombs.~
+#ENDEXIT
+Reset M 0 18010 10 18048
+#ENDROOM
+
+#ROOM
+Vnum     18049
+Name     &wThe Outer Tombs&d~
+Sector   field~
+Flags    indoors~
+Desc     Rows of stone sarcophagi are built into the canyon walls. 
+Most have been pried open, their contents looted or 
+reanimated by dark voodoo.
+~
+#EXIT
+Direction west~
+ToRoom    18048
+Desc      The ancestor path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18050
+Desc      The Martyr's Rest entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    18052
+Desc      Zum'rah's Graveyard.~
+#ENDEXIT
+Reset M 0 18010 10 18049
+Reset O 0 18037 10 18049
+#ENDROOM
+
+#ROOM
+Vnum     18050
+Name     &wThe Martyr's Rest - Entrance&d~
+Sector   field~
+Flags    indoors~
+Desc     A heavy stone slab engraved with protective runes blocks the 
+way to the inner sanctum of the priests. The air smells of 
+dried herbs and old parchment.
+~
+#EXIT
+Direction south~
+ToRoom    18049
+Desc      The outer tombs.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18051
+Desc      Theka's Tomb.~
+#ENDEXIT
+Reset M 0 18002 10 18050
+#ENDROOM
+
+#ROOM
+Vnum     18051
+Name     &wThe Tomb of Theka the Martyr&d~
+Sector   field~
+Flags    indoors~
+Desc     A ghostly light illuminates this circular chamber. Theka the 
+Martyr floats over his own physical remains, clutching the 
+sacred tablets he swore to protect even in death.
+~
+#EXIT
+Direction south~
+ToRoom    18050
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 18006 1 18051
+  Reset G 1 18031 1
+#ENDROOM
+
+#ROOM
+Vnum     18052
+Name     &wZum'rah's Graveyard - Entry&d~
+Sector   field~
+Flags    indoors~
+Desc     This wide, sandy basin is filled with hundreds of shallow 
+graves. The ground is soft and seems to churn with a life 
+of its own. Witch Doctor Zum'rah stands at the far end, 
+conducting a dark ritual.
+~
+#EXIT
+Direction west~
+ToRoom    18049
+Desc      The outer tombs.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    18053
+Desc      The heart of the graveyard.~
+#ENDEXIT
+Reset M 0 18010 10 18052
+#ENDROOM
+
+#ROOM
+Vnum     18053
+Name     &wThe Heart of the Graveyard&d~
+Sector   field~
+Flags    indoors~
+Desc     The necromantic energy here is overwhelming. Zum'rah cackles 
+as he calls forth shadowy illusions to strike at any who 
+dare interrupt his work.
+~
+#EXIT
+Direction west~
+ToRoom    18052
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 18007 1 18053
+  Reset G 1 18024 1
+  Reset G 1 18035 1
+Reset M 0 18008 10 18053
+#ENDROOM
+
+#ROOM
+Vnum     18054
+Name     &wZum'rah's Secret Cache&d~
+Sector   field~
+Flags    indoors dark~
+Desc     A small, hidden alcove behind a large tombstone. Zum'rah 
+keeps his most potent mojos and stolen artifacts hidden here.
+~
+#EXIT
+Direction south~
+ToRoom    18053
+Desc      Return to the graveyard.~
+#ENDEXIT
+Reset O 0 18030 1 18054
+#ENDROOM
+
+#ROOM
+Vnum     18055
+Name     &YThe Path to the Great Pyramid - South&d~
+Sector   city~
+Flags    indoors~
+Desc     The road widens as it approaches the city's massive sacrificial 
+pyramid. Elite trolls in ceremonial armor patrol the way, 
+ensuring the ritual sacrifices are not interrupted.
+~
+#EXIT
+Direction south~
+ToRoom    18047
+Desc      The temple district.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18056
+Desc      The path continues north.~
+#ENDEXIT
+Reset M 0 18018 10 18055
+#ENDROOM
+
+#ROOM
+Vnum     18056
+Name     &YThe Path to the Great Pyramid - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The massive silhouette of the pyramid looms ahead. The sound 
+of drums begins to thrum through the ground, a rhythmic, 
+pounding beat that matches the city's heart.
+~
+#EXIT
+Direction south~
+ToRoom    18055
+Desc      The southern path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18057
+Desc      The base of the Pyramid.~
+#ENDEXIT
+Reset M 0 18001 10 18056
+Reset O 0 18028 10 18056
+#ENDROOM
+
+#ROOM
+Vnum     18057
+Name     &YThe Base of the Sacrificial Pyramid&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand at the foot of hundreds of steep stone steps. Blood 
+stains the cracks in the masonry, and the scent of death 
+is carried on the desert wind.
+~
+#EXIT
+Direction south~
+ToRoom    18056
+Desc      The path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18058
+Desc      The entrance to the pyramid cage.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    18060
+Desc      Climb the sacrificial stairs.~
+#ENDEXIT
+Reset M 0 18013 10 18057
+#ENDROOM
+
+#ROOM
+Vnum     18058
+Name     &yThe Executioner's Enclave&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room built into the base of the pyramid. Nekrum 
+Gutchewer prepares his blades here, surrounded by the 
+cages of those waiting for their turn on the altar.
+~
+#EXIT
+Direction south~
+ToRoom    18057
+Desc      Return to the base.~
+#ENDEXIT
+Reset M 0 18011 1 18058
+  Reset E 1 18029 1 16
+#ENDROOM
+
+#ROOM
+Vnum     18059
+Name     &yThe Prophet's Outlook&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone ledge overlooking the lower city. The Prophet Sul 
+stands here, watching the dunes for signs and portents.
+~
+#EXIT
+Direction south~
+ToRoom    18057
+Desc      Return to the base.~
+#ENDEXIT
+Reset M 0 18009 1 18059
+  Reset G 1 18032 10
+#ENDROOM
+
+#ROOM
+Vnum     18060
+Name     &YThe Sacrificial Stairs - Lower&d~
+Sector   city~
+Flags    indoors~
+Desc     The climb is steep and exhausting. From here, you can see the 
+entirety of Zul'Farrak stretching out to the Tanaris horizon.
+~
+#EXIT
+Direction down~
+ToRoom    18057
+Desc      The base.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    18061
+Desc      The middle stairs.~
+#ENDEXIT
+Reset M 0 18013 10 18060
+#ENDROOM
+
+#ROOM
+Vnum     18061
+Name     &YThe Sacrificial Stairs - Middle&d~
+Sector   city~
+Flags    indoors~
+Desc     Halfway up the pyramid. The drums are louder here, and the 
+heat is intense. The steps are slick with a mixture of sand 
+and old blood.
+~
+#EXIT
+Direction down~
+ToRoom    18060
+Desc      The lower stairs.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    18062
+Desc      The upper stairs.~
+#ENDEXIT
+Reset M 0 18002 10 18061
+#ENDROOM
+
+#ROOM
+Vnum     18062
+Name     &YThe Sacrificial Stairs - Upper&d~
+Sector   city~
+Flags    indoors~
+Desc     You reach the top of the pyramid. The altar is visible just a 
+few steps further. Shadowpriest Sezz'ziz stands waiting 
+to conduct the final rite.
+~
+#EXIT
+Direction down~
+ToRoom    18061
+Desc      The middle stairs.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18063
+Desc      The Altar of Sacrifice.~
+#ENDEXIT
+Reset M 0 18019 10 18062
+#ENDROOM
+
+#ROOM
+Vnum     18063
+Name     &YThe Altar of Sacrifice&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive slab of basalt sits at the peak of the pyramid. 
+Shadowpriest Sezz'ziz stands over the altar, his hands 
+stained with the blood of his victims.
+~
+#EXIT
+Direction south~
+ToRoom    18062
+Desc      The upper stairs.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    18064
+Desc      The Temple of the Sun.~
+#ENDEXIT
+Reset M 0 18012 1 18063
+  Reset G 1 18036 1
+#ENDROOM
+
+#ROOM
+Vnum     18064
+Name     &YThe Temple of the Sun&d~
+Sector   city~
+Flags    indoors~
+Desc     Beneath the sacrificial peak lies the inner temple. The walls 
+are covered in pure gold, reflecting the light of the sun 
+into every corner.
+~
+#EXIT
+Direction up~
+ToRoom    18063
+Desc      Return to the altar.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18065
+Desc      The Chief's Way.~
+#ENDEXIT
+Reset M 0 18000 10 18064
+Reset O 0 18039 5 18064
+#ENDROOM
+
+#ROOM
+Vnum     18065
+Name     &rThe Chief's Way - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     This path is reserved for the highest-ranking members of the 
+Sandfury tribe. The walls are lined with captured weapons 
+and shields from the tribe's many wars.
+~
+#EXIT
+Direction south~
+ToRoom    18064
+Desc      The Temple of the Sun.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18066
+Desc      The chief's path continues.~
+#ENDEXIT
+Reset M 0 18018 10 18065
+#ENDROOM
+
+#ROOM
+Vnum     18066
+Name     &rThe Chief's Way - Inner Hall&d~
+Sector   city~
+Flags    indoors~
+Desc     The hallway turns sharply. Ruuzlu, the Chief's right hand, 
+patrols this area with a group of elite blood-drinkers.
+~
+#EXIT
+Direction south~
+ToRoom    18065
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18067
+Desc      The approach to the Chief's Seat.~
+#ENDEXIT
+Reset M 0 18015 10 18066
+Reset O 0 18026 5 18066
+#ENDROOM
+
+#ROOM
+Vnum     18067
+Name     &rApproach to the Chief's Seat&d~
+Sector   city~
+Flags    indoors~
+Desc     The walls are covered in the scalps of the tribe's enemies. 
+Chief Ukorz Sandscalp can be heard shouting orders from 
+the room ahead.
+~
+#EXIT
+Direction south~
+ToRoom    18066
+Desc      The inner hall.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    18068
+Desc      Chief Ukorz's Hall.~
+#ENDEXIT
+Reset M 0 18018 10 18067
+Reset O 0 18021 1 18067
+#ENDROOM
+
+#ROOM
+Vnum     18068
+Name     &rChief Ukorz's Hall of Power&d~
+Sector   city~
+Flags    indoors~
+Desc     Chief Ukorz Sandscalp sits upon a throne of ivory and gold. 
+He is a figure of immense physical power, surrounded by his 
+most loyal warriors.
+~
+#EXIT
+Direction west~
+ToRoom    18067
+Desc      The approach.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18069
+Desc      The path to the Sacred Pool.~
+#ENDEXIT
+Reset M 0 18014 1 18068
+  Reset E 1 18020 1 16
+  Reset G 1 18023 1
+#ENDROOM
+
+#ROOM
+Vnum     18069
+Name     &BThe Sacred Path to the Pool&d~
+Sector   field~
+Flags    indoors~
+Desc     The dry desert air is suddenly replaced by a cool, moist 
+breeze. The sound of splashing water echoes from the north.
+~
+#EXIT
+Direction south~
+ToRoom    18068
+Desc      Ukorz's Hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18070
+Desc      The Pool of Gahz'rilla.~
+#ENDEXIT
+Reset M 0 18001 10 18069
+#ENDROOM
+
+#ROOM
+Vnum     18070
+Name     &BThe Sacred Pool of Gahz'rilla&d~
+Sector   field~
+Flags    indoors~
+Desc     A massive, deep-blue pool sits in the center of a natural 
+cavern. A large bronze gong stands at the water's edge. 
+Gahz'rilla, the three-headed hydra god, rises from the 
+depths to claim any who dare ring the gong.
+~
+#EXIT
+Direction south~
+ToRoom    18069
+Desc      The sacred path.~
+#ENDEXIT
+Reset M 0 18016 1 18070
+  Reset G 1 18027 1
+  Reset G 1 18034 1
+Reset O 0 18033 1 18070
+#ENDROOM
+
+#ROOM
+Vnum     18071
+Name     &YThe Spider Caverns - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, hidden tunnel leading away from the thoroughfare. 
+Thousands of small scarabs skitter across the floor.
+~
+#EXIT
+Direction south~
+ToRoom    18041
+Desc      The thoroughfare.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18072
+Desc      The deeper caverns.~
+#ENDEXIT
+Reset M 0 18004 10 18071
+#ENDROOM
+
+#ROOM
+Vnum     18072
+Name     &YThe Deeper Spider Caverns&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls are covered in thick webbing. Rare artifacts from 
+unlucky explorers are often found tangled in the silk.
+~
+#EXIT
+Direction south~
+ToRoom    18071
+Desc      The entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    18073
+Desc      A small webbed alcove.~
+#ENDEXIT
+Reset M 0 18004 10 18072
+Reset O 0 18032 10 18072
+#ENDROOM
+
+#ROOM
+Vnum     18073
+Name     &YWebbed Alcove&d~
+Sector   underground~
+Flags    indoors~
+Desc     A quiet, dark corner of the caverns where a master scout 
+often hides to watch for intruders.
+~
+#EXIT
+Direction south~
+ToRoom    18072
+Desc      The deeper caverns.~
+#ENDEXIT
+Reset M 0 18017 1 18073
+#ENDROOM
+
+#ROOM
+Vnum     18074
+Name     &YPlaza Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the great plaza, filled with the scent of 
+dried herbs and old stone.
+~
+#EXIT
+Direction north~
+ToRoom    18042
+Desc      The great plaza.~
+#ENDEXIT
+Reset M 0 18000 10 18074
+#ENDROOM
+
+#ROOM
+Vnum     18075
+Name     &YPlaza Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room where city guards can find shade from the 
+relentless Tanaris sun.
+~
+#EXIT
+Direction east~
+ToRoom    18042
+Desc      The great plaza.~
+#ENDEXIT
+Reset M 0 18001 10 18075
+#ENDROOM
+
+#ROOM
+Vnum     18076
+Name     &wGraveyard Overflow A&d~
+Sector   field~
+Flags    indoors~
+Desc     A secluded corner of the graveyard where the shadows seem 
+particularly long and cold.
+~
+#EXIT
+Direction south~
+ToRoom    18052
+Desc      Zum'rah's Graveyard.~
+#ENDEXIT
+Reset M 0 18010 10 18076
+#ENDROOM
+
+#ROOM
+Vnum     18077
+Name     &wGraveyard Overflow B&d~
+Sector   field~
+Flags    indoors~
+Desc     A row of forgotten tombs, their inscriptions worn away by the 
+blowing sands of the desert.
+~
+#EXIT
+Direction west~
+ToRoom    18053
+Desc      Heart of the Graveyard.~
+#ENDEXIT
+Reset M 0 18008 10 18077
+#ENDROOM
+
+#ROOM
+Vnum     18078
+Name     &YPyramid Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small storage area at the base of the pyramid, filled with 
+ceremonial supplies.
+~
+#EXIT
+Direction east~
+ToRoom    18057
+Desc      Base of the pyramid.~
+#ENDEXIT
+Reset M 0 18013 10 18078
+#ENDROOM
+
+#ROOM
+Vnum     18079
+Name     &rChief Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A high, narrow ledge overlooking the Chief's Hall, used by 
+the guards to scan for trouble.
+~
+#EXIT
+Direction south~
+ToRoom    18068
+Desc      Ukorz's Hall.~
+#ENDEXIT
+Reset M 0 18018 10 18079
+#ENDROOM
+
+#ROOM
+Vnum     18080
+Name     &BThe Zul'Farrak Exit Path&d~
+Sector   field~
+Flags    indoors~
+Desc     A narrow, hidden tunnel behind Gahz'rilla's pool leads toward 
+the surface of Tanaris, offering a quick way out for those 
+who have defeated the Sandfury gods.
+~
+#EXIT
+Direction south~
+ToRoom    18070
+Desc      The sacred pool.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    18040
+Desc      The entrance portal.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
