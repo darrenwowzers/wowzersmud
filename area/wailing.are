@@ -1,0 +1,1460 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Wailing Caverns~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       15 25 0 60
+Economy      0 15000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       26900
+Keywords   deviate raptor beast~
+Short      a Deviate Raptor~
+Long       A colorful Deviate Raptor snarls, its eyes glowing with unnatural magic.
+~
+Desc       Changed by the nightmares of Naralex, this raptor's hide is a vibrant, 
+swirling pattern of purples and greens. It is faster and more aggressive
+than its Barrens kin.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 18 0 0 500 1200
+Stats2     18 18 100
+Stats3     4 8 18
+Stats4     0 0 0 0 0
+Attribs    16 14 14 6 6 6 6
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26901
+Keywords   deviate shambler plant~
+Short      a Deviate Shambler~
+Long       A massive mound of moss and vines shambles forward.
+~
+Desc       This walking nightmare of plant life was once a natural part of 
+the cavern's ecosystem. Now, it serves as a mindless guardian of 
+the corrupted oasis.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 19 0 0 600 1500
+Stats2     19 19 120
+Stats3     3 10 20
+Stats4     0 0 0 0 0
+Attribs    18 6 18 6 6 6 6
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26902
+Keywords   druid fang night elf~
+Short      a Druid of the Fang~
+Long       A Night Elf druid, clad in serpent skins, glares at you.
+~
+Desc       One of Naralex's former disciples who has succumbed to the 
+nightmare. They have forsaken the path of the claw for the path
+of the serpent, seeking to spread the corruption.
+~
+Race       nightelf~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 20 0 0 550 1400
+Stats2     20 20 400
+Stats3     4 10 20
+Stats4     0 0 0 0 0
+Attribs    12 12 14 16 16 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26903
+Keywords   lord cobrahn boss druid fang~
+Short      Lord Cobrahn~
+Long       Lord Cobrahn prepares to strike with the speed of a cobra.
+~
+Desc       The first of the Leaders of the Fang. Cobrahn oversees the 
+transformation of the raptors and serpents within the upper
+reaches of the caverns.
+~
+Race       nightelf~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 21 0 0 1000 3000
+Stats2     21 21 500
+Stats3     6 15 25
+Stats4     0 0 0 0 0
+Attribs    14 18 16 14 14 12 12
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26904
+Keywords   lady anacondra boss druid fang~
+Short      Lady Anacondra~
+Long       Lady Anacondra weaves a hypnotic pattern with her hands.
+~
+Desc       Scarlett Leafbreeze was once a dedicated student of Naralex. 
+Now, as Lady Anacondra, she uses her power to summon the 
+nightmare-corrupted creatures of the deep.
+~
+Race       nightelf~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 21 0 0 950 2800
+Stats2     21 21 600
+Stats3     5 12 22
+Stats4     0 0 0 0 0
+Attribs    12 14 14 18 18 12 12
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26905
+Keywords   lord pythas boss druid fang~
+Short      Lord Pythas~
+Long       Lord Pythas stands firm, his skin hardened like scales.
+~
+Desc       A powerful warrior-druid who serves as the primary protector
+of the inner sanctum. He values strength above all else and
+will crush any who threaten the Hive.
+~
+Race       nightelf~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 22 0 0 1200 3500
+Stats2     22 22 400
+Stats3     8 18 30
+Stats4     0 0 0 0 0
+Attribs    18 12 18 12 12 10 10
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26906
+Keywords   lord serpentis boss druid fang~
+Short      Lord Serpentis~
+Long       Lord Serpentis watches you with cold, unblinking eyes.
+~
+Desc       The final and most powerful leader of the Druids of the Fang. 
+Serpentis stands at the edge of the pit, awaiting the arrival
+of the Devourer.
+~
+Race       nightelf~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 23 0 0 1400 4000
+Stats2     23 23 550
+Stats3     7 20 35
+Stats4     0 0 0 0 0
+Attribs    16 16 16 15 15 12 12
+Saves      0 0 0 0 0
+Speaks     common elven~
+Speaking   elven~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26907
+Keywords   kresh boss turtle~
+Short      Kresh~
+Long       A colossal, ancient turtle ponderously patrols the underground lake.
+~
+Desc       Kresh has lived in these waters for centuries. While not 
+directly corrupted by the nightmare, his massive size and 
+thick shell make him a formidable obstacle.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 20 0 0 1500 3500
+Stats2     20 20 0
+Stats3     4 12 50
+Stats4     0 0 0 0 0
+Attribs    20 4 22 4 4 4 4
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26908
+Keywords   skum boss kodo~
+Short      Skum~
+Long       A lightning-charged kodo beast bellows in pain and rage.
+~
+Desc       Once a pack animal for the druids, Skum has been warped 
+by the intense magical energies of the caverns. Bolts of 
+electricity arc across his scarred hide.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 22 0 0 1300 3800
+Stats2     22 22 300
+Stats3     6 16 28
+Stats4     0 0 0 0 0
+Attribs    22 8 20 10 10 8 8
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26909
+Keywords   verdan everliving boss elemental plant~
+Short      Verdan the Everliving~
+Long       A towering behemoth of ancient wood and stone looms over you.
+~
+Desc       The guardian of the heart of the caverns. Verdan is an 
+incarnation of the nightmare's power over the natural world, 
+standing nearly thirty feet tall.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 24 0 0 2500 6000
+Stats2     24 24 0
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    25 4 25 6 6 6 6
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26910
+Keywords   mutanus devourer boss murloc demon~
+Short      Mutanus the Devourer~
+Long       A massive, nightmare-warped murloc beast lunges from the depths.
+~
+Desc       The final manifestation of Naralex's terror. Mutanus is a 
+walking horror, a fusion of aquatic life and demonic shadow 
+energy that seeks to consume all.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 25 0 0 3000 7000
+Stats2     25 25 400
+Stats3     12 30 45
+Stats4     0 0 0 0 0
+Attribs    22 16 20 12 12 12 12
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#OBJECT
+Vnum     26900
+Keywords deviate hide leather treasure~
+Type     treasure~
+Short    a Deviate Hide~
+Long     A vibrant, shimmering reptilian hide lies in a heap.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 15 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26901
+Keywords kresh back shield~
+Type     armor~
+Short    Kresh's Back~
+Long     The massive, iron-hard shell of the ancient turtle Kresh rests here.~
+WFlags   take shield~
+Values   12 0 0 0 0 0
+Stats    15 350 20 0 0
+Rarity   2
+Affect   5 5
+Affect   1 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     26902
+Keywords leggings fang leather legs armor set~
+Type     armor~
+Short    Leggings of the Fang~
+Long     Supple leather leggings crafted from the skin of a giant serpent.~
+WFlags   take legs~
+Values   8 0 0 0 0 0
+Stats    4 400 21 0 0
+Rarity   2
+ItemSet  1
+Affect   2 4
+Affect   5 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     26903
+Keywords venomstrike bow weapon~
+Type     weapon~
+Short    Venomstrike~
+Long     A longbow carved from bone, dripping with a caustic green fluid.~
+WFlags   take wield~
+Values   12 5 10 4 0 0
+Stats    6 650 22 0 0
+Rarity   2
+Affect   2 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     26904
+Keywords robe fang cloth body armor set~
+Type     armor~
+Short    Robe of the Fang~
+Long     A dark green robe embroidered with serpent motifs.~
+WFlags   take body~
+Values   5 0 0 0 0 0
+Stats    3 450 21 0 0
+Rarity   2
+ItemSet  1
+Affect   3 4
+Affect   4 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     26905
+Keywords gloves fang leather hands armor set~
+Type     armor~
+Short    Gloves of the Fang~
+Long     Leather gloves reinforced with the fangs of a deviate serpent.~
+WFlags   take hands~
+Values   6 0 0 0 0 0
+Stats    2 300 20 0 0
+Rarity   2
+ItemSet  1
+Affect   2 2
+Affect   5 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     26906
+Keywords footpads fang leather feet armor set~
+Type     armor~
+Short    Footpads of the Fang~
+Long     Quiet leather boots designed for stalking through the damp caverns.~
+WFlags   take feet~
+Values   6 0 0 0 0 0
+Stats    3 300 20 0 0
+Rarity   2
+ItemSet  1
+Affect   2 3
+Affect   5 1
+#ENDOBJECT
+
+#OBJECT
+Vnum     26907
+Keywords belt fang leather waist armor set~
+Type     armor~
+Short    Belt of the Fang~
+Long     A sturdy leather belt fastened with a serpent-head buckle.~
+WFlags   take waist~
+Values   5 0 0 0 0 0
+Stats    2 250 19 0 0
+Rarity   2
+ItemSet  1
+Affect   2 2
+Affect   5 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     26908
+Keywords living root staff weapon~
+Type     weapon~
+Short    Living Root~
+Long     A gnarled staff of ancient wood that seems to pulse with life.~
+WFlags   take wield~
+Values   12 4 8 7 0 0
+Stats    10 500 24 0 0
+Rarity   2
+Affect   3 5
+Affect   4 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     26909
+Keywords deepfathom ring finger jewelry~
+Type     treasure~
+Short    Deepfathom Ring~
+Long     A ring of polished turquoise that smells of the deep ocean.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 450 25 0 0
+Rarity   2
+Affect   3 3
+Affect   4 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     26910
+Keywords slime encrusted pads shoulder armor~
+Type     armor~
+Short    Slime-Encrusted Pads~
+Long     Shoulder guards covered in a thick, protective layer of dried ooze.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    6 380 23 0 0
+Rarity   2
+Affect   5 4
+Affect   1 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     26911
+Keywords glowing shard treasure~
+Type     treasure~
+Short    a Glowing Shard~
+Long     A jagged shard of crystal that pulses with an unsettling purple light.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 100 20 0 0
+Rarity   1
+#ENDOBJECT
+
+#ROOM
+Vnum     26900
+Name     &gThe Wailing Caverns - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The humid air of the Lush Oasis gives way to the cool, damp darkness
+of the caverns. The sound of distant, mournful wailing echoes from 
+deep within the earth, carried on a constant subterranean breeze. 
+A swirling, emerald portal hums with primal energy, marking the 
+boundary between the Barrens and the nightmare-tainted depths.
+~
+#EXIT
+Direction out~
+ToRoom    26531
+Desc      Return to the Lush Oasis.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26901
+Desc      The path leads into the Screaming Gully.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26901
+Name     &gThe Screaming Gully - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     High stone walls curve upward, meeting in a jagged ceiling far 
+overhead. Wind whistles through narrow fissures in the rock, 
+creating a haunting, shrieking sound. The ground is slick with 
+condensation and moss.
+~
+#EXIT
+Direction south~
+ToRoom    26900
+Desc      The cavern entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26902
+Desc      The gully continues deeper.~
+#ENDEXIT
+Reset M 0 26900 10 26901
+#ENDROOM
+
+#ROOM
+Vnum     26902
+Name     &gThe Screaming Gully - Central&d~
+Sector   underground~
+Flags    indoors~
+Desc     The path widens into a small cavern. Piles of bones from kodos and 
+raptors are scattered across the floor, suggesting the presence of 
+dangerous predators. To the east and west, narrow crawlways lead 
+to side chambers.
+~
+#EXIT
+Direction north~
+ToRoom    26903
+Desc      The north branch of the gully.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26904
+Desc      A small side cavern.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26901
+Desc      The southern gully.~
+#ENDEXIT
+Reset M 0 26900 10 26902
+#ENDROOM
+
+#ROOM
+Vnum     26903
+Name     &gThe Screaming Gully - North Branch&d~
+Sector   underground~
+Flags    indoors~
+Desc     The sound of running water is audible from ahead. The walls are 
+thick with bioluminescent fungi that provide a dim, greenish light. 
+Raptor tracks are everywhere in the soft mud.
+~
+#EXIT
+Direction south~
+ToRoom    26902
+Desc      The central gully.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26905
+Desc      The path toward the Fissure.~
+#ENDEXIT
+Reset M 0 26900 10 26903
+#ENDROOM
+
+#ROOM
+Vnum     26904
+Name     &gGully Side Cavern&d~
+Sector   underground~
+Flags    indoors~
+Desc     This secluded alcove serves as a nesting ground for the local 
+wildlife. The air is heavy with the smell of musk and decay.
+~
+#EXIT
+Direction west~
+ToRoom    26902
+Desc      Return to the central gully.~
+#ENDEXIT
+Reset M 0 26900 10 26904
+#ENDROOM
+
+#ROOM
+Vnum     26905
+Name     &gThe Fissure - West&d~
+Sector   underground~
+Flags    indoors~
+Desc     A deep crack in the cavern floor divides this room. A bridge of 
+solidified vine and root crosses the gap, leading toward the 
+central chambers of the Druids of the Fang.
+~
+#EXIT
+Direction east~
+ToRoom    26903
+Desc      The north gully.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26906
+Desc      The central fissure.~
+#ENDEXIT
+Reset M 0 26902 10 26905
+#ENDROOM
+
+#ROOM
+Vnum     26906
+Name     &gThe Fissure - Central&d~
+Sector   underground~
+Flags    indoors~
+Desc     This large hall serves as a primary guard post for the druids. 
+Ancient night elf ruins, half-buried in the rock, suggest this 
+cavern was once a place of worship. The wailing sound is much 
+louder here, vibrating through the floor.
+~
+#EXIT
+Direction north~
+ToRoom    26908
+Desc      Lord Cobrahn's Sanctum.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26905
+Desc      The western fissure.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26907
+Desc      The eastern fissure.~
+#ENDEXIT
+Reset M 0 26902 10 26906
+#ENDROOM
+
+#ROOM
+Vnum     26907
+Name     &gThe Fissure - East&d~
+Sector   underground~
+Flags    indoors~
+Desc     The fissure ends in a wall of solid rock, though a narrow opening 
+near the ceiling allows a trickle of water to fall into a shallow 
+pool below.
+~
+#EXIT
+Direction east~
+ToRoom    26906
+Desc      The central fissure.~
+#ENDEXIT
+Reset M 0 26901 10 26907
+#ENDROOM
+
+#ROOM
+Vnum     26908
+Name     &gLord Cobrahn's Sanctum&d~
+Sector   underground~
+Flags    indoors~
+Desc     The room is decorated with serpent skins and emerald-encrusted 
+braziers. Lord Cobrahn stands on a raised stone platform, his 
+eyes glowing with a rhythmic, hypnotic light. The air feels 
+stagnant and thick with the scent of venom.
+~
+#EXIT
+Direction south~
+ToRoom    26906
+Desc      The central fissure.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26909
+Desc      A hidden path behind the platform.~
+#ENDEXIT
+Reset M 0 26903 1 26908
+  Reset E 1 26907 1 11
+#ENDROOM
+
+#ROOM
+Vnum     26909
+Name     &gThe Hidden Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow, winding tunnel slips between the layers of the cavern 
+wall. The floor is smooth and worn, as if something massive has 
+slithered through here for centuries.
+~
+#EXIT
+Direction east~
+ToRoom    26908
+Desc      Cobrahn's Sanctum.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26910
+Desc      The Serpent's Coil.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26910
+Name     &gThe Serpent's Coil - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel curves sharply, looping back on itself as it descends 
+deeper into the earth. The walls are covered in a sticky, green 
+slime that glows faintly in the dark.
+~
+#EXIT
+Direction east~
+ToRoom    26909
+Desc      The hidden path.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26911
+Desc      The coils continues.~
+#ENDEXIT
+Reset M 0 26902 10 26910
+#ENDROOM
+
+#ROOM
+Vnum     26911
+Name     &gThe Serpent's Coil - Lower Bend&d~
+Sector   underground~
+Flags    indoors~
+Desc     The path opens into a wider tunnel. To the south, a large alcove 
+is filled with the sounds of chanting and the crackle of magical 
+energies.
+~
+#EXIT
+Direction north~
+ToRoom    26910
+Desc      The upper coil.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26912
+Desc      Lady Anacondra's Alcove.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26913
+Desc      The Lush Cavern entrance.~
+#ENDEXIT
+Reset M 0 26902 10 26911
+#ENDROOM
+
+#ROOM
+Vnum     26912
+Name     &gLady Anacondra's Alcove&d~
+Sector   underground~
+Flags    indoors~
+Desc     Fine silk curtains hang from the rock walls, and the floor is 
+covered in plush animal furs. Lady Anacondra stands near a small, 
+corrupted Moonwell, weaving a dark pattern of nightmare energy.
+~
+#EXIT
+Direction north~
+ToRoom    26911
+Desc      The serpent's coil.~
+#ENDEXIT
+Reset M 0 26904 1 26912
+  Reset E 1 26905 1 10
+#ENDROOM
+
+#ROOM
+Vnum     26913
+Name     &gThe Lush Cavern - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     You enter a massive subterranean jungle. Gigantic ferns and 
+flowering vines grow from every surface, sustained by an unseen 
+source of magical light. The humidity is stifling, and the sound of 
+buzzing insects fills the air.
+~
+#EXIT
+Direction north~
+ToRoom    26915
+Desc      The central cavern.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26911
+Desc      The serpent's coil.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26914
+Desc      The western cavern.~
+#ENDEXIT
+Reset M 0 26901 10 26913
+#ENDROOM
+
+#ROOM
+Vnum     26914
+Name     &gThe Lush Cavern - West&d~
+Sector   underground~
+Flags    indoors~
+Desc     The jungle is particularly dense here. Thick roots cross the path, 
+forcing you to climb over or hack through them. Strange, colorful 
+birds watch you from the canopy.
+~
+#EXIT
+Direction east~
+ToRoom    26913
+Desc      The southern cavern.~
+#ENDEXIT
+Reset M 0 26901 10 26914
+#ENDROOM
+
+#ROOM
+Vnum     26915
+Name     &gThe Lush Cavern - Central&d~
+Sector   underground~
+Flags    indoors~
+Desc     In the center of the jungle, a massive tree has grown into the 
+cavern ceiling. Its roots have shattered the rock, creating a 
+network of paths leading in all directions. To the west, the 
+cavern floor gives way to a large, still lake.
+~
+#EXIT
+Direction north~
+ToRoom    26916
+Desc      The northern cavern.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26917
+Desc      The eastern cavern.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26913
+Desc      The southern cavern.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26918
+Desc      The Subterranean Lake.~
+#ENDEXIT
+Reset M 0 26901 10 26915
+#ENDROOM
+
+#ROOM
+Vnum     26916
+Name     &gThe Lush Cavern - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     The jungle begins to thin as the ground rises toward the northern 
+tunnels. The air is slightly cooler here, though still heavy with 
+the scent of damp earth and flowers.
+~
+#EXIT
+Direction south~
+ToRoom    26915
+Desc      The central cavern.~
+#ENDEXIT
+Reset M 0 26901 10 26916
+#ENDROOM
+
+#ROOM
+Vnum     26917
+Name     &gThe Lush Cavern - East&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow path leads through a grove of massive mushrooms. Their 
+caps glow with a soft, pulsing light, illuminating the many 
+insects that dance in the air.
+~
+#EXIT
+Direction west~
+ToRoom    26915
+Desc      The central cavern.~
+#ENDEXIT
+Reset M 0 26901 10 26917
+#ENDROOM
+
+#ROOM
+Vnum     26918
+Name     &bThe Subterranean Lake - Shore&d~
+Sector   underground~
+Flags    indoors~
+Desc     A wide expanse of dark, cold water fills this section of the 
+cavern. The ceiling is very high here, reflecting the faint 
+glow from the plants in the jungle. A series of flat rocks form 
+a natural path toward a small island in the center.
+~
+#EXIT
+Direction east~
+ToRoom    26915
+Desc      Return to the jungle.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26919
+Desc      The central island.~
+#ENDEXIT
+Reset M 0 26900 10 26918
+#ENDROOM
+
+#ROOM
+Vnum     26919
+Name     &bThe Subterranean Lake - Island&d~
+Sector   underground~
+Flags    indoors~
+Desc     This low, rocky island is covered in slippery algae. Kresh, the 
+ancient turtle, often rests here, his massive shell blending in 
+with the surrounding boulders.
+~
+#EXIT
+Direction east~
+ToRoom    26918
+Desc      The shore.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26920
+Desc      The far bank.~
+#ENDEXIT
+Reset M 0 26907 1 26919
+  Reset G 1 26901 1
+#ENDROOM
+
+#ROOM
+Vnum     26920
+Name     &bThe Subterranean Lake - Far Bank&d~
+Sector   underground~
+Flags    indoors~
+Desc     The water laps gently against the jagged stone of the far bank. 
+A steep path climbs away from the lake, leading toward the 
+haunted tunnels of the upper caverns.
+~
+#EXIT
+Direction east~
+ToRoom    26919
+Desc      The island.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    26921
+Desc      The path of Skum.~
+#ENDEXIT
+Reset M 0 26900 10 26920
+#ENDROOM
+
+#ROOM
+Vnum     26921
+Name     &gThe Path of Skum&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air here crackles with static electricity. Scorch marks cover 
+the walls, and the smell of ozone is pungent. The tunnel narrows 
+sharply as it approaches the lair of the warped kodo.
+~
+#EXIT
+Direction down~
+ToRoom    26920
+Desc      Return to the lake.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26922
+Desc      Skum's Den.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26923
+Desc      The Pit of Trumpets.~
+#ENDEXIT
+Reset M 0 26902 10 26921
+#ENDROOM
+
+#ROOM
+Vnum     26922
+Name     &gSkum's Den&d~
+Sector   underground~
+Flags    indoors~
+Desc     This wide, circular chamber is littered with shattered kodo bones. 
+Blue lightning arcs across the ceiling, occasionally striking the 
+floor with a deafening crack. Skum stands in the center, his 
+eyes wide with a mindless, electric fury.
+~
+#EXIT
+Direction south~
+ToRoom    26921
+Desc      The path.~
+#ENDEXIT
+Reset M 0 26908 1 26922
+  Reset G 1 26910 1
+#ENDROOM
+
+#ROOM
+Vnum     26923
+Name     &gThe Pit of Trumpets - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The sound of distant, booming trumpets echoes through these 
+tunnels. The air is incredibly dry here, and the floor is covered 
+in a fine, white powder. Tunnels branch off to the east and west.
+~
+#EXIT
+Direction north~
+ToRoom    26921
+Desc      The path of Skum.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26926
+Desc      The eastern corridor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26924
+Desc      The western corridor.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26924
+Name     &gThe Pit of Trumpets - West Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel turns sharply toward the south. Deep gouges are visible 
+in the rock, as if something large and powerful has been 
+dragging itself through the passage.
+~
+#EXIT
+Direction east~
+ToRoom    26923
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26925
+Desc      Pythas' Overlook.~
+#ENDEXIT
+Reset M 0 26902 10 26924
+#ENDROOM
+
+#ROOM
+Vnum     26925
+Name     &gLord Pythas' Overlook&d~
+Sector   underground~
+Flags    indoors~
+Desc     This elevated platform overlooks the lower fissure. Lord Pythas 
+stands guard here, his muscles rippling under skin that has 
+hardened into thick, green scales. He watches the path below 
+with grim determination.
+~
+#EXIT
+Direction north~
+ToRoom    26924
+Desc      The western corridor.~
+#ENDEXIT
+Reset M 0 26905 1 26925
+  Reset E 1 26906 1 12
+#ENDROOM
+
+#ROOM
+Vnum     26926
+Name     &gThe Pit of Trumpets - East Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     This corridor is quiet and dark. The bioluminescent plants from 
+the lower levels are absent here, leaving only the faint, 
+natural glow of the volcanic rock.
+~
+#EXIT
+Direction west~
+ToRoom    26923
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26927
+Desc      The Great Chasm rim.~
+#ENDEXIT
+Reset M 0 26900 10 26926
+#ENDROOM
+
+#ROOM
+Vnum     26927
+Name     &rThe Great Chasm - Rim&d~
+Sector   underground~
+Flags    indoors~
+Desc     The path ends at the edge of a bottomless pit. A massive, ancient 
+stone bridge crosses the chasm, leading toward the final sanctum 
+of the Druids of the Fang. The air is cold and smells of the 
+ancient earth.
+~
+#EXIT
+Direction north~
+ToRoom    26926
+Desc      The eastern corridor.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26928
+Desc      The bridge.~
+#ENDEXIT
+Reset M 0 26902 10 26927
+#ENDROOM
+
+#ROOM
+Vnum     26928
+Name     &rThe Great Chasm - Bridge&d~
+Sector   underground~
+Flags    indoors~
+Desc     The bridge is narrow and lacks railings. The darkness of the chasm 
+below is absolute. The wailing sound is at its peak here, a 
+constant, mournful scream that threatens to overwhelm your senses.
+~
+#EXIT
+Direction north~
+ToRoom    26927
+Desc      The rim.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26929
+Desc      The far side.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26929
+Name     &rThe Great Chasm - Far Side&d~
+Sector   underground~
+Flags    indoors~
+Desc     You have crossed the chasm. The tunnels ahead are reinforced with 
+heavy timber and draped in emerald banners. This is the heart 
+of the Druids of the Fang territory.
+~
+#EXIT
+Direction north~
+ToRoom    26928
+Desc      The bridge.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26930
+Desc      Lord Serpentis' Stand.~
+#ENDEXIT
+Reset M 0 26902 10 26929
+#ENDROOM
+
+#ROOM
+Vnum     26930
+Name     &rLord Serpentis' Stand&d~
+Sector   underground~
+Flags    indoors~
+Desc     Lord Serpentis, the most powerful of the Leaders of the Fang, 
+stands at a massive stone altar. He is surrounded by his loyal 
+followers, all chanting in unison. The air is thick with 
+emerald-green energy that pulses with each word of their prayer.
+~
+#EXIT
+Direction north~
+ToRoom    26929
+Desc      The chasm.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26931
+Desc      The path to Verdan.~
+#ENDEXIT
+Reset M 0 26906 1 26930
+  Reset G 1 26903 1
+  Reset G 1 26902 1
+#ENDROOM
+
+#ROOM
+Vnum     26931
+Name     &gThe Path to Verdan&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel descends steeply, the ground becoming soft and 
+covered in thick, spongy moss. Massive roots push through the 
+rock walls, forming natural arches over the path.
+~
+#EXIT
+Direction north~
+ToRoom    26930
+Desc      Serpentis' Stand.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26932
+Desc      Verdan's Grove.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+#26932
+Name     &gVerdan the Everliving's Grove&d~
+Sector   underground~
+Flags    indoors~
+Desc     This immense chamber is filled with ancient, gnarled trees that 
+seem to be part of the cavern itself. Verdan the Everliving, 
+a towering behemoth of wood and stone, stands guard over the 
+heart of the nightmare.
+~
+#EXIT
+Direction up~
+ToRoom    26931
+Desc      Return to the upper path.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26933
+Desc      The Hidden Pool.~
+#ENDEXIT
+Reset M 0 26909 1 26932
+  Reset G 1 26908 1
+#ENDROOM
+
+#ROOM
+Vnum     26933
+Name     &bThe Hidden Pool&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, crystal-clear pool sits in the center of this quiet 
+cavern. The wailing sound has faded to a soft whisper. A narrow 
+passageway to the south leads toward the final rest of the 
+great dreamer.
+~
+#EXIT
+Direction north~
+ToRoom    26932
+Desc      Verdan's Grove.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26934
+Desc      The Wailing Pass.~
+#ENDEXIT
+Reset M 0 26900 10 26933
+#ENDROOM
+
+#ROOM
+Vnum     26934
+Name     &gThe Wailing Pass&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel is filled with a thick, purple mist that tastes of 
+lilacs and old iron. This is the source of the nightmare energy 
+that has corrupted the caverns.
+~
+#EXIT
+Direction north~
+ToRoom    26933
+Desc      The hidden pool.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26935
+Desc      The Dreamer's Rest.~
+#ENDEXIT
+Reset M 0 26901 10 26934
+#ENDROOM
+
+#ROOM
+Vnum     26935
+Name     &MThe Dreamer's Rest&d~
+Sector   underground~
+Flags    indoors~
+Desc     Naralex, the great Arch Druid, lies here in a deep, magical 
+slumber. He is surrounded by a protective barrier of emerald 
+light, but his face is twisted in a mask of terror. This is the 
+heart of the Wailing Caverns.
+~
+#EXIT
+Direction north~
+ToRoom    26934
+Desc      The wailing pass.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26936
+Desc      The Ritual Site.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26936
+Name     &MThe Ritual Site - Start&d~
+Sector   underground~
+Flags    indoors~
+Desc     A large stone circle has been prepared for the ritual of 
+awakening. Disciple Beluar stands here, waiting for brave 
+adventurers to help him cleanse Naralex's dream.
+~
+#EXIT
+Direction west~
+ToRoom    26935
+Desc      Return to Naralex.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26937
+Desc      The ritual stage 1.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26937
+Name     &MThe Ritual Site - The Waves&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air is thick with shadow energy as waves of nightmare 
+corrupted creatures begin to manifest. You must defend the 
+site until the final devourer arrives.
+~
+#EXIT
+Direction south~
+ToRoom    26936
+Desc      The ritual start.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26938
+Desc      The final stand.~
+#ENDEXIT
+Reset M 0 26910 1 26937
+  Reset G 1 26909 1
+#ENDROOM
+
+#ROOM
+Vnum     26938
+Name     &MThe Ritual Site - The Final Stand&d~
+Sector   underground~
+Flags    indoors~
+Desc     The mist has turned black, and the ground itself seems to be 
+screaming. Mutanus the Devourer, the final manifestation of 
+Naralex's terror, emerges from the shadows to consume all.
+~
+#EXIT
+Direction south~
+ToRoom    26937
+Desc      The ritual waves.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26939
+Desc      The exit tunnel.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26939
+Name     &gThe Exit Tunnel&d~
+Sector   underground~
+Flags    indoors~
+Desc     The nightmare energy has dissipated. A narrow, smooth tunnel 
+leads upward, offering a quick way back to the cavern entrance.
+~
+#EXIT
+Direction south~
+ToRoom    26938
+Desc      The ritual site.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    26940
+Desc      The shortcut path.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26940
+Name     &gThe Shortcut Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     This tunnel is much warmer than the lower levels. The scent of the 
+Barrens is faint but unmistakable.
+~
+#EXIT
+Direction down~
+ToRoom    26939
+Desc      Return to the ritual site.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26900
+Desc      Return to the entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26941
+Name     &gOverflow Cavern A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small side chamber filled with ancient, crumbling stalactites. 
+The air is stagnant here.
+~
+#EXIT
+Direction south~
+ToRoom    26902
+Desc      The central gully.~
+#ENDEXIT
+Reset M 0 26900 10 26941
+#ENDROOM
+
+#ROOM
+Vnum     26942
+Name     &gOverflow Cavern B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A damp alcove where water drips steadily from the ceiling, 
+forming small, clear puddles on the floor.
+~
+#EXIT
+Direction east~
+ToRoom    26915
+Desc      The central jungle.~
+#ENDEXIT
+Reset M 0 26901 10 26942
+#ENDROOM
+
+#ROOM
+Vnum     26943
+Name     &gOverflow Cavern C&d~
+Sector   underground~
+Flags    indoors~
+Desc     A jagged chamber where the rock walls have been smoothed by 
+centuries of wind and sand.
+~
+#EXIT
+Direction west~
+ToRoom    26923
+Desc      The Pit of Trumpets.~
+#ENDEXIT
+Reset M 0 26902 10 26943
+#ENDROOM
+
+#ROOM
+Vnum     26944
+Name     &gOverflow Cavern D&d~
+Sector   underground~
+Flags    indoors~
+Desc     This small room is filled with a dense, sweet-smelling moss 
+that cushions your footsteps.
+~
+#EXIT
+Direction north~
+ToRoom    26927
+Desc      The Great Chasm rim.~
+#ENDEXIT
+Reset M 0 26900 10 26944
+#ENDROOM
+
+#ROOM
+Vnum     26945
+Name     &gThe Screaming Gully - End&d~
+Sector   underground~
+Flags    indoors~
+Desc     The northernmost point of the entry gully. The wailing sound 
+echoes off the walls with startling clarity.
+~
+#EXIT
+Direction south~
+ToRoom    26903
+Desc      The north gully branch.~
+#ENDEXIT
+Reset M 0 26900 10 26945
+#ENDROOM
+
+#ENDAREA
