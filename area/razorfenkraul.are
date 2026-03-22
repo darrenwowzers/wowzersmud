@@ -1,0 +1,1571 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Razorfen Kraul~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       25 35 0 60
+Economy      0 20000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       26930
+Keywords   quilboar thornweaver razorfen~
+Short      a Razorfen Thornweaver~
+Long       A Razorfen Thornweaver brandishes a staff made of twisted briars.
+~
+Desc       This quilboar is covered in thick quills and ritualistic furs. It
+calls upon the power of the thorns to entangle its enemies.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 800 2200
+Stats2     25 25 250
+Stats3     5 12 25
+Stats4     0 0 0 0 0
+Attribs    12 14 16 12 14 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26931
+Keywords   quilboar defender razorfen~
+Short      a Razorfen Defender~
+Long       A Razorfen Defender snorts aggressively, leveling a crude spear.
+~
+Desc       A sturdy quilboar warrior tasked with protecting the outer reaches
+of the Kraul. Its hide is reinforced with slabs of bone.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 1000 2500
+Stats2     26 26 300
+Stats3     6 14 26
+Stats4     0 0 0 0 0
+Attribs    18 10 12 12 18 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26932
+Keywords   razorfen bat beast~
+Short      a Razorfen Bat~
+Long       A large, leathery-winged bat hangs from the ceiling.
+~
+Desc       Predatory bats that thrive in the dark tunnels of the Kraul. They
+strike with frightening speed.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 700 1800
+Stats2     25 25 200
+Stats3     4 10 25
+Stats4     0 0 0 0 0
+Attribs    12 6 10 18 14 6 6
+Saves      0 0 0 0 0
+Speaks     ~
+Speaking   ~
+#ENDMOBILE
+
+#MOBILE
+Vnum       26933
+Keywords   razorfen stalker quilboar~
+Short      a Razorfen Stalker~
+Long       A Razorfen Stalker crouches in the shadows, quills twitching.
+~
+Desc       These quilboars specialize in ambushing travelers in the dense,
+thorny passages of the Kraul.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 27 0 0 850 2100
+Stats2     27 27 280
+Stats3     5 13 27
+Stats4     0 0 0 0 0
+Attribs    14 18 14 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26934
+Keywords   razorfen totem-shaker~
+Short      a Razorfen Totem-Shaker~
+Long       A Razorfen Totem-Shaker plants a glowing wooden totem.
+~
+Desc       Shamanistic warriors who provide elemental support to the quilboar
+warbands.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 28 0 0 900 2300
+Stats2     28 28 320
+Stats3     6 15 28
+Stats4     0 0 0 0 0
+Attribs    14 14 16 16 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26935
+Keywords   razorfen earthbreaker warrior~
+Short      a Razorfen Earthbreaker~
+Long       A massive Razorfen Earthbreaker stomps the ground.
+~
+Desc       Elite guards of the inner sanctum, known for their immense size
+and devastating strength.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 30 0 0 1200 3000
+Stats2     30 30 400
+Stats3     7 18 30
+Stats4     0 0 0 0 0
+Attribs    20 10 20 8 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26936
+Keywords   razorfen mystic mage~
+Short      a Razorfen Mystic~
+Long       A Razorfen Mystic chants a low, guttural spell.
+~
+Desc       The mystics of the Kraul are the keepers of quilboar lore and
+possess dangerous arcane talents.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 29 0 0 750 2000
+Stats2     29 29 350
+Stats3     5 14 29
+Stats4     0 0 0 0 0
+Attribs    10 12 12 20 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26937
+Keywords   razorfen beastmaster~
+Short      a Razorfen Beastmaster~
+Long       A Razorfen Beastmaster commands a pack of snarling hyenas.
+~
+Desc       Those who have mastered the beasts of the Barrens, using them
+to track down and kill intruders.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 28 0 0 1000 2400
+Stats2     28 28 300
+Stats3     6 15 28
+Stats4     0 0 0 0 0
+Attribs    16 16 16 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26938
+Keywords   razorfen hyena beast~
+Short      a Razorfen Hyena~
+Long       A mangy Razorfen Hyena snaps its jaws at you.
+~
+Desc       A vicious scavenger used as a guard dog by the quilboar.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 26 0 0 600 1500
+Stats2     26 26 150
+Stats3     4 11 26
+Stats4     0 0 0 0 0
+Attribs    14 16 14 6 6 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       26939
+Keywords   razorfen ward-watcher~
+Short      a Razorfen Ward-Watcher~
+Long       A Razorfen Ward-Watcher stands vigilant near the thorns.
+~
+Desc       Dedicated sentries who never leave their posts, guarding the
+spiritual wards of the tribe.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 29 0 0 1100 2800
+Stats2     29 29 350
+Stats3     6 16 29
+Stats4     0 0 0 0 0
+Attribs    18 12 18 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26940
+Keywords   greater kraul bat beast~
+Short      a Greater Kraul Bat~
+Long       A massive, shadowed bat circles the cavern roof.
+~
+Desc       An elder of the bat colonies, much larger and more dangerous
+than its younger kin.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 31 0 0 1400 3500
+Stats2     31 31 400
+Stats3     7 20 31
+Stats4     0 0 0 0 0
+Attribs    16 20 18 8 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       26941
+Keywords   quilboar outcast trash~
+Short      a Quilboar Outcast~
+Long       A desperate Quilboar Outcast scavenges for scraps.
+~
+Desc       Those rejected from the main tribe, now forced to survive in
+the most dangerous tunnels.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 500 1200
+Stats2     25 25 100
+Stats3     3 10 25
+Stats4     0 0 0 0 0
+Attribs    12 10 12 8 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26942
+Keywords   death's head acolyte~
+Short      a Death's Head Acolyte~
+Long       A Death's Head Acolyte kneels in prayer to the Scourge.
+~
+Desc       Humanoids who have allied with the quilboar to serve the Lich King's
+will within the Barrens.
+~
+Race       human~
+Class      warlock~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 28 0 0 800 2200
+Stats2     28 28 300
+Stats3     5 14 28
+Stats4     0 0 0 0 0
+Attribs    10 12 12 18 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26943
+Keywords   death's head geomancer~
+Short      a Death's Head Geomancer~
+Long       A Death's Head Geomancer pulls dark energy from the earth.
+~
+Desc       These casters bend the very ground to their will, crushing
+enemies with stone and shadow.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 29 0 0 850 2300
+Stats2     29 29 320
+Stats3     6 15 29
+Stats4     0 0 0 0 0
+Attribs    10 14 12 19 17 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       26944
+Keywords   blind hunter rare bat~
+Short      The Blind Hunter~
+Long       A massive, albino bat screeches, sensing your presence.
+~
+Desc       A legendary predator of the Kraul. It is completely blind but
+tracks its prey through supernatural hearing.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 32 0 0 2000 5000
+Stats2     32 32 450
+Stats3     8 22 35
+Stats4     0 0 0 0 0
+Attribs    18 25 20 10 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       26945
+Keywords   roalgorth boss warrior~
+Short      Roalgorth~
+Long       Roalgorth, the massive quilboar guardian, bellows a challenge.
+~
+Desc       A mountain of muscle and quills guarding the inner gates.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 28 0 0 1800 4500
+Stats2     28 28 400
+Stats3     8 20 28
+Stats4     0 0 0 0 0
+Attribs    22 10 14 12 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       26946
+Keywords   death speaker jargba boss~
+Short      Death Speaker Jargba~
+Long       Death Speaker Jargba mutters dark prayers over a pile of skulls.
+~
+Desc       A necromantic quilboar experimenter aligned with the Scourge.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 29 0 0 1500 4000
+Stats2     29 29 600
+Stats3     6 18 29
+Stats4     0 0 0 0 0
+Attribs    14 18 18 14 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       26947
+Keywords   overlord ramtusk boss~
+Short      Overlord Ramtusk~
+Long       Overlord Ramtusk stands tall, his tusks capped in jagged iron.
+~
+Desc       The primary military commander of the Razorfen tribe.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 30 0 0 2200 5500
+Stats2     30 30 500
+Stats3     10 25 30
+Stats4     0 0 0 0 0
+Attribs    24 12 14 14 22 14 14
+#ENDMOBILE
+
+#MOBILE
+Vnum       26948
+Keywords   agathelos raging boss boar~
+Short      Agathelos the Raging~
+Long       A massive, ancient boar snorts steam, its eyes red with fury.
+~
+Desc       The Great Boar spirit made flesh. A primal god of the quilboar.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 31 0 0 2800 6500
+Stats2     31 31 200
+Stats3     12 30 31
+Stats4     0 0 0 0 0
+Attribs    26 6 18 10 24 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       26949
+Keywords   charlga razorflank boss~
+Short      Charlga Razorflank~
+Long       Charlga Razorflank cackles, her quills vibrating with magical power.
+~
+Desc       The Crone of the Razorfen and supreme leader of her tribe.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 33 0 0 3500 8000
+Stats2     33 33 800
+Stats3     8 22 33
+Stats4     0 0 0 0 0
+Attribs    18 20 22 16 18 16 16
+#ENDMOBILE
+
+#OBJECT
+Vnum     26950
+Keywords Agathelos back plate armor~
+Type     armor~
+Short    the Back of Agathelos~
+Long     A massive, spiked plate of bone from the great boar spirit rests here.~
+WFlags   take body~
+Values   15 0 0 0 0 0
+Stats    25 1200 32 0 0
+Rarity   2
+Affect   1 6
+Affect   5 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     26951
+Keywords Swinetusk Shank dagger weapon~
+Type     weapon~
+Short    the Swinetusk Shank~
+Long     A wicked dagger fashioned from a sharpened, serrated tusk.~
+WFlags   take wield~
+Values   12 6 12 11 0 0
+Stats    3 850 30 0 0
+Rarity   2
+Affect   2 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     26952
+Keywords Heart Agathelos trinket treasure~
+Type     treasure~
+Short    the Heart of Agathelos~
+Long     A large, pulsing gem that radiates primal warmth.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 2000 35 0 0
+Rarity   2
+Affect   5 10
+#ENDOBJECT
+
+#OBJECT
+Vnum     26953
+Keywords Razorflank medallion necklace~
+Type     jewelry~
+Short    Razorflank's Medallion~
+Long     A heavy medallion made of twisted briars and dark jade.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 1500 33 0 0
+Rarity   2
+Affect   3 6
+Affect   4 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     26954
+Keywords Death Speaker scepter mace weapon~
+Type     weapon~
+Short    the Death Speaker's Scepter~
+Long     A mace topped with a miniaturized, screaming quilboar skull.~
+WFlags   take wield~
+Values   12 5 11 8 0 0
+Stats    8 950 31 0 0
+Rarity   2
+Affect   3 5
+Affect   4 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     26955
+Keywords Ramtusk helm head armor~
+Type     armor~
+Short    Ramtusk's Helm~
+Long     A heavy iron helm with two massive tusks curving forward.~
+WFlags   take head~
+Values   12 0 0 0 0 0
+Stats    12 1100 30 0 0
+Rarity   2
+Affect   1 4
+Affect   5 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     26956
+Keywords Roalgorth bracers wrist armor~
+Type     armor~
+Short    Roalgorth's Bracers~
+Long     Thick leather bands reinforced with jagged quilboar spines.~
+WFlags   take wrist~
+Values   6 0 0 0 0 0
+Stats    4 800 28 0 0
+Rarity   2
+Affect   2 3
+Affect   5 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     26957
+Keywords Batwing mantle shoulder armor~
+Type     armor~
+Short    a Batwing Mantle~
+Long     A pair of shoulders crafted from the leathery wings of a giant bat.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    5 500 27 0 0
+Rarity   1
+Affect   2 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     26958
+Keywords Thorned staff weapon~
+Type     weapon~
+Short    a Thorned Staff~
+Long     A long staff of dark wood covered in razor-sharp briars.~
+WFlags   take wield~
+Values   12 4 9 7 0 0
+Stats    10 450 26 0 0
+Rarity   1
+Affect   3 4
+Affect   4 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     26959
+Keywords Tusk-capped spear polearm weapon~
+Type     weapon~
+Short    a Tusk-Capped Spear~
+Long     A crude spear with a massive, sharpened tusk lashed to the tip.~
+WFlags   take wield~
+Values   12 5 12 5 0 0
+Stats    11 400 26 0 0
+Rarity   1
+Affect   1 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     26960
+Keywords Quilboar war mask head~
+Type     armor~
+Short    a Quilboar War Mask~
+Long     A terrifying wooden mask painted with the blood of enemies.~
+WFlags   take head~
+Values   5 0 0 0 0 0
+Stats    3 350 25 0 0
+Rarity   1
+Affect   5 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     26961
+Keywords Warped wood bow weapon~
+Type     weapon~
+Short    a Warped Wood Bow~
+Long     A bow made from the magically twisted roots of the Kraul.~
+WFlags   take wield~
+Values   12 4 10 4 0 0
+Stats    5 380 25 0 0
+Rarity   1
+Affect   2 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     26962
+Keywords Grim Totem hold~
+Type     treasure~
+Short    a Grim Totem~
+Long     A small, hand-carved totem that smells of ozone and ash.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 450 27 0 0
+Rarity   1
+Affect   4 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     26963
+Keywords small briar key~
+Type     key~
+Short    a Small Briar Key~
+Long     A key made of hardened, blackened wood.~
+WFlags   take~
+Values   26963 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26964
+Keywords large kraul key~
+Type     key~
+Short    a Large Kraul Key~
+Long     A heavy key made from the bone of a kodo.~
+WFlags   take~
+Values   26964 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26965
+Keywords Quilboar skin gloves hands armor~
+Type     armor~
+Short    Quilboar Skin Gloves~
+Long     Rough, bristly leather gloves.~
+WFlags   take hands~
+Values   4 0 0 0 0 0
+Stats    2 80 25 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26966
+Keywords Boar-hide belt waist armor~
+Type     armor~
+Short    a Boar-hide Belt~
+Long     A simple belt made of thick, tanned boar hide.~
+WFlags   take waist~
+Values   4 0 0 0 0 0
+Stats    2 75 25 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26967
+Keywords Briarthorn seed treasure~
+Type     treasure~
+Short    a Briarthorn Seed~
+Long     A prickly seed that hums with low-level nature magic.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 20 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26968
+Keywords Sharpened Tusk treasure~
+Type     treasure~
+Short    a Sharpened Tusk~
+Long     A broken tusk that has been filed down to a point.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 20 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     26969
+Keywords blood-stained bandage salve~
+Type     salve~
+Short    a blood-stained bandage~
+Long     A strip of linen that has seen better days.~
+WFlags   take~
+Values   25 1 1 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#ROOM
+Vnum     26930
+Name     &rThe Kraul Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive wall of thorns and briars twists together to form the 
+entrance to the Kraul. The air is thick with the smell of wet earth 
+and the musk of quilboar. A swirling, blood-red portal hums with 
+magical energy, separating the thorny tunnels from the Barrens 
+outside.
+~
+#EXIT
+Direction out~
+ToRoom    26532
+Desc      Return to the Barrens.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26931
+Desc      The path leads into the thorns.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26931
+Name     &rOuter Thorns - Path Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls of this tunnel are made of living, pulsating vines. 
+Sharp thorns protrude from every surface, making any movement 
+hazardous. The sound of distant snorting and the clatter of bone 
+echoes through the passage.
+~
+#EXIT
+Direction south~
+ToRoom    26930
+Desc      The entrance portal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26932
+Desc      The path continues deeper.~
+#ENDEXIT
+Reset M 0 26931 10 26931
+#ENDROOM
+
+#ROOM
+Vnum     26932
+Name     &rOuter Thorns - Narrow Bend&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel turns sharply here. Deep gouges in the rock floor 
+suggest the frequent passage of heavy kodo or boar beasts. The 
+vines here are thicker, almost choking the path.
+~
+#EXIT
+Direction south~
+ToRoom    26931
+Desc      The entry path.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26933
+Desc      A small side cavern.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26934
+Desc      The path toward the crossroads.~
+#ENDEXIT
+Reset M 0 26932 10 26932
+#ENDROOM
+
+#ROOM
+Vnum     26933
+Name     &rThorny Side Cavern&d~
+Sector   underground~
+Flags    indoors~
+Desc     This small alcove is used as a temporary storage area. Piles of 
+discarded bone and crude wooden staves are stacked against the 
+twisting walls.
+~
+#EXIT
+Direction west~
+ToRoom    26932
+Desc      Return to the path.~
+#ENDEXIT
+Reset M 0 26941 10 26933
+Reset O 0 26968 10 26933
+#ENDROOM
+
+#ROOM
+Vnum     26934
+Name     &rOuter Thorns - Approaching the Hub&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air is heavy with the scent of ozone. Strange, glowing 
+totems have been planted along the walls, casting a flickering, 
+blue light upon the jagged briars.
+~
+#EXIT
+Direction south~
+ToRoom    26932
+Desc      The narrow bend.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26935
+Desc      The central crossroads.~
+#ENDEXIT
+Reset M 0 26930 10 26934
+#ENDROOM
+
+#ROOM
+Vnum     26935
+Name     &rRoalgorth's Crossroads&d~
+Sector   underground~
+Flags    indoors~
+Desc     This wide, circular chamber serves as the primary hub of the 
+lower Kraul. Tunnels branch off in all directions, guarded by 
+the elite warriors of the Razorfen tribe. A massive, blood-stained 
+altar sits in the center.
+~
+#EXIT
+Direction south~
+ToRoom    26934
+Desc      The outer thorns.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26941
+Desc      The path to Overlord Ramtusk.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26936
+Desc      The path to Death Speaker Jargba.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26946
+Desc      The path to Agathelos.~
+#ENDEXIT
+Reset M 0 26945 1 26935
+  Reset E 1 26956 1 14
+#ENDROOM
+
+#ROOM
+Vnum     26936
+Name     &dDeath's Head Passage - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     The natural briars here have been draped in dark, tattered 
+banners. The atmosphere is chilling, and the sound of 
+monotonous chanting vibrates through the floor.
+~
+#EXIT
+Direction west~
+ToRoom    26935
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26937
+Desc      The passage continues.~
+#ENDEXIT
+Reset M 0 26942 10 26936
+#ENDROOM
+
+#ROOM
+Vnum     26937
+Name     &dDeath's Head Passage - Acolyte Hall&d~
+Sector   underground~
+Flags    indoors~
+Desc     Shadowy figures move through the gloom here. The walls are 
+covered in necromantic symbols painted in ash. Several small 
+braziers burn with a cold, purple flame.
+~
+#EXIT
+Direction west~
+ToRoom    26936
+Desc      The passage entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26938
+Desc      A small ritual room.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26939
+Desc      A small ritual room.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26940
+Desc      The inner sanctum entrance.~
+#ENDEXIT
+Reset M 0 26942 10 26937
+#ENDROOM
+
+#ROOM
+Vnum     26938
+Name     &dRitual Room of Bones&d~
+Sector   underground~
+Flags    indoors~
+Desc     Piles of quilboar skulls are arranged in neat circles on the 
+floor. It appears the Death's Head acolytes are using this 
+space to harvest energy from the deceased.
+~
+#EXIT
+Direction south~
+ToRoom    26937
+Desc      The acolyte hall.~
+#ENDEXIT
+Reset M 0 26943 10 26938
+Reset O 0 26963 1 26938
+#ENDROOM
+
+#ROOM
+Vnum     26939
+Name     &dRitual Room of Shadows&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air is thick with a magical fog that obscures your vision. 
+Ghostly whispers echo off the walls, speaking in a tongue 
+that sounds like grinding stone.
+~
+#EXIT
+Direction north~
+ToRoom    26937
+Desc      The acolyte hall.~
+#ENDEXIT
+Reset M 0 26943 10 26939
+Reset O 0 26969 10 26939
+#ENDROOM
+
+#ROOM
+Vnum     26940
+Name     &dDeath Speaker's Threshold&d~
+Sector   underground~
+Flags    indoors~
+Desc     A heavy gate made of sharpened bones blocks the path forward. 
+The scent of rot is overwhelming here, and the light from the 
+braziers is almost extinguished by the darkness beyond.
+~
+#EXIT
+Direction west~
+ToRoom    26937
+Desc      The acolyte hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26941
+Desc      The Death Speaker's Chamber.~
+#ENDEXIT
+Reset M 0 26934 10 26940
+#ENDROOM
+
+#ROOM
+Vnum     26941
+Name     &dDeath Speaker Jargba's Chamber&d~
+Sector   underground~
+Flags    indoors~
+Desc     This large, vaulted chamber is the heart of the Death's Head 
+operations. Jargba stands before a massive, pulsating pile of 
+corrupted thorns, conducting a ritual that bleeds the very 
+life from the earth.
+~
+#EXIT
+Direction south~
+ToRoom    26940
+Desc      The threshold.~
+#ENDEXIT
+Reset M 0 26946 1 26941
+  Reset E 1 26954 1 16
+#ENDROOM
+
+#ROOM
+Vnum     26942
+Name     &WThe High Road - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     This path climbs steeply away from the crossroads. The tunnels 
+here are wider and better maintained, indicating this is the 
+way to the tribe's military leadership.
+~
+#EXIT
+Direction south~
+ToRoom    26935
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26943
+Desc      The military corridor.~
+#ENDEXIT
+Reset M 0 26931 10 26942
+#ENDROOM
+
+#ROOM
+Vnum     26943
+Name     &WThe Military Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     Iron-capped pillars support the ceiling here. Quilboar guards 
+patrol this hallway with disciplined precision, their armor 
+clanking with every step.
+~
+#EXIT
+Direction south~
+ToRoom    26942
+Desc      The north path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26944
+Desc      The Overlord's approach.~
+#ENDEXIT
+Reset M 0 26935 10 26943
+#ENDROOM
+
+#ROOM
+Vnum     26944
+Name     &WThe Overlord's Approach&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls are lined with captured banners from various Horde and 
+Alliance outposts. This hallway serves as a grim trophy room 
+for the Overlord's many victories.
+~
+#EXIT
+Direction south~
+ToRoom    26943
+Desc      The military corridor.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26945
+Desc      Overlord Ramtusk's Seat.~
+#ENDEXIT
+Reset M 0 26939 10 26944
+Reset O 0 26960 5 26944
+#ENDROOM
+
+#ROOM
+Vnum     26945
+Name     &WOverlord Ramtusk's Seat&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive throne carved from the skull of a kodo dominates the 
+far wall. Overlord Ramtusk sits here, surrounded by his most 
+loyal advisors, planning the next strike against the Barrens.
+~
+#EXIT
+Direction west~
+ToRoom    26944
+Desc      The approach.~
+#ENDEXIT
+Reset M 0 26947 1 26945
+  Reset E 1 26955 1 6
+  Reset G 1 26964 1
+#ENDROOM
+
+#ROOM
+Vnum     26946
+Name     &gThe Great Boar's Path - West&d~
+Sector   underground~
+Flags    indoors~
+Desc     The stone here is replaced by thick, spongy moss. The tunnels 
+smell of fresh water and ancient forest. This wing is the 
+spiritual home of the tribe's beastmasters.
+~
+#EXIT
+Direction east~
+ToRoom    26935
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26947
+Desc      The beastmaster's walk.~
+#ENDEXIT
+Reset M 0 26937 10 26946
+#ENDROOM
+
+#ROOM
+Vnum     26947
+Name     &gThe Beastmaster's Walk&d~
+Sector   underground~
+Flags    indoors~
+Desc     Small pens have been carved into the rock here, housing the 
+snarling hyenas and boars used by the tribe. The sounds of 
+barking and snapping jaws fill the air.
+~
+#EXIT
+Direction east~
+ToRoom    26946
+Desc      The western path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26948
+Desc      A small beast pen.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    26949
+Desc      A small beast pen.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26950
+Desc      The descent to the lair.~
+#ENDEXIT
+Reset M 0 26938 10 26947
+#ENDROOM
+
+#ROOM
+Vnum     26948
+Name     &gBeast Pen - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     The floor is covered in shredded leather and half-eaten kodo 
+meat. It is a violent and messy place, even by quilboar 
+standards.
+~
+#EXIT
+Direction south~
+ToRoom    26947
+Desc      The walk.~
+#ENDEXIT
+Reset M 0 26938 10 26948
+Reset O 0 26966 5 26948
+#ENDROOM
+
+#ROOM
+Vnum     26949
+Name     &gBeast Pen - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls here are covered in deep scratch marks. It seems 
+the inhabitants of this pen were particularly restless.
+~
+#EXIT
+Direction north~
+ToRoom    26947
+Desc      The walk.~
+#ENDEXIT
+Reset M 0 26938 10 26949
+#ENDROOM
+
+#ROOM
+Vnum     26950
+Name     &gThe Descent to the Lair&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel slopes steeply downward into a massive, natural 
+cavern. The air is warm and smells of damp fur. A low, rhythmic 
+grunting echoes from below.
+~
+#EXIT
+Direction east~
+ToRoom    26947
+Desc      The walk.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26951
+Desc      Agathelos's Lair.~
+#ENDEXIT
+Reset M 0 26937 10 26950
+#ENDROOM
+
+#ROOM
+Vnum     26951
+Name     &gAgathelos's Lair&d~
+Sector   underground~
+Flags    indoors~
+Desc     This immense cavern is the resting place of Agathelos the 
+Raging. The floor is soft sand, and the walls are draped in 
+flowering briars that glow with a soft, green light. The great 
+boar spirit stands in the center, a primal force of nature.
+~
+#EXIT
+Direction up~
+ToRoom    26950
+Desc      Return to the path.~
+#ENDEXIT
+Reset M 0 26948 1 26951
+  Reset G 1 26950 1
+  Reset G 1 26952 1
+#ENDROOM
+
+#ROOM
+Vnum     26952
+Name     &MThe Path to the Crone - entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     This path is the most heavily fortified in the Kraul. Massive 
+thorns are braided into impenetrable walls, leaving only a 
+narrow, winding path through the center.
+~
+#EXIT
+Direction south~
+ToRoom    26935
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26953
+Desc      The inner path.~
+#ENDEXIT
+Reset M 0 26936 10 26952
+#ENDROOM
+
+#ROOM
+Vnum     26953
+Name     &MThe Inner Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     Magical energy crackles through the air here. Small sparks of 
+static jump between the thorns, and the ground feels as if it 
+is vibrating with power.
+~
+#EXIT
+Direction south~
+ToRoom    26952
+Desc      The entry path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26954
+Desc      The final ascent.~
+#ENDEXIT
+Reset M 0 26933 10 26953
+Reset O 0 26961 5 26953
+#ENDROOM
+
+#ROOM
+Vnum     26954
+Name     &MThe Final Ascent&d~
+Sector   underground~
+Flags    indoors~
+Desc     The path climbs toward a high, sunlit opening in the cavern 
+roof. The sound of a cackling laugh echoes down the tunnel, 
+marking the location of Charlga Razorflank.
+~
+#EXIT
+Direction south~
+ToRoom    26953
+Desc      The inner path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26955
+Desc      The Crone's Encampment entrance.~
+#ENDEXIT
+Reset M 0 26939 10 26954
+#ENDROOM
+
+#ROOM
+Vnum     26955
+Name     &MThe Crone's Encampment - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     You stand at the edge of a massive, open-air arena. The walls 
+are hundreds of feet high, covered in thick thorns. This is 
+the seat of power for the entire Razorfen tribe.
+~
+#EXIT
+Direction south~
+ToRoom    26954
+Desc      The ascent.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26956
+Desc      Charlga Razorflank's Seat.~
+#ENDEXIT
+Reset M 0 26935 10 26955
+Reset O 0 26965 10 26955
+#ENDROOM
+
+#ROOM
+Vnum     26956
+Name     &MCharlga Razorflank's Seat&d~
+Sector   underground~
+Flags    indoors~
+Desc     Charlga Razorflank stands on a high stone platform, overlooking 
+her tribe. She is surrounded by jars of strange fluids and 
+piles of ancient, dusty scrolls. Her eyes glow with a 
+calculated, dangerous intelligence.
+~
+#EXIT
+Direction south~
+ToRoom    26955
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 26949 1 26956
+  Reset G 1 26953 1
+  Reset E 1 26951 1 16
+#ENDROOM
+
+#ROOM
+Vnum     26957
+Name     &dThe Bat Caves - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small side tunnel leads away from the main path and into the 
+darker, more damp sections of the Kraul. The ceiling is 
+covered in thousands of sleeping bats.
+~
+#EXIT
+Direction south~
+ToRoom    26932
+Desc      The outer thorns.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26958
+Desc      The bat caves deeper.~
+#ENDEXIT
+Reset M 0 26932 10 26957
+#ENDROOM
+
+#ROOM
+Vnum     26958
+Name     &dBat Caves - Central Hall&d~
+Sector   underground~
+Flags    indoors~
+Desc     The floor is covered in thick layers of guano, making the air 
+pungent and difficult to breathe. Large, predatory bats circle 
+overhead, watching for anything that might be food.
+~
+#EXIT
+Direction south~
+ToRoom    26957
+Desc      The cave entry.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26959
+Desc      A small side cave.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    26960
+Desc      The Blind Hunter's Lair entrance.~
+#ENDEXIT
+Reset M 0 26940 10 26958
+Reset O 0 26957 5 26958
+#ENDROOM
+
+#ROOM
+Vnum     26959
+Name     &dBat Caves - Side Burrow&d~
+Sector   underground~
+Flags    indoors~
+Desc     This small burrow is relatively quiet. A few small, harmless 
+bats flutter about, but the larger predators seem to avoid 
+this area.
+~
+#EXIT
+Direction west~
+ToRoom    26958
+Desc      The central hall.~
+#ENDEXIT
+Reset M 0 26932 10 26959
+#ENDROOM
+
+#ROOM
+Vnum     26960
+Name     &dThe Blind Hunter's Lair&d~
+Sector   underground~
+Flags    indoors~
+Desc     This cavern is absolute darkness. No light from the upper levels 
+reaches here. The only sound is the soft, rhythmic clicking of 
+The Blind Hunter as it stalks its territory.
+~
+#EXIT
+Direction south~
+ToRoom    26958
+Desc      The central hall.~
+#ENDEXIT
+Reset M 0 26944 1 26960
+#ENDROOM
+
+#ROOM
+Vnum     26961
+Name     &rThorny Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, jagged alcove filled with dried vines and old kodo 
+bones. The air is stagnant and warm.
+~
+#EXIT
+Direction north~
+ToRoom    26934
+Desc      Outer Thorns.~
+#ENDEXIT
+Reset M 0 26930 10 26961
+Reset O 0 26967 10 26961
+#ENDROOM
+
+#ROOM
+Vnum     26962
+Name     &rThorny Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A damp chamber where water drips from the ceiling, feeding a 
+small patch of particularly vibrant, and sharp, briars.
+~
+#EXIT
+Direction east~
+ToRoom    26946
+Desc      The Great Boar's Path.~
+#ENDEXIT
+Reset M 0 26931 10 26962
+Reset O 0 26959 10 26962
+#ENDROOM
+
+#ROOM
+Vnum     26963
+Name     &dShadow Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small room where the walls are covered in black soot. It 
+appears the acolytes were practicing fire magic here.
+~
+#EXIT
+Direction south~
+ToRoom    26937
+Desc      Acolyte Hall.~
+#ENDEXIT
+Reset M 0 26942 10 26963
+Reset O 0 26958 10 26963
+#ENDROOM
+
+#ROOM
+Vnum     26964
+Name     &dShadow Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A quiet, dark chamber where the only sound is the distant 
+humming of the portal.
+~
+#EXIT
+Direction west~
+ToRoom    26940
+Desc      Death Speaker Threshold.~
+#ENDEXIT
+Reset M 0 26943 10 26964
+Reset O 0 26962 10 26964
+#ENDROOM
+
+#ROOM
+Vnum     26965
+Name     &WMilitary Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small barracks area for the guards. Crude bedrolls and stone 
+tables are arranged neatly.
+~
+#EXIT
+Direction east~
+ToRoom    26943
+Desc      Military Corridor.~
+#ENDEXIT
+Reset M 0 26935 10 26965
+#ENDROOM
+
+#ROOM
+Vnum     26966
+Name     &WMilitary Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A storage room for weapons and armor. Several iron-capped 
+spears are leaned against the wall.
+~
+#EXIT
+Direction south~
+ToRoom    26944
+Desc      Overlord Approach.~
+#ENDEXIT
+Reset M 0 26931 10 26966
+#ENDROOM
+
+#ROOM
+Vnum     26967
+Name     &gBeast Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small pen for young boars. It is slightly cleaner than the 
+other pens, though still quite smelly.
+~
+#EXIT
+Direction north~
+ToRoom    26947
+Desc      Beastmaster Walk.~
+#ENDEXIT
+Reset M 0 26938 10 26967
+#ENDROOM
+
+#ROOM
+Vnum     26968
+Name     &gBeast Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A room filled with dried hay and water troughs. It appears 
+this is where the pack animals are fed.
+~
+#EXIT
+Direction west~
+ToRoom    26950
+Desc      Descent to the lair.~
+#ENDEXIT
+Reset M 0 26933 10 26968
+#ENDROOM
+
+#ROOM
+Vnum     26969
+Name     &MCrone Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A high, narrow ledge that overlooks the entrance to the Crone's 
+arena. It is a good vantage point for sentries.
+~
+#EXIT
+Direction east~
+ToRoom    26955
+Desc      Crone Encampment entrance.~
+#ENDEXIT
+Reset M 0 26939 10 26969
+#ENDROOM
+
+#ROOM
+Vnum     26970
+Name     &MThe Kraul Exit Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow, hidden tunnel behind Charlga's platform leads toward 
+the upper levels of the Barrens, offering a quick way out for 
+those who have defeated the Crone.
+~
+#EXIT
+Direction south~
+ToRoom    26956
+Desc      Charlga's Seat.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    26930
+Desc      The entrance portal.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
