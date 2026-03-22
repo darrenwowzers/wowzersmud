@@ -1999,8 +1999,16 @@ ToRoom    11220
 Desc      The southern entrance of The Drag.
 ~
 #ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11298
+Desc      A dark, sloping tunnel leads down into the Cleft of Shadow.
+~
+#ENDEXIT
 Reset M 0 11218 2 11221
 #ENDROOM
+
+
 
 #ROOM
 Vnum     11222
@@ -3322,6 +3330,31 @@ leading out into the untamed wilderness of Durotar.
 Direction south~
 ToRoom    11266
 Desc      The Plateau of the Elders.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11298
+Name     &dThe Cleft of Shadow&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     This massive underground cavern is dimly lit by glowing braziers and
+strange, luminescent fungi. The air is thick with the smell of brimstone
+and dark magic. Warlocks and rogues gather here, away from the prying
+eyes of the Warchief's guards. Deep within the cavern, a fiery, swirling
+portal leads into the volcanic depths of Ragefire Chasm.
+~
+#EXIT
+Direction up~
+ToRoom    11221
+Desc      The tunnel leads back up to The Drag.
+~
+#ENDEXIT
+#EXIT
+Direction in~
+ToRoom    11900
+Desc      Step through the fiery portal into Ragefire Chasm.
 ~
 #ENDEXIT
 #ENDROOM
