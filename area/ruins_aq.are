@@ -1,0 +1,3848 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Ruins of Ahn'Qiraj~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       60 60 0 60
+Economy      0 1500000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       42500
+Keywords   ossirian the unscarred boss qiraji elite~
+Short      Ossirian the Unscarred~
+Long       A massive Horusath guardian stands before the crystals, his stone skin pulsing with power.
+~
+Desc       The master of the Ruins. Ossirian was nearly killed in the War of the 
+Shifting Sands but was saved by the crystals of the Old Gods. He 
+is now an immortal sentinel of the Qiraji empire.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 800000 1500000
+Stats2     63 63 8000
+Stats3     75 350 110
+Stats4     0 0 0 0 0
+Attribs    45 15 35 30 30 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       42501
+Keywords   kurinnaxx boss sand-reaver elite~
+Short      Kurinnaxx~
+Long       A gargantuan sand-reaver snaps its serrated pincers, eyes fixed on your movement.
+~
+Desc       The primary guardian of the Grand Terrace. Kurinnaxx is a 
+massive biological engine of destruction, capable of burrowing 
+through solid rock to ambush his prey.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 75000 180000
+Stats2     61 61 0
+Stats3     35 110 80
+Stats4     0 0 0 0 0
+Attribs    40 12 35 4 8 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42502
+Keywords   general rajaxx boss qiraji elite~
+Short      General Rajaxx~
+Long       General Rajaxx stand atop the ramparts, bellowing orders to the swarm.
+~
+Desc       The commander of the Qiraji legions. He has waited a thousand 
+years for the gates to open and will not stop until the 
+world is consumed by the Sands.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 95000 250000
+Stats2     62 62 500
+Stats3     40 130 90
+Stats4     0 0 0 0 0
+Attribs    35 15 30 18 22 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       42503
+Keywords   moam boss obsidian statue elite~
+Short      Moam~
+Long       A massive obsidian construct in the shape of a winged beast hovers silently.
+~
+Desc       Forged from the very rock of the Silithus wastes, Moam is a 
+sentient magical battery that feeds on the mana of those 
+who dare oppose him.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 65000 180000
+Stats2     61 61 4500
+Stats3     35 115 82
+Stats4     0 0 0 0 0
+Attribs    30 10 35 40 35 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       42504
+Keywords   buru the feast-watcher boss egg elite~
+Short      Buru the Feast-watcher~
+Long       A massive, bloated silithid crawls toward the hatchery, dragging its distended abdomen.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 58000 160000
+Stats2     61 61 0
+Stats3     32 105 78
+Stats4     0 0 0 0 0
+Attribs    42 18 35 4 6 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42505
+Keywords   ayamiss the hunter boss wasp elite~
+Short      Ayamiss the Hunter~
+Long       A gargantuan winged insect circles the hatchery floor, its stinger dripping venom.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 55000 150000
+Stats2     61 61 0
+Stats3     30 95 75
+Stats4     0 0 0 0 0
+Attribs    32 25 28 6 10 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42506
+Keywords   qiraji gladiator warrior~
+Short      a Qiraji Gladiator~
+Long       A four-armed insect warrior in obsidian plate balances a pair of blades.
+~
+Desc       The elite shock troops of the city. They move with a 
+predatory grace and strike with a speed that defies their 
+heavy armament.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 8500 22000
+Stats2     60 60 200
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    32 15 25 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42507
+Keywords   qiraji mindslayer mage~
+Short      a Qiraji Mindslayer~
+Long       A floating, spectral insect priest radiates a wave of mental pain.
+~
+Desc       Masters of psychological warfare. They strike at the minds 
+of their enemies, causing them to turn on their allies in 
+a fit of madness.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 9000
+Stats2     60 60 2500
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    12 14 18 38 32 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42508
+Keywords   silithid warrior insect~
+Short      a Silithid Swarm-guard~
+Long       A hulking silithid warrior snaps its serrated claws, guarding the path.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 4500 12000
+Stats2     59 59 0
+Stats3     16 48 59
+Stats4     0 0 0 0 0
+Attribs    28 12 24 4 8 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42509
+Keywords   twilight cultist human mage~
+Short      a Twilight Infiltrator~
+Long       A human in dark purple robes mutters in the shadow of a pillar.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5000
+Stats2     60 60 2000
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42510
+Keywords   sand skitterer spider~
+Short      a Sand Skitterer~
+Long       A large pale spider blends perfectly with the white desert sand.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1100 3200
+Stats2     58 58 0
+Stats3     9 24 58
+Stats4     0 0 0 0 0
+Attribs    18 22 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       42511
+Keywords   obsidian sentinel construct~
+Short      an Obsidian Sentinel~
+Long       A stone statue in the shape of a guardian suddenly detaches from the wall.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 12000 35000
+Stats2     61 61 0
+Stats3     28 85 62
+Stats4     0 0 0 0 0
+Attribs    35 4 38 6 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42512
+Keywords   hakkari exile troll mage~
+Short      a Hakkari Exile~
+Long       A troll in tattered robes gazes at the ziggurat, whispering a dark prayer.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1600 4800
+Stats2     60 60 2200
+Stats3     12 35 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42513
+Keywords   qiraji lashlayer dragonspawn~
+Short      a Qiraji Lashlayer~
+Long       A dragonspawn with a massive three-pronged mace stand perfectly still.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 6500 18000
+Stats2     61 61 200
+Stats3     18 52 61
+Stats4     0 0 0 0 0
+Attribs    32 14 28 10 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42514
+Keywords   silithid swarmer insect~
+Short      a Silithid Swarmer~
+Long       A cloud of small flying insects hums with a deafening buzz.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 600 1800
+Stats2     58 58 0
+Stats3     5 15 58
+Stats4     0 0 0 0 0
+Attribs    12 24 10 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       42515
+Keywords   vespiary guard insect~
+Short      a Vespiary Guard~
+Long       A winged insectoid warrior stand guard over the hatchery entrance.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 0
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    24 22 20 6 10 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42516
+Keywords   twilight prophet cultist mage~
+Short      a Twilight Prophet~
+Long       A human in ornate robes stand atop a dune, screaming at the wind.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2500 7500
+Stats2     60 60 2500
+Stats3     14 42 60
+Stats4     0 0 0 0 0
+Attribs    12 12 18 38 32 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42517
+Keywords   qiraji tank warrior elite~
+Short      a Qiraji Tank~
+Long       A massive insect with legs like iron bars crawls over the bridge.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 10000 30000
+Stats2     61 61 0
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    40 4 35 8 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42518
+Keywords   sand crawler beast~
+Short      a Sand Crawler~
+Long       A large beetle-like insect with a shell of obsidian scuttles by.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1200 3500
+Stats2     59 59 0
+Stats3     8 22 59
+Stats4     0 0 0 0 0
+Attribs    20 18 20 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       42519
+Keywords   qiraji reaver warrior elite~
+Short      a Qiraji Reaver~
+Long       A humanoid insect in heavy plate armor balances a massive mace.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 9000 25000
+Stats2     61 61 300
+Stats3     24 70 62
+Stats4     0 0 0 0 0
+Attribs    35 12 30 14 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42520
+Keywords   chromatic watcher spirit mage~
+Short      a Shifting Watcher~
+Long       A floating eye of shifting colored energy scans the hall.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1000 3000
+Stats2     60 60 1500
+Stats3     7 20 60
+Stats4     0 0 0 0 0
+Attribs    10 25 14 35 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42521
+Keywords   vespiary worker insect~
+Short      a Vespiary Worker~
+Long       A small insect carries a piece of food toward the hive.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 800 2400
+Stats2     57 57 0
+Stats3     6 18 57
+Stats4     0 0 0 0 0
+Attribs    14 22 12 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       42522
+Keywords   qiraji champion warrior elite~
+Short      a Qiraji Champion~
+Long       A massive orc in heavy obsidian plate stand guard.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 7500 22000
+Stats2     61 61 400
+Stats3     22 65 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42523
+Keywords   hakkari high-priest troll shaman~
+Short      a Hakkari High-Priest~
+Long       A troll in dragon-scale robes mutters a dark blessing.
+~
+Race       troll~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1800 5500
+Stats2     61 61 2500
+Stats3     13 38 61
+Stats4     0 0 0 0 0
+Attribs    14 12 20 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42524
+Keywords   qiraji warden warrior elite~
+Short      a Qiraji Warden~
+Long       A massive humanoid dragon in prismatic scales stands guard.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 62 0 0 12000 35000
+Stats2     62 62 500
+Stats3     32 100 65
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 22 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       42525
+Keywords   shadow-stalker ghost troll~
+Short      a Shadow-stalker Ghost~
+Long       A translucent troll warrior strikes from the dark.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1600 4500
+Stats2     60 60 150
+Stats3     11 30 60
+Stats4     0 0 0 0 0
+Attribs    24 25 16 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42526
+Keywords   hakkari witch-doctor troll mage~
+Short      a Hakkari Witch-doctor~
+Long       A troll in feathered robes shakes a voodoo rattle.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 1800
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 16 14 32 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42527
+Keywords   gurubashi blood-drinker troll warrior~
+Short      a Gurubashi Blood-drinker~
+Long       A troll in rusted plate armor licks a curved dagger.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 13000
+Stats2     60 60 200
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42528
+Keywords   zulian cobra snake~
+Short      a Zulian Cobra~
+Long       A massive cobra with a fanned hood hisses at you.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1200 3500
+Stats2     60 60 0
+Stats3     8 22 60
+Stats4     0 0 0 0 0
+Attribs    18 20 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       42529
+Keywords   spectral sentinel ghost warrior~
+Short      a Spectral Sentinel~
+Long       A translucent troll in ancient plate armor stands perfectly still.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42530
+Keywords   hakkari warlock troll mage~
+Short      a Hakkari Warlock~
+Long       A troll in shadow-threaded robes mutter to a void-walker.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5200
+Stats2     60 60 2500
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42531
+Keywords   blood-petal sprout plant~
+Short      a Blood-petal Sprout~
+Long       A small, red-flowered plant skips across the garden floor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 400 1200
+Stats2     55 55 0
+Stats3     4 12 55
+Stats4     0 0 0 0 0
+Attribs    14 18 12 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       42532
+Keywords   zandalar envoy troll~
+Short      a Zandalar Envoy~
+Long       A troll in ornate silver armor watches the city with sorrow.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 2500 7000
+Stats2     60 60 100
+Stats3     12 32 60
+Stats4     0 0 0 0 0
+Attribs    22 10 18 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42533
+Keywords   zulian raptor beast~
+Short      a Zulian Raptor~
+Long       A lean raptor with bright red scales hisses at you.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4000
+Stats2     60 60 0
+Stats3     11 28 60
+Stats4     0 0 0 0 0
+Attribs    22 25 18 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       42534
+Keywords   hakkari blood-weaver troll mage~
+Short      a Hakkari Blood-weaver~
+Long       A troll in dark purple robes mutter an incantation of shadow.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1500 4500
+Stats2     60 60 2000
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42535
+Keywords   gurubashi butcher troll warrior~
+Short      a Gurubashi Butcher~
+Long       A troll in a bloody leather apron sharpen a massive cleaver.
+~
+Race       troll~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3000 8500
+Stats2     60 60 100
+Stats3     14 38 60
+Stats4     0 0 0 0 0
+Attribs    28 10 20 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42536
+Keywords   flickering shade spirit~
+Short      a Flickering Shade~
+Long       A dark, shadowy spirit wails as it floats above the floor.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1100 3200
+Stats2     60 60 1200
+Stats3     9 24 60
+Stats4     0 0 0 0 0
+Attribs    10 22 12 32 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42537
+Keywords   hakkari initiate troll mage~
+Short      a Hakkari Initiate~
+Long       A young troll priest mutter a dark prayer to the Blood God.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1200 3500
+Stats2     59 59 1000
+Stats3     10 25 59
+Stats4     0 0 0 0 0
+Attribs    10 12 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42538
+Keywords   zulian wasp beast insect~
+Short      a Zulian Wasp~
+Long       A massive winged insect drones through the air, tail coiled.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 800 2400
+Stats2     59 59 0
+Stats3     7 18 59
+Stats4     0 0 0 0 0
+Attribs    14 22 12 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       42539
+Keywords   spectral dancer ghost~
+Short      a Spectral Dancer~
+Long       A ghostly troll figure dances to a silent rhythm.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 600 1800
+Stats2     60 60 0
+Stats3     5 14 60
+Stats4     0 0 0 0 0
+Attribs    12 24 14 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42540
+Keywords   qiraji bone-stripper insect~
+Short      a Qiraji Bone-stripper~
+Long       A multi-armed insect warrior in rusted plate balances two blades.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     14 42 60
+Stats4     0 0 0 0 0
+Attribs    30 15 25 10 12 15 15
+#ENDMOBILE
+
+#OBJECT
+Vnum     42600
+Keywords sting desert swell mace weapon~
+Type     weapon~
+Short    the Sting of the Desert Swell~
+Long     A heavy stone mace that pulses with the rhythmic thrum of the hive.~
+WFlags   take wield~
+Values   12 22 45 8 0 0
+Stats    25 50000 60 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 25 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42601
+Keywords hand justice jewelry hold~
+Type     treasure~
+Short    the Hand of Justice~
+Long     A small iron hand that grants the bearer uncanny timing.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15000 55 0 0
+Rarity   3
+Affect   13 15 0 0 0
+Affect   18 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42602
+Keywords signet unscarred ring jewelry~
+Type     jewelry~
+Short    the Signet of the Unscarred~
+Long     A massive gold ring featuring the unblinking eye of Ossirian.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 12000 62 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   4 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42603
+Keywords robes royal crown body armor~
+Type     armor~
+Short    the Robes of the Royal Crown~
+Long     Fine silken robes of the deepest purple, embroidered with gold.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 10000 60 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42604
+Keywords qiraji sacred blade sword weapon~
+Type     weapon~
+Short    a Qiraji Sacred Blade~
+Long     A curved sword made of solid obsidian and bone.~
+WFlags   take wield~
+Values   12 15 35 3 0 0
+Stats    15 15000 61 0 0
+Rarity   2
+Affect   12 25 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42605
+Keywords hammer grace weapon~
+Type     weapon~
+Short    the Hammer of Grace~
+Long     A perfectly balanced smithing hammer that pulses with light.~
+WFlags   take wield~
+Values   12 12 24 8 0 0
+Stats    15 4500 58 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42606
+Keywords obsidian stone coin currency~
+Type     treasure~
+Short    an Obsidian Gold Coin~
+Long     An ancient Qiraji coin featuring a multi-eyed face.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     42607
+Keywords red qiraji bijou treasure~
+Type     treasure~
+Short    a Red Qiraji Bijou~
+Long     A faceted red gemstone that pulses with blood magic.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 2500 60 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     42608
+Keywords desert skitterer pelt fur trophy~
+Type     trash~
+Short    a thick skitterer pelt~
+Long     A magnificent pale-white pelt taken from a desert spider.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     42609
+Keywords fang kurinnaxx weapon dagger~
+Type     weapon~
+Short    the Fang of Kurinnaxx~
+Long     A jagged dagger carved from a sand-reaver's tooth.~
+WFlags   take wield~
+Values   12 12 22 11 0 0
+Stats    2 15000 61 0 0
+Rarity   2
+Affect   2 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42610
+Keywords rajaxx's crusher mace weapon~
+Type     weapon~
+Short    Rajaxx's Crusher~
+Long     A heavy stone mace designed to shatter shields and bone.~
+WFlags   take wield~
+Values   12 18 35 8 0 0
+Stats    25 15000 61 0 0
+Rarity   2
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42611
+Keywords moam's eye jewelry neck~
+Type     jewelry~
+Short    Moam's Eye~
+Long     A necklace featuring a large, multi-faceted obsidian eye.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42612
+Keywords buru's girth belt waist armor~
+Type     armor~
+Short    Buru's Girth~
+Long     A massive leather belt reinforced with chitinous plates.~
+WFlags   take waist~
+Values   12 0 0 0 0 0
+Stats    5 8500 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42613
+Keywords ayamiss's hood head armor~
+Type     armor~
+Short    Ayamiss's Hood of the Stinger~
+Long     A light mesh hood that grants uncanny peripheral vision.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    3 8500 60 0 0
+Rarity   2
+Affect   2 15 0 0 0
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42614
+Keywords halberd smiting weapon~
+Type     weapon~
+Short    the Halberd of Smiting~
+Long     A massive polearm that glows with a golden light.~
+WFlags   take wield~
+Values   12 20 40 11 0 0
+Stats    30 25000 62 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   5 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42615
+Keywords aegis qiraji shield armor~
+Type     armor~
+Short    the Aegis of the Qiraji~
+Long     A heavy stone shield reinforced with obsidian and bone.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 12000 61 0 0
+Rarity   2
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42616
+Keywords blood-petal bloom treasure hold~
+Type     treasure~
+Short    a Blood-petal Bloom~
+Long     A vibrant red flower that stays fresh for an eternity.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   0
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42617
+Keywords dreamfoil bundle herb treasure~
+Type     treasure~
+Short    a bundle of Dreamfoil~
+Long     Silvery leaves that smell of the Emerald Dream.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 350 60 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42618
+Keywords gromsblood sprig herb treasure~
+Type     treasure~
+Short    a sprig of Gromsblood~
+Long     A dark leafy herb that smells faintly of demons.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 400 60 0 0
+Rarity   1
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42619
+Keywords sungrass bunch herb treasure~
+Type     treasure~
+Short    a bunch of Sungrass~
+Long     Vibrant golden leaves that grow in the sun.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 55 0 0
+Rarity   0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42620
+Keywords mountain silversage bunch herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     Elegant silvery leaves found on the high cliffs.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 350 60 0 0
+Rarity   1
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42621
+Keywords qiraji signet ring jewelry~
+Type     jewelry~
+Short    a Qiraji Signet Ring~
+Long     A gold ring featuring the sigil of the Shifting Sands.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 5500 60 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42622
+Keywords reavery claw trophy~
+Type     trash~
+Short    a sharp reaver claw~
+Long     A long, curved talon taken from a sand-reaver.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     42623
+Keywords voodoo fetish treasure hold~
+Type     treasure~
+Short    an Ancient Qiraji Fetish~
+Long     A small, shriveled hand clutching an obsidian needle.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 3500 58 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42624
+Keywords spectral silk bolt loot~
+Type     treasure~
+Short    a bolt of Spectral Silk~
+Long     Fine, translucent cloth taken from Qiraji ghosts.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 2500 60 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     42625
+Keywords desert root food~
+Type     food~
+Short    a bundle of desert-roots~
+Long     Tough, fibrous roots that provide excellent nourishment.~
+WFlags   take~
+Values   30 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42626
+Keywords bloodvine treasure loot~
+Type     treasure~
+Short    a length of Bloodvine~
+Long     A rare, deep red vine used in high-level tailoring.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 15000 62 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     42627
+Keywords murloc eye trophy~
+Type     trash~
+Short    a bulging murloc eye~
+Long     A large, glassy eye taken from a city murloc.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42628
+Keywords mossy temple stone trash~
+Type     trash~
+Short    a mossy temple stone~
+Long     A heavy square of masonry fallen from a ziggurat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42629
+Keywords spider venom flask treasure~
+Type     treasure~
+Short    a flask of Corrosive Venom~
+Long     A glass jar containing bubbling, purple spider venom.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 55 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42630
+Keywords fang ossirian dagger weapon~
+Type     weapon~
+Short    the Fang of Ossirian~
+Long     A long dagger carved from the tooth of a winged sentinel.~
+WFlags   take wield~
+Values   12 15 30 11 0 0
+Stats    2 25000 64 0 0
+Rarity   3
+Affect   2 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42631
+Keywords sand-soaked cowl head armor~
+Type     armor~
+Short    the Sand-soaked Cowl~
+Long     A dark purple hood that smells of copper and dust.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    3 6500 58 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42632
+Keywords gauntlets might hands armor~
+Type     armor~
+Short    a pair of Gauntlets of Might~
+Long     Heavy plate gauntlets featuring the crest of Lordaeron.~
+WFlags   take hands~
+Values   20 0 0 0 0 0
+Stats    8 12000 61 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42633
+Keywords staff shadow-fire weapon~
+Type     weapon~
+Short    the Staff of Shadow-fire~
+Long     A staff of blackened wood that hums with chaotic energy.~
+WFlags   take wield~
+Values   12 12 25 7 0 0
+Stats    12 15000 62 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42634
+Keywords qiraji ritual mace weapon~
+Type     weapon~
+Short    a Qiraji Ritual Mace~
+Long     A heavy stone mace decorated with colorful feathers.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    22 8500 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42635
+Keywords shadow-vial treasure hold~
+Type     treasure~
+Short    a vial of Shadow-Residue~
+Long     A small glass vial containing a swirling cloud of purple gas.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1500 58 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42636
+Keywords runecloth bolt treasure loot~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     42637
+Keywords scourge stone corrupt treasure~
+Type     treasure~
+Short    a Corrupt Scourgestone~
+Long     A jagged green stone marked with the seal of the Scourge.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     42638
+Keywords tribal mask head armor~
+Type     armor~
+Short    a Qiraji Tribal Mask~
+Long     A wooden mask painted with the image of a screaming insect.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    2 3500 56 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42639
+Keywords bone-handled cleaver weapon~
+Type     weapon~
+Short    a Bone-handled Cleaver~
+Long     A massive heavy sword used by the city butchers.~
+WFlags   take wield~
+Values   12 12 25 3 0 0
+Stats    15 2500 55 0 0
+Rarity   1
+Affect   1 8 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     42700
+Name     &WThe Gates of Ahn'Qiraj&d~
+Sector   city~
+Flags    indoors~
+Desc     The white sandstone walls of the ancient Qiraji capital tower 
+overhead, reaching toward the bruised sky of Silithus. A 
+massive set of gates, long sealed by the Kaldorei, have 
+shattered, revealing a wide, sand-swept plaza. The air is 
+dry and carries the scent of ancient stone and buzzing 
+insectoid wings. A shimmering portal glows within the 
+main archway.
+~
+#EXIT
+Direction out~
+ToRoom    39100
+Desc      Return to the Scarab Wall in Silithus.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42701
+Desc      The Entry Plaza.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     42701
+Name     &WThe Entry Plaza&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive, open-air square filled with white sand and the 
+remains of ancient night elven statues. To the west, a 
+wide ramp leads toward the Grand Terrace of Kurinnaxx. 
+To the east, the city streets lead toward the General's 
+Command. High above, the towers of the inner city loom.
+~
+#EXIT
+Direction south~
+ToRoom    42700
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    42702
+Desc      Toward the Grand Terrace.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42800
+Desc      Toward the General's Command.~
+#ENDEXIT
+Reset M 0 42506 10 42701
+#ENDROOM
+
+#ROOM
+Vnum     42702
+Name     &WThe Road to the Grand Terrace - Entry&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide road marked by massive obsidian pillars. To the west, the 
+ground rises into a series of tiered balconies. Qiraji 
+gladiators patrol the road in pairs, their blades 
+gleaming in the desert haze.
+~
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      The entry plaza.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    42703
+Desc      The Grand Terrace.~
+#ENDEXIT
+Reset M 0 42506 5 42702
+#ENDROOM
+
+#ROOM
+Vnum     42703
+Name     &WThe Grand Terrace of Kurinnaxx&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular terrace at the western edge of the city. 
+The floor is composed of solid white stone, cracked by the 
+heat. Kurinnaxx stands in the center, his massive pinchers 
+snapping as he scans the plaza for movement. To the 
+north, a tunnel leads toward the Hive'Ashi tunnels.
+~
+#EXIT
+Direction east~
+ToRoom    42702
+Desc      The terrace road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42704
+Desc      Toward the Silithid Tunnels.~
+#ENDEXIT
+Reset M 0 42501 1 42703
+  Reset G 1 42609 1
+Reset M 0 42508 10 42703
+#ENDROOM
+
+#ROOM
+Vnum     42710
+Name     &WThe General's Command - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The architecture here becomes more militaristic, with high stone 
+ramparts and watchtowers. The sound of thousands of 
+clashing blades echoes from the square ahead. General 
+Rajaxx can be heard shouting orders to his men.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      The entry plaza.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42711
+Desc      The Command Square.~
+#ENDEXIT
+Reset M 0 42502 1 42710
+#ENDROOM
+
+#ROOM
+Vnum     42711
+Name     &WThe Command Square of General Rajaxx&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide plaza filled with hundreds of Qiraji warriors preparing 
+for battle. General Rajaxx stands upon a raised stone 
+platform, his eyes glowing with the fire of a thousand 
+campaigns. He is the heartbeat of the city's army.
+~
+#EXIT
+Direction west~
+ToRoom    42710
+Desc      The command entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42720
+Desc      Toward the Reservoir.~
+#ENDEXIT
+Reset M 0 42502 1 42711
+  Reset G 1 42610 1
+Reset M 0 42506 10 42711
+#ENDROOM
+
+#ROOM
+Vnum     42800
+Name     &WThe Reservoir - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The jungle paths give way to a large circular hall filled with 
+shimmering magical static. This is the city's primary 
+mana-storage facility. The air hums with unstable energy.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      The entry plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42801
+Desc      The Reservoir Basin.~
+#ENDEXIT
+Reset M 0 42503 1 42800
+#ENDROOM
+
+#ROOM
+Vnum     42801
+Name     &WThe Reservoir of Moam&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive pit filled with hundreds of small obsidian pillars. 
+The winged construct Moam hovers in the center, siphoning 
+the mana from the air. Three large mana-aberrations circle 
+him, their bodies pulsing with stolen power.
+~
+#EXIT
+Direction south~
+ToRoom    42800
+Desc      The reservoir entry.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42810
+Desc      Toward the Hatchery.~
+#ENDEXIT
+Reset M 0 42503 1 42801
+  Reset G 1 42611 1
+Reset M 0 42520 5 42801
+#ENDROOM
+
+#ROOM
+Vnum     42810
+Name     &WThe Hatchery - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The stone walls are replaced by a hardened, resin-like 
+substance. The air is warm and moist, smelling of 
+ammonia and old decay. Hundreds of small insects 
+swarm in the dim light.
+~
+#EXIT
+Direction west~
+ToRoom    42801
+Desc      The reservoir.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42811
+Desc      The Brood Chamber.~
+#ENDEXIT
+Reset M 0 42515 10 42810
+#ENDROOM
+
+#ROOM
+Vnum     42811
+Name     &WThe Brood Chamber of Buru&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular room filled with thousands of dragon-egg 
+sacs. Buru the Feast-watcher stands in the center, his 
+bloated form blocking the way. He watches the eggs 
+with the single-minded focus of a protector.
+~
+#EXIT
+Direction south~
+ToRoom    42810
+Desc      The hatchery entry.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    42812
+Desc      The Nest of Ayamiss.~
+#ENDEXIT
+Reset M 0 42504 1 42811
+  Reset G 1 42612 1
+#ENDROOM
+
+#ROOM
+Vnum     42812
+Name     &WThe Nest of Ayamiss the Hunter&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone platform built into the ceiling of the hatchery. 
+Ayamiss the Hunter circles overhead, her wings casting 
+a wide shadow over the eggs below. She dives on 
+anyone who threatens her brood.
+~
+#EXIT
+Direction down~
+ToRoom    42811
+Desc      Return to the chamber.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Toward the Terrace of Watchers.~
+#ENDEXIT
+Reset M 0 42505 1 42812
+  Reset G 1 42613 1
+Reset M 0 42514 10 42812
+#ENDROOM
+
+#ROOM
+Vnum     42850
+Name     &WThe Terrace of Watchers - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The final level of the city. The architecture is grand 
+and clinical, with white marble pillars carved in the 
+image of massive winged sentinels. High-ranking 
+dragonspawn stand in silent vigil.
+~
+#EXIT
+Direction south~
+ToRoom    42812
+Desc      The hatchery nest.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42851
+Desc      The Hall of Ossirian.~
+#ENDEXIT
+Reset M 0 42524 5 42850
+#ENDROOM
+
+#ROOM
+Vnum     42851
+Name     &WThe Hall of Ossirian the Unscarred&d~
+Sector   city~
+Flags    indoors~
+Desc     The peak of the ruins. Ossirian the Unscarred stands in 
+the center of a large circular hall, surrounded by 
+magical crystals. He oversees the Qiraji's southern 
+operations from this very seat. The air hums with 
+unfathomable power.
+~
+#EXIT
+Direction south~
+ToRoom    42850
+Desc      The terrace entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42900
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 42500 1 42851
+  Reset G 1 42630 1
+  Reset G 1 42602 1
+  Reset E 1 42600 1 16
+Reset M 0 42511 5 42851
+#ENDROOM
+
+#ROOM
+Vnum     42705
+Name     &WKurinnaxx Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the grand terrace filled with 
+shattered statues and bits of obsidian.
+~
+#EXIT
+Direction south~
+ToRoom    42703
+Desc      Grand terrace.~
+#ENDEXIT
+Reset M 0 42508 5 42705
+#ENDROOM
+
+#ROOM
+Vnum     42706
+Name     &WKurinnaxx Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room used by the reavers to 
+store their jagged pincers and coins.
+~
+#EXIT
+Direction east~
+ToRoom    42703
+Desc      Grand terrace.~
+#ENDEXIT
+Reset O 0 42606 10 42706
+#ENDROOM
+
+#ROOM
+Vnum     42712
+Name     &WRajaxx Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the command square, 
+offering a view of the southern city.
+~
+#EXIT
+Direction south~
+ToRoom    42711
+Desc      Rajaxx's square.~
+#ENDEXIT
+Reset M 0 42520 5 42712
+#ENDROOM
+
+#ROOM
+Vnum     42713
+Name     &WRajaxx Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop where the orc smiths 
+repair damaged plate armor.
+~
+#EXIT
+Direction east~
+ToRoom    42711
+Desc      Rajaxx's square.~
+#ENDEXIT
+Reset O 0 42632 10 42713
+#ENDROOM
+
+#ROOM
+Vnum     42802
+Name     &WMoam Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side tunnel in the reservoir filled with 
+discarded basalt and bits of iron ore.
+~
+#EXIT
+Direction north~
+ToRoom    42801
+Desc      Moam's pit.~
+#ENDEXIT
+Reset O 0 42613 10 42802
+#ENDROOM
+
+#ROOM
+Vnum     42803
+Name     &WMoam Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow ledge where several mindslayers study 
+the flow of the arcane mana.
+~
+#EXIT
+Direction south~
+ToRoom    42801
+Desc      Moam's pit.~
+#ENDEXIT
+Reset M 0 42507 5 42803
+#ENDROOM
+
+#ROOM
+Vnum     42813
+Name     &WHatchery Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the brood chamber filled with 
+thick webs and the scent of ammonia.
+~
+#EXIT
+Direction south~
+ToRoom    42811
+Desc      Buru's chamber.~
+#ENDEXIT
+Reset M 0 42514 10 42813
+#ENDROOM
+
+#ROOM
+Vnum     42814
+Name     &WHatchery Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with dragon-hide belts 
+and ancient Qiraji bijoux.
+~
+#EXIT
+Direction north~
+ToRoom    42811
+Desc      Buru's chamber.~
+#ENDEXIT
+Reset O 0 42612 1 42814
+#ENDROOM
+
+#ROOM
+Vnum     42722
+Name     &WThe Shifting Dunes - West&d~
+Sector   city~
+Flags    indoors~
+Desc     A section of the city where the sand has piled 
+high against the walls.
+~
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42510 10 42722
+#ENDROOM
+
+#ROOM
+Vnum     42723
+Name     &WThe Shifting Dunes - East&d~
+Sector   city~
+Flags    indoors~
+Desc     Another section of the white dunes, home 
+to several large sand crawlers.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42518 10 42723
+#ENDROOM
+
+#ROOM
+Vnum     42730
+Name     &WThe City Road - West 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide stone road leading through the city's 
+residential district.
+~
+#EXIT
+Direction north~
+ToRoom    42731
+Desc      West Road 2.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    42702
+Desc      Terrace road entry.~
+#ENDEXIT
+Reset M 0 42506 5 42730
+#ENDROOM
+
+#ROOM
+Vnum     42731
+Name     &WThe City Road - West 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The road turns sharply as it approaches the 
+high ziggurat of the watchers.
+~
+#EXIT
+Direction south~
+ToRoom    42730
+Desc      West Road 1.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42732
+Desc      West Road 3.~
+#ENDEXIT
+Reset O 42616 10 42731
+#ENDROOM
+
+#ROOM
+Vnum     42732
+Name     &WThe City Road - West 3&d~
+Sector   city~
+Flags    indoors~
+Desc     The road opens into a wide plateau overlooking 
+the western city ruins.
+~
+#EXIT
+Direction west~
+ToRoom    42731
+Desc      West Road 2.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Terrace of Watchers entry.~
+#ENDEXIT
+Reset M 0 42524 5 42732
+#ENDROOM
+
+#ROOM
+Vnum     42820
+Name     &WThe City Road - East 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A muddy trail leading into the eastern industrial 
+hub. The air is stagnant.
+~
+#EXIT
+Direction north~
+ToRoom    42821
+Desc      East Road 2.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    42710
+Desc      Command entry.~
+#ENDEXIT
+Reset M 0 42506 5 42820
+#ENDROOM
+
+#ROOM
+Vnum     42821
+Name     &WThe City Road - East 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The road winds up a low hill. Several 
+obsidian-idols line the trail.
+~
+#EXIT
+Direction south~
+ToRoom    42820
+Desc      East Road 1.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42800
+Desc      Reservoir entry.~
+#ENDEXIT
+Reset O 42621 1 42821
+#ENDROOM
+
+#ROOM
+Vnum     42750
+Name     &WThe Gladiator Pit - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular pit filled with hundreds of 
+sand skitterers.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42751
+Desc      The Pit Floor.~
+#ENDEXIT
+Reset M 0 42506 10 42750
+#ENDROOM
+
+#ROOM
+Vnum     42751
+Name     &WThe Gladiator Pit - Floor&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the pit. Gurd the Gladiator can 
+be seen standing in the center.
+~
+#EXIT
+Direction south~
+ToRoom    42750
+Desc      Pit entrance.~
+#ENDEXIT
+Reset M 0 42522 5 42751
+#ENDROOM
+
+#ROOM
+Vnum     42752
+Name     &WPit Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop where the pit armor 
+is polished.
+~
+#EXIT
+Direction west~
+ToRoom    42751
+Desc      Pit floor.~
+#ENDEXIT
+Reset O 0 42638 10 42752
+#ENDROOM
+
+#ROOM
+Vnum     42753
+Name     &WThe Worg Pen&d~
+Sector   city~
+Flags    indoors~
+Desc     A high-walled room filled with dozens of 
+hungry blackrock worgs.
+~
+#EXIT
+Direction south~
+ToRoom    42751
+Desc      Pit floor.~
+#ENDEXIT
+Reset M 0 42514 10 42753
+#ENDROOM
+
+#ROOM
+Vnum     42760
+Name     &WThe City Market - West&d~
+Sector   city~
+Flags    indoors~
+Desc     Once a bustling trade hub, now a ruin 
+filled with white sand.
+~
+#EXIT
+Direction east~
+ToRoom    42761
+Desc      Market Center.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42515 5 42760
+#ENDROOM
+
+#ROOM
+Vnum     42761
+Name     &WThe City Market - Center&d~
+Sector   city~
+Flags    indoors~
+Desc     The center of the trade hub. A large 
+fountain is now a nest for wasps.
+~
+#EXIT
+Direction west~
+ToRoom    42760
+Desc      Market West.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42762
+Desc      Market East.~
+#ENDEXIT
+Reset M 0 42514 10 42761
+#ENDROOM
+
+#ROOM
+Vnum     42762
+Name     &WThe City Market - East&d~
+Sector   city~
+Flags    indoors~
+Desc     The eastern end of the market, leading 
+toward the high terraces.
+~
+#EXIT
+Direction west~
+ToRoom    42761
+Desc      Market Center.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Terrace of Watchers entrance.~
+#ENDEXIT
+Reset O 0 42606 10 42762
+#ENDROOM
+
+#ROOM
+Vnum     42770
+Name     &WThe Silent Library - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large stone hall filled with the scent 
+of old parchment and magic.
+~
+#EXIT
+Direction north~
+ToRoom    42771
+Desc      The Library Stacks.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42523 5 42770
+#ENDROOM
+
+#ROOM
+Vnum     42771
+Name     &WThe Library Stacks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Row upon row of books reaching toward the 
+high ceiling. Many are written in Qiraji.
+~
+#EXIT
+Direction south~
+ToRoom    42770
+Desc      Library entrance.~
+#ENDEXIT
+Reset O 0 42633 1 42771
+#ENDROOM
+
+#ROOM
+Vnum     42780
+Name     &WThe Voodoo Chambers - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark hallway leading toward the city's 
+ritual basements.
+~
+#EXIT
+Direction north~
+ToRoom    42781
+Desc      The Central Chamber.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42512 10 42780
+#ENDROOM
+
+#ROOM
+Vnum     42781
+Name     &WThe Central Voodoo Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide circular room filled with jars 
+of shadow-residue and mojos.
+~
+#EXIT
+Direction south~
+ToRoom    42780
+Desc      Chamber entry.~
+#ENDEXIT
+Reset O 0 42635 10 42781
+#ENDROOM
+
+#ROOM
+Vnum     42870
+Name     &WThe High Ledge - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A stone balcony offering a clear view of 
+the inner city from the north.
+~
+#EXIT
+Direction south~
+ToRoom    42851
+Desc      Ossirian's hall.~
+#ENDEXIT
+Reset M 0 42513 5 42870
+#ENDROOM
+
+#ROOM
+Vnum     42871
+Name     &WThe High Ledge - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A stone balcony overlooking the entire 
+southern city ruins.
+~
+#EXIT
+Direction north~
+ToRoom    42851
+Desc      Ossirian's hall.~
+#ENDEXIT
+Reset O 42620 10 42871
+#ENDROOM
+
+#ROOM
+Vnum     42880
+Name     &WThe City Slums - West&d~
+Sector   city~
+Flags    indoors~
+Desc     The poorest section of the city, now a 
+mess of broken huts and garbage.
+~
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42515 10 42880
+#ENDROOM
+
+#ROOM
+Vnum     42881
+Name     &WThe City Slums - East&d~
+Sector   city~
+Flags    indoors~
+Desc     Another section of the slums, home to 
+several large Plagueland rats.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42521 10 42881
+#ENDROOM
+
+#ROOM
+Vnum     42890
+Name     &WThe Zandalar Watch&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room near the entrance where 
+Zandalar envoys monitor the city.
+~
+#EXIT
+Direction north~
+ToRoom    42700
+Desc      The city gates.~
+#ENDEXIT
+Reset M 0 42532 1 42890
+#ENDROOM
+
+#ROOM
+Vnum     42900
+Name     &rThe Ahn'Qiraj Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow stone tunnel behind the Sentinel's throne 
+leads toward a hidden opening in the Silithus 
+cliffs, offering a quick way back for those who 
+have defeated the Unscarred.
+~
+#EXIT
+Direction south~
+ToRoom    42851
+Desc      Ossirian's hall.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    42700
+Desc      The entrance gates.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     42733
+Name     &WDune Overflow 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A dense thicket of ferns where blood-petal 
+sprouts dance in the damp air.
+~
+#EXIT
+Direction south~
+ToRoom    42732
+Desc      West Road 3.~
+#ENDEXIT
+Reset M 0 42531 10 42733
+#ENDROOM
+
+#ROOM
+Vnum     42734
+Name     &WDune Overflow 2&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet grotto filled with sungrass and 
+the scent of exotic flowers.
+~
+#EXIT
+Direction east~
+ToRoom    42732
+Desc      West Road 3.~
+#ENDEXIT
+Reset O 0 42619 10 42734
+#ENDROOM
+
+#ROOM
+Vnum     42822
+Name     &WDune Overflow 3&d~
+Sector   city~
+Flags    indoors~
+Desc     A side tunnel near the tiger plateau, 
+frequently patrolled by qiraji gladiators.
+~
+#EXIT
+Direction west~
+ToRoom    42821
+Desc      East Road 2.~
+#ENDEXIT
+Reset M 0 42506 5 42822
+#ENDROOM
+
+#ROOM
+Vnum     42823
+Name     &WDune Overflow 4&d~
+Sector   city~
+Flags    indoors~
+Desc     A rocky ledge near the panther sanctuary, 
+offering a good view of the eastern city.
+~
+#EXIT
+Direction south~
+ToRoom    42821
+Desc      East Road 2.~
+#ENDEXIT
+Reset M 0 42525 5 42823
+#ENDROOM
+
+#ROOM
+Vnum     42707
+Name     &WEntry Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small side chamber in the entry plaza 
+filled with murloc eyes and bones.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset O 0 42627 10 42707
+#ENDROOM
+
+#ROOM
+Vnum     42708
+Name     &WEntry Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the gates, 
+home to several rockwing gargoyles.
+~
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42520 5 42708
+#ENDROOM
+
+#ROOM
+Vnum     42714
+Name     &WCommand Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark alcove near the command square where 
+shadowcasters rest between rituals.
+~
+#EXIT
+Direction north~
+ToRoom    42711
+Desc      Command square.~
+#ENDEXIT
+Reset M 0 42509 5 42714
+#ENDROOM
+
+#ROOM
+Vnum     42715
+Name     &WCommand Overflow D&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with snake venom and 
+the fragments of a broken altar.
+~
+#EXIT
+Direction south~
+ToRoom    42711
+Desc      Command square.~
+#ENDEXIT
+Reset O 0 42629 10 42715
+#ENDROOM
+
+#ROOM
+Vnum     42805
+Name     &WReservoir Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the reservoir, 
+offering a view of the western river.
+~
+#EXIT
+Direction west~
+ToRoom    42801
+Desc      Moam's pit.~
+#ENDEXIT
+Reset M 0 42510 5 42805
+#ENDROOM
+
+#ROOM
+Vnum     42806
+Name     &WReservoir Overflow D&d~
+Sector   city~
+Flags    indoors~
+Desc     A small storage room for skitterer pelts 
+and bone-piles.
+~
+#EXIT
+Direction east~
+ToRoom    42801
+Desc      Moam's pit.~
+#ENDEXIT
+Reset O 42608 5 42806
+#ENDROOM
+
+#ROOM
+Vnum     42815
+Name     &WHatchery Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark corner of the hatchery sanctuary 
+where the shadows seem to move.
+~
+#EXIT
+Direction east~
+ToRoom    42811
+Desc      Buru's chamber.~
+#ENDEXIT
+Reset M 0 42536 10 42814
+#ENDROOM
+
+#ROOM
+Vnum     42816
+Name     &WHatchery Overflow D&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with sharp mandibles 
+and spectral silk.
+~
+#EXIT
+Direction west~
+ToRoom    42811
+Desc      Buru's chamber.~
+#ENDEXIT
+Reset O 0 42624 10 42816
+#ENDROOM
+
+#ROOM
+Vnum     42856
+Name     &rTerrace Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side tunnel in the terrace base filled 
+with ancient stone tablets and dust.
+~
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Terrace base.~
+#ENDEXIT
+Reset O 0 42628 10 42856
+#ENDROOM
+
+#ROOM
+Vnum     42857
+Name     &rTerrace Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow ledge where several shadowcasters 
+conduct their rituals.
+~
+#EXIT
+Direction south~
+ToRoom    42850
+Desc      Terrace base.~
+#ENDEXIT
+Reset M 0 42509 5 42857
+#ENDROOM
+
+#ROOM
+Vnum     42740
+Name     &WThe Pit Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A muddy bank filled with large stones and 
+the scent of old blood.
+~
+#EXIT
+Direction east~
+ToRoom    42751
+Desc      Pit floor.~
+#ENDEXIT
+Reset M 0 42514 5 42740
+#ENDROOM
+
+#ROOM
+Vnum     42741
+Name     &WThe Pit Overflow C&d~
+Sector   city~
+Flags    indoors~
+Desc     A sandy bank where several sand skitterers 
+have come to drink.
+~
+#EXIT
+Direction west~
+ToRoom    42751
+Desc      Pit floor.~
+#ENDEXIT
+Reset M 0 42510 5 42741
+#ENDROOM
+
+#ROOM
+Vnum     42742
+Name     &WThe High Stone Bridge&d~
+Sector   city~
+Flags    indoors~
+Desc     An elegant stone arch crossing the city district. 
+The carvings are worn but still beautiful.
+~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Terrace entry.~
+#ENDEXIT
+Reset M 0 42529 5 42742
+#ENDROOM
+
+#ROOM
+Vnum     42743
+Name     &WThe Hidden Sand-Cleft&d~
+Sector   city~
+Flags    indoors dark~
+Desc     A secret room tucked away behind a fallen statue. 
+The air is pure and glows with a soft light.
+~
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset O 0 42616 10 42743
+#ENDROOM
+
+#ROOM
+Vnum     42830
+Name     &WThe Terrace Plaza - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide stone landing offering a commanding 
+view of the city's northern district.
+~
+#EXIT
+Direction south~
+ToRoom    42850
+Desc      Terrace base.~
+#ENDEXIT
+Reset M 0 42527 5 42830
+#ENDROOM
+
+#ROOM
+Vnum     42831
+Name     &WThe Terrace Plaza - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet square filled with mummified 
+remains and the smell of rot.
+~
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Terrace base.~
+#ENDEXIT
+Reset M 0 42521 10 42831
+#ENDROOM
+
+#ROOM
+Vnum     42832
+Name     &WThe Watcher's Walk&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow trail leading through the city's 
+religious district.
+~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42509 10 42832
+#ENDROOM
+
+#ROOM
+Vnum     42833
+Name     &WThe Highborne Bastion - Ruins&d~
+Sector   inside~
+Flags    indoors~
+Desc     The grandest building in the city is now 
+a shell filled with desert-roots.
+~
+#EXIT
+Direction east~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset O 0 42636 10 42833
+#ENDROOM
+
+#ROOM
+Vnum     42834
+Name     &WThe Archive Side-room C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for ancient scrolls and 
+voodoo rattles.
+~
+#EXIT
+Direction west~
+ToRoom    42771
+Desc      Library stacks.~
+#ENDEXIT
+Reset O 0 42633 1 42834
+#ENDROOM
+
+#ROOM
+Vnum     42835
+Name     &WThe Summoner's Alcove B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner where the hakkari initiate 
+study their hexes.
+~
+#EXIT
+Direction east~
+ToRoom    42771
+Desc      Library stacks.~
+#ENDEXIT
+Reset M 0 42537 5 42835
+#ENDROOM
+
+#ROOM
+Vnum     42836
+Name     &WThe Slum Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the slums where the 
+butchers prepare the city's meat.
+~
+#EXIT
+Direction north~
+ToRoom    42880
+Desc      West slums.~
+#ENDEXIT
+Reset M 0 42535 5 42836
+#ENDROOM
+
+#ROOM
+Vnum     42837
+Name     &WThe Voodoo Hospital&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room in the basements where 
+the witch-doctors treat the veterans.
+~
+#EXIT
+Direction south~
+ToRoom    42781
+Desc      Voodoo chamber.~
+#ENDEXIT
+Reset M 0 42526 5 42837
+#ENDROOM
+
+#ROOM
+Vnum     42838
+Name     &WThe Terrace Garden&d~
+Sector   city~
+Flags    indoors~
+Desc     A rare balcony that stays remarkably 
+clear of the city's decay.
+~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset O 42616 10 42838
+#ENDROOM
+
+#ROOM
+Vnum     42839
+Name     &WThe Watcher's Grotto&d~
+Sector   city~
+Flags    indoors dark~
+Desc     A small cavern hidden beneath the watchers terrace.
+~
+#EXIT
+Direction up~
+ToRoom    42850
+Desc      Terrace base.~
+#ENDEXIT
+Reset M 0 42510 10 42839
+#ENDROOM
+
+#ROOM
+Vnum     42840
+Name     &WThe Ledge of the Unscarred&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the terrace 
+summit, home to several mindslayers.
+~
+#EXIT
+Direction down~
+ToRoom    42851
+Desc      Ossirian's hall.~
+#ENDEXIT
+Reset M 0 42525 10 42840
+#ENDROOM
+
+#ROOM
+Vnum     42841
+Name     &WThe Final Path - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet central garden near the city's exit.
+~
+#EXIT
+Direction south~
+ToRoom    42900
+Desc      Exit path.~
+#ENDEXIT
+Reset O 0 42625 10 42841
+#ENDROOM
+
+#ROOM
+Vnum     42842
+Name     &WThe Path of the Bat - Middle&d~
+Sector   city~
+Flags    indoors~
+Desc     A winding section of the western jungle trail.
+~
+#EXIT
+Direction north~
+ToRoom    42703
+Desc      Grand Terrace.~
+#ENDEXIT
+Reset M 0 42511 5 42842
+#ENDROOM
+
+#ROOM
+Vnum     42843
+Name     &WThe Path of the General - Middle&d~
+Sector   city~
+Flags    indoors~
+Desc     A humid section of the trail near the command square.
+~
+#EXIT
+Direction east~
+ToRoom    42711
+Desc      Command square.~
+#ENDEXIT
+Reset M 0 42506 5 42843
+#ENDROOM
+
+#ROOM
+Vnum     42844
+Name     &WThe Road of the Watchers - Middle&d~
+Sector   city~
+Flags    indoors~
+Desc     A section of the trail filled with obsidian idols.
+~
+#EXIT
+Direction north~
+ToRoom    42850
+Desc      Terrace entry.~
+#ENDEXIT
+Reset M 0 42510 5 42844
+#ENDROOM
+
+#ROOM
+Vnum     42845
+Name     &WThe Shadow Road - Middle&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark section of the trail where the light never reaches.
+~
+#EXIT
+Direction south~
+ToRoom    42800
+Desc      Reservoir entry.~
+#ENDEXIT
+Reset M 0 42521 5 42845
+#ENDROOM
+
+#ROOM
+Vnum     42846
+Name     &WThe Terrace Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     A confusing series of stone rooms near the city base.
+~
+#EXIT
+Direction north~
+ToRoom    42847
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42506 10 42846
+#ENDROOM
+
+#ROOM
+Vnum     42847
+Name     &WThe Terrace Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The second cell of the base labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42846
+Desc      Labyrinth 1.~
+#EXIT
+Direction north~
+ToRoom    42848
+Desc      Labyrinth 3.~
+#ENDEXIT
+Reset M 0 42506 10 42847
+#ENDROOM
+
+#ROOM
+Vnum     42848
+Name     &WThe Terrace Labyrinth - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     The third cell of the base labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42847
+Desc      Labyrinth 2.~
+#EXIT
+Direction north~
+ToRoom    42849
+Desc      Labyrinth 4.~
+#ENDEXIT
+Reset M 0 42506 10 42848
+#ENDROOM
+
+#ROOM
+Vnum     42849
+Name     &WThe Terrace Labyrinth - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the base labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42848
+Desc      Labyrinth 3.~
+#ENDEXIT
+Reset M 0 42506 10 42849
+#ENDROOM
+
+#ROOM
+Vnum     42872
+Name     &WThe High Garden - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A beautiful stone landing overlooking the northern city.
+~
+#EXIT
+Direction south~
+ToRoom    42838
+Desc      High Garden.~
+#ENDEXIT
+Reset O 42616 10 42872
+#ENDROOM
+
+#ROOM
+Vnum     42873
+Name     &WThe High Garden - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A stone landing near the gardens entrance.
+~
+#EXIT
+Direction north~
+ToRoom    42838
+Desc      High Garden.~
+#ENDEXIT
+Reset M 0 42531 10 42873
+#ENDROOM
+
+#ROOM
+Vnum     42874
+Name     &WThe Voodoo Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing dark corridors near the ritual basements.
+~
+#EXIT
+Direction north~
+ToRoom    42875
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42781
+Desc      Voodoo chamber.~
+#ENDEXIT
+Reset M 0 42537 10 42874
+#ENDROOM
+
+#ROOM
+Vnum     42875
+Name     &WThe Voodoo Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The second cell of the voodoo labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42874
+Desc      Labyrinth 1.~
+#EXIT
+Direction north~
+ToRoom    42876
+Desc      Labyrinth 3.~
+#ENDEXIT
+Reset M 0 42537 10 42875
+#ENDROOM
+
+#ROOM
+Vnum     42876
+Name     &WThe Voodoo Labyrinth - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the voodoo labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42875
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 42537 10 42876
+#ENDROOM
+
+#ROOM
+Vnum     42877
+Name     &WThe Slums Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing messy corridors near the western slums.
+~
+#EXIT
+Direction north~
+ToRoom    42878
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42880
+Desc      West slums.~
+#ENDEXIT
+Reset M 0 42515 10 42877
+#ENDROOM
+
+#ROOM
+Vnum     42878
+Name     &WThe Slums Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the slums labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42877
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42515 10 42878
+#ENDROOM
+
+#ROOM
+Vnum     42879
+Name     &WThe Library Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the city's stacks.
+~
+#EXIT
+Direction north~
+ToRoom    42882
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42771
+Desc      Library stacks.~
+#ENDEXIT
+Reset M 0 42523 5 42879
+#ENDROOM
+
+#ROOM
+Vnum     42882
+Name     &WThe Library Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the library labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42879
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42523 5 42882
+#ENDROOM
+
+#ROOM
+Vnum     42883
+Name     &WThe Arena Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing stone corridors near the gladiator pit.
+~
+#EXIT
+Direction north~
+ToRoom    42884
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42751
+Desc      Pit floor.~
+#ENDEXIT
+Reset M 0 42517 10 42883
+#ENDROOM
+
+#ROOM
+Vnum     42884
+Name     &WThe Arena Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the arena labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42883
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42517 10 42884
+#ENDROOM
+
+#ROOM
+Vnum     42885
+Name     &WThe Final Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing stone corridors near the city's exit.
+~
+#EXIT
+Direction north~
+ToRoom    42886
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42900
+Desc      Exit path.~
+#ENDEXIT
+Reset M 0 42527 5 42885
+#ENDROOM
+
+#ROOM
+Vnum     42886
+Name     &WThe Final Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42885
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42527 5 42886
+#ENDROOM
+
+#ROOM
+Vnum     42887
+Name     &WThe Entry Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing overgrown corridors near the city's entrance.
+~
+#EXIT
+Direction north~
+ToRoom    42888
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42508 10 42887
+#ENDROOM
+
+#ROOM
+Vnum     42888
+Name     &WThe Entry Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42887
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42508 10 42888
+#ENDROOM
+
+#ROOM
+Vnum     42889
+Name     &WThe Bat Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A confusion of leathery-winged tunnels near the bat plateau.
+~
+#EXIT
+Direction north~
+ToRoom    42891
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42704
+Desc      Jeklik's sanctuary.~
+#ENDEXIT
+Reset M 0 42511 10 42889
+#ENDROOM
+
+#ROOM
+Vnum     42891
+Name     &WThe Bat Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the bat labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42889
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42511 10 42891
+#ENDROOM
+
+#ROOM
+Vnum     42892
+Name     &WThe Command Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A confusion of slithering emerald tunnels near the command square.
+~
+#EXIT
+Direction north~
+ToRoom    42893
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42711
+Desc      Command square.~
+#ENDEXIT
+Reset M 0 42518 10 42892
+#ENDROOM
+
+#ROOM
+Vnum     42893
+Name     &WThe Command Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42892
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42518 10 42893
+#ENDROOM
+
+#ROOM
+Vnum     42894
+Name     &WThe Reservoir Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A confusion of bone-filled tunnels near the reservoir entry.
+~
+#EXIT
+Direction north~
+ToRoom    42895
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42800
+Desc      Reservoir entry.~
+#ENDEXIT
+Reset M 0 42510 10 42894
+#ENDROOM
+
+#ROOM
+Vnum     42895
+Name     &WThe Reservoir Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the reservoir labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42894
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42510 10 42895
+#ENDROOM
+
+#ROOM
+Vnum     42896
+Name     &WThe Hatchery Labyrinth - 1&d~
+Sector   city~
+Flags    indoors~
+Desc     A confusion of shadowy tunnels near the brood chamber.
+~
+#EXIT
+Direction north~
+ToRoom    42897
+Desc      Labyrinth 2.~
+#EXIT
+Direction south~
+ToRoom    42811
+Desc      Buru's chamber.~
+#ENDEXIT
+Reset M 0 42521 10 42896
+#ENDROOM
+
+#ROOM
+Vnum     42897
+Name     &WThe Hatchery Labyrinth - 2&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the hatchery labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42896
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 42521 10 42897
+#ENDROOM
+
+#ROOM
+Vnum     42898
+Name     &WThe Terrace Labyrinth - 5&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing tunnels near the watcher's terrace.
+~
+#EXIT
+Direction north~
+ToRoom    42899
+Desc      Labyrinth 6.~
+#EXIT
+Direction south~
+ToRoom    42850
+Desc      Terrace base.~
+#ENDEXIT
+Reset M 0 42513 5 42898
+#ENDROOM
+
+#ROOM
+Vnum     42899
+Name     &WThe Terrace Labyrinth - 6&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the terrace labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42898
+Desc      Labyrinth 5.~
+#ENDEXIT
+Reset M 0 42513 5 42899
+#ENDROOM
+
+#ROOM
+Vnum     42901
+Name     &WThe AQ20 Secret Alley&d~
+Sector   city~
+Flags    indoors~
+Desc     A hidden alleyway connecting the two city districts.
+~
+#EXIT
+Direction west~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42532 1 42901
+#ENDROOM
+
+#ROOM
+Vnum     42902
+Name     &WThe Labyrinth Cell - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     The first of many interconnected cells in the city's underbelly.
+~
+#EXIT
+Direction north~
+ToRoom    42903
+Desc      Cell 2.~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42506 10 42902
+#ENDROOM
+
+#ROOM
+Vnum     42903
+Name     &WThe Labyrinth Cell - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The second cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42902
+Desc      Cell 1.~
+#EXIT
+Direction north~
+ToRoom    42904
+Desc      Cell 3.~
+#ENDEXIT
+Reset M 0 42506 10 42903
+#ENDROOM
+
+#ROOM
+Vnum     42904
+Name     &WThe Labyrinth Cell - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     The third cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42903
+Desc      Cell 2.~
+#EXIT
+Direction north~
+ToRoom    42905
+Desc      Cell 4.~
+#ENDEXIT
+Reset M 0 42506 10 42904
+#ENDROOM
+
+#ROOM
+Vnum     42905
+Name     &WThe Labyrinth Cell - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The fourth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42904
+Desc      Cell 3.~
+#EXIT
+Direction north~
+ToRoom    42906
+Desc      Cell 5.~
+#ENDEXIT
+Reset M 0 42506 10 42905
+#ENDROOM
+
+#ROOM
+Vnum     42906
+Name     &WThe Labyrinth Cell - 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     The fifth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42905
+Desc      Cell 4.~
+#EXIT
+Direction north~
+ToRoom    42907
+Desc      Cell 6.~
+#ENDEXIT
+Reset M 0 42506 10 42906
+#ENDROOM
+
+#ROOM
+Vnum     42907
+Name     &WThe Labyrinth Cell - 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sixth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42906
+Desc      Cell 5.~
+#EXIT
+Direction north~
+ToRoom    42908
+Desc      Cell 7.~
+#ENDEXIT
+Reset M 0 42506 10 42907
+#ENDROOM
+
+#ROOM
+Vnum     42908
+Name     &WThe Labyrinth Cell - 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     The seventh cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42907
+Desc      Cell 6.~
+#EXIT
+Direction north~
+ToRoom    42909
+Desc      Cell 8.~
+#ENDEXIT
+Reset M 0 42506 10 42908
+#ENDROOM
+
+#ROOM
+Vnum     42909
+Name     &WThe Labyrinth Cell - 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The eighth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42908
+Desc      Cell 7.~
+#EXIT
+Direction north~
+ToRoom    42910
+Desc      Cell 9.~
+#ENDEXIT
+Reset M 0 42506 10 42909
+#ENDROOM
+
+#ROOM
+Vnum     42910
+Name     &WThe Labyrinth Cell - 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     The ninth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42909
+Desc      Cell 8.~
+#EXIT
+Direction north~
+ToRoom    42911
+Desc      Cell 10.~
+#ENDEXIT
+Reset M 0 42506 10 42910
+#ENDROOM
+
+#ROOM
+Vnum     42911
+Name     &WThe Labyrinth Cell - 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The tenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42910
+Desc      Cell 9.~
+#EXIT
+Direction north~
+ToRoom    42912
+Desc      Cell 11.~
+#ENDEXIT
+Reset M 0 42506 10 42911
+#ENDROOM
+
+#ROOM
+Vnum     42912
+Name     &WThe Labyrinth Cell - 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     The eleventh cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42911
+Desc      Cell 10.~
+#EXIT
+Direction north~
+ToRoom    42913
+Desc      Cell 12.~
+#ENDEXIT
+Reset M 0 42506 10 42912
+#ENDROOM
+
+#ROOM
+Vnum     42913
+Name     &WThe Labyrinth Cell - 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     The twelfth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42912
+Desc      Cell 11.~
+#EXIT
+Direction north~
+ToRoom    42914
+Desc      Cell 13.~
+#ENDEXIT
+Reset M 0 42506 10 42913
+#ENDROOM
+
+#ROOM
+Vnum     42914
+Name     &WThe Labyrinth Cell - 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     The thirteenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42913
+Desc      Cell 12.~
+#EXIT
+Direction north~
+ToRoom    42915
+Desc      Cell 14.~
+#ENDEXIT
+Reset M 0 42506 10 42914
+#ENDROOM
+
+#ROOM
+Vnum     42915
+Name     &WThe Labyrinth Cell - 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     The fourteenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42914
+Desc      Cell 13.~
+#EXIT
+Direction north~
+ToRoom    42916
+Desc      Cell 15.~
+#ENDEXIT
+Reset M 0 42506 10 42915
+#ENDROOM
+
+#ROOM
+Vnum     42916
+Name     &WThe Labyrinth Cell - 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     The fifteenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42915
+Desc      Cell 14.~
+#EXIT
+Direction north~
+ToRoom    42917
+Desc      Cell 16.~
+#ENDEXIT
+Reset M 0 42506 10 42916
+#ENDROOM
+
+#ROOM
+Vnum     42917
+Name     &WThe Labyrinth Cell - 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sixteenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42916
+Desc      Cell 15.~
+#EXIT
+Direction north~
+ToRoom    42918
+Desc      Cell 17.~
+#ENDEXIT
+Reset M 0 42506 10 42917
+#ENDROOM
+
+#ROOM
+Vnum     42918
+Name     &WThe Labyrinth Cell - 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     The seventeenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42917
+Desc      Cell 16.~
+#EXIT
+Direction north~
+ToRoom    42919
+Desc      Cell 18.~
+#ENDEXIT
+Reset M 0 42506 10 42918
+#ENDROOM
+
+#ROOM
+Vnum     42919
+Name     &WThe Labyrinth Cell - 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     The eighteenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42918
+Desc      Cell 17.~
+#EXIT
+Direction north~
+ToRoom    42920
+Desc      Cell 19.~
+#ENDEXIT
+Reset M 0 42506 10 42919
+#ENDROOM
+
+#ROOM
+Vnum     42920
+Name     &WThe Labyrinth Cell - 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     The nineteenth cell of the underbelly.
+~
+#EXIT
+Direction south~
+ToRoom    42919
+Desc      Cell 18.~
+#EXIT
+Direction north~
+ToRoom    42921
+Desc      Cell 20.~
+#ENDEXIT
+Reset M 0 42506 10 42920
+#ENDROOM
+
+#ROOM
+Vnum     42921
+Name     &WThe Labyrinth Cell - 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42920
+Desc      Cell 19.~
+#ENDEXIT
+Reset M 0 42540 10 42921
+#ENDROOM
+
+#ROOM
+Vnum     42922
+Name     &WThe Maze Hall - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     The start of a confusing maze of stone corridors.
+~
+#EXIT
+Direction north~
+ToRoom    42923
+Desc      Hall 2.~
+#EXIT
+Direction south~
+ToRoom    42701
+Desc      Entry plaza.~
+#ENDEXIT
+Reset M 0 42506 10 42922
+#ENDROOM
+
+#ROOM
+Vnum     42923
+Name     &WThe Maze Hall - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The second section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42922
+Desc      Hall 1.~
+#EXIT
+Direction north~
+ToRoom    42924
+Desc      Hall 3.~
+#ENDEXIT
+Reset M 0 42506 10 42923
+#ENDROOM
+
+#ROOM
+Vnum     42924
+Name     &WThe Maze Hall - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     The third section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42923
+Desc      Hall 2.~
+#EXIT
+Direction north~
+ToRoom    42925
+Desc      Hall 4.~
+#ENDEXIT
+Reset M 0 42506 10 42924
+#ENDROOM
+
+#ROOM
+Vnum     42925
+Name     &WThe Maze Hall - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The fourth section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42924
+Desc      Hall 3.~
+#EXIT
+Direction north~
+ToRoom    42926
+Desc      Hall 5.~
+#ENDEXIT
+Reset M 0 42506 10 42925
+#ENDROOM
+
+#ROOM
+Vnum     42926
+Name     &WThe Maze Hall - 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     The fifth section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42925
+Desc      Hall 4.~
+#EXIT
+Direction north~
+ToRoom    42927
+Desc      Hall 6.~
+#ENDEXIT
+Reset M 0 42506 10 42926
+#ENDROOM
+
+#ROOM
+Vnum     42927
+Name     &WThe Maze Hall - 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sixth section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42926
+Desc      Hall 5.~
+#EXIT
+Direction north~
+ToRoom    42928
+Desc      Hall 7.~
+#ENDEXIT
+Reset M 0 42506 10 42927
+#ENDROOM
+
+#ROOM
+Vnum     42928
+Name     &WThe Maze Hall - 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     The seventh section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42927
+Desc      Hall 6.~
+#EXIT
+Direction north~
+ToRoom    42929
+Desc      Hall 8.~
+#ENDEXIT
+Reset M 0 42506 10 42928
+#ENDROOM
+
+#ROOM
+Vnum     42929
+Name     &WThe Maze Hall - 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The eighth section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42928
+Desc      Hall 7.~
+#EXIT
+Direction north~
+ToRoom    42930
+Desc      Hall 9.~
+#ENDEXIT
+Reset M 0 42506 10 42929
+#ENDROOM
+
+#ROOM
+Vnum     42930
+Name     &WThe Maze Hall - 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     The ninth section of the stone maze.
+~
+#EXIT
+Direction south~
+ToRoom    42929
+Desc      Hall 8.~
+#EXIT
+Direction north~
+ToRoom    42931
+Desc      Hall 10.~
+#ENDEXIT
+Reset M 0 42506 10 42930
+#ENDROOM
+
+#ROOM
+Vnum     42931
+Name     &WThe Maze Hall - 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the stone maze-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42930
+Desc      Hall 9.~
+#ENDEXIT
+Reset M 0 42540 10 42931
+#ENDROOM
+
+#ENDAREA
