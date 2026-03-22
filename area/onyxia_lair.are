@@ -1436,7 +1436,7 @@ Direction south~
 ToRoom    41207
 Desc      Labyrinth 2.~
 #ENDEXIT
-Reset M 41003 10 41208
+Reset M 0 41003 10 41208
 #ENDROOM
 
 #ROOM
