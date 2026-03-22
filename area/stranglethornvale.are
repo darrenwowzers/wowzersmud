@@ -2,7 +2,7 @@
 #AREADATA
 Version      1
 Name         Stranglethorn Vale~
-Author       Builder~
+Author       Feenom~
 WeatherX     0
 WeatherY     0
 Ranges       30 45 0 60
@@ -900,12 +900,19 @@ Name     &GThe Ruins of Zul'Mamwe&d~
 Sector   city~
 Desc     More sprawling troll ruins, these heavily occupied by the Skullsplitter
 tribe. Voodoo wards hang from the trees, and the smell of dark magic
-is potent.
+is potent. A well-worn, blood-stained path leads east, deeper into
+the ancient empire's territory.
 ~
 #EXIT
 Direction north~
 ToRoom    13263
 Desc      The Gurubashi Arena.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13281
+Desc      The path toward the ancient capital.
 ~
 #ENDEXIT
 #EXIT
@@ -922,6 +929,54 @@ Desc      Mistvale Valley.
 #ENDEXIT
 Reset M 0 13259 2 13265
   Reset E 1 13257 10 17
+#ENDROOM
+
+#ROOM
+Vnum     13281
+Name     &GThe Path to Zul'Gurub&d~
+Sector   forest~
+Desc     The jungle grows eerily silent as you approach the ancient capital
+of the Gurubashi Empire. Colossal stone serpents flank the path, their
+emerald eyes seeming to watch your every move. The relentless beating
+of tribal drums echoes from the east.
+~
+#EXIT
+Direction west~
+ToRoom    13265
+Desc      The Ruins of Zul'Mamwe.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13282
+Desc      The temple gates.
+~
+#ENDEXIT
+Reset M 0 13260 2 13281
+#ENDROOM
+
+#ROOM
+Vnum     13282
+Name     &GThe Gates of Zul'Gurub&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand before the massive, crumbling gates of Zul'Gurub. Blood
+stains the steps leading up to a swirling, emerald-green portal. 
+The air here is thick with the scent of ozone and dark voodoo, 
+guarding the terrifying raid that lies beyond.
+~
+#EXIT
+Direction west~
+ToRoom    13281
+Desc      The path back to Zul'Mamwe.
+~
+#ENDEXIT
+#EXIT
+Direction in~
+ToRoom    13900
+Desc      Step through the portal into Zul'Gurub.
+~
+#ENDEXIT
 #ENDROOM
 
 #ROOM
