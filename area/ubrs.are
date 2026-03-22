@@ -1,0 +1,3038 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Upper Blackrock Spire~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       58 60 0 60
+Economy      0 250000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       40000
+Keywords   blackhand legionnaire orc warrior~
+Short      a Blackhand Legionnaire~
+Long       A Blackhand Legionnaire stands in heavy obsidian plate, axe at the ready.
+~
+Desc       The elite infantry of Rend Blackhand. They are fanatically 
+loyal to the true Horde and have been hardened by years of 
+mountain warfare.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 12000
+Stats2     60 60 200
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    28 12 22 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40001
+Keywords   blackhand iron-guard orc warrior~
+Short      a Blackhand Iron-guard~
+Long       An Iron-guard stands like a statue, his massive shield blocking the way.
+~
+Desc       Specialized defensive troops tasked with holding the narrow 
+bridges and doorways of the upper Spire.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5500 15000
+Stats2     60 60 100
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    30 10 24 8 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40002
+Keywords   blackhand summoner orc mage~
+Short      a Blackhand Summoner~
+Long       An orc in purple-trimmed robes mutters over a swirling fel-circle.
+~
+Desc       Dark mages who bridge the gap between the Spire and the 
+Twisting Nether, bringing forth demonic reinforcements.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 8500
+Stats2     60 60 2500
+Stats3     14 42 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40003
+Keywords   pyroguard emberstrider boss elemental~
+Short      Pyroguard Emberstrider~
+Long       Pyroguard Emberstrider looms before the altar, his body a pillar of fire.
+~
+Desc       The guardian of the sigils. He must be awoken by the 
+correct ritual, and he will incinerate any who are unworthy.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 15000 45000
+Stats2     62 62 2000
+Stats3     30 90 65
+Stats4     0 0 0 0 0
+Attribs    35 12 30 20 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40004
+Keywords   solakar flamewreath boss dragonspawn~
+Short      Solakar Flamewreath~
+Long       Solakar Flamewreath guards the rookery, his polearm wreathed in flame.
+~
+Desc       A high-ranking dragonspawn of the black flight. He oversees 
+the hatching of the next generation of whelps.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 12000 35000
+Stats2     61 61 800
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    32 15 25 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40005
+Keywords   rend blackhand boss orc warrior~
+Short      Warchief Rend Blackhand~
+Long       Warchief Rend Blackhand sits atop Gyth, his notched blades gleaming.
+~
+Desc       The self-proclaimed Warchief of the True Horde. He rules 
+the Spire with an iron fist and the backing of Nefarian.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 30000 90000
+Stats2     63 63 1000
+Stats3     45 150 85
+Stats4     0 0 0 0 0
+Attribs    45 15 35 18 22 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       40006
+Keywords   gyth boss dragon mount~
+Short      Gyth~
+Long       The massive chromatic dragon Gyth roars, breathing a cloud of toxic gas.
+~
+Desc       A pinnacle of Nefarian's experimentation. Gyth is a 
+multi-headed horror that serves as Rend's personal mount.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 25000 70000
+Stats2     63 63 0
+Stats3     40 120 80
+Stats4     0 0 0 0 0
+Attribs    42 12 38 10 15 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40007
+Keywords   the beast boss beast hound~
+Short      The Beast~
+Long       A core hound of impossible size growls, its breath melting the stone.
+~
+Desc       A monstrosity captured from the Molten Core and 
+further mutated by the magical energies of the Spire.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 22000 65000
+Stats2     62 62 0
+Stats3     38 110 75
+Stats4     0 0 0 0 0
+Attribs    45 8 35 4 6 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40008
+Keywords   general drakkisath boss dragonspawn~
+Short      General Drakkisath~
+Long       General Drakkisath stands in the center of the hall, the Spire's master.
+~
+Desc       The commander of the black dragonflight's forces within 
+the mountain. He is the final barrier before the peak.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 64 0 0 45000 120000
+Stats2     64 64 2000
+Stats3     50 180 95
+Stats4     0 0 0 0 0
+Attribs    50 18 40 22 25 35 35
+#ENDMOBILE
+
+#MOBILE
+Vnum       40009
+Keywords   blackhand assassin orc thief~
+Short      a Blackhand Assassin~
+Long       A shadow detach itself from the pillar, a poisoned blade flashing.
+~
+Desc       Experts in ending threats before they are even perceived. 
+They strike from the void and vanish just as quickly.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 9500
+Stats2     60 60 500
+Stats3     16 45 60
+Stats4     0 0 0 0 0
+Attribs    18 30 18 14 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40010
+Keywords   chromatic whelp dragon~
+Short      a Chromatic Whelp~
+Long       A small, shimmering whelp of shifting colors hisses at you.
+~
+Desc       A young product of Nefarian's research, possessing 
+elemental resistances far beyond its size.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1800 5200
+Stats2     59 59 200
+Stats3     12 35 59
+Stats4     0 0 0 0 0
+Attribs    20 22 18 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40011
+Keywords   blackhand dreadweaver orc mage~
+Short      a Blackhand Dreadweaver~
+Long       An orc mage weaves a spell of pure shadow-fire.
+~
+Desc       The high-ranking casters of the Bloodaxe legion, tasked 
+with protecting the Warchief from magical interference.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3000 8000
+Stats2     60 60 2800
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    14 16 18 38 32 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40012
+Keywords   firebrand grunt orc warrior~
+Short      a Firebrand Grunt~
+Long       An orc in scale armor stands guard, eyes glowing with inner fire.
+~
+Desc       Soldiers of the Firebrand legion, fanatically devoted 
+to the dragons who rule the mountain.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 4000 11000
+Stats2     59 59 200
+Stats3     17 48 59
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40013
+Keywords   chromatic dragonspawn elite warrior~
+Short      a Chromatic Dragonspawn~
+Long       A massive dragonspawn in prismatic scales stands in silent vigil.
+~
+Desc       The elite defenders of the General's hall, specifically 
+bred to resist the magic of the Alliance and Horde.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 8500 24000
+Stats2     61 61 500
+Stats3     28 80 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40014
+Keywords   blackrock worg beast hound~
+Short      a Blackrock Worg~
+Long       A large, black-furred wolf snarls, its teeth dripping with saliva.
+~
+Desc       The hunting hounds of the Spire, trained to track and 
+kill anything that doesn't smell of ash and soot.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2500 7000
+Stats2     58 58 0
+Stats3     13 38 58
+Stats4     0 0 0 0 0
+Attribs    24 22 20 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40015
+Keywords   gordok ogre-mercenary warrior~
+Short      a Gordok Mercenary~
+Long       A massive ogre in mismatched plate armor swings a heavy club.
+~
+Desc       Hired from the lower Spire to bolster Rend's defenses. 
+They are motivated solely by food and the promise of loot.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 6000 18000
+Stats2     60 60 0
+Stats3     22 65 60
+Stats4     0 0 0 0 0
+Attribs    32 8 26 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40016
+Keywords   spectral legionnaire ghost~
+Short      a Spectral Legionnaire~
+Long       A translucent orc warrior wanders the hall, reliving a past battle.
+~
+Desc       The restless spirits of those who died during the First 
+War, eternally bound to the stone of the mountain.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40017
+Keywords   spire spider beast~
+Short      a Spire Spider~
+Long       A large spider with obsidian-sharp legs skitters across the wall.
+~
+Desc       Predators that inhabit the high rafters, feeding on the 
+large rats and darter-spirits of the Spire.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1200 3500
+Stats2     58 58 0
+Stats3     8 22 58
+Stats4     0 0 0 0 0
+Attribs    18 24 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40018
+Keywords   blackhand veteran orc warrior~
+Short      a Blackhand Veteran~
+Long       An old orc with numerous scars stand watch near the arena.
+~
+Desc       Those who have survived enough battles to earn a place 
+near the Warchief's throne. They are masters of the blade.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5000 14000
+Stats2     60 60 300
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    30 14 24 12 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40019
+Keywords   chromatic watcher spirit mage~
+Short      a Chromatic Watcher~
+Long       A floating eye of shifting magical energy scans the hall.
+~
+Desc       Summoned by Nefarian to ensure his General remains 
+vigilant against intruders.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1000 3000
+Stats2     60 60 1500
+Stats3     7 20 60
+Stats4     0 0 0 0 0
+Attribs    10 25 14 35 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40020
+Keywords   blackhand guard orc warrior~
+Short      a Blackhand Palace Guard~
+Long       A massive orc in ornate black-iron plate stands perfectly still.
+~
+Desc       The personal guard of Rend Blackhand. They have 
+no mercy and no fear.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 7500 22000
+Stats2     61 61 400
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40021
+Keywords   spire darter spirit beast~
+Short      a Spire Darter~
+Long       A small, colorful dragon-spirit flits through the air.
+~
+Desc       Magical creatures that feed on the residual mana 
+leaking from the high spire laboratories.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 58 0 0 800 2400
+Stats2     58 58 1000
+Stats3     6 18 58
+Stats4     0 0 0 0 0
+Attribs    10 28 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40022
+Keywords   fireguard destroyer elemental~
+Short      a Fireguard Destroyer~
+Long       A towering mass of orange flame rumbles, its heat blinding.
+~
+Desc       Elite fire elementals bound to the Spire's defense by the 
+Dark Iron mages who serve the Horde.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5000 15000
+Stats2     60 60 500
+Stats3     20 60 60
+Stats4     0 0 0 0 0
+Attribs    35 10 30 18 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40023
+Keywords   blackhand sniper orc thief~
+Short      a Blackhand Sniper~
+Long       An orc in camouflaged leather levels a rifle from a high ledge.
+~
+Desc       Master marksmen trained to pick off commanders and 
+casters from a safe distance.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 9000
+Stats2     60 60 300
+Stats3     15 42 60
+Stats4     0 0 0 0 0
+Attribs    16 32 18 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40024
+Keywords   chromatic warden dragonspawn~
+Short      a Chromatic Warden~
+Long       A heavily armored dragonspawn in prismatic scales stands firm.
+~
+Desc       The personal bodyguards of General Drakkisath. They 
+are immune to most forms of elemental damage.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 10000 35000
+Stats2     62 62 800
+Stats3     32 100 65
+Stats4     0 0 0 0 0
+Attribs    38 14 32 16 20 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       40025
+Keywords   blackhand ritualist orc mage~
+Short      a Blackhand Ritualist~
+Long       A human in dark purple robes mutters a dark prayer.
+~
+Desc       Providing the spiritual guidance for the Dark Horde's 
+more esoteric military plans.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 2000
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40026
+Keywords   blackhand blood-drinker orc warrior~
+Short      a Blackhand Blood-drinker~
+Long       An orc in rusted plate armor licks a curved dagger with anticipation.
+~
+Desc       Elite warriors who have partaken in dark rituals to 
+enhance their strength and bloodlust.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 13000
+Stats2     60 60 200
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40027
+Keywords   feral whelp dragon~
+Short      a Feral Whelp~
+Long       A small, black-scaled whelp snap its jaws at you.
+~
+Desc       Young black dragons that have not yet been trained by 
+the dragonspawn. They are pure aggression.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1200 3500
+Stats2     58 58 100
+Stats3     8 22 58
+Stats4     0 0 0 0 0
+Attribs    18 20 16 10 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40028
+Keywords   spire rat beast~
+Short      a Spire Rat~
+Long       A large, grey rat scurries along the base of the wall.
+~
+Desc       Ubiquitous and annoying, they carry the filth of the 
+mountain in their fur.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 200 600
+Stats2     50 50 0
+Stats3     3 10 50
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       40029
+Keywords   blackhand dark-weaver orc mage~
+Short      a Blackhand Dark-weaver~
+Long       An orc in shadow-threaded robes mutter a curse of lethargy.
+~
+Desc       Specialists in debilitating magic, they are 
+tasked with weakening intruders for the legionnaires.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1300 3800
+Stats2     60 60 2200
+Stats3     10 30 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40030
+Keywords   blackhand taskmaster orc warrior~
+Short      a Blackhand Taskmaster~
+Long       An orc with a heavy whip bellows at a group of laborers.
+~
+Desc       Cruel and efficient, they oversee the logistics and 
+maintenance of the upper Spire.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    28 12 22 10 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40031
+Keywords   halycon pup beast hound~
+Short      a Halycon Pup~
+Long       A small white wolf pup yips, looking for its mother.
+~
+Desc       Though small, these pups are already aggressive and 
+will defend the den.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 600 1800
+Stats2     56 56 0
+Stats3     6 15 56
+Stats4     0 0 0 0 0
+Attribs    14 20 12 4 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40032
+Keywords   chromatic reaver dragonspawn elite~
+Short      a Chromatic Reaver~
+Long       A dragonspawn in heavy plate armor balances a massive mace.
+~
+Desc       Elite infantry bred by Nefarian to serve as the 
+General's personal army.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 7500 22000
+Stats2     61 61 300
+Stats3     25 70 62
+Stats4     0 0 0 0 0
+Attribs    35 12 30 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40033
+Keywords   blackhand brute orc warrior~
+Short      a Blackhand Brute~
+Long       A massive orc bellows, swinging a tree-trunk club.
+~
+Desc       Orcs who have traded all finesse for raw physical 
+intimidation and crushing force.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5500 15000
+Stats2     60 60 0
+Stats3     22 60 60
+Stats4     0 0 0 0 0
+Attribs    35 6 28 6 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40034
+Keywords   blackhand priest orc shaman~
+Short      a Blackhand High-Priest~
+Long       An orc in dragon-scale robes mutters a dark blessing.
+~
+Desc       Higher-ranking members of the Spire's spiritual 
+hierarchy, providing powerful healing to the veterans.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5500
+Stats2     60 60 2500
+Stats3     13 38 60
+Stats4     0 0 0 0 0
+Attribs    14 12 18 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40035
+Keywords   firebrand invoker orc mage~
+Short      a Firebrand Invoker~
+Long       An orc in flaming robes summons a gout of dragon-fire.
+~
+Desc       Specialists in destructive fire magic who focus on 
+burning all who approach the Warchief's throne.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1600 4800
+Stats2     60 60 2200
+Stats3     12 35 60
+Stats4     0 0 0 0 0
+Attribs    12 16 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40036
+Keywords   blackhand slayer orc warrior~
+Short      a Blackhand Slayer~
+Long       An orc in heavy obsidian plate swings a massive mace.
+~
+Desc       Elite shock troops assigned to break the enemy's front lines.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4200 12000
+Stats2     60 60 150
+Stats3     18 52 60
+Stats4     0 0 0 0 0
+Attribs    32 10 24 8 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40037
+Keywords   blackhand blood-weaver orc mage~
+Short      a Blackhand Blood-weaver~
+Long       An orc in dark purple robes mutter an incantation of shadow.
+~
+Desc       Experts in draining the life-force of their enemies to 
+bolster the Spire's magical defenses.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1500 4500
+Stats2     60 60 2000
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       40038
+Keywords   chromatic sentinel dragonspawn~
+Short      a Chromatic Sentinel~
+Long       A massive dragonspawn in silver armor stand perfectly still.
+~
+Desc       Elite defenders of the General's inner sanctum.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 9000 25000
+Stats2     61 61 500
+Stats3     30 85 62
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40039
+Keywords   blackhand warlock orc mage~
+Short      a Blackhand Warlock~
+Long       An orc in shadow-threaded robes mutter to a void-walker.
+~
+Desc       Warlocks who have dedicated their lives to the service 
+of the black dragons.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5200
+Stats2     60 60 2500
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40040
+Keywords   chromatic watcher dragonspawn mage~
+Short      a Chromatic Watcher~
+Long       A dragonspawn mage focuses a beam of magical energy into the pit.
+~
+Desc       Responsible for maintaining the wards that keep the 
+Spire isolated from the rest of the mountain.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 2500 7500
+Stats2     61 61 2800
+Stats3     16 48 62
+Stats4     0 0 0 0 0
+Attribs    14 16 18 38 32 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40041
+Keywords   blackhand scout orc warrior~
+Short      a Blackhand Scout~
+Long       An orc in light mail prowls the hall, a dagger in his hand.
+~
+Desc       Specialists in infiltration and reconnaissance within 
+the Spire's winding tunnels.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1100 3200
+Stats2     59 59 300
+Stats3     9 24 59
+Stats4     0 0 0 0 0
+Attribs    16 25 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40042
+Keywords   firebrand invoker orc shaman~
+Short      a Firebrand Invoker~
+Long       An orc priest mutters a prayer to the black dragons.
+~
+Desc       Fanatical worshipers of the dragonflight who provide 
+magical support to the Firebrand legion.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1500 4500
+Stats2     60 60 1200
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    14 12 16 30 24 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40043
+Keywords   blackhand reaver orc warrior~
+Short      a Blackhand Reaver~
+Long       A massive orc in heavy obsidian plate stands silent guard.
+~
+Desc       Elite shock troops personally hand-picked by the Warchief.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 5000 15000
+Stats2     61 61 400
+Stats3     22 60 62
+Stats4     0 0 0 0 0
+Attribs    35 12 30 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40044
+Keywords   spire darter spirit beast~
+Short      a Spire Darter~
+Long       A small, colorful dragon-spirit flits through the air.
+~
+Desc       Magical creatures that feed on the residual mana 
+leaking from the high spire laboratories.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 58 0 0 800 2400
+Stats2     58 58 1000
+Stats3     6 18 58
+Stats4     0 0 0 0 0
+Attribs    10 28 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40045
+Keywords   chromatic dragonspawn elite warrior~
+Short      a Chromatic Dragonspawn~
+Long       A massive dragonspawn in prismatic scales stands in silent vigil.
+~
+Desc       The elite defenders of the General's hall.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 8500 24000
+Stats2     61 61 500
+Stats3     28 80 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       40046
+Keywords   blackrock worg beast hound~
+Short      a Blackrock Worg~
+Long       A large, black-furred wolf snarls, its teeth dripping with saliva.
+~
+Desc       The hunting hounds of the Spire.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2500 7000
+Stats2     58 58 0
+Stats3     13 38 58
+Stats4     0 0 0 0 0
+Attribs    24 22 20 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       40047
+Keywords   gordok ogre-mercenary warrior~
+Short      a Gordok Mercenary~
+Long       A massive ogre in mismatched plate armor swings a heavy club.
+~
+Desc       Hired from the lower Spire to bolster Rend's defenses.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 6000 18000
+Stats2     60 60 0
+Stats3     22 65 60
+Stats4     0 0 0 0 0
+Attribs    32 8 26 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       40048
+Keywords   spectral legionnaire ghost~
+Short      a Spectral Legionnaire~
+Long       A translucent orc warrior wanders the hall.
+~
+Desc       The restless spirits of those who died during the First War.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       40049
+Keywords   spire spider beast~
+Short      a Spire Spider~
+Long       A large spider with obsidian-sharp legs skitters across the wall.
+~
+Desc       Predators that inhabit the high rafters.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1200 3500
+Stats2     58 58 0
+Stats3     8 22 58
+Stats4     0 0 0 0 0
+Attribs    18 24 16 4 12 6 6
+#ENDMOBILE
+
+#OBJECT
+Vnum     40050
+Keywords felstriker dagger weapon~
+Type     weapon~
+Short    the Felstriker~
+Long     A wicked dagger that seems to vibrate with unnatural speed.~
+WFlags   take wield~
+Values   12 15 35 11 0 0
+Stats    2 50000 62 0 0
+Rarity   3
+Affect   2 25 0 0 0
+Affect   12 30 0 0 0
+Affect   13 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40051
+Keywords blackblade shahram sword weapon~
+Type     weapon~
+Short    the Blackblade of Shahram~
+Long     A massive, two-handed sword etched with glowing shadow-runes.~
+WFlags   take wield~
+Values   12 22 45 3 0 0
+Stats    25 45000 64 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 20 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40052
+Keywords draconic avenger polearm weapon~
+Type     weapon~
+Short    the Draconic Avenger~
+Long     A long polearm with a head made of solid dragon-bone.~
+WFlags   take wield~
+Values   12 18 35 11 0 0
+Stats    25 35000 63 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   12 25 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40053
+Keywords breastplate chromatic flight armor~
+Type     armor~
+Short    the Breastplate of the Chromatic Flight~
+Long     Heavy plate armor featuring the shifting scales of a chromatic dragon.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 50000 64 0 0
+Rarity   3
+Affect   5 25 0 0 0
+Affect   17 -30 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40054
+Keywords blackhand medallion jewelry necklace~
+Type     jewelry~
+Short    a Blackhand Medallion~
+Long     A heavy iron medallion marked with the seal of the Dark Horde.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   2
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40055
+Keywords dal'rend sacred charge sword~
+Type     weapon~
+Short    Dal'Rend's Sacred Charge~
+Long     A perfectly balanced elven longsword featuring the crest of the Spire.~
+WFlags   take wield~
+Values   12 15 30 3 0 0
+Stats    12 25000 61 0 0
+Rarity   2
+Affect   12 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40056
+Keywords dal'rend tribal guardian sword~
+Type     weapon~
+Short    Dal'Rend's Tribal Guardian~
+Long     A short, curved sword with a hilt of braided orc-leather.~
+WFlags   take wield~
+Values   12 12 25 3 0 0
+Stats    10 25000 61 0 0
+Rarity   2
+Affect   5 12 0 0 0
+Affect   17 -15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40057
+Keywords truncheon five thunders mace~
+Type     weapon~
+Short    the Truncheon of Five Thunders~
+Long     A mace that hums with elemental energy and pulses with lightning.~
+WFlags   take wield~
+Values   12 12 25 8 0 0
+Stats    15 15000 60 0 0
+Rarity   2
+Affect   1 12 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40058
+Keywords finkle skinner dagger tool~
+Type     weapon~
+Short    Finkle's Skinner~
+Long     A small, razor-sharp dagger specifically designed for skinning beasts.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    2 12000 62 0 0
+Rarity   2
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40059
+Keywords ace beasts treasure card~
+Type     treasure~
+Short    the Ace of Beasts~
+Long     A large playing card depicting a core hound of legend.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 15000 60 0 0
+Rarity   3
+Affect   13 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40060
+Keywords black dragonscale trophy~
+Type     trash~
+Short    a Black Dragonscale~
+Long     A thick obsidian scale that is warm to the touch.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40061
+Keywords chromatic whelp scale trophy~
+Type     trash~
+Short    a Chromatic Whelp Scale~
+Long     A small scale that shifts through all the colors of the rainbow.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 850 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     40062
+Keywords blackhand legionnaire plate armor~
+Type     armor~
+Short    a piece of Blackhand Legionnaire Plate~
+Long     Heavy plates of obsidian-stained steel, built for the front lines.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 8500 60 0 0
+Rarity   1
+Affect   5 15 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40063
+Keywords bloodaxe signet ring jewelry~
+Type     jewelry~
+Short    a Bloodaxe Signet Ring~
+Long     A gold ring featuring the fanned anvil of the Dark Horde.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 4500 60 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40064
+Keywords dragon-hide gauntlets hands armor~
+Type     armor~
+Short    a pair of Dragon-hide Gauntlets~
+Long     Gauntlets made of thick dragon-leather and reinforced with bone.~
+WFlags   take hands~
+Values   15 0 0 0 0 0
+Stats    5 5500 60 0 0
+Rarity   1
+Affect   1 12 0 0 0
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40065
+Keywords spire shadow-essence treasure~
+Type     treasure~
+Short    a vial of Shadow-Essence~
+Long     A small glass vial containing a swirling cloud of purple gas.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1500 58 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40066
+Keywords blackrock ore mineral~
+Type     treasure~
+Short    a chunk of Blackrock Ore~
+Long     A heavy, unrefined piece of black rock that pulses with heat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    12 650 55 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40067
+Keywords dragon-breath chili food~
+Type     food~
+Short    a bowl of Dragon-breath Chili~
+Long     A steaming bowl of chili that smells incredibly spicy.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40068
+Keywords black-iron bar mineral~
+Type     treasure~
+Short    a solid Black Iron Bar~
+Long     A heavy, rectangular bar of refined Dark Iron metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1500 60 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40069
+Keywords halycon pelt fur trophy~
+Type     trash~
+Short    a thick white worg pelt~
+Long     A heavy white pelt taken from the wolf-mother Halycon.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    15 1500 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     40070
+Keywords blackhand rifle weapon~
+Type     weapon~
+Short    a Blackhand Long-musket~
+Long     A rifle made of blackened steel and polished mahogany.~
+WFlags   take wield~
+Values   12 18 35 5 0 0
+Stats    22 8500 61 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40071
+Keywords obsidian mace weapon~
+Type     weapon~
+Short    a Dark Horde Obsidian Mace~
+Long     A mace with a head of solid, razor-sharp volcanic glass.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    20 6500 60 0 0
+Rarity   2
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40072
+Keywords firebrand leggings legs armor~
+Type     armor~
+Short    a pair of Firebrand Leggings~
+Long     Plate leggings reinforced with magical frost-shards.~
+WFlags   take legs~
+Values   25 0 0 0 0 0
+Stats    20 18000 61 0 0
+Rarity   2
+Affect   5 18 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40073
+Keywords beaststalker belt waist armor~
+Type     armor~
+Short    the Beaststalker's Belt~
+Long     A sturdy leather belt reinforced with chromatic dragonscales.~
+WFlags   take waist~
+Values   12 0 0 0 0 0
+Stats    5 8500 60 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40074
+Keywords shadowcraft gloves hands armor~
+Type     armor~
+Short    a pair of Shadowcraft Gloves~
+Long     Dark leather gloves that grant increased arcane dexterity.~
+WFlags   take hands~
+Values   8 0 0 0 0 0
+Stats    2 8500 60 0 0
+Rarity   2
+Affect   13 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40075
+Keywords lightforge bracers wrist armor~
+Type     armor~
+Short    a pair of Lightforge Bracers~
+Long     Heavy iron wristguards that glow with a soft blue light.~
+WFlags   take wrist~
+Values   15 0 0 0 0 0
+Stats    5 8500 60 0 0
+Rarity   2
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40076
+Keywords magister's robe body armor~
+Type     armor~
+Short    the Magister's Robe~
+Long     Fine silken robes of a deep royal purple, embroidered with silver.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 12000 60 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40077
+Keywords devout sandals feet armor~
+Type     armor~
+Short    a pair of Devout Sandals~
+Long     Cloth sandals reinforced with silver thread.~
+WFlags   take feet~
+Values   8 0 0 0 0 0
+Stats    2 8500 60 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40078
+Keywords dreadmist mantle shoulders armor~
+Type     armor~
+Short    a pair of Dreadmist Mantle~
+Long     Shoulder plates of blackened iron, smelling of shadow-smoke.~
+WFlags   take about~
+Values   15 0 0 0 0 0
+Stats    8 12000 60 0 0
+Rarity   2
+Affect   3 12 0 0 0
+Affect   14 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40079
+Keywords wildheart kilt legs armor~
+Type     armor~
+Short    the Wildheart Kilt~
+Long     Leggings made of bark and reinforced with forest spirits.~
+WFlags   take legs~
+Values   15 0 0 0 0 0
+Stats    10 12000 60 0 0
+Rarity   2
+Affect   2 12 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40080
+Keywords dragonspire polearm weapon~
+Type     weapon~
+Short    the Dragonspire~
+Long     A long spear tipped with a sharpened obsidian dragon-claw.~
+WFlags   take wield~
+Values   12 20 40 11 0 0
+Stats    25 25000 63 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40081
+Keywords seal ascension ring jewelry~
+Type     jewelry~
+Short    the Seal of Ascension~
+Long     A heavy platinum ring that hums with the power of the high peaks.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 50000 60 0 0
+Rarity   3
+Affect   13 25 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40082
+Keywords draconic focus hold treasure~
+Type     treasure~
+Short    a Shimmering Draconic Focus~
+Long     A crystal sphere containing a miniature magical storm.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 8500 60 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40083
+Keywords black-powder pouch trash~
+Type     trash~
+Short    a pouch of Black-powder~
+Long     A small leather pouch filled with explosive charcoal dust.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40084
+Keywords dragon-bone tooth trophy~
+Type     trash~
+Short    a jagged dragon-tooth~
+Long     A long, sharp tooth taken from a black dragonspawn.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 250 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40085
+Keywords runecloth bolt loot treasure~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40086
+Keywords soul shard hold treasure~
+Type     treasure~
+Short    a Dark Soul Shard~
+Long     A small purple crystal that contains a flickering soul.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 55 0 0
+Rarity   1
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40087
+Keywords blackrock ore mineral~
+Type     treasure~
+Short    a chunk of Blackrock Ore~
+Long     A heavy black stone with a metallic luster.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    12 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40088
+Keywords dense stone trash~
+Type     trash~
+Short    a heavy dense stone~
+Long     A very heavy stone often found in thorium deposits.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    8 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40089
+Keywords thorium bar mineral treasure~
+Type     treasure~
+Short    a solid Thorium Bar~
+Long     A heavy bar of refined, shimmering green thorium.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1200 60 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40090
+Keywords truesilver bar mineral treasure~
+Type     treasure~
+Short    a solid Truesilver Bar~
+Long     A bar of white-hot, brilliant truesilver metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 3500 62 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     40091
+Keywords spire spider silk loot~
+Type     treasure~
+Short    a spool of Spire Silk~
+Long     Durable thread taken from the Spire's spiders.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 950 58 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     40092
+Keywords worg tooth trophy~
+Type     trash~
+Short    a sharp worg tooth~
+Long     A long, curved canine tooth taken from a worg.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40093
+Keywords ogre rib trophy~
+Type     trash~
+Short    a massive ogre rib~
+Long     A thick, bleached bone taken from a Gordok mercenary.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40094
+Keywords shadow-fire essence treasure hold~
+Type     treasure~
+Short    a vial of Shadow-fire Essence~
+Long     A glass vial containing a swirling cloud of purple and orange smoke.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 2500 60 0 0
+Rarity   2
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40095
+Keywords chromatic orb treasure hold~
+Type     treasure~
+Short    a Chromatic Orb~
+Long     A small sphere that shifts through all colors of the rainbow.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 8500 62 0 0
+Rarity   3
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40096
+Keywords blackhand shield armor~
+Type     armor~
+Short    the Blackhand Bulwark~
+Long     A massive kite shield etched with the red fist of the legion.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 15000 63 0 0
+Rarity   3
+Affect   5 25 0 0 0
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40097
+Keywords drakkisath's cape about armor~
+Type     armor~
+Short    Drakkisath's Royal Cape~
+Long     A long obsidian cape embroidered with silver dragon-motifs.~
+WFlags   take about~
+Values   10 0 0 0 0 0
+Stats    5 25000 64 0 0
+Rarity   3
+Affect   12 15 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40098
+Keywords iron-guard mace weapon~
+Type     weapon~
+Short    an Iron-guard Mace~
+Long     A heavy steel mace designed for crushing plate armor.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    20 4500 60 0 0
+Rarity   1
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     40099
+Keywords assassins's belt waist armor~
+Type     armor~
+Short    a Blackhand Assassin's Belt~
+Long     A fine leather belt with numerous small pockets for poisons.~
+WFlags   take waist~
+Values   8 0 0 0 0 0
+Stats    2 4500 60 0 0
+Rarity   1
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     40100
+Name     &rThe High Spire Landing&d~
+Sector   city~
+Flags    indoors~
+Desc     The humid air of Blackrock Mountain becomes an absolute furnace 
+as you step through the heavy iron portcullis. You stand at 
+the beginning of a wide, stone road that leads into the upper 
+command hub of the Spire. The air is thick with the scent of 
+sulfur and the rhythmic pounding of war-drums.
+~
+#EXIT
+Direction out~
+ToRoom    36561
+Desc      Return to the Spire Landing hub in Searing Gorge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40101
+Desc      The Hall of Blackhand.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     40101
+Name     &rThe Hall of Blackhand - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive stone thoroughfare built for the passage of entire 
+legions. High stone pillars supporting the vaulted ceiling 
+are draped in the red and black banners of the Dark Horde. 
+Blackhand legionnaires stand in silent vigil.
+~
+#EXIT
+Direction south~
+ToRoom    40100
+Desc      The entrance landing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40102
+Desc      The Hall of Blackhand Central.~
+#ENDEXIT
+Reset M 0 40000 10 40101
+#ENDROOM
+
+#ROOM
+Vnum     40102
+Name     &rThe Hall of Blackhand - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Spire's entrance hall. The road splits here. 
+To the east lies the Hall of Binding, where the pyroguards 
+commune with the fire. To the north, a high archway leads 
+toward the rookery.
+~
+#EXIT
+Direction south~
+ToRoom    40101
+Desc      Hall of Blackhand entry.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    40103
+Desc      Toward the Hall of Binding.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40115
+Desc      Toward the Rookery.~
+#ENDEXIT
+Reset M 0 40001 5 40102
+#ENDROOM
+
+#ROOM
+Vnum     40103
+Name     &rThe Hall of Binding - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are glowing with internal heat. Arcane runes 
+are etched into the stone, and the floor is hot to the 
+touch. Blackhand summoners work here, maintaining the wards.
+~
+#EXIT
+Direction west~
+ToRoom    40102
+Desc      The central hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40104
+Desc      The Altar of the Pyroguard.~
+#ENDEXIT
+Reset M 0 40002 5 40103
+#ENDROOM
+
+#ROOM
+Vnum     40104
+Name     &rThe Altar of the Pyroguard&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber. In the center, a large stone 
+altar is wreathed in permanent orange flames. Pyroguard 
+Emberstrider stands before the altar, his hands glowing 
+with the heat of the mountain.
+~
+#EXIT
+Direction south~
+ToRoom    40103
+Desc      The binding entry.~
+#ENDEXIT
+Reset M 0 40003 1 40104
+  Reset G 1 40081 1
+Reset M 0 40022 5 40104
+#ENDROOM
+
+#ROOM
+Vnum     40115
+Name     &rThe Rookery - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sound of thousands of tiny high-pitched screeches fills 
+the air. The walls are covered in web-like dragon-silk, 
+and the air is humid and smells of reptile musk. 
+Solakar Flamewreath can be heard shouting orders from 
+the room ahead.
+~
+#EXIT
+Direction south~
+ToRoom    40102
+Desc      The central hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40116
+Desc      The Hatchery Basin.~
+#ENDEXIT
+Reset M 0 40004 1 40115
+#ENDROOM
+
+#ROOM
+Vnum     40116
+Name     &rThe Hatchery Basin&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular room filled with hundreds of dark green 
+and black eggs. Chromatic whelps play in the warm 
+updrafts rising from the floor, while dragonspawn 
+patrol the perimeter of the nest.
+~
+#EXIT
+Direction south~
+ToRoom    40115
+Desc      The rookery entry.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    40120
+Desc      Toward the Hall of Fortune.~
+#ENDEXIT
+Reset M 0 40010 20 40116
+#ENDROOM
+
+#ROOM
+Vnum     40120
+Name     &rThe Hall of Fortune - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture becomes more regal here. Gold and silver 
+inlays decorate the stone, and the floor is polished 
+obsidian. This is the approach to the Warchief's arena.
+~
+#EXIT
+Direction east~
+ToRoom    40116
+Desc      The hatchery basin.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40121
+Desc      The Blackhand Arena.~
+#ENDEXIT
+Reset M 0 40018 5 40120
+#ENDROOM
+
+#ROOM
+Vnum     40121
+Name     &rThe Arena of Blackhand&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand in a massive, open-air arena at the heart of the 
+Spire. High above, the peaks of the mountain tower over 
+the field. Warchief Rend Blackhand sits upon his 
+dragon-mount, Gyth, watching the combat below with 
+an unblinking stare.
+~
+#EXIT
+Direction south~
+ToRoom    40120
+Desc      The hall of fortune entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40130
+Desc      Toward the Altar of the Beast.~
+#ENDEXIT
+Reset M 0 40005 1 40121
+  Reset E 1 40055 1 16
+  Reset E 1 40056 1 17
+  Reset G 1 40050 1
+Reset M 0 40006 1 40121
+Reset M 0 40020 10 40121
+#ENDROOM
+
+#ROOM
+Vnum     40130
+Name     &rThe Altar of the Beast - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark, ominous hallway leading away from the arena. The 
+ground is scorched and the air reeks of sulfur and 
+burning meat.
+~
+#EXIT
+Direction south~
+ToRoom    40121
+Desc      The arena.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40131
+Desc      The Lair of the Beast.~
+#ENDEXIT
+Reset M 0 40012 5 40130
+#ENDROOM
+
+#ROOM
+Vnum     40131
+Name     &rThe Lair of the Beast&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive, burning chamber. In the center, a core hound 
+of impossible size stands guard. Its body is composed 
+of living magma and basalt, and every breath it 
+takes illuminates the cavern in a hellish orange glow.
+~
+#EXIT
+Direction south~
+ToRoom    40130
+Desc      The altar entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40140
+Desc      Toward the General's Command.~
+#ENDEXIT
+Reset M 0 40007 1 40131
+  Reset G 1 40058 1
+  Reset G 1 40059 1
+#ENDROOM
+
+#ROOM
+Vnum     40140
+Name     &rThe General's Command - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here is distinctly draconic, with white 
+marble pillars carved in the image of massive, winged 
+serpents. High-ranking dragonspawn stand in silent vigil.
+~
+#EXIT
+Direction south~
+ToRoom    40131
+Desc      The beast's lair.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40141
+Desc      The Hall of General Drakkisath.~
+#ENDEXIT
+Reset M 0 40024 5 40140
+#ENDROOM
+
+#ROOM
+Vnum     40141
+Name     &rThe Hall of General Drakkisath&d~
+Sector   inside~
+Flags    indoors~
+Desc     The peak of the Spire. General Drakkisath stands in the 
+center of a large circular hall, surrounded by his 
+most loyal chromatic wardens. He oversees the Dark 
+Horde's military operations from this very seat. 
+The air hums with the power of the black dragonflight.
+~
+#EXIT
+Direction south~
+ToRoom    40140
+Desc      The command entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40200
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 40008 1 40141
+  Reset E 1 40051 1 16
+  Reset G 1 40053 1
+  Reset G 1 40097 1
+Reset M 0 40024 5 40141
+#ENDROOM
+
+#ROOM
+Vnum     40142
+Name     &rThe Hall of Binding - West Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet corner of the binding hall filled with jars of 
+shadow-fire essence and small stone idols.
+~
+#EXIT
+Direction east~
+ToRoom    40103
+Desc      The binding entry.~
+#ENDEXIT
+Reset O 0 40065 10 40142
+#ENDROOM
+
+#ROOM
+Vnum     40143
+Name     &rThe Hall of Binding - East Alcove&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room where the Blackhand summoners study their 
+most advanced rituals.
+~
+#EXIT
+Direction west~
+ToRoom    40103
+Desc      The binding entry.~
+#ENDEXIT
+Reset M 0 40002 5 40143
+#ENDROOM
+
+#ROOM
+Vnum     40144
+Name     &rThe Rookery - Nursery Side-wing&d~
+Sector   inside~
+Flags    indoors~
+Desc     A smaller nest filled with the youngest chromatic whelps. 
+The air is warm and moist.
+~
+#EXIT
+Direction south~
+ToRoom    40116
+Desc      The hatchery basin.~
+#ENDEXIT
+Reset M 0 40010 10 40144
+#ENDROOM
+
+#ROOM
+Vnum     40145
+Name     &rThe Rookery - Deep Cleft&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A natural cave hidden beneath a large egg-sac. 
+Feral whelps have made a nest here.
+~
+#EXIT
+Direction up~
+ToRoom    40116
+Desc      The hatchery basin.~
+#ENDEXIT
+Reset M 0 40027 10 40145
+#ENDROOM
+
+#ROOM
+Vnum     40146
+Name     &rThe Fortune Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop near the arena where the orc smiths 
+repair damaged plate armor for the champions.
+~
+#EXIT
+Direction north~
+ToRoom    40120
+Desc      The fortune hall entry.~
+#ENDEXIT
+Reset O 0 40062 10 40146
+#ENDROOM
+
+#ROOM
+Vnum     40147
+Name     &rThe Fortune Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small storage area near the arena, filled with 
+chests of gold and stolen elven artifacts.
+~
+#EXIT
+Direction south~
+ToRoom    40120
+Desc      The fortune hall entry.~
+#ENDEXIT
+Reset O 0 40063 5 40147
+#ENDROOM
+
+#ROOM
+Vnum     40148
+Name     &rThe Beast's Lair - West Ledge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone ledge overlooking the burning pit, home 
+to several rockwing gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    40131
+Desc      The beast's lair.~
+#ENDEXIT
+Reset M 0 40017 5 40148
+#ENDROOM
+
+#ROOM
+Vnum     40149
+Name     &rThe Beast's Lair - East Ledge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow maintenance tunnel for the city's steam system.
+~
+#EXIT
+Direction west~
+ToRoom    40131
+Desc      The beast's lair.~
+#ENDEXIT
+Reset M 0 40030 5 40149
+#ENDROOM
+
+#ROOM
+Vnum     40150
+Name     &rThe General's Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room near the command hall where the General's 
+top lieutenants prepare for the next tactical briefing.
+~
+#EXIT
+Direction south~
+ToRoom    40140
+Desc      The command entry.~
+#ENDEXIT
+Reset M 0 40032 5 40150
+#ENDROOM
+
+#ROOM
+Vnum     40151
+Name     &rThe General's Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small storage area near the peak, filled with 
+tactical briefs and polished obsidian.
+~
+#EXIT
+Direction west~
+ToRoom    40140
+Desc      The command entry.~
+#ENDEXIT
+Reset O 0 40059 10 40151
+#ENDROOM
+
+#ROOM
+Vnum     40152
+Name     &rBlackhand Hall Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet corner of the main entrance hall, frequently 
+patrolled by Blackhand assassins.
+~
+#EXIT
+Direction north~
+ToRoom    40101
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 40009 5 40152
+#ENDROOM
+
+#ROOM
+Vnum     40153
+Name     &rBlackhand Hall Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop where the orc engineers repair the Spire's 
+heavy blunderbusses.
+~
+#EXIT
+Direction east~
+ToRoom    40101
+Desc      Hall entrance.~
+#ENDEXIT
+Reset O 0 40070 10 40153
+#ENDROOM
+
+#ROOM
+Vnum     40154
+Name     &rThe High Spire Bridge - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive stone bridge crossing the industrial district. 
+Blackhand legionnaires stand guard in pairs.
+~
+#EXIT
+Direction north~
+ToRoom    40155
+Desc      High bridge center.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    40102
+Desc      Central hall.~
+#ENDEXIT
+Reset M 0 40000 5 40154
+#ENDROOM
+
+#ROOM
+Vnum     40155
+Name     &rThe High Spire Bridge - Center&d~
+Sector   city~
+Flags    indoors~
+Desc     The center of the high span. From here, you can see the 
+Molten Core far below and the General's Hall high above.
+~
+#EXIT
+Direction south~
+ToRoom    40154
+Desc      Southern bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    40156
+Desc      Northern bridge.~
+#ENDEXIT
+Reset M 0 40019 5 40155
+#ENDROOM
+
+#ROOM
+Vnum     40156
+Name     &rThe High Spire Bridge - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The north end of the bridge. The air is thin and cold.
+~
+#EXIT
+Direction south~
+ToRoom    40155
+Desc      Center bridge.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    40140
+Desc      Command entry.~
+#ENDEXIT
+Reset M 0 40013 5 40156
+#ENDROOM
+
+#ROOM
+Vnum     40157
+Name     &rThe Assassin's Watch&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A high, secluded ledge above the hall where assassins 
+can watch the entire city floor in absolute silence.
+~
+#EXIT
+Direction down~
+ToRoom    40102
+Desc      The central hall.~
+#ENDEXIT
+Reset M 0 40009 5 40157
+#ENDROOM
+
+#ROOM
+Vnum     40158
+Name     &rThe Hidden Cache&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small room behind a tapestry in the fortune hall. 
+It contains ancient elven treasures and dust.
+~
+#EXIT
+Direction east~
+ToRoom    40120
+Desc      The fortune hall entry.~
+#ENDEXIT
+Reset O 0 40061 1 40158
+#ENDROOM
+
+#ROOM
+Vnum     40159
+Name     &rThe Spire Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the ogre quarters where the 
+laborers prepare the Dark Horde's meals.
+~
+#EXIT
+Direction south~
+ToRoom    40120
+Desc      The fortune entry.~
+#ENDEXIT
+Reset M 0 40030 5 40159
+#ENDROOM
+
+#ROOM
+Vnum     40160
+Name     &rThe Spire Hospital&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room near the garrison where the Blackhand 
+medics treat the wounded.
+~
+#EXIT
+Direction north~
+ToRoom    40120
+Desc      The fortune entry.~
+#ENDEXIT
+Reset M 0 40034 5 40160
+#ENDROOM
+
+#ROOM
+Vnum     40161
+Name     &rThe Rookery - Upper Ledge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone platform overlooking the hatchery, frequently 
+patrolled by chromatic dragonspawn.
+~
+#EXIT
+Direction south~
+ToRoom    40116
+Desc      The hatchery basin.~
+#ENDEXIT
+Reset M 0 40013 5 40161
+#ENDROOM
+
+#ROOM
+Vnum     40162
+Name     &rThe Rookery - Side Tunnel&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow tunnel lined with emerald dragon-scales. 
+Chromatic whelps often hide here.
+~
+#EXIT
+Direction east~
+ToRoom    40116
+Desc      The hatchery basin.~
+#ENDEXIT
+Reset M 0 40010 10 40162
+#ENDROOM
+
+#ROOM
+Vnum     40163
+Name     &rThe Arena Stands - West&d~
+Sector   city~
+Flags    indoors~
+Desc     Rows of stone benches occupied by rowdy Gordok mercenaries. 
+They throw meat and insults at the combatants.
+~
+#EXIT
+Direction east~
+ToRoom    40121
+Desc      The arena field.~
+#ENDEXIT
+Reset M 0 40015 10 40163
+#ENDROOM
+
+#ROOM
+Vnum     40164
+Name     &rThe Arena Stands - East&d~
+Sector   city~
+Flags    indoors~
+Desc     A mirror image of the west stands. Blackhand veterans 
+watch the spectacle with professional interest.
+~
+#EXIT
+Direction west~
+ToRoom    40121
+Desc      The arena field.~
+#ENDEXIT
+Reset M 0 40018 10 40164
+#ENDROOM
+
+#ROOM
+Vnum     40165
+Name     &rThe Warchief's Private Box&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone balcony overlooking the entire arena. This is 
+where the Warchief sits when he is not in the field.
+~
+#EXIT
+Direction down~
+ToRoom    40121
+Desc      The arena field.~
+#ENDEXIT
+Reset M 0 40020 5 40165
+#ENDROOM
+
+#ROOM
+Vnum     40166
+Name     &rThe Beast's Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the beast's lair, filled with 
+burned masonry and piles of ash.
+~
+#EXIT
+Direction south~
+ToRoom    40131
+Desc      The beast's lair.~
+#ENDEXIT
+Reset O 0 40060 10 40166
+#ENDROOM
+
+#ROOM
+Vnum     40167
+Name     &rThe Beast's Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet ridge north of the lair, where Blackhand snipers 
+keep watch over the inner Spire.
+~
+#EXIT
+Direction north~
+ToRoom    40131
+Desc      The beast's lair.~
+#ENDEXIT
+Reset M 0 40023 5 40167
+#ENDROOM
+
+#ROOM
+Vnum     40168
+Name     &rThe General's Side-chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small chamber where the General's top advisors 
+conduct their dark rituals.
+~
+#EXIT
+Direction east~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset M 0 40025 5 40168
+#ENDROOM
+
+#ROOM
+Vnum     40169
+Name     &rThe General's Library&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room filled with the collective knowledge of 
+the black dragonflight.
+~
+#EXIT
+Direction west~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset O 0 40082 1 40169
+#ENDROOM
+
+#ROOM
+Vnum     40170
+Name     &rThe Shadowed Ledge - East&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the Hall of Blackhand, home to 
+several obsidian gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    40101
+Desc      The hall entrance.~
+#ENDEXIT
+Reset M 0 40017 5 40170
+#ENDROOM
+
+#ROOM
+Vnum     40171
+Name     &rThe Spire Final Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet, central garden of lava-roots and glowing 
+mushrooms in the middle of the upper Spire.
+~
+#EXIT
+Direction north~
+ToRoom    40101
+Desc      The entrance hall.~
+#ENDEXIT
+Reset O 0 40067 10 40171
+#ENDROOM
+
+#ROOM
+Vnum     40200
+Name     &rThe Upper Spire Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind General Drakkisath's throne 
+leads toward a hidden opening in the peak of Blackrock 
+Mountain, offering a quick way out.
+~
+#EXIT
+Direction south~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    40100
+Desc      The entrance landing.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     40172
+Name     &rThe Binding Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop where the rituals are prepared.
+~
+#EXIT
+Direction south~
+ToRoom    40103
+Desc      Binding entrance.~
+#ENDEXIT
+Reset O 0 40065 10 40172
+#ENDROOM
+
+#ROOM
+Vnum     40173
+Name     &rThe Binding Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small storage area for magical coal and crystals.
+~
+#EXIT
+Direction north~
+ToRoom    40103
+Desc      Binding entrance.~
+#ENDEXIT
+Reset O 0 40066 10 40173
+#ENDROOM
+
+#ROOM
+Vnum     40174
+Name     &rThe Rookery - Lookout Ledge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing offering a commanding view 
+of the hatchery basin.
+~
+#EXIT
+Direction down~
+ToRoom    40116
+Desc      Hatchery basin.~
+#ENDEXIT
+Reset M 0 40023 5 40174
+#ENDROOM
+
+#ROOM
+Vnum     40175
+Name     &rThe Fortune Side-tunnel&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the fortune hall filled with ancient 
+Lordaeron gold coins and dust.
+~
+#EXIT
+Direction west~
+ToRoom    40120
+Desc      Fortune entry.~
+#ENDEXIT
+Reset O 0 40060 5 40175
+#ENDROOM
+
+#ROOM
+Vnum     40176
+Name     &rThe Arena - West Gate&d~
+Sector   city~
+Flags    indoors~
+Desc     The entrance to the arena for the combatants. 
+The air smells of blood and sweat.
+~
+#EXIT
+Direction east~
+ToRoom    40121
+Desc      Arena field.~
+#ENDEXIT
+Reset M 0 40018 5 40176
+#ENDROOM
+
+#ROOM
+Vnum     40177
+Name     &rThe Arena - East Gate&d~
+Sector   city~
+Flags    indoors~
+Desc     The entrance to the arena for the beasts. 
+Large iron bars block the way.
+~
+#EXIT
+Direction west~
+ToRoom    40121
+Desc      Arena field.~
+#ENDEXIT
+Reset M 0 40014 5 40177
+#ENDROOM
+
+#ROOM
+Vnum     40178
+Name     &rThe Beast's Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room where the beast's handlers prepare for their shifts.
+~
+#EXIT
+Direction south~
+ToRoom    40131
+Desc      Beast's lair.~
+#ENDEXIT
+Reset M 0 40030 5 40178
+#ENDROOM
+
+#ROOM
+Vnum     40179
+Name     &rThe Beast's Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage area filled with raw meat and bone-piles.
+~
+#EXIT
+Direction north~
+ToRoom    40131
+Desc      Beast's lair.~
+#ENDEXIT
+Reset O 40093 10 40179
+#ENDROOM
+
+#ROOM
+Vnum     40180
+Name     &rThe Command Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing in the command hall, 
+offering a view of the southern bridge.
+~
+#EXIT
+Direction south~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset M 0 40019 5 40180
+#ENDROOM
+
+#ROOM
+Vnum     40181
+Name     &rThe Command Overflow D&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet section of the peak filled with 
+Dreamfoil and the sound of distant drums.
+~
+#EXIT
+Direction north~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset O 0 40082 5 40181
+#ENDROOM
+
+#ROOM
+Vnum     40182
+Name     &rThe Blackhand - Labyrinth South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A confusing series of small stone rooms near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    40183
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40101
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 40009 5 40182
+#ENDROOM
+
+#ROOM
+Vnum     40183
+Name     &rThe Blackhand - Labyrinth North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the entrance labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40182
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40009 5 40183
+#ENDROOM
+
+#ROOM
+Vnum     40184
+Name     &rThe Binding - Labyrinth South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of hot, smoldering tunnels near the binding hall.
+~
+#EXIT
+Direction north~
+ToRoom    40185
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40103
+Desc      Binding entry.~
+#ENDEXIT
+Reset M 0 40022 5 40184
+#ENDROOM
+
+#ROOM
+Vnum     40185
+Name     &rThe Binding - Labyrinth North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the smoldering labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40184
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40022 5 40185
+#ENDROOM
+
+#ROOM
+Vnum     40186
+Name     &rThe Rookery - Labyrinth South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A Confusion of small, webbed tunnels near the basin.
+~
+#EXIT
+Direction north~
+ToRoom    40187
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40116
+Desc      Basin.~
+#ENDEXIT
+Reset M 0 40010 10 40186
+#ENDROOM
+
+#ROOM
+Vnum     40187
+Name     &rThe Rookery - Labyrinth North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the webbed labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40186
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40010 10 40187
+#ENDROOM
+
+#ROOM
+Vnum     40188
+Name     &rThe Fortune - Labyrinth South&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the arena.
+~
+#EXIT
+Direction north~
+ToRoom    40189
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40120
+Desc      Fortune entry.~
+#ENDEXIT
+Reset M 0 40018 5 40188
+#ENDROOM
+
+#ROOM
+Vnum     40189
+Name     &rThe Fortune - Labyrinth North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the fortune labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40188
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40018 5 40189
+#ENDROOM
+
+#ROOM
+Vnum     40190
+Name     &rThe Command - Labyrinth South&d~
+Sector   inside~
+Flags    indoors~
+Desc     High stone rooms near the General's throne.
+~
+#EXIT
+Direction north~
+ToRoom    40191
+Desc      Labyrinth North.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset M 0 40032 5 40190
+#ENDROOM
+
+#ROOM
+Vnum     40191
+Name     &rThe Command - Labyrinth North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    40190
+Desc      Labyrinth South.~
+#ENDEXIT
+Reset M 0 40032 5 40191
+#ENDROOM
+
+#ROOM
+Vnum     40192
+Name     &rThe Hall of Blackhand Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for iron-guard shields and halberds.
+~
+#EXIT
+Direction west~
+ToRoom    40101
+Desc      Hall entrance.~
+#ENDEXIT
+Reset O 0 40096 1 40192
+#ENDROOM
+
+#ROOM
+Vnum     40193
+Name     &rThe Hall of Blackhand Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the legionnaires can rest between shifts.
+~
+#EXIT
+Direction east~
+ToRoom    40101
+Desc      Hall entrance.~
+#ENDEXIT
+Reset M 0 40000 5 40193
+#ENDROOM
+
+#ROOM
+Vnum     40194
+Name     &rThe Rookery Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for dragon-scales and bone-poles.
+~
+#EXIT
+Direction north~
+ToRoom    40116
+Desc      Basin.~
+#ENDEXIT
+Reset O 0 40060 10 40194
+#ENDROOM
+
+#ROOM
+Vnum     40195
+Name     &rThe Rookery Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the watchers can study their magical focus.
+~
+#EXIT
+Direction south~
+ToRoom    40116
+Desc      Basin.~
+#ENDEXIT
+Reset M 0 40019 5 40195
+#ENDROOM
+
+#ROOM
+Vnum     40196
+Name     &rThe Arena Side-room A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room where the arena combatants can prepare.
+~
+#EXIT
+Direction east~
+ToRoom    40121
+Desc      Arena field.~
+#ENDEXIT
+Reset O 0 40071 10 40196
+#ENDROOM
+
+#ROOM
+Vnum     40197
+Name     &rThe Arena Side-room B&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room where the arena spectators can purchase meat and ale.
+~
+#EXIT
+Direction west~
+ToRoom    40121
+Desc      Arena field.~
+#ENDEXIT
+Reset O 0 40067 10 40197
+#ENDROOM
+
+#ROOM
+Vnum     40198
+Name     &rThe Command Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for General Drakkisath's capes and signets.
+~
+#EXIT
+Direction south~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset O 0 40097 1 40198
+#ENDROOM
+
+#ROOM
+Vnum     40199
+Name     &rThe Command Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the chromatic reavers can rest.
+~
+#EXIT
+Direction north~
+ToRoom    40141
+Desc      General's throne.~
+#ENDEXIT
+Reset M 0 40032 5 40199
+#ENDROOM
+
+#ENDAREA
