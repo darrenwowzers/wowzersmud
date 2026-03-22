@@ -1812,6 +1812,58 @@ void do_rstat( CHAR_DATA* ch, const char* argument )
                  pexit->key, pexit->exit_info, pexit->keyword[0] != '\0' ? pexit->keyword : "(none)" );
 }
 
+/* Shows resets for the room the builder is currently in --Hansth */
+void do_rresets( CHAR_DATA *ch, const char *argument )
+{
+    RESET_DATA *pReset;
+    char buf[MAX_STRING_LENGTH];
+    int count = 0;
+
+    if ( !ch || !ch->in_room )
+        return;
+
+    ch_printf( ch, "&cResets for room: &W%d  &cName: &W%s\r\n", ch->in_room->vnum, ch->in_room->name );
+    ch_printf( ch, "&c-----------------------------------------------------------------\r\n" );
+
+    for ( pReset = ch->in_room->first_reset; pReset; pReset = pReset->next )
+    {
+        count++;
+        sprintf( buf, "&w%2d&c) ", count );
+        send_to_char( buf, ch );
+
+        switch ( pReset->command )
+        {
+            case 'M':
+                ch_printf( ch, "Mobile: %d  Limit: %d  Room: %d\r\n", pReset->arg1, pReset->arg2, pReset->arg3 );
+                break;
+            case 'O':
+                ch_printf( ch, "Object: %d  Room: %d\r\n", pReset->arg1, pReset->arg3 );
+                break;
+            case 'E':
+                ch_printf( ch, "Equip:  %d  WearLoc: %d\r\n", pReset->arg1, pReset->arg3 );
+                break;
+            case 'P':
+                ch_printf( ch, "Put:    %d  InObj: %d\r\n", pReset->arg1, pReset->arg3 );
+                break;
+            case 'G':
+                ch_printf( ch, "Give:   %d\r\n", pReset->arg1 );
+                break;
+            case 'D':
+                ch_printf( ch, "Door:   Room: %d  Dir: %d  State: %d\r\n", pReset->arg1, pReset->arg2, pReset->arg3 );
+                break;
+            case 'R':
+                ch_printf( ch, "Random: Room: %d  Dir: %d\r\n", pReset->arg1, pReset->arg2 );
+                break;
+            default:
+                ch_printf( ch, "Unknown Reset: %c %d %d %d\r\n", pReset->command, pReset->arg1, pReset->arg2, pReset->arg3 );
+                break;
+        }
+    }
+
+    if ( count == 0 )
+        send_to_char( "No resets currently in this room.\r\n", ch );
+}
+
 /* Face-lift by Demora */
 void do_ostat( CHAR_DATA* ch, const char* argument )
 {

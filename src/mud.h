@@ -1984,12 +1984,12 @@ typedef enum
 #define ROOM_VNUM_LIMBO		      2
 #define ROOM_VNUM_POLY		      3
 #define ROOM_VNUM_CHAT		   1200
-#define ROOM_VNUM_TEMPLE	  21001
-#define ROOM_VNUM_ALTAR		  21194
+#define ROOM_VNUM_TEMPLE	  10301
+#define ROOM_VNUM_ALTAR		  10302
 #define ROOM_VNUM_SCHOOL	  10300
 #define ROOM_AUTH_START		    100
-#define ROOM_VNUM_HALLOFFALLEN    21195
-#define ROOM_VNUM_DEADLY        3009
+#define ROOM_VNUM_HALLOFFALLEN    10303
+#define ROOM_VNUM_DEADLY        6
 #define ROOM_VNUM_HELL		6
 
 /*
@@ -2250,6 +2250,12 @@ struct timer_data
  */
 #define AREA_DELETED       BV00
 #define AREA_LOADED        BV01
+
+/* Wowzers MUD Area Classifications --Hansth */
+typedef enum
+{
+   AREA_LEVELING, AREA_ALLIANCE, AREA_HORDE, AREA_NEUTRAL, AREA_DUNGEON, AREA_RAID, AREA_OFFLIMITS
+} area_types;
 
 /* Area flags - Narn Mar/96 */
 #define AFLAG_NOPKILL         BV00
@@ -2947,6 +2953,7 @@ struct area_data
    ROOM_INDEX_DATA *first_room;
    ROOM_INDEX_DATA *last_room;
    const char *name;
+   short type;           /* Stores the WoW area classification --Hansth */
    const char *filename;
    const char *author;  /* Scryn */
    const char *resetmsg;   /* Rennard */
@@ -4359,6 +4366,7 @@ DECLARE_DO_FUN( do_rloop );
 DECLARE_DO_FUN( do_rolldie );
 DECLARE_DO_FUN( do_roster );
 DECLARE_DO_FUN( do_rstat );
+DECLARE_DO_FUN( do_rresets ); // Added for room resets --Hansth
 DECLARE_DO_FUN( do_sacrifice );
 DECLARE_DO_FUN( do_save );
 DECLARE_DO_FUN( do_savearea );
