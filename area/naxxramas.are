@@ -2346,6 +2346,7 @@ Desc     A series of confusing stone corridors in the spider wing.
 Direction north~
 ToRoom    43719
 Desc      Labyrinth 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43711
@@ -2380,6 +2381,7 @@ Desc     Confusing tunnels near the plaguebringer's quarters.
 Direction north~
 ToRoom    43749
 Desc      Labyrinth 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43741
@@ -2414,6 +2416,7 @@ Desc     Confusing stone corridors near the death knight training ground.
 Direction north~
 ToRoom    43777
 Desc      Labyrinth 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43771
@@ -2448,6 +2451,7 @@ Desc     Confusing messy corridors near the flesh-crafting vats.
 Direction north~
 ToRoom    43819
 Desc      Labyrinth 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43811
@@ -2482,6 +2486,7 @@ Desc     One of fifty interconnected cells in the spider wing.
 Direction north~
 ToRoom    43721
 Desc      Cell 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2516,6 +2521,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43723
 Desc      Cell 4.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2550,6 +2556,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43725
 Desc      Cell 6.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2584,6 +2591,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43727
 Desc      Cell 8.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2618,6 +2626,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43729
 Desc      Cell 10.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2652,6 +2661,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43731
 Desc      Cell 12.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2686,6 +2696,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43733
 Desc      Cell 14.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2720,6 +2731,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43735
 Desc      Cell 16.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2754,6 +2766,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43737
 Desc      Cell 18.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2788,6 +2801,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43739
 Desc      Cell 20.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43710
@@ -2822,6 +2836,7 @@ Desc     One of fifty interconnected cells in the plague wing.
 Direction north~
 ToRoom    43751
 Desc      Cell 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -2856,6 +2871,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43753
 Desc      Cell 4.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -2890,6 +2906,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43755
 Desc      Cell 6.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -2924,6 +2941,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43757
 Desc      Cell 8.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -2958,6 +2976,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43759
 Desc      Cell 10.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -2992,6 +3011,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43761
 Desc      Cell 12.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -3026,6 +3046,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43763
 Desc      Cell 14.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -3060,6 +3081,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43765
 Desc      Cell 16.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -3094,6 +3116,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43767
 Desc      Cell 18.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -3128,6 +3151,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43769
 Desc      Cell 20.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43740
@@ -3162,6 +3186,7 @@ Desc     One of forty interconnected cells in the military wing.
 Direction north~
 ToRoom    43781
 Desc      Cell 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3196,6 +3221,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43783
 Desc      Cell 4.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3230,6 +3256,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43785
 Desc      Cell 6.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3264,6 +3291,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43787
 Desc      Cell 8.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3298,6 +3326,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43789
 Desc      Cell 10.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3332,6 +3361,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43791
 Desc      Cell 12.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3366,6 +3396,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43793
 Desc      Cell 14.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3400,6 +3431,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43795
 Desc      Cell 16.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3434,6 +3466,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43797
 Desc      Cell 18.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3468,6 +3501,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43799
 Desc      Cell 20.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43770
@@ -3502,6 +3536,7 @@ Desc     One of forty interconnected cells in the construct wing.
 Direction north~
 ToRoom    43821
 Desc      Cell 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3536,6 +3571,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43823
 Desc      Cell 4.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3570,6 +3606,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43825
 Desc      Cell 6.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3604,6 +3641,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43827
 Desc      Cell 8.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3638,6 +3676,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43829
 Desc      Cell 10.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3672,6 +3711,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43831
 Desc      Cell 12.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3706,6 +3746,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43833
 Desc      Cell 14.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3740,6 +3781,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43835
 Desc      Cell 16.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3774,6 +3816,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43837
 Desc      Cell 18.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3808,6 +3851,7 @@ Desc     Confusing stone corridors near the entrance.
 Direction north~
 ToRoom    43839
 Desc      Cell 20.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43810
@@ -3842,6 +3886,7 @@ Desc     The first of forty interconnected underbelly cells.
 Direction north~
 ToRoom    43841
 Desc      Cell 22.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -3876,6 +3921,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43843
 Desc      Cell 24.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -3910,6 +3956,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43845
 Desc      Cell 26.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -3944,6 +3991,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43847
 Desc      Cell 28.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -3978,6 +4026,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43849
 Desc      Cell 30.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4012,6 +4061,7 @@ Desc     The first of interconnected frost-cells.
 Direction north~
 ToRoom    43854
 Desc      Path 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43850
@@ -4046,6 +4096,7 @@ Desc     Confusing frost-tunnels near the Archlich.
 Direction north~
 ToRoom    43856
 Desc      Path 4.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43850
@@ -4080,6 +4131,7 @@ Desc     Confusing frost-tunnels near the Archlich.
 Direction north~
 ToRoom    43858
 Desc      Path 6.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43850
@@ -4114,6 +4166,7 @@ Desc     Confusing frost-tunnels near the Archlich.
 Direction north~
 ToRoom    43860
 Desc      Path 8.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43850
@@ -4148,6 +4201,7 @@ Desc     Confusing frost-tunnels near the Archlich.
 Direction north~
 ToRoom    43862
 Desc      Path 10.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43850
@@ -4182,6 +4236,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43864
 Desc      Cell 32.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4216,6 +4271,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43866
 Desc      Cell 34.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4250,6 +4306,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43868
 Desc      Cell 36.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4284,6 +4341,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43870
 Desc      Cell 38.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4318,6 +4376,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43872
 Desc      Cell 40.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4352,6 +4411,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43874
 Desc      Cell 42.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4386,6 +4446,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43876
 Desc      Cell 44.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4420,6 +4481,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43878
 Desc      Cell 46.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4454,6 +4516,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43880
 Desc      Cell 48.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4488,6 +4551,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43882
 Desc      Cell 50.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4522,6 +4586,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43884
 Desc      Cell 52.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4556,6 +4621,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43886
 Desc      Cell 54.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4590,6 +4656,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43888
 Desc      Cell 56.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4624,6 +4691,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43890
 Desc      Cell 58.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4658,6 +4726,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43892
 Desc      Cell 60.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4692,6 +4761,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43894
 Desc      Cell 62.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4726,6 +4796,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43896
 Desc      Cell 64.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4760,6 +4831,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43898
 Desc      Cell 66.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4794,6 +4866,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43901
 Desc      Cell 68.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701
@@ -4828,6 +4901,7 @@ Desc     Confusing stone corridors in the underbelly.
 Direction north~
 ToRoom    43903
 Desc      Cell 70.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43701

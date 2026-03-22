@@ -1792,6 +1792,7 @@ Desc     A Confusion of small, magically-warded rooms near the labs.
 Direction north~
 ToRoom    42251
 Desc      Labyrinth 1.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42220
@@ -1811,6 +1812,7 @@ Desc     The air is thick with the scent of ozone and shadow-magic.
 Direction south~
 ToRoom    42250
 Desc      Labyrinth entrance.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42252
@@ -1830,6 +1832,7 @@ Desc     A narrow hallway lined with glass vats of experimental fluids.
 Direction south~
 ToRoom    42251
 Desc      Labyrinth 1.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42253
@@ -1849,6 +1852,7 @@ Desc     The heart of the lower laboratory labyrinth.
 Direction south~
 ToRoom    42252
 Desc      Labyrinth 2.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42254
@@ -1868,6 +1872,7 @@ Desc     High stone rooms near the second bridge.
 Direction south~
 ToRoom    42253
 Desc      Labyrinth 3.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42255
@@ -1887,6 +1892,7 @@ Desc     The heart of the mid-level labyrinth.
 Direction south~
 ToRoom    42254
 Desc      Labyrinth 4.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42256
@@ -1906,6 +1912,7 @@ Desc     Side tunnels near the kennel entrance.
 Direction south~
 ToRoom    42255
 Desc      Labyrinth 5.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42257
@@ -1925,6 +1932,7 @@ Desc     The heart of the upper laboratory labyrinth.
 Direction south~
 ToRoom    42256
 Desc      Labyrinth 6.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42258
@@ -1944,6 +1952,7 @@ Desc     Side tunnels near Nefarian's throne room.
 Direction south~
 ToRoom    42257
 Desc      Labyrinth 7.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42259
@@ -1963,6 +1972,7 @@ Desc     The absolute deepest part of the laboratory tunnels.
 Direction south~
 ToRoom    42258
 Desc      Labyrinth 8.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42260
@@ -1997,6 +2007,7 @@ Desc     The first of forty-one interconnected lab-cells.
 Direction north~
 ToRoom    42262
 Desc      Labyrinth 12.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42210
@@ -2016,6 +2027,7 @@ Desc     A clinical chamber filled with bubbling vats.
 Direction south~
 ToRoom    42261
 Desc      Labyrinth 11.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42263
@@ -2035,6 +2047,7 @@ Desc     A narrow tunnel lined with dragon-bone.
 Direction south~
 ToRoom    42262
 Desc      Labyrinth 12.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42264
@@ -2054,6 +2067,7 @@ Desc     A side room where chromatic whelps are fed.
 Direction south~
 ToRoom    42263
 Desc      Labyrinth 13.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42265
@@ -2073,6 +2087,7 @@ Desc     A dark corner filled with shadow-fire residue.
 Direction south~
 ToRoom    42264
 Desc      Labyrinth 14.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42266
@@ -2092,6 +2107,7 @@ Desc     A storage room for heavy obsidian maces.
 Direction south~
 ToRoom    42265
 Desc      Labyrinth 15.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42267
@@ -2111,6 +2127,7 @@ Desc     A side workshop where armor is repaired.
 Direction south~
 ToRoom    42266
 Desc      Labyrinth 16.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42268
@@ -2130,6 +2147,7 @@ Desc     A quiet room where menders study rituals.
 Direction south~
 ToRoom    42267
 Desc      Labyrinth 17.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42269
@@ -2149,6 +2167,7 @@ Desc     A dark hallway home to several lava spiders.
 Direction south~
 ToRoom    42268
 Desc      Labyrinth 18.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42270
@@ -2168,6 +2187,7 @@ Desc     The heart of the mid-level suppression lab.
 Direction south~
 ToRoom    42269
 Desc      Labyrinth 19.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42271
@@ -2187,6 +2207,7 @@ Desc     A narrow crawlway used by technicians.
 Direction south~
 ToRoom    42270
 Desc      Labyrinth 20.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42272
@@ -2206,6 +2227,7 @@ Desc     A clinical chamber filled with shrivelled organs.
 Direction south~
 ToRoom    42271
 Desc      Labyrinth 21.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42273
@@ -2225,6 +2247,7 @@ Desc     A storage room for elementium dust and coal.
 Direction south~
 ToRoom    42272
 Desc      Labyrinth 22.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42274
@@ -2244,6 +2267,7 @@ Desc     A high stone landing near the third bridge.
 Direction south~
 ToRoom    42273
 Desc      Labyrinth 23.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42275
@@ -2263,6 +2287,7 @@ Desc     The heart of the high-level laboratory labyrinth.
 Direction south~
 ToRoom    42274
 Desc      Labyrinth 24.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42276
@@ -2282,6 +2307,7 @@ Desc     A narrow tunnel lined with obsidian pillars.
 Direction south~
 ToRoom    42275
 Desc      Labyrinth 25.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42277
@@ -2301,6 +2327,7 @@ Desc     A side room where ritualists prepare prayers.
 Direction south~
 ToRoom    42276
 Desc      Labyrinth 26.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42278
@@ -2320,6 +2347,7 @@ Desc     A dark corner filled with the scent of ash.
 Direction south~
 ToRoom    42277
 Desc      Labyrinth 27.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42279
@@ -2339,6 +2367,7 @@ Desc     A storage room for heavy obsidian war-maces.
 Direction south~
 ToRoom    42278
 Desc      Labyrinth 28.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42280
@@ -2358,6 +2387,7 @@ Desc     The heart of the command-level labyrinth.
 Direction south~
 ToRoom    42279
 Desc      Labyrinth 29.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42281
@@ -2377,6 +2407,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42280
 Desc      Labyrinth 30.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42282
@@ -2396,6 +2427,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42281
 Desc      Labyrinth 31.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42283
@@ -2415,6 +2447,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42282
 Desc      Labyrinth 32.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42284
@@ -2434,6 +2467,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42283
 Desc      Labyrinth 33.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42285
@@ -2453,6 +2487,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42284
 Desc      Labyrinth 34.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42286
@@ -2472,6 +2507,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42285
 Desc      Labyrinth 35.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42287
@@ -2491,6 +2527,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42286
 Desc      Labyrinth 36.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42288
@@ -2510,6 +2547,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42287
 Desc      Labyrinth 37.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42289
@@ -2529,6 +2567,7 @@ Desc     Confusing tunnels near the throne room exit.
 Direction south~
 ToRoom    42288
 Desc      Labyrinth 38.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42290
@@ -2563,6 +2602,7 @@ Desc     A high stone landing near the Sky-terrace.
 Direction north~
 ToRoom    42292
 Desc      Lab Cell 42.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42242
@@ -2582,6 +2622,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42291
 Desc      Lab Cell 41.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42293
@@ -2601,6 +2642,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42292
 Desc      Lab Cell 42.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42294
@@ -2620,6 +2662,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42293
 Desc      Lab Cell 43.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42295
@@ -2639,6 +2682,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42294
 Desc      Lab Cell 44.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42296
@@ -2658,6 +2702,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42295
 Desc      Lab Cell 45.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42297
@@ -2677,6 +2722,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42296
 Desc      Lab Cell 46.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42298
@@ -2696,6 +2742,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42297
 Desc      Lab Cell 47.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42299
@@ -2715,6 +2762,7 @@ Desc     The heart of the terrace-guard labyrinth.
 Direction south~
 ToRoom    42298
 Desc      Lab Cell 48.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42300
@@ -2859,6 +2907,7 @@ Desc     Side tunnels near the foundries.
 Direction north~
 ToRoom    42309
 Desc      Lab Cell 52.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42220
@@ -2878,6 +2927,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42308
 Desc      Lab Cell 51.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42310
@@ -2897,6 +2947,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42309
 Desc      Lab Cell 52.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42311
@@ -2916,6 +2967,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42310
 Desc      Lab Cell 53.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42312
@@ -2935,6 +2987,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42311
 Desc      Lab Cell 54.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42313
@@ -2954,6 +3007,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42312
 Desc      Lab Cell 55.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42314
@@ -2973,6 +3027,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42313
 Desc      Lab Cell 56.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42315
@@ -2992,6 +3047,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42314
 Desc      Lab Cell 57.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42316
@@ -3011,6 +3067,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42315
 Desc      Lab Cell 58.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42317
@@ -3030,6 +3087,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42316
 Desc      Lab Cell 59.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42318
@@ -3049,6 +3107,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42317
 Desc      Lab Cell 60.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42319
@@ -3068,6 +3127,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42318
 Desc      Lab Cell 61.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42320
@@ -3087,6 +3147,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42319
 Desc      Lab Cell 62.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42321
@@ -3106,6 +3167,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42320
 Desc      Lab Cell 63.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42322
@@ -3125,6 +3187,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42321
 Desc      Lab Cell 64.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42323
@@ -3144,6 +3207,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42322
 Desc      Lab Cell 65.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42324
@@ -3163,6 +3227,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42323
 Desc      Lab Cell 66.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42325
@@ -3182,6 +3247,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42324
 Desc      Lab Cell 67.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42326
@@ -3201,6 +3267,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42325
 Desc      Lab Cell 68.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42327
@@ -3220,6 +3287,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42326
 Desc      Lab Cell 69.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42328
@@ -3239,6 +3307,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42327
 Desc      Lab Cell 70.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42329
@@ -3258,6 +3327,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42328
 Desc      Lab Cell 71.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42330
@@ -3277,6 +3347,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42329
 Desc      Lab Cell 72.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42331
@@ -3296,6 +3367,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42330
 Desc      Lab Cell 73.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42332
@@ -3315,6 +3387,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42331
 Desc      Lab Cell 74.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42333
@@ -3334,6 +3407,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42332
 Desc      Lab Cell 75.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42334
@@ -3353,6 +3427,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42333
 Desc      Lab Cell 76.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42335
@@ -3372,6 +3447,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42334
 Desc      Lab Cell 77.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42336
@@ -3391,6 +3467,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42335
 Desc      Lab Cell 78.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42337
@@ -3410,6 +3487,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42336
 Desc      Lab Cell 79.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42338
@@ -3429,6 +3507,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42337
 Desc      Lab Cell 80.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42339
@@ -3448,6 +3527,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42338
 Desc      Lab Cell 81.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42340
@@ -3467,6 +3547,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42339
 Desc      Lab Cell 82.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42341
@@ -3486,6 +3567,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42340
 Desc      Lab Cell 83.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42342
@@ -3505,6 +3587,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42341
 Desc      Lab Cell 84.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42343
@@ -3524,6 +3607,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42342
 Desc      Lab Cell 85.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42344
@@ -3543,6 +3627,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42343
 Desc      Lab Cell 86.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42345
@@ -3562,6 +3647,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42344
 Desc      Lab Cell 87.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42346
@@ -3581,6 +3667,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42345
 Desc      Lab Cell 88.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42347
@@ -3600,6 +3687,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42346
 Desc      Lab Cell 89.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42348
@@ -3619,6 +3707,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42347
 Desc      Lab Cell 90.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42349
@@ -3638,6 +3727,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42348
 Desc      Lab Cell 91.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42350
@@ -3657,6 +3747,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42349
 Desc      Lab Cell 92.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42351
@@ -3676,6 +3767,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42350
 Desc      Lab Cell 93.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42352
@@ -3695,6 +3787,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42351
 Desc      Lab Cell 94.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42353
@@ -3714,6 +3807,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42352
 Desc      Lab Cell 95.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42354
@@ -3733,6 +3827,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42353
 Desc      Lab Cell 96.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42355
@@ -3752,6 +3847,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42354
 Desc      Lab Cell 97.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42356
@@ -3771,6 +3867,7 @@ Desc     The heart of the foundry-guard labyrinth.
 Direction south~
 ToRoom    42355
 Desc      Lab Cell 98.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42357
@@ -3805,6 +3902,7 @@ Desc     A side tunnel near the Breeding Pit.
 Direction north~
 ToRoom    42359
 Desc      Lab Cell 102.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42205
@@ -3824,6 +3922,7 @@ Desc     Confusing tunnels near the dragon-breeding pits.
 Direction south~
 ToRoom    42358
 Desc      Lab Cell 101.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    42360
@@ -3858,6 +3957,7 @@ Desc     A side tunnel near the First Bridge.
 Direction north~
 ToRoom    42362
 Desc      Lab Cell 105.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42221
@@ -3892,6 +3992,7 @@ Desc     A side tunnel near the Second Bridge.
 Direction north~
 ToRoom    42364
 Desc      Lab Cell 107.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42222
@@ -3926,6 +4027,7 @@ Desc     A side tunnel near the Third Bridge.
 Direction north~
 ToRoom    42366
 Desc      Lab Cell 109.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42223
@@ -3960,6 +4062,7 @@ Desc     A side tunnel near the Broodlord's Balcony.
 Direction north~
 ToRoom    42368
 Desc      Lab Cell 111.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42212
@@ -3994,6 +4097,7 @@ Desc     A side tunnel near the Burning Hall.
 Direction north~
 ToRoom    42370
 Desc      Lab Cell 113.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42203
@@ -4028,6 +4132,7 @@ Desc     A side tunnel near the Hatchery Control Room.
 Direction north~
 ToRoom    42372
 Desc      Lab Cell 115.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42202
@@ -4062,6 +4167,7 @@ Desc     A side tunnel near the Lair Entrance.
 Direction north~
 ToRoom    42374
 Desc      Lab Cell 117.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42200
@@ -4096,6 +4202,7 @@ Desc     A side tunnel near the Volcanic Bridge.
 Direction north~
 ToRoom    42376
 Desc      Lab Cell 119.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42250
@@ -4130,6 +4237,7 @@ Desc     A side tunnel near the Magma Foundries.
 Direction north~
 ToRoom    42378
 Desc      Lab Cell 121.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42251
@@ -4164,6 +4272,7 @@ Desc     A side tunnel near the Blacksmith's Wing.
 Direction north~
 ToRoom    42380
 Desc      Lab Cell 123.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42253
@@ -4198,6 +4307,7 @@ Desc     A side tunnel near the Broodmother's Path.
 Direction north~
 ToRoom    42382
 Desc      Lab Cell 125.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42300
@@ -4232,6 +4342,7 @@ Desc     A side tunnel near the Wardens' Hall.
 Direction north~
 ToRoom    42384
 Desc      Lab Cell 127.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42301
@@ -4266,6 +4377,7 @@ Desc     A side tunnel near the Sanctum Overflow.
 Direction north~
 ToRoom    42386
 Desc      Lab Cell 129.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42311
@@ -4300,6 +4412,7 @@ Desc     A side tunnel near the Sky-terrace Labyrinth.
 Direction north~
 ToRoom    42388
 Desc      Lab Cell 131.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    42250

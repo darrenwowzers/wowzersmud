@@ -1946,7 +1946,7 @@ Direction south~
 ToRoom    41204
 Desc      Egg chambers.~
 #ENDEXIT
-Reset M 41003 10 41220
+Reset M 0 41003 10 41220
 #ENDROOM
 
 #ROOM

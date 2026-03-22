@@ -1330,6 +1330,7 @@ in the warm updrafts rising from the floor.
 Direction south~
 ToRoom    19569
 Desc      The corridor.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    19571

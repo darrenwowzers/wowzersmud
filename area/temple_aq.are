@@ -1727,6 +1727,7 @@ Desc     The first of one hundred interconnected cells.
 Direction north~
 ToRoom    43266
 Desc      Cell 2.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43201
@@ -1746,6 +1747,7 @@ Desc     A narrow stone room filled with the hum of the swarm.
 Direction south~
 ToRoom    43265
 Desc      Cell 1.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43267
@@ -1765,6 +1767,7 @@ Desc     The heart of the lower swarm labyrinth.
 Direction south~
 ToRoom    43266
 Desc      Cell 2.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43268
@@ -1784,6 +1787,7 @@ Desc     High stone rooms near Skeram's chamber.
 Direction south~
 ToRoom    43267
 Desc      Cell 3.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43269
@@ -1803,6 +1807,7 @@ Desc     The heart of the Prophet-guard labyrinth.
 Direction south~
 ToRoom    43268
 Desc      Cell 4.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43270
@@ -1822,6 +1827,7 @@ Desc     Side tunnels near the bug trio entry.
 Direction south~
 ToRoom    43269
 Desc      Cell 5.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43271
@@ -1841,6 +1847,7 @@ Desc     The heart of the insect-trio labyrinth.
 Direction south~
 ToRoom    43270
 Desc      Cell 6.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43272
@@ -1860,6 +1867,7 @@ Desc     Side tunnels near Huhuran's garden.
 Direction south~
 ToRoom    43271
 Desc      Cell 7.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43273
@@ -1879,6 +1887,7 @@ Desc     The absolute deepest part of the upper temple tunnels.
 Direction south~
 ToRoom    43272
 Desc      Cell 8.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43274
@@ -1913,6 +1922,7 @@ Desc     The first of forty interconnected garden-cells.
 Direction north~
 ToRoom    43276
 Desc      Cell 12.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43220
@@ -1932,6 +1942,7 @@ Desc     A clinical chamber filled with poisonous pollen.
 Direction south~
 ToRoom    43275
 Desc      Cell 11.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43277
@@ -1951,6 +1962,7 @@ Desc     A narrow tunnel lined with organic resin.
 Direction south~
 ToRoom    43276
 Desc      Cell 12.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43278
@@ -1970,6 +1982,7 @@ Desc     A side room where swarmers are hatched.
 Direction south~
 ToRoom    43277
 Desc      Cell 13.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43279
@@ -1989,6 +2002,7 @@ Desc     A dark corner filled with shadow-fire residue.
 Direction south~
 ToRoom    43278
 Desc      Cell 14.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43280
@@ -2008,6 +2022,7 @@ Desc     A storage room for heavy obsidian maces.
 Direction south~
 ToRoom    43279
 Desc      Cell 15.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43281
@@ -2027,6 +2042,7 @@ Desc     A side workshop where armor is repaired.
 Direction south~
 ToRoom    43280
 Desc      Cell 16.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43282
@@ -2046,6 +2062,7 @@ Desc     A quiet room where menders study rituals.
 Direction south~
 ToRoom    43281
 Desc      Cell 17.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43283
@@ -2065,6 +2082,7 @@ Desc     A dark hallway home to several spiders.
 Direction south~
 ToRoom    43282
 Desc      Cell 18.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43284
@@ -2084,6 +2102,7 @@ Desc     The heart of the mid-level garden-cells.
 Direction south~
 ToRoom    43283
 Desc      Cell 19.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43285
@@ -2103,6 +2122,7 @@ Desc     The first of forty interconnected throne-cells.
 Direction north~
 ToRoom    43286
 Desc      Cell 22.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43231
@@ -2122,6 +2142,7 @@ Desc     A royal chamber filled with silken banners.
 Direction south~
 ToRoom    43285
 Desc      Cell 21.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43287
@@ -2141,6 +2162,7 @@ Desc     A narrow tunnel lined with gold-chased stone.
 Direction south~
 ToRoom    43286
 Desc      Cell 22.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43288
@@ -2160,6 +2182,7 @@ Desc     A side room where guardians are trained.
 Direction south~
 ToRoom    43287
 Desc      Cell 23.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43289
@@ -2179,6 +2202,7 @@ Desc     A dark corner filled with the scent of incense.
 Direction south~
 ToRoom    43288
 Desc      Cell 24.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43290
@@ -2198,6 +2222,7 @@ Desc     A storage room for elementium bars.
 Direction south~
 ToRoom    43289
 Desc      Cell 25.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43291
@@ -2217,6 +2242,7 @@ Desc     A side workshop where armor is polished.
 Direction south~
 ToRoom    43290
 Desc      Cell 26.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43292
@@ -2236,6 +2262,7 @@ Desc     A quiet room where priests study prayers.
 Direction south~
 ToRoom    43291
 Desc      Cell 27.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43293
@@ -2255,6 +2282,7 @@ Desc     A dark hallway home to several shades.
 Direction south~
 ToRoom    43292
 Desc      Cell 28.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43294
@@ -2274,6 +2302,7 @@ Desc     The heart of the high-level throne-cells.
 Direction south~
 ToRoom    43293
 Desc      Cell 29.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43295
@@ -2293,6 +2322,7 @@ Desc     The first of forty interconnected pit-cells.
 Direction north~
 ToRoom    43296
 Desc      Cell 32.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43250
@@ -2312,6 +2342,7 @@ Desc     A dark chamber filled with pulsating eyes.
 Direction south~
 ToRoom    43295
 Desc      Cell 31.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43297
@@ -2331,6 +2362,7 @@ Desc     A narrow tunnel lined with writhing tentacles.
 Direction south~
 ToRoom    43296
 Desc      Cell 32.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43298
@@ -2350,6 +2382,7 @@ Desc     A side room where shadow-essence is brewed.
 Direction south~
 ToRoom    43297
 Desc      Cell 33.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43299
@@ -2369,6 +2402,7 @@ Desc     A dark corner filled with absolute silence.
 Direction south~
 ToRoom    43298
 Desc      Cell 34.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43300
@@ -2388,6 +2422,7 @@ Desc     A storage room for dark-ritual robes.
 Direction south~
 ToRoom    43299
 Desc      Cell 35.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43301
@@ -2407,6 +2442,7 @@ Desc     A side workshop where the soul-draining tools are kept.
 Direction south~
 ToRoom    43300
 Desc      Cell 36.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43302
@@ -2426,6 +2462,7 @@ Desc     A quiet room where the whispers are the loudest.
 Direction south~
 ToRoom    43301
 Desc      Cell 37.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43303
@@ -2445,6 +2482,7 @@ Desc     A dark hallway home to several lost souls.
 Direction south~
 ToRoom    43302
 Desc      Cell 38.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43304
@@ -2479,6 +2517,7 @@ Desc     The first of forty interconnected entrance-cells.
 Direction north~
 ToRoom    43306
 Desc      Cell 42.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43200
@@ -2498,6 +2537,7 @@ Desc     A wide stone room filled with desert dust.
 Direction south~
 ToRoom    43305
 Desc      Cell 41.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43307
@@ -2517,6 +2557,7 @@ Desc     A narrow tunnel lined with obsidian shards.
 Direction south~
 ToRoom    43306
 Desc      Cell 42.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43308
@@ -2536,6 +2577,7 @@ Desc     A side room where guards prepare their shifts.
 Direction south~
 ToRoom    43307
 Desc      Cell 43.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43309
@@ -2555,6 +2597,7 @@ Desc     A dark corner filled with the scent of old sand.
 Direction south~
 ToRoom    43308
 Desc      Cell 44.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43310
@@ -2574,6 +2617,7 @@ Desc     A storage room for stone maces and bone-cleavers.
 Direction south~
 ToRoom    43309
 Desc      Cell 45.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43311
@@ -2593,6 +2637,7 @@ Desc     A side workshop where the stone is carved.
 Direction south~
 ToRoom    43310
 Desc      Cell 46.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43312
@@ -2612,6 +2657,7 @@ Desc     A quiet room where the echoes of war are faint.
 Direction south~
 ToRoom    43311
 Desc      Cell 47.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43313
@@ -2631,6 +2677,7 @@ Desc     A dark hallway home to several spiders.
 Direction south~
 ToRoom    43312
 Desc      Cell 48.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43314
@@ -2665,6 +2712,7 @@ Desc     The first of forty interconnected swarm-cells.
 Direction north~
 ToRoom    43316
 Desc      Cell 52.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43210
@@ -2684,6 +2732,7 @@ Desc     A clinical chamber filled with silithid eggs.
 Direction south~
 ToRoom    43315
 Desc      Cell 51.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43317
@@ -2703,6 +2752,7 @@ Desc     A narrow tunnel lined with chitinous plates.
 Direction south~
 ToRoom    43316
 Desc      Cell 52.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43318
@@ -2722,6 +2772,7 @@ Desc     A side room where soldiers prepare for battle.
 Direction south~
 ToRoom    43317
 Desc      Cell 53.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43319
@@ -2741,6 +2792,7 @@ Desc     A dark corner filled with the scent of decay.
 Direction south~
 ToRoom    43318
 Desc      Cell 54.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43320
@@ -2760,6 +2812,7 @@ Desc     A storage room for silithid brain-matter.
 Direction south~
 ToRoom    43319
 Desc      Cell 55.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43321
@@ -2779,6 +2832,7 @@ Desc     A side workshop where the chitin is shaped.
 Direction south~
 ToRoom    43320
 Desc      Cell 56.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43322
@@ -2798,6 +2852,7 @@ Desc     A quiet room where the clicking of claws is muffled.
 Direction south~
 ToRoom    43321
 Desc      Cell 57.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43323
@@ -2817,6 +2872,7 @@ Desc     A dark hallway home to several swarmer scouts.
 Direction south~
 ToRoom    43322
 Desc      Cell 58.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43324
@@ -2851,6 +2907,7 @@ Desc     The first of forty interconnected terrace-cells.
 Direction north~
 ToRoom    43326
 Desc      Cell 62.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43230
@@ -2870,6 +2927,7 @@ Desc     A clinical chamber filled with magical fluids.
 Direction south~
 ToRoom    43325
 Desc      Cell 61.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43327
@@ -2889,6 +2947,7 @@ Desc     A narrow tunnel lined with prismatic scales.
 Direction south~
 ToRoom    43326
 Desc      Cell 62.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43328
@@ -2908,6 +2967,7 @@ Desc     A side room where wardens prepare for battle.
 Direction south~
 ToRoom    43327
 Desc      Cell 63.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43329
@@ -2927,6 +2987,7 @@ Desc     A dark corner filled with the scent of ancient scales.
 Direction south~
 ToRoom    43328
 Desc      Cell 64.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43330
@@ -2946,6 +3007,7 @@ Desc     A storage room for elementium armor plates.
 Direction south~
 ToRoom    43329
 Desc      Cell 65.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43331
@@ -2965,6 +3027,7 @@ Desc     A side workshop where the stone is shaped.
 Direction south~
 ToRoom    43330
 Desc      Cell 66.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43332
@@ -2984,6 +3047,7 @@ Desc     A quiet room where the echoes of the twins are loud.
 Direction south~
 ToRoom    43331
 Desc      Cell 67.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43333
@@ -3003,6 +3067,7 @@ Desc     A dark hallway home to several lashlayers.
 Direction south~
 ToRoom    43332
 Desc      Cell 68.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43334
@@ -3037,6 +3102,7 @@ Desc     The first of forty interconnected pit-cells.
 Direction north~
 ToRoom    43336
 Desc      Cell 72.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43240
@@ -3056,6 +3122,7 @@ Desc     A clinical chamber filled with pulsating eyes.
 Direction south~
 ToRoom    43335
 Desc      Cell 71.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43337
@@ -3075,6 +3142,7 @@ Desc     A narrow tunnel lined with writhing tentacles.
 Direction south~
 ToRoom    43336
 Desc      Cell 72.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43338
@@ -3094,6 +3162,7 @@ Desc     A side room where shadow-essence is brewed.
 Direction south~
 ToRoom    43337
 Desc      Cell 73.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43339
@@ -3113,6 +3182,7 @@ Desc     A dark corner filled with absolute silence.
 Direction south~
 ToRoom    43338
 Desc      Cell 74.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43340
@@ -3132,6 +3202,7 @@ Desc     A storage room for dark-ritual robes.
 Direction south~
 ToRoom    43339
 Desc      Cell 75.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43341
@@ -3151,6 +3222,7 @@ Desc     A side workshop where the soul-draining tools are kept.
 Direction south~
 ToRoom    43340
 Desc      Cell 76.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43342
@@ -3170,6 +3242,7 @@ Desc     A quiet room where the whispers are the loudest.
 Direction south~
 ToRoom    43341
 Desc      Cell 77.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43343
@@ -3189,6 +3262,7 @@ Desc     A dark hallway home to several lost souls.
 Direction south~
 ToRoom    43342
 Desc      Cell 78.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43344
@@ -3223,6 +3297,7 @@ Desc     The first of interconnected Skeram-cells.
 Direction north~
 ToRoom    43346
 Desc      Cell 82.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43202
@@ -3242,6 +3317,7 @@ Desc     The second cell of the Prophet's guard.
 Direction south~
 ToRoom    43345
 Desc      Cell 81.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43347
@@ -3276,6 +3352,7 @@ Desc     The first of interconnected Sartura-cells.
 Direction north~
 ToRoom    43349
 Desc      Cell 85.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43251
@@ -3295,6 +3372,7 @@ Desc     The second cell of the whirlwind guard.
 Direction south~
 ToRoom    43348
 Desc      Cell 84.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43350
@@ -3329,6 +3407,7 @@ Desc     The first of interconnected Fankriss-cells.
 Direction north~
 ToRoom    43352
 Desc      Cell 88.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43252
@@ -3348,6 +3427,7 @@ Desc     The second cell of the reaver brood.
 Direction south~
 ToRoom    43351
 Desc      Cell 87.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43353
@@ -3382,6 +3462,7 @@ Desc     The first of interconnected Viscidus-cells.
 Direction north~
 ToRoom    43355
 Desc      Cell 91.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43254
@@ -3401,6 +3482,7 @@ Desc     The second cell of the toxic guard.
 Direction south~
 ToRoom    43354
 Desc      Cell 90.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43356
@@ -3435,6 +3517,7 @@ Desc     The first of interconnected Ouro-cells.
 Direction north~
 ToRoom    43358
 Desc      Cell 94.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43253
@@ -3454,6 +3537,7 @@ Desc     The second cell of the worm-guard.
 Direction south~
 ToRoom    43357
 Desc      Cell 93.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43359
@@ -3488,6 +3572,7 @@ Desc     Interconnected tunnel cells near C'Thun.
 Direction north~
 ToRoom    43361
 Desc      Cell 97.~
+#ENDEXIT
 #EXIT
 Direction south~
 ToRoom    43250
@@ -3507,6 +3592,7 @@ Desc     Interconnected tunnel cells near C'Thun.
 Direction south~
 ToRoom    43360
 Desc      Cell 96.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43362
@@ -3526,6 +3612,7 @@ Desc     Interconnected tunnel cells near C'Thun.
 Direction south~
 ToRoom    43361
 Desc      Cell 97.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43363
@@ -3545,6 +3632,7 @@ Desc     Interconnected tunnel cells near C'Thun.
 Direction south~
 ToRoom    43362
 Desc      Cell 98.~
+#ENDEXIT
 #EXIT
 Direction north~
 ToRoom    43364
