@@ -1,0 +1,1847 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Swamp of Sorrows~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       35 45 0 60
+Economy      0 40000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       36000
+Keywords   swamp ooze slime~
+Short      a Swamp Ooze~
+Long       A translucent green ooze undulates across the damp moss.
+~
+Desc       A mindless, acidic entity that thrives in the stagnant waters 
+of the swamp. It absorbs anything it touches, leaving behind 
+nothing but the faint scent of decay.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 900 2800
+Stats2     35 35 0
+Stats3     6 14 35
+Stats4     0 0 0 0 0
+Attribs    16 8 20 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       36001
+Keywords   silt creeper spider~
+Short      a Silt Creeper~
+Long       A large, dark-shelled spider skitters through the low-hanging mist.
+~
+Desc       These spiders are masters of ambush, blending into the dark silt 
+of the swamp floor before lunging at their prey with venomous fangs.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1000 3100
+Stats2     36 36 0
+Stats3     6 15 36
+Stats4     0 0 0 0 0
+Attribs    14 20 14 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       36002
+Keywords   swamp jaguar beast~
+Short      a Swamp Jaguar~
+Long       A lean, spotted jaguar crouches on a gnarled tree root.
+~
+Desc       Quiet and deadly, the jaguars of the swamp are the apex 
+predators of the undergrowth. Their fur is often matted with 
+mud, providing excellent camouflage.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1100 3300
+Stats2     37 37 0
+Stats3     7 16 37
+Stats4     0 0 0 0 0
+Attribs    18 18 14 8 12 8 8
+#ENDMOBILE
+
+#MOBILE
+Vnum       36003
+Keywords   lost one muckdweller humanoid~
+Short      a Lost One Muckdweller~
+Long       A withered, hunched humanoid glares at you from the shadows.
+~
+Desc       Degenerated draenei who have spent too long in the corrupting 
+mists of the swamp. They are bitter and aggressive toward 
+all outsiders.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1400 3800
+Stats2     38 38 150
+Stats3     8 20 38
+Stats4     0 0 0 0 0
+Attribs    16 12 14 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36004
+Keywords   lost one hunter humanoid~
+Short      a Lost One Hunter~
+Long       A Lost One balances a crude, jagged spear in his hand.
+~
+Desc       The primary providers for the Lost One tribes. They are experts 
+at navigating the treacherous bogs and tracking prey through 
+the thick fog.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1600 4200
+Stats2     39 39 100
+Stats3     9 22 39
+Stats4     0 0 0 0 0
+Attribs    18 16 12 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36005
+Keywords   lost one seer humanoid shaman~
+Short      a Lost One Seer~
+Long       A Lost One Seer mutters a dark prayer, clutching a bone totem.
+~
+Desc       The spiritual leaders of the corrupted draenei. They tap into 
+the chaotic energies of the swamp to heal their kin and 
+batter their enemies with lightning.
+~
+Race       humanoid~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1200 3500
+Stats2     40 40 800
+Stats3     8 18 40
+Stats4     0 0 0 0 0
+Attribs    10 12 14 22 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36006
+Keywords   green dragonspawn warrior~
+Short      a Green Dragonspawn~
+Long       A draconic warrior in emerald scales patrols the pool's edge.
+~
+Desc       Fierce guardians of the Green Dragonflight. They have been 
+tasked with watching over the sunken ruins, ensuring the 
+ancient evil within remains contained.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 2500 6500
+Stats2     42 42 300
+Stats3     12 35 42
+Stats4     0 0 0 0 0
+Attribs    24 10 18 14 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36007
+Keywords   dreaming whelp dragon~
+Short      a Dreaming Whelp~
+Long       A small green whelp sleepily circles above the murky water.
+~
+Desc       These young dragons are touched by the Emerald Dream. They 
+often drift between reality and sleep, though they will 
+violently defend their territory if awoken.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1500 4000
+Stats2     40 40 200
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    16 14 14 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36008
+Keywords   mire lord elemental~
+Short      a Mire Lord~
+Long       A towering mass of peat and stagnant water rumbles to life.
+~
+Desc       A powerful water elemental corrupted by the rot of the swamp. 
+It moves with slow, crushing force, its body a collection of 
+mud, roots, and decay.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 4500 12000
+Stats2     44 44 0
+Stats3     18 50 45
+Stats4     0 0 0 0 0
+Attribs    30 6 28 8 15 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36009
+Keywords   bog paddle crocolisk~
+Short      a Bog Paddle~
+Long       A dark, scaly crocolisk slides silently into the water.
+~
+Desc       With jaws capable of snapping a tree trunk, these swamp 
+crocolisks are a constant threat to anyone attempting to 
+cross the deeper bogs.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1600 4500
+Stats2     39 39 0
+Stats3     10 24 39
+Stats4     0 0 0 0 0
+Attribs    22 8 20 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       36010
+Keywords   fallen hero ghost warrior~
+Short      a Fallen Hero~
+Long       A translucent warrior in tattered plate wanders the mist.
+~
+Desc       The restless spirit of a soldier who died during the First 
+War. They remain trapped in the swamp, reliveing their final 
+moments in an endless, spectral loop.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1800 5000
+Stats2     41 41 200
+Stats3     11 28 41
+Stats4     0 0 0 0 0
+Attribs    18 14 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36011
+Keywords   dragonmaw raider orc warrior~
+Short      a Dragonmaw Raider~
+Long       A Dragonmaw orc glares at you, his blackened axe ready.
+~
+Desc       Members of the Dragonmaw clan who refused to join the 
+New Horde. They have established a presence in the swamp 
+to hunt the green dragonflight.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 2000 5500
+Stats2     42 42 250
+Stats3     12 32 42
+Stats4     0 0 0 0 0
+Attribs    22 12 16 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36012
+Keywords   dragonmaw shaman orc~
+Short      a Dragonmaw Shaman~
+Long       A Dragonmaw orc mutters a dark, lightning-tinged prayer.
+~
+Desc       These shamans use the power of the elements to enslave and 
+corrupt. They wear the scales of slain drakes as trophies 
+of their "conquests."
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 43 0 0 1500 4800
+Stats2     43 43 800
+Stats3     10 28 43
+Stats4     0 0 0 0 0
+Attribs    14 12 16 22 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36013
+Keywords   stonard grunt orc warrior~
+Short      a Stonard Grunt~
+Long       A heavily armored orc stands guard at the village entrance.
+~
+Desc       The professional soldiers of the New Horde. They protect 
+Stonard from the local threats and ensure the Horde's 
+strategic foothold in the South.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 45 0 0 3500 9000
+Stats2     45 45 400
+Stats3     15 45 45
+Stats4     0 0 0 0 0
+Attribs    26 12 18 12 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       36014
+Keywords   stonard mage orc~
+Short      a Stonard Mage~
+Long       A Stonard mage stands before a portal, arcane energy flickering.
+~
+Desc       Tasked with maintaining communication and transport between 
+Stonard and the rest of the Horde, these mages are highly 
+skilled in portal magic.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 45 0 0 2200 6500
+Stats2     45 45 1500
+Stats3     12 35 45
+Stats4     0 0 0 0 0
+Attribs    12 14 16 30 25 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       36015
+Keywords   swamp rat beast~
+Short      a Swamp Rat~
+Long       A large, mangy rat scurries through the mud.
+~
+Desc       Harmless but annoying, these rats carry the filth and 
+diseases of the swamp in their matted fur.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 30 0 0 300 1000
+Stats2     30 30 0
+Stats3     2 8 30
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       36016
+Keywords   atal'ai exile troll~
+Short      an Atal'ai Exile~
+Long       A tattered troll priest wanders the water's edge, muttering.
+~
+Desc       Exiled from the Sunken Temple for heresy or failure, these 
+trolls are crazed by isolation and the dark whispers of 
+their god, Hakkar.
+~
+Race       troll~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 42 0 0 1100 3200
+Stats2     42 42 1000
+Stats3     8 22 42
+Stats4     0 0 0 0 0
+Attribs    10 14 14 24 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36017
+Keywords   malignant spirit ghost~
+Short      a Malignant Spirit~
+Long       A dark, shadowy spirit wails as it floats above the mire.
+~
+Desc       The manifestations of the swamp's collective sorrow. They 
+strike at the minds of the living, seeking to drag them 
+down into the dark water.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 950 2800
+Stats2     41 41 800
+Stats3     7 20 41
+Stats4     0 0 0 0 0
+Attribs    10 18 12 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       36018
+Keywords   giant mosquito insect~
+Short      a Giant Mosquito~
+Long       A massive, droning mosquito hovers near your neck.
+~
+Desc       The size of a small dog, these insects are a constant 
+source of irritation and blood-loss for any biological 
+entities in the swamp.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 34 0 0 500 1500
+Stats2     34 34 0
+Stats3     4 10 34
+Stats4     0 0 0 0 0
+Attribs    14 22 10 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       36019
+Keywords   mud snapper turtle~
+Short      a Mud Snapper~
+Long       A heavy, mud-covered turtle suns itself on a fallen log.
+~
+Desc       Sluggish on land but surprisingly fast in the water, these 
+turtles have shells as hard as stone and a bite to match.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 36 0 0 1600 4500
+Stats2     36 36 0
+Stats3     8 18 36
+Stats4     0 0 0 0 0
+Attribs    20 4 24 4 12 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       36020
+Keywords   saltscale warrior naga~
+Short      a Saltscale Warrior~
+Long       A multi-armed naga coils in the shallow surf of the strand.
+~
+Desc       The Saltscale naga have established several outposts along 
+the eastern coast, raiding the local villages for slaves 
+and supplies.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 3200 8500
+Stats2     44 44 200
+Stats3     14 40 44
+Stats4     0 0 0 0 0
+Attribs    24 12 18 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36021
+Keywords   saltscale oracle naga mage~
+Short      a Saltscale Oracle~
+Long       A naga priestess weaves a shimmering wall of water.
+~
+Desc       The magical support for the naga raiding parties. They 
+wield the power of the sea to protect their warriors and 
+drown their enemies.
+~
+Race       humanoid~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 44 0 0 1800 5500
+Stats2     44 44 1200
+Stats3     11 30 44
+Stats4     0 0 0 0 0
+Attribs    12 14 16 28 24 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       36022
+Keywords   watcher mahar ba rare~
+Short      Watcher Mahar Ba~
+Long       A tall, silent Lost One stands guard atop a gnarled hill.
+~
+Desc       A rare and respected elder among the Lost Ones. He is 
+said to have seen the fall of his people and carries 
+that sorrow in his ancient eyes.
+~
+Race       humanoid~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 46 0 0 4500 12000
+Stats2     46 46 500
+Stats3     20 55 46
+Stats4     0 0 0 0 0
+Attribs    26 14 18 18 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       36023
+Keywords   somnus elite dragon~
+Short      Somnus~
+Long       A massive, emerald-scaled dragon sleeps peacefully near the pool.
+~
+Desc       One of the powerful lieutenants of Ysera. Somnus has been 
+ordered to watch the Sunken Temple for eternity. His breath 
+can send a whole army into a deep, unending sleep.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 25000 60000
+Stats2     55 55 1000
+Stats3     35 100 70
+Stats4     0 0 0 0 0
+Attribs    40 10 35 25 35 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       36024
+Keywords   stagnant elemental water~
+Short      a Stagnant Elemental~
+Long       A small being of murky water and rot pulses near the mire.
+~
+Desc       Lesser elementals that are a direct manifestation of the 
+swamp's pollution.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1100 3200
+Stats2     36 36 0
+Stats3     7 18 36
+Stats4     0 0 0 0 0
+Attribs    18 10 18 14 14 6 6
+#ENDMOBILE
+
+#OBJECT
+Vnum     36025
+Keywords swamp muck trash~
+Type     trash~
+Short    a handful of swamp muck~
+Long     A sticky, foul-smelling pile of mud and decayed vegetation.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36026
+Keywords silt creeper leg trophy~
+Type     trash~
+Short    a hairy silt creeper leg~
+Long     A long, multi-jointed leg taken from a swamp spider.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36027
+Keywords lost one mojo treasure hold~
+Type     treasure~
+Short    a vial of Lost One Mojo~
+Long     A small, pulsing glass vial filled with a dark purple liquid.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 35 0 0
+Rarity   1
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36028
+Keywords dragonmaw medallion jewelry~
+Type     jewelry~
+Short    a Dragonmaw Medallion~
+Long     A heavy iron medallion etched with the symbol of an orc fist.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 650 40 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36029
+Keywords dreaming glory herb~
+Type     treasure~
+Short    a sprig of Dreaming Glory~
+Long     A bright green herb that pulses with a soft, emerald light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 42 0 0
+Rarity   1
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36030
+Keywords blindweed herb~
+Type     treasure~
+Short    a bunch of Blindweed~
+Long     A pale, bushy herb that smells faintly of damp earth.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 80 35 0 0
+Rarity   0
+Affect   3 5 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36031
+Keywords goldthorn herb~
+Type     treasure~
+Short    a sprig of Goldthorn~
+Long     A thorny plant with small, golden flowers.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 120 40 0 0
+Rarity   0
+Affect   1 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36032
+Keywords stonard tabard about~
+Type     armor~
+Short    a Stonard Tabard~
+Long     A red cloth tabard featuring the black seal of the Horde.~
+WFlags   take about~
+Values   4 0 0 0 0 0
+Stats    1 500 40 0 0
+Rarity   1
+Affect   5 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36033
+Keywords broken naga trident weapon~
+Type     weapon~
+Short    a broken naga trident~
+Long     A rusted trident with one of its tines snapped off.~
+WFlags   take wield~
+Values   12 6 12 11 0 0
+Stats    15 150 35 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36034
+Keywords green dragonscale trophy~
+Type     trash~
+Short    a Green Dragonscale~
+Long     A thick, emerald scale that shimmers with a soft light.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 250 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36035
+Keywords voodoo charm jewelry~
+Type     jewelry~
+Short    an Atal'ai Voodoo Charm~
+Long     A necklace made of bird skulls and polished beads.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 450 42 0 0
+Rarity   1
+Affect   3 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36036
+Keywords muck-covered boots feet~
+Type     armor~
+Short    a pair of muck-covered boots~
+Long     Sturdy leather boots caked in thick, dried swamp mud.~
+WFlags   take feet~
+Values   10 0 0 0 0 0
+Stats    6 350 38 0 0
+Rarity   1
+Affect   5 4 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36037
+Keywords ancient tablet fragment treasure~
+Type     treasure~
+Short    an Ancient Tablet Fragment~
+Long     A small piece of stone covered in faded Atal'ai carvings.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 800 45 0 0
+Rarity   2
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36038
+Keywords moss-covered stone trash~
+Type     trash~
+Short    a moss-covered stone~
+Long     A heavy, round stone completely covered in thick green moss.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36039
+Keywords vial swamp water treasure~
+Type     treasure~
+Short    a vial of Swamp Water~
+Long     A glass vial containing murky, stagnant water.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36040
+Keywords withered heart trophy~
+Type     trash~
+Short    a withered swamp heart~
+Long     A small, dried organ taken from a mire lord.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36041
+Keywords azure silk loot~
+Type     treasure~
+Short    a bolt of Azure Silk~
+Long     Fine, blue silk often traded by the mages of Stonard.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 650 40 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36042
+Keywords sharp talon trophy~
+Type     trash~
+Short    a sharp jaguar talon~
+Long     A long, curved claw taken from a swamp jaguar.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36043
+Keywords heavy crocolisk hide~
+Type     trash~
+Short    a heavy crocolisk hide~
+Long     A thick, scaly skin taken from a bog paddle.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36044
+Keywords jagged lost one spear weapon~
+Type     weapon~
+Short    a jagged Lost One spear~
+Long     A long spear tipped with a sharpened piece of rusted metal.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    12 350 40 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36045
+Keywords relic atal'hakkar treasure~
+Type     treasure~
+Short    a Relic of Atal'Hakkar~
+Long     A small, golden idol depicting a winged serpent.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 2500 50 0 0
+Rarity   2
+Affect   3 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36046
+Keywords swamp mosquito wing trophy~
+Type     trash~
+Short    a tattered mosquito wing~
+Long     A thin, translucent wing taken from a giant mosquito.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36047
+Keywords muddy turtle shell trophy~
+Type     trash~
+Short    a muddy turtle shell~
+Long     A small, thick shell taken from a mud snapper.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36048
+Keywords dreaming whelp scale trophy~
+Type     trash~
+Short    a Dreaming Whelp Scale~
+Long     A small, shimmering green scale taken from a whelp.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 80 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     36049
+Keywords fallen hero belt waist~
+Type     armor~
+Short    a Fallen Hero's Belt~
+Long     A rusted, heavy plate belt worn by a long-dead warrior.~
+WFlags   take waist~
+Values   10 0 0 0 0 0
+Stats    5 1200 42 0 0
+Rarity   2
+Affect   1 8 0 0 0
+Affect   5 8 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     36050
+Name     &gWestern Entrance from Deadwind Pass&d~
+Sector   field~
+Flags    ~
+Desc     The grey, wind-swept cliffs of Deadwind Pass are left behind as 
+you descend into the thick, humid fog of the swamp. The air is 
+heavy with the scent of stagnant water and blooming night-plants. 
+A narrow, mud-choked path leads east into the depths of the 
+Sorrowmurk.
+~
+#EXIT
+Direction west~
+ToRoom    13500
+Desc      Return to the Deadwind Pass.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36051
+Desc      The path leads into the swamp.~
+#ENDEXIT
+Reset M 0 36015 10 36050
+#ENDROOM
+
+#ROOM
+Vnum     36051
+Name     &gThe Sorrowmurk - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The trees here are gnarled and covered in hanging moss, their 
+roots twisting like snakes through the shallow water. Massive 
+insects drone in the air, and the ground is soft and spongy 
+underfoot.
+~
+#EXIT
+Direction west~
+ToRoom    36050
+Desc      The western entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36052
+Desc      The path continues east.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36056
+Desc      A path leads toward a small camp.~
+#ENDEXIT
+Reset M 0 36018 10 36051
+#ENDROOM
+
+#ROOM
+Vnum     36052
+Name     &gThe Sorrowmurk - Center&d~
+Sector   field~
+Flags    ~
+Desc     The mist is thicker here, obscuring the view of anything more 
+than a few yards away. The only landmarks are the giant 
+mushrooms and the occasional bleached rib-cage of some 
+forgotten beast.
+~
+#EXIT
+Direction west~
+ToRoom    36051
+Desc      Western Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36053
+Desc      Toward the village of Stonard.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36065
+Desc      The path to The Harborage.~
+#ENDEXIT
+Reset M 0 36001 10 36052
+#ENDROOM
+
+#ROOM
+Vnum     36053
+Name     &gThe Sorrowmurk - East&d~
+Sector   field~
+Flags    ~
+Desc     The ground begins to rise slightly as the swamp gives way to 
+a more solid stone path. To the east, the spiked wooden walls 
+of a Horde outpost are visible through the fog.
+~
+#EXIT
+Direction west~
+ToRoom    36052
+Desc      Central Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36057
+Desc      Entrance to Stonard.~
+#ENDEXIT
+Reset M 0 36000 10 36053
+#ENDROOM
+
+#ROOM
+Vnum     36054
+Name     &gThe Shifting Mire&d~
+Sector   field~
+Flags    ~
+Desc     A treacherous expanse of deep, bubbling mud. Fallen trees 
+provide a series of unstable bridges across the mire, but one 
+wrong step could lead to a slow, suffocating death.
+~
+#EXIT
+Direction north~
+ToRoom    36051
+Desc      Return to the path.~
+#ENDEXIT
+Reset M 0 36009 5 36054
+Reset O 0 36025 10 36054
+#ENDROOM
+
+#ROOM
+Vnum     36055
+Name     &gThe Jaguar's Hollow&d~
+Sector   field~
+Flags    ~
+Desc     A dry, rocky shelf tucked beneath a massive weeping willow. 
+Several jaguars rest here, their spotted fur blending perfectly 
+with the dappled shadows.
+~
+#EXIT
+Direction east~
+ToRoom    36051
+Desc      Return to the path.~
+#ENDEXIT
+Reset M 0 36002 5 36055
+Reset O 0 36042 5 36055
+#ENDROOM
+
+#ROOM
+Vnum     36056
+Name     &gLost One Camp - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A collection of crude leather tents and smoldering campfires. 
+Corrupted draenei move with hunched, wary movements, watching 
+the path for intruders.
+~
+#EXIT
+Direction north~
+ToRoom    36051
+Desc      Return to the Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36061
+Desc      The Lost One village.~
+#ENDEXIT
+Reset M 0 36003 5 36056
+#ENDROOM
+
+#ROOM
+Vnum     36057
+Name     &rStonard - West Gate&d~
+Sector   city~
+Flags    ~
+Desc     Massive logs, sharpened to points, form the defensive walls of 
+Stonard. Orc grunts stand firm at the gate, their axes 
+gleaming in the soft swamp light.
+~
+#EXIT
+Direction west~
+ToRoom    36053
+Desc      Return to the swamp.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36058
+Desc      Stonard Town Square.~
+#ENDEXIT
+Reset M 0 36013 5 36057
+#ENDROOM
+
+#ROOM
+Vnum     36058
+Name     &rStonard - Town Square&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the Horde's southern outpost. A large bonfire 
+burns in the center of the square, and several sturdy 
+stone buildings provide shelter and supplies.
+~
+#EXIT
+Direction west~
+ToRoom    36057
+Desc      The west gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36059
+Desc      The Stonard Inn.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36060
+Desc      The Mage's Sanctum.~
+#ENDEXIT
+Reset O 0 36032 5 36058
+#ENDROOM
+
+#ROOM
+Vnum     36059
+Name     &rThe Sorrowful Goblet&d~
+Sector   inside~
+Flags    indoors~
+Desc     A warm, smoky inn that provides a welcome respite from the 
+damp swamp air. The walls are decorated with trophies 
+taken from the local basilisks and crocolisks.
+~
+#EXIT
+Direction south~
+ToRoom    36058
+Desc      The square.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36060
+Name     &rStonard - Mage's Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     A tower of grey stone filled with arcane scrolls and bubbling 
+cauldrons. A portal to Orgrimmar flickers against the back wall.
+~
+#EXIT
+Direction west~
+ToRoom    36058
+Desc      The square.~
+#ENDEXIT
+Reset M 0 36014 1 36060
+Reset O 0 36041 5 36060
+#ENDROOM
+
+#ROOM
+Vnum     36061
+Name     &gLost One Village - Center&d~
+Sector   field~
+Flags    ~
+Desc     The center of the corrupted draenei settlement. A large pile 
+of bones and swamp-relics serves as a primitive shrine.
+~
+#EXIT
+Direction north~
+ToRoom    36056
+Desc      The camp entrance.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36062
+Desc      The Seer's Tent.~
+#ENDEXIT
+Reset M 0 36004 5 36061
+#ENDROOM
+
+#ROOM
+Vnum     36062
+Name     &gTent of the Seer&d~
+Sector   inside~
+Flags    indoors~
+Desc     A cramped, foul-smelling tent filled with dried herbs and 
+shrunken heads. A Lost One Seer kneels here, muttering 
+prophecies of doom.
+~
+#EXIT
+Direction north~
+ToRoom    36061
+Desc      The village center.~
+#ENDEXIT
+Reset M 0 36005 1 36062
+  Reset G 1 36027 1
+#ENDROOM
+
+#ROOM
+Vnum     36063
+Name     &gThe Misty Reed Strand - North&d~
+Sector   field~
+Flags    ~
+Desc     The swamp water meets the Veiled Sea here. A long, sandy 
+beach stretches south, littered with driftwood and the 
+shells of giant crustaceans.
+~
+#EXIT
+Direction west~
+ToRoom    36053
+Desc      Return to the Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36064
+Desc      The southern strand.~
+#ENDEXIT
+Reset M 0 36019 5 36063
+#ENDROOM
+
+#ROOM
+Vnum     36064
+Name     &gThe Misty Reed Strand - South&d~
+Sector   field~
+Flags    ~
+Desc     Naga have established a presence on this section of the coast. 
+A series of small, coral-encrusted huts have been built 
+along the shoreline.
+~
+#EXIT
+Direction north~
+ToRoom    36063
+Desc      The northern strand.~
+#ENDEXIT
+Reset M 0 36020 5 36064
+Reset O 0 36033 5 36064
+#ENDROOM
+
+#ROOM
+Vnum     36065
+Name     &gThe Path to The Harborage&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, hidden trail that leads north through a thicket 
+of giant ferns. The air is slightly clearer here, and the 
+sound of the deep swamp is muffled.
+~
+#EXIT
+Direction south~
+ToRoom    36052
+Desc      The Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36066
+Desc      The Harborage entrance.~
+#ENDEXIT
+Reset M 0 36015 10 36065
+#ENDROOM
+
+#ROOM
+Vnum     36066
+Name     &GThe Harborage - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A small, neutral outpost of Broken and Lost Ones who have 
+not yet succumbed to madness. They offer a safe haven for 
+travelers of all factions.
+~
+#EXIT
+Direction south~
+ToRoom    36065
+Desc      The trail.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    36067
+Desc      The central clearing.~
+#ENDEXIT
+Reset M 0 36022 1 36066
+#ENDROOM
+
+#ROOM
+Vnum     36067
+Name     &GThe Harborage - Center&d~
+Sector   city~
+Flags    ~
+Desc     A peaceful clearing where several Broken work at various 
+crafting stations. A small, clean spring provides fresh 
+water for the outpost.
+~
+#EXIT
+Direction south~
+ToRoom    36066
+Desc      The entrance.~
+#ENDEXIT
+Reset O 0 36036 5 36067
+#ENDROOM
+
+#ROOM
+Vnum     36068
+Name     &gThe Fallow Sanctuary - Entry&d~
+Sector   field~
+Flags    ~
+Desc     A quiet section of the swamp that seems untouched by the 
+corruption of the Atal'ai. The trees are healthier here, and 
+the light of the moon filters through the canopy.
+~
+#EXIT
+Direction north~
+ToRoom    36052
+Desc      The Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36069
+Desc      Itharius's Cave entrance.~
+#ENDEXIT
+Reset M 0 36007 5 36068
+#ENDROOM
+
+#ROOM
+Vnum     36069
+Name     &gEntrance to Itharius's Cave&d~
+Sector   field~
+Flags    ~
+Desc     A large cavern mouth hidden behind a waterfall of murky swamp 
+water. High-level green dragonspawn stand guard, their 
+halberds crossed to block the way.
+~
+#EXIT
+Direction north~
+ToRoom    36068
+Desc      The sanctuary.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36070
+Desc      Itharius's Cave.~
+#ENDEXIT
+Reset M 0 36006 5 36069
+#ENDROOM
+
+#ROOM
+Vnum     36070
+Name     &gItharius's Cave&d~
+Sector   underground~
+Flags    indoors~
+Desc     The interior of the cave is surprisingly dry and warm. The 
+green dragon Itharius rests here in his humanoid form, 
+watching the Sunken Temple through a magical pool.
+~
+#EXIT
+Direction north~
+ToRoom    36069
+Desc      The cave entrance.~
+#ENDEXIT
+Reset O 0 36029 5 36070
+#ENDROOM
+
+#ROOM
+Vnum     36071
+Name     &gThe Sorrowful Pass - North&d~
+Sector   field~
+Flags    ~
+Desc     A winding mountain road leading south toward the Blasted Lands. 
+The green swamp mud is slowly replaced by a dark, reddish 
+clay.
+~
+#EXIT
+Direction north~
+ToRoom    36053
+Desc      The Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36072
+Desc      The pass continues.~
+#ENDEXIT
+Reset M 0 36011 5 36071
+#ENDROOM
+
+#ROOM
+Vnum     36072
+Name     &gThe Sorrowful Pass - South&d~
+Sector   field~
+Flags    ~
+Desc     The path turns sharply between two massive stone cliffs. From 
+here, you can feel a strange, pulsating energy coming from 
+the south.
+~
+#EXIT
+Direction north~
+ToRoom    36071
+Desc      The northern pass.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    44000
+Desc      Enter the Blasted Lands.~
+#ENDEXIT
+Reset M 0 36011 5 36072
+#ENDROOM
+
+#ROOM
+Vnum     36073
+Name     &gThe Dragonmaw Encampment - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A cluster of dark, spiked tents built in the shadow of a large 
+hill. Dragonmaw raiders sharpen their weapons and prepare 
+their nets for the next hunt.
+~
+#EXIT
+Direction west~
+ToRoom    36071
+Desc      Return to the pass.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    36074
+Desc      The inner encampment.~
+#ENDEXIT
+Reset M 0 36011 5 36073
+#ENDROOM
+
+#ROOM
+Vnum     36074
+Name     &gDragonmaw Encampment - Inner Circle&d~
+Sector   field~
+Flags    ~
+Desc     The center of the renegade orc camp. Captured dreaming whelps 
+shackle to heavy iron posts, their cries muffled by the 
+constant chanting of the shamans.
+~
+#EXIT
+Direction west~
+ToRoom    36073
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 36012 5 36074
+Reset O 0 36028 5 36074
+#ENDROOM
+
+#ROOM
+Vnum     36075
+Name     &gThe Bog of Spirits&d~
+Sector   field~
+Flags    ~
+Desc     A particularly gloomy section of the swamp where the mist 
+glows with a faint, ghostly light. The wails of fallen 
+heroes echo through the gnarled trees.
+~
+#EXIT
+Direction north~
+ToRoom    36051
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36010 10 36075
+#ENDROOM
+
+#ROOM
+Vnum     36076
+Name     &gThe Saltscale Outpost&d~
+Sector   field~
+Flags    ~
+Desc     A naga encampment built on a small island just off the coast. 
+Trident-wielding warriors patrol the shoreline, watching 
+for any sign of Stonard scouts.
+~
+#EXIT
+Direction west~
+ToRoom    36064
+Desc      The southern strand.~
+#ENDEXIT
+Reset M 0 36021 5 36076
+#ENDROOM
+
+#ROOM
+Vnum     36077
+Name     &gThe Muddy Hollow&d~
+Sector   field~
+Flags    ~
+Desc     A shallow depression in the swamp floor filled with dozens of 
+mud snappers sunning themselves on the rocks.
+~
+#EXIT
+Direction east~
+ToRoom    36052
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36019 10 36077
+Reset O 0 36047 10 36077
+#ENDROOM
+
+#ROOM
+Vnum     36078
+Name     &gHidden Mire Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet corner of the swamp filled with thick blindweed 
+and the occasional swamp ooze.
+~
+#EXIT
+Direction south~
+ToRoom    36051
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset O 0 36030 10 36078
+#ENDROOM
+
+#ROOM
+Vnum     36079
+Name     &gHidden Mire Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A gnarled grove of trees where several giant mosquitoes 
+have built their nests.
+~
+#EXIT
+Direction west~
+ToRoom    36053
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36018 10 36079
+#ENDROOM
+
+#ROOM
+Vnum     36080
+Name     &gHidden Mire Overflow C&d~
+Sector   field~
+Flags    ~
+Desc     A small, dry island in the middle of a deep bog, used by 
+Lost One hunters as a temporary camp.
+~
+#EXIT
+Direction north~
+ToRoom    36056
+Desc      The Lost One camp.~
+#ENDEXIT
+Reset M 0 36004 5 36080
+#ENDROOM
+
+#ROOM
+Vnum     36081
+Name     &gHidden Mire Overflow D&d~
+Sector   field~
+Flags    ~
+Desc     A rocky ledge near the eastern coast, offering a good 
+view of the naga outposts.
+~
+#EXIT
+Direction west~
+ToRoom    36063
+Desc      The northern strand.~
+#ENDEXIT
+Reset M 0 36020 5 36081
+#ENDROOM
+
+#ROOM
+Vnum     36082
+Name     &gThe Somber Grove&d~
+Sector   field~
+Flags    ~
+Desc     A dark, quiet section of the swamp where the trees are 
+particularly old and gnarled.
+~
+#EXIT
+Direction east~
+ToRoom    36052
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36002 5 36082
+#ENDROOM
+
+#ROOM
+Vnum     36083
+Name     &gThe Wailing Bog&d~
+Sector   field~
+Flags    ~
+Desc     The sound of distant, ghostly weeping is constant here. 
+Shadowy spirits flicker in and out of existence.
+~
+#EXIT
+Direction south~
+ToRoom    36051
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36017 10 36083
+#ENDROOM
+
+#ROOM
+#36084
+Name     &gThe Mire Lord's Path&d~
+Sector   field~
+Flags    ~
+Desc     The ground is churned and broken here, as if some massive 
+entity recently passed through.
+~
+#EXIT
+Direction north~
+ToRoom    36052
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36008 1 36084
+#ENDROOM
+
+#ROOM
+Vnum     36085
+Name     &gThe Atal'ai Outpost - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The architecture here becomes distinctly more troll-like, 
+with stone ziggurats and braziers of blue fire.
+~
+#EXIT
+Direction north~
+ToRoom    36053
+Desc      The Sorrowmurk.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36086
+Desc      The approach to the Pool.~
+#ENDEXIT
+Reset M 0 36016 5 36085
+#ENDROOM
+
+#ROOM
+Vnum     36086
+Name     &gThe Approach to the Pool of Tears&d~
+Sector   field~
+Flags    ~
+Desc     The trees thin out as you approach a large, perfectly circular 
+lake. The air is heavy with the scent of ancient magic.
+~
+#EXIT
+Direction north~
+ToRoom    36085
+Desc      The Atal'ai outpost.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36090
+Desc      The Pool of Tears.~
+#ENDEXIT
+Reset M 0 36006 5 36086
+#ENDROOM
+
+#ROOM
+Vnum     36087
+Name     &gThe Pool's Edge - West&d~
+Sector   field~
+Flags    ~
+Desc     A high stone ridge overlooking the western side of the 
+lake. Several dreaming whelps rest on the rocks.
+~
+#EXIT
+Direction east~
+ToRoom    36090
+Desc      The Pool of Tears.~
+#ENDEXIT
+Reset M 0 36007 10 36087
+#ENDROOM
+
+#ROOM
+Vnum     36088
+Name     &gThe Pool's Edge - East&d~
+Sector   field~
+Flags    ~
+Desc     A muddy path leading along the eastern side of the lake, 
+frequently patrolled by green dragonspawn.
+~
+#EXIT
+Direction west~
+ToRoom    36090
+Desc      The Pool of Tears.~
+#ENDEXIT
+Reset M 0 36006 5 36088
+#ENDROOM
+
+#ROOM
+Vnum     36089
+Name     &gThe Pool's Edge - South&d~
+Sector   field~
+Flags    ~
+Desc     The southern bank of the Pool of Tears. The massive dragon 
+Somnus can often be seen resting here.
+~
+#EXIT
+Direction north~
+ToRoom    36090
+Desc      The Pool of Tears.~
+#ENDEXIT
+Reset M 0 36023 1 36089
+#ENDROOM
+
+#ROOM
+Vnum     36090
+Name     &BThe Pool of Tears&d~
+Sector   water_noswim~
+Flags    indoors~
+Desc     In the center of this massive lake, the top of a stone temple 
+pokes through the water. This is the Sunken Temple, the 
+final sanctuary of the Atal'ai. A shimmering green portal 
+glows beneath the surface of the water.
+~
+#EXIT
+Direction north~
+ToRoom    36086
+Desc      Return to the bank.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     36091
+Name     &gStonard - South Gate&d~
+Sector   city~
+Flags    ~
+Desc     The southern exit from Stonard, leading toward the pass 
+to the Blasted Lands.
+~
+#EXIT
+Direction north~
+ToRoom    36058
+Desc      Stonard Square.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    36071
+Desc      The southern pass.~
+#ENDEXIT
+Reset M 0 36013 5 36091
+#ENDROOM
+
+#ROOM
+Vnum     36092
+Name     &gThe Stalwart Stand&d~
+Sector   field~
+Flags    ~
+Desc     A high ledge overlooking the western pass, used by Horde 
+scouts to watch for Alliance movement from Redridge.
+~
+#EXIT
+Direction down~
+ToRoom    36050
+Desc      The western entrance.~
+#ENDEXIT
+Reset M 0 36011 5 36092
+#ENDROOM
+
+#ROOM
+Vnum     36093
+Name     &gThe Sinking Ruins&d~
+Sector   field~
+Flags    ~
+Desc     A collection of small stone buildings that have almost entirely 
+submerged into the swamp.
+~
+#EXIT
+Direction east~
+ToRoom    36051
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset O 0 36037 1 36093
+#ENDROOM
+
+#ROOM
+Vnum     36094
+Name     &gThe Mist-Shrouded Hill&d~
+Sector   field~
+Flags    ~
+Desc     A small hill in the center of the swamp that stays remarkably 
+clear of the thickest fog.
+~
+#EXIT
+Direction south~
+ToRoom    36052
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset O 0 36031 10 36094
+#ENDROOM
+
+#ROOM
+Vnum     36095
+Name     &gSwamp Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet, dark corner of the eastern swamp, filled with 
+Silt Creepers.
+~
+#EXIT
+Direction west~
+ToRoom    36053
+Desc      The Sorrowmurk.~
+#ENDEXIT
+Reset M 0 36001 10 36095
+#ENDROOM
+
+#ROOM
+Vnum     36096
+Name     &gSwamp Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small clearing near the southern pass where several 
+Swamp Rats have gathered.
+~
+#EXIT
+Direction north~
+ToRoom    36071
+Desc      The southern pass.~
+#ENDEXIT
+Reset M 0 36015 10 36096
+#ENDROOM
+
+#ROOM
+Vnum     36097
+Name     &gSwamp Overflow C&d~
+Sector   field~
+Flags    ~
+Desc     A gnarled thicket near the Pool of Tears, frequently 
+patrolled by Green Dragonspawn.
+~
+#EXIT
+Direction south~
+ToRoom    36086
+Desc      The approach to the pool.~
+#ENDEXIT
+Reset M 0 36006 5 36097
+#ENDROOM
+
+#ROOM
+Vnum     36098
+Name     &gThe Weeping Shore&d~
+Sector   field~
+Flags    ~
+Desc     A low, muddy section of the eastern coast where several 
+Malignant Spirits can be heard wailing.
+~
+#EXIT
+Direction north~
+ToRoom    36064
+Desc      The southern strand.~
+#ENDEXIT
+Reset M 0 36017 10 36098
+#ENDROOM
+
+#ROOM
+Vnum     36099
+Name     &gSwamp Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, hidden trail behind Stonard leads toward the 
+western mountains, offering a quick way back toward 
+the Deadwind Pass.
+~
+#EXIT
+Direction south~
+ToRoom    36058
+Desc      Stonard Square.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    36050
+Desc      The western entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
