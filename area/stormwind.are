@@ -1,4 +1,4 @@
-#FUSSAREA
+'#FUSSAREA
 #AREADATA
 Version      1
 Name         Stormwind~
@@ -940,6 +940,29 @@ Desc      The Trade District awaits.
 Direction west~
 ToRoom    11006
 Desc      The cobblestones turn a deep purple as you enter the Mage Quarter.
+~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    11046
+Desc      A heavily guarded stone ramp leads down to the Stockade.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11046
+Name     &WOutside the Stormwind Stockade&d~
+Sector   city~
+Desc     A heavy iron portcullis blocks the way into the high-security prison
+known as the Stockade. The guards here look tense, as if a riot could
+break out at any moment. Through the bars, a glowing portal stone
+swirls with instance energy.
+~
+#EXIT
+Direction up~
+ToRoom    11005
+Desc      The stone ramp leads back up to the canals.
 ~
 #ENDEXIT
 #ENDROOM
@@ -1918,6 +1941,12 @@ ToRoom    11044
 Desc      The Valley of Heroes bridge begins here.
 ~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    12020
+Desc      The road continues into Elwynn Forest.
+~
 #ENDROOM
 
 #ENDAREA

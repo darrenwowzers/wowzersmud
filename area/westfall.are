@@ -570,6 +570,12 @@ ToRoom    12502
 Desc      The road continues toward a neglected farm.
 ~
 #ENDEXIT
+#EXIT
+Direction east~
+ToRoom    12090
+Desc      The tree line of Elwynn Forest.
+~
+#ENDEXIT
 #ENDROOM
 
 #ROOM
@@ -1250,6 +1256,12 @@ Desc      The Riverpaw Encampment.
 Direction west~
 ToRoom    12506
 Desc      The Dust Plains leading to Sentinel Hill.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    13019
+Desc      The gloomy path leads toward the dark woods of Duskwood.
 ~
 #ENDEXIT
 #ENDROOM

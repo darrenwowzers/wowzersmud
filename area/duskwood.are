@@ -744,7 +744,7 @@ The path to the south leads to the massive Ravenhill Cemetery.
 ~
 #EXIT
 Direction north~
-ToRoom    12501
+ToRoom    12100
 Desc      The road to Elwynn Forest.
 ~
 #ENDEXIT
@@ -1036,8 +1036,8 @@ Desc      The Yorgen Farmstead.
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    13020
-Desc      Roland's Doom.
+ToRoom    12530
+Desc      The path opens up into the dusty plains of Westfall.
 ~
 #ENDEXIT
 Reset M 0 13014 1 13019

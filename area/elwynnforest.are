@@ -1345,6 +1345,13 @@ ToRoom    12021
 Desc      The road leads toward Goldshire.
 ~
 #ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    11045
+Desc      The towering white walls of Stormwind City can be seen in the distance.
+~
+#ENDEXIT
 Reset M 0 12012 1 12020
 #ENDROOM
 
@@ -1779,6 +1786,12 @@ Desc      The sawmill and main work area lie ahead.
 Direction west~
 ToRoom    12051
 Desc      The forest road leads back west.
+~
+#ENDEXIT
+#EXIT
+Direction northeast~
+ToRoom    13750
+Desc      The road winds up into the Redridge Mountains.
 ~
 #ENDEXIT
 Reset M 0 12012 1 12052
@@ -2239,6 +2252,12 @@ ToRoom    12091
 Desc      A path leads toward Fargodeep Mine.
 ~
 #ENDEXIT
+#EXIT
+Direction southwest~
+ToRoom    12501
+Desc      The road turns to dust as it enters Westfall.
+~
+#ENDEXIT
 Reset M 0 12007 2 12090
 Reset M 0 12008 2 12090
 #ENDROOM
@@ -2396,6 +2415,12 @@ Desc      The orchard lies to the east.
 Direction south~
 ToRoom    12101
 Desc      The road continues toward Mirror Lake.
+~
+#ENDEXIT
+#EXIT
+Direction southeast~
+ToRoom    13007
+Desc      The road descends into the gloom of Duskwood.
 ~
 #ENDEXIT
 #ENDROOM

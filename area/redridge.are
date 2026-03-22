@@ -578,7 +578,7 @@ Desc      The highway winds toward Lakeshire.
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    12000
+ToRoom    12052
 Desc      The road back to Elwynn Forest.
 ~
 #ENDEXIT
