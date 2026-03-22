@@ -1175,7 +1175,8 @@ Name     &bZoram Strand - Ruined Archway&d~
 Sector   field~
 Desc     A massive stone archway, half-sunken into the sand, marks the entrance
 to a series of underwater caverns. Murlocs and naga patrol the area,
-defending their territory.
+defending their territory. A slippery set of stone stairs descends into 
+the watery darkness.
 ~
 #EXIT
 Direction south~
@@ -1185,11 +1186,30 @@ Desc      Central Strand.
 #ENDEXIT
 #EXIT
 Direction down~
-ToRoom    30000
-Desc      Into Blackfathom Deeps.
+ToRoom    28040
+Desc      Descend the slippery stairs into the caverns.
 ~
 #ENDEXIT
 Reset M 0 28014 2 28019
+#ENDROOM
+
+#ROOM
+Vnum     28040
+Name     &bBlackfathom Deeps - The Moonwell Vault&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The air is damp and freezing in this submerged subterranean temple. 
+Water drips from the ancient stone ceiling, echoing in the darkness. 
+At the end of the hall, a corrupted Moonwell glows with a sickly 
+purple light, housing the swirling portal that leads into the 
+depths of Blackfathom. 
+~
+#EXIT
+Direction up~
+ToRoom    28019
+Desc      Return to the surface of Zoram Strand.
+~
+#ENDEXIT
 #ENDROOM
 
 #ROOM
