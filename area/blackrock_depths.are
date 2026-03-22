@@ -1,0 +1,2768 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Blackrock Depths~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       48 60 0 60
+Economy      0 90000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       20000
+Keywords   dark iron warden dwarf~
+Short      a Dark Iron Warden~
+Long       A Dark Iron Warden rattles a heavy set of keys, patrolling the cells.
+~
+Desc       A grim dwarf tasked with guarding the Detention Block. He wears 
+reinforced soot-stained mail and carries a heavy iron baton.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 50 0 0 2000 5000
+Stats2     50 50 200
+Stats3     12 32 50
+Stats4     0 0 0 0 0
+Attribs    22 10 16 8 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20001
+Keywords   dark iron bloodhound beast~
+Short      a Dark Iron Bloodhound~
+Long       A massive, red-eyed hound sniffs the air for the scent of intruders.
+~
+Desc       These beasts are fed a diet of raw meat and lava-roots, making 
+them incredibly aggressive and loyal only to their dwarf masters.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 49 0 0 1100 3200
+Stats2     49 49 0
+Stats3     10 28 49
+Stats4     0 0 0 0 0
+Attribs    18 20 16 4 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       20002
+Keywords   high interrogator gerstahn boss dwarf mage~
+Short      High Interrogator Gerstahn~
+Long       High Interrogator Gerstahn stands before a torture rack, eyes gleaming.
+~
+Desc       The primary interrogator of the Dark Iron clan. She has mastered 
+shadow magic to extract information from even the most 
+stubborn of prisoners.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 4500 12000
+Stats2     52 52 1500
+Stats3     15 45 52
+Stats4     0 0 0 0 0
+Attribs    12 14 18 32 26 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20003
+Keywords   lord roccor boss elemental~
+Short      Lord Roccor~
+Long       A massive elemental of living obsidian and magma rumbles in the hall.
+~
+Desc       A rare and ancient earth elemental who has found a home in the 
+deep stone tunnels. He is territorial and brutally strong.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 5500 14000
+Stats2     52 52 0
+Stats3     20 55 52
+Stats4     0 0 0 0 0
+Attribs    35 4 30 10 15 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20004
+Keywords   houndmaster grebmar boss dwarf warrior~
+Short      Houndmaster Grebmar~
+Long       Houndmaster Grebmar bellows a command to his pack of bloodhounds.
+~
+Desc       The master of the kennel. Grebmar is a cruel dwarf who views his 
+hounds as far more valuable than his underlings.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 52 0 0 4200 11000
+Stats2     52 52 200
+Stats3     16 48 52
+Stats4     0 0 0 0 0
+Attribs    26 12 18 10 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20005
+Keywords   fireguard destroyer elemental~
+Short      a Fireguard Destroyer~
+Long       A towering inferno of orange flame rumbles, its heat blinding.
+~
+Desc       Elemental soldiers bound by the Dark Iron geomancers. They 
+radiate a permanent aura of intense heat that melts steel.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 3200 8500
+Stats2     54 54 500
+Stats3     18 50 54
+Stats4     0 0 0 0 0
+Attribs    30 10 24 14 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20006
+Keywords   anvilrage officer dwarf warrior~
+Short      an Anvilrage Officer~
+Long       A dwarf in gleaming obsidian plate barks orders to his squad.
+~
+Desc       Experienced commanders of the Dark Iron army. They are experts 
+in defensive tactics and the use of firearms in tight corridors.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 2500 7000
+Stats2     53 53 250
+Stats3     14 40 53
+Stats4     0 0 0 0 0
+Attribs    24 14 18 12 16 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       20007
+Keywords   fineous darkvire boss dwarf warrior~
+Short      Fineous Darkvire~
+Long       Fineous Darkvire stands before the great statue, hammer ready.
+~
+Desc       The chief architect of the Dark Iron clan. He is as skilled with 
+a mace as he is with a masonry trowel, defending the city's 
+foundations with pride.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 6500 18000
+Stats2     54 54 300
+Stats3     22 60 54
+Stats4     0 0 0 0 0
+Attribs    28 10 22 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20008
+Keywords   lord incendius boss elemental~
+Short      Lord Incendius~
+Long       Lord Incendius rises from the Black Forge, a pillar of pure fire.
+~
+Desc       The warden of the Black Forge. Incendius is a powerful 
+servant of Ragnaros who ensures the fires of industry never 
+fade within the mountain.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 56 0 0 10000 28000
+Stats2     56 56 1000
+Stats3     28 85 56
+Stats4     0 0 0 0 0
+Attribs    35 12 30 20 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       20009
+Keywords   warder stilgiss boss dwarf mage~
+Short      Warder Stilgiss~
+Long       Warder Stilgiss stands before the iron vault, a frost spell ready.
+~
+Desc       The keeper of the Dark Iron vaults. Unlike his fiery kin, 
+Stilgiss has mastered the magic of ice to better preserve 
+the treasures he guards.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 4500 12000
+Stats2     54 54 1800
+Stats3     15 45 54
+Stats4     0 0 0 0 0
+Attribs    14 12 16 34 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20010
+Keywords   bael'gar boss giant~
+Short      Bael'Gar~
+Long       The titanic molten giant Bael'Gar stands perfectly still near the gate.
+~
+Desc       Forged by the Firelord himself to act as a living barrier. 
+Bael'Gar's body is composed of enchanted basalt and 
+unending flame.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 15000 45000
+Stats2     57 57 0
+Stats3     35 110 60
+Stats4     0 0 0 0 0
+Attribs    45 4 40 10 20 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       20011
+Keywords   general angerforge boss dwarf warrior~
+Short      General Angerforge~
+Long       General Angerforge stand atop the balcony, surveying his troops.
+~
+Desc       The supreme commander of the Dark Iron military. He is a 
+brilliant strategist who has held the mountain against all 
+odds for centuries.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 8500 25000
+Stats2     57 57 400
+Stats3     25 75 57
+Stats4     0 0 0 0 0
+Attribs    32 14 24 16 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20012
+Keywords   golem lord argelmach boss dwarf mage~
+Short      Golem Lord Argelmach~
+Long       Argelmach stands between two iron golems, tinkering with a core.
+~
+Desc       The master of Dark Iron engineering. Argelmach is responsible 
+for the creation of the massive war golems that bolster 
+the clan's defenses.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 7500 22000
+Stats2     57 57 2000
+Stats3     20 65 57
+Stats4     0 0 0 0 0
+Attribs    12 16 18 35 30 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20013
+Keywords   hurley blackbreath boss dwarf warrior~
+Short      Hurley Blackbreath~
+Long       Hurley Blackbreath takes a massive swig of ale, belching fire.
+~
+Desc       A legend in the Grim Guzzler. Hurley is a master brewer 
+whose signature "Thunderbrew" is as much a weapon as it 
+is a beverage.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 4000 11000
+Stats2     54 54 100
+Stats3     18 50 54
+Stats4     0 0 0 0 0
+Attribs    26 12 20 8 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20014
+Keywords   phalanx boss golem construct~
+Short      Phalanx~
+Long       A massive iron golem stands motionless near the tavern bar.
+~
+Desc       The bouncer of the Grim Guzzler. Phalanx is a reinforced 
+security model built specifically to handle drunken ogres.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 55 0 0 8000 22000
+Stats2     55 55 0
+Stats3     25 70 55
+Stats4     0 0 0 0 0
+Attribs    35 4 30 10 15 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20015
+Keywords   plugger spazzring boss gnome mage~
+Short      Plugger Spazzring~
+Long       A leery gnome bartender wipes the counter with a greasy rag.
+~
+Desc       Plugger has run the Guzzler for decades. He knows every 
+secret in the mountain and has poisoned more than his fair 
+share of "unwelcome" guests.
+~
+Race       gnome~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 52 0 0 3500 9500
+Stats2     52 52 1500
+Stats3     12 35 52
+Stats4     0 0 0 0 0
+Attribs    12 18 16 32 26 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20016
+Keywords   ambassador flamelash boss elemental~
+Short      Ambassador Flamelash~
+Long       Ambassador Flamelash, a fiery naga-like entity, hisses in the hall.
+~
+Desc       The diplomatic envoy from the Molten Core. He represents 
+Ragnaros's interests within the Dark Iron capital.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 57 0 0 10000 30000
+Stats2     57 57 800
+Stats3     25 75 57
+Stats4     0 0 0 0 0
+Attribs    32 14 26 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       20017
+Keywords   doom'rel boss ghost troll~
+Short      Doom'rel~
+Long       A ghostly troll of the Seven stands in silent judgment.
+~
+Desc       One of the seven ancient dwarves who betrayed their 
+people to serve Ragnaros. He remains as a spectral 
+guardian of the tomb.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 8000 24000
+Stats2     58 58 2000
+Stats3     22 65 58
+Stats4     0 0 0 0 0
+Attribs    18 14 20 35 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       20018
+Keywords   magmus boss giant~
+Short      Magmus~
+Long       The titanic molten giant Magmus guards the King's doors.
+~
+Desc       The personal bodyguard of the Emperor. Magmus is 
+immune to all forms of heat and can stomp the ground to 
+stun entire groups of enemies.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 18000 50000
+Stats2     59 59 0
+Stats3     40 120 70
+Stats4     0 0 0 0 0
+Attribs    45 4 45 10 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       20019
+Keywords   emperor dagran thaurissan boss dwarf warrior~
+Short      Emperor Dagran Thaurissan~
+Long       Emperor Thaurissan sits upon the Imperial Throne, hammer in hand.
+~
+Desc       The ruler of the Dark Iron clan and the chosen servant of 
+Ragnaros. He is a master of combat and shadow magic, 
+wielding the legendary hammer Ironfoe.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 25000 75000
+Stats2     60 60 1000
+Stats3     45 150 80
+Stats4     0 0 0 0 0
+Attribs    35 15 30 25 30 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       20020
+Keywords   princess moira bronzebeard boss dwarf mage~
+Short      Princess Moira Bronzebeard~
+Long       Princess Moira stands by the Emperor's side, a holy spell ready.
+~
+Desc       The daughter of King Magni Bronzebeard, though she claims 
+to be the Emperor's willing consort. She uses the Light 
+to heal her husband during battle.
+~
+Race       dwarf~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 58 0 0 10000 35000
+Stats2     58 58 3000
+Stats3     20 60 58
+Stats4     0 0 0 0 0
+Attribs    14 12 20 35 32 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       20021
+Keywords   dark iron reaver dwarf warrior~
+Short      a Dark Iron Reaver~
+Long       A dwarf in heavy black plate stands guard at the intersection.
+~
+Desc       The standard heavy infantry of the city. They are trained 
+to fight in the heat and soot of the deep tunnels.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 1600 4500
+Stats2     51 51 150
+Stats3     11 30 51
+Stats4     0 0 0 0 0
+Attribs    22 12 16 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20022
+Keywords   anvilrage medic dwarf shaman~
+Short      an Anvilrage Medic~
+Long       A dwarf in white and red tabard mutters a healing prayer.
+~
+Desc       Responsible for keeping the Dark Iron squads in the fight. 
+They are priority targets in any skirmish.
+~
+Race       dwarf~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 1200 3500
+Stats2     51 51 1000
+Stats3     9 24 51
+Stats4     0 0 0 0 0
+Attribs    12 12 14 26 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20023
+Keywords   shadowforge citizen dwarf~
+Short      a Shadowforge Citizen~
+Long       A dwarf citizen hurries along the stone street, avoiding your gaze.
+~
+Desc       The common folk of the subterranean capital. They are 
+not warriors but will defend their homes if cornered.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 48 0 0 600 1800
+Stats2     48 48 0
+Stats3     7 18 48
+Stats4     0 0 0 0 0
+Attribs    14 14 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20024
+Keywords   dark iron dragoon dwarf~
+Short      a Dark Iron Dragoon~
+Long       A dwarf levels a heavy blunderbuss at you from a high ledge.
+~
+Desc       Elite sharpshooters who use the geography of the city to 
+fire upon intruders from safety.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 1800 5000
+Stats2     52 52 100
+Stats3     12 35 52
+Stats4     0 0 0 0 0
+Attribs    18 24 16 10 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20025
+Keywords   weaponmaster dwarf warrior~
+Short      a Dark Iron Weaponmaster~
+Long       A dwarf surrounded by racks of steel balances a longsword.
+~
+Desc       A master of all forms of martial combat, tasked with 
+training the recruits of the Anvilrage.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 54 0 0 3500 9500
+Stats2     54 54 200
+Stats3     18 50 54
+Stats4     0 0 0 0 0
+Attribs    28 16 20 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       20026
+Keywords   spectator arena~
+Short      an Arena Spectator~
+Long       A rowdy dwarf bellows for blood from the stands.
+~
+Desc       Citizens of Shadowforge who have gathered to watch 
+the executions in the Ring of Law.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 50 0 0 500 1500
+Stats2     50 50 0
+Stats3     8 20 50
+Stats4     0 0 0 0 0
+Attribs    16 12 14 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20027
+Keywords   gurd the gladiator boss orc~
+Short      Gurd the Gladiator~
+Long       A massive orc gladiator roars, swinging a notched greataxe.
+~
+Desc       A champion of the Ring of Law. Gurd has survived dozens 
+of fights and refuses to fall to simple intruders.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 53 0 0 4500 12000
+Stats2     53 53 100
+Stats3     18 50 53
+Stats4     0 0 0 0 0
+Attribs    28 12 20 6 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20028
+Keywords   shattered golem construct~
+Short      a Shattered Golem~
+Long       A heap of broken iron and stone attempts to rebuild itself.
+~
+Desc       The remnants of a war golem destroyed in the arena, 
+held together by lingering magical essence.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 51 0 0 1100 3000
+Stats2     51 51 0
+Stats3     10 28 51
+Stats4     0 0 0 0 0
+Attribs    24 4 22 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       20029
+Keywords   shadowforge tunnel-rat beast~
+Short      a Shadowforge Tunnel-rat~
+Long       A rat the size of a dog scurries through the gutter.
+~
+Desc       Ugly, hairless, and aggressive. These rats carry the 
+various diseases of the subterranean slums.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 46 0 0 300 900
+Stats2     46 46 0
+Stats3     5 12 46
+Stats4     0 0 0 0 0
+Attribs    12 18 14 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       20030
+Keywords   dark iron steamsmith dwarf~
+Short      a Dark Iron Steamsmith~
+Long       A dwarf hammers at a pipe, steam hissing from a nearby vent.
+~
+Desc       Engineers tasked with maintaining the complex plumbing and 
+heating systems of the city.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 1400 3800
+Stats2     52 52 100
+Stats3     11 28 52
+Stats4     0 0 0 0 0
+Attribs    20 12 16 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20031
+Keywords   obsidian gargoyle demon~
+Short      an Obsidian Gargoyle~
+Long       A statue of a winged demon suddenly detaches from the wall.
+~
+Desc       Forged from the living rock of the mountain, these 
+sentinels watch the high bridges of the city.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 2500 6500
+Stats2     54 54 300
+Stats3     15 42 54
+Stats4     0 0 0 0 0
+Attribs    24 20 22 10 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20032
+Keywords   twilight cultist human mage~
+Short      a Twilight Infiltrator~
+Long       A human in dark purple robes mutters in a shadowed doorway.
+~
+Desc       Members of the Twilight's Hammer who have managed to 
+bypass the city's guards to seek the Firelord's favor.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1800 5000
+Stats2     55 55 1500
+Stats3     14 38 55
+Stats4     0 0 0 0 0
+Attribs    12 14 14 30 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       20033
+Keywords   shadowforge guard dwarf~
+Short      a Shadowforge Guard~
+Long       A dwarf in standard-issue plate stand at ease near the streetlamp.
+~
+Desc       The rank-and-file peacekeepers of the city. They are 
+not easily impressed by travelers.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 1200 3500
+Stats2     50 50 100
+Stats3     10 25 50
+Stats4     0 0 0 0 0
+Attribs    20 14 16 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20034
+Keywords   mistress nagmara boss succubus demon~
+Short      Mistress Nagmara~
+Long       A beautiful, winged demoness smirks, cracking a silk whip.
+~
+Desc       A high-ranking succubus who has bewitched one of the 
+Dark Iron nobles. She finds the city's politics amusing.
+~
+Race       demon~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 56 0 0 4500 12000
+Stats2     56 56 600
+Stats3     18 50 56
+Stats4     0 0 0 0 0
+Attribs    16 28 14 18 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20035
+Keywords   grim guzzler patron dwarf~
+Short      a Grim Guzzler Patron~
+Long       A drunk dwarf attempts to sing a tavern song, failing miserably.
+~
+Desc       Too drunk to care about intruders, this dwarf is more 
+interested in finding his next mug of stout.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 400 1200
+Stats2     50 50 0
+Stats3     6 18 50
+Stats4     0 0 0 0 0
+Attribs    18 8 16 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20036
+Keywords   shadowforge noble dwarf warrior~
+Short      a Shadowforge Noble~
+Long       A dwarf in fine silken tunics and gold jewelry sneers at you.
+~
+Desc       The elite of the city's hierarchy. They are arrogant and 
+believe themselves untouchable within the palace walls.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 2500 7000
+Stats2     55 55 200
+Stats3     14 40 55
+Stats4     0 0 0 0 0
+Attribs    20 14 16 18 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20037
+Keywords   palace guardian dwarf warrior~
+Short      a Shadowforge Palace Guardian~
+Long       A massive dwarf in heavy black-iron plate stands perfectly still.
+~
+Desc       The personal guards of the Emperor. They have sworn 
+an oath of silence and will fight to the death.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 58 0 0 4500 12000
+Stats2     58 58 300
+Stats3     20 55 58
+Stats4     0 0 0 0 0
+Attribs    30 12 24 14 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       20038
+Keywords   molten slave fire elemental~
+Short      a Molten Slave~
+Long       A small being of living fire works the bellows of the forge.
+~
+Desc       Lesser elementals bound into eternal servitude to 
+provide heat for the city's industrial complex.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 800 2400
+Stats2     52 52 600
+Stats3     9 22 52
+Stats4     0 0 0 0 0
+Attribs    10 16 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       20039
+Keywords   spectral researcher ghost~
+Short      a Spectral Researcher~
+Long       A ghostly figure pours over a massive ancient tome.
+~
+Desc       Former scholars of the city who died in the Great Summoning. 
+They are obsessed with recording the history of their clan.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 55 0 0 1200 3500
+Stats2     55 55 1500
+Stats3     11 30 55
+Stats4     0 0 0 0 0
+Attribs    10 12 14 34 26 15 15
+#ENDMOBILE
+
+#OBJECT
+Vnum     20040
+Keywords ironfoe hammer mace weapon~
+Type     weapon~
+Short    the Ironfoe Warhammer~
+Long     The legendary mace of the Dark Iron Kings, glowing with unholy heat.~
+WFlags   take wield~
+Values   12 22 45 8 0 0
+Stats    25 50000 60 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 25 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20041
+Keywords hand justice jewelry hold~
+Type     treasure~
+Short    the Hand of Justice~
+Long     A small iron hand that grants the bearer uncanny martial timing.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15000 55 0 0
+Rarity   3
+Affect   13 15 0 0 0
+Affect   18 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20042
+Keywords emperor's seal ring jewelry~
+Type     jewelry~
+Short    the Emperor's Seal~
+Long     A massive gold ring featuring the fanned anvil of the Dark Irons.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 12000 60 0 0
+Rarity   2
+Affect   3 15 0 0 0
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20043
+Keywords robes royal crown body~
+Type     armor~
+Short    the Robes of the Royal Crown~
+Long     Fine silken robes of the deepest purple, embroidered with gold.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 10000 58 0 0
+Rarity   2
+Affect   3 18 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20044
+Keywords dark iron reaver breastplate~
+Type     armor~
+Short    a Dark Iron Reaver Breastplate~
+Long     Heavy plates of obsidian-stained steel, built for the front lines.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 6500 52 0 0
+Rarity   1
+Affect   5 12 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20045
+Keywords hammer grace weapon~
+Type     weapon~
+Short    the Hammer of Grace~
+Long     A perfectly balanced smithing hammer that pulses with light.~
+WFlags   take wield~
+Values   12 12 24 8 0 0
+Stats    15 4500 54 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20046
+Keywords guzzler mug drink~
+Type     drink_con~
+Short    a mug of Thunderbrew Stout~
+Long     A massive stone mug filled with an incredibly strong ale.~
+WFlags   take~
+Values   30 30 1 0 0 0
+Stats    5 150 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20047
+Keywords shadowforge key~
+Type     key~
+Short    the Shadowforge Key~
+Long     A heavy, notched iron key required to navigate the city gates.~
+WFlags   take~
+Values   20047 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     20048
+Keywords black-iron bar mineral~
+Type     treasure~
+Short    a solid Black Iron Bar~
+Long     A heavy, rectangular bar of refined Dark Iron metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1200 50 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20049
+Keywords nagmara's whip weapon~
+Type     weapon~
+Short    Nagmara's Silk Whip~
+Long     A whip that feels like water but strikes like ice.~
+WFlags   take wield~
+Values   12 10 20 4 0 0
+Stats    5 3500 56 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20050
+Keywords core fire-essence treasure~
+Type     treasure~
+Short    a Core of Fire-Essence~
+Long     A swirling, hot crystal taken from a powerful elemental.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 2500 55 0 0
+Rarity   2
+Affect   13 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20051
+Keywords warder stilgiss boots feet~
+Type     armor~
+Short    a pair of Stilgiss's Frost-Walkers~
+Long     Boots that leave a thin trail of frost with every step.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    6 3200 54 0 0
+Rarity   2
+Affect   2 12 0 0 0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20052
+Keywords angerforge medal jewelry~
+Type     jewelry~
+Short    the Medal of Angerforge~
+Long     A heavy bronze medal given for bravery in the Dark Iron army.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 2800 57 0 0
+Rarity   1
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20053
+Keywords golem lord's ring jewelry~
+Type     jewelry~
+Short    Argelmach's Signet Ring~
+Long     A silver ring featuring the glowing blue core of a golem.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 4500 57 0 0
+Rarity   2
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20054
+Keywords soot-stained journal treasure~
+Type     treasure~
+Short    a soot-stained journal~
+Long     A diary detailing the daily life of a Dark Iron citizen.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 48 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20055
+Keywords dark iron ore mineral~
+Type     treasure~
+Short    a chunk of Dark Iron Ore~
+Long     A raw, unrefined piece of black rock that pulses with heat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    12 450 48 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20056
+Keywords obsidian mace weapon~
+Type     weapon~
+Short    a Dark Iron Obsidian Mace~
+Long     A mace with a head of solid, razor-sharp volcanic glass.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    20 5500 54 0 0
+Rarity   2
+Affect   1 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20057
+Keywords fireguard's heart treasure~
+Type     treasure~
+Short    the Heart of a Fireguard~
+Long     A small, glowing coal that never turns to ash.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 54 0 0
+Rarity   1
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20058
+Keywords shadowforge shield armor~
+Type     armor~
+Short    a Shadowforge Kite Shield~
+Long     A heavy iron shield etched with the crest of the city.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 2500 52 0 0
+Rarity   1
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20059
+Keywords dark iron musket weapon~
+Type     weapon~
+Short    a Dark Iron Long-musket~
+Long     A rifle made of blackened steel and polished mahogany.~
+WFlags   take wield~
+Values   12 18 35 5 0 0
+Stats    22 6500 55 0 0
+Rarity   2
+Affect   2 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20060
+Keywords ghost-mushroom treasure~
+Type     treasure~
+Short    a bunch of Ghost Mushrooms~
+Long     Translucent mushrooms that thrive in the lightless city slums.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 150 45 0 0
+Rarity   0
+Affect   3 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20061
+Keywords basalt boulder trash~
+Type     trash~
+Short    a heavy basalt boulder~
+Long     A massive stone that fell from the cavern ceiling.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    50 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20062
+Keywords dark iron buckler armor~
+Type     armor~
+Short    a Dark Iron Buckler~
+Long     A small, sturdy shield used by the city dragoons.~
+WFlags   take shield~
+Values   15 0 0 0 0 0
+Stats    10 850 51 0 0
+Rarity   1
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20063
+Keywords bloodhound tooth trophy~
+Type     trash~
+Short    a jagged bloodhound tooth~
+Long     A long, curved canine tooth taken from a beast.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20064
+Keywords obsidian gauntlets hands~
+Type     armor~
+Short    a pair of Obsidian Gauntlets~
+Long     Gauntlets reinforced with sharp plates of volcanic glass.~
+WFlags   take hands~
+Values   15 0 0 0 0 0
+Stats    5 2500 53 0 0
+Rarity   2
+Affect   1 10 0 0 0
+Affect   13 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20065
+Keywords shadow-vial treasure hold~
+Type     treasure~
+Short    a vial of Shadow-Residue~
+Long     A small glass vial containing a swirling cloud of purple gas.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20066
+Keywords iron golem gear trash~
+Type     trash~
+Short    a massive iron gear~
+Long     A heavy, grease-covered gear taken from a war golem.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    15 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20067
+Keywords dark iron ledger treasure~
+Type     treasure~
+Short    a production ledger~
+Long     A book detailing the city's iron and thorium outputs.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 450 50 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20068
+Keywords blackforge tongs tool~
+Type     weapon~
+Short    a pair of Blackforge Tongs~
+Long     Heavy iron tongs used for handling molten metal.~
+WFlags   take wield~
+Values   12 8 16 11 0 0
+Stats    12 350 45 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20069
+Keywords lava-root food~
+Type     food~
+Short    a handful of roasted lava-roots~
+Long     A spicy, crunchy root that thrives near the magma rivers.~
+WFlags   take~
+Values   20 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20070
+Keywords shadowforge lantern hold~
+Type     treasure~
+Short    a Shadowforge Lantern~
+Long     A heavy iron lantern that burns with a permanent blue flame.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 850 50 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     20071
+Keywords reaver's greaves legs armor~
+Type     armor~
+Short    a pair of Dark Iron Greaves~
+Long     Heavy plate leggings built for enduring the city's heat.~
+WFlags   take legs~
+Values   25 0 0 0 0 0
+Stats    20 3500 52 0 0
+Rarity   1
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20072
+Keywords thaurissan's robe body~
+Type     armor~
+Short    a replica Thaurissan Robe~
+Long     Fine silken robes mimicking those of the Emperor.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 1200 55 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20073
+Keywords anvilrage ring jewelry~
+Type     jewelry~
+Short    an Anvilrage Officer's Ring~
+Long     A bronze ring featuring a miniature iron anvil.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 850 52 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20074
+Keywords dark iron dagger weapon~
+Type     weapon~
+Short    a Dark Iron Dirk~
+Long     A short, heavy dagger made of serrated black steel.~
+WFlags   take wield~
+Values   12 10 20 11 0 0
+Stats    2 1500 53 0 0
+Rarity   1
+Affect   2 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20075
+Keywords molten obsidian treasure~
+Type     treasure~
+Short    a piece of Molten Obsidian~
+Long     A stone that looks like glass but flows like water.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 1800 55 0 0
+Rarity   2
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20076
+Keywords gorgon's eye jewelry~
+Type     jewelry~
+Short    a Gorgon's Eye Amulet~
+Long     A stone amulet that protects against the heat of the forge.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 2500 56 0 0
+Rarity   2
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20077
+Keywords blackforge coal trash~
+Type     trash~
+Short    a lump of Blackforge Coal~
+Long     A heavy piece of coal that burns twice as hot as normal fuel.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 5 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20078
+Keywords medic's sash waist~
+Type     armor~
+Short    an Anvilrage Medic's Sash~
+Long     A red and white cloth belt filled with small herb pouches.~
+WFlags   take waist~
+Values   4 0 0 0 0 0
+Stats    1 850 51 0 0
+Rarity   1
+Affect   4 8 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     20079
+Keywords emperor's scepter weapon~
+Type     weapon~
+Short    a Ceremonial Palace Scepter~
+Long     A tall staff of gold and dark iron, used in royal parades.~
+WFlags   take wield~
+Values   12 10 20 7 0 0
+Stats    12 4500 58 0 0
+Rarity   2
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     20080
+Name     &rShadowforge Gateway&d~
+Sector   city~
+Flags    indoors~
+Desc     The humid heat of Blackrock Mountain becomes an oppressive, 
+sulfurous furnace as you step through the heavy iron portcullis. 
+You stand at the beginning of a wide, descending stone ramp 
+that leads into the dark heart of the Dark Iron capital. 
+The air vibrates with the distant, rhythmic pounding of a 
+thousand hammers.
+~
+#EXIT
+Direction out~
+ToRoom    36560
+Desc      Return to the Hall of the Mountain.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20081
+Desc      The descending ramp.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     20081
+Name     &rThe Entry Ramp&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive thoroughfare built for the passage of entire armies. 
+The walls are high and reinforced with plates of dark iron. 
+Gratings in the floor allow the heat from the magma rivers 
+below to rise, keeping the ramp at a blistering temperature.
+~
+#EXIT
+Direction south~
+ToRoom    20080
+Desc      The gateway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20082
+Desc      The crossroads of the deep.~
+#ENDEXIT
+Reset M 0 20021 10 20081
+#ENDROOM
+
+#ROOM
+Vnum     20082
+Name     &rThe Crossroads of the Deep&d~
+Sector   inside~
+Flags    indoors~
+Desc     The main road splits here. To the east, a heavily guarded 
+gate leads toward the Detention Block and the Ring of Law. 
+To the north, the road continues toward the industrial 
+heart of the city.
+~
+#EXIT
+Direction south~
+ToRoom    20081
+Desc      The entry ramp.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20083
+Desc      Toward the Detention Block.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20095
+Desc      Toward the industrial district.~
+#ENDEXIT
+Reset M 0 20024 5 20082
+#ENDROOM
+
+#ROOM
+Vnum     20083
+Name     &rDetention Block - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The ceiling here is low and the air is thick with the scent 
+of unwashed bodies and despair. Stone cells line both sides 
+of the hallway, their iron bars glowing faintly in the dim 
+magical light.
+~
+#EXIT
+Direction west~
+ToRoom    20082
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20084
+Desc      Deep into the cell block.~
+#ENDEXIT
+Reset M 0 20000 10 20083
+#ENDROOM
+
+#ROOM
+Vnum     20084
+Name     &rDetention Block - Central Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide intersection where several cell wings meet. A large, 
+central station for the wardens is located here, filled 
+with racks of manacles and heavy batons.
+~
+#EXIT
+Direction west~
+ToRoom    20083
+Desc      The cell block entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20085
+Desc      The interrogation chamber.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    20086
+Desc      The kennel entrance.~
+#ENDEXIT
+Reset M 0 20000 10 20084
+#ENDROOM
+
+#ROOM
+Vnum     20085
+Name     &rThe Interrogation Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are hung with various terrifying tools of torture. 
+A massive stone rack sits in the center of the room. High 
+Interrogator Gerstahn stands here, preparing her next 
+subject for questioning.
+~
+#EXIT
+Direction south~
+ToRoom    20084
+Desc      The central hall.~
+#ENDEXIT
+Reset M 0 20002 1 20085
+#ENDROOM
+
+#ROOM
+Vnum     20086
+Name     &rThe Houndmaster's Kennels&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, smelly chamber filled with the sounds of barking 
+and snarling. The floor is covered in gnawed bones and 
+matted fur. Houndmaster Grebmar oversees his pack from 
+a raised platform.
+~
+#EXIT
+Direction north~
+ToRoom    20084
+Desc      The central hall.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20087
+Desc      Toward the Ring of Law.~
+#ENDEXIT
+Reset M 0 20004 1 20086
+Reset M 0 20001 10 20086
+#ENDROOM
+
+#ROOM
+Vnum     20087
+Name     &rThe Arena Tunnel&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, stone tunnel leading toward the city's arena. 
+The roar of a crowd can be heard echoing through the 
+shaft, becoming louder with every step.
+~
+#EXIT
+Direction west~
+ToRoom    20086
+Desc      The kennels.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20088
+Desc      The Ring of Law.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     20088
+Name     &rThe Ring of Law&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand in the center of a massive circular pit. High above, 
+tiers of stone seating are filled with jeering Dark Iron 
+spectators. This is the place of final judgment for those 
+who break the Emperor's laws.
+~
+#EXIT
+Direction west~
+ToRoom    20087
+Desc      The entry tunnel.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20089
+Desc      The spectator stands.~
+#ENDEXIT
+Reset M 0 20027 1 20088
+#ENDROOM
+
+#ROOM
+Vnum     20089
+Name     &rThe Arena Stands - Lower&d~
+Sector   city~
+Flags    indoors~
+Desc     Rows of stone benches occupied by rowdy citizens. They 
+throw garbage and insults at the combatants in the pit below.
+~
+#EXIT
+Direction south~
+ToRoom    20088
+Desc      Return to the pit.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    20090
+Desc      The upper stands.~
+#ENDEXIT
+Reset M 0 20026 10 20088
+#ENDROOM
+
+#ROOM
+Vnum     20090
+Name     &rThe Arena Stands - Upper&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone balcony overlooking the entire arena. From 
+here, the nobles of Shadowforge watch the spectacles 
+with detached amusement.
+~
+#EXIT
+Direction down~
+ToRoom    20089
+Desc      The lower stands.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20110
+Desc      Toward the city residential district.~
+#ENDEXIT
+Reset M 20036 5 20090
+#ENDROOM
+
+#ROOM
+Vnum     20091
+Name     &rThe East Garrison - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A heavily fortified stone chamber housing the primary 
+guard contingent for the eastern gate. Racks of 
+sharp iron halberds line the walls.
+~
+#EXIT
+Direction west~
+ToRoom    20083
+Desc      The cell block.~
+#ENDEXIT
+Reset M 0 20021 10 20091
+#ENDROOM
+
+#ROOM
+Vnum     20092
+Name     &rThe East Garrison - Armory&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls are covered in shields, plate armor, and 
+magical crystals. Dark Iron weaponmasters work here, 
+ensuring the garrison is always battle-ready.
+~
+#EXIT
+Direction south~
+ToRoom    20091
+Desc      The garrison entrance.~
+#ENDEXIT
+Reset M 0 20025 1 20092
+#ENDROOM
+
+#ROOM
+Vnum     20093
+Name     &rThe Shadowed Cell&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small, isolated cell far away from the others. The 
+only light comes from the faint glow of the iron bars.
+~
+#EXIT
+Direction east~
+ToRoom    20084
+Desc      The cell block hall.~
+#ENDEXIT
+Reset O 0 20054 1 20093
+#ENDROOM
+
+#ROOM
+Vnum     20094
+Name     &rDetention Block - Hidden Passage&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, dusty crawlway behind a loose stone in one 
+of the cells. It bypasses the main warden station.
+~
+#EXIT
+Direction west~
+ToRoom    20084
+Desc      Return to the hall.~
+#ENDEXIT
+Reset M 0 20029 10 20094
+#ENDROOM
+
+#ROOM
+Vnum     20095
+Name     &rThe Slag Run&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, hot corridor that runs parallel to the main industrial 
+lines. Pipes overhead carry molten metal, and the 
+rhythm of steam valves is constant. Lord Roccor can 
+often be seen wandering this hall.
+~
+#EXIT
+Direction south~
+ToRoom    20082
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20096
+Desc      Toward the Black Forge.~
+#ENDEXIT
+Reset M 0 20003 1 20095
+#ENDROOM
+
+#ROOM
+Vnum     20096
+Name     &rThe Black Forge - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The temperature here is incredible. A river of lava flows 
+through the center of the room, powering a massive, 
+enchanted anvil. Lord Incendius stands guard over the 
+sacred site.
+~
+#EXIT
+Direction south~
+ToRoom    20095
+Desc      The slag run.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20100
+Desc      Toward the Crafting Hall.~
+#ENDEXIT
+Reset M 0 20008 1 20096
+Reset M 0 20038 10 20096
+#ENDROOM
+
+#ROOM
+Vnum     20100
+Name     &rThe Hall of Crafting - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive factory where the clan's finest smiths work. 
+The air is filled with sparks and the roar of dozens 
+of magical furnaces.
+~
+#EXIT
+Direction south~
+ToRoom    20096
+Desc      The Black Forge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20101
+Desc      The Hall of Crafting North.~
+#ENDEXIT
+Reset M 0 20030 10 20100
+#ENDROOM
+
+#ROOM
+Vnum     20101
+Name     &rThe Hall of Crafting - North&d~
+Sector   city~
+Flags    indoors~
+Desc     This section of the hall is dedicated to the creation of 
+war golems. Massive half-finished metal shells hang 
+from iron chains in the ceiling. Golem Lord Argelmach 
+oversees the delicate work from a high platform.
+~
+#EXIT
+Direction south~
+ToRoom    20100
+Desc      The southern hall.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    20102
+Desc      The Manufacturing Wing.~
+#ENDEXIT
+Reset M 0 20012 1 20101
+#ENDROOM
+
+#ROOM
+Vnum     20102
+Name     &rThe Manufacturing Wing&d~
+Sector   inside~
+Flags    indoors~
+Desc     Smaller workshops line this hallway, each focused on a 
+specific part of the Dark Iron war machine, from 
+rifles to magical armor plating.
+~
+#EXIT
+Direction east~
+ToRoom    20101
+Desc      The main hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20103
+Desc      The High Architect's Sanctum.~
+#ENDEXIT
+Reset M 0 20006 10 20102
+#ENDROOM
+
+#ROOM
+Vnum     20103
+Name     &rThe High Architect's Sanctum&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room decorated with blueprints and stone models. 
+Fineous Darkvire stands here, Conferring with several 
+master smiths.
+~
+#EXIT
+Direction south~
+ToRoom    20102
+Desc      The manufacturing wing.~
+#ENDEXIT
+Reset M 0 20007 1 20103
+#ENDROOM
+
+#ROOM
+Vnum     20104
+Name     &rThe Steam Works&d~
+Sector   inside~
+Flags    indoors~
+Desc     A noisy chamber filled with high-pressure boilers and 
+rattling steam pipes. The visibility is low due to 
+the constant mist.
+~
+#EXIT
+Direction east~
+ToRoom    20100
+Desc      The crafting hall.~
+#ENDEXIT
+Reset M 0 20030 5 20104
+#ENDROOM
+
+#ROOM
+Vnum     20105
+Name     &rThe Slag Pit - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     A deep, circular pit where the waste from the forge 
+is dumped. Fireguard destroyers move through the 
+glowing embers, consuming the energy within.
+~
+#EXIT
+Direction north~
+ToRoom    20096
+Desc      The Black Forge.~
+#ENDEXIT
+Reset M 0 20005 5 20105
+#ENDROOM
+
+#ROOM
+Vnum     20106
+Name     &rCrafting Hall Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage area filled with crates of refined iron 
+and thorium bars.
+~
+#EXIT
+Direction south~
+ToRoom    20100
+Desc      The crafting hall.~
+#ENDEXIT
+Reset O 0 20048 10 20106
+#ENDROOM
+
+#ROOM
+Vnum     20110
+Name     &rShadowforge City - West Street&d~
+Sector   city~
+Flags    indoors~
+Desc     The start of the capital's residential area. Stone houses 
+are built into the cavern walls, each glowing with 
+soft blue light from the streetlamps. Dwarf citizens 
+hurry about their business.
+~
+#EXIT
+Direction west~
+ToRoom    20090
+Desc      The arena balcony.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20111
+Desc      The Central Plaza.~
+#ENDEXIT
+Reset M 0 20023 10 20110
+#ENDROOM
+
+#ROOM
+Vnum     20111
+Name     &rThe Shadowforge Plaza&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the Dark Iron capital. A massive statue of 
+Thaurissan the Great stands in the center. To the 
+north, the impressive entrance to the Grim Guzzler 
+tavern is visible.
+~
+#EXIT
+Direction west~
+ToRoom    20110
+Desc      West street.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20115
+Desc      Entrance to the Grim Guzzler.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20112
+Desc      The East Street.~
+#ENDEXIT
+Reset M 0 20033 5 20111
+#ENDROOM
+
+#ROOM
+Vnum     20112
+Name     &rShadowforge City - East Street&d~
+Sector   city~
+Flags    indoors~
+Desc     Lined with shops and small taverns, this street is the 
+commercial center of the city. Gargoyles watch from 
+the rooftops.
+~
+#EXIT
+Direction west~
+ToRoom    20111
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    20113
+Desc      Toward the city bank.~
+#ENDEXIT
+Reset M 0 20031 5 20112
+#ENDROOM
+
+#ROOM
+Vnum     20113
+Name     &rThe Shadowforge Bank - Lobby&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet stone hall filled with heavy iron counters. Warder 
+Stilgiss stands at the back, his hands resting on the 
+lock of the main vault.
+~
+#EXIT
+Direction north~
+ToRoom    20112
+Desc      East street.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20114
+Desc      The High Vault.~
+#ENDEXIT
+Reset M 0 20009 1 20113
+#ENDROOM
+
+#ROOM
+Vnum     20114
+Name     &rThe High Vault of the Dark Irons&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive, round room filled with dozens of small 
+lockboxes. The air is freezing, and frost covers the 
+floors and walls.
+~
+#EXIT
+Direction west~
+ToRoom    20113
+Desc      The bank lobby.~
+#ENDEXIT
+Reset O 0 20051 1 20114
+#ENDROOM
+
+#ROOM
+Vnum     20115
+Name     &rThe Grim Guzzler - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The sound of drinking songs and smashing mugs is 
+deafening. The air is thick with smoke and the smell 
+of cheap ale. Plugger Spazzring stands behind the 
+bar, watching the door with a practiced eye.
+~
+#EXIT
+Direction south~
+ToRoom    20111
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20116
+Desc      The main floor.~
+#ENDEXIT
+Reset M 0 20015 1 20115
+#ENDROOM
+
+#ROOM
+Vnum     20116
+Name     &rThe Grim Guzzler - Main Floor&d~
+Sector   city~
+Flags    indoors~
+Desc     The tavern is packed with dwarves, ogres, and even a few 
+succubi. Phalanx stands near the back wall, his 
+massive form casting a shadow over the rowdiest of the patrons.
+~
+#EXIT
+Direction south~
+ToRoom    20115
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20117
+Desc      The back room.~
+#ENDEXIT
+Reset M 0 20014 1 20116
+Reset M 0 20035 10 20116
+#ENDROOM
+
+#ROOM
+Vnum     20117
+Name     &rThe Grim Guzzler - Back Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A slightly quieter area of the tavern where the 
+serious drinking happens. Hurley Blackbreath sits at 
+a corner table, surrounded by empty kegs.
+~
+#EXIT
+Direction south~
+ToRoom    20116
+Desc      The main floor.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20120
+Desc      Toward the Military District.~
+#ENDEXIT
+Reset M 0 20013 1 20117
+#ENDROOM
+
+#ROOM
+Vnum     20118
+Name     &rCity Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet alleyway in the residential district, home 
+to several large tunnel-rats.
+~
+#EXIT
+Direction north~
+ToRoom    20110
+Desc      West street.~
+#ENDEXIT
+Reset M 0 20029 10 20118
+#ENDROOM
+
+#ROOM
+Vnum     20119
+Name     &rCity Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A small attic room above a city house, filled with 
+discarded furniture and soot.
+~
+#EXIT
+Direction down~
+ToRoom    20111
+Desc      The plaza.~
+#ENDEXIT
+Reset O 0 20054 10 20119
+#ENDROOM
+
+#ROOM
+Vnum     20120
+Name     &rThe Military District - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of wide bridges crossing a massive vertical shaft. 
+Dark Iron dragoons keep watch from the high ledges, 
+their rifles gleaming.
+~
+#EXIT
+Direction west~
+ToRoom    20117
+Desc      The Grim Guzzler.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20121
+Desc      The Military District Central.~
+#ENDEXIT
+Reset M 0 20024 10 20120
+#ENDROOM
+
+#ROOM
+Vnum     20121
+Name     &rThe Military District - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the Dark Iron army's command. This room 
+is filled with tactical maps and weapon racks. General 
+Angerforge stands atop a command dais, shouting orders.
+~
+#EXIT
+Direction south~
+ToRoom    20120
+Desc      The southern district.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20125
+Desc      Toward the Black Vaults.~
+#ENDEXIT
+Reset M 0 20011 1 20121
+#ENDROOM
+
+#ROOM
+Vnum     20122
+Name     &rThe Training Floor&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, open room where recruits of the Anvilrage 
+are put through their paces. The sound of clashing 
+steel is constant.
+~
+#EXIT
+Direction east~
+ToRoom    20121
+Desc      The command center.~
+#ENDEXIT
+Reset M 0 20006 5 20122
+#ENDROOM
+
+#ROOM
+Vnum     20123
+Name     &rThe Anvilrage Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows of neatly made bunks and footlockers. Anvilrage 
+medics stand ready to treat any injuries.
+~
+#EXIT
+Direction south~
+ToRoom    20122
+Desc      The training floor.~
+#ENDEXIT
+Reset M 0 20022 10 20123
+#ENDROOM
+
+#ROOM
+Vnum     20124
+Name     &rMilitary Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room for storing powder and ammunition. 
+Dragoons are often seen here resupplying.
+#EXIT
+Direction north~
+ToRoom    20120
+Desc      The southern district.~
+#ENDEXIT
+Reset O 0 20059 10 20124
+#ENDROOM
+
+#ROOM
+Vnum     20125
+Name     &rThe Road to the Seven - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here becomes more ornate and ancient. 
+The walls are lined with statues of the seven brothers 
+who first summoned the Firelord.
+~
+#EXIT
+Direction south~
+ToRoom    20121
+Desc      The military district.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20126
+Desc      The Tomb of the Seven.~
+#ENDEXIT
+Reset M 0 20021 5 20125
+#ENDROOM
+
+#ROOM
+Vnum     20126
+Name     &rThe Tomb of the Seven&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber. The ghosts of the seven 
+ancient dwarves stand in a circle around a central sarcophagus. 
+The air is cold and hums with necro-magic.
+~
+#EXIT
+Direction south~
+ToRoom    20125
+Desc      The southern road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20130
+Desc      Toward the Lyceum.~
+#ENDEXIT
+Reset M 0 20017 1 20126
+#ENDROOM
+
+#ROOM
+Vnum     20127
+Name     &rThe Hidden Crypt&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small, subterranean room beneath the tomb. It is 
+filled with the remains of the Seven's closest acolytes.
+~
+#EXIT
+Direction up~
+ToRoom    20126
+Desc      Return to the tomb.~
+#ENDEXIT
+Reset M 0 20039 10 20127
+#ENDROOM
+
+#ROOM
+Vnum     20130
+Name     &rThe Lyceum - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A huge, dimly lit hall filled with thousands of small 
+candles. Hundreds of Dark Iron cultists move through 
+ the shadows, muttering prayers to the Firelord.
+~
+#EXIT
+Direction south~
+ToRoom    20126
+Desc      The tomb.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20131
+Desc      Deep Lyceum.~
+#ENDEXIT
+Reset M 0 20032 10 20130
+#ENDROOM
+
+#ROOM
+Vnum     20131
+Name     &rThe Lyceum - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the cult's activities. Two massive iron 
+braziers must be lit to open the way to the 
+imperial throne.
+~
+#EXIT
+Direction south~
+ToRoom    20130
+Desc      Lyceum entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20135
+Desc      Toward Magmus's Gate.~
+#ENDEXIT
+Reset M 0 20032 10 20131
+#ENDROOM
+
+#ROOM
+Vnum     20132
+Name     &rThe Lyceum - West Wing&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow hallway filled with smoldering tapestries. 
+Fire elementals roam here, keeping the torches lit.
+~
+#EXIT
+Direction east~
+ToRoom    20131
+Desc      Central Lyceum.~
+#ENDEXIT
+Reset M 0 20005 5 20132
+#ENDROOM
+
+#ROOM
+Vnum     20133
+Name     &rThe Lyceum - East Wing&d~
+Sector   inside~
+Flags    indoors~
+Desc     A mirror image of the west wing. More cultists and 
+elementals patrol this area in silence.
+~
+#EXIT
+Direction west~
+ToRoom    20131
+Desc      Central Lyceum.~
+#ENDEXIT
+Reset M 0 20032 5 20133
+#ENDROOM
+
+#ROOM
+Vnum     20134
+Name     &rLyceum Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side room filled with prayer scrolls and 
+vials of shadow-residue.
+~
+#EXIT
+Direction south~
+ToRoom    20130
+Desc      Lyceum entrance.~
+#ENDEXIT
+Reset O 0 20065 10 20134
+#ENDROOM
+
+#ROOM
+Vnum     20135
+Name     &rThe Gate of the Emperor&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive, double-layered iron door. Magmus stands here, 
+his molten body illuminating the room in a hellish glow. 
+Beyond this door lies the Imperial Palace.
+~
+#EXIT
+Direction south~
+ToRoom    20131
+Desc      The Lyceum.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20140
+Desc      The Imperial Seat.~
+#ENDEXIT
+Reset M 0 20018 1 20135
+#ENDROOM
+
+#ROOM
+Vnum     20140
+Name     &rThe Imperial Seat - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The start of the Emperor's private sanctum. The floor 
+is polished obsidian and the walls are draped in 
+fine silks of red and gold.
+~
+#EXIT
+Direction south~
+ToRoom    20135
+Desc      Magmus's gate.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20141
+Desc      The Throne Room.~
+#ENDEXIT
+Reset M 0 20037 10 20140
+#ENDROOM
+
+#ROOM
+Vnum     20141
+Name     &rThe Throne of Emperor Thaurissan&d~
+Sector   city~
+Flags    indoors~
+Desc     The grandest room in the mountain. Emperor Dagran Thaurissan 
+sits upon a high throne, surrounded by his most loyal 
+guards. Princess Moira stands at his side, her face 
+unreadable as she watches the intruders.
+~
+#EXIT
+Direction south~
+ToRoom    20140
+Desc      The palace entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20159
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 20019 1 20141
+  Reset E 1 20040 1 16
+Reset M 0 20020 1 20141
+#ENDROOM
+
+#ROOM
+Vnum     20142
+Name     &rThe Emperor's Library&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room filled with the collective knowledge of 
+the Dark Iron clan. Spectral researchers still pour 
+over the books.
+~
+#EXIT
+Direction west~
+ToRoom    20141
+Desc      The throne room.~
+#ENDEXIT
+Reset M 0 20039 5 20142
+#ENDROOM
+
+#ROOM
+Vnum     20143
+Name     &rThe Royal Bedchamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     A luxurious room filled with fine furs and golden 
+trinkets. Princess Moira's personal guards watch the door.
+~
+#EXIT
+Direction east~
+ToRoom    20141
+Desc      The throne room.~
+#ENDEXIT
+Reset M 0 20037 5 20143
+#ENDROOM
+
+#ROOM
+Vnum     20144
+Name     &rPalace Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small balcony overlooking the Lyceum from within 
+the palace walls.
+~
+#EXIT
+Direction north~
+ToRoom    20140
+Desc      The palace entrance.~
+#ENDEXIT
+Reset M 0 20024 5 20144
+#ENDROOM
+
+#ROOM
+Vnum     20145
+Name     &rThe East Garrison - Deep&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the garrison, home to the most 
+experienced reavers.
+~
+#EXIT
+Direction north~
+ToRoom    20091
+Desc      Garrison entrance.~
+#ENDEXIT
+Reset M 0 20021 5 20145
+#ENDROOM
+
+#ROOM
+Vnum     20146
+Name     &rThe Shadowforge Bridge - Upper&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone span crossing the industrial district. Ambassador 
+Flamelash can be seen here on his way to the palace.
+~
+#EXIT
+Direction south~
+ToRoom    20111
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    20147
+Desc      Toward the Dormitories.~
+#ENDEXIT
+Reset M 0 20016 1 20146
+#ENDROOM
+
+#ROOM
+Vnum     20147
+Name     &rThe Shadowforge Dormitories&d~
+Sector   inside~
+Flags    indoors~
+Desc     Living quarters for the city's higher-ranking officers. 
+Mistress Nagmara has set up her chambers in the far wing.
+~
+#EXIT
+Direction south~
+ToRoom    20146
+Desc      The high bridge.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    20148
+Desc      Nagmara's Chamber.~
+#ENDEXIT
+Reset M 0 20036 10 20147
+#ENDROOM
+
+#ROOM
+Vnum     20148
+Name     &rChamber of Mistress Nagmara&d~
+Sector   inside~
+Flags    indoors~
+Desc     A lushly decorated room filled with silks and the 
+heavy scent of perfume.
+~
+#EXIT
+Direction west~
+ToRoom    20147
+Desc      The dormitories.~
+#ENDEXIT
+Reset M 0 20034 1 20148
+#ENDROOM
+
+#ROOM
+Vnum     20149
+Name     &rThe Iron Bridge - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive iron bridge crossing a river of magma. Bael'Gar 
+stands at the far end, his body radiating waves of heat.
+~
+#EXIT
+Direction north~
+ToRoom    20150
+Desc      Magmus's approach.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    20082
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 20010 1 20149
+#ENDROOM
+
+#ROOM
+Vnum     20150
+Name     &rThe Iron Bridge - North&d~
+Sector   city~
+Flags    indoors~
+Desc     The north end of the bridge. The air is so hot it 
+distorts the vision.
+~
+#EXIT
+Direction south~
+ToRoom    20149
+Desc      The southern bridge.~
+#ENDEXIT
+Reset M 0 20005 5 20150
+#ENDROOM
+
+#ROOM
+Vnum     20151
+Name     &rThe Slums - West&d~
+Sector   city~
+Flags    indoors~
+Desc     The poorest part of the city. Tunnels are cramped and 
+smell of sewage.
+~
+#EXIT
+Direction east~
+ToRoom    20110
+Desc      West street.~
+#ENDEXIT
+Reset M 0 20029 10 20151
+#ENDROOM
+
+#ROOM
+Vnum     20152
+Name     &rThe Slums - East&d~
+Sector   city~
+Flags    indoors~
+Desc     Another section of the slums, filled with broken homes 
+and desperate citizens.
+~
+#EXIT
+Direction west~
+ToRoom    20112
+Desc      East street.~
+#ENDEXIT
+Reset M 0 20029 10 20152
+#ENDROOM
+
+#ROOM
+Vnum     20153
+Name     &rGarrison Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for firearms and dark iron musket balls.
+~
+#EXIT
+Direction south~
+ToRoom    20091
+Desc      Garrison entry.~
+#ENDEXIT
+Reset O 0 20059 10 20153
+#ENDROOM
+
+#ROOM
+Vnum     20154
+Name     &rSlag Run Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A maintenance tunnel for the city's steam system.
+~
+#EXIT
+Direction east~
+ToRoom    20095
+Desc      The slag run.~
+#ENDEXIT
+Reset M 0 20030 5 20154
+#ENDROOM
+
+#ROOM
+Vnum     20155
+Name     &rManufacturing Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop filled with obsidian maces and gears.
+~
+#EXIT
+Direction north~
+ToRoom    20102
+Desc      Manufacturing wing.~
+#ENDEXIT
+Reset O 0 20056 10 20155
+#ENDROOM
+
+#ROOM
+Vnum     20156
+Name     &rTavern Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small, private booth in the back of the Grim Guzzler.
+~
+#EXIT
+Direction south~
+ToRoom    20117
+Desc      The tavern back room.~
+#ENDEXIT
+Reset O 0 20046 10 20156
+#ENDROOM
+
+#ROOM
+Vnum     20157
+Name     &rThe Shadowed Ledge&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the residential district, home to 
+several obsidian gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    20111
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 20031 5 20157
+#ENDROOM
+
+#ROOM
+Vnum     20158
+Name     &rThe Forgotten Vault&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small vault that was walled off centuries ago, 
+filled with ancient coins and dust.
+~
+#EXIT
+Direction west~
+ToRoom    20113
+Desc      The bank lobby.~
+#ENDEXIT
+Reset O 0 20042 1 20158
+#ENDROOM
+
+#ROOM
+Vnum     20159
+Name     &rThe Blackrock Depths Exit Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind the Imperial Throne 
+leads toward a hidden opening in the Searing Gorge, 
+offering a quick way out for those who have defeated 
+the Emperor.
+~
+#EXIT
+Direction south~
+ToRoom    20141
+Desc      The throne room.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    20080
+Desc      The entrance gateway.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     20160
+Name     &rThe Heart of the City&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet, central garden of lava-roots and glowing 
+mushrooms in the middle of the capital.
+~
+#EXIT
+Direction north~
+ToRoom    20111
+Desc      The plaza.~
+#ENDEXIT
+Reset O 0 20069 10 20160
+#ENDROOM
+
+#ENDAREA
