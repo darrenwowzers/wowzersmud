@@ -1,0 +1,1935 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Eastern Plaguelands~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       53 60 0 60
+Economy      0 60000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       38500
+Keywords   scourge champion undead warrior~
+Short      a Scourge Champion~
+Long       A skeletal knight in blackened plate armor stands perfectly still.
+~
+Desc       One of the elite guardians of the Plaguelands. These warriors 
+retain their martial skill from life, now amplified by the 
+unholy strength of the Scourge.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 3500 12000
+Stats2     55 55 400
+Stats3     15 45 55
+Stats4     0 0 0 0 0
+Attribs    26 12 22 8 8 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       38501
+Keywords   frenzied bat beast~
+Short      a Frenzied Bat~
+Long       A massive, leathery-winged bat screeches from the blighted trees.
+~
+Desc       Warped by the plague, these bats are twice the size of their 
+natural cousins. They dive from the canopy with jagged teeth 
+bared, seeking fresh blood.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 1400 4500
+Stats2     53 53 0
+Stats3     10 28 53
+Stats4     0 0 0 0 0
+Attribs    18 22 14 6 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38502
+Keywords   plaguehound beast~
+Short      a Plaguehound~
+Long       A skeletal hound with glowing green eyes stalks through the rot.
+~
+Desc       The Scourge's version of a hunting dog. They are fast, quiet, 
+and their bite carries a necrotizing toxin that rots flesh 
+upon contact.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1600 5000
+Stats2     54 54 0
+Stats3     12 32 54
+Stats4     0 0 0 0 0
+Attribs    20 18 16 6 12 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38503
+Keywords   crypt fiend undead spider~
+Short      a Crypt Fiend~
+Long       A large, mummified spider-humanoid skitters across the path.
+~
+Desc       Former kings of Azjol-Nerub, these entities now serve the 
+Lich King as heavy infantry. They can spit webs to ensnare 
+prey before shredding them with chitinous claws.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2500 8000
+Stats2     56 56 200
+Stats3     16 48 56
+Stats4     0 0 0 0 0
+Attribs    24 14 20 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38504
+Keywords   scarlet archmage human mage~
+Short      a Scarlet Archmage~
+Long       A human in ornate red robes weaves a spell of searing fire.
+~
+Desc       The highest-ranking casters in Tyr's Hand. They believe that 
+only the absolute destruction of the "unclean" will save 
+their souls.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2200 7000
+Stats2     58 58 2500
+Stats3     14 40 58
+Stats4     0 0 0 0 0
+Attribs    12 14 16 34 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       38505
+Keywords   scarlet knight human warrior~
+Short      a Scarlet Knight~
+Long       A knight in gleaming red-and-gold plate levels a lance at you.
+~
+Desc       Elite defenders of the Scarlet enclave. They are fanatically 
+loyal and possess a martial prowess that rivals the finest 
+soldiers of Stormwind.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 4500 13000
+Stats2     57 57 400
+Stats3     20 55 57
+Stats4     0 0 0 0 0
+Attribs    28 12 24 14 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       38506
+Keywords   argent dawn guard warrior~
+Short      an Argent Dawn Guard~
+Long       A guard in silvered plate stands vigil over the chapel.
+~
+Desc       A professional soldier of the Argent Dawn. They are the 
+last line of defense for the living in this cursed land.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 5000 15000
+Stats2     60 60 500
+Stats3     22 60 60
+Stats4     0 0 0 0 0
+Attribs    26 14 20 16 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       38507
+Keywords   nathanos blightcaller boss undead~
+Short      Nathanos Blightcaller~
+Long       A tall, decaying man with glowing red eyes notches an arrow.
+~
+Desc       The Champion of the Banshee Queen. Nathanos was the only 
+human ever to be trained as a Ranger Lord, and in death, his 
+lethality has only increased.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 12000 40000
+Stats2     62 62 1000
+Stats3     35 100 70
+Stats4     0 0 0 0 0
+Attribs    20 35 20 20 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       38508
+Keywords   tirion fordring boss human warrior~
+Short      Tirion Fordring~
+Long       An old man in simple tunics sits quietly outside a small cabin.
+~
+Desc       A former Highlord of the Silver Hand. Though he lives in 
+exile, Tirion's connection to the Light remains absolute. 
+He watches the Plaguelands with eyes full of weary hope.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 65 0 0 15000 50000
+Stats2     65 65 3000
+Stats3     40 120 80
+Stats4     0 0 0 0 0
+Attribs    35 20 30 30 35 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       38509
+Keywords   lord maxwell tyrosus boss human~
+Short      Lord Maxwell Tyrosus~
+Long       Lord Tyrosus stands before the chapel altar, sword drawn.
+~
+Desc       One of the founders of the Argent Dawn. He is a man of 
+immense iron will, coordinating the defense of Light's 
+Hope against the endless Scourge tide.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 62 0 0 10000 35000
+Stats2     62 62 1500
+Stats3     30 80 65
+Stats4     0 0 0 0 0
+Attribs    28 14 24 22 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       38510
+Keywords   inquisitor isillien boss human~
+Short      Grand Inquisitor Isillien~
+Long       Grand Inquisitor Isillien stands atop the stairs, radiating light.
+~
+Desc       A founding member of the Scarlet Crusade. His hatred for the 
+undead has twisted into a hatred for all who do not follow 
+his narrow vision of purity.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 9000 30000
+Stats2     62 62 3500
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    18 12 22 35 32 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       38511
+Keywords   carrion devourer beast~
+Short      a Carrion Devourer~
+Long       A bloated, multi-legged insect crawls over a pile of bones.
+~
+Desc       A scavenger that has grown to monstrous size in the 
+Plaguelands. It possesses a set of mandibles that can 
+snap through mail armor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 1100 3200
+Stats2     53 53 0
+Stats3     8 20 53
+Stats4     0 0 0 0 0
+Attribs    22 14 18 4 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       38512
+Keywords   skeletal berserker undead warrior~
+Short      a Skeletal Berserker~
+Long       A skeleton with a massive two-handed axe roars silently.
+~
+Desc       Driven by a permanent, magical rage, these skeletons 
+attack with reckless abandon, ignoring their own 
+brittle nature to destroy the living.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1800 4800
+Stats2     54 54 0
+Stats3     12 35 54
+Stats4     0 0 0 0 0
+Attribs    28 12 16 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38513
+Keywords   cult of the damned acolyte human~
+Short      a Cult Acolyte~
+Long       A human in tattered purple robes mutters a dark prayer.
+~
+Desc       A living thrall of the Lich King. They work to prepare 
+the land for the Scourge's arrival, poisoning wells and 
+spreading the plague.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 1200 3500
+Stats2     52 52 1000
+Stats3     9 24 52
+Stats4     0 0 0 0 0
+Attribs    10 14 14 26 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38514
+Keywords   blighted monstrosity undead~
+Short      a Blighted Monstrosity~
+Long       A massive, stitched-together horror lumbers through the ruins.
+~
+Desc       A gargantuan creation of the Scourge, made from dozens 
+of bodies. It emits a cloud of toxic gas and can crush 
+a wagon with a single blow.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 8000 25000
+Stats2     59 59 0
+Stats3     30 85 65
+Stats4     0 0 0 0 0
+Attribs    40 4 35 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38515
+Keywords   eye of naxxramas undead mage~
+Short      an Eye of Naxxramas~
+Long       A floating, spectral eye with a red iris scans the area.
+~
+Desc       A magical construct sent from the necropolis to monitor 
+the Plaguelands. If it detects an intruder, it will emit a 
+piercing shriek to summon reinforcements.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1000 3000
+Stats2     55 55 1500
+Stats3     7 20 55
+Stats4     0 0 0 0 0
+Attribs    10 24 14 30 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38516
+Keywords   venomsaurok beast~
+Short      a Venomsaurok~
+Long       A lizard with bright green scales and a fanned crest hisses.
+~
+Desc       Native to the southern hills of the Plaguelands, these 
+reptiles are incredibly toxic. Their spit can blind a 
+man in seconds.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1500 4200
+Stats2     54 54 0
+Stats3     11 28 54
+Stats4     0 0 0 0 0
+Attribs    20 18 18 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38517
+Keywords   mossflayer shadowhunter troll shaman~
+Short      a Mossflayer Shadowhunter~
+Long       A troll in bone-jewelry weaves a dark hex.
+~
+Desc       The Mossflayer trolls have been driven to madness by the 
+Scourge. They now live in the ruins of Zul'Mashar, 
+worshiping the very plague that destroyed them.
+~
+Race       troll~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2000 5500
+Stats2     56 56 1200
+Stats3     13 35 56
+Stats4     0 0 0 0 0
+Attribs    16 14 18 24 22 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38518
+Keywords   plaguebat beast~
+Short      a Noxious Plaguebat~
+Long       A bat with tattered wings and visible ribs circles overhead.
+~
+Desc       A smaller but more infectious version of the frenzied bat. 
+They carry the plague in every drop of saliva.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 52 0 0 900 2800
+Stats2     52 52 0
+Stats3     7 18 52
+Stats4     0 0 0 0 0
+Attribs    14 20 12 6 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       38519
+Keywords   mad smith human~
+Short      the Mad Smith~
+Long       A soot-covered human hammers a piece of rusted iron, muttering.
+~
+Desc       A former blacksmith of Stratholme who lost his mind when 
+the city was purged. He now wanders the ruins, attempting 
+to forge weapons for a dead army.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 55 0 0 2500 7000
+Stats2     55 55 100
+Stats3     12 32 55
+Stats4     0 0 0 0 0
+Attribs    22 10 18 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38520
+Keywords   scarlet medic human shaman~
+Short      a Scarlet Medic~
+Long       A human in red robes mutters a prayer over a wounded soldier.
+~
+Desc       Tasked with keeping the Crusade's warriors in the fight. 
+They use a mixture of the Light and traditional alchemy.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 53 0 0 1100 3200
+Stats2     53 53 1000
+Stats3     8 22 53
+Stats4     0 0 0 0 0
+Attribs    12 12 14 24 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38521
+Keywords   flesh hunter undead warrior~
+Short      a Flesh Hunter~
+Long       A lean, grey-skinned undead stalks through the undergrowth.
+~
+Desc       Specialized trackers of the Scourge. They possess a 
+supernatural sense of smell, able to detect living 
+beings from miles away.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1600 4500
+Stats2     54 54 150
+Stats3     11 28 54
+Stats4     0 0 0 0 0
+Attribs    22 16 14 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38522
+Keywords   spectral citizen ghost spirit~
+Short      a Spectral Citizen~
+Long       A translucent figure in civilian clothes wanders Andorhal.
+~
+Desc       The spirit of a former resident, eternally trapped in the 
+moment of their city's destruction. They are harmless 
+unless their tragic peace is disturbed.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 52 0 0 800 2400
+Stats2     52 52 800
+Stats3     6 15 52
+Stats4     0 0 0 0 0
+Attribs    10 14 14 22 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38523
+Keywords   patchwork horror undead~
+Short      a Patchwork Horror~
+Long       A mass of mismatched limbs and organs crawls toward you.
+~
+Desc       A failed experiment of the Kel'Thuzad. It is a grotesque 
+heap of flesh that undulates with a sickening rhythm.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 4200 12000
+Stats2     57 57 0
+Stats3     18 50 57
+Stats4     0 0 0 0 0
+Attribs    32 4 28 4 4 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       38524
+Keywords   dark summoner cultist mage~
+Short      a Dark Summoner~
+Long       A human in heavy purple robes stands before a swirling portal.
+~
+Desc       High-ranking members of the Cult of the Damned who are 
+tasked with summoning minor demons to bolster the 
+Scourge's ranks.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2000 6500
+Stats2     58 58 2000
+Stats3     13 38 58
+Stats4     0 0 0 0 0
+Attribs    10 14 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       38525
+Keywords   archmage angela dosantos boss human~
+Short      Archmage Angela Dosantos~
+Long       Archmage Dosantos of the Argent Dawn consults a large globe.
+~
+Desc       A master of portal magic and Ley-lines. She is responsible 
+for the magical defenses of Light's Hope Chapel.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea~
+Stats1     0 62 0 0 8500 25000
+Stats2     62 62 4000
+Stats3     20 60 62
+Stats4     0 0 0 0 0
+Attribs    12 18 18 35 30 25 25
+#ENDMOBILE
+
+#OBJECT
+Vnum     38526
+Keywords scourge stone corrupt~
+Type     treasure~
+Short    a Corrupt Scourgestone~
+Long     A jagged, dark stone that pulses with a cold, necrotic light.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38527
+Keywords plaguebloom herb~
+Type     treasure~
+Short    a bunch of Plaguebloom~
+Long     A cluster of grey, diseased-looking flowers with a heavy scent.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 250 60 0 0
+Rarity   1
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38528
+Keywords mountain silversage herb~
+Type     treasure~
+Short    a bunch of Mountain Silversage~
+Long     Elegant silvery leaves that grow in high, rocky crevices.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 280 60 0 0
+Rarity   1
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38529
+Keywords holy water flask~
+Type     treasure~
+Short    a flask of Stratholme Holy Water~
+Long     A glass vial containing clear, blessed water that glows faintly.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38530
+Keywords tyr'hand signet ring~
+Type     jewelry~
+Short    a Tyr's Hand Signet Ring~
+Long     A heavy gold ring featuring the fist-and-sword of the Crusade.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 3500 58 0 0
+Rarity   2
+Affect   5 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38531
+Keywords lights hope medallion~
+Type     jewelry~
+Short    a Light's Hope Medallion~
+Long     A silver medallion marking the bearer as a hero of the Dawn.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 4500 60 0 0
+Rarity   2
+Affect   3 10 0 0 0
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38532
+Keywords blightcaller bow weapon~
+Type     weapon~
+Short    the Blightcaller's Longbow~
+Long     A bow of dark, polished wood that hums with shadowy energy.~
+WFlags   take wield~
+Values   12 18 30 5 0 0
+Stats    10 8500 62 0 0
+Rarity   3
+Affect   2 15 0 0 0
+Affect   12 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38533
+Keywords fordring hammer mace weapon~
+Type     weapon~
+Short    Fordring's Old Warhammer~
+Long     A simple but perfectly balanced hammer, heavy with the Light.~
+WFlags   take wield~
+Values   12 15 25 8 0 0
+Stats    20 10000 65 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38534
+Keywords scourgebane oil~
+Type     treasure~
+Short    a vial of Scourgebane Oil~
+Long     A thick, golden oil used to coat blades before a battle.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 850 58 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38535
+Keywords fungal flesh trash~
+Type     trash~
+Short    a piece of fungal flesh~
+Long     A spongy, grey piece of organic material taken from a monstrosity.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38536
+Keywords ectoplasmic residue trash~
+Type     trash~
+Short    a glowing ectoplasmic residue~
+Long     A shimmering, translucent substance left behind by a ghost.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 80 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38537
+Keywords crypt fiend mandible trophy~
+Type     trash~
+Short    a Crypt Fiend mandible~
+Long     A large, jagged pincer taken from a crypt fiend.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 150 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38538
+Keywords scarlet shield armor~
+Type     armor~
+Short    a Scarlet Defender's Shield~
+Long     A heavy kite shield featuring the white flame of the Crusade.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 2500 55 0 0
+Rarity   1
+Affect   1 8 0 0 0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38539
+Keywords argent shield armor~
+Type     armor~
+Short    an Argent Dawn Shield~
+Long     A heavy kite shield featuring the silver sunburst.~
+WFlags   take shield~
+Values   35 0 0 0 0 0
+Stats    35 2500 55 0 0
+Rarity   1
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38540
+Keywords plaguelands broadsword weapon~
+Type     weapon~
+Short    a Plaguelands Broadsword~
+Long     A heavy steel blade that has been notched and repaired many times.~
+WFlags   take wield~
+Values   12 12 24 3 0 0
+Stats    15 1500 55 0 0
+Rarity   1
+Affect   1 6 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38541
+Keywords tome divinity treasure~
+Type     treasure~
+Short    the Tome of Divinity~
+Long     A leather-bound book that radiates a calming, warm light.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 5000 60 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38542
+Keywords bat wing tattered trophy~
+Type     trash~
+Short    a tattered bat wing~
+Long     A large, leathery wing taken from a frenzied bat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38543
+Keywords rotten paw trophy~
+Type     trash~
+Short    a rotten plaguehound paw~
+Long     A skeletal paw that still has traces of shriveled skin.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38544
+Keywords soul shard corrupted treasure~
+Type     treasure~
+Short    a Corrupted Soul Shard~
+Long     A small purple crystal that contains a flickering dark soul.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 850 55 0 0
+Rarity   1
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38545
+Keywords holy essence vial treasure~
+Type     treasure~
+Short    a vial of Holy Essence~
+Long     A crystal vial filled with concentrated divine energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1200 60 0 0
+Rarity   2
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38546
+Keywords dark iron scraps trash~
+Type     trash~
+Short    a pile of dark iron scraps~
+Long     Several rusted bits of dark iron metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 50 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38547
+Keywords thorium ore mineral~
+Type     treasure~
+Short    a chunk of Thorium Ore~
+Long     A heavy, shimmering green stone with a metallic luster.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 800 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38548
+Keywords dense stone trash~
+Type     trash~
+Short    a heavy dense stone~
+Long     A very heavy stone often found in thorium deposits.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    8 15 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     38549
+Keywords runecloth bolt loot~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     38550
+Keywords stratholme service key~
+Type     key~
+Short    the Service Entrance Key~
+Long     A large, soot-stained key used to unlock the side gates of Stratholme.~
+WFlags   take~
+Values   38550 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     38551
+Keywords naxxramas attunement ring jewelry~
+Type     jewelry~
+Short    an Argent Dawn Attunement Ring~
+Long     A ring that hums with a frequency designed to bypass necropolis wards.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 15000 65 0 0
+Rarity   3
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     38550
+Name     &xThe Thondroril River - West Bank&d~
+Sector   field~
+Flags    ~
+Desc     The bridge from the Western Plaguelands ends here. The water of the 
+Thondroril River is dark and stagnant, moving with a sluggish, 
+oily rhythm. The air becomes noticeably colder as you step onto 
+the eastern bank, and the sky is a permanent shade of bruised 
+orange. A wide, cracked road leads east into the heart of the 
+blight.
+~
+#EXIT
+Direction west~
+ToRoom    38103
+Desc      Return to the Western Plaguelands.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38551
+Desc      The path leads into the Eastern Plaguelands.~
+#ENDEXIT
+Reset M 0 38506 5 38550
+#ENDROOM
+
+#ROOM
+Vnum     38551
+Name     &xThe Marris Stead - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A large farmhouse and several outbuildings sit atop a low hill. 
+Unlike the other ruins in the Plaguelands, these buildings are 
+remarkably well-maintained. Several large plaguehounds prowl 
+the perimeter, and the air carries the scent of sharpened 
+steel and wet fur.
+~
+#EXIT
+Direction west~
+ToRoom    38550
+Desc      Return to the river.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38552
+Desc      Toward the Marris Farmhouse.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38553
+Desc      Toward Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38502 5 38551
+#ENDROOM
+
+#ROOM
+Vnum     38552
+Name     &xThe Marris Farmhouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the farmhouse is clean and functional. Nathanos 
+Blightcaller stands near a large fireplace, cleaning a 
+massive black longbow. His red eyes track your movement 
+with cold, predatory efficiency.
+~
+#EXIT
+Direction north~
+ToRoom    38551
+Desc      The stead entrance.~
+#ENDEXIT
+Reset M 0 38507 1 38552
+  Reset G 1 38532 1
+#ENDROOM
+
+#ROOM
+Vnum     38553
+Name     &xCorin's Crossing - West&d~
+Sector   city~
+Flags    ~
+Desc     Once a thriving trade hub at the center of the Plaguelands, 
+Corin's Crossing is now a graveyard of stone and bone. 
+The buildings are shattered, and the streets are filled 
+with the ghosts of the former residents.
+~
+#EXIT
+Direction west~
+ToRoom    38551
+Desc      The Marris Stead.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38554
+Desc      Corin's Crossing East.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38555
+Desc      The road to Stratholme.~
+#ENDEXIT
+Reset M 0 38522 5 38553
+#ENDROOM
+
+#ROOM
+Vnum     38554
+Name     &xCorin's Crossing - East&d~
+Sector   city~
+Flags    ~
+Desc     The eastern side of the trade hub is dominated by a large, 
+ruined inn. The air here is stagnant and the sound of 
+distant wailing is constant. A Scourge plague cauldron 
+sits in the center of the town square.
+~
+#EXIT
+Direction west~
+ToRoom    38553
+Desc      Corin's Crossing West.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38558
+Desc      Toward Light's Hope Chapel.~
+#ENDEXIT
+Reset M 0 38500 5 38554
+#ENDROOM
+
+#ROOM
+Vnum     38555
+Name     &xThe Road to Stratholme - South&d~
+Sector   field~
+Flags    ~
+Desc     A wide, soot-covered road leading north. To the east, the 
+mountains rise high into the smoke, while to the west, 
+the blighted forest stretches toward the horizon. 
+Massive abomination-parts are seen in the ditches.
+~
+#EXIT
+Direction south~
+ToRoom    38553
+Desc      Return to Corin's Crossing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38556
+Desc      The road continues north.~
+#ENDEXIT
+Reset M 0 38503 5 38555
+#ENDROOM
+
+#ROOM
+Vnum     38556
+Name     &xThe Road to Stratholme - North&d~
+Sector   field~
+Flags    ~
+Desc     The road turns sharply to the west as it approaches the massive 
+white stone walls of the city. The sky here is dark with the 
+smoke of eternally burning buildings.
+~
+#EXIT
+Direction south~
+ToRoom    38555
+Desc      The southern road.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    38563
+Desc      The Gates of Stratholme.~
+#ENDEXIT
+Reset M 0 38514 1 38556
+#ENDROOM
+
+#ROOM
+Vnum     38563
+Name     &rThe Gates of Stratholme&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand before the massive, iron-bound gates of the once-great 
+city of Stratholme. Fire still licks at the shattered wooden 
+doors, and the smell of burning flesh is overwhelming. A 
+shimmering white portal glows within the main gate, while 
+high above, the shadow of a massive necropolis—Naxxramas—blots 
+out the sickly orange sky.
+~
+#EXIT
+Direction east~
+ToRoom    38556
+Desc      Return to the road.~
+#ENDEXIT
+Reset M 0 38515 5 38563
+#ENDROOM
+
+#ROOM
+Vnum     38557
+Name     &xThe Terrorweb Tunnel - West&d~
+Sector   underground~
+Flags    indoors~
+Desc     A deep, web-choked tunnel leading through the northern mountains. 
+Massive spiders hang from the ceiling, their glowing eyes 
+reflecting your light.
+~
+#EXIT
+Direction east~
+ToRoom    38558
+Desc      The eastern tunnel.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38553
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38503 5 38557
+#ENDROOM
+
+#ROOM
+Vnum     38558
+Name     &xThe Terrorweb Tunnel - East&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel widens here, opening into a large cavern filled 
+with cocoons. The air is warm and moist, and the sound of 
+skittering legs is constant.
+~
+#EXIT
+Direction west~
+ToRoom    38557
+Desc      The western tunnel.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38559
+Desc      Toward Light's Hope.~
+#ENDEXIT
+Reset M 0 38511 5 38558
+Reset O 0 38537 5 38558
+#ENDROOM
+
+#ROOM
+Vnum     38559
+Name     &WLight's Hope Chapel - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A small, fortified hill in the eastern Plaguelands. A 
+shining marble chapel stands atop the hill, protected by 
+a series of spiked barricades and professional soldiers. 
+This is the heart of the Argent Dawn's resistance.
+~
+#EXIT
+Direction west~
+ToRoom    38558
+Desc      The terrorweb tunnel.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38560
+Desc      The Chapel Interior.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38564
+Desc      The road to Tyr's Hand.~
+#ENDEXIT
+Reset M 0 38506 5 38559
+#ENDROOM
+
+#ROOM
+Vnum     38560
+Name     &WThe Chapel of Light's Hope&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the chapel is warm and filled with the scent 
+of incense and old paper. Lord Maxwell Tyrosus stands near 
+the altar, his silver armor reflecting the light of thousands 
+of candles.
+~
+#EXIT
+Direction south~
+ToRoom    38559
+Desc      The chapel entrance.~
+#ENDEXIT
+Reset M 0 38509 1 38560
+  Reset G 1 38531 1
+Reset M 0 38525 1 38560
+#ENDROOM
+
+#ROOM
+Vnum     38561
+Name     &rThe Gates of Tyr's Hand&d~
+Sector   city~
+Flags    ~
+Desc     A massive set of white stone gates, reinforced with steel 
+sunbursts. Scarlet knights stand guard here, checking 
+everyone for the slightest sign of infection. Beyond the 
+gates lies the last great stronghold of the Scarlet Crusade.
+~
+#EXIT
+Direction north~
+ToRoom    38564
+Desc      The road to Light's Hope.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38562
+Desc      The Tyr's Hand Plaza.~
+#ENDEXIT
+Reset M 0 38505 5 38561
+#ENDROOM
+
+#ROOM
+Vnum     38562
+Name     &rThe Abbey of Tyr's Hand&d~
+Sector   inside~
+Flags    indoors~
+Desc     A grand cathedral built into the southern mountains. Grand 
+Inquisitor Isillien stands atop a marble podium, leading 
+the assembled warriors in a prayer of absolute hatred.
+~
+#EXIT
+Direction north~
+ToRoom    38561
+Desc      The plaza gates.~
+#ENDEXIT
+Reset M 0 38510 1 38562
+  Reset G 1 38530 1
+Reset M 0 38504 5 38562
+#ENDROOM
+
+#ROOM
+Vnum     38564
+Name     &xThe Road to Tyr's Hand - North&d~
+Sector   field~
+Flags    ~
+Desc     A wide road leading through a valley of dead trees. To the 
+south, the high white walls of Tyr's Hand are visible. 
+Scarlet patrols are frequent here.
+~
+#EXIT
+Direction north~
+ToRoom    38559
+Desc      Light's Hope Chapel.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38561
+Desc      The Gates of Tyr's Hand.~
+#ENDEXIT
+Reset M 0 38520 5 38564
+#ENDROOM
+
+#ROOM
+Vnum     38565
+Name     &xThe Marris Orchard - Ruins&d~
+Sector   forest~
+Flags    ~
+Desc     Once a productive apple orchard, the trees here are now 
+twisted, skeletal remains. Frenzied bats roost in the 
+branches, waiting for something to pass below.
+~
+#EXIT
+Direction north~
+ToRoom    38551
+Desc      Return to the stead.~
+#ENDEXIT
+Reset M 0 38501 10 38565
+#ENDROOM
+
+#ROOM
+Vnum     38566
+Name     &xThe Fungal Valley - Entry&d~
+Sector   field~
+Flags    ~
+Desc     A shallow depression filled with towering, blue and green 
+mushrooms. The air is thick with spores, and the ground is 
+soft and spongy.
+~
+#EXIT
+Direction west~
+ToRoom    38554
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38518 10 38566
+Reset O 0 38527 10 38566
+#ENDROOM
+
+#ROOM
+Vnum     38567
+Name     &xThe Fungal Valley - Heart&d~
+Sector   field~
+Flags    ~
+Desc     The center of the fungal infestation. Massive mushrooms 
+pulsate with a soft, bioluminescent light. Noxious 
+plaguebats circle above the spores.
+~
+#EXIT
+Direction north~
+ToRoom    38566
+Desc      The valley entry.~
+#ENDEXIT
+Reset M 0 38518 5 38567
+#ENDROOM
+
+#ROOM
+Vnum     38568
+Name     &xNorthdale - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A small village that was completely destroyed by the Scourge. 
+The ruins are now haunted by the spirits of those who 
+died during the initial invasion.
+~
+#EXIT
+Direction south~
+ToRoom    38555
+Desc      Return to the road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38569
+Desc      The Northdale Center.~
+#ENDEXIT
+Reset M 0 38522 5 38568
+#ENDROOM
+
+#ROOM
+Vnum     38569
+Name     &xNorthdale - Town Center&d~
+Sector   city~
+Flags    ~
+Desc     The heart of the ruined village. A small fountain, now 
+cracked and dry, sits in the center of the square. 
+Skeletal berserkers roam the alleys.
+~
+#EXIT
+Direction south~
+ToRoom    38568
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 38512 5 38569
+#ENDROOM
+
+#ROOM
+Vnum     38570
+Name     &xZul'Mashar - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     The ruins of an ancient troll city built into the northern 
+cliffs. The architecture is a mixture of stone ziggurats 
+and Scourge-blight.
+~
+#EXIT
+Direction south~
+ToRoom    38555
+Desc      Return to the road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38571
+Desc      The Zul'Mashar Ziggurat.~
+#ENDEXIT
+Reset M 0 38517 5 38570
+#ENDROOM
+
+#ROOM
+Vnum     38571
+Name     &xThe Zul'Mashar Ziggurat&d~
+Sector   inside~
+Flags    indoors~
+Desc     The peak of the troll ruins. Mossflayer shadowhunters 
+conduct dark rituals here, calling upon the Loa of 
+the dead to protect their ruined home.
+~
+#EXIT
+Direction south~
+ToRoom    38570
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 38517 1 38571
+Reset O 0 38544 5 38571
+#ENDROOM
+
+#ROOM
+Vnum     38572
+Name     &xThe Marris Well&d~
+Sector   field~
+Flags    ~
+Desc     A small, stone-lined well near the farmhouse. The water 
+inside is dark and stagnant, reflecting the orange sky.
+~
+#EXIT
+Direction east~
+ToRoom    38551
+Desc      Return to the stead.~
+#ENDEXIT
+Reset O 0 38533 1 38572
+#ENDROOM
+
+#ROOM
+Vnum     38573
+Name     &xBrowman Mill - Entrance&d~
+Sector   city~
+Flags    ~
+Desc     A large grain mill and warehouse at the northern edge of the 
+Plaguelands. It is now a primary processing plant for 
+the Scourge's plague-grain.
+~
+#EXIT
+Direction south~
+ToRoom    38554
+Desc      Return to Corin's Crossing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    38574
+Desc      The Mill Interior.~
+#ENDEXIT
+Reset M 0 38513 5 38573
+#ENDROOM
+
+#ROOM
+Vnum     38574
+Name     &xThe Browman Mill&d~
+Sector   inside~
+Flags    indoors~
+Desc     The interior of the mill is filled with the sound of grinding 
+stones. Skeletal workers move mindlessly, tossing sacks of 
+blighted grain into the hoppers.
+~
+#EXIT
+Direction south~
+ToRoom    38573
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 38500 10 38574
+Reset O 0 38526 10 38574
+#ENDROOM
+
+#ROOM
+Vnum     38575
+Name     &xThe Pestilent Scar - Entrance&d~
+Sector   field~
+Flags    ~
+Desc     A massive canyon that has been torn through the center of the 
+Plaguelands. The ground here is raw and bleeding, and 
+the air hums with necromantic energy.
+~
+#EXIT
+Direction north~
+ToRoom    38554
+Desc      Corin's Crossing.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    38576
+Desc      Deep into the Scar.~
+#ENDEXIT
+Reset M 0 38521 5 38575
+#ENDROOM
+
+#ROOM
+Vnum     38576
+Name     &xDeep Pestilent Scar&d~
+Sector   field~
+Flags    ~
+Desc     The deepest point of the scar. Massive blighted monstrosities 
+patrol the bottom, guarding the ley-lines that power 
+the necropolis of Naxxramas.
+~
+#EXIT
+Direction north~
+ToRoom    38575
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 38514 1 38576
+#ENDROOM
+
+#ROOM
+Vnum     38577
+Name     &xThe Venomsaurok Den&d~
+Sector   field~
+Flags    ~
+Desc     A series of low, sunny hills south of Light's Hope. Dozens 
+of venomsauroks sun themselves on the warm rocks.
+~
+#EXIT
+Direction north~
+ToRoom    38559
+Desc      Light's Hope Chapel.~
+#ENDEXIT
+Reset M 0 38516 10 38577
+#ENDROOM
+
+#ROOM
+Vnum     38578
+Name     &xTirion's Retreat&d~
+Sector   field~
+Flags    ~
+Desc     A small, humble cabin tucked away in a quiet corner of the 
+northwestern Plaguelands. Tirion Fordring sits on a 
+wooden bench outside, watching the river.
+~
+#EXIT
+Direction east~
+ToRoom    38550
+Desc      Return to the river.~
+#ENDEXIT
+Reset M 0 38508 1 38578
+#ENDROOM
+
+#ROOM
+Vnum     38579
+Name     &xThe Lake Darrowmere - East Shore&d~
+Sector   field~
+Flags    ~
+Desc     The muddy shoreline of the eastern lake. Across the water to 
+the west, the ruins of Caer Darrow are visible through the 
+thick fog.
+~
+#EXIT
+Direction west~
+ToRoom    38081
+Desc      Swim toward Caer Darrow.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    38550
+Desc      Return to the river.~
+#ENDEXIT
+Reset M 0 38523 5 38579
+#ENDROOM
+
+#ROOM
+Vnum     38580
+Name     &xThe Plagued Woods&d~
+Sector   forest~
+Flags    ~
+Desc     A dark, quiet section of the forest where the trees are 
+particularly old and gnarled. Flesh hunters move 
+through the undergrowth.
+~
+#EXIT
+Direction south~
+ToRoom    38553
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38521 5 38580
+#ENDROOM
+
+#ROOM
+Vnum     38581
+Name     &xPlaguelands Overflow A&d~
+Sector   field~
+Flags    ~
+Desc     A quiet section of the blighted plains, filled with 
+withered stalks of grain and thick plaguebloom.
+~
+#EXIT
+Direction north~
+ToRoom    38553
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset O 0 38527 10 38581
+#ENDROOM
+
+#ROOM
+Vnum     38582
+Name     &xPlaguelands Overflow B&d~
+Sector   field~
+Flags    ~
+Desc     A small hill overlooking the Marris Stead, where several 
+plaguehounds have made their den.
+~
+#EXIT
+Direction east~
+ToRoom    38551
+Desc      Marris Stead.~
+#ENDEXIT
+Reset M 0 38502 10 38582
+#ENDROOM
+
+#ROOM
+Vnum     38583
+Name     &xPlaguelands Overflow C&d~
+Sector   field~
+Flags    ~
+Desc     A flat, wind-swept section of the central plains, 
+frequently patrolled by Scourge champions.
+~
+#EXIT
+Direction west~
+ToRoom    38554
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38500 10 38583
+#ENDROOM
+
+#ROOM
+Vnum     38584
+Name     &xPlaguelands Overflow D&d~
+Sector   field~
+Flags    ~
+Desc     A rocky outcrop near the Stratholme gates, offering a 
+good view of the city walls.
+~
+#EXIT
+Direction east~
+ToRoom    38556
+Desc      The Stratholme road.~
+#ENDEXIT
+Reset M 0 38515 5 38584
+#ENDROOM
+
+#ROOM
+Vnum     38585
+Name     &WLight's Hope Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A small storage area near the chapel, filled with 
+bottles of holy water and bundles of herbs.
+~
+#EXIT
+Direction south~
+ToRoom    38559
+Desc      The chapel entrance.~
+#ENDEXIT
+Reset O 0 38529 10 38585
+#ENDROOM
+
+#ROOM
+Vnum     38586
+Name     &WLight's Hope Overflow B&d~
+Sector   city~
+Flags    ~
+Desc     A quiet ridge north of the chapel, where Argent Dawn 
+scouts keep watch over the northern mountains.
+~
+#EXIT
+Direction south~
+ToRoom    38559
+Desc      The chapel entrance.~
+#ENDEXIT
+Reset M 0 38520 5 38586
+#ENDROOM
+
+#ROOM
+Vnum     38587
+Name     &rTyr's Hand Overflow A&d~
+Sector   city~
+Flags    ~
+Desc     A side street in the Scarlet enclave, filled with 
+piles of supplies and broken training dummies.
+~
+#EXIT
+Direction east~
+ToRoom    38561
+Desc      The plaza gates.~
+#ENDEXIT
+Reset M 0 38505 5 38587
+#ENDROOM
+
+#ROOM
+Vnum     38588
+Name     &rTyr's Hand Overflow B&d~
+Sector   city~
+Flags    ~
+Desc     A small, damp chamber where the Scarlet Crusade stores its 
+captured mojos and Scourgestones.
+~
+#EXIT
+Direction west~
+ToRoom    38561
+Desc      The plaza gates.~
+#ENDEXIT
+Reset O 0 38526 5 38588
+#ENDROOM
+
+#ROOM
+Vnum     38589
+Name     &xThe Burning Remains&d~
+Sector   field~
+Flags    ~
+Desc     A section of the northern road where several buildings 
+are still smoldering, sparking with elemental energy.
+~
+#EXIT
+Direction south~
+ToRoom    38556
+Desc      Stratholme road.~
+#ENDEXIT
+Reset M 0 38519 1 38589
+#ENDROOM
+
+#ROOM
+Vnum     38590
+Name     &xThe High Road Lookout&d~
+Sector   field~
+Flags    ~
+Desc     A rocky platform providing a clear view of the road leading 
+to the Western Plaguelands.
+~
+#EXIT
+Direction west~
+ToRoom    38550
+Desc      The Thondroril bank.~
+#ENDEXIT
+Reset M 0 38506 5 38590
+#ENDROOM
+
+#ROOM
+Vnum     38591
+Name     &xThe Silent Orchard&d~
+Sector   forest~
+Flags    ~
+Desc     A dark corner of the Marris Orchard where the trees 
+seem to whisper in the wind.
+~
+#EXIT
+Direction north~
+ToRoom    38565
+Desc      The main orchard.~
+#ENDEXIT
+Reset M 0 38501 5 38591
+#ENDROOM
+
+#ROOM
+Vnum     38592
+Name     &xThe Spore Path&d~
+Sector   field~
+Flags    ~
+Desc     A narrow trail that leads through the heart of the fungal 
+valley. Spores coat everything in a fine blue dust.
+~
+#EXIT
+Direction south~
+ToRoom    38566
+Desc      The fungal entry.~
+#ENDEXIT
+Reset O 0 38535 10 38592
+#ENDROOM
+
+#ROOM
+Vnum     38593
+Name     &xThe Abandoned Croft&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, humble house that was left untouched during the 
+purge. It is now filled with dust and memories.
+~
+#EXIT
+Direction west~
+ToRoom    38553
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset O 0 38528 5 38593
+#ENDROOM
+
+#ROOM
+Vnum     38594
+Name     &xThe Crypt Fiend's Lair&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A natural cave hidden beneath a large blue mushroom. 
+Crypt fiends have woven thick, sticky webs here.
+~
+#EXIT
+Direction up~
+ToRoom    38567
+Desc      The fungal heart.~
+#ENDEXIT
+Reset M 0 38503 10 38594
+#ENDROOM
+
+#ROOM
+Vnum     38595
+Name     &xThe Shadowy Hollow&d~
+Sector   field~
+Flags    ~
+Desc     A small, dark clearing where the mist is particularly 
+thick. Dark summoners can be heard chanting here.
+~
+#EXIT
+Direction north~
+ToRoom    38554
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38524 5 38595
+#ENDROOM
+
+#ROOM
+Vnum     38596
+Name     &xThe Iron Ladder&d~
+Sector   field~
+Flags    ~
+Desc     A series of iron rungs bolted into the mountain side, 
+providing a shortcut between the road and the high hills.
+~
+#EXIT
+Direction up~
+ToRoom    38555
+Desc      Stratholme road south.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    38575
+Desc      The pestilent scar.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     38597
+Name     &xThe Eastern Plaguelands - Southern Ravine&d~
+Sector   field~
+Flags    ~
+Desc     A narrow, dark ravine that leads south toward the mountains 
+of Zul'Aman. The air is even thicker here.
+~
+#EXIT
+Direction north~
+ToRoom    38553
+Desc      Corin's Crossing.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    45000
+Desc      Enter the Ghostlands (Zul'Aman).~
+#ENDEXIT
+Reset M 0 38516 5 38597
+#ENDROOM
+
+#ROOM
+Vnum     38598
+Name     &xThe Plague Vents&d~
+Sector   field~
+Flags    ~
+Desc     Large cracks in the ground emit constant, high-pressure 
+plague-gas, making the air humid and difficult to breathe.
+~
+#EXIT
+Direction south~
+ToRoom    38554
+Desc      Corin's Crossing.~
+#ENDEXIT
+Reset M 0 38508 1 38598
+#ENDROOM
+
+#ROOM
+Vnum     38599
+Name     &xThe Shortcut Tunnel&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow maintenance tunnel that leads from the road 
+straight into the side of the mountains.
+~
+#EXIT
+Direction east~
+ToRoom    38555
+Desc      Stratholme road south.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    38550
+Desc      The Thondroril bank.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     38600
+Name     &xThe Eastern Plaguelands Exit Path&d~
+Sector   field~
+Flags    ~
+Desc     A hidden trail behind Light's Hope Chapel that leads toward 
+the northern mountains, offering a quick way back toward 
+the Western Plaguelands.
+~
+#EXIT
+Direction south~
+ToRoom    38559
+Desc      Light's Hope.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    38550
+Desc      The Thondroril bank.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     38601
+Name     &xThe Deep Plagueland Cleft&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A massive, dark cavern deep beneath the Marris Stead. 
+Patchwork horrors move through the dark here.
+~
+#EXIT
+Direction up~
+ToRoom    38551
+Desc      The Marris Stead.~
+#ENDEXIT
+Reset M 0 38523 5 38601
+#ENDROOM
+
+#ENDAREA
