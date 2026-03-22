@@ -1,0 +1,1600 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Razorfen Downs~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       35 45 0 60
+Economy      0 25000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       27000
+Keywords   death's head necromancer human~
+Short      a Death's Head Necromancer~
+Long       A Death's Head Necromancer weaves a web of shadow energy.
+~
+Desc       Clad in the dark robes of the Scourge, this human has forsaken their
+humanity to serve Amnennar. They command the undead within the Downs
+with cold, calculating efficiency.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 1200 3500
+Stats2     35 35 400
+Stats3     6 15 35
+Stats4     0 0 0 0 0
+Attribs    12 12 14 20 18 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27001
+Keywords   withered quilboar zombie~
+Short      a Withered Quilboar~
+Long       A Withered Quilboar shuffles forward, its flesh hanging in tatters.
+~
+Desc       Once a proud warrior of the Razorfen, this quilboar has been raised
+from the dead. It knows only a mindless hunger for the living.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1400 3000
+Stats2     36 36 0
+Stats3     7 18 36
+Stats4     0 0 0 0 0
+Attribs    20 6 22 4 4 4 4
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27002
+Keywords   death's head warder skeleton~
+Short      a Death's Head Warder~
+Long       A skeletal Death's Head Warder stands guard, clutching a rusted blade.
+~
+Desc       The rattling bones of this guard are held together by dark necromancy.
+It wears the tattered remnants of a quilboar loincloth.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1300 3200
+Stats2     37 37 0
+Stats3     6 16 37
+Stats4     0 0 0 0 0
+Attribs    18 14 16 4 4 4 4
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       27003
+Keywords   tuten'kash spider boss undead~
+Short      Tuten'kash~
+Long       The massive undead spider Tuten'kash descends from the ceiling.
+~
+Desc       A giant, plague-ridden spider that has been bloated by the necromantic
+energies of the Downs. It is the guardian of the Spiral, trapping
+unwary adventurers in its iron-strong webs.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 40 0 0 2500 6500
+Stats2     40 40 200
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    22 20 20 6 6 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       27004
+Keywords   mordresh fire eye skeletal mage boss~
+Short      Mordresh Fire Eye~
+Long       Mordresh Fire Eye cackles, his hollow sockets glowing with flame.
+~
+Desc       A powerful skeletal mage who commands the fire-wielding undead
+within the central plaza. He is obsessed with the "cleansing" power
+of the Scourge's flame.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 41 0 0 2000 5500
+Stats2     41 41 800
+Stats3     8 22 41
+Stats4     0 0 0 0 0
+Attribs    10 14 14 24 22 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       27005
+Keywords   glutton abomination boss~
+Short      Glutton~
+Long       The massive abomination Glutton lumbers forward, dripping ichor.
+~
+Desc       A stitched-together horror of meat and bone. Glutton serves as the
+primary enforcer for Amnennar, patrolling the slime-filled tunnels
+of the lower Downs.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 42 0 0 4000 9000
+Stats2     42 42 0
+Stats3     12 35 42
+Stats4     0 0 0 0 0
+Attribs    26 6 25 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       27006
+Keywords   ragglesnout rare boar beast~
+Short      Ragglesnout~
+Long       A massive, scarred boar snorts a mixture of dust and dried blood.
+~
+Desc       A rare survivor of the quilboar's original herd, Ragglesnout has
+grown large and feral in the shadows of the undead-infested tunnels.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 2200 5000
+Stats2     40 40 100
+Stats3     8 22 40
+Stats4     0 0 0 0 0
+Attribs    22 10 20 6 6 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       27007
+Keywords   amnennar coldbringer lich boss final~
+Short      Amnennar the Coldbringer~
+Long       Amnennar the Coldbringer floats above the ice, his gaze freezing.
+~
+Desc       The lich commander of the Razorfen Downs. Amnennar is the direct
+link between the quilboar and the Lich King, ensuring that the 
+southern Barrens remain a stronghold for the Scourge.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 45 0 0 6000 15000
+Stats2     45 45 1500
+Stats3     15 45 45
+Stats4     0 0 0 0 0
+Attribs    18 18 20 28 26 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       27008
+Keywords   death's head priest undead~
+Short      a Death's Head Priest~
+Long       An undead priest channel's dark shadow to mend rotting flesh.
+~
+Desc       This former quilboar shaman now uses the perverted arts of 
+shadow mending to keep the undead army functional.
+~
+Race       undead~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1100 3300
+Stats2     38 38 500
+Stats3     6 17 38
+Stats4     0 0 0 0 0
+Attribs    12 12 14 22 20 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       27009
+Keywords   thornling sprout plant~
+Short      a Thornling Sprout~
+Long       A small, aggressive bundle of thorns lashes out at your feet.
+~
+Desc       Born from the corrupted seeds of the Downs, these plants are
+animated by pure spite and nightmare energy.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 600 1500
+Stats2     35 35 0
+Stats3     4 12 35
+Stats4     0 0 0 0 0
+Attribs    14 16 14 6 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       27010
+Keywords   plagued ghoul undead~
+Short      a Plagued Ghoul~
+Long       A Plagued Ghoul scratches at the ground with elongated claws.
+~
+Desc       Ravenous and wild, this ghoul was once a human prisoner. Now
+it serves as fodder for the Scourge's expansion.
+~
+Race       undead~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 900 2800
+Stats2     37 37 300
+Stats3     5 14 37
+Stats4     0 0 0 0 0
+Attribs    16 18 14 8 8 8 8
+#ENDMOBILE
+
+#MOBILE
+Vnum       27011
+Keywords   coldwraith spirit undead~
+Short      a Coldwraith~
+Long       A freezing mist coalesces into the form of a screaming spirit.
+~
+Desc       The spirits of those who died in the icy grip of Amnennar's magic.
+They wander the tunnels, seeking warmth they will never find.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 800 2500
+Stats2     39 39 600
+Stats3     6 16 39
+Stats4     0 0 0 0 0
+Attribs    10 14 12 24 20 10 10
+#ENDMOBILE
+
+#MOBILE       
+Vnum       27012
+Keywords   death's head overseer~
+Short      a Death's Head Overseer~
+Long       A tall quilboar zombie stands over a group of laborers.
+~
+Desc       Retaining a fragment of its former intelligence, this undead
+directs the construction of necromantic spires within the Kraul.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 39 0 0 1500 4000
+Stats2     39 39 200
+Stats3     8 18 39
+Stats4     0 0 0 0 0
+Attribs    22 10 20 10 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       27013
+Keywords   flesh-eating bat beast~
+Short      a Flesh-eating Bat~
+Long       A bat with a blood-stained muzzle circles the ceiling.
+~
+Desc       These bats have developed a taste for the rotting meat of the 
+inhabitants of the Downs.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 700 1800
+Stats2     36 36 0
+Stats3     4 11 36
+Stats4     0 0 0 0 0
+Attribs    14 20 12 6 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       27014
+Keywords   bone-cruncher hyena~
+Short      a Bone-cruncher Hyena~
+Long       A skeletal hyena snaps its jaw, searching for marrow.
+~
+Desc       Even the animals have been touched by the plague. This beast
+is mostly bone and sinew.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 800 2000
+Stats2     36 36 0
+Stats3     5 13 36
+Stats4     0 0 0 0 0
+Attribs    16 16 16 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       27015
+Keywords   razorfen spirit-talker~
+Short      a Razorfen Spirit-talker~
+Long       A ghost of a quilboar shaman floats silently in the corner.
+~
+Desc       Unlike the zombies, this spirit was not raised by Amnennar, but
+is trapped here by the intense necromantic pull of the area.
+~
+Race       undead~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 1000 3000
+Stats2     40 40 600
+Stats3     6 15 40
+Stats4     0 0 0 0 0
+Attribs    12 12 14 24 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       27016
+Keywords   shadow-web spider~
+Short      a Shadow-web Spider~
+Long       A spider covered in dark, wispy hair skitters across the wall.
+~
+Desc       Offspring of Tuten'kash, these spiders are infused with the 
+same dark magic that sustains their master.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 900 2200
+Stats2     38 38 200
+Stats3     5 15 38
+Stats4     0 0 0 0 0
+Attribs    14 18 16 6 6 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       27017
+Keywords   skeletal conqueror~
+Short      a Skeletal Conqueror~
+Long       An armored skeleton stands with a massive heavy shield.
+~
+Desc       Elite front-line soldiers for Amnennar, these skeletons retain 
+their martial prowess even in death.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 40 0 0 1800 4500
+Stats2     40 40 100
+Stats3     8 20 40
+Stats4     0 0 0 0 0
+Attribs    24 10 22 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       27018
+Keywords   death's head geomancer~
+Short      a Death's Head Geomancer~
+Long       An undead quilboar pulls shards of ice from the air.
+~
+Desc       By combining quilboar earth magic with Amnennar's frost magic,
+these casters are incredibly dangerous.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 950 2600
+Stats2     39 39 700
+Stats3     7 18 39
+Stats4     0 0 0 0 0
+Attribs    12 14 14 24 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       27019
+Keywords   putrid slime blob~
+Short      a Putrid Slime~
+Long       A pile of green, bubbling ooze slides across the floor.
+~
+Desc       The byproduct of Glutton's existence, these slimes are highly
+acidic and toxic.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 1000 2500
+Stats2     35 35 0
+Stats3     5 12 35
+Stats4     0 0 0 0 0
+Attribs    18 4 20 4 4 4 4
+#ENDMOBILE
+
+#OBJECT
+Vnum     27020
+Keywords Amnennar Coldbringer staff weapon~
+Type     weapon~
+Short    Amnennar's Coldbringer~
+Long     A staff of pure, unmelting ice that radiates a lethal chill.~
+WFlags   take wield~
+Values   12 8 15 7 0 0
+Stats    12 2500 45 0 0
+Rarity   2
+Affect   3 8
+Affect   4 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     27021
+Keywords Icemetal Pauldrons shoulder armor~
+Type     armor~
+Short    a pair of Icemetal Pauldrons~
+Long     Heavy iron shoulders coated in a layer of frost and necrotic runes.~
+WFlags   take body~
+Values   18 0 0 0 0 0
+Stats    15 1800 42 0 0
+Rarity   2
+Affect   1 5
+Affect   5 10
+#ENDOBJECT
+
+#OBJECT
+Vnum     27022
+Keywords Robes Lich cloth body armor~
+Type     armor~
+Short    the Robes of the Lich~
+Long     Tattered purple silk robes that smell of death and old magic.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    5 2000 44 0 0
+Rarity   2
+Affect   3 10
+Affect   5 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     27023
+Keywords Coldrage Dagger weapon~
+Type     weapon~
+Short    the Coldrage Dagger~
+Long     A serrated blade that leaves a trail of frost in the air.~
+WFlags   take wield~
+Values   12 7 13 11 0 0
+Stats    3 1500 40 0 0
+Rarity   2
+Affect   2 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     27024
+Keywords Spiderfang Carapace plate armor body~
+Type     armor~
+Short    the Spiderfang Carapace~
+Long     A heavy chestpiece made from the hollowed shell of Tuten'kash.~
+WFlags   take body~
+Values   20 0 0 0 0 0
+Stats    25 1800 40 0 0
+Rarity   2
+Affect   5 12
+#ENDOBJECT
+
+#OBJECT
+Vnum     27025
+Keywords Mordresh Flaming Finger ring jewelry~
+Type     treasure~
+Short    Mordresh's Flaming Finger~
+Long     A ring of bone with a small, eternally burning ember set in it.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 1600 41 0 0
+Rarity   2
+Affect   3 7
+#ENDOBJECT
+
+#OBJECT
+Vnum     27026
+Keywords Glutton Cleaver axe weapon~
+Type     weapon~
+Short    Glutton's Cleaver~
+Long     A massive, rusted axe caked in dried blood and gore.~
+WFlags   take wield~
+Values   12 10 18 2 0 0
+Stats    18 1900 42 0 0
+Rarity   2
+Affect   1 8
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     27027
+Keywords Flesh-eating Helmet head armor~
+Type     armor~
+Short    the Flesh-eating Helmet~
+Long     A morbid helm fashioned from the skull of an abomination.~
+WFlags   take head~
+Values   15 0 0 0 0 0
+Stats    10 1400 40 0 0
+Rarity   2
+Affect   1 4
+Affect   5 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     27028
+Keywords Death's Head Vestments cloth body armor~
+Type     armor~
+Short    Death's Head Vestments~
+Long     The standard, dark robes worn by the necromancers of the Downs.~
+WFlags   take body~
+Values   6 0 0 0 0 0
+Stats    4 800 38 0 0
+Rarity   1
+Affect   3 5
+Affect   4 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     27029
+Keywords Withered Quilboar Tusk treasure~
+Type     treasure~
+Short    a Withered Quilboar Tusk~
+Long     A yellowed, brittle tusk from an undead quilboar.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 100 35 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27030
+Keywords Rusted Grave-Digger polearm weapon~
+Type     weapon~
+Short    a Rusted Grave-Digger~
+Long     A long-handled shovel sharpened into a deadly, if crude, weapon.~
+WFlags   take wield~
+Values   12 6 14 5 0 0
+Stats    15 600 37 0 0
+Rarity   1
+Affect   1 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     27031
+Keywords Bone-Link Fetish necklace jewelry~
+Type     treasure~
+Short    a Bone-Link Fetish~
+Long     A necklace made of finger bones strung together with wire.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 750 38 0 0
+Rarity   1
+Affect   4 5
+Affect   5 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     27032
+Keywords Plague-Tainted Bandage salve~
+Type     salve~
+Short    a Plague-Tainted Bandage~
+Long     A dirty strip of linen that smells faintly of rot.~
+WFlags   take~
+Values   40 1 1 0 0 0
+Stats    1 20 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27033
+Keywords Skeletal Shield armor~
+Type     armor~
+Short    a Skeletal Shield~
+Long     A shield constructed from a mesh of ribs and a hardened spine.~
+WFlags   take shield~
+Values   18 0 0 0 0 0
+Stats    14 900 39 0 0
+Rarity   1
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     27034
+Keywords Icy Mantle shoulder armor~
+Type     armor~
+Short    an Icy Mantle~
+Long     Shoulder guards that constantly emit a faint, freezing mist.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    6 850 40 0 0
+Rarity   1
+Affect   3 4
+Affect   5 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     27035
+Keywords small brass key spiral~
+Type     key~
+Short    a Small Brass Key~
+Long     A small key used to access the inner chambers of the Spiral.~
+WFlags   take~
+Values   27035 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27036
+Keywords heavy iron key Amnennar~
+Type     key~
+Short    a Heavy Iron Key~
+Long     A massive key stamped with the skull of the Scourge.~
+WFlags   take~
+Values   27036 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     27037
+Keywords Coldwraith Essence treasure~
+Type     treasure~
+Short    a Coldwraith Essence~
+Long     A small, glowing wisp of spectral energy contained in a jar.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 400 39 0 0
+Rarity   0
+Affect   4 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     27038
+Keywords Lich Phylactery Fragment treasure~
+Type     treasure~
+Short    a Phylactery Fragment~
+Long     A jagged piece of dark glass that pulses with an evil light.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 45 0 0
+Rarity   1
+Affect   3 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     27039
+Keywords Necromancer Ledger treasure hold~
+Type     treasure~
+Short    a Necromancer's Ledger~
+Long     A leather-bound book containing lists of names and ritual components.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    3 550 38 0 0
+Rarity   1
+Affect   3 4
+#ENDOBJECT
+
+#ROOM
+Vnum     27040
+Name     &xThe Downs Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The warm Barrens air is sucked away, replaced by a draft that smells 
+of ancient ice and rotting meat. Massive thorns, blackened by 
+necromancy, twist around a swirling, frost-covered portal. This 
+unholy gateway separates the southern Barrens from the frozen 
+stronghold of the Coldbringer.
+~
+#EXIT
+Direction out~
+ToRoom    26533
+Desc      Return to the southern Barrens.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27041
+Desc      The path leads into the darkness.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27041
+Name     &xThe Withered Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel walls are lined with the tattered remains of quilboar 
+banners. The ground is littered with bleached bones that crunch 
+beneath your feet. A low, constant moaning echoes from the north, 
+carried on a freezing wind.
+~
+#EXIT
+Direction south~
+ToRoom    27040
+Desc      The entrance portal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27042
+Desc      The path continues.~
+#ENDEXIT
+Reset M 0 27001 10 27041
+#ENDROOM
+
+#ROOM
+Vnum     27042
+Name     &xThe Withered Path - Bend&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnel turns sharply. To the east, a narrow fissure in the 
+wall leads to a dark, web-choked passage. The main path continues 
+north, toward a large, shadowy chamber.
+~
+#EXIT
+Direction south~
+ToRoom    27041
+Desc      The entry path.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27046
+Desc      The entrance to the Spiral.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27043
+Desc      The path to the central plaza.~
+#ENDEXIT
+Reset M 0 27014 10 27042
+Reset O 0 27029 10 27042
+#ENDROOM
+
+#ROOM
+Vnum     27043
+Name     &xEntry to the Bone-Strewn Plaza&d~
+Sector   underground~
+Flags    indoors~
+Desc     The ceiling rises into a vaulted dome. Massive piles of skulls 
+are arranged in the corners of the room, their hollow sockets 
+glowing with a dim, purple light.
+~
+#EXIT
+Direction south~
+ToRoom    27042
+Desc      The withered path.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27044
+Desc      The central plaza.~
+#ENDEXIT
+Reset M 0 27002 10 27043
+#ENDROOM
+
+#ROOM
+Vnum     27044
+Name     &xThe Bone-Strewn Plaza - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     This wide-open space was once a place of gathering for the 
+tribe, but it is now a harvesting ground for the Scourge. 
+Zombies shuffle aimlessly between piles of debris.
+~
+#EXIT
+Direction north~
+ToRoom    27051
+Desc      The path to the Cathedral.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    27043
+Desc      The entry hall.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27045
+Desc      A small side chamber.~
+#ENDEXIT
+Reset M 0 27001 10 27044
+Reset O 0 27032 10 27044
+#ENDROOM
+
+#ROOM
+Vnum     27045
+Name     &xSide Chamber of Decay&d~
+Sector   underground~
+Flags    indoors~
+Desc     This room is used for the disposal of "failed" experiments. The 
+stench of rot is nearly physical here.
+~
+#EXIT
+Direction east~
+ToRoom    27044
+Desc      Return to the plaza.~
+#ENDEXIT
+Reset M 0 27010 10 27045
+Reset O 0 27031 5 27045
+#ENDROOM
+
+#ROOM
+Vnum     27046
+Name     &cThe Spiral - Webbed Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     Thick, iron-strong webbing covers the walls and ceiling. The 
+air is stagnant and smells of old venom. Tiny shadows skitter 
+just beyond the reach of your light.
+~
+#EXIT
+Direction west~
+ToRoom    27042
+Desc      Return to the main path.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27047
+Desc      The spiral corridor.~
+#ENDEXIT
+Reset M 0 27016 10 27046
+#ENDROOM
+
+#ROOM
+Vnum     27047
+Name     &cThe Spiral - Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     The passage begins to curve downward, looping toward the center 
+of the spider wing. Several large, silk-wrapped cocoons hang from 
+the ceiling, some of them still twitching.
+~
+#EXIT
+Direction west~
+ToRoom    27046
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27048
+Desc      A side burrow.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27049
+Desc      The approach to the lair.~
+#ENDEXIT
+Reset M 0 27016 10 27047
+#ENDROOM
+
+#ROOM
+Vnum     27048
+Name     &cThe Spiral - Side Burrow&d~
+Sector   underground~
+Flags    indoors~
+Desc     This small burrow is filled with the discarded husks of giant 
+insects and small beasts.
+~
+#EXIT
+Direction south~
+ToRoom    27047
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 27013 10 27048
+Reset O 0 27035 1 27048
+#ENDROOM
+
+#ROOM
+Vnum     27049
+Name     &cThe Spiral - Lair Approach&d~
+Sector   underground~
+Flags    indoors~
+Desc     The webbing becomes so thick that it forms a natural carpet 
+on the floor. The sound of thousands of tiny legs scuttling 
+over stone is deafening.
+~
+#EXIT
+Direction west~
+ToRoom    27047
+Desc      The corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27050
+Desc      Tuten'kash's Lair.~
+#ENDEXIT
+Reset M 0 27016 10 27049
+#ENDROOM
+
+#ROOM
+Vnum     27050
+Name     &cTuten'kash's Webbed Lair&d~
+Sector   underground~
+Flags    indoors~
+Desc     This massive cavern is a nightmare of silk and shadow. Tuten'kash 
+sits at the center of a giant web, his multi-faceted eyes 
+reflecting your light with a cold hunger.
+~
+#EXIT
+Direction south~
+ToRoom    27049
+Desc      The approach.~
+#ENDEXIT
+Reset M 0 27003 1 27050
+  Reset G 1 27024 1
+#ENDROOM
+
+#ROOM
+Vnum     27051
+Name     &rThe Bone Cathedral - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The transition from natural cave to constructed cathedral is 
+striking. Pillars made of fused bone support a ceiling covered 
+in blasphemous murals.
+~
+#EXIT
+Direction south~
+ToRoom    27044
+Desc      The plaza.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27052
+Desc      The nave.~
+#ENDEXIT
+Reset M 0 27008 10 27051
+#ENDROOM
+
+#ROOM
+Vnum     27052
+Name     &rThe Bone Cathedral - Nave&d~
+Sector   underground~
+Flags    indoors~
+Desc     Rows of stone pews are arranged facing the northern altar. 
+Undead acolytes stand in the aisles, their voices joined in 
+a low, soul-chilling dirge.
+~
+#EXIT
+Direction south~
+ToRoom    27051
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    27053
+Desc      The eastern transept.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27054
+Desc      Mordresh's Altar.~
+#ENDEXIT
+Reset M 0 27000 10 27052
+#ENDROOM
+
+#ROOM
+Vnum     27053
+Name     &rThe Bone Cathedral - Transept&d~
+Sector   underground~
+Flags    indoors~
+Desc     A side wing of the cathedral where several large bells have 
+been hung. They are made of a dull, dark metal that looks like 
+hardened blood.
+~
+#EXIT
+Direction west~
+ToRoom    27052
+Desc      The nave.~
+#ENDEXIT
+Reset M 0 27002 10 27053
+Reset O 0 27033 5 27053
+#ENDROOM
+
+#ROOM
+Vnum     27054
+Name     &rMordresh's Altar of Fire&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive brazier burning with eternal, green fire sits in the 
+center of the altar. Mordresh Fire Eye stands before it, 
+directing the defense of the cathedral with a staff of burning 
+ash.
+~
+#EXIT
+Direction south~
+ToRoom    27052
+Desc      The nave.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27056
+Desc      The descent to the Sewers.~
+#ENDEXIT
+Reset M 0 27004 1 27054
+  Reset G 1 27025 1
+#ENDROOM
+
+#ROOM
+Vnum     27055
+Name     &rCathedral Secret Passage&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A narrow slit behind the altar leads into a maintenance tunnel 
+filled with dust and cobwebs.
+~
+#EXIT
+Direction south~
+ToRoom    27054
+Desc      Return to the altar.~
+#ENDEXIT
+Reset M 0 27010 10 27055
+Reset O 0 27039 5 27055
+#ENDROOM
+
+#ROOM
+Vnum     27056
+Name     &gThe Abomination Wing - Descent&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air turns foul and humid. A narrow staircase spirals downward 
+into a series of damp, slime-slicked tunnels.
+~
+#EXIT
+Direction south~
+ToRoom    27054
+Desc      The Cathedral.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    27057
+Desc      The lower sewers.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     27057
+Name     &gThe Lower Sewers - Junction&d~
+Sector   underground~
+Flags    indoors~
+Desc     Green sludge flows through channels in the floor. The sound 
+of liquid splashing and deep, gurgling laughter echoes off 
+the damp walls.
+~
+#EXIT
+Direction up~
+ToRoom    27056
+Desc      Return to the ascent.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27058
+Desc      The abomination corridor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27061
+Desc      The high tunnels.~
+#ENDEXIT
+Reset M 0 27019 10 27057
+#ENDROOM
+
+#ROOM
+Vnum     27058
+Name     &gThe Abomination Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     The tunnels are wider here, built to accommodate the massive 
+forms of the stitched horrors that patrol this wing.
+~
+#EXIT
+Direction south~
+ToRoom    27057
+Desc      The junction.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27059
+Desc      The feeding grounds.~
+#ENDEXIT
+Reset M 0 27012 10 27058
+Reset O 0 27027 5 27058
+#ENDROOM
+
+#ROOM
+Vnum     27059
+Name     &gThe Feeding Grounds&d~
+Sector   underground~
+Flags    indoors~
+Desc     Heaps of raw meat are piled in the corners of this room. It 
+is a gruesome sight, even for the Downs.
+~
+#EXIT
+Direction south~
+ToRoom    27058
+Desc      The corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27060
+Desc      Glutton's Lair.~
+#ENDEXIT
+Reset M 0 27010 10 27059
+Reset O 0 27030 5 27059
+#ENDROOM
+
+#ROOM
+Vnum     27060
+Name     &gGlutton's Lair&d~
+Sector   underground~
+Flags    indoors~
+Desc     This chamber is nearly flooded with acidic slime. The massive 
+abomination Glutton stands in the center, his many arms 
+clutching rusted meat hooks and jagged cleavers.
+~
+#EXIT
+Direction south~
+ToRoom    27059
+Desc      The feeding grounds.~
+#ENDEXIT
+Reset M 0 27005 1 27060
+  Reset E 1 27026 1 16
+#ENDROOM
+
+#ROOM
+Vnum     27061
+Name     &xThe High Tunnels - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     These tunnels were once part of the natural cavern system 
+before the quilboar arrived. They are dryer and more stable 
+than the lower wings.
+~
+#EXIT
+Direction east~
+ToRoom    27057
+Desc      The sewer junction.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27062
+Desc      The western tunnels.~
+#ENDEXIT
+Reset M 0 27009 10 27061
+#ENDROOM
+
+#ROOM
+Vnum     27062
+Name     &xThe High Tunnels - Crossroads&d~
+Sector   underground~
+Flags    indoors~
+Desc     A central point in the upper tunnels. Paths lead off to 
+several side burrows used by the tribe's animals.
+~
+#EXIT
+Direction east~
+ToRoom    27061
+Desc      The entrance tunnel.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27063
+Desc      A small burrow.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    27064
+Desc      A small burrow.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    27066
+Desc      The Frozen Ascent.~
+#ENDEXIT
+Reset M 0 27014 10 27062
+#ENDROOM
+
+#ROOM
+Vnum     27063
+Name     &xHigh Tunnel Burrow - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     A quiet alcove where a rare, massive boar often comes to 
+rest and feed.
+~
+#EXIT
+Direction south~
+ToRoom    27062
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 27006 1 27063
+#ENDROOM
+
+#ROOM
+Vnum     27064
+Name     &xHigh Tunnel Burrow - South&d~
+Sector   underground~
+Flags    indoors~
+Desc     This burrow is filled with the scent of dried hay and 
+old leather.
+~
+#EXIT
+Direction north~
+ToRoom    27062
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 27009 10 27064
+Reset O 0 27037 10 27064
+#ENDROOM
+
+#ROOM
+Vnum     27065
+Name     &xThe Secret Nest&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A hidden ledge high above the tunnel floor, accessible only 
+by climbing the thick thorns.
+~
+#EXIT
+Direction down~
+ToRoom    27062
+Desc      Return to the crossroads.~
+#ENDEXIT
+Reset M 0 27013 10 27065
+Reset O 0 27038 1 27065
+#ENDROOM
+
+#ROOM
+Vnum     27066
+Name     &cThe Frozen Ascent - Entry&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air turns lethal. Ice begins to cover the thorns, and 
+your breath hitches in your chest. You have reached the 
+domain of Amnennar.
+~
+#EXIT
+Direction east~
+ToRoom    27062
+Desc      The high tunnels.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27067
+Desc      The stairs of frost.~
+#ENDEXIT
+Reset M 0 27011 10 27066
+#ENDROOM
+
+#ROOM
+Vnum     27067
+Name     &cThe Stairs of Frost&d~
+Sector   underground~
+Flags    indoors~
+Desc     Massive stone steps, slick with black ice, climb toward the 
+final spire. Skeletal mages stand on the landings, their 
+magic turning the very air to glass.
+~
+#EXIT
+Direction south~
+ToRoom    27066
+Desc      The ascent entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27068
+Desc      The middle landing.~
+#ENDEXIT
+Reset M 0 27018 10 27067
+Reset O 0 27034 5 27067
+#ENDROOM
+
+#ROOM
+Vnum     27068
+Name     &cThe Middle Landing&d~
+Sector   underground~
+Flags    indoors~
+Desc     A wide platform halfway up the spire. From here, you can see 
+the flickering green fires of the cathedral far below.
+~
+#EXIT
+Direction south~
+ToRoom    27067
+Desc      The lower stairs.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27069
+Desc      The upper stairs.~
+#ENDEXIT
+Reset M 0 27017 10 27068
+#ENDROOM
+
+#ROOM
+Vnum     27069
+Name     &cThe Upper Stairs of Frost&d~
+Sector   underground~
+Flags    indoors~
+Desc     The climb is grueling. Every surface is covered in razor-sharp 
+icicles that threaten to impale any who slip.
+~
+#EXIT
+Direction south~
+ToRoom    27068
+Desc      The middle landing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27070
+Desc      The spire threshold.~
+#ENDEXIT
+Reset M 0 27018 10 27069
+Reset O 0 27023 1 27069
+#ENDROOM
+
+#ROOM
+Vnum     27070
+Name     &cThe Spire Threshold&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive archway made of iron and ice. This is the final 
+checkpoint before reaching the Coldbringer's throne.
+~
+#EXIT
+Direction south~
+ToRoom    26069
+Desc      The upper stairs.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27071
+Desc      Amnennar's Overlook.~
+#ENDEXIT
+Reset M 0 27011 10 27070
+#ENDROOM
+
+#ROOM
+Vnum     27071
+Name     &cThe Coldbringer's Overlook&d~
+Sector   underground~
+Flags    indoors~
+Desc     A high balcony that looks out over the entire Downs. The 
+necromantic energy here is so thick it is visible as a 
+shimmering, purple haze.
+~
+#EXIT
+Direction south~
+ToRoom    27070
+Desc      The threshold.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27072
+Desc      The inner sanctum corridor.~
+#ENDEXIT
+Reset M 0 27015 10 27071
+#ENDROOM
+
+#ROOM
+Vnum     27072
+Name     &cThe Inner Sanctum Corridor&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls are made of solid, blue ice. You can see the 
+twisted forms of frozen quilboars trapped within the walls.
+~
+#EXIT
+Direction south~
+ToRoom    27071
+Desc      The overlook.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27073
+Desc      The final corridor.~
+#ENDEXIT
+Reset M 0 27018 10 27072
+#ENDROOM
+
+#ROOM
+Vnum     27073
+Name     &cThe Frozen Hallway&d~
+Sector   underground~
+Flags    indoors~
+Desc     The sound of Amnennar's voice, cold and hollow, echoes 
+from the north. The floor is so cold it burns through 
+your boots.
+~
+#EXIT
+Direction south~
+ToRoom    27072
+Desc      The inner corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27074
+Desc      The approach to the throne.~
+#ENDEXIT
+Reset M 0 27017 10 27073
+#ENDROOM
+
+#ROOM
+Vnum     27074
+Name     &cThe Throne Approach&d~
+Sector   underground~
+Flags    indoors~
+Desc     A wide hall lined with spectral guards who watch you with 
+expressionless faces.
+~
+#EXIT
+Direction south~
+ToRoom    27073
+Desc      The hallway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    27075
+Desc      The Frozen Throne.~
+#ENDEXIT
+Reset M 0 27011 10 27074
+Reset O 0 27021 5 27074
+#ENDROOM
+
+#ROOM
+Vnum     27075
+Name     &CAmnennar's Frozen Throne&d~
+Sector   underground~
+Flags    indoors~
+Desc     Amnennar the Coldbringer sits upon a throne of jagged ice 
+and iron. He is a terrifying figure of ancient undeath, 
+holding the fate of the southern Barrens in his freezing 
+grasp.
+~
+#EXIT
+Direction south~
+ToRoom    27074
+Desc      The approach.~
+#ENDEXIT
+Reset M 0 27007 1 27075
+  Reset G 1 27020 1
+  Reset G 1 27022 1
+  Reset G 1 27036 1
+#ENDROOM
+
+#ROOM
+Vnum     27076
+Name     &xDowns Overflow A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A jagged, quiet alcove where the wind from the entrance 
+is but a whisper.
+~
+#EXIT
+Direction north~
+ToRoom    27041
+Desc      The withered path.~
+#ENDEXIT
+Reset M 0 27001 10 27076
+#ENDROOM
+
+#ROOM
+Vnum     27077
+Name     &xDowns Overflow B&d~
+Sector   underground~
+Flags    indoors~
+Desc     A room filled with the dust of centuries. Small, spectral 
+mists drift between the shadows.
+~
+#EXIT
+Direction south~
+ToRoom    27044
+Desc      The plaza.~
+#ENDEXIT
+Reset M 0 27011 10 27077
+Reset O 0 27028 10 27077
+#ENDROOM
+
+#ROOM
+Vnum     27078
+Name     &xDowns Overflow C&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small maintenance tunnel that appears to have been 
+abandoned long ago.
+~
+#EXIT
+Direction east~
+ToRoom    27052
+Desc      The Cathedral Nave.~
+#ENDEXIT
+Reset M 0 27002 10 27078
+#ENDROOM
+
+#ROOM
+Vnum     27079
+Name     &xDowns Overflow D&d~
+Sector   underground~
+Flags    indoors~
+Desc     A secluded corner of the high tunnels where the 
+ground is covered in a soft, white frost.
+~
+#EXIT
+Direction west~
+ToRoom    27062
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 27009 10 27079
+#ENDROOM
+
+#ROOM
+Vnum     27080
+Name     &CThe Downs Exit Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow fissure behind Amnennar's throne leads toward 
+the surface of the Barrens, offering a quick way out for 
+those who have defeated the Coldbringer.
+~
+#EXIT
+Direction south~
+ToRoom    27075
+Desc      The throne.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    27040
+Desc      The entrance portal.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA
