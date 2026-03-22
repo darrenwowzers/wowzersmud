@@ -703,7 +703,7 @@ Reset M 0 26502 2 26506
 #ROOM
 Vnum     26507
 Name     &CThe Forgotten Pools&d~
-Sector   water~
+Sector   water_swim~
 Desc     A lush oasis sits nestled in a natural depression. Crystal clear water
 bubbles up from the earth, feeding a variety of plants that shouldn't
 exist in this climate. Strange fissures in the ground glow with a faint,
@@ -796,7 +796,7 @@ Reset M 0 26504 2 26510
 #ROOM
 Vnum     26511
 Name     &CThe Stagnant Oasis&d~
-Sector   water~
+Sector   water_swim~
 Desc     Unlike the Forgotten Pools, this oasis is choked with thick reeds and
 murky water. A massive, shell-like mountain rises from the center of the
 pool, claimed by a powerful tribe of Kolkar centaur.
@@ -1094,6 +1094,8 @@ Sector   hills~
 Desc     The terrain drops away suddenly as you approach the southern edge of the
 plateau. A massive wooden structure, powered by heavy pulleys and
 counterweights, stands ready to lower travelers into the canyon below.
+Massive walls of thorny vines rise to the east and west, the strongholds
+of the quilboar.
 ~
 #EXIT
 Direction north~
@@ -1105,6 +1107,58 @@ Desc      Camp Taurajo.
 Direction south~
 ToRoom    26525
 Desc      The Great Lift.
+~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    26532
+Desc      A path carved through massive briars leads to Razorfen Kraul.
+~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    26533
+Desc      A dark, thorn-choked path leads to Razorfen Downs.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26532
+Name     &ORazorfen Kraul - The Bramble Maze&d~
+Sector   field~
+Desc     Giant, razor-sharp thorns form a natural fortress here, the ancestral
+home of the Razorfen quilboar tribe. The grunting of the beast-men can
+be heard from every direction. At the end of the path, a swirling instance
+portal blocks the entrance to their inner sanctum.
+~
+#EXIT
+Direction east~
+ToRoom    26524
+Desc      The path to the Great Lift.
+~
+#ENDEXIT
+#EXIT
+Direction in~
+ToRoom    26930
+Desc      Step through the portal into Razorfen Kraul.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     26533
+Name     &yRazorfen Downs - The Murder Hole&d~
+Sector   field~
+Desc     The massive thorn walls here are dead and rotting, infected by a dark,
+necromantic blight. The air is thick with the smell of decay. Undead
+quilboar shamble in the distance, and a swirling purple portal marks the
+entrance to the Scourge-infected depths.
+~
+#EXIT
+Direction west~
+ToRoom    26524
+Desc      The path to the Great Lift.
 ~
 #ENDEXIT
 #ENDROOM
@@ -1135,10 +1189,11 @@ Reset M 0 26509 1 26525
 #ROOM
 Vnum     26526
 Name     &CThe Lush Oasis&d~
-Sector   water~
+Sector   water_swim~
 Desc     Located in the southeastern corner of the Barrens, this oasis is a
 paradise of greenery and clear water. However, the beauty is deceptive,
-as the area is heavily guarded by the warlike centaur tribes.
+as the area is heavily guarded by the warlike centaur tribes. A gaping
+cavern entrance shaped like a giant beast's skull leads deep underground.
 ~
 #EXIT
 Direction north~
@@ -1146,8 +1201,32 @@ ToRoom    26521
 Desc      Back to the Gold Road.
 ~
 #ENDEXIT
+#EXIT
+Direction down~
+ToRoom    26531
+Desc      A dark cavern smelling of damp earth and raptors.
+~
+#ENDEXIT
 Reset M 0 26505 4 26526
 Reset M 0 26501 2 26526
+#ENDROOM
+
+#ROOM
+Vnum     26531
+Name     &gWailing Caverns - The Pool of Tears&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     The air in this underground cavern is incredibly humid and smells
+strongly of ozone and overgrown vegetation. Vines hang from the ceiling,
+and the sound of weeping echoes through the tunnels. A glowing blue portal
+swirls before you, leading into the heart of the Wailing Caverns. 
+~
+#EXIT
+Direction up~
+ToRoom    26526
+Desc      Back to the surface.
+~
+#ENDEXIT
 #ENDROOM
 
 #ROOM
