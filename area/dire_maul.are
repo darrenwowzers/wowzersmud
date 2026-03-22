@@ -392,8 +392,8 @@ Attribs    12 28 14 14 12 10 10
 #ENDMOBILE
 
 #MOBILE
-#21117
-Keywords gordok shaman ogre~
+Vnum       21117
+Keywords   gordok shaman ogre~
 Short      a Gordok Shaman~
 Long       An ogre in feather-draped hide mutters to a lightning-totem.
 ~
@@ -740,7 +740,7 @@ Rarity   1
 #OBJECT
 Vnum     21161
 Keywords highborne signet ring~
-Type     jewelry~
+Type     rune~
 Short    a Highborne Signet Ring~
 Long     A gold ring featuring the sigil of Eldre'Thalas.~
 WFlags   take finger~
@@ -880,8 +880,8 @@ Affect   14 15 0 0 0
 
 #OBJECT
 Vnum     21172
-Keywords ogre-bone necklace jewelry~
-Type     jewelry~
+Keywords ogre-bone necklace rune~
+Type     rune~
 Short    a Gordok Bone Necklace~
 Long     A crude necklace made of string and polished ogre teeth.~
 WFlags   take neck~

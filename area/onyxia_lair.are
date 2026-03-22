@@ -812,7 +812,7 @@ Rarity   3
 #OBJECT
 Vnum     41101
 Keywords shard scale jewelry neck~
-Type     jewelry~
+Type     rune~
 Short    the Shard of the Scale~
 Long     A glowing shard of obsidian that pulses with draconic heat.~
 WFlags   take neck~
@@ -1451,7 +1451,7 @@ Direction east~
 ToRoom    41203
 Desc      Hatchery entry.~
 #ENDEXIT
-Reset O 41114 10 41209
+Reset O 41114 10 41209 0
 #ENDROOM
 
 #ROOM
@@ -1496,7 +1496,7 @@ Direction south~
 ToRoom    41251
 Desc      Foundries south.~
 #ENDEXIT
-Reset O 41112 10 41254
+Reset O 41112 10 41254 0
 #ENDROOM
 
 #ROOM
@@ -1511,7 +1511,7 @@ Direction west~
 ToRoom    41301
 Desc      Wardens' hall.~
 #ENDEXIT
-Reset O 41116 5 41302
+Reset O 41116 5 41302 0
 #ENDROOM
 
 #ROOM
@@ -1541,7 +1541,7 @@ Direction west~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
 #ENDEXIT
-Reset O 41112 10 41311
+Reset O 41112 10 41311 0
 #ENDROOM
 
 #ROOM
@@ -1626,7 +1626,7 @@ Direction west~
 ToRoom    41255
 Desc      Labyrinth 1.~
 #ENDEXIT
-Reset O 41118 10 41256
+Reset O 41118 10 41256 0
 #ENDROOM
 
 #ROOM
@@ -1736,7 +1736,7 @@ Direction south~
 ToRoom    41300
 Desc      Broodmother path entrance.~
 #ENDEXIT
-Reset O 41101 1 41330
+Reset O 41101 1 41330 0
 #ENDROOM
 
 #ROOM
@@ -1766,7 +1766,7 @@ Direction north~
 ToRoom    41204
 Desc      Egg chambers.~
 #ENDEXIT
-Reset O 41112 10 41215
+Reset O 41112 10 41215 0
 #ENDROOM
 
 #ROOM
@@ -1796,7 +1796,7 @@ Direction west~
 ToRoom    41252
 Desc      Foundries center.~
 #ENDEXIT
-Reset O 41120 10 41260
+Reset O 41120 10 41260 0
 #ENDROOM
 
 #ROOM
@@ -1841,7 +1841,7 @@ Direction north~
 ToRoom    41310
 Desc      Onyxia's sanctum.~
 #ENDEXIT
-Reset O 41114 10 41341
+Reset O 41114 10 41341 0
 #ENDROOM
 
 #ROOM
@@ -1901,7 +1901,7 @@ Direction south~
 ToRoom    41250
 Desc      Volcanic bridge.~
 #ENDEXIT
-Reset O 41118 10 41263
+Reset O 41118 10 41263 0
 #ENDROOM
 
 #ROOM
@@ -2006,7 +2006,7 @@ Direction east~
 ToRoom    41300
 Desc      Path entrance.~
 #ENDEXIT
-Reset O 41101 1 41361
+Reset O 41101 1 41361 0
 #ENDROOM
 
 #ROOM
@@ -2066,7 +2066,7 @@ Direction west~
 ToRoom    41251
 Desc      Foundries south.~
 #ENDEXIT
-Reset O 41114 10 41281
+Reset O 41114 10 41281 0
 #ENDROOM
 
 #ROOM
@@ -2111,7 +2111,7 @@ Direction north~
 ToRoom    41204
 Desc      Egg chambers.~
 #ENDEXIT
-Reset O 41114 10 41224
+Reset O 41114 10 41224 0
 #ENDROOM
 
 #ROOM
@@ -2186,7 +2186,7 @@ Direction south~
 ToRoom    41400
 Desc      Exit path.~
 #ENDEXIT
-Reset O 41115 10 41381
+Reset O 41115 10 41381 0
 #ENDROOM
 
 #ROOM

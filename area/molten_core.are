@@ -1477,7 +1477,7 @@ Direction west~
 ToRoom    41726
 Desc      Labyrinth 1.~
 #ENDEXIT
-Reset O 41617 10 41727
+Reset O 41617 10 41727 0
 #ENDROOM
 
 #ROOM
@@ -1607,7 +1607,7 @@ Direction south~
 ToRoom    41722
 Desc      Enclave entry.~
 #ENDEXIT
-Reset O 41613 10 41729
+Reset O 41613 10 41729 0
 #ENDROOM
 
 #ROOM
@@ -1637,7 +1637,7 @@ Direction west~
 ToRoom    41753
 Desc      Loop east.~
 #ENDEXIT
-Reset O 41612 10 41761
+Reset O 41612 10 41761 0
 #ENDROOM
 
 #ROOM
@@ -1667,7 +1667,7 @@ Direction north~
 ToRoom    41810
 Desc      Hall entrance.~
 #ENDEXIT
-Reset O 41620 10 41815
+Reset O 41620 10 41815 0
 #ENDROOM
 
 #ROOM
@@ -1742,7 +1742,7 @@ Direction south~
 ToRoom    41750
 Desc      Road entrance.~
 #ENDEXIT
-Reset O 41601 1 41762
+Reset O 41601 1 41762 0
 #ENDROOM
 
 #ROOM
@@ -1772,7 +1772,7 @@ Direction south~
 ToRoom    41810
 Desc      Hall entrance.~
 #ENDEXIT
-Reset O 41610 5 41816
+Reset O 41610 5 41816 0
 #ENDROOM
 
 #ROOM

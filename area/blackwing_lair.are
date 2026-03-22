@@ -344,7 +344,7 @@ Desc       A marvel of Nefarian's engineering, these devices create a
 magical field that slows the movement and thought of 
 biological beings.
 ~
-Race       mammal~ // Using construct/mammal base
+Race       mammal~
 Class      warrior~
 Position   standing~
 DefPos     standing~
@@ -2325,7 +2325,7 @@ Direction north~
 ToRoom    42279
 Desc      Labyrinth 29.~
 #ENDEXIT
-Reset O 42113 10 42278
+Reset O 42113 10 42278 0
 #ENDROOM
 
 #ROOM
@@ -2799,7 +2799,7 @@ Direction south~
 ToRoom    42220
 Desc      Laboratory entry.~
 #ENDEXIT
-Reset O 42101 1 42304
+Reset O 42101 1 42304 0
 #ENDROOM
 
 #ROOM

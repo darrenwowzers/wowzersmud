@@ -629,8 +629,8 @@ Affect   2 12 0 0 0
 
 #OBJECT
 Vnum     19203
-Keywords mark of celebras jewelry~
-Type     jewelry~
+Keywords mark of celebras rune~
+Type     rune~
 Short    the Mark of Celebras~
 Long     A wooden medallion etched with the leaves of a world tree.~
 WFlags   take neck~
@@ -823,8 +823,8 @@ Affect   5 5 0 0 0
 
 #OBJECT
 Vnum     19218
-Keywords shadowshard amulet jewelry~
-Type     jewelry~
+Keywords shadowshard amulet rune~
+Type     rune~
 Short    a Shadowshard Amulet~
 Long     A dark crystal pendant that feels cold to the touch.~
 WFlags   take neck~

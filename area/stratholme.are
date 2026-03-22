@@ -203,7 +203,7 @@ Desc       The master of the Scarlet Crusade's heavy artillery. He
 loves nothing more than the scent of gunpowder and the 
 sight of Scourge-flesh being blasted to ash.
 ~
-Race       human~ // Using human/dwarf base
+Race       human~
 Class      warrior~
 Position   standing~
 DefPos     standing~
@@ -1039,8 +1039,8 @@ Affect   14 20 0 0 0
 
 #OBJECT
 Vnum     22050
-Keywords anastari heirloom necklace jewelry~
-Type     jewelry~
+Keywords anastari heirloom necklace rune~
+Type     rune~
 Short    Anastari's Heirloom~
 Long     A silver necklace featuring a large, weeping gemstone.~
 WFlags   take neck~
@@ -1154,7 +1154,7 @@ Rarity   1
 #OBJECT
 Vnum     22059
 Keywords medallion faith jewelry necklace~
-Type     jewelry~
+Type     rune~
 Short    the Medallion of Faith~
 Long     A silver medallion granted to the city's highest priests.~
 WFlags   take neck~

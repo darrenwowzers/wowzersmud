@@ -736,8 +736,8 @@ Affect   14 20 0 0 0
 
 #OBJECT
 Vnum     20534
-Keywords rosewine circle ring jewelry~
-Type     jewelry~
+Keywords rosewine circle ring rune~
+Type     rune~
 Short    the Rosewine Circle~
 Long     A gold ring featuring a small, blood-red gemstone.~
 WFlags   take finger~
@@ -763,8 +763,8 @@ Affect   14 25 0 0 0
 
 #OBJECT
 Vnum     20536
-Keywords talisman evasion jewelry~
-Type     jewelry~
+Keywords talisman evasion rune~
+Type     rune~
 Short    the Talisman of Evasion~
 Long     A silver pendant that seems to slightly blur the wearer's image.~
 WFlags   take neck~
@@ -790,8 +790,8 @@ Affect   13 20 0 0 0
 
 #OBJECT
 Vnum     20538
-Keywords bloodaxe medallion jewelry~
-Type     jewelry~
+Keywords bloodaxe medallion rune~
+Type     rune~
 Short    a Bloodaxe Medallion~
 Long     A heavy iron medallion marked with the seal of the Bloodaxe legion.~
 WFlags   take neck~
@@ -922,8 +922,8 @@ Affect   3 20 0 0 0
 
 #OBJECT
 Vnum     20548
-Keywords seal ascension ring jewelry~
-Type     jewelry~
+Keywords seal ascension ring rune~
+Type     rune~
 Short    the Seal of Ascension~
 Long     A ring that hums with the frequency of the high spire.~
 WFlags   take finger~

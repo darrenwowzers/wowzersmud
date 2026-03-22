@@ -134,7 +134,7 @@ Desc       An Old God of ancient and terrible power. His influence has
 corrupted the Qiraji and turned Ahn'Qiraj into a monument to 
 madness. He sees all, and he hungers for the end of the world.
 ~
-Race       undead~ // Used for Old God classification
+Race       undead~ 
 Class      mage~
 Position   standing~
 DefPos     standing~
@@ -1042,8 +1042,8 @@ Affect   12 30 0 0 0
 
 #OBJECT
 Vnum     43104
-Keywords jaded crystal ring jewelry~
-Type     jewelry~
+Keywords jaded crystal ring rune~
+Type     rune~
 Short    a Jaded Crystal Signet~
 Long     A ring made of solid red crystal that hums with madness.~
 WFlags   take finger~
@@ -1586,7 +1586,7 @@ Direction east~
 ToRoom    43202
 Desc      Skeram's chamber.~
 #ENDEXIT
-Reset O 43106 10 43256
+Reset O 43106 10 43256 0
 #ENDROOM
 
 #ROOM
@@ -1617,7 +1617,7 @@ Direction west~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
-Reset O 43104 5 43258
+Reset O 43104 5 43258 0
 #ENDROOM
 
 #ROOM
@@ -1649,7 +1649,7 @@ Direction east~
 ToRoom    43220
 Desc      Huhuran's garden.~
 #ENDEXIT
-Reset O 43109 10 43260
+Reset O 43109 10 43260 0
 #ENDROOM
 
 #ROOM
@@ -2203,7 +2203,7 @@ Direction north~
 ToRoom    43291
 Desc      Cell 27.~
 #ENDEXIT
-Reset O 43118 10 43290
+Reset O 43118 10 43290 0
 #ENDROOM
 
 #ROOM
@@ -2393,7 +2393,7 @@ Direction north~
 ToRoom    43301
 Desc      Cell 37.~
 #ENDEXIT
-Reset O 43102 10 43300
+Reset O 43102 10 43300 0
 #ENDROOM
 
 #ROOM
@@ -2579,7 +2579,7 @@ Direction north~
 ToRoom    43311
 Desc      Cell 47.~
 #ENDEXIT
-Reset O 43139 10 43310
+Reset O 43139 10 43310 0
 #ENDROOM
 
 #ROOM
@@ -2765,7 +2765,7 @@ Direction north~
 ToRoom    43321
 Desc      Cell 57.~
 #ENDEXIT
-Reset O 43119 10 43320
+Reset O 43119 10 43320 0
 #ENDROOM
 
 #ROOM
@@ -2951,7 +2951,7 @@ Direction north~
 ToRoom    43331
 Desc      Cell 67.~
 #ENDEXIT
-Reset O 43118 10 43330
+Reset O 43118 10 43330 0
 #ENDROOM
 
 #ROOM
@@ -3137,7 +3137,7 @@ Direction north~
 ToRoom    43341
 Desc      Cell 77.~
 #ENDEXIT
-Reset O 43102 10 43340
+Reset O 43102 10 43340 0
 #ENDROOM
 
 #ROOM

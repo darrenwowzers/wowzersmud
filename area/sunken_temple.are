@@ -678,8 +678,8 @@ Affect   17 -20 0 0 0
 
 #OBJECT
 Vnum     19532
-Keywords dragonclaw ring jewelry~
-Type     jewelry~
+Keywords dragonclaw ring rune~
+Type     rune~
 Short    a Dragonclaw Signet~
 Long     A ring made of solid obsidian, carved in the shape of a claw.~
 WFlags   take finger~
@@ -759,8 +759,8 @@ Affect   3 12 0 0 0
 
 #OBJECT
 Vnum     19538
-Keywords atal'ai medallion jewelry~
-Type     jewelry~
+Keywords atal'ai medallion rune~
+Type     rune~
 Short    an Atal'ai Medallion~
 Long     A heavy iron medallion marked with the Blood God's seal.~
 WFlags   take neck~

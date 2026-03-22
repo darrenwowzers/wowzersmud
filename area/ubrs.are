@@ -1165,7 +1165,7 @@ Affect   14 20 0 0 0
 #OBJECT
 Vnum     40054
 Keywords blackhand medallion jewelry necklace~
-Type     jewelry~
+Type     rune~
 Short    a Blackhand Medallion~
 Long     A heavy iron medallion marked with the seal of the Dark Horde.~
 WFlags   take neck~
@@ -1284,8 +1284,8 @@ Affect   17 -20 0 0 0
 
 #OBJECT
 Vnum     40063
-Keywords bloodaxe signet ring jewelry~
-Type     jewelry~
+Keywords bloodaxe signet ring rune~
+Type     rune~
 Short    a Bloodaxe Signet Ring~
 Long     A gold ring featuring the fanned anvil of the Dark Horde.~
 WFlags   take finger~
@@ -1521,8 +1521,8 @@ Affect   12 20 0 0 0
 
 #OBJECT
 Vnum     40081
-Keywords seal ascension ring jewelry~
-Type     jewelry~
+Keywords seal ascension ring rune~
+Type     rune~
 Short    the Seal of Ascension~
 Long     A heavy platinum ring that hums with the power of the high peaks.~
 WFlags   take finger~
@@ -2705,7 +2705,7 @@ Direction north~
 ToRoom    40131
 Desc      Beast's lair.~
 #ENDEXIT
-Reset O 40093 10 40179
+Reset O 0 40093 10 40179
 #ENDROOM
 
 #ROOM

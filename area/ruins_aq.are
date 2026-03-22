@@ -843,8 +843,8 @@ Affect   18 10 0 0 0
 
 #OBJECT
 Vnum     42602
-Keywords signet unscarred ring jewelry~
-Type     jewelry~
+Keywords signet unscarred ring rune~
+Type     rune~
 Short    the Signet of the Unscarred~
 Long     A massive gold ring featuring the unblinking eye of Ossirian.~
 WFlags   take finger~
@@ -962,7 +962,7 @@ Affect   1 15 0 0 0
 #OBJECT
 Vnum     42611
 Keywords moam's eye jewelry neck~
-Type     jewelry~
+Type     rune~
 Short    Moam's Eye~
 Long     A necklace featuring a large, multi-faceted obsidian eye.~
 WFlags   take neck~
@@ -1094,8 +1094,8 @@ Affect   2 15 0 0 0
 
 #OBJECT
 Vnum     42621
-Keywords qiraji signet ring jewelry~
-Type     jewelry~
+Keywords qiraji signet ring rune~
+Type     rune~
 Short    a Qiraji Signet Ring~
 Long     A gold ring featuring the sigil of the Shifting Sands.~
 WFlags   take finger~
@@ -1856,7 +1856,7 @@ Direction east~
 ToRoom    42732
 Desc      West Road 3.~
 #ENDEXIT
-Reset O 42616 10 42731
+Reset O 42616 10 42731 0
 #ENDROOM
 
 #ROOM
@@ -1919,7 +1919,7 @@ Direction north~
 ToRoom    42800
 Desc      Reservoir entry.~
 #ENDEXIT
-Reset O 42621 1 42821
+Reset O 42621 1 42821 0
 #ENDROOM
 
 #ROOM
@@ -2157,7 +2157,7 @@ Direction north~
 ToRoom    42851
 Desc      Ossirian's hall.~
 #ENDEXIT
-Reset O 42620 10 42871
+Reset O 42620 10 42871 0
 #ENDROOM
 
 #ROOM
@@ -2387,7 +2387,7 @@ Direction east~
 ToRoom    42801
 Desc      Moam's pit.~
 #ENDEXIT
-Reset O 42608 5 42806
+Reset O 42608 5 42806 0
 #ENDROOM
 
 #ROOM
@@ -2664,7 +2664,7 @@ Direction south~
 ToRoom    42701
 Desc      Entry plaza.~
 #ENDEXIT
-Reset O 42616 10 42838
+Reset O 42616 10 42838 0
 #ENDROOM
 
 #ROOM
@@ -2857,7 +2857,7 @@ Direction south~
 ToRoom    42838
 Desc      High Garden.~
 #ENDEXIT
-Reset O 42616 10 42872
+Reset O 42616 10 42872 0
 #ENDROOM
 
 #ROOM

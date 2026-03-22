@@ -933,8 +933,8 @@ Affect   18 10 0 0 0
 
 #OBJECT
 Vnum     20042
-Keywords emperor's seal ring jewelry~
-Type     jewelry~
+Keywords emperor's seal ring rune~
+Type     rune~
 Short    the Emperor's Seal~
 Long     A massive gold ring featuring the fanned anvil of the Dark Irons.~
 WFlags   take finger~
@@ -1064,8 +1064,8 @@ Affect   5 10 0 0 0
 
 #OBJECT
 Vnum     20052
-Keywords angerforge medal jewelry~
-Type     jewelry~
+Keywords angerforge medal rune~
+Type     rune~
 Short    the Medal of Angerforge~
 Long     A heavy bronze medal given for bravery in the Dark Iron army.~
 WFlags   take neck~
@@ -1077,8 +1077,8 @@ Affect   1 10 0 0 0
 
 #OBJECT
 Vnum     20053
-Keywords golem lord's ring jewelry~
-Type     jewelry~
+Keywords golem lord's ring rune~
+Type     rune~
 Short    Argelmach's Signet Ring~
 Long     A silver ring featuring the glowing blue core of a golem.~
 WFlags   take finger~
@@ -1329,8 +1329,8 @@ Affect   3 10 0 0 0
 
 #OBJECT
 Vnum     20073
-Keywords anvilrage ring jewelry~
-Type     jewelry~
+Keywords anvilrage ring rune~
+Type     rune~
 Short    an Anvilrage Officer's Ring~
 Long     A bronze ring featuring a miniature iron anvil.~
 WFlags   take finger~
@@ -1368,8 +1368,8 @@ Affect   13 10 0 0 0
 
 #OBJECT
 Vnum     20076
-Keywords gorgon's eye jewelry~
-Type     jewelry~
+Keywords gorgon's eye rune~
+Type     rune~
 Short    a Gorgon's Eye Amulet~
 Long     A stone amulet that protects against the heat of the forge.~
 WFlags   take neck~
@@ -1668,7 +1668,7 @@ Direction east~
 ToRoom    20110
 Desc      Toward the city residential district.~
 #ENDEXIT
-Reset M 20036 5 20090
+Reset M 0 20036 5 20090
 #ENDROOM
 
 #ROOM

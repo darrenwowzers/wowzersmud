@@ -953,7 +953,7 @@ Rarity   2
 #ENDOBJECT
 
 #OBJECT
-#40608
+Vnum     40608
 Keywords tiger pelt fur trophy~
 Type     trash~
 Short    a thick zulian tiger pelt~
@@ -994,7 +994,7 @@ Affect   1 15 0 0 0
 #OBJECT
 Vnum     40611
 Keywords mar'li's eye jewelry neck~
-Type     jewelry~
+Type     rune~
 Short    Mar'li's Eye~
 Long     A necklace featuring a large, multi-faceted spider eye.~
 WFlags   take neck~
@@ -1127,7 +1127,7 @@ Affect   2 15 0 0 0
 #OBJECT
 Vnum     40621
 Keywords zandalar signet jewelry ring~
-Type     jewelry~
+Type     rune~
 Short    a Zandalar Signet Ring~
 Long     A gold ring featuring the sigil of the island of Zandalar.~
 WFlags   take finger~
@@ -2023,7 +2023,7 @@ Direction east~
 ToRoom    40732
 Desc      West Path 3.~
 #ENDEXIT
-Reset O 40616 10 40731
+Reset O 0 40616 10 40731
 #ENDROOM
 
 #ROOM
@@ -2086,7 +2086,7 @@ Direction north~
 ToRoom    40810
 Desc      Panther path entrance.~
 #ENDEXIT
-Reset O 40621 1 40821
+Reset O 0 40621 1 40821
 #ENDROOM
 
 #ROOM
@@ -2327,7 +2327,7 @@ Direction north~
 ToRoom    40855
 Desc      Hakkar's summit.~
 #ENDEXIT
-Reset O 40620 10 40871
+Reset O 0 40620 10 40871
 #ENDROOM
 
 #ROOM
@@ -2557,7 +2557,7 @@ Direction east~
 ToRoom    40801
 Desc      Thekkal's gates.~
 #ENDEXIT
-Reset O 40608 5 40806
+Reset O 0 40608 5 40806
 #ENDROOM
 
 #ROOM
@@ -2866,7 +2866,7 @@ Direction south~
 ToRoom    40701
 Desc      Entry courtyard.~
 #ENDEXIT
-Reset O 40616 10 40838
+Reset O 0 40616 10 40838
 #ENDROOM
 
 #ROOM
@@ -3057,7 +3057,7 @@ Direction south~
 ToRoom    40838
 Desc      High Garden.~
 #ENDEXIT
-Reset O 40616 10 40872
+Reset O 40616 10 40872 0
 #ENDROOM
 
 #ROOM

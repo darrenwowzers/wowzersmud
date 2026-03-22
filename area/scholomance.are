@@ -953,8 +953,8 @@ Affect   14 20 0 0 0
 
 #OBJECT
 Vnum     21544
-Keywords kirtonos's collar neck jewelry~
-Type     jewelry~
+Keywords kirtonos's collar neck rune~
+Type     rune~
 Short    Kirtonos's Spiked Collar~
 Long     A heavy iron collar taken from a blood-drinking gargoyle.~
 WFlags   take neck~
@@ -995,8 +995,8 @@ Affect   5 12 0 0 0
 
 #OBJECT
 Vnum     21547
-Keywords polkelt's signet ring jewelry~
-Type     jewelry~
+Keywords polkelt's signet ring rune~
+Type     rune~
 Short    Polkelt's Signet Ring~
 Long     A gold ring featuring the unblinking eye of a scholar.~
 WFlags   take finger~
@@ -1316,8 +1316,8 @@ Affect   14 25 0 0 0
 
 #OBJECT
 Vnum     21572
-Keywords master's ring jewelry~
-Type     jewelry~
+Keywords master's ring rune~
+Type     rune~
 Short    the Headmaster's Signet~
 Long     A platinum ring featuring a large, glowing red eye.~
 WFlags   take finger~
@@ -1354,8 +1354,8 @@ Rarity   1
 
 #OBJECT
 Vnum     21575
-Keywords barov family seal jewelry~
-Type     jewelry~
+Keywords barov family seal rune~
+Type     rune~
 Short    the Barov Family Seal~
 Long     A silver medallion marked with the family's three-rose crest.~
 WFlags   take neck~
@@ -1924,7 +1924,7 @@ ToRoom    21636
 Desc      Toward the Study.~
 #ENDEXIT
 Reset M 0 21510 1 21631
-  Reset G 21577 1
+  Reset G 0 21577 1
 #ENDROOM
 
 #ROOM
