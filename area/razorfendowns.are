@@ -10,7 +10,7 @@ Economy      0 25000000
 #ENDAREADATA
 
 #MOBILE
-Vnum       27000
+Vnum       29500
 Keywords   death's head necromancer human~
 Short      a Death's Head Necromancer~
 Long       A Death's Head Necromancer weaves a web of shadow energy.
@@ -36,7 +36,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       27001
+Vnum       29501
 Keywords   withered quilboar zombie~
 Short      a Withered Quilboar~
 Long       A Withered Quilboar shuffles forward, its flesh hanging in tatters.
@@ -61,7 +61,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       27002
+Vnum       29502
 Keywords   death's head warder skeleton~
 Short      a Death's Head Warder~
 Long       A skeletal Death's Head Warder stands guard, clutching a rusted blade.
@@ -86,7 +86,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       27003
+Vnum       29503
 Keywords   tuten'kash spider boss undead~
 Short      Tuten'kash~
 Long       The massive undead spider Tuten'kash descends from the ceiling.
@@ -109,7 +109,7 @@ Attribs    22 20 20 6 6 6 6
 #ENDMOBILE
 
 #MOBILE
-Vnum       27004
+Vnum       29504
 Keywords   mordresh fire eye skeletal mage boss~
 Short      Mordresh Fire Eye~
 Long       Mordresh Fire Eye cackles, his hollow sockets glowing with flame.
@@ -132,7 +132,7 @@ Attribs    10 14 14 24 22 12 12
 #ENDMOBILE
 
 #MOBILE
-Vnum       27005
+Vnum       29505
 Keywords   glutton abomination boss~
 Short      Glutton~
 Long       The massive abomination Glutton lumbers forward, dripping ichor.
@@ -155,7 +155,7 @@ Attribs    26 6 25 4 4 4 4
 #ENDMOBILE
 
 #MOBILE
-Vnum       27006
+Vnum       29506
 Keywords   ragglesnout rare boar beast~
 Short      Ragglesnout~
 Long       A massive, scarred boar snorts a mixture of dust and dried blood.
@@ -177,7 +177,7 @@ Attribs    22 10 20 6 6 6 6
 #ENDMOBILE
 
 #MOBILE
-Vnum       27007
+Vnum       29507
 Keywords   amnennar coldbringer lich boss final~
 Short      Amnennar the Coldbringer~
 Long       Amnennar the Coldbringer floats above the ice, his gaze freezing.
@@ -200,7 +200,7 @@ Attribs    18 18 20 28 26 20 20
 #ENDMOBILE
 
 #MOBILE
-Vnum       27008
+Vnum       29508
 Keywords   death's head priest undead~
 Short      a Death's Head Priest~
 Long       An undead priest channel's dark shadow to mend rotting flesh.
@@ -222,7 +222,7 @@ Attribs    12 12 14 22 20 12 12
 #ENDMOBILE
 
 #MOBILE
-Vnum       27009
+Vnum       29509
 Keywords   thornling sprout plant~
 Short      a Thornling Sprout~
 Long       A small, aggressive bundle of thorns lashes out at your feet.
@@ -244,7 +244,7 @@ Attribs    14 16 14 6 6 4 4
 #ENDMOBILE
 
 #MOBILE
-Vnum       27010
+Vnum       29510
 Keywords   plagued ghoul undead~
 Short      a Plagued Ghoul~
 Long       A Plagued Ghoul scratches at the ground with elongated claws.
@@ -266,7 +266,7 @@ Attribs    16 18 14 8 8 8 8
 #ENDMOBILE
 
 #MOBILE
-Vnum       27011
+Vnum       29511
 Keywords   coldwraith spirit undead~
 Short      a Coldwraith~
 Long       A freezing mist coalesces into the form of a screaming spirit.
@@ -288,7 +288,7 @@ Attribs    10 14 12 24 20 10 10
 #ENDMOBILE
 
 #MOBILE       
-Vnum       27012
+Vnum       29512
 Keywords   death's head overseer~
 Short      a Death's Head Overseer~
 Long       A tall quilboar zombie stands over a group of laborers.
@@ -310,7 +310,7 @@ Attribs    22 10 20 10 10 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       27013
+Vnum       29513
 Keywords   flesh-eating bat beast~
 Short      a Flesh-eating Bat~
 Long       A bat with a blood-stained muzzle circles the ceiling.
@@ -332,7 +332,7 @@ Attribs    14 20 12 6 6 4 4
 #ENDMOBILE
 
 #MOBILE
-Vnum       27014
+Vnum       29514
 Keywords   bone-cruncher hyena~
 Short      a Bone-cruncher Hyena~
 Long       A skeletal hyena snaps its jaw, searching for marrow.
@@ -354,7 +354,7 @@ Attribs    16 16 16 4 4 4 4
 #ENDMOBILE
 
 #MOBILE
-Vnum       27015
+Vnum       29515
 Keywords   razorfen spirit-talker~
 Short      a Razorfen Spirit-talker~
 Long       A ghost of a quilboar shaman floats silently in the corner.
@@ -376,7 +376,7 @@ Attribs    12 12 14 24 22 15 15
 #ENDMOBILE
 
 #MOBILE
-Vnum       27016
+Vnum       29516
 Keywords   shadow-web spider~
 Short      a Shadow-web Spider~
 Long       A spider covered in dark, wispy hair skitters across the wall.
@@ -398,7 +398,7 @@ Attribs    14 18 16 6 6 4 4
 #ENDMOBILE
 
 #MOBILE
-Vnum       27017
+Vnum       29517
 Keywords   skeletal conqueror~
 Short      a Skeletal Conqueror~
 Long       An armored skeleton stands with a massive heavy shield.
@@ -420,7 +420,7 @@ Attribs    24 10 22 4 4 4 4
 #ENDMOBILE
 
 #MOBILE
-Vnum       27018
+Vnum       29518
 Keywords   death's head geomancer~
 Short      a Death's Head Geomancer~
 Long       An undead quilboar pulls shards of ice from the air.
@@ -442,7 +442,7 @@ Attribs    12 14 14 24 22 10 10
 #ENDMOBILE
 
 #MOBILE
-Vnum       27019
+Vnum       29519
 Keywords   putrid slime blob~
 Short      a Putrid Slime~
 Long       A pile of green, bubbling ooze slides across the floor.
@@ -464,7 +464,7 @@ Attribs    18 4 20 4 4 4 4
 #ENDMOBILE
 
 #OBJECT
-Vnum     27020
+Vnum     29520
 Keywords Amnennar Coldbringer staff weapon~
 Type     weapon~
 Short    Amnennar's Coldbringer~
@@ -478,7 +478,7 @@ Affect -1 -1 6 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27021
+Vnum     29521
 Keywords Icemetal Pauldrons shoulder armor~
 Type     armor~
 Short    a pair of Icemetal Pauldrons~
@@ -492,7 +492,7 @@ Affect -1 -1 10 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27022
+Vnum     29522
 Keywords Robes Lich cloth body armor~
 Type     armor~
 Short    the Robes of the Lich~
@@ -506,7 +506,7 @@ Affect -1 -1 5 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27023
+Vnum     29523
 Keywords Coldrage Dagger weapon~
 Type     weapon~
 Short    the Coldrage Dagger~
@@ -519,7 +519,7 @@ Affect -1 -1 8 2 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27024
+Vnum     29524
 Keywords Spiderfang Carapace plate armor body~
 Type     armor~
 Short    the Spiderfang Carapace~
@@ -532,7 +532,7 @@ Affect -1 -1 12 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27025
+Vnum     29525
 Keywords Mordresh Flaming Finger ring jewelry~
 Type     treasure~
 Short    Mordresh's Flaming Finger~
@@ -545,7 +545,7 @@ Affect -1 -1 7 3 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27026
+Vnum     29526
 Keywords Glutton Cleaver axe weapon~
 Type     weapon~
 Short    Glutton's Cleaver~
@@ -559,7 +559,7 @@ Affect -1 -1 6 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27027
+Vnum     29527
 Keywords Flesh-eating Helmet head armor~
 Type     armor~
 Short    the Flesh-eating Helmet~
@@ -573,7 +573,7 @@ Affect -1 -1 8 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27028
+Vnum     29528
 Keywords Death's Head Vestments cloth body armor~
 Type     armor~
 Short    Death's Head Vestments~
@@ -587,7 +587,7 @@ Affect -1 -1 3 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27029
+Vnum     29529
 Keywords Withered Quilboar Tusk treasure~
 Type     treasure~
 Short    a Withered Quilboar Tusk~
@@ -599,7 +599,7 @@ Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27030
+Vnum     29530
 Keywords Rusted Grave-Digger polearm weapon~
 Type     weapon~
 Short    a Rusted Grave-Digger~
@@ -612,7 +612,7 @@ Affect -1 -1 6 1 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27031
+Vnum     29531
 Keywords Bone-Link Fetish necklace jewelry~
 Type     treasure~
 Short    a Bone-Link Fetish~
@@ -626,7 +626,7 @@ Affect -1 -1 2 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27032
+Vnum     29532
 Keywords Plague-Tainted Bandage salve~
 Type     salve~
 Short    a Plague-Tainted Bandage~
@@ -638,7 +638,7 @@ Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27033
+Vnum     29533
 Keywords Skeletal Shield armor~
 Type     armor~
 Short    a Skeletal Shield~
@@ -651,7 +651,7 @@ Affect -1 -1 6 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27034
+Vnum     29534
 Keywords Icy Mantle shoulder armor~
 Type     armor~
 Short    an Icy Mantle~
@@ -665,31 +665,31 @@ Affect -1 -1 4 5 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27035
+Vnum     29535
 Keywords small brass key spiral~
 Type     key~
 Short    a Small Brass Key~
 Long     A small key used to access the inner chambers of the Spiral.~
 WFlags   take~
-Values   27035 0 0 0 0 0
+Values   29535 0 0 0 0 0
 Stats    1 0 1 0 0
 Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27036
+Vnum     29536
 Keywords heavy iron key Amnennar~
 Type     key~
 Short    a Heavy Iron Key~
 Long     A massive key stamped with the skull of the Scourge.~
 WFlags   take~
-Values   27036 0 0 0 0 0
+Values   29536 0 0 0 0 0
 Stats    1 0 1 0 0
 Rarity   0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27037
+Vnum     29537
 Keywords Coldwraith Essence treasure~
 Type     treasure~
 Short    a Coldwraith Essence~
@@ -702,7 +702,7 @@ Affect -1 -1 4 4 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27038
+Vnum     29538
 Keywords Lich Phylactery Fragment treasure~
 Type     treasure~
 Short    a Phylactery Fragment~
@@ -715,7 +715,7 @@ Affect -1 -1 5 3 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     27039
+Vnum     29539
 Keywords Necromancer Ledger treasure hold~
 Type     treasure~
 Short    a Necromancer's Ledger~
@@ -728,7 +728,7 @@ Affect -1 -1 4 3 0
 #ENDOBJECT
 
 #ROOM
-Vnum     27040
+Vnum     29540
 Name     &xThe Downs Entrance&d~
 Sector   underground~
 Flags    indoors~
@@ -745,13 +745,13 @@ Desc      Return to the southern Barrens.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27041
+ToRoom    29541
 Desc      The path leads into the darkness.~
 #ENDEXIT
 #ENDROOM
 
 #ROOM
-Vnum     27041
+Vnum     29541
 Name     &xThe Withered Path&d~
 Sector   underground~
 Flags    indoors~
@@ -762,19 +762,19 @@ carried on a freezing wind.
 ~
 #EXIT
 Direction south~
-ToRoom    27040
+ToRoom    29540
 Desc      The entrance portal.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27042
+ToRoom    29542
 Desc      The path continues.~
 #ENDEXIT
-Reset M 0 27001 10 27041
+Reset M 0 29501 10 29541
 #ENDROOM
 
 #ROOM
-Vnum     27042
+Vnum     29542
 Name     &xThe Withered Path - Bend&d~
 Sector   underground~
 Flags    indoors~
@@ -784,25 +784,25 @@ north, toward a large, shadowy chamber.
 ~
 #EXIT
 Direction south~
-ToRoom    27041
+ToRoom    29541
 Desc      The entry path.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    27046
+ToRoom    29546
 Desc      The entrance to the Spiral.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27043
+ToRoom    29543
 Desc      The path to the central plaza.~
 #ENDEXIT
-Reset M 0 27014 10 27042
-Reset O 0 27029 10 27042
+Reset M 0 29514 10 29542
+Reset O 0 29529 10 29542
 #ENDROOM
 
 #ROOM
-Vnum     27043
+Vnum     29543
 Name     &xEntry to the Bone-Strewn Plaza&d~
 Sector   underground~
 Flags    indoors~
@@ -812,19 +812,19 @@ glowing with a dim, purple light.
 ~
 #EXIT
 Direction south~
-ToRoom    27042
+ToRoom    29542
 Desc      The withered path.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27044
+ToRoom    29544
 Desc      The central plaza.~
 #ENDEXIT
-Reset M 0 27002 10 27043
+Reset M 0 29502 10 29543
 #ENDROOM
 
 #ROOM
-Vnum     27044
+Vnum     29544
 Name     &xThe Bone-Strewn Plaza - South&d~
 Sector   underground~
 Flags    indoors~
@@ -834,25 +834,25 @@ Zombies shuffle aimlessly between piles of debris.
 ~
 #EXIT
 Direction north~
-ToRoom    27051
+ToRoom    29551
 Desc      The path to the Cathedral.~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    27043
+ToRoom    29543
 Desc      The entry hall.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    27045
+ToRoom    29545
 Desc      A small side chamber.~
 #ENDEXIT
-Reset M 0 27001 10 27044
-Reset O 0 27032 10 27044
+Reset M 0 29501 10 29544
+Reset O 0 29532 10 29544
 #ENDROOM
 
 #ROOM
-Vnum     27045
+Vnum     29545
 Name     &xSide Chamber of Decay&d~
 Sector   underground~
 Flags    indoors~
@@ -861,15 +861,15 @@ stench of rot is nearly physical here.
 ~
 #EXIT
 Direction east~
-ToRoom    27044
+ToRoom    29544
 Desc      Return to the plaza.~
 #ENDEXIT
-Reset M 0 27010 10 27045
-Reset O 0 27031 5 27045
+Reset M 0 29510 10 29545
+Reset O 0 29531 5 29545
 #ENDROOM
 
 #ROOM
-Vnum     27046
+Vnum     29546
 Name     &cThe Spiral - Webbed Entrance&d~
 Sector   underground~
 Flags    indoors~
@@ -879,19 +879,19 @@ just beyond the reach of your light.
 ~
 #EXIT
 Direction west~
-ToRoom    27042
+ToRoom    29542
 Desc      Return to the main path.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    27047
+ToRoom    29547
 Desc      The spiral corridor.~
 #ENDEXIT
-Reset M 0 27016 10 27046
+Reset M 0 29516 10 29546
 #ENDROOM
 
 #ROOM
-Vnum     27047
+Vnum     29547
 Name     &cThe Spiral - Corridor&d~
 Sector   underground~
 Flags    indoors~
@@ -901,24 +901,24 @@ the ceiling, some of them still twitching.
 ~
 #EXIT
 Direction west~
-ToRoom    27046
+ToRoom    29546
 Desc      The entrance.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27048
+ToRoom    29548
 Desc      A side burrow.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    27049
+ToRoom    29549
 Desc      The approach to the lair.~
 #ENDEXIT
-Reset M 0 27016 10 27047
+Reset M 0 29516 10 29547
 #ENDROOM
 
 #ROOM
-Vnum     27048
+Vnum     29548
 Name     &cThe Spiral - Side Burrow&d~
 Sector   underground~
 Flags    indoors~
@@ -927,15 +927,15 @@ insects and small beasts.
 ~
 #EXIT
 Direction south~
-ToRoom    27047
+ToRoom    29547
 Desc      The corridor.~
 #ENDEXIT
-Reset M 0 27013 10 27048
-Reset O 0 27035 1 27048
+Reset M 0 29513 10 29548
+Reset O 0 29535 1 29548
 #ENDROOM
 
 #ROOM
-Vnum     27049
+Vnum     29549
 Name     &cThe Spiral - Lair Approach&d~
 Sector   underground~
 Flags    indoors~
@@ -945,19 +945,19 @@ over stone is deafening.
 ~
 #EXIT
 Direction west~
-ToRoom    27047
+ToRoom    29547
 Desc      The corridor.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27050
+ToRoom    29550
 Desc      Tuten'kash's Lair.~
 #ENDEXIT
-Reset M 0 27016 10 27049
+Reset M 0 29516 10 29549
 #ENDROOM
 
 #ROOM
-Vnum     27050
+Vnum     29550
 Name     &cTuten'kash's Webbed Lair&d~
 Sector   underground~
 Flags    indoors~
@@ -967,15 +967,15 @@ reflecting your light with a cold hunger.
 ~
 #EXIT
 Direction south~
-ToRoom    27049
+ToRoom    29549
 Desc      The approach.~
 #ENDEXIT
-Reset M 0 27003 1 27050
-  Reset G 1 27024 1
+Reset M 0 29503 1 29550
+  Reset G 1 29524 1
 #ENDROOM
 
 #ROOM
-Vnum     27051
+Vnum     29551
 Name     &rThe Bone Cathedral - Entrance&d~
 Sector   underground~
 Flags    indoors~
@@ -985,19 +985,19 @@ in blasphemous murals.
 ~
 #EXIT
 Direction south~
-ToRoom    27044
+ToRoom    29544
 Desc      The plaza.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27052
+ToRoom    29552
 Desc      The nave.~
 #ENDEXIT
-Reset M 0 27008 10 27051
+Reset M 0 29508 10 29551
 #ENDROOM
 
 #ROOM
-Vnum     27052
+Vnum     29552
 Name     &rThe Bone Cathedral - Nave&d~
 Sector   underground~
 Flags    indoors~
@@ -1007,24 +1007,24 @@ a low, soul-chilling dirge.
 ~
 #EXIT
 Direction south~
-ToRoom    27051
+ToRoom    29551
 Desc      The entrance.~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    27053
+ToRoom    29553
 Desc      The eastern transept.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27054
+ToRoom    29554
 Desc      Mordresh's Altar.~
 #ENDEXIT
-Reset M 0 27000 10 27052
+Reset M 0 29500 10 29552
 #ENDROOM
 
 #ROOM
-Vnum     27053
+Vnum     29553
 Name     &rThe Bone Cathedral - Transept&d~
 Sector   underground~
 Flags    indoors~
@@ -1034,15 +1034,15 @@ hardened blood.
 ~
 #EXIT
 Direction west~
-ToRoom    27052
+ToRoom    29552
 Desc      The nave.~
 #ENDEXIT
-Reset M 0 27002 10 27053
-Reset O 0 27033 5 27053
+Reset M 0 29502 10 29553
+Reset O 0 29533 5 29553
 #ENDROOM
 
 #ROOM
-Vnum     27054
+Vnum     29554
 Name     &rMordresh's Altar of Fire&d~
 Sector   underground~
 Flags    indoors~
@@ -1053,20 +1053,20 @@ ash.
 ~
 #EXIT
 Direction south~
-ToRoom    27052
+ToRoom    29552
 Desc      The nave.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27056
+ToRoom    29556
 Desc      The descent to the Sewers.~
 #ENDEXIT
-Reset M 0 27004 1 27054
-  Reset G 1 27025 1
+Reset M 0 29504 1 29554
+  Reset G 1 29525 1
 #ENDROOM
 
 #ROOM
-Vnum     27055
+Vnum     29555
 Name     &rCathedral Secret Passage&d~
 Sector   underground~
 Flags    indoors dark~
@@ -1075,15 +1075,15 @@ filled with dust and cobwebs.
 ~
 #EXIT
 Direction south~
-ToRoom    27054
+ToRoom    29554
 Desc      Return to the altar.~
 #ENDEXIT
-Reset M 0 27010 10 27055
-Reset O 0 27039 5 27055
+Reset M 0 29510 10 29555
+Reset O 0 29539 5 29555
 #ENDROOM
 
 #ROOM
-Vnum     27056
+Vnum     29556
 Name     &gThe Abomination Wing - Descent&d~
 Sector   underground~
 Flags    indoors~
@@ -1092,18 +1092,18 @@ into a series of damp, slime-slicked tunnels.
 ~
 #EXIT
 Direction south~
-ToRoom    27054
+ToRoom    29554
 Desc      The Cathedral.~
 #ENDEXIT
 #EXIT
 Direction down~
-ToRoom    27057
+ToRoom    29557
 Desc      The lower sewers.~
 #ENDEXIT
 #ENDROOM
 
 #ROOM
-Vnum     27057
+Vnum     29557
 Name     &gThe Lower Sewers - Junction&d~
 Sector   underground~
 Flags    indoors~
@@ -1113,24 +1113,24 @@ the damp walls.
 ~
 #EXIT
 Direction up~
-ToRoom    27056
+ToRoom    29556
 Desc      Return to the ascent.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27058
+ToRoom    29558
 Desc      The abomination corridor.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    27061
+ToRoom    29561
 Desc      The high tunnels.~
 #ENDEXIT
-Reset M 0 27019 10 27057
+Reset M 0 29519 10 29557
 #ENDROOM
 
 #ROOM
-Vnum     27058
+Vnum     29558
 Name     &gThe Abomination Corridor&d~
 Sector   underground~
 Flags    indoors~
@@ -1139,20 +1139,20 @@ forms of the stitched horrors that patrol this wing.
 ~
 #EXIT
 Direction south~
-ToRoom    27057
+ToRoom    29557
 Desc      The junction.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27059
+ToRoom    29559
 Desc      The feeding grounds.~
 #ENDEXIT
-Reset M 0 27012 10 27058
-Reset O 0 27027 5 27058
+Reset M 0 29512 10 29558
+Reset O 0 29527 5 29558
 #ENDROOM
 
 #ROOM
-Vnum     27059
+Vnum     29559
 Name     &gThe Feeding Grounds&d~
 Sector   underground~
 Flags    indoors~
@@ -1161,20 +1161,20 @@ is a gruesome sight, even for the Downs.
 ~
 #EXIT
 Direction south~
-ToRoom    27058
+ToRoom    29558
 Desc      The corridor.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27060
+ToRoom    29560
 Desc      Glutton's Lair.~
 #ENDEXIT
-Reset M 0 27010 10 27059
-Reset O 0 27030 5 27059
+Reset M 0 29510 10 29559
+Reset O 0 29530 5 29559
 #ENDROOM
 
 #ROOM
-Vnum     27060
+Vnum     29560
 Name     &gGlutton's Lair&d~
 Sector   underground~
 Flags    indoors~
@@ -1184,15 +1184,15 @@ clutching rusted meat hooks and jagged cleavers.
 ~
 #EXIT
 Direction south~
-ToRoom    27059
+ToRoom    29559
 Desc      The feeding grounds.~
 #ENDEXIT
-Reset M 0 27005 1 27060
-  Reset E 1 27026 1 16
+Reset M 0 29505 1 29560
+  Reset E 1 29526 1 16
 #ENDROOM
 
 #ROOM
-Vnum     27061
+Vnum     29561
 Name     &xThe High Tunnels - Entrance&d~
 Sector   underground~
 Flags    indoors~
@@ -1202,19 +1202,19 @@ than the lower wings.
 ~
 #EXIT
 Direction east~
-ToRoom    27057
+ToRoom    29557
 Desc      The sewer junction.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    27062
+ToRoom    29562
 Desc      The western tunnels.~
 #ENDEXIT
-Reset M 0 27009 10 27061
+Reset M 0 29509 10 29561
 #ENDROOM
 
 #ROOM
-Vnum     27062
+Vnum     29562
 Name     &xThe High Tunnels - Crossroads&d~
 Sector   underground~
 Flags    indoors~
@@ -1223,29 +1223,29 @@ several side burrows used by the tribe's animals.
 ~
 #EXIT
 Direction east~
-ToRoom    27061
+ToRoom    29561
 Desc      The entrance tunnel.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27063
+ToRoom    29563
 Desc      A small burrow.~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    27064
+ToRoom    29564
 Desc      A small burrow.~
 #ENDEXIT
 #EXIT
 Direction west~
-ToRoom    27066
+ToRoom    29566
 Desc      The Frozen Ascent.~
 #ENDEXIT
-Reset M 0 27014 10 27062
+Reset M 0 29514 10 29562
 #ENDROOM
 
 #ROOM
-Vnum     27063
+Vnum     29563
 Name     &xHigh Tunnel Burrow - North&d~
 Sector   underground~
 Flags    indoors~
@@ -1254,14 +1254,14 @@ rest and feed.
 ~
 #EXIT
 Direction south~
-ToRoom    27062
+ToRoom    29562
 Desc      The crossroads.~
 #ENDEXIT
-Reset M 0 27006 1 27063
+Reset M 0 29506 1 29563
 #ENDROOM
 
 #ROOM
-Vnum     27064
+Vnum     29564
 Name     &xHigh Tunnel Burrow - South&d~
 Sector   underground~
 Flags    indoors~
@@ -1270,15 +1270,15 @@ old leather.
 ~
 #EXIT
 Direction north~
-ToRoom    27062
+ToRoom    29562
 Desc      The crossroads.~
 #ENDEXIT
-Reset M 0 27009 10 27064
-Reset O 0 27037 10 27064
+Reset M 0 29509 10 29564
+Reset O 0 29537 10 29564
 #ENDROOM
 
 #ROOM
-Vnum     27065
+Vnum     29565
 Name     &xThe Secret Nest&d~
 Sector   underground~
 Flags    indoors dark~
@@ -1287,15 +1287,15 @@ by climbing the thick thorns.
 ~
 #EXIT
 Direction down~
-ToRoom    27062
+ToRoom    29562
 Desc      Return to the crossroads.~
 #ENDEXIT
-Reset M 0 27013 10 27065
-Reset O 0 27038 1 27065
+Reset M 0 29513 10 29565
+Reset O 0 29538 1 29565
 #ENDROOM
 
 #ROOM
-Vnum     27066
+Vnum     29566
 Name     &cThe Frozen Ascent - Entry&d~
 Sector   underground~
 Flags    indoors~
@@ -1305,19 +1305,19 @@ domain of Amnennar.
 ~
 #EXIT
 Direction east~
-ToRoom    27062
+ToRoom    29562
 Desc      The high tunnels.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27067
+ToRoom    29567
 Desc      The stairs of frost.~
 #ENDEXIT
-Reset M 0 27011 10 27066
+Reset M 0 29511 10 29566
 #ENDROOM
 
 #ROOM
-Vnum     27067
+Vnum     29567
 Name     &cThe Stairs of Frost&d~
 Sector   underground~
 Flags    indoors~
@@ -1327,20 +1327,20 @@ magic turning the very air to glass.
 ~
 #EXIT
 Direction south~
-ToRoom    27066
+ToRoom    29566
 Desc      The ascent entry.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27068
+ToRoom    29568
 Desc      The middle landing.~
 #ENDEXIT
-Reset M 0 27018 10 27067
-Reset O 0 27034 5 27067
+Reset M 0 29518 10 29567
+Reset O 0 29534 5 29567
 #ENDROOM
 
 #ROOM
-Vnum     27068
+Vnum     29568
 Name     &cThe Middle Landing&d~
 Sector   underground~
 Flags    indoors~
@@ -1349,19 +1349,19 @@ the flickering green fires of the cathedral far below.
 ~
 #EXIT
 Direction south~
-ToRoom    27067
+ToRoom    29567
 Desc      The lower stairs.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27069
+ToRoom    29569
 Desc      The upper stairs.~
 #ENDEXIT
-Reset M 0 27017 10 27068
+Reset M 0 29517 10 29568
 #ENDROOM
 
 #ROOM
-Vnum     27069
+Vnum     29569
 Name     &cThe Upper Stairs of Frost&d~
 Sector   underground~
 Flags    indoors~
@@ -1370,20 +1370,20 @@ icicles that threaten to impale any who slip.
 ~
 #EXIT
 Direction south~
-ToRoom    27068
+ToRoom    29568
 Desc      The middle landing.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27070
+ToRoom    29570
 Desc      The spire threshold.~
 #ENDEXIT
-Reset M 0 27018 10 27069
-Reset O 0 27023 1 27069
+Reset M 0 29518 10 29569
+Reset O 0 29523 1 29569
 #ENDROOM
 
 #ROOM
-Vnum     27070
+Vnum     29570
 Name     &cThe Spire Threshold&d~
 Sector   underground~
 Flags    indoors~
@@ -1397,14 +1397,14 @@ Desc      The upper stairs.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27071
+ToRoom    29571
 Desc      Amnennar's Overlook.~
 #ENDEXIT
-Reset M 0 27011 10 27070
+Reset M 0 29511 10 29570
 #ENDROOM
 
 #ROOM
-Vnum     27071
+Vnum     29571
 Name     &cThe Coldbringer's Overlook&d~
 Sector   underground~
 Flags    indoors~
@@ -1414,19 +1414,19 @@ shimmering, purple haze.
 ~
 #EXIT
 Direction south~
-ToRoom    27070
+ToRoom    29570
 Desc      The threshold.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27072
+ToRoom    29572
 Desc      The inner sanctum corridor.~
 #ENDEXIT
-Reset M 0 27015 10 27071
+Reset M 0 29515 10 29571
 #ENDROOM
 
 #ROOM
-Vnum     27072
+Vnum     29572
 Name     &cThe Inner Sanctum Corridor&d~
 Sector   underground~
 Flags    indoors~
@@ -1435,19 +1435,19 @@ twisted forms of frozen quilboars trapped within the walls.
 ~
 #EXIT
 Direction south~
-ToRoom    27071
+ToRoom    29571
 Desc      The overlook.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27073
+ToRoom    29573
 Desc      The final corridor.~
 #ENDEXIT
-Reset M 0 27018 10 27072
+Reset M 0 29518 10 29572
 #ENDROOM
 
 #ROOM
-Vnum     27073
+Vnum     29573
 Name     &cThe Frozen Hallway&d~
 Sector   underground~
 Flags    indoors~
@@ -1457,19 +1457,19 @@ your boots.
 ~
 #EXIT
 Direction south~
-ToRoom    27072
+ToRoom    29572
 Desc      The inner corridor.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27074
+ToRoom    29574
 Desc      The approach to the throne.~
 #ENDEXIT
-Reset M 0 27017 10 27073
+Reset M 0 29517 10 29573
 #ENDROOM
 
 #ROOM
-Vnum     27074
+Vnum     29574
 Name     &cThe Throne Approach&d~
 Sector   underground~
 Flags    indoors~
@@ -1478,20 +1478,20 @@ expressionless faces.
 ~
 #EXIT
 Direction south~
-ToRoom    27073
+ToRoom    29573
 Desc      The hallway.~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    27075
+ToRoom    29575
 Desc      The Frozen Throne.~
 #ENDEXIT
-Reset M 0 27011 10 27074
-Reset O 0 27021 5 27074
+Reset M 0 29511 10 29574
+Reset O 0 29521 5 29574
 #ENDROOM
 
 #ROOM
-Vnum     27075
+Vnum     29575
 Name     &CAmnennar's Frozen Throne&d~
 Sector   underground~
 Flags    indoors~
@@ -1502,17 +1502,17 @@ grasp.
 ~
 #EXIT
 Direction south~
-ToRoom    27074
+ToRoom    29574
 Desc      The approach.~
 #ENDEXIT
-Reset M 0 27007 1 27075
-  Reset G 1 27020 1
-  Reset G 1 27022 1
-  Reset G 1 27036 1
+Reset M 0 29507 1 29575
+  Reset G 1 29520 1
+  Reset G 1 29522 1
+  Reset G 1 29536 1
 #ENDROOM
 
 #ROOM
-Vnum     27076
+Vnum     29576
 Name     &xDowns Overflow A&d~
 Sector   underground~
 Flags    indoors~
@@ -1521,14 +1521,14 @@ is but a whisper.
 ~
 #EXIT
 Direction north~
-ToRoom    27041
+ToRoom    29541
 Desc      The withered path.~
 #ENDEXIT
-Reset M 0 27001 10 27076
+Reset M 0 29501 10 29576
 #ENDROOM
 
 #ROOM
-Vnum     27077
+Vnum     29577
 Name     &xDowns Overflow B&d~
 Sector   underground~
 Flags    indoors~
@@ -1537,15 +1537,15 @@ mists drift between the shadows.
 ~
 #EXIT
 Direction south~
-ToRoom    27044
+ToRoom    29544
 Desc      The plaza.~
 #ENDEXIT
-Reset M 0 27011 10 27077
-Reset O 0 27028 10 27077
+Reset M 0 29511 10 29577
+Reset O 0 29528 10 29577
 #ENDROOM
 
 #ROOM
-Vnum     27078
+Vnum     29578
 Name     &xDowns Overflow C&d~
 Sector   underground~
 Flags    indoors~
@@ -1554,14 +1554,14 @@ abandoned long ago.
 ~
 #EXIT
 Direction east~
-ToRoom    27052
+ToRoom    29552
 Desc      The Cathedral Nave.~
 #ENDEXIT
-Reset M 0 27002 10 27078
+Reset M 0 29502 10 29578
 #ENDROOM
 
 #ROOM
-Vnum     27079
+Vnum     29579
 Name     &xDowns Overflow D&d~
 Sector   underground~
 Flags    indoors~
@@ -1570,14 +1570,14 @@ ground is covered in a soft, white frost.
 ~
 #EXIT
 Direction west~
-ToRoom    27062
+ToRoom    29562
 Desc      The crossroads.~
 #ENDEXIT
-Reset M 0 27009 10 27079
+Reset M 0 29509 10 29579
 #ENDROOM
 
 #ROOM
-Vnum     27080
+Vnum     29580
 Name     &CThe Downs Exit Path&d~
 Sector   underground~
 Flags    indoors~
@@ -1587,12 +1587,12 @@ those who have defeated the Coldbringer.
 ~
 #EXIT
 Direction south~
-ToRoom    27075
+ToRoom    29575
 Desc      The throne.~
 #ENDEXIT
 #EXIT
 Direction up~
-ToRoom    27040
+ToRoom    29540
 Desc      The entrance portal.~
 #ENDEXIT
 #ENDROOM
