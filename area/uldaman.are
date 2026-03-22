@@ -1,0 +1,1640 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Uldaman~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       35 45 0 60
+Economy      0 35000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       17000
+Keywords   stonevault trogg digger~
+Short      a Stonevault Digger~
+Long       A Stonevault Trogg digs frantically through the rubble with a rusted shovel.
+~
+Desc       These troggs were the first to find the entrance to Uldaman. They 
+have since infested the upper excavation sites, driven by a 
+primitive desire to hoard the relics of the makers.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 1200 3500
+Stats2     35 35 200
+Stats3     6 15 35
+Stats4     0 0 0 0 0
+Attribs    16 12 14 10 12 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   orcish~
+#ENDMOBILE
+
+#MOBILE
+Vnum       17001
+Keywords   stonevault brawler trogg~
+Short      a Stonevault Brawler~
+Long       A hulking Stonevault Brawler snarls, flexing massive, stony muscles.
+~
+Desc       Thicker and more aggressive than the diggers, these brawlers serve 
+as the front-line muscle for the Stonevault tribe.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 1400 3800
+Stats2     36 36 100
+Stats3     8 18 36
+Stats4     0 0 0 0 0
+Attribs    20 10 18 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17002
+Keywords   stonevault geomancer shaman~
+Short      a Stonevault Geomancer~
+Long       A Stonevault Geomancer mutters to the earth, making the ground tremble.
+~
+Desc       Wielding a crude understanding of earthen magic, these troggs 
+can summon pillars of rock and coat their kin in stone skin.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1100 3200
+Stats2     37 37 600
+Stats3     6 14 37
+Stats4     0 0 0 0 0
+Attribs    12 12 14 20 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17003
+Keywords   shadowforge archaeologist dwarf~
+Short      a Shadowforge Archaeologist~
+Long       A Shadowforge Dwarf inspects a tablet, clutching a dark iron pick.
+~
+Desc       The Dark Iron Dwarves have a keen interest in Uldaman's secrets. 
+These archaeologists are more concerned with power than history.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 1500 4200
+Stats2     38 38 300
+Stats3     7 20 38
+Stats4     0 0 0 0 0
+Attribs    18 10 12 12 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17004
+Keywords   shadowforge surveyor dwarf~
+Short      a Shadowforge Surveyor~
+Long       A Shadowforge Surveyor peers through a magical lens.
+~
+Desc       Tasked with mapping the Titan vaults, these dwarves use a 
+mix of engineering and dark magic to find hidden passages.
+~
+Race       dwarf~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 38 0 0 950 2800
+Stats2     38 38 800
+Stats3     6 16 38
+Stats4     0 0 0 0 0
+Attribs    10 14 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17005
+Keywords   baelog boss dwarf explorer~
+Short      Baelog~
+Long       Baelog of the Explorers' League stands here, checking his map.
+~
+Desc       A member of the famed Lost Dwarves. Baelog is a master of 
+survival and combat, though he seems a bit confused about 
+how long he's been down here.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 40 0 0 2500 7000
+Stats2     40 40 400
+Stats3     12 30 40
+Stats4     0 0 0 0 0
+Attribs    22 14 16 12 20 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       17006
+Keywords   revelosh boss trogg~
+Short      Revelosh~
+Long       The trogg Revelosh snarls, clutching a shimmering Titan shard.
+~
+Desc       Revelosh is the keeper of the Shaft of Tsol, a vital component 
+for unlocking the deeper vaults. He is unusually intelligent for 
+a trogg, which makes him twice as dangerous.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 40 0 0 2200 6500
+Stats2     40 40 600
+Stats3     10 25 40
+Stats4     0 0 0 0 0
+Attribs    16 16 18 18 18 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       17007
+Keywords   vault warder construct~
+Short      a Vault Warder~
+Long       A massive stone construct rumbles to life as you approach.
+~
+Desc       Crafted by the Titans to guard the inner sanctum, these 
+automations are relentless. Their stone fists can crush a 
+warrior's plate like parchment.
+~
+Race       undead~ // Using undead/construct flags for damage immunities
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 3000 8000
+Stats2     41 41 0
+Stats3     15 35 45
+Stats4     0 0 0 0 0
+Attribs    26 6 25 4 4 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17008
+Keywords   vault sentry construct~
+Short      a Vault Sentry~
+Long       A small, hovering metallic eye emits a hum of arcane energy.
+~
+Desc       These sentries act as the eyes of Uldaman. When they detect 
+an intruder, they emit a piercing shriek to alert the larger 
+warders.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 800 2400
+Stats2     39 39 1200
+Stats3     6 18 39
+Stats4     0 0 0 0 0
+Attribs    10 22 14 20 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17009
+Keywords   ironaya boss construct titan~
+Short      Ironaya~
+Long       The titanic figure of Ironaya looms over the Map Chamber.
+~
+Desc       A daughter of the Titans, Ironaya was tasked with overseeing 
+the Uldaman facility. She has been in stasis for millennia, 
+waking only to purge the "unclean" from her halls.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 42 0 0 4500 12000
+Stats2     42 42 500
+Stats3     20 50 45
+Stats4     0 0 0 0 0
+Attribs    30 10 28 15 25 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       17010
+Keywords   galgann firehammer boss dwarf~
+Short      Galgann Firehammer~
+Long       Galgann Firehammer roars, his dark iron armor glowing with heat.
+~
+Desc       The leader of the Shadowforge expedition. He wields the 
+elemental power of fire and the martial prowess of a Dark 
+Iron general.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 43 0 0 4200 11000
+Stats2     43 43 600
+Stats3     18 45 43
+Stats4     0 0 0 0 0
+Attribs    26 12 14 16 24 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       17011
+Keywords   grimlok boss trogg~
+Short      Grimlok~
+Long       The trogg chieftain Grimlok stands tall, surrounded by his bestial pets.
+~
+Desc       The absolute ruler of the Stonevault troggs. He believes 
+himself to be a god of the deep, empowered by the scraps of 
+Titan technology he has scavenged.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 44 0 0 4800 13000
+Stats2     44 44 400
+Stats3     20 55 44
+Stats4     0 0 0 0 0
+Attribs    28 14 16 14 22 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       17012
+Keywords   earthen guardian elemental~
+Short      an Earthen Guardian~
+Long       A being made of living, jagged rock stands guard.
+~
+Desc       Not quite a trogg and not quite a dwarf, these Earthen 
+remain loyal to their original Titan programming, defending 
+the depths with stone and fist.
+~
+Race       mammal~ // Using mammal for elemental-like baseline
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 2000 5500
+Stats2     41 41 0
+Stats3     12 30 40
+Stats4     0 0 0 0 0
+Attribs    24 6 22 8 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17013
+Keywords   archaedas boss titan final~
+Short      Archaedas~
+Long       Archaedas, the ancient King of the Makers, awakens from his stone throne.
+~
+Desc       One of the few remaining Titan Keepers. Archaedas is the 
+final defense of the Discs of Norgannon. His voice is the 
+rumble of mountains, and his strength is the power of the 
+world's foundation.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 50 0 0 10000 30000
+Stats2     50 50 1000
+Stats3     25 80 60
+Stats4     0 0 0 0 0
+Attribs    40 10 30 20 40 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       17014
+Keywords   stonevault mauler trogg~
+Short      a Stonevault Mauler~
+Long       A feral Stonevault Mauler lunges forward with jagged claws.
+~
+Desc       These troggs have regressed into a beast-like state, preferring 
+to tear their enemies apart with their hands.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 37 0 0 1100 3100
+Stats2     37 37 0
+Stats3     6 18 37
+Stats4     0 0 0 0 0
+Attribs    18 16 16 6 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17015
+Keywords   uldaman scorpid beast~
+Short      an Uldaman Scorpid~
+Long       A scorpid with a shell of dark obsidian scuttles through the dust.
+~
+Desc       Warped by the magical bleed from the Titan vaults, these 
+scorpids have shells harder than steel and a venom that 
+can paralyze an ogre.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 36 0 0 900 2800
+Stats2     36 36 0
+Stats3     5 14 36
+Stats4     0 0 0 0 0
+Attribs    16 18 16 4 14 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       17016
+Keywords   shadowforge ambusher dwarf~
+Short      a Shadowforge Ambusher~
+Long       A Shadowforge Ambusher strikes from the cover of a stone pillar!
+~
+Desc       Hidden in the shadows of the dig site, these rogues wait 
+for explorers to do the hard work before killing them and 
+stealing their finds.
+~
+Race       dwarf~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 1000 3000
+Stats2     39 39 300
+Stats3     7 20 39
+Stats4     0 0 0 0 0
+Attribs    14 22 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17017
+Keywords   earthen warder elemental~
+Short      an Earthen Warder~
+Long       A slender being of living granite weaves a spell of protection.
+~
+Desc       The magical support for the Earthen defense forces. They 
+stabilize the vaults and repair damaged warders with stone magic.
+~
+Race       mammal~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 41 0 0 1200 3600
+Stats2     41 41 600
+Stats3     8 22 41
+Stats4     0 0 0 0 0
+Attribs    12 12 16 22 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17018
+Keywords   stonevault seer trogg~
+Short      a Stonevault Seer~
+Long       A Stonevault Seer peers into a glowing shard of crystal.
+~
+Desc       The mystics of the trogg tribe, obsessed with the "voices" 
+coming from the Titan machines.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 39 0 0 850 2500
+Stats2     39 39 800
+Stats3     6 16 39
+Stats4     0 0 0 0 0
+Attribs    10 14 14 24 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       17019
+Keywords   uldaman bat beast~
+Short      an Uldaman Bat~
+Long       A large bat with wings like tattered velvet circles overhead.
+~
+Desc       These bats feed on the various insects and small rodents 
+that inhabit the upper levels of the dig site.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 35 0 0 600 1600
+Stats2     35 35 0
+Stats3     4 12 35
+Stats4     0 0 0 0 0
+Attribs    14 20 12 8 8 6 6
+#ENDMOBILE
+
+#OBJECT
+Vnum     17020
+Keywords Archaedas stone hand mace weapon~
+Type     weapon~
+Short    Archaedas's Stone Hand~
+Long     A heavy mace shaped like the fist of a Titan watcher.~
+WFlags   take wield~
+Values   12 15 25 8 0 0
+Stats    20 5000 50 0 0
+Rarity   2
+Affect   1 12
+Affect   5 10
+#ENDOBJECT
+
+#OBJECT
+Vnum     17021
+Keywords rockpounder mace two-handed weapon~
+Type     weapon~
+Short    the Rockpounder~
+Long     A massive, two-handed stone mallet used to pulverize granite.~
+WFlags   take wield~
+Values   12 12 22 8 0 0
+Stats    25 3800 44 0 0
+Rarity   2
+Affect   1 10
+Affect   5 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     17022
+Keywords discs norgannon treasure hold~
+Type     treasure~
+Short    the Discs of Norgannon~
+Long     A set of shimmering, platinum discs engraved with celestial data.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 10000 50 0 0
+Rarity   2
+Affect   3 15
+Affect   4 10
+#ENDOBJECT
+
+#OBJECT
+Vnum     17023
+Keywords ironaya bracers wrist armor~
+Type     armor~
+Short    Ironaya's Bracers~
+Long     Polished stone bracers that feel remarkably light.~
+WFlags   take wrist~
+Values   10 0 0 0 0 0
+Stats    4 3200 42 0 0
+Rarity   2
+Affect   2 8
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     17024
+Keywords galgann firehammer mace weapon~
+Type     weapon~
+Short    Galgann's Firehammer~
+Long     A dark iron mace that pulses with the heat of the forge.~
+WFlags   take wield~
+Values   12 8 16 8 0 0
+Stats    12 2800 43 0 0
+Rarity   2
+Affect   1 6
+Affect   3 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     17025
+Keywords grimlok tribal scepter mace weapon~
+Type     weapon~
+Short    Grimlok's Tribal Scepter~
+Long     A scepter adorned with scavenged Titan wires and trogg bones.~
+WFlags   take wield~
+Values   12 7 14 8 0 0
+Stats    10 2200 40 0 0
+Rarity   2
+Affect   1 8
+Affect   2 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     17026
+Keywords revelosh armguards wrist armor~
+Type     armor~
+Short    Revelosh's Armguards~
+Long     Stone-studded leather armguards worn by the trogg chieftain.~
+WFlags   take wrist~
+Values   8 0 0 0 0 0
+Stats    5 1800 38 0 0
+Rarity   2
+Affect   5 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     17027
+Keywords shaft tsol staff weapon~
+Type     weapon~
+Short    the Shaft of Tsol~
+Long     A long, metallic shaft used in the Map Chamber ritual.~
+WFlags   take wield~
+Values   12 5 12 7 0 0
+Stats    8 1500 35 0 0
+Rarity   1
+Affect   3 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     17028
+Keywords gni'kiv medallion necklace jewelry~
+Type     jewelry~
+Short    the Gni'kiv Medallion~
+Long     A circular medallion made of a strange, non-reflective alloy.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 1400 35 0 0
+Rarity   1
+Affect   4 6
+#ENDOBJECT
+
+#OBJECT
+#17029
+Keywords shadowforge excavator pick axe weapon~
+Type     weapon~
+Short    a Shadowforge Excavator~
+Long     A Dark Iron pickaxe designed for both mining and murder.~
+WFlags   take wield~
+Values   12 6 12 3 0 0
+Stats    12 950 38 0 0
+Rarity   1
+Affect   1 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     17030
+Keywords earthen leather shoulders armor~
+Type     armor~
+Short    Earthen Leather Shoulders~
+Long     Shoulder guards made of thick kodo hide reinforced with stone.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    6 850 40 0 0
+Rarity   1
+Affect   5 6
+#ENDOBJECT
+
+#OBJECT
+Vnum     17031
+Keywords stonevault bonebreaker mace weapon~
+Type     weapon~
+Short    a Stonevault Bonebreaker~
+Long     A crude club made from a fossilized beast femur.~
+WFlags   take wield~
+Values   12 5 10 8 0 0
+Stats    10 600 36 0 0
+Rarity   1
+Affect   1 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     17032
+Keywords obsidian shard dagger weapon~
+Type     weapon~
+Short    an Uldaman Obsidian Shard~
+Long     A jagged dagger knapped from volcanic glass found in the vaults.~
+WFlags   take wield~
+Values   12 4 9 11 0 0
+Stats    2 1200 40 0 0
+Rarity   2
+Affect   2 10
+#ENDOBJECT
+
+#OBJECT
+Vnum     17033
+Keywords papyrus norgannon treasure hold~
+Type     treasure~
+Short    a Papyrus of Norgannon~
+Long     A brittle sheet of ancient parchment covered in Titan blueprints.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1500 45 0 0
+Rarity   1
+Affect   3 8
+#ENDOBJECT
+
+#OBJECT
+Vnum     17034
+Keywords digger shovel mace weapon~
+Type     weapon~
+Short    a Stonevault Digger's Shovel~
+Long     A rusted, heavy-duty shovel caked in dry earth.~
+WFlags   take wield~
+Values   12 3 8 8 0 0
+Stats    12 150 35 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     17035
+Keywords titan power core treasure~
+Type     treasure~
+Short    a Titan Power Core~
+Long     A humming, crystalline sphere that generates a low hum.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    3 2000 45 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     17036
+Keywords scorpid sting dagger weapon~
+Type     weapon~
+Short    a Scorpid Sting Digger~
+Long     A dagger made from a large, venomous scorpid stinger.~
+WFlags   take wield~
+Values   12 4 10 11 0 0
+Stats    2 400 36 0 0
+Rarity   1
+Affect   2 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     17037
+Keywords shadowforge surveyor lens treasure hold~
+Type     treasure~
+Short    a Shadowforge Surveyor's Lens~
+Long     A brass-rimmed lens used to detect structural weaknesses.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 800 38 0 0
+Rarity   1
+Affect   3 5
+#ENDOBJECT
+
+#OBJECT
+Vnum     17038
+Keywords crude trogg idol treasure hold~
+Type     treasure~
+Short    a Crude Trogg Idol~
+Long     A small, ugly statue of a trogg made from mud and bone.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 250 37 0 0
+Rarity   0
+Affect   4 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     17039
+Keywords restored golem heart treasure~
+Type     treasure~
+Short    a Restored Golem Heart~
+Long     The core of a vault warder, sparking with renewed energy.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 1800 42 0 0
+Rarity   1
+Affect   5 8
+#ENDOBJECT
+
+#ROOM
+Vnum     17040
+Name     &OThe Uldaman Excavation Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The dry, dusty air of the Badlands is replaced by the smell of 
+ancient stone and ozone. Massive wooden support beams, cracked 
+by the weight of centuries, hold back the crumbling ceiling. 
+To the north, a shimmering golden portal marks the boundary 
+between the surface world and the halls of the makers.
+~
+#EXIT
+Direction out~
+ToRoom    28500
+Desc      Return to the Badlands digsite.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17041
+Desc      Enter the excavation tunnels.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     17041
+Name     &OThe Dusty Path&d~
+Sector   underground~
+Flags    indoors~
+Desc     The floor is covered in a thick layer of sediment and discarded 
+tools. Primitive trogg drawings are scrawled on the walls in 
+dried blood, contrasting sharply with the smooth, geometric 
+lines of the Titan-built archways.
+~
+#EXIT
+Direction south~
+ToRoom    17040
+Desc      The entrance portal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17042
+Desc      The path opens into a large pit.~
+#ENDEXIT
+Reset M 0 17000 10 17041
+#ENDROOM
+
+#ROOM
+Vnum     17042
+Name     &OThe Primary Excavation Pit&d~
+Sector   underground~
+Flags    indoors~
+Desc     This massive natural cavern has been hollowed out by centuries of 
+mining. Stone ramps lead down into the depths of the pit, where 
+the troggs continue to mindlessly dig through the rubble.
+~
+#EXIT
+Direction south~
+ToRoom    17041
+Desc      The dusty path.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    17043
+Desc      The bottom of the pit.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    17044
+Desc      A side tunnel filled with smoke.~
+#ENDEXIT
+Reset M 0 17001 10 17042
+Reset O 0 17034 5 17042
+#ENDROOM
+
+#ROOM
+Vnum     17043
+Name     &OStonevault Burrow&d~
+Sector   underground~
+Flags    indoors~
+Desc     A cramped, foul-smelling alcove where the troggs huddle for warmth. 
+The floor is littered with gnawed bones and shards of broken 
+pottery.
+~
+#EXIT
+Direction up~
+ToRoom    17042
+Desc      Return to the excavation pit.~
+#ENDEXIT
+Reset M 0 17014 10 17043
+#ENDROOM
+
+#ROOM
+Vnum     17044
+Name     &OStonevault Shaman's Alcove&d~
+Sector   underground~
+Flags    indoors~
+Desc     The walls here are covered in strange, glowing moss. A primitive 
+altar of stacked stones sits in the center of the room, used by 
+the trogg shamans to commune with the earth.
+~
+#EXIT
+Direction west~
+ToRoom    17042
+Desc      Return to the pit.~
+#ENDEXIT
+Reset M 0 17002 10 17044
+#ENDROOM
+
+#ROOM
+Vnum     17045
+Name     &OThe Rubble Pile&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive collapse has blocked much of this tunnel. Diggers work 
+tirelessly to clear the path, tossing rocks into messy piles.
+~
+#EXIT
+Direction north~
+ToRoom    17046
+Desc      The tunnel continues.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    17042
+Desc      The excavation pit.~
+#ENDEXIT
+Reset O 0 17038 10 17045
+#ENDROOM
+
+#ROOM
+Vnum     17046
+Name     &OInfested Tunnel - North&d~
+Sector   underground~
+Flags    indoors~
+Desc     The ceiling is low here, and the air is thick with the scent of 
+musk and wet stone. Scorpids scuttle through the dust, feeding 
+on the insects attracted by the troggs.
+~
+#EXIT
+Direction south~
+ToRoom    17045
+Desc      The rubble pile.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17048
+Desc      A light in the distance.~
+#ENDEXIT
+Reset M 0 17015 10 17046
+#ENDROOM
+
+#ROOM
+Vnum     17047
+Name     &OThe Dark Alcove&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A secluded corner of the tunnels where the shadows seem to be 
+thicker than elsewhere. Bats hang in clusters from the jagged 
+rocks above.
+~
+#EXIT
+Direction south~
+ToRoom    17046
+Desc      Return to the tunnel.~
+#ENDEXIT
+Reset M 0 17019 10 17047
+#ENDROOM
+
+#ROOM
+Vnum     17048
+Name     &YBaelog's Camp&d~
+Sector   underground~
+Flags    indoors~
+Desc     A small, well-maintained camp has been set up here. A cooking 
+fire crackles in the center, and several bedrolls are neatly 
+arranged. Baelog stands near a small table covered in maps.
+~
+#EXIT
+Direction south~
+ToRoom    17046
+Desc      The infested tunnel.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17049
+Desc      The path to Revelosh.~
+#ENDEXIT
+Reset M 0 17005 1 17048
+  Reset G 1 17028 1
+#ENDROOM
+
+#ROOM
+Vnum     17049
+Name     &YRevelosh's Crag&d~
+Sector   underground~
+Flags    indoors~
+Desc     A high stone ledge overlooking the upper excavation. Revelosh 
+stands here, guarding the vital components of the keystone. He 
+watches the tunnels below with sharp, intelligent eyes.
+~
+#EXIT
+Direction south~
+ToRoom    17048
+Desc      Baelog's camp.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17050
+Desc      Entrance to the Shadowforge site.~
+#ENDEXIT
+Reset M 0 17006 1 17049
+  Reset G 1 17027 1
+#ENDROOM
+
+#ROOM
+Vnum     17050
+Name     &xShadowforge Dig Site - Entrance&d~
+Sector   underground~
+Flags    indoors~
+Desc     The architecture shifts dramatically as you enter the Dark Iron 
+territory. Iron-shod pillars support the ceiling, and the smell 
+of sulfur and hot metal fills the air.
+~
+#EXIT
+Direction south~
+ToRoom    17049
+Desc      Revelosh's Crag.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17051
+Desc      The archaeology site.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     17051
+Name     &xShadowforge Archaeology Site&d~
+Sector   underground~
+Flags    indoors~
+Desc     Tables are covered in delicate brushes and measuring tools. Dark 
+Iron archaeologists work carefully to extract Titan tablets from 
+ the stone walls.
+~
+#EXIT
+Direction south~
+ToRoom    17050
+Desc      The entry hallway.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    17052
+Desc      The surveyor post.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17054
+Desc      The Hall of Specimens.~
+#ENDEXIT
+Reset M 0 17003 10 17051
+Reset O 0 17029 5 17051
+#ENDROOM
+
+#ROOM
+Vnum     17052
+Name     &xShadowforge Survey Post&d~
+Sector   underground~
+Flags    indoors~
+Desc     Maps of the inner vaults are pinned to a large board. Magical 
+lenses and prisms are used here to analyze the structure of the 
+Titan foundations.
+~
+#EXIT
+Direction west~
+ToRoom    17051
+Desc      The archaeology site.~
+#ENDEXIT
+Reset M 0 17004 10 17052
+Reset O 0 17037 5 17052
+#ENDROOM
+
+#ROOM
+Vnum     17053
+Name     &xHidden Fissure&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A narrow crack in the wall leads to a hidden chamber. The 
+Dark Iron dwarves use this space to hide their most valuable 
+and dangerous finds.
+~
+#EXIT
+Direction south~
+ToRoom    17051
+Desc      Return to the site.~
+#ENDEXIT
+Reset M 0 17016 10 17053
+Reset O 0 17032 1 17053
+#ENDROOM
+
+#ROOM
+Vnum     17054
+Name     &xThe Hall of Specimens&d~
+Sector   underground~
+Flags    indoors~
+Desc     Crates of relics are stacked high, ready for transport back to 
+Shadowforge City. This is the primary storage area for the 
+Dark Iron expedition.
+~
+#EXIT
+Direction south~
+ToRoom    17051
+Desc      The archaeology site.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17055
+Desc      Galgann's Forge.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    17056
+Desc      Grimlok's Tribal Hall.~
+#ENDEXIT
+Reset M 0 17003 10 17054
+#ENDROOM
+
+#ROOM
+Vnum     17055
+Name     &xGalgann's Fireforge&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive forge burns with intense heat. Galgann Firehammer 
+stands near the anvil, hammering out dark iron components for 
+their excavation machines.
+~
+#EXIT
+Direction south~
+ToRoom    17054
+Desc      The hall of specimens.~
+#ENDEXIT
+Reset M 0 17010 1 17055
+  Reset G 1 17024 1
+#ENDROOM
+
+#ROOM
+Vnum     17056
+Name     &OGrimlok's Tribal Hall&d~
+Sector   underground~
+Flags    indoors~
+Desc     A massive, crude throne made of bone and stone sits at the end of 
+this cavern. Grimlok the chieftain holds court here, surrounded 
+by his elite Stonevault brawlers.
+~
+#EXIT
+Direction east~
+ToRoom    17054
+Desc      The hall of specimens.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17057
+Desc      The Seer's Chamber.~
+#ENDEXIT
+Reset M 0 17011 1 17056
+  Reset G 1 17025 1
+#ENDROOM
+
+#ROOM
+Vnum     17057
+Name     &OThe Trogg Seer Chamber&d~
+Sector   underground~
+Flags    indoors~
+Desc     The air is thick with smoke from burning herbs. A Stonevault Seer 
+chants to the shadows, her eyes rolled back into her head.
+~
+#EXIT
+Direction south~
+ToRoom    17056
+Desc      Grimlok's hall.~
+#ENDEXIT
+Reset M 0 17018 10 17057
+#ENDROOM
+
+#ROOM
+Vnum     17058
+Name     &OThe Inner Dig Site&d~
+Sector   underground~
+Flags    indoors~
+Desc     The deepest part of the upper excavation. The transition to Titan 
+architecture is almost complete here, with the stone giving way to 
+shimmering platinum walls.
+~
+#EXIT
+Direction east~
+ToRoom    17054
+Desc      The hall of specimens.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    17059
+Desc      The Pre-Vault Hallway.~
+#ENDEXIT
+Reset M 0 17000 10 17058
+#ENDROOM
+
+#ROOM
+Vnum     17059
+Name     &OThe Pre-Vault Hallway&d~
+Sector   underground~
+Flags    indoors~
+Desc     A long, perfectly straight hallway built of unknown metal. The 
+sound of your footsteps echoes with a metallic ring.
+~
+#EXIT
+Direction east~
+ToRoom    17058
+Desc      The inner dig site.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    17060
+Desc      The Map Chamber Entrance.~
+#ENDEXIT
+Reset M 0 17001 10 17059
+#ENDROOM
+
+#ROOM
+Vnum     17060
+Name     &WThe Map Chamber Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive set of stone doors, engraved with celestial maps, stands 
+ajar. The air inside is humming with a low-frequency vibration.
+~
+#EXIT
+Direction east~
+ToRoom    17059
+Desc      The pre-vault hallway.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    17061
+Desc      The Keystone Pedestal.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     17061
+Name     &WThe Keystone Pedestal&d~
+Sector   inside~
+Flags    indoors~
+Desc     In the center of the room, a stone pedestal stands ready to 
+receive the keystone. To the north and south, massive statues 
+of watchers stand in silent vigil.
+~
+#EXIT
+Direction east~
+ToRoom    17060
+Desc      The entrance doors.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17062
+Desc      The Hall of the Makers.~
+#ENDEXIT
+Reset O 0 17035 1 17061
+#ENDROOM
+
+#ROOM
+Vnum     17062
+Name     &WThe Hall of the Makers&d~
+Sector   inside~
+Flags    indoors~
+Desc     A grand hall built to a scale that makes mortals feel like 
+insects. Floating eyes of arcane energy drift through the air, 
+scanning for intruders.
+~
+#EXIT
+Direction south~
+ToRoom    17061
+Desc      The keystone pedestal.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17063
+Desc      Ironaya's Altar.~
+#ENDEXIT
+Reset M 0 17008 10 17062
+#ENDROOM
+
+#ROOM
+Vnum     17063
+Name     &WThe Altar of Ironaya&d~
+Sector   inside~
+Flags    indoors~
+Desc     Ironaya, the Titan watcher, stands before a massive golden altar. 
+She is a figure of terrifying power, her skin made of polished 
+metal and her eyes glowing with ancient law.
+~
+#EXIT
+Direction south~
+ToRoom    17062
+Desc      The Hall of the Makers.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17064
+Desc      The Vault Corridor.~
+#ENDEXIT
+Reset M 0 17009 1 17063
+  Reset G 1 17023 1
+#ENDROOM
+
+#ROOM
+Vnum     17064
+Name     &WThe Vault Corridor - entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are covered in flickering runes that provide a 
+constant, soft light. Massive stone golems stand perfectly 
+still in alcoves along the hall.
+~
+#EXIT
+Direction south~
+ToRoom    17063
+Desc      Ironaya's Altar.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17065
+Desc      Sentry Post.~
+#ENDEXIT
+Reset M 0 17007 10 17064
+#ENDROOM
+
+#ROOM
+Vnum     17065
+Name     &WVault Sentry Post&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room where several floating eyes are docked in metal 
+stations, charging their arcane energies.
+~
+#EXIT
+Direction south~
+ToRoom    17064
+Desc      The corridor entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17066
+Desc      The Crumbling Archway.~
+#ENDEXIT
+Reset M 0 17008 10 17065
+#ENDROOM
+
+#ROOM
+Vnum     17066
+Name     &WThe Crumbling Archway&d~
+Sector   inside~
+Flags    indoors~
+Desc     A section of the inner vault that has begun to decay. Shards 
+of stone are scattered across the floor, and the runes on 
+the walls are flickering erratically.
+~
+#EXIT
+Direction south~
+ToRoom    17065
+Desc      The sentry post.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17067
+Desc      Earthen Hall - South.~
+#ENDEXIT
+Reset O 0 17031 10 17066
+#ENDROOM
+
+#ROOM
+Vnum     17067
+Name     &CEarthen Hall - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     Earthen guardians patrol this hall, their stone forms blending 
+into the walls until they move. They are silent and relentless 
+in their duty.
+~
+#EXIT
+Direction south~
+ToRoom    17066
+Desc      The archway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17068
+Desc      Earthen Hall - North.~
+#ENDEXIT
+Reset M 0 17012 10 17067
+#ENDROOM
+
+#ROOM
+Vnum     17068
+Name     &CEarthen Hall - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The hall narrows slightly as it approaches the deeper vaults. 
+The air is alive with the hum of the Titan machinery hidden 
+behind the walls.
+~
+#EXIT
+Direction south~
+ToRoom    17067
+Desc      South hall.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    17069
+Desc      The Gem Room.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17070
+Desc      The Deep Vault Gates.~
+#ENDEXIT
+Reset M 0 17017 10 17068
+#ENDROOM
+
+#ROOM
+Vnum     17069
+Name     &CThe Gem Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, highly secure room where Titan components are stored. 
+Several glowing crystals provide light and power to the wing.
+~
+#EXIT
+Direction west~
+ToRoom    17068
+Desc      Return to the hall.~
+#ENDEXIT
+Reset O 0 17036 5 17069
+#ENDROOM
+
+#ROOM
+Vnum     17070
+Name     &WThe Deep Vault Gates&d~
+Sector   inside~
+Flags    indoors~
+Desc     A pair of massive platinum doors, etched with the visage of 
+Archaedas, blocks the way to the final chamber. They 
+radiate a sense of absolute permanence.
+~
+#EXIT
+Direction south~
+ToRoom    17068
+Desc      The earthen hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17071
+Desc      The warder sentry room.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     17071
+Name     &WWarder Sentry Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     This circular room serves as the final guard post. Massive 
+stone warders stand in four alcoves, their hands resting 
+on the hilts of giant stone hammers.
+~
+#EXIT
+Direction south~
+ToRoom    17070
+Desc      The vault gates.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17072
+Desc      The Hall of History.~
+#ENDEXIT
+Reset M 0 17007 10 17071
+Reset O 0 17039 1 17071
+#ENDROOM
+
+#ROOM
+Vnum     17072
+Name     &WThe Hall of History&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls of this grand corridor are covered in detailed 
+bas-reliefs depicting the creation of the world and the 
+ordering of Azeroth by the Titans.
+~
+#EXIT
+Direction south~
+ToRoom    17071
+Desc      The sentry room.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17073
+Desc      The Stasis Chamber.~
+#ENDEXIT
+Reset O 0 17033 1 17072
+#ENDROOM
+
+#ROOM
+Vnum     17073
+Name     &WThe Stasis Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     Dozens of metal pods are built into the walls. Inside, Earthen 
+sleep in a state of suspended animation, waiting for the 
+call to awaken.
+~
+#EXIT
+Direction south~
+ToRoom    17072
+Desc      The hall of history.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17074
+Desc      The Golem Foundry.~
+#ENDEXIT
+Reset M 0 17012 10 17073
+#ENDROOM
+
+#ROOM
+Vnum     17074
+Name     &WThe Golem Foundry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sound of grinding stone and hissing steam is constant here. 
+Titan machines are at work, slowly assembling new vault warders 
+to replace those that have fallen.
+~
+#EXIT
+Direction south~
+ToRoom    17073
+Desc      The stasis chamber.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17075
+Desc      The Pristine Walkway.~
+#ENDEXIT
+Reset M 0 17007 10 17074
+#ENDROOM
+
+#ROOM
+Vnum     17075
+Name     &WPristine Walkway&d~
+Sector   inside~
+Flags    indoors~
+Desc     A beautiful, perfectly polished bridge made of a strange, 
+silver-white metal. It spans a dark pit from which a faint 
+blue light emerges.
+~
+#EXIT
+Direction south~
+ToRoom    17074
+Desc      The foundry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17076
+Desc      The Sentry Overlook.~
+#ENDEXIT
+Reset O 0 17030 5 17075
+#ENDROOM
+
+#ROOM
+Vnum     17076
+Name     &WSentry Overlook&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high balcony that overlooks the final descent to the vault. 
+Floating eyes scan the area with unwavering focus.
+~
+#EXIT
+Direction south~
+ToRoom    17075
+Desc      The walkway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17078
+Desc      The Final Stairwell.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    17077
+Desc      A hidden alcove.~
+#ENDEXIT
+Reset M 0 17008 10 17076
+#ENDROOM
+
+#ROOM
+Vnum     17077
+Name     &WHidden Alcove of the Elders&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small, dusty room that seems to have been forgotten by the 
+facility's maintenance systems.
+~
+#EXIT
+Direction west~
+ToRoom    17076
+Desc      Return to the overlook.~
+#ENDEXIT
+Reset O 0 17026 1 17077
+#ENDROOM
+
+#ROOM
+Vnum     17078
+Name     &WThe Final Stairwell&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide set of platinum stairs descends into the dark. Every 
+step you take makes the ground vibrate with a low, 
+menacing hum.
+~
+#EXIT
+Direction south~
+ToRoom    17076
+Desc      The overlook.~
+#ENDEXIT
+#EXIT
+Direction down~
+ToRoom    17079
+Desc      The Vault Door.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     17079
+Name     &WThe Vault Door&d~
+Sector   inside~
+Flags    indoors~
+Desc     This door is the final barrier. It is a solid slab of white 
+stone, engraved with the sigil of Norgannon. It hums with 
+unmatched power.
+~
+#EXIT
+Direction up~
+ToRoom    17078
+Desc      The stairwell.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17080
+Desc      The Vault of Archaedas.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     17080
+Name     &WThe Vault of Archaedas&d~
+Sector   inside~
+Flags    indoors~
+Desc     This massive, circular chamber is the deepest point in Uldaman. 
+Archaedas, the ancient King of the Makers, sits upon a massive 
+stone throne at the far end of the hall. The room is filled 
+with stone statues that seem to be waiting for a single word 
+of command to awaken.
+~
+#EXIT
+Direction south~
+ToRoom    17079
+Desc      The vault door.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    17081
+Desc      The Treasure Chamber.~
+#ENDEXIT
+Reset M 0 17013 1 17080
+  Reset G 1 17020 1
+#ENDROOM
+
+#ROOM
+Vnum     17081
+Name     &WThe Treasure Chamber of Uldaman&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-lit room behind the throne. This is where the 
+Titans stored their most important records and artifacts. The 
+Discs of Norgannon rest on a central pedestal, glowing with 
+a soft, silver light.
+~
+#EXIT
+Direction south~
+ToRoom    17080
+Desc      Return to the vault.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    17040
+Desc      The shortcut exit to the surface.~
+#ENDEXIT
+Reset O 0 17021 1 17081
+Reset O 0 17022 1 17081
+#ENDROOM
+
+#ENDAREA
