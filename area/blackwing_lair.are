@@ -1,0 +1,4508 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Blackwing Lair~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       60 60 0 60
+Economy      0 2000000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       42000
+Keywords   nefarian lord victor nefarius boss dragon~
+Short      Lord Victor Nefarius~
+Long       Lord Victor Nefarius sits upon his throne, a glass of wine in hand and a smirk on his face.
+~
+Desc       The human guise of the black dragon Nefarian. He watches his 
+experiments with a detached, sadistic curiosity, orchestrating 
+the destruction of his enemies from the heights of the mountain.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 1000000 2000000
+Stats2     63 63 10000
+Stats3     80 400 150
+Stats4     0 0 0 0 0
+Attribs    25 15 20 45 40 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       42001
+Keywords   nefarian dragon boss elite~
+Short      Nefarian~
+Long       The Great Dragon Nefarian lands with a bone-shaking thud, breathing a cloud of shadow-flame.
+~
+Desc       The son of Deathwing and master of the Blackwing Lair. His 
+massive scales are as black as the void, and his power over 
+the chromatic flight is absolute.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 2000000 5000000
+Stats2     63 63 20000
+Stats3     100 500 200
+Stats4     0 0 0 0 0
+Attribs    50 15 45 35 35 35 35
+#ENDMOBILE
+
+#MOBILE
+Vnum       42002
+Keywords   razorgore the untamed boss dragonspawn~
+Short      Razorgore the Untamed~
+Long       Razorgore the Untamed stands before the hatchery orbs, his mind controlled by the orcs.
+~
+Desc       A massive dragonspawn tasked with the protection of the 
+hatchery. He is currently under the mental control of the 
+Blackwing technicians.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 85000 250000
+Stats2     61 61 1000
+Stats3     35 110 80
+Stats4     0 0 0 0 0
+Attribs    35 12 30 15 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42003
+Keywords   vaelastrasz the corrupt boss dragon~
+Short      Vaelastrasz the Corrupt~
+Long       The red dragon Vaelastrasz writhes in agony, shadow-flame leaking from his scales.
+~
+Desc       A noble red dragon who has been forcibly corrupted by 
+Nefarian's dark magic. He fights to regain control, but 
+the shadow-flame compels him to destroy.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 95000 280000
+Stats2     61 61 5000
+Stats3     38 115 82
+Stats4     0 0 0 0 0
+Attribs    45 10 38 20 25 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       42004
+Keywords   broodlord lashlayer boss dragonspawn elite~
+Short      Broodlord Lashlayer~
+Long       Broodlord Lashlayer guards the threshold of the labs with a massive, serrated blade.
+~
+Desc       The keeper of the Suppression Room. He is a cruel master 
+who enjoys watching intruders struggle against the weight of 
+his magical traps.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 110000 320000
+Stats2     62 62 500
+Stats3     40 120 85
+Stats4     0 0 0 0 0
+Attribs    40 14 35 12 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42005
+Keywords   firemaw boss dragon elite~
+Short      Firemaw~
+Long       The black drake Firemaw perches on a bridge, his scales glowing red-hot.
+~
+Desc       A master of flame breath who uses the narrow laboratory 
+bridges to incinerate his foes.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 90000 270000
+Stats2     61 61 500
+Stats3     36 112 80
+Stats4     0 0 0 0 0
+Attribs    38 12 32 10 15 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42006
+Keywords   ebonroc boss dragon elite~
+Short      Ebonroc~
+Long       Ebonroc, a dragon of pure obsidian, snarls as he tastes the air for souls.
+~
+Desc       A shadow-specialist among the drakes. He can drain the 
+life force of his attackers to heal his own wounds.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 92000 275000
+Stats2     61 61 1000
+Stats3     38 115 80
+Stats4     0 0 0 0 0
+Attribs    35 18 30 20 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42007
+Keywords   flamegor boss dragon elite~
+Short      Flamegor~
+Long       Flamegor let out a deafening roar, his frenzy shaking the laboratory floor.
+~
+Desc       A dragon driven to a permanent state of agitation, 
+making his physical strikes incredibly swift and lethal.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 88000 265000
+Stats2     61 61 0
+Stats3     38 115 80
+Stats4     0 0 0 0 0
+Attribs    32 25 30 10 12 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42008
+Keywords   chromaggus boss beast drake elite~
+Short      Chromaggus~
+Long       The two-headed chromatic horror Chromaggus rumbles, his scales shifting in hue.
+~
+Desc       The ultimate pet of Nefarian. A two-headed drake mutated with 
+the blood of all five dragonflights. He possesses an 
+array of elemental breaths and magical resistances.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 150000 450000
+Stats2     62 62 2000
+Stats3     45 140 90
+Stats4     0 0 0 0 0
+Attribs    48 10 45 25 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       42009
+Keywords   blackwing technician orc mage~
+Short      a Blackwing Technician~
+Long       An orc in a leather apron frantically pulls a lever on a control orb.
+~
+Desc       The backbone of the laboratory operations. They are 
+responsible for the maintenance of the hatchery and the 
+torture of the experimental subjects.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 2500
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    12 18 16 35 30 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42010
+Keywords   deathclaw wyrmguard dragonspawn warrior~
+Short      a Deathclaw Wyrmguard~
+Long       A heavily armored dragonspawn stand firm, his shield etched with a red eye.
+~
+Desc       Elite guardians of the lower halls, trained to protect the 
+hatchery from any outside interference.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 6500 18000
+Stats2     60 60 200
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    30 12 25 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42011
+Keywords   blackwing legionnaire orc warrior~
+Short      a Blackwing Legionnaire~
+Long       An orc in gleaming obsidian plate levels a jagged spear at you.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 12000
+Stats2     60 60 200
+Stats3     15 42 60
+Stats4     0 0 0 0 0
+Attribs    28 14 24 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42012
+Keywords   chromatic drakonid elite warrior~
+Short      a Chromatic Drakonid~
+Long       A massive humanoid dragon with prismatic scales stand in silent vigil.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 12000 35000
+Stats2     61 61 300
+Stats3     22 65 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42013
+Keywords   laboratory assistant orc mage~
+Short      a Laboratory Assistant~
+Long       A cultist in soot-stained robes carefully mends a cracked egg.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1600 4500
+Stats2     60 60 2200
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 16 14 34 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42014
+Keywords   blackwing warlock human mage~
+Short      a Blackwing Warlock~
+Long       A human in dark purple robes mutters to a burning void-walker.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5200
+Stats2     60 60 2500
+Stats3     13 40 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42015
+Keywords   suppression device construct~
+Short      a Suppression Device~
+Long       A bronze mechanical pillar pulses with a dampening green light.
+~
+Desc       A marvel of Nefarian's engineering, these devices create a 
+magical field that slows the movement and thought of 
+biological beings.
+~
+Race       mammal~ // Using construct/mammal base
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 5000 15000
+Stats2     60 60 0
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    35 4 40 4 4 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42016
+Keywords   blackwing binder orc shaman~
+Short      a Blackwing Binder~
+Long       An orc shaman mutters a binding-chant over a dragonspawn.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 2000
+Stats3     11 30 60
+Stats4     0 0 0 0 0
+Attribs    14 16 18 30 25 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42017
+Keywords   drake talon guard orc warrior~
+Short      a Drake Talon Guard~
+Long       An orc in scale armor balances a heavy halberd.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 9500
+Stats2     60 60 200
+Stats3     16 48 60
+Stats4     0 0 0 0 0
+Attribs    28 16 20 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42018
+Keywords   black dragonspawn mender shaman~
+Short      a Black Dragonspawn Mender~
+Long       A dragonspawn in mender's robes weaves a healing mist.
+~
+Race       mammal~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1800 5500
+Stats2     61 61 2500
+Stats3     13 38 61
+Stats4     0 0 0 0 0
+Attribs    14 12 16 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42019
+Keywords   chromatic watcher spirit mage~
+Short      a Chromatic Watcher~
+Long       A floating eye of shifting colored energy scans the hall.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1000 3000
+Stats2     60 60 1500
+Stats3     7 20 60
+Stats4     0 0 0 0 0
+Attribs    10 25 14 35 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42020
+Keywords   blackwing taskmaster orc warrior~
+Short      a Blackwing Taskmaster~
+Long       An orc with a heavy whip bellows at a group of whelps.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4500 13000
+Stats2     60 60 200
+Stats3     18 52 60
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42021
+Keywords   lava crab beast critter~
+Short      a Lava Crab~
+Long       A large beetle-like insect with a shell of obsidian crawls by.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1100 3200
+Stats2     59 59 0
+Stats3     9 22 59
+Stats4     0 0 0 0 0
+Attribs    20 18 20 4 8 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       42022
+Keywords   firebrand invoker orc shaman~
+Short      a Firebrand Invoker~
+Long       An orc in flaming robes mutters a dark ritual.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1400 4200
+Stats2     61 61 2000
+Stats3     11 30 61
+Stats4     0 0 0 0 0
+Attribs    14 16 18 30 25 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42023
+Keywords   chromatic reaver dragonspawn warrior elite~
+Short      a Chromatic Reaver~
+Long       A massive dragonspawn in silver plate armor balance a heavy mace.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 62 0 0 8500 25000
+Stats2     62 62 300
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42024
+Keywords   blackwing spellbinder orc mage~
+Short      a Blackwing Spellbinder~
+Long       An orc in shadow-threaded robes mutter a curse of silence.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1300 3800
+Stats2     60 60 2200
+Stats3     10 30 60
+Stats4     0 0 0 0 0
+Attribs    12 12 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42025
+Keywords   nefarian's personal guard orc~
+Short      a Palace Guard~
+Long       A massive orc in ornate black-iron plate stands perfectly still.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 7500 22000
+Stats2     61 61 400
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42026
+Keywords   chromatic whelp dragon elite~
+Short      a Shimmering Chromatic Whelp~
+Long       A whelp with iridescent scales hisses, breathing ice.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2200 6500
+Stats2     60 60 400
+Stats3     14 40 60
+Stats4     0 0 0 0 0
+Attribs    22 25 18 14 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42027
+Keywords   blackwing assassin orc thief~
+Short      a Blackwing Assassin~
+Long       A shadow detach itself from the pillar, a poisoned blade flashing.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 9500
+Stats2     60 60 500
+Stats3     16 45 60
+Stats4     0 0 0 0 0
+Attribs    18 30 18 14 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42028
+Keywords   spire rat beast critter~
+Short      a Spire Rat~
+Long       A large grey rat scurries along the base of the wall.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 200 600
+Stats2     50 50 0
+Stats3     3 10 50
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       42029
+Keywords   lava spider beast~
+Short      a Lava Spider~
+Long       A large spider with a glowing red abdomen skitters by.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1200 3500
+Stats2     59 59 0
+Stats3     8 20 59
+Stats4     0 0 0 0 0
+Attribs    18 25 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       42030
+Keywords   blackwing blood-drinker orc warrior~
+Short      a Blackwing Blood-drinker~
+Long       An orc in rusted plate armor licks a curved dagger.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 4500 13000
+Stats2     61 61 200
+Stats3     18 50 62
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42031
+Keywords   laboratory chemist orc mage~
+Short      a Laboratory Chemist~
+Long       A cultist in soot-stained robes carefully mixes reagents.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 1500
+Stats3     11 30 60
+Stats4     0 0 0 0 0
+Attribs    12 16 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42032
+Keywords   blackwing sentinel dragonspawn warrior elite~
+Short      a Blackwing Sentinel~
+Long       A dragonspawn in heavy obsidian plate stands silent vigil.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 9000 25000
+Stats2     61 61 500
+Stats3     30 85 62
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42033
+Keywords   chromatic watcher spirit mage~
+Short      a Chromatic Watcher~
+Long       A floating eye of shifting magical energy scans the hall.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1000 3000
+Stats2     60 60 1500
+Stats3     7 20 60
+Stats4     0 0 0 0 0
+Attribs    10 25 14 35 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42034
+Keywords   blackwing butcher orc warrior~
+Short      a Blackwing Butcher~
+Long       An orc in a bloody leather apron sharpen a massive cleaver.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3000 8500
+Stats2     60 60 100
+Stats3     14 38 60
+Stats4     0 0 0 0 0
+Attribs    28 10 20 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42035
+Keywords   firebrand warlock orc mage~
+Short      a Firebrand Warlock~
+Long       An orc in shadow-threaded robes mutter to a burning void-walker.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1800 5200
+Stats2     61 61 2500
+Stats3     13 40 61
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42036
+Keywords   blackwing slayer orc warrior~
+Short      a Blackwing Slayer~
+Long       An orc in heavy obsidian plate swings a massive mace.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4200 12000
+Stats2     60 60 150
+Stats3     18 52 60
+Stats4     0 0 0 0 0
+Attribs    32 10 24 8 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42037
+Keywords   chromatic drakonid elite warrior~
+Short      a Chromatic Drakonid~
+Long       A massive humanoid dragon in prismatic scales stand guard.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 62 0 0 8500 25000
+Stats2     62 62 300
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42038
+Keywords   nefarian's observer orc mage~
+Short      an Observer of the Lair~
+Long       An orc in fine silken robes gazes through a crystal lens.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 62 0 0 3500 10000
+Stats2     62 62 2500
+Stats3     15 45 62
+Stats4     0 0 0 0 0
+Attribs    14 12 20 38 32 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42039
+Keywords   blackwing dreadweaver orc mage~
+Short      a Blackwing Dreadweaver~
+Long       An orc mage weaves a spell of pure shadow-fire.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3000 8000
+Stats2     60 60 2800
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    14 16 18 38 32 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42040
+Keywords   blackwing iron-guard orc warrior~
+Short      a Blackwing Iron-guard~
+Long       An Iron-guard stands like a statue, his massive shield blocking the way.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5500 15000
+Stats2     60 60 100
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    30 10 24 8 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42041
+Keywords   firebrand high-priest orc shaman~
+Short      a Firebrand High-Priest~
+Long       An orc in dragon-scale robes mutters a dark blessing.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1800 5500
+Stats2     61 61 2500
+Stats3     13 38 60
+Stats4     0 0 0 0 0
+Attribs    14 12 18 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42042
+Keywords   chromatic sentinel dragonspawn~
+Short      a Chromatic Sentinel~
+Long       A massive dragonspawn in prismatic armor stand perfectly still.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 9000 25000
+Stats2     61 61 500
+Stats3     30 85 62
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       42043
+Keywords   blackwing summoner orc mage~
+Short      a Blackwing Summoner~
+Long       An orc in purple-trimmed robes mutters over a swirling fel-circle.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 8500
+Stats2     60 60 2500
+Stats3     14 42 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 35 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42044
+Keywords   blackwing veteran orc warrior~
+Short      a Blackwing Veteran~
+Long       An old orc with numerous scars stand watch near the throne.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 5000 14000
+Stats2     60 60 300
+Stats3     20 55 60
+Stats4     0 0 0 0 0
+Attribs    30 14 24 12 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       42045
+Keywords   blackwing sniper orc thief~
+Short      a Blackwing Sniper~
+Long       An orc in camouflaged leather levels a rifle from a high ledge.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 9000
+Stats2     60 60 300
+Stats3     15 42 60
+Stats4     0 0 0 0 0
+Attribs    16 32 18 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       42046
+Keywords   chromatic warden dragonspawn~
+Short      a Chromatic Warden~
+Long       A heavily armored dragonspawn in prismatic scales stands firm.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 10000 35000
+Stats2     62 62 800
+Stats3     32 100 65
+Stats4     0 0 0 0 0
+Attribs    38 14 32 16 20 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       42047
+Keywords   blackwing ritualist orc mage~
+Short      a Blackwing Ritualist~
+Long       A human in dark purple robes mutters a dark prayer.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 2000
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42048
+Keywords   blackwing blood-weaver orc mage~
+Short      a Blackwing Blood-weaver~
+Long       An orc in dark purple robes mutter an incantation of shadow.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1500 4500
+Stats2     60 60 2000
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    12 14 14 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       42049
+Keywords   blackwing reaver orc warrior~
+Short      a Blackwing Reaver~
+Long       A massive orc in heavy obsidian plate stands silent guard.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 5000 15000
+Stats2     61 61 400
+Stats3     22 60 62
+Stats4     0 0 0 0 0
+Attribs    35 12 30 14 18 20 20
+#ENDMOBILE
+
+#OBJECT
+Vnum     42100
+Keywords ashkandi greatsword brotherhood weapon~
+Type     weapon~
+Short    Ashkandi, Greatsword of the Brotherhood~
+Long     A massive greatsword with a hilt of gold and a blade that pulses with power.~
+WFlags   take wield~
+Values   12 25 55 3 0 0
+Stats    40 100000 64 0 0
+Rarity   3
+Affect   1 25 0 0 0
+Affect   12 35 0 0 0
+Affect   13 30 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42101
+Keywords neltharion's tear jewelry hold~
+Type     treasure~
+Short    Neltharion's Tear~
+Long     A dark, crystalline teardrop that hums with ancient arcane sorrow.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 50000 62 0 0
+Rarity   3
+Affect   3 35 0 0 0
+Affect   14 50 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42102
+Keywords mish'undare circlet head armor~
+Type     armor~
+Short    Mish'undare, Circlet of the Mind Flayer~
+Long     A crown of blackened iron set with a single, unblinking red eye.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    2 25000 62 0 0
+Rarity   3
+Affect   3 25 0 0 0
+Affect   14 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42103
+Keywords staff shadow flame weapon~
+Type     weapon~
+Short    the Staff of Shadow Flame~
+Long     A tall staff of obsidian that bleeds dark fire from its tip.~
+WFlags   take wield~
+Values   12 12 25 7 0 0
+Stats    12 45000 62 0 0
+Rarity   3
+Affect   3 25 0 0 0
+Affect   14 30 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42104
+Keywords maladath runed blade sword weapon~
+Type     weapon~
+Short    Maladath, Runed Blade of the Black Flight~
+Long     A perfectly balanced scimitar etched with draconic runes.~
+WFlags   take wield~
+Values   12 15 35 3 0 0
+Stats    15 35000 61 0 0
+Rarity   3
+Affect   12 25 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42105
+Keywords chromatically tempered sword weapon~
+Type     weapon~
+Short    the Chromatically Tempered Sword~
+Long     A sword that shifts colors in the light, forged in dragon-blood.~
+WFlags   take wield~
+Values   12 18 40 3 0 0
+Stats    18 45000 62 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42106
+Keywords breastplate wrath body armor~
+Type     armor~
+Short    the Breastplate of Wrath~
+Long     Heavy plate armor etched with the red fist of the Blackhand.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 25000 60 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   5 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42107
+Keywords ten storms breastplate body armor~
+Type     armor~
+Short    the Breastplate of Ten Storms~
+Long     Heavy mail armor that crackles with static electricity.~
+WFlags   take body~
+Values   25 0 0 0 0 0
+Stats    30 25000 60 0 0
+Rarity   3
+Affect   5 18 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42108
+Keywords stormrage raiment body armor~
+Type     armor~
+Short    the Stormrage Raiment~
+Long     Robes woven from the leaves of a world tree, glowing with life.~
+WFlags   take body~
+Values   12 0 0 0 0 0
+Stats    6 25000 60 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42109
+Keywords transcendence robes body armor~
+Type     armor~
+Short    the Robes of Transcendence~
+Long     Shimmering white robes that radiate an aura of peace.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   4 25 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42110
+Keywords nemesis robes body armor~
+Type     armor~
+Short    the Nemesis Robes~
+Long     Dark purple robes that smell of brimstone and the void.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   3 25 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42111
+Keywords dragonstalker's breastplate body armor~
+Type     armor~
+Short    the Dragonstalker's Breastplate~
+Long     Scale mail armor fashioned from the hide of Nefarian himself.~
+WFlags   take body~
+Values   20 0 0 0 0 0
+Stats    15 25000 60 0 0
+Rarity   3
+Affect   2 25 0 0 0
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42112
+Keywords netherwind robes body armor~
+Type     armor~
+Short    the Netherwind Robes~
+Long     Crystalline robes that hum with unstable arcane force.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   3 30 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42113
+Keywords shadowcraft tunic body armor~
+Type     armor~
+Short    the Shadowcraft Tunic~
+Long     Dark leather armor that seems to absorb the surrounding light.~
+WFlags   take body~
+Values   15 0 0 0 0 0
+Stats    12 12000 60 0 0
+Rarity   2
+Affect   2 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42114
+Keywords lightforge breastplate body armor~
+Type     armor~
+Short    the Lightforge Breastplate~
+Long     Massive plate armor that glows with an inner light.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 12000 60 0 0
+Rarity   2
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42115
+Keywords elementium bar mineral treasure~
+Type     treasure~
+Short    a solid Elementium Bar~
+Long     A heavy bar of refined elementium, the rarest metal in Azeroth.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    15 15000 60 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     42116
+Keywords blackwing laboratory beaker trash~
+Type     trash~
+Short    a stained laboratory beaker~
+Long     A glass beaker filled with a mysterious purple residue.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 25 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42117
+Keywords dragon scale black trophy~
+Type     trash~
+Short    a Black Dragonscale~
+Long     A thick obsidian scale that is warm to the touch.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     42118
+Keywords hourglass sand hold treasure~
+Type     treasure~
+Short    an Hourglass of Sand~
+Long     A small hourglass filled with shimmering, bronze sand.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 4500 58 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     42119
+Keywords cloak draconic fire about armor~
+Type     armor~
+Short    the Cloak of Draconic Fire~
+Long     A heavy red cloak that protects the wearer from extreme heat.~
+WFlags   take about~
+Values   10 0 0 0 0 0
+Stats    2 12000 60 0 0
+Rarity   2
+Affect   13 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     42120
+Keywords lifegiving gem hold treasure~
+Type     treasure~
+Short    the Lifegiving Gem~
+Long     A vibrant green gemstone that pulses with life-energy.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 15000 60 0 0
+Rarity   3
+Affect   5 25 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     42200
+Name     &rThe Blackwing Overlook&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand upon a high, secluded balcony deep within the upper 
+reaches of Blackrock Spire. The air is thin and cold, and the 
+entire mountain seems to vibrate with the hum of dark arcane 
+machinery. To the north, a massive set of obsidian doors leads 
+into the laboratory of Nefarian.
+~
+#EXIT
+Direction out~
+ToRoom    36563
+Desc      Return to the Hall of the Mountain in Searing Gorge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42201
+Desc      The Hatchery Entrance.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     42201
+Name     &rThe Blackwing Hatchery - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber filled with hundreds of dark green 
+and black eggs. The air is humid and smells of reptile musk. 
+Blackwing technicians move frantically between control orbs, 
+maintaining the stability of the brood. Razorgore the Untamed 
+stands in the center, his mind controlled by the orcs.
+~
+#EXIT
+Direction south~
+ToRoom    42200
+Desc      The overlook.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42202
+Desc      The Hatchery Control Room.~
+#ENDEXIT
+Reset M 0 42002 1 42201
+Reset M 0 42009 10 42201
+#ENDROOM
+
+#ROOM
+Vnum     42202
+Name     &rThe Hatchery Control Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small stone room overlooking the hatchery floor. Several 
+large crystal orbs glow with a sickly green light, used 
+to dominate the minds of the dragonspawn. Blueprints 
+of chromatic experiments are pinned to the walls.
+~
+#EXIT
+Direction south~
+ToRoom    42201
+Desc      The hatchery.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42203
+Desc      The Burning Hall.~
+#ENDEXIT
+Reset M 0 42009 5 42202
+Reset O 0 42116 10 42202
+#ENDROOM
+
+#ROOM
+Vnum     42203
+Name     &rThe Burning Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     The temperature here is incredible. A wide thoroughfare 
+leading through the center of the laboratory district. The 
+noble red dragon Vaelastrasz writhes in the center of the 
+hall, his sanity slipping away as the shadow-flame 
+consumes his soul.
+~
+#EXIT
+Direction south~
+ToRoom    42202
+Desc      The control room.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42210
+Desc      The Suppression Room.~
+#ENDEXIT
+Reset M 0 42003 1 42203
+#ENDROOM
+
+#ROOM
+Vnum     42210
+Name     &rThe Suppression Room - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here feels heavy and slow. Dozens of small bronze 
+pillars pulse with a green magical field, making every 
+step feel like wading through mud. Laboratory assistants 
+and whelps swarm the narrow paths between the traps.
+~
+#EXIT
+Direction south~
+ToRoom    42203
+Desc      The burning hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42211
+Desc      Suppression Room Central.~
+#ENDEXIT
+Reset M 0 42015 10 42210
+Reset M 0 42003 10 42210
+#ENDROOM
+
+#ROOM
+Vnum     42211
+Name     &rThe Suppression Room - Central&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the magical gauntlet. The field of suppression 
+is at its strongest here. To the north, a high stone ramp 
+leads toward the Broodlord's seat.
+~
+#EXIT
+Direction south~
+ToRoom    42210
+Desc      Suppression entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42212
+Desc      The Broodlord's Balcony.~
+#ENDEXIT
+Reset M 0 42015 10 42211
+Reset M 0 42013 10 42211
+#ENDROOM
+
+#ROOM
+Vnum     42212
+Name     &rThe Balcony of the Broodlord&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing overlooking the entire suppression 
+district. Broodlord Lashlayer stands here, his massive 
+blade reflecting the orange glow of the mountain's core. 
+He laughs as he watches the intruders struggle below.
+~
+#EXIT
+Direction south~
+ToRoom    42211
+Desc      Suppression central.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    42220
+Desc      The Dragon Laboratories.~
+#ENDEXIT
+Reset M 0 42004 1 42212
+  Reset G 1 42106 1
+#ENDROOM
+
+#ROOM
+Vnum     42220
+Name     &rThe Dragon Laboratories - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here is grand and clinical. High-domed 
+chambers are filled with massive brewing vats and 
+anatomical models of dragons. Firemaw can be seen 
+perched on a high bridge to the north.
+~
+#EXIT
+Direction west~
+ToRoom    42212
+Desc      The broodlord's balcony.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42221
+Desc      The First Laboratory Bridge.~
+#ENDEXIT
+Reset M 0 42012 10 42220
+#ENDROOM
+
+#ROOM
+Vnum     42221
+Name     &rThe First Laboratory Bridge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow stone span crossing a massive vertical shaft. 
+Firemaw guards this bridge, his presence alone enough 
+to heat the stone to a dull red glow.
+~
+#EXIT
+Direction south~
+ToRoom    42220
+Desc      Lab entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42222
+Desc      The Second Laboratory Bridge.~
+#ENDEXIT
+Reset M 0 42005 1 42221
+  Reset G 1 42107 1
+#ENDROOM
+
+#ROOM
+Vnum     42222
+Name     &rThe Second Laboratory Bridge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A second high span crossing the laboratory pits. Ebonroc 
+stands here, his obsidian scales drinking in the light. 
+The air is cold and smells of shadow-fire.
+~
+#EXIT
+Direction south~
+ToRoom    42221
+Desc      First bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42223
+Desc      The Third Laboratory Bridge.~
+#ENDEXIT
+Reset M 0 42006 1 42222
+  Reset G 1 42108 1
+#ENDROOM
+
+#ROOM
+Vnum     42223
+Name     &rThe Third Laboratory Bridge&d~
+Sector   inside~
+Flags    indoors~
+Desc     The final bridge of the labs. Flamegor stands guard here, 
+his constant roars shaking the rafters. Beyond this 
+bridge lies the kennel of the chromatic horror.
+~
+#EXIT
+Direction south~
+ToRoom    42222
+Desc      Second bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42230
+Desc      The Kennel of Chromaggus.~
+#ENDEXIT
+Reset M 0 42007 1 42230
+  Reset G 1 42109 1
+#ENDROOM
+
+#ROOM
+Vnum     42230
+Name     &rThe Kennel of Chromaggus&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular chamber filled with the smell of 
+alchemy and ozone. Chromaggus stands in the center, 
+his multiple heads shifting in and out of phase with 
+the physical world. A large lever on the wall is the 
+only way to release him from his magical shackles.
+~
+#EXIT
+Direction south~
+ToRoom    42223
+Desc      Third bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42240
+Desc      The Nefarian Overlook.~
+#ENDEXIT
+Reset M 0 42008 1 42230
+  Reset G 1 42110 1
+  Reset G 1 42111 1
+#ENDROOM
+
+#ROOM
+Vnum     42240
+Name     &rThe Nefarian Overlook - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of high stone stairs leading to the open-air peak of 
+the mountain. The air becomes noticeably fresher, but the 
+sense of dread only increases. Lord Victor Nefarius sits 
+upon a throne at the far end of the terrace.
+~
+#EXIT
+Direction south~
+ToRoom    42230
+Desc      Chromaggus's kennel.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42241
+Desc      The Throne of Nefarian.~
+#ENDEXIT
+Reset M 0 42025 10 42240
+#ENDROOM
+
+#ROOM
+Vnum     42241
+Name     &rThe Throne of Lord Victor Nefarius&d~
+Sector   city~
+Flags    indoors~
+Desc     The highest point of Blackrock Mountain. Lord Victor Nefarius 
+sits upon a high throne, watching the combat below with 
+amusement. This is the place of final judgment. If his 
+guards fall, he will take to the air in his true 
+form.
+~
+#EXIT
+Direction south~
+ToRoom    42240
+Desc      The overlook entry.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    42242
+Desc      The Blackwing Sky-terrace.~
+#ENDEXIT
+Reset M 0 42000 1 42241
+Reset M 0 42012 10 42241
+#ENDROOM
+
+#ROOM
+Vnum     42242
+Name     &rThe Blackwing Sky-terrace&d~
+Sector   city~
+Flags    indoors~
+Desc     An open-air platform overlooking the entirety of Azeroth. 
+The dragon Nefarian has landed here, his massive form 
+blocking out the sun. Primal energy pulses from his 
+body, and the air hums with the power of the black 
+dragonflight.
+~
+#EXIT
+Direction down~
+ToRoom    42241
+Desc      The throne room.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    42400
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 42001 1 42242
+  Reset G 1 42100 1
+  Reset G 1 42101 1
+  Reset G 1 42103 1
+#ENDROOM
+
+#ROOM
+Vnum     42243
+Name     &rHatchery Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel in the hatchery filled with discarded shells 
+and the smell of reptile musk.
+~
+#EXIT
+Direction north~
+ToRoom    42201
+Desc      Hatchery entrance.~
+#ENDEXIT
+Reset M 0 42003 10 42243
+#ENDROOM
+
+#ROOM
+Vnum     42244
+Name     &rLaboratory Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side chamber filled with jars of dragon blood 
+and ancient elven scrolls.
+~
+#EXIT
+Direction south~
+ToRoom    42220
+Desc      Laboratory entry.~
+#ENDEXIT
+Reset O 0 42115 5 42244
+#ENDROOM
+
+#ROOM
+Vnum     42245
+Name     &rThe Shadowed Ledge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high point in the suppression room, home to several 
+obsidian gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    42211
+Desc      Suppression central.~
+#ENDEXIT
+Reset M 0 42016 5 42245
+#ENDROOM
+
+#ROOM
+Vnum     42400
+Name     &rThe Blackwing Lair Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, magically-reinforced tunnel behind Nefarian's 
+throne leads toward a hidden opening in the side of 
+Blackrock Mountain, offering a quick way out for those 
+who have defeated the Lord of Blackrock.
+~
+#EXIT
+Direction south~
+ToRoom    42242
+Desc      The sky-terrace.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    42200
+Desc      The entrance overlook.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     42246
+Name     &rLaboratory Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for elementium bars and coals near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    42220
+Desc      Laboratory entry.~
+#ENDEXIT
+Reset O 0 42115 10 42246
+#ENDROOM
+
+#ROOM
+Vnum     42247
+Name     &rThe Silent Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the hatchery where the technicians 
+prepare the Dark Horde's meals.
+~
+#EXIT
+Direction south~
+ToRoom    42201
+Desc      Hatchery entrance.~
+#ENDEXIT
+Reset M 0 42034 5 42247
+#ENDROOM
+
+#ROOM
+Vnum     42248
+Name     &rLaboratory Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the first bridge, 
+offering a view of the southern thoroughfare.
+~
+#EXIT
+Direction north~
+ToRoom    42221
+Desc      First bridge.~
+#ENDEXIT
+Reset M 0 42045 5 42248
+#ENDROOM
+
+#ROOM
+Vnum     42249
+Name     &rLaboratory Overflow D&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with chromatic whelp scales 
+and ancient gold coins.
+~
+#EXIT
+Direction south~
+ToRoom    42221
+Desc      First bridge.~
+#ENDEXIT
+Reset O 0 42117 10 42249
+#ENDROOM
+
+#ROOM
+Vnum     42250
+Name     &rThe Blackwing Labyrinth - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A Confusion of small, magically-warded rooms near the labs.
+~
+#EXIT
+Direction north~
+ToRoom    42251
+Desc      Labyrinth 1.~
+#EXIT
+Direction south~
+ToRoom    42220
+Desc      Lab entry.~
+#ENDEXIT
+Reset M 0 42009 10 42250
+#ENDROOM
+
+#ROOM
+Vnum     42251
+Name     &rBlackwing Labyrinth - Chamber 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air is thick with the scent of ozone and shadow-magic.
+~
+#EXIT
+Direction south~
+ToRoom    42250
+Desc      Labyrinth entrance.~
+#EXIT
+Direction north~
+ToRoom    42252
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 42011 10 42251
+#ENDROOM
+
+#ROOM
+Vnum     42252
+Name     &rBlackwing Labyrinth - Chamber 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow hallway lined with glass vats of experimental fluids.
+~
+#EXIT
+Direction south~
+ToRoom    42251
+Desc      Labyrinth 1.~
+#EXIT
+Direction north~
+ToRoom    42253
+Desc      Labyrinth 3.~
+#ENDEXIT
+Reset M 0 42013 10 42252
+#ENDROOM
+
+#ROOM
+Vnum     42253
+Name     &rBlackwing Labyrinth - Chamber 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the lower laboratory labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42252
+Desc      Labyrinth 2.~
+#EXIT
+Direction north~
+ToRoom    42254
+Desc      Labyrinth 4.~
+#ENDEXIT
+Reset M 0 42014 10 42253
+#ENDROOM
+
+#ROOM
+Vnum     42254
+Name     &rBlackwing Labyrinth - Chamber 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     High stone rooms near the second bridge.
+~
+#EXIT
+Direction south~
+ToRoom    42253
+Desc      Labyrinth 3.~
+#EXIT
+Direction north~
+ToRoom    42255
+Desc      Labyrinth 5.~
+#ENDEXIT
+Reset M 0 42032 10 42254
+#ENDROOM
+
+#ROOM
+Vnum     42255
+Name     &rBlackwing Labyrinth - Chamber 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the mid-level labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42254
+Desc      Labyrinth 4.~
+#EXIT
+Direction north~
+ToRoom    42256
+Desc      Labyrinth 6.~
+#ENDEXIT
+Reset M 0 42036 10 42255
+#ENDROOM
+
+#ROOM
+Vnum     42256
+Name     &rBlackwing Labyrinth - Chamber 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the kennel entrance.
+~
+#EXIT
+Direction south~
+ToRoom    42255
+Desc      Labyrinth 5.~
+#EXIT
+Direction north~
+ToRoom    42257
+Desc      Labyrinth 7.~
+#ENDEXIT
+Reset M 0 42012 10 42256
+#ENDROOM
+
+#ROOM
+Vnum     42257
+Name     &rBlackwing Labyrinth - Chamber 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the upper laboratory labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42256
+Desc      Labyrinth 6.~
+#EXIT
+Direction north~
+ToRoom    42258
+Desc      Labyrinth 8.~
+#ENDEXIT
+Reset M 0 42037 10 42257
+#ENDROOM
+
+#ROOM
+Vnum     42258
+Name     &rBlackwing Labyrinth - Chamber 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near Nefarian's throne room.
+~
+#EXIT
+Direction south~
+ToRoom    42257
+Desc      Labyrinth 7.~
+#EXIT
+Direction north~
+ToRoom    42259
+Desc      Labyrinth 9.~
+#ENDEXIT
+Reset M 0 42025 10 42258
+#ENDROOM
+
+#ROOM
+Vnum     42259
+Name     &rBlackwing Labyrinth - Chamber 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the laboratory tunnels.
+~
+#EXIT
+Direction south~
+ToRoom    42258
+Desc      Labyrinth 8.~
+#EXIT
+Direction north~
+ToRoom    42260
+Desc      Labyrinth 10.~
+#ENDEXIT
+Reset M 0 42049 10 42259
+#ENDROOM
+
+#ROOM
+Vnum     42260
+Name     &rBlackwing Labyrinth - Chamber 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of confusing stone corridors near the sky-terrace.
+~
+#EXIT
+Direction south~
+ToRoom    42259
+Desc      Labyrinth 9.~
+#ENDEXIT
+Reset M 0 42049 10 42260
+#ENDROOM
+
+#ROOM
+Vnum     42261
+Name     &rLabyrinth 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     The first of forty-one interconnected lab-cells.
+~
+#EXIT
+Direction north~
+ToRoom    42262
+Desc      Labyrinth 12.~
+#EXIT
+Direction south~
+ToRoom    42210
+Desc      Suppression entry.~
+#ENDEXIT
+Reset M 0 42015 10 42261
+#ENDROOM
+
+#ROOM
+Vnum     42262
+Name     &rLabyrinth 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     A clinical chamber filled with bubbling vats.
+~
+#EXIT
+Direction south~
+ToRoom    42261
+Desc      Labyrinth 11.~
+#EXIT
+Direction north~
+ToRoom    42263
+Desc      Labyrinth 13.~
+#ENDEXIT
+Reset M 0 42013 10 42262
+#ENDROOM
+
+#ROOM
+Vnum     42263
+Name     &rLabyrinth 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow tunnel lined with dragon-bone.
+~
+#EXIT
+Direction south~
+ToRoom    42262
+Desc      Labyrinth 12.~
+#EXIT
+Direction north~
+ToRoom    42264
+Desc      Labyrinth 14.~
+#ENDEXIT
+Reset M 0 42011 10 42263
+#ENDROOM
+
+#ROOM
+Vnum     42264
+Name     &rLabyrinth 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room where chromatic whelps are fed.
+~
+#EXIT
+Direction south~
+ToRoom    42263
+Desc      Labyrinth 13.~
+#EXIT
+Direction north~
+ToRoom    42265
+Desc      Labyrinth 15.~
+#ENDEXIT
+Reset M 0 42026 10 42264
+#ENDROOM
+
+#ROOM
+Vnum     42265
+Name     &rLabyrinth 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner filled with shadow-fire residue.
+~
+#EXIT
+Direction south~
+ToRoom    42264
+Desc      Labyrinth 14.~
+#EXIT
+Direction north~
+ToRoom    42266
+Desc      Labyrinth 16.~
+#ENDEXIT
+Reset M 0 42039 10 42265
+#ENDROOM
+
+#ROOM
+Vnum     42266
+Name     &rLabyrinth 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for heavy obsidian maces.
+~
+#EXIT
+Direction south~
+ToRoom    42265
+Desc      Labyrinth 15.~
+#EXIT
+Direction north~
+ToRoom    42267
+Desc      Labyrinth 17.~
+#ENDEXIT
+Reset M 0 42036 10 42266
+#ENDROOM
+
+#ROOM
+Vnum     42267
+Name     &rLabyrinth 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop where armor is repaired.
+~
+#EXIT
+Direction south~
+ToRoom    42266
+Desc      Labyrinth 16.~
+#EXIT
+Direction north~
+ToRoom    42268
+Desc      Labyrinth 18.~
+#ENDEXIT
+Reset M 0 42012 10 42267
+#ENDROOM
+
+#ROOM
+Vnum     42268
+Name     &rLabyrinth 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where menders study rituals.
+~
+#EXIT
+Direction south~
+ToRoom    42267
+Desc      Labyrinth 17.~
+#EXIT
+Direction north~
+ToRoom    42269
+Desc      Labyrinth 19.~
+#ENDEXIT
+Reset M 0 42018 10 42268
+#ENDROOM
+
+#ROOM
+Vnum     42269
+Name     &rLabyrinth 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark hallway home to several lava spiders.
+~
+#EXIT
+Direction south~
+ToRoom    42268
+Desc      Labyrinth 18.~
+#EXIT
+Direction north~
+ToRoom    42270
+Desc      Labyrinth 20.~
+#ENDEXIT
+Reset M 0 42029 10 42269
+#ENDROOM
+
+#ROOM
+Vnum     42270
+Name     &rLabyrinth 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the mid-level suppression lab.
+~
+#EXIT
+Direction south~
+ToRoom    42269
+Desc      Labyrinth 19.~
+#EXIT
+Direction north~
+ToRoom    42271
+Desc      Labyrinth 21.~
+#ENDEXIT
+Reset M 0 42015 10 42270
+#ENDROOM
+
+#ROOM
+Vnum     42271
+Name     &rLabyrinth 21&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow crawlway used by technicians.
+~
+#EXIT
+Direction south~
+ToRoom    42270
+Desc      Labyrinth 20.~
+#EXIT
+Direction north~
+ToRoom    42272
+Desc      Labyrinth 22.~
+#ENDEXIT
+Reset M 0 42009 10 42271
+#ENDROOM
+
+#ROOM
+Vnum     42272
+Name     &rLabyrinth 22&d~
+Sector   inside~
+Flags    indoors~
+Desc     A clinical chamber filled with shrivelled organs.
+~
+#EXIT
+Direction south~
+ToRoom    42271
+Desc      Labyrinth 21.~
+#EXIT
+Direction north~
+ToRoom    42273
+Desc      Labyrinth 23.~
+#ENDEXIT
+Reset M 0 42034 10 42272
+#ENDROOM
+
+#ROOM
+Vnum     42273
+Name     &rLabyrinth 23&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for elementium dust and coal.
+~
+#EXIT
+Direction south~
+ToRoom    42272
+Desc      Labyrinth 22.~
+#EXIT
+Direction north~
+ToRoom    42274
+Desc      Labyrinth 24.~
+#ENDEXIT
+Reset O 0 42115 10 42273
+#ENDROOM
+
+#ROOM
+Vnum     42274
+Name     &rLabyrinth 24&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the third bridge.
+~
+#EXIT
+Direction south~
+ToRoom    42273
+Desc      Labyrinth 23.~
+#EXIT
+Direction north~
+ToRoom    42275
+Desc      Labyrinth 25.~
+#ENDEXIT
+Reset M 0 42045 10 42274
+#ENDROOM
+
+#ROOM
+Vnum     42275
+Name     &rLabyrinth 25&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the high-level laboratory labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42274
+Desc      Labyrinth 24.~
+#EXIT
+Direction north~
+ToRoom    42276
+Desc      Labyrinth 26.~
+#ENDEXIT
+Reset M 0 42032 10 42275
+#ENDROOM
+
+#ROOM
+Vnum     42276
+Name     &rLabyrinth 26&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow tunnel lined with obsidian pillars.
+~
+#EXIT
+Direction south~
+ToRoom    42275
+Desc      Labyrinth 25.~
+#EXIT
+Direction north~
+ToRoom    42277
+Desc      Labyrinth 27.~
+#ENDEXIT
+Reset M 0 42011 10 42276
+#ENDROOM
+
+#ROOM
+Vnum     42277
+Name     &rLabyrinth 27&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room where ritualists prepare prayers.
+~
+#EXIT
+Direction south~
+ToRoom    42276
+Desc      Labyrinth 26.~
+#EXIT
+Direction north~
+ToRoom    42278
+Desc      Labyrinth 28.~
+#ENDEXIT
+Reset M 0 42047 10 42277
+#ENDROOM
+
+#ROOM
+Vnum     42278
+Name     &rLabyrinth 28&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner filled with the scent of ash.
+~
+#EXIT
+Direction south~
+ToRoom    42277
+Desc      Labyrinth 27.~
+#EXIT
+Direction north~
+ToRoom    42279
+Desc      Labyrinth 29.~
+#ENDEXIT
+Reset O 42113 10 42278
+#ENDROOM
+
+#ROOM
+Vnum     42279
+Name     &rLabyrinth 29&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for heavy obsidian war-maces.
+~
+#EXIT
+Direction south~
+ToRoom    42278
+Desc      Labyrinth 28.~
+#EXIT
+Direction north~
+ToRoom    42280
+Desc      Labyrinth 30.~
+#ENDEXIT
+Reset M 0 42036 10 42279
+#ENDROOM
+
+#ROOM
+Vnum     42280
+Name     &rLabyrinth 30&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command-level labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42279
+Desc      Labyrinth 29.~
+#EXIT
+Direction north~
+ToRoom    42281
+Desc      Labyrinth 31.~
+#ENDEXIT
+Reset M 0 42037 10 42280
+#ENDROOM
+
+#ROOM
+Vnum     42281
+Name     &rLabyrinth 31&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42280
+Desc      Labyrinth 30.~
+#EXIT
+Direction north~
+ToRoom    42282
+Desc      Labyrinth 32.~
+#ENDEXIT
+Reset M 0 42025 10 42281
+#ENDROOM
+
+#ROOM
+Vnum     42282
+Name     &rLabyrinth 32&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42281
+Desc      Labyrinth 31.~
+#EXIT
+Direction north~
+ToRoom    42283
+Desc      Labyrinth 33.~
+#ENDEXIT
+Reset M 0 42025 10 42282
+#ENDROOM
+
+#ROOM
+Vnum     42283
+Name     &rLabyrinth 33&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42282
+Desc      Labyrinth 32.~
+#EXIT
+Direction north~
+ToRoom    42284
+Desc      Labyrinth 34.~
+#ENDEXIT
+Reset M 0 42025 10 42283
+#ENDROOM
+
+#ROOM
+Vnum     42284
+Name     &rLabyrinth 34&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42283
+Desc      Labyrinth 33.~
+#EXIT
+Direction north~
+ToRoom    42285
+Desc      Labyrinth 35.~
+#ENDEXIT
+Reset M 0 42025 10 42284
+#ENDROOM
+
+#ROOM
+Vnum     42285
+Name     &rLabyrinth 35&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42284
+Desc      Labyrinth 34.~
+#EXIT
+Direction north~
+ToRoom    42286
+Desc      Labyrinth 36.~
+#ENDEXIT
+Reset M 0 42025 10 42285
+#ENDROOM
+
+#ROOM
+Vnum     42286
+Name     &rLabyrinth 36&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42285
+Desc      Labyrinth 35.~
+#EXIT
+Direction north~
+ToRoom    42287
+Desc      Labyrinth 37.~
+#ENDEXIT
+Reset M 0 42025 10 42286
+#ENDROOM
+
+#ROOM
+Vnum     42287
+Name     &rLabyrinth 37&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42286
+Desc      Labyrinth 36.~
+#EXIT
+Direction north~
+ToRoom    42288
+Desc      Labyrinth 38.~
+#ENDEXIT
+Reset M 0 42025 10 42287
+#ENDROOM
+
+#ROOM
+Vnum     42288
+Name     &rLabyrinth 38&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42287
+Desc      Labyrinth 37.~
+#EXIT
+Direction north~
+ToRoom    42289
+Desc      Labyrinth 39.~
+#ENDEXIT
+Reset M 0 42025 10 42288
+#ENDROOM
+
+#ROOM
+Vnum     42289
+Name     &rLabyrinth 39&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the throne room exit.
+~
+#EXIT
+Direction south~
+ToRoom    42288
+Desc      Labyrinth 38.~
+#EXIT
+Direction north~
+ToRoom    42290
+Desc      Labyrinth 40.~
+#ENDEXIT
+Reset M 0 42025 10 42289
+#ENDROOM
+
+#ROOM
+Vnum     42290
+Name     &rLabyrinth 40&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the final throne-labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42289
+Desc      Labyrinth 39.~
+#ENDEXIT
+Reset M 0 42049 10 42290
+#ENDROOM
+
+#ROOM
+Vnum     42291
+Name     &rLab Cell 41&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the Sky-terrace.
+~
+#EXIT
+Direction north~
+ToRoom    42292
+Desc      Lab Cell 42.~
+#EXIT
+Direction south~
+ToRoom    42242
+Desc      Sky-terrace.~
+#ENDEXIT
+Reset M 0 42042 10 42291
+#ENDROOM
+
+#ROOM
+Vnum     42292
+Name     &rLab Cell 42&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42291
+Desc      Lab Cell 41.~
+#EXIT
+Direction north~
+ToRoom    42293
+Desc      Lab Cell 43.~
+#ENDEXIT
+Reset M 0 42042 10 42292
+#ENDROOM
+
+#ROOM
+Vnum     42293
+Name     &rLab Cell 43&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42292
+Desc      Lab Cell 42.~
+#EXIT
+Direction north~
+ToRoom    42294
+Desc      Lab Cell 44.~
+#ENDEXIT
+Reset M 0 42042 10 42293
+#ENDROOM
+
+#ROOM
+Vnum     42294
+Name     &rLab Cell 44&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42293
+Desc      Lab Cell 43.~
+#EXIT
+Direction north~
+ToRoom    42295
+Desc      Lab Cell 45.~
+#ENDEXIT
+Reset M 0 42042 10 42294
+#ENDROOM
+
+#ROOM
+Vnum     42295
+Name     &rLab Cell 45&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42294
+Desc      Lab Cell 44.~
+#EXIT
+Direction north~
+ToRoom    42296
+Desc      Lab Cell 46.~
+#ENDEXIT
+Reset M 0 42042 10 42295
+#ENDROOM
+
+#ROOM
+Vnum     42296
+Name     &rLab Cell 46&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42295
+Desc      Lab Cell 45.~
+#EXIT
+Direction north~
+ToRoom    42297
+Desc      Lab Cell 47.~
+#ENDEXIT
+Reset M 0 42042 10 42296
+#ENDROOM
+
+#ROOM
+Vnum     42297
+Name     &rLab Cell 47&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42296
+Desc      Lab Cell 46.~
+#EXIT
+Direction north~
+ToRoom    42298
+Desc      Lab Cell 48.~
+#ENDEXIT
+Reset M 0 42042 10 42297
+#ENDROOM
+
+#ROOM
+Vnum     42298
+Name     &rLab Cell 48&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42297
+Desc      Lab Cell 47.~
+#EXIT
+Direction north~
+ToRoom    42299
+Desc      Lab Cell 49.~
+#ENDEXIT
+Reset M 0 42042 10 42298
+#ENDROOM
+
+#ROOM
+Vnum     42299
+Name     &rLab Cell 49&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42298
+Desc      Lab Cell 48.~
+#EXIT
+Direction north~
+ToRoom    42300
+Desc      Lab Cell 50.~
+#ENDEXIT
+Reset M 0 42042 10 42299
+#ENDROOM
+
+#ROOM
+Vnum     42300
+Name     &rLab Cell 50&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the Sky-terrace labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42299
+Desc      Lab Cell 49.~
+#ENDEXIT
+Reset M 0 42042 10 42300
+#ENDROOM
+
+#ROOM
+Vnum     42301
+Name     &rThe Blackwing Final Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet, central garden of lava-roots and glowing 
+mushrooms in the middle of the labyrinthine hold.
+~
+#EXIT
+Direction north~
+ToRoom    42202
+Desc      The hatchery control room.~
+#ENDEXIT
+Reset O 0 42118 10 42301
+#ENDROOM
+
+#ROOM
+Vnum     42302
+Name     &rThe Silent Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the hatchery where the technicians 
+prepare the Dark Horde's meals.
+~
+#EXIT
+Direction south~
+ToRoom    42201
+Desc      Hatchery entrance.~
+#ENDEXIT
+Reset M 0 42034 5 42302
+#ENDROOM
+
+#ROOM
+Vnum     42303
+Name     &rThe Hospital Overflow&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room in the labs where the high-priests 
+treat the veterans.
+~
+#EXIT
+Direction north~
+ToRoom    42220
+Desc      Laboratory entry.~
+#ENDEXIT
+Reset M 0 42041 5 42303
+#ENDROOM
+
+#ROOM
+Vnum     42304
+Name     &rThe High Garden&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rare balcony that stays remarkably clear of 
+the laboratory's smoke and smell of decay.
+~
+#EXIT
+Direction south~
+ToRoom    42220
+Desc      Laboratory entry.~
+#ENDEXIT
+Reset O 42101 1 42304
+#ENDROOM
+
+#ROOM
+Vnum     42305
+Name     &rThe Shadowed Grotto&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A small cavern hidden beneath the suppression room.
+~
+#EXIT
+Direction up~
+ToRoom    42211
+Desc      Suppression central.~
+#ENDEXIT
+Reset M 0 42029 10 42305
+#ENDROOM
+
+#ROOM
+Vnum     42306
+Name     &rThe Ledge of the Master&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the throne summit, 
+home to several chromatic watchers.
+~
+#EXIT
+Direction down~
+ToRoom    42241
+Desc      Nefarius's throne.~
+#ENDEXIT
+Reset M 0 42033 10 42306
+#ENDROOM
+
+#ROOM
+Vnum     42307
+Name     &rThe Final Path - North&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet central garden near the Lair's exit.
+~
+#EXIT
+Direction south~
+ToRoom    42400
+Desc      Exit path.~
+#ENDEXIT
+Reset O 0 42115 10 42307
+#ENDROOM
+
+#ROOM
+Vnum     42308
+Name     &rLaboratory Cell 51&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    42309
+Desc      Lab Cell 52.~
+#EXIT
+Direction south~
+ToRoom    42220
+Desc      Lab entry.~
+#ENDEXIT
+Reset M 0 42019 10 42308
+#ENDROOM
+
+#ROOM
+Vnum     42309
+Name     &rLaboratory Cell 52&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42308
+Desc      Lab Cell 51.~
+#EXIT
+Direction north~
+ToRoom    42310
+Desc      Lab Cell 53.~
+#ENDEXIT
+Reset M 0 42019 10 42309
+#ENDROOM
+
+#ROOM
+Vnum     42310
+Name     &rLaboratory Cell 53&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42309
+Desc      Lab Cell 52.~
+#EXIT
+Direction north~
+ToRoom    42311
+Desc      Lab Cell 54.~
+#ENDEXIT
+Reset M 0 42019 10 42310
+#ENDROOM
+
+#ROOM
+Vnum     42311
+Name     &rLaboratory Cell 54&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42310
+Desc      Lab Cell 53.~
+#EXIT
+Direction north~
+ToRoom    42312
+Desc      Lab Cell 55.~
+#ENDEXIT
+Reset M 0 42019 10 42311
+#ENDROOM
+
+#ROOM
+Vnum     42312
+Name     &rLaboratory Cell 55&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42311
+Desc      Lab Cell 54.~
+#EXIT
+Direction north~
+ToRoom    42313
+Desc      Lab Cell 56.~
+#ENDEXIT
+Reset M 0 42019 10 42312
+#ENDROOM
+
+#ROOM
+Vnum     42313
+Name     &rLaboratory Cell 56&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42312
+Desc      Lab Cell 55.~
+#EXIT
+Direction north~
+ToRoom    42314
+Desc      Lab Cell 57.~
+#ENDEXIT
+Reset M 0 42019 10 42313
+#ENDROOM
+
+#ROOM
+Vnum     42314
+Name     &rLaboratory Cell 57&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42313
+Desc      Lab Cell 56.~
+#EXIT
+Direction north~
+ToRoom    42315
+Desc      Lab Cell 58.~
+#ENDEXIT
+Reset M 0 42019 10 42314
+#ENDROOM
+
+#ROOM
+Vnum     42315
+Name     &rLaboratory Cell 58&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42314
+Desc      Lab Cell 57.~
+#EXIT
+Direction north~
+ToRoom    42316
+Desc      Lab Cell 59.~
+#ENDEXIT
+Reset M 0 42019 10 42315
+#ENDROOM
+
+#ROOM
+Vnum     42316
+Name     &rLaboratory Cell 59&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42315
+Desc      Lab Cell 58.~
+#EXIT
+Direction north~
+ToRoom    42317
+Desc      Lab Cell 60.~
+#ENDEXIT
+Reset M 0 42019 10 42316
+#ENDROOM
+
+#ROOM
+Vnum     42317
+Name     &rLaboratory Cell 60&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42316
+Desc      Lab Cell 59.~
+#EXIT
+Direction north~
+ToRoom    42318
+Desc      Lab Cell 61.~
+#ENDEXIT
+Reset M 0 42019 10 42317
+#ENDROOM
+
+#ROOM
+Vnum     42318
+Name     &rLaboratory Cell 61&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42317
+Desc      Lab Cell 60.~
+#EXIT
+Direction north~
+ToRoom    42319
+Desc      Lab Cell 62.~
+#ENDEXIT
+Reset M 0 42019 10 42318
+#ENDROOM
+
+#ROOM
+Vnum     42319
+Name     &rLaboratory Cell 62&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42318
+Desc      Lab Cell 61.~
+#EXIT
+Direction north~
+ToRoom    42320
+Desc      Lab Cell 63.~
+#ENDEXIT
+Reset M 0 42019 10 42319
+#ENDROOM
+
+#ROOM
+Vnum     42320
+Name     &rLaboratory Cell 63&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42319
+Desc      Lab Cell 62.~
+#EXIT
+Direction north~
+ToRoom    42321
+Desc      Lab Cell 64.~
+#ENDEXIT
+Reset M 0 42019 10 42320
+#ENDROOM
+
+#ROOM
+Vnum     42321
+Name     &rLaboratory Cell 64&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42320
+Desc      Lab Cell 63.~
+#EXIT
+Direction north~
+ToRoom    42322
+Desc      Lab Cell 65.~
+#ENDEXIT
+Reset M 0 42019 10 42321
+#ENDROOM
+
+#ROOM
+Vnum     42322
+Name     &rLaboratory Cell 65&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42321
+Desc      Lab Cell 64.~
+#EXIT
+Direction north~
+ToRoom    42323
+Desc      Lab Cell 66.~
+#ENDEXIT
+Reset M 0 42019 10 42322
+#ENDROOM
+
+#ROOM
+Vnum     42323
+Name     &rLaboratory Cell 66&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42322
+Desc      Lab Cell 65.~
+#EXIT
+Direction north~
+ToRoom    42324
+Desc      Lab Cell 67.~
+#ENDEXIT
+Reset M 0 42019 10 42323
+#ENDROOM
+
+#ROOM
+Vnum     42324
+Name     &rLaboratory Cell 67&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42323
+Desc      Lab Cell 66.~
+#EXIT
+Direction north~
+ToRoom    42325
+Desc      Lab Cell 68.~
+#ENDEXIT
+Reset M 0 42019 10 42324
+#ENDROOM
+
+#ROOM
+Vnum     42325
+Name     &rLaboratory Cell 68&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42324
+Desc      Lab Cell 67.~
+#EXIT
+Direction north~
+ToRoom    42326
+Desc      Lab Cell 69.~
+#ENDEXIT
+Reset M 0 42019 10 42325
+#ENDROOM
+
+#ROOM
+Vnum     42326
+Name     &rLaboratory Cell 69&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42325
+Desc      Lab Cell 68.~
+#EXIT
+Direction north~
+ToRoom    42327
+Desc      Lab Cell 70.~
+#ENDEXIT
+Reset M 0 42019 10 42326
+#ENDROOM
+
+#ROOM
+Vnum     42327
+Name     &rLaboratory Cell 70&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42326
+Desc      Lab Cell 69.~
+#EXIT
+Direction north~
+ToRoom    42328
+Desc      Lab Cell 71.~
+#ENDEXIT
+Reset M 0 42019 10 42327
+#ENDROOM
+
+#ROOM
+Vnum     42328
+Name     &rLaboratory Cell 71&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42327
+Desc      Lab Cell 70.~
+#EXIT
+Direction north~
+ToRoom    42329
+Desc      Lab Cell 72.~
+#ENDEXIT
+Reset M 0 42019 10 42328
+#ENDROOM
+
+#ROOM
+Vnum     42329
+Name     &rLaboratory Cell 72&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42328
+Desc      Lab Cell 71.~
+#EXIT
+Direction north~
+ToRoom    42330
+Desc      Lab Cell 73.~
+#ENDEXIT
+Reset M 0 42019 10 42329
+#ENDROOM
+
+#ROOM
+Vnum     42330
+Name     &rLaboratory Cell 73&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42329
+Desc      Lab Cell 72.~
+#EXIT
+Direction north~
+ToRoom    42331
+Desc      Lab Cell 74.~
+#ENDEXIT
+Reset M 0 42019 10 42330
+#ENDROOM
+
+#ROOM
+Vnum     42331
+Name     &rLaboratory Cell 74&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42330
+Desc      Lab Cell 73.~
+#EXIT
+Direction north~
+ToRoom    42332
+Desc      Lab Cell 75.~
+#ENDEXIT
+Reset M 0 42019 10 42331
+#ENDROOM
+
+#ROOM
+Vnum     42332
+Name     &rLaboratory Cell 75&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42331
+Desc      Lab Cell 74.~
+#EXIT
+Direction north~
+ToRoom    42333
+Desc      Lab Cell 76.~
+#ENDEXIT
+Reset M 0 42019 10 42332
+#ENDROOM
+
+#ROOM
+Vnum     42333
+Name     &rLaboratory Cell 76&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42332
+Desc      Lab Cell 75.~
+#EXIT
+Direction north~
+ToRoom    42334
+Desc      Lab Cell 77.~
+#ENDEXIT
+Reset M 0 42019 10 42333
+#ENDROOM
+
+#ROOM
+Vnum     42334
+Name     &rLaboratory Cell 77&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42333
+Desc      Lab Cell 76.~
+#EXIT
+Direction north~
+ToRoom    42335
+Desc      Lab Cell 78.~
+#ENDEXIT
+Reset M 0 42019 10 42334
+#ENDROOM
+
+#ROOM
+Vnum     42335
+Name     &rLaboratory Cell 78&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42334
+Desc      Lab Cell 77.~
+#EXIT
+Direction north~
+ToRoom    42336
+Desc      Lab Cell 79.~
+#ENDEXIT
+Reset M 0 42019 10 42335
+#ENDROOM
+
+#ROOM
+Vnum     42336
+Name     &rLaboratory Cell 79&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42335
+Desc      Lab Cell 78.~
+#EXIT
+Direction north~
+ToRoom    42337
+Desc      Lab Cell 80.~
+#ENDEXIT
+Reset M 0 42019 10 42336
+#ENDROOM
+
+#ROOM
+Vnum     42337
+Name     &rLaboratory Cell 80&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42336
+Desc      Lab Cell 79.~
+#EXIT
+Direction north~
+ToRoom    42338
+Desc      Lab Cell 81.~
+#ENDEXIT
+Reset M 0 42019 10 42337
+#ENDROOM
+
+#ROOM
+Vnum     42338
+Name     &rLaboratory Cell 81&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42337
+Desc      Lab Cell 80.~
+#EXIT
+Direction north~
+ToRoom    42339
+Desc      Lab Cell 82.~
+#ENDEXIT
+Reset M 0 42019 10 42338
+#ENDROOM
+
+#ROOM
+Vnum     42339
+Name     &rLaboratory Cell 82&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42338
+Desc      Lab Cell 81.~
+#EXIT
+Direction north~
+ToRoom    42340
+Desc      Lab Cell 83.~
+#ENDEXIT
+Reset M 0 42019 10 42339
+#ENDROOM
+
+#ROOM
+Vnum     42340
+Name     &rLaboratory Cell 83&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42339
+Desc      Lab Cell 82.~
+#EXIT
+Direction north~
+ToRoom    42341
+Desc      Lab Cell 84.~
+#ENDEXIT
+Reset M 0 42019 10 42340
+#ENDROOM
+
+#ROOM
+Vnum     42341
+Name     &rLaboratory Cell 84&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42340
+Desc      Lab Cell 83.~
+#EXIT
+Direction north~
+ToRoom    42342
+Desc      Lab Cell 85.~
+#ENDEXIT
+Reset M 0 42019 10 42341
+#ENDROOM
+
+#ROOM
+Vnum     42342
+Name     &rLaboratory Cell 85&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42341
+Desc      Lab Cell 84.~
+#EXIT
+Direction north~
+ToRoom    42343
+Desc      Lab Cell 86.~
+#ENDEXIT
+Reset M 0 42019 10 42342
+#ENDROOM
+
+#ROOM
+Vnum     42343
+Name     &rLaboratory Cell 86&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42342
+Desc      Lab Cell 85.~
+#EXIT
+Direction north~
+ToRoom    42344
+Desc      Lab Cell 87.~
+#ENDEXIT
+Reset M 0 42019 10 42343
+#ENDROOM
+
+#ROOM
+Vnum     42344
+Name     &rLaboratory Cell 87&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42343
+Desc      Lab Cell 86.~
+#EXIT
+Direction north~
+ToRoom    42345
+Desc      Lab Cell 88.~
+#ENDEXIT
+Reset M 0 42019 10 42344
+#ENDROOM
+
+#ROOM
+Vnum     42345
+Name     &rLaboratory Cell 88&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42344
+Desc      Lab Cell 87.~
+#EXIT
+Direction north~
+ToRoom    42346
+Desc      Lab Cell 89.~
+#ENDEXIT
+Reset M 0 42019 10 42345
+#ENDROOM
+
+#ROOM
+Vnum     42346
+Name     &rLaboratory Cell 89&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42345
+Desc      Lab Cell 88.~
+#EXIT
+Direction north~
+ToRoom    42347
+Desc      Lab Cell 90.~
+#ENDEXIT
+Reset M 0 42019 10 42346
+#ENDROOM
+
+#ROOM
+Vnum     42347
+Name     &rLaboratory Cell 90&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42346
+Desc      Lab Cell 89.~
+#EXIT
+Direction north~
+ToRoom    42348
+Desc      Lab Cell 91.~
+#ENDEXIT
+Reset M 0 42019 10 42347
+#ENDROOM
+
+#ROOM
+Vnum     42348
+Name     &rLaboratory Cell 91&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42347
+Desc      Lab Cell 90.~
+#EXIT
+Direction north~
+ToRoom    42349
+Desc      Lab Cell 92.~
+#ENDEXIT
+Reset M 0 42019 10 42348
+#ENDROOM
+
+#ROOM
+Vnum     42349
+Name     &rLaboratory Cell 92&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42348
+Desc      Lab Cell 91.~
+#EXIT
+Direction north~
+ToRoom    42350
+Desc      Lab Cell 93.~
+#ENDEXIT
+Reset M 0 42019 10 42349
+#ENDROOM
+
+#ROOM
+Vnum     42350
+Name     &rLaboratory Cell 93&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42349
+Desc      Lab Cell 92.~
+#EXIT
+Direction north~
+ToRoom    42351
+Desc      Lab Cell 94.~
+#ENDEXIT
+Reset M 0 42019 10 42350
+#ENDROOM
+
+#ROOM
+Vnum     42351
+Name     &rLaboratory Cell 94&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42350
+Desc      Lab Cell 93.~
+#EXIT
+Direction north~
+ToRoom    42352
+Desc      Lab Cell 95.~
+#ENDEXIT
+Reset M 0 42019 10 42351
+#ENDROOM
+
+#ROOM
+Vnum     42352
+Name     &rLaboratory Cell 95&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42351
+Desc      Lab Cell 94.~
+#EXIT
+Direction north~
+ToRoom    42353
+Desc      Lab Cell 96.~
+#ENDEXIT
+Reset M 0 42019 10 42352
+#ENDROOM
+
+#ROOM
+Vnum     42353
+Name     &rLaboratory Cell 96&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42352
+Desc      Lab Cell 95.~
+#EXIT
+Direction north~
+ToRoom    42354
+Desc      Lab Cell 97.~
+#ENDEXIT
+Reset M 0 42019 10 42353
+#ENDROOM
+
+#ROOM
+Vnum     42354
+Name     &rLaboratory Cell 97&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42353
+Desc      Lab Cell 96.~
+#EXIT
+Direction north~
+ToRoom    42355
+Desc      Lab Cell 98.~
+#ENDEXIT
+Reset M 0 42019 10 42354
+#ENDROOM
+
+#ROOM
+Vnum     42355
+Name     &rLaboratory Cell 98&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42354
+Desc      Lab Cell 97.~
+#EXIT
+Direction north~
+ToRoom    42356
+Desc      Lab Cell 99.~
+#ENDEXIT
+Reset M 0 42019 10 42355
+#ENDROOM
+
+#ROOM
+Vnum     42356
+Name     &rLaboratory Cell 99&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42355
+Desc      Lab Cell 98.~
+#EXIT
+Direction north~
+ToRoom    42357
+Desc      Lab Cell 100.~
+#ENDEXIT
+Reset M 0 42019 10 42356
+#ENDROOM
+
+#ROOM
+Vnum     42357
+Name     &rLaboratory Cell 100&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the High Foundry tunnels.
+~
+#EXIT
+Direction south~
+ToRoom    42356
+Desc      Lab Cell 99.~
+#ENDEXIT
+Reset M 0 42049 10 42357
+#ENDROOM
+
+#ROOM
+Vnum     42358
+Name     &rLab Cell 101&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Breeding Pit.
+~
+#EXIT
+Direction north~
+ToRoom    42359
+Desc      Lab Cell 102.~
+#EXIT
+Direction south~
+ToRoom    42205
+Desc      Breeding Pit.~
+#ENDEXIT
+Reset M 0 42006 10 42358
+#ENDROOM
+
+#ROOM
+Vnum     42359
+Name     &rLab Cell 102&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the dragon-breeding pits.
+~
+#EXIT
+Direction south~
+ToRoom    42358
+Desc      Lab Cell 101.~
+#EXIT
+Direction north~
+ToRoom    42360
+Desc      Lab Cell 103.~
+#ENDEXIT
+Reset M 0 42006 10 42359
+#ENDROOM
+
+#ROOM
+Vnum     42360
+Name     &rLab Cell 103&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the breeding-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42359
+Desc      Lab Cell 102.~
+#ENDEXIT
+Reset M 0 42049 10 42360
+#ENDROOM
+
+#ROOM
+Vnum     42361
+Name     &rLab Cell 104&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the First Bridge.
+~
+#EXIT
+Direction north~
+ToRoom    42362
+Desc      Lab Cell 105.~
+#EXIT
+Direction south~
+ToRoom    42221
+Desc      First Bridge.~
+#ENDEXIT
+Reset M 0 42045 10 42361
+#ENDROOM
+
+#ROOM
+Vnum     42362
+Name     &rLab Cell 105&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the bridge-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42361
+Desc      Lab Cell 104.~
+#ENDEXIT
+Reset M 0 42045 10 42362
+#ENDROOM
+
+#ROOM
+Vnum     42363
+Name     &rLab Cell 106&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Second Bridge.
+~
+#EXIT
+Direction north~
+ToRoom    42364
+Desc      Lab Cell 107.~
+#EXIT
+Direction south~
+ToRoom    42222
+Desc      Second Bridge.~
+#ENDEXIT
+Reset M 0 42011 10 42363
+#ENDROOM
+
+#ROOM
+Vnum     42364
+Name     &rLab Cell 107&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the obsidian-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42363
+Desc      Lab Cell 106.~
+#ENDEXIT
+Reset M 0 42011 10 42364
+#ENDROOM
+
+#ROOM
+Vnum     42365
+Name     &rLab Cell 108&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Third Bridge.
+~
+#EXIT
+Direction north~
+ToRoom    42366
+Desc      Lab Cell 109.~
+#EXIT
+Direction south~
+ToRoom    42223
+Desc      Third Bridge.~
+#ENDEXIT
+Reset M 0 42049 10 42365
+#ENDROOM
+
+#ROOM
+Vnum     42366
+Name     &rLab Cell 109&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the roar-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42365
+Desc      Lab Cell 108.~
+#ENDEXIT
+Reset M 0 42049 10 42366
+#ENDROOM
+
+#ROOM
+Vnum     42367
+Name     &rLab Cell 110&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Broodlord's Balcony.
+~
+#EXIT
+Direction north~
+ToRoom    42368
+Desc      Lab Cell 111.~
+#EXIT
+Direction south~
+ToRoom    42212
+Desc      Broodlord's Balcony.~
+#ENDEXIT
+Reset M 0 42013 10 42367
+#ENDROOM
+
+#ROOM
+Vnum     42368
+Name     &rLab Cell 111&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the brood-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42367
+Desc      Lab Cell 110.~
+#ENDEXIT
+Reset M 0 42013 10 42368
+#ENDROOM
+
+#ROOM
+Vnum     42369
+Name     &rLab Cell 112&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Burning Hall.
+~
+#EXIT
+Direction north~
+ToRoom    42370
+Desc      Lab Cell 113.~
+#EXIT
+Direction south~
+ToRoom    42203
+Desc      Burning Hall.~
+#ENDEXIT
+Reset M 0 42013 10 42369
+#ENDROOM
+
+#ROOM
+Vnum     42370
+Name     &rLab Cell 113&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the shadow-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42369
+Desc      Lab Cell 112.~
+#ENDEXIT
+Reset M 0 42013 10 42370
+#ENDROOM
+
+#ROOM
+Vnum     42371
+Name     &rLab Cell 114&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Hatchery Control Room.
+~
+#EXIT
+Direction north~
+ToRoom    42372
+Desc      Lab Cell 115.~
+#EXIT
+Direction south~
+ToRoom    42202
+Desc      Control Room.~
+#ENDEXIT
+Reset M 0 42009 10 42371
+#ENDROOM
+
+#ROOM
+Vnum     42372
+Name     &rLab Cell 115&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the technician-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42371
+Desc      Lab Cell 114.~
+#ENDEXIT
+Reset M 0 42009 10 42372
+#ENDROOM
+
+#ROOM
+Vnum     42373
+Name     &rLab Cell 116&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Lair Entrance.
+~
+#EXIT
+Direction north~
+ToRoom    42374
+Desc      Lab Cell 117.~
+#EXIT
+Direction south~
+ToRoom    42200
+Desc      Lair Overlook.~
+#ENDEXIT
+Reset M 0 42010 10 42373
+#ENDROOM
+
+#ROOM
+Vnum     42374
+Name     &rLab Cell 117&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42373
+Desc      Lab Cell 116.~
+#ENDEXIT
+Reset M 0 42010 10 42374
+#ENDROOM
+
+#ROOM
+Vnum     42375
+Name     &rLab Cell 118&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Volcanic Bridge.
+~
+#EXIT
+Direction north~
+ToRoom    42376
+Desc      Lab Cell 119.~
+#EXIT
+Direction south~
+ToRoom    42250
+Desc      Volcanic Bridge.~
+#ENDEXIT
+Reset M 0 42005 10 42375
+#ENDROOM
+
+#ROOM
+#42376
+Name     &rLab Cell 119&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the bridge-stomp labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42375
+Desc      Lab Cell 118.~
+#ENDEXIT
+Reset M 0 42005 10 42376
+#ENDROOM
+
+#ROOM
+Vnum     42377
+Name     &rLab Cell 120&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Magma Foundries.
+~
+#EXIT
+Direction north~
+ToRoom    42378
+Desc      Lab Cell 121.~
+#EXIT
+Direction south~
+ToRoom    42251
+Desc      Foundries South.~
+#ENDEXIT
+Reset M 0 42012 10 42377
+#ENDROOM
+
+#ROOM
+Vnum     42378
+Name     &rLab Cell 121&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry-fire labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42377
+Desc      Lab Cell 120.~
+#ENDEXIT
+Reset M 0 42012 10 42378
+#ENDROOM
+
+#ROOM
+Vnum     42379
+Name     &rLab Cell 122&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Blacksmith's Wing.
+~
+#EXIT
+Direction north~
+ToRoom    42380
+Desc      Lab Cell 123.~
+#EXIT
+Direction south~
+ToRoom    42253
+Desc      Blacksmith's Wing.~
+#ENDEXIT
+Reset M 0 42015 10 42379
+#ENDROOM
+
+#ROOM
+Vnum     42380
+Name     &rLab Cell 123&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hammer-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42379
+Desc      Lab Cell 122.~
+#ENDEXIT
+Reset M 0 42015 10 42380
+#ENDROOM
+
+#ROOM
+Vnum     42381
+Name     &rLab Cell 124&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Broodmother's Path.
+~
+#EXIT
+Direction north~
+ToRoom    42382
+Desc      Lab Cell 125.~
+#EXIT
+Direction south~
+ToRoom    42300
+Desc      Broodmother Path.~
+#ENDEXIT
+Reset M 0 42013 10 42381
+#ENDROOM
+
+#ROOM
+Vnum     42382
+Name     &rLab Cell 125&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the path-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42381
+Desc      Lab Cell 124.~
+#ENDEXIT
+Reset M 0 42013 10 42382
+#ENDROOM
+
+#ROOM
+Vnum     42383
+Name     &rLab Cell 126&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Wardens' Hall.
+~
+#EXIT
+Direction north~
+ToRoom    42384
+Desc      Lab Cell 127.~
+#EXIT
+Direction south~
+ToRoom    42301
+Desc      Wardens' Hall.~
+#ENDEXIT
+Reset M 0 42013 10 42383
+#ENDROOM
+
+#ROOM
+Vnum     42384
+Name     &rLab Cell 127&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden-shield labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42383
+Desc      Lab Cell 126.~
+#ENDEXIT
+Reset M 0 42013 10 42384
+#ENDROOM
+
+#ROOM
+Vnum     42385
+Name     &rLab Cell 128&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Sanctum Overflow.
+~
+#EXIT
+Direction north~
+ToRoom    42386
+Desc      Lab Cell 129.~
+#EXIT
+Direction south~
+ToRoom    42311
+Desc      Sanctum Overflow.~
+#ENDEXIT
+Reset M 0 42002 10 42385
+#ENDROOM
+
+#ROOM
+Vnum     42386
+Name     &rLab Cell 129&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hoard-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42385
+Desc      Lab Cell 128.~
+#ENDEXIT
+Reset M 0 42002 10 42386
+#ENDROOM
+
+#ROOM
+Vnum     42387
+Name     &rLab Cell 130&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel near the Sky-terrace Labyrinth.
+~
+#EXIT
+Direction north~
+ToRoom    42388
+Desc      Lab Cell 131.~
+#EXIT
+Direction south~
+ToRoom    42250
+Desc      Sky-terrace Labyrinth.~
+#ENDEXIT
+Reset M 0 42042 10 42387
+#ENDROOM
+
+#ROOM
+Vnum     42388
+Name     &rLab Cell 131&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the terrace-wing labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    42387
+Desc      Lab Cell 130.~
+#ENDEXIT
+Reset M 0 42042 10 42388
+#ENDROOM
+
+#ROOM
+Vnum     42389
+Name     &rLab Cell 132&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42388
+Desc      Lab Cell 131.~
+#ENDEXIT
+Reset M 0 42049 10 42389
+#ENDROOM
+
+#ROOM
+Vnum     42390
+Name     &rLab Cell 133&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42389
+Desc      Lab Cell 132.~
+#ENDEXIT
+Reset M 0 42049 10 42390
+#ENDROOM
+
+#ROOM
+Vnum     42391
+Name     &rLab Cell 134&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42390
+Desc      Lab Cell 133.~
+#ENDEXIT
+Reset M 0 42049 10 42391
+#ENDROOM
+
+#ROOM
+Vnum     42392
+Name     &rLab Cell 135&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42391
+Desc      Lab Cell 134.~
+#ENDEXIT
+Reset M 0 42049 10 42392
+#ENDROOM
+
+#ROOM
+Vnum     42393
+Name     &rLab Cell 136&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42392
+Desc      Lab Cell 135.~
+#ENDEXIT
+Reset M 0 42049 10 42393
+#ENDROOM
+
+#ROOM
+Vnum     42394
+Name     &rLab Cell 137&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42393
+Desc      Lab Cell 136.~
+#ENDEXIT
+Reset M 0 42049 10 42394
+#ENDROOM
+
+#ROOM
+Vnum     42395
+Name     &rLab Cell 138&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42394
+Desc      Lab Cell 137.~
+#ENDEXIT
+Reset M 0 42049 10 42395
+#ENDROOM
+
+#ROOM
+Vnum     42396
+Name     &rLab Cell 139&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42395
+Desc      Lab Cell 138.~
+#ENDEXIT
+Reset M 0 42049 10 42396
+#ENDROOM
+
+#ROOM
+Vnum     42397
+Name     &rLab Cell 140&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42396
+Desc      Lab Cell 139.~
+#ENDEXIT
+Reset M 0 42049 10 42397
+#ENDROOM
+
+#ROOM
+Vnum     42398
+Name     &rLab Cell 141&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42397
+Desc      Lab Cell 140.~
+#ENDEXIT
+Reset M 0 42049 10 42398
+#ENDROOM
+
+#ROOM
+Vnum     42399
+Name     &rLab Cell 142&d~
+Sector   inside~
+Flags    indoors~
+Desc     The absolute deepest part of the entire labyrinthine structure.
+~
+#EXIT
+Direction south~
+ToRoom    42398
+Desc      Lab Cell 141.~
+#ENDEXIT
+Reset M 0 42049 10 42399
+#ENDROOM
+
+#ROOM
+Vnum     42401
+Name     &rBlackwing Final Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     The end of the laboratory crawl. The walls are covered in 
+shifting chromatic scales, and the air hums with the power 
+of the Black Dragonflight.
+~
+#EXIT
+Direction north~
+ToRoom    42201
+Desc      Return to the hatchery.~
+#ENDEXIT
+Reset O 0 42115 10 42401
+#ENDROOM
+
+#ENDAREA
