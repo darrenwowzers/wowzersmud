@@ -1107,7 +1107,7 @@ Reset M 0 27501 2 27525
 #ROOM
 Vnum     27526
 Name     &OThe Hidden Spring&d~
-Sector   water~
+Sector   water_swim~
 Desc     A small, cold spring bubbles up from the rocks. It is a rare
 source of clean water in these rugged mountains.
 ~

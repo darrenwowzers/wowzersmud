@@ -10,7 +10,7 @@ Economy      0 31250000
 #ENDAREADATA
 
 #MOBILE
-Vnum       26000
+Vnum       28500
 Keywords   galak marauder centaur beastman~
 Short      a Galak marauder~
 Long       A hulking Galak centaur gallops across the canyon floor, spear raised.~
@@ -35,7 +35,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26001
+Vnum       28501
 Keywords   cliff wyvern flying beast~
 Short      a cliff wyvern~
 Long       A leathery-winged wyvern screeches from a high mesa ledge.~
@@ -60,7 +60,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26002
+Vnum       28502
 Keywords   grimtotem reaver tauren rogue~
 Short      a Grimtotem reaver~
 Long       A dark-furred Tauren assassin blends into the canyon shadows.~
@@ -85,7 +85,7 @@ Speaking   taurhe~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26003
+Vnum       28503
 Keywords   saltstone basilisk reptile~
 Short      a saltstone basilisk~
 Long       A lizard with scales the color of dried salt suns itself on the flats.~
@@ -110,7 +110,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26004
+Vnum       28504
 Keywords   fizzle brassbolts gnome racer~
 Short      Fizzle Brassbolts~
 Long       A grime-covered gnome frantically adjusts a steaming engine.~
@@ -135,7 +135,7 @@ Speaking   gnomish~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26005
+Vnum       28505
 Keywords   razorfen marauder quilboar~
 Short      a Razorfen scout~
 Long       A thorny quilboar sniffs the air near the southern pass.~
@@ -160,7 +160,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26006
+Vnum       28506
 Keywords   scorpashi venomlash scorpion~
 Short      a scorpashi venomlash~
 Long       A giant, sand-colored scorpion clatters its claws threateningly.~
@@ -185,7 +185,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26007
+Vnum       28507
 Keywords   freewind sentinel tauren guard~
 Short      a Freewind Sentinel~
 Long       A tall Tauren sentinel stands at the edge of the lift, watching the canyon.~
@@ -209,7 +209,7 @@ Speaking   taurhe~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26008
+Vnum       28508
 Keywords   mountain cougar cat beast~
 Short      a mountain cougar~
 Long       A tawny mountain cougar stalks along the narrow ledges.~
@@ -233,7 +233,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26009
+Vnum       28509
 Keywords   salt flat scavenger buzzard bird~
 Short      a salt flat scavenger~
 Long       A mangy buzzard circles overhead, waiting for the heat to claim its prize.~
@@ -257,7 +257,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26010
+Vnum       28510
 Keywords   pozzik goblin engineer~
 Short      Pozzik~
 Long       Pozzik, the goblin lead-foot, grins while pouring nitro into a tank.~
@@ -281,7 +281,7 @@ Speaking   goblin~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26011
+Vnum       28511
 Keywords   shimmering breeze elemental air~
 Short      a shimmering breeze~
 Long       A swirling vortex of dust and air whistles through the flats.~
@@ -305,7 +305,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26012
+Vnum       28512
 Keywords   galak windchaser centaur shaman~
 Short      a Galak windchaser~
 Long       A centaur shaman chants, calling upon the spirits of the desert.~
@@ -329,7 +329,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26013
+Vnum       28513
 Keywords   desert rattlesnake reptile beast~
 Short      a desert rattlesnake~
 Long       A large rattlesnake coils itself in the shade of a rock.~
@@ -353,7 +353,7 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-Vnum       26014
+Vnum       28514
 Keywords   shimmering flats thresher land~
 Short      a salt flat thresher~
 Long       A land-dwelling thresher shark "swims" through the loose salt.~
@@ -378,7 +378,7 @@ Speaking   common~
 #ENDMOBILE
 
 #OBJECT
-Vnum     26000
+Vnum     28500
 Keywords galak bone spear weapon~
 Type     weapon~
 Short    a Galak bone spear~
@@ -389,7 +389,7 @@ Stats    8 150 2 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26001
+Vnum     28501
 Keywords wyvern sting dagger weapon~
 Type     weapon~
 Short    a wyvern sting dagger~
@@ -400,7 +400,7 @@ Stats    3 300 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26002
+Vnum     28502
 Keywords saltstone basilisk scale armor~
 Type     armor~
 Short    a saltstone scale vest~
@@ -411,7 +411,7 @@ Stats    12 450 3 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26003
+Vnum     28503
 Keywords rocket-fuel goggles head~
 Type     armor~
 Short    a pair of rocket-fuel goggles~
@@ -422,7 +422,7 @@ Stats    2 180 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26004
+Vnum     28504
 Keywords grimtotem ambush cloak~
 Type     armor~
 Short    a dusty Grimtotem cloak~
@@ -433,7 +433,7 @@ Stats    4 120 2 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26005
+Vnum     28505
 Keywords canteen sun-warmed water~
 Type     drinkcon~
 Short    a battered metal canteen~
@@ -444,7 +444,7 @@ Stats    1 10 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26006
+Vnum     28506
 Keywords scorpashi venom gland vial~
 Type     potion~
 Short    a vial of scorpashi venom~
@@ -455,7 +455,7 @@ Stats    1 200 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26007
+Vnum     28507
 Keywords freewind totem mace weapon~
 Type     weapon~
 Short    a carved Freewind totem~
@@ -466,7 +466,7 @@ Stats    15 350 3 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26008
+Vnum     28508
 Keywords shimmering salt crystal~
 Type     treasure~
 Short    a pure salt crystal~
@@ -477,7 +477,7 @@ Stats    1 50 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26009
+Vnum     28509
 Keywords racing grease jar~
 Type     trash~
 Short    a jar of high-grade racing grease~
@@ -488,7 +488,7 @@ Stats    2 20 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26010
+Vnum     28510
 Keywords desert rattlesnake skin belt~
 Type     armor~
 Short    a rattlesnake skin belt~
@@ -499,7 +499,7 @@ Stats    2 80 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26011
+Vnum     28511
 Keywords broken racer piston~
 Type     trash~
 Short    a charred racer piston~
@@ -510,7 +510,7 @@ Stats    5 10 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26012
+Vnum     28512
 Keywords windchaser mantle shoulders~
 Type     armor~
 Short    the Windchaser's Mantle~
@@ -521,7 +521,7 @@ Stats    4 280 2 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26013
+Vnum     28513
 Keywords thresher tooth dagger weapon~
 Type     weapon~
 Short    a land thresher tooth~
@@ -532,7 +532,7 @@ Stats    4 150 1 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     26014
+Vnum     28514
 Keywords quillboar thorn shield~
 Type     armor~
 Short    a quillboar thorn buckler~
@@ -543,7 +543,7 @@ Stats    10 140 2 0 0
 #ENDOBJECT
 
 #ROOM
-Vnum     26000
+Vnum     28500
 Name     &OThe Great Lift&d~
 Sector   mountain~
 Desc     You stand at the edge of a massive precipice. A heavy wooden platform,
@@ -558,15 +558,15 @@ Desc      Back to the Southern Barrens.
 #ENDEXIT
 #EXIT
 Direction down~
-ToRoom    26001
+ToRoom    28501
 Desc      The canyon floor.
 ~
 #ENDEXIT
-Reset M 0 26007 1 26000
+Reset M 0 28507 1 28500
 #ENDROOM
 
 #ROOM
-Vnum     26001
+Vnum     28501
 Name     &OThe Canyon Floor&d~
 Sector   field~
 Desc     The air is noticeably hotter here at the bottom of the needles. 
@@ -575,21 +575,21 @@ casting long, jagged shadows across the dusty trail.
 ~
 #EXIT
 Direction up~
-ToRoom    26000
+ToRoom    28500
 Desc      The Great Lift.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26002
+ToRoom    28502
 Desc      The winding canyon.
 ~
 #ENDEXIT
-Reset M 0 26013 2 26001
+Reset M 0 28513 2 28501
 #ENDROOM
 
 #ROOM
-Vnum     26002
+Vnum     28502
 Name     &OThe Winding Canyon&d~
 Sector   field~
 Desc     The path snakes between towering pillars of rock. To the south, a 
@@ -598,27 +598,27 @@ The sound of wind whistling through the needles is constant.
 ~
 #EXIT
 Direction west~
-ToRoom    26001
+ToRoom    28501
 Desc      The lift area.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26003
+ToRoom    28503
 Desc      Toward Freewind Post.
 ~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    26004
+ToRoom    28504
 Desc      The Razorfen Path.
 ~
 #ENDEXIT
-Reset M 0 26000 3 26002
+Reset M 0 28500 3 28502
 #ENDROOM
 
 #ROOM
-Vnum     26003
+Vnum     28503
 Name     &OBase of Freewind Post&d~
 Sector   field~
 Desc     A series of rope ladders and a smaller mechanical lift lead up the
@@ -627,21 +627,21 @@ heavily defended home of the Thousand Needles Tauren.
 ~
 #EXIT
 Direction west~
-ToRoom    26002
+ToRoom    28502
 Desc      The canyon.
 ~
 #ENDEXIT
 #EXIT
 Direction up~
-ToRoom    26005
+ToRoom    28505
 Desc      Freewind Post.
 ~
 #ENDEXIT
-Reset M 0 26007 2 26003
+Reset M 0 28507 2 28503
 #ENDROOM
 
 #ROOM
-Vnum     26004
+Vnum     28504
 Name     &OThe Razorfen Path&d~
 Sector   field~
 Desc     The canyon walls here are covered in thick, thorny vines. The 
@@ -650,16 +650,16 @@ unpleasant odor.
 ~
 #EXIT
 Direction north~
-ToRoom    26002
+ToRoom    28502
 Desc      The winding canyon.
 ~
 #ENDEXIT
-Reset M 0 26005 3 26004
-Reset O 0 26014 1 26004
+Reset M 0 28505 3 28504
+Reset O 0 28514 1 28504
 #ENDROOM
 
 #ROOM
-Vnum     26005
+Vnum     28505
 Name     &OFreewind Post - The Plaza&d~
 Sector   city~
 Desc     Perched high above the canyon floor, this outpost is safe from 
@@ -668,22 +668,22 @@ Bridges of rope and wood connect this spire to several others.
 ~
 #EXIT
 Direction down~
-ToRoom    26003
+ToRoom    28503
 Desc      The canyon floor.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26006
+ToRoom    28506
 Desc      The Flight Master's Terrace.
 ~
 #ENDEXIT
-Reset M 0 26007 2 26005
-Reset O 0 26007 1 26005
+Reset M 0 28507 2 28505
+Reset O 0 28507 1 28505
 #ENDROOM
 
 #ROOM
-Vnum     26006
+Vnum     28506
 Name     &OThe Flight Master's Terrace&d~
 Sector   city~
 Desc     A dizzying ledge where tamed wyverns roost. From here, you can see 
@@ -692,15 +692,15 @@ shimmer with an intense white light.
 ~
 #EXIT
 Direction west~
-ToRoom    26005
+ToRoom    28505
 Desc      The plaza.
 ~
 #ENDEXIT
-Reset M 0 26001 1 26006
+Reset M 0 28501 1 28506
 #ENDROOM
 
 #ROOM
-Vnum     26007
+Vnum     28507
 Name     &OThe Screeching Canyon&d~
 Sector   field~
 Desc     The canyon widens here, but the walls are riddled with caves. 
@@ -709,22 +709,22 @@ their cries echo off the stones.
 ~
 #EXIT
 Direction west~
-ToRoom    26003
+ToRoom    28503
 Desc      The base of Freewind.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26008
+ToRoom    28508
 Desc      Toward the flats.
 ~
 #ENDEXIT
-Reset M 0 26001 3 26007
-Reset O 0 26001 1 26007
+Reset M 0 28501 3 28507
+Reset O 0 28501 1 28507
 #ENDROOM
 
 #ROOM
-Vnum     26008
+Vnum     28508
 Name     &OThe High Mesa Trail&d~
 Sector   mountain~
 Desc     The path climbs steadily, leaving the shadows of the canyon floor. 
@@ -733,21 +733,21 @@ sun beats down with increasing intensity.
 ~
 #EXIT
 Direction west~
-ToRoom    26007
+ToRoom    28507
 Desc      The wyvern canyon.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26009
+ToRoom    28509
 Desc      The Eastern Pass.
 ~
 #ENDEXIT
-Reset M 0 26008 2 26008
+Reset M 0 28508 2 28508
 #ENDROOM
 
 #ROOM
-Vnum     26009
+Vnum     28509
 Name     &OThe Eastern Pass&d~
 Sector   field~
 Desc     The needles begin to thin out. Ahead, the claustrophobic canyons 
@@ -756,21 +756,21 @@ blows from the east, carrying the scent of salt.
 ~
 #EXIT
 Direction west~
-ToRoom    26008
+ToRoom    28508
 Desc      The mesa trail.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26010
+ToRoom    28510
 Desc      The Shimmering Flats.
 ~
 #ENDEXIT
-Reset M 0 26006 3 26009
+Reset M 0 28506 3 28509
 #ENDROOM
 
 #ROOM
-Vnum     26010
+Vnum     28510
 Name     &WThe Shimmering Flats - Entrance&d~
 Sector   field~
 Desc     The transition is jarring. The ground is no longer red dust, but 
@@ -779,21 +779,21 @@ mirages that dance on the horizon.
 ~
 #EXIT
 Direction west~
-ToRoom    26009
+ToRoom    28509
 Desc      The canyons.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26011
+ToRoom    28511
 Desc      Mirage Raceway.
 ~
 #ENDEXIT
-Reset M 0 26003 2 26010
+Reset M 0 28503 2 28510
 #ENDROOM
 
 #ROOM
-Vnum     26011
+Vnum     28511
 Name     &WThe Mirage Raceway&d~
 Sector   city~
 Desc     A chaotic camp of gnomes and goblins. Strange mechanical vehicles 
@@ -802,33 +802,33 @@ marked track that stretches across the salt.
 ~
 #EXIT
 Direction west~
-ToRoom    26010
+ToRoom    28510
 Desc      The entrance.
 ~
 #ENDEXIT
 #EXIT
 Direction north~
-ToRoom    26012
+ToRoom    28512
 Desc      The Gnomish Pits.
 ~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    26013
+ToRoom    28513
 Desc      The Goblin Pits.
 ~
 #ENDEXIT
 #EXIT
 Direction east~
-ToRoom    26014
+ToRoom    28514
 Desc      The salt flats.
 ~
 #ENDEXIT
-Reset M 0 26009 2 26011
+Reset M 0 28509 2 28511
 #ENDROOM
 
 #ROOM
-Vnum     26012
+Vnum     28512
 Name     &WThe Gnomish Pits&d~
 Sector   city~
 Desc     A collection of precision tools, blueprints, and clean-burning 
@@ -837,16 +837,16 @@ speaking.
 ~
 #EXIT
 Direction south~
-ToRoom    26011
+ToRoom    28511
 Desc      The raceway.
 ~
 #ENDEXIT
-Reset M 0 26004 1 26012
-Reset O 0 26003 1 26012
+Reset M 0 28504 1 28512
+Reset O 0 28503 1 28512
 #ENDROOM
 
 #ROOM
-Vnum     26013
+Vnum     28513
 Name     &WThe Goblin Pits&d~
 Sector   city~
 Desc     Oil spills, stacks of dynamite, and engines that sound like 
@@ -855,16 +855,16 @@ over anything as mundane as a brake pedal.
 ~
 #EXIT
 Direction north~
-ToRoom    26011
+ToRoom    28511
 Desc      The raceway.
 ~
 #ENDEXIT
-Reset M 0 26010 1 26013
-Reset O 0 26009 1 26013
+Reset M 0 28510 1 28513
+Reset O 0 28509 1 28513
 #ENDROOM
 
 #ROOM
-Vnum     26014
+Vnum     28514
 Name     &WThe Deep Flats&d~
 Sector   field~
 Desc     Far from the noise of the raceway, the flats are eerily quiet. 
@@ -873,21 +873,21 @@ the occasional sun-bleached skeleton of a land thresher.
 ~
 #EXIT
 Direction west~
-ToRoom    26011
+ToRoom    28511
 Desc      The raceway.
 ~
 #ENDEXIT
 #EXIT
 Direction south~
-ToRoom    26015
+ToRoom    28515
 Desc      Toward Tanaris.
 ~
 #ENDEXIT
-Reset M 0 26014 2 26014
+Reset M 0 28514 2 28514
 #ENDROOM
 
 #ROOM
-Vnum     26015
+Vnum     28515
 Name     &WThe South Pass&d~
 Sector   field~
 Desc     The salt flats begin to transition into the dunes of a true 
@@ -896,7 +896,7 @@ Tanaris.
 ~
 #EXIT
 Direction north~
-ToRoom    26014
+ToRoom    28514
 Desc      The flats.
 ~
 #ENDEXIT
@@ -906,12 +906,12 @@ ToRoom    25500
 Desc      Into Tanaris.
 ~
 #ENDEXIT
-Reset M 0 26003 2 26015
-Reset O 0 26002 1 26015
+Reset M 0 28503 2 28515
+Reset O 0 28502 1 28515
 #ENDROOM
 
 #ROOM
-Vnum     26016
+Vnum     28516
 Name     &OThe Galak Village&d~
 Sector   city~
 Desc     A sprawling camp of leather tents and bone-hewn totems. The 
@@ -920,17 +920,16 @@ on the Tauren outposts.
 ~
 #EXIT
 Direction east~
-ToRoom    26002
+ToRoom    28502
 Desc      The winding canyon.
 ~
 #ENDEXIT
-Reset M 0 26000 4 26016
-Reset M 0 26012 1 26016
+Reset M 0 28500 4 28516
+Reset M 0 28512 1 28516
 #ENDROOM
 
 #ROOM
-#ROOM
-Vnum     26017
+Vnum     28517
 Name     &OThe Grimtotem Ledge&d~
 Sector   mountain~
 Desc     A hidden ledge overlooking the main canyon trail. It is the 
@@ -938,32 +937,32 @@ perfect spot for an ambush, and the Grimtotem have used it well.
 ~
 #EXIT
 Direction down~
-ToRoom    26002
+ToRoom    28502
 Desc      The canyon.
 ~
 #ENDEXIT
-Reset M 0 26002 3 26017
-Reset O 0 26004 1 26017
+Reset M 0 28502 3 28517
+Reset O 0 28504 1 28517
 #ENDROOM
 
 #ROOM
-Vnum     26018
+Vnum     28518
 Name     &OThe Hidden Oasis&d~
-Sector   water~
+Sector   water_swim~
 Desc     A miracle in the dry canyons. A small spring bubbles up into 
 a pool surrounded by lush green ferns and a single date palm.
 ~
 #EXIT
 Direction north~
-ToRoom    26008
+ToRoom    28508
 Desc      The mesa trail.
 ~
 #ENDEXIT
-Reset O 0 26005 1 26018
+Reset O 0 28505 1 28518
 #ENDROOM
 
 #ROOM
-Vnum     26019
+Vnum     28519
 Name     &OThe Shadowed Crevice&d~
 Sector   field~
 Desc     A narrow crack in the canyon wall where the sun never reaches. 
@@ -971,15 +970,15 @@ It is significantly cooler here, but the air is stagnant.
 ~
 #EXIT
 Direction west~
-ToRoom    26007
+ToRoom    28507
 Desc      The wyvern canyon.
 ~
 #ENDEXIT
-Reset M 0 26006 2 26019
+Reset M 0 28506 2 28519
 #ENDROOM
 
 #ROOM
-Vnum     26020
+Vnum     28520
 Name     &WThe Salt-Crusted Cave&d~
 Sector   inside~
 Flags    indoors dark~
@@ -989,16 +988,16 @@ white powder.
 ~
 #EXIT
 Direction south~
-ToRoom    26010
+ToRoom    28510
 Desc      The flats entrance.
 ~
 #ENDEXIT
-Reset M 0 26011 1 26020
-Reset O 0 26008 2 26020
+Reset M 0 28511 1 28520
+Reset O 0 28508 2 28520
 #ENDROOM
 
 #ROOM
-Vnum     26021
+Vnum     28521
 Name     &OThe Sun-Drenched Spire&d~
 Sector   mountain~
 Desc     You have climbed to the top of a lone needle. The wind is fierce 
@@ -1006,15 +1005,15 @@ here, and the view of the surrounding mesa is unparalleled.
 ~
 #EXIT
 Direction down~
-ToRoom    26008
+ToRoom    28508
 Desc      The mesa trail.
 ~
 #ENDEXIT
-Reset M 0 26001 2 26021
+Reset M 0 28501 2 28521
 #ENDROOM
 
 #ROOM
-Vnum     26022
+Vnum     28522
 Name     &OThe Bone Yard&d~
 Sector   field~
 Desc     A natural depression in the canyon floor where the wind 
@@ -1022,15 +1021,15 @@ collects the remains of animals that didn't survive the heat.
 ~
 #EXIT
 Direction west~
-ToRoom    26004
+ToRoom    28504
 Desc      The Razorfen Path.
 ~
 #ENDEXIT
-Reset M 0 26005 2 26022
+Reset M 0 28505 2 28522
 #ENDROOM
 
 #ROOM
-Vnum     26023
+Vnum     28523
 Name     &WThe Rusting Hulk&d~
 Sector   field~
 Desc     The remains of a massive racing machine that exploded years 
@@ -1038,15 +1037,15 @@ ago. The metal is pitted and white from the salt.
 ~
 #EXIT
 Direction east~
-ToRoom    26014
+ToRoom    28514
 Desc      The deep flats.
 ~
 #ENDEXIT
-Reset O 0 26011 1 26023
+Reset O 0 28511 1 28523
 #ENDROOM
 
 #ROOM
-Vnum     26024
+Vnum     28524
 Name     &OThe Narrow Arch&d~
 Sector   field~
 Desc     The canyon walls lean together here, forming a natural stone 
@@ -1054,14 +1053,14 @@ arch that spans the trail.
 ~
 #EXIT
 Direction east~
-ToRoom    26002
+ToRoom    28502
 Desc      The winding canyon.
 ~
 #ENDEXIT
 #ENDROOM
 
 #ROOM
-Vnum     26025
+Vnum     28525
 Name     &OThe Rattlesnake Den&d~
 Sector   field~
 Desc     A pile of sun-warmed rocks that serves as a nesting site 
@@ -1069,16 +1068,16 @@ for the local reptiles.
 ~
 #EXIT
 Direction south~
-ToRoom    26002
+ToRoom    28502
 Desc      The winding canyon.
 ~
 #ENDEXIT
-Reset M 0 26013 3 26025
-Reset O 0 26010 1 26025
+Reset M 0 28513 3 28525
+Reset O 0 28510 1 28525
 #ENDROOM
 
 #ROOM
-Vnum     26026
+Vnum     28526
 Name     &WThe Shimmering Horizon&d~
 Sector   field~
 Desc     You are deep in the flats. In every direction, the world is 
@@ -1087,15 +1086,15 @@ lose one's way.
 ~
 #EXIT
 Direction north~
-ToRoom    26014
+ToRoom    28514
 Desc      The deep flats.
 ~
 #ENDEXIT
-Reset M 0 26014 1 26026
+Reset M 0 28514 1 28526
 #ENDROOM
 
 #ROOM
-Vnum     26027
+Vnum     28527
 Name     &OThe Wind-Swept Bridge&d~
 Sector   mountain~
 Desc     A precarious bridge made of vines and wood that sways 
@@ -1103,28 +1102,28 @@ violently in the mountain gusts.
 ~
 #EXIT
 Direction east~
-ToRoom    26005
+ToRoom    28505
 Desc      Freewind plaza.
 ~
 #ENDEXIT
 #ENDROOM
 
 #ROOM
-Vnum     26028
+Vnum     28528
 Name     &OThe Dusty Cul-de-sac&d~
 Sector   field~
 Desc     A dead-end canyon where the dust is ankle-deep.
 ~
 #EXIT
 Direction north~
-ToRoom    26001
+ToRoom    28501
 Desc      The canyon floor.
 ~
 #ENDEXIT
 #ENDROOM
 
 #ROOM
-Vnum     26029
+Vnum     28529
 Name     &WThe Salt Flat Edge&d~
 Sector   field~
 Desc     The very eastern edge of the flats, where the ground 
@@ -1132,11 +1131,11 @@ begins to break up into rocky outcroppings again.
 ~
 #EXIT
 Direction west~
-ToRoom    26014
+ToRoom    28514
 Desc      The deep flats.
 ~
 #ENDEXIT
-Reset M 0 26009 2 26029
+Reset M 0 28509 2 28529
 #ENDROOM
 
 #ENDAREA

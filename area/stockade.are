@@ -302,7 +302,7 @@ WFlags   take finger~
 Values   0 0 0 0 0 0
 Stats    1 150 24 0 0
 Rarity   1
-Affect   1 1
+Affect -1 -1 1 1 0
 #ENDOBJECT
 
 #OBJECT
@@ -315,8 +315,7 @@ WFlags   take wield~
 Values   12 4 8 7 0 0
 Stats    5 300 26 0 0
 Rarity   1
-Affect   3 2
-Affect   4 2
+Affect -1 -1 2 3 0
 #ENDOBJECT
 
 #OBJECT
@@ -329,7 +328,7 @@ WFlags   take wield~
 Values   12 5 10 2 0 0
 Stats    8 550 26 0 0
 Rarity   2
-Affect   1 4
+Affect -1 -1 4 1 0
 #ENDOBJECT
 
 #OBJECT
@@ -342,8 +341,7 @@ WFlags   take wield~
 Values   12 6 9 3 0 0
 Stats    4 600 28 0 0
 Rarity   2
-Affect   2 3
-Affect   1 2
+Affect -1 -1 3 2 0
 #ENDOBJECT
 
 #OBJECT
@@ -356,8 +354,7 @@ WFlags   take hands~
 Values   12 0 0 0 0 0
 Stats    2 750 29 0 0
 Rarity   2
-Affect   1 3
-Affect   5 2
+Affect -1 -1 3 1 0
 #ENDOBJECT
 
 #OBJECT
@@ -394,7 +391,7 @@ WFlags   take wield~
 Values   12 3 7 11 0 0
 Stats    3 200 25 0 0
 Rarity   1
-Affect   2 2
+Affect -1 -1 2 2 0
 #ENDOBJECT
 
 #OBJECT
@@ -407,7 +404,7 @@ WFlags   take shield~
 Values   15 0 0 0 0 0
 Stats    10 300 25 0 0
 Rarity   1
-Affect   5 3
+Affect -1 -1 3 5 0
 #ENDOBJECT
 
 #OBJECT
@@ -480,7 +477,7 @@ WFlags   take wield~
 Values   12 4 7 8 0 0
 Stats    6 150 26 0 0
 Rarity   1
-Affect   1 2
+Affect -1 -1 2 1 0
 #ENDOBJECT
 
 #OBJECT
@@ -493,8 +490,7 @@ WFlags   take waist~
 Values   4 0 0 0 0 0
 Stats    1 180 25 0 0
 Rarity   1
-Affect   2 2
-Affect   3 1
+Affect -1 -1 2 2 0
 #ENDOBJECT
 
 #OBJECT
@@ -507,7 +503,7 @@ WFlags   take body~
 Values   10 0 0 0 0 0
 Stats    8 250 25 0 0
 Rarity   1
-Affect   5 2
+Affect -1 -1 2 5 0
 #ENDOBJECT
 
 #OBJECT

@@ -971,12 +971,6 @@ ToRoom    13281
 Desc      The path back to Zul'Mamwe.
 ~
 #ENDEXIT
-#EXIT
-Direction in~
-ToRoom    13900
-Desc      Step through the portal into Zul'Gurub.
-~
-#ENDEXIT
 #ENDROOM
 
 #ROOM

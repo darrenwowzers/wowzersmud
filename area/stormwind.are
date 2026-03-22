@@ -1,4 +1,4 @@
-'#FUSSAREA
+#FUSSAREA
 #AREADATA
 Version      1
 Name         Stormwind~
@@ -1947,6 +1947,7 @@ Direction south~
 ToRoom    12020
 Desc      The road continues into Elwynn Forest.
 ~
+#ENDEXIT
 #ENDROOM
 
 #ENDAREA

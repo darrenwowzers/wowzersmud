@@ -787,7 +787,7 @@ Stats    14 90 14 0 0
 #OBJECT
 Vnum     14008
 Keywords ale thunderbrew mug~
-Type     drink~
+Type     drinkcon~
 Short    a mug of Thunderbrew Ale~
 Long     A frothy mug of legendary Thunderbrew Ale sits here.~
 WFlags   take hold~
@@ -798,7 +798,7 @@ Stats    1 8 1 0 0
 #OBJECT
 Vnum     14009
 Keywords stout barleybrew dark~
-Type     drink~
+Type     drinkcon~
 Short    a tankard of Barleybrew Stout~
 Long     A tankard of rich, dark Barleybrew Stout sits here.~
 WFlags   take hold~

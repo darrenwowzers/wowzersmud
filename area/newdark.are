@@ -4003,13 +4003,6 @@ like paying the ancient building a visit.  Law Avenue extends to the
 east and west.
 ~
 #EXIT
-Direction north~
-ToRoom    24800
-Desc      The Art Gallery awaits...
-~
-#ENDEXIT
-
-#EXIT
 Direction east~
 ToRoom    21020
 Desc      Law Avenue and Vertic Road cross to the east.
@@ -6027,26 +6020,10 @@ Desc      A path begins to the east.
 #ENDEXIT
 
 #EXIT
-Direction south~
-ToRoom    3504
-Desc      A long, rusted bridge leads away into the black forest...
-~
-#ENDEXIT
-
-#EXIT
 Direction west~
 ToRoom    21076
 Desc      A path begins to the west.
 ~
-#ENDEXIT
-
-#EXIT
-Direction down~
-ToRoom    7030
-Desc      Into darkness...
-~
-Keywords  manhole~
-Flags     isdoor closed secret nopassdoor~
 #ENDEXIT
 
 Reset M 0 21069 1 21075
@@ -6404,13 +6381,6 @@ Flags     isdoor closed locked~
 Direction south~
 ToRoom    21086
 Desc      A road begins to the south.
-~
-#ENDEXIT
-
-#EXIT
-Direction west~
-ToRoom    6000
-Desc      Into the forest...
 ~
 #ENDEXIT
 
@@ -7145,13 +7115,6 @@ to the north and south around the city walls.
 Direction north~
 ToRoom    21111
 Desc      A path begins to the north.
-~
-#ENDEXIT
-
-#EXIT
-Direction east~
-ToRoom    3503
-Desc      The road continues out into the countryside.
 ~
 #ENDEXIT
 
@@ -9881,13 +9844,6 @@ Desc      This path leads back to the crumbling bridge.
 ~
 #ENDEXIT
 
-#EXIT
-Direction up~
-ToRoom    7914
-Desc      The great chain stretches into the clouds...
-~
-#ENDEXIT
-
 #ENDROOM
 
 #ROOM
@@ -9931,15 +9887,6 @@ Direction north~
 ToRoom    21291
 Desc      This path leads back to the crumbling bridge.
 ~
-#ENDEXIT
-
-#EXIT
-Direction south~
-ToRoom    3600
-Desc      Into the graveyard...
-~
-Keywords  gate~
-Flags     isdoor~
 #ENDEXIT
 
 #ENDROOM
@@ -11108,13 +11055,6 @@ well-trodden pathway continues roughly eastward through the forest.
 Direction east~
 ToRoom    21403
 Desc      Along the forest trail.
-~
-#ENDEXIT
-
-#EXIT
-Direction northwest~
-ToRoom    2074
-Desc      A small junction in the forest.
 ~
 #ENDEXIT
 

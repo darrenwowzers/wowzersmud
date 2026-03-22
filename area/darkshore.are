@@ -85,7 +85,6 @@ Speaking   common~
 #ENDMOBILE
 
 #MOBILE
-#MOBILE
 Vnum       27003
 Keywords   vile sprite fey creature~
 Short      a vile sprite~
@@ -452,7 +451,7 @@ Stats    1 15 1 0 0
 #OBJECT
 Vnum     27006
 Keywords moonstalker fang necklace~
-Type     jewelry~
+Type     rune~
 Short    a necklace of moonstalker fangs~
 Long     A leather cord strung with several sharp, curved feline teeth.~
 WFlags   take neck~
@@ -496,7 +495,7 @@ Stats    1 5 1 0 0
 #OBJECT
 Vnum     27010
 Keywords ameth'aran ring silver~
-Type     jewelry~
+Type     rune~
 Short    a tarnished silver signet ring~
 Long     A ring bearing the crest of the ancient city of Ameth'Aran.~
 WFlags   take finger~
@@ -927,7 +926,7 @@ Reset M 0 27007 2 27016
 #ROOM
 Vnum     27017
 Name     &bThe Cliffspring River&d~
-Sector   water~
+Sector   water_swim~
 Desc     A cold, fast-moving river that flows down from the mountains to the 
 east. The water is clear but icy, and small silver fish dart 
 between the rocks.
@@ -950,7 +949,7 @@ Reset M 0 27012 2 27017
 #ROOM
 Vnum     27018
 Name     &cThe Cliffspring Falls&d~
-Sector   water~
+Sector   water_swim~
 Desc     A thunderous waterfall pours over a high ledge into a deep basin. 
 The mist from the falls blends with the natural fog of Darkshore, 
 making visibility nearly zero.
@@ -1023,7 +1022,7 @@ Reset M 0 27009 1 27021
 #ROOM
 Vnum     27022
 Name     &bThe Hidden Cove&d~
-Sector   water~
+Sector   water_swim~
 Desc     A small, sheltered inlet where the waves are calm. It's a peaceful 
 spot, hidden away from the dangers of the main road.
 ~

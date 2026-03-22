@@ -528,7 +528,7 @@ Stats    4 200 2 0 0
 Vnum     28002
 Keywords moonwell water vial~
 Type     potion~
-Short    a vial of Moonwell water~
+Short    a vial of Moonwell water
 Long     A small crystal vial filled with glowing blue water sits here.~
 WFlags   take hold~
 Values   20 'cure light' 'bless' '' 0 0
@@ -615,7 +615,7 @@ Stats    5 500 1 0 0
 #OBJECT
 Vnum     28010
 Keywords tigerseye ring silver jewel~
-Type     jewelry~
+Type     rune~
 Short     a silver tigerseye ring~
 Long     A silver ring set with a polished tigerseye stone.~
 WFlags   take finger~
@@ -659,7 +659,7 @@ Stats    2 100 1 0 0
 #OBJECT
 Vnum     28014
 Keywords wolf tooth necklace~
-Type     jewelry~
+Type     rune~
 Short    a necklace of wolf teeth~
 Long     A string of sharp teeth taken from the Ghostpaw pack.~
 WFlags   take neck~
@@ -964,7 +964,7 @@ Reset M 0 28004 2 28009
 #ROOM
 Vnum     28010
 Name     &cMystral Lake&d~
-Sector   water~
+Sector   water_swim~
 Desc     A large, fog-shrouded lake sits to the south of the road. Strange,
 blue-skinned water elementals can sometimes be seen drifting just
 beneath the surface.
@@ -1233,7 +1233,7 @@ Reset M 0 28017 1 28020
 #ROOM
 Vnum     28021
 Name     &gIris Lake&d~
-Sector   water~
+Sector   water_swim~
 Desc     A small, circular lake surrounded by weeping willows. The water is
 still and dark, reflecting the canopy above like a black mirror.
 ~
@@ -1323,7 +1323,7 @@ Reset M 0 28018 3 28025
 #ROOM
 Vnum     28026
 Name     &dFallen Sky Lake&d~
-Sector   water~
+Sector   water_swim~
 Desc     The water here is murky and stagnant. Legend says a piece of the moon
 once fell here, but now only corruption remains.
 ~

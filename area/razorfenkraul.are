@@ -462,8 +462,8 @@ WFlags   take body~
 Values   15 0 0 0 0 0
 Stats    25 1200 32 0 0
 Rarity   2
-Affect   1 6
-Affect   5 8
+Affect -1 -1 6 1 0
+Affect -1 -1 8 5 0
 #ENDOBJECT
 
 #OBJECT
@@ -476,7 +476,7 @@ WFlags   take wield~
 Values   12 6 12 11 0 0
 Stats    3 850 30 0 0
 Rarity   2
-Affect   2 5
+Affect -1 -1 5 2 0
 #ENDOBJECT
 
 #OBJECT
@@ -489,7 +489,7 @@ WFlags   take hold~
 Values   0 0 0 0 0 0
 Stats    1 2000 35 0 0
 Rarity   2
-Affect   5 10
+Affect -1 -1 10 5 0
 #ENDOBJECT
 
 #OBJECT
@@ -502,8 +502,8 @@ WFlags   take neck~
 Values   0 0 0 0 0 0
 Stats    1 1500 33 0 0
 Rarity   2
-Affect   3 6
-Affect   4 4
+Affect -1 -1 6 3 0
+Affect -1 -1 4 4 0
 #ENDOBJECT
 
 #OBJECT
@@ -516,8 +516,8 @@ WFlags   take wield~
 Values   12 5 11 8 0 0
 Stats    8 950 31 0 0
 Rarity   2
-Affect   3 5
-Affect   4 5
+Affect -1 -1 5 3 0
+Affect -1 -1 5 4 0
 #ENDOBJECT
 
 #OBJECT
@@ -530,8 +530,8 @@ WFlags   take head~
 Values   12 0 0 0 0 0
 Stats    12 1100 30 0 0
 Rarity   2
-Affect   1 4
-Affect   5 5
+Affect -1 -1 4 1 0
+Affect -1 -1 5 5 0
 #ENDOBJECT
 
 #OBJECT
@@ -544,8 +544,8 @@ WFlags   take wrist~
 Values   6 0 0 0 0 0
 Stats    4 800 28 0 0
 Rarity   2
-Affect   2 3
-Affect   5 4
+Affect -1 -1 3 2 0
+Affect -1 -1 4 5 0
 #ENDOBJECT
 
 #OBJECT
@@ -558,7 +558,7 @@ WFlags   take body~
 Values   8 0 0 0 0 0
 Stats    5 500 27 0 0
 Rarity   1
-Affect   2 4
+Affect -1 -1 4 2 0
 #ENDOBJECT
 
 #OBJECT
@@ -571,8 +571,8 @@ WFlags   take wield~
 Values   12 4 9 7 0 0
 Stats    10 450 26 0 0
 Rarity   1
-Affect   3 4
-Affect   4 2
+Affect -1 -1 4 3 0
+Affect -1 -1 2 4 0
 #ENDOBJECT
 
 #OBJECT
@@ -585,7 +585,7 @@ WFlags   take wield~
 Values   12 5 12 5 0 0
 Stats    11 400 26 0 0
 Rarity   1
-Affect   1 4
+Affect -1 -1 4 1 0
 #ENDOBJECT
 
 #OBJECT
@@ -598,7 +598,7 @@ WFlags   take head~
 Values   5 0 0 0 0 0
 Stats    3 350 25 0 0
 Rarity   1
-Affect   5 3
+Affect -1 -1 3 5 0
 #ENDOBJECT
 
 #OBJECT
@@ -611,7 +611,7 @@ WFlags   take wield~
 Values   12 4 10 4 0 0
 Stats    5 380 25 0 0
 Rarity   1
-Affect   2 3
+Affect -1 -1 3 2 0
 #ENDOBJECT
 
 #OBJECT
@@ -624,7 +624,7 @@ WFlags   take hold~
 Values   0 0 0 0 0 0
 Stats    2 450 27 0 0
 Rarity   1
-Affect   4 5
+Affect -1 -1 5 4 0
 #ENDOBJECT
 
 #OBJECT
