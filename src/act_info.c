@@ -4613,12 +4613,29 @@ void do_areas( CHAR_DATA* ch, const char* argument )
       if( IS_SET( pArea->flags, AFLAG_HIDDEN ) ) /* Blod, 2000 */
          continue;
 
-      if( pArea->hi_soft_range >= lower_bound && pArea->low_soft_range <= upper_bound )
+if( pArea->hi_soft_range >= lower_bound && pArea->low_soft_range <= upper_bound )
       {
-         pager_printf( ch, print_string,
-                       pArea->author, pArea->name,
-                       pArea->low_soft_range, pArea->hi_soft_range, pArea->low_hard_range, pArea->hi_hard_range );
+         const char *area_type;
+
+         /* Wowzers MUD Area Classifications --Hansth */
+         switch( pArea->type )
+         {
+            case AREA_ALLIANCE: area_type = "&B[Alliance]&D"; break;
+            case AREA_HORDE:    area_type = "&R[ Horde  ]&D"; break;
+            case AREA_NEUTRAL:  area_type = "&G[Neutral ]&D"; break;
+            case AREA_DUNGEON:  area_type = "&c[Dungeon ]&D"; break;
+            case AREA_RAID:     area_type = "&P[  Raid  ]&D"; break;
+            case AREA_LEVELING:
+            default:            area_type = "&Y[Leveling]&D"; break;
+         }
+
+         /* Custom WoW-style display layout */
+         pager_printf( ch, "%s %-12s %-26s %3d-%-3d  %3d-%-3d\r\n",
+                       area_type, pArea->author, pArea->name,
+                       pArea->low_soft_range, pArea->hi_soft_range, 
+                       pArea->low_hard_range, pArea->hi_hard_range );
       }
+
    }
 }
 
