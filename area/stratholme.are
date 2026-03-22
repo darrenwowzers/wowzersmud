@@ -1,0 +1,2747 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Stratholme~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       55 60 0 60
+Economy      0 120000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       22000
+Keywords   baron rivendare boss undead warrior~
+Short      Baron Rivendare~
+Long       Baron Rivendare sits atop his skeletal warhorse, runeblade glowing cold.
+~
+Desc       Once a noble of Lordaeron, Rivendare is now the lord of Stratholme. 
+He serves the Lich King with a cold, calculating cruelty, 
+overseeing the city's eternal consumption by the plague.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 25000 75000
+Stats2     62 62 1000
+Stats3     45 150 85
+Stats4     0 0 0 0 0
+Attribs    35 15 30 25 30 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       22001
+Keywords   grand crusader dathrohan boss human warrior~
+Short      Grand Crusader Dathrohan~
+Long       Grand Crusader Dathrohan stands before the Scarlet altar, eyes blazing.
+~
+Desc       The leader of the Scarlet Crusade in Stratholme. Unknown to his 
+followers, the legendary knight has been possessed by the 
+dreadlord Balnazzar, turning the Crusade into a tool for the Legion.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 15000 45000
+Stats2     61 61 1000
+Stats3     30 90 65
+Stats4     0 0 0 0 0
+Attribs    35 20 25 25 30 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       22002
+Keywords   balnazzar boss demon elite~
+Short      Balnazzar~
+Long       The dreadlord Balnazzar sheds his human skin, roaring in demonic triumph.
+~
+Desc       A powerful nathrezim who has orchestrated the corruption of 
+the Scarlet Crusade. He is a master of shadow, deception, 
+and mind-shattering chaos.
+~
+Race       demon~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 20000 60000
+Stats2     62 62 3000
+Stats3     40 120 75
+Stats4     0 0 0 0 0
+Attribs    25 15 25 35 32 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       22003
+Keywords   ramstein the gorger boss undead elite~
+Short      Ramstein the Gorger~
+Long       A gargantuan patchwork abomination erupts from the slaughterhouse.
+~
+Desc       The most successful of the Scourge's stitched horrors in 
+Stratholme. Ramstein is a mountain of rotting flesh and rusted 
+hooks, driven by an insatiable hunger.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 18000 55000
+Stats2     61 61 0
+Stats3     35 110 70
+Stats4     0 0 0 0 0
+Attribs    45 8 35 6 6 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       22004
+Keywords   baroness anastari boss ghost~
+Short      Baroness Anastari~
+Long       A banshee of immense power wails, her translucent form flickering.
+~
+Desc       A noblewoman who refused to flee the city. In death, she has 
+become a parasitic spirit that can possess the bodies of 
+the living to turn them against their allies.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 9500 28000
+Stats2     60 60 2500
+Stats3     20 65 60
+Stats4     0 0 0 0 0
+Attribs    12 25 16 32 28 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       22005
+Keywords   nerub'enkan boss undead spider~
+Short      Nerub'enkan~
+Long       A massive crypt fiend in golden wrappings skitters from the shadows.
+~
+Desc       One of the spider-lords of Azjol-Nerub. Nerub'enkan has 
+been tasked with guarding the northern ziggurats of the 
+Slaughter Square.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 10000 32000
+Stats2     60 60 500
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    32 18 26 12 14 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       22006
+Keywords   maleki the pallid boss human mage~
+Short      Maleki the Pallid~
+Long       A human in tattered cultist robes mutters a freezing curse.
+~
+Desc       The leader of the Cult of the Damned in Stratholme. Maleki 
+has sacrificed his humanity to master the chilling magic 
+of the frozen wastes.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 60 0 0 8500 25000
+Stats2     60 60 2000
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22007
+Keywords   magistrate barthilas boss ghost~
+Short      Magistrate Barthilas~
+Long       A ghostly figure in magistrate's robes bellows in fury.
+~
+Desc       Once the adjudicator of Stratholme, Barthilas betrayed the city 
+to the Scourge. He is now a cursed spirit, forced to guard 
+the gates he once opened.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 7500 22000
+Stats2     59 59 200
+Stats3     22 60 59
+Stats4     0 0 0 0 0
+Attribs    30 14 20 12 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22008
+Keywords   cannon master willey boss human warrior~
+Short      Cannon Master Willey~
+Long       A scarlet dwarf with a torch stands beside a massive iron cannon.
+~
+Desc       The master of the Scarlet Crusade's heavy artillery. He 
+loves nothing more than the scent of gunpowder and the 
+sight of Scourge-flesh being blasted to ash.
+~
+Race       human~ // Using human/dwarf base
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 6500 18000
+Stats2     59 59 100
+Stats3     20 55 59
+Stats4     0 0 0 0 0
+Attribs    28 12 24 10 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22009
+Keywords   archivest galford boss human mage~
+Short      Archivist Galford~
+Long       Archivist Galford stands before a pile of burning books, hands ablaze.
+~
+Desc        Galford is tasked with purging the "unclean" history of 
+Stratholme. He uses fire magic to sanitize the city, and 
+anyone he deems a heretic.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 6000 17000
+Stats2     59 59 2500
+Stats3     16 48 59
+Stats4     0 0 0 0 0
+Attribs    12 16 18 34 28 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22010
+Keywords   postmaster malown boss undead~
+Short      Postmaster Malown~
+Long       A rotting man in a tattered blue uniform rings a bell loudly.
+~
+Desc       Even death cannot stop the mail. Malown haunts the mailboxes 
+of Stratholme, delivering violent retribution to anyone 
+who disturbs his routes.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 4500 12000
+Stats2     58 58 100
+Stats3     18 45 58
+Stats4     0 0 0 0 0
+Attribs    26 18 18 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22011
+Keywords   timmy the cruel boss ghoul~
+Short      Timmy the Cruel~
+Long       A small, surprisingly fast ghoul with a wild look in his eyes.
+~
+Desc       Once a local boy, Timmy was one of the first to be 
+transformed during the Purge. He has grown into a 
+vicious predator, haunting the city's alleyways.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3500 9500
+Stats2     57 57 0
+Stats3     16 42 57
+Stats4     0 0 0 0 0
+Attribs    32 25 20 4 4 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22012
+Keywords   scarlet centurion human warrior~
+Short      a Scarlet Centurion~
+Long       A warrior in red-lacquered plate patrols the burning street.
+~
+Desc       The heavy infantry of the Scarlet Bastion. They are 
+fanatically brave and will never retreat from a fight 
+against the "undead threat."
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 2500 7000
+Stats2     56 56 150
+Stats3     13 38 56
+Stats4     0 0 0 0 0
+Attribs    24 12 18 10 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22013
+Keywords   crimson conjurer human mage~
+Short      a Crimson Conjurer~
+Long       A human in bright red robes summons a gout of flame.
+~
+Desc       Specialists in destructive fire magic, these mages provide 
+the tactical bombardment for the Scarlet Crusade's advances.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1500 4500
+Stats2     56 56 1800
+Stats3     11 32 56
+Stats4     0 0 0 0 0
+Attribs    12 16 14 32 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22014
+Keywords   thuzadin necromancer undead mage~
+Short      a Thuzadin Necromancer~
+Long       An undead sorcerer in purple robes mutters over a pile of bones.
+~
+Desc       Members of the elite Thuzadin order. They are responsible 
+for raising the fallen citizens of Stratholme into the 
+service of the Lich King.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 1800 5200
+Stats2     58 58 2000
+Stats3     13 40 58
+Stats4     0 0 0 0 0
+Attribs    10 14 16 34 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22015
+Keywords   venom belcher abomination elite~
+Short      a Venom Belcher~
+Long       A massive, three-armed abomination gurgles, green bile dripping.
+~
+Desc       Specialized stitched horrors that can spray a cloud of 
+lethal, acidic venom from their distended maws.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 8500 25000
+Stats2     59 59 0
+Stats3     25 75 60
+Stats4     0 0 0 0 0
+Attribs    38 6 30 4 6 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22016
+Keywords   eye of naxxramas spirit mage~
+Short      an Eye of Naxxramas~
+Long       A spectral eye with a red iris floats near the burning roof.
+~
+Desc       A magical construct that monitors the city. If it detects 
+unauthorized movement, it will shriek for reinforcements.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 800 2400
+Stats2     55 55 1200
+Stats3     6 18 55
+Stats4     0 0 0 0 0
+Attribs    10 24 14 30 18 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22017
+Keywords   rockwing gargoyle demon~
+Short      a Rockwing Gargoyle~
+Long       A stone-like demon detach itself from a chimney, screeching.
+~
+Desc       Ancient guardians of the city's architecture, now corrupted 
+into aerial hunters for the Scourge.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 2200 6500
+Stats2     57 57 200
+Stats3     14 42 57
+Stats4     0 0 0 0 0
+Attribs    24 20 22 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22018
+Keywords   skeletal guardian undead warrior~
+Short      a Skeletal Guardian~
+Long       A skeleton in ancient Lordaeron plate stands in silent vigil.
+~
+Desc       Elite skeletal warriors assigned to guard the high-ranking 
+members of the Cult of the Damned.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3200 8500
+Stats2     57 57 150
+Stats3     15 42 57
+Stats4     0 0 0 0 0
+Attribs    26 12 20 8 10 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22019
+Keywords   undead citizen zombie~
+Short      an Undead Citizen~
+Long       A rotting resident of Stratholme wanders aimlessly, moaning.
+~
+Desc       The tragic remains of the city's populace. They possess 
+no will of their own, only a drive to consume the living.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 1100 3000
+Stats2     54 54 0
+Stats3     8 22 54
+Stats4     0 0 0 0 0
+Attribs    20 6 18 4 4 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       22020
+Keywords   black guard swordsman boss guardian~
+Short      a Black Guard Swordsman~
+Long       A skeletal knight in heavy obsidian armor balances a greatsword.
+~
+Desc       The personal bodyguards of Baron Rivendare. They are 
+expert dualists who have forgotten the meaning of fear.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 59 0 0 4500 13000
+Stats2     59 59 300
+Stats3     22 55 59
+Stats4     0 0 0 0 0
+Attribs    32 18 24 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22021
+Keywords   plagueland rat beast critter~
+Short      a Plagueland Rat~
+Long       A large, mangy rat scurries through the burning debris.
+~
+Desc       They carry the concentrated blight of Stratholme in 
+their teeth and claws.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 200 600
+Stats2     50 50 0
+Stats3     3 10 50
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       22022
+Keywords   scarlet medic human shaman~
+Short      a Scarlet Medic~
+Long       A human in a red-and-white tabard mutters a prayer over a wound.
+~
+Desc       Tasked with keeping the Crusade's warriors standing 
+amidst the unending sea of undead.
+~
+Race       human~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1300 3800
+Stats2     56 56 1200
+Stats3     10 28 56
+Stats4     0 0 0 0 0
+Attribs    12 14 16 28 24 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22023
+Keywords   restless soul spirit ghost~
+Short      a Restless Soul~
+Long       A translucent figure wails, drifting through a charred wall.
+~
+Desc       Manifestations of the city's collective trauma. They 
+strike at the minds of anyone who reminds them of life.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 950 2800
+Stats2     55 55 1000
+Stats3     8 22 55
+Stats4     0 0 0 0 0
+Attribs    10 18 14 26 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22024
+Keywords   crypt fiend undead spider warrior~
+Short      a Crypt Fiend~
+Long       A mummified spider-humanoid skitters across the path, webbing ready.
+~
+Desc       Heavy infantry of the Scourge, skilled at trapping 
+intruders and shredding them with chitinous claws.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3200 9000
+Stats2     57 57 200
+Stats3     16 45 57
+Stats4     0 0 0 0 0
+Attribs    24 14 22 8 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22025
+Keywords   crimson hammersmith human warrior~
+Short      a Crimson Hammersmith~
+Long       A human in heavy soot-stained leather hammers at a red blade.
+~
+Desc       The master smiths of the Scarlet Crusade, forging the 
+weapons used in the purge of Stratholme.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 58 0 0 3500 10000
+Stats2     58 58 100
+Stats3     18 50 58
+Stats4     0 0 0 0 0
+Attribs    28 12 20 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22026
+Keywords   bile spewer abomination elite~
+Short      a Bile Spewer~
+Long       A bloated stitched-horror gurgles, its stomach pulsing.
+~
+Desc       Even more disgusting than the belchers, these abominations 
+leave a trail of toxic green slime wherever they shamble.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 9000 28000
+Stats2     59 59 0
+Stats3     26 78 60
+Stats4     0 0 0 0 0
+Attribs    40 4 32 4 6 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22027
+Keywords   scarlet inquisitor human mage~
+Short      a Scarlet Inquisitor~
+Long       A human in crimson robes levels a finger at you, muttering a hex.
+~
+Desc       The brutal interrogators of the Crusade. They believe 
+the truth can only be found through pain and fire.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1600 4800
+Stats2     57 57 1500
+Stats3     12 35 57
+Stats4     0 0 0 0 0
+Attribs    12 14 16 32 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22028
+Keywords   acolyte of shadow human mage~
+Short      an Acolyte of Shadow~
+Long       A human in purple robes mutter an incantation of darkness.
+~
+Desc       Devout followers of Maleki, learning the art of draining 
+life and summoning the spirits of the dead.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1200 3500
+Stats2     56 56 1200
+Stats3     10 28 56
+Stats4     0 0 0 0 0
+Attribs    10 12 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22029
+Keywords   crypt crawler spider beast~
+Short      a Crypt Crawler~
+Long       A small, pale spider skitters through the gutters of the square.
+~
+Desc       Native to the Scourge's ziggurats, these spiders are 
+fast and carry a mild numbing venom.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 800 2400
+Stats2     54 54 0
+Stats3     7 18 54
+Stats4     0 0 0 0 0
+Attribs    16 22 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       22030
+Keywords   plague hound beast hound~
+Short      a Plague Hound~
+Long       A skeletal dog with visible ribs growls, guarding the gate.
+~
+Desc       Mindless predators that serve the Scourge as tireless 
+sentries. Their howl can summon nearby packs.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1400 4200
+Stats2     55 55 0
+Stats3     11 30 55
+Stats4     0 0 0 0 0
+Attribs    22 18 16 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       22031
+Keywords   dark summoner cultist mage~
+Short      a Dark Summoner~
+Long       A high-ranking cultist stands before a swirling green portal.
+~
+Desc       Masters of portal-magic who focus on bringing larger 
+demons and monstrosities from the Twisting Nether.
+~
+Race       human~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2000 6500
+Stats2     58 58 2000
+Stats3     14 42 58
+Stats4     0 0 0 0 0
+Attribs    12 14 16 35 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22032
+Keywords   cursed spirit ghost spirit~
+Short      a Cursed Spirit~
+Long       A wailing spirit drifts through the air, eyes glowing red.
+~
+Desc       The manifestation of pure hatred and despair, these 
+spirits seek only to end the lives of the living.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1100 3200
+Stats2     57 57 1200
+Stats3     9 25 57
+Stats4     0 0 0 0 0
+Attribs    10 22 12 32 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22033
+Keywords   skeletal berserker undead warrior~
+Short      a Skeletal Berserker~
+Long       A skeleton in rusted plate swings a massive two-handed axe.
+~
+Desc       Infused with a permanent blood-rage, these skeletal 
+warriors strike with a reckless, bone-shattering force.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 3500 9500
+Stats2     57 57 0
+Stats3     18 50 57
+Stats4     0 0 0 0 0
+Attribs    30 12 18 6 6 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22034
+Keywords   skeletal mage undead mage~
+Short      a Skeletal Mage~
+Long       A skeleton in tattered robes mutters an incantation of frost.
+~
+Desc       Former sorcerers of Lordaeron who have been granted 
+eternal servitude as masters of elemental death.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 57 0 0 1400 4000
+Stats2     57 57 1500
+Stats3     11 32 57
+Stats4     0 0 0 0 0
+Attribs    10 12 14 34 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22035
+Keywords   ghoul scavenger undead warrior~
+Short      a Ghoul Scavenger~
+Long       A lean ghoul picks through a pile of charred remains.
+~
+Desc       The opportunistic predators of the city, they follow 
+the larger abominations to feast on the scraps.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 1600 4500
+Stats2     56 56 100
+Stats3     10 28 56
+Stats4     0 0 0 0 0
+Attribs    24 16 16 6 6 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       22036
+Keywords   patchwork horror abomination elite~
+Short      a Patchwork Horror~
+Long       A mass of mismatched limbs lumbers through the square.
+~
+Desc       A large abomination composed of varied biological 
+sources, resulting in a durable and unpredictable foe.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 8500 24000
+Stats2     59 59 0
+Stats3     24 75 60
+Stats4     0 0 0 0 0
+Attribs    35 6 30 4 6 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       22037
+Keywords   mindless undead zombie warrior~
+Short      a Mindless Undead~
+Long       A shriveled zombie moans, its arms hanging limp at its sides.
+~
+Desc       A victim of the most basic transformation, possessing 
+no intelligence and no fear.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 54 0 0 950 2800
+Stats2     54 54 0
+Stats3     8 20 54
+Stats4     0 0 0 0 0
+Attribs    18 4 16 4 4 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       22038
+Keywords   scarlet defender human warrior~
+Short      a Scarlet Defender~
+Long       A human in red plate stands at attention near the bastion door.
+~
+Desc       The rank-and-file guardians of the Scarlet enclave. 
+They are well-trained and fiercely ideological.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea~
+Stats1     0 56 0 0 2000 5500
+Stats2     56 56 150
+Stats3     12 35 56
+Stats4     0 0 0 0 0
+Attribs    24 12 18 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       22039
+Keywords   plague slime ooze~
+Short      a Plague Slime~
+Long       A mass of dark purple sludge undulates across the stone.
+~
+Desc       Born from the city's toxic run-off. It is highly corrosive 
+and reeks of concentrated decay.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 55 0 0 1200 3500
+Stats2     55 55 0
+Stats3     9 24 55
+Stats4     0 0 0 0 0
+Attribs    22 6 25 4 4 4 4
+#ENDMOBILE
+
+#OBJECT
+Vnum     22040
+Keywords reins deathcharger mount mountable~
+Type     treasure~
+Short    the Deathcharger's Reins~
+Long     A pair of skeletal reins that pulse with cold blue energy.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 100000 60 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     22041
+Keywords runeblade baron rivendare sword~
+Type     weapon~
+Short    the Runeblade of Baron Rivendare~
+Long     A massive, two-handed sword etched with glowing unholy runes.~
+WFlags   take wield~
+Values   12 25 50 3 0 0
+Stats    25 50000 62 0 0
+Rarity   3
+Affect   1 20 0 0 0
+Affect   13 25 0 0 0
+Affect   12 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22042
+Keywords crown tyranny head armor~
+Type     armor~
+Short    the Crown of Tyranny~
+Long     A jagged iron crown that radiates an aura of dread.~
+WFlags   take head~
+Values   20 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+Affect   18 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22043
+Keywords book dead hold treasure~
+Type     treasure~
+Short    the Book of the Dead~
+Long     A heavy tome bound in bone and shriveled human skin.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 15000 59 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   4 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22044
+Keywords piccolo flaming fire trinket hold~
+Type     treasure~
+Short    the Piccolo of the Flaming Fire~
+Long     A golden flute that compels those who hear it to dance.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 12000 58 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     22045
+Keywords postmaster tunic body armor~
+Type     armor~
+Short    the Postmaster's Tunic~
+Long     A blue cloth tunic with gold trim, surprisingly comfortable.~
+WFlags   take body~
+Values   8 0 0 0 0 0
+Stats    4 8500 58 0 0
+Rarity   2
+Affect   2 15 0 0 0
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22046
+Keywords cannonball runner trinket hold~
+Type     treasure~
+Short    the Cannonball Runner~
+Long     A small mechanical device that summons a miniature cannon.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 6500 57 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     22047
+Keywords archivist cape about armor~
+Type     armor~
+Short    the Archivist's Cape~
+Long     A long red cape embroidered with gold thread.~
+WFlags   take about~
+Values   5 0 0 0 0 0
+Stats    1 4500 57 0 0
+Rarity   1
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22048
+Keywords balnazzar hide cloak about armor~
+Type     armor~
+Short    Balnazzar's Hide~
+Long     A heavy, leathery cloak made from the skin of a dreadlord.~
+WFlags   take about~
+Values   10 0 0 0 0 0
+Stats    2 12000 62 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22049
+Keywords maleki footwraps feet armor~
+Type     armor~
+Short    Maleki's Footwraps~
+Long     Cloth wraps that feel permanently frozen to the touch.~
+WFlags   take feet~
+Values   8 0 0 0 0 0
+Stats    2 3200 58 0 0
+Rarity   2
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22050
+Keywords anastari heirloom necklace jewelry~
+Type     jewelry~
+Short    Anastari's Heirloom~
+Long     A silver necklace featuring a large, weeping gemstone.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 5500 59 0 0
+Rarity   2
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22051
+Keywords tome knowledge hold treasure~
+Type     treasure~
+Short    the Tome of Knowledge~
+Long     A leather-bound book containing ancient Lordaeron history.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 4500 57 0 0
+Rarity   1
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22052
+Keywords breastplate scarlet crusade armor~
+Type     armor~
+Short    a Breastplate of the Scarlet Crusade~
+Long     Heavy plate armor lacquered in a bright crimson finish.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 8500 56 0 0
+Rarity   1
+Affect   5 10 0 0 0
+Affect   17 -20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22053
+Keywords gauntlets sea hands armor~
+Type     armor~
+Short    the Gauntlets of the Sea~
+Long     Mail gauntlets that shimmer with a soft blue light.~
+WFlags   take hands~
+Values   15 0 0 0 0 0
+Stats    5 6500 58 0 0
+Rarity   2
+Affect   4 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22054
+Keywords stratholme holy water treasure~
+Type     treasure~
+Short    a flask of Stratholme Holy Water~
+Long     A glass vial containing blessed water that glows faintly.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 500 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     22055
+Keywords righteous orb treasure~
+Type     treasure~
+Short    a Righteous Orb~
+Long     A small, brilliant sphere of pure holy energy.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 4500 60 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     22056
+Keywords skull damned hold treasure~
+Type     treasure~
+Short    the Skull of the Damned~
+Long     A blackened humanoid skull that whispers of shadow.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    2 3500 56 0 0
+Rarity   1
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22057
+Keywords ancient bone key~
+Type     key~
+Short    the Ancient Bone Key~
+Long     A large, heavy key required to navigate the undead side.~
+WFlags   take~
+Values   22057 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   2
+#ENDOBJECT
+
+#OBJECT
+Vnum     22058
+Keywords scarlet key~
+Type     key~
+Short    the Scarlet Key~
+Long     A simple iron key marked with the Scarlet Crusade flame.~
+WFlags   take~
+Values   22058 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     22059
+Keywords medallion faith jewelry necklace~
+Type     jewelry~
+Short    the Medallion of Faith~
+Long     A silver medallion granted to the city's highest priests.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 8500 60 0 0
+Rarity   2
+Affect   4 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22060
+Keywords gauntlets valor hands armor~
+Type     armor~
+Short    a pair of Gauntlets of Valor~
+Long     Steel gauntlets featuring the crest of Lordaeron.~
+WFlags   take hands~
+Values   20 0 0 0 0 0
+Stats    8 5500 58 0 0
+Rarity   2
+Affect   1 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22061
+Keywords belt archmage waist armor~
+Type     armor~
+Short    the Belt of the Archmage~
+Long     A fine silken belt woven with arcane thread.~
+WFlags   take waist~
+Values   8 0 0 0 0 0
+Stats    2 4500 58 0 0
+Rarity   2
+Affect   3 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22062
+Keywords pauldrons elements shoulders armor~
+Type     armor~
+Short    a pair of Pauldrons of the Elements~
+Long     Shoulder plates that seem to vibrate with natural power.~
+WFlags   take about~
+Values   15 0 0 0 0 0
+Stats    10 5500 58 0 0
+Rarity   2
+Affect   4 10 0 0 0
+Affect   5 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22063
+Keywords wildheart boots feet armor~
+Type     armor~
+Short    a pair of Wildheart Boots~
+Long     Boots made of durable leather and reinforced with bark.~
+WFlags   take feet~
+Values   12 0 0 0 0 0
+Stats    5 4500 58 0 0
+Rarity   2
+Affect   2 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22064
+Keywords magister gloves hands armor~
+Type     armor~
+Short    a pair of Magister's Gloves~
+Long     Fine silken gloves that grant increased arcane dexterity.~
+WFlags   take hands~
+Values   8 0 0 0 0 0
+Stats    2 4500 58 0 0
+Rarity   2
+Affect   3 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22065
+Keywords devout skirt legs armor~
+Type     armor~
+Short    the Devout Skirt~
+Long     Cloth leggings embroidered with symbols of the Light.~
+WFlags   take legs~
+Values   10 0 0 0 0 0
+Stats    5 5500 58 0 0
+Rarity   2
+Affect   4 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22066
+Keywords beaststalker cap head armor~
+Type     armor~
+Short    the Beaststalker's Cap~
+Long     A hood fashioned from the pelt of a rare Plagueland wolf.~
+WFlags   take head~
+Values   12 0 0 0 0 0
+Stats    3 5500 58 0 0
+Rarity   2
+Affect   2 12 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22067
+Keywords dreadmist mask head armor~
+Type     armor~
+Short    the Dreadmist Mask~
+Long     A dark purple hood that smells faintly of shadow-smoke.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    3 5500 58 0 0
+Rarity   2
+Affect   3 10 0 0 0
+Affect   14 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22068
+Keywords lightforge breastplate body armor~
+Type     armor~
+Short    the Lightforge Breastplate~
+Long     Massive plate armor that glows with an inner light.~
+WFlags   take body~
+Values   35 0 0 0 0 0
+Stats    35 12000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22069
+Keywords shadowcraft tunic body armor~
+Type     armor~
+Short    the Shadowcraft Tunic~
+Long     Dark leather armor that seems to absorb the surrounding light.~
+WFlags   take body~
+Values   15 0 0 0 0 0
+Stats    15 12000 60 0 0
+Rarity   3
+Affect   2 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22070
+Keywords crimson felt hat head armor~
+Type     armor~
+Short    a Crimson Felt Hat~
+Long     A stylish red hat that grants increased magical power.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    2 4500 57 0 0
+Rarity   2
+Affect   3 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22071
+Keywords mask unforgiven head armor~
+Type     armor~
+Short    the Mask of the Unforgiven~
+Long     A white leather mask that grants the bearer uncanny aim.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    2 8500 59 0 0
+Rarity   2
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22072
+Keywords coldsteel bill polearm weapon~
+Type     weapon~
+Short    the Coldsteel Bill~
+Long     A long polearm with a head made of permanent ice-chiseled steel.~
+WFlags   take wield~
+Values   12 18 35 11 0 0
+Stats    25 15000 60 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22073
+Keywords hammer grand crusader weapon~
+Type     weapon~
+Short    the Hammer of the Grand Crusader~
+Long     A massive mace blessed by the highest order of the Crusade.~
+WFlags   take wield~
+Values   12 15 30 8 0 0
+Stats    22 15000 62 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22074
+Keywords skullforge reaver sword weapon~
+Type     weapon~
+Short    the Skullforge Reaver~
+Long     A heavy steel blade that seems to feed on the blood of its victims.~
+WFlags   take wield~
+Values   12 15 35 3 0 0
+Stats    15 15000 61 0 0
+Rarity   3
+Affect   13 15 0 0 0
+Affect   12 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     22075
+Keywords grimoire necromancy treasure loot~
+Type     treasure~
+Short    a Grimoire of Necromancy~
+Long     A book filled with advanced spells for raising the dead.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    5 2500 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     22076
+Keywords runecloth bolt loot treasure~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     22077
+Keywords scourge stone corrupt treasure~
+Type     treasure~
+Short    a Corrupt Scourgestone~
+Long     A jagged green stone marked with the seal of the Scourge.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 150 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     22078
+Keywords oil undeath loot treasure~
+Type     treasure~
+Short    a vial of Essential Oil of Undeath~
+Long     A thick, black oil used in the creation of powerful abominations.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1500 58 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     22079
+Keywords plagueland fern loot treasure~
+Type     treasure~
+Short    a Plagueland Fern~
+Long     A grey, diseased plant used in high-level alchemy.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 250 50 0 0
+Rarity   1
+#ENDOBJECT
+
+#ROOM
+Vnum     22100
+Name     &rThe Gates of Stratholme&d~
+Sector   city~
+Flags    indoors~
+Desc     The high stone walls of Stratholme loom over you, eternally 
+shrouded in the smoke of the burning city. A massive iron gate 
+marks the entrance to the once-great northern hub. The air is 
+thick with the scent of burning flesh and the sulfurous gas of 
+the plague. A shimmering white portal glows within the main 
+archway, leading into the city's cursed interior.
+~
+#EXIT
+Direction out~
+ToRoom    38563
+Desc      Return to the Eastern Plaguelands.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22101
+Desc      The Entry Square.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     22101
+Name     &rThe Entry Square&d~
+Sector   city~
+Flags    indoors~
+Desc     A large stone square filled with overturned wagons and the 
+skeletal remains of horses. To the west, the city streets lead 
+toward the Scarlet bastion. To the east, a wide thoroughfare 
+leads toward the undead quarter. High above, the necropolis 
+of Naxxramas casts a permanent shadow over the square.
+~
+#EXIT
+Direction south~
+ToRoom    22100
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22102
+Desc      Toward King's Square.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    22140
+Desc      Toward Elders' Square.~
+#ENDEXIT
+Reset M 0 22019 10 22101
+#ENDROOM
+
+#ROOM
+Vnum     22102
+Name     &rThe Burning Way - West&d~
+Sector   city~
+Flags    indoors~
+Desc     The houses on both sides of the street are eternally burning, 
+the flames fed by necromantic magic. Skeletal citizens 
+wander the center of the road, their eyes glowing with 
+madness. To the north, a small alleyway leads toward 
+the city's post office.
+~
+#EXIT
+Direction east~
+ToRoom    22101
+Desc      The entry square.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22103
+Desc      King's Square.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22108
+Desc      Toward the Post Office.~
+#ENDEXIT
+Reset M 0 22019 10 22102
+#ENDROOM
+
+#ROOM
+Vnum     22103
+Name     &rKing's Square - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular plaza that was once the pride of the city. 
+A high stone fountain in the center is filled with blood, 
+and the air is thick with the cries of restless souls. 
+Timmy the Cruel can often be seen prowling the square.
+~
+#EXIT
+Direction east~
+ToRoom    22102
+Desc      The burning way.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22104
+Desc      Deep into King's Square.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22115
+Desc      Toward Crusader's Square.~
+#ENDEXIT
+Reset M 0 22011 1 22103
+#ENDROOM
+
+#ROOM
+Vnum     22104
+Name     &rKing's Square - Central&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the western city. Shattered buildings line the 
+square, and the central fountain overflows with stagnant 
+darkness. Rockwing gargoyles watch from the high roofs, 
+ready to dive on anyone who enters the plaza.
+~
+#EXIT
+Direction south~
+ToRoom    22103
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22105
+Desc      Toward the Festival Lane.~
+#ENDEXIT
+Reset M 0 22017 10 22104
+#ENDROOM
+
+#ROOM
+Vnum     22105
+Name     &rFestival Lane - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, festive street that has been turned into a scene 
+of carnage. Colorful banners, now tattered and grey, hang 
+from the houses.
+~
+#EXIT
+Direction south~
+ToRoom    22104
+Desc      King's Square.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22106
+Desc      The Festival Lane Center.~
+#ENDEXIT
+Reset M 0 22035 10 22105
+#ENDROOM
+
+#ROOM
+Vnum     22106
+Name     &rFestival Lane - Heart&d~
+Sector   city~
+Flags    indoors~
+Desc     The deepest part of the lane. A large bonfire burns in the 
+middle of the street, fueled by the remains of the city's 
+furniture.
+~
+#EXIT
+Direction south~
+ToRoom    22105
+Desc      The lane entrance.~
+#ENDEXIT
+Reset O 0 22054 10 22106
+#ENDROOM
+
+#ROOM
+Vnum     22108
+Name     &rThe Post Office - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-built stone building. Several blue-painted 
+mailboxes stand outside, though they have been dented 
+and stained with rust. The sound of a ringing bell 
+echoes from within.
+~
+#EXIT
+Direction south~
+ToRoom    22102
+Desc      The burning way.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22109
+Desc      The Sorting Room.~
+#ENDEXIT
+Reset M 0 22010 1 22108
+  Reset G 1 22045 1
+#ENDROOM
+
+#ROOM
+Vnum     22109
+Name     &rThe Sorting Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     Crates and sacks of undelivered mail are piled to the 
+ceiling. Restless souls of former couriers wander the 
+room, attempting to complete their final deliveries.
+~
+#EXIT
+Direction south~
+ToRoom    22108
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 22023 10 22109
+#ENDROOM
+
+#ROOM
+Vnum     22110
+Name     &rKing's Square Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the plaza filled with overturned carts 
+and the smell of old ozone.
+~
+#EXIT
+Direction north~
+ToRoom    22103
+Desc      The entrance.~
+#ENDEXIT
+Reset M 0 22016 5 22110
+#ENDROOM
+
+#ROOM
+Vnum     22115
+Name     &rThe Road to the Bastion - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The road becomes wider and more organized as you approach the 
+Scarlet territory. The burning buildings are replaced by 
+stone barricades and bright red banners. Scarlet 
+defenders stand guard at every intersection.
+~
+#EXIT
+Direction east~
+ToRoom    22103
+Desc      King's Square.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22116
+Desc      Crusader's Square.~
+#ENDEXIT
+Reset M 0 22038 5 22115
+#ENDROOM
+
+#ROOM
+Vnum     22116
+Name     &rCrusader's Square&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the Scarlet Crusade's operations in Stratholme. 
+The square is impeccably clean, and the air is clear of 
+the plague-smoke. A grand cathedral stands on the north 
+side of the plaza, its white stone reflecting the pale sky.
+~
+#EXIT
+Direction east~
+ToRoom    22115
+Desc      The road entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22117
+Desc      The Scarlet Bastion Entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22125
+Desc      Toward the Cannon Master's Lair.~
+#ENDEXIT
+Reset M 0 22012 10 22116
+Reset O 0 22055 5 22116
+#ENDROOM
+
+#ROOM
+Vnum     22117
+Name     &rThe Scarlet Bastion - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A grand hall with high, vaulted ceilings. The floor is 
+polished marble and the walls are draped in fine red 
+silks. Scarlet centurions stand in silent vigil at the 
+main archway.
+~
+#EXIT
+Direction south~
+ToRoom    22116
+Desc      The square.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22118
+Desc      The Hall of Valour.~
+#ENDEXIT
+Reset M 0 22012 5 22117
+#ENDROOM
+
+#ROOM
+Vnum     22118
+Name     &rThe Hall of Valour&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide thoroughfare filled with statues of the Crusade's 
+greatest heroes. To the east lies the city's archive, 
+while to the west, a high bridge leads toward the 
+Commander's private quarters.
+~
+#EXIT
+Direction south~
+ToRoom    22117
+Desc      The entrance hall.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    22119
+Desc      The Archivist's Office.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22121
+Desc      The Grand Crusader's Throne.~
+#ENDEXIT
+Reset M 0 22022 5 22118
+#ENDROOM
+
+#ROOM
+Vnum     22119
+Name     &rThe Archivist's Office&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room overflowing with maps, scrolls, and ancient 
+books. Archivist Galford stands before a massive, 
+burning fireplace, tossing handfuls of parchment 
+into the flames.
+~
+#EXIT
+Direction west~
+ToRoom    22118
+Desc      The hall of valour.~
+#ENDEXIT
+Reset M 0 22009 1 22119
+  Reset G 1 22047 1
+#ENDROOM
+
+#ROOM
+Vnum     22120
+Name     &rThe Bastion Archive&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small, subterranean room beneath the archivist's office. 
+It contains the few texts that Galford deemed "pure" 
+enough to survive.
+~
+#EXIT
+Direction up~
+ToRoom    22119
+Desc      Return to the office.~
+#ENDEXIT
+Reset O 0 22051 1 22120
+#ENDROOM
+
+#ROOM
+Vnum     22121
+Name     &rThe Throne of Grand Crusader Dathrohan&d~
+Sector   inside~
+Flags    indoors~
+Desc     The highest point of the Scarlet Bastion. Grand Crusader 
+Dathrohan sits upon a high throne, his armor gleaming 
+with an unnatural red light. He oversees the final 
+purification of Stratholme with eyes full of hidden 
+malice.
+~
+#EXIT
+Direction south~
+ToRoom    22118
+Desc      The hall of valour.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22122
+Desc      Toward the Balnazzar Chamber.~
+#ENDEXIT
+Reset M 0 22001 1 22121
+  Reset E 1 22073 1 16
+#ENDROOM
+
+#ROOM
+Vnum     22122
+Name     &rThe Chamber of Balnazzar&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark, ominous room hidden behind the throne. In the 
+center, the dreadlord Balnazzar has shed his human 
+skin, his massive wings fanned as he drinks in the 
+shadowy energy of the mountain.
+~
+#EXIT
+Direction south~
+ToRoom    22121
+Desc      The throne room.~
+#ENDEXIT
+Reset M 0 22002 1 22122
+  Reset G 1 22048 1
+#ENDROOM
+
+#ROOM
+Vnum     22123
+Name     &rThe Bastion Side-wing&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet hallway in the back of the bastion, used by 
+the Crimson Conjurers to study their spells.
+~
+#EXIT
+Direction south~
+ToRoom    22118
+Desc      The hall of valour.~
+#ENDEXIT
+Reset M 0 22013 10 22123
+#ENDROOM
+
+#ROOM
+Vnum     22124
+Name     &rBastion Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with Headmaster's Charge-staves and 
+ancient Lordaeron coins.
+~
+#EXIT
+Direction west~
+ToRoom    22118
+Desc      The hall of valour.~
+#ENDEXIT
+Reset O 0 22055 10 22124
+#ENDROOM
+
+#ROOM
+Vnum     22125
+Name     &rThe Arsenal of Willey&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive iron chamber housing the city's heavy cannons. 
+Cannon Master Willey stands near a pile of black-powder 
+barrels, his fuse already lit. The air is thick with 
+the scent of grease and charcoal.
+~
+#EXIT
+Direction east~
+ToRoom    22116
+Desc      Return to the square.~
+#ENDEXIT
+Reset M 0 22008 1 22125
+  Reset G 1 22046 1
+#ENDROOM
+
+#ROOM
+Vnum     22126
+Name     &rThe Smithy of the Crusade&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large stone forge where the Crimson Hammersmiths 
+work. The sound of hammering is constant, and the 
+room is blistering hot.
+~
+#EXIT
+Direction north~
+ToRoom    22116
+Desc      The square.~
+#ENDEXIT
+Reset M 0 22025 5 22126
+#ENDROOM
+
+#ROOM
+Vnum     22140
+Name     &rElders' Square - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     The start of the undead territory. The architecture here 
+is noticeably more decayed, with bones and mummified 
+remains used as building materials. Magistrate 
+Barthilas can often be seen patrolling the entrance.
+~
+#EXIT
+Direction west~
+ToRoom    22101
+Desc      The entry square.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    22141
+Desc      Elders' Square Central.~
+#ENDEXIT
+Reset M 0 22007 1 22140
+#ENDROOM
+
+#ROOM
+Vnum     22141
+Name     &rElders' Square - Central&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide plaza filled with ancient ziggurats. Each ziggurat 
+is guarded by a powerful Scourge champion. The air 
+is absolute still and freezing cold.
+~
+#EXIT
+Direction west~
+ToRoom    22140
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22142
+Desc      Toward Baroness Anastari's Ziggurat.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    22144
+Desc      Toward Nerub'enkan's Ziggurat.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    22146
+Desc      Toward Maleki's Ziggurat.~
+#ENDEXIT
+Reset M 0 22018 10 22141
+#ENDROOM
+
+#ROOM
+Vnum     22142
+Name     &rThe Ziggurat of the Baroness - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow stone staircase leads up to the peak of the 
+ziggurat. The air hums with the wailing of souls. 
+Baroness Anastari stands at the summit.
+~
+#EXIT
+Direction south~
+ToRoom    22141
+Desc      The square central.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22143
+Desc      Anastari's Peak.~
+#ENDEXIT
+Reset M 0 22023 10 22142
+#ENDROOM
+
+#ROOM
+Vnum     22143
+Name     &rThe Peak of Baroness Anastari&d~
+Sector   inside~
+Flags    indoors~
+Desc     A circular platform overlooking the city. Anastari stands 
+here, her translucent form radiating waves of pure 
+mental agony.
+~
+#EXIT
+Direction south~
+ToRoom    22142
+Desc      Return to the stairs.~
+#ENDEXIT
+Reset M 0 22004 1 22143
+  Reset G 1 22050 1
+#ENDROOM
+
+#ROOM
+Vnum     22144
+Name     &rThe Ziggurat of the Spider - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are completely covered in thick Nerubian 
+silk. Crypt fiends skitter along the ceiling, waiting 
+for prey to be ensnared.
+~
+#EXIT
+Direction west~
+ToRoom    22141
+Desc      The square central.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    22145
+Desc      Nerub'enkan's Peak.~
+#ENDEXIT
+Reset M 0 22024 10 22144
+#ENDROOM
+
+#ROOM
+Vnum     22145
+Name     &rThe Peak of Nerub'enkan&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room filled with spider egg sacs and web-wrapped 
+humanoid remains. Nerub'enkan stands in the center, 
+his golden armor glinting in the dim light.
+~
+#EXIT
+Direction west~
+ToRoom    22144
+Desc      Return to the stairs.~
+#ENDEXIT
+Reset M 0 22005 1 22145
+#ENDROOM
+
+#ROOM
+Vnum     22146
+Name     &rThe Ziggurat of the Pallid - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A frost-covered staircase leading up toward Maleki's 
+sanctum. The air here is freezing cold.
+~
+#EXIT
+Direction north~
+ToRoom    22141
+Desc      The square central.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    22147
+Desc      Maleki's Peak.~
+#ENDEXIT
+Reset M 0 22034 10 22146
+#ENDROOM
+
+#ROOM
+Vnum     22147
+Name     &rThe Peak of Maleki the Pallid&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small circular room filled with ice crystals. Maleki 
+the Pallid stands before a frozen altar, focusing 
+the Scourge's power into the square below.
+~
+#EXIT
+Direction north~
+ToRoom    22146
+Desc      Return to the stairs.~
+#ENDEXIT
+Reset M 0 22006 1 22147
+  Reset G 1 22049 1
+#ENDROOM
+
+#ROOM
+Vnum     22150
+Name     &rThe Slaughterhouse Road&d~
+Sector   city~
+Flags    indoors~
+Desc     The thoroughfare leads toward the city's industrial heart. 
+Massive abominations patrol the street, their feet 
+shaking the ground with every step.
+~
+#EXIT
+Direction west~
+ToRoom    22141
+Desc      The Elders' Square.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    22151
+Desc      The Slaughter Square.~
+#ENDEXIT
+Reset M 0 22015 5 22150
+#ENDROOM
+
+#ROOM
+Vnum     22151
+Name     &rThe Slaughter Square&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive circular pit filled with hundreds of corpses. 
+This is the "gauntlet" of Stratholme. If all the 
+ziggurat lords are defeated, the gates to the 
+slaughterhouse will open.
+~
+#EXIT
+Direction west~
+ToRoom    22150
+Desc      The entry road.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22152
+Desc      The Slaughterhouse Entrance.~
+#ENDEXIT
+Reset M 0 22026 10 22151
+#ENDROOM
+
+#ROOM
+Vnum     22152
+Name     &rThe Slaughterhouse - Inner&d~
+Sector   inside~
+Flags    indoors~
+Desc     A scene of absolute horror. Dissected limbs hang from 
+iron hooks in the ceiling, and the floor is slick 
+with blood and bile. Ramstein the Gorger stands 
+here, surrounded by his personal guard.
+~
+#EXIT
+Direction south~
+ToRoom    22151
+Desc      The square.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22155
+Desc      Toward Baron Rivendare's Keep.~
+#ENDEXIT
+Reset M 0 22003 1 22152
+#ENDROOM
+
+#ROOM
+Vnum     22155
+Name     &rThe Keep of Baron Rivendare - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A heavily fortified stone chamber housing the final 
+guard contingent of the city. Magmus stands here, his 
+molten body illuminating the room in a hellish glow.
+~
+#EXIT
+Direction south~
+ToRoom    22152
+Desc      The slaughterhouse.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22156
+Desc      The Baron's Throne Room.~
+#ENDEXIT
+Reset M 0 22020 5 22155
+#ENDROOM
+
+#ROOM
+Vnum     22156
+Name     &rThe Throne of Baron Rivendare&d~
+Sector   city~
+Flags    indoors~
+Desc     The highest point of undead Stratholme. Baron Rivendare 
+sits upon a skeletal throne, his runeblade resting 
+across his knees. He oversees the final destruction 
+of Lordaeron from this very seat.
+~
+#EXIT
+Direction south~
+ToRoom    22155
+Desc      The keep entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    22180
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 22000 1 22156
+  Reset G 1 22040 1
+  Reset E 1 22041 1 16
+#ENDROOM
+
+#ROOM
+Vnum     22157
+Name     &rUndead Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet corner of the city filled with skeletal 
+remains and the smell of old decay.
+~
+#EXIT
+Direction north~
+ToRoom    22141
+Desc      Elders' square central.~
+#ENDEXIT
+Reset M 0 22035 5 22157
+#ENDROOM
+
+#ROOM
+Vnum     22158
+Name     &rUndead Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A side tunnel in the slaughter square filled with 
+discarded masonry and bits of bone.
+~
+#EXIT
+Direction west~
+ToRoom    22151
+Desc      Slaughter square.~
+#ENDEXIT
+Reset O 0 22056 10 22158
+#ENDROOM
+
+#ROOM
+Vnum     22160
+Name     &rThe King's Square Lookout&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone platform in the western city, home to 
+several rockwing gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    22104
+Desc      King's Square.~
+#ENDEXIT
+Reset M 0 22017 5 22160
+#ENDROOM
+
+#ROOM
+Vnum     22161
+Name     &rThe Bastion Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the entry hall where the 
+Scarlet Crusade prepares its meager meals.
+~
+#EXIT
+Direction south~
+ToRoom    22117
+Desc      Bastion entrance.~
+#ENDEXIT
+Reset M 0 22022 5 22161
+#ENDROOM
+
+#ROOM
+Vnum     22162
+Name     &rThe Shadowed Ledge - East&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in Elders' square, home to 
+several obsidian gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    22141
+Desc      Elders' square.~
+#ENDEXIT
+Reset M 0 22017 5 22162
+#ENDROOM
+
+#ROOM
+Vnum     22163
+Name     &rThe Slaughterhouse Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small storage area near the slaughterhouse, filled with 
+bottles of venom and bundles of feathers.
+~
+#EXIT
+Direction south~
+ToRoom    22152
+Desc      The slaughterhouse.~
+#ENDEXIT
+Reset O 0 22075 10 22163
+#ENDROOM
+
+#ROOM
+Vnum     22164
+Name     &rThe Baron's Vault&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A side room behind the throne filled with 
+chests of gold and stolen Lordaeron artifacts.
+~
+#EXIT
+Direction south~
+ToRoom    22156
+Desc      Baron's throne.~
+#ENDEXIT
+Reset O 0 22042 1 22164
+#ENDROOM
+
+#ROOM
+Vnum     22165
+Name     &rThe Thuzadin Annex&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small chamber where the necromancers study their 
+advanced spells.
+~
+#EXIT
+Direction east~
+ToRoom    22141
+Desc      Elders' square.~
+#ENDEXIT
+Reset M 0 22014 5 22165
+#ENDROOM
+
+#ROOM
+Vnum     22166
+Name     &rThe Crimson Arsenal&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room for storing weaponry for the 
+Crusade combatants.
+~
+#EXIT
+Direction south~
+ToRoom    22116
+Desc      Crusader's square.~
+#ENDEXIT
+Reset O 0 22052 10 22166
+#ENDROOM
+
+#ROOM
+Vnum     22167
+Name     &rThe Silent Chapel&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room in the back of the bastion dedicated 
+to the memory of the Crusade's fallen.
+~
+#EXIT
+Direction west~
+ToRoom    22118
+Desc      Hall of valour.~
+#ENDEXIT
+Reset O 0 22059 1 22167
+#ENDROOM
+
+#ROOM
+Vnum     22168
+Name     &rThe High Road Lookout - East&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the Slaughterhouse, 
+offering a view of the eastern city streets.
+~
+#EXIT
+Direction south~
+ToRoom    22151
+Desc      Slaughter square.~
+#ENDEXIT
+Reset M 0 22016 5 22168
+#ENDROOM
+
+#ROOM
+Vnum     22169
+Name     &rThe Sorting Room Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side room used for the repair of damaged 
+blueprints and sorting equipment.
+~
+#EXIT
+Direction east~
+ToRoom    22109
+Desc      Sorting room.~
+#ENDEXIT
+Reset O 0 22076 10 22169
+#ENDROOM
+
+#ROOM
+Vnum     22170
+Name     &rThe Stratholme Final Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet, central square in the middle of the city.
+~
+#EXIT
+Direction north~
+ToRoom    22101
+Desc      The entry square.~
+#ENDEXIT
+Reset O 0 22054 10 22170
+#ENDROOM
+
+#ROOM
+Vnum     22180
+Name     &rThe Stratholme Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind Baron Rivendare's throne 
+leads toward a hidden opening in the side of the 
+mountain, offering a quick way out.
+~
+#EXIT
+Direction south~
+ToRoom    22156
+Desc      Baron's throne.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    22100
+Desc      The entrance gates.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     22181
+Name     &rThe Gauntlet Path - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow alleyway leading toward the Slaughterhouse. 
+Bile spewers patrol the path in pairs.
+~
+#EXIT
+Direction east~
+ToRoom    22151
+Desc      Slaughter square.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22182
+Desc      Middle of the gauntlet.~
+#ENDEXIT
+Reset M 0 22026 5 22181
+#ENDROOM
+
+#ROOM
+Vnum     22182
+Name     &rThe Gauntlet Path - Middle&d~
+Sector   city~
+Flags    indoors~
+Desc     The deepest part of the alleyway. The air here is 
+toxic and green with plague gas.
+~
+#EXIT
+Direction east~
+ToRoom    22181
+Desc      Gauntlet entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    22183
+Desc      Toward the back gate.~
+#ENDEXIT
+Reset M 0 22039 5 22182
+#ENDROOM
+
+#ROOM
+Vnum     22183
+Name     &rThe Gauntlet Path - Back Gate&d~
+Sector   city~
+Flags    indoors~
+Desc     The end of the alleyway. A heavy stone gate leads 
+back toward the Eastern Plaguelands.
+~
+#EXIT
+Direction east~
+ToRoom    22182
+Desc      Middle gauntlet.~
+#ENDEXIT
+Reset O 0 22057 1 22183
+#ENDROOM
+
+#ROOM
+Vnum     22184
+Name     &rThe Burning Alley&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark corner of the western city where the fire is 
+particularly intense.
+~
+#EXIT
+Direction north~
+ToRoom    22102
+Desc      Burning way.~
+#ENDEXIT
+Reset M 0 22035 5 22184
+#ENDROOM
+
+#ROOM
+Vnum     22185
+Name     &rThe Ruined Warehouse&d~
+Sector   inside~
+Flags    indoors~
+Desc     A stone building used for storing grain, now a shell 
+filled with plague-slimes.
+~
+#EXIT
+Direction south~
+ToRoom    22102
+Desc      Burning way.~
+#ENDEXIT
+Reset M 0 22039 5 22185
+#ENDROOM
+
+#ROOM
+Vnum     22186
+Name     &rThe High Bridge Overlook&d~
+Sector   city~
+Flags    indoors~
+Desc     A bridge connecting two high buildings in King's Square.
+~
+#EXIT
+Direction west~
+ToRoom    22104
+Desc      King's square.~
+#ENDEXIT
+Reset M 0 22017 5 22186
+#ENDROOM
+
+#ROOM
+Vnum     22187
+Name     &rThe Deserted Shop&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A shop that was looted during the initial invasion, 
+filled with broken furniture.
+~
+#EXIT
+Direction east~
+ToRoom    22104
+Desc      King's square.~
+#ENDEXIT
+Reset O 0 22054 5 22187
+#ENDROOM
+
+#ROOM
+Vnum     22188
+Name     &rThe Crimson Training Pit&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room in the bastion where recruits 
+train in holy combat.
+~
+#EXIT
+Direction north~
+ToRoom    22116
+Desc      Crusader's square.~
+#ENDEXIT
+Reset M 0 22012 5 22188
+#ENDROOM
+
+#ROOM
+Vnum     22189
+Name     &rThe Inquisitor's Side-room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-furnished room near the Bastion throne.
+~
+#EXIT
+Direction south~
+ToRoom    22121
+Desc      Dathrohan's throne.~
+#ENDEXIT
+Reset M 0 22027 1 22189
+#ENDROOM
+
+#ROOM
+Vnum     22190
+Name     &rThe Crypt Fiend's Lair&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A natural cave hidden beneath a ziggurat in Elders' square.
+~
+#EXIT
+Direction up~
+ToRoom    22144
+Desc      Spider ziggurat.~
+#ENDEXIT
+Reset M 0 22024 10 22190
+#ENDROOM
+
+#ROOM
+Vnum     22191
+Name     &rThe Spirit Vault&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A quiet room in the undead quarter filled with 
+miserable souls.
+~
+#EXIT
+Direction north~
+ToRoom    22141
+Desc      Elders' square.~
+#ENDEXIT
+Reset M 0 22023 10 22191
+#ENDROOM
+
+#ROOM
+Vnum     22192
+Name     &rThe Bone-strew Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow trail leading toward the Slaughterhouse.
+~
+#EXIT
+Direction south~
+ToRoom    22150
+Desc      Slaughterhouse road.~
+#ENDEXIT
+Reset M 0 22033 10 22192
+#ENDROOM
+
+#ROOM
+Vnum     22193
+Name     &rThe High Bastion View&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing offering a commanding view 
+of the western city.
+~
+#EXIT
+Direction south~
+ToRoom    22118
+Desc      Hall of valour.~
+#ENDEXIT
+Reset M 0 22016 5 22193
+#ENDROOM
+
+#ROOM
+Vnum     22194
+Name     &rThe Sorting Room Basement&d~
+Sector   underground~
+Flags    indoors dark~
+Desc     A dark cellar filled with piles of bones and 
+undelivered mail.
+~
+#EXIT
+Direction up~
+ToRoom    22109
+Desc      Sorting room.~
+#ENDEXIT
+Reset M 0 22019 10 22194
+#ENDROOM
+
+#ROOM
+Vnum     22195
+Name     &rThe Arsenal Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop where the cannons are repaired.
+~
+#EXIT
+Direction west~
+ToRoom    22125
+Desc      The arsenal.~
+#ENDEXIT
+Reset O 0 22076 10 22195
+#ENDROOM
+
+#ROOM
+Vnum     22196
+Name     &rThe Smithy Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage room for heavy iron bars.
+~
+#EXIT
+Direction north~
+ToRoom    22126
+Desc      The smithy.~
+#ENDEXIT
+Reset O 0 22076 10 22196
+#ENDROOM
+
+#ROOM
+Vnum     22197
+Name     &rThe High Elders' View&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in Elders' square, home to 
+several rockwing gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    22141
+Desc      Elders' square.~
+#ENDEXIT
+Reset M 0 22017 5 22197
+#ENDROOM
+
+#ROOM
+Vnum     22198
+Name     &rThe Slaughterhouse Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with stitched-abominations.
+~
+#EXIT
+Direction south~
+ToRoom    22152
+Desc      The slaughterhouse.~
+#ENDEXIT
+Reset M 0 22026 5 22198
+#ENDROOM
+
+#ROOM
+Vnum     22199
+Name     &rThe Keep Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with Baron Rivendare's 
+personal guard.
+~
+#EXIT
+Direction north~
+ToRoom    22155
+Desc      Keep entrance.~
+#ENDEXIT
+Reset M 0 22020 5 22199
+#ENDROOM
+
+#ROOM
+Vnum     22200
+Name     &rThe Stratholme Secret Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A hidden alleyway connecting the two quarters.
+~
+#EXIT
+Direction west~
+ToRoom    22101
+Desc      Entry square.~
+#ENDEXIT
+Reset M 0 22011 1 22200
+#ENDROOM
+
+#ENDAREA
