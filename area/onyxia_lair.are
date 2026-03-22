@@ -1,0 +1,3782 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Onyxia's Lair~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       60 60 0 60
+Economy      0 500000000
+#ENDAREADATA
+
+#MOBILE
+Vnum       41000
+Keywords   onyxia broodmother boss dragon elite~
+Short      Onyxia~
+Long       The Broodmother Onyxia towers over the cavern, her obsidian scales gleaming with heat.
+~
+Desc       The daughter of Deathwing and mistress of the Black Flight. Her 
+presence is a suffocating weight of ancient malice. Her eyes glow 
+like molten lava, and her breath can melt the very stone of the 
+mountain.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 63 0 0 500000 1000000
+Stats2     63 63 10000
+Stats3     80 400 150
+Stats4     0 0 0 0 0
+Attribs    50 15 40 35 35 30 30
+#ENDMOBILE
+
+#MOBILE
+Vnum       41001
+Keywords   warden lashlayer dragonspawn warrior elite~
+Short      Warden Lashlayer~
+Long       A massive, three-armed dragonspawn warden stands guard at the inner gate.
+~
+Desc       One of Onyxia's personal lieutenants. He is responsible for 
+the discipline of the lesser dragonspawn and the safety of the 
+hatchery.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 85000 200000
+Stats2     62 62 1000
+Stats3     40 150 95
+Stats4     0 0 0 0 0
+Attribs    40 12 35 15 20 25 25
+#ENDMOBILE
+
+#MOBILE
+Vnum       41002
+Keywords   onyxian warder dragonspawn warrior~
+Short      an Onyxian Warder~
+Long       A heavily armored black dragonspawn stands in silent vigil.
+~
+Desc       The elite shock troops of the Black Flight. They are trained 
+to withstand intense heat and strike with bone-crushing force.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 15000 45000
+Stats2     61 61 500
+Stats3     25 80 65
+Stats4     0 0 0 0 0
+Attribs    35 10 30 12 15 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41003
+Keywords   onyxian whelp dragon~
+Short      an Onyxian Whelp~
+Long       A small obsidian-scaled dragonet hisses, fire puffing from its nostrils.
+~
+Desc       Though young, these whelps are already aggressive predators. 
+They swarm in great numbers, overwhelming their prey with 
+thousands of tiny bites and fiery breaths.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2500 7000
+Stats2     60 60 200
+Stats3     12 35 60
+Stats4     0 0 0 0 0
+Attribs    20 22 18 10 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41004
+Keywords   firebrand invoker orc mage~
+Short      a Firebrand Invoker~
+Long       An orc in flaming robes mutters a prayer to the Broodmother.
+~
+Desc       Cultists of the True Horde who have been allowed to serve 
+within the Lair. they provide magical support and ritual sacrifices.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3200 9000
+Stats2     60 60 2500
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    12 14 16 35 30 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41005
+Keywords   molten giant elemental~
+Short      a Molten Giant~
+Long       A gargantuan figure of living magma and rock rumbles in the deep.
+~
+Desc       Guardians of the volcanic substructure. They are immune 
+to heat and can stomp the ground to stun entire groups.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 62 0 0 25000 65000
+Stats2     62 62 0
+Stats3     35 110 75
+Stats4     0 0 0 0 0
+Attribs    45 6 35 8 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41006
+Keywords   black drake dragon elite~
+Short      a Black Drake~
+Long       A large black drake circles the high rafters of the main hall.
+~
+Desc       The adolescent stage of the Black Flight. Their scales 
+are as hard as steel and their breath can liquefy plate armor.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 45000 120000
+Stats2     61 61 500
+Stats3     30 95 72
+Stats4     0 0 0 0 0
+Attribs    38 14 32 16 20 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41007
+Keywords   searing elemental fire~
+Short      a Searing Elemental~
+Long       A small, intense flame dances along the edge of a magma pool.
+~
+Desc       Lesser elementals spawned from the pure heat of the 
+mountain's core.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1100 3200
+Stats2     60 60 1200
+Stats3     9 24 60
+Stats4     0 0 0 0 0
+Attribs    10 22 14 30 25 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41008
+Keywords   onyxian lairguard dragonspawn~
+Short      an Onyxian Lairguard~
+Long       A dragonspawn with a massive two-handed mace patrols the descent.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 12000 35000
+Stats2     61 61 300
+Stats3     22 65 62
+Stats4     0 0 0 0 0
+Attribs    32 12 28 10 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41009
+Keywords   lab assistant orc mage~
+Short      a Lab Assistant~
+Long       A cultist in soot-stained robes inspects a dragon egg.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1400 4200
+Stats2     59 59 1500
+Stats3     11 30 59
+Stats4     0 0 0 0 0
+Attribs    12 16 14 28 22 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41010
+Keywords   lava elemental spirit~
+Short      a Lava Elemental~
+Long       A churning mass of molten stone rises from the burning river.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 18000 50000
+Stats2     61 61 0
+Stats3     28 85 65
+Stats4     0 0 0 0 0
+Attribs    35 6 30 4 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41011
+Keywords   onyxian blood-stalker thief~
+Short      an Onyxian Blood-stalker~
+Long       A shadow-clad orc moves silently between the obsidian pillars.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2500 7500
+Stats2     60 60 400
+Stats3     14 42 60
+Stats4     0 0 0 0 0
+Attribs    18 28 16 12 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41012
+Keywords   fireguard destroyer elemental~
+Short      a Fireguard Destroyer~
+Long       A massive elemental wreathed in white-hot flame roars.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 62 0 0 22000 65000
+Stats2     62 62 500
+Stats3     32 90 70
+Stats4     0 0 0 0 0
+Attribs    38 10 32 18 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41013
+Keywords   dragon-kin warden dragonspawn~
+Short      a Dragon-kin Warden~
+Long       A elite dragonspawn in black-iron plate stands firm.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 10000 35000
+Stats2     61 61 500
+Stats3     20 65 62
+Stats4     0 0 0 0 0
+Attribs    35 15 30 14 18 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41014
+Keywords   blackrock worg beast hound~
+Short      a Blackrock Worg~
+Long       A large, black-furred wolf snarls, its eyes glowing red.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 58 0 0 2000 6000
+Stats2     58 58 0
+Stats3     10 28 58
+Stats4     0 0 0 0 0
+Attribs    24 22 20 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       41015
+Keywords   onyxian technician orc mage~
+Short      an Onyxian Technician~
+Long       A cultist in leather aprons works a steam valve.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1300 3800
+Stats2     60 60 1200
+Stats3     9 22 60
+Stats4     0 0 0 0 0
+Attribs    12 18 14 32 26 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41016
+Keywords   obsidian gargoyle demon~
+Short      an Obsidian Gargoyle~
+Long       A stone-like demon detach itself from the cavern wall.
+~
+Race       demon~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 3500 10000
+Stats2     61 61 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    26 22 24 10 12 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41017
+Keywords   chromatic whelp spirit dragon~
+Short      a Chromatic Whelp~
+Long       A whelp with shifting colored scales hisses at you.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 1800 5500
+Stats2     60 60 200
+Stats3     11 32 60
+Stats4     0 0 0 0 0
+Attribs    20 22 18 12 14 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41018
+Keywords   lava spider beast~
+Short      a Lava Spider~
+Long       A large spider with a glowing red abdomen skitters by.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1200 3500
+Stats2     59 59 0
+Stats3     8 20 59
+Stats4     0 0 0 0 0
+Attribs    18 25 14 4 10 6 6
+#ENDMOBILE
+
+#MOBILE
+Vnum       41019
+Keywords   blackhand veteran orc warrior~
+Short      a Blackhand Veteran~
+Long       A scarred orc in heavy plate stand watch near the bridge.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 5000 15000
+Stats2     61 61 300
+Stats3     18 55 62
+Stats4     0 0 0 0 0
+Attribs    32 14 24 12 16 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41020
+Keywords   onyxian watcher spirit mage~
+Short      an Onyxian Watcher~
+Long       A spectral eye with a fiery iris floats near the ceiling.
+~
+Race       undead~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 800 2400
+Stats2     60 60 1500
+Stats3     6 18 60
+Stats4     0 0 0 0 0
+Attribs    10 25 14 35 20 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41021
+Keywords   firebrand mage orc~
+Short      a Firebrand Mage~
+Long       An orc in robes of burning silk mutters an incantation.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1600 4800
+Stats2     61 61 2200
+Stats3     12 35 61
+Stats4     0 0 0 0 0
+Attribs    12 16 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41022
+Keywords   onyxian brood-keeper dragonspawn~
+Short      an Onyxian Brood-keeper~
+Long       A dragonspawn carries a heavy container of magical fluid.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 4500 13000
+Stats2     61 61 150
+Stats3     16 50 61
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 14 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41023
+Keywords   magma elemental spirit~
+Short      a Magma Elemental~
+Long       A pile of hot stone and lava rumbles to life.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 2200 6500
+Stats2     61 61 0
+Stats3     13 38 61
+Stats4     0 0 0 0 0
+Attribs    28 6 26 6 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41024
+Keywords   onyxian blood-knight orc warrior~
+Short      an Onyxian Blood-knight~
+Long       An orc in blackened plate balances a heavy longsword.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 62 0 0 6500 20000
+Stats2     62 62 400
+Stats3     22 65 62
+Stats4     0 0 0 0 0
+Attribs    35 15 28 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41025
+Keywords   firebrand high-priest orc shaman~
+Short      a Firebrand High-Priest~
+Long       An orc in dragon-scale robes mutters a dark blessing.
+~
+Race       orc~
+Class      shaman~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 2000 6000
+Stats2     61 61 2500
+Stats3     14 40 61
+Stats4     0 0 0 0 0
+Attribs    14 12 20 35 30 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41026
+Keywords   black drakonid elite warrior~
+Short      a Black Drakonid~
+Long       A massive humanoid dragon in silver plate armor stand guard.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 62 0 0 8500 25000
+Stats2     62 62 300
+Stats3     25 75 62
+Stats4     0 0 0 0 0
+Attribs    38 14 32 18 22 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41027
+Keywords   lava spider hatchling beast~
+Short      a Lava Spider Hatchling~
+Long       A small, glowing spider snaps its pincers at your feet.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 56 0 0 400 1200
+Stats2     56 56 0
+Stats3     4 12 56
+Stats4     0 0 0 0 0
+Attribs    14 20 12 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       41028
+Keywords   onyxian scout orc thief~
+Short      an Onyxian Scout~
+Long       An orc in light mail prowls the cavern floor.
+~
+Race       orc~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 59 0 0 1100 3200
+Stats2     59 59 300
+Stats3     9 24 59
+Stats4     0 0 0 0 0
+Attribs    16 25 14 12 12 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41029
+Keywords   blackhand reaver orc warrior~
+Short      a Blackhand Reaver~
+Long       A massive orc in heavy obsidian plate stands guard.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 61 0 0 5000 15000
+Stats2     61 61 400
+Stats3     22 60 62
+Stats4     0 0 0 0 0
+Attribs    35 12 30 14 18 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41030
+Keywords   spire rat beast critter~
+Short      a Spire Rat~
+Long       A large, grey rat scurries along the base of the wall.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 50 0 0 200 600
+Stats2     50 50 0
+Stats3     3 10 50
+Stats4     0 0 0 0 0
+Attribs    10 16 10 4 4 4 4
+#ENDMOBILE
+
+#MOBILE
+Vnum       41031
+Keywords   onyxian dark-weaver orc mage~
+Short      an Onyxian Dark-weaver~
+Long       An orc in shadow-threaded robes mutter a curse.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1500 4500
+Stats2     61 61 2000
+Stats3     12 35 61
+Stats4     0 0 0 0 0
+Attribs    12 12 14 35 28 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41032
+Keywords   firebrand taskmaster orc warrior~
+Short      a Firebrand Taskmaster~
+Long       An orc with a heavy whip bellows at a group of laborers.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    28 12 22 10 14 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41033
+Keywords   chromatic whelp dragon elite~
+Short      a Shimmering Chromatic Whelp~
+Long       A whelp with iridescent scales hisses, breathing a cloud of ice.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 2200 6500
+Stats2     60 60 400
+Stats3     14 40 60
+Stats4     0 0 0 0 0
+Attribs    22 25 18 14 16 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41034
+Keywords   onyxian blood-drinker orc warrior~
+Short      an Onyxian Blood-drinker~
+Long       An orc in rusted plate armor licks a curved dagger.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 4500 13000
+Stats2     61 61 200
+Stats3     18 50 62
+Stats4     0 0 0 0 0
+Attribs    30 14 22 10 12 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41035
+Keywords   lava spider beast elite~
+Short      a Giant Lava Spider~
+Long       A massive spider with legs like iron bars crawls over the bridge.
+~
+Race       mammal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 3200 9000
+Stats2     61 61 0
+Stats3     15 42 61
+Stats4     0 0 0 0 0
+Attribs    28 20 22 6 10 10 10
+#ENDMOBILE
+
+#MOBILE
+Vnum       41036
+Keywords   onyxian warlock orc mage~
+Short      an Onyxian Warlock~
+Long       An orc in purple robes mutters to a floating shadow-orb.
+~
+Race       orc~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 1800 5500
+Stats2     61 61 2200
+Stats3     13 40 61
+Stats4     0 0 0 0 0
+Attribs    12 12 14 34 26 12 12
+#ENDMOBILE
+
+#MOBILE
+Vnum       41037
+Keywords   spectral legionnaire ghost warrior~
+Short      a Spectral Legionnaire~
+Long       A translucent orc warrior wanders the hall, reliving a past war.
+~
+Race       undead~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 200
+Stats3     15 45 60
+Stats4     0 0 0 0 0
+Attribs    26 12 20 10 10 15 15
+#ENDMOBILE
+
+#MOBILE
+Vnum       41038
+Keywords   chromatic watcher dragonspawn mage~
+Short      a Chromatic Watcher~
+Long       A dragonspawn mage focuses a beam of magical energy into a pit.
+~
+Race       mammal~
+Class      mage~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc stayarea aggressive~
+Stats1     0 61 0 0 2500 7500
+Stats2     61 61 2800
+Stats3     16 48 62
+Stats4     0 0 0 0 0
+Attribs    14 16 18 38 32 20 20
+#ENDMOBILE
+
+#MOBILE
+Vnum       41039
+Keywords   blackhand slayer orc warrior~
+Short      a Blackhand Slayer~
+Long       An orc in heavy obsidian plate swings a massive mace.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 60 0 0 4200 12000
+Stats2     60 60 150
+Stats3     18 52 60
+Stats4     0 0 0 0 0
+Attribs    32 10 24 8 12 15 15
+#ENDMOBILE
+
+#OBJECT
+Vnum     41100
+Keywords onyxia's head trophy quest~
+Type     trash~
+Short    the Head of Onyxia~
+Long     The massive, severed head of the Broodmother, dripping with hot blood.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    50 0 60 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     41101
+Keywords shard scale jewelry neck~
+Type     jewelry~
+Short    the Shard of the Scale~
+Long     A glowing shard of obsidian that pulses with draconic heat.~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 15000 60 0 0
+Rarity   3
+Affect   13 25 0 0 0
+Affect   19 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41102
+Keywords deathbringer sword weapon~
+Type     weapon~
+Short    the Deathbringer~
+Long     A heavy steel sword with a hilt of braided dragon-leather.~
+WFlags   take wield~
+Values   12 18 40 3 0 0
+Stats    20 45000 62 0 0
+Rarity   3
+Affect   1 15 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41103
+Keywords judgemnt crown head armor~
+Type     armor~
+Short    the Crown of Judgement~
+Long     A magnificent gold crown wreathed in holy flame.~
+WFlags   take head~
+Values   20 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   4 20 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41104
+Keywords bloodfang hood head armor~
+Type     armor~
+Short    the Bloodfang Hood~
+Long     A dark leather hood that seems to bleed from the shadows.~
+WFlags   take head~
+Values   12 0 0 0 0 0
+Stats    3 25000 60 0 0
+Rarity   3
+Affect   2 20 0 0 0
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41105
+Keywords dragonstalker helm head armor~
+Type     armor~
+Short    the Dragonstalker's Helm~
+Long     A helm fashioned from the skull of a black drake.~
+WFlags   take head~
+Values   15 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   2 18 0 0 0
+Affect   12 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41106
+Keywords stormrage cover head armor~
+Type     armor~
+Short    the Stormrage Cover~
+Long     A circlet of living wood and emerald leaves.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    2 25000 60 0 0
+Rarity   3
+Affect   3 15 0 0 0
+Affect   5 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41107
+Keywords transcendence halo head armor~
+Type     armor~
+Short    the Halo of Transcendence~
+Long     A shimmering circle of pure light that floats above the head.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    1 25000 60 0 0
+Rarity   3
+Affect   4 25 0 0 0
+Affect   14 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41108
+Keywords nemesis skullcap head armor~
+Type     armor~
+Short    the Nemesis Skullcap~
+Long     A blackened iron helm featuring demonic horns.~
+WFlags   take head~
+Values   10 0 0 0 0 0
+Stats    5 25000 60 0 0
+Rarity   3
+Affect   3 20 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41109
+Keywords netherwind crown head armor~
+Type     armor~
+Short    the Netherwind Crown~
+Long     A crystalline crown that hums with unstable arcane energy.~
+WFlags   take head~
+Values   8 0 0 0 0 0
+Stats    1 25000 60 0 0
+Rarity   3
+Affect   3 25 0 0 0
+Affect   12 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41110
+Keywords ten storms helmet head armor~
+Type     armor~
+Short    the Helmet of Ten Storms~
+Long     Heavy mail headpiece depicting a raging lightning storm.~
+WFlags   take head~
+Values   20 0 0 0 0 0
+Stats    8 25000 60 0 0
+Rarity   3
+Affect   13 15 0 0 0
+Affect   14 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41111
+Keywords dragon-hide bag hold~
+Type     treasure~
+Short    Onyxia's Hide Backpack~
+Long     A massive backpack made from the durable skin of the Broodmother.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    15 15000 60 0 0
+Rarity   3
+#ENDOBJECT
+
+#OBJECT
+Vnum     41112
+Keywords black dragonscale trophy~
+Type     trash~
+Short    a Black Dragonscale~
+Long     A thick obsidian scale that is warm to the touch.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 500 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     41113
+Keywords volcanic ash pouch~
+Type     trash~
+Short    a pouch of Volcanic Ash~
+Long     A small leather pouch filled with fine grey powder.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 50 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41114
+Keywords molten rock stone~
+Type     trash~
+Short    a piece of molten rock~
+Long     A stone that is still glowing with orange heat.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41115
+Keywords dragon blood flask treasure~
+Type     treasure~
+Short    a flask of Dragon Blood~
+Long     A glass vial containing thick, glowing red dragon blood.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1500 58 0 0
+Rarity   2
+Affect   13 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41116
+Keywords obsidian mace weapon~
+Type     weapon~
+Short    an Obsidian War-mace~
+Long     A heavy mace with a head of solid, razor-sharp black glass.~
+WFlags   take wield~
+Values   12 15 35 8 0 0
+Stats    20 8500 60 0 0
+Rarity   2
+Affect   1 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41117
+Keywords fireguard's heart treasure hold~
+Type     treasure~
+Short    the Heart of a Fireguard~
+Long     A small, glowing coal that never turns to ash.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+Affect   13 10 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     41118
+Keywords black-iron bar mineral~
+Type     treasure~
+Short    a solid Black Iron Bar~
+Long     A heavy, rectangular bar of refined Dark Iron metal.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    10 1500 60 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     41119
+Keywords dragon-bone tooth trophy~
+Type     trash~
+Short    a jagged dragon-tooth~
+Long     A long, sharp tooth taken from a black dragonspawn.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 250 1 0 0
+Rarity   1
+#ENDOBJECT
+
+#OBJECT
+Vnum     41120
+Keywords runecloth bolt loot~
+Type     treasure~
+Short    a bolt of Runecloth~
+Long     Durable cloth woven with protective arcane runes.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 1200 55 0 0
+Rarity   1
+#ENDOBJECT
+
+#ROOM
+Vnum     41200
+Name     &rThe Obsidian Archway&d~
+Sector   city~
+Flags    indoors~
+Desc     The humid air of Dustwallow Marsh is left behind as you step 
+through the massive, jagged entrance of Onyxia's Lair. The air 
+here is an absolute furnace, and the walls are composed of 
+solid black glass. A long, descending tunnel of obsidian leads 
+deep into the heart of the mountain.
+~
+#EXIT
+Direction out~
+ToRoom    37590
+Desc      Return to the surface of Dustwallow Marsh.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41201
+Desc      The descending corridor.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     41201
+Name     &rThe Searing Descent&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide thoroughfare built for the passage of dragons. The 
+ground is hot to the touch, and the air carries the scent of 
+sulfur and ancient scales. Onyxian warders stand in alcoves 
+along the walls, watching for intruders.
+~
+#EXIT
+Direction south~
+ToRoom    41200
+Desc      The entrance archway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41202
+Desc      The crossroads of fire.~
+#ENDEXIT
+Reset M 0 41002 10 41201
+#ENDROOM
+
+#ROOM
+Vnum     41202
+Name     &rThe Crossroads of Fire&d~
+Sector   inside~
+Flags    indoors~
+Desc     The main tunnel splits here. To the west lies the Scorched 
+Hatchery, where the next generation of the flight is 
+prepared. To the east, a wide bridge crosses a river of 
+magma toward the military quarters.
+~
+#EXIT
+Direction south~
+ToRoom    41201
+Desc      The entrance corridor.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    41203
+Desc      Toward the Hatchery.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41250
+Desc      Toward the Foundries.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41300
+Desc      Toward the Broodmother's Hall.~
+#ENDEXIT
+Reset M 0 41008 5 41202
+#ENDROOM
+
+#ROOM
+Vnum     41203
+Name     &rThe Scorched Hatchery - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The sound of thousands of tiny high-pitched screeches fills 
+the air. The walls are covered in web-like dragon-silk, and 
+the air is humid and smells of reptile musk. Hatchery 
+assistants move about, inspecting the egg sacs.
+~
+#EXIT
+Direction east~
+ToRoom    41202
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41204
+Desc      The Egg Chambers.~
+#ENDEXIT
+Reset M 0 41009 5 41203
+#ENDROOM
+
+#ROOM
+Vnum     41204
+Name     &rThe Egg Chambers - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular room filled with hundreds of obsidian eggs. 
+Onyxian whelps play in the warm updrafts rising from 
+floor vents, while technicians carefully maintain the 
+temperature.
+~
+#EXIT
+Direction south~
+ToRoom    41203
+Desc      The hatchery entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41205
+Desc      The Breeding Pit.~
+#ENDEXIT
+Reset M 0 41003 20 41204
+#ENDROOM
+
+#ROOM
+Vnum     41205
+Name     &rThe Great Breeding Pit&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the dragon-breeding operation. A massive 
+black drake stands guard over a pool of magical fluid, 
+ensuring the stability of the chromatic brood. The floor 
+is littered with broken eggshells and bone.
+~
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      The egg chambers.~
+#ENDEXIT
+Reset M 0 41006 1 41205
+Reset M 0 41003 10 41205
+#ENDROOM
+
+#ROOM
+Vnum     41250
+Name     &rThe Volcanic Bridge&d~
+Sector   city~
+Flags    indoors~
+Desc     A long stone span crossing a deep river of bubbling magma. 
+From here, you can see the foundries where the Dark Horde's 
+armor is forged. Molten giants stand at either end of the 
+bridge, acting as living barriers.
+~
+#EXIT
+Direction west~
+ToRoom    41202
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41251
+Desc      The Foundries entrance.~
+#ENDEXIT
+Reset M 0 41005 1 41250
+#ENDROOM
+
+#ROOM
+Vnum     41251
+Name     &rThe Magma Foundries - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A massive industrial hall filled with the roar of dozens 
+of magical furnaces. Fireguard destroyers work the 
+bellows, their heat making the air shimmer with mirages.
+~
+#EXIT
+Direction west~
+ToRoom    41250
+Desc      The bridge.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41252
+Desc      Foundries Center.~
+#ENDEXIT
+Reset M 0 41012 5 41251
+#ENDROOM
+
+#ROOM
+Vnum     41252
+Name     &rThe Magma Foundries - Center&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the city's production. Piles of black iron and 
+thorium bars are stacked ten feet high. Taskmasters 
+shout orders to exhausted orc laborers who hammer at 
+glowing plates of steel.
+~
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Southern foundries.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41253
+Desc      The Blacksmith's Wing.~
+#ENDEXIT
+Reset M 0 41032 5 41252
+Reset O 0 41118 10 41252
+#ENDROOM
+
+#ROOM
+Vnum     41300
+Name     &rThe Broodmother's Path - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The architecture here becomes more regal and imposing. White 
+marble pillars carved in the image of dragons line the 
+hall. This is the final approach to Onyxia's inner 
+sanctum.
+~
+#EXIT
+Direction south~
+ToRoom    41202
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41301
+Desc      The Hall of the Wardens.~
+#ENDEXIT
+Reset M 0 41013 5 41300
+#ENDROOM
+
+#ROOM
+Vnum     41301
+Name     &rThe Hall of the Wardens&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide stone landing at the top of the final descent. Warden 
+Lashlayer stands here, his massive form silhouetted 
+against the glowing portal behind him. He levels a 
+heavy polearm with cold, murderous intent.
+~
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      The path entry.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41310
+Desc      Onyxia's Sanctum.~
+#ENDEXIT
+Reset M 0 41001 1 41301
+  Reset G 1 41101 1
+#ENDROOM
+
+#ROOM
+Vnum     41310
+Name     &rThe Sanctum of Onyxia&d~
+Sector   city~
+Flags    indoors~
+Desc     The largest cavern in the mountain. Onyxia herself coils 
+upon a massive pile of gold and obsidian, her wings 
+fanned to shade the entire floor. The floor is composed 
+of solid, black glass, reflecting the infernal glow of 
+the ceiling. This is the place where the Alliance and 
+Horde come to die.
+~
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      The wardens' hall.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41400
+Desc      The exit path.~
+#ENDEXIT
+Reset M 0 41000 1 41310
+  Reset G 1 41100 1
+  Reset E 1 41102 1 16
+  Reset G 1 41103 1
+  Reset G 1 41111 1
+Reset M 0 41002 10 41310
+#ENDROOM
+
+#ROOM
+Vnum     41400
+Name     &rThe Lair Exit Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind Onyxia's hoard 
+leads toward a hidden opening in the Dustwallow 
+cliffs, offering a quick way out for those who 
+have defeated the Broodmother.
+~
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+#EXIT
+Direction up~
+ToRoom    41200
+Desc      The entrance archway.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     41206
+Name     &rLabyrinth of Fire - North 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     A confusing series of narrow, burning tunnels near the hatchery.
+~
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      The egg chambers.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41207
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41003 10 41206
+#ENDROOM
+
+#ROOM
+Vnum     41207
+Name     &rLabyrinth of Fire - North 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air is thick with smoke and sulfur.
+~
+#EXIT
+Direction south~
+ToRoom    41206
+Desc      Labyrinth 1.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41208
+Desc      Labyrinth 3.~
+#ENDEXIT
+Reset M 0 41003 10 41207
+#ENDROOM
+
+#ROOM
+Vnum     41208
+Name     &rLabyrinth of Fire - North 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     A deep cavern filled with whelp nests.
+~
+#EXIT
+Direction south~
+ToRoom    41207
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 41003 10 41208
+#ENDROOM
+
+#ROOM
+Vnum     41209
+Name     &rHatchery Side-wing A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room for storing magical heating crystals.
+~
+#EXIT
+Direction east~
+ToRoom    41203
+Desc      Hatchery entry.~
+#ENDEXIT
+Reset O 41114 10 41209
+#ENDROOM
+
+#ROOM
+Vnum     41210
+Name     &rHatchery Side-wing B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the technicians can rest.
+~
+#EXIT
+Direction west~
+ToRoom    41203
+Desc      Hatchery entry.~
+#ENDEXIT
+Reset M 0 41009 5 41210
+#ENDROOM
+
+#ROOM
+Vnum     41253
+Name     &rThe Blacksmith's Wing&d~
+Sector   city~
+Flags    indoors~
+Desc     A large room filled with anvils and tool racks.
+~
+#EXIT
+Direction west~
+ToRoom    41252
+Desc      Foundries center.~
+#ENDEXIT
+Reset M 0 41015 5 41253
+#ENDROOM
+
+#ROOM
+Vnum     41254
+Name     &rFoundry Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A storage room for dragon-scale armor.
+~
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset O 41112 10 41254
+#ENDROOM
+
+#ROOM
+Vnum     41302
+Name     &rWarden Side-room A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room for storing polearms and shields.
+~
+#EXIT
+Direction west~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset O 41116 5 41302
+#ENDROOM
+
+#ROOM
+Vnum     41303
+Name     &rWarden Side-room B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the elite dragonspawn can rest.
+~
+#EXIT
+Direction east~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41303
+#ENDROOM
+
+#ROOM
+Vnum     41311
+Name     &rSanctum Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side cavern filled with a portion of Onyxia's hoard.
+~
+#EXIT
+Direction west~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset O 41112 10 41311
+#ENDROOM
+
+#ROOM
+Vnum     41312
+Name     &rSanctum Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone ledge overlooking the Broodmother.
+~
+#EXIT
+Direction down~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41020 5 41312
+#ENDROOM
+
+#ROOM
+Vnum     41211
+Name     &rLabyrinth of Fire - South 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Hot tunnels leading toward the magma rivers.
+~
+#EXIT
+Direction north~
+ToRoom    41202
+Desc      The crossroads.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41212
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41007 10 41211
+#ENDROOM
+
+#ROOM
+Vnum     41212
+Name     &rLabyrinth of Fire - South 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     A chamber filled with searing elementals.
+~
+#EXIT
+Direction north~
+ToRoom    41211
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 41007 10 41212
+#ENDROOM
+
+#ROOM
+Vnum     41255
+Name     &rLabyrinth of Steel - East 1&d~
+Sector   city~
+Flags    indoors~
+Desc     Corridors connecting the foundries to the deep pits.
+~
+#EXIT
+Direction west~
+ToRoom    41252
+Desc      Foundries center.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    41256
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41019 5 41255
+#ENDROOM
+
+#ROOM
+Vnum     41256
+Name     &rLabyrinth of Steel - East 2&d~
+Sector   city~
+Flags    indoors~
+Desc     A storage room for heavy iron bars and coal.
+~
+#EXIT
+Direction west~
+ToRoom    41255
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset O 41118 10 41256
+#ENDROOM
+
+#ROOM
+Vnum     41320
+Name     &rLabyrinth of Scales - North 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Elegant stone rooms near the inner sanctum.
+~
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Broodmother path entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    41321
+Desc      Labyrinth 2.~
+#ENDEXIT
+Reset M 0 41020 5 41320
+#ENDROOM
+
+#ROOM
+Vnum     41321
+Name     &rLabyrinth of Scales - North 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the high-level quarters.
+~
+#EXIT
+Direction south~
+ToRoom    41320
+Desc      Labyrinth 1.~
+#ENDEXIT
+Reset M 0 41026 5 41321
+#ENDROOM
+
+#ROOM
+Vnum     41213
+Name     &rThe Guard-post Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, well-fortified room near the entrance.
+~
+#EXIT
+Direction south~
+ToRoom    41201
+Desc      Entrance corridor.~
+#ENDEXIT
+Reset M 0 41008 5 41213
+#ENDROOM
+
+#ROOM
+Vnum     41214
+Name     &rThe Ritual Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room filled with lightning-totems and burning bones.
+~
+#EXIT
+Direction north~
+ToRoom    41201
+Desc      Entrance corridor.~
+#ENDEXIT
+Reset M 0 41025 1 41214
+#ENDROOM
+
+#ROOM
+Vnum     41257
+Name     &rThe Warlock's Alcove&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark corner of the foundries where warlocks practice magic.
+~
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41036 5 41257
+#ENDROOM
+
+#ROOM
+Vnum     41258
+Name     &rThe Technician's Side-room&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room for repairing steam valves and pipes.
+~
+#EXIT
+Direction north~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41015 5 41258
+#ENDROOM
+
+#ROOM
+Vnum     41330
+Name     &rThe Noble's Sitting Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A lavish room filled with fine silks and gold jewelry.
+~
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Broodmother path entrance.~
+#ENDEXIT
+Reset O 41101 1 41330
+#ENDROOM
+
+#ROOM
+Vnum     41331
+Name     &rThe Private Study&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room filled with scrolls detailing the history of the flight.
+~
+#EXIT
+Direction east~
+ToRoom    41330
+Desc      Sitting room.~
+#ENDEXIT
+Reset M 0 41023 5 41331
+#ENDROOM
+
+#ROOM
+Vnum     41215
+Name     &rThe Hatchery Side-room C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room for whelp-pelts and tooth-piles.
+~
+#EXIT
+Direction north~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset O 41112 10 41215
+#ENDROOM
+
+#ROOM
+Vnum     41216
+Name     &rThe Breeding Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side tunnel where several black drakes are resting.
+~
+#EXIT
+Direction west~
+ToRoom    41205
+Desc      Breeding pit.~
+#ENDEXIT
+Reset M 0 41006 2 41216
+#ENDROOM
+
+#ROOM
+Vnum     41260
+Name     &rThe Foundry Side-room B&d~
+Sector   city~
+Flags    indoors~
+Desc     A storage area filled with crates of orcish rations.
+~
+#EXIT
+Direction west~
+ToRoom    41252
+Desc      Foundries center.~
+#ENDEXIT
+Reset O 41120 10 41260
+#ENDROOM
+
+#ROOM
+Vnum     41261
+Name     &rThe Smithy Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the smithy, home to several obsidian gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    41253
+Desc      Smithy wing.~
+#ENDEXIT
+Reset M 0 41016 5 41261
+#ENDROOM
+
+#ROOM
+Vnum     41340
+Name     &rThe Warden Overflow C&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing in the warden's hall.
+~
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41020 5 41340
+#ENDROOM
+
+#ROOM
+Vnum     41341
+Name     &rThe Sanctum Side-room C&d~
+Sector   city~
+Flags    indoors~
+Desc     A small, well-tended garden of lava-roots near the hoard.
+~
+#EXIT
+Direction north~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset O 41114 10 41341
+#ENDROOM
+
+#ROOM
+Vnum     41217
+Name     &rLabyrinth 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the hatchery entrance.
+~
+#EXIT
+Direction east~
+ToRoom    41203
+Desc      Hatchery entry.~
+#ENDEXIT
+Reset M 0 41003 10 41217
+#ENDROOM
+
+#ROOM
+Vnum     41218
+Name     &rLabyrinth 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small cavern hidden beneath a large rock formation.
+~
+#EXIT
+Direction west~
+ToRoom    41203
+Desc      Hatchery entry.~
+#ENDEXIT
+Reset M 0 41011 5 41218
+#ENDROOM
+
+#ROOM
+Vnum     41262
+Name     &rLabyrinth 6&d~
+Sector   city~
+Flags    indoors~
+Desc     Confusing tunnels near the magma river.
+~
+#EXIT
+Direction north~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41010 5 41262
+#ENDROOM
+
+#ROOM
+Vnum     41263
+Name     &rLabyrinth 7&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room filled with black iron bars and soot.
+~
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset O 41118 10 41263
+#ENDROOM
+
+#ROOM
+Vnum     41350
+Name     &rLabyrinth 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the General's quarters.
+~
+#EXIT
+Direction east~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41350
+#ENDROOM
+
+#ROOM
+Vnum     41351
+Name     &rLabyrinth 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction west~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41351
+#ENDROOM
+
+#ROOM
+Vnum     41220
+Name     &rHatchery Overflow D&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet corner of the hatchery filled with broken bones.
+~
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 41003 10 41220
+#ENDROOM
+
+#ROOM
+Vnum     41221
+Name     &rFoundry Side-room C&d~
+Sector   city~
+Flags    indoors~
+Desc     A side street in the foundries where blood-drinker orcs rest.
+~
+#EXIT
+Direction north~
+ToRoom    41252
+Desc      Foundries center.~
+#ENDEXIT
+Reset M 0 41034 5 41221
+#ENDROOM
+
+#ROOM
+Vnum     41270
+Name     &rThe Shadowed Ledge - West&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point in the foundries, home to several gargoyles.
+~
+#EXIT
+Direction down~
+ToRoom    41252
+Desc      Foundries center.~
+#ENDEXIT
+Reset M 0 41016 5 41270
+#ENDROOM
+
+#ROOM
+Vnum     41360
+Name     &rThe Warden's Watch&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A high, secluded ledge above the path where wardens watch in silence.
+~
+#EXIT
+Direction down~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41360
+#ENDROOM
+
+#ROOM
+Vnum     41361
+Name     &rThe Hidden Vault&d~
+Sector   inside~
+Flags    indoors dark~
+Desc     A small vault behind a tapestry in the path entrance.
+~
+#EXIT
+Direction east~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset O 41101 1 41361
+#ENDROOM
+
+#ROOM
+Vnum     41222
+Name     &rThe Spire Rat Tunnel A&d~
+Sector   underground~
+Flags    indoors~
+Desc     A narrow, dirty tunnel near the descent.
+~
+#EXIT
+Direction south~
+ToRoom    41201
+Desc      Entrance corridor.~
+#ENDEXIT
+Reset M 0 41030 10 41222
+#ENDROOM
+
+#ROOM
+Vnum     41223
+Name     &rThe Spire Rat Tunnel B&d~
+Sector   underground~
+Flags    indoors~
+Desc     Another narrow tunnel used by the mountain's vermin.
+~
+#EXIT
+Direction north~
+ToRoom    41201
+Desc      Entrance corridor.~
+#ENDEXIT
+Reset M 0 41030 10 41223
+#ENDROOM
+
+#ROOM
+Vnum     41280
+Name     &rThe Searing Workshop&d~
+Sector   city~
+Flags    indoors~
+Desc     A side room in the foundries where technicians work.
+~
+#EXIT
+Direction east~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41015 5 41280
+#ENDROOM
+
+#ROOM
+Vnum     41281
+Name     &rThe Hot-storage&d~
+Sector   city~
+Flags    indoors~
+Desc     A storage room for coals and volcanic stones.
+~
+#EXIT
+Direction west~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset O 41114 10 41281
+#ENDROOM
+
+#ROOM
+Vnum     41370
+Name     &rThe Warden's Rest&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where the high-level dragonspawn study rituals.
+~
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41038 5 41370
+#ENDROOM
+
+#ROOM
+Vnum     41371
+Name     &rThe Sanctum Hospital&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet room where the high-priests treat the wounded.
+~
+#EXIT
+Direction north~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41025 5 41371
+#ENDROOM
+
+#ROOM
+Vnum     41224
+Name     &rThe Hatchery Garden&d~
+Sector   inside~
+Flags    indoors~
+Desc     A central garden area near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset O 41114 10 41224
+#ENDROOM
+
+#ROOM
+Vnum     41225
+Name     &rThe Breeding Path&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, wide thoroughfare connecting the wings.
+~
+#EXIT
+Direction east~
+ToRoom    41202
+Desc      The crossroads.~
+#ENDEXIT
+Reset M 0 41002 5 41225
+#ENDROOM
+
+#ROOM
+Vnum     41290
+Name     &rThe Foundry Hall&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide road of massive stone pavers leading to the bridge.
+~
+#EXIT
+Direction west~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41019 5 41290
+#ENDROOM
+
+#ROOM
+Vnum     41291
+Name     &rThe Foundry Exit&d~
+Sector   city~
+Flags    indoors~
+Desc     The north end of the foundries.
+~
+#EXIT
+Direction east~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41012 5 41291
+#ENDROOM
+
+#ROOM
+Vnum     41380
+Name     &rThe Ledge of the Broodmother&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone landing near the sanctum summit.
+~
+#EXIT
+Direction down~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41020 10 41380
+#ENDROOM
+
+#ROOM
+Vnum     41381
+Name     &rThe Final Path - South&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet central garden near the lair's exit.
+~
+#EXIT
+Direction south~
+ToRoom    41400
+Desc      Exit path.~
+#ENDEXIT
+Reset O 41115 10 41381
+#ENDROOM
+
+#ROOM
+Vnum     41230
+Name     &rLabyrinth 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     A confusing series of small stone rooms.
+~
+#EXIT
+Direction north~
+ToRoom    41231
+Desc      Labyrinth 11.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41201
+Desc      Entrance corridor.~
+#ENDEXIT
+Reset M 0 41011 5 41230
+#ENDROOM
+
+#ROOM
+Vnum     41231
+Name     &rLabyrinth 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41230
+Desc      Labyrinth 10.~
+#ENDEXIT
+Reset M 0 41011 5 41231
+#ENDROOM
+
+#ROOM
+Vnum     41232
+Name     &rLabyrinth 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of hot, smoldering tunnels near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    41233
+Desc      Labyrinth 13.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41012 5 41232
+#ENDROOM
+
+#ROOM
+Vnum     41233
+Name     &rLabyrinth 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the smoldering labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41232
+Desc      Labyrinth 12.~
+#ENDEXIT
+Reset M 0 41012 5 41233
+#ENDROOM
+
+#ROOM
+Vnum     41234
+Name     &rLabyrinth 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     A Confusion of small, webbed tunnels near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41235
+Desc      Labyrinth 15.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 0 41003 10 41234
+#ENDROOM
+
+#ROOM
+Vnum     41235
+Name     &rLabyrinth 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the webbed labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41234
+Desc      Labyrinth 14.~
+#ENDEXIT
+Reset M 0 41003 10 41235
+#ENDROOM
+
+#ROOM
+Vnum     41236
+Name     &rLabyrinth 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the path entrance.
+~
+#EXIT
+Direction north~
+ToRoom    41237
+Desc      Labyrinth 17.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41236
+#ENDROOM
+
+#ROOM
+Vnum     41237
+Name     &rLabyrinth 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41236
+Desc      Labyrinth 16.~
+#ENDEXIT
+Reset M 0 41013 5 41237
+#ENDROOM
+
+#ROOM
+Vnum     41238
+Name     &rLabyrinth 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     High stone rooms near the wardens' hall.
+~
+#EXIT
+Direction north~
+ToRoom    41239
+Desc      Labyrinth 19.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41238
+#ENDROOM
+
+#ROOM
+Vnum     41239
+Name     &rLabyrinth 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41238
+Desc      Labyrinth 18.~
+#ENDEXIT
+Reset M 0 41013 5 41239
+#ENDROOM
+
+#ROOM
+Vnum     41240
+Name     &rLabyrinth 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of small rooms near the Broodmother.
+~
+#EXIT
+Direction north~
+ToRoom    41241
+Desc      Labyrinth 21.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41002 5 41240
+#ENDROOM
+
+#ROOM
+Vnum     41241
+Name     &rLabyrinth 21&d~
+Sector   inside~
+Flags    indoors~
+Desc     The deepest part of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41240
+Desc      Labyrinth 20.~
+#ENDEXIT
+Reset M 0 41002 5 41241
+#ENDROOM
+
+#ROOM
+Vnum     41242
+Name     &rLabyrinth 22&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room near the entrance landing.
+~
+#EXIT
+Direction north~
+ToRoom    41243
+Desc      Labyrinth 23.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41200
+Desc      Entrance archway.~
+#ENDEXIT
+Reset M 0 41002 5 41242
+#ENDROOM
+
+#ROOM
+Vnum     41243
+Name     &rLabyrinth 23&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entrance labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41242
+Desc      Labyrinth 22.~
+#ENDEXIT
+Reset M 0 41002 5 41243
+#ENDROOM
+
+#ROOM
+Vnum     41244
+Name     &rLabyrinth 24&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the magma river.
+~
+#EXIT
+Direction north~
+ToRoom    41245
+Desc      Labyrinth 25.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41010 5 41244
+#ENDROOM
+
+#ROOM
+Vnum     41245
+Name     &rLabyrinth 25&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the river labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41244
+Desc      Labyrinth 24.~
+#ENDEXIT
+Reset M 0 41010 5 41245
+#ENDROOM
+
+#ROOM
+Vnum     41246
+Name     &rLabyrinth 26&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the smithy.
+~
+#EXIT
+Direction north~
+ToRoom    41247
+Desc      Labyrinth 27.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41253
+Desc      Smithy wing.~
+#ENDEXIT
+Reset M 0 41016 5 41246
+#ENDROOM
+
+#ROOM
+Vnum     41247
+Name     &rLabyrinth 27&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the gargoyle labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41246
+Desc      Labyrinth 26.~
+#ENDEXIT
+Reset M 0 41016 5 41247
+#ENDROOM
+
+#ROOM
+Vnum     41248
+Name     &rLabyrinth 28&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side rooms near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41249
+Desc      Labyrinth 29.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 0 41003 10 41248
+#ENDROOM
+
+#ROOM
+Vnum     41249
+Name     &rLabyrinth 29&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hatchery labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41248
+Desc      Labyrinth 28.~
+#ENDEXIT
+Reset M 0 41003 10 41249
+#ENDROOM
+
+#ROOM
+Vnum     41390
+Name     &rLabyrinth 30&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the path entrance.
+~
+#EXIT
+Direction north~
+ToRoom    41391
+Desc      Labyrinth 31.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41390
+#ENDROOM
+
+#ROOM
+Vnum     41391
+Name     &rLabyrinth 31&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41390
+Desc      Labyrinth 30.~
+#ENDEXIT
+Reset M 0 41013 5 41391
+#ENDROOM
+
+#ROOM
+Vnum     41392
+Name     &rLabyrinth 32&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the wardens' hall.
+~
+#EXIT
+Direction north~
+ToRoom    41393
+Desc      Labyrinth 33.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41392
+#ENDROOM
+
+#ROOM
+Vnum     41393
+Name     &rLabyrinth 33&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41392
+Desc      Labyrinth 32.~
+#ENDEXIT
+Reset M 0 41013 5 41393
+#ENDROOM
+
+#ROOM
+Vnum     41394
+Name     &rLabyrinth 34&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the Broodmother.
+~
+#EXIT
+Direction north~
+ToRoom    41395
+Desc      Labyrinth 35.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41002 5 41394
+#ENDROOM
+
+#ROOM
+Vnum     41395
+Name     &rLabyrinth 35&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41394
+Desc      Labyrinth 34.~
+#ENDEXIT
+Reset M 0 41002 5 41395
+#ENDROOM
+
+#ROOM
+Vnum     41396
+Name     &rLabyrinth 36&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance landing.
+~
+#EXIT
+Direction north~
+ToRoom    41397
+Desc      Labyrinth 37.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41200
+Desc      Entrance archway.~
+#ENDEXIT
+Reset M 0 41002 5 41396
+#ENDROOM
+
+#ROOM
+Vnum     41397
+Name     &rLabyrinth 37&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41396
+Desc      Labyrinth 36.~
+#ENDEXIT
+Reset M 0 41002 5 41397
+#ENDROOM
+
+#ROOM
+Vnum     41398
+Name     &rLabyrinth 38&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the magma river.
+~
+#EXIT
+Direction north~
+ToRoom    41399
+Desc      Labyrinth 39.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41010 5 41398
+#ENDROOM
+
+#ROOM
+Vnum     41399
+Name     &rLabyrinth 39&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the river labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41398
+Desc      Labyrinth 38.~
+#ENDEXIT
+Reset M 0 41010 5 41399
+#ENDROOM
+
+#ROOM
+Vnum     41401
+Name     &rLabyrinth 40&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    41402
+Desc      Labyrinth 41.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41019 5 41401
+#ENDROOM
+
+#ROOM
+Vnum     41402
+Name     &rLabyrinth 41&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41401
+Desc      Labyrinth 40.~
+#ENDEXIT
+Reset M 0 41019 5 41402
+#ENDROOM
+
+#ROOM
+Vnum     41403
+Name     &rLabyrinth 42&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the smithy.
+~
+#EXIT
+Direction north~
+ToRoom    41404
+Desc      Labyrinth 43.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41253
+Desc      Smithy wing.~
+#ENDEXIT
+Reset M 0 41016 5 41403
+#ENDROOM
+
+#ROOM
+Vnum     41404
+Name     &rLabyrinth 43&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the gargoyle labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41403
+Desc      Labyrinth 42.~
+#ENDEXIT
+Reset M 0 41016 5 41404
+#ENDROOM
+
+#ROOM
+Vnum     41405
+Name     &rLabyrinth 44&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41406
+Desc      Labyrinth 45.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 0 41003 10 41405
+#ENDROOM
+
+#ROOM
+Vnum     41406
+Name     &rLabyrinth 45&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hatchery labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41405
+Desc      Labyrinth 44.~
+#ENDEXIT
+Reset M 0 41003 10 41406
+#ENDROOM
+
+#ROOM
+Vnum     41407
+Name     &rLabyrinth 46&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the command entry.
+~
+#EXIT
+Direction north~
+ToRoom    41408
+Desc      Labyrinth 47.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41407
+#ENDROOM
+
+#ROOM
+Vnum     41408
+Name     &rLabyrinth 47&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41407
+Desc      Labyrinth 46.~
+#ENDEXIT
+Reset M 0 41013 5 41408
+#ENDROOM
+
+#ROOM
+Vnum     41409
+Name     &rLabyrinth 48&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the wardens' hall.
+~
+#EXIT
+Direction north~
+ToRoom    41410
+Desc      Labyrinth 49.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41409
+#ENDROOM
+
+#ROOM
+Vnum     41410
+Name     &rLabyrinth 49&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41409
+Desc      Labyrinth 48.~
+#ENDEXIT
+Reset M 0 41013 5 41410
+#ENDROOM
+
+#ROOM
+Vnum     41411
+Name     &rLabyrinth 50&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the Broodmother.
+~
+#EXIT
+Direction north~
+ToRoom    41412
+Desc      Labyrinth 51.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41002 5 41411
+#ENDROOM
+
+#ROOM
+Vnum     41412
+Name     &rLabyrinth 51&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41411
+Desc      Labyrinth 50.~
+#ENDEXIT
+Reset M 0 41002 5 41412
+#ENDROOM
+
+#ROOM
+Vnum     41413
+Name     &rLabyrinth 52&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the entrance landing.
+~
+#EXIT
+Direction north~
+ToRoom    41414
+Desc      Labyrinth 53.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41200
+Desc      Entrance archway.~
+#ENDEXIT
+Reset M 0 41002 5 41413
+#ENDROOM
+
+#ROOM
+Vnum     41414
+Name     &rLabyrinth 53&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41413
+Desc      Labyrinth 52.~
+#ENDEXIT
+Reset M 0 41002 5 41414
+#ENDROOM
+
+#ROOM
+Vnum     41415
+Name     &rLabyrinth 54&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the magma river.
+~
+#EXIT
+Direction north~
+ToRoom    41416
+Desc      Labyrinth 55.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41010 5 41415
+#ENDROOM
+
+#ROOM
+Vnum     41416
+Name     &rLabyrinth 55&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the river labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41415
+Desc      Labyrinth 54.~
+#ENDEXIT
+Reset M 0 41010 5 41416
+#ENDROOM
+
+#ROOM
+Vnum     41417
+Name     &rLabyrinth 56&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    41418
+Desc      Labyrinth 57.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41019 5 41417
+#ENDROOM
+
+#ROOM
+Vnum     41418
+Name     &rLabyrinth 57&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41417
+Desc      Labyrinth 56.~
+#ENDEXIT
+Reset M 0 41019 5 41418
+#ENDROOM
+
+#ROOM
+Vnum     41419
+Name     &rLabyrinth 58&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the smithy.
+~
+#EXIT
+Direction north~
+ToRoom    41420
+Desc      Labyrinth 59.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41253
+Desc      Smithy wing.~
+#ENDEXIT
+Reset M 0 41016 5 41419
+#ENDROOM
+
+#ROOM
+Vnum     41420
+Name     &rLabyrinth 59&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the gargoyle labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41419
+Desc      Labyrinth 58.~
+#ENDEXIT
+Reset M 0 41016 5 41420
+#ENDROOM
+
+#ROOM
+Vnum     41421
+Name     &rLabyrinth 60&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41422
+Desc      Labyrinth 61.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 0 41003 10 41421
+#ENDROOM
+
+#ROOM
+Vnum     41422
+Name     &rLabyrinth 61&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hatchery labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41421
+Desc      Labyrinth 60.~
+#ENDEXIT
+Reset M 0 41003 10 41422
+#ENDROOM
+
+#ROOM
+Vnum     41423
+Name     &rLabyrinth 62&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the command entry.
+~
+#EXIT
+Direction north~
+ToRoom    41424
+Desc      Labyrinth 63.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41423
+#ENDROOM
+
+#ROOM
+Vnum     41424
+Name     &rLabyrinth 63&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41423
+Desc      Labyrinth 62.~
+#ENDEXIT
+Reset M 0 41013 5 41424
+#ENDROOM
+
+#ROOM
+Vnum     41425
+Name     &rLabyrinth 64&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the wardens' hall.
+~
+#EXIT
+Direction north~
+ToRoom    41426
+Desc      Labyrinth 65.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41425
+#ENDROOM
+
+#ROOM
+Vnum     41426
+Name     &rLabyrinth 65&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41425
+Desc      Labyrinth 64.~
+#ENDEXIT
+Reset M 0 41013 5 41426
+#ENDROOM
+
+#ROOM
+Vnum     41427
+Name     &rLabyrinth 66&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the Broodmother.
+~
+#EXIT
+Direction north~
+ToRoom    41428
+Desc      Labyrinth 67.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41002 5 41427
+#ENDROOM
+
+#ROOM
+Vnum     41428
+Name     &rLabyrinth 67&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41427
+Desc      Labyrinth 66.~
+#ENDEXIT
+Reset M 0 41002 5 41428
+#ENDROOM
+
+#ROOM
+Vnum     41429
+Name     &rLabyrinth 68&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the entrance landing.
+~
+#EXIT
+Direction north~
+ToRoom    41430
+Desc      Labyrinth 69.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41200
+Desc      Entrance archway.~
+#ENDEXIT
+Reset M 0 41002 5 41429
+#ENDROOM
+
+#ROOM
+Vnum     41430
+Name     &rLabyrinth 69&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41429
+Desc      Labyrinth 68.~
+#ENDEXIT
+Reset M 0 41002 5 41430
+#ENDROOM
+
+#ROOM
+Vnum     41431
+Name     &rLabyrinth 70&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the magma river.
+~
+#EXIT
+Direction north~
+ToRoom    41432
+Desc      Labyrinth 71.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41010 5 41431
+#ENDROOM
+
+#ROOM
+Vnum     41432
+Name     &rLabyrinth 71&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the river labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41431
+Desc      Labyrinth 70.~
+#ENDEXIT
+Reset M 0 41010 5 41432
+#ENDROOM
+
+#ROOM
+Vnum     41433
+Name     &rLabyrinth 72&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    41434
+Desc      Labyrinth 73.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41019 5 41433
+#ENDROOM
+
+#ROOM
+Vnum     41434
+Name     &rLabyrinth 73&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41433
+Desc      Labyrinth 72.~
+#ENDEXIT
+Reset M 0 41019 5 41434
+#ENDROOM
+
+#ROOM
+Vnum     41435
+Name     &rLabyrinth 74&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the smithy.
+~
+#EXIT
+Direction north~
+ToRoom    41436
+Desc      Labyrinth 75.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41253
+Desc      Smithy wing.~
+#ENDEXIT
+Reset M 0 41016 5 41435
+#ENDROOM
+
+#ROOM
+Vnum     41436
+Name     &rLabyrinth 75&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the gargoyle labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41435
+Desc      Labyrinth 74.~
+#ENDEXIT
+Reset M 0 41016 5 41436
+#ENDROOM
+
+#ROOM
+Vnum     41437
+Name     &rLabyrinth 76&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41438
+Desc      Labyrinth 77.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 0 41003 10 41437
+#ENDROOM
+
+#ROOM
+Vnum     41438
+Name     &rLabyrinth 77&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hatchery labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41437
+Desc      Labyrinth 76.~
+#ENDEXIT
+Reset M 0 41003 10 41438
+#ENDROOM
+
+#ROOM
+Vnum     41439
+Name     &rLabyrinth 78&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the command entry.
+~
+#EXIT
+Direction north~
+ToRoom    41440
+Desc      Labyrinth 79.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41439
+#ENDROOM
+
+#ROOM
+Vnum     41440
+Name     &rLabyrinth 79&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41439
+Desc      Labyrinth 78.~
+#ENDEXIT
+Reset M 0 41013 5 41440
+#ENDROOM
+
+#ROOM
+Vnum     41441
+Name     &rLabyrinth 80&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the wardens' hall.
+~
+#EXIT
+Direction north~
+ToRoom    41442
+Desc      Labyrinth 81.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41441
+#ENDROOM
+
+#ROOM
+Vnum     41442
+Name     &rLabyrinth 81&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41441
+Desc      Labyrinth 80.~
+#ENDEXIT
+Reset M 0 41013 5 41442
+#ENDROOM
+
+#ROOM
+Vnum     41443
+Name     &rLabyrinth 82&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the Broodmother.
+~
+#EXIT
+Direction north~
+ToRoom    41444
+Desc      Labyrinth 83.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41002 5 41443
+#ENDROOM
+
+#ROOM
+Vnum     41444
+Name     &rLabyrinth 83&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41443
+Desc      Labyrinth 82.~
+#ENDEXIT
+Reset M 0 41002 5 41444
+#ENDROOM
+
+#ROOM
+Vnum     41445
+Name     &rLabyrinth 84&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the entrance landing.
+~
+#EXIT
+Direction north~
+ToRoom    41446
+Desc      Labyrinth 85.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41200
+Desc      Entrance archway.~
+#ENDEXIT
+Reset M 0 41002 5 41445
+#ENDROOM
+
+#ROOM
+Vnum     41446
+Name     &rLabyrinth 85&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41445
+Desc      Labyrinth 84.~
+#ENDEXIT
+Reset M 0 41002 5 41446
+#ENDROOM
+
+#ROOM
+Vnum     41447
+Name     &rLabyrinth 86&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the magma river.
+~
+#EXIT
+Direction north~
+ToRoom    41448
+Desc      Labyrinth 87.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41250
+Desc      Volcanic bridge.~
+#ENDEXIT
+Reset M 0 41010 5 41447
+#ENDROOM
+
+#ROOM
+Vnum     41448
+Name     &rLabyrinth 87&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the river labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41447
+Desc      Labyrinth 86.~
+#ENDEXIT
+Reset M 0 41010 5 41448
+#ENDROOM
+
+#ROOM
+Vnum     41449
+Name     &rLabyrinth 88&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the foundries.
+~
+#EXIT
+Direction north~
+ToRoom    41450
+Desc      Labyrinth 89.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41251
+Desc      Foundries south.~
+#ENDEXIT
+Reset M 0 41019 5 41449
+#ENDROOM
+
+#ROOM
+Vnum     41450
+Name     &rLabyrinth 89&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the foundry labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41449
+Desc      Labyrinth 88.~
+#ENDEXIT
+Reset M 0 41019 5 41450
+#ENDROOM
+
+#ROOM
+Vnum     41451
+Name     &rLabyrinth 90&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the smithy.
+~
+#EXIT
+Direction north~
+ToRoom    41452
+Desc      Labyrinth 91.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41253
+Desc      Smithy wing.~
+#ENDEXIT
+Reset M 0 41016 5 41451
+#ENDROOM
+
+#ROOM
+Vnum     41452
+Name     &rLabyrinth 91&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the gargoyle labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41451
+Desc      Labyrinth 90.~
+#ENDEXIT
+Reset M 0 41016 5 41452
+#ENDROOM
+
+#ROOM
+Vnum     41453
+Name     &rLabyrinth 92&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the egg chambers.
+~
+#EXIT
+Direction north~
+ToRoom    41454
+Desc      Labyrinth 93.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41204
+Desc      Egg chambers.~
+#ENDEXIT
+Reset M 0 41003 10 41453
+#ENDROOM
+
+#ROOM
+Vnum     41454
+Name     &rLabyrinth 93&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the hatchery labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41453
+Desc      Labyrinth 92.~
+#ENDEXIT
+Reset M 0 41003 10 41454
+#ENDROOM
+
+#ROOM
+Vnum     41455
+Name     &rLabyrinth 94&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the command entry.
+~
+#EXIT
+Direction north~
+ToRoom    41456
+Desc      Labyrinth 95.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41300
+Desc      Path entrance.~
+#ENDEXIT
+Reset M 0 41013 5 41455
+#ENDROOM
+
+#ROOM
+Vnum     41456
+Name     &rLabyrinth 95&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the command labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41455
+Desc      Labyrinth 94.~
+#ENDEXIT
+Reset M 0 41013 5 41456
+#ENDROOM
+
+#ROOM
+Vnum     41457
+Name     &rLabyrinth 96&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the wardens' hall.
+~
+#EXIT
+Direction north~
+ToRoom    41458
+Desc      Labyrinth 97.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41301
+Desc      Wardens' hall.~
+#ENDEXIT
+Reset M 0 41013 5 41457
+#ENDROOM
+
+#ROOM
+Vnum     41458
+Name     &rLabyrinth 97&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the warden labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41457
+Desc      Labyrinth 96.~
+#ENDEXIT
+Reset M 0 41013 5 41458
+#ENDROOM
+
+#ROOM
+Vnum     41459
+Name     &rLabyrinth 98&d~
+Sector   inside~
+Flags    indoors~
+Desc     Side tunnels near the Broodmother.
+~
+#EXIT
+Direction north~
+ToRoom    41460
+Desc      Labyrinth 99.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    41310
+Desc      Onyxia's sanctum.~
+#ENDEXIT
+Reset M 0 41002 5 41459
+#ENDROOM
+
+#ROOM
+Vnum     41460
+Name     &rLabyrinth 99&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the final labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    41459
+Desc      Labyrinth 98.~
+#ENDEXIT
+Reset M 0 41002 5 41460
+#ENDROOM
+
+#ROOM
+Vnum     41461
+Name     &rThe Lair Final Path&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet, central square in the middle of the magma-hold.
+~
+#EXIT
+Direction north~
+ToRoom    41202
+Desc      The crossroads of fire.~
+#ENDEXIT
+Reset O 0 41113 10 41461
+#ENDROOM
+
+#ENDAREA
