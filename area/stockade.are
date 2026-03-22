@@ -1,0 +1,1417 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Stormwind Stockade~
+Author       Feenom~
+WeatherX     0
+WeatherY     0
+Ranges       22 30 0 60
+Economy      0 31250000
+#ENDAREADATA
+
+#MOBILE
+Vnum       11900
+Keywords   defias captive human rogue~
+Short      a Defias Captive~
+Long       A desperate Defias Captive paces his cell, looking for a fight.
+~
+Desc       This low-ranking member of the Defias Brotherhood was imprisoned long
+before the riot broke out. He is malnourished but fiercely loyal to
+Bazil Thredd.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 23 0 0 700 1800
+Stats2     23 23 200
+Stats3     4 10 23
+Stats4     0 0 0 0 0
+Attribs    14 12 12 12 12 12 12
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11901
+Keywords   defias convict human warrior~
+Short      a Defias Convict~
+Long       A Defias Convict hides in the shadows, holding a sharpened shiv.
+~
+Desc       A foot soldier of the Brotherhood who managed to conceal a crude weapon
+during the prison takeover. He strikes fast and fights dirty.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 24 0 0 800 2000
+Stats2     24 24 220
+Stats3     4 12 24
+Stats4     0 0 0 0 0
+Attribs    16 14 12 12 12 12 12
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11902
+Keywords   defias inmate human rogue~
+Short      a Defias Inmate~
+Long       A Defias Inmate sneers at you, tossing a stolen coin in the air.
+~
+Desc       These inmates were the primary smugglers inside the prison before
+the riot. They are quick on their feet and incredibly dangerous in
+close quarters.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 24 0 0 850 2100
+Stats2     24 24 230
+Stats3     4 13 24
+Stats4     0 0 0 0 0
+Attribs    14 16 12 12 12 12 12
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11903
+Keywords   defias rioter human warrior~
+Short      a Defias Rioter~
+Long       A heavily scarred Defias Rioter swings a broken chair leg.
+~
+Desc       Caught up in the bloodlust of the prison break, this rioter attacks
+anyone who doesn't wear the red bandana of the Brotherhood.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 950 2200
+Stats2     25 25 250
+Stats3     5 14 25
+Stats4     0 0 0 0 0
+Attribs    18 10 14 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11904
+Keywords   dark iron saboteur dwarf rogue~
+Short      a Dark Iron Saboteur~
+Long       A Dark Iron Saboteur sets a crude explosive trap on the floor.
+~
+Desc       Captured while attempting to blow up the Deeprun Tram, these Dark Iron
+dwarves have formed a temporary alliance with the Defias rioters to
+secure their own escape.
+~
+Race       dwarf~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea aggressive~
+Stats1     0 25 0 0 1000 2300
+Stats2     25 25 260
+Stats3     5 15 25
+Stats4     0 0 0 0 0
+Attribs    16 16 16 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11905
+Keywords   targorr dread orc boss~
+Short      Targorr the Dread~
+Long       Targorr the Dread roars a bloodcurdling battle cry.
+~
+Desc       A terrifying orc who was imprisoned for unspeakable crimes against
+the citizens of Stormwind. He has taken over the left cell block and
+rules it through sheer, brutal force.
+~
+Race       orc~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 26 0 0 1500 3500
+Stats2     26 26 300
+Stats3     6 18 26
+Stats4     0 0 0 0 0
+Attribs    20 10 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common orcish~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11906
+Keywords   kam deepfury dark iron dwarf boss~
+Short      Kam Deepfury~
+Long       Kam Deepfury sneers, his beard singed with dark ash.
+~
+Desc       A Dark Iron dwarf operative who organized the tram sabotage. He
+wields dark magic and commands the respect of the saboteurs hiding
+in the upper right wing of the prison.
+~
+Race       dwarf~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 26 0 0 1600 3600
+Stats2     26 26 310
+Stats3     6 18 26
+Stats4     0 0 0 0 0
+Attribs    19 12 18 10 10 10 10
+Saves      0 0 0 0 0
+Speaks     common dwarven~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11907
+Keywords   hamhock ogre boss~
+Short      Hamhock~
+Long       The massive ogre Hamhock pounds his fists together hungrily.
+~
+Desc       No one is quite sure how an ogre ended up in the Stormwind Stockade,
+but the Defias use him as their primary muscle. He stands guard outside
+the leader's chambers.
+~
+Race       ogre~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 27 0 0 2000 4500
+Stats2     27 27 200
+Stats3     7 22 27
+Stats4     0 0 0 0 0
+Attribs    22 8 20 8 8 8 8
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11908
+Keywords   dextren ward human boss rogue~
+Short      Dextren Ward~
+Long       Dextren Ward twirls a stolen guard's blade with lethal precision.
+~
+Desc       A smooth-talking criminal mastermind who organized the illicit
+dealings within the prison walls before the riot. He is incredibly
+fast and holds the lower right wing.
+~
+Race       human~
+Class      thief~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 28 0 0 1800 4000
+Stats2     28 28 400
+Stats3     6 20 28
+Stats4     0 0 0 0 0
+Attribs    15 18 14 15 15 15 15
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#MOBILE
+Vnum       11909
+Keywords   bazil thredd human boss leader~
+Short      Bazil Thredd~
+Long       Bazil Thredd stands proudly, orchestrating the violent prison riot.
+~
+Desc       A high-ranking lieutenant of the Defias Brotherhood and the ultimate
+mastermind behind the Stockade riot. He commands the entire prison
+from his fortified cell deep in the complex.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel stayarea aggressive~
+Stats1     0 29 0 0 3000 6000
+Stats2     29 29 500
+Stats3     8 25 29
+Stats4     0 0 0 0 0
+Attribs    20 18 18 16 16 16 16
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#ENDMOBILE
+
+#OBJECT
+Vnum     11900
+Keywords red wool bandana head~
+Type     armor~
+Short    a red wool bandana~
+Long     A dusty red wool bandana, the mark of the Defias, lies here.~
+WFlags   take head~
+Values   5 0 0 0 0 0
+Stats    1 50 22 0 0
+Rarity   0
+ItemSet  1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11901
+Keywords prison shank sword weapon~
+Type     weapon~
+Short    a sharpened prison shank~
+Long     A piece of jagged iron with a cloth-wrapped handle rests here.~
+WFlags   take wield~
+Values   12 3 6 3 0 0
+Stats    2 10 22 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11902
+Keywords defias iron ring finger jewelry~
+Type     treasure~
+Short    a Defias Iron Ring~
+Long     A crude iron ring stamped with a gear symbol lies in the dirt.~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    1 150 24 0 0
+Rarity   1
+Affect   1 1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11903
+Keywords kam walking stick staff weapon~
+Type     weapon~
+Short    Kam's Walking Stick~
+Long     A polished dark-iron tipped wooden staff hums with faint magic.~
+WFlags   take wield~
+Values   12 4 8 7 0 0
+Stats    5 300 26 0 0
+Rarity   1
+Affect   3 2
+Affect   4 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11904
+Keywords butcher cleaver axe weapon~
+Type     weapon~
+Short    the Butcher's Cleaver~
+Long     A massive, blood-stained meat cleaver used for grim purposes.~
+WFlags   take wield~
+Values   12 5 10 2 0 0
+Stats    8 550 26 0 0
+Rarity   2
+Affect   1 4
+#ENDOBJECT
+
+#OBJECT
+Vnum     11905
+Keywords ward stolen blade shortsword weapon~
+Type     weapon~
+Short    Ward's Stolen Blade~
+Long     A finely balanced Stormwind guard sword lies here.~
+WFlags   take wield~
+Values   12 6 9 3 0 0
+Stats    4 600 28 0 0
+Rarity   2
+Affect   2 3
+Affect   1 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11906
+Keywords thredd steel dashed gloves hands armor~
+Type     armor~
+Short    Thredd's Steel-Dashed Gloves~
+Long     Heavily reinforced leather gloves with steel plating.~
+WFlags   take hands~
+Values   12 0 0 0 0 0
+Stats    2 750 29 0 0
+Rarity   2
+Affect   1 3
+Affect   5 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11907
+Keywords heavy stockade key~
+Type     key~
+Short    the Heavy Stockade Key~
+Long     A large, rusted iron key used to unlock the cell blocks.~
+WFlags   take~
+Values   11907 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11908
+Keywords hamhock key~
+Type     key~
+Short    Hamhock's Key~
+Long     A crude key fashioned from bone and copper wire.~
+WFlags   take~
+Values   11908 0 0 0 0 0
+Stats    1 0 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11909
+Keywords defias rapier sword weapon~
+Type     weapon~
+Short    a Defias Rapier~
+Long     A slender, needle-like sword used by Brotherhood rogues.~
+WFlags   take wield~
+Values   12 3 7 11 0 0
+Stats    3 200 25 0 0
+Rarity   1
+Affect   2 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11910
+Keywords stolen stormwind shield~
+Type     armor~
+Short    a Stolen Stormwind Shield~
+Long     A heavy wooden shield painted with a defaced lion crest.~
+WFlags   take shield~
+Values   15 0 0 0 0 0
+Stats    10 300 25 0 0
+Rarity   1
+Affect   5 3
+#ENDOBJECT
+
+#OBJECT
+Vnum     11911
+Keywords prisoner tunic chest armor~
+Type     armor~
+Short    a prisoner's tunic~
+Long     A coarse, orange-stained linen tunic lies in a heap.~
+WFlags   take body~
+Values   4 0 0 0 0 0
+Stats    2 5 22 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11912
+Keywords shuffling boots feet armor~
+Type     armor~
+Short    a pair of shuffling boots~
+Long     Worn leather boots with thin soles.~
+WFlags   take feet~
+Values   3 0 0 0 0 0
+Stats    2 5 22 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11913
+Keywords moldy hardtack food~
+Type     food~
+Short    a piece of moldy hardtack~
+Long     A rock-hard biscuit covered in blue-green fuzz.~
+WFlags   take~
+Values   10 0 0 0 0 0
+Stats    1 1 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11914
+Keywords dirty bandage salve~
+Type     salve~
+Short    a dirty bandage~
+Long     A strip of linen that might still be useful for a wound.~
+WFlags   take~
+Values   20 1 1 0 0 0
+Stats    1 10 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11915
+Keywords dark iron scraps treasure~
+Type     treasure~
+Short    some Dark Iron scraps~
+Long     A pile of blackened, heat-scarred metal fragments.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    3 100 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11916
+Keywords targorr bone mace weapon~
+Type     weapon~
+Short    Targorr's Bone~
+Long     A massive femur that has been used as a crude club.~
+WFlags   take wield~
+Values   12 4 7 8 0 0
+Stats    6 150 26 0 0
+Rarity   1
+Affect   1 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11917
+Keywords defias sash waist armor~
+Type     armor~
+Short    a Defias Sash~
+Long     A crimson silk sash worn by higher-ranking Brotherhood members.~
+WFlags   take waist~
+Values   4 0 0 0 0 0
+Stats    1 180 25 0 0
+Rarity   1
+Affect   2 2
+Affect   3 1
+#ENDOBJECT
+
+#OBJECT
+Vnum     11918
+Keywords stockade pauldrons shoulder armor~
+Type     armor~
+Short    Stockade Pauldrons~
+Long     Heavy iron pauldrons stripped from a prison guard.~
+WFlags   take body~
+Values   10 0 0 0 0 0
+Stats    8 250 25 0 0
+Rarity   1
+Affect   5 2
+#ENDOBJECT
+
+#OBJECT
+Vnum     11919
+Keywords iron shackle treasure~
+Type     treasure~
+Short    a heavy iron shackle~
+Long     A broken set of manacles lies on the floor.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    4 20 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#OBJECT
+Vnum     11920
+Keywords jailer mug treasure~
+Type     treasure~
+Short    a dented jailer's mug~
+Long     A heavy pewter mug with several deep dents.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    2 15 1 0 0
+Rarity   0
+#ENDOBJECT
+
+#ROOM
+Vnum     11900
+Name     &WThe Stockade Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is heavy with the scent of damp stone and unwashed bodies.
+Iron bars line the walls, and the sound of distant shouting and clashing
+metal echoes from the halls ahead. This high-security prison was once 
+under the control of Stormwind's finest, but the red bandanas tied to 
+the torches suggest a new power has taken over.
+~
+#EXIT
+Direction out~
+ToRoom    11046
+Desc      The path back to the city canals.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11901
+Desc      The main hallway leading deeper into the prison.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11901
+Name     &WMain Hallway - Entry South&d~
+Sector   inside~
+Flags    indoors~
+Desc     The hallway is dimly lit by flickering torches. Debris from the recent
+riot is scattered across the floor—broken benches, torn ledgers, and
+discarded shackles. To the north, the hallway opens into a large
+central hub.
+~
+#EXIT
+Direction south~
+ToRoom    11900
+Desc      The prison entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11902
+Desc      The hallway continues north.~
+#ENDEXIT
+Reset M 0 11900 10 11901
+#ENDROOM
+
+#ROOM
+Vnum     11902
+Name     &WMain Hallway - Entry North&d~
+Sector   inside~
+Flags    indoors~
+Desc     The shouting grows louder here. Footprints in the dust indicate heavy
+traffic moving between the wings. The stone walls are scarred by 
+blade marks and scorch signs from magical fire.
+~
+#EXIT
+Direction south~
+ToRoom    11901
+Desc      The hallway leads back to the entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11903
+Desc      The central hub of the prison.~
+#ENDEXIT
+Reset M 0 11901 10 11902
+#ENDROOM
+
+#ROOM
+Vnum     11903
+Name     &WThe Stockade Central Hub&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large, circular chamber serves as the intersection for the three
+main wings of the Stockade. To the west lies the block controlled by
+the orcish prisoners. To the north, the main block where the rioters
+hold the most ground. To the east, the wing occupied by the Dark
+Iron saboteurs and the most dangerous criminals.
+~
+#EXIT
+Direction south~
+ToRoom    11902
+Desc      The entry hallway.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11904
+Desc      The entrance to the Left Wing.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11916
+Desc      The entrance to the Middle Wing.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11928
+Desc      The entrance to the Right Wing.~
+#ENDEXIT
+Reset M 0 11902 10 11903
+Reset M 0 11903 10 11903
+#ENDROOM
+
+#ROOM
+Vnum     11904
+Name     &RLeft Wing - West Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is noticeably warmer. Rough orcish symbols have been
+scrawled on the walls in blood. This wing is a maze of cells 
+repurposed into a war camp.
+~
+#EXIT
+Direction east~
+ToRoom    11903
+Desc      The central hub.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11905
+Desc      The corridor continues west.~
+#ENDEXIT
+Reset M 0 11901 10 11904
+#ENDROOM
+
+#ROOM
+Vnum     11905
+Name     &RLeft Wing - Guard Post&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small area where guards once monitored the cells. It is now a
+mess of overturned tables and smashed lanterns.
+~
+#EXIT
+Direction east~
+ToRoom    11904
+Desc      The corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11906
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11907
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11908
+Desc      The deep left corridor.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11906
+Name     &RLeft Wing - Cell Block A&d~
+Sector   inside~
+Flags    indoors~
+Desc     Small iron-barred cells line this room. Most of the doors have been
+wrenched off their hinges, allowing the inmates to roam free.
+~
+#EXIT
+Direction south~
+ToRoom    11905
+Desc      The guard post.~
+#ENDEXIT
+Reset M 0 11900 10 11906
+#ENDROOM
+
+#ROOM
+Vnum     11907
+Name     &RLeft Wing - Cell Block B&d~
+Sector   inside~
+Flags    indoors~
+Desc     Piles of moldy straw serve as beds in these cramped quarters. The
+stench of rot and sweat is overpowering.
+~
+#EXIT
+Direction north~
+ToRoom    11905
+Desc      The guard post.~
+#ENDEXIT
+Reset M 0 11901 10 11907
+#ENDROOM
+
+#ROOM
+Vnum     11908
+Name     &RLeft Wing - Deep Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The path narrows as it descends slightly deeper. The sound of orcish
+chanting can be heard from the end of the hall.
+~
+#EXIT
+Direction east~
+ToRoom    11905
+Desc      The guard post.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11909
+Desc      The corridor continues.~
+#ENDEXIT
+Reset M 0 11903 10 11908
+#ENDROOM
+
+#ROOM
+Vnum     11909
+Name     &RLeft Wing - Intersection&d~
+Sector   inside~
+Flags    indoors~
+Desc     A three-way fork in the western wing. To the north and south are 
+more cells, while the path west leads to a larger chamber.
+~
+#EXIT
+Direction east~
+ToRoom    11908
+Desc      The deep corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11910
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11911
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11912
+Desc      The end of the corridor.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11910
+Name     &RLeft Wing - Cell Block C&d~
+Sector   inside~
+Flags    indoors~
+Desc     Empty chains hang from the ceiling. It looks like the prisoners
+here were moved elsewhere recently.
+~
+#EXIT
+Direction south~
+ToRoom    11909
+Desc      The intersection.~
+#ENDEXIT
+Reset M 0 11900 10 11910
+#ENDROOM
+
+#ROOM
+Vnum     11911
+Name     &RLeft Wing - Cell Block D&d~
+Sector   inside~
+Flags    indoors~
+Desc     The floor is stained with old blood. A few desperate inmates huddle
+in the corners, clutching makeshift shivs.
+~
+#EXIT
+Direction north~
+ToRoom    11909
+Desc      The intersection.~
+#ENDEXIT
+Reset M 0 11902 10 11911
+#ENDROOM
+
+#ROOM
+Vnum     11912
+Name     &RLeft Wing - Preparation Area&d~
+Sector   inside~
+Flags    indoors~
+Desc     Crates of stolen supplies are stacked here. Bandages, dried meat,
+and crude weapons are being organized for a breakout.
+~
+#EXIT
+Direction east~
+ToRoom    11909
+Desc      The intersection.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11913
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11914
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11915
+Desc      Targorr's Chamber.~
+#ENDEXIT
+Reset M 0 11903 10 11912
+#ENDROOM
+
+#ROOM
+Vnum     11913
+Name     &RLeft Wing - Cell Block E&d~
+Sector   inside~
+Flags    indoors~
+Desc     These cells are surprisingly clean compared to the rest of the 
+dungeon, likely reserved for higher-ranking rioters.
+~
+#EXIT
+Direction south~
+ToRoom    11912
+Desc      The preparation area.~
+#ENDEXIT
+Reset M 0 11901 10 11913
+#ENDROOM
+
+#ROOM
+Vnum     11914
+Name     &RLeft Wing - Cell Block F&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air is thick with smoke from a small brazier in the corner.
+~
+#EXIT
+Direction north~
+ToRoom    11912
+Desc      The preparation area.~
+#ENDEXIT
+Reset M 0 11902 10 11914
+#ENDROOM
+
+#ROOM
+Vnum     11915
+Name     &RTargorr's Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     This large room was once the warden's western office. It has been
+converted into a throne room of sorts for Targorr the Dread. 
+Skulls are mounted on the walls, and the floor is covered in
+thick animal furs.
+~
+#EXIT
+Direction east~
+ToRoom    11912
+Desc      The preparation area.~
+#ENDEXIT
+Reset M 0 11905 1 11915
+  Reset E 1 11916 1 16
+  Reset G 1 11918 10
+#ENDROOM
+
+#ROOM
+Vnum     11916
+Name     &GMiddle Wing - North Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The primary artery of the prison. The Defias Brotherhood has 
+fortified this hall with barricades made of heavy furniture.
+~
+#EXIT
+Direction south~
+ToRoom    11903
+Desc      The central hub.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11917
+Desc      The corridor continues north.~
+#ENDEXIT
+Reset M 0 11903 10 11916
+#ENDROOM
+
+#ROOM
+Vnum     11917
+Name     &GMiddle Wing - Barricade Pass&d~
+Sector   inside~
+Flags    indoors~
+Desc     You have to squeeze past piles of broken masonry and wooden beams.
+The sound of snoring—massive, rhythmic snoring—echoes from the 
+north.
+~
+#EXIT
+Direction south~
+ToRoom    11916
+Desc      The corridor entrance.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11918
+Desc      A central intersection.~
+#ENDEXIT
+Reset M 0 11901 10 11917
+#ENDROOM
+
+#ROOM
+Vnum     11918
+Name     &GMiddle Wing - Central Intersection&d~
+Sector   inside~
+Flags    indoors~
+Desc     The largest intersection in the north wing. Paths lead off to
+various cell blocks where the heart of the riot is contained.
+~
+#EXIT
+Direction south~
+ToRoom    11917
+Desc      The barricade pass.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11919
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11920
+Desc      A small cell block.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11921
+Desc      The deep north corridor.~
+#ENDEXIT
+Reset M 0 11902 10 11918
+#ENDROOM
+
+#ROOM
+Vnum     11919
+Name     &GMiddle Wing - Cell Block G&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows of iron beds line the walls. Convicts use this area as a 
+barracks between patrols.
+~
+#EXIT
+Direction east~
+ToRoom    11918
+Desc      The intersection.~
+#ENDEXIT
+Reset M 0 11900 10 11919
+#ENDROOM
+
+#ROOM
+Vnum     11920
+Name     &GMiddle Wing - Cell Block H&d~
+Sector   inside~
+Flags    indoors~
+Desc     The walls here are covered in Defias propaganda, painted in 
+crude red strokes.
+~
+#EXIT
+Direction west~
+ToRoom    11918
+Desc      The intersection.~
+#ENDEXIT
+Reset M 0 11903 10 11920
+#ENDROOM
+
+#ROOM
+Vnum     11921
+Name     &GMiddle Wing - Deep North Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air is freezing here. The stone walls are slick with moisture.
+To the west and east are the high-security cells.
+~
+#EXIT
+Direction south~
+ToRoom    11918
+Desc      The intersection.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11922
+Desc      A high-security cell.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11923
+Desc      A high-security cell.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11924
+Desc      The enforcer's hallway.~
+#ENDEXIT
+Reset M 0 11901 10 11921
+#ENDROOM
+
+#ROOM
+Vnum     11922
+Name     &GMiddle Wing - High Security Cell A&d~
+Sector   inside~
+Flags    indoors~
+Desc     The door to this cell is solid iron with only a small slot for 
+food. It has been hammered open from the inside.
+~
+#EXIT
+Direction east~
+ToRoom    11921
+Desc      The deep corridor.~
+#ENDEXIT
+Reset M 0 11902 10 11922
+#ENDROOM
+
+#ROOM
+Vnum     11923
+Name     &GMiddle Wing - High Security Cell B&d~
+Sector   inside~
+Flags    indoors~
+Desc     Strange arcane runes are etched into the floor, a remnant of the
+mages who once helped guard the prisoners here.
+~
+#EXIT
+Direction west~
+ToRoom    11921
+Desc      The deep corridor.~
+#ENDEXIT
+Reset M 0 11900 10 11923
+#ENDROOM
+
+#ROOM
+Vnum     11924
+Name     &GThe Enforcer's Hallway&d~
+Sector   inside~
+Flags    indoors~
+Desc     This hallway is wide enough for two ogres to walk abreast. Heavy 
+thuds vibrate through the floor with every passing second.
+~
+#EXIT
+Direction south~
+ToRoom    11921
+Desc      The deep corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11925
+Desc      Hamhock's Post.~
+#ENDEXIT
+Reset M 0 11903 10 11924
+#ENDROOM
+
+#ROOM
+Vnum     11925
+Name     &GHamhock's Post&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive pile of chewed bones sits in the center of the room. 
+This is where the enforcer Hamhock keeps watch over the entrance
+to the leader's chambers.
+~
+#EXIT
+Direction south~
+ToRoom    11924
+Desc      The enforcer's hallway.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11926
+Desc      A heavy iron gate.~
+#ENDEXIT
+Reset M 0 11907 1 11925
+  Reset E 1 11904 1 16
+  Reset G 1 11907 1
+#ENDROOM
+
+#ROOM
+Vnum     11926
+Name     &GThe Iron Gate&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive iron gate blocks the way. It requires a specific key to
+pass, or a great deal of force to bypass.
+~
+#EXIT
+Direction south~
+ToRoom    11925
+Desc      Hamhock's Post.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11927
+Desc      Bazil Thredd's Cell.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum     11927
+Name     &GBazil Thredd's Cell&d~
+Sector   inside~
+Flags    indoors~
+Desc     This is the most secure cell in the Stockade, now turned into a
+command center. Maps of Stormwind are pinned to the walls, and 
+Bazil Thredd stands at a central table, planning the next phase
+of the Defias uprising.
+~
+#EXIT
+Direction south~
+ToRoom    11926
+Desc      The iron gate.~
+#ENDEXIT
+Reset M 0 11909 1 11927
+  Reset E 1 11906 1 9
+  Reset G 1 11902 10
+  Reset G 1 11917 10
+#ENDROOM
+
+#ROOM
+Vnum     11928
+Name     &CEast Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air smells of sulfur and coal. Small black stains on the 
+floor suggest the presence of Dark Iron dwarves.
+~
+#EXIT
+Direction west~
+ToRoom    11903
+Desc      The central hub.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11929
+Desc      The corridor continues east.~
+#ENDEXIT
+Reset M 0 11901 10 11928
+#ENDROOM
+
+#ROOM
+Vnum     11929
+Name     &CSmuggler's Run&d~
+Sector   inside~
+Flags    indoors~
+Desc     The inmates in this wing are the most organized. Stolen goods are
+neatly crated and ready for transport out of the prison.
+~
+#EXIT
+Direction west~
+ToRoom    11928
+Desc      The corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11930
+Desc      The saboteur's block.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11935
+Desc      The mastermind's block.~
+#ENDEXIT
+Reset M 0 11902 10 11929
+#ENDROOM
+
+#ROOM
+Vnum     11930
+Name     &CSaboteur's Block - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The temperature rises as you move north. The sound of hammers 
+striking metal rings out from the cells.
+~
+#EXIT
+Direction south~
+ToRoom    11929
+Desc      The east corridor.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11931
+Desc      The block corridor.~
+#ENDEXIT
+Reset M 0 11904 10 11930
+#ENDROOM
+
+#ROOM
+Vnum     11931
+Name     &CSaboteur's Block - Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     Black soot covers every surface. The Dark Iron dwarves have set up
+makeshift forges in the cells here.
+~
+#EXIT
+Direction south~
+ToRoom    11930
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11932
+Desc      A forge cell.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11933
+Desc      A forge cell.~
+#ENDEXIT
+#EXIT
+Direction north~
+ToRoom    11934
+Desc      Kam Deepfury's Cell.~
+#ENDEXIT
+Reset M 0 11904 10 11931
+#ENDROOM
+
+#ROOM
+Vnum     11932
+Name     &CSaboteur's Block - Cell I&d~
+Sector   inside~
+Flags    indoors~
+Desc     The cell is filled with smoke. A small anvil sits on a stump in
+the center.
+~
+#EXIT
+Direction east~
+ToRoom    11931
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 11904 10 11932
+#ENDROOM
+
+#ROOM
+Vnum     11933
+Name     &CSaboteur's Block - Cell J&d~
+Sector   inside~
+Flags    indoors~
+Desc     Piles of scrap metal and half-finished explosives are scattered
+everywhere.
+~
+#EXIT
+Direction west~
+ToRoom    11931
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 11904 10 11933
+#ENDROOM
+
+#ROOM
+Vnum     11934
+Name     &CKam Deepfury's Cell&d~
+Sector   inside~
+Flags    indoors~
+Desc     Kam Deepfury has turned his cell into a miniature fortress. Dark
+Iron banners hang from the bars, and the air is thick with the 
+smell of dark magic and hot iron.
+~
+#EXIT
+Direction south~
+ToRoom    11931
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 11906 1 11934
+  Reset E 1 11903 1 16
+  Reset G 1 11915 10
+#ENDROOM
+
+#ROOM
+Vnum     11935
+Name     &CMastermind's Block - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The atmosphere here is different—quieter and more predatory. The
+prisoners here are not common thugs, but calculated killers.
+~
+#EXIT
+Direction north~
+ToRoom    11929
+Desc      The east corridor.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11936
+Desc      The block corridor.~
+#ENDEXIT
+Reset M 0 11902 10 11935
+#ENDROOM
+
+#ROOM
+Vnum     11936
+Name     &CMastermind's Block - Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The shadows seem deeper here. You have the distinct feeling of 
+being watched from every dark corner.
+~
+#EXIT
+Direction north~
+ToRoom    11935
+Desc      The entrance.~
+#ENDEXIT
+#EXIT
+Direction west~
+ToRoom    11937
+Desc      A silent cell.~
+#ENDEXIT
+#EXIT
+Direction east~
+ToRoom    11938
+Desc      A silent cell.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11939
+Desc      The deep south corridor.~
+#ENDEXIT
+Reset M 0 11903 10 11936
+#ENDROOM
+
+#ROOM
+Vnum     11937
+Name     &CMastermind's Block - Cell K&d~
+Sector   inside~
+Flags    indoors~
+Desc     A single prisoner sits in the center of the room, sharpening a 
+blade with rhythmic, terrifying precision.
+~
+#EXIT
+Direction east~
+ToRoom    11936
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 11901 10 11937
+#ENDROOM
+
+#ROOM
+Vnum     11938
+Name     &CMastermind's Block - Cell L&d~
+Sector   inside~
+Flags    indoors~
+Desc     The cell is empty, but the lock has been expertly picked.
+~
+#EXIT
+Direction west~
+ToRoom    11936
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 11902 10 11938
+#ENDROOM
+
+#ROOM
+Vnum     11939
+Name     &CMastermind's Block - Deep South Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     The end of the eastern wing. A single, heavy door leads to the 
+final room in this block.
+~
+#EXIT
+Direction north~
+ToRoom    11936
+Desc      The corridor.~
+#ENDEXIT
+#EXIT
+Direction south~
+ToRoom    11940
+Desc      Dextren Ward's Cell.~
+#ENDEXIT
+Reset M 0 11903 10 11939
+#ENDROOM
+
+#ROOM
+Vnum     11940
+Name     &CDextren Ward's Cell&d~
+Sector   inside~
+Flags    indoors~
+Desc     Dextren Ward's cell is surprisingly well-furnished with stolen
+guard chairs and a small rug. He stands near the back wall, 
+spinning a blade and waiting for the next challenger.
+~
+#EXIT
+Direction north~
+ToRoom    11939
+Desc      The corridor.~
+#ENDEXIT
+Reset M 0 11908 1 11940
+  Reset E 1 11905 1 16
+  Reset G 1 11909 10
+#ENDROOM
+
+#ENDAREA
