@@ -3,6 +3,7 @@
 Version      1
 Name         Limbo~
 Author       RoD~
+Type         0
 WeatherX     0
 WeatherY     0
 Ranges       0 60 0 60
@@ -19,21 +20,19 @@ Short      Puff~
 Long       Puff the Fractal Dragon is here, contemplating a higher reality.
 ~
 Race       dragon~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
 Specfun    spec_breath_gas~
-Gender     female~
+Gender     Female~
 Actflags   npc sentinel~
 Affected   detect_invis detect_hidden sanctuary infrared protect truesight~
 Stats1     1000 50 20 -30 10000 1000
 Stats2     5 10 30550
 Stats3     4 10 200
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common elvish orcish trollese insectoid spiritual magical clan gnomish~
-Speaking   common elvish orcish trollese insectoid spiritual magical clan gnomish~
 Immune     sleep charm nonmagic magic paralysis~
 Attacks    claws~
 Defenses   parry dodge~
@@ -62,21 +61,19 @@ Long       A demon imp hovers nearby...drooling constantly with a fiendish grin.
 Desc       This demon is clearly something that you don't want to mess with...
 It appears to be very agile, and very strong.  
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc sentinel~
 Affected   detect_invis detect_hidden~
 Stats1     -1000 50 1 -300 10000 155000
 Stats2     5 10 31550
 Stats3     1 2 2
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #MUDPROG
 Progtype  act_prog~
 Arglist   p disappears in a column of divine power.~
@@ -203,21 +200,19 @@ Long       The supermob is here.  He looks busy as hell.
 ~
 Desc       How clever he looks!
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc polyself secretive mobinvis prototype~
 Affected   invisible detect_invis detect_hidden hide truesight~
 Stats1     -1000 56 1 -300 10000 155000
 Stats2     5 10 31550
 Stats3     1 2 2
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 25
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Immune     blunt pierce slash sleep charm nonmagic paralysis~
 Defenses   parry dodge~
 #MUDPROG
@@ -244,20 +239,18 @@ his boots weathered, yet his eyes possess the light of youth.  He
 goes throughout the world now always wandering, never tarrying.
 ~
 Race       god~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc scavenger~
 Affected   detect_invis detect_hidden sanctuary infrared protect truesight~
 Stats1     600 50 0 -200 150000 0
 Stats2     100 50 3500
 Stats3     4 10 14
 Stats4     0 0 0 0 0
-Attribs    25 20 20 18 17 13 25
+Stats       25 18 17 20 20
 Saves      0 0 0 0 0
-Speaks     common halfling~
-Speaking   common halfling~
 Resist     pierce slash~
 Immune     fire cold electricity sleep charm paralysis~
 Suscept    blunt~
@@ -321,20 +314,18 @@ powerful energies of its master.  It exists on the precipice between life
 and unlife, even as its physical body rots and decays under the strain of
 its tasks.
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc~
 Stats1     0 1 0 0 0 0
 Stats2     10 0 2
 Stats3     0 0 0
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Bodyparts  head arms legs~
 Defenses   dodge~
 #ENDMOBILE
@@ -350,20 +341,18 @@ fangs and its sharp claws.  The wolf's eyes are small, black and have
 the aura of a deadly intent.  Its raggedy coat tells of a recent battle         
 with something.
 ~
-Race       vampire~
-Class      vampire~
+Race       Vampire~
+Class      Vampire~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 2 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Attacks    bite claws~
 #ENDMOBILE
 
@@ -378,20 +367,18 @@ mist swirls around you and then quickly disappears before you can blink.  You
 suddenly find yourself overcome with an unknown power.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Affected   sneak floating~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 2 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Attacks    blindness curse~
 #ENDMOBILE
 
@@ -406,20 +393,18 @@ eyes that stare at your jugular vein.  This little black bat has the
 intentions of drinking your blood until there is none left in your body.
 ~
 Race       bat~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Affected   flying~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 2 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Attacks    bite claws~
 #ENDMOBILE
 
@@ -435,20 +420,18 @@ and open its beak to scream its intent.  Its long beak open and before you
 know what has happened, it comes flying towards you.
 ~
 Race       avis~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Affected   flying~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 2 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Attacks    claws~
 #ENDMOBILE
 
@@ -463,20 +446,18 @@ across your path, bringing you several years of bad luck.  Its tail moves
 slowly to tell you that it is laughing at your misfortune.
 ~
 Race       cat~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Affected   detect_invis~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 2 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Attacks    bite claws~
 #ENDMOBILE
 
@@ -492,20 +473,18 @@ from the small breast that rises and falls with every chorus it sings.  You
 are at peace as you listen to this lovable creature.
 ~
 Race       avis~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Affected   flying~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 1 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Attacks    claws~
 #ENDMOBILE
 
@@ -521,20 +500,18 @@ tiny eyes, move with every breath.  It blows several large bubbles as it
 quickly swims past you.
 ~
 Race       fish~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Affected   aqua_breath~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 1 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -546,19 +523,17 @@ Long       The daunting and powerful avatar of %s occupies the ground here.
 Desc       The avatar of %s appears calm and cool, ready for whatever might come.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc sentinel noassist~
 Stats1     0 1 0 0 0 0
 Stats2     5 5 25
 Stats3     5 5 26
 Stats4     0 0 0 20 0
-Attribs    25 25 25 25 25 25 25
+Stats       25 25 25 25 25
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Bodyparts  head arms legs heart brains guts hands feet fingers ear eye~
 Immune     sleep~
 #MUDPROG
@@ -595,20 +570,18 @@ Short      Jules~
 Long       The executive of the Chateau stands here, looking very pompous.
 ~
 Race       neanderthal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea immortal noassist pacifist~
 Affected   detect_evil detect_invis detect_magic detect_hidden sanctuary~
 Stats1     0 50 0 -300 0 0
 Stats2     1 1 30000
 Stats3     50 100 50
 Stats4     0 0 5 60 60
-Attribs    25 25 25 25 25 25 25
+Stats       25 25 25 25 25
 Saves      -30 -30 -30 -30 -30
-Speaks     common elvish dwarven~
-Speaking   elvish dwarven~
 Immune     sleep charm paralysis~
 Defenses   parry dodge~
 #MUDPROG
@@ -663,21 +636,19 @@ Keywords   chateau pierre waiter~
 Short      Pierre~
 Long       A Chateau waiter stands here, looking very preoccupied.
 ~
-Race       halfling~
-Class      warrior~
+Race       Halfling~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea immortal noassist pacifist~
 Affected   detect_evil detect_invis detect_magic detect_hidden sanctuary infrared floating~
 Stats1     0 50 0 -300 0 0
 Stats2     1 1 30000
 Stats3     50 100 50
 Stats4     0 0 5 60 60
-Attribs    25 25 25 25 25 25 25
+Stats       25 25 25 25 25
 Saves      -30 -30 -30 -30 -30
-Speaks     common halfling~
-Speaking   halfling~
 Immune     sleep charm paralysis~
 Defenses   parry dodge~
 #MUDPROG
@@ -728,21 +699,19 @@ Keywords   albatross~
 Short      An Albatross~
 Long       An Albatross lurkes in the darkness, here.
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc sentinel~
 Affected   detect_invis detect_hidden sanctuary truesight~
 Stats1     0 51 0 0 0 0
 Stats2     500 0 30000
 Stats3     100 0 1000
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #MUDPROG
 Progtype  speech_prog~
 Arglist   p get mail~
@@ -772,20 +741,18 @@ The hair on your arms is raised by its presence alone, and it seems to you
 that he appears too formidable to be a minor minion.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel aggressive~
 Affected   detect_invis detect_hidden~
 Stats1     -1000 25 0 -4 0 105000
 Stats2     1 1 385
 Stats3     4 5 15
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 Bodyparts  head arms legs hands feet ear eye~
 Attacks    drain curse~
 #MUDPROG
@@ -806,20 +773,18 @@ Keywords   Owl Hooters~
 Short      Hooters the Owl~
 Long       An owl with large wide eyes rests on his perch, hooting madly.
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc~
 Stats1     0 1 0 0 0 0
 Stats2     10 10 30000
 Stats3     40 40 1000
 Stats4     0 0 4 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -828,20 +793,18 @@ Keywords   final mob~
 Short      a newly created final mob~
 Long       Some god abandoned a newly created final mob here.
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc prototype~
 Stats1     0 1 0 0 0 0
 Stats2     0 0 0
 Stats3     0 0 0
 Stats4     0 0 0 0 0
-Attribs    13 13 13 13 13 13 13
+Stats       13 13 13 13 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #ENDMOBILE
 
 #OBJECT
@@ -1919,20 +1882,15 @@ Desc     You float in a formless void, detached from all sensation of physical
 matter, surrounded by swirling glowing light which fades into the
 relative darkness around you without any trace of edge or shadow.
 ~
-#EXIT
-Direction north~
-ToRoom    21000
-#ENDEXIT
-
 Reset M 0 1 1 2
 Reset O 0 22 1 2
 Reset O 0 60 1 2
 #MUDPROG
-Progtype  speech_prog~
-Arglist   p return~
-Comlist   if level($n) > 1
-  mptrans $n 21001
-endif
+Progtype  act_prog~
+Arglist   is~
+Comlist   mpmset $n full 50
+mpmset $n thirst 100
+mprestore $n 2
 ~
 #ENDPROG
 
@@ -1946,11 +1904,11 @@ mprestore $n 2
 #ENDPROG
 
 #MUDPROG
-Progtype  act_prog~
-Arglist   is~
-Comlist   mpmset $n full 50
-mpmset $n thirst 100
-mprestore $n 2
+Progtype  speech_prog~
+Arglist   p return~
+Comlist   if level($n) > 1
+  mptrans $n 21001
+endif
 ~
 #ENDPROG
 
@@ -2168,7 +2126,7 @@ Vnum     14
 Name     Mortal Hall of Rules~
 Sector   city~
 Flags    nomob indoors safe noastral teleport teleshowdesc~
-Stats    250 15 0
+Stats    250 15 0 0
 Desc     1) No form of harassment or spamming will be tolerated.  Spamming is
 repeatedly communicating to one or more players a message in a 
 short duration of time.
@@ -2196,7 +2154,7 @@ Vnum     15
 Name     Mortal Hall of Rules~
 Sector   city~
 Flags    nomob indoors safe noastral teleport teleshowdesc~
-Stats    250 21194 0
+Stats    250 21194 0 0
 Desc     6) Player killing is decided the instant you cast any hostile spell or 
 make any aggressive action against a player...actually killing the target
 means little.
@@ -2568,18 +2526,18 @@ ToRoom    36
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2615,18 +2573,18 @@ ToRoom    37
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2656,18 +2614,18 @@ ToRoom    30
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2703,18 +2661,18 @@ ToRoom    37
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2744,18 +2702,18 @@ ToRoom    37
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2791,18 +2749,18 @@ ToRoom    37
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2832,18 +2790,18 @@ ToRoom    36
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2879,18 +2837,18 @@ ToRoom    37
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -2960,12 +2918,11 @@ ToRoom    36
 #ENDEXIT
 
 #MUDPROG
-Progtype  speech_prog~
-Arglist   p return~
-Comlist   if isfight($n)
-else
-  mptrans $n 21001
-endif
+Progtype  death_prog~
+Arglist   100~
+Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
 ~
 #ENDPROG
 
@@ -2977,11 +2934,12 @@ Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves
 #ENDPROG
 
 #MUDPROG
-Progtype  death_prog~
-Arglist   100~
-Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
-mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
-mpechoaround $n Tokens of favor from an appreciative crowd.
+Progtype  speech_prog~
+Arglist   p return~
+Comlist   if isfight($n)
+else
+  mptrans $n 21001
+endif
 ~
 #ENDPROG
 
@@ -3007,18 +2965,18 @@ Flags     climb~
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -3044,18 +3002,18 @@ Flags     climb~
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -3080,18 +3038,18 @@ ToRoom    38
 #ENDEXIT
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   15~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
-~
-#ENDPROG
-
-#MUDPROG
 Progtype  death_prog~
 Arglist   100~
 Comlist   mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   15~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -3152,10 +3110,9 @@ Logs are extremely helpful.
 #ENDEXDESC
 
 #MUDPROG
-Progtype  speech_prog~
-Arglist   p I wish to go~
-Comlist   mptransfer $n 21000
-mpat 21000 mpforce $n look
+Progtype  rand_prog~
+Arglist   20~
+Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
 ~
 #ENDPROG
 
@@ -3179,9 +3136,10 @@ endif
 #ENDPROG
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   20~
-Comlist   mpe A slow chant floats down to you: "Two men enter ... one man leaves."
+Progtype  speech_prog~
+Arglist   p I wish to go~
+Comlist   mptransfer $n 21000
+mpat 21000 mpforce $n look
 ~
 #ENDPROG
 
@@ -3217,6 +3175,19 @@ ToRoom    36
 #ENDEXIT
 
 #MUDPROG
+Progtype  entry_prog~
+Arglist   100~
+Comlist   if isimmort($n)
+or isnpc($n)
+else
+  mpforce $n config -autoloot
+  mpforce $n channel +yell
+  mpechoat $n Do not alter your autoloot configuration until duel is complete.
+endif
+~
+#ENDPROG
+
+#MUDPROG
 Progtype  leave_prog~
 Arglist   100~
 Comlist   if isimmort($n)
@@ -3246,19 +3217,6 @@ else
   if class($n) == cleric
     mpforce $n yell Let the melee begin!
   endif
-endif
-~
-#ENDPROG
-
-#MUDPROG
-Progtype  entry_prog~
-Arglist   100~
-Comlist   if isimmort($n)
-or isnpc($n)
-else
-  mpforce $n config -autoloot
-  mpforce $n channel +yell
-  mpechoat $n Do not alter your autoloot configuration until duel is complete.
 endif
 ~
 #ENDPROG
@@ -3295,6 +3253,19 @@ ToRoom    29
 #ENDEXIT
 
 #MUDPROG
+Progtype  entry_prog~
+Arglist   100~
+Comlist   if isimmort($n)
+or isnpc($n)
+else
+  mpforce $n config -autoloot
+  mpforce $n channel +yell
+  mpechoat $n Do not alter your autoloot configuration until duel is complete.
+endif
+~
+#ENDPROG
+
+#MUDPROG
 Progtype  leave_prog~
 Arglist   100~
 Comlist   if isimmort($n)
@@ -3324,19 +3295,6 @@ else
   if class($n) == cleric
     mpforce $n yell Let the melee begin!
   endif
-endif
-~
-#ENDPROG
-
-#MUDPROG
-Progtype  entry_prog~
-Arglist   100~
-Comlist   if isimmort($n)
-or isnpc($n)
-else
-  mpforce $n config -autoloot
-  mpforce $n channel +yell
-  mpechoat $n Do not alter your autoloot configuration until duel is complete.
 endif
 ~
 #ENDPROG
@@ -3607,29 +3565,12 @@ ExDesc       /:""|                 .****,
 
 #MUDPROG
 Progtype  speech_prog~
-Arglist   p prepare wedding~
+Arglist   p Please be seated.~
 Comlist   if isimmort($n)
-  mpat 21000 mpoload 62
-  mpat 3001 mpoload 62
+  mpforce all sit
+  mpat 3001 mppurge lever
+  mpat 21000 mppurge lever
 endif
-~
-#ENDPROG
-
-#MUDPROG
-Progtype  speech_prog~
-Arglist   p I do~
-Comlist   mpe _whi Songs of rejoice fill the air as the choir lifts its voice in praise.
-~
-#ENDPROG
-
-#MUDPROG
-Progtype  act_prog~
-Arglist   p is dying of thirst!~
-Comlist   mpoload 1699
-mea 0.$n The waiter pours you a glass of water and returns to the back of
-mea 0.$n the cathedral.
-give water 0.$n
-mpforce 0.$n drink water
 ~
 #ENDPROG
 
@@ -3645,12 +3586,29 @@ mpforce 0.$n eat cake
 #ENDPROG
 
 #MUDPROG
+Progtype  act_prog~
+Arglist   p is dying of thirst!~
+Comlist   mpoload 1699
+mea 0.$n The waiter pours you a glass of water and returns to the back of
+mea 0.$n the cathedral.
+give water 0.$n
+mpforce 0.$n drink water
+~
+#ENDPROG
+
+#MUDPROG
 Progtype  speech_prog~
-Arglist   p Please be seated.~
+Arglist   p I do~
+Comlist   mpe _whi Songs of rejoice fill the air as the choir lifts its voice in praise.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p prepare wedding~
 Comlist   if isimmort($n)
-  mpforce all sit
-  mpat 3001 mppurge lever
-  mpat 21000 mppurge lever
+  mpat 21000 mpoload 62
+  mpat 3001 mpoload 62
 endif
 ~
 #ENDPROG
@@ -4079,7 +4037,7 @@ Vnum     70
 Name     An Exquisite Garden~
 Sector   city~
 Flags    tunnel safe nosummon noastral~
-Stats    0 0 2
+Stats    0 0 2 0
 Desc     Standing in a ravishing broad avenue within this garden, it is found to 
 be lined with epicurean emerald trees, shrubbery, and groups of charming 
 sculpture.  Alas, this illustrious locale reminds you of the 
@@ -4106,16 +4064,16 @@ Desc      An extravagant grove awaits two lovers...
 
 Reset O 0 72 1 70
 #MUDPROG
-Progtype  entry_prog~
-Arglist   100~
-Comlist   mea 0.$n _lbl The ballad of chirping birds reverberates throughout your ears...
+Progtype  rand_prog~
+Arglist   70~
+Comlist   mpe _lbl The ballad of chirping birds reverberates throughout your ears...
 ~
 #ENDPROG
 
 #MUDPROG
-Progtype  rand_prog~
-Arglist   70~
-Comlist   mpe _lbl The ballad of chirping birds reverberates throughout your ears...
+Progtype  entry_prog~
+Arglist   100~
+Comlist   mea 0.$n _lbl The ballad of chirping birds reverberates throughout your ears...
 ~
 #ENDPROG
 
@@ -4126,7 +4084,7 @@ Vnum     71
 Name     An Exalted Grove~
 Sector   hills~
 Flags    tunnel safe nosummon noastral~
-Stats    0 0 2
+Stats    0 0 2 0
 Desc     You sit in an attractive, but private grove, the renowned garden off in 
 the distant background.  Intricate and flamboyant furnishings of 
 dazzling white marble encircle the grove, while love's innocent laughter 
@@ -4148,7 +4106,7 @@ Vnum     72
 Name     Chateau L'amour~
 Sector   inside~
 Flags    indoors tunnel safe nosummon noastral~
-Stats    0 0 2
+Stats    0 0 2 0
 Desc     You stand in the lobby of the famed and renowned Chateau Lamour, the 
 prime candidate for a honeymoon escapade.  Several effulgent gold-plated 
 dais layer on top of each other until finally reaching the dark chestnut 
@@ -4180,7 +4138,7 @@ Vnum     73
 Name     The Chateau "Cabaret" ~
 Sector   inside~
 Flags    indoors tunnel safe nosummon noastral~
-Stats    0 0 2
+Stats    0 0 2 0
 Desc     This room is dimly lit, with an atmosphere full of passion and 
 merriment.  The musical interlude filling your ears brings enchantment 
 and rapture, as this is the perfect diner to eat with one you take 
@@ -4209,7 +4167,7 @@ Vnum     74
 Name     The L'amour Suite~
 Sector   inside~
 Flags    nomob indoors tunnel safe nosummon noastral~
-Stats    0 0 2
+Stats    0 0 2 0
 Desc     Ethereal furnishings and luxuriant carpets astound you upon entering 
 this entourage, giving a very fervent and passionate sensation.  The 
 primary component being the abundant intricately designed heart-shaped 
@@ -4220,15 +4178,6 @@ jacuzzi brings ecstasy to your senses, as this whole room is perfect
 for.....discussing your financial terms.
 ~
 Reset O 0 75 1 74
-#MUDPROG
-Progtype  speech_prog~
-Arglist   return~
-Comlist   if ispc($n)
-mptrans $n 21001
-endif
-~
-#ENDPROG
-
 #MUDPROG
 Progtype  entry_prog~
 Arglist   100~
@@ -4245,6 +4194,15 @@ mpoload 74
 mpat 74 drop boxers
 mpforce $n get boxers
 mpforce $n wear boxers
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   return~
+Comlist   if ispc($n)
+mptrans $n 21001
 endif
 ~
 #ENDPROG

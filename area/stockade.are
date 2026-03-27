@@ -271,6 +271,7 @@ Speaking   common~
 Vnum     11900
 Keywords red wool bandana head~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a red wool bandana~
 Long     A dusty red wool bandana, the mark of the Defias, lies here.~
 WFlags   take head~
@@ -284,6 +285,7 @@ ItemSet  1
 Vnum     11901
 Keywords prison shank sword weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a sharpened prison shank~
 Long     A piece of jagged iron with a cloth-wrapped handle rests here.~
 WFlags   take wield~
@@ -296,6 +298,7 @@ Rarity   0
 Vnum     11902
 Keywords defias iron ring finger rune~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Defias Iron Ring~
 Long     A crude iron ring stamped with a gear symbol lies in the dirt.~
 WFlags   take finger~
@@ -309,6 +312,7 @@ Affect -1 -1 1 1 0
 Vnum     11903
 Keywords kam walking stick staff weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Kam's Walking Stick~
 Long     A polished dark-iron tipped wooden staff hums with faint magic.~
 WFlags   take wield~
@@ -322,6 +326,7 @@ Affect -1 -1 2 3 0
 Vnum     11904
 Keywords butcher cleaver axe weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Butcher's Cleaver~
 Long     A massive, blood-stained meat cleaver used for grim purposes.~
 WFlags   take wield~
@@ -335,6 +340,7 @@ Affect -1 -1 4 1 0
 Vnum     11905
 Keywords ward stolen blade shortsword weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Ward's Stolen Blade~
 Long     A finely balanced Stormwind guard sword lies here.~
 WFlags   take wield~
@@ -348,6 +354,7 @@ Affect -1 -1 3 2 0
 Vnum     11906
 Keywords thredd steel dashed gloves hands armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    Thredd's Steel-Dashed Gloves~
 Long     Heavily reinforced leather gloves with steel plating.~
 WFlags   take hands~
@@ -361,6 +368,7 @@ Affect -1 -1 3 1 0
 Vnum     11907
 Keywords heavy stockade key~
 Type     key~
+Continent    Eastern Kingdoms~
 Short    the Heavy Stockade Key~
 Long     A large, rusted iron key used to unlock the cell blocks.~
 WFlags   take~
@@ -373,6 +381,7 @@ Rarity   0
 Vnum     11908
 Keywords hamhock key~
 Type     key~
+Continent    Eastern Kingdoms~
 Short    Hamhock's Key~
 Long     A crude key fashioned from bone and copper wire.~
 WFlags   take~
@@ -385,6 +394,7 @@ Rarity   0
 Vnum     11909
 Keywords defias rapier sword weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Defias Rapier~
 Long     A slender, needle-like sword used by Brotherhood rogues.~
 WFlags   take wield~
@@ -398,6 +408,7 @@ Affect -1 -1 2 2 0
 Vnum     11910
 Keywords stolen stormwind shield~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Stolen Stormwind Shield~
 Long     A heavy wooden shield painted with a defaced lion crest.~
 WFlags   take shield~
@@ -411,6 +422,7 @@ Affect -1 -1 3 5 0
 Vnum     11911
 Keywords prisoner tunic chest armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a prisoner's tunic~
 Long     A coarse, orange-stained linen tunic lies in a heap.~
 WFlags   take body~
@@ -423,6 +435,7 @@ Rarity   0
 Vnum     11912
 Keywords shuffling boots feet armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of shuffling boots~
 Long     Worn leather boots with thin soles.~
 WFlags   take feet~
@@ -435,6 +448,7 @@ Rarity   0
 Vnum     11913
 Keywords moldy hardtack food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a piece of moldy hardtack~
 Long     A rock-hard biscuit covered in blue-green fuzz.~
 WFlags   take~
@@ -447,6 +461,7 @@ Rarity   0
 Vnum     11914
 Keywords dirty bandage salve~
 Type     salve~
+Continent    Eastern Kingdoms~
 Short    a dirty bandage~
 Long     A strip of linen that might still be useful for a wound.~
 WFlags   take~
@@ -459,6 +474,7 @@ Rarity   0
 Vnum     11915
 Keywords dark iron scraps treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    some Dark Iron scraps~
 Long     A pile of blackened, heat-scarred metal fragments.~
 WFlags   take~
@@ -471,6 +487,7 @@ Rarity   0
 Vnum     11916
 Keywords targorr bone mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Targorr's Bone~
 Long     A massive femur that has been used as a crude club.~
 WFlags   take wield~
@@ -484,6 +501,7 @@ Affect -1 -1 2 1 0
 Vnum     11917
 Keywords defias sash waist armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Defias Sash~
 Long     A crimson silk sash worn by higher-ranking Brotherhood members.~
 WFlags   take waist~
@@ -497,6 +515,7 @@ Affect -1 -1 2 2 0
 Vnum     11918
 Keywords stockade pauldrons shoulder armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    Stockade Pauldrons~
 Long     Heavy iron pauldrons stripped from a prison guard.~
 WFlags   take body~
@@ -510,6 +529,7 @@ Affect -1 -1 2 5 0
 Vnum     11919
 Keywords iron shackle treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a heavy iron shackle~
 Long     A broken set of manacles lies on the floor.~
 WFlags   take~
@@ -522,6 +542,7 @@ Rarity   0
 Vnum     11920
 Keywords jailer mug treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a dented jailer's mug~
 Long     A heavy pewter mug with several deep dents.~
 WFlags   take~

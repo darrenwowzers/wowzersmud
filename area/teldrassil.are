@@ -393,6 +393,7 @@ Speaking   elven~
 Vnum     26000
 Keywords nightsaber fang sharp tooth~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Nightsaber Fang~
 Long     A small, sharp fang from a young nightsaber rests in the grass.~
 WFlags   take hold~
@@ -404,6 +405,7 @@ Stats    1 10 1 0 0
 Vnum     26001
 Keywords webwood venom sac green poison~
 Type     potion~
+Continent    Kalimdor~
 Short    a Webwood Venom Sac~
 Long     A pulsing, green venom sac harvested from a large spider lies here.~
 WFlags   take hold~
@@ -416,6 +418,7 @@ Spells   'poison' 'NONE' 'NONE'
 Vnum     26002
 Keywords grell dust pouch sparkling magic~
 Type     treasure~
+Continent    Kalimdor~
 Short    a pouch of Grell Dust~
 Long     A tiny leather pouch filled with sparkling, magical dust.~
 WFlags   take hold~
@@ -427,6 +430,7 @@ Stats    1 15 1 0 0
 Vnum     26003
 Keywords strigid owl feather soft white~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Strigid Owl Feather~
 Long     A beautifully soft, white and grey owl feather floats on the breeze.~
 WFlags   take hold~
@@ -438,6 +442,7 @@ Stats    1 12 1 0 0
 Vnum     26004
 Keywords timberling bark shield wooden armor~
 Type     armor~
+Continent    Kalimdor~
 Short    a piece of Timberling Bark~
 Long     A remarkably tough piece of living bark, suitable for a crude shield.~
 WFlags   take shield~
@@ -449,6 +454,7 @@ Stats    3 40 4 0 0
 Vnum     26005
 Keywords gnarlpine totem carved wood idol~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Gnarlpine Totem~
 Long     A crude, roughly carved wooden bear totem has been dropped here.~
 WFlags   take hold~
@@ -460,6 +466,7 @@ Stats    2 30 3 0 0
 Vnum     26006
 Keywords sentinel moonblade sword curved weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    a Sentinel's Moonblade~
 Long     A perfectly balanced, elegantly curved elven blade rests here.~
 WFlags   take wield~
@@ -471,6 +478,7 @@ Stats    8 120 12 0 0
 Vnum     26007
 Keywords novice priestess robes white cloth armor~
 Type     armor~
+Continent    Kalimdor~
 Short    Novice Priestess Robes~
 Long     A simple but impeccably clean set of white cloth robes.~
 WFlags   take body~
@@ -482,6 +490,7 @@ Stats    2 25 2 0 0
 Vnum     26008
 Keywords teldrassil apple red fruit food~
 Type     food~
+Continent    Kalimdor~
 Short    a Teldrassil Apple~
 Long     A large, perfectly crisp red apple fallen from the world tree.~
 WFlags   take hold~
@@ -493,6 +502,7 @@ Stats    1 5 1 0 0
 Vnum     26009
 Keywords moonwell water vial glowing liquid~
 Type     potion~
+Continent    Kalimdor~
 Short    a vial of Moonwell Water~
 Long     A small glass vial filled with glowing, restorative silver water.~
 WFlags   take hold~
@@ -505,6 +515,7 @@ Spells   'cure light' 'NONE' 'NONE'
 Vnum     26010
 Keywords woven branch ring wooden finger~
 Type     armor~
+Continent    Kalimdor~
 Short    a Woven Branch Ring~
 Long     A small ring intricately woven from living green branches.~
 WFlags   take finger~
@@ -516,6 +527,7 @@ Stats    1 15 1 0 0
 Vnum     26011
 Keywords glowing moss clump green light~
 Type     light~
+Continent    Kalimdor~
 Short    a clump of Glowing Moss~
 Long     A thick clump of moss emitting a soft, natural green luminescence.~
 WFlags   take hold~
@@ -527,6 +539,7 @@ Stats    1 10 1 0 0
 Vnum     26012
 Keywords spider silk cloak white web armor~
 Type     armor~
+Continent    Kalimdor~
 Short    a Spider Silk Cloak~
 Long     An incredibly lightweight, strong cloak woven from spider silk.~
 WFlags   take neck~
@@ -538,6 +551,7 @@ Stats    2 50 5 0 0
 Vnum     26013
 Keywords fel tainted root twisted dark magic~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Fel-Tainted Root~
 Long     A twisted, blackened root throbbing with demonic corruption lies here.~
 WFlags   take hold~
@@ -549,6 +563,7 @@ Stats    1 40 4 0 0
 Vnum     26014
 Keywords melenas satyr horn curved demon~
 Type     treasure~
+Continent    Kalimdor~
 Short    Lord Melenas' Horn~
 Long     A heavy, curved horn severed from the head of a demonic satyr.~
 WFlags   take hold~

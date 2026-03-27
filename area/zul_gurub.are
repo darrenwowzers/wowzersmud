@@ -846,6 +846,7 @@ Attribs    20 10 18 14 16 10 10
 Vnum     40600
 Keywords warblade hakkari sword weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Warblade of Hakkari~
 Long     A perfectly balanced troll blade, etched with the Soulflayer's runes.~
 WFlags   take wield~
@@ -861,6 +862,7 @@ Affect   13 15 0 0 0
 Vnum     40601
 Keywords heart hakkar treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    the Heart of Hakkar~
 Long     A massive, pulsing ruby that radiates pure Blood God essence.~
 WFlags   take hold~
@@ -876,6 +878,7 @@ Affect   13 25 0 0 0
 Vnum     40602
 Keywords jin'do's hexxer mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Jin'do's Hexxer~
 Long     A wicked mace topped with a shrunken head that whispers hexes.~
 WFlags   take wield~
@@ -890,6 +893,7 @@ Affect   14 30 0 0 0
 Vnum     40603
 Keywords zin'rokh destroyer worlds sword~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Zin'Rokh, Destroyer of Worlds~
 Long     A colossal two-handed sword that seems to devour the air around it.~
 WFlags   take wield~
@@ -904,6 +908,7 @@ Affect   13 20 0 0 0
 Vnum     40604
 Keywords touch of chaos wand weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Touch of Chaos~
 Long     A crystalline wand that hums with the erratic energy of the Nether.~
 WFlags   take wield~
@@ -918,6 +923,7 @@ Affect   14 20 0 0 0
 Vnum     40605
 Keywords mantle zandalar shoulders armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Zandalar Vindicator's Mantle~
 Long     Ornate silver shoulder plates engraved with Highborne motifs.~
 WFlags   take about~
@@ -932,6 +938,7 @@ Affect   5 12 0 0 0
 Vnum     40606
 Keywords zulian coin gold currency~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Zulian Gold Coin~
 Long     An ancient troll coin featuring the profile of King Rastakhan.~
 WFlags   take~
@@ -944,6 +951,7 @@ Rarity   1
 Vnum     40607
 Keywords red hakkari bijou treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Red Hakkari Bijou~
 Long     A faceted red gemstone that pulses with blood magic.~
 WFlags   take~
@@ -956,6 +964,7 @@ Rarity   2
 Vnum     40608
 Keywords tiger pelt fur trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a thick zulian tiger pelt~
 Long     A magnificent orange-and-black pelt taken from a jungle cat.~
 WFlags   take~
@@ -968,6 +977,7 @@ Rarity   1
 Vnum     40609
 Keywords fang venoxis weapon dagger~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Fang of Venoxis~
 Long     A jagged dagger carved from a serpent's tooth, dripping venom.~
 WFlags   take wield~
@@ -982,6 +992,7 @@ Affect   13 10 0 0 0
 Vnum     40610
 Keywords jeklik's crusher mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Jeklik's Crusher~
 Long     A heavy stone mace designed to shatter shields and bone.~
 WFlags   take wield~
@@ -995,6 +1006,7 @@ Affect   1 15 0 0 0
 Vnum     40611
 Keywords mar'li's eye jewelry neck~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    Mar'li's Eye~
 Long     A necklace featuring a large, multi-faceted spider eye.~
 WFlags   take neck~
@@ -1008,6 +1020,7 @@ Affect   14 20 0 0 0
 Vnum     40612
 Keywords thekkal's girth belt waist~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    Thekkal's Girth~
 Long     A heavy leather belt reinforced with tiger-bone plates.~
 WFlags   take waist~
@@ -1022,6 +1035,7 @@ Affect   5 15 0 0 0
 Vnum     40613
 Keywords arlokk's hood head armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    Arlokk's Hood of Shadows~
 Long     A dark purple hood that seems to slightly blur the wearer's image.~
 WFlags   take head~
@@ -1036,6 +1050,7 @@ Affect   13 10 0 0 0
 Vnum     40614
 Keywords halberd smiting weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Halberd of Smiting~
 Long     A massive polearm that glows with a righteous, golden light.~
 WFlags   take wield~
@@ -1050,6 +1065,7 @@ Affect   5 20 0 0 0
 Vnum     40615
 Keywords aegis grubbashi shield armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Aegis of the Gurubashi~
 Long     A heavy wooden shield reinforced with bronze and bone.~
 WFlags   take shield~
@@ -1063,6 +1079,7 @@ Affect   5 15 0 0 0
 Vnum     40616
 Keywords blood-petal bloom treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Blood-petal Bloom~
 Long     A vibrant red flower that stays fresh for an eternity.~
 WFlags   take hold~
@@ -1076,6 +1093,7 @@ Affect   5 8 0 0 0
 Vnum     40617
 Keywords dreamfoil bundle herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
@@ -1089,6 +1107,7 @@ Affect   3 12 0 0 0
 Vnum     40618
 Keywords gromsblood herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a sprig of Gromsblood~
 Long     A dark leafy herb that smells faintly of demons.~
 WFlags   take hold~
@@ -1102,6 +1121,7 @@ Affect   1 12 0 0 0
 Vnum     40619
 Keywords sungrass bundle herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bunch of Sungrass~
 Long     Vibrant golden leaves that grow in the jungle clearings.~
 WFlags   take hold~
@@ -1115,6 +1135,7 @@ Affect   5 10 0 0 0
 Vnum     40620
 Keywords mountain silversage herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bunch of Mountain Silversage~
 Long     Elegant silvery leaves found on the city's high cliffs.~
 WFlags   take hold~
@@ -1128,6 +1149,7 @@ Affect   2 15 0 0 0
 Vnum     40621
 Keywords zandalar signet jewelry ring~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    a Zandalar Signet Ring~
 Long     A gold ring featuring the sigil of the island of Zandalar.~
 WFlags   take finger~
@@ -1142,6 +1164,7 @@ Affect   4 12 0 0 0
 Vnum     40622
 Keywords raptor claw trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a sharp bloodlord claw~
 Long     A long, curved talon taken from a zulian raptor.~
 WFlags   take~
@@ -1154,6 +1177,7 @@ Rarity   1
 Vnum     40623
 Keywords voodoo fetish treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    an Ancient Voodoo Fetish~
 Long     A small, shriveled hand clutching a bone needle.~
 WFlags   take hold~
@@ -1167,6 +1191,7 @@ Affect   14 15 0 0 0
 Vnum     40624
 Keywords spectral silk loot~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bolt of Spectral Silk~
 Long     Fine, translucent cloth taken from troll ghosts.~
 WFlags   take~
@@ -1179,6 +1204,7 @@ Rarity   2
 Vnum     40625
 Keywords jungle root food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a bundle of jungle-roots~
 Long     Tough, fibrous roots that provide excellent nourishment.~
 WFlags   take~
@@ -1191,6 +1217,7 @@ Rarity   0
 Vnum     40626
 Keywords bloodvine treasure loot~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a length of Bloodvine~
 Long     A rare, deep red vine used in high-level tailoring.~
 WFlags   take~
@@ -1203,6 +1230,7 @@ Rarity   3
 Vnum     40627
 Keywords murloc eye trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a bulging murloc eye~
 Long     A large, glassy eye taken from a city murloc.~
 WFlags   take~
@@ -1215,6 +1243,7 @@ Rarity   0
 Vnum     40628
 Keywords mossy temple stone trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a mossy temple stone~
 Long     A heavy square of masonry fallen from a ziggurat.~
 WFlags   take~
@@ -1227,6 +1256,7 @@ Rarity   0
 Vnum     40629
 Keywords spider venom flask~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a flask of Corrosive Venom~
 Long     A glass jar containing bubbling, purple spider venom.~
 WFlags   take hold~
@@ -1240,6 +1270,7 @@ Affect   13 10 0 0 0
 Vnum     40630
 Keywords hakkar's fang dagger weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Fang of the Soulflayer~
 Long     A long dagger carved from the tooth of a winged serpent.~
 WFlags   take wield~
@@ -1254,6 +1285,7 @@ Affect   13 15 0 0 0
 Vnum     40631
 Keywords blood-soaked cowl head armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Blood-soaked Cowl~
 Long     A dark purple hood that smells of copper and rot.~
 WFlags   take head~
@@ -1268,6 +1300,7 @@ Affect   14 15 0 0 0
 Vnum     40632
 Keywords gauntlets might hands armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Gauntlets of Might~
 Long     Heavy plate gauntlets featuring the crest of Lordaeron.~
 WFlags   take hands~
@@ -1282,6 +1315,7 @@ Affect   5 15 0 0 0
 Vnum     40633
 Keywords staff shadowweapon weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Staff of Shadow-fire~
 Long     A staff of blackened wood that hums with chaotic energy.~
 WFlags   take wield~
@@ -1296,6 +1330,7 @@ Affect   14 20 0 0 0
 Vnum     40634
 Keywords zulian mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Zulian Ritual Mace~
 Long     A heavy stone mace decorated with colorful feathers.~
 WFlags   take wield~
@@ -1309,6 +1344,7 @@ Affect   1 12 0 0 0
 Vnum     40635
 Keywords shadow-vial treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a vial of Shadow-Residue~
 Long     A small glass vial containing a swirling cloud of purple gas.~
 WFlags   take hold~
@@ -1322,6 +1358,7 @@ Affect   14 15 0 0 0
 Vnum     40636
 Keywords runecloth loot treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1334,6 +1371,7 @@ Rarity   1
 Vnum     40637
 Keywords scourge stone corrupt treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Corrupt Scourgestone~
 Long     A jagged green stone marked with the seal of the Scourge.~
 WFlags   take~
@@ -1346,6 +1384,7 @@ Rarity   1
 Vnum     40638
 Keywords tribal mask head armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Gurubashi Tribal Mask~
 Long     A wooden mask painted with the image of a screaming troll.~
 WFlags   take head~
@@ -1359,6 +1398,7 @@ Affect   3 10 0 0 0
 Vnum     40639
 Keywords bone-handled cleaver weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Bone-handled Cleaver~
 Long     A massive heavy sword used by the city butchers.~
 WFlags   take wield~
@@ -3057,7 +3097,7 @@ Direction south~
 ToRoom    40838
 Desc      High Garden.~
 #ENDEXIT
-Reset O 40616 10 40872 0
+Reset O 40616 10 0 40872
 #ENDROOM
 
 #ROOM

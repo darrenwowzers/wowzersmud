@@ -3,10 +3,13 @@
 Version      1
 Name         Gnomeregan~
 Author       Builder~
+Type         0
+Continent    Eastern Kingdoms~
 WeatherX     0
 WeatherY     0
 Ranges       1 60 0 60
 Economy      0 25000000
+ResetFreq    15
 #ENDAREADATA
 
 #MOBILE
@@ -20,20 +23,18 @@ radiation exposure. Its skin is mottled green and peeling, its eyes glow
 with sickly light, and it attacks anything that moves with mindless fury.
 Patches of hair have fallen out, and its movements are jerky and unpredictable.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 28 0 0 200 600
 Stats2     28 28 250
 Stats3     8 15 30
 Stats4     0 0 0 0 0
-Attribs    12 14 8 10 10 10 10
+Stats       12 10 10 14 8
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -47,20 +48,18 @@ mind is shattered. It tinkers obsessively with broken machinery, creating
 dangerous contraptions that spark and smoke. Its fingers are burned from
 constant electrical shocks, but it doesn't seem to notice or care.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 30 0 0 220 680
 Stats2     30 30 270
 Stats3     9 16 32
 Stats4     0 0 0 0 0
-Attribs    10 15 8 14 10 10 10
+Stats       10 14 10 15 8
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -74,20 +73,18 @@ enough intellect to be truly dangerous. It has constructed crude weapons
 from salvaged parts and uses them with disturbing effectiveness. Its
 laugh is high-pitched and unsettling.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 35 0 0 300 900
 Stats2     35 35 350
 Stats3     12 22 44
 Stats4     0 0 0 0 0
-Attribs    11 16 9 16 10 10 10
+Stats       11 16 10 16 9
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -102,19 +99,17 @@ taken on a sickly green tinge, and they attack with savage ferocity. They
 have claimed entire sections of the lower city.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 32 0 0 250 750
 Stats2     32 32 300
 Stats3     10 18 36
 Stats4     0 0 0 0 0
-Attribs    16 10 14 6 10 10 10
+Stats       16 6 10 10 14
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -129,19 +124,17 @@ Their eyes have adapted to the darkness, giving them an advantage in the
 dim corridors.
 ~
 Race       humanoid~
-Class      thief~
+Class      Thief~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 30 0 0 220 660
 Stats2     30 30 270
 Stats3     8 16 32
 Stats4     0 0 0 0 0
-Attribs    13 15 12 6 10 10 10
+Stats       13 6 10 15 12
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -156,19 +149,17 @@ massive and hardened, capable of tearing through stone and metal alike.
 They are responsible for much of the structural damage in the lower levels.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 34 0 0 280 840
 Stats2     34 34 320
 Stats3     11 20 40
 Stats4     0 0 0 0 0
-Attribs    18 9 16 6 10 10 10
+Stats       18 6 10 9 16
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -183,19 +174,17 @@ loyal to the usurper. Its sensors glow red, and its mounted weapons track
 movement with mechanical precision.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 38 0 0 400 1200
 Stats2     38 38 450
 Stats3     15 28 56
 Stats4     0 0 0 0 0
-Attribs    14 8 18 10 10 10 10
+Stats       14 10 10 8 18
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -210,19 +199,17 @@ energy. Twin emitters project fields that disrupt spellcasting, making it
 particularly dangerous to mages.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 42 0 0 500 1500
 Stats2     42 42 550
 Stats3     18 32 64
 Stats4     0 0 0 0 0
-Attribs    16 10 20 12 10 10 10
+Stats       16 12 10 10 20
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -237,19 +224,17 @@ chassis, and its armor can withstand tremendous punishment. Originally
 designed to protect the city, it now serves Thermaplugg's tyranny.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 48 0 0 800 2400
 Stats2     48 48 700
 Stats3     25 45 90
 Stats4     0 0 0 0 0
-Attribs    18 8 22 10 10 10 10
+Stats       18 10 10 8 22
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -264,19 +249,17 @@ it touches. Its body glows with a sickly green light, and it leaves
 caustic residue wherever it travels.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 33 0 0 260 780
 Stats2     33 33 310
 Stats3     10 18 36
 Stats4     0 0 0 0 0
-Attribs    14 6 16 4 10 10 10
+Stats       14 4 10 6 16
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -291,19 +274,17 @@ body constantly shifts and reforms, and it can project globs of caustic
 ooze at distant targets.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 40 0 0 450 1350
 Stats2     40 40 500
 Stats3     16 30 60
 Stats4     0 0 0 0 0
-Attribs    16 6 18 4 10 10 10
+Stats       16 4 10 6 18
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -317,20 +298,18 @@ the chaos for their own purposes. This agent gathers intelligence and
 sabotages any efforts to reclaim the city. Its skin is ashen gray, and
 its eyes glow with inner fire.
 ~
-Race       dwarf~
-Class      thief~
+Race       Dwarf~
+Class      Thief~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 45 0 0 600 1800
 Stats2     45 45 600
 Stats3     18 32 64
 Stats4     0 0 0 0 0
-Attribs    14 16 14 12 10 10 10
+Stats       14 12 10 16 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -345,19 +324,17 @@ massive club studded with metal scraps salvaged from the city. He has
 claimed the lower tunnels as his domain and defends it savagely.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 50 0 0 2000 6000
 Stats2     50 50 1500
 Stats3     35 65 130
 Stats4     0 0 0 0 0
-Attribs    20 10 18 6 10 10 10
+Stats       20 6 10 10 18
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -372,19 +349,17 @@ Gnomeregan, consuming anything organic that strays too close. Its body
 glows bright enough to illuminate the surrounding area.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 52 0 0 2500 7500
 Stats2     52 52 1800
 Stats3     40 75 150
 Stats4     0 0 0 0 0
-Attribs    18 4 20 6 10 10 10
+Stats       18 6 10 4 20
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -399,19 +374,17 @@ it has been reprogrammed to eliminate all intruders. Arcs of electricity
 constantly dance across its chassis.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 55 0 0 3500 10000
 Stats2     55 55 2500
 Stats3     50 90 180
 Stats4     0 0 0 0 0
-Attribs    18 10 22 14 10 10 10
+Stats       18 14 10 10 22
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -426,19 +399,17 @@ blows, and its heavy armor makes it nearly impervious to conventional
 attacks. It shows no mercy to those who resist.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 55 0 0 3500 10000
 Stats2     55 55 2500
 Stats3     55 100 200
 Stats4     0 0 0 0 0
-Attribs    22 6 24 8 10 10 10
+Stats       22 8 10 6 24
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -453,20 +424,18 @@ sabotage the city's defenses and release radiation that killed thousands.
 Now he rules from his battle suit, surrounded by bombs and mechanical
 minions, utterly insane but terrifyingly intelligent.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 15000 50000
 Stats2     60 60 8000
 Stats3     100 180 360
 Stats4     0 0 0 0 0
-Attribs    16 18 16 20 10 10 10
+Stats       16 20 10 18 16
 Saves      0 0 0 0 0
-Speaks     common gnomish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -480,20 +449,18 @@ from the leper gnomes and mechanical patrols. They have lost everything—
 home, family, friends—but refuse to abandon hope of reclaiming their city.
 Their clothes are tattered and stained, but their eyes still hold intelligence.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 25 0 0 150 450
 Stats2     25 25 200
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    10 14 10 16 10 10 10
+Stats       10 16 10 14 10
 Saves      0 0 0 0 0
-Speaks     common gnomish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -507,20 +474,18 @@ outer tunnels. He works constantly to repair equipment and help survivors
 escape the city. Despite everything, he maintains the characteristic gnomish
 optimism that the city can be saved.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 35 0 0 300 900
 Stats2     35 35 350
 Stats3     6 12 24
 Stats4     0 0 0 0 0
-Attribs    10 16 11 18 10 10 10
+Stats       10 18 10 16 11
 Saves      0 0 0 0 0
-Speaks     common gnomish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -534,20 +499,18 @@ has dedicated herself to treating radiation sickness and battle wounds
 among the survivors. Her supplies are dwindling, but she refuses to give
 up on anyone who can still be saved.
 ~
-Race       gnome~
-Class      cleric~
+Race       Gnome~
+Class      Cleric~
 Position   standing~
 DefPos     standing~
-Gender     female~
+Gender     Female~
 Actflags   npc sentinel stayarea~
 Stats1     0 30 0 0 250 750
 Stats2     30 30 300
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    9 14 10 15 16 10 10
+Stats       9 15 16 14 10
 Saves      0 0 0 0 0
-Speaks     common gnomish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -562,19 +525,17 @@ constantly, ready to alert more dangerous constructs to any presence.
 It emits a constant low hum as it floats.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 25 0 0 120 360
 Stats2     25 25 180
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    8 16 10 12 10 10 10
+Stats       8 12 10 16 10
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -589,19 +550,17 @@ manipulator claws can deliver painful attacks. Frost generators in its
 chassis spray freezing mist at threats.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 36 0 0 320 960
 Stats2     36 36 380
 Stats3     12 22 44
 Stats4     0 0 0 0 0
-Attribs    12 14 14 10 10 10 10
+Stats       12 10 10 14 14
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -616,19 +575,17 @@ in the deeper levels, providing the mad mekgineer with an endless supply
 of disposable weapons.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 28 0 0 100 300
 Stats2     28 28 150
 Stats3     20 35 70
 Stats4     0 0 0 0 0
-Attribs    8 10 8 6 10 10 10
+Stats       8 6 10 10 8
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -642,19 +599,17 @@ This squirrel has grown to unnatural size, its fur patchy and glowing, its
 eyes wild. It attacks with surprising ferocity for its size.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 20 0 0 60 180
 Stats2     20 20 100
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    8 16 8 6 10 10 10
+Stats       8 6 10 16 8
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -669,19 +624,17 @@ teeth that can gnaw through metal. It carries disease and radiation
 wherever it goes.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 22 0 0 80 240
 Stats2     22 22 120
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    10 14 10 6 10 10 10
+Stats       10 6 10 14 10
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -696,25 +649,24 @@ neutralized or it is destroyed. Its armor is thick, and its weapons
 are fully integrated into its chassis.
 ~
 Race       magical~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 40 0 0 420 1260
 Stats2     40 40 480
 Stats3     16 30 60
 Stats4     0 0 0 0 0
-Attribs    16 6 20 10 10 10 10
+Stats       16 10 10 6 20
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #OBJECT
 Vnum     14500
 Keywords wrench irradiated glowing tool~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    an irradiated wrench~
 Long     A wrench glowing with radiation lies here.~
 WFlags   take wield~
@@ -726,6 +678,7 @@ Stats    25 100 25 0 0
 Vnum     14501
 Keywords blaster gnomish cobbled weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a cobbled blaster pistol~
 Long     A crudely assembled blaster pistol lies here, sparking occasionally.~
 WFlags   take wield~
@@ -737,6 +690,7 @@ Stats    30 150 30 0 0
 Vnum     14502
 Keywords axe trogg caverndeep stone~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Caverndeep trogg axe~
 Long     A crude stone axe lies here.~
 WFlags   take wield~
@@ -748,6 +702,7 @@ Stats    28 120 28 0 0
 Vnum     14503
 Keywords club grubbis massive metal~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Grubbis's Pounding Mace~
 Long     A massive club studded with metal scraps lies here.~
 WFlags   take wield~
@@ -759,6 +714,7 @@ Stats    50 500 50 0 0
 Vnum     14504
 Keywords rod electrocutioner charged~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Electrocutioner's Leg~
 Long     A metal rod crackling with electricity lies here.~
 WFlags   take wield~
@@ -770,6 +726,7 @@ Stats    55 600 55 0 0
 Vnum     14505
 Keywords fist pummeler manual~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Manual Crowd Pummeler~
 Long     A massive mechanical fist lies here.~
 WFlags   take wield~
@@ -781,6 +738,7 @@ Stats    55 650 55 0 0
 Vnum     14506
 Keywords wrench thermaplugg mekgineer~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Thermaplugg's Wrench~
 Long     An oversized wrench crackling with energy lies here.~
 WFlags   take wield~
@@ -792,6 +750,7 @@ Stats    60 1000 60 0 0
 Vnum     14507
 Keywords goggles gnomish engineering green~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of green-tinted goggles~
 Long     A pair of gnomish engineering goggles lies here.~
 WFlags   take head~
@@ -803,6 +762,7 @@ Stats    30 200 30 0 0
 Vnum     14508
 Keywords vest mechanic leather reinforced~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a reinforced mechanic's vest~
 Long     A reinforced leather vest with metal plates lies here.~
 WFlags   take body~
@@ -814,6 +774,7 @@ Stats    35 250 35 0 0
 Vnum     14509
 Keywords gloves insulated rubber thick~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of insulated gloves~
 Long     A pair of thick rubber gloves lies here.~
 WFlags   take hands~
@@ -825,6 +786,7 @@ Stats    25 150 25 0 0
 Vnum     14510
 Keywords boots magnetic gnomish~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of magnetic boots~
 Long     A pair of boots with magnetic soles lies here.~
 WFlags   take feet~
@@ -836,6 +798,7 @@ Stats    28 180 28 0 0
 Vnum     14511
 Keywords cloak radiation lead-lined~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a lead-lined cloak~
 Long     A heavy cloak lined with protective lead lies here.~
 WFlags   take about~
@@ -847,6 +810,7 @@ Stats    40 300 40 0 0
 Vnum     14512
 Keywords shield salvaged metal plate~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a salvaged metal shield~
 Long     A shield made from salvaged metal plates lies here.~
 WFlags   take shield~
@@ -858,6 +822,7 @@ Stats    35 220 35 0 0
 Vnum     14513
 Keywords ring circuit board gnomish~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a circuit board ring~
 Long     A ring made from a tiny circuit board lies here.~
 WFlags   take finger~
@@ -869,6 +834,7 @@ Stats    20 150 20 0 0
 Vnum     14514
 Keywords core power small glowing~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a small power core~
 Long     A small glowing power core lies here.~
 WFlags   take hold~
@@ -880,6 +846,7 @@ Stats    10 200 10 0 0
 Vnum     14515
 Keywords gear gnomish precision brass~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a precision brass gear~
 Long     A finely crafted brass gear lies here.~
 WFlags   take~
@@ -891,6 +858,7 @@ Stats    5 50 5 0 0
 Vnum     14516
 Keywords wire copper coil~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a coil of copper wire~
 Long     A coil of copper wire lies here.~
 WFlags   take~
@@ -902,6 +870,7 @@ Stats    3 25 3 0 0
 Vnum     14517
 Keywords schematic blueprint gnomish~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a gnomish schematic~
 Long     A rolled-up schematic covered in complex diagrams lies here.~
 WFlags   take~
@@ -913,6 +882,7 @@ Stats    1 75 1 0 0
 Vnum     14518
 Keywords container radioactive waste barrel~
 Type     container~
+Continent    Eastern Kingdoms~
 Short    a barrel of radioactive waste~
 Long     A corroded barrel leaking green sludge sits here.~
 WFlags   take~
@@ -924,6 +894,7 @@ Stats    20 10 20 0 0
 Vnum     14519
 Keywords rations gnomish emergency sealed~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a sealed ration pack~
 Long     A sealed gnomish emergency ration pack lies here.~
 WFlags   take~
@@ -934,7 +905,8 @@ Stats    5 30 5 0 0
 #OBJECT
 Vnum     14520
 Keywords water purified bottle clean~
-Type     drink~
+Type     trash~
+Continent    Eastern Kingdoms~
 Short    a bottle of purified water~
 Long     A bottle of precious purified water lies here.~
 WFlags   take hold~
@@ -946,6 +918,7 @@ Stats    5 40 5 0 0
 Vnum     14521
 Keywords key security brass gnomeregan~
 Type     key~
+Continent    Eastern Kingdoms~
 Short    a Gnomeregan security key~
 Long     A brass security key lies here.~
 WFlags   take hold~
@@ -957,6 +930,7 @@ Stats    1 100 1 0 0
 Vnum     14522
 Keywords lantern gnomish powered electric~
 Type     light~
+Continent    Eastern Kingdoms~
 Short    a gnomish electric lantern~
 Long     A small electric lantern lies here, still glowing.~
 WFlags   take hold~
@@ -968,6 +942,7 @@ Stats    8 60 8 0 0
 Vnum     14523
 Keywords toolbox engineer gnomish~
 Type     container~
+Continent    Eastern Kingdoms~
 Short    an engineer's toolbox~
 Long     A battered gnomish toolbox lies here.~
 WFlags   take hold~
@@ -979,6 +954,7 @@ Stats    10 80 10 0 0
 Vnum     14524
 Keywords badge thermaplugg insignia~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    Thermaplugg's Insignia~
 Long     A badge bearing Thermaplugg's personal insignia lies here.~
 WFlags   take hold~
@@ -990,6 +966,7 @@ Stats    1 500 1 0 0
 Vnum     14525
 Keywords sample slime irradiated vial~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a vial of irradiated slime~
 Long     A sealed vial containing glowing slime lies here.~
 WFlags   take hold~
@@ -997,3 +974,1077 @@ Values   0 0 0 0 0 0
 Stats    1 35 1 0 0
 #ENDOBJECT
 
+#OBJECT
+Vnum     14526
+Keywords portal shimmering~
+Type     portal~
+Continent    Eastern Kingdoms~
+Short    a shimmering portal~
+Long     a shimmering portal leading to Gnomeregan stands before you.~
+Flags    glow~
+Values   14501 14561 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     14500
+Name     &MDun Morogh - Gnomeregan Entrance&d~
+Sector   mountain~
+Desc     A massive metal door is set into the mountainside, bearing the cog-and-wrench
+emblem of &MGnomeregan&d. Warning signs in multiple languages advise against
+entry—the city has been declared a hazardous zone since its fall. Sickly
+green light seeps from cracks around the door, and the faint hum of
+machinery echoes from within. Dun Morogh lies to the &Yeast&d.
+~
+#EXIT
+Direction east~
+ToRoom    14710
+Desc      The road leads back to Dun Morogh.
+~
+#ENDEXIT
+
+Reset M 0 14714 2 14500
+  Reset E 1 14716 1 16
+  Reset E 1 14717 1 12
+  Reset O 0 14526 1 14500 
+#ENDROOM
+
+#ROOM
+Vnum     14501
+Name     &MNew Tinker Town - Entry Chamber&d~
+Sector   inside~
+Flags    indoors~
+Desc     You step into the outermost section of Gnomeregan, now called &MNew Tinker
+Town&d by the survivors who have established a foothold here. The air is
+cleaner than deeper in the city, filtered by hastily constructed purifiers.
+Gnome refugees huddle around makeshift shelters, and guards watch the
+passages leading deeper with wary eyes. The exit lies &Yeast&d, and the
+settlement continues &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14500
+Desc      The entrance to Dun Morogh lies outside.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14502
+Desc      New Tinker Town continues deeper.
+~
+#ENDEXIT
+
+Reset M 0 14517 3 14501
+Reset M 0 14518 1 14501
+#ENDROOM
+
+#ROOM
+Vnum     14502
+Name     &MNew Tinker Town - Refugee Camp&d~
+Sector   inside~
+Flags    indoors~
+Desc     Tents and lean-tos constructed from salvaged materials fill this chamber.
+Gnome survivors have made this their home, refusing to abandon their city
+entirely. A medical station has been set up to the &Ynorth&d, and an
+engineering workshop lies to the &Ysouth&d. The entry chamber is &Yeast&d,
+and a barricade blocks passage &Ywest&d into the dangerous deeper levels.
+~
+#EXIT
+Direction north~
+ToRoom    14503
+Desc      The medical station lies to the north.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    14501
+Desc      The entry chamber lies to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14504
+Desc      The workshop lies to the south.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14505
+Desc      A barricade guards the passage west.
+~
+#ENDEXIT
+
+Reset M 0 14517 5 14502
+Reset M 0 14520 2 14502
+Reset O 0 14519 5 14502
+Reset O 0 14520 5 14502
+#ENDROOM
+
+#ROOM
+Vnum     14503
+Name     &MNew Tinker Town - Medical Station&d~
+Sector   inside~
+Flags    nomob indoors~
+Desc     Cots line the walls of this makeshift hospital, many occupied by gnomes
+suffering from radiation sickness or injuries sustained in the fall of
+the city. Medical equipment salvaged from deeper levels hums and beeps.
+The air smells of antiseptic and desperation. A dedicated medic works
+tirelessly to help those who can still be saved.
+~
+#EXIT
+Direction south~
+ToRoom    14502
+Desc      The refugee camp lies to the south.
+~
+#ENDEXIT
+
+Reset M 0 14519 1 14503
+Reset O 0 14520 3 14503
+Reset O 0 14519 3 14503
+#ENDROOM
+
+#ROOM
+Vnum     14504
+Name     &MNew Tinker Town - Salvage Workshop&d~
+Sector   inside~
+Flags    indoors~
+Desc     The clatter of tools and hum of machinery fill this workshop, where
+gnome engineers work to repair equipment and construct defenses. Salvaged
+parts are sorted into bins, and half-finished projects cover every
+workbench. Despite the dire circumstances, the gnomes maintain their
+love of invention.
+~
+#EXIT
+Direction north~
+ToRoom    14502
+Desc      The refugee camp lies to the north.
+~
+#ENDEXIT
+
+Reset M 0 14518 1 14504
+Reset M 0 14517 2 14504
+Reset O 0 14515 5 14504
+Reset O 0 14516 5 14504
+Reset O 0 14517 2 14504
+Reset O 0 14523 1 14504
+#ENDROOM
+
+#ROOM
+Vnum     14505
+Name     &MNew Tinker Town - Western Barricade&d~
+Sector   inside~
+Flags    indoors~
+Desc     A heavy barricade of welded metal and overturned machinery blocks the
+passage leading deeper into Gnomeregan. Guards watch nervously through
+viewing slits, ready for any leper gnomes or worse that might try to
+break through. Warning signs declare the area beyond extremely hazardous.
+The refugee camp lies &Yeast&d, and beyond the barricade lies the
+&RHall of Gears&d to the &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14502
+Desc      The refugee camp lies to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14510
+Desc      The Hall of Gears lies beyond the barricade.
+~
+#ENDEXIT
+
+Reset M 0 14517 2 14505
+Reset O 0 14522 1 14505
+#ENDROOM
+
+#ROOM
+Vnum     14510
+Name     &xThe Hall of Gears - East Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Beyond the safety of New Tinker Town, the true horror of &RGnomeregan&d
+becomes apparent. The air is thick with radiation, and sickly green light
+emanates from cracks in the walls. Massive gears—once the pride of gnomish
+engineering—grind and screech overhead, many running erratically or jammed
+with debris. The barricade lies &Yeast&d, and the hall continues &Ywest&d.
+~
+#EXIT
+Direction east~
+ToRoom    14505
+Desc      The barricade to New Tinker Town lies to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14511
+Desc      The Hall of Gears continues west.
+~
+#ENDEXIT
+
+Reset M 0 14500 3 14510
+Reset M 0 14523 3 14510
+Reset M 0 14520 1 14510
+#ENDROOM
+
+#ROOM
+Vnum     14511
+Name     &xThe Hall of Gears - Central Section&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Enormous gears mesh overhead, their rhythmic grinding a constant reminder
+that Gnomeregan's machinery continues to function even without sane hands
+to guide it. Catwalks crisscross above the main floor, and ladders lead
+to maintenance platforms. Leper gnomes scuttle in the shadows, driven mad
+but still drawn to the machines they once tended. The hall continues &Yeast&d
+and &Ywest&d, with passages branching &Ynorth&d and &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14512
+Desc      A passage leads north to the dormitory wing.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    14510
+Desc      The hall continues east.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14520
+Desc      A passage leads south to the engineering labs.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14513
+Desc      The hall continues west.
+~
+#ENDEXIT
+
+Reset M 0 14500 4 14511
+  Reset E 1 14500 1 16
+Reset M 0 14501 2 14511
+Reset M 0 14506 1 14511
+Reset O 0 14515 3 14511
+#ENDROOM
+
+#ROOM
+Vnum     14512
+Name     &xDormitory Wing - South Corridor&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This corridor once led to comfortable living quarters for Gnomeregan's
+citizens. Now the walls are stained with radiation burns and splattered
+with... other things. Doors hang open on empty rooms, and personal
+belongings are scattered everywhere, abandoned in the panic of evacuation.
+The Hall of Gears lies &Ysouth&d, and the corridor continues &Ynorth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14514
+Desc      The corridor continues north.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14511
+Desc      The Hall of Gears lies to the south.
+~
+#ENDEXIT
+
+Reset M 0 14500 3 14512
+Reset M 0 14524 4 14512
+Reset O 0 14517 1 14512
+#ENDROOM
+
+#ROOM
+Vnum     14513
+Name     &xThe Hall of Gears - West Section&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The western section of the Hall of Gears shows more damage than the rest.
+Several massive gears have stopped entirely, jammed by debris or sabotage.
+Pools of toxic sludge have accumulated in low areas, glowing an ominous
+green. The hall continues &Yeast&d, and a heavily reinforced door leads
+&Ywest&d to the deeper levels. A ramp descends &Ydown&d to the Trogg tunnels.
+~
+#EXIT
+Direction east~
+ToRoom    14511
+Desc      The hall continues east.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14530
+Desc      A reinforced door leads to the deeper levels.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    14540
+Desc      A ramp descends into the Trogg-infested tunnels.
+~
+#ENDEXIT
+
+Reset M 0 14509 2 14513
+Reset M 0 14501 2 14513
+Reset M 0 14520 1 14513
+Reset O 0 14518 1 14513
+#ENDROOM
+
+#ROOM
+Vnum     14514
+Name     &xDormitory Wing - Central Hub&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A circular hub connects the various dormitory sections. A dry fountain
+sits in the center, its mechanical fish long since stopped moving. Doorways
+lead to different housing blocks in all directions. Graffiti in gnomish
+covers the walls—warnings, farewells, and the mad ravings of leper gnomes.
+The corridor continues &Ysouth&d, and passages lead &Yeast&d, &Ywest&d, and
+&Ynorth&d to different dormitory sections.
+~
+#EXIT
+Direction north~
+ToRoom    14515
+Desc      A passage leads to the northern dormitories.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    14516
+Desc      A passage leads to the eastern dormitories.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14512
+Desc      The corridor leads back south.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14517
+Desc      A passage leads to the western dormitories.
+~
+#ENDEXIT
+
+Reset M 0 14500 3 14514
+Reset M 0 14520 2 14514
+#ENDROOM
+
+#ROOM
+Vnum     14515
+Name     &xDormitory Wing - North Block&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This dormitory block housed many of Gnomeregan's families. Small apartments
+open onto the corridor, their doors mostly smashed or hanging open. Toys
+and family portraits lie amid the debris—heartbreaking reminders of the
+lives destroyed by Thermaplugg's treachery. Leper gnomes have made nests
+in some of the rooms.
+~
+#EXIT
+Direction south~
+ToRoom    14514
+Desc      The central hub lies to the south.
+~
+#ENDEXIT
+
+Reset M 0 14500 4 14515
+  Reset E 1 14500 1 16
+Reset M 0 14501 2 14515
+Reset O 0 14507 1 14515
+Reset O 0 14517 1 14515
+#ENDROOM
+
+#ROOM
+Vnum     14516
+Name     &xDormitory Wing - East Block&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The eastern dormitories housed junior engineers and apprentices. Small
+workbenches are built into many of the rooms, and half-finished projects
+still sit where their creators left them. The radiation is particularly
+strong here—a ruptured pipe in the ceiling leaks contaminated coolant.
+~
+#EXIT
+Direction west~
+ToRoom    14514
+Desc      The central hub lies to the west.
+~
+#ENDEXIT
+
+Reset M 0 14501 3 14516
+  Reset E 1 14501 1 16
+Reset M 0 14523 2 14516
+Reset O 0 14514 1 14516
+Reset O 0 14516 3 14516
+#ENDROOM
+
+#ROOM
+Vnum     14517
+Name     &xDormitory Wing - West Block&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     Senior engineers and officials lived in this block, evidenced by the
+larger apartments and finer furnishings—now all destroyed or looted.
+A leper gnome technician has set up a disturbing "workshop" in one room,
+filled with dismembered mechanical parts and worse.
+~
+#EXIT
+Direction east~
+ToRoom    14514
+Desc      The central hub lies to the east.
+~
+#ENDEXIT
+
+Reset M 0 14501 2 14517
+  Reset E 1 14501 1 16
+Reset M 0 14502 1 14517
+  Reset E 1 14501 1 16
+  Reset E 1 14507 1 4
+Reset O 0 14508 1 14517
+Reset O 0 14515 2 14517
+#ENDROOM
+
+#ROOM
+Vnum     14520
+Name     &xEngineering Labs - North Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     These laboratories were once the cutting edge of gnomish innovation.
+Experimental devices line the walls, many still powered and humming
+ominously. The radiation has caused some to malfunction in dangerous
+ways—arcs of electricity and jets of steam erupt randomly. The Hall
+of Gears lies &Ynorth&d, and the labs continue &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14511
+Desc      The Hall of Gears lies to the north.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14521
+Desc      The labs continue to the south.
+~
+#ENDEXIT
+
+Reset M 0 14502 2 14520
+  Reset E 1 14501 1 16
+Reset M 0 14507 1 14520
+Reset O 0 14514 2 14520
+#ENDROOM
+
+#ROOM
+Vnum     14521
+Name     &xEngineering Labs - Central Chamber&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The main laboratory chamber is a disaster zone. Equipment has been
+overturned, and chemical spills cover the floor. Irradiated slimes have
+spawned in the toxic pools, feeding on the contaminated materials. A
+massive experiment in the center of the room has fused into something
+unrecognizable and vaguely threatening.
+~
+#EXIT
+Direction north~
+ToRoom    14520
+Desc      The labs continue to the north.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    14522
+Desc      A side lab lies to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14523
+Desc      The labs continue to the south.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14524
+Desc      A storage room lies to the west.
+~
+#ENDEXIT
+
+Reset M 0 14509 3 14521
+Reset M 0 14502 2 14521
+Reset O 0 14525 3 14521
+Reset O 0 14518 1 14521
+#ENDROOM
+
+#ROOM
+Vnum     14522
+Name     &xEngineering Labs - Weapons Research&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This lab was dedicated to weapons development—a necessary evil given
+the threats facing Gnomeregan. Prototype blasters, explosives, and
+defensive devices fill the shelves, many in various states of assembly.
+Some have been taken by leper gnomes, making them even more dangerous.
+~
+#EXIT
+Direction west~
+ToRoom    14521
+Desc      The central lab lies to the west.
+~
+#ENDEXIT
+
+Reset M 0 14502 2 14522
+  Reset E 1 14501 1 16
+Reset O 0 14501 2 14522
+Reset O 0 14507 1 14522
+#ENDROOM
+
+#ROOM
+Vnum     14523
+Name     &xEngineering Labs - South Section&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The southern labs specialized in robotics and automation. Workbenches
+hold partially assembled constructs, and schematics for mechanical
+servants cover the walls. Some of the constructs have activated on their
+own, patrolling the area with corrupted programming.
+~
+#EXIT
+Direction north~
+ToRoom    14521
+Desc      The central lab lies to the north.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14525
+Desc      A passage leads to the clean room.
+~
+#ENDEXIT
+
+Reset M 0 14506 2 14523
+Reset M 0 14521 2 14523
+Reset O 0 14515 3 14523
+Reset O 0 14516 3 14523
+#ENDROOM
+
+#ROOM
+Vnum     14524
+Name     &xEngineering Labs - Supply Storage&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This room stored components and materials for the laboratories. Most
+has been looted or destroyed, but some supplies remain, scattered among
+the debris. Shelving units have toppled, creating a maze of metal and
+salvage.
+~
+#EXIT
+Direction east~
+ToRoom    14521
+Desc      The central lab lies to the east.
+~
+#ENDEXIT
+
+Reset M 0 14500 2 14524
+Reset O 0 14514 1 14524
+Reset O 0 14515 5 14524
+Reset O 0 14516 5 14524
+Reset O 0 14522 1 14524
+#ENDROOM
+
+#ROOM
+Vnum     14525
+Name     &xEngineering Labs - Clean Room&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The irony is painful—this was once a hermetically sealed clean room for
+delicate work. Now the seals have failed, and it is as contaminated as
+everywhere else. The white walls are stained green, and the precision
+equipment has been fouled beyond repair. An observation window overlooks
+a deeper section of the complex.
+~
+#EXIT
+Direction north~
+ToRoom    14523
+Desc      The labs continue to the north.
+~
+#ENDEXIT
+
+Reset M 0 14510 1 14525
+Reset O 0 14525 2 14525
+#ENDROOM
+
+#ROOM
+Vnum     14530
+Name     &RLaunch Bay - East Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The &RLaunch Bay&d was designed to deploy gnomish flying machines and
+vehicles. The massive chamber stretches upward several stories, with
+launch rails and catapults built into the walls. Most vehicles have
+been destroyed or stolen, but a few damaged machines remain. Security
+constructs patrol here with particular vigilance.
+~
+#EXIT
+Direction east~
+ToRoom    14513
+Desc      The Hall of Gears lies to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14531
+Desc      The bay continues to the west.
+~
+#ENDEXIT
+
+Reset M 0 14507 1 14530
+Reset M 0 14506 2 14530
+Reset M 0 14520 2 14530
+#ENDROOM
+
+#ROOM
+Vnum     14531
+Name     &RLaunch Bay - Central Platform&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A raised platform in the center of the bay served as the main launch
+control center. Consoles are smashed or corrupted, but some still flicker
+with power. A massive mechanical guardian stands watch over the area,
+attacking anything that approaches. The bay continues &Yeast&d and &Ywest&d,
+and a catwalk leads &Yup&d.
+~
+#EXIT
+Direction east~
+ToRoom    14530
+Desc      The bay continues to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14532
+Desc      The bay continues to the west.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    14533
+Desc      A catwalk leads to the upper level.
+~
+#ENDEXIT
+
+Reset M 0 14525 1 14531
+Reset M 0 14507 1 14531
+Reset O 0 14521 1 14531
+#ENDROOM
+
+#ROOM
+Vnum     14532
+Name     &RLaunch Bay - West Section&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The western section of the bay holds the remains of several flying
+machines, crashed and burned during the chaos of the city's fall. Fuel
+has leaked across the floor, making the area dangerously flammable.
+A passage leads &Ysouth&d to &RTinkers' Court&d, the heart of Gnomeregan's
+government.
+~
+#EXIT
+Direction east~
+ToRoom    14531
+Desc      The bay continues to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14550
+Desc      A passage leads to Tinkers' Court.
+~
+#ENDEXIT
+
+Reset M 0 14506 2 14532
+Reset M 0 14520 2 14532
+Reset O 0 14517 1 14532
+#ENDROOM
+
+#ROOM
+Vnum     14533
+Name     &RLaunch Bay - Upper Catwalk&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This catwalk runs along the upper walls of the Launch Bay, providing
+access to the launch mechanisms and maintenance platforms. The view of
+the devastation below is sobering. Alarm-O-Bots patrol this level,
+watching for intruders.
+~
+#EXIT
+Direction down~
+ToRoom    14531
+Desc      The central platform lies below.
+~
+#ENDEXIT
+
+Reset M 0 14520 3 14533
+Reset M 0 14521 1 14533
+#ENDROOM
+
+#ROOM
+Vnum     14540
+Name     &xCaverndeep Tunnels - Upper Level&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     These tunnels were dug by Caverndeep troggs who broke through from below
+during the city's fall. The walls are rough and unfinished, a stark
+contrast to the smooth gnomish construction. Trogg totems and crude
+drawings mark their territory. The ramp leads &Yup&d to the Hall of Gears,
+and the tunnels continue &Ydown&d.
+~
+#EXIT
+Direction up~
+ToRoom    14513
+Desc      The ramp leads up to the Hall of Gears.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    14541
+Desc      The tunnels descend deeper.
+~
+#ENDEXIT
+
+Reset M 0 14503 3 14540
+  Reset E 1 14502 1 16
+Reset M 0 14504 2 14540
+#ENDROOM
+
+#ROOM
+Vnum     14541
+Name     &xCaverndeep Tunnels - Middle Level&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The tunnels widen here into a series of chambers where the troggs have
+established their main camp. Crude fire pits cast flickering shadows, and
+the stench of the creatures is overwhelming. They have dragged salvaged
+equipment down here, using it for incomprehensible purposes.
+~
+#EXIT
+Direction east~
+ToRoom    14543
+Desc      A side tunnel leads east.
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    14540
+Desc      The tunnels lead back up.
+~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    14542
+Desc      The tunnels continue deeper.
+~
+#ENDEXIT
+
+Reset M 0 14503 5 14541
+  Reset E 1 14502 1 16
+Reset M 0 14504 3 14541
+Reset M 0 14505 2 14541
+Reset O 0 14502 2 14541
+#ENDROOM
+
+#ROOM
+Vnum     14542
+Name     &xCaverndeep Tunnels - Lower Level&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The deepest level of the trogg tunnels is also the most dangerous.
+&RGrubbis&d, the massive trogg leader, has claimed this area as his throne
+room. The walls are decorated with trophies of his kills—gnome skulls,
+mechanical parts, and worse. His loyal guards surround him constantly.
+~
+#EXIT
+Direction up~
+ToRoom    14541
+Desc      The tunnels lead back up.
+~
+#ENDEXIT
+
+Reset M 0 14512 1 14542
+  Reset E 1 14503 1 16
+Reset M 0 14505 2 14542
+  Reset E 1 14502 1 16
+Reset M 0 14503 3 14542
+Reset O 0 14503 1 14542
+Reset O 0 14502 2 14542
+#ENDROOM
+
+#ROOM
+Vnum     14543
+Name     &xCaverndeep Tunnels - Viscous Fallout's Lair&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This tunnel dead-ends in a pool of the most concentrated radioactive
+waste in Gnomeregan. In this toxic soup dwells &RViscous Fallout&d, a
+massive ooze creature that has achieved a horrible sentience. The glow
+from its body is bright enough to illuminate the entire chamber.
+~
+#EXIT
+Direction west~
+ToRoom    14541
+Desc      The tunnels lead back west.
+~
+#ENDEXIT
+
+Reset M 0 14513 1 14543
+Reset M 0 14509 2 14543
+Reset O 0 14525 3 14543
+Reset O 0 14511 1 14543
+#ENDROOM
+
+#ROOM
+Vnum     14550
+Name     &RTinkers' Court - North Entrance&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     &RTinkers' Court&d was the governmental heart of Gnomeregan, where the
+High Tinker and the Council of Engineers administered the city. Now it
+is a war zone, contested between security constructs, leper gnomes, and
+worse. The ornate architecture is scarred by battle damage and radiation.
+The Launch Bay lies &Ynorth&d, and the Court continues &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14532
+Desc      The Launch Bay lies to the north.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14551
+Desc      Tinkers' Court continues to the south.
+~
+#ENDEXIT
+
+Reset M 0 14508 1 14550
+Reset M 0 14502 2 14550
+  Reset E 1 14501 1 16
+#ENDROOM
+
+#ROOM
+Vnum     14551
+Name     &RTinkers' Court - Central Forum&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The central forum was once a place of debate and innovation. A raised
+platform held the High Tinker's seat, now empty. Screens that once
+displayed engineering marvels are dark or show only static. &RElectrocutioner
+6000&d patrols this area, devastating anything that moves with electrical
+discharges.
+~
+#EXIT
+Direction north~
+ToRoom    14550
+Desc      The north entrance lies ahead.
+~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    14552
+Desc      The council chambers lie to the east.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14553
+Desc      Tinkers' Court continues to the south.
+~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14554
+Desc      The archive lies to the west.
+~
+#ENDEXIT
+
+Reset M 0 14514 1 14551
+Reset M 0 14507 2 14551
+Reset O 0 14504 1 14551
+#ENDROOM
+
+#ROOM
+Vnum     14552
+Name     &RTinkers' Court - Council Chambers&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The Council of Engineers met in this circular chamber to debate policy
+and approve new inventions. The comfortable seats are overturned, and
+scorch marks cover the walls. Dark Iron agents have been seen here,
+searching for something among the records.
+~
+#EXIT
+Direction west~
+ToRoom    14551
+Desc      The central forum lies to the west.
+~
+#ENDEXIT
+
+Reset M 0 14511 2 14552
+Reset M 0 14502 2 14552
+Reset O 0 14517 2 14552
+Reset O 0 14521 1 14552
+#ENDROOM
+
+#ROOM
+Vnum     14553
+Name     &RTinkers' Court - South Passage&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     This passage connects the Court to the deeper sections of Gnomeregan
+where Thermaplugg has established his stronghold. The security increases
+dramatically here—heavy constructs and walking bombs patrol constantly.
+The forum lies &Ynorth&d, and the passage continues &Ysouth&d toward the
+final confrontation.
+~
+#EXIT
+Direction north~
+ToRoom    14551
+Desc      The central forum lies to the north.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14560
+Desc      The passage continues toward Thermaplugg's domain.
+~
+#ENDEXIT
+
+Reset M 0 14508 1 14553
+Reset M 0 14522 3 14553
+Reset M 0 14520 2 14553
+#ENDROOM
+
+#ROOM
+Vnum     14554
+Name     &RTinkers' Court - Archive&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The archive held records of every invention, patent, and engineering
+breakthrough in Gnomeregan's history. Most has been destroyed or
+corrupted, but some data crystals remain intact. Leper gnomes
+occasionally wander in, drawn by fragmentary memories of their former
+lives.
+~
+#EXIT
+Direction east~
+ToRoom    14551
+Desc      The central forum lies to the east.
+~
+#ENDEXIT
+
+Reset M 0 14500 3 14554
+Reset M 0 14501 2 14554
+Reset O 0 14517 3 14554
+Reset O 0 14514 1 14554
+#ENDROOM
+
+#ROOM
+Vnum     14560
+Name     &RThermaplugg's Domain - Outer Chamber&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     You enter the domain of the traitor &RMekgineer Thermaplugg&d. The walls
+are lined with active bomb dispensers, and warning lights flash constantly.
+&RCrowd Pummeler 9-60&d guards this outer chamber, programmed to destroy
+anyone who threatens its master. The passage leads &Ynorth&d, and the inner
+sanctum lies &Ysouth&d.
+~
+#EXIT
+Direction north~
+ToRoom    14553
+Desc      The passage leads back to Tinkers' Court.
+~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14561
+Desc      The inner sanctum lies ahead.
+~
+#ENDEXIT
+
+Reset M 0 14515 1 14560
+Reset M 0 14522 4 14560
+Reset M 0 14525 1 14560
+Reset O 0 14505 1 14560
+#ENDROOM
+
+#ROOM
+Vnum     14561
+Name     &RThermaplugg's Inner Sanctum&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The heart of Gnomeregan's corruption, this chamber serves as &RMekgineer
+Thermaplugg's&d throne room and workshop. Banks of monitors display views
+throughout the city, and bomb dispensers line every wall. At the center,
+Thermaplugg himself sits in a massive battle suit, surrounded by his most
+dangerous creations. His eyes gleam with insane brilliance as he plots
+the destruction of all who would challenge him.
+~
+#EXIT
+Direction north~
+ToRoom    14560
+Desc      The outer chamber lies to the north.
+~
+#ENDEXIT
+
+Reset M 0 14516 1 14561
+  Reset E 1 14506 1 16
+  Reset E 1 14507 1 4
+Reset M 0 14522 2 14561
+Reset M 0 14525 1 14561
+Reset O 0 14524 1 14561
+Reset O 0 14506 1 14561
+#ENDROOM
+
+#ENDAREA

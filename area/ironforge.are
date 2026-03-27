@@ -3,10 +3,13 @@
 Version      1
 Name         Ironforge~
 Author       Feenom~
+Type         1
+Continent    Eastern Kingdoms~
 WeatherX     0
 WeatherY     0
 Ranges       1 10 0 60
 Economy      0 50000000
+ResetFreq    15
 #ENDAREADATA
 
 #MOBILE
@@ -20,20 +23,18 @@ Mountaineers. A well-oiled rifle rests in his hands, and his keen eyes
 scan for threats. His braided beard is tucked into his belt to keep it
 clear of his weapon.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 50 0 0 1000 5000
 Stats2     50 50 500
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    15 13 14 10 10 10 10
+Stats       15 10 10 13 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -46,20 +47,18 @@ Desc       Clad in gleaming plate armor engraved with dwarven runes, this defend
 carries a massive warhammer that looks capable of crushing stone. His
 helm is adorned with ram horns, a symbol of Ironforge's strength.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 55 0 0 1200 6000
 Stats2     55 55 600
 Stats3     8 15 30
 Stats4     0 0 0 0 0
-Attribs    16 12 15 10 10 10 10
+Stats       16 10 10 12 15
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -73,20 +72,18 @@ silver beard that reaches his knees. He wears a crown of mithril and
 diamonds, and his ancient warhammer &WFearbreaker&d rests across his lap.
 His eyes hold the wisdom of ages and the fire of a warrior king.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 63 0 0 50000 100000
 Stats2     63 63 10000
 Stats3     100 200 400
 Stats4     0 0 0 0 0
-Attribs    20 15 20 12 14 10 10
+Stats       20 12 14 15 20
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -100,20 +97,18 @@ will ever learn. His spectacles are thick, his beard is white, and his
 robes are stained with ink. He serves as advisor to the king on matters
 of archaeology and ancient lore.
 ~
-Race       dwarf~
-Class      mage~
+Race       Dwarf~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 45 0 0 500 2000
 Stats2     45 45 400
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    10 14 12 16 12 10 10
+Stats       10 16 12 14 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -126,20 +121,18 @@ Desc       A jovial dwarf with a red nose and a belly that speaks of sampling to
 much of his own ale, Thulfadin runs the Stonefire Tavern with a warm
 smile and a heavy hand for those who cause trouble.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 35 0 0 300 1000
 Stats2     35 35 300
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    14 12 14 10 10 10 10
+Stats       14 10 10 12 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -152,20 +145,18 @@ Desc       This young dwarven woman has her auburn hair tied back in a practical
 braid. She moves with surprising grace despite the heavy tray she carries,
 and her laughter rings out frequently above the tavern's din.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     female~
+Gender     Female~
 Actflags   npc sentinel stayarea~
 Stats1     0 20 0 0 150 500
 Stats2     20 20 200
 Stats3     2 4 8
 Stats4     0 0 0 0 0
-Attribs    11 14 12 10 10 10 10
+Stats       11 10 10 14 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -178,20 +169,18 @@ Desc       This impeccably dressed dwarf has a voice that carries across the ent
 hall. His ledger is always in hand, and his quick eyes miss nothing when
 it comes to commerce. His red beard is waxed to perfection.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 40 0 0 400 1500
 Stats2     40 40 350
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    12 15 13 12 10 10 10
+Stats       12 12 10 15 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -204,20 +193,18 @@ Desc       This stern-faced dwarf wears a monocle and an expression of permanent
 suspicion. He guards the wealth of Ironforge's citizens with legendary
 dedication. It is said he sleeps in the vault itself.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 42 0 0 450 1800
 Stats2     42 42 380
 Stats3     3 7 14
 Stats4     0 0 0 0 0
-Attribs    12 14 13 13 10 10 10
+Stats       12 13 10 14 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -231,20 +218,18 @@ beard is singed at the edges, and his leather apron bears countless burn
 marks. He is considered one of the finest weaponsmiths in all of Khaz
 Modan.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 48 0 0 600 2500
 Stats2     48 48 450
 Stats3     6 12 24
 Stats4     0 0 0 0 0
-Attribs    18 11 16 10 10 10 10
+Stats       18 10 10 11 16
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -258,20 +243,18 @@ Ironforge. His armor is decorated with feathers, and a gryphon-shaped
 whistle hangs around his neck. The beasts seem to respond to him with
 unusual affection.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 50 0 0 700 3000
 Stats2     50 50 500
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    14 14 14 11 10 10 10
+Stats       14 11 10 14 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -286,19 +269,17 @@ and its sharp eyes miss nothing. A leather saddle is strapped to its
 back for riders.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc sentinel stayarea~
 Stats1     0 40 0 0 500 2000
 Stats2     40 40 400
 Stats3     8 16 32
 Stats4     0 0 0 0 0
-Attribs    16 16 14 10 10 10 10
+Stats       16 10 10 16 14
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -311,20 +292,18 @@ Desc       Dressed in robes of white and gold, this dwarven priest serves the
 Holy Light. A gentle glow seems to emanate from his hands as he tends
 to the spiritual needs of Ironforge's faithful.
 ~
-Race       dwarf~
-Class      cleric~
+Race       Dwarf~
+Class      Cleric~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 38 0 0 350 1200
 Stats2     38 38 320
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    11 12 13 14 16 10 10
+Stats       11 14 16 12 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -338,20 +317,18 @@ picks, brushes, and other excavation tools. Dirt cakes his boots and
 knees from recent fieldwork, and his eyes light up at the mention of
 ancient relics.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 30 0 0 250 800
 Stats2     30 30 280
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    12 13 12 14 10 10 10
+Stats       12 14 10 13 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -364,20 +341,18 @@ Desc       This burly dwarf carries a heavy pickaxe over one shoulder and a sack
 of ore samples over the other. His face is blackened with coal dust, and
 he can identify any mineral by sight or taste.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 25 0 0 200 600
 Stats2     25 25 250
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    15 11 14 10 10 10 10
+Stats       15 10 10 11 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -390,20 +365,18 @@ Desc       This diminutive gnome has wild white hair and goggles pushed up on hi
 forehead. Grease stains cover his overalls, and various tools poke from
 every pocket. A faint smell of gunpowder follows him everywhere.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 35 0 0 300 1000
 Stats2     35 35 300
 Stats3     2 5 10
 Stats4     0 0 0 0 0
-Attribs    8 16 10 18 10 10 10
+Stats       8 18 10 16 10
 Saves      0 0 0 0 0
-Speaks     common gnomish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -416,20 +389,18 @@ Desc       Scars crisscross this dwarf's exposed arms and face. He wears spiked
 armor designed to damage enemies who get too close, and twin axes hang
 from his belt. His eyes hold a gleeful madness when he speaks of combat.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 45 0 0 550 2200
 Stats2     45 45 420
 Stats3     8 15 30
 Stats4     0 0 0 0 0
-Attribs    17 13 16 10 10 10 10
+Stats       17 10 10 13 16
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -443,20 +414,18 @@ magnificent golden beard is often damp with foam, and he carries a
 tasting mug at all times. He is the master of Ironforge's legendary
 breweries.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 40 0 0 400 1500
 Stats2     40 40 350
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    14 12 15 11 10 10 10
+Stats       14 11 10 12 15
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -469,20 +438,18 @@ Desc       This dwarf works in the ram pens, caring for the sturdy mountain rams
 that serve as mounts for Ironforge's warriors. He smells strongly of
 animal and hay, and carries treats in his pockets for his charges.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 28 0 0 220 700
 Stats2     28 28 260
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    14 12 13 10 10 10 10
+Stats       14 10 10 12 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -496,19 +463,17 @@ and wool so thick it serves as natural armor. Dwarves prize these beasts
 as mounts for their sure-footedness and stubborn courage.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 20 0 0 180 500
 Stats2     20 20 200
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    16 10 15 6 10 10 10
+Stats       16 6 10 10 15
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -521,20 +486,18 @@ Desc       This well-dressed dwarf has a keen eye for profit. His cart is laden
 with goods from across the Alliance, and he can haggle with the best of
 them. Gold coins jingle in his many pockets.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 32 0 0 280 900
 Stats2     32 32 290
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    12 14 12 12 10 10 10
+Stats       12 12 10 14 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -547,20 +510,18 @@ Desc       This ordinary dwarf is one of the many citizens who call Ironforge ho
 They might be a baker, a craftsman, a scholar, or any of a hundred other
 professions that keep the great city running.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 15 0 0 100 300
 Stats2     15 15 150
 Stats3     2 4 8
 Stats4     0 0 0 0 0
-Attribs    12 11 12 10 10 10 10
+Stats       12 10 10 11 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -573,20 +534,18 @@ Desc       This dignified dwarf wears the formal robes of Ironforge's Senate. He
 gold chains of office hang around his neck, and his beard is elaborately
 braided with clan tokens. He speaks with the weight of political authority.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 50 0 0 800 3500
 Stats2     50 50 550
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    13 14 14 15 12 10 10
+Stats       13 15 12 14 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -600,20 +559,18 @@ arts. His robes are embroidered with mystical symbols, and his staff
 crackles with contained energy. Other dwarves regard him with a mixture
 of respect and unease.
 ~
-Race       dwarf~
-Class      mage~
+Race       Dwarf~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 42 0 0 450 1800
 Stats2     42 42 380
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    10 14 12 17 13 10 10
+Stats       10 17 13 14 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -627,20 +584,18 @@ engineering. His eyes are sharp from years of marksmanship, and his
 steady hands have felled enemies at incredible distances. A mechanical
 scope is attached to his weapon.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 44 0 0 520 2100
 Stats2     44 44 400
 Stats3     6 12 24
 Stats4     0 0 0 0 0
-Attribs    13 16 13 12 10 10 10
+Stats       13 12 10 16 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -654,20 +609,18 @@ devoted his life to justice and protection. A warhammer bearing the
 symbol of the Silver Hand hangs at his side, and a faint golden aura
 seems to surround him.
 ~
-Race       dwarf~
-Class      cleric~
+Race       Dwarf~
+Class      Cleric~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 52 0 0 900 4000
 Stats2     52 52 600
 Stats3     8 15 30
 Stats4     0 0 0 0 0
-Attribs    15 12 15 11 16 10 10
+Stats       15 11 16 12 15
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -680,26 +633,25 @@ Desc       This portly dwarf wears a stained apron and a tall chef's hat. The
 aromas of roasting meat and baking bread follow him everywhere. He takes
 great pride in the hearty cuisine that sustains Ironforge's population.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 25 0 0 200 600
 Stats2     25 25 250
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    13 12 13 10 10 10 10
+Stats       13 10 10 12 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #OBJECT
 Vnum     14000
 Keywords rifle ironforge dwarven~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    an Ironforge rifle~
 Long     A finely crafted dwarven rifle lies here.~
 WFlags   take wield~
@@ -711,6 +663,7 @@ Stats    25 200 25 0 0
 Vnum     14001
 Keywords hammer war dwarven~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a dwarven warhammer~
 Long     A heavy dwarven warhammer rests here.~
 WFlags   take wield~
@@ -722,6 +675,7 @@ Stats    20 150 20 0 0
 Vnum     14002
 Keywords axe battle dwarven~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a dwarven battleaxe~
 Long     A gleaming dwarven battleaxe lies here.~
 WFlags   take wield~
@@ -733,6 +687,7 @@ Stats    22 175 22 0 0
 Vnum     14003
 Keywords shield bronze dwarven~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a bronze dwarven shield~
 Long     A sturdy bronze shield with dwarven runes lies here.~
 WFlags   take shield~
@@ -744,6 +699,7 @@ Stats    15 100 15 0 0
 Vnum     14004
 Keywords helm ram horned~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a ram-horned helm~
 Long     A helm adorned with curling ram horns lies here.~
 WFlags   take head~
@@ -755,6 +711,7 @@ Stats    18 120 18 0 0
 Vnum     14005
 Keywords breastplate plate dwarven~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a dwarven plate breastplate~
 Long     A heavy dwarven breastplate lies here.~
 WFlags   take body~
@@ -766,6 +723,7 @@ Stats    25 200 25 0 0
 Vnum     14006
 Keywords gauntlets mail dwarven~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of dwarven mail gauntlets~
 Long     A pair of finely wrought mail gauntlets lies here.~
 WFlags   take hands~
@@ -777,6 +735,7 @@ Stats    12 80 12 0 0
 Vnum     14007
 Keywords boots iron dwarven~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of iron-shod boots~
 Long     A pair of heavy iron-shod boots lies here.~
 WFlags   take feet~
@@ -788,6 +747,7 @@ Stats    14 90 14 0 0
 Vnum     14008
 Keywords ale thunderbrew mug~
 Type     drinkcon~
+Continent    Eastern Kingdoms~
 Short    a mug of Thunderbrew Ale~
 Long     A frothy mug of legendary Thunderbrew Ale sits here.~
 WFlags   take hold~
@@ -799,6 +759,7 @@ Stats    1 8 1 0 0
 Vnum     14009
 Keywords stout barleybrew dark~
 Type     drinkcon~
+Continent    Eastern Kingdoms~
 Short    a tankard of Barleybrew Stout~
 Long     A tankard of rich, dark Barleybrew Stout sits here.~
 WFlags   take hold~
@@ -810,6 +771,7 @@ Stats    1 6 1 0 0
 Vnum     14010
 Keywords bread hearty loaf~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a loaf of hearty dwarven bread~
 Long     A dense loaf of dwarven bread sits here.~
 WFlags   take~
@@ -821,6 +783,7 @@ Stats    1 5 1 0 0
 Vnum     14011
 Keywords cheese sharp aged~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a wheel of aged dwarven cheese~
 Long     A wheel of sharp, aged cheese sits here.~
 WFlags   take~
@@ -832,6 +795,7 @@ Stats    1 8 1 0 0
 Vnum     14012
 Keywords sausage spiced links~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a string of spiced sausages~
 Long     A string of delicious spiced sausages hangs here.~
 WFlags   take~
@@ -843,6 +807,7 @@ Stats    1 6 1 0 0
 Vnum     14013
 Keywords roast boar platter~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a platter of roast boar~
 Long     A platter heaped with roast boar sits here.~
 WFlags   take~
@@ -854,6 +819,7 @@ Stats    2 12 2 0 0
 Vnum     14014
 Keywords pickaxe mining mithril~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a mithril mining pickaxe~
 Long     A mithril-headed pickaxe lies here.~
 WFlags   take wield~
@@ -865,6 +831,7 @@ Stats    15 100 15 0 0
 Vnum     14015
 Keywords ore iron chunk~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a chunk of iron ore~
 Long     A heavy chunk of iron ore lies here.~
 WFlags   take~
@@ -876,6 +843,7 @@ Stats    3 15 3 0 0
 Vnum     14016
 Keywords ore copper chunk~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a chunk of copper ore~
 Long     A chunk of copper ore lies here.~
 WFlags   take~
@@ -887,6 +855,7 @@ Stats    2 10 2 0 0
 Vnum     14017
 Keywords ore gold nugget~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a gold nugget~
 Long     A gleaming gold nugget lies here.~
 WFlags   take~
@@ -898,6 +867,7 @@ Stats    1 100 1 0 0
 Vnum     14018
 Keywords gem ruby cut~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a cut ruby~
 Long     A brilliant cut ruby glitters here.~
 WFlags   take~
@@ -909,6 +879,7 @@ Stats    1 150 1 0 0
 Vnum     14019
 Keywords gem sapphire cut~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a cut sapphire~
 Long     A deep blue sapphire lies here.~
 WFlags   take~
@@ -920,6 +891,7 @@ Stats    1 125 1 0 0
 Vnum     14020
 Keywords artifact titan relic~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Titan artifact fragment~
 Long     A mysterious fragment of Titan origin lies here.~
 WFlags   take hold~
@@ -931,6 +903,7 @@ Stats    1 500 1 0 0
 Vnum     14021
 Keywords cloak mountaineer brown~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a brown mountaineer's cloak~
 Long     A thick brown mountaineer's cloak lies here.~
 WFlags   take about~
@@ -942,6 +915,7 @@ Stats    10 60 10 0 0
 Vnum     14022
 Keywords goggles engineering gnomish~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of gnomish engineering goggles~
 Long     A pair of complicated-looking goggles lies here.~
 WFlags   take head~
@@ -953,6 +927,7 @@ Stats    8 75 8 0 0
 Vnum     14023
 Keywords toolbox gnomish engineer~
 Type     container~
+Continent    Eastern Kingdoms~
 Short    a gnomish toolbox~
 Long     A dented gnomish toolbox sits here.~
 WFlags   take hold~
@@ -964,6 +939,7 @@ Stats    5 40 5 0 0
 Vnum     14024
 Keywords lantern dwarven brass~
 Type     light~
+Continent    Eastern Kingdoms~
 Short    a brass dwarven lantern~
 Long     A well-crafted brass lantern sits here.~
 WFlags   take hold~
@@ -975,6 +951,7 @@ Stats    3 25 3 0 0
 Vnum     14025
 Keywords ring signet bronzebeard~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Bronzebeard signet ring~
 Long     A heavy gold signet ring lies here.~
 WFlags   take finger~
@@ -986,6 +963,7 @@ Stats    10 250 10 0 0
 Vnum     14000
 Name     &YThe Gates of Ironforge&d~
 Sector   city~
+Flags    nomob~
 Desc     Massive bronze doors, each standing forty feet tall and inscribed with
 the history of the dwarven people, mark the entrance to &YIronforge&d. The
 doors stand perpetually open in welcome to Alliance travelers, though
@@ -994,19 +972,20 @@ Mountaineers stand vigilant on either side, their rifles gleaming. The
 road from &CDun Morogh&d lies to the &Ysouth&d, while the &WCommons&d await
 within to the &Ynorth&d.
 ~
-Flags    nomob~
 #EXIT
 Direction north~
 ToRoom    14001
 Desc      The great entry hall leads into the Commons.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14700
 Desc      The snow-covered road leads to Dun Morogh.
 ~
 #ENDEXIT
+
 Reset M 0 14000 2 14000
   Reset E 1 14000 1 16
   Reset E 1 14021 1 12
@@ -1030,12 +1009,14 @@ ToRoom    14002
 Desc      The Commons continues deeper into the city.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14000
 Desc      The great gates lead outside.
 ~
 #ENDEXIT
+
 Reset M 0 14001 2 14001
   Reset E 1 14001 1 16
   Reset E 1 14004 1 4
@@ -1061,24 +1042,28 @@ ToRoom    14010
 Desc      The heat of the Great Forge beckons.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14030
 Desc      The Mystic Ward lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14001
 Desc      The entry hall lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14050
 Desc      The Military Ward lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14020 5 14002
 Reset M 0 14019 2 14002
 #ENDROOM
@@ -1100,18 +1085,21 @@ ToRoom    14004
 Desc      The sign of the Stonefire Tavern hangs above a doorway.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14006
 Desc      The walk continues toward the Vault.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14002
 Desc      The central plaza lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14019 2 14003
 Reset M 0 14020 3 14003
 Reset O 0 14010 3 14003
@@ -1122,7 +1110,7 @@ Reset O 0 14011 2 14003
 Vnum     14004
 Name     &YThe Stonefire Tavern&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     Warmth and laughter fill this beloved dwarven tavern. A roaring fire
 crackles in a massive stone hearth, and the smell of roasting meat and
 spilled ale permeates everything. Sturdy wooden tables are crowded with
@@ -1130,23 +1118,26 @@ dwarves telling tales and singing bawdy songs. A long bar runs along the
 &Yeast&d wall, and a staircase leads &Yup&d to guest rooms.
 ~
 #EXIT
-Direction south~
-ToRoom    14003
-Desc      The Commons lies outside.
-~
-#ENDEXIT
-#EXIT
 Direction east~
 ToRoom    14005
 Desc      The bar area lies to the east.
 ~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    14003
+Desc      The Commons lies outside.
+~
+#ENDEXIT
+
 #EXIT
 Direction up~
 ToRoom    14008
 Desc      A staircase leads to the upper rooms.
 ~
 #ENDEXIT
+
 Reset M 0 14004 1 14004
 Reset M 0 14005 2 14004
 Reset M 0 14020 4 14004
@@ -1158,7 +1149,7 @@ Reset O 0 14009 5 14004
 Vnum     14005
 Name     &YThe Stonefire Tavern - Bar&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     A long bar of polished granite dominates this section of the tavern.
 Barrels of ale are stacked behind the counter, and an impressive array
 of mugs, tankards, and bottles line the shelves. The innkeeper presides
@@ -1171,6 +1162,7 @@ ToRoom    14004
 Desc      The main tavern room lies to the west.
 ~
 #ENDEXIT
+
 Reset O 0 14008 10 14005
 Reset O 0 14009 10 14005
 Reset O 0 14012 3 14005
@@ -1194,12 +1186,14 @@ ToRoom    14007
 Desc      Heavy doors lead into the Vault.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14003
 Desc      The eastern walk leads back to the plaza.
 ~
 #ENDEXIT
+
 Reset M 0 14001 2 14006
   Reset E 1 14001 1 16
   Reset E 1 14003 1 15
@@ -1209,7 +1203,7 @@ Reset M 0 14001 2 14006
 Vnum     14007
 Name     &YThe Vault of Ironforge&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     Cool air and the gleam of gold greet you inside Ironforge's legendary
 Vault. Teller windows of reinforced iron line the walls, each manned by
 a sharp-eyed banker. Behind them, the massive vault doors of solid mithril
@@ -1222,6 +1216,7 @@ ToRoom    14006
 Desc      The Commons lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14007 2 14007
 Reset O 0 14017 1 14007
 #ENDROOM
@@ -1230,7 +1225,7 @@ Reset O 0 14017 1 14007
 Vnum     14008
 Name     &YThe Stonefire Tavern - Upper Landing&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     A narrow hallway runs the length of the tavern's upper floor. Doors to
 modest guest rooms line both walls, and the sounds of snoring and muffled
 conversation drift through the wood. A window at the far end overlooks
@@ -1242,6 +1237,7 @@ ToRoom    14004
 Desc      The stairs lead down to the tavern.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
@@ -1261,6 +1257,7 @@ ToRoom    14002
 Desc      The central plaza lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14006 1 14009
 Reset M 0 14019 3 14009
 Reset M 0 14020 4 14009
@@ -1284,18 +1281,21 @@ ToRoom    14011
 Desc      The path circles the forge to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14002
 Desc      The cooler Commons lie to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14014
 Desc      The path circles the forge to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14013 2 14010
 Reset M 0 14020 3 14010
 #ENDROOM
@@ -1317,18 +1317,21 @@ ToRoom    14012
 Desc      The ring continues north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14015
 Desc      A master smithy lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14010
 Desc      The southern entrance lies behind you.
 ~
 #ENDEXIT
+
 Reset M 0 14008 1 14011
 Reset M 0 14013 1 14011
 Reset O 0 14015 3 14011
@@ -1352,18 +1355,21 @@ ToRoom    14020
 Desc      The High Seat of Ironforge lies beyond.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14011
 Desc      The ring continues to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14013
 Desc      The ring continues to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14008 1 14012
 Reset M 0 14020 2 14012
 #ENDROOM
@@ -1385,18 +1391,21 @@ ToRoom    14012
 Desc      The ring continues north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14014
 Desc      The ring continues south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14016
 Desc      An armor workshop lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14013 2 14013
 Reset M 0 14020 2 14013
 Reset O 0 14005 2 14013
@@ -1419,12 +1428,14 @@ ToRoom    14013
 Desc      The ring continues north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14010
 Desc      The southern entrance lies to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14013 2 14014
 Reset M 0 14020 2 14014
 #ENDROOM
@@ -1446,6 +1457,7 @@ ToRoom    14011
 Desc      The forge ring lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14008 1 14015
 Reset O 0 14001 1 14015
 Reset O 0 14002 1 14015
@@ -1468,6 +1480,7 @@ ToRoom    14013
 Desc      The forge ring lies to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14013 1 14016
 Reset O 0 14003 2 14016
 Reset O 0 14004 2 14016
@@ -1479,7 +1492,7 @@ Reset O 0 14007 2 14016
 Vnum     14020
 Name     &WThe High Seat - Antechamber&d~
 Sector   city~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     You enter the antechamber of the &WHigh Seat&d, the throne room of
 Ironforge's king. Royal guards in ceremonial armor stand at attention,
 their eyes watching every visitor. Banners bearing the Bronzebeard crest
@@ -1492,12 +1505,14 @@ ToRoom    14021
 Desc      The throne room awaits beyond.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14012
 Desc      The Great Forge lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14001 2 14020
   Reset E 1 14001 1 16
   Reset E 1 14004 1 4
@@ -1508,7 +1523,7 @@ Reset M 0 14001 2 14020
 Vnum     14021
 Name     &WThe High Seat - Throne Room&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     The throne room of Ironforge is a chamber of breathtaking grandeur.
 Massive pillars carved with the complete history of the dwarven people
 support a ceiling lost in shadow. At the far end, upon a throne of
@@ -1523,18 +1538,21 @@ ToRoom    14022
 Desc      The war room lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14020
 Desc      The antechamber lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14023
 Desc      The Senate chamber lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14002 1 14021
   Reset E 1 14001 1 16
   Reset E 1 14004 1 4
@@ -1549,7 +1567,7 @@ Reset M 0 14001 2 14021
 Vnum     14022
 Name     &WThe High Seat - War Room&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     A massive stone table dominates this chamber, its surface carved into a
 detailed map of Khaz Modan and the surrounding regions. Miniature figures
 representing troop positions are scattered across the map. Military
@@ -1562,6 +1580,7 @@ ToRoom    14021
 Desc      The throne room lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14023 2 14022
   Reset E 1 14000 1 16
 Reset M 0 14015 2 14022
@@ -1572,7 +1591,7 @@ Reset M 0 14015 2 14022
 Vnum     14023
 Name     &WThe High Seat - Senate Chamber&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     The Senate of Ironforge meets in this circular chamber. Stone benches
 arranged in tiers surround a central speaking platform, where thanes
 from every major clan gather to debate law and policy. The acoustics
@@ -1585,6 +1604,7 @@ ToRoom    14021
 Desc      The throne room lies to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14021 4 14023
 Reset M 0 14003 1 14023
 #ENDROOM
@@ -1606,12 +1626,14 @@ ToRoom    14031
 Desc      The Mystic Ward continues deeper.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14002
 Desc      The Commons lie to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14022 1 14030
 Reset M 0 14020 2 14030
 #ENDROOM
@@ -1634,18 +1656,21 @@ ToRoom    14032
 Desc      The Hall of Mysteries beckons.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14034
 Desc      The Temple of Light lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14030
 Desc      The ward entrance lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14022 2 14031
 Reset M 0 14020 2 14031
 #ENDROOM
@@ -1667,18 +1692,21 @@ ToRoom    14033
 Desc      The portal chamber lies beyond.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14036
 Desc      The arcane library lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14031
 Desc      The central chamber lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14022 2 14032
 Reset O 0 14020 1 14032
 #ENDROOM
@@ -1700,6 +1728,7 @@ ToRoom    14032
 Desc      The Hall of Mysteries lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14022 1 14033
 #ENDROOM
 
@@ -1707,7 +1736,7 @@ Reset M 0 14022 1 14033
 Vnum     14034
 Name     &WThe Temple of Light&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     Soft golden light suffuses this serene temple dedicated to the Holy Light.
 Rows of stone pews face an altar of white marble, upon which an eternal
 flame burns without heat. Priests in white and gold robes tend to the
@@ -1720,12 +1749,14 @@ ToRoom    14031
 Desc      The Mystic Ward lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14035
 Desc      The meditation chambers lie to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14011 2 14034
 Reset M 0 14024 1 14034
   Reset E 1 14001 1 16
@@ -1736,7 +1767,7 @@ Reset M 0 14024 1 14034
 Vnum     14035
 Name     &WTemple Meditation Chambers&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     Small meditation cells line this quiet corridor, each providing a private
 space for prayer and contemplation. Candles flicker in wall sconces, and
 the distant sound of hymns drifts through the air. This is a place of
@@ -1748,6 +1779,7 @@ ToRoom    14034
 Desc      The main temple lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14011 1 14035
 #ENDROOM
 
@@ -1768,6 +1800,7 @@ ToRoom    14032
 Desc      The Hall of Mysteries lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14022 1 14036
 Reset M 0 14012 1 14036
 #ENDROOM
@@ -1789,12 +1822,14 @@ ToRoom    14002
 Desc      The Commons lie to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14051
 Desc      The Military Ward continues deeper.
 ~
 #ENDEXIT
+
 Reset M 0 14000 2 14050
   Reset E 1 14000 1 16
   Reset E 1 14021 1 12
@@ -1819,24 +1854,28 @@ ToRoom    14052
 Desc      The barracks lie to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14050
 Desc      The ward entrance lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14054
 Desc      The armory lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14060
 Desc      The gryphon roost lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14015 4 14051
   Reset E 1 14002 1 16
   Reset E 1 14004 1 4
@@ -1860,12 +1899,14 @@ ToRoom    14053
 Desc      The mess hall lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14051
 Desc      The training grounds lie to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14015 3 14052
 Reset M 0 14023 2 14052
 Reset O 0 14002 2 14052
@@ -1888,6 +1929,7 @@ ToRoom    14052
 Desc      The barracks lie to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14025 2 14053
 Reset M 0 14020 4 14053
 Reset O 0 14010 5 14053
@@ -1913,6 +1955,7 @@ ToRoom    14051
 Desc      The training grounds lie to the north.
 ~
 #ENDEXIT
+
 Reset M 0 14001 1 14054
   Reset E 1 14001 1 16
   Reset E 1 14005 1 7
@@ -1943,18 +1986,21 @@ ToRoom    14061
 Desc      The nesting area lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14051
 Desc      The Military Ward lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14062
 Desc      The flight platform lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14017 1 14060
 Reset M 0 14018 2 14060
 #ENDROOM
@@ -1975,6 +2021,7 @@ ToRoom    14060
 Desc      The roost entrance lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14010 4 14061
 Reset M 0 14017 1 14061
 #ENDROOM
@@ -1995,6 +2042,7 @@ ToRoom    14060
 Desc      The roost entrance lies to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14009 1 14062
 Reset M 0 14010 2 14062
 #ENDROOM
@@ -2017,12 +2065,14 @@ ToRoom    14071
 Desc      Tinker Town continues deeper.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14002
 Desc      The Commons lie to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14014 2 14070
 Reset M 0 14020 2 14070
 #ENDROOM
@@ -2045,18 +2095,21 @@ ToRoom    14072
 Desc      The engineering hall lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14070
 Desc      The entrance lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14075
 Desc      The Deeprun Tram station lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14014 3 14071
 Reset O 0 14022 2 14071
 Reset O 0 14023 2 14071
@@ -2079,12 +2132,14 @@ ToRoom    14073
 Desc      The testing chamber lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14071
 Desc      The central workshop lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14014 2 14072
 Reset O 0 14024 2 14072
 #ENDROOM
@@ -2105,6 +2160,7 @@ ToRoom    14072
 Desc      The engineering hall lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14014 1 14073
 #ENDROOM
 
@@ -2125,6 +2181,7 @@ ToRoom    14071
 Desc      The central workshop lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14014 2 14074
 Reset M 0 14020 3 14074
 Reset O 0 14022 1 14074
@@ -2147,6 +2204,7 @@ ToRoom    14071
 Desc      Tinker Town lies to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14014 1 14075
 Reset M 0 14020 2 14075
 #ENDROOM
@@ -2168,12 +2226,14 @@ ToRoom    14081
 Desc      The main hall lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14002
 Desc      The Commons lie to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14012 1 14080
 Reset M 0 14020 2 14080
 #ENDROOM
@@ -2195,18 +2255,21 @@ ToRoom    14082
 Desc      The library lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14080
 Desc      The entrance lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14083
 Desc      The map room lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14003 1 14081
 Reset M 0 14012 2 14081
 Reset O 0 14020 1 14081
@@ -2228,6 +2291,7 @@ ToRoom    14081
 Desc      The main hall lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14012 1 14082
 #ENDROOM
 
@@ -2248,6 +2312,7 @@ ToRoom    14081
 Desc      The main hall lies to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14003 1 14083
 Reset M 0 14012 1 14083
 #ENDROOM
@@ -2269,12 +2334,14 @@ ToRoom    14091
 Desc      A shadowy tavern lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14002
 Desc      The Commons lie to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14020 3 14090
 #ENDROOM
 
@@ -2282,7 +2349,7 @@ Reset M 0 14020 3 14090
 Vnum     14091
 Name     &xThe Shady Lady Tavern&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     This dimly lit tavern caters to a clientele that prefers anonymity.
 Booths with high backs line the walls, allowing private conversations.
 The bartender asks no questions and remembers no faces. It's said that
@@ -2294,6 +2361,7 @@ ToRoom    14090
 Desc      The Forlorn Cavern lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14004 1 14091
 Reset O 0 14008 3 14091
 Reset O 0 14009 3 14091
@@ -2316,9 +2384,9 @@ ToRoom    14002
 Desc      The Commons lie to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14017 2 14095
 Reset M 0 14018 4 14095
 #ENDROOM
 
 #ENDAREA
-

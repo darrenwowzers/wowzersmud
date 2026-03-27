@@ -3,10 +3,12 @@
 Version      1
 Name         Dun Morogh~
 Author       Feenom~
+Type         0
 WeatherX     0
 WeatherY     0
 Ranges       1 10 0 60
 Economy      0 15000000
+ResetFreq    15
 #ENDAREADATA
 
 #MOBILE
@@ -21,19 +23,17 @@ forces, and they attack anything that moves. Drool drips from its fanged
 mouth as it sizes you up.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 5 0 0 40 120
 Stats2     5 5 55
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    14 8 12 6 10 10 10
+Stats       14 6 10 8 12
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -47,19 +47,17 @@ for Stonesplinter raiding parties. Its eyes dart nervously, and it clutches
 a jagged stone knife.
 ~
 Race       humanoid~
-Class      thief~
+Class      Thief~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 4 0 0 30 90
 Stats2     4 4 45
 Stats3     2 5 10
 Stats4     0 0 0 0 0
-Attribs    11 12 10 6 10 10 10
+Stats       11 6 10 12 10
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -73,19 +71,17 @@ a glowing crystal. It possesses a primitive connection to elemental forces,
 making it far more dangerous than its savage brethren.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 7 0 0 60 180
 Stats2     7 7 80
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    10 10 10 12 10 10 10
+Stats       10 12 10 10 10
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -100,19 +96,17 @@ burn with cunning intelligence rare among troggkind. It wields a massive
 icicle as a club, and lesser troggs cower in its presence.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 10 0 0 300 800
 Stats2     10 10 200
 Stats3     10 20 40
 Stats4     0 0 0 0 0
-Attribs    17 10 15 8 10 10 10
+Stats       17 8 10 10 15
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -127,19 +121,17 @@ can freeze the blood of the bravest warrior. Wendigos are solitary hunters,
 preying on anything foolish enough to enter their territory.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 8 0 0 100 300
 Stats2     8 8 120
 Stats3     8 15 30
 Stats4     0 0 0 0 0
-Attribs    18 10 16 6 10 10 10
+Stats       18 6 10 10 16
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -153,19 +145,17 @@ has haunted Dun Morogh since before the dwarves carved their first hold.
 Countless hunters have sought its head as a trophy—none have returned.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 12 0 0 500 1200
 Stats2     12 12 350
 Stats3     15 30 60
 Stats4     0 0 0 0 0
-Attribs    20 10 18 6 10 10 10
+Stats       20 6 10 10 18
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -180,19 +170,17 @@ over territory in the frozen peaks. It carries a crude axe and wears
 trophies taken from fallen enemies.
 ~
 Race       troll~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 6 0 0 55 160
 Stats2     6 6 70
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    14 12 13 8 10 10 10
+Stats       14 8 10 12 13
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -207,19 +195,17 @@ trophies. Its spear is tipped with sharpened bone, and it throws with
 deadly accuracy.
 ~
 Race       troll~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 8 0 0 80 240
 Stats2     8 8 100
 Stats3     6 12 24
 Stats4     0 0 0 0 0
-Attribs    15 14 14 8 10 10 10
+Stats       15 8 10 14 14
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -234,19 +220,17 @@ eyes glow with an eerie inner light. Even other trolls give it a wide
 berth.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 9 0 0 90 270
 Stats2     9 9 110
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    11 12 11 14 10 10 10
+Stats       11 14 10 12 11
 Saves      0 0 0 0 0
-Speaks     common~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -260,19 +244,17 @@ thick hide is covered in coarse gray fur, and its tusks are chipped from
 rooting through frozen soil. It is aggressive when startled.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 3 0 0 25 75
 Stats2     3 3 35
 Stats3     2 4 8
 Stats4     0 0 0 0 0
-Attribs    13 10 12 6 10 10 10
+Stats       13 6 10 10 12
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -286,19 +268,17 @@ tusks are long and sharp, and scars crisscross its thick hide. It has
 learned to fear nothing and will charge anything that threatens it.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 6 0 0 50 150
 Stats2     6 6 65
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    15 10 14 6 10 10 10
+Stats       15 6 10 10 14
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -312,19 +292,17 @@ It hunts in packs, coordinating attacks with eerie intelligence. Its eyes
 are pale blue, almost glowing in the dim light.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 4 0 0 30 100
 Stats2     4 4 45
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    12 14 11 8 10 10 10
+Stats       12 8 10 14 11
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -339,19 +317,17 @@ dominance fights, and its howl can be heard for miles across the frozen
 peaks.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc aggressive stayarea~
 Stats1     0 7 0 0 70 210
 Stats2     7 7 90
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    14 15 13 8 10 10 10
+Stats       14 8 10 15 13
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -365,20 +341,18 @@ radiation exposure. Its skin is green and peeling, its eyes glow sickly,
 and its mind has been shattered. It attacks anything it sees with
 mindless fury.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc aggressive stayarea~
 Stats1     0 5 0 0 35 110
 Stats2     5 5 50
 Stats3     2 5 10
 Stats4     0 0 0 0 0
-Attribs    10 13 8 12 10 10 10
+Stats       10 12 10 13 8
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -392,20 +366,18 @@ Ironforge's frontier guard. He patrols the roads of Dun Morogh, protecting
 travelers from troggs, trolls, and worse. His rifle is well-maintained,
 and his eyes are sharp.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 12 0 0 150 450
 Stats2     12 12 180
 Stats3     6 12 24
 Stats4     0 0 0 0 0
-Attribs    14 13 14 10 10 10 10
+Stats       14 10 10 13 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -418,20 +390,18 @@ Desc       This veteran Mountaineer has spent decades patrolling Coldridge Valle
 His beard is white as snow, and his eyes still sharp despite his age. He
 trains new recruits in the ways of survival and marksmanship.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 10 0 0 120 350
 Stats2     10 10 150
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    13 14 13 11 10 10 10
+Stats       13 11 10 14 13
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -444,20 +414,18 @@ Desc       A stout dwarf with a friendly face and a magnificent red beard, Belm
 runs the Thunderbrew Distillery's taproom in Kharanos. He knows everyone
 in town and has a talent for making travelers feel welcome.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 15 0 0 100 300
 Stats2     15 15 150
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    13 12 14 10 10 10 10
+Stats       13 10 10 12 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -471,20 +439,18 @@ mountains. Despite his predicament, he remains cheerful, confident that
 he can repair the device—if only someone could find the scattered parts.
 His goggles are pushed up on his forehead.
 ~
-Race       gnome~
-Class      warrior~
+Race       Gnome~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 12 0 0 80 250
 Stats2     12 12 120
 Stats3     2 4 8
 Stats4     0 0 0 0 0
-Attribs    8 16 10 17 10 10 10
+Stats       8 17 10 16 10
 Saves      0 0 0 0 0
-Speaks     common gnomish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -498,20 +464,18 @@ the small settlement in Coldridge Valley. He takes his duty seriously,
 watching for trogg incursions and helping new adventurers find their
 footing.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 10 0 0 130 400
 Stats2     10 10 160
 Stats3     6 12 24
 Stats4     0 0 0 0 0
-Attribs    15 12 14 10 10 10 10
+Stats       15 10 10 12 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -525,20 +489,18 @@ Frostbrew Lager is renowned throughout Dun Morogh, and he guards his
 recipes jealously. His apron is perpetually stained, and he smells of
 hops and barley.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 18 0 0 100 300
 Stats2     18 18 150
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    13 11 14 12 10 10 10
+Stats       13 12 10 11 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -551,20 +513,18 @@ Desc       This merchant sells essential supplies to travelers and adventurers
 passing through Dun Morogh. His cart is loaded with food, water, torches,
 and other necessities for surviving the frozen wilderness.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 12 0 0 80 250
 Stats2     12 12 120
 Stats3     2 4 8
 Stats4     0 0 0 0 0
-Attribs    12 13 12 11 10 10 10
+Stats       12 11 10 13 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -577,20 +537,18 @@ Desc       This ordinary dwarf is one of the hardy folk who make their home in D
 Morogh's scattered settlements. Whether farmer, craftsman, or laborer,
 they endure the harsh conditions with typical dwarven stubbornness.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 8 0 0 50 150
 Stats2     8 8 80
 Stats3     2 4 8
 Stats4     0 0 0 0 0
-Attribs    12 11 12 10 10 10 10
+Stats       12 10 10 11 12
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -604,19 +562,17 @@ freely, its magnificent curling horns marking it as a dominant male. It
 will flee from most threats but will charge if cornered.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 4 0 0 35 100
 Stats2     4 4 50
 Stats3     3 6 12
 Stats4     0 0 0 0 0
-Attribs    14 12 13 6 10 10 10
+Stats       14 6 10 12 13
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -630,19 +586,17 @@ freezes at the slightest sound, hoping predators will pass it by. Its
 meat is prized by hunters, and its fur makes warm gloves.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc stayarea~
 Stats1     0 1 0 0 5 15
 Stats2     1 1 10
 Stats3     1 1 2
 Stats4     0 0 0 0 0
-Attribs    6 16 8 6 10 10 10
+Stats       6 6 10 16 8
 Saves      0 0 0 0 0
-Speaks     ~
-Speaking   ~
 #ENDMOBILE
 
 #MOBILE
@@ -655,20 +609,18 @@ Desc       This sturdy dwarven woman runs the Amberstill Ranch, breeding and
 training the finest rams in Dun Morogh. Her hands are calloused from
 hard work, and she brooks no nonsense from man or beast.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     female~
+Gender     Female~
 Actflags   npc sentinel stayarea~
 Stats1     0 15 0 0 100 300
 Stats2     15 15 150
 Stats3     4 8 16
 Stats4     0 0 0 0 0
-Attribs    14 12 14 10 10 10 10
+Stats       14 10 10 12 14
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #MOBILE
@@ -681,20 +633,18 @@ Desc       This gruff dwarf runs the Gol'Bolar Quarry with an iron fist. The tro
 infestation has made his job a nightmare, but he refuses to abandon the
 mine. His beard is gray with stone dust.
 ~
-Race       dwarf~
-Class      warrior~
+Race       Dwarf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 18 0 0 150 450
 Stats2     18 18 180
 Stats3     5 10 20
 Stats4     0 0 0 0 0
-Attribs    16 11 15 10 10 10 10
+Stats       16 10 10 11 15
 Saves      0 0 0 0 0
-Speaks     common dwarvish~
-Speaking   common~
 #ENDMOBILE
 
 #OBJECT
@@ -999,12 +949,14 @@ ToRoom    14000
 Desc      The great gates of Ironforge beckon.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14701
 Desc      The road descends into the snowy wilderness.
 ~
 #ENDEXIT
+
 Reset M 0 14714 2 14700
   Reset E 1 14716 1 16
   Reset E 1 14717 1 12
@@ -1026,12 +978,14 @@ ToRoom    14700
 Desc      The road leads north toward Ironforge.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14702
 Desc      The road continues south.
 ~
 #ENDEXIT
+
 Reset M 0 14711 2 14701
 Reset M 0 14723 3 14701
 #ENDROOM
@@ -1052,18 +1006,26 @@ ToRoom    14701
 Desc      The road leads north toward Ironforge.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14703
 Desc      A trail leads into the misty forest.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14710
 Desc      The road continues south toward Kharanos.
 ~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14500
+#ENDEXIT
+
 Reset M 0 14722 2 14702
 Reset M 0 14709 2 14702
 #ENDROOM
@@ -1084,12 +1046,14 @@ ToRoom    14704
 Desc      The trail continues deeper into the woods.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14702
 Desc      The trail leads back to the road.
 ~
 #ENDEXIT
+
 Reset M 0 14711 3 14703
 Reset M 0 14712 1 14703
   Reset E 1 14704 1 16
@@ -1112,12 +1076,14 @@ ToRoom    14705
 Desc      The cave descends into darkness.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14703
 Desc      The misty woods lie outside.
 ~
 #ENDEXIT
+
 Reset M 0 14711 3 14704
 #ENDROOM
 
@@ -1125,7 +1091,7 @@ Reset M 0 14711 3 14704
 Vnum     14705
 Name     &xIce Claw Cavern - Den&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     The cave opens into a large chamber where the Ice Claw pack makes its
 home. Bones of prey animals are scattered across the frozen floor, and
 crude nests of dried grass line the walls. The alpha wolf watches from
@@ -1137,6 +1103,7 @@ ToRoom    14704
 Desc      The cave entrance lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14712 1 14705
   Reset E 1 14704 1 16
 Reset M 0 14711 4 14705
@@ -1158,24 +1125,28 @@ ToRoom    14702
 Desc      The road leads north toward Ironforge.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14740
 Desc      The road leads toward Gol'Bolar Quarry.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14711
 Desc      The village of Kharanos lies ahead.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14730
 Desc      The road leads toward Brewnall Village.
 ~
 #ENDEXIT
+
 Reset M 0 14714 1 14710
   Reset E 1 14716 1 16
 #ENDROOM
@@ -1196,12 +1167,14 @@ ToRoom    14710
 Desc      The road leads north into the mountains.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14712
 Desc      The main square lies ahead.
 ~
 #ENDEXIT
+
 Reset M 0 14721 3 14711
 Reset M 0 14720 1 14711
 #ENDROOM
@@ -1222,24 +1195,28 @@ ToRoom    14711
 Desc      The north gate lies ahead.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14714
 Desc      The general store lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14713
 Desc      The road continues south toward Coldridge Pass.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14715
 Desc      The Thunderbrew Distillery beckons.
 ~
 #ENDEXIT
+
 Reset M 0 14721 4 14712
 Reset M 0 14720 1 14712
 #ENDROOM
@@ -1259,18 +1236,21 @@ ToRoom    14712
 Desc      The town square lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14720
 Desc      The road leads south toward Coldridge Pass.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14716
 Desc      The village stable lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14721 2 14713
 #ENDROOM
 
@@ -1290,6 +1270,7 @@ ToRoom    14712
 Desc      The town square lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14720 1 14714
 Reset O 0 14717 2 14714
 Reset O 0 14718 2 14714
@@ -1303,7 +1284,7 @@ Reset O 0 14723 5 14714
 Vnum     14715
 Name     &YThunderbrew Distillery - Taproom&d~
 Sector   inside~
-Flags    indoors nomob~
+Flags    nomob indoors~
 Desc     The warmth hits you like a wave as you enter the famous &WThunderbrew
 Distillery&d. A roaring fire crackles in an enormous hearth, and the air
 is thick with the smell of hops, malt, and roasting meat. Dwarves crowd
@@ -1311,17 +1292,19 @@ around sturdy wooden tables, singing, arguing, and drinking the legendary
 Thunderbrew Ale. A staircase leads &Ydown&d to the brewing floor.
 ~
 #EXIT
-Direction down~
-ToRoom    14717
-Desc      Stone stairs lead down to the brewing floor.
-~
-#ENDEXIT
-#EXIT
 Direction east~
 ToRoom    14712
 Desc      The town square lies outside.
 ~
 #ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    14717
+Desc      Stone stairs lead down to the brewing floor.
+~
+#ENDEXIT
+
 Reset M 0 14716 1 14715
 Reset M 0 14721 5 14715
 Reset O 0 14712 10 14715
@@ -1345,6 +1328,7 @@ ToRoom    14713
 Desc      The south road lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14721 1 14716
 Reset M 0 14722 3 14716
 #ENDROOM
@@ -1366,6 +1350,7 @@ ToRoom    14715
 Desc      The taproom lies above.
 ~
 #ENDEXIT
+
 Reset M 0 14719 1 14717
 Reset M 0 14721 2 14717
 #ENDROOM
@@ -1386,12 +1371,14 @@ ToRoom    14713
 Desc      The road leads back to Kharanos.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14721
 Desc      The pass continues south.
 ~
 #ENDEXIT
+
 Reset M 0 14709 2 14720
 Reset M 0 14711 2 14720
 #ENDROOM
@@ -1412,18 +1399,21 @@ ToRoom    14720
 Desc      The pass descends toward Kharanos.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14722
 Desc      The pass descends toward Coldridge Valley.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14725
 Desc      A treacherous trail leads toward Wendigo Cave.
 ~
 #ENDEXIT
+
 Reset M 0 14714 1 14721
   Reset E 1 14716 1 16
   Reset E 1 14717 1 12
@@ -1444,12 +1434,14 @@ ToRoom    14721
 Desc      The pass leads back up to the summit.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14750
 Desc      The road descends into Coldridge Valley.
 ~
 #ENDEXIT
+
 Reset M 0 14700 2 14722
 Reset M 0 14701 1 14722
 #ENDROOM
@@ -1469,12 +1461,14 @@ ToRoom    14721
 Desc      The trail leads back to Coldridge Pass.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14726
 Desc      The cave descends into frozen darkness.
 ~
 #ENDEXIT
+
 Reset M 0 14704 1 14725
 #ENDROOM
 
@@ -1482,7 +1476,7 @@ Reset M 0 14704 1 14725
 Vnum     14726
 Name     &xWendigo Cave - Frozen Tunnels&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     Ice coats every surface of this frozen tunnel. Your breath crystallizes
 instantly, and the cold saps the strength from your limbs. The bones of
 unfortunate victims lie scattered on the floor, gnawed clean. Growls and
@@ -1494,12 +1488,14 @@ ToRoom    14725
 Desc      The entrance lies to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14727
 Desc      The tunnel continues deeper.
 ~
 #ENDEXIT
+
 Reset M 0 14704 2 14726
 Reset O 0 14705 1 14726
 #ENDROOM
@@ -1508,7 +1504,7 @@ Reset O 0 14705 1 14726
 Vnum     14727
 Name     &xWendigo Cave - Old Icebeard's Lair&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     This vast frozen chamber is the domain of &WOld Icebeard&d, the most
 ancient and terrible wendigo in all of Dun Morogh. Ice formations rise
 like frozen trees, and the cold is so intense that even fire struggles
@@ -1521,6 +1517,7 @@ ToRoom    14726
 Desc      The frozen tunnels lie to the east.
 ~
 #ENDEXIT
+
 Reset M 0 14705 1 14727
   Reset E 1 14704 1 16
 Reset M 0 14704 2 14727
@@ -1538,23 +1535,26 @@ supply the Thunderbrew Distillery. The hills to the &Ynorth&d are rumored
 to harbor Frostmane troll camps.
 ~
 #EXIT
-Direction east~
-ToRoom    14710
-Desc      The road leads back toward Kharanos.
-~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    14733
 Desc      A trail leads into the troll-infested hills.
 ~
 #ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    14710
+Desc      The road leads back toward Kharanos.
+~
+#ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14731
 Desc      The road continues toward Brewnall Village.
 ~
 #ENDEXIT
+
 Reset M 0 14709 2 14730
 Reset M 0 14723 2 14730
 #ENDROOM
@@ -1575,12 +1575,14 @@ ToRoom    14730
 Desc      The road leads back toward Kharanos.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14732
 Desc      The village center lies ahead.
 ~
 #ENDEXIT
+
 Reset M 0 14721 3 14731
 #ENDROOM
 
@@ -1600,18 +1602,21 @@ ToRoom    14735
 Desc      The hop fields lie to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14731
 Desc      The east entrance lies behind you.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14736
 Desc      A sturdy farmhouse stands to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14720 1 14732
 Reset M 0 14721 2 14732
 #ENDROOM
@@ -1632,12 +1637,14 @@ ToRoom    14734
 Desc      The hills continue into troll territory.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14730
 Desc      The road lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14706 3 14733
 Reset M 0 14707 2 14733
   Reset E 1 14707 1 16
@@ -1659,12 +1666,14 @@ ToRoom    14738
 Desc      The main camp lies beyond the palisade.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14733
 Desc      The hills lead back south.
 ~
 #ENDEXIT
+
 Reset M 0 14706 2 14734
   Reset E 1 14706 1 16
 Reset M 0 14707 2 14734
@@ -1687,56 +1696,15 @@ ToRoom    14732
 Desc      The village center lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction northwest~
 ToRoom    14766
 Desc      A treacherous path leading toward the irradiated ruins.
 ~
 #ENDEXIT
+
 Reset M 0 14721 2 14735
-#ENDROOM
-
-#ROOM
-Vnum     14766
-Name     &WPath to Gnomeregan&d~
-Sector   mountain~
-Desc     The pristine white snow of Dun Morogh begins to take on a sickly, 
-glowing green tint here. Discarded cogwheels, twisted metal pipes, and 
-the faint sound of erratic mechanical whirring echo down the canyon. The 
-massive, steel-vaulted entrance to the fallen gnome capital looms ahead.
-~
-#EXIT
-Direction southeast~
-ToRoom    14735
-Desc      The path leads back to the safety of Brewnall Village.
-~
-#ENDEXIT
-#EXIT
-Direction north~
-ToRoom    14767
-Desc      The loading elevator leading down into the city.
-~
-#ENDEXIT
-Reset M 0 14713 3 14766
-#ENDROOM
-
-#ROOM
-Vnum     14767
-Name     &GGnomeregan - The Loading Bay&d~
-Sector   inside~
-Flags    indoors~
-Desc     You stand on a massive, rusted gear that serves as a makeshift 
-loading bay. Toxic green sludge drips from the ceiling, and the air is 
-thick with radiation and the smell of ozone. A swirling, mechanized 
-portal hums violently here, sealing off the deeper, infected depths of 
-the city. 
-~
-#EXIT
-Direction south~
-ToRoom    14766
-Desc      The path outside the vault.
-~
-#ENDEXIT
 #ENDROOM
 
 #ROOM
@@ -1755,6 +1723,7 @@ ToRoom    14732
 Desc      The village center lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14721 2 14736
 Reset O 0 14714 2 14736
 Reset O 0 14715 2 14736
@@ -1775,12 +1744,14 @@ ToRoom    14739
 Desc      The chieftain's hut looms ahead.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14734
 Desc      The entrance lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14706 4 14738
   Reset E 1 14706 1 16
 Reset M 0 14707 2 14738
@@ -1807,6 +1778,7 @@ ToRoom    14738
 Desc      The main camp lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14707 1 14739
   Reset E 1 14707 1 16
   Reset E 1 14706 1 15
@@ -1830,18 +1802,21 @@ ToRoom    14741
 Desc      The road continues toward the quarry.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14745
 Desc      A trail leads toward Helm's Bed Lake.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14710
 Desc      The road leads back toward Kharanos.
 ~
 #ENDEXIT
+
 Reset M 0 14700 2 14740
 Reset M 0 14709 2 14740
 #ENDROOM
@@ -1862,18 +1837,21 @@ ToRoom    14742
 Desc      The quarry continues to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14743
 Desc      The main excavation lies to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14740
 Desc      The road leads back west.
 ~
 #ENDEXIT
+
 Reset M 0 14714 2 14741
   Reset E 1 14716 1 16
 Reset M 0 14725 1 14741
@@ -1895,12 +1873,14 @@ ToRoom    14741
 Desc      The quarry entrance lies to the west.
 ~
 #ENDEXIT
+
 #EXIT
 Direction down~
 ToRoom    14744
 Desc      A ramp descends into the mine tunnels.
 ~
 #ENDEXIT
+
 Reset M 0 14700 4 14742
   Reset E 1 14700 1 16
 Reset M 0 14701 2 14742
@@ -1924,12 +1904,14 @@ ToRoom    14741
 Desc      The quarry entrance lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction down~
 ToRoom    14744
 Desc      A ramp descends into the mine tunnels.
 ~
 #ENDEXIT
+
 Reset M 0 14700 3 14743
   Reset E 1 14700 1 16
 Reset M 0 14702 1 14743
@@ -1941,24 +1923,26 @@ Reset O 0 14720 2 14743
 Vnum     14744
 Name     &xGol'Bolar Quarry - Mine Tunnels&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     Dark tunnels branch through the rock, following veins of ore deep into
 the mountain. Troggs have made these passages their own, driving out the
 dwarven miners. Their crude camps and foul refuse litter the floor. The
 trogg leader is said to lurk in the deepest chambers.
 ~
 #EXIT
-Direction up~
-ToRoom    14743
-Desc      The ramp leads back up to the excavation.
-~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    14748
 Desc      A tunnel leads deeper into trogg territory.
 ~
 #ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    14743
+Desc      The ramp leads back up to the excavation.
+~
+#ENDEXIT
+
 Reset M 0 14700 5 14744
   Reset E 1 14700 1 16
 Reset M 0 14701 3 14744
@@ -1984,18 +1968,21 @@ ToRoom    14740
 Desc      The road lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14746
 Desc      The path leads toward Amberstill Ranch.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14749
 Desc      The lake shore continues south.
 ~
 #ENDEXIT
+
 Reset M 0 14721 2 14745
 Reset M 0 14723 3 14745
 #ENDROOM
@@ -2015,18 +2002,21 @@ ToRoom    14747
 Desc      The farmhouse lies ahead.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14765
 Desc      The ram pens lie to the south.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14745
 Desc      The lake shore lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14721 2 14746
 #ENDROOM
 
@@ -2046,6 +2036,7 @@ ToRoom    14746
 Desc      The ranch entrance lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14724 1 14747
 Reset O 0 14714 2 14747
 Reset O 0 14712 2 14747
@@ -2055,7 +2046,7 @@ Reset O 0 14712 2 14747
 Vnum     14748
 Name     &xGol'Bolar Quarry - Grik'nir's Chamber&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     The deepest chamber of the quarry has been claimed by &RGrik'nir the
 Cold&d, chieftain of the Stonesplinter troggs. Ice coats the walls despite
 being deep underground, and the air is frigid. The massive trogg sits on
@@ -2067,6 +2058,7 @@ ToRoom    14744
 Desc      The tunnels lead back south.
 ~
 #ENDEXIT
+
 Reset M 0 14703 1 14748
   Reset E 1 14703 1 16
 Reset M 0 14700 3 14748
@@ -2093,6 +2085,7 @@ ToRoom    14745
 Desc      The north shore lies ahead.
 ~
 #ENDEXIT
+
 Reset M 0 14723 3 14749
 Reset M 0 14722 2 14749
 #ENDROOM
@@ -2113,12 +2106,14 @@ ToRoom    14722
 Desc      The pass leads back north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14751
 Desc      The road leads toward Anvilmar.
 ~
 #ENDEXIT
+
 Reset M 0 14714 1 14750
   Reset E 1 14716 1 16
 Reset M 0 14709 2 14750
@@ -2139,18 +2134,21 @@ ToRoom    14750
 Desc      The valley continues north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14760
 Desc      A trail leads toward Iceflow Lake.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14752
 Desc      The road leads toward Anvilmar.
 ~
 #ENDEXIT
+
 Reset M 0 14709 3 14751
 Reset M 0 14723 3 14751
 #ENDROOM
@@ -2170,12 +2168,14 @@ ToRoom    14751
 Desc      The valley road lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14753
 Desc      The main square lies ahead.
 ~
 #ENDEXIT
+
 Reset M 0 14718 1 14752
   Reset E 1 14716 1 16
   Reset E 1 14717 1 12
@@ -2196,24 +2196,28 @@ ToRoom    14752
 Desc      The north gate lies ahead.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14755
 Desc      The training grounds lie to the east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14756
 Desc      The road leads south toward the Grizzled Den.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14754
 Desc      The main building lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14720 1 14753
 Reset M 0 14721 3 14753
 #ENDROOM
@@ -2234,6 +2238,7 @@ ToRoom    14753
 Desc      The main square lies outside.
 ~
 #ENDEXIT
+
 Reset M 0 14715 1 14754
 Reset O 0 14716 1 14754
 Reset O 0 14717 1 14754
@@ -2255,6 +2260,7 @@ ToRoom    14753
 Desc      The main square lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14714 1 14755
   Reset E 1 14716 1 16
 Reset M 0 14721 2 14755
@@ -2276,12 +2282,14 @@ ToRoom    14753
 Desc      Anvilmar lies to the north.
 ~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    14757
 Desc      The path leads toward the Grizzled Den.
 ~
 #ENDEXIT
+
 Reset M 0 14700 2 14756
 Reset M 0 14701 2 14756
 #ENDROOM
@@ -2296,17 +2304,19 @@ home to a large tribe of Stonesplinter troggs. Growls and the clatter of
 stone tools echo from within. The valley road lies to the &Ywest&d.
 ~
 #EXIT
-Direction west~
-ToRoom    14756
-Desc      The valley road lies to the west.
-~
-#ENDEXIT
-#EXIT
 Direction east~
 ToRoom    14758
 Desc      The cave descends into darkness.
 ~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    14756
+Desc      The valley road lies to the west.
+~
+#ENDEXIT
+
 Reset M 0 14700 2 14757
   Reset E 1 14700 1 16
 Reset M 0 14701 2 14757
@@ -2316,7 +2326,7 @@ Reset M 0 14701 2 14757
 Vnum     14758
 Name     &xThe Grizzled Den - Outer Tunnels&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     Rough tunnels wind through the rock, littered with refuse and gnawed
 bones. Trogg guards lurk in the shadows, ready to alert the tribe to
 intruders. The stench of the creatures is nearly overwhelming. The cave
@@ -2328,12 +2338,14 @@ ToRoom    14759
 Desc      The tunnels continue deeper.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14757
 Desc      The entrance lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14700 4 14758
   Reset E 1 14700 1 16
 Reset M 0 14701 2 14758
@@ -2345,7 +2357,7 @@ Reset O 0 14700 2 14758
 Vnum     14759
 Name     &xThe Grizzled Den - Central Chamber&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     A large cavern serves as the heart of the trogg lair. Crude fire pits
 cast flickering shadows, and troggs go about their primitive existence—
 crafting weapons, squabbling over food, and grunting in their guttural
@@ -2357,18 +2369,21 @@ ToRoom    14763
 Desc      A tunnel leads to the northern chambers.
 ~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    14764
 Desc      A tunnel leads to the southern chambers.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14758
 Desc      The outer tunnels lie to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14700 5 14759
   Reset E 1 14700 1 16
 Reset M 0 14701 3 14759
@@ -2393,12 +2408,14 @@ ToRoom    14761
 Desc      The shore continues around the lake.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14751
 Desc      The valley road lies to the west.
 ~
 #ENDEXIT
+
 Reset M 0 14722 2 14760
 Reset M 0 14723 3 14760
 #ENDROOM
@@ -2418,12 +2435,14 @@ ToRoom    14762
 Desc      The shore continues east.
 ~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    14760
 Desc      The shore continues west.
 ~
 #ENDEXIT
+
 Reset M 0 14717 1 14761
 Reset O 0 14724 3 14761
 #ENDROOM
@@ -2442,6 +2461,7 @@ ToRoom    14761
 Desc      The shore continues west.
 ~
 #ENDEXIT
+
 Reset M 0 14711 2 14762
 Reset M 0 14709 2 14762
 #ENDROOM
@@ -2450,7 +2470,7 @@ Reset M 0 14709 2 14762
 Vnum     14763
 Name     &xThe Grizzled Den - North Chamber&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     This smaller chamber serves as a sleeping area for part of the trogg
 tribe. Crude bedding of moss and animal skins covers the floor, and
 the stench is indescribable. A few troggs rest here between raids on
@@ -2462,6 +2482,7 @@ ToRoom    14759
 Desc      The central chamber lies to the south.
 ~
 #ENDEXIT
+
 Reset M 0 14700 3 14763
 Reset M 0 14701 2 14763
 Reset O 0 14700 1 14763
@@ -2471,7 +2492,7 @@ Reset O 0 14700 1 14763
 Vnum     14764
 Name     &xThe Grizzled Den - South Chamber&d~
 Sector   inside~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     Another sleeping area, this chamber is slightly warmer due to a natural
 hot spring that bubbles in one corner. The troggs have fouled the water
 with their refuse, but the warmth makes this a prized location in the
@@ -2483,6 +2504,7 @@ ToRoom    14759
 Desc      The central chamber lies to the north.
 ~
 #ENDEXIT
+
 Reset M 0 14700 3 14764
 Reset M 0 14702 1 14764
   Reset E 1 14702 1 16
@@ -2504,9 +2526,56 @@ ToRoom    14746
 Desc      The ranch entrance lies to the north.
 ~
 #ENDEXIT
+
 Reset M 0 14721 1 14765
 Reset M 0 14722 4 14765
 Reset O 0 14725 2 14765
+#ENDROOM
+
+#ROOM
+Vnum     14766
+Name     &WPath to Gnomeregan&d~
+Sector   mountain~
+Desc     The pristine white snow of Dun Morogh begins to take on a sickly, 
+glowing green tint here. Discarded cogwheels, twisted metal pipes, and 
+the faint sound of erratic mechanical whirring echo down the canyon. The 
+massive, steel-vaulted entrance to the fallen gnome capital looms ahead.
+~
+#EXIT
+Direction north~
+ToRoom    14767
+Desc      The loading elevator leading down into the city.
+~
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    14735
+Desc      The path leads back to the safety of Brewnall Village.
+~
+#ENDEXIT
+
+Reset M 0 14713 3 14766
+#ENDROOM
+
+#ROOM
+Vnum     14767
+Name     &GGnomeregan - The Loading Bay&d~
+Sector   inside~
+Flags    indoors~
+Desc     You stand on a massive, rusted gear that serves as a makeshift 
+loading bay. Toxic green sludge drips from the ceiling, and the air is 
+thick with radiation and the smell of ozone. A swirling, mechanized 
+portal hums violently here, sealing off the deeper, infected depths of 
+the city. 
+~
+#EXIT
+Direction south~
+ToRoom    14766
+Desc      The path outside the vault.
+~
+#ENDEXIT
+
 #ENDROOM
 
 #ENDAREA

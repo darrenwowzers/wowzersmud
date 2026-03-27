@@ -1,8 +1,9 @@
 #FUSSAREA
 #AREADATA
 Version      1
-Name         GM Island~
+Name         Hansth's Funhouse~
 Author       Hansth~
+Type         6
 WeatherX     0
 WeatherY     0
 Ranges       0 0 0 0
@@ -61,17 +62,6 @@ Stats    1 0 0 0 0
 #ENDOBJECT
 
 #OBJECT
-Vnum     90001
-Keywords portal shimmering~
-Type     portal~
-Short    a shimmering portal~
-Long     a shimmering portal leading to The Deadmines stands before you.~
-Flags    glow~
-Values   12900 12949 1 0 0 0
-Stats    1 0 0 0 0
-#ENDOBJECT
-
-#OBJECT
 Vnum     90099
 Keywords last obj~
 Type     trash~
@@ -86,7 +76,6 @@ Vnum     90000
 Name     Floating in a void~
 Sector   city~
 Flags    nomob~
-Reset O 0 90001 1 90000
 #ENDROOM
 
 #ROOM

@@ -582,6 +582,7 @@ Attribs    22 10 16 10 16 10 10
 Vnum     35525
 Keywords orange sand dust~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a handful of orange dust~
 Long     A pile of fine, orange dust that seems to coat everything.~
 WFlags   take~
@@ -594,6 +595,7 @@ Rarity   0
 Vnum     35526
 Keywords jagged rock stone~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a jagged rock~
 Long     A sharp, heavy rock broken from the mountain side.~
 WFlags   take~
@@ -606,6 +608,7 @@ Rarity   0
 Vnum     35527
 Keywords coyote pelt fur~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a dusty coyote pelt~
 Long     A rough, sun-bleached pelt taken from a ridge stalker.~
 WFlags   take~
@@ -618,6 +621,7 @@ Rarity   0
 Vnum     35528
 Keywords scorpids stinger trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a venomous scorpid stinger~
 Long     A large, curved stinger that still drips with toxic fluid.~
 WFlags   take~
@@ -630,6 +634,7 @@ Rarity   0
 Vnum     35529
 Keywords rock elemental core treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Rock Elemental Core~
 Long     A glowing, heavy stone that pulses with rhythmic energy.~
 WFlags   take hold~
@@ -643,6 +648,7 @@ Affect   5 8 0 0 0
 Vnum     35530
 Keywords black dragonscale trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a Black Dragonscale~
 Long     A thick, obsidian scale that is warm to the touch.~
 WFlags   take~
@@ -655,6 +661,7 @@ Rarity   1
 Vnum     35531
 Keywords shadowforge mining pick weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Shadowforge Mining Pick~
 Long     A heavy, dark iron pickaxe used for excavation and combat.~
 WFlags   take wield~
@@ -668,6 +675,7 @@ Affect   1 6 0 0 0
 Vnum     35532
 Keywords ogre club weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a massive ogre club~
 Long     A crude, heavy log used as a weapon by the Dustbelch clan.~
 WFlags   take wield~
@@ -681,6 +689,7 @@ Affect   1 8 0 0 0
 Vnum     35533
 Keywords lotwil's notes treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    Lotwil's Experimental Notes~
 Long     A thick stack of parchment covered in frantic, scribbled data.~
 WFlags   take~
@@ -693,6 +702,7 @@ Rarity   1
 Vnum     35534
 Keywords cool spring water drink~
 Type     drinkcon~
+Continent    Eastern Kingdoms~
 Short    a flask of cool spring water~
 Long     A leather flask containing precious, clean water.~
 WFlags   take~
@@ -705,6 +715,7 @@ Rarity   0
 Vnum     35535
 Keywords kingsblood herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a sprig of Kingsblood~
 Long     A bright green herb with small, purple flowers.~
 WFlags   take hold~
@@ -718,6 +729,7 @@ Affect   5 5 0 0 0
 Vnum     35536
 Keywords mountain silversage herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bunch of Mountain Silversage~
 Long     A silver-leafed herb that thrives in the high altitudes.~
 WFlags   take hold~
@@ -731,6 +743,7 @@ Affect   2 10 0 0 0
 Vnum     35537
 Keywords mithril casing treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Mithril Casing~
 Long     A hollow cylinder of polished, shimmering mithril.~
 WFlags   take~
@@ -743,6 +756,7 @@ Rarity   1
 Vnum     35538
 Keywords camp kosh insignia rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    a Camp Kosh Insignia~
 Long     A small, iron badge marking the bearer as an ally of the post.~
 WFlags   take neck~
@@ -756,6 +770,7 @@ Affect   5 6 0 0 0
 Vnum     35539
 Keywords shadowforge surveyor lens treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Shadowforge Surveyor's Lens~
 Long     A brass-rimmed lens used to detect structural weaknesses.~
 WFlags   take hold~
@@ -769,6 +784,7 @@ Affect   3 8 0 0 0
 Vnum     35540
 Keywords dragon-breath chili food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a bowl of Dragon-breath Chili~
 Long     A steaming bowl of chili that smells incredibly spicy.~
 WFlags   take~
@@ -781,6 +797,7 @@ Rarity   0
 Vnum     35541
 Keywords ancient stone tablet treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    an Ancient Stone Tablet~
 Long     A heavy, weathered tablet covered in faded Titan runes.~
 WFlags   take~
@@ -794,6 +811,7 @@ Affect   4 12 0 0 0
 Vnum     35542
 Keywords scalding bracers wrist~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Scalding Bracers~
 Long     Metallic bracers that feel uncomfortably warm to the touch.~
 WFlags   take wrist~
@@ -808,6 +826,7 @@ Affect   5 6 0 0 0
 Vnum     35543
 Keywords blackened dragonbone trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a blackened dragonbone~
 Long     A large, heavy bone taken from a black drake.~
 WFlags   take~
@@ -820,6 +839,7 @@ Rarity   1
 Vnum     35544
 Keywords dustbelch talisman rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    a Dustbelch Talisman~
 Long     A crude necklace made of string and polished ogre teeth.~
 WFlags   take neck~
@@ -833,6 +853,7 @@ Affect   1 5 0 0 0
 Vnum     35545
 Keywords iron bar mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a solid Iron Bar~
 Long     A heavy, rectangular bar of refined iron.~
 WFlags   take~
@@ -845,6 +866,7 @@ Rarity   0
 Vnum     35546
 Keywords gold bar mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a solid Gold Bar~
 Long     A shimmering, soft bar of pure gold.~
 WFlags   take~
@@ -857,6 +879,7 @@ Rarity   1
 Vnum     35547
 Keywords truesilver bar mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a solid Truesilver Bar~
 Long     A bar of white-hot shimmering truesilver.~
 WFlags   take~
@@ -869,6 +892,7 @@ Rarity   2
 Vnum     35548
 Keywords explorer's spade tool~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    an Explorer's Spade~
 Long     A well-used, sturdy spade used for archaeological work.~
 WFlags   take wield~
@@ -881,6 +905,7 @@ Rarity   0
 Vnum     35549
 Keywords shadowforge tabard about~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Shadowforge Tabard~
 Long     A black cloth tabard featuring a glowing red anvil.~
 WFlags   take about~
@@ -889,6 +914,19 @@ Stats    1 500 40 0 0
 Rarity   1
 Affect   1 4 0 0 0
 #ENDOBJECT
+
+#OBJECT
+Vnum     35550
+Keywords portal shimmering~
+Type     portal~
+Continent    Eastern Kingdoms~
+Short    a shimmering portal~
+Long     a shimmering portal leading to Uldaman stands before you.~
+Flags    glow~
+Values   17040 17081 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
 
 #ROOM
 Vnum     35500
@@ -1114,6 +1152,7 @@ Direction up~
 ToRoom    35508
 Desc      Return to the surface.~
 #ENDEXIT
+Reset O 0 35550 1 35550
 #ENDROOM
 
 #ROOM

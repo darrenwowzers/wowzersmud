@@ -392,6 +392,7 @@ Speaking   common~
 Vnum     12501
 Keywords westfall stew hearty bowl food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a bowl of Westfall Stew~
 Long     A hearty, steaming bowl of famous Westfall Stew smells amazing.~
 WFlags   take hold~
@@ -403,6 +404,7 @@ Stats    1 15 1 0 0
 Vnum     12502
 Keywords goretusk liver bloody raw~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a raw Goretusk Liver~
 Long     A massive, bloody liver harvested from a Goretusk lies here.~
 WFlags   take hold~
@@ -414,6 +416,7 @@ Stats    2 5 1 0 0
 Vnum     12503
 Keywords flask oil mechanical harvest~
 Type     potion~
+Continent    Eastern Kingdoms~
 Short    a flask of mechanical oil~
 Long     A glass flask filled with thick, black mechanical oil is here.~
 WFlags   take hold~
@@ -426,6 +429,7 @@ Spells   'cure light' 'NONE' 'NONE'
 Vnum     12504
 Keywords rusted harvest scythe weapon curved~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a rusted Harvest Scythe~
 Long     A long wooden scythe with a heavily rusted, curved blade is here.~
 WFlags   take wield~
@@ -437,6 +441,7 @@ Stats    5 80 8 0 0
 Vnum     12505
 Keywords shield wooden sentinel hill militia~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Sentinel Hill Shield~
 Long     A sturdy wooden shield bearing the emblem of the People's Militia.~
 WFlags   take shield~
@@ -448,6 +453,7 @@ Stats    6 150 15 0 0
 Vnum     12506
 Keywords orders gryan scroll parchment~
 Type     scroll~
+Continent    Eastern Kingdoms~
 Short    Gryan Stoutmantle's Orders~
 Long     A rolled parchment sealed with the crest of the People's Militia.~
 WFlags   take hold~
@@ -460,6 +466,7 @@ Spells   'bless' 'NONE' 'NONE'
 Vnum     12507
 Keywords murloc eye slimy fish~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a slimy Murloc Eye~
 Long     A disturbingly large, slimy murloc eye stares blankly from the dirt.~
 WFlags   take hold~
@@ -471,6 +478,7 @@ Stats    1 10 1 0 0
 Vnum     12508
 Keywords coastrunner blade jagged spear murloc~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Coastrunner's Blade~
 Long     A crude spear tipped with a jagged piece of coral lies here.~
 WFlags   take wield~
@@ -482,6 +490,7 @@ Stats    4 120 12 0 0
 Vnum     12509
 Keywords dusty boots leather brown farm~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Dusty Leather Boots~
 Long     A highly practical, very dusty pair of brown leather boots sit here.~
 WFlags   take feet~
@@ -493,6 +502,7 @@ Stats    2 50 5 0 0
 Vnum     12510
 Keywords farm pitchfork iron wooden~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a heavy iron Pitchfork~
 Long     An agricultural pitchfork repurposed as a deadly thrusting weapon.~
 WFlags   take wield~
@@ -504,6 +514,7 @@ Stats    4 70 7 0 0
 Vnum     12511
 Keywords sack oats grain food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a sack of Westfall Oats~
 Long     A heavy burlap sack filled to the brim with harvested oats is here.~
 WFlags   take hold~
@@ -515,6 +526,7 @@ Stats    10 50 5 0 0
 Vnum     12512
 Keywords defias mage robe red silk~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Defias Mage Robe~
 Long     A high-quality, bright red silk robe favored by Pillagers lies here.~
 WFlags   take body~
@@ -526,6 +538,7 @@ Stats    3 200 20 0 0
 Vnum     12513
 Keywords handful oats horse food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a handful of oats~
 Long     Some scattered oats have been spilled on the ground here.~
 WFlags   take hold~
@@ -537,6 +550,7 @@ Stats    1 1 0 0 0
 Vnum     12514
 Keywords gnoll paw furry severed~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a severed Gnoll Paw~
 Long     A furry, clawed gnoll paw rests in the dust.~
 WFlags   take hold~
@@ -548,12 +562,26 @@ Stats    1 15 1 0 0
 Vnum     12515
 Keywords torch sentinel hill burning wood~
 Type     light~
+Continent    Eastern Kingdoms~
 Short    a Sentinel Hill Torch~
 Long     A thick branch wrapped in oil-soaked cloth burns brightly here.~
 WFlags   take hold~
 Values   0 0 -1 0 0 0
 Stats    2 20 2 0 0
 #ENDOBJECT
+
+#OBJECT
+Vnum     12516
+Keywords portal shimmering~
+Type     portal~
+Continent    Eastern Kingdoms~
+Short    a shimmering portal~
+Long     a shimmering portal leading to The Deadmines stands before you.~
+Flags    glow~
+Values   12900 12942 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
 
 #ROOM
 Vnum     12501
@@ -950,7 +978,7 @@ Sector   inside~
 Flags    indoors~
 Desc     The interior of this barn is hiding a massive secret. The floorboards
 have been pulled up, revealing a dark, spiraling tunnel leading deep into
-the earth. This is the secret entrance to the Defias Brotherhood's
+the earth. This is the secret portal to the Defias Brotherhood's
 underground stronghold.
 ~
 #EXIT
@@ -959,12 +987,7 @@ ToRoom    12516
 Desc      The town center.
 ~
 #ENDEXIT
-#EXIT
-Direction down~
-ToRoom    12900
-Desc      The tunnel leads down into The Deadmines.
-~
-#ENDEXIT
+Reset O 0 12516 1 12517
 #ENDROOM
 
 #ROOM

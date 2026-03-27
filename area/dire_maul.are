@@ -3,10 +3,12 @@
 Version      1
 Name         Dire Maul~
 Author       Feenom~
+Type         0
 WeatherX     0
 WeatherY     0
 Ranges       54 60 0 60
 Economy      0 95000000
+ResetFreq    15
 #ENDAREADATA
 
 #MOBILE
@@ -19,17 +21,18 @@ Desc       This manic little demon has stolen a key from the Highborne. He
 is incredibly fast and enjoys leading intruders on a wild chase 
 through the overgrown gardens.
 ~
-Race       demon~
-Class      mage~
+Race       monster~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 55 0 0 1800 4500
 Stats2     55 55 1200
 Stats3     12 35 55
 Stats4     0 0 0 0 0
-Attribs    10 22 14 28 20 15 15
+Stats       10 28 20 22 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -41,17 +44,18 @@ Long       A massive satyr with antlers mutters dark prayers to the roots.
 Desc       The corrupter of the Warpwood Quarter. Alzzin has twisted the 
 once-noble forest spirits into jagged, thorny horrors.
 ~
-Race       demon~
-Class      shaman~
+Race       monster~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 57 0 0 8500 25000
 Stats2     57 57 1000
 Stats3     20 60 57
 Stats4     0 0 0 0 0
-Attribs    24 16 18 30 25 20 20
+Stats       24 30 25 16 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -65,16 +69,17 @@ are caught in a loop of madness, reliving their final
 moments of arcane excess.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 56 0 0 1200 3500
 Stats2     56 56 1500
 Stats3     10 28 56
 Stats4     0 0 0 0 0
-Attribs    10 14 14 34 26 10 10
+Stats       10 34 26 14 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -88,16 +93,17 @@ his thirst for arcane power has become a black hole that
 consumes all who come near.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 58 0 0 7500 22000
 Stats2     58 58 2500
 Stats3     18 55 58
 Stats4     0 0 0 0 0
-Attribs    12 18 16 35 30 20 20
+Stats       12 35 30 18 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -110,17 +116,18 @@ Desc       A beast from the Twisting Nether, siphoned of its power by the
 Prince to sustain the Highborne's immortality. It is a 
 mass of eyes, teeth, and raw chaotic energy.
 ~
-Race       demon~
-Class      warrior~
+Race       monster~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 25000 70000
 Stats2     61 61 2000
 Stats3     40 120 70
 Stats4     0 0 0 0 0
-Attribs    45 10 40 25 35 25 25
+Stats       45 25 35 10 40
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -133,17 +140,18 @@ Desc       The ruler of the Shen'dralar. Driven to madness by the
 withdrawal of demonic energy, he now views his own 
 people as nothing more than cattle for his survival.
 ~
-Race       elf~
-Class      warrior~
+Race       Elf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 60 0 0 15000 45000
 Stats2     60 60 1000
 Stats3     30 90 65
 Stats4     0 0 0 0 0
-Attribs    35 20 25 25 30 25 25
+Stats       35 25 30 20 25
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -157,16 +165,17 @@ through raw physical intimidation and the support of his
 loyal captains.
 ~
 Race       orc~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 22000 65000
 Stats2     62 62 500
 Stats3     45 130 80
 Stats4     0 0 0 0 0
-Attribs    45 10 40 12 18 25 25
+Stats       45 12 18 10 40
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -179,16 +188,17 @@ Desc       The King's right hand. Kromcrush is a professional soldier
 amongst brutes, disciplined and unyielding.
 ~
 Race       orc~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 60 0 0 12000 35000
 Stats2     60 60 200
 Stats3     25 80 60
 Stats4     0 0 0 0 0
-Attribs    35 12 25 10 14 20 20
+Stats       35 10 14 12 25
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -201,16 +211,17 @@ Desc       The main infantry of the Gordok tribe. They are well-fed,
 well-armed, and eager to prove their worth to the King.
 ~
 Race       orc~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 57 0 0 3500 9500
 Stats2     57 57 100
 Stats3     15 45 57
 Stats4     0 0 0 0 0
-Attribs    30 10 22 6 10 10 10
+Stats       30 6 10 10 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -223,16 +234,17 @@ Desc       Mobile, predatory plants that have been corrupted by Alzzin's
 voodoo. They feed on the blood of anything that enters the quarter.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 54 0 0 1400 3800
 Stats2     54 54 0
 Stats3     10 25 54
 Stats4     0 0 0 0 0
-Attribs    20 18 18 4 10 6 6
+Stats       20 4 10 18 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -246,16 +258,17 @@ hardened into petrified stone, their original purpose lost
 to corruption.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 58 0 0 5500 16000
 Stats2     58 58 0
 Stats3     20 55 58
 Stats4     0 0 0 0 0
-Attribs    35 4 32 6 10 15 15
+Stats       35 6 10 4 32
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -268,16 +281,17 @@ Desc       A manifestation of the city's leaking mana. It is highly
 unstable and seeks to drain the energy of anything it touches.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 56 0 0 1100 3000
 Stats2     56 56 2000
 Stats3     8 22 56
 Stats4     0 0 0 0 0
-Attribs    10 24 14 34 22 10 10
+Stats       10 34 22 24 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -290,17 +304,18 @@ Desc       One of the few living Highborne left in the city. They
 are fanatically loyal to the Prince and will kill to 
 protect their remaining source of power.
 ~
-Race       elf~
-Class      warrior~
+Race       Elf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 58 0 0 2800 7500
 Stats2     58 58 300
 Stats3     14 40 58
 Stats4     0 0 0 0 0
-Attribs    22 18 16 12 14 12 12
+Stats       22 12 14 18 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -313,16 +328,17 @@ Desc       The war-hounds of the ogre clan. They are armored in
 thick leather and trained to ignore pain.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 55 0 0 1200 3500
 Stats2     55 55 0
 Stats3     11 28 55
 Stats4     0 0 0 0 0
-Attribs    18 20 16 4 12 6 6
+Stats       18 4 12 20 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -335,16 +351,17 @@ Desc       The tiny fragments of the power that once fueled the
 city's greatest spells.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc stayarea~
 Stats1     0 54 0 0 600 1800
 Stats2     54 54 800
 Stats3     4 12 54
 Stats4     0 0 0 0 0
-Attribs    10 16 12 24 15 10 10
+Stats       10 24 15 16 12
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -357,16 +374,17 @@ Desc       A mutation of the forest wildlife, now a mindless
 scavenger of the Warpwood quarter.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 55 0 0 1600 4500
 Stats2     55 55 0
 Stats3     12 32 55
 Stats4     0 0 0 0 0
-Attribs    24 14 20 4 10 6 6
+Stats       24 4 10 14 20
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -378,17 +396,18 @@ Long       A satyr chuckles, vanishing into the green mist.
 Desc       Experts in disorientation magic. They prefer to let 
 their lashers weaken their prey before striking.
 ~
-Race       demon~
-Class      thief~
+Race       monster~
+Class      Thief~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 56 0 0 1400 4000
 Stats2     56 56 400
 Stats3     11 30 56
 Stats4     0 0 0 0 0
-Attribs    12 28 14 14 12 10 10
+Stats       12 14 12 28 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -401,16 +420,17 @@ Desc       The spiritual support for the Gordok army. They call
 down lightning to strike those who challenge the King.
 ~
 Race       orc~
-Class      shaman~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 58 0 0 2200 6500
 Stats2     58 58 1000
 Stats3     13 38 58
 Stats4     0 0 0 0 0
-Attribs    20 10 18 26 22 10 10
+Stats       20 26 22 10 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -423,16 +443,17 @@ Desc       A victim of the Prince's paranoia. They wander the
 city's west wing, unaware that they are dead.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     female~
+Gender     Female~
 Actflags   npc stayarea~
 Stats1     0 55 0 0 800 2400
 Stats2     55 55 800
 Stats3     7 18 55
 Stats4     0 0 0 0 0
-Attribs    10 14 14 24 18 10 10
+Stats       10 24 18 14 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -445,16 +466,17 @@ Desc       Trained to oversee the pit fights, these ogres are
 masters of the mace and shield.
 ~
 Race       orc~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 59 0 0 4500 13000
 Stats2     59 59 150
 Stats3     18 52 59
 Stats4     0 0 0 0 0
-Attribs    32 10 24 8 12 10 10
+Stats       32 8 12 10 24
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -466,17 +488,18 @@ Long       A vine glowing with green fel energy coils on the path.
 Desc       A plant that has been grafted with demonic essence 
 by Lord Vyletongue's allies.
 ~
-Race       demon~
-Class      warrior~
+Race       monster~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 57 0 0 1800 5000
 Stats2     57 57 0
 Stats3     13 35 57
 Stats4     0 0 0 0 0
-Attribs    22 14 22 4 8 4 4
+Stats       22 4 8 14 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -489,16 +512,17 @@ Desc       Even in death, the thirst for knowledge remains. These
 spirits guard the Athenaeum from the unworthy.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 56 0 0 1000 3200
 Stats2     56 56 2000
 Stats3     9 24 56
 Stats4     0 0 0 0 0
-Attribs    10 12 14 35 28 15 15
+Stats       10 35 28 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -511,16 +535,17 @@ Desc       Utilizing the stolen magic of the Highborne to
 summon demons and rain fire.
 ~
 Race       orc~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 58 0 0 1600 4800
 Stats2     58 58 1800
 Stats3     11 32 58
 Stats4     0 0 0 0 0
-Attribs    12 12 14 34 26 10 10
+Stats       12 34 26 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -533,16 +558,17 @@ Desc       Scouts of the silithid hives that have managed to
 bore into the lower levels of the city.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 55 0 0 1100 3200
 Stats2     55 55 0
 Stats3     9 22 55
 Stats4     0 0 0 0 0
-Attribs    18 20 18 4 10 6 6
+Stats       18 4 10 20 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -555,16 +581,17 @@ Desc       A stationary but extremely dangerous plant that
 crushes anything that tries to pass it.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 56 0 0 2500 7000
 Stats2     56 56 0
 Stats3     15 42 56
 Stats4     0 0 0 0 0
-Attribs    30 4 28 4 6 4 4
+Stats       30 4 6 4 28
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -576,17 +603,18 @@ Long       An elite Highborne warrior in heavy plate stands before the throne.
 Desc       The final line of defense for the Prince. They have 
 no mercy and no fear.
 ~
-Race       elf~
-Class      warrior~
+Race       Elf~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 59 0 0 4500 12000
 Stats2     59 59 400
 Stats3     20 55 59
 Stats4     0 0 0 0 0
-Attribs    30 18 24 14 18 15 15
+Stats       30 14 18 18 24
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #OBJECT
@@ -596,12 +624,12 @@ Type     weapon~
 Short    the Quel'Serrar~
 Long     A magnificent elven blade, forged in dragonbreath and shining with Light.~
 WFlags   take wield~
+Rarity   3
 Values   12 25 50 3 0 0
 Stats    20 100000 60 0 0
-Rarity   3
-Affect   1 25 0 0 0
-Affect   12 30 0 0 0
-Affect   13 25 0 0 0
+AffectData   'acetum primus' 25 0 0 0
+AffectData   'armor' 30 0 0 0
+AffectData   'astral walk' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -611,9 +639,9 @@ Type     key~
 Short    the Crescent Key~
 Long     A beautiful key fashioned from a single piece of moonstone.~
 WFlags   take~
+Rarity   2
 Values   21151 0 0 0 0 0
 Stats    1 0 1 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
@@ -623,11 +651,11 @@ Type     weapon~
 Short    the Rod of the Ogre Magi~
 Long     A heavy staff topped with a large, glowing purple crystal.~
 WFlags   take wield~
+Rarity   2
 Values   12 12 25 7 0 0
 Stats    12 15000 60 0 0
-Rarity   2
-Affect   3 20 0 0 0
-Affect   14 25 0 0 0
+AffectData   'acid breath' 20 0 0 0
+AffectData   'backstab' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -637,11 +665,11 @@ Type     weapon~
 Short    the Blade of the New Era~
 Long     A curved sword of white steel, humming with arcane energy.~
 WFlags   take wield~
+Rarity   2
 Values   12 15 30 3 0 0
 Stats    12 8500 58 0 0
-Rarity   2
-Affect   14 15 0 0 0
-Affect   12 15 0 0 0
+AffectData   'backstab' 15 0 0 0
+AffectData   'armor' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -651,11 +679,11 @@ Type     armor~
 Short    a pair of Barbaric Bracers~
 Long     Heavy iron wristguards lined with thick, matted fur.~
 WFlags   take wrist~
+Rarity   1
 Values   15 0 0 0 0 0
 Stats    8 3500 56 0 0
-Rarity   1
-Affect   1 10 0 0 0
-Affect   5 10 0 0 0
+AffectData   'acetum primus' 10 0 0 0
+AffectData   'acidshot' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -665,11 +693,11 @@ Type     armor~
 Short    the Kilt of the Royal Council~
 Long     Fine silken leggings embroidered with silver Highborne runes.~
 WFlags   take legs~
+Rarity   2
 Values   10 0 0 0 0 0
 Stats    5 12000 59 0 0
-Rarity   2
-Affect   3 15 0 0 0
-Affect   4 15 0 0 0
+AffectData   'acid breath' 15 0 0 0
+AffectData   'acidmist' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -679,11 +707,11 @@ Type     armor~
 Short    the Gordok Crown~
 Long     A massive golden crown that is far too heavy for a human.~
 WFlags   take head~
+Rarity   3
 Values   20 0 0 0 0 0
 Stats    15 25000 62 0 0
-Rarity   3
-Affect   1 15 0 0 0
-Affect   5 20 0 0 0
+AffectData   'acetum primus' 15 0 0 0
+AffectData   'acidshot' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -693,10 +721,10 @@ Type     treasure~
 Short    the Rod of Corruption~
 Long     A gnarled wooden rod that drips with a dark, oily liquid.~
 WFlags   take hold~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 6500 57 0 0
-Rarity   2
-Affect   14 20 0 0 0
+AffectData   'backstab' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -706,10 +734,10 @@ Type     armor~
 Short    an Elven Silken Cape~
 Long     A light, shimmering cape that flows like water.~
 WFlags   take about~
+Rarity   1
 Values   5 0 0 0 0 0
 Stats    1 4500 55 0 0
-Rarity   1
-Affect   2 10 0 0 0
+AffectData   'acid blast' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -719,10 +747,10 @@ Type     armor~
 Short    a pair of Gordok Gauntlets~
 Long     Oversized plate gauntlets reinforced with ogre-bone spikes.~
 WFlags   take hands~
+Rarity   1
 Values   20 0 0 0 0 0
 Stats    10 5500 58 0 0
-Rarity   1
-Affect   1 12 0 0 0
+AffectData   'acetum primus' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -732,9 +760,9 @@ Type     drinkcon~
 Short    a flask of Mana-infused Water~
 Long     A glass vial containing sparkling, pale blue water.~
 WFlags   take~
+Rarity   1
 Values   10 10 1 0 0 0
 Stats    1 250 1 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
@@ -744,10 +772,10 @@ Type     rune~
 Short    a Highborne Signet Ring~
 Long     A gold ring featuring the sigil of Eldre'Thalas.~
 WFlags   take finger~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 3500 57 0 0
-Rarity   2
-Affect   3 10 0 0 0
+AffectData   'acid breath' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -759,7 +787,6 @@ Long     A sharp, blackened horn taken from Alzzin's brood.~
 WFlags   take~
 Values   0 0 0 0 0 0
 Stats    2 50 1 0 0
-Rarity   0
 #ENDOBJECT
 
 #OBJECT
@@ -769,10 +796,10 @@ Type     weapon~
 Short    a massive Gordok Club~
 Long     A crude tree trunk reinforced with heavy iron bands.~
 WFlags   take wield~
+Rarity   1
 Values   12 18 35 8 0 0
 Stats    35 1500 58 0 0
-Rarity   1
-Affect   1 15 0 0 0
+AffectData   'acetum primus' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -782,10 +809,10 @@ Type     treasure~
 Short    a Pulsing Felstone~
 Long     A green crystal that radiates a sickening heat.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 4500 56 0 0
-Rarity   1
-Affect   13 12 0 0 0
+AffectData   'astral walk' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -795,10 +822,10 @@ Type     treasure~
 Short    a living Warpwood branch~
 Long     A gnarled branch that still twitches with corrupt energy.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    5 850 54 0 0
-Rarity   1
-Affect   4 8 0 0 0
+AffectData   'acidmist' 8 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -810,8 +837,7 @@ Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
 Values   0 0 0 0 0 0
 Stats    1 250 50 0 0
-Rarity   0
-Affect   3 10 0 0 0
+AffectData   'acid breath' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -821,10 +847,10 @@ Type     treasure~
 Short    a sprig of Gromsblood~
 Long     A dark, leafy herb that smells faintly of demons.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 300 52 0 0
-Rarity   1
-Affect   1 10 0 0 0
+AffectData   'acetum primus' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -834,10 +860,10 @@ Type     treasure~
 Short    an Ancient Elven Tome~
 Long     A large, heavy book bound in white dragon-hide.~
 WFlags   take hold~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    10 8500 60 0 0
-Rarity   2
-Affect   3 20 0 0 0
+AffectData   'acid breath' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -847,10 +873,10 @@ Type     armor~
 Short    a pair of Thorny Bracers~
 Long     Wristguards made of hardened, needle-covered wood.~
 WFlags   take wrist~
+Rarity   1
 Values   12 0 0 0 0 0
 Stats    4 1200 55 0 0
-Rarity   1
-Affect   5 8 0 0 0
+AffectData   'acidshot' 8 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -862,7 +888,6 @@ Long     Tough, fibrous roots that provide excellent nourishment.~
 WFlags   take~
 Values   30 0 0 0 0 0
 Stats    1 15 1 0 0
-Rarity   0
 #ENDOBJECT
 
 #OBJECT
@@ -872,10 +897,10 @@ Type     treasure~
 Short    a Shimmering Arcane Focus~
 Long     A small glass sphere containing a miniature storm.~
 WFlags   take hold~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 3200 58 0 0
-Rarity   2
-Affect   14 15 0 0 0
+AffectData   'backstab' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -885,10 +910,10 @@ Type     rune~
 Short    a Gordok Bone Necklace~
 Long     A crude necklace made of string and polished ogre teeth.~
 WFlags   take neck~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 650 52 0 0
-Rarity   1
-Affect   1 6 0 0 0
+AffectData   'acetum primus' 6 0 0 0
 #ENDOBJECT
 
 #OBJECT
@@ -898,9 +923,9 @@ Type     treasure~
 Short    a chunk of Mithril Ore~
 Long     A heavy, shimmering bluish-white stone.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    5 800 50 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
@@ -910,9 +935,9 @@ Type     treasure~
 Short    a bolt of Spectral Silk~
 Long     Fine, translucent cloth taken from Highborne ghosts.~
 WFlags   take~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 1500 56 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
@@ -924,7 +949,6 @@ Long     A crystalline wand that has been snapped in half.~
 WFlags   take wield~
 Values   12 4 10 13 0 0
 Stats    2 150 45 0 0
-Rarity   0
 #ENDOBJECT
 
 #ROOM
@@ -939,25 +963,29 @@ Eldre'Thalas. The air here hums with the residue of thousands
 of years of arcane experimentation.
 ~
 #EXIT
-Direction out~
+Direction north~
 ToRoom    37040
 Desc      Return to the Feralas jungle.~
 #ENDEXIT
+
 #EXIT
 Direction north~
 ToRoom    21001
 Desc      The path to the Warpwood Quarter.~
 #ENDEXIT
-#EXIT
-Direction west~
-ToRoom    21030
-Desc      The path to the Capital Gardens.~
-#ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    21060
 Desc      The path to the Gordok Commons.~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21030
+Desc      The path to the Capital Gardens.~
+#ENDEXIT
+
 #ENDROOM
 
 #ROOM
@@ -972,15 +1000,17 @@ ground. The sound of high-pitched giggling can be heard
 from the shadows.
 ~
 #EXIT
-Direction south~
-ToRoom    21000
-Desc      The main archway.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21002
 Desc      The overgrown garden.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21000
+Desc      The main archway.~
+#ENDEXIT
+
 Reset M 0 21100 1 21001
 #ENDROOM
 
@@ -994,15 +1024,17 @@ blooming, multi-colored flowers. Warpwood lashers move through
 the undergrowth, their thorns dripping with a paralytic sap.
 ~
 #EXIT
-Direction south~
-ToRoom    21001
-Desc      The quarter entrance.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21003
 Desc      The Satyr's Sanctuary.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21001
+Desc      The quarter entrance.~
+#ENDEXIT
+
 Reset M 0 21109 10 21002
 #ENDROOM
 
@@ -1017,15 +1049,17 @@ blood. Vile-tongue tricksters lurk behind the pillars,
 waiting for prey.
 ~
 #EXIT
-Direction south~
-ToRoom    21002
-Desc      The overgrown garden.~
-#ENDEXIT
-#EXIT
 Direction east~
 ToRoom    21004
 Desc      Deep into the sanctuary.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21002
+Desc      The overgrown garden.~
+#ENDEXIT
+
 Reset M 0 21116 5 21003
 #ENDROOM
 
@@ -1040,15 +1074,17 @@ pulsing with shadow energy. Lord Vyletongue can sometimes
 be seen here conferring with his lieutenants.
 ~
 #EXIT
-Direction west~
-ToRoom    21003
-Desc      The sanctuary entry.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21005
 Desc      Toward Alzzin's Lair.~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21003
+Desc      The sanctuary entry.~
+#ENDEXIT
+
 Reset M 0 21120 5 21004
 #ENDROOM
 
@@ -1068,9 +1104,430 @@ Direction south~
 ToRoom    21004
 Desc      The satyr heart.~
 #ENDEXIT
+
 Reset M 0 21101 1 21005
   Reset G 1 21157 1
 Reset M 0 21109 5 21005
+#ENDROOM
+
+#ROOM
+Vnum     21006
+Name     &gWarpwood Overflow A&d~
+Sector   forest~
+Flags    indoors~
+Desc     A quiet corner of the overgrown garden filled with 
+small stone statues and the sound of dripping water.
+~
+#EXIT
+Direction south~
+ToRoom    21002
+Desc      The garden.~
+#ENDEXIT
+
+Reset M 0 21115 5 21006
+#ENDROOM
+
+#ROOM
+Vnum     21007
+Name     &gWarpwood Overflow B&d~
+Sector   forest~
+Flags    indoors~
+Desc     A side tunnel in the garden filled with 
+discarded elven masonry and bits of thorn.
+~
+#EXIT
+Direction west~
+ToRoom    21002
+Desc      The garden.~
+#ENDEXIT
+
+Reset O 0 21165 10 21007
+#ENDROOM
+
+#ROOM
+Vnum     21008
+Name     &mSanctuary Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark alcove in the satyr halls where tricksters 
+rest between patrols.
+~
+#EXIT
+Direction south~
+ToRoom    21003
+Desc      Sanctuary entrance.~
+#ENDEXIT
+
+Reset M 0 21116 5 21008
+#ENDROOM
+
+#ROOM
+Vnum     21009
+Name     &mSanctuary Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with satyr horns and small, 
+bubbling jars of mojo.
+~
+#EXIT
+Direction east~
+ToRoom    21004
+Desc      Sanctuary heart.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     21010
+Name     &gThe Deepmoss Ledge&d~
+Sector   forest~
+Flags    indoors~
+Desc     A high point in the Warpwood Quarter, home to 
+several ironbark protectors.
+~
+#EXIT
+Direction down~
+ToRoom    21002
+Desc      The garden.~
+#ENDEXIT
+
+Reset M 0 21110 2 21010
+#ENDROOM
+
+#ROOM
+Vnum     21011
+Name     &gThe Hidden Grotto&d~
+Sector   forest~
+Flags    dark indoors~
+Desc     A secret pool tucked away behind a tangle of vines. 
+The water is pure and glows with a soft light.
+~
+#EXIT
+Direction west~
+ToRoom    21005
+Desc      Alzzin's lair.~
+#ENDEXIT
+
+Reset O 0 21166 10 21011
+#ENDROOM
+
+#ROOM
+Vnum     21012
+Name     &gThe Warpwood Ledge&d~
+Sector   forest~
+Flags    indoors~
+Desc     A high, narrow mountain trail that provides a 
+commanding view of the eastern Quarter.
+~
+#EXIT
+Direction north~
+ToRoom    21001
+Desc      Quarter entrance.~
+#ENDEXIT
+
+Reset M 0 21115 5 21012
+#ENDROOM
+
+#ROOM
+Vnum     21013
+Name     &gThe Silent Grove&d~
+Sector   forest~
+Flags    indoors~
+Desc     A dark corner of the overgrown garden where the trees 
+seem to whisper in the wind.
+~
+#EXIT
+Direction east~
+ToRoom    21002
+Desc      The garden.~
+#ENDEXIT
+
+Reset M 0 21109 5 21013
+#ENDROOM
+
+#ROOM
+Vnum     21014
+Name     &gThe Tangle-vine Path&d~
+Sector   forest~
+Flags    indoors~
+Desc     A narrow trail that leads through the heart of the Quarter. 
+Vines coat everything in a fine green dust.
+~
+#EXIT
+Direction south~
+ToRoom    21002
+Desc      The garden.~
+#ENDEXIT
+
+Reset O 0 21166 10 21014
+#ENDROOM
+
+#ROOM
+Vnum     21015
+Name     &mThe Satyr's Den&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A small, damp cave where several satyrs 
+have sought refuge.
+~
+#EXIT
+Direction east~
+ToRoom    21003
+Desc      Sanctuary entrance.~
+#ENDEXIT
+
+Reset M 0 21116 10 21015
+#ENDROOM
+
+#ROOM
+Vnum     21016
+Name     &gThe Mossy Alcove&d~
+Sector   forest~
+Flags    indoors~
+Desc     A small, hidden room behind a waterfall in the gardens. 
+It contains ancient Highborne treasures.
+~
+#EXIT
+Direction north~
+ToRoom    21002
+Desc      The garden.~
+#ENDEXIT
+
+Reset O 0 21161 1 21016
+#ENDROOM
+
+#ROOM
+Vnum     21017
+Name     &gThe Warpwood Labyrinth - South&d~
+Sector   forest~
+Flags    indoors~
+Desc     A confusing series of interlocking tunnels filled with 
+thorny vines and the sound of buzzing insects.
+~
+#EXIT
+Direction north~
+ToRoom    21018
+Desc      Deep Labyrinth.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21001
+Desc      Quarter entrance.~
+#ENDEXIT
+
+Reset M 0 21109 10 21017
+#ENDROOM
+
+#ROOM
+Vnum     21018
+Name     &gThe Warpwood Labyrinth - Deep&d~
+Sector   forest~
+Flags    indoors~
+Desc     The deepest part of the labyrinth. The ceiling is low 
+and the air is absolute still.
+~
+#EXIT
+Direction south~
+ToRoom    21017
+Desc      Southern labyrinth.~
+#ENDEXIT
+
+Reset M 0 21115 5 21018
+#ENDROOM
+
+#ROOM
+Vnum     21019
+Name     &mThe Satyr's Kitchen&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark room near the sanctuary where the satyrs 
+prepare their daily meals of forest roots.
+~
+#EXIT
+Direction north~
+ToRoom    21003
+Desc      Sanctuary entrance.~
+#ENDEXIT
+
+Reset M 0 21116 5 21019
+#ENDROOM
+
+#ROOM
+Vnum     21020
+Name     &mThe Ritual Pit&d~
+Sector   inside~
+Flags    indoors~
+Desc     A deep, circular pit filled with smoldering bones and 
+the residue of shadow-magic.
+~
+#EXIT
+Direction west~
+ToRoom    21004
+Desc      Sanctuary heart.~
+#ENDEXIT
+
+Reset O 0 21164 10 21020
+#ENDROOM
+
+#ROOM
+Vnum     21021
+Name     &gThe Alzzin Overlook&d~
+Sector   forest~
+Flags    indoors~
+Desc     A high stone ledge overlooking Alzzin's lair, 
+frequently patrolled by Moss-flayers.
+~
+#EXIT
+Direction south~
+ToRoom    21005
+Desc      Alzzin's lair.~
+#ENDEXIT
+
+Reset M 0 21115 5 21021
+#ENDROOM
+
+#ROOM
+Vnum     21022
+Name     &BThe West Wing Thoroughfare&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long, wide hallway lined with emerald dragonscales. 
+The air hums with the power of the Emerald Dream.
+~
+#EXIT
+Direction east~
+ToRoom    21031
+Desc      Highborne hall.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21023
+Desc      Deep thoroughfare.~
+#ENDEXIT
+
+Reset M 0 21102 5 21022
+#ENDROOM
+
+#ROOM
+Vnum     21023
+Name     &BThe West Wing Thoroughfare - Deep&d~
+Sector   inside~
+Flags    indoors~
+Desc     The thoroughfare ends at a large iron-bound door. 
+Arcane static is so intense here that it makes 
+your skin crawl.
+~
+#EXIT
+Direction east~
+ToRoom    21022
+Desc      Thoroughfare entry.~
+#ENDEXIT
+
+Reset M 0 21111 5 21023
+#ENDROOM
+
+#ROOM
+Vnum     21024
+Name     &BThe Library Side-room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small storage area near the Athenaeum, filled with 
+blank parchment and vials of ink.
+~
+#EXIT
+Direction north~
+ToRoom    21032
+Desc      Library entry.~
+#ENDEXIT
+
+Reset O 0 21168 1 21024
+#ENDROOM
+
+#ROOM
+Vnum     21025
+Name     &BThe Zealot's Barracks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Rows of neatly made bunks and racks of polished 
+weapons. Zealots rest here between patrols.
+~
+#EXIT
+Direction east~
+ToRoom    21031
+Desc      Highborne hall.~
+#ENDEXIT
+
+Reset M 0 21112 10 21025
+#ENDROOM
+
+#ROOM
+Vnum     21026
+Name     &mThe Pylon Chamber - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high room containing one of the prison's five pylons. 
+It pulses with a rhythmic, purple light.
+~
+#EXIT
+Direction south~
+ToRoom    21040
+Desc      Prison balconies.~
+#ENDEXIT
+
+Reset M 0 21112 5 21026
+#ENDROOM
+
+#ROOM
+Vnum     21027
+Name     &mThe Pylon Chamber - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A mirror image of the northern pylon chamber. 
+Zealots stand in silent vigil.
+~
+#EXIT
+Direction north~
+ToRoom    21040
+Desc      Prison balconies.~
+#ENDEXIT
+
+Reset M 0 21112 5 21027
+#ENDROOM
+
+#ROOM
+Vnum     21028
+Name     &BThe Highborne Terrace&d~
+Sector   inside~
+Flags    indoors~
+Desc     A beautiful balcony that looks out through a gap 
+in the mountain. You can see the jungle below.
+~
+#EXIT
+Direction north~
+ToRoom    21030
+Desc      Gardens entry.~
+#ENDEXIT
+
+Reset O 0 21158 5 21028
+#ENDROOM
+
+#ROOM
+Vnum     21029
+Name     &BThe Forgotten Crypt&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A small vault that was walled off centuries ago, 
+filled with ancient coins and dust.
+~
+#EXIT
+Direction west~
+ToRoom    21031
+Desc      Highborne hall.~
+#ENDEXIT
+
+Reset O 0 21161 1 21029
 #ENDROOM
 
 #ROOM
@@ -1088,11 +1545,13 @@ Direction east~
 ToRoom    21000
 Desc      The main archway.~
 #ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    21031
 Desc      The Hall of the Highborne.~
 #ENDEXIT
+
 Reset M 0 21102 10 21030
 #ENDROOM
 
@@ -1107,20 +1566,23 @@ have been defaced. Arcane aberrations float through
 the hall, looking for mana to consume.
 ~
 #EXIT
-Direction east~
-ToRoom    21030
-Desc      The gardens entrance.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21032
 Desc      The Athenaeum.~
 #ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    21030
+Desc      The gardens entrance.~
+#ENDEXIT
+
 #EXIT
 Direction west~
 ToRoom    21040
 Desc      Toward Immol'thar's Prison.~
 #ENDEXIT
+
 Reset M 0 21111 5 21031
 #ENDROOM
 
@@ -1135,15 +1597,17 @@ that has not been spoken in millennia. Spectral
 librarians carefully tend to the shelves.
 ~
 #EXIT
-Direction south~
-ToRoom    21031
-Desc      The Highborne hall.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21033
 Desc      The Library Archive.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21031
+Desc      The Highborne hall.~
+#ENDEXIT
+
 Reset M 0 21121 5 21032
 #ENDROOM
 
@@ -1162,6 +1626,7 @@ Direction south~
 ToRoom    21032
 Desc      The library entrance.~
 #ENDEXIT
+
 Reset M 0 21103 1 21033
   Reset G 1 21168 1
 #ENDROOM
@@ -1181,11 +1646,13 @@ Direction east~
 ToRoom    21031
 Desc      The Highborne hall.~
 #ENDEXIT
+
 #EXIT
 Direction down~
 ToRoom    21041
 Desc      The floor of the prison.~
 #ENDEXIT
+
 Reset M 0 21112 10 21040
 #ENDROOM
 
@@ -1200,15 +1667,17 @@ pure arcane energy. Its many eyes watch your every
 movement with murderous intent.
 ~
 #EXIT
-Direction up~
-ToRoom    21040
-Desc      The balconies.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21042
 Desc      The Throne of Tortheldrin.~
 #ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    21040
+Desc      The balconies.~
+#ENDEXIT
+
 Reset M 0 21104 1 21041
   Reset G 1 21171 1
 #ENDROOM
@@ -1225,19 +1694,321 @@ grips his sword with trembling hands, ready to
 kill anyone who threatens his immortality.
 ~
 #EXIT
-Direction south~
-ToRoom    21041
-Desc      The prison basin.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21050
 Desc      The West Exit path.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21041
+Desc      The prison basin.~
+#ENDEXIT
+
 Reset M 0 21105 1 21042
   Reset E 1 21150 1 16
   Reset G 1 21151 1
 Reset M 0 21125 5 21042
+#ENDROOM
+
+#ROOM
+Vnum     21043
+Name     &BHighborne Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet section of the western gardens filled with 
+shattered pillars and the scent of decayed magic.
+~
+#EXIT
+Direction south~
+ToRoom    21030
+Desc      Gardens entry.~
+#ENDEXIT
+
+Reset M 0 21118 10 21043
+#ENDROOM
+
+#ROOM
+Vnum     21044
+Name     &BHighborne Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side street in the Highborne Quarter, 
+where zealots prepare their blades.
+~
+#EXIT
+Direction north~
+ToRoom    21031
+Desc      Highborne hall.~
+#ENDEXIT
+
+Reset M 0 21112 5 21044
+#ENDROOM
+
+#ROOM
+Vnum     21045
+Name     &BAthenaeum Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone balcony in the library, 
+offering a view of the southern thoroughfare.
+~
+#EXIT
+Direction south~
+ToRoom    21032
+Desc      Library entry.~
+#ENDEXIT
+
+Reset M 0 21114 10 21045
+#ENDROOM
+
+#ROOM
+Vnum     21046
+Name     &BAthenaeum Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with Highborne signets 
+and ancient elven tomes.
+~
+#EXIT
+Direction east~
+ToRoom    21032
+Desc      Library entry.~
+#ENDEXIT
+
+Reset O 0 21161 5 21046
+#ENDROOM
+
+#ROOM
+Vnum     21047
+Name     &mPrison Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the balconies filled with 
+thick arcane static and spirits.
+~
+#EXIT
+Direction east~
+ToRoom    21040
+Desc      Prison balconies.~
+#ENDEXIT
+
+Reset M 0 21118 10 21047
+#ENDROOM
+
+#ROOM
+Vnum     21048
+Name     &mPrison Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small, magically-warded chamber where several 
+mana remnants keep watch.
+~
+#EXIT
+Direction west~
+ToRoom    21040
+Desc      Prison balconies.~
+#ENDEXIT
+
+Reset M 0 21114 10 21048
+#ENDROOM
+
+#ROOM
+Vnum     21049
+Name     &BThe Highborne Lookout&d~
+Sector   inside~
+Flags    indoors~
+Desc     A rocky platform providing a clear view of the 
+road leading to the main entrance.
+~
+#EXIT
+Direction south~
+ToRoom    21030
+Desc      Gardens entry.~
+#ENDEXIT
+
+Reset M 0 21112 5 21049
+#ENDROOM
+
+#ROOM
+Vnum     21050
+Name     &BThe Dire Maul West Exit&d~
+Sector   inside~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind the Prince's throne 
+leads toward a hidden opening in the side of the 
+mountain, offering a quick way back toward Feralas.
+~
+#EXIT
+Direction south~
+ToRoom    21042
+Desc      The throne room.~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    21000
+Desc      The main archway.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     21051
+Name     &rThe Gordok Pit - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide stone ramp leading down into the city's 
+industrial basements.
+~
+#EXIT
+Direction east~
+ToRoom    21060
+Desc      Commons entry.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21052
+Desc      The Pit floor.~
+#ENDEXIT
+
+Reset M 0 21108 5 21051
+#ENDROOM
+
+#ROOM
+Vnum     21052
+Name     &rThe Gordok Pit - Floor&d~
+Sector   city~
+Flags    indoors~
+Desc     The bottom of the northern industrial hub. 
+Ogre smiths work at various large anvils.
+~
+#EXIT
+Direction east~
+ToRoom    21051
+Desc      Pit entrance.~
+#ENDEXIT
+
+Reset M 0 21108 10 21052
+#ENDROOM
+
+#ROOM
+Vnum     21053
+Name     &rPit Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side workshop where the ogre smiths 
+repair damaged plate armor.
+~
+#EXIT
+Direction west~
+ToRoom    21052
+Desc      Pit floor.~
+#ENDEXIT
+
+Reset O 0 21159 10 21053
+#ENDROOM
+
+#ROOM
+Vnum     21054
+Name     &rThe Gordok Kennel&d~
+Sector   city~
+Flags    indoors~
+Desc     A large, smelly room filled with mastiffs. 
+A trainer stands in the center with a whip.
+~
+#EXIT
+Direction south~
+ToRoom    21061
+Desc      Courtyard.~
+#ENDEXIT
+
+Reset M 0 21113 10 21054
+#ENDROOM
+
+#ROOM
+Vnum     21055
+Name     &rThe High Arena - West Wall&d~
+Sector   city~
+Flags    indoors~
+Desc     A high point on the arena wall, home to 
+several Gordunni battle-masters.
+~
+#EXIT
+Direction east~
+ToRoom    21070
+Desc      Arena entry.~
+#ENDEXIT
+
+Reset M 0 21119 5 21055
+#ENDROOM
+
+#ROOM
+Vnum     21056
+Name     &rArena Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small room for storing weaponry for the 
+arena combatants.
+~
+#EXIT
+Direction south~
+ToRoom    21070
+Desc      Arena entry.~
+#ENDEXIT
+
+Reset O 0 21163 10 21056
+#ENDROOM
+
+#ROOM
+Vnum     21057
+Name     &rThe Gordok Guard-post&d~
+Sector   city~
+Flags    indoors~
+Desc     A small, well-fortified room near Kromcrush's gate.
+~
+#EXIT
+Direction south~
+ToRoom    21062
+Desc      Kromcrush's gate.~
+#ENDEXIT
+
+Reset M 0 21108 5 21057
+#ENDROOM
+
+#ROOM
+Vnum     21058
+Name     &rThe Shaman's Tent&d~
+Sector   city~
+Flags    indoors~
+Desc     A large, hide-covered tent filled with 
+lightning-totems and burning bones.
+~
+#EXIT
+Direction north~
+ToRoom    21063
+Desc      Lower approach.~
+#ENDEXIT
+
+Reset M 0 21117 1 21058
+#ENDROOM
+
+#ROOM
+Vnum     21059
+Name     &rThe Warlock's Alcove&d~
+Sector   city~
+Flags    indoors~
+Desc     A dark corner of the King's approach where 
+warlocks practice their stolen magic.
+~
+#EXIT
+Direction south~
+ToRoom    21064
+Desc      Upper approach.~
+#ENDEXIT
+
+Reset M 0 21122 5 21059
 #ENDROOM
 
 #ROOM
@@ -1251,15 +2022,17 @@ and piles of trash litter the once-elegant streets.
 Gordok reavers patrol the entry in pairs.
 ~
 #EXIT
-Direction west~
-ToRoom    21000
-Desc      The main archway.~
-#ENDEXIT
-#EXIT
 Direction east~
 ToRoom    21061
 Desc      The Gordok Courtyard.~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21000
+Desc      The main archway.~
+#ENDEXIT
+
 Reset M 0 21108 10 21060
 #ENDROOM
 
@@ -1274,20 +2047,23 @@ is thick with the smell of roasting meat. Gordok
 mastiffs snarl from their iron cages.
 ~
 #EXIT
-Direction west~
-ToRoom    21060
-Desc      The commons entrance.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21062
 Desc      Kromcrush's Gate.~
 #ENDEXIT
+
 #EXIT
 Direction east~
 ToRoom    21070
 Desc      Toward the High Arena.~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21060
+Desc      The commons entrance.~
+#ENDEXIT
+
 Reset M 0 21113 10 21061
 #ENDROOM
 
@@ -1302,15 +2078,17 @@ only way to the King's seat. He levels a heavy
 halberd at you with professional coldness.
 ~
 #EXIT
-Direction south~
-ToRoom    21061
-Desc      The courtyard.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21063
 Desc      The King's Approach.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21061
+Desc      The courtyard.~
+#ENDEXIT
+
 Reset M 0 21107 1 21062
   Reset G 1 21159 1
 #ENDROOM
@@ -1330,11 +2108,13 @@ Direction south~
 ToRoom    21062
 Desc      Kromcrush's gate.~
 #ENDEXIT
+
 #EXIT
 Direction up~
 ToRoom    21064
 Desc      The King's Approach Upper.~
 #ENDEXIT
+
 Reset M 0 21117 5 21063
 #ENDROOM
 
@@ -1349,15 +2129,17 @@ thrums through the floor, a rhythmic, pounding beat
 that matches the heart of the Gordok tribe.
 ~
 #EXIT
-Direction down~
-ToRoom    21063
-Desc      Lower approach.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21065
 Desc      King Gordok's Throne.~
 #ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    21063
+Desc      Lower approach.~
+#ENDEXIT
+
 Reset M 0 21108 5 21064
 #ENDROOM
 
@@ -1373,833 +2155,21 @@ figure of immense physical power, his golden crown
 radiating a soft magical light.
 ~
 #EXIT
-Direction south~
-ToRoom    21064
-Desc      The upper approach.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    21080
 Desc      The North Exit path.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    21064
+Desc      The upper approach.~
+#ENDEXIT
+
 Reset M 0 21106 1 21065
   Reset G 1 21156 1
   Reset E 1 21152 1 16
 Reset M 0 21108 5 21065
-#ENDROOM
-
-#ROOM
-Vnum     21070
-Name     &rThe High Arena - Entrance&d~
-Sector   city~
-Flags    indoors~
-Desc     A wide stone balcony overlooking the city's central arena. 
-The tiers of seating are filled with rowdy ogres 
-shouting for blood.
-~
-#EXIT
-Direction west~
-ToRoom    21061
-Desc      The Gordok courtyard.~
-#ENDEXIT
-#EXIT
-Direction north~
-ToRoom    21071
-Desc      The Arena Stands.~
-#ENDEXIT
-Reset M 0 21119 5 21070
-#ENDROOM
-
-#ROOM
-Vnum     21071
-Name     &rThe Arena Stands - West&d~
-Sector   city~
-Flags    indoors~
-Desc     Rows of stone benches occupied by Gordok ogres. They throw 
-bones and insults at the combatants in the pit below.
-~
-#EXIT
-Direction south~
-ToRoom    21070
-Desc      The arena entrance.~
-#ENDEXIT
-Reset M 0 21108 10 21071
-#ENDROOM
-
-#ROOM
-Vnum     21006
-Name     &gWarpwood Overflow A&d~
-Sector   forest~
-Flags    indoors~
-Desc     A quiet corner of the overgrown garden filled with 
-small stone statues and the sound of dripping water.
-~
-#EXIT
-Direction south~
-ToRoom    21002
-Desc      The garden.~
-#ENDEXIT
-Reset M 0 21115 5 21006
-#ENDROOM
-
-#ROOM
-Vnum     21007
-Name     &gWarpwood Overflow B&d~
-Sector   forest~
-Flags    indoors~
-Desc     A side tunnel in the garden filled with 
-discarded elven masonry and bits of thorn.
-~
-#EXIT
-Direction west~
-ToRoom    21002
-Desc      The garden.~
-#ENDEXIT
-Reset O 0 21165 10 21007
-#ENDROOM
-
-#ROOM
-Vnum     21008
-Name     &mSanctuary Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A dark alcove in the satyr halls where tricksters 
-rest between patrols.
-~
-#EXIT
-Direction south~
-ToRoom    21003
-Desc      Sanctuary entrance.~
-#ENDEXIT
-Reset M 0 21116 5 21008
-#ENDROOM
-
-#ROOM
-Vnum     21009
-Name     &mSanctuary Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A side room filled with satyr horns and small, 
-bubbling jars of mojo.
-~
-#EXIT
-Direction east~
-ToRoom    21004
-Desc      Sanctuary heart.~
-#ENDEXIT
-Reset O 0 21140 10 21009
-#ENDROOM
-
-#ROOM
-Vnum     21010
-Name     &gThe Deepmoss Ledge&d~
-Sector   forest~
-Flags    indoors~
-Desc     A high point in the Warpwood Quarter, home to 
-several ironbark protectors.
-~
-#EXIT
-Direction down~
-ToRoom    21002
-Desc      The garden.~
-#ENDEXIT
-Reset M 0 21110 2 21010
-#ENDROOM
-
-#ROOM
-Vnum     21011
-Name     &gThe Hidden Grotto&d~
-Sector   forest~
-Flags    indoors dark~
-Desc     A secret pool tucked away behind a tangle of vines. 
-The water is pure and glows with a soft light.
-~
-#EXIT
-Direction west~
-ToRoom    21005
-Desc      Alzzin's lair.~
-#ENDEXIT
-Reset O 0 21166 10 21011
-#ENDROOM
-
-#ROOM
-Vnum     21043
-Name     &BHighborne Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A quiet section of the western gardens filled with 
-shattered pillars and the scent of decayed magic.
-~
-#EXIT
-Direction south~
-ToRoom    21030
-Desc      Gardens entry.~
-#ENDEXIT
-Reset M 0 21118 10 21043
-#ENDROOM
-
-#ROOM
-Vnum     21044
-Name     &BHighborne Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A side street in the Highborne Quarter, 
-where zealots prepare their blades.
-~
-#EXIT
-Direction north~
-ToRoom    21031
-Desc      Highborne hall.~
-#ENDEXIT
-Reset M 0 21112 5 21044
-#ENDROOM
-
-#ROOM
-Vnum     21045
-Name     &BAthenaeum Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A high stone balcony in the library, 
-offering a view of the southern thoroughfare.
-~
-#EXIT
-Direction south~
-ToRoom    21032
-Desc      Library entry.~
-#ENDEXIT
-Reset M 0 21114 10 21045
-#ENDROOM
-
-#ROOM
-Vnum     21046
-Name     &BAthenaeum Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A side room filled with Highborne signets 
-and ancient elven tomes.
-~
-#EXIT
-Direction east~
-ToRoom    21032
-Desc      Library entry.~
-#ENDEXIT
-Reset O 0 21161 5 21046
-#ENDROOM
-
-#ROOM
-Vnum     21047
-Name     &mPrison Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A dark corner of the balconies filled with 
-thick arcane static and spirits.
-~
-#EXIT
-Direction east~
-ToRoom    21040
-Desc      Prison balconies.~
-#ENDEXIT
-Reset M 0 21118 10 21047
-#ENDROOM
-
-#ROOM
-Vnum     21048
-Name     &mPrison Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A small, magically-warded chamber where several 
-mana remnants keep watch.
-~
-#EXIT
-Direction west~
-ToRoom    21040
-Desc      Prison balconies.~
-#ENDEXIT
-Reset M 0 21114 10 21048
-#ENDROOM
-
-#ROOM
-Vnum     21072
-Name     &rCommons Overflow A&d~
-Sector   city~
-Flags    indoors~
-Desc     A side tunnel in the Gordok Quarter, filled with 
-massive stone pillars and dust.
-~
-#EXIT
-Direction south~
-ToRoom    21060
-Desc      Commons entry.~
-#ENDEXIT
-Reset O 0 21155 10 21072
-#ENDROOM
-
-#ROOM
-Vnum     21073
-Name     &rCommons Overflow B&d~
-Sector   city~
-Flags    indoors~
-Desc     A narrow ledge where several gordok shamans 
-conduct their rituals.
-~
-#EXIT
-Direction north~
-ToRoom    21060
-Desc      Commons entry.~
-#ENDEXIT
-Reset M 0 21117 5 21073
-#ENDROOM
-
-#ROOM
-Vnum     21074
-Name     &rCourtyard Overflow A&d~
-Sector   city~
-Flags    indoors~
-Desc     A small storage area near the courtyard, filled with 
-kodo-bones and jug of ale.
-~
-#EXIT
-Direction west~
-ToRoom    21061
-Desc      Courtyard.~
-#ENDEXIT
-Reset O 0 21151 10 21074
-#ENDROOM
-
-#ROOM
-Vnum     21075
-Name     &rCourtyard Overflow B&d~
-Sector   city~
-Flags    indoors~
-Desc     A quiet ridge north of the courtyard, where reavers 
-keep watch over the inner gate.
-~
-#EXIT
-Direction south~
-ToRoom    21061
-Desc      Courtyard.~
-#ENDEXIT
-Reset M 0 21108 5 21075
-#ENDROOM
-
-#ROOM
-Vnum     21012
-Name     &gThe Warpwood Ledge&d~
-Sector   forest~
-Flags    indoors~
-Desc     A high, narrow mountain trail that provides a 
-commanding view of the eastern Quarter.
-~
-#EXIT
-Direction north~
-ToRoom    21001
-Desc      Quarter entrance.~
-#ENDEXIT
-Reset M 0 21115 5 21012
-#ENDROOM
-
-#ROOM
-Vnum     21013
-Name     &gThe Silent Grove&d~
-Sector   forest~
-Flags    indoors~
-Desc     A dark corner of the overgrown garden where the trees 
-seem to whisper in the wind.
-~
-#EXIT
-Direction east~
-ToRoom    21002
-Desc      The garden.~
-#ENDEXIT
-Reset M 0 21109 5 21013
-#ENDROOM
-
-#ROOM
-Vnum     21014
-Name     &gThe Tangle-vine Path&d~
-Sector   forest~
-Flags    indoors~
-Desc     A narrow trail that leads through the heart of the Quarter. 
-Vines coat everything in a fine green dust.
-~
-#EXIT
-Direction south~
-ToRoom    21002
-Desc      The garden.~
-#ENDEXIT
-Reset O 0 21166 10 21014
-#ENDROOM
-
-#ROOM
-Vnum     21015
-Name     &mThe Satyr's Den&d~
-Sector   inside~
-Flags    indoors dark~
-Desc     A small, damp cave where several satyrs 
-have sought refuge.
-~
-#EXIT
-Direction east~
-ToRoom    21003
-Desc      Sanctuary entrance.~
-#ENDEXIT
-Reset M 0 21116 10 21015
-#ENDROOM
-
-#ROOM
-Vnum     21049
-Name     &BThe Highborne Lookout&d~
-Sector   inside~
-Flags    indoors~
-Desc     A rocky platform providing a clear view of the 
-road leading to the main entrance.
-~
-#EXIT
-Direction south~
-ToRoom    21030
-Desc      Gardens entry.~
-#ENDEXIT
-Reset M 0 21112 5 21049
-#ENDROOM
-
-#ROOM
-Vnum     21050
-Name     &BThe Dire Maul West Exit&d~
-Sector   inside~
-Flags    indoors~
-Desc     A narrow, stone-lined tunnel behind the Prince's throne 
-leads toward a hidden opening in the side of the 
-mountain, offering a quick way back toward Feralas.
-~
-#EXIT
-Direction south~
-ToRoom    21042
-Desc      The throne room.~
-#ENDEXIT
-#EXIT
-Direction up~
-ToRoom    21000
-Desc      The main archway.~
-#ENDEXIT
-#ENDROOM
-
-#ROOM
-Vnum     21076
-Name     &rThe Gordok Lookout&d~
-Sector   city~
-Flags    indoors~
-Desc     A small, isolated balcony near the King's seat. 
-A Gordunni battle-master can sometimes be seen here.
-~
-#EXIT
-Direction south~
-ToRoom    21065
-Desc      The throne room.~
-#ENDEXIT
-Reset M 0 21119 1 21076
-#ENDROOM
-
-#ROOM
-Vnum     21080
-Name     &rThe Dire Maul North Exit&d~
-Sector   city~
-Flags    indoors~
-Desc     A narrow, stone-lined tunnel behind King Gordok's throne 
-leads toward a hidden opening in the north Spire walls.
-~
-#EXIT
-Direction south~
-ToRoom    21065
-Desc      The throne room.~
-#ENDEXIT
-#EXIT
-Direction up~
-ToRoom    21000
-Desc      The main archway.~
-#ENDEXIT
-#ENDROOM
-
-#ROOM
-Vnum     21016
-Name     &gThe Mossy Alcove&d~
-Sector   forest~
-Flags    indoors~
-Desc     A small, hidden room behind a waterfall in the gardens. 
-It contains ancient Highborne treasures.
-~
-#EXIT
-Direction north~
-ToRoom    21002
-Desc      The garden.~
-#ENDEXIT
-Reset O 0 21161 1 21016
-#ENDROOM
-
-#ROOM
-Vnum     21017
-Name     &gThe Warpwood Labyrinth - South&d~
-Sector   forest~
-Flags    indoors~
-Desc     A confusing series of interlocking tunnels filled with 
-thorny vines and the sound of buzzing insects.
-~
-#EXIT
-Direction north~
-ToRoom    21018
-Desc      Deep Labyrinth.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    21001
-Desc      Quarter entrance.~
-#ENDEXIT
-Reset M 0 21109 10 21017
-#ENDROOM
-
-#ROOM
-Vnum     21018
-Name     &gThe Warpwood Labyrinth - Deep&d~
-Sector   forest~
-Flags    indoors~
-Desc     The deepest part of the labyrinth. The ceiling is low 
-and the air is absolute still.
-~
-#EXIT
-Direction south~
-ToRoom    21017
-Desc      Southern labyrinth.~
-#ENDEXIT
-Reset M 0 21115 5 21018
-#ENDROOM
-
-#ROOM
-Vnum     21019
-Name     &mThe Satyr's Kitchen&d~
-Sector   inside~
-Flags    indoors~
-Desc     A dark room near the sanctuary where the satyrs 
-prepare their daily meals of forest roots.
-~
-#EXIT
-Direction north~
-ToRoom    21003
-Desc      Sanctuary entrance.~
-#ENDEXIT
-Reset M 0 21116 5 21019
-#ENDROOM
-
-#ROOM
-Vnum     21020
-Name     &mThe Ritual Pit&d~
-Sector   inside~
-Flags    indoors~
-Desc     A deep, circular pit filled with smoldering bones and 
-the residue of shadow-magic.
-~
-#EXIT
-Direction west~
-ToRoom    21004
-Desc      Sanctuary heart.~
-#ENDEXIT
-Reset O 0 21164 10 21020
-#ENDROOM
-
-#ROOM
-Vnum     21021
-Name     &gThe Alzzin Overlook&d~
-Sector   forest~
-Flags    indoors~
-Desc     A high stone ledge overlooking Alzzin's lair, 
-frequently patrolled by Moss-flayers.
-~
-#EXIT
-Direction south~
-ToRoom    21005
-Desc      Alzzin's lair.~
-#ENDEXIT
-Reset M 0 21115 5 21021
-#ENDROOM
-
-#ROOM
-Vnum     21022
-Name     &BThe West Wing Thoroughfare&d~
-Sector   inside~
-Flags    indoors~
-Desc     A long, wide hallway lined with emerald dragonscales. 
-The air hums with the power of the Emerald Dream.
-~
-#EXIT
-Direction east~
-ToRoom    21031
-Desc      Highborne hall.~
-#ENDEXIT
-#EXIT
-Direction west~
-ToRoom    21023
-Desc      Deep thoroughfare.~
-#ENDEXIT
-Reset M 0 21102 5 21022
-#ENDROOM
-
-#ROOM
-Vnum     21023
-Name     &BThe West Wing Thoroughfare - Deep&d~
-Sector   inside~
-Flags    indoors~
-Desc     The thoroughfare ends at a large iron-bound door. 
-Arcane static is so intense here that it makes 
-your skin crawl.
-~
-#EXIT
-Direction east~
-ToRoom    21022
-Desc      Thoroughfare entry.~
-#ENDEXIT
-Reset M 0 21111 5 21023
-#ENDROOM
-
-#ROOM
-Vnum     21024
-Name     &BThe Library Side-room&d~
-Sector   inside~
-Flags    indoors~
-Desc     A small storage area near the Athenaeum, filled with 
-blank parchment and vials of ink.
-~
-#EXIT
-Direction north~
-ToRoom    21032
-Desc      Library entry.~
-#ENDEXIT
-Reset O 0 21168 1 21024
-#ENDROOM
-
-#ROOM
-Vnum     21025
-Name     &BThe Zealot's Barracks&d~
-Sector   inside~
-Flags    indoors~
-Desc     Rows of neatly made bunks and racks of polished 
-weapons. Zealots rest here between patrols.
-~
-#EXIT
-Direction east~
-ToRoom    21031
-Desc      Highborne hall.~
-#ENDEXIT
-Reset M 0 21112 10 21025
-#ENDROOM
-
-#ROOM
-Vnum     21026
-Name     &mThe Pylon Chamber - North&d~
-Sector   inside~
-Flags    indoors~
-Desc     A high room containing one of the prison's five pylons. 
-It pulses with a rhythmic, purple light.
-~
-#EXIT
-Direction south~
-ToRoom    21040
-Desc      Prison balconies.~
-#ENDEXIT
-Reset M 0 21112 5 21026
-#ENDROOM
-
-#ROOM
-Vnum     21027
-Name     &mThe Pylon Chamber - South&d~
-Sector   inside~
-Flags    indoors~
-Desc     A mirror image of the northern pylon chamber. 
-Zealots stand in silent vigil.
-~
-#EXIT
-Direction north~
-ToRoom    21040
-Desc      Prison balconies.~
-#ENDEXIT
-Reset M 0 21112 5 21027
-#ENDROOM
-
-#ROOM
-Vnum     21028
-Name     &BThe Highborne Terrace&d~
-Sector   inside~
-Flags    indoors~
-Desc     A beautiful balcony that looks out through a gap 
-in the mountain. You can see the jungle below.
-~
-#EXIT
-Direction north~
-ToRoom    21030
-Desc      Gardens entry.~
-#ENDEXIT
-Reset O 0 21158 5 21028
-#ENDROOM
-
-#ROOM
-Vnum     21029
-Name     &BThe Forgotten Crypt&d~
-Sector   inside~
-Flags    indoors dark~
-Desc     A small vault that was walled off centuries ago, 
-filled with ancient coins and dust.
-~
-#EXIT
-Direction west~
-ToRoom    21031
-Desc      Highborne hall.~
-#ENDEXIT
-Reset O 0 21161 1 21029
-#ENDROOM
-
-#ROOM
-Vnum     21051
-Name     &rThe Gordok Pit - Entrance&d~
-Sector   city~
-Flags    indoors~
-Desc     A wide stone ramp leading down into the city's 
-industrial basements.
-~
-#EXIT
-Direction east~
-ToRoom    21060
-Desc      Commons entry.~
-#ENDEXIT
-#EXIT
-Direction west~
-ToRoom    21052
-Desc      The Pit floor.~
-#ENDEXIT
-Reset M 0 21108 5 21051
-#ENDROOM
-
-#ROOM
-Vnum     21052
-Name     &rThe Gordok Pit - Floor&d~
-Sector   city~
-Flags    indoors~
-Desc     The bottom of the northern industrial hub. 
-Ogre smiths work at various large anvils.
-~
-#EXIT
-Direction east~
-ToRoom    21051
-Desc      Pit entrance.~
-#ENDEXIT
-Reset M 0 21108 10 21052
-#ENDROOM
-
-#ROOM
-Vnum     21053
-Name     &rPit Overflow A&d~
-Sector   city~
-Flags    indoors~
-Desc     A side workshop where the ogre smiths 
-repair damaged plate armor.
-~
-#EXIT
-Direction west~
-ToRoom    21052
-Desc      Pit floor.~
-#ENDEXIT
-Reset O 0 21159 10 21053
-#ENDROOM
-
-#ROOM
-Vnum     21054
-Name     &rThe Gordok Kennel&d~
-Sector   city~
-Flags    indoors~
-Desc     A large, smelly room filled with mastiffs. 
-A trainer stands in the center with a whip.
-~
-#EXIT
-Direction south~
-ToRoom    21061
-Desc      Courtyard.~
-#ENDEXIT
-Reset M 0 21113 10 21054
-#ENDROOM
-
-#ROOM
-Vnum     21055
-Name     &rThe High Arena - West Wall&d~
-Sector   city~
-Flags    indoors~
-Desc     A high point on the arena wall, home to 
-several Gordunni battle-masters.
-~
-#EXIT
-Direction east~
-ToRoom    21070
-Desc      Arena entry.~
-#ENDEXIT
-Reset M 0 21119 5 21055
-#ENDROOM
-
-#ROOM
-Vnum     21056
-Name     &rArena Overflow A&d~
-Sector   city~
-Flags    indoors~
-Desc     A small room for storing weaponry for the 
-arena combatants.
-~
-#EXIT
-Direction south~
-ToRoom    21070
-Desc      Arena entry.~
-#ENDEXIT
-Reset O 0 21163 10 21056
-#ENDROOM
-
-#ROOM
-Vnum     21057
-Name     &rThe Gordok Guard-post&d~
-Sector   city~
-Flags    indoors~
-Desc     A small, well-fortified room near Kromcrush's gate.
-~
-#EXIT
-Direction south~
-ToRoom    21062
-Desc      Kromcrush's gate.~
-#ENDEXIT
-Reset M 0 21108 5 21057
-#ENDROOM
-
-#ROOM
-Vnum     21058
-Name     &rThe Shaman's Tent&d~
-Sector   city~
-Flags    indoors~
-Desc     A large, hide-covered tent filled with 
-lightning-totems and burning bones.
-~
-#EXIT
-Direction north~
-ToRoom    21063
-Desc      Lower approach.~
-#ENDEXIT
-Reset M 0 21117 1 21058
-#ENDROOM
-
-#ROOM
-Vnum     21059
-Name     &rThe Warlock's Alcove&d~
-Sector   city~
-Flags    indoors~
-Desc     A dark corner of the King's approach where 
-warlocks practice their stolen magic.
-~
-#EXIT
-Direction south~
-ToRoom    21064
-Desc      Upper approach.~
-#ENDEXIT
-Reset M 0 21122 5 21059
 #ENDROOM
 
 #ROOM
@@ -2215,6 +2185,7 @@ Direction south~
 ToRoom    21065
 Desc      Gordok's throne.~
 #ENDEXIT
+
 Reset O 0 21156 1 21066
 #ENDROOM
 
@@ -2231,6 +2202,7 @@ Direction west~
 ToRoom    21065
 Desc      Gordok's throne.~
 #ENDEXIT
+
 Reset M 0 21113 5 21067
 #ENDROOM
 
@@ -2238,7 +2210,7 @@ Reset M 0 21113 5 21067
 Vnum     21068
 Name     &rThe Zukk'ash Breach&d~
 Sector   underground~
-Flags    indoors dark~
+Flags    dark indoors~
 Desc     A massive crack in the city's lower wall 
 where the silithid have bored through.
 ~
@@ -2247,6 +2219,7 @@ Direction up~
 ToRoom    21060
 Desc      Commons entry.~
 #ENDEXIT
+
 Reset M 0 21123 10 21068
 #ENDROOM
 
@@ -2263,7 +2236,156 @@ Direction north~
 ToRoom    21061
 Desc      Courtyard.~
 #ENDEXIT
+
 Reset O 0 21170 10 21069
+#ENDROOM
+
+#ROOM
+Vnum     21070
+Name     &rThe High Arena - Entrance&d~
+Sector   city~
+Flags    indoors~
+Desc     A wide stone balcony overlooking the city's central arena. 
+The tiers of seating are filled with rowdy ogres 
+shouting for blood.
+~
+#EXIT
+Direction north~
+ToRoom    21071
+Desc      The Arena Stands.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    21061
+Desc      The Gordok courtyard.~
+#ENDEXIT
+
+Reset M 0 21119 5 21070
+#ENDROOM
+
+#ROOM
+Vnum     21071
+Name     &rThe Arena Stands - West&d~
+Sector   city~
+Flags    indoors~
+Desc     Rows of stone benches occupied by Gordok ogres. They throw 
+bones and insults at the combatants in the pit below.
+~
+#EXIT
+Direction south~
+ToRoom    21070
+Desc      The arena entrance.~
+#ENDEXIT
+
+Reset M 0 21108 10 21071
+#ENDROOM
+
+#ROOM
+Vnum     21072
+Name     &rCommons Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A side tunnel in the Gordok Quarter, filled with 
+massive stone pillars and dust.
+~
+#EXIT
+Direction south~
+ToRoom    21060
+Desc      Commons entry.~
+#ENDEXIT
+
+Reset O 0 21155 10 21072
+#ENDROOM
+
+#ROOM
+Vnum     21073
+Name     &rCommons Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow ledge where several gordok shamans 
+conduct their rituals.
+~
+#EXIT
+Direction north~
+ToRoom    21060
+Desc      Commons entry.~
+#ENDEXIT
+
+Reset M 0 21117 5 21073
+#ENDROOM
+
+#ROOM
+Vnum     21074
+Name     &rCourtyard Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A small storage area near the courtyard, filled with 
+kodo-bones and jug of ale.
+~
+#EXIT
+Direction west~
+ToRoom    21061
+Desc      Courtyard.~
+#ENDEXIT
+
+Reset O 0 21151 10 21074
+#ENDROOM
+
+#ROOM
+Vnum     21075
+Name     &rCourtyard Overflow B&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet ridge north of the courtyard, where reavers 
+keep watch over the inner gate.
+~
+#EXIT
+Direction south~
+ToRoom    21061
+Desc      Courtyard.~
+#ENDEXIT
+
+Reset M 0 21108 5 21075
+#ENDROOM
+
+#ROOM
+Vnum     21076
+Name     &rThe Gordok Lookout&d~
+Sector   city~
+Flags    indoors~
+Desc     A small, isolated balcony near the King's seat. 
+A Gordunni battle-master can sometimes be seen here.
+~
+#EXIT
+Direction south~
+ToRoom    21065
+Desc      The throne room.~
+#ENDEXIT
+
+Reset M 0 21119 1 21076
+#ENDROOM
+
+#ROOM
+Vnum     21080
+Name     &rThe Dire Maul North Exit&d~
+Sector   city~
+Flags    indoors~
+Desc     A narrow, stone-lined tunnel behind King Gordok's throne 
+leads toward a hidden opening in the north Spire walls.
+~
+#EXIT
+Direction south~
+ToRoom    21065
+Desc      The throne room.~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    21000
+Desc      The main archway.~
+#ENDEXIT
+
 #ENDROOM
 
 #ROOM
@@ -2279,6 +2401,7 @@ Direction south~
 ToRoom    21001
 Desc      Quarter entrance.~
 #ENDEXIT
+
 Reset O 0 21170 10 21081
 #ENDROOM
 
@@ -2295,6 +2418,7 @@ Direction north~
 ToRoom    21031
 Desc      Highborne hall.~
 #ENDEXIT
+
 Reset O 0 21170 10 21082
 #ENDROOM
 

@@ -3,10 +3,13 @@
 Version      1
 Name         Temple of Ahn'Qiraj~
 Author       Feenom~
+Type         5
+Continent    Kalimdor~
 WeatherX     0
 WeatherY     0
 Ranges       60 60 0 60
 Economy      0 2000000000
+ResetFreq    15
 #ENDAREADATA
 
 #MOBILE
@@ -20,16 +23,17 @@ illusion and mind control, his voice echoing with the whispers of
 C'Thun.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 150000 350000
 Stats2     62 62 5000
 Stats3     40 120 85
 Stats4     0 0 0 0 0
-Attribs    20 15 25 45 40 25 25
+Stats       20 45 40 15 25
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -43,16 +47,17 @@ hives, her stinger capable of delivering a barrage of lethal
 toxins.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     female~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Female~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 200000 500000
 Stats2     62 62 0
 Stats3     45 130 90
 Stats4     0 0 0 0 0
-Attribs    35 30 40 10 15 25 25
+Stats       35 10 15 30 40
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -66,16 +71,17 @@ relying on brute force and his enchanted claymore to crush
 intruders.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 63 0 0 400000 800000
 Stats2     63 63 0
 Stats3     50 180 100
 Stats4     0 0 0 0 0
-Attribs    50 15 45 10 12 30 30
+Stats       50 10 12 15 45
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -89,16 +95,17 @@ strikes, wielding the corrupting magic of the Old Gods to
 obliterate his foes.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 63 0 0 400000 800000
 Stats2     63 63 10000
 Stats3     40 120 90
 Stats4     0 0 0 0 0
-Attribs    15 15 25 50 45 30 30
+Stats       15 50 45 15 25
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -112,16 +119,17 @@ beneath the temple for eons, growing to a size that defies
 nature.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 63 0 0 350000 700000
 Stats2     63 63 0
 Stats3     55 200 110
 Stats4     0 0 0 0 0
-Attribs    55 10 50 5 10 30 30
+Stats       55 5 10 10 50
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -134,17 +142,18 @@ Desc       An Old God of ancient and terrible power. His influence has
 corrupted the Qiraji and turned Ahn'Qiraj into a monument to 
 madness. He sees all, and he hungers for the end of the world.
 ~
-Race       undead~ 
-Class      mage~
+Race       undead~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 63 0 0 1500000 3000000
-Stats2     63 63 50000
+Stats2     63 63 -15536
 Stats3     100 500 200
 Stats4     0 0 0 0 0
-Attribs    50 10 50 50 50 50 50
+Stats       50 50 50 10 50
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -154,16 +163,17 @@ Short      Battleguard Sartura~
 Long       Sartura spins in a whirlwind of blades, her eyes wide with fanatical rage.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     female~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Female~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 95000 250000
 Stats2     61 61 0
 Stats3     40 130 85
 Stats4     0 0 0 0 0
-Attribs    35 30 30 10 15 20 20
+Stats       35 10 15 30 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -173,16 +183,17 @@ Short      Fankriss the Unyielding~
 Long       A massive gold-plated sand-reaver stand guard, summoning swarms of hatchlings.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 110000 300000
 Stats2     61 61 0
 Stats3     45 140 90
 Stats4     0 0 0 0 0
-Attribs    45 12 35 6 10 20 20
+Stats       45 6 10 12 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -192,16 +203,17 @@ Short      Viscidus~
 Long       A gargantuan glob of freezing green sludge gurgles in the pit.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 150000 400000
 Stats2     61 61 0
 Stats3     40 120 85
 Stats4     0 0 0 0 0
-Attribs    40 4 45 10 10 20 20
+Stats       40 10 10 4 45
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -211,16 +223,17 @@ Short      Vem~
 Long       A large silithid beetle with a spiked shell charges forward.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 85000 200000
 Stats2     61 61 0
 Stats3     38 115 80
 Stats4     0 0 0 0 0
-Attribs    35 15 30 8 12 15 15
+Stats       35 8 12 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -230,16 +243,17 @@ Short      an Anubisath Sentinel~
 Long       A massive stone-giant in the shape of a jackal stand guard at the gate.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 45000 120000
 Stats2     60 60 0
 Stats3     35 110 80
 Stats4     0 0 0 0 0
-Attribs    40 10 40 10 15 20 20
+Stats       40 10 15 10 40
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -249,16 +263,17 @@ Short      a Qiraji Slayer~
 Long       A terrifying four-armed insect warrior balances two obsidian blades.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 8500 25000
 Stats2     60 60 200
 Stats3     25 75 60
 Stats4     0 0 0 0 0
-Attribs    32 18 26 12 14 15 15
+Stats       32 12 14 18 26
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -268,16 +283,17 @@ Short      a Silithid Swarm-guard~
 Long       A hulking beetle-like warrior snaps its serrated pincers.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 6500 18000
 Stats2     60 60 0
 Stats3     22 65 62
 Stats4     0 0 0 0 0
-Attribs    30 12 28 4 10 12 12
+Stats       30 4 10 12 28
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -287,16 +303,17 @@ Short      a Qiraji Mindslayer~
 Long       A floating spectral eye with a blue iris radiates waves of pain.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 3500 10000
 Stats2     60 60 2500
 Stats3     18 50 60
 Stats4     0 0 0 0 0
-Attribs    12 14 18 35 32 15 15
+Stats       12 35 32 14 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -306,16 +323,17 @@ Short      an Obsidian Eradicator~
 Long       A stone construct hums with stolen mana, its body pulsing purple.
 ~
 Race       mammal~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 7500 22000
 Stats2     60 60 5000
 Stats3     20 60 62
 Stats4     0 0 0 0 0
-Attribs    35 12 35 40 38 15 15
+Stats       35 40 38 12 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -325,16 +343,17 @@ Short      a Hakkari Shadow-priest~
 Long       A troll in feathered robes mutters a soul-draining hex.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 3200 9500
 Stats2     60 60 2800
 Stats3     15 45 60
 Stats4     0 0 0 0 0
-Attribs    12 16 14 38 32 12 12
+Stats       12 38 32 16 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -344,16 +363,17 @@ Short      a Giant Desert Spider~
 Long       A large pale spider skitters across the ceiling, waiting to drop.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 59 0 0 1800 5200
 Stats2     59 59 0
 Stats3     11 30 59
 Stats4     0 0 0 0 0
-Attribs    18 22 16 4 10 6 6
+Stats       18 4 10 22 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -363,16 +383,17 @@ Short      a Qiraji Lashlayer~
 Long       A massive dragonspawn balances a heavy three-pronged polearm.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 12000 35000
 Stats2     61 61 500
 Stats3     22 65 62
 Stats4     0 0 0 0 0
-Attribs    32 15 28 12 15 20 20
+Stats       32 12 15 15 28
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -382,16 +403,17 @@ Short      a Silithid Swarmer~
 Long       A cloud of small flying insects hums with a deafening buzz.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 58 0 0 800 2400
 Stats2     58 58 0
 Stats3     8 22 58
 Stats4     0 0 0 0 0
-Attribs    14 24 12 4 6 4 4
+Stats       14 4 6 24 12
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -401,16 +423,17 @@ Short      an Anubisath Warder~
 Long       A jackal-headed stone warrior stands perfectly still, eyes glowing red.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 25000 70000
 Stats2     61 61 300
 Stats3     30 90 70
 Stats4     0 0 0 0 0
-Attribs    42 10 38 12 18 20 20
+Stats       42 12 18 10 38
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -420,16 +443,17 @@ Short      a Qiraji Brain-stripper~
 Long       A multi-armed insect warrior in silver plate armor balances two blades.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 4500 13000
 Stats2     60 60 300
 Stats3     18 52 60
 Stats4     0 0 0 0 0
-Attribs    30 20 24 14 16 15 15
+Stats       30 14 16 20 24
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -439,16 +463,17 @@ Short      a Flickering Shade~
 Long       A dark shadowy spirit wails as it floats above the floor.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1200 3500
 Stats2     60 60 1500
 Stats3     10 28 60
 Stats4     0 0 0 0 0
-Attribs    10 22 14 34 26 10 10
+Stats       10 34 26 22 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -458,16 +483,17 @@ Short      a Qiraji Champion~
 Long       A massive insect warrior in ornate obsidian armor stand guard.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 8500 24000
 Stats2     61 61 400
 Stats3     24 70 62
 Stats4     0 0 0 0 0
-Attribs    35 15 30 14 18 20 20
+Stats       35 14 18 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -477,16 +503,17 @@ Short      a Hakkari Warlock~
 Long       A troll in shadow-threaded robes mutter to a void-walker.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     female~
-Actflags   npc stayarea aggressive~
+Gender     Female~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1800 5500
 Stats2     60 60 2500
 Stats3     13 40 60
 Stats4     0 0 0 0 0
-Attribs    12 12 14 35 28 15 15
+Stats       12 35 28 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -496,16 +523,17 @@ Short      a Spectral Researcher~
 Long       A ghostly troll figure pours over a massive ancient tome.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 60 0 0 1200 3500
 Stats2     60 60 1800
 Stats3     11 32 60
 Stats4     0 0 0 0 0
-Attribs    10 12 14 34 28 15 15
+Stats       10 34 28 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -515,16 +543,17 @@ Short      a Qiraji Reaver~
 Long       A humanoid insect in prismatic scales stands in silent vigil.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 10000 30000
 Stats2     61 61 300
 Stats3     22 65 62
 Stats4     0 0 0 0 0
-Attribs    38 14 32 16 20 20 20
+Stats       38 16 20 14 32
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -534,16 +563,17 @@ Short      a Sand Skitterer Hatchling~
 Long       A small pale spider snap its pincers at your feet.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 56 0 0 400 1200
 Stats2     56 56 0
 Stats3     5 15 56
 Stats4     0 0 0 0 0
-Attribs    14 20 12 4 4 4 4
+Stats       14 4 4 20 12
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -553,16 +583,17 @@ Short      an Observer of the Temple~
 Long       An insect warrior in fine robes gaze through a crystal lens.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc sentinel stayarea~
 Stats1     0 62 0 0 3500 10000
 Stats2     62 62 2500
 Stats3     15 45 62
 Stats4     0 0 0 0 0
-Attribs    14 12 20 38 32 20 20
+Stats       14 38 32 12 20
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -572,16 +603,17 @@ Short      a Silithid Creeper~
 Long       A beetle-like insect with a glowing abdomen skitters across the wall.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 4200 12000
 Stats2     60 60 0
 Stats3     16 48 60
 Stats4     0 0 0 0 0
-Attribs    28 12 22 4 10 12 12
+Stats       28 4 10 12 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -591,16 +623,17 @@ Short      a Qiraji Gladiator~
 Long       A four-armed insect warrior in heavy obsidian armor stands guard.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 8500 25000
 Stats2     61 61 400
 Stats3     24 72 62
 Stats4     0 0 0 0 0
-Attribs    35 15 30 14 18 20 20
+Stats       35 14 18 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -610,16 +643,17 @@ Short      a Spire Rat~
 Long       A large grey rat scurries along the base of the wall.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc stayarea~
 Stats1     0 50 0 0 200 600
 Stats2     50 50 0
 Stats3     3 10 50
 Stats4     0 0 0 0 0
-Attribs    10 16 10 4 4 4 4
+Stats       10 4 4 16 10
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -629,16 +663,17 @@ Short      a Hakkari Initiate~
 Long       A young troll priest mutter a dark prayer to the Blood God.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 59 0 0 1200 3500
 Stats2     59 59 1000
 Stats3     9 25 59
 Stats4     0 0 0 0 0
-Attribs    10 12 14 28 22 10 10
+Stats       10 28 22 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -648,16 +683,17 @@ Short      an Anubisath Mender~
 Long       A stone guardian in mender's robes weaves a healing ritual.
 ~
 Race       mammal~
-Class      shaman~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 3500 9500
 Stats2     61 61 2200
 Stats3     14 42 61
 Stats4     0 0 0 0 0
-Attribs    24 10 22 32 28 15 15
+Stats       24 32 28 10 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -667,16 +703,17 @@ Short      a Qiraji Brain-wiper~
 Long       An insect warrior in dark purple robes mutters a shadow-hex.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1800 5500
 Stats2     60 60 2500
 Stats3     13 38 60
 Stats4     0 0 0 0 0
-Attribs    12 14 16 35 30 15 15
+Stats       12 35 30 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -686,16 +723,17 @@ Short      a Hakkari Blood-drinker~
 Long       A troll in rusted plate armor licks a curved dagger.
 ~
 Race       troll~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 4500 13000
 Stats2     60 60 250
 Stats3     18 50 60
 Stats4     0 0 0 0 0
-Attribs    30 14 22 12 14 15 15
+Stats       30 12 14 14 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -705,16 +743,17 @@ Short      a Qiraji Dark-weaver~
 Long       An insect mage in shadow-threaded robes mutter a curse.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     female~
-Actflags   npc stayarea aggressive~
+Gender     Female~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1500 4500
 Stats2     60 60 2200
 Stats3     12 35 60
 Stats4     0 0 0 0 0
-Attribs    12 12 14 38 32 15 15
+Stats       12 38 32 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -724,16 +763,17 @@ Short      a Qiraji Sentinel~
 Long       A massive insect warrior in ornate black-iron plate stands still.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 7500 22000
 Stats2     61 61 400
 Stats3     25 75 62
 Stats4     0 0 0 0 0
-Attribs    35 15 30 14 18 20 20
+Stats       35 14 18 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -743,16 +783,17 @@ Short      a Hakkari Shadow-weaver~
 Long       A troll in dark purple robes mutter an incantation of shadow.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1600 4800
 Stats2     60 60 2200
 Stats3     12 35 60
 Stats4     0 0 0 0 0
-Attribs    12 14 14 34 26 12 12
+Stats       12 34 26 14 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -762,16 +803,17 @@ Short      a Qiraji Warden~
 Long       A massive humanoid dragon in prismatic scales stand guard.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 62 0 0 12000 35000
 Stats2     62 62 500
 Stats3     32 100 65
 Stats4     0 0 0 0 0
-Attribs    38 14 32 18 22 25 25
+Stats       38 18 22 14 32
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -781,16 +823,17 @@ Short      a Qiraji Shadow-stalker~
 Long       A shadow detach itself from the pillar, a poisoned blade flashing.
 ~
 Race       humanoid~
-Class      thief~
+Class      Thief~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 3500 9500
 Stats2     60 60 500
 Stats3     16 45 60
 Stats4     0 0 0 0 0
-Attribs    18 30 18 14 16 15 15
+Stats       18 14 16 30 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -800,16 +843,17 @@ Short      a Spectral Legionnaire~
 Long       A translucent troll warrior wanders the hall, reliving a past war.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 3500 10000
 Stats2     60 60 200
 Stats3     15 45 60
 Stats4     0 0 0 0 0
-Attribs    26 12 20 10 10 15 15
+Stats       26 10 10 12 20
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -819,16 +863,17 @@ Short      an Eye of C'Thun Spawn~
 Long       A small floating red eye watches you from the shadows.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1000 3000
 Stats2     60 60 1500
 Stats3     8 20 60
 Stats4     0 0 0 0 0
-Attribs    10 24 14 30 18 10 10
+Stats       10 30 18 24 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -838,16 +883,17 @@ Short      a Qiraji Champion~
 Long       A massive insect warrior in heavy obsidian plate stand guard.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 7500 22000
 Stats2     61 61 400
 Stats3     22 65 62
 Stats4     0 0 0 0 0
-Attribs    35 15 30 14 18 20 20
+Stats       35 14 18 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -857,16 +903,17 @@ Short      an Anubisath Warder~
 Long       A jackal-headed stone warrior stands perfectly still.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 25000 70000
 Stats2     61 61 300
 Stats3     30 90 70
 Stats4     0 0 0 0 0
-Attribs    42 10 38 12 18 20 20
+Stats       42 12 18 10 38
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -876,16 +923,17 @@ Short      a Qiraji Brain-stripper~
 Long       A multi-armed insect warrior in silver plate armor.
 ~
 Race       humanoid~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 4500 13000
 Stats2     60 60 300
 Stats3     18 52 60
 Stats4     0 0 0 0 0
-Attribs    30 20 24 14 16 15 15
+Stats       30 14 16 20 24
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -895,16 +943,17 @@ Short      a Flickering Shade~
 Long       A dark shadowy spirit wails as it floats above the floor.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1100 3200
 Stats2     60 60 1200
 Stats3     9 24 60
 Stats4     0 0 0 0 0
-Attribs    10 22 12 32 20 10 10
+Stats       10 32 20 22 12
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -914,16 +963,17 @@ Short      a Hakkari Initiate~
 Long       A young troll priest mutter a dark prayer.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 59 0 0 1200 3500
 Stats2     59 59 1000
 Stats3     10 25 59
 Stats4     0 0 0 0 0
-Attribs    10 12 14 28 22 10 10
+Stats       10 28 22 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -933,16 +983,17 @@ Short      an Anubisath Mender~
 Long       A stone guardian in mender's robes weaves a ritual.
 ~
 Race       mammal~
-Class      shaman~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 3500 9500
 Stats2     61 61 2200
 Stats3     14 42 61
 Stats4     0 0 0 0 0
-Attribs    24 10 22 32 28 15 15
+Stats       24 32 28 10 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -952,16 +1003,17 @@ Short      a Qiraji Brain-wiper~
 Long       An insect warrior in dark purple robes mutters a hex.
 ~
 Race       humanoid~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1800 5500
 Stats2     60 60 2500
 Stats3     13 38 60
 Stats4     0 0 0 0 0
-Attribs    12 14 16 35 30 15 15
+Stats       12 35 30 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -971,299 +1023,321 @@ Short      a Hakkari Blood-drinker~
 Long       A troll in rusted plate armor licks a curved dagger.
 ~
 Race       troll~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 4500 13000
 Stats2     60 60 250
 Stats3     18 50 60
 Stats4     0 0 0 0 0
-Attribs    30 14 22 12 14 15 15
+Stats       30 12 14 14 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #OBJECT
 Vnum     43100
 Keywords scepter false prophet weapon staff~
 Type     weapon~
+Continent    Kalimdor~
 Short    the Scepter of the False Prophet~
 Long     A tall staff of white stone topped with a single, unblinking red eye.~
 WFlags   take wield~
+Rarity   3
 Values   12 25 55 7 0 0
 Stats    25 50000 62 0 0
-Rarity   3
-Affect   3 25 0 0 0
-Affect   14 30 0 0 0
-Affect   12 20 0 0 0
+AffectData   'acid breath' 25 0 0 0
+AffectData   'backstab' 30 0 0 0
+AffectData   'armor' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43101
 Keywords dark edge insanity axe weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    the Dark Edge of Insanity~
 Long     A massive two-handed axe with a blade of shifting obsidian and teeth.~
 WFlags   take wield~
+Rarity   3
 Values   12 28 60 2 0 0
 Stats    35 100000 64 0 0
-Rarity   3
-Affect   1 30 0 0 0
-Affect   13 40 0 0 0
-Affect   18 15 0 0 0
+AffectData   'acetum primus' 30 0 0 0
+AffectData   'astral walk' 40 0 0 0
+AffectData   'berserk' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43102
 Keywords regalia qiraji highlord hold treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    the Qiraji Bindings of Command~
 Long     Ornate obsidian shackles used to focus the power of a Highlord.~
 WFlags   take hold~
+Rarity   3
 Values   0 0 0 0 0 0
 Stats    1 50000 60 0 0
-Rarity   3
-Affect   13 25 0 0 0
+AffectData   'astral walk' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43103
 Keywords death's sting dagger weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    Death's Sting~
 Long     A wicked dagger carved from the stinger of a silithid queen.~
 WFlags   take wield~
+Rarity   3
 Values   12 18 40 11 0 0
 Stats    2 50000 63 0 0
-Rarity   3
-Affect   2 25 0 0 0
-Affect   12 30 0 0 0
+AffectData   'acid blast' 25 0 0 0
+AffectData   'armor' 30 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43104
 Keywords jaded crystal ring rune~
 Type     rune~
+Continent    Kalimdor~
 Short    a Jaded Crystal Signet~
 Long     A ring made of solid red crystal that hums with madness.~
 WFlags   take finger~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 15000 60 0 0
-Rarity   2
-Affect   3 15 0 0 0
-Affect   14 20 0 0 0
+AffectData   'acid breath' 15 0 0 0
+AffectData   'backstab' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43105
 Keywords mantle steller shoulders armor~
 Type     armor~
+Continent    Kalimdor~
 Short    the Mantle of Steller Fury~
 Long     Heavy plate shoulderguards reinforced with jackal-head motifs.~
 WFlags   take about~
+Rarity   2
 Values   15 0 0 0 0 0
 Stats    10 12000 60 0 0
-Rarity   2
-Affect   1 12 0 0 0
-Affect   5 15 0 0 0
+AffectData   'acetum primus' 12 0 0 0
+AffectData   'acidshot' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43106
 Keywords obsidian stone coin treasure currency~
 Type     treasure~
+Continent    Kalimdor~
 Short    an Obsidian Qiraji Coin~
 Long     An ancient coin featuring the visage of the Old God.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 1500 1 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
 Vnum     43107
 Keywords red qiraji bijou treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Red Qiraji Bijou~
 Long     A faceted red gemstone that pulses with blood magic.~
 WFlags   take~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 3500 60 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
 Vnum     43108
 Keywords desert skitterer pelt fur trophy~
 Type     trash~
+Continent    Kalimdor~
 Short    a thick skitterer pelt~
 Long     A magnificent pale-white pelt taken from a desert spider.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    10 2500 1 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
 Vnum     43109
 Keywords fang huhuran dagger weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    Huhuran's Stinger~
 Long     A long jagged dagger dripping with a permanent green venom.~
 WFlags   take wield~
+Rarity   2
 Values   12 12 25 11 0 0
 Stats    2 25000 62 0 0
-Rarity   2
-Affect   2 20 0 0 0
-Affect   13 15 0 0 0
+AffectData   'acid blast' 20 0 0 0
+AffectData   'astral walk' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43110
 Keywords sartura's might mace weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    Sartura's Might~
 Long     A heavy stone mace that vibrates with the speed of a storm.~
 WFlags   take wield~
+Rarity   2
 Values   12 18 35 8 0 0
 Stats    25 15000 61 0 0
-Rarity   2
-Affect   1 15 0 0 0
-Affect   18 10 0 0 0
+AffectData   'acetum primus' 15 0 0 0
+AffectData   'berserk' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43111
 Keywords kalimdor's revenge sword weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    Kalimdor's Revenge~
 Long     A massive greatsword with a blade of pure white stone.~
 WFlags   take wield~
+Rarity   3
 Values   12 25 55 3 0 0
 Stats    30 45000 63 0 0
-Rarity   3
-Affect   1 20 0 0 0
-Affect   12 25 0 0 0
+AffectData   'acetum primus' 20 0 0 0
+AffectData   'armor' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43112
 Keywords belt endless agonie waist armor~
 Type     armor~
+Continent    Kalimdor~
 Short    the Belt of Endless Agonie~
 Long     A leather belt reinforced with the teeth of silithid.~
 WFlags   take waist~
+Rarity   2
 Values   12 0 0 0 0 0
 Stats    5 8500 60 0 0
-Rarity   2
-Affect   2 15 0 0 0
-Affect   13 10 0 0 0
+AffectData   'acid blast' 15 0 0 0
+AffectData   'astral walk' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43113
 Keywords gloves annihilation hands armor~
 Type     armor~
+Continent    Kalimdor~
 Short    the Gloves of Annihilation~
 Long     Plate gauntlets that seem to absorb all incoming light.~
 WFlags   take hands~
+Rarity   3
 Values   15 0 0 0 0 0
 Stats    8 15000 61 0 0
-Rarity   3
-Affect   1 15 0 0 0
-Affect   18 12 0 0 0
+AffectData   'acetum primus' 15 0 0 0
+AffectData   'berserk' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43114
 Keywords cloak clarity about armor~
 Type     armor~
+Continent    Kalimdor~
 Short    the Cloak of Clarity~
 Long     A fine silken cloak that grants the wearer mental focus.~
 WFlags   take about~
+Rarity   2
 Values   5 0 0 0 0 0
 Stats    1 8500 60 0 0
-Rarity   2
-Affect   3 12 0 0 0
-Affect   14 15 0 0 0
+AffectData   'acid breath' 12 0 0 0
+AffectData   'backstab' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43115
 Keywords qiraji shield armor~
 Type     armor~
+Continent    Kalimdor~
 Short    the Qiraji Bulwark~
 Long     A massive shield reinforced with elementium and obsidian.~
 WFlags   take shield~
+Rarity   3
 Values   35 0 0 0 0 0
 Stats    35 25000 62 0 0
-Rarity   3
-Affect   5 25 0 0 0
-Affect   1 15 0 0 0
+AffectData   'acidshot' 25 0 0 0
+AffectData   'acetum primus' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43116
 Keywords crystal power hold treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Shimmering Power Crystal~
 Long     A large red crystal that pulses with the heartbeat of an Old God.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 5500 58 0 0
-Rarity   1
-Affect   13 12 0 0 0
+AffectData   'astral walk' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43117
 Keywords eye c'thun treasure hold~
 Type     treasure~
-Short     the Eye of C'Thun~
+Continent    Kalimdor~
+Short    the Eye of C'Thun~
 Long     A massive unblinking eye that follows your every movement.~
 WFlags   take hold~
+Rarity   3
 Values   0 0 0 0 0 0
 Stats    5 100000 65 0 0
-Rarity   3
-Affect   3 30 0 0 0
-Affect   14 50 0 0 0
+AffectData   'acid breath' 30 0 0 0
+AffectData   'backstab' 50 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43118
 Keywords elementium bar mineral treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    a solid Elementium Bar~
 Long     A heavy bar of refined elementium, the rarest metal in Azeroth.~
 WFlags   take~
+Rarity   3
 Values   0 0 0 0 0 0
 Stats    15 15000 60 0 0
-Rarity   3
 #ENDOBJECT
 
 #OBJECT
 Vnum     43119
 Keywords qiraji artifact loot~
 Type     treasure~
+Continent    Kalimdor~
 Short    an Ancient Qiraji Artifact~
 Long     A strange mechanical device made of obsidian and bone.~
 WFlags   take~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    10 8500 60 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
 Vnum     43120
 Keywords sand-dusted goggles head armor~
 Type     armor~
+Continent    Kalimdor~
 Short    a pair of sand-dusted goggles~
 Long     Goggles with dark lenses designed to block the desert glare.~
 WFlags   take head~
+Rarity   1
 Values   8 0 0 0 0 0
 Stats    2 4500 55 0 0
-Rarity   1
-Affect   2 10 0 0 0
+AffectData   'acid blast' 10 0 0 0
 #ENDOBJECT
 
 #ROOM
@@ -1278,15 +1352,17 @@ with the history of the Qiraji empire. A long, descending ramp
 leads deep into the earth.
 ~
 #EXIT
-Direction out~
+Direction north~
 ToRoom    39100
 Desc      Return to the Scarab Wall.~
 #ENDEXIT
+
 #EXIT
 Direction north~
 ToRoom    43201
 Desc      The path into the deep.~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
@@ -1300,15 +1376,17 @@ stand in silent vigil. The air hums with a permanent,
 low-frequency buzzing.
 ~
 #EXIT
-Direction south~
-ToRoom    43200
-Desc      The entrance.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43202
 Desc      The Chamber of the Prophet.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43200
+Desc      The entrance.~
+#ENDEXIT
+
 Reset M 0 43012 10 43201
 #ENDROOM
 
@@ -1323,15 +1401,17 @@ assembled legions. The air here tastes of ozone and madness.
 Three images of the Prophet flicker on the dais.
 ~
 #EXIT
-Direction south~
-ToRoom    43201
-Desc      The entry hall.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43210
 Desc      Toward the Bug Trio.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43201
+Desc      The entry hall.~
+#ENDEXIT
+
 Reset M 0 43000 1 43202
   Reset G 1 43100 1
 #ENDROOM
@@ -1347,15 +1427,17 @@ the ceiling is covered in thick webs. The Bug Trio—Vem,
 Yauj, and Kri—patrol this intersection.
 ~
 #EXIT
-Direction south~
-ToRoom    43202
-Desc      Skeram's chamber.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43220
 Desc      Toward huhuran's garden.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43202
+Desc      Skeram's chamber.~
+#ENDEXIT
+
 Reset M 0 43009 1 43210
 #ENDROOM
 
@@ -1370,15 +1452,17 @@ the sound of beating wings is constant. Princess
 Huhuran circles the high rafters.
 ~
 #EXIT
-Direction south~
-ToRoom    43210
-Desc      The swarm road.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43230
 Desc      Toward the Twin Emperors.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43210
+Desc      The swarm road.~
+#ENDEXIT
+
 Reset M 0 43001 1 43220
   Reset G 1 43109 1
 Reset M 0 43031 10 43220
@@ -1396,15 +1480,17 @@ only increases. High-ranking dragonspawn stand in
 silent vigil.
 ~
 #EXIT
-Direction south~
-ToRoom    43220
-Desc      Huhuran's garden.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43231
 Desc      The Throne of the Twins.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43220
+Desc      Huhuran's garden.~
+#ENDEXIT
+
 Reset M 0 43017 5 43230
 #ENDROOM
 
@@ -1424,11 +1510,13 @@ Direction south~
 ToRoom    43230
 Desc      The hall entrance.~
 #ENDEXIT
+
 #EXIT
 Direction down~
 ToRoom    43240
 Desc      The Descent to C'Thun.~
 #ENDEXIT
+
 Reset M 0 43002 1 43231
 Reset M 0 43003 1 43231
   Reset G 1 43111 1
@@ -1446,15 +1534,17 @@ Hopelessness and old rot. The sound of a giant
 heartbeat thrums through the floor.
 ~
 #EXIT
-Direction up~
-ToRoom    43231
-Desc      The twins' throne.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43250
 Desc      The Chamber of C'Thun.~
 #ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    43231
+Desc      The twins' throne.~
+#ENDEXIT
+
 Reset M 0 43013 10 43240
 #ENDROOM
 
@@ -1470,15 +1560,17 @@ monstrous Eye of C'Thun stares at you, unblinking. The
 very air screams with the whispers of the Old God.
 ~
 #EXIT
-Direction south~
-ToRoom    43240
-Desc      The descent entrance.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43401
 Desc      The exit path.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43240
+Desc      The descent entrance.~
+#ENDEXIT
+
 Reset M 0 43005 1 43250
   Reset G 1 43117 1
   Reset E 1 43101 1 16
@@ -1499,6 +1591,7 @@ Direction south~
 ToRoom    43201
 Desc      Hall of Swarm.~
 #ENDEXIT
+
 Reset M 0 43006 1 43251
   Reset G 1 43110 1
 Reset M 0 43006 5 43251
@@ -1518,6 +1611,7 @@ Direction east~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
+
 Reset M 0 43007 1 43252
 Reset M 0 43026 20 43252
 #ENDROOM
@@ -1537,6 +1631,7 @@ Direction west~
 ToRoom    43240
 Desc      Descent entry.~
 #ENDEXIT
+
 Reset M 0 43004 1 43253
 #ENDROOM
 
@@ -1554,6 +1649,7 @@ Direction east~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
+
 Reset M 0 43008 1 43254
 #ENDROOM
 
@@ -1570,6 +1666,7 @@ Direction north~
 ToRoom    43201
 Desc      Hall of Swarm.~
 #ENDEXIT
+
 Reset M 0 43011 5 43255
 #ENDROOM
 
@@ -1586,7 +1683,8 @@ Direction east~
 ToRoom    43202
 Desc      Skeram's chamber.~
 #ENDEXIT
-Reset O 43106 10 43256 0
+
+Reset O 0 10 0 43256
 #ENDROOM
 
 #ROOM
@@ -1601,6 +1699,7 @@ Direction south~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
+
 Reset M 0 43013 5 43257
 #ENDROOM
 
@@ -1617,7 +1716,7 @@ Direction west~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
-Reset O 43104 5 43258 0
+
 #ENDROOM
 
 #ROOM
@@ -1633,6 +1732,7 @@ Direction south~
 ToRoom    43220
 Desc      Huhuran's garden.~
 #ENDEXIT
+
 Reset M 0 43026 10 43259
 #ENDROOM
 
@@ -1649,7 +1749,8 @@ Direction east~
 ToRoom    43220
 Desc      Huhuran's garden.~
 #ENDEXIT
-Reset O 43109 10 43260 0
+
+Reset O 0 10 0 43260
 #ENDROOM
 
 #ROOM
@@ -1665,6 +1766,7 @@ Direction south~
 ToRoom    43231
 Desc      Twins' throne.~
 #ENDEXIT
+
 Reset M 0 43020 5 43261
 #ENDROOM
 
@@ -1681,6 +1783,7 @@ Direction north~
 ToRoom    43231
 Desc      Twins' throne.~
 #ENDEXIT
+
 Reset M 0 43014 5 43262
 #ENDROOM
 
@@ -1697,6 +1800,7 @@ Direction north~
 ToRoom    43250
 Desc      C'Thun's chamber.~
 #ENDEXIT
+
 Reset M 0 43041 10 43263
 #ENDROOM
 
@@ -1713,6 +1817,7 @@ Direction south~
 ToRoom    43250
 Desc      C'Thun's chamber.~
 #ENDEXIT
+
 Reset O 0 43101 1 43264
 #ENDROOM
 
@@ -1728,11 +1833,13 @@ Direction north~
 ToRoom    43266
 Desc      Cell 2.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43201
 Desc      Hall of Swarm.~
 #ENDEXIT
+
 Reset M 0 43011 10 43265
 #ENDROOM
 
@@ -1744,15 +1851,17 @@ Flags    indoors~
 Desc     A narrow stone room filled with the hum of the swarm.
 ~
 #EXIT
-Direction south~
-ToRoom    43265
-Desc      Cell 1.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43267
 Desc      Cell 3.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43265
+Desc      Cell 1.~
+#ENDEXIT
+
 Reset M 0 43011 10 43266
 #ENDROOM
 
@@ -1764,15 +1873,17 @@ Flags    indoors~
 Desc     The heart of the lower swarm labyrinth.
 ~
 #EXIT
-Direction south~
-ToRoom    43266
-Desc      Cell 2.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43268
 Desc      Cell 4.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43266
+Desc      Cell 2.~
+#ENDEXIT
+
 Reset M 0 43011 10 43267
 #ENDROOM
 
@@ -1784,15 +1895,17 @@ Flags    indoors~
 Desc     High stone rooms near Skeram's chamber.
 ~
 #EXIT
-Direction south~
-ToRoom    43267
-Desc      Cell 3.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43269
 Desc      Cell 5.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43267
+Desc      Cell 3.~
+#ENDEXIT
+
 Reset M 0 43011 10 43268
 #ENDROOM
 
@@ -1804,15 +1917,17 @@ Flags    indoors~
 Desc     The heart of the Prophet-guard labyrinth.
 ~
 #EXIT
-Direction south~
-ToRoom    43268
-Desc      Cell 4.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43270
 Desc      Cell 6.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43268
+Desc      Cell 4.~
+#ENDEXIT
+
 Reset M 0 43011 10 43269
 #ENDROOM
 
@@ -1824,15 +1939,17 @@ Flags    indoors~
 Desc     Side tunnels near the bug trio entry.
 ~
 #EXIT
-Direction south~
-ToRoom    43269
-Desc      Cell 5.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43271
 Desc      Cell 7.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43269
+Desc      Cell 5.~
+#ENDEXIT
+
 Reset M 0 43011 10 43270
 #ENDROOM
 
@@ -1844,15 +1961,17 @@ Flags    indoors~
 Desc     The heart of the insect-trio labyrinth.
 ~
 #EXIT
-Direction south~
-ToRoom    43270
-Desc      Cell 6.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43272
 Desc      Cell 8.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43270
+Desc      Cell 6.~
+#ENDEXIT
+
 Reset M 0 43011 10 43271
 #ENDROOM
 
@@ -1864,15 +1983,17 @@ Flags    indoors~
 Desc     Side tunnels near Huhuran's garden.
 ~
 #EXIT
-Direction south~
-ToRoom    43271
-Desc      Cell 7.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43273
 Desc      Cell 9.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43271
+Desc      Cell 7.~
+#ENDEXIT
+
 Reset M 0 43011 10 43272
 #ENDROOM
 
@@ -1884,15 +2005,17 @@ Flags    indoors~
 Desc     The absolute deepest part of the upper temple tunnels.
 ~
 #EXIT
-Direction south~
-ToRoom    43272
-Desc      Cell 8.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43274
 Desc      Cell 10.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43272
+Desc      Cell 8.~
+#ENDEXIT
+
 Reset M 0 43011 10 43273
 #ENDROOM
 
@@ -1908,6 +2031,7 @@ Direction south~
 ToRoom    43273
 Desc      Cell 9.~
 #ENDEXIT
+
 Reset M 0 43011 10 43274
 #ENDROOM
 
@@ -1923,11 +2047,13 @@ Direction north~
 ToRoom    43276
 Desc      Cell 12.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43220
 Desc      Huhuran's garden.~
 #ENDEXIT
+
 Reset M 0 43031 10 43275
 #ENDROOM
 
@@ -1939,15 +2065,17 @@ Flags    indoors~
 Desc     A clinical chamber filled with poisonous pollen.
 ~
 #EXIT
-Direction south~
-ToRoom    43275
-Desc      Cell 11.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43277
 Desc      Cell 13.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43275
+Desc      Cell 11.~
+#ENDEXIT
+
 Reset M 0 43031 10 43276
 #ENDROOM
 
@@ -1959,15 +2087,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with organic resin.
 ~
 #EXIT
-Direction south~
-ToRoom    43276
-Desc      Cell 12.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43278
 Desc      Cell 14.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43276
+Desc      Cell 12.~
+#ENDEXIT
+
 Reset M 0 43031 10 43277
 #ENDROOM
 
@@ -1979,15 +2109,17 @@ Flags    indoors~
 Desc     A side room where swarmers are hatched.
 ~
 #EXIT
-Direction south~
-ToRoom    43277
-Desc      Cell 13.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43279
 Desc      Cell 15.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43277
+Desc      Cell 13.~
+#ENDEXIT
+
 Reset M 0 43031 10 43278
 #ENDROOM
 
@@ -1999,15 +2131,17 @@ Flags    indoors~
 Desc     A dark corner filled with shadow-fire residue.
 ~
 #EXIT
-Direction south~
-ToRoom    43278
-Desc      Cell 14.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43280
 Desc      Cell 16.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43278
+Desc      Cell 14.~
+#ENDEXIT
+
 Reset M 0 43031 10 43279
 #ENDROOM
 
@@ -2019,15 +2153,17 @@ Flags    indoors~
 Desc     A storage room for heavy obsidian maces.
 ~
 #EXIT
-Direction south~
-ToRoom    43279
-Desc      Cell 15.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43281
 Desc      Cell 17.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43279
+Desc      Cell 15.~
+#ENDEXIT
+
 Reset M 0 43031 10 43280
 #ENDROOM
 
@@ -2039,15 +2175,17 @@ Flags    indoors~
 Desc     A side workshop where armor is repaired.
 ~
 #EXIT
-Direction south~
-ToRoom    43280
-Desc      Cell 16.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43282
 Desc      Cell 18.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43280
+Desc      Cell 16.~
+#ENDEXIT
+
 Reset M 0 43031 10 43281
 #ENDROOM
 
@@ -2059,15 +2197,17 @@ Flags    indoors~
 Desc     A quiet room where menders study rituals.
 ~
 #EXIT
-Direction south~
-ToRoom    43281
-Desc      Cell 17.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43283
 Desc      Cell 19.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43281
+Desc      Cell 17.~
+#ENDEXIT
+
 Reset M 0 43031 10 43282
 #ENDROOM
 
@@ -2079,15 +2219,17 @@ Flags    indoors~
 Desc     A dark hallway home to several spiders.
 ~
 #EXIT
-Direction south~
-ToRoom    43282
-Desc      Cell 18.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43284
 Desc      Cell 20.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43282
+Desc      Cell 18.~
+#ENDEXIT
+
 Reset M 0 43031 10 43283
 #ENDROOM
 
@@ -2099,15 +2241,17 @@ Flags    indoors~
 Desc     The heart of the mid-level garden-cells.
 ~
 #EXIT
-Direction south~
-ToRoom    43283
-Desc      Cell 19.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43285
 Desc      Cell 21.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43283
+Desc      Cell 19.~
+#ENDEXIT
+
 Reset M 0 43031 10 43284
 #ENDROOM
 
@@ -2123,11 +2267,13 @@ Direction north~
 ToRoom    43286
 Desc      Cell 22.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43231
 Desc      Twins' throne.~
 #ENDEXIT
+
 Reset M 0 43022 10 43285
 #ENDROOM
 
@@ -2139,15 +2285,17 @@ Flags    indoors~
 Desc     A royal chamber filled with silken banners.
 ~
 #EXIT
-Direction south~
-ToRoom    43285
-Desc      Cell 21.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43287
 Desc      Cell 23.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43285
+Desc      Cell 21.~
+#ENDEXIT
+
 Reset M 0 43022 10 43286
 #ENDROOM
 
@@ -2159,15 +2307,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with gold-chased stone.
 ~
 #EXIT
-Direction south~
-ToRoom    43286
-Desc      Cell 22.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43288
 Desc      Cell 24.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43286
+Desc      Cell 22.~
+#ENDEXIT
+
 Reset M 0 43022 10 43287
 #ENDROOM
 
@@ -2179,15 +2329,17 @@ Flags    indoors~
 Desc     A side room where guardians are trained.
 ~
 #EXIT
-Direction south~
-ToRoom    43287
-Desc      Cell 23.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43289
 Desc      Cell 25.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43287
+Desc      Cell 23.~
+#ENDEXIT
+
 Reset M 0 43022 10 43288
 #ENDROOM
 
@@ -2199,15 +2351,17 @@ Flags    indoors~
 Desc     A dark corner filled with the scent of incense.
 ~
 #EXIT
-Direction south~
-ToRoom    43288
-Desc      Cell 24.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43290
 Desc      Cell 26.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43288
+Desc      Cell 24.~
+#ENDEXIT
+
 Reset M 0 43022 10 43289
 #ENDROOM
 
@@ -2219,16 +2373,18 @@ Flags    indoors~
 Desc     A storage room for elementium bars.
 ~
 #EXIT
-Direction south~
-ToRoom    43289
-Desc      Cell 25.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43291
 Desc      Cell 27.~
 #ENDEXIT
-Reset O 43118 10 43290 0
+
+#EXIT
+Direction south~
+ToRoom    43289
+Desc      Cell 25.~
+#ENDEXIT
+
+Reset O 0 10 0 43290
 #ENDROOM
 
 #ROOM
@@ -2239,15 +2395,17 @@ Flags    indoors~
 Desc     A side workshop where armor is polished.
 ~
 #EXIT
-Direction south~
-ToRoom    43290
-Desc      Cell 26.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43292
 Desc      Cell 28.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43290
+Desc      Cell 26.~
+#ENDEXIT
+
 Reset M 0 43022 10 43291
 #ENDROOM
 
@@ -2259,15 +2417,17 @@ Flags    indoors~
 Desc     A quiet room where priests study prayers.
 ~
 #EXIT
-Direction south~
-ToRoom    43291
-Desc      Cell 27.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43293
 Desc      Cell 29.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43291
+Desc      Cell 27.~
+#ENDEXIT
+
 Reset M 0 43022 10 43292
 #ENDROOM
 
@@ -2279,15 +2439,17 @@ Flags    indoors~
 Desc     A dark hallway home to several shades.
 ~
 #EXIT
-Direction south~
-ToRoom    43292
-Desc      Cell 28.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43294
 Desc      Cell 30.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43292
+Desc      Cell 28.~
+#ENDEXIT
+
 Reset M 0 43022 10 43293
 #ENDROOM
 
@@ -2299,15 +2461,17 @@ Flags    indoors~
 Desc     The heart of the high-level throne-cells.
 ~
 #EXIT
-Direction south~
-ToRoom    43293
-Desc      Cell 29.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43295
 Desc      Cell 31.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43293
+Desc      Cell 29.~
+#ENDEXIT
+
 Reset M 0 43022 10 43294
 #ENDROOM
 
@@ -2323,11 +2487,13 @@ Direction north~
 ToRoom    43296
 Desc      Cell 32.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43250
 Desc      C'Thun's chamber.~
 #ENDEXIT
+
 Reset M 0 43041 10 43295
 #ENDROOM
 
@@ -2339,15 +2505,17 @@ Flags    indoors~
 Desc     A dark chamber filled with pulsating eyes.
 ~
 #EXIT
-Direction south~
-ToRoom    43295
-Desc      Cell 31.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43297
 Desc      Cell 33.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43295
+Desc      Cell 31.~
+#ENDEXIT
+
 Reset M 0 43041 10 43296
 #ENDROOM
 
@@ -2359,15 +2527,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with writhing tentacles.
 ~
 #EXIT
-Direction south~
-ToRoom    43296
-Desc      Cell 32.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43298
 Desc      Cell 34.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43296
+Desc      Cell 32.~
+#ENDEXIT
+
 Reset M 0 43041 10 43297
 #ENDROOM
 
@@ -2379,15 +2549,17 @@ Flags    indoors~
 Desc     A side room where shadow-essence is brewed.
 ~
 #EXIT
-Direction south~
-ToRoom    43297
-Desc      Cell 33.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43299
 Desc      Cell 35.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43297
+Desc      Cell 33.~
+#ENDEXIT
+
 Reset M 0 43041 10 43298
 #ENDROOM
 
@@ -2399,15 +2571,17 @@ Flags    indoors~
 Desc     A dark corner filled with absolute silence.
 ~
 #EXIT
-Direction south~
-ToRoom    43298
-Desc      Cell 34.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43300
 Desc      Cell 36.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43298
+Desc      Cell 34.~
+#ENDEXIT
+
 Reset M 0 43041 10 43299
 #ENDROOM
 
@@ -2419,16 +2593,18 @@ Flags    indoors~
 Desc     A storage room for dark-ritual robes.
 ~
 #EXIT
-Direction south~
-ToRoom    43299
-Desc      Cell 35.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43301
 Desc      Cell 37.~
 #ENDEXIT
-Reset O 43102 10 43300 0
+
+#EXIT
+Direction south~
+ToRoom    43299
+Desc      Cell 35.~
+#ENDEXIT
+
+Reset O 0 10 0 43300
 #ENDROOM
 
 #ROOM
@@ -2439,15 +2615,17 @@ Flags    indoors~
 Desc     A side workshop where the soul-draining tools are kept.
 ~
 #EXIT
-Direction south~
-ToRoom    43300
-Desc      Cell 36.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43302
 Desc      Cell 38.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43300
+Desc      Cell 36.~
+#ENDEXIT
+
 Reset M 0 43041 10 43301
 #ENDROOM
 
@@ -2459,15 +2637,17 @@ Flags    indoors~
 Desc     A quiet room where the whispers are the loudest.
 ~
 #EXIT
-Direction south~
-ToRoom    43301
-Desc      Cell 37.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43303
 Desc      Cell 39.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43301
+Desc      Cell 37.~
+#ENDEXIT
+
 Reset M 0 43041 10 43302
 #ENDROOM
 
@@ -2479,15 +2659,17 @@ Flags    indoors~
 Desc     A dark hallway home to several lost souls.
 ~
 #EXIT
-Direction south~
-ToRoom    43302
-Desc      Cell 38.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43304
 Desc      Cell 40.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43302
+Desc      Cell 38.~
+#ENDEXIT
+
 Reset M 0 43041 10 43303
 #ENDROOM
 
@@ -2503,6 +2685,7 @@ Direction south~
 ToRoom    43303
 Desc      Cell 39.~
 #ENDEXIT
+
 Reset M 0 43041 10 43304
 #ENDROOM
 
@@ -2518,11 +2701,13 @@ Direction north~
 ToRoom    43306
 Desc      Cell 42.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43200
 Desc      Entryway.~
 #ENDEXIT
+
 Reset M 0 43011 10 43305
 #ENDROOM
 
@@ -2534,15 +2719,17 @@ Flags    indoors~
 Desc     A wide stone room filled with desert dust.
 ~
 #EXIT
-Direction south~
-ToRoom    43305
-Desc      Cell 41.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43307
 Desc      Cell 43.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43305
+Desc      Cell 41.~
+#ENDEXIT
+
 Reset M 0 43011 10 43306
 #ENDROOM
 
@@ -2554,15 +2741,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with obsidian shards.
 ~
 #EXIT
-Direction south~
-ToRoom    43306
-Desc      Cell 42.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43308
 Desc      Cell 44.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43306
+Desc      Cell 42.~
+#ENDEXIT
+
 Reset M 0 43011 10 43307
 #ENDROOM
 
@@ -2574,15 +2763,17 @@ Flags    indoors~
 Desc     A side room where guards prepare their shifts.
 ~
 #EXIT
-Direction south~
-ToRoom    43307
-Desc      Cell 43.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43309
 Desc      Cell 45.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43307
+Desc      Cell 43.~
+#ENDEXIT
+
 Reset M 0 43011 10 43308
 #ENDROOM
 
@@ -2594,15 +2785,17 @@ Flags    indoors~
 Desc     A dark corner filled with the scent of old sand.
 ~
 #EXIT
-Direction south~
-ToRoom    43308
-Desc      Cell 44.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43310
 Desc      Cell 46.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43308
+Desc      Cell 44.~
+#ENDEXIT
+
 Reset M 0 43011 10 43309
 #ENDROOM
 
@@ -2614,16 +2807,18 @@ Flags    indoors~
 Desc     A storage room for stone maces and bone-cleavers.
 ~
 #EXIT
-Direction south~
-ToRoom    43309
-Desc      Cell 45.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43311
 Desc      Cell 47.~
 #ENDEXIT
-Reset O 43139 10 43310 0
+
+#EXIT
+Direction south~
+ToRoom    43309
+Desc      Cell 45.~
+#ENDEXIT
+
+Reset O 0 10 0 43310
 #ENDROOM
 
 #ROOM
@@ -2634,15 +2829,17 @@ Flags    indoors~
 Desc     A side workshop where the stone is carved.
 ~
 #EXIT
-Direction south~
-ToRoom    43310
-Desc      Cell 46.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43312
 Desc      Cell 48.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43310
+Desc      Cell 46.~
+#ENDEXIT
+
 Reset M 0 43011 10 43311
 #ENDROOM
 
@@ -2654,15 +2851,17 @@ Flags    indoors~
 Desc     A quiet room where the echoes of war are faint.
 ~
 #EXIT
-Direction south~
-ToRoom    43311
-Desc      Cell 47.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43313
 Desc      Cell 49.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43311
+Desc      Cell 47.~
+#ENDEXIT
+
 Reset M 0 43011 10 43312
 #ENDROOM
 
@@ -2674,15 +2873,17 @@ Flags    indoors~
 Desc     A dark hallway home to several spiders.
 ~
 #EXIT
-Direction south~
-ToRoom    43312
-Desc      Cell 48.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43314
 Desc      Cell 50.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43312
+Desc      Cell 48.~
+#ENDEXIT
+
 Reset M 0 43011 10 43313
 #ENDROOM
 
@@ -2698,6 +2899,7 @@ Direction south~
 ToRoom    43313
 Desc      Cell 49.~
 #ENDEXIT
+
 Reset M 0 43011 10 43314
 #ENDROOM
 
@@ -2713,11 +2915,13 @@ Direction north~
 ToRoom    43316
 Desc      Cell 52.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43210
 Desc      Swarm road.~
 #ENDEXIT
+
 Reset M 0 43012 10 43315
 #ENDROOM
 
@@ -2729,15 +2933,17 @@ Flags    indoors~
 Desc     A clinical chamber filled with silithid eggs.
 ~
 #EXIT
-Direction south~
-ToRoom    43315
-Desc      Cell 51.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43317
 Desc      Cell 53.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43315
+Desc      Cell 51.~
+#ENDEXIT
+
 Reset M 0 43012 10 43316
 #ENDROOM
 
@@ -2749,15 +2955,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with chitinous plates.
 ~
 #EXIT
-Direction south~
-ToRoom    43316
-Desc      Cell 52.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43318
 Desc      Cell 54.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43316
+Desc      Cell 52.~
+#ENDEXIT
+
 Reset M 0 43012 10 43317
 #ENDROOM
 
@@ -2769,15 +2977,17 @@ Flags    indoors~
 Desc     A side room where soldiers prepare for battle.
 ~
 #EXIT
-Direction south~
-ToRoom    43317
-Desc      Cell 53.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43319
 Desc      Cell 55.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43317
+Desc      Cell 53.~
+#ENDEXIT
+
 Reset M 0 43012 10 43318
 #ENDROOM
 
@@ -2789,15 +2999,17 @@ Flags    indoors~
 Desc     A dark corner filled with the scent of decay.
 ~
 #EXIT
-Direction south~
-ToRoom    43318
-Desc      Cell 54.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43320
 Desc      Cell 56.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43318
+Desc      Cell 54.~
+#ENDEXIT
+
 Reset M 0 43012 10 43319
 #ENDROOM
 
@@ -2809,16 +3021,18 @@ Flags    indoors~
 Desc     A storage room for silithid brain-matter.
 ~
 #EXIT
-Direction south~
-ToRoom    43319
-Desc      Cell 55.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43321
 Desc      Cell 57.~
 #ENDEXIT
-Reset O 43119 10 43320 0
+
+#EXIT
+Direction south~
+ToRoom    43319
+Desc      Cell 55.~
+#ENDEXIT
+
+Reset O 0 10 0 43320
 #ENDROOM
 
 #ROOM
@@ -2829,15 +3043,17 @@ Flags    indoors~
 Desc     A side workshop where the chitin is shaped.
 ~
 #EXIT
-Direction south~
-ToRoom    43320
-Desc      Cell 56.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43322
 Desc      Cell 58.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43320
+Desc      Cell 56.~
+#ENDEXIT
+
 Reset M 0 43012 10 43321
 #ENDROOM
 
@@ -2849,15 +3065,17 @@ Flags    indoors~
 Desc     A quiet room where the clicking of claws is muffled.
 ~
 #EXIT
-Direction south~
-ToRoom    43321
-Desc      Cell 57.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43323
 Desc      Cell 59.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43321
+Desc      Cell 57.~
+#ENDEXIT
+
 Reset M 0 43012 10 43322
 #ENDROOM
 
@@ -2869,15 +3087,17 @@ Flags    indoors~
 Desc     A dark hallway home to several swarmer scouts.
 ~
 #EXIT
-Direction south~
-ToRoom    43322
-Desc      Cell 58.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43324
 Desc      Cell 60.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43322
+Desc      Cell 58.~
+#ENDEXIT
+
 Reset M 0 43012 10 43323
 #ENDROOM
 
@@ -2893,6 +3113,7 @@ Direction south~
 ToRoom    43323
 Desc      Cell 59.~
 #ENDEXIT
+
 Reset M 0 43012 10 43324
 #ENDROOM
 
@@ -2908,11 +3129,13 @@ Direction north~
 ToRoom    43326
 Desc      Cell 62.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43230
 Desc      Terrace entry.~
 #ENDEXIT
+
 Reset M 0 43017 10 43325
 #ENDROOM
 
@@ -2924,15 +3147,17 @@ Flags    indoors~
 Desc     A clinical chamber filled with magical fluids.
 ~
 #EXIT
-Direction south~
-ToRoom    43325
-Desc      Cell 61.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43327
 Desc      Cell 63.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43325
+Desc      Cell 61.~
+#ENDEXIT
+
 Reset M 0 43017 10 43326
 #ENDROOM
 
@@ -2944,15 +3169,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with prismatic scales.
 ~
 #EXIT
-Direction south~
-ToRoom    43326
-Desc      Cell 62.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43328
 Desc      Cell 64.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43326
+Desc      Cell 62.~
+#ENDEXIT
+
 Reset M 0 43017 10 43327
 #ENDROOM
 
@@ -2964,15 +3191,17 @@ Flags    indoors~
 Desc     A side room where wardens prepare for battle.
 ~
 #EXIT
-Direction south~
-ToRoom    43327
-Desc      Cell 63.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43329
 Desc      Cell 65.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43327
+Desc      Cell 63.~
+#ENDEXIT
+
 Reset M 0 43017 10 43318
 #ENDROOM
 
@@ -2984,15 +3213,17 @@ Flags    indoors~
 Desc     A dark corner filled with the scent of ancient scales.
 ~
 #EXIT
-Direction south~
-ToRoom    43328
-Desc      Cell 64.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43330
 Desc      Cell 66.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43328
+Desc      Cell 64.~
+#ENDEXIT
+
 Reset M 0 43017 10 43329
 #ENDROOM
 
@@ -3004,16 +3235,18 @@ Flags    indoors~
 Desc     A storage room for elementium armor plates.
 ~
 #EXIT
-Direction south~
-ToRoom    43329
-Desc      Cell 65.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43331
 Desc      Cell 67.~
 #ENDEXIT
-Reset O 43118 10 43330 0
+
+#EXIT
+Direction south~
+ToRoom    43329
+Desc      Cell 65.~
+#ENDEXIT
+
+Reset O 0 10 0 43330
 #ENDROOM
 
 #ROOM
@@ -3024,15 +3257,17 @@ Flags    indoors~
 Desc     A side workshop where the stone is shaped.
 ~
 #EXIT
-Direction south~
-ToRoom    43330
-Desc      Cell 66.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43332
 Desc      Cell 68.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43330
+Desc      Cell 66.~
+#ENDEXIT
+
 Reset M 0 43017 10 43331
 #ENDROOM
 
@@ -3044,15 +3279,17 @@ Flags    indoors~
 Desc     A quiet room where the echoes of the twins are loud.
 ~
 #EXIT
-Direction south~
-ToRoom    43331
-Desc      Cell 67.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43333
 Desc      Cell 69.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43331
+Desc      Cell 67.~
+#ENDEXIT
+
 Reset M 0 43017 10 43332
 #ENDROOM
 
@@ -3064,15 +3301,17 @@ Flags    indoors~
 Desc     A dark hallway home to several lashlayers.
 ~
 #EXIT
-Direction south~
-ToRoom    43332
-Desc      Cell 68.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43334
 Desc      Cell 70.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43332
+Desc      Cell 68.~
+#ENDEXIT
+
 Reset M 0 43017 10 43333
 #ENDROOM
 
@@ -3088,6 +3327,7 @@ Direction south~
 ToRoom    43333
 Desc      Cell 69.~
 #ENDEXIT
+
 Reset M 0 43017 10 43334
 #ENDROOM
 
@@ -3103,11 +3343,13 @@ Direction north~
 ToRoom    43336
 Desc      Cell 72.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43240
 Desc      Descent entry.~
 #ENDEXIT
+
 Reset M 0 43041 10 43335
 #ENDROOM
 
@@ -3119,15 +3361,17 @@ Flags    indoors~
 Desc     A clinical chamber filled with pulsating eyes.
 ~
 #EXIT
-Direction south~
-ToRoom    43335
-Desc      Cell 71.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43337
 Desc      Cell 73.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43335
+Desc      Cell 71.~
+#ENDEXIT
+
 Reset M 0 43041 10 43336
 #ENDROOM
 
@@ -3139,15 +3383,17 @@ Flags    indoors~
 Desc     A narrow tunnel lined with writhing tentacles.
 ~
 #EXIT
-Direction south~
-ToRoom    43336
-Desc      Cell 72.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43338
 Desc      Cell 74.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43336
+Desc      Cell 72.~
+#ENDEXIT
+
 Reset M 0 43041 10 43337
 #ENDROOM
 
@@ -3159,15 +3405,17 @@ Flags    indoors~
 Desc     A side room where shadow-essence is brewed.
 ~
 #EXIT
-Direction south~
-ToRoom    43337
-Desc      Cell 73.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43339
 Desc      Cell 75.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43337
+Desc      Cell 73.~
+#ENDEXIT
+
 Reset M 0 43041 10 43338
 #ENDROOM
 
@@ -3179,15 +3427,17 @@ Flags    indoors~
 Desc     A dark corner filled with absolute silence.
 ~
 #EXIT
-Direction south~
-ToRoom    43338
-Desc      Cell 74.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43340
 Desc      Cell 76.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43338
+Desc      Cell 74.~
+#ENDEXIT
+
 Reset M 0 43041 10 43339
 #ENDROOM
 
@@ -3199,16 +3449,18 @@ Flags    indoors~
 Desc     A storage room for dark-ritual robes.
 ~
 #EXIT
-Direction south~
-ToRoom    43339
-Desc      Cell 75.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43341
 Desc      Cell 77.~
 #ENDEXIT
-Reset O 43102 10 43340 0
+
+#EXIT
+Direction south~
+ToRoom    43339
+Desc      Cell 75.~
+#ENDEXIT
+
+Reset O 0 10 0 43340
 #ENDROOM
 
 #ROOM
@@ -3219,15 +3471,17 @@ Flags    indoors~
 Desc     A side workshop where the soul-draining tools are kept.
 ~
 #EXIT
-Direction south~
-ToRoom    43340
-Desc      Cell 76.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43342
 Desc      Cell 78.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43340
+Desc      Cell 76.~
+#ENDEXIT
+
 Reset M 0 43041 10 43341
 #ENDROOM
 
@@ -3239,15 +3493,17 @@ Flags    indoors~
 Desc     A quiet room where the whispers are the loudest.
 ~
 #EXIT
-Direction south~
-ToRoom    43341
-Desc      Cell 77.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43343
 Desc      Cell 79.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43341
+Desc      Cell 77.~
+#ENDEXIT
+
 Reset M 0 43041 10 43342
 #ENDROOM
 
@@ -3259,15 +3515,17 @@ Flags    indoors~
 Desc     A dark hallway home to several lost souls.
 ~
 #EXIT
-Direction south~
-ToRoom    43342
-Desc      Cell 78.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43344
 Desc      Cell 80.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43342
+Desc      Cell 78.~
+#ENDEXIT
+
 Reset M 0 43041 10 43343
 #ENDROOM
 
@@ -3283,6 +3541,7 @@ Direction south~
 ToRoom    43343
 Desc      Cell 79.~
 #ENDEXIT
+
 Reset M 0 43041 10 43344
 #ENDROOM
 
@@ -3298,11 +3557,13 @@ Direction north~
 ToRoom    43346
 Desc      Cell 82.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43202
 Desc      Skeram's chamber.~
 #ENDEXIT
+
 Reset M 0 43011 10 43345
 #ENDROOM
 
@@ -3314,15 +3575,17 @@ Flags    indoors~
 Desc     The second cell of the Prophet's guard.
 ~
 #EXIT
-Direction south~
-ToRoom    43345
-Desc      Cell 81.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43347
 Desc      Cell 83.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43345
+Desc      Cell 81.~
+#ENDEXIT
+
 Reset M 0 43011 10 43346
 #ENDROOM
 
@@ -3338,6 +3601,7 @@ Direction south~
 ToRoom    43346
 Desc      Cell 82.~
 #ENDEXIT
+
 Reset M 0 43011 10 43347
 #ENDROOM
 
@@ -3353,11 +3617,13 @@ Direction north~
 ToRoom    43349
 Desc      Cell 85.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43251
 Desc      Sartura's hall.~
 #ENDEXIT
+
 Reset M 0 43006 10 43348
 #ENDROOM
 
@@ -3369,15 +3635,17 @@ Flags    indoors~
 Desc     The second cell of the whirlwind guard.
 ~
 #EXIT
-Direction south~
-ToRoom    43348
-Desc      Cell 84.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43350
 Desc      Cell 86.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43348
+Desc      Cell 84.~
+#ENDEXIT
+
 Reset M 0 43006 10 43349
 #ENDROOM
 
@@ -3393,6 +3661,7 @@ Direction south~
 ToRoom    43349
 Desc      Cell 85.~
 #ENDEXIT
+
 Reset M 0 43006 10 43350
 #ENDROOM
 
@@ -3408,11 +3677,13 @@ Direction north~
 ToRoom    43352
 Desc      Cell 88.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43252
 Desc      Fankriss's lair.~
 #ENDEXIT
+
 Reset M 0 43026 10 43351
 #ENDROOM
 
@@ -3424,15 +3695,17 @@ Flags    indoors~
 Desc     The second cell of the reaver brood.
 ~
 #EXIT
-Direction south~
-ToRoom    43351
-Desc      Cell 87.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43353
 Desc      Cell 89.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43351
+Desc      Cell 87.~
+#ENDEXIT
+
 Reset M 0 43026 10 43352
 #ENDROOM
 
@@ -3448,6 +3721,7 @@ Direction south~
 ToRoom    43352
 Desc      Cell 88.~
 #ENDEXIT
+
 Reset M 0 43026 10 43353
 #ENDROOM
 
@@ -3463,11 +3737,13 @@ Direction north~
 ToRoom    43355
 Desc      Cell 91.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43254
 Desc      Viscidus's pit.~
 #ENDEXIT
+
 Reset M 0 43012 10 43354
 #ENDROOM
 
@@ -3479,15 +3755,17 @@ Flags    indoors~
 Desc     The second cell of the toxic guard.
 ~
 #EXIT
-Direction south~
-ToRoom    43354
-Desc      Cell 90.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43356
 Desc      Cell 92.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43354
+Desc      Cell 90.~
+#ENDEXIT
+
 Reset M 0 43012 10 43355
 #ENDROOM
 
@@ -3503,6 +3781,7 @@ Direction south~
 ToRoom    43355
 Desc      Cell 91.~
 #ENDEXIT
+
 Reset M 0 43012 10 43356
 #ENDROOM
 
@@ -3518,11 +3797,13 @@ Direction north~
 ToRoom    43358
 Desc      Cell 94.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43253
 Desc      Ouro's lair.~
 #ENDEXIT
+
 Reset M 0 43012 10 43357
 #ENDROOM
 
@@ -3534,15 +3815,17 @@ Flags    indoors~
 Desc     The second cell of the worm-guard.
 ~
 #EXIT
-Direction south~
-ToRoom    43357
-Desc      Cell 93.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43359
 Desc      Cell 95.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43357
+Desc      Cell 93.~
+#ENDEXIT
+
 Reset M 0 43012 10 43358
 #ENDROOM
 
@@ -3558,6 +3841,7 @@ Direction south~
 ToRoom    43358
 Desc      Cell 94.~
 #ENDEXIT
+
 Reset M 0 43012 10 43359
 #ENDROOM
 
@@ -3573,11 +3857,13 @@ Direction north~
 ToRoom    43361
 Desc      Cell 97.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43250
 Desc      C'Thun's chamber.~
 #ENDEXIT
+
 Reset M 0 43041 10 43360
 #ENDROOM
 
@@ -3589,15 +3875,17 @@ Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
 #EXIT
-Direction south~
-ToRoom    43360
-Desc      Cell 96.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43362
 Desc      Cell 98.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43360
+Desc      Cell 96.~
+#ENDEXIT
+
 Reset M 0 43041 10 43361
 #ENDROOM
 
@@ -3609,15 +3897,17 @@ Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
 #EXIT
-Direction south~
-ToRoom    43361
-Desc      Cell 97.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43363
 Desc      Cell 99.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43361
+Desc      Cell 97.~
+#ENDEXIT
+
 Reset M 0 43041 10 43362
 #ENDROOM
 
@@ -3629,15 +3919,17 @@ Flags    indoors~
 Desc     Interconnected tunnel cells near C'Thun.
 ~
 #EXIT
-Direction south~
-ToRoom    43362
-Desc      Cell 98.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43364
 Desc      Cell 100.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43362
+Desc      Cell 98.~
+#ENDEXIT
+
 Reset M 0 43041 10 43363
 #ENDROOM
 
@@ -3653,6 +3945,7 @@ Direction south~
 ToRoom    43363
 Desc      Cell 99.~
 #ENDEXIT
+
 Reset M 0 43041 10 43364
 #ENDROOM
 
@@ -3671,6 +3964,7 @@ Direction north~
 ToRoom    43201
 Desc      Return to the Hall of Swarm.~
 #ENDEXIT
+
 Reset O 0 43116 10 43401
 #ENDROOM
 

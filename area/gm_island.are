@@ -1,0 +1,2238 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         GM Island~
+Author       Feenom~
+Type         6
+Continent    Other~
+WeatherX     0
+WeatherY     0
+Ranges       1 60 0 60
+Economy      0 705032704
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       91000
+Keywords   gm guide assistant spirit~
+Short      a Spirit of Guidance~
+Long       A translucent, winged spirit floats here, ready to assist the staff.
+~
+Desc       A helpful construct of pure mana designed to provide directions and
+basic information to the MUD staff. It bows respectfully as you approach.
+~
+Race       undead~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 10000 30000
+Stats2     60 60 5000
+Stats3     10 30 60
+Stats4     0 0 0 0 0
+Stats       15 25 25 15 15
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91001
+Keywords   test dummy target~
+Short      a High-Stamina Test Dummy~
+Long       A sturdy wooden dummy with glowing runes stand here, unmoving.
+~
+Desc       Reinforced with Titan magic, this dummy is designed to withstand
+millions of points of damage to test combat formulas.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 5000000 5000000
+Stats2     60 60 0
+Stats3     0 0 100
+Stats4     0 0 0 0 0
+Stats       10 10 10 10 50
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91002
+Keywords   iron-bound jailer construct~
+Short      an Iron-bound Jailer~
+Long       A massive, jackal-headed construct stands guard outside the cells.
+~
+Desc       Cold and unyielding, these constructs respond only to the
+commands of the staff. Their eyes glow with a harsh red light.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 60 0 0 50000 100000
+Stats2     60 60 0
+Stats3     30 80 80
+Stats4     0 0 0 0 0
+Stats       35 10 10 10 30
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91003
+Keywords   code construct ley-walker~
+Short      a Code-Walker Construct~
+Long       A being of pure, shifting numbers and blue ley-runes hums here.
+~
+Desc       A manifestation of the MUD's engine logic. It pulses with
+arcane energy as it monitors the world's stability.
+~
+Race       monster~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 15000 40000
+Stats2     60 60 10000
+Stats3     20 60 70
+Stats4     0 0 0 0 0
+Stats       10 35 30 20 20
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91004
+Keywords   world-builder imp~
+Short      a World-Builder Imp~
+Long       A tiny green imp with a miniature hammer scurries across the room.
+~
+Desc       Small, frantic, and surprisingly skilled at masonry. These
+imps are used to assist in the physical layout of new zones.
+~
+Race       monster~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 2500 7000
+Stats2     60 60 500
+Stats3     10 25 50
+Stats4     0 0 0 0 0
+Stats       12 18 16 25 14
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91005
+Keywords   lorekeeper quest-master troll~
+Short      Lorekeeper Zalan~
+Long       An ancient Zandalar troll stands before a massive library, reading.
+~
+Desc       Tasked with the consistency of the world's narrative. Zalan
+oversees the quest logic and the lore accuracy of NPCs.
+~
+Race       troll~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 20000 50000
+Stats2     60 60 5000
+Stats3     15 45 70
+Stats4     0 0 0 0 0
+Stats       18 30 28 12 20
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91006
+Keywords   prisoner banished soul~
+Short      a Banished Soul~
+Long       A flickering shadow of a player stands in a corner, head bowed.
+~
+Desc       The remnants of a rule-breaker. They serve as a reminder
+of the importance of maintaining a healthy community.
+~
+Race       undead~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 1 0 0 10 10
+Stats2     1 1 0
+Stats3     0 0 100
+Stats4     0 0 0 0 0
+Stats       10 10 10 10 10
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91007
+Keywords   test caster mage~
+Short      a Combat-Test Mage~
+Long       A human mage in practice robes stands ready to duel.
+~
+Race       Human~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 12000 35000
+Stats2     60 60 5000
+Stats3     15 40 70
+Stats4     0 0 0 0 0
+Stats       12 35 25 16 16
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91008
+Keywords   titan messenger bird~
+Short      a Golden Messenger Bird~
+Long       A mechanical bird made of solid gold perches on a marble pillar.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 800 2400
+Stats2     60 60 0
+Stats3     5 15 60
+Stats4     0 0 0 0 0
+Stats       10 10 10 25 12
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91009
+Keywords   sanctum cleaner imp~
+Short      a Sanctum Cleaner~
+Long       An imp with a mop and a bucket works tirelessly on the marble.
+~
+Race       monster~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 1200 3500
+Stats2     60 60 0
+Stats3     8 20 50
+Stats4     0 0 0 0 0
+Stats       14 12 10 18 16
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91010
+Keywords   hansth's familiar cat~
+Short      Mojo the Architect's Cat~
+Long       A sleek black cat with glowing purple eyes naps on a desk.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 500 1500
+Stats2     60 60 0
+Stats3     5 12 60
+Stats4     0 0 0 0 0
+Stats       12 10 10 25 14
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91011
+Keywords   staff quartermaster goblin~
+Short      Quartermaster Grizlow~
+Long       A goblin in a sharp suit stand behind a counter of GM gear.
+~
+Race       Gnome~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 15000 45000
+Stats2     60 60 0
+Stats3     20 55 65
+Stats4     0 0 0 0 0
+Stats       18 25 12 20 18
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91012
+Keywords   test healer druid~
+Short      a Combat-Test Druid~
+Long       A night elf in leaf-robes stand ready to heal.
+~
+Race       Elf~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Female~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 10000 30000
+Stats2     60 60 5000
+Stats3     12 35 65
+Stats4     0 0 0 0 0
+Stats       12 30 35 14 18
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91013
+Keywords   sentinel of time drake spirit~
+Short      a Bronze Watcher~
+Long       A spectral bronze drake circles the high rafters of the portal hall.
+~
+Race       undead~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 25000 65000
+Stats2     60 60 1000
+Stats3     25 75 75
+Stats4     0 0 0 0 0
+Stats       35 25 30 20 30
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91014
+Keywords   building expert dwarf~
+Short      Stone-Shaper Brum~
+Long       A dwarf with a massive blueprint and a level mutters about angles.
+~
+Race       Dwarf~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 3500 10000
+Stats2     60 60 100
+Stats3     14 38 60
+Stats4     0 0 0 0 0
+Stats       24 14 18 10 22
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91015
+Keywords   coding imp scholar~
+Short      Scribe Pips~
+Long       An imp with a stack of scrolls and a quill is writing furiously.
+~
+Race       monster~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 2200 6500
+Stats2     60 60 1500
+Stats3     9 24 55
+Stats4     0 0 0 0 0
+Stats       10 35 22 18 14
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91016
+Keywords   portal keeper construct~
+Short      a Portal Matrix Guardian~
+Long       A humanoid construct of gears and glass stand near the portals.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 8500 25000
+Stats2     60 60 0
+Stats3     20 60 65
+Stats4     0 0 0 0 0
+Stats       30 15 10 10 35
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91017
+Keywords   sanctum chef ghost~
+Short      the Master Chef's Ghost~
+Long       A ghostly cook stirs a pot of sparkling mana-soup.
+~
+Race       undead~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 1400 4200
+Stats2     60 60 0
+Stats3     11 28 60
+Stats4     0 0 0 0 0
+Stats       20 14 14 12 18
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91019
+Keywords   arcane Librarian spirit~
+Short      the Spirit of Knowledge~
+Long       A cloud of blue mist in the shape of a man reads floating books.
+~
+Race       undead~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 1800 5000
+Stats2     60 60 3000
+Stats3     12 35 60
+Stats4     0 0 0 0 0
+Stats       10 40 32 14 16
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91020
+Keywords   quest scribe gnome~
+Short      Scribe Tink~
+Long       A gnome in a tiny suit stand on a ladder, checking quest logs.
+~
+Race       Gnome~
+Class      Mage~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 2500 7500
+Stats2     60 60 1200
+Stats3     10 28 60
+Stats4     0 0 0 0 0
+Stats       10 32 25 18 14
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91021
+Keywords   test rogue thief~
+Short      a Combat-Test Rogue~
+Long       A human rogue in dark leather stand ready to ambush.
+~
+Race       Human~
+Class      Thief~
+Position   standing~
+DefPos     standing~
+Gender     Male~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 8500 25000
+Stats2     60 60 300
+Stats3     20 55 70
+Stats4     0 0 0 0 0
+Stats       18 14 12 35 16
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91022
+Keywords   gardener spirit dryad~
+Short      a Guardian Dryad~
+Long       A four-legged nature spirit prances through the garden, tending flowers.
+~
+Race       humanoid~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Female~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 4500 12000
+Stats2     60 60 2000
+Stats3     15 42 65
+Stats4     0 0 0 0 0
+Stats       15 25 30 20 18
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91023
+Keywords   test pet hound beast~
+Short      a Test-Subject Hound~
+Long       A core-hound puppy with three heads yips excitedly.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc stayarea~
+Stats1     0 60 0 0 3500 9500
+Stats2     60 60 0
+Stats3     18 50 60
+Stats4     0 0 0 0 0
+Stats       24 4 10 18 22
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91024
+Keywords   sanctum guard titan warrior~
+Short      a Titan Sanctum Guard~
+Long       A gargantuan stone warrior in golden armor stand perfectly still.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
+Stats1     0 62 0 0 85000 200000
+Stats2     62 62 0
+Stats3     45 150 95
+Stats4     0 0 0 0 0
+Stats       50 15 20 10 45
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       91025
+Keywords   test armor-stand~
+Short      a Magical Armor-Stand~
+Long       A metal frame holding a shimmering suit of plate stand here.
+~
+Race       mammal~
+Class      Warrior~
+Position   standing~
+DefPos     standing~
+Gender     Neuter~
+Actflags   npc sentinel stayarea~
+Stats1     0 60 0 0 10000 30000
+Stats2     60 60 0
+Stats3     5 15 60
+Stats4     0 0 0 0 0
+Stats       10 10 10 10 50
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     91050
+Keywords staff god administrator weapon~
+Type     weapon~
+Continent    Other~
+Short    the Staff of the Creator~
+Long     A tall staff of pure light and elementium, humming with the MUD's power.~
+WFlags   take wield~
+Rarity   3
+Values   12 50 100 7 0 0
+Stats    25 0 60 0 0
+AffectData   'acetum primus' 100 0 0 0
+AffectData   'acid breath' 100 0 0 0
+AffectData   'acidshot' 100 0 0 0
+AffectData   'armor' 100 0 0 0
+AffectData   'astral walk' 100 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91051
+Keywords tabard administrator staff~
+Type     armor~
+Continent    Other~
+Short    the Administrator's Tabard~
+Long     A heavy silk tabard featuring a golden sunburst on a field of white.~
+WFlags   take about~
+Rarity   3
+Values   100 0 0 0 0 0
+Stats    1 0 60 0 0
+AffectData   'berserk style' 50 0 0 0
+AffectData   'acidshot' 50 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91052
+Keywords key all doors gm~
+Type     key~
+Continent    Other~
+Short    the Key of All Doors~
+Long     A skeleton key made of shimmering chronal-dust.~
+WFlags   take~
+Rarity   3
+Values   91052 0 0 0 0 0
+Stats    1 0 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91053
+Keywords developer coffee potion drink~
+Type     trash~
+Continent    Other~
+Short    a mug of Developer's Fuel~
+Long     A dark, steaming liquid that provides an absolute burst of energy.~
+WFlags   take~
+Rarity   3
+Values   100 100 1 0 0 0
+Stats    1 0 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91054
+Keywords wand teleportation portal~
+Type     weapon~
+Continent    Other~
+Short    the Wand of Instant Portals~
+Long     A short crystalline wand used to instantly travel to player locations.~
+WFlags   take wield~
+Rarity   3
+Values   12 1 5 13 0 0
+Stats    1 0 60 0 0
+AffectData   'backstab' 50 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91055
+Keywords blueprints world building~
+Type     treasure~
+Continent    Other~
+Short    a stack of World Blueprints~
+Long     Detailed drawings of every room and hallway in the world.~
+WFlags   take hold~
+Rarity   3
+Values   0 0 0 0 0 0
+Stats    5 0 60 0 0
+AffectData   'armor' 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91056
+Keywords code-scroll logic treasure~
+Type     treasure~
+Continent    Other~
+Short    a Scroll of Core Logic~
+Long     A parchment covered in C-code that pulses with a blue light.~
+WFlags   take hold~
+Rarity   3
+Values   0 0 0 0 0 0
+Stats    1 0 60 0 0
+AffectData   'backstab' 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91057
+Keywords disciplinary whip weapon~
+Type     weapon~
+Continent    Other~
+Short    the Lash of Obedience~
+Long     A shadow-wreathed whip used to enforce the rules.~
+WFlags   take wield~
+Rarity   3
+Values   12 25 50 4 0 0
+Stats    10 0 60 0 0
+AffectData   'acid blast' 25 0 0 0
+AffectData   'astral walk' 25 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91058
+Keywords ring architect jewelry~
+Type     trash~
+Continent    Other~
+Short    the Architect's Signet~
+Long     A ring made of elementium, pulsing with the MUD's heartbeat.~
+WFlags   take finger~
+Rarity   3
+Values   0 0 0 0 0 0
+Stats    1 0 60 0 0
+AffectData   'acid breath' 20 0 0 0
+AffectData   'acidmist' 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91059
+Keywords pen quest creation~
+Type     weapon~
+Continent    Other~
+Short    the Pen of Eternal Quests~
+Long     A golden quill that never runs out of ink, used to write history.~
+WFlags   take hold~
+Rarity   3
+Values   12 5 10 13 0 0
+Stats    1 0 60 0 0
+AffectData   'backstab' 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91060
+Keywords test-blade sword weapon~
+Type     weapon~
+Continent    Other~
+Short    a Standard-Issue Test Blade~
+Long     A perfectly average longsword used for damage calibration.~
+WFlags   take wield~
+Rarity   1
+Values   12 10 20 3 0 0
+Stats    15 0 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91061
+Keywords test-robes body armor~
+Type     armor~
+Continent    Other~
+Short    a suit of Test-Subject Robes~
+Long     Simple white robes used during combat testing sessions.~
+WFlags   take body~
+Rarity   1
+Values   10 0 0 0 0 0
+Stats    5 0 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91062
+Keywords spectral silk cloth~
+Type     treasure~
+Continent    Other~
+Short    a bolt of Spectral Silk~
+Long     Translucent, cool fabric taken from the guidance spirits.~
+WFlags   take~
+Rarity   1
+Values   0 0 0 0 0 0
+Stats    1 500 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91063
+Keywords mechanical part gear trash~
+Type     trash~
+Continent    Other~
+Short    a humming Titan gear~
+Long     A heavy gold gear that still vibrates with internal power.~
+WFlags   take~
+Rarity   1
+Values   0 0 0 0 0 0
+Stats    5 100 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91064
+Keywords mana-soup food~
+Type     food~
+Continent    Other~
+Short    a bowl of Sparking Mana-soup~
+Long     A bowl of soup that gives off small, harmless blue sparks.~
+WFlags   take~
+Rarity   1
+Values   30 0 0 0 0 0
+Stats    1 50 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91065
+Keywords golden feather trophy~
+Type     trash~
+Continent    Other~
+Short    a Golden Messenger Feather~
+Long     A sharp, metallic feather fallen from a messenger bird.~
+WFlags   take~
+Rarity   1
+Values   0 0 0 0 0 0
+Stats    1 150 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91066
+Keywords ink-well quest treasure~
+Type     treasure~
+Continent    Other~
+Short    a bottomless Obsidian Ink-well~
+Long     A stone jar filled with ink that seems to contain the night sky.~
+WFlags   take hold~
+Rarity   2
+Values   0 0 0 0 0 0
+Stats    5 1200 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91067
+Keywords level masonry tool~
+Type     weapon~
+Continent    Other~
+Short    a Titan Builder's Level~
+Long     A perfectly straight rod of elementium used for zone alignment.~
+WFlags   take wield~
+Rarity   2
+Values   12 10 18 8 0 0
+Stats    10 500 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91068
+Keywords mana-essence vial treasure~
+Type     treasure~
+Continent    Other~
+Short    a vial of Liquid Knowledge~
+Long     A glass vial containing a swirling cloud of blue information.~
+WFlags   take hold~
+Rarity   2
+Values   0 0 0 0 0 0
+Stats    1 2500 60 0 0
+AffectData   'backstab' 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91069
+Keywords staff cloak about armor~
+Type     armor~
+Continent    Other~
+Short    a Cloak of the Arch-Builder~
+Long     A long green cloak that allows the wearer to pass through walls.~
+WFlags   take about~
+Rarity   3
+Values   15 0 0 0 0 0
+Stats    1 0 60 0 0
+AffectData   'acid blast' 20 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91070
+Keywords staff mace weapon~
+Type     weapon~
+Continent    Other~
+Short    the Hammer of Hard-Coded Law~
+Long     A massive heavy mace that hums with the frequency of a server-reboot.~
+WFlags   take wield~
+Rarity   3
+Values   12 25 60 8 0 0
+Stats    35 0 60 0 0
+AffectData   'acetum primus' 35 0 0 0
+AffectData   'astral walk' 40 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91071
+Keywords test-shield armor~
+Type     armor~
+Continent    Other~
+Short    a Standard-Issue Test Shield~
+Long     A perfectly weighted kite shield used for block-testing.~
+WFlags   take shield~
+Rarity   1
+Values   35 0 0 0 0 0
+Stats    35 0 60 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91072
+Keywords gauntlets logic hands armor~
+Type     armor~
+Continent    Other~
+Short    a pair of Logic-Threaded Gauntlets~
+Long     Silver gloves that grant the wearer uncanny typing speed.~
+WFlags   take hands~
+Rarity   2
+Values   15 0 0 0 0 0
+Stats    5 0 60 0 0
+AffectData   'astral walk' 15 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91073
+Keywords potion rule-breaker drink~
+Type     trash~
+Continent    Other~
+Short    a bottle of Silence-Serum~
+Long     A glass bottle containing a thick, dark liquid.~
+WFlags   take~
+Rarity   2
+Values   50 50 1 0 0 0
+Stats    1 150 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     91074
+Keywords medal staff jewelry~
+Type     trash~
+Continent    Other~
+Short    the Medal of the Devoted Dev~
+Long     A platinum medal given to those who survive a major patch.~
+WFlags   take neck~
+Rarity   3
+Values   0 0 0 0 0 0
+Stats    1 0 60 0 0
+AffectData   'berserk style' 25 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     91100
+Name     &WThe Arrival Platform&d~
+Sector   city~
+Flags    indoors~
+Desc     You stand upon a high stone terrace overlooking the Great Sea. 
+The air here is crisp and clear, and the sky is a permanent 
+shade of soft blue. Massive Titan statues flank the landing, 
+their eyes glowing with a protective light. This is the 
+threshold of the staff's sanctuary.
+~
+#EXIT
+Direction north~
+ToRoom    91101
+Desc      The Grand Foyer.~
+#ENDEXIT
+
+Reset M 0 91000 1 91100
+#ENDROOM
+
+#ROOM
+Vnum     91101
+Name     &WThe Grand Foyer&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular hall with high vaulted ceilings. The floor is 
+composed of polished white marble and gold inlays. To the 
+north lies the portal hub, while to the east and west, the 
+various administrative wings begin.
+~
+#EXIT
+Direction north~
+ToRoom    91102
+Desc      The Portal Hub.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91146
+Desc      The Vaults of Discipline.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91100
+Desc      The arrival platform.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91121
+Desc      The Development Wing.~
+#ENDEXIT
+
+Reset M 0 91024 2 91101
+#ENDROOM
+
+#ROOM
+Vnum     91102
+Name     &WThe Portal Hub - Center&d~
+Sector   city~
+Flags    indoors~
+Desc     The heart of the island's transit system. Shimmering gateways of 
+arcane energy line the circular walls. From here, a staff 
+member can travel to any corner of Azeroth in an instant.
+~
+#EXIT
+Direction north~
+ToRoom    91103
+Desc      Eastern Kingdom Portals.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91105
+Desc      Dungeon & Raid Portals.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91101
+Desc      The grand foyer.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91104
+Desc      Kalimdor Portals.~
+#ENDEXIT
+
+Reset M 0 91016 1 91102
+#ENDROOM
+
+#ROOM
+Vnum     91103
+Name     &BThe Gateway to the Eastern Kingdoms&d~
+Sector   city~
+Flags    indoors~
+Desc     A high room filled with portals to Stormwind, Ironforge, 
+Undercity, and the surrounding regions of the East.
+~
+#EXIT
+Direction south~
+ToRoom    91102
+Desc      Hub center.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91104
+Name     &rThe Gateway to Kalimdor&d~
+Sector   city~
+Flags    indoors~
+Desc     A high room filled with portals to Orgrimmar, Thunder Bluff, 
+Darnassus, and the vast deserts and jungles of the West.
+~
+#EXIT
+Direction east~
+ToRoom    91102
+Desc      Hub center.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91105
+Name     &mThe Gateway to Instances&d~
+Sector   city~
+Flags    indoors~
+Desc     A high room filled with portals leading directly to the 
+threshold of every dungeon and raid in the world.
+~
+#EXIT
+Direction west~
+ToRoom    91102
+Desc      Hub center.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91111
+Name     &WThe Gilded Suites - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The start of the staff's private office district. Fine silken 
+carpets and elegant tapestries dampen the sound of footsteps.
+~
+#EXIT
+Direction north~
+ToRoom    91112
+Desc      The Architect's Sanctum.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91114
+Desc      The Developer's Terminal.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91136
+Desc      The staff lounge.~
+#ENDEXIT
+
+Reset M 0 91008 1 91111
+#ENDROOM
+
+#ROOM
+Vnum     91112
+Name     &WThe Arch-Architect's Sanctum (Hansth)&d~
+Sector   inside~
+Flags    indoors~
+Desc     The private office of Hansth. A massive desk of petrified wood 
+dominates the center of the room, covered in architectural 
+blueprints. A high window offers a view of the entire MUD's 
+geography in real-time.
+~
+#EXIT
+Direction south~
+ToRoom    91111
+Desc      The suites entrance.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91113
+Desc      The Master-Builder's Studio.~
+#ENDEXIT
+
+Reset M 0 91010 1 91112
+Reset O 0 91050 1 91112
+#ENDROOM
+
+#ROOM
+Vnum     91113
+Name     &WThe Master-Builder's Studio (Feenom)&d~
+Sector   inside~
+Flags    indoors~
+Desc     The private office of Feenom. Stone models of ziggurats and 
+fortresses line the shelves. The air smells of fresh cedar 
+and old stone.
+~
+#EXIT
+Direction east~
+ToRoom    91112
+Desc      Hansth's sanctum.~
+#ENDEXIT
+
+Reset O 0 91055 1 91113
+#ENDROOM
+
+#ROOM
+Vnum     91114
+Name     &WThe Lead Developer's Terminal (Brookers)&d~
+Sector   inside~
+Flags    indoors~
+Desc     The private office of Brookers. Floating ley-runes representing 
+the MUD's source code appear and vanish in the air. A large 
+vessel of developer's fuel sit on the desk.
+~
+#EXIT
+Direction north~
+ToRoom    91115
+Desc      The Warden's Command.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91111
+Desc      The suites entrance.~
+#ENDEXIT
+
+Reset O 0 91053 1 91114
+#ENDROOM
+
+#ROOM
+Vnum     91115
+Name     &WThe Warden's Command (Colson)&d~
+Sector   inside~
+Flags    indoors~
+Desc     The private office of Colson. The walls are made of cold iron 
+and stone. A series of magical mirrors provide a view into 
+the Vaults of Discipline below.
+~
+#EXIT
+Direction south~
+ToRoom    91114
+Desc      Brookers' terminal.~
+#ENDEXIT
+
+Reset O 0 91057 1 91115
+#ENDROOM
+
+#ROOM
+Vnum     91121
+Name     &WThe Forge of Creation - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large stone hallway humming with industrial power. This is 
+the gateway to the world's development wings.
+~
+#EXIT
+Direction north~
+ToRoom    91122
+Desc      The Coding Wing.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91101
+Desc      The grand foyer.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91125
+Desc      The Building Wing.~
+#ENDEXIT
+
+Reset M 0 91003 1 91121
+#ENDROOM
+
+#ROOM
+Vnum     91122
+Name     &WThe Coding Wing - Main Lab&d~
+Sector   inside~
+Flags    indoors~
+Desc     A tiered laboratory filled with scroll-racks and crystal lenses. 
+Code-walker constructs move between the stations, 
+updating the world's logic.
+~
+#EXIT
+Direction north~
+ToRoom    91123
+Desc      Logic Overflow A.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91121
+Desc      The forge entrance.~
+#ENDEXIT
+
+Reset M 0 91015 5 91122
+#ENDROOM
+
+#ROOM
+Vnum     91123
+Name     &WLogic Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room filled with scrolls of core logic and 
+shimmering vials of liquid knowledge.
+~
+#EXIT
+Direction south~
+ToRoom    91122
+Desc      Coding lab.~
+#ENDEXIT
+
+Reset O 0 91056 10 91123
+#ENDROOM
+
+#ROOM
+Vnum     91124
+Name     &WThe Server Core&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A small circular room containing a single, pulsating 
+crystal of immense size. This is the heart of the 
+MUD's existence.
+~
+#EXIT
+Direction up~
+ToRoom    91122
+Desc      Coding lab.~
+#ENDEXIT
+
+Reset M 0 91003 1 91124
+#ENDROOM
+
+#ROOM
+Vnum     91125
+Name     &WThe Building Wing - Studio&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large open room where the physical geography of the world is 
+designed. World-builder imps scurry across the floor, 
+dragging stones and tools.
+~
+#EXIT
+Direction north~
+ToRoom    91121
+Desc      The forge entrance.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91126
+Desc      Masonry Overflow A.~
+#ENDEXIT
+
+Reset M 0 91004 10 91125
+#ENDROOM
+
+#ROOM
+Vnum     91126
+Name     &WMasonry Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A storage room filled with builder's levels and stacks 
+of blueprints.
+~
+#EXIT
+Direction north~
+ToRoom    91125
+Desc      Building studio.~
+#ENDEXIT
+
+Reset O 0 91067 10 91126
+#ENDROOM
+
+#ROOM
+Vnum     91127
+Name     &WThe Material Vault&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room filled with various stone, wood, and metal 
+samples used for zone creation.
+~
+#EXIT
+Direction up~
+ToRoom    91125
+Desc      Building studio.~
+#ENDEXIT
+
+Reset M 0 91014 1 91127
+#ENDROOM
+
+#ROOM
+Vnum     91128
+Name     &WThe Loreweaver's Den - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     The air here is thick with the scent of old parchment and ink. 
+This is the heart of the world's storytelling.
+~
+#EXIT
+Direction east~
+ToRoom    91121
+Desc      The forge entrance.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91129
+Desc      The Quest Wing.~
+#ENDEXIT
+
+Reset M 0 91019 1 91128
+#ENDROOM
+
+#ROOM
+Vnum     91129
+Name     &WThe Quest Wing - Stacks&d~
+Sector   inside~
+Flags    indoors~
+Desc     Row upon row of bookshelves reaching toward the ceiling. 
+Every quest written is recorded and stored here.
+~
+#EXIT
+Direction north~
+ToRoom    91130
+Desc      The Scribe's Office.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91128
+Desc      Loreweaver entrance.~
+#ENDEXIT
+
+Reset M 0 91020 5 91129
+#ENDROOM
+
+#ROOM
+Vnum     91130
+Name     &WThe Scribe's Office&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small well-furnished office. Lorekeeper Zalan stands 
+before a large globe, marking the locations of new 
+storylines.
+~
+#EXIT
+Direction south~
+ToRoom    91129
+Desc      Quest stacks.~
+#ENDEXIT
+
+Reset M 0 91005 1 91130
+Reset O 0 91059 1 91130
+#ENDROOM
+
+#ROOM
+Vnum     91136
+Name     &WThe Staff Lounge&d~
+Sector   inside~
+Flags    indoors~
+Desc     A comfortable room with plush chairs and a large, crackling 
+fireplace. This is where the staff can relax between tasks. 
+The ghost of a master chef tends to a pot in the corner.
+~
+#EXIT
+Direction north~
+ToRoom    91111
+Desc      The suites entrance.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91137
+Desc      The Dining Hall.~
+#ENDEXIT
+
+Reset M 0 91009 5 91136
+#ENDROOM
+
+#ROOM
+Vnum     91137
+Name     &WThe Staff Dining Hall&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long table of white oak is covered in fine linens and 
+ever-full bowls of mana-soup.
+~
+#EXIT
+Direction north~
+ToRoom    91136
+Desc      The lounge.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91138
+Desc      The Kitchens.~
+#ENDEXIT
+
+Reset O 0 91064 10 91137
+#ENDROOM
+
+#ROOM
+Vnum     91138
+Name     &WThe Island Kitchens&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large, busy kitchen where ghostly cooks prepare 
+the staff's meals using ingredients from the 
+Emerald Dream.
+~
+#EXIT
+Direction west~
+ToRoom    91137
+Desc      The dining hall.~
+#ENDEXIT
+
+Reset M 0 91017 1 91138
+#ENDROOM
+
+#ROOM
+Vnum     91139
+Name     &WThe Council Chambers - Entrance&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high, respectful stone hallway leading to the staff's 
+primary meeting room.
+~
+#EXIT
+Direction north~
+ToRoom    91140
+Desc      The High Council Table.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91101
+Desc      The grand foyer.~
+#ENDEXIT
+
+Reset M 0 91024 2 91139
+#ENDROOM
+
+#ROOM
+Vnum     91140
+Name     &WThe High Council Table&d~
+Sector   inside~
+Flags    indoors~
+Desc     A massive circular room with a round table of solid obsidian. 
+Four high thrones are set around the table, each 
+marked with the crest of a staff member.
+~
+#EXIT
+Direction south~
+ToRoom    91139
+Desc      Chambers entrance.~
+#ENDEXIT
+
+Reset O 0 91058 1 91140
+#ENDROOM
+
+#ROOM
+Vnum     91141
+Name     &WThe Briefing Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small tiered room used for briefing volunteers and 
+testers before major events.
+~
+#EXIT
+Direction south~
+ToRoom    91140
+Desc      The council table.~
+#ENDEXIT
+
+Reset M 0 91000 1 91141
+#ENDROOM
+
+#ROOM
+Vnum     91146
+Name     &rThe Vaults of Discipline - Entry&d~
+Sector   inside~
+Flags    indoors~
+Desc     The elegant marble of the foyer gives way to cold iron and 
+rough-hewn stone. The air is stagnant and carries the 
+faint sound of wailing souls. Iron-bound jailers 
+patrol the entry.
+~
+#EXIT
+Direction west~
+ToRoom    91101
+Desc      The grand foyer.~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    91147
+Desc      The Cell Blocks.~
+#ENDEXIT
+
+Reset M 0 91002 5 91146
+#ENDROOM
+
+#ROOM
+Vnum     91147
+Name     &rThe Cell Blocks - Hall of Shame&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long hallway lined with small, magically-warded cells. 
+Banished souls stand within, unable to speak or move. 
+The air is absolute still.
+~
+#EXIT
+Direction north~
+ToRoom    91148
+Desc      The Isolation Wing.~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    91150
+Desc      The Warden's Seat.~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    91146
+Desc      The entry.~
+#ENDEXIT
+
+Reset M 0 91006 10 91147
+#ENDROOM
+
+#ROOM
+Vnum     91148
+Name     &rThe Isolation Wing&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     The deepest part of the vaults. The walls here are 
+composed of a substance that absorbs all sound 
+and light.
+~
+#EXIT
+Direction south~
+ToRoom    91147
+Desc      The cell blocks.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91149
+Name     &rThe Void - Disciplinary Pit&d~
+Sector   underground~
+Flags    dark indoors~
+Desc     A deep, circular pit filled with absolute darkness. 
+Those who enter here have their statistics 
+removed and their voices taken.
+~
+#EXIT
+Direction up~
+ToRoom    91148
+Desc      Isolation wing.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91150
+Name     &rThe Warden's Judgment Seat&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone platform overlooking the cell blocks. This 
+is where the Warden sits during the sentencing of 
+rule-breakers.
+~
+#EXIT
+Direction west~
+ToRoom    91147
+Desc      The cell blocks.~
+#ENDEXIT
+
+Reset O 0 91070 1 91150
+#ENDROOM
+
+#ROOM
+Vnum     91161
+Name     &GThe Gardens of Rest - Entry&d~
+Sector   forest~
+Flags    indoors~
+Desc     A beautiful garden of unnatural flowers and glowing ferns 
+tucked away at the back of the island. Nature spirits 
+maintain the balance.
+~
+#EXIT
+Direction north~
+ToRoom    91162
+Desc      The Emerald Glade.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91111
+Desc      The suites entrance.~
+#ENDEXIT
+
+Reset M 0 91022 5 91161
+#ENDROOM
+
+#ROOM
+Vnum     91162
+Name     &GThe Emerald Glade&d~
+Sector   forest~
+Flags    indoors~
+Desc     A peaceful clearing where the grass is always soft and 
+the temperature is perfect. A small spring of clear 
+mana-water flows into a circular pool.
+~
+#EXIT
+Direction south~
+ToRoom    91161
+Desc      Garden entry.~
+#ENDEXIT
+
+Reset O 0 91069 1 91162
+#ENDROOM
+
+#ROOM
+Vnum     91163
+Name     &WThe Testing Ground - South&d~
+Sector   field~
+Flags    indoors~
+Desc     A wide open room with high ceilings. Various training 
+dummies and combat-test NPCs are scattered through 
+ the hall.
+~
+#EXIT
+Direction north~
+ToRoom    91164
+Desc      Testing Center.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91121
+Desc      The forge entrance.~
+#ENDEXIT
+
+Reset M 0 91001 10 91163
+#ENDROOM
+
+#ROOM
+Vnum     91164
+Name     &WThe Testing Ground - Central&d~
+Sector   field~
+Flags    indoors~
+Desc     The heart of the combat testing facility. Staff members 
+can summon various entities here to test skills, 
+procs, and item balance.
+~
+#EXIT
+Direction north~
+ToRoom    91165
+Desc      The Duelist's Ring.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91163
+Desc      Testing south.~
+#ENDEXIT
+
+Reset M 0 91007 5 91164
+#ENDROOM
+
+#ROOM
+Vnum     91165
+Name     &WThe Duelist's Ring&d~
+Sector   field~
+Flags    indoors~
+Desc     A large circular pit for 1v1 and small group combat 
+testing. The floor is covered in fine white sand.
+~
+#EXIT
+Direction south~
+ToRoom    91164
+Desc      Testing center.~
+#ENDEXIT
+
+Reset M 0 91021 5 91165
+#ENDROOM
+
+#ROOM
+Vnum     91166
+Name     &WThe Gear Armory&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room filled with racks of test-armor and weapons. 
+Quartermaster Grizlow stand behind a counter, 
+ready to provide any item needed for staff work.
+~
+#EXIT
+Direction east~
+ToRoom    91164
+Desc      Testing center.~
+#ENDEXIT
+
+Reset M 0 91011 1 91166
+#ENDROOM
+
+#ROOM
+Vnum     91170
+Name     &WThe Sky Docks&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone pier jutting into the clouds. Several 
+mechanical Titan ships are moored here, used for 
+transporting staff across the world.
+~
+#EXIT
+Direction south~
+ToRoom    91100
+Desc      The arrival platform.~
+#ENDEXIT
+
+Reset M 0 91013 1 91170
+#ENDROOM
+
+#ROOM
+Vnum     91171
+Name     &WThe Staff Gym&d~
+Sector   inside~
+Flags    indoors~
+Desc     A large room filled with training equipment and magical 
+scales for testing character speed and agility.
+~
+#EXIT
+Direction north~
+ToRoom    91136
+Desc      The lounge.~
+#ENDEXIT
+
+Reset M 0 91012 5 91171
+#ENDROOM
+
+#ROOM
+Vnum     91172
+Name     &WThe Meditation Chamber&d~
+Sector   inside~
+Flags    dark indoors~
+Desc     A quiet, circular room where the air is thick with 
+arcane static. This is where staff come to think 
+of new systems.
+~
+#EXIT
+Direction south~
+ToRoom    91112
+Desc      Hansth's sanctum.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91173
+Name     &WThe Building Blueprint Room&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room in the building wing filled with 
+thousands of rolled-up zone maps.
+~
+#EXIT
+Direction west~
+ToRoom    91125
+Desc      Building studio.~
+#ENDEXIT
+
+Reset O 0 91055 5 91173
+#ENDROOM
+
+#ROOM
+Vnum     91174
+Name     &WThe Quest Dialogue Vault&d~
+Sector   inside~
+Flags    indoors~
+Desc     A room filled with scrolls of NPC dialogue and 
+quest logs, organized by continent.
+~
+#EXIT
+Direction north~
+ToRoom    91129
+Desc      Quest stacks.~
+#ENDEXIT
+
+Reset O 0 91066 10 91174
+#ENDROOM
+
+#ROOM
+Vnum     91175
+Name     &WThe Debugging Suite&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high-tech room where code construct logic is 
+broken down and repaired.
+~
+#EXIT
+Direction east~
+ToRoom    91122
+Desc      Coding lab.~
+#ENDEXIT
+
+Reset M 0 91015 5 91175
+#ENDROOM
+
+#ROOM
+Vnum     91176
+Name     &rThe Solitary Cage&d~
+Sector   underground~
+Flags    dark indoors~
+Desc     A small iron cage suspended over a pit of shadow. 
+It is reserved for the worst rule-breakers.
+~
+#EXIT
+Direction north~
+ToRoom    91147
+Desc      Cell blocks.~
+#ENDEXIT
+
+Reset O 0 91073 1 91176
+#ENDROOM
+
+#ROOM
+Vnum     91177
+Name     &rThe Warden's Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room for storing manacles and 
+disciplinary whips.
+~
+#EXIT
+Direction west~
+ToRoom    91150
+Desc      Warden's seat.~
+#ENDEXIT
+
+Reset O 0 91057 10 91177
+#ENDROOM
+
+#ROOM
+Vnum     91178
+Name     &WThe Staff Garden Overflow A&d~
+Sector   forest~
+Flags    indoors~
+Desc     A quiet section of the garden filled with 
+Dreamfoil and the sound of distant birds.
+~
+#EXIT
+Direction south~
+ToRoom    91161
+Desc      Garden entry.~
+#ENDEXIT
+
+Reset O 0 91069 5 91178
+#ENDROOM
+
+#ROOM
+Vnum     91179
+Name     &WThe Testing Overflow A&d~
+Sector   field~
+Flags    indoors~
+Desc     A side room where combat-pet mechanics are tested.
+~
+#EXIT
+Direction east~
+ToRoom    91164
+Desc      Testing center.~
+#ENDEXIT
+
+Reset M 0 91023 10 91179
+#ENDROOM
+
+#ROOM
+Vnum     91180
+Name     &WThe Portal Hub - High Balcony&d~
+Sector   city~
+Flags    indoors~
+Desc     A high stone ledge overlooking the portal hub, offering 
+a panoramic view of the island's gateways.
+~
+#EXIT
+Direction down~
+ToRoom    91102
+Desc      Hub center.~
+#ENDEXIT
+
+Reset M 0 91013 1 91180
+#ENDROOM
+
+#ROOM
+Vnum     91181
+Name     &WThe Architect's Balcony&d~
+Sector   inside~
+Flags    indoors~
+Desc     A stone ledge near Hansth's sanctum, 
+offering a view of the northern Great Sea.
+~
+#EXIT
+Direction south~
+ToRoom    91112
+Desc      Hansth's sanctum.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91182
+Name     &WThe Developer's Balcony&d~
+Sector   inside~
+Flags    indoors~
+Desc     A stone ledge near Brookers' terminal, 
+offering a view of the eastern horizon.
+~
+#EXIT
+Direction west~
+ToRoom    91114
+Desc      Brookers' terminal.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91183
+Name     &WThe Gilded Corridor - North&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long hallway lined with gold and elementium, connecting 
+the suites to the garden.
+~
+#EXIT
+Direction north~
+ToRoom    91161
+Desc      Garden entry.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91111
+Desc      Suites entrance.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91184
+Name     &WThe Gilded Corridor - South&d~
+Sector   inside~
+Flags    indoors~
+Desc     A long hallway leading from the suites toward 
+the dining hall.
+~
+#EXIT
+Direction north~
+ToRoom    91111
+Desc      Suites entrance.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    91137
+Desc      Dining hall.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91185
+Name     &WThe Creation Corridor - West&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide hallway connecting the forge to the 
+testing grounds.
+~
+#EXIT
+Direction east~
+ToRoom    91121
+Desc      Forge entrance.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91163
+Desc      Testing south.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91186
+Name     &WThe Creation Corridor - East&d~
+Sector   inside~
+Flags    indoors~
+Desc     A wide hallway leading from the forge toward 
+the loreweaver's den.
+~
+#EXIT
+Direction east~
+ToRoom    91128
+Desc      Loreweaver entry.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91121
+Desc      Forge entrance.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91187
+Name     &rThe Discipline Corridor&d~
+Sector   inside~
+Flags    indoors~
+Desc     A cold, iron-lined hallway leading into 
+the heart of the vaults.
+~
+#EXIT
+Direction north~
+ToRoom    91147
+Desc      Cell blocks.~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    91146
+Desc      Vault entry.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91188
+Name     &WThe Arrival Overflow A&d~
+Sector   city~
+Flags    indoors~
+Desc     A quiet stone ledge near the landing, frequently 
+patrolled by guidance spirits.
+~
+#EXIT
+Direction north~
+ToRoom    91100
+Desc      Arrival platform.~
+#ENDEXIT
+
+Reset M 0 91000 5 91188
+#ENDROOM
+
+#ROOM
+Vnum     91189
+Name     &WThe Foyer Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room in the foyer filled with 
+overturned crates and dust.
+~
+#EXIT
+Direction east~
+ToRoom    91101
+Desc      Grand foyer.~
+#ENDEXIT
+
+Reset M 0 91009 5 91189
+#ENDROOM
+
+#ROOM
+Vnum     91190
+Name     &WThe Council Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage room for council medals 
+and elementium bars.
+~
+#EXIT
+Direction north~
+ToRoom    91140
+Desc      Council table.~
+#ENDEXIT
+
+Reset O 0 91074 10 91190
+#ENDROOM
+
+#ROOM
+Vnum     91191
+Name     &WThe Lounge Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side chamber near the fireplace 
+where staff can nap in private.
+~
+#EXIT
+Direction east~
+ToRoom    91136
+Desc      Staff lounge.~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     91192
+Name     &WThe Kitchen Side-pantry&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small room filled with sparking mana-soup 
+and developer's fuel.
+~
+#EXIT
+Direction north~
+ToRoom    91138
+Desc      Kitchens.~
+#ENDEXIT
+
+Reset O 0 91064 10 91192
+#ENDROOM
+
+#ROOM
+Vnum     91193
+Name     &WThe Study Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop in the loreweaver's den 
+filled with ink-wells and pens.
+~
+#EXIT
+Direction south~
+ToRoom    91128
+Desc      Loreweaver entry.~
+#ENDEXIT
+
+Reset O 0 91066 10 91193
+#ENDROOM
+
+#ROOM
+Vnum     91194
+Name     &WThe Coding Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet room where scribes record 
+the history of the MUD's patches.
+~
+#EXIT
+Direction north~
+ToRoom    91122
+Desc      Coding lab.~
+#ENDEXIT
+
+Reset M 0 91015 5 91194
+#ENDROOM
+
+#ROOM
+Vnum     91195
+Name     &WThe Building Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage room for titan mason-tools 
+and blueprint stacks.
+~
+#EXIT
+Direction south~
+ToRoom    91125
+Desc      Building studio.~
+#ENDEXIT
+
+Reset O 0 91067 10 91195
+#ENDROOM
+
+#ROOM
+Vnum     91196
+Name     &WThe Duelist's Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high point in the testing grounds, 
+offering a view of the southern thoroughfare.
+~
+#EXIT
+Direction down~
+ToRoom    91165
+Desc      Duelist's ring.~
+#ENDEXIT
+
+Reset M 0 91021 5 91196
+#ENDROOM
+
+#ROOM
+Vnum     91197
+Name     &WThe Armory Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side storage room for test-blades 
+and standard-issue shields.
+~
+#EXIT
+Direction north~
+ToRoom    91166
+Desc      Armory.~
+#ENDEXIT
+
+Reset O 0 91060 10 91197
+#ENDROOM
+
+#ROOM
+Vnum     91198
+Name     &rThe Vault Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark chamber where the silence-serums 
+are brewed and stored.
+~
+#EXIT
+Direction north~
+ToRoom    91147
+Desc      Cell blocks.~
+#ENDEXIT
+
+Reset O 0 91073 10 91198
+#ENDROOM
+
+#ROOM
+Vnum     91199
+Name     &WThe Final Sanctum Chamber&d~
+Sector   city~
+Flags    indoors~
+Desc     The absolute heart of the staff's island. A quiet, 
+circular room filled with the hum of the world. 
+From here, the entire MUD can be seen as a 
+shimmering grid of light.
+~
+#EXIT
+Direction north~
+ToRoom    91101
+Desc      Return to the foyer.~
+#ENDEXIT
+
+Reset O 0 91052 1 91199
+#ENDROOM
+
+#ENDAREA

@@ -893,6 +893,17 @@ Affect   1 8 0 0 0
 Affect   5 8 0 0 0
 #ENDOBJECT
 
+#OBJECT
+Vnum     36050
+Keywords portal shimmering~
+Type     portal~
+Short    a shimmering portal~
+Long     a shimmering portal leading to The Sunken Temple stands before you.~
+Flags    glow~
+Values   19552 19603 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
 #ROOM
 Vnum     36050
 Name     &gWestern Entrance from Deadwind Pass&d~
@@ -1688,6 +1699,7 @@ Direction north~
 ToRoom    36086
 Desc      Return to the bank.~
 #ENDEXIT
+Reset O 0 36050 1 36090
 #ENDROOM
 
 #ROOM

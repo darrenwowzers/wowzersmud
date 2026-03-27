@@ -609,6 +609,7 @@ Attribs    12 14 18 35 32 15 15
 Vnum     39026
 Keywords silithid chitin plate~
 Type     trash~
+Continent    Kalimdor~
 Short    a piece of silithid chitin~
 Long     A thick, curved plate of hardened insect shell.~
 WFlags   take~
@@ -621,6 +622,7 @@ Rarity   0
 Vnum     39027
 Keywords twilight text encrypted~
 Type     treasure~
+Continent    Kalimdor~
 Short    an Encrypted Twilight Text~
 Long     A small scroll covered in strange, pulsating runes.~
 WFlags   take~
@@ -633,6 +635,7 @@ Rarity   1
 Vnum     39028
 Keywords abyssal crest rune~
 Type     rune~
+Continent    Kalimdor~
 Short    an Abyssal Crest~
 Long     A stone medallion that hums with the power of the earth.~
 WFlags   take neck~
@@ -646,6 +649,7 @@ Affect   5 15 0 0 0
 Vnum     39029
 Keywords mountain silversage herb~
 Type     treasure~
+Continent    Kalimdor~
 Short    a bunch of Mountain Silversage~
 Long     Silvery leaves that thrive in the harsh desert environment.~
 WFlags   take hold~
@@ -659,6 +663,7 @@ Affect   2 15 0 0 0
 Vnum     39030
 Keywords golden sansam herb~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Golden Sansam~
 Long     A thick, golden root found buried beneath the white sand.~
 WFlags   take hold~
@@ -672,6 +677,7 @@ Affect   5 20 0 0 0
 Vnum     39031
 Keywords twilight cultist robe body~
 Type     armor~
+Continent    Kalimdor~
 Short    a Twilight Cultist Robe~
 Long     Dark, purple robes embroidered with a weeping eye.~
 WFlags   take body~
@@ -686,6 +692,7 @@ Affect   4 8 0 0 0
 Vnum     39032
 Keywords silithid mandibles trophy~
 Type     trash~
+Continent    Kalimdor~
 Short    a pair of silithid mandibles~
 Long     Serrated chitinous pincers taken from a silithid warrior.~
 WFlags   take~
@@ -698,6 +705,7 @@ Rarity   1
 Vnum     39033
 Keywords cenarion signet ring rune~
 Type     rune~
+Continent    Kalimdor~
 Short    a Cenarion Circle Signet~
 Long     A gold ring featuring the sigil of a spreading tree.~
 WFlags   take finger~
@@ -712,6 +720,7 @@ Affect   4 12 0 0 0
 Vnum     39034
 Keywords tactical task brief treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Tactical Task Briefing~
 Long     A document detailing Cenarion military maneuvers.~
 WFlags   take~
@@ -724,6 +733,7 @@ Rarity   1
 Vnum     39035
 Keywords crystal of power treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Glowing Red Crystal~
 Long     A jagged shard of crystal that vibrates with power.~
 WFlags   take hold~
@@ -737,6 +747,7 @@ Affect   13 12 0 0 0
 Vnum     39036
 Keywords sand worm meat food~
 Type     food~
+Continent    Kalimdor~
 Short    a slab of sand worm meat~
 Long     Tough, stringy meat that tastes faintly of sulfur.~
 WFlags   take~
@@ -749,6 +760,7 @@ Rarity   0
 Vnum     39037
 Keywords qiraji artifact loot~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Qiraji Ancient Artifact~
 Long     A strange, alien device made of obsidian and bone.~
 WFlags   take~
@@ -762,6 +774,7 @@ Affect   14 20 0 0 0
 Vnum     39038
 Keywords twilight signet ring~
 Type     rune~
+Continent    Kalimdor~
 Short    a Twilight Signet Ring~
 Long     An obsidian ring that feels freezing cold to the touch.~
 WFlags   take finger~
@@ -775,6 +788,7 @@ Affect   13 10 0 0 0
 Vnum     39039
 Keywords silithid brain loot~
 Type     trash~
+Continent    Kalimdor~
 Short    a pulsing silithid brain~
 Long     A soft, grey organ that still twitches with hive-mind energy.~
 WFlags   take~
@@ -787,6 +801,7 @@ Rarity   2
 Vnum     39040
 Keywords desert wind boots feet~
 Type     armor~
+Continent    Kalimdor~
 Short    a pair of Desert Wind Boots~
 Long     Light leather boots reinforced with sprite darter scales.~
 WFlags   take feet~
@@ -801,6 +816,7 @@ Affect   5 8 0 0 0
 Vnum     39041
 Keywords kazzak's core treasure~
 Type     treasure~
+Continent    Kalimdor~
 Short    the Heart of Kazzak~
 Long     A massive, burning demonic core that radiates intense heat.~
 WFlags   take hold~
@@ -815,6 +831,7 @@ Affect   5 20 0 0 0
 Vnum     39042
 Keywords sand-dusted goggles head~
 Type     armor~
+Continent    Kalimdor~
 Short    a pair of sand-dusted goggles~
 Long     Goggles with dark lenses designed to block the desert glare.~
 WFlags   take head~
@@ -828,6 +845,7 @@ Affect   2 8 0 0 0
 Vnum     39043
 Keywords crystalline mace weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    a Crystalline Earth-mace~
 Long     A mace with a head made of solid, vibrating red crystal.~
 WFlags   take wield~
@@ -841,6 +859,7 @@ Affect   1 15 0 0 0
 Vnum     39044
 Keywords thorium bar mineral~
 Type     treasure~
+Continent    Kalimdor~
 Short    a solid Thorium Bar~
 Long     A heavy bar of refined, shimmering green thorium.~
 WFlags   take~
@@ -853,6 +872,7 @@ Rarity   1
 Vnum     39045
 Keywords truesilver bar mineral~
 Type     treasure~
+Continent    Kalimdor~
 Short    a solid Truesilver Bar~
 Long     A bar of white-hot, brilliant truesilver metal.~
 WFlags   take~
@@ -865,6 +885,7 @@ Rarity   2
 Vnum     39046
 Keywords dreamfoil herb~
 Type     treasure~
+Continent    Kalimdor~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of MOONGlow and ancient dreams.~
 WFlags   take hold~
@@ -878,6 +899,7 @@ Affect   3 15 0 0 0
 Vnum     39047
 Keywords hakkari bone-staff weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    a Hakkari Bone-staff~
 Long     A staff made of bleached wood and dragon-bone, stained with blood.~
 WFlags   take wield~
@@ -891,6 +913,7 @@ Affect   4 15 0 0 0
 Vnum     39048
 Keywords silithid ichor flask~
 Type     treasure~
+Continent    Kalimdor~
 Short    a flask of Silithid Ichor~
 Long     A glass vial filled with a thick, yellow-green insect fluid.~
 WFlags   take hold~
@@ -904,6 +927,7 @@ Affect   13 8 0 0 0
 Vnum     39049
 Keywords Cenarion beacon hold~
 Type     treasure~
+Continent    Kalimdor~
 Short    a Cenarion Beacon~
 Long     A small, stone beacon that hums with the call of the wild.~
 WFlags   take hold~
@@ -917,6 +941,7 @@ Affect   14 12 0 0 0
 Vnum     39050
 Keywords obsidian shard trophy~
 Type     trash~
+Continent    Kalimdor~
 Short    a jagged obsidian shard~
 Long     A sharp piece of black glass found near the scarab wall.~
 WFlags   take~
@@ -929,6 +954,7 @@ Rarity   1
 Vnum     39051
 Keywords might of kalimdor sword weapon~
 Type     weapon~
+Continent    Kalimdor~
 Short    the Might of Kalimdor~
 Long     A massive, ornate two-handed sword given to the desert's heroes.~
 WFlags   take wield~

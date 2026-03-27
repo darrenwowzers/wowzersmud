@@ -3,10 +3,13 @@
 Version      1
 Name         Naxxramas~
 Author       Feenom~
+Type         5
+Continent    Eastern Kingdoms~
 WeatherX     0
 WeatherY     0
 Ranges       60 60 0 60
-Economy      0 5000000000
+Economy      0 705032704
+ResetFreq    15
 #ENDAREADATA
 
 #MOBILE
@@ -20,16 +23,17 @@ He is a terrifying entity of pure ice and shadow, his voice
 carrying the chilling finality of the grave.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 63 0 0 2000000 5000000
-Stats2     63 63 50000
+Stats2     63 63 -15536
 Stats3     100 500 200
 Stats4     0 0 0 0 0
-Attribs    20 15 30 50 45 35 35
+Stats       20 50 45 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -43,16 +47,17 @@ serve as the guardian of the inner sanctum. His scales are
 coated in permanent magical frost.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 63 0 0 1000000 2500000
 Stats2     63 63 10000
 Stats3     80 400 150
 Stats4     0 0 0 0 0
-Attribs    50 15 45 30 35 35 35
+Stats       50 30 35 15 45
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -66,16 +71,17 @@ immensely strong and surprisingly fast, a mindless juggernaut
 of muscle and rot.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 500000 1200000
 Stats2     62 62 0
 Stats3     60 250 120
 Stats4     0 0 0 0 0
-Attribs    50 10 40 5 8 30 30
+Stats       50 5 8 10 40
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -89,16 +95,17 @@ the peaks of Northrend to serve as a biological breeding
 engine for the Scourge's crawler swarms.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     female~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Female~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 350000 900000
 Stats2     61 61 0
 Stats3     45 150 95
 Stats4     0 0 0 0 0
-Attribs    40 18 35 4 6 25 25
+Stats       40 4 6 18 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -112,16 +119,17 @@ Death Knights of the Scourge and is legendary for his
 lethal, unblockable strikes.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 400000 1000000
 Stats2     61 61 1000
 Stats3     50 180 100
 Stats4     0 0 0 0 0
-Attribs    45 15 35 15 20 25 25
+Stats       45 15 20 15 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -135,16 +143,17 @@ turned his portion of the necropolis into a dance of
 death, where one wrong step leads to liquefaction.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 320000 850000
 Stats2     61 61 5000
 Stats3     35 110 85
 Stats4     0 0 0 0 0
-Attribs    15 15 25 45 40 25 25
+Stats       15 45 40 15 25
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -154,16 +163,17 @@ Short      Anub'Rekhan~
 Long       An ancient crypt lord in golden plates stand guard, his wings buzzing.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 280000 750000
 Stats2     61 61 500
 Stats3     32 105 78
 Stats4     0 0 0 0 0
-Attribs    38 12 35 10 12 20 20
+Stats       38 10 12 12 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -172,17 +182,18 @@ Keywords   grand widow faerlina boss human mage~
 Short      Grand Widow Faerlina~
 Long       Grand Widow Faerlina stands before a group of acolytes, a whip in her hand.
 ~
-Race       human~
-Class      mage~
+Race       Human~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     female~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Female~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 250000 700000
 Stats2     61 61 3500
 Stats3     30 95 72
 Stats4     0 0 0 0 0
-Attribs    12 18 20 38 32 20 20
+Stats       12 38 32 18 20
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -192,16 +203,17 @@ Short      Noth the Plaguebringer~
 Long       Noth stands near a plague cauldron, chanting over the remains of a hero.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 220000 650000
 Stats2     61 61 2800
 Stats3     28 85 68
 Stats4     0 0 0 0 0
-Attribs    14 12 18 35 30 20 20
+Stats       14 35 30 12 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -211,16 +223,17 @@ Short      Loatheb~
 Long       A massive fungal monstrosity with glowing spores rumbles in the dark.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 450000 1100000
 Stats2     61 61 0
 Stats3     42 135 90
 Stats4     0 0 0 0 0
-Attribs    48 6 45 4 4 25 25
+Stats       48 4 4 6 45
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -230,16 +243,17 @@ Short      Gothik the Harvester~
 Long       A spectral necromancer floats above the gate, his hand raised to reap souls.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 300000 800000
 Stats2     61 61 4000
 Stats3     36 112 82
 Stats4     0 0 0 0 0
-Attribs    10 14 16 42 35 25 25
+Stats       10 42 35 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -253,16 +267,17 @@ Light. Even as his body serves the Scourge, he pleads with his
 enemies to flee for their lives.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 450000 1200000
 Stats2     62 62 2500
 Stats3     40 140 92
 Stats4     0 0 0 0 0
-Attribs    35 15 30 20 35 30 30
+Stats       35 20 35 15 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -272,16 +287,17 @@ Short      Highlord Alexandros Mograine~
 Long       The Ashbringer stands in blackened armor, his corrupted blade glowing dark.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 500000 1300000
 Stats2     62 62 1000
 Stats3     45 150 100
 Stats4     0 0 0 0 0
-Attribs    40 12 35 15 18 30 30
+Stats       40 15 18 12 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -291,16 +307,17 @@ Short      Grobbulus~
 Long       A massive stitched horror with a glass tank on its back gurgles.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 380000 950000
 Stats2     61 61 0
 Stats3     38 118 85
 Stats4     0 0 0 0 0
-Attribs    42 6 35 4 6 20 20
+Stats       42 4 6 6 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -310,16 +327,17 @@ Short      Gluth~
 Long       A gigantic skeletal hound with glowing green eyes stalks the bone-pile.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 420000 1000000
 Stats2     61 61 0
 Stats3     40 125 88
 Stats4     0 0 0 0 0
-Attribs    45 20 40 4 6 25 25
+Stats       45 4 6 20 40
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -329,16 +347,17 @@ Short      Thaddius~
 Long       A massive titan of sewn-together flesh rumbles with electricity.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Neuter~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 62 0 0 800000 2000000
 Stats2     62 62 2000
 Stats3     50 180 110
 Stats4     0 0 0 0 0
-Attribs    50 4 50 15 20 30 30
+Stats       50 15 20 4 50
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -347,17 +366,18 @@ Keywords   thuzadin acolyte human mage~
 Short      a Thuzadin Acolyte~
 Long       A human in tattered purple robes mutters a dark prayer.
 ~
-Race       human~
-Class      mage~
+Race       Human~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 2500 7000
 Stats2     60 60 1500
 Stats3     12 35 60
 Stats4     0 0 0 0 0
-Attribs    10 12 14 32 25 10 10
+Stats       10 32 25 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -367,16 +387,17 @@ Short      a Plague Slime~
 Long       A mass of bubbling yellow-green sludge undulates across the floor.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 3500 9500
 Stats2     60 60 0
 Stats3     15 42 60
 Stats4     0 0 0 0 0
-Attribs    24 6 30 4 4 10 10
+Stats       24 4 4 6 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -386,16 +407,17 @@ Short      a Dread Creeper~
 Long       A large pale spider skitters along the rafters, waiting to drop.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1800 5500
 Stats2     60 60 0
 Stats3     11 30 60
 Stats4     0 0 0 0 0
-Attribs    18 25 16 4 10 6 6
+Stats       18 4 10 25 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -405,16 +427,17 @@ Short      a Spectral Soldier~
 Long       A translucent warrior in ancient plate stand perfectly still.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 4500 12000
 Stats2     60 60 200
 Stats3     18 50 60
 Stats4     0 0 0 0 0
-Attribs    28 12 22 10 10 15 15
+Stats       28 10 10 12 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -424,16 +447,17 @@ Short      a Stitched Horror~
 Long       A massive pile of rotting flesh and iron clamps lumbers forward.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 15000 45000
 Stats2     61 61 0
 Stats3     25 75 62
 Stats4     0 0 0 0 0
-Attribs    35 4 35 6 6 15 15
+Stats       35 6 6 4 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -443,16 +467,17 @@ Short      an Eye of Naxxramas~
 Long       A floating spectral eye with a red iris scans the hallway.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1000 3000
 Stats2     60 60 2000
 Stats3     7 20 60
 Stats4     0 0 0 0 0
-Attribs    10 28 14 38 20 10 10
+Stats       10 38 20 28 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -462,16 +487,17 @@ Short      a Venom Stalker~
 Long       A large spider with a glowing green abdomen crawls by.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1400 4200
 Stats2     60 60 0
 Stats3     9 24 60
 Stats4     0 0 0 0 0
-Attribs    20 22 18 4 10 6 6
+Stats       20 4 10 22 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -481,16 +507,17 @@ Short      a Spectral Tutor~
 Long       A translucent figure points a skeletal finger at a dark book.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1800 5500
 Stats2     60 60 2500
 Stats3     13 40 60
 Stats4     0 0 0 0 0
-Attribs    12 14 16 35 30 15 15
+Stats       12 35 30 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -500,16 +527,17 @@ Short      a Bone Guardian~
 Long       A tall skeleton in silver-chased plate stands guard at the door.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 5500 15000
 Stats2     61 61 200
 Stats3     20 55 61
 Stats4     0 0 0 0 0
-Attribs    30 12 24 10 10 15 15
+Stats       30 10 10 12 24
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -519,16 +547,17 @@ Short      a Plaguehound~
 Long       A skeletal hound with glowing eyes stalks the bone-pile.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1600 4800
 Stats2     60 60 0
 Stats3     11 28 60
 Stats4     0 0 0 0 0
-Attribs    22 20 18 4 10 6 6
+Stats       22 4 10 20 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -538,16 +567,17 @@ Short      a Shadow-stalker Ghost~
 Long       A translucent troll warrior strikes from the dark.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1600 4500
 Stats2     60 60 150
 Stats3     11 30 60
 Stats4     0 0 0 0 0
-Attribs    24 25 16 6 10 10 10
+Stats       24 6 10 25 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -557,16 +587,17 @@ Short      a Hakkari Initiate~
 Long       A young troll priest mutter a dark prayer.
 ~
 Race       troll~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 59 0 0 1200 3500
 Stats2     59 59 1000
 Stats3     9 25 59
 Stats4     0 0 0 0 0
-Attribs    10 12 14 28 22 10 10
+Stats       10 28 22 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -576,16 +607,17 @@ Short      a Flickering Shade~
 Long       A dark shadowy spirit wails as it floats above the floor.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1100 3200
 Stats2     60 60 1200
 Stats3     9 24 60
 Stats4     0 0 0 0 0
-Attribs    10 22 12 32 20 10 10
+Stats       10 32 20 22 12
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -594,17 +626,18 @@ Keywords   death knight student warrior~
 Short      a Death Knight Recruit~
 Long       A human in tattered plate balances a runeblade, training.
 ~
-Race       human~
-Class      warrior~
+Race       Human~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 6500 18000
 Stats2     60 60 200
 Stats3     20 55 60
 Stats4     0 0 0 0 0
-Attribs    32 15 24 10 14 15 15
+Stats       32 10 14 15 24
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -614,16 +647,17 @@ Short      a Naxxramas Rat~
 Long       A large mangy rat scurries along the base of the wall.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc stayarea~
 Stats1     0 50 0 0 200 600
 Stats2     50 50 0
 Stats3     3 10 50
 Stats4     0 0 0 0 0
-Attribs    10 16 10 4 4 4 4
+Stats       10 4 4 16 10
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -633,16 +667,17 @@ Short      a Crypt Fiend~
 Long       A mummified spider-humanoid skitters across the path.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 3500 10000
 Stats2     60 60 200
 Stats3     16 45 60
 Stats4     0 0 0 0 0
-Attribs    24 14 22 8 10 10 10
+Stats       24 8 10 14 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -652,16 +687,17 @@ Short      an Unyielding Knight~
 Long       A skeleton in heavy plate armor stand guard at the study.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc sentinel stayarea aggressive~
+Gender     Male~
+Actflags   npc sentinel aggressive stayarea~
 Stats1     0 61 0 0 7500 22000
 Stats2     61 61 300
 Stats3     22 65 62
 Stats4     0 0 0 0 0
-Attribs    35 12 30 12 14 15 15
+Stats       35 12 14 12 30
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -671,16 +707,17 @@ Short      a Spectral Noble~
 Long       A ghostly figure in fine robes wanders the balcony.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     female~
+Gender     Female~
 Actflags   npc stayarea~
 Stats1     0 60 0 0 950 2800
 Stats2     60 60 1500
 Stats3     8 22 60
 Stats4     0 0 0 0 0
-Attribs    10 16 14 34 26 10 10
+Stats       10 34 26 16 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -689,17 +726,18 @@ Keywords   dark summoner cultist mage~
 Short      a Dark Summoner~
 Long       A high-ranking cultist mutter before a swirling green portal.
 ~
-Race       human~
-Class      mage~
+Race       Human~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 2000 6500
 Stats2     61 61 2500
 Stats3     14 42 61
 Stats4     0 0 0 0 0
-Attribs    12 14 16 38 32 12 12
+Stats       12 38 32 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -709,16 +747,17 @@ Short      a Rotting Monstrosity~
 Long       A mass of mismatched limbs lumbers through the square.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 25000 75000
 Stats2     61 61 0
 Stats3     32 100 65
 Stats4     0 0 0 0 0
-Attribs    42 4 35 4 6 15 15
+Stats       42 4 6 4 35
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -728,16 +767,17 @@ Short      a Necrotic Ooze~
 Long       A mass of pulsing black slime gurgles in the corner.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1200 3500
 Stats2     60 60 0
 Stats3     10 30 60
 Stats4     0 0 0 0 0
-Attribs    18 6 25 4 4 4 4
+Stats       18 4 4 6 25
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -747,16 +787,17 @@ Short      a Bone-pile Elemental~
 Long       A heap of bleached bones rumbles as it rises.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1600 4500
 Stats2     60 60 0
 Stats3     11 30 60
 Stats4     0 0 0 0 0
-Attribs    24 10 22 4 4 6 6
+Stats       24 4 4 10 22
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -766,16 +807,17 @@ Short      a Spectral Researcher~
 Long       A ghostly figure pours over a massive ancient tome.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 60 0 0 1200 3500
 Stats2     60 60 1800
 Stats3     11 32 60
 Stats4     0 0 0 0 0
-Attribs    10 12 14 34 28 15 15
+Stats       10 34 28 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -785,16 +827,17 @@ Short      a Crypt Stalker~
 Long       A large dark spider with red markings skitters on the ceiling.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1200 3500
 Stats2     60 60 0
 Stats3     9 24 60
 Stats4     0 0 0 0 0
-Attribs    18 22 14 4 10 6 6
+Stats       18 4 10 22 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -804,16 +847,17 @@ Short      a Thuzadin Necromancer~
 Long       An undead sorcerer raises a bony hand, raising a skeleton.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1800 5200
 Stats2     60 60 2500
 Stats3     14 42 60
 Stats4     0 0 0 0 0
-Attribs    10 14 16 38 32 12 12
+Stats       10 38 32 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -823,16 +867,17 @@ Short      a Plagued Ghoul~
 Long       A ghoul with festering sores snarls, its teeth like needles.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1600 4500
 Stats2     60 60 100
 Stats3     11 30 60
 Stats4     0 0 0 0 0
-Attribs    24 16 18 6 6 10 10
+Stats       24 6 6 16 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -842,16 +887,17 @@ Short      a Spectral Servant~
 Long       A ghostly figure in fine livery stand near the entrance.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
+Gender     Male~
 Actflags   npc stayarea~
 Stats1     0 60 0 0 850 2500
 Stats2     60 60 100
 Stats3     8 22 60
 Stats4     0 0 0 0 0
-Attribs    20 12 16 10 12 10 10
+Stats       20 10 12 12 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -861,16 +907,17 @@ Short      a Venom Weaver~
 Long       A large spider with a glowing green abdomen crawls.
 ~
 Race       mammal~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1100 3200
 Stats2     60 60 0
 Stats3     9 24 60
 Stats4     0 0 0 0 0
-Attribs    18 22 16 4 10 6 6
+Stats       18 4 10 22 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -880,16 +927,17 @@ Short      an Undead Citizen~
 Long       A rotting resident of Stratholme wanders aimlessly.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1100 3000
 Stats2     60 60 0
 Stats3     8 22 60
 Stats4     0 0 0 0 0
-Attribs    20 6 18 4 4 6 6
+Stats       20 4 4 6 18
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -898,17 +946,18 @@ Keywords   acolyte of shadow human mage~
 Short      an Acolyte of Shadow~
 Long       A human in purple robes mutter an incantation.
 ~
-Race       human~
-Class      mage~
+Race       Human~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1200 3500
 Stats2     60 60 1500
 Stats3     10 28 60
 Stats4     0 0 0 0 0
-Attribs    10 12 14 30 22 10 10
+Stats       10 30 22 12 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -918,16 +967,17 @@ Short      a Bone Construct~
 Long       A mass of fused bones and iron stands eight feet tall.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
-Actflags   npc stayarea aggressive~
+Gender     Neuter~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 8500 25000
 Stats2     61 61 0
 Stats3     25 75 62
 Stats4     0 0 0 0 0
-Attribs    35 6 32 4 4 15 15
+Stats       35 4 4 6 32
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -937,16 +987,17 @@ Short      a Ghoul Scavenger~
 Long       A lean ghoul picks through a pile of charred remains.
 ~
 Race       undead~
-Class      warrior~
+Class      Warrior~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 60 0 0 1600 4500
 Stats2     60 60 100
 Stats3     10 28 60
 Stats4     0 0 0 0 0
-Attribs    24 16 16 6 6 10 10
+Stats       24 6 6 16 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -956,16 +1007,17 @@ Short      a Flickering Ghost~
 Long       A translucent civilian wanders the hallway, weeping.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     neuter~
+Gender     Neuter~
 Actflags   npc stayarea~
 Stats1     0 60 0 0 950 2800
 Stats2     60 60 1200
 Stats3     9 24 60
 Stats4     0 0 0 0 0
-Attribs    10 18 14 32 20 10 10
+Stats       10 32 20 18 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -974,17 +1026,18 @@ Keywords   death's head warlock human mage~
 Short      a Death's Head Warlock~
 Long       A human in dark robes mutters to a floating skull.
 ~
-Race       human~
-Class      mage~
+Race       Human~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     male~
-Actflags   npc stayarea aggressive~
+Gender     Male~
+Actflags   npc aggressive stayarea~
 Stats1     0 61 0 0 2000 6500
 Stats2     61 61 2500
 Stats3     14 42 61
 Stats4     0 0 0 0 0
-Attribs    12 14 16 38 32 15 15
+Stats       12 38 32 14 16
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #MOBILE
@@ -994,543 +1047,580 @@ Short      a Spectral Noblewoman~
 Long       A spectral woman in a tattered dress gazes into a fireplace.
 ~
 Race       undead~
-Class      mage~
+Class      Mage~
 Position   standing~
 DefPos     standing~
-Gender     female~
+Gender     Female~
 Actflags   npc stayarea~
 Stats1     0 60 0 0 1100 3200
 Stats2     60 60 1200
 Stats3     10 28 60
 Stats4     0 0 0 0 0
-Attribs    10 16 14 34 26 10 10
+Stats       10 34 26 16 14
+Saves      0 0 0 0 0
 #ENDMOBILE
 
 #OBJECT
 Vnum     43600
 Keywords hungering cold sword weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Hungering Cold~
 Long     A perfectly balanced scimitar that glows with a lethal blue frost.~
 WFlags   take wield~
+Rarity   3
 Values   12 20 45 3 0 0
 Stats    15 50000 62 0 0
-Rarity   3
-Affect   1 20 0 0 0
-Affect   13 25 0 0 0
-Affect   12 25 0 0 0
+AffectData   'acetum primus' 20 0 0 0
+AffectData   'astral walk' 25 0 0 0
+AffectData   'armor' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43601
 Keywords frostmourne replica sword weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Corrupted Ashbringer~
 Long     The legendary blade of the Mograine, now dripping with shadow energy.~
 WFlags   take wield~
+Rarity   3
 Values   12 25 55 3 0 0
 Stats    35 100000 64 0 0
-Rarity   3
-Affect   1 30 0 0 0
-Affect   13 40 0 0 0
-Affect   18 15 0 0 0
+AffectData   'acetum primus' 30 0 0 0
+AffectData   'astral walk' 40 0 0 0
+AffectData   'berserk' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43602
 Keywords phylactery kel'thuzad treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    the Phylactery of Kel'Thuzad~
 Long     A small golden jar containing the life essence of the Archlich.~
 WFlags   take hold~
+Rarity   3
 Values   0 0 0 0 0 0
 Stats    5 250000 65 0 0
-Rarity   3
-Affect   3 40 0 0 0
-Affect   14 50 0 0 0
+AffectData   'acid breath' 40 0 0 0
+AffectData   'backstab' 50 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43603
 Keywords splinter atiesh weapon staff~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Splinter of Atiesh~
 Long     A fragment of the legendary staff of the Guardian, Medivh.~
 WFlags   take hold~
+Rarity   3
 Values   12 15 30 7 0 0
 Stats    10 50000 60 0 0
-Rarity   3
-Affect   3 20 0 0 0
-Affect   14 25 0 0 0
+AffectData   'acid breath' 20 0 0 0
+AffectData   'backstab' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43604
 Keywords bonescythe breastplate body armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Bonescythe Breastplate~
 Long     Fine leather armor reinforced with the chitin of crypt lords.~
 WFlags   take body~
+Rarity   3
 Values   15 0 0 0 0 0
 Stats    15 55000 62 0 0
-Rarity   3
-Affect   2 25 0 0 0
-Affect   13 20 0 0 0
+AffectData   'acid blast' 25 0 0 0
+AffectData   'astral walk' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43605
 Keywords dreadnaught helmet head armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Dreadnaught Helmet~
 Long     A massive steel helm featuring the cold eyes of a skull.~
 WFlags   take head~
+Rarity   3
 Values   20 0 0 0 0 0
 Stats    8 55000 62 0 0
-Rarity   3
-Affect   1 20 0 0 0
-Affect   5 20 0 0 0
+AffectData   'acetum primus' 20 0 0 0
+AffectData   'acidshot' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43606
 Keywords plaguebloom bunch herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bunch of Plaguebloom~
 Long     A cluster of grey, diseased-looking flowers with a sweet scent.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 500 60 0 0
-Rarity   1
-Affect   5 15 0 0 0
+AffectData   'acidshot' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43607
 Keywords mountain silversage herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bunch of Mountain Silversage~
 Long     Elegant silvery leaves found on the high peaks of the necropolis.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 550 60 0 0
-Rarity   1
-Affect   2 15 0 0 0
+AffectData   'acid blast' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43608
 Keywords maexxna's fang dagger weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Maexxna's Fang~
 Long     A jagged dagger carved from the tooth of a giant spider.~
 WFlags   take wield~
+Rarity   2
 Values   12 12 24 11 0 0
 Stats    2 25000 61 0 0
-Rarity   2
-Affect   2 15 0 0 0
-Affect   13 10 0 0 0
+AffectData   'acid blast' 15 0 0 0
+AffectData   'astral walk' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43609
 Keywords razuvious's mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Girdle of Razuvious~
 Long     A heavy plate belt granted to the master's finest students.~
 WFlags   take waist~
+Rarity   2
 Values   15 0 0 0 0 0
 Stats    5 15000 61 0 0
-Rarity   2
-Affect   1 15 0 0 0
-Affect   5 15 0 0 0
+AffectData   'acetum primus' 15 0 0 0
+AffectData   'acidshot' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43610
 Keywords heigan's ring jewelry finger~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    Heigan's Signet Ring~
 Long     A silver ring featuring a large, weeping green gemstone.~
 WFlags   take finger~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 12000 60 0 0
-Rarity   2
-Affect   13 15 0 0 0
-Affect   14 20 0 0 0
+AffectData   'astral walk' 15 0 0 0
+AffectData   'backstab' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43611
 Keywords patchwerk's rib trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a massive skeletal rib~
 Long     A bone as long as a spear, taken from a stitched giant.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    10 1500 1 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
 Vnum     43612
 Keywords necrotic essence treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a shard of Necrotic Essence~
 Long     A dark crystal that pulses with the heartbeat of the Scourge.~
 WFlags   take hold~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 8500 60 0 0
-Rarity   2
-Affect   14 25 0 0 0
+AffectData   'backstab' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43613
 Keywords thaddius's core hold treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    the Core of Thaddius~
 Long     A massive glass sphere crackling with blue electricity.~
 WFlags   take hold~
+Rarity   3
 Values   0 0 0 0 0 0
 Stats    5 25000 62 0 0
-Rarity   3
-Affect   3 20 0 0 0
-Affect   12 30 0 0 0
+AffectData   'acid breath' 20 0 0 0
+AffectData   'armor' 30 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43614
 Keywords cloak spectral shadow about armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Cloak of Spectral Shadows~
 Long     A translucent cape that seems to absorb all incoming light.~
 WFlags   take about~
+Rarity   2
 Values   10 0 0 0 0 0
 Stats    2 15000 61 0 0
-Rarity   2
-Affect   2 20 0 0 0
-Affect   13 15 0 0 0
+AffectData   'acid blast' 20 0 0 0
+AffectData   'astral walk' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43615
 Keywords shield lightforge armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Lightforge Bulwark~
 Long     A massive shield of white gold that radiates a holy light.~
 WFlags   take shield~
+Rarity   3
 Values   35 0 0 0 0 0
 Stats    35 25000 62 0 0
-Rarity   3
-Affect   5 25 0 0 0
-Affect   1 15 0 0 0
+AffectData   'acidshot' 25 0 0 0
+AffectData   'acetum primus' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43616
 Keywords ghost mushroom treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a glowing Ghost Mushroom~
 Long     A translucent mushroom that pulses with a cold green light.~
 WFlags   take hold~
 Values   0 0 0 0 0 0
 Stats    1 250 50 0 0
-Rarity   0
-Affect   3 12 0 0 0
+AffectData   'acid breath' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43617
 Keywords dreamfoil bundle herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 350 60 0 0
-Rarity   1
-Affect   3 12 0 0 0
+AffectData   'acid breath' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43618
 Keywords gromsblood sprig herb~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a sprig of Gromsblood~
 Long     A dark leafy herb that smells faintly of demons.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 400 60 0 0
-Rarity   1
-Affect   1 12 0 0 0
+AffectData   'acetum primus' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43619
 Keywords frozen shard treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Shard of Eternal Frost~
 Long     A crystal that radiates intense cold, taken from a frostwyrm.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 5500 58 0 0
-Rarity   1
-Affect   13 12 0 0 0
+AffectData   'astral walk' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43620
 Keywords runecloth bolt loot~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 1200 55 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
 Vnum     43621
 Keywords soul shard hold treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Dark Soul Shard~
 Long     A small purple crystal that contains a flickering soul.~
 WFlags   take hold~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 1500 60 0 0
-Rarity   2
-Affect   14 20 0 0 0
+AffectData   'backstab' 20 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43622
 Keywords icy weapon enchantment loot~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a vial of Icy Weapon Enchantment~
 Long     A glowing blue liquid used to coat blades with frost.~
 WFlags   take~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 4500 60 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
 Vnum     43623
 Keywords desecrated bindings treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a set of Desecrated Bindings~
 Long     Dark iron shackles required for the creation of T3 armor.~
 WFlags   take~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    5 8500 60 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
 Vnum     43624
 Keywords spectral silk bolt loot~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bolt of Spectral Silk~
 Long     Fine, translucent cloth taken from Highborne ghosts.~
 WFlags   take~
+Rarity   2
 Values   0 0 0 0 0 0
 Stats    1 2500 60 0 0
-Rarity   2
 #ENDOBJECT
 
 #OBJECT
 Vnum     43625
 Keywords plague meat food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a slab of plagued meat~
 Long     Rotting meat that provides an unholy burst of energy.~
 WFlags   take~
 Values   30 0 0 0 0 0
 Stats    5 25 1 0 0
-Rarity   0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43626
 Keywords frozen scale trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a massive frozen dragonscale~
 Long     A thick white scale taken from the frostwyrm Sapphiron.~
 WFlags   take~
+Rarity   3
 Values   0 0 0 0 0 0
 Stats    1 15000 1 0 0
-Rarity   3
 #ENDOBJECT
 
 #OBJECT
 Vnum     43627
 Keywords naxxramas rat tail trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a shriveled rat tail~
 Long     A dark tail taken from a necropolis rat.~
 WFlags   take~
 Values   0 0 0 0 0 0
 Stats    1 10 1 0 0
-Rarity   0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43628
 Keywords mossy stone trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a mossy temple stone~
 Long     A heavy square of masonry fallen from the ceiling.~
 WFlags   take~
 Values   0 0 0 0 0 0
 Stats    10 1 1 0 0
-Rarity   0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43629
 Keywords frost-vial treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a vial of Frost-Residue~
 Long     A small glass vial containing a swirling cloud of blue gas.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 1500 58 0 0
-Rarity   1
-Affect   13 15 0 0 0
+AffectData   'astral walk' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43630
 Keywords hungering cold sword blade~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Hungering Cold~
 Long     A long scimitar carved from permanent ice and shadow.~
 WFlags   take wield~
+Rarity   3
 Values   12 18 40 3 0 0
 Stats    15 50000 63 0 0
-Rarity   3
-Affect   13 25 0 0 0
-Affect   12 25 0 0 0
+AffectData   'astral walk' 25 0 0 0
+AffectData   'armor' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43631
 Keywords frost-etched belt waist armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Frost-etched Girdle~
 Long     A heavy iron belt etched with runes of frost.~
 WFlags   take waist~
+Rarity   2
 Values   15 0 0 0 0 0
 Stats    8 15000 61 0 0
-Rarity   2
-Affect   2 15 0 0 0
-Affect   13 10 0 0 0
+AffectData   'acid blast' 15 0 0 0
+AffectData   'astral walk' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43632
 Keywords gauntlets wrath hands armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Gauntlets of Wrath~
 Long     Heavy plate gauntlets featuring the red fist of Blackhand.~
 WFlags   take hands~
+Rarity   3
 Values   20 0 0 0 0 0
 Stats    10 12000 61 0 0
-Rarity   3
-Affect   1 15 0 0 0
-Affect   5 15 0 0 0
+AffectData   'acetum primus' 15 0 0 0
+AffectData   'acidshot' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43633
 Keywords staff shadow-frost weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Staff of Shadow-frost~
 Long     A staff of blackened wood that hums with icy energy.~
 WFlags   take wield~
+Rarity   3
 Values   12 12 25 7 0 0
 Stats    12 45000 62 0 0
-Rarity   3
-Affect   3 25 0 0 0
-Affect   14 25 0 0 0
+AffectData   'acid breath' 25 0 0 0
+AffectData   'backstab' 25 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43634
 Keywords bone mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Bone-handled War-mace~
 Long     A heavy stone mace decorated with skeletal remains.~
 WFlags   take wield~
+Rarity   2
 Values   12 15 30 8 0 0
 Stats    22 8500 60 0 0
-Rarity   2
-Affect   1 12 0 0 0
+AffectData   'acetum primus' 12 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43635
 Keywords shadow-vial treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a vial of Shadow-Residue~
 Long     A small glass vial containing a swirling cloud of purple gas.~
 WFlags   take hold~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 1500 58 0 0
-Rarity   1
-Affect   14 15 0 0 0
+AffectData   'backstab' 15 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43636
 Keywords runecloth loot treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 1200 55 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
 Vnum     43637
 Keywords scourge stone corrupt treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Corrupt Scourgestone~
 Long     A jagged green stone marked with the seal of the Scourge.~
 WFlags   take~
+Rarity   1
 Values   0 0 0 0 0 0
 Stats    1 150 55 0 0
-Rarity   1
 #ENDOBJECT
 
 #OBJECT
 Vnum     43638
 Keywords tribal mask head armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Thuzadin Tribal Mask~
 Long     A wooden mask painted with the image of a screaming lich.~
 WFlags   take head~
+Rarity   1
 Values   8 0 0 0 0 0
 Stats    2 3500 56 0 0
-Rarity   1
-Affect   3 10 0 0 0
+AffectData   'acid breath' 10 0 0 0
 #ENDOBJECT
 
 #OBJECT
 Vnum     43639
 Keywords cleaver bone-handled weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Bone-handled Cleaver~
 Long     A massive heavy sword used by the necropolis butchers.~
 WFlags   take wield~
+Rarity   1
 Values   12 12 25 3 0 0
 Stats    15 2500 55 0 0
-Rarity   1
-Affect   1 8 0 0 0
+AffectData   'acetum primus' 8 0 0 0
 #ENDOBJECT
 
 #ROOM
@@ -1545,15 +1635,17 @@ thoroughfares lead away from this central landing, each
 dedicated to a different quarter of the Scourge's power.
 ~
 #EXIT
-Direction out~
+Direction north~
 ToRoom    38563
 Desc      Return to the Eastern Plaguelands.~
 #ENDEXIT
+
 #EXIT
 Direction north~
 ToRoom    43701
 Desc      The Central Hub.~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
@@ -1573,27 +1665,66 @@ Direction south~
 ToRoom    43700
 Desc      The entrance.~
 #ENDEXIT
-#EXIT
-Direction northwest~
-ToRoom    43710
-Desc      The Arachnid Quarter.~
-#ENDEXIT
+
 #EXIT
 Direction northeast~
 ToRoom    43740
 Desc      The Plague Quarter.~
 #ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    43710
+Desc      The Arachnid Quarter.~
+#ENDEXIT
+
 #EXIT
 Direction southeast~
 ToRoom    43770
 Desc      The Military Quarter.~
 #ENDEXIT
+
 #EXIT
 Direction southwest~
 ToRoom    43810
 Desc      The Construct Quarter.~
 #ENDEXIT
+
 Reset M 0 43516 10 43701
+#ENDROOM
+
+#ROOM
+Vnum     43702
+Name     &xThe North Wing Lookout&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing offering a view of the 
+Plague Quarter from the hub.
+~
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      The hub.~
+#ENDEXIT
+
+Reset M 0 43521 5 43702
+#ENDROOM
+
+#ROOM
+Vnum     43703
+Name     &xThe South Wing Lookout&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing offering a view of the 
+Military Quarter from the hub.
+~
+#EXIT
+Direction north~
+ToRoom    43701
+Desc      The hub.~
+#ENDEXIT
+
+Reset M 0 43521 5 43703
 #ENDROOM
 
 #ROOM
@@ -1607,15 +1738,17 @@ of ammonia. Anub'Rekhan can be heard clicking his
 mandibles in the chamber ahead.
 ~
 #EXIT
-Direction southeast~
-ToRoom    43701
-Desc      The central hub.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43711
 Desc      The Lair of Anub'Rekhan.~
 #ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    43701
+Desc      The central hub.~
+#ENDEXIT
+
 Reset M 0 43531 10 43710
 #ENDROOM
 
@@ -1630,15 +1763,17 @@ armor glinting in the dim light. He summons a swarm
 of locusts to herald your arrival.
 ~
 #EXIT
-Direction south~
-ToRoom    43710
-Desc      The arachnid entry.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43712
 Desc      The Widows' Walk.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      The arachnid entry.~
+#ENDEXIT
+
 Reset M 0 43506 1 43711
   Reset G 1 43634 1
 Reset M 0 43531 5 43711
@@ -1655,15 +1790,17 @@ the training of her acolytes. The air is thick with
 the scent of incense and shadow.
 ~
 #EXIT
-Direction south~
-ToRoom    43711
-Desc      Anub'Rekhan's lair.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43713
 Desc      Faerlina's Sanctum.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43711
+Desc      Anub'Rekhan's lair.~
+#ENDEXIT
+
 Reset M 0 43516 10 43712
 #ENDROOM
 
@@ -1678,15 +1815,17 @@ her whip ready to punish any who show weakness. Her
 most loyal followers stand guard in the aisles.
 ~
 #EXIT
-Direction south~
-ToRoom    43712
-Desc      The widow's walk.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43714
 Desc      The Webbed Tunnel.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43712
+Desc      The widow's walk.~
+#ENDEXIT
+
 Reset M 0 43507 1 43713
   Reset G 1 43631 1
 Reset M 0 43516 10 43713
@@ -1702,15 +1841,17 @@ silk. The sound of skittering legs is constant, and
 the air is moist and warm.
 ~
 #EXIT
-Direction south~
-ToRoom    43713
-Desc      Faerlina's sanctum.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43715
 Desc      The Lair of Maexxna.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43713
+Desc      Faerlina's sanctum.~
+#ENDEXIT
+
 Reset M 0 43518 10 43714
 #ENDROOM
 
@@ -1729,9 +1870,462 @@ Direction south~
 ToRoom    43714
 Desc      The webbed tunnel.~
 #ENDEXIT
+
 Reset M 0 43503 1 43715
   Reset G 1 43608 1
 Reset M 0 43518 10 43715
+#ENDROOM
+
+#ROOM
+Vnum     43716
+Name     &xArachnid Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet corner of the spider wing filled with 
+shattered stones and the scent of old ammonia.
+~
+#EXIT
+Direction south~
+ToRoom    43711
+Desc      Anub'Rekhan's lair.~
+#ENDEXIT
+
+Reset M 0 43531 5 43716
+#ENDROOM
+
+#ROOM
+Vnum     43717
+Name     &xArachnid Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room used by the reavers to 
+store their silk and bones.
+~
+#EXIT
+Direction west~
+ToRoom    43711
+Desc      Anub'Rekhan's lair.~
+#ENDEXIT
+
+Reset O 0 43636 10 43717
+#ENDROOM
+
+#ROOM
+Vnum     43718
+Name     &xThe Webbed Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     A series of confusing stone corridors in the spider wing.
+~
+#EXIT
+Direction north~
+ToRoom    43719
+Desc      Labyrinth 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43711
+Desc      Anub'Rekhan's lair.~
+#ENDEXIT
+
+Reset M 0 43531 10 43718
+#ENDROOM
+
+#ROOM
+Vnum     43719
+Name     &xThe Webbed Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the arachnid-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43718
+Desc      Labyrinth 1.~
+#ENDEXIT
+
+Reset M 0 43531 10 43719
+#ENDROOM
+
+#ROOM
+Vnum     43720
+Name     &xThe Arachnid Cell - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     One of fifty interconnected cells in the spider wing.
+~
+#EXIT
+Direction north~
+ToRoom    43721
+Desc      Cell 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43720
+#ENDROOM
+
+#ROOM
+Vnum     43721
+Name     &xThe Arachnid Cell - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43720
+Desc      Cell 1.~
+#ENDEXIT
+
+Reset M 0 43531 10 43721
+#ENDROOM
+
+#ROOM
+Vnum     43722
+Name     &xThe Arachnid Cell - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43723
+Desc      Cell 4.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43722
+#ENDROOM
+
+#ROOM
+Vnum     43723
+Name     &xThe Arachnid Cell - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43722
+Desc      Cell 3.~
+#ENDEXIT
+
+Reset M 0 43531 10 43723
+#ENDROOM
+
+#ROOM
+Vnum     43724
+Name     &xThe Arachnid Cell - 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43725
+Desc      Cell 6.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43724
+#ENDROOM
+
+#ROOM
+Vnum     43725
+Name     &xThe Arachnid Cell - 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43724
+Desc      Cell 5.~
+#ENDEXIT
+
+Reset M 0 43531 10 43725
+#ENDROOM
+
+#ROOM
+Vnum     43726
+Name     &xThe Arachnid Cell - 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43727
+Desc      Cell 8.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43726
+#ENDROOM
+
+#ROOM
+Vnum     43727
+Name     &xThe Arachnid Cell - 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43726
+Desc      Cell 7.~
+#ENDEXIT
+
+Reset M 0 43531 10 43727
+#ENDROOM
+
+#ROOM
+Vnum     43728
+Name     &xThe Arachnid Cell - 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43729
+Desc      Cell 10.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43728
+#ENDROOM
+
+#ROOM
+Vnum     43729
+Name     &xThe Arachnid Cell - 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43728
+Desc      Cell 9.~
+#ENDEXIT
+
+Reset M 0 43531 10 43729
+#ENDROOM
+
+#ROOM
+Vnum     43730
+Name     &xThe Arachnid Cell - 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43731
+Desc      Cell 12.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43730
+#ENDROOM
+
+#ROOM
+Vnum     43731
+Name     &xThe Arachnid Cell - 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43730
+Desc      Cell 11.~
+#ENDEXIT
+
+Reset M 0 43531 10 43731
+#ENDROOM
+
+#ROOM
+Vnum     43732
+Name     &xThe Arachnid Cell - 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43733
+Desc      Cell 14.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43732
+#ENDROOM
+
+#ROOM
+Vnum     43733
+Name     &xThe Arachnid Cell - 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43732
+Desc      Cell 13.~
+#ENDEXIT
+
+Reset M 0 43531 10 43733
+#ENDROOM
+
+#ROOM
+Vnum     43734
+Name     &xThe Arachnid Cell - 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43735
+Desc      Cell 16.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43734
+#ENDROOM
+
+#ROOM
+Vnum     43735
+Name     &xThe Arachnid Cell - 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43734
+Desc      Cell 15.~
+#ENDEXIT
+
+Reset M 0 43531 10 43735
+#ENDROOM
+
+#ROOM
+Vnum     43736
+Name     &xThe Arachnid Cell - 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43737
+Desc      Cell 18.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43736
+#ENDROOM
+
+#ROOM
+Vnum     43737
+Name     &xThe Arachnid Cell - 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43736
+Desc      Cell 17.~
+#ENDEXIT
+
+Reset M 0 43531 10 43737
+#ENDROOM
+
+#ROOM
+Vnum     43738
+Name     &xThe Arachnid Cell - 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43739
+Desc      Cell 20.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43710
+Desc      Arachnid entry.~
+#ENDEXIT
+
+Reset M 0 43531 10 43738
+#ENDROOM
+
+#ROOM
+Vnum     43739
+Name     &xThe Arachnid Cell - 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43738
+Desc      Cell 19.~
+#ENDEXIT
+
+Reset M 0 43531 10 43739
 #ENDROOM
 
 #ROOM
@@ -1745,15 +2339,17 @@ chemicals. Noth the Plaguebringer can be seen working
 near a massive cauldron ahead.
 ~
 #EXIT
-Direction southwest~
-ToRoom    43701
-Desc      The central hub.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43741
 Desc      The Hall of Noth.~
 #ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    43701
+Desc      The central hub.~
+#ENDEXIT
+
 Reset M 0 43517 10 43740
 #ENDROOM
 
@@ -1768,15 +2364,17 @@ cauldron, chanting over a pile of bones. He summons
 skeletal warriors to defend his work.
 ~
 #EXIT
-Direction south~
-ToRoom    43740
-Desc      The plague entry.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43742
 Desc      The Gauntlet of Heigan.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      The plague entry.~
+#ENDEXIT
+
 Reset M 0 43508 1 43741
   Reset G 1 43623 1
 Reset M 0 43524 10 43741
@@ -1793,15 +2391,17 @@ rhythmic pattern. Heigan the Unclean watches from
 a high platform to the north.
 ~
 #EXIT
-Direction south~
-ToRoom    43741
-Desc      Noth's hall.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43743
 Desc      Heigan's Sanctum.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43741
+Desc      Noth's hall.~
+#ENDEXIT
+
 Reset M 0 43517 10 43742
 #ENDROOM
 
@@ -1816,15 +2416,17 @@ controls the erupting fluids of the room. The air
 is absolute still and smells of death.
 ~
 #EXIT
-Direction south~
-ToRoom    43742
-Desc      The gauntlet.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43744
 Desc      The Fungal Overgrowth.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43742
+Desc      The gauntlet.~
+#ENDEXIT
+
 Reset M 0 43505 1 43743
   Reset G 1 43610 1
 #ENDROOM
@@ -1839,15 +2441,17 @@ garden. Massive mushrooms and tangles of vines choke
 the path. The sound of rhythmic thumping is constant.
 ~
 #EXIT
-Direction south~
-ToRoom    43743
-Desc      Heigan's sanctum.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43745
 Desc      The Lair of Loatheb.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43743
+Desc      Heigan's sanctum.~
+#ENDEXIT
+
 Reset M 0 43509 5 43744
 #ENDROOM
 
@@ -1867,7 +2471,459 @@ Direction south~
 ToRoom    43744
 Desc      The fungal entry.~
 #ENDEXIT
+
 Reset M 0 43509 1 43745
+#ENDROOM
+
+#ROOM
+Vnum     43746
+Name     &xPlague Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A high stone landing near the plague cauldron.
+~
+#EXIT
+Direction south~
+ToRoom    43741
+Desc      Noth's hall.~
+#ENDEXIT
+
+Reset M 0 43517 5 43746
+#ENDROOM
+
+#ROOM
+Vnum     43747
+Name     &xPlague Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side workshop where the plague-masters 
+mix their most potent toxins.
+~
+#EXIT
+Direction east~
+ToRoom    43741
+Desc      Noth's hall.~
+#ENDEXIT
+
+Reset O 0 43610 10 43747
+#ENDROOM
+
+#ROOM
+Vnum     43748
+Name     &xThe Plague Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing tunnels near the plaguebringer's quarters.
+~
+#EXIT
+Direction north~
+ToRoom    43749
+Desc      Labyrinth 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43741
+Desc      Noth's hall.~
+#ENDEXIT
+
+Reset M 0 43517 10 43748
+#ENDROOM
+
+#ROOM
+Vnum     43749
+Name     &xThe Plague Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the toxic-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43748
+Desc      Labyrinth 1.~
+#ENDEXIT
+
+Reset M 0 43517 10 43749
+#ENDROOM
+
+#ROOM
+Vnum     43750
+Name     &xThe Plague Cell - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     One of fifty interconnected cells in the plague wing.
+~
+#EXIT
+Direction north~
+ToRoom    43751
+Desc      Cell 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43750
+#ENDROOM
+
+#ROOM
+Vnum     43751
+Name     &xThe Plague Cell - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43750
+Desc      Cell 1.~
+#ENDEXIT
+
+Reset M 0 43517 10 43751
+#ENDROOM
+
+#ROOM
+Vnum     43752
+Name     &xThe Plague Cell - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43753
+Desc      Cell 4.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43752
+#ENDROOM
+
+#ROOM
+Vnum     43753
+Name     &xThe Plague Cell - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43752
+Desc      Cell 3.~
+#ENDEXIT
+
+Reset M 0 43517 10 43753
+#ENDROOM
+
+#ROOM
+Vnum     43754
+Name     &xThe Plague Cell - 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43755
+Desc      Cell 6.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43754
+#ENDROOM
+
+#ROOM
+Vnum     43755
+Name     &xThe Plague Cell - 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43754
+Desc      Cell 5.~
+#ENDEXIT
+
+Reset M 0 43517 10 43755
+#ENDROOM
+
+#ROOM
+Vnum     43756
+Name     &xThe Plague Cell - 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43757
+Desc      Cell 8.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43756
+#ENDROOM
+
+#ROOM
+Vnum     43757
+Name     &xThe Plague Cell - 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43756
+Desc      Cell 7.~
+#ENDEXIT
+
+Reset M 0 43517 10 43757
+#ENDROOM
+
+#ROOM
+Vnum     43758
+Name     &xThe Plague Cell - 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43759
+Desc      Cell 10.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43758
+#ENDROOM
+
+#ROOM
+Vnum     43759
+Name     &xThe Plague Cell - 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43758
+Desc      Cell 9.~
+#ENDEXIT
+
+Reset M 0 43517 10 43759
+#ENDROOM
+
+#ROOM
+Vnum     43760
+Name     &xThe Plague Cell - 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43761
+Desc      Cell 12.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43760
+#ENDROOM
+
+#ROOM
+Vnum     43761
+Name     &xThe Plague Cell - 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43760
+Desc      Cell 11.~
+#ENDEXIT
+
+Reset M 0 43517 10 43761
+#ENDROOM
+
+#ROOM
+Vnum     43762
+Name     &xThe Plague Cell - 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43763
+Desc      Cell 14.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43762
+#ENDROOM
+
+#ROOM
+Vnum     43763
+Name     &xThe Plague Cell - 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43762
+Desc      Cell 13.~
+#ENDEXIT
+
+Reset M 0 43517 10 43763
+#ENDROOM
+
+#ROOM
+Vnum     43764
+Name     &xThe Plague Cell - 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43765
+Desc      Cell 16.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43764
+#ENDROOM
+
+#ROOM
+Vnum     43765
+Name     &xThe Plague Cell - 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43764
+Desc      Cell 15.~
+#ENDEXIT
+
+Reset M 0 43517 10 43765
+#ENDROOM
+
+#ROOM
+Vnum     43766
+Name     &xThe Plague Cell - 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43767
+Desc      Cell 18.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43766
+#ENDROOM
+
+#ROOM
+Vnum     43767
+Name     &xThe Plague Cell - 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43766
+Desc      Cell 17.~
+#ENDEXIT
+
+Reset M 0 43517 10 43767
+#ENDROOM
+
+#ROOM
+Vnum     43768
+Name     &xThe Plague Cell - 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43769
+Desc      Cell 20.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43740
+Desc      Plague entry.~
+#ENDEXIT
+
+Reset M 0 43517 10 43768
+#ENDROOM
+
+#ROOM
+Vnum     43769
+Name     &xThe Plague Cell - 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43768
+Desc      Cell 19.~
+#ENDEXIT
+
+Reset M 0 43517 10 43769
 #ENDROOM
 
 #ROOM
@@ -1881,15 +2937,17 @@ overlook the entry, where death knight recruits train
 for war.
 ~
 #EXIT
-Direction northwest~
-ToRoom    43701
-Desc      The central hub.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43771
 Desc      The Training Ground.~
 #ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    43701
+Desc      The central hub.~
+#ENDEXIT
+
 Reset M 0 43529 10 43770
 #ENDROOM
 
@@ -1904,15 +2962,17 @@ balances a huge runeblade, his unblinking eyes
 watching for any sign of weakness.
 ~
 #EXIT
-Direction south~
-ToRoom    43770
-Desc      The military entry.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43772
 Desc      The Hall of the Harvester.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      The military entry.~
+#ENDEXIT
+
 Reset M 0 43504 1 43771
   Reset G 1 43609 1
 Reset M 0 43529 10 43771
@@ -1929,15 +2989,17 @@ summoning waves of spectral soldiers to defend
 the way.
 ~
 #EXIT
-Direction south~
-ToRoom    43771
-Desc      The training ground.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43773
 Desc      The Horsemen's Balcony.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43771
+Desc      The training ground.~
+#ENDEXIT
+
 Reset M 0 43510 1 43772
 Reset M 0 43519 10 43772
 #ENDROOM
@@ -1958,10 +3020,463 @@ Direction south~
 ToRoom    43772
 Desc      Gothik's hall.~
 #ENDEXIT
+
 Reset M 0 43511 1 43773
 Reset M 0 43512 1 43773
   Reset E 1 43601 1 16
 Reset M 0 43532 5 43773
+#ENDROOM
+
+#ROOM
+Vnum     43774
+Name     &xMilitary Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A quiet section of the barracks where 
+the death knights rest.
+~
+#EXIT
+Direction south~
+ToRoom    43771
+Desc      Razuvious's arena.~
+#ENDEXIT
+
+Reset M 0 43529 5 43774
+#ENDROOM
+
+#ROOM
+Vnum     43775
+Name     &xMilitary Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A side room filled with runeblades 
+and ancient gold coins.
+~
+#EXIT
+Direction north~
+ToRoom    43771
+Desc      Razuvious's arena.~
+#ENDEXIT
+
+Reset O 0 43601 1 43775
+#ENDROOM
+
+#ROOM
+Vnum     43776
+Name     &xThe Military Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the death knight training ground.
+~
+#EXIT
+Direction north~
+ToRoom    43777
+Desc      Labyrinth 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43771
+Desc      Razuvious's arena.~
+#ENDEXIT
+
+Reset M 0 43529 10 43776
+#ENDROOM
+
+#ROOM
+Vnum     43777
+Name     &xThe Military Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the death-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43776
+Desc      Labyrinth 1.~
+#ENDEXIT
+
+Reset M 0 43529 10 43777
+#ENDROOM
+
+#ROOM
+Vnum     43780
+Name     &xThe Military Cell - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     One of forty interconnected cells in the military wing.
+~
+#EXIT
+Direction north~
+ToRoom    43781
+Desc      Cell 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43780
+#ENDROOM
+
+#ROOM
+Vnum     43781
+Name     &xThe Military Cell - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43780
+Desc      Cell 1.~
+#ENDEXIT
+
+Reset M 0 43529 10 43781
+#ENDROOM
+
+#ROOM
+Vnum     43782
+Name     &xThe Military Cell - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43783
+Desc      Cell 4.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43782
+#ENDROOM
+
+#ROOM
+Vnum     43783
+Name     &xThe Military Cell - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43782
+Desc      Cell 3.~
+#ENDEXIT
+
+Reset M 0 43529 10 43783
+#ENDROOM
+
+#ROOM
+Vnum     43784
+Name     &xThe Military Cell - 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43785
+Desc      Cell 6.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43784
+#ENDROOM
+
+#ROOM
+Vnum     43785
+Name     &xThe Military Cell - 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43784
+Desc      Cell 5.~
+#ENDEXIT
+
+Reset M 0 43529 10 43785
+#ENDROOM
+
+#ROOM
+Vnum     43786
+Name     &xThe Military Cell - 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43787
+Desc      Cell 8.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43786
+#ENDROOM
+
+#ROOM
+Vnum     43787
+Name     &xThe Military Cell - 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43786
+Desc      Cell 7.~
+#ENDEXIT
+
+Reset M 0 43529 10 43787
+#ENDROOM
+
+#ROOM
+Vnum     43788
+Name     &xThe Military Cell - 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43789
+Desc      Cell 10.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43788
+#ENDROOM
+
+#ROOM
+Vnum     43789
+Name     &xThe Military Cell - 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43788
+Desc      Cell 9.~
+#ENDEXIT
+
+Reset M 0 43529 10 43789
+#ENDROOM
+
+#ROOM
+Vnum     43790
+Name     &xThe Military Cell - 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43791
+Desc      Cell 12.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43790
+#ENDROOM
+
+#ROOM
+Vnum     43791
+Name     &xThe Military Cell - 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43791
+Desc      Cell 11.~
+#ENDEXIT
+
+Reset M 0 43529 10 43791
+#ENDROOM
+
+#ROOM
+Vnum     43792
+Name     &xThe Military Cell - 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43793
+Desc      Cell 14.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43792
+#ENDROOM
+
+#ROOM
+Vnum     43793
+Name     &xThe Military Cell - 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43792
+Desc      Cell 13.~
+#ENDEXIT
+
+Reset M 0 43529 10 43793
+#ENDROOM
+
+#ROOM
+Vnum     43794
+Name     &xThe Military Cell - 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43795
+Desc      Cell 16.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43794
+#ENDROOM
+
+#ROOM
+Vnum     43795
+Name     &xThe Military Cell - 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43794
+Desc      Cell 15.~
+#ENDEXIT
+
+Reset M 0 43529 10 43795
+#ENDROOM
+
+#ROOM
+Vnum     43796
+Name     &xThe Military Cell - 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43797
+Desc      Cell 18.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43796
+#ENDROOM
+
+#ROOM
+Vnum     43797
+Name     &xThe Military Cell - 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43796
+Desc      Cell 17.~
+#ENDEXIT
+
+Reset M 0 43529 10 43797
+#ENDROOM
+
+#ROOM
+Vnum     43798
+Name     &xThe Military Cell - 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43799
+Desc      Cell 20.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43770
+Desc      Military entry.~
+#ENDEXIT
+
+Reset M 0 43529 10 43798
+#ENDROOM
+
+#ROOM
+Vnum     43799
+Name     &xThe Military Cell - 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43798
+Desc      Cell 19.~
+#ENDEXIT
+
+Reset M 0 43529 10 43799
 #ENDROOM
 
 #ROOM
@@ -1975,15 +3490,17 @@ ceiling, and the sound of electric sparks crackles
 through the room.
 ~
 #EXIT
-Direction northeast~
-ToRoom    43701
-Desc      The central hub.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43811
 Desc      The Hall of Patchwerk.~
 #ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    43701
+Desc      The central hub.~
+#ENDEXIT
+
 Reset M 0 43520 10 43810
 #ENDROOM
 
@@ -1998,15 +3515,17 @@ center, his triple arms waving with a mindless
 hunger.
 ~
 #EXIT
-Direction south~
-ToRoom    43810
-Desc      The construct entry.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43812
 Desc      Toward Grobbulus.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      The construct entry.~
+#ENDEXIT
+
 Reset M 0 43502 1 43811
   Reset G 1 43611 1
 #ENDROOM
@@ -2022,15 +3541,17 @@ with toxic plague-fluid. He sprays a cloud of
 lethal gas to defend his laboratory.
 ~
 #EXIT
-Direction south~
-ToRoom    43811
-Desc      Patchwerk's hall.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43813
 Desc      The Bone-Pile Floor.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43811
+Desc      Patchwerk's hall.~
+#ENDEXIT
+
 Reset M 0 43513 1 43812
 #ENDROOM
 
@@ -2045,15 +3566,17 @@ Gluth stalks the pile, his green eyes glowing
 with hunger as he searches for fresh marrow.
 ~
 #EXIT
-Direction south~
-ToRoom    43812
-Desc      Grobbulus's lab.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43814
 Desc      Toward Thaddius.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43812
+Desc      Grobbulus's lab.~
+#ENDEXIT
+
 Reset M 0 43514 1 43813
 #ENDROOM
 
@@ -2068,15 +3591,17 @@ pulse with rhythmic electricity, arching
 bolts of blue energy across the gap.
 ~
 #EXIT
-Direction south~
-ToRoom    43813
-Desc      Gluth's pit.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43815
 Desc      The Peak of Thaddius.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43813
+Desc      Gluth's pit.~
+#ENDEXIT
+
 Reset M 0 43520 5 43814
 #ENDROOM
 
@@ -2096,8 +3621,651 @@ Direction south~
 ToRoom    43814
 Desc      The Tesla entry.~
 #ENDEXIT
+
 Reset M 0 43515 1 43815
   Reset G 1 43613 1
+#ENDROOM
+
+#ROOM
+Vnum     43816
+Name     &xConstruct Overflow A&d~
+Sector   inside~
+Flags    indoors~
+Desc     A dark corner of the flesh-crafting wing 
+where the shadows seem to move.
+~
+#EXIT
+Direction south~
+ToRoom    43811
+Desc      Patchwerk's hall.~
+#ENDEXIT
+
+Reset M 0 43536 5 43816
+#ENDROOM
+
+#ROOM
+Vnum     43817
+Name     &xConstruct Overflow B&d~
+Sector   inside~
+Flags    indoors~
+Desc     A small side chamber used for the storage of 
+fresh flesh and iron hooks.
+~
+#EXIT
+Direction north~
+ToRoom    43811
+Desc      Patchwerk's hall.~
+#ENDEXIT
+
+Reset O 0 43611 10 43817
+#ENDROOM
+
+#ROOM
+Vnum     43818
+Name     &xThe Construct Labyrinth - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing messy corridors near the flesh-crafting vats.
+~
+#EXIT
+Direction north~
+ToRoom    43819
+Desc      Labyrinth 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43811
+Desc      Patchwerk's hall.~
+#ENDEXIT
+
+Reset M 0 43520 10 43818
+#ENDROOM
+
+#ROOM
+Vnum     43819
+Name     &xThe Construct Labyrinth - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the abomination-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43818
+Desc      Labyrinth 1.~
+#ENDEXIT
+
+Reset M 0 43520 10 43819
+#ENDROOM
+
+#ROOM
+Vnum     43820
+Name     &xThe Construct Cell - 1&d~
+Sector   inside~
+Flags    indoors~
+Desc     One of forty interconnected cells in the construct wing.
+~
+#EXIT
+Direction north~
+ToRoom    43821
+Desc      Cell 2.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43820
+#ENDROOM
+
+#ROOM
+Vnum     43821
+Name     &xThe Construct Cell - 2&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43820
+Desc      Cell 1.~
+#ENDEXIT
+
+Reset M 0 43520 10 43821
+#ENDROOM
+
+#ROOM
+Vnum     43822
+Name     &xThe Construct Cell - 3&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43823
+Desc      Cell 4.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43822
+#ENDROOM
+
+#ROOM
+Vnum     43823
+Name     &xThe Construct Cell - 4&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43822
+Desc      Cell 3.~
+#ENDEXIT
+
+Reset M 0 43520 10 43823
+#ENDROOM
+
+#ROOM
+Vnum     43824
+Name     &xThe Construct Cell - 5&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43825
+Desc      Cell 6.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43824
+#ENDROOM
+
+#ROOM
+Vnum     43825
+Name     &xThe Construct Cell - 6&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43824
+Desc      Cell 5.~
+#ENDEXIT
+
+Reset M 0 43520 10 43825
+#ENDROOM
+
+#ROOM
+Vnum     43826
+Name     &xThe Construct Cell - 7&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43827
+Desc      Cell 8.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43826
+#ENDROOM
+
+#ROOM
+Vnum     43827
+Name     &xThe Construct Cell - 8&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43826
+Desc      Cell 7.~
+#ENDEXIT
+
+Reset M 0 43520 10 43827
+#ENDROOM
+
+#ROOM
+Vnum     43828
+Name     &xThe Construct Cell - 9&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43829
+Desc      Cell 10.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43828
+#ENDROOM
+
+#ROOM
+Vnum     43829
+Name     &xThe Construct Cell - 10&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43828
+Desc      Cell 9.~
+#ENDEXIT
+
+Reset M 0 43520 10 43829
+#ENDROOM
+
+#ROOM
+Vnum     43830
+Name     &xThe Construct Cell - 11&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43831
+Desc      Cell 12.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43830
+#ENDROOM
+
+#ROOM
+Vnum     43831
+Name     &xThe Construct Cell - 12&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43830
+Desc      Cell 11.~
+#ENDEXIT
+
+Reset M 0 43520 10 43831
+#ENDROOM
+
+#ROOM
+Vnum     43832
+Name     &xThe Construct Cell - 13&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43833
+Desc      Cell 14.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43832
+#ENDROOM
+
+#ROOM
+Vnum     43833
+Name     &xThe Construct Cell - 14&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43832
+Desc      Cell 13.~
+#ENDEXIT
+
+Reset M 0 43520 10 43833
+#ENDROOM
+
+#ROOM
+Vnum     43834
+Name     &xThe Construct Cell - 15&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43835
+Desc      Cell 16.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43834
+#ENDROOM
+
+#ROOM
+Vnum     43835
+Name     &xThe Construct Cell - 16&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43834
+Desc      Cell 15.~
+#ENDEXIT
+
+Reset M 0 43520 10 43835
+#ENDROOM
+
+#ROOM
+Vnum     43836
+Name     &xThe Construct Cell - 17&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43837
+Desc      Cell 18.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43836
+#ENDROOM
+
+#ROOM
+Vnum     43837
+Name     &xThe Construct Cell - 18&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43836
+Desc      Cell 17.~
+#ENDEXIT
+
+Reset M 0 43520 10 43837
+#ENDROOM
+
+#ROOM
+Vnum     43838
+Name     &xThe Construct Cell - 19&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors near the entrance.
+~
+#EXIT
+Direction north~
+ToRoom    43839
+Desc      Cell 20.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43810
+Desc      Construct entry.~
+#ENDEXIT
+
+Reset M 0 43520 10 43838
+#ENDROOM
+
+#ROOM
+Vnum     43839
+Name     &xThe Construct Cell - 20&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the entry-guard labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43838
+Desc      Cell 19.~
+#ENDEXIT
+
+Reset M 0 43520 10 43839
+#ENDROOM
+
+#ROOM
+Vnum     43840
+Name     &xThe Labyrinth Cell - 21&d~
+Sector   inside~
+Flags    indoors~
+Desc     The first of forty interconnected underbelly cells.
+~
+#EXIT
+Direction north~
+ToRoom    43841
+Desc      Cell 22.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      Hub.~
+#ENDEXIT
+
+Reset M 0 43516 10 43840
+#ENDROOM
+
+#ROOM
+Vnum     43841
+Name     &xThe Labyrinth Cell - 22&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43840
+Desc      Cell 21.~
+#ENDEXIT
+
+Reset M 0 43516 10 43841
+#ENDROOM
+
+#ROOM
+Vnum     43842
+Name     &xThe Labyrinth Cell - 23&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors in the underbelly.
+~
+#EXIT
+Direction north~
+ToRoom    43843
+Desc      Cell 24.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      Hub.~
+#ENDEXIT
+
+Reset M 0 43516 10 43842
+#ENDROOM
+
+#ROOM
+Vnum     43843
+Name     &xThe Labyrinth Cell - 24&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43842
+Desc      Cell 23.~
+#ENDEXIT
+
+Reset M 0 43516 10 43843
+#ENDROOM
+
+#ROOM
+Vnum     43844
+Name     &xThe Labyrinth Cell - 25&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors in the underbelly.
+~
+#EXIT
+Direction north~
+ToRoom    43845
+Desc      Cell 26.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      Hub.~
+#ENDEXIT
+
+Reset M 0 43516 10 43844
+#ENDROOM
+
+#ROOM
+Vnum     43845
+Name     &xThe Labyrinth Cell - 26&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43844
+Desc      Cell 25.~
+#ENDEXIT
+
+Reset M 0 43516 10 43845
+#ENDROOM
+
+#ROOM
+Vnum     43846
+Name     &xThe Labyrinth Cell - 27&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors in the underbelly.
+~
+#EXIT
+Direction north~
+ToRoom    43847
+Desc      Cell 28.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      Hub.~
+#ENDEXIT
+
+Reset M 0 43516 10 43846
+#ENDROOM
+
+#ROOM
+Vnum     43847
+Name     &xThe Labyrinth Cell - 28&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43846
+Desc      Cell 27.~
+#ENDEXIT
+
+Reset M 0 43516 10 43847
+#ENDROOM
+
+#ROOM
+Vnum     43848
+Name     &xThe Labyrinth Cell - 29&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors in the underbelly.
+~
+#EXIT
+Direction north~
+ToRoom    43849
+Desc      Cell 30.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      Hub.~
+#ENDEXIT
+
+Reset M 0 43516 10 43848
+#ENDROOM
+
+#ROOM
+Vnum     43849
+Name     &xThe Labyrinth Cell - 30&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43848
+Desc      Cell 29.~
+#ENDEXIT
+
+Reset M 0 43516 10 43849
 #ENDROOM
 
 #ROOM
@@ -2111,15 +4279,17 @@ here is so cold it hurts to breathe, and the
 walls are coated in a layer of permanent ice.
 ~
 #EXIT
-Direction down~
-ToRoom    43701
-Desc      Return to the hub.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43851
 Desc      The Hall of the Frostwyrm.~
 #ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    43701
+Desc      Return to the hub.~
+#ENDEXIT
+
 #ENDROOM
 
 #ROOM
@@ -2134,15 +4304,17 @@ frozen floor. He is the final barrier before
 the master.
 ~
 #EXIT
-Direction south~
-ToRoom    43850
-Desc      The upper entry.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43852
 Desc      The Sanctum of Kel'Thuzad.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43850
+Desc      The upper entry.~
+#ENDEXIT
+
 Reset M 0 43501 1 43851
   Reset G 1 43626 1
   Reset G 1 43600 1
@@ -2161,1893 +4333,21 @@ dead, and the air hums with the final
 destruction of Lordaeron.
 ~
 #EXIT
-Direction south~
-ToRoom    43851
-Desc      Sapphiron's hall.~
-#ENDEXIT
-#EXIT
 Direction north~
 ToRoom    43900
 Desc      The Exit Path.~
 #ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43851
+Desc      Sapphiron's hall.~
+#ENDEXIT
+
 Reset M 0 43500 1 43852
   Reset G 1 43602 1
   Reset E 1 43603 1 16
 Reset M 0 43532 10 43852
-#ENDROOM
-
-#ROOM
-Vnum     43702
-Name     &xThe North Wing Lookout&d~
-Sector   inside~
-Flags    indoors~
-Desc     A high stone landing offering a view of the 
-Plague Quarter from the hub.
-~
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      The hub.~
-#ENDEXIT
-Reset M 0 43521 5 43702
-#ENDROOM
-
-#ROOM
-Vnum     43703
-Name     &xThe South Wing Lookout&d~
-Sector   inside~
-Flags    indoors~
-Desc     A high stone landing offering a view of the 
-Military Quarter from the hub.
-~
-#EXIT
-Direction north~
-ToRoom    43701
-Desc      The hub.~
-#ENDEXIT
-Reset M 0 43521 5 43703
-#ENDROOM
-
-#ROOM
-Vnum     43716
-Name     &xArachnid Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A quiet corner of the spider wing filled with 
-shattered stones and the scent of old ammonia.
-~
-#EXIT
-Direction south~
-ToRoom    43711
-Desc      Anub'Rekhan's lair.~
-#ENDEXIT
-Reset M 0 43531 5 43716
-#ENDROOM
-
-#ROOM
-Vnum     43717
-Name     &xArachnid Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A side room used by the reavers to 
-store their silk and bones.
-~
-#EXIT
-Direction west~
-ToRoom    43711
-Desc      Anub'Rekhan's lair.~
-#ENDEXIT
-Reset O 0 43636 10 43717
-#ENDROOM
-
-#ROOM
-Vnum     43746
-Name     &xPlague Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A high stone landing near the plague cauldron.
-~
-#EXIT
-Direction south~
-ToRoom    43741
-Desc      Noth's hall.~
-#ENDEXIT
-Reset M 0 43517 5 43746
-#ENDROOM
-
-#ROOM
-Vnum     43747
-Name     &xPlague Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A side workshop where the plague-masters 
-mix their most potent toxins.
-~
-#EXIT
-Direction east~
-ToRoom    43741
-Desc      Noth's hall.~
-#ENDEXIT
-Reset O 0 43610 10 43747
-#ENDROOM
-
-#ROOM
-Vnum     43774
-Name     &xMilitary Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A quiet section of the barracks where 
-the death knights rest.
-~
-#EXIT
-Direction south~
-ToRoom    43771
-Desc      Razuvious's arena.~
-#ENDEXIT
-Reset M 0 43529 5 43774
-#ENDROOM
-
-#ROOM
-Vnum     43775
-Name     &xMilitary Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A side room filled with runeblades 
-and ancient gold coins.
-~
-#EXIT
-Direction north~
-ToRoom    43771
-Desc      Razuvious's arena.~
-#ENDEXIT
-Reset O 0 43601 1 43775
-#ENDROOM
-
-#ROOM
-Vnum     43816
-Name     &xConstruct Overflow A&d~
-Sector   inside~
-Flags    indoors~
-Desc     A dark corner of the flesh-crafting wing 
-where the shadows seem to move.
-~
-#EXIT
-Direction south~
-ToRoom    43811
-Desc      Patchwerk's hall.~
-#ENDEXIT
-Reset M 0 43536 5 43816
-#ENDROOM
-
-#ROOM
-Vnum     43817
-Name     &xConstruct Overflow B&d~
-Sector   inside~
-Flags    indoors~
-Desc     A small side chamber used for the storage of 
-fresh flesh and iron hooks.
-~
-#EXIT
-Direction north~
-ToRoom    43811
-Desc      Patchwerk's hall.~
-#ENDEXIT
-Reset O 0 43611 10 43817
-#ENDROOM
-
-#ROOM
-Vnum     43718
-Name     &xThe Webbed Labyrinth - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     A series of confusing stone corridors in the spider wing.
-~
-#EXIT
-Direction north~
-ToRoom    43719
-Desc      Labyrinth 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43711
-Desc      Anub'Rekhan's lair.~
-#ENDEXIT
-Reset M 0 43531 10 43718
-#ENDROOM
-
-#ROOM
-Vnum     43719
-Name     &xThe Webbed Labyrinth - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the arachnid-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43718
-Desc      Labyrinth 1.~
-#ENDEXIT
-Reset M 0 43531 10 43719
-#ENDROOM
-
-#ROOM
-Vnum     43748
-Name     &xThe Plague Labyrinth - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing tunnels near the plaguebringer's quarters.
-~
-#EXIT
-Direction north~
-ToRoom    43749
-Desc      Labyrinth 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43741
-Desc      Noth's hall.~
-#ENDEXIT
-Reset M 0 43517 10 43748
-#ENDROOM
-
-#ROOM
-Vnum     43749
-Name     &xThe Plague Labyrinth - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the toxic-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43748
-Desc      Labyrinth 1.~
-#ENDEXIT
-Reset M 0 43517 10 43749
-#ENDROOM
-
-#ROOM
-Vnum     43776
-Name     &xThe Military Labyrinth - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the death knight training ground.
-~
-#EXIT
-Direction north~
-ToRoom    43777
-Desc      Labyrinth 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43771
-Desc      Razuvious's arena.~
-#ENDEXIT
-Reset M 0 43529 10 43776
-#ENDROOM
-
-#ROOM
-Vnum     43777
-Name     &xThe Military Labyrinth - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the death-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43776
-Desc      Labyrinth 1.~
-#ENDEXIT
-Reset M 0 43529 10 43777
-#ENDROOM
-
-#ROOM
-Vnum     43818
-Name     &xThe Construct Labyrinth - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing messy corridors near the flesh-crafting vats.
-~
-#EXIT
-Direction north~
-ToRoom    43819
-Desc      Labyrinth 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43811
-Desc      Patchwerk's hall.~
-#ENDEXIT
-Reset M 0 43520 10 43818
-#ENDROOM
-
-#ROOM
-Vnum     43819
-Name     &xThe Construct Labyrinth - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the abomination-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43818
-Desc      Labyrinth 1.~
-#ENDEXIT
-Reset M 0 43520 10 43819
-#ENDROOM
-
-#ROOM
-Vnum     43720
-Name     &xThe Arachnid Cell - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     One of fifty interconnected cells in the spider wing.
-~
-#EXIT
-Direction north~
-ToRoom    43721
-Desc      Cell 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43720
-#ENDROOM
-
-#ROOM
-Vnum     43721
-Name     &xThe Arachnid Cell - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43720
-Desc      Cell 1.~
-#ENDEXIT
-Reset M 0 43531 10 43721
-#ENDROOM
-
-#ROOM
-Vnum     43722
-Name     &xThe Arachnid Cell - 3&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43723
-Desc      Cell 4.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43722
-#ENDROOM
-
-#ROOM
-Vnum     43723
-Name     &xThe Arachnid Cell - 4&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43722
-Desc      Cell 3.~
-#ENDEXIT
-Reset M 0 43531 10 43723
-#ENDROOM
-
-#ROOM
-Vnum     43724
-Name     &xThe Arachnid Cell - 5&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43725
-Desc      Cell 6.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43724
-#ENDROOM
-
-#ROOM
-Vnum     43725
-Name     &xThe Arachnid Cell - 6&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43724
-Desc      Cell 5.~
-#ENDEXIT
-Reset M 0 43531 10 43725
-#ENDROOM
-
-#ROOM
-Vnum     43726
-Name     &xThe Arachnid Cell - 7&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43727
-Desc      Cell 8.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43726
-#ENDROOM
-
-#ROOM
-Vnum     43727
-Name     &xThe Arachnid Cell - 8&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43726
-Desc      Cell 7.~
-#ENDEXIT
-Reset M 0 43531 10 43727
-#ENDROOM
-
-#ROOM
-Vnum     43728
-Name     &xThe Arachnid Cell - 9&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43729
-Desc      Cell 10.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43728
-#ENDROOM
-
-#ROOM
-Vnum     43729
-Name     &xThe Arachnid Cell - 10&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43728
-Desc      Cell 9.~
-#ENDEXIT
-Reset M 0 43531 10 43729
-#ENDROOM
-
-#ROOM
-Vnum     43730
-Name     &xThe Arachnid Cell - 11&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43731
-Desc      Cell 12.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43730
-#ENDROOM
-
-#ROOM
-Vnum     43731
-Name     &xThe Arachnid Cell - 12&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43730
-Desc      Cell 11.~
-#ENDEXIT
-Reset M 0 43531 10 43731
-#ENDROOM
-
-#ROOM
-Vnum     43732
-Name     &xThe Arachnid Cell - 13&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43733
-Desc      Cell 14.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43732
-#ENDROOM
-
-#ROOM
-Vnum     43733
-Name     &xThe Arachnid Cell - 14&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43732
-Desc      Cell 13.~
-#ENDEXIT
-Reset M 0 43531 10 43733
-#ENDROOM
-
-#ROOM
-Vnum     43734
-Name     &xThe Arachnid Cell - 15&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43735
-Desc      Cell 16.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43734
-#ENDROOM
-
-#ROOM
-Vnum     43735
-Name     &xThe Arachnid Cell - 16&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43734
-Desc      Cell 15.~
-#ENDEXIT
-Reset M 0 43531 10 43735
-#ENDROOM
-
-#ROOM
-Vnum     43736
-Name     &xThe Arachnid Cell - 17&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43737
-Desc      Cell 18.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43736
-#ENDROOM
-
-#ROOM
-Vnum     43737
-Name     &xThe Arachnid Cell - 18&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43736
-Desc      Cell 17.~
-#ENDEXIT
-Reset M 0 43531 10 43737
-#ENDROOM
-
-#ROOM
-Vnum     43738
-Name     &xThe Arachnid Cell - 19&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43739
-Desc      Cell 20.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43710
-Desc      Arachnid entry.~
-#ENDEXIT
-Reset M 0 43531 10 43738
-#ENDROOM
-
-#ROOM
-Vnum     43739
-Name     &xThe Arachnid Cell - 20&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43738
-Desc      Cell 19.~
-#ENDEXIT
-Reset M 0 43531 10 43739
-#ENDROOM
-
-#ROOM
-Vnum     43750
-Name     &xThe Plague Cell - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     One of fifty interconnected cells in the plague wing.
-~
-#EXIT
-Direction north~
-ToRoom    43751
-Desc      Cell 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43750
-#ENDROOM
-
-#ROOM
-Vnum     43751
-Name     &xThe Plague Cell - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43750
-Desc      Cell 1.~
-#ENDEXIT
-Reset M 0 43517 10 43751
-#ENDROOM
-
-#ROOM
-Vnum     43752
-Name     &xThe Plague Cell - 3&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43753
-Desc      Cell 4.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43752
-#ENDROOM
-
-#ROOM
-Vnum     43753
-Name     &xThe Plague Cell - 4&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43752
-Desc      Cell 3.~
-#ENDEXIT
-Reset M 0 43517 10 43753
-#ENDROOM
-
-#ROOM
-Vnum     43754
-Name     &xThe Plague Cell - 5&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43755
-Desc      Cell 6.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43754
-#ENDROOM
-
-#ROOM
-Vnum     43755
-Name     &xThe Plague Cell - 6&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43754
-Desc      Cell 5.~
-#ENDEXIT
-Reset M 0 43517 10 43755
-#ENDROOM
-
-#ROOM
-Vnum     43756
-Name     &xThe Plague Cell - 7&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43757
-Desc      Cell 8.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43756
-#ENDROOM
-
-#ROOM
-Vnum     43757
-Name     &xThe Plague Cell - 8&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43756
-Desc      Cell 7.~
-#ENDEXIT
-Reset M 0 43517 10 43757
-#ENDROOM
-
-#ROOM
-Vnum     43758
-Name     &xThe Plague Cell - 9&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43759
-Desc      Cell 10.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43758
-#ENDROOM
-
-#ROOM
-Vnum     43759
-Name     &xThe Plague Cell - 10&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43758
-Desc      Cell 9.~
-#ENDEXIT
-Reset M 0 43517 10 43759
-#ENDROOM
-
-#ROOM
-Vnum     43760
-Name     &xThe Plague Cell - 11&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43761
-Desc      Cell 12.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43760
-#ENDROOM
-
-#ROOM
-Vnum     43761
-Name     &xThe Plague Cell - 12&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43760
-Desc      Cell 11.~
-#ENDEXIT
-Reset M 0 43517 10 43761
-#ENDROOM
-
-#ROOM
-Vnum     43762
-Name     &xThe Plague Cell - 13&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43763
-Desc      Cell 14.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43762
-#ENDROOM
-
-#ROOM
-Vnum     43763
-Name     &xThe Plague Cell - 14&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43762
-Desc      Cell 13.~
-#ENDEXIT
-Reset M 0 43517 10 43763
-#ENDROOM
-
-#ROOM
-Vnum     43764
-Name     &xThe Plague Cell - 15&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43765
-Desc      Cell 16.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43764
-#ENDROOM
-
-#ROOM
-Vnum     43765
-Name     &xThe Plague Cell - 16&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43764
-Desc      Cell 15.~
-#ENDEXIT
-Reset M 0 43517 10 43765
-#ENDROOM
-
-#ROOM
-Vnum     43766
-Name     &xThe Plague Cell - 17&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43767
-Desc      Cell 18.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43766
-#ENDROOM
-
-#ROOM
-Vnum     43767
-Name     &xThe Plague Cell - 18&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43766
-Desc      Cell 17.~
-#ENDEXIT
-Reset M 0 43517 10 43767
-#ENDROOM
-
-#ROOM
-Vnum     43768
-Name     &xThe Plague Cell - 19&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43769
-Desc      Cell 20.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43740
-Desc      Plague entry.~
-#ENDEXIT
-Reset M 0 43517 10 43768
-#ENDROOM
-
-#ROOM
-Vnum     43769
-Name     &xThe Plague Cell - 20&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43768
-Desc      Cell 19.~
-#ENDEXIT
-Reset M 0 43517 10 43769
-#ENDROOM
-
-#ROOM
-Vnum     43780
-Name     &xThe Military Cell - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     One of forty interconnected cells in the military wing.
-~
-#EXIT
-Direction north~
-ToRoom    43781
-Desc      Cell 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43780
-#ENDROOM
-
-#ROOM
-Vnum     43781
-Name     &xThe Military Cell - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43780
-Desc      Cell 1.~
-#ENDEXIT
-Reset M 0 43529 10 43781
-#ENDROOM
-
-#ROOM
-Vnum     43782
-Name     &xThe Military Cell - 3&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43783
-Desc      Cell 4.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43782
-#ENDROOM
-
-#ROOM
-Vnum     43783
-Name     &xThe Military Cell - 4&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43782
-Desc      Cell 3.~
-#ENDEXIT
-Reset M 0 43529 10 43783
-#ENDROOM
-
-#ROOM
-Vnum     43784
-Name     &xThe Military Cell - 5&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43785
-Desc      Cell 6.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43784
-#ENDROOM
-
-#ROOM
-Vnum     43785
-Name     &xThe Military Cell - 6&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43784
-Desc      Cell 5.~
-#ENDEXIT
-Reset M 0 43529 10 43785
-#ENDROOM
-
-#ROOM
-Vnum     43786
-Name     &xThe Military Cell - 7&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43787
-Desc      Cell 8.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43786
-#ENDROOM
-
-#ROOM
-Vnum     43787
-Name     &xThe Military Cell - 8&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43786
-Desc      Cell 7.~
-#ENDEXIT
-Reset M 0 43529 10 43787
-#ENDROOM
-
-#ROOM
-Vnum     43788
-Name     &xThe Military Cell - 9&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43789
-Desc      Cell 10.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43788
-#ENDROOM
-
-#ROOM
-Vnum     43789
-Name     &xThe Military Cell - 10&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43788
-Desc      Cell 9.~
-#ENDEXIT
-Reset M 0 43529 10 43789
-#ENDROOM
-
-#ROOM
-Vnum     43790
-Name     &xThe Military Cell - 11&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43791
-Desc      Cell 12.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43790
-#ENDROOM
-
-#ROOM
-Vnum     43791
-Name     &xThe Military Cell - 12&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43791
-Desc      Cell 11.~
-#ENDEXIT
-Reset M 0 43529 10 43791
-#ENDROOM
-
-#ROOM
-Vnum     43792
-Name     &xThe Military Cell - 13&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43793
-Desc      Cell 14.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43792
-#ENDROOM
-
-#ROOM
-Vnum     43793
-Name     &xThe Military Cell - 14&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43792
-Desc      Cell 13.~
-#ENDEXIT
-Reset M 0 43529 10 43793
-#ENDROOM
-
-#ROOM
-Vnum     43794
-Name     &xThe Military Cell - 15&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43795
-Desc      Cell 16.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43794
-#ENDROOM
-
-#ROOM
-Vnum     43795
-Name     &xThe Military Cell - 16&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43794
-Desc      Cell 15.~
-#ENDEXIT
-Reset M 0 43529 10 43795
-#ENDROOM
-
-#ROOM
-Vnum     43796
-Name     &xThe Military Cell - 17&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43797
-Desc      Cell 18.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43796
-#ENDROOM
-
-#ROOM
-Vnum     43797
-Name     &xThe Military Cell - 18&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43796
-Desc      Cell 17.~
-#ENDEXIT
-Reset M 0 43529 10 43797
-#ENDROOM
-
-#ROOM
-Vnum     43798
-Name     &xThe Military Cell - 19&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43799
-Desc      Cell 20.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43770
-Desc      Military entry.~
-#ENDEXIT
-Reset M 0 43529 10 43798
-#ENDROOM
-
-#ROOM
-Vnum     43799
-Name     &xThe Military Cell - 20&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43798
-Desc      Cell 19.~
-#ENDEXIT
-Reset M 0 43529 10 43799
-#ENDROOM
-
-#ROOM
-Vnum     43820
-Name     &xThe Construct Cell - 1&d~
-Sector   inside~
-Flags    indoors~
-Desc     One of forty interconnected cells in the construct wing.
-~
-#EXIT
-Direction north~
-ToRoom    43821
-Desc      Cell 2.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43820
-#ENDROOM
-
-#ROOM
-Vnum     43821
-Name     &xThe Construct Cell - 2&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43820
-Desc      Cell 1.~
-#ENDEXIT
-Reset M 0 43520 10 43821
-#ENDROOM
-
-#ROOM
-Vnum     43822
-Name     &xThe Construct Cell - 3&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43823
-Desc      Cell 4.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43822
-#ENDROOM
-
-#ROOM
-Vnum     43823
-Name     &xThe Construct Cell - 4&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43822
-Desc      Cell 3.~
-#ENDEXIT
-Reset M 0 43520 10 43823
-#ENDROOM
-
-#ROOM
-Vnum     43824
-Name     &xThe Construct Cell - 5&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43825
-Desc      Cell 6.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43824
-#ENDROOM
-
-#ROOM
-Vnum     43825
-Name     &xThe Construct Cell - 6&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43824
-Desc      Cell 5.~
-#ENDEXIT
-Reset M 0 43520 10 43825
-#ENDROOM
-
-#ROOM
-Vnum     43826
-Name     &xThe Construct Cell - 7&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43827
-Desc      Cell 8.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43826
-#ENDROOM
-
-#ROOM
-Vnum     43827
-Name     &xThe Construct Cell - 8&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43826
-Desc      Cell 7.~
-#ENDEXIT
-Reset M 0 43520 10 43827
-#ENDROOM
-
-#ROOM
-Vnum     43828
-Name     &xThe Construct Cell - 9&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43829
-Desc      Cell 10.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43828
-#ENDROOM
-
-#ROOM
-Vnum     43829
-Name     &xThe Construct Cell - 10&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43828
-Desc      Cell 9.~
-#ENDEXIT
-Reset M 0 43520 10 43829
-#ENDROOM
-
-#ROOM
-Vnum     43830
-Name     &xThe Construct Cell - 11&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43831
-Desc      Cell 12.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43830
-#ENDROOM
-
-#ROOM
-Vnum     43831
-Name     &xThe Construct Cell - 12&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43830
-Desc      Cell 11.~
-#ENDEXIT
-Reset M 0 43520 10 43831
-#ENDROOM
-
-#ROOM
-Vnum     43832
-Name     &xThe Construct Cell - 13&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43833
-Desc      Cell 14.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43832
-#ENDROOM
-
-#ROOM
-Vnum     43833
-Name     &xThe Construct Cell - 14&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43832
-Desc      Cell 13.~
-#ENDEXIT
-Reset M 0 43520 10 43833
-#ENDROOM
-
-#ROOM
-Vnum     43834
-Name     &xThe Construct Cell - 15&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43835
-Desc      Cell 16.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43834
-#ENDROOM
-
-#ROOM
-Vnum     43835
-Name     &xThe Construct Cell - 16&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43834
-Desc      Cell 15.~
-#ENDEXIT
-Reset M 0 43520 10 43835
-#ENDROOM
-
-#ROOM
-Vnum     43836
-Name     &xThe Construct Cell - 17&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43837
-Desc      Cell 18.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43836
-#ENDROOM
-
-#ROOM
-Vnum     43837
-Name     &xThe Construct Cell - 18&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43836
-Desc      Cell 17.~
-#ENDEXIT
-Reset M 0 43520 10 43837
-#ENDROOM
-
-#ROOM
-Vnum     43838
-Name     &xThe Construct Cell - 19&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors near the entrance.
-~
-#EXIT
-Direction north~
-ToRoom    43839
-Desc      Cell 20.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43810
-Desc      Construct entry.~
-#ENDEXIT
-Reset M 0 43520 10 43838
-#ENDROOM
-
-#ROOM
-Vnum     43839
-Name     &xThe Construct Cell - 20&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the entry-guard labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43838
-Desc      Cell 19.~
-#ENDEXIT
-Reset M 0 43520 10 43839
-#ENDROOM
-
-#ROOM
-Vnum     43840
-Name     &xThe Labyrinth Cell - 21&d~
-Sector   inside~
-Flags    indoors~
-Desc     The first of forty interconnected underbelly cells.
-~
-#EXIT
-Direction north~
-ToRoom    43841
-Desc      Cell 22.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      Hub.~
-#ENDEXIT
-Reset M 0 43516 10 43840
-#ENDROOM
-
-#ROOM
-Vnum     43841
-Name     &xThe Labyrinth Cell - 22&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43840
-Desc      Cell 21.~
-#ENDEXIT
-Reset M 0 43516 10 43841
-#ENDROOM
-
-#ROOM
-Vnum     43842
-Name     &xThe Labyrinth Cell - 23&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors in the underbelly.
-~
-#EXIT
-Direction north~
-ToRoom    43843
-Desc      Cell 24.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      Hub.~
-#ENDEXIT
-Reset M 0 43516 10 43842
-#ENDROOM
-
-#ROOM
-Vnum     43843
-Name     &xThe Labyrinth Cell - 24&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43842
-Desc      Cell 23.~
-#ENDEXIT
-Reset M 0 43516 10 43843
-#ENDROOM
-
-#ROOM
-Vnum     43844
-Name     &xThe Labyrinth Cell - 25&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors in the underbelly.
-~
-#EXIT
-Direction north~
-ToRoom    43845
-Desc      Cell 26.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      Hub.~
-#ENDEXIT
-Reset M 0 43516 10 43844
-#ENDROOM
-
-#ROOM
-Vnum     43845
-Name     &xThe Labyrinth Cell - 26&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43844
-Desc      Cell 25.~
-#ENDEXIT
-Reset M 0 43516 10 43845
-#ENDROOM
-
-#ROOM
-Vnum     43846
-Name     &xThe Labyrinth Cell - 27&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors in the underbelly.
-~
-#EXIT
-Direction north~
-ToRoom    43847
-Desc      Cell 28.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      Hub.~
-#ENDEXIT
-Reset M 0 43516 10 43846
-#ENDROOM
-
-#ROOM
-Vnum     43847
-Name     &xThe Labyrinth Cell - 28&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43846
-Desc      Cell 27.~
-#ENDEXIT
-Reset M 0 43516 10 43847
-#ENDROOM
-
-#ROOM
-Vnum     43848
-Name     &xThe Labyrinth Cell - 29&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors in the underbelly.
-~
-#EXIT
-Direction north~
-ToRoom    43849
-Desc      Cell 30.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      Hub.~
-#ENDEXIT
-Reset M 0 43516 10 43848
-#ENDROOM
-
-#ROOM
-Vnum     43849
-Name     &xThe Labyrinth Cell - 30&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43848
-Desc      Cell 29.~
-#ENDEXIT
-Reset M 0 43516 10 43849
 #ENDROOM
 
 #ROOM
@@ -4062,11 +4362,13 @@ Direction north~
 ToRoom    43854
 Desc      Path 2.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43850
 Desc      Upper entry.~
 #ENDEXIT
+
 Reset M 0 43532 10 43853
 #ENDROOM
 
@@ -4082,6 +4384,7 @@ Direction south~
 ToRoom    43853
 Desc      Path 1.~
 #ENDEXIT
+
 Reset M 0 43532 10 43854
 #ENDROOM
 
@@ -4097,11 +4400,13 @@ Direction north~
 ToRoom    43856
 Desc      Path 4.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43850
 Desc      Upper entry.~
 #ENDEXIT
+
 Reset M 0 43532 10 43855
 #ENDROOM
 
@@ -4117,6 +4422,7 @@ Direction south~
 ToRoom    43855
 Desc      Path 3.~
 #ENDEXIT
+
 Reset M 0 43532 10 43856
 #ENDROOM
 
@@ -4132,11 +4438,13 @@ Direction north~
 ToRoom    43858
 Desc      Path 6.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43850
 Desc      Upper entry.~
 #ENDEXIT
+
 Reset M 0 43532 10 43857
 #ENDROOM
 
@@ -4152,6 +4460,7 @@ Direction south~
 ToRoom    43857
 Desc      Path 5.~
 #ENDEXIT
+
 Reset M 0 43532 10 43858
 #ENDROOM
 
@@ -4167,11 +4476,13 @@ Direction north~
 ToRoom    43860
 Desc      Path 8.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43850
 Desc      Upper entry.~
 #ENDEXIT
+
 Reset M 0 43532 10 43859
 #ENDROOM
 
@@ -4187,6 +4498,7 @@ Direction south~
 ToRoom    43859
 Desc      Path 7.~
 #ENDEXIT
+
 Reset M 0 43532 10 43860
 #ENDROOM
 
@@ -4202,11 +4514,13 @@ Direction north~
 ToRoom    43862
 Desc      Path 10.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43850
 Desc      Upper entry.~
 #ENDEXIT
+
 Reset M 0 43532 10 43861
 #ENDROOM
 
@@ -4222,6 +4536,7 @@ Direction south~
 ToRoom    43861
 Desc      Path 9.~
 #ENDEXIT
+
 Reset M 0 43532 10 43862
 #ENDROOM
 
@@ -4237,11 +4552,13 @@ Direction north~
 ToRoom    43864
 Desc      Cell 32.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43863
 #ENDROOM
 
@@ -4257,6 +4574,7 @@ Direction south~
 ToRoom    43863
 Desc      Cell 31.~
 #ENDEXIT
+
 Reset M 0 43516 10 43864
 #ENDROOM
 
@@ -4272,11 +4590,13 @@ Direction north~
 ToRoom    43866
 Desc      Cell 34.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43865
 #ENDROOM
 
@@ -4292,6 +4612,7 @@ Direction south~
 ToRoom    43865
 Desc      Cell 33.~
 #ENDEXIT
+
 Reset M 0 43516 10 43866
 #ENDROOM
 
@@ -4307,11 +4628,13 @@ Direction north~
 ToRoom    43868
 Desc      Cell 36.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43867
 #ENDROOM
 
@@ -4327,6 +4650,7 @@ Direction south~
 ToRoom    43867
 Desc      Cell 35.~
 #ENDEXIT
+
 Reset M 0 43516 10 43868
 #ENDROOM
 
@@ -4342,11 +4666,13 @@ Direction north~
 ToRoom    43870
 Desc      Cell 38.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43869
 #ENDROOM
 
@@ -4362,6 +4688,7 @@ Direction south~
 ToRoom    43869
 Desc      Cell 37.~
 #ENDEXIT
+
 Reset M 0 43516 10 43870
 #ENDROOM
 
@@ -4377,11 +4704,13 @@ Direction north~
 ToRoom    43872
 Desc      Cell 40.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43871
 #ENDROOM
 
@@ -4397,6 +4726,7 @@ Direction south~
 ToRoom    43871
 Desc      Cell 39.~
 #ENDEXIT
+
 Reset M 0 43516 10 43872
 #ENDROOM
 
@@ -4412,11 +4742,13 @@ Direction north~
 ToRoom    43874
 Desc      Cell 42.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43873
 #ENDROOM
 
@@ -4432,6 +4764,7 @@ Direction south~
 ToRoom    43873
 Desc      Cell 41.~
 #ENDEXIT
+
 Reset M 0 43516 10 43874
 #ENDROOM
 
@@ -4447,11 +4780,13 @@ Direction north~
 ToRoom    43876
 Desc      Cell 44.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43875
 #ENDROOM
 
@@ -4467,6 +4802,7 @@ Direction south~
 ToRoom    43875
 Desc      Cell 43.~
 #ENDEXIT
+
 Reset M 0 43516 10 43876
 #ENDROOM
 
@@ -4482,11 +4818,13 @@ Direction north~
 ToRoom    43878
 Desc      Cell 46.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43877
 #ENDROOM
 
@@ -4502,6 +4840,7 @@ Direction south~
 ToRoom    43877
 Desc      Cell 45.~
 #ENDEXIT
+
 Reset M 0 43516 10 43878
 #ENDROOM
 
@@ -4517,11 +4856,13 @@ Direction north~
 ToRoom    43880
 Desc      Cell 48.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43879
 #ENDROOM
 
@@ -4537,6 +4878,7 @@ Direction south~
 ToRoom    43879
 Desc      Cell 47.~
 #ENDEXIT
+
 Reset M 0 43516 10 43880
 #ENDROOM
 
@@ -4552,11 +4894,13 @@ Direction north~
 ToRoom    43882
 Desc      Cell 50.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43881
 #ENDROOM
 
@@ -4572,6 +4916,7 @@ Direction south~
 ToRoom    43881
 Desc      Cell 49.~
 #ENDEXIT
+
 Reset M 0 43516 10 43882
 #ENDROOM
 
@@ -4587,11 +4932,13 @@ Direction north~
 ToRoom    43884
 Desc      Cell 52.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43883
 #ENDROOM
 
@@ -4607,6 +4954,7 @@ Direction south~
 ToRoom    43883
 Desc      Cell 51.~
 #ENDEXIT
+
 Reset M 0 43516 10 43884
 #ENDROOM
 
@@ -4622,11 +4970,13 @@ Direction north~
 ToRoom    43886
 Desc      Cell 54.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43885
 #ENDROOM
 
@@ -4642,6 +4992,7 @@ Direction south~
 ToRoom    43885
 Desc      Cell 53.~
 #ENDEXIT
+
 Reset M 0 43516 10 43886
 #ENDROOM
 
@@ -4657,11 +5008,13 @@ Direction north~
 ToRoom    43888
 Desc      Cell 56.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43887
 #ENDROOM
 
@@ -4677,6 +5030,7 @@ Direction south~
 ToRoom    43887
 Desc      Cell 55.~
 #ENDEXIT
+
 Reset M 0 43516 10 43888
 #ENDROOM
 
@@ -4692,11 +5046,13 @@ Direction north~
 ToRoom    43890
 Desc      Cell 58.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43889
 #ENDROOM
 
@@ -4712,6 +5068,7 @@ Direction south~
 ToRoom    43889
 Desc      Cell 57.~
 #ENDEXIT
+
 Reset M 0 43516 10 43890
 #ENDROOM
 
@@ -4727,11 +5084,13 @@ Direction north~
 ToRoom    43892
 Desc      Cell 60.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43891
 #ENDROOM
 
@@ -4747,6 +5106,7 @@ Direction south~
 ToRoom    43891
 Desc      Cell 59.~
 #ENDEXIT
+
 Reset M 0 43516 10 43892
 #ENDROOM
 
@@ -4762,11 +5122,13 @@ Direction north~
 ToRoom    43894
 Desc      Cell 62.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43893
 #ENDROOM
 
@@ -4782,6 +5144,7 @@ Direction south~
 ToRoom    43893
 Desc      Cell 61.~
 #ENDEXIT
+
 Reset M 0 43516 10 43894
 #ENDROOM
 
@@ -4797,11 +5160,13 @@ Direction north~
 ToRoom    43896
 Desc      Cell 64.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43895
 #ENDROOM
 
@@ -4817,6 +5182,7 @@ Direction south~
 ToRoom    43895
 Desc      Cell 63.~
 #ENDEXIT
+
 Reset M 0 43516 10 43896
 #ENDROOM
 
@@ -4832,11 +5198,13 @@ Direction north~
 ToRoom    43898
 Desc      Cell 66.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43897
 #ENDROOM
 
@@ -4852,6 +5220,7 @@ Direction south~
 ToRoom    43897
 Desc      Cell 65.~
 #ENDEXIT
+
 Reset M 0 43516 10 43898
 #ENDROOM
 
@@ -4867,62 +5236,14 @@ Direction north~
 ToRoom    43901
 Desc      Cell 68.~
 #ENDEXIT
+
 #EXIT
 Direction south~
 ToRoom    43701
 Desc      Hub.~
 #ENDEXIT
+
 Reset M 0 43516 10 43899
-#ENDROOM
-
-#ROOM
-Vnum     43901
-Name     &xThe Labyrinth Cell - 68&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43899
-Desc      Cell 67.~
-#ENDEXIT
-Reset M 0 43516 10 43901
-#ENDROOM
-
-#ROOM
-Vnum     43902
-Name     &xThe Labyrinth Cell - 69&d~
-Sector   inside~
-Flags    indoors~
-Desc     Confusing stone corridors in the underbelly.
-~
-#EXIT
-Direction north~
-ToRoom    43903
-Desc      Cell 70.~
-#ENDEXIT
-#EXIT
-Direction south~
-ToRoom    43701
-Desc      Hub.~
-#ENDEXIT
-Reset M 0 43516 10 43902
-#ENDROOM
-
-#ROOM
-Vnum     43903
-Name     &xThe Labyrinth Cell - 70&d~
-Sector   inside~
-Flags    indoors~
-Desc     The heart of the underbelly labyrinth.
-~
-#EXIT
-Direction south~
-ToRoom    43902
-Desc      Cell 69.~
-#ENDEXIT
-Reset M 0 43516 10 43903
 #ENDROOM
 
 #ROOM
@@ -4940,7 +5261,62 @@ Direction north~
 ToRoom    43701
 Desc      Return to the Hub.~
 #ENDEXIT
+
 Reset O 0 43612 10 43900
+#ENDROOM
+
+#ROOM
+Vnum     43901
+Name     &xThe Labyrinth Cell - 68&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43899
+Desc      Cell 67.~
+#ENDEXIT
+
+Reset M 0 43516 10 43901
+#ENDROOM
+
+#ROOM
+Vnum     43902
+Name     &xThe Labyrinth Cell - 69&d~
+Sector   inside~
+Flags    indoors~
+Desc     Confusing stone corridors in the underbelly.
+~
+#EXIT
+Direction north~
+ToRoom    43903
+Desc      Cell 70.~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    43701
+Desc      Hub.~
+#ENDEXIT
+
+Reset M 0 43516 10 43902
+#ENDROOM
+
+#ROOM
+Vnum     43903
+Name     &xThe Labyrinth Cell - 70&d~
+Sector   inside~
+Flags    indoors~
+Desc     The heart of the underbelly labyrinth.
+~
+#EXIT
+Direction south~
+ToRoom    43902
+Desc      Cell 69.~
+#ENDEXIT
+
+Reset M 0 43516 10 43903
 #ENDROOM
 
 #ENDAREA

@@ -935,6 +935,17 @@ Affect   3 15 0 0 0
 Affect   4 15 0 0 0
 #ENDOBJECT
 
+#OBJECT
+Vnum     38052
+Keywords portal shimmering~
+Type     portal~
+Short    a shimmering portal~
+Long     a shimmering portal leading to Scholomance stands before you.~
+Flags    glow~
+Values   21600 21680 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
 #ROOM
 Vnum     38052
 Name     &xThe Bulwark - West Entrance&d~
@@ -1533,7 +1544,7 @@ ToRoom    38079
 Desc      Return to the bridge.~
 #ENDEXIT
 Reset M 0 38022 5 38080
-Reset O 0 38048 5 38080
+Reset O 0 38052 1 38080
 #ENDROOM
 
 #ROOM

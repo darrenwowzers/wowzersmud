@@ -601,6 +601,7 @@ Attribs    18 12 18 30 25 12 12
 Vnum     36526
 Keywords black iron ore mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a chunk of Dark Iron Ore~
 Long     A heavy, black stone that pulses with a faint internal heat.~
 WFlags   take~
@@ -613,6 +614,7 @@ Rarity   1
 Vnum     36527
 Keywords thorium ore mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a chunk of Thorium Ore~
 Long     A dense, shimmering green stone with a metallic luster.~
 WFlags   take~
@@ -625,6 +627,7 @@ Rarity   2
 Vnum     36528
 Keywords obsidian shard trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a jagged obsidian shard~
 Long     A sharp piece of volcanic glass, taken from a slagspider.~
 WFlags   take~
@@ -637,6 +640,7 @@ Rarity   1
 Vnum     36529
 Keywords firegut club weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Firegut Ogre Club~
 Long     A massive, blackened tree trunk used as a crude weapon.~
 WFlags   take wield~
@@ -650,6 +654,7 @@ Affect   1 10 0 0 0
 Vnum     36530
 Keywords dark iron hammer weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Smithing Hammer~
 Long     A heavy, soot-stained hammer made of pure black iron.~
 WFlags   take wield~
@@ -663,6 +668,7 @@ Affect   1 8 0 0 0
 Vnum     36531
 Keywords burning essence treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Burning Essence~
 Long     A flickering, hot ember contained within a glass vial.~
 WFlags   take hold~
@@ -676,6 +682,7 @@ Affect   3 10 0 0 0
 Vnum     36532
 Keywords heavy iron war-plate armor body~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a piece of Heavy Iron War-Plate~
 Long     A thick chestpiece made of overlapping black iron plates.~
 WFlags   take body~
@@ -690,6 +697,7 @@ Affect   17 -20 0 0 0
 Vnum     36533
 Keywords dark iron scraps trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a pile of dark iron scraps~
 Long     A collection of rusted, twisted bits of black iron.~
 WFlags   take~
@@ -702,6 +710,7 @@ Rarity   0
 Vnum     36534
 Keywords heart elemental treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    the Heart of an Elemental~
 Long     A pulsing, hot stone that feels like a living heart.~
 WFlags   take hold~
@@ -715,6 +724,7 @@ Affect   5 15 0 0 0
 Vnum     36535
 Keywords thorium brotherhood insignia rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    a Thorium Brotherhood Insignia~
 Long     A small, heavy medallion marked with a green sunburst.~
 WFlags   take neck~
@@ -728,6 +738,7 @@ Affect   3 8 0 0 0
 Vnum     36536
 Keywords searing lava-boots feet~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Searing Lava-Boots~
 Long     Boots reinforced with heat-resistant obsidian plates.~
 WFlags   take feet~
@@ -741,6 +752,7 @@ Affect   5 8 0 0 0
 Vnum     36537
 Keywords firegut ogre skull trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a massive ogre skull~
 Long     A large, bleached skull taken from a Firegut ogre.~
 WFlags   take~
@@ -753,6 +765,7 @@ Rarity   1
 Vnum     36538
 Keywords charred dragonscale trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a charred dragonscale~
 Long     A blackened, brittle dragonscale that still reeks of smoke.~
 WFlags   take~
@@ -765,6 +778,7 @@ Rarity   1
 Vnum     36539
 Keywords dark iron key~
 Type     key~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Prison Key~
 Long     A heavy, notched iron key used to unlock the slave cages.~
 WFlags   take~
@@ -777,6 +791,7 @@ Rarity   1
 Vnum     36540
 Keywords thorium plating treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a sheet of Thorium Plating~
 Long     A thin, durable sheet of refined green thorium.~
 WFlags   take~
@@ -789,6 +804,7 @@ Rarity   2
 Vnum     36541
 Keywords smith's heavy apron body~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Smith's Heavy Apron~
 Long     A thick leather apron stained with oil and soot.~
 WFlags   take body~
@@ -802,6 +818,7 @@ Affect   5 6 0 0 0
 Vnum     36542
 Keywords molten rock trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a piece of molten rock~
 Long     A stone that is still glowing with orange heat.~
 WFlags   take~
@@ -814,6 +831,7 @@ Rarity   0
 Vnum     36543
 Keywords shadowforge surveyor lens treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Shadowforge Surveyor's Lens~
 Long     A brass-rimmed lens used to detect structural weaknesses.~
 WFlags   take hold~
@@ -827,6 +845,7 @@ Affect   3 10 0 0 0
 Vnum     36544
 Keywords dark iron rifle weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Rifle~
 Long     A long-barreled rifle made of blackened steel and oak.~
 WFlags   take wield~
@@ -840,6 +859,7 @@ Affect   2 10 0 0 0
 Vnum     36545
 Keywords volcanic ash trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a pouch of volcanic ash~
 Long     A small leather pouch filled with fine, grey ash.~
 WFlags   take~
@@ -852,6 +872,7 @@ Rarity   0
 Vnum     36546
 Keywords glassweb spider silk~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a spool of Glassweb Silk~
 Long     Durable, transparent thread taken from the Gorge spiders.~
 WFlags   take~
@@ -864,6 +885,7 @@ Rarity   1
 Vnum     36547
 Keywords firegut mojo treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a jar of Firegut Mojo~
 Long     A clay jar filled with a bubbling, spicy-smelling liquid.~
 WFlags   take hold~
@@ -877,6 +899,7 @@ Affect   4 8 0 0 0
 Vnum     36548
 Keywords black iron shield armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Black Iron Kite Shield~
 Long     A heavy iron shield etched with the symbol of an anvil.~
 WFlags   take shield~
@@ -890,6 +913,7 @@ Affect   5 10 0 0 0
 Vnum     36549
 Keywords thorium brotherhood tabard~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Thorium Brotherhood Tabard~
 Long     A dark grey tabard featuring a bright green thorium flame.~
 WFlags   take about~
@@ -903,6 +927,7 @@ Affect   3 6 0 0 0
 Vnum     36550
 Keywords obsidian war-hammer weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    an Obsidian War-Hammer~
 Long     A brutal hammer with a head made of solid, jagged obsidian.~
 WFlags   take wield~
@@ -916,6 +941,7 @@ Affect   1 12 0 0 0
 Vnum     36551
 Keywords glowing fire-essence treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Glowing Fire-Essence~
 Long     A crystal pulsing with the concentrated heat of the mountain.~
 WFlags   take hold~
@@ -924,6 +950,43 @@ Stats    2 2500 55 0 0
 Rarity   2
 Affect   13 10 0 0 0
 #ENDOBJECT
+
+#OBJECT
+Vnum     36552
+Keywords portal shimmering~
+Type     portal~
+Continent    Eastern Kingdoms~
+Short    a shimmering portal~
+Long     a shimmering portal leading to Blackrock Depths stands before you.~
+Flags    glow~
+Values   20080 20160 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36553
+Keywords portal shimmering lbrs lower~
+Type     portal~
+Continent    Eastern Kingdoms~
+Short    a shimmering portal~
+Long     a shimmering portal leading to Lower Blackrock Spire stands before you.~
+Flags    glow~
+Values   20560 20635 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     36554
+Keywords portal shimmering ubrs upper~
+Type     portal~
+Continent    Eastern Kingdoms~
+Short    a shimmering portal~
+Long     a shimmering portal leading to Upper Blackrock Spire stands before you.~
+Flags    glow~
+Values   40100 40200 1 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
 
 #ROOM
 Vnum     36550
@@ -1117,6 +1180,7 @@ Direction north~
 ToRoom    36556
 Desc      The mountain hall.~
 #ENDEXIT
+Reset O 0 36552 1 36560
 #ENDROOM
 
 #ROOM
@@ -1134,6 +1198,8 @@ Direction south~
 ToRoom    36556
 Desc      The mountain hall.~
 #ENDEXIT
+Reset O 0 36553 1 36561
+Reset O 0 36554 1 36561
 #ENDROOM
 
 #ROOM

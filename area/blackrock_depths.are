@@ -906,6 +906,7 @@ Attribs    10 12 14 34 26 15 15
 Vnum     20040
 Keywords ironfoe hammer mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Ironfoe Warhammer~
 Long     The legendary mace of the Dark Iron Kings, glowing with unholy heat.~
 WFlags   take wield~
@@ -921,6 +922,7 @@ Affect   12 20 0 0 0
 Vnum     20041
 Keywords hand justice jewelry hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    the Hand of Justice~
 Long     A small iron hand that grants the bearer uncanny martial timing.~
 WFlags   take hold~
@@ -935,6 +937,7 @@ Affect   18 10 0 0 0
 Vnum     20042
 Keywords emperor's seal ring rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    the Emperor's Seal~
 Long     A massive gold ring featuring the fanned anvil of the Dark Irons.~
 WFlags   take finger~
@@ -949,6 +952,7 @@ Affect   4 15 0 0 0
 Vnum     20043
 Keywords robes royal crown body~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    the Robes of the Royal Crown~
 Long     Fine silken robes of the deepest purple, embroidered with gold.~
 WFlags   take body~
@@ -963,6 +967,7 @@ Affect   5 15 0 0 0
 Vnum     20044
 Keywords dark iron reaver breastplate~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Reaver Breastplate~
 Long     Heavy plates of obsidian-stained steel, built for the front lines.~
 WFlags   take body~
@@ -977,6 +982,7 @@ Affect   17 -20 0 0 0
 Vnum     20045
 Keywords hammer grace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    the Hammer of Grace~
 Long     A perfectly balanced smithing hammer that pulses with light.~
 WFlags   take wield~
@@ -990,6 +996,7 @@ Affect   4 15 0 0 0
 Vnum     20046
 Keywords guzzler mug drink~
 Type     drinkcon~
+Continent    Eastern Kingdoms~
 Short    a mug of Thunderbrew Stout~
 Long     A massive stone mug filled with an incredibly strong ale.~
 WFlags   take~
@@ -1002,6 +1009,7 @@ Rarity   1
 Vnum     20047
 Keywords shadowforge key~
 Type     key~
+Continent    Eastern Kingdoms~
 Short    the Shadowforge Key~
 Long     A heavy, notched iron key required to navigate the city gates.~
 WFlags   take~
@@ -1014,6 +1022,7 @@ Rarity   2
 Vnum     20048
 Keywords black-iron bar mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a solid Black Iron Bar~
 Long     A heavy, rectangular bar of refined Dark Iron metal.~
 WFlags   take~
@@ -1026,6 +1035,7 @@ Rarity   1
 Vnum     20049
 Keywords nagmara's whip weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    Nagmara's Silk Whip~
 Long     A whip that feels like water but strikes like ice.~
 WFlags   take wield~
@@ -1039,6 +1049,7 @@ Affect   2 15 0 0 0
 Vnum     20050
 Keywords core fire-essence treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Core of Fire-Essence~
 Long     A swirling, hot crystal taken from a powerful elemental.~
 WFlags   take hold~
@@ -1052,6 +1063,7 @@ Affect   13 12 0 0 0
 Vnum     20051
 Keywords warder stilgiss boots feet~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Stilgiss's Frost-Walkers~
 Long     Boots that leave a thin trail of frost with every step.~
 WFlags   take feet~
@@ -1066,6 +1078,7 @@ Affect   5 10 0 0 0
 Vnum     20052
 Keywords angerforge medal rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    the Medal of Angerforge~
 Long     A heavy bronze medal given for bravery in the Dark Iron army.~
 WFlags   take neck~
@@ -1079,6 +1092,7 @@ Affect   1 10 0 0 0
 Vnum     20053
 Keywords golem lord's ring rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    Argelmach's Signet Ring~
 Long     A silver ring featuring the glowing blue core of a golem.~
 WFlags   take finger~
@@ -1092,6 +1106,7 @@ Affect   3 12 0 0 0
 Vnum     20054
 Keywords soot-stained journal treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a soot-stained journal~
 Long     A diary detailing the daily life of a Dark Iron citizen.~
 WFlags   take~
@@ -1104,6 +1119,7 @@ Rarity   0
 Vnum     20055
 Keywords dark iron ore mineral~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a chunk of Dark Iron Ore~
 Long     A raw, unrefined piece of black rock that pulses with heat.~
 WFlags   take~
@@ -1116,6 +1132,7 @@ Rarity   0
 Vnum     20056
 Keywords obsidian mace weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Obsidian Mace~
 Long     A mace with a head of solid, razor-sharp volcanic glass.~
 WFlags   take wield~
@@ -1129,6 +1146,7 @@ Affect   1 12 0 0 0
 Vnum     20057
 Keywords fireguard's heart treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    the Heart of a Fireguard~
 Long     A small, glowing coal that never turns to ash.~
 WFlags   take hold~
@@ -1142,6 +1160,7 @@ Affect   13 8 0 0 0
 Vnum     20058
 Keywords shadowforge shield armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Shadowforge Kite Shield~
 Long     A heavy iron shield etched with the crest of the city.~
 WFlags   take shield~
@@ -1155,6 +1174,7 @@ Affect   5 15 0 0 0
 Vnum     20059
 Keywords dark iron musket weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Long-musket~
 Long     A rifle made of blackened steel and polished mahogany.~
 WFlags   take wield~
@@ -1168,6 +1188,7 @@ Affect   2 15 0 0 0
 Vnum     20060
 Keywords ghost-mushroom treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a bunch of Ghost Mushrooms~
 Long     Translucent mushrooms that thrive in the lightless city slums.~
 WFlags   take hold~
@@ -1181,6 +1202,7 @@ Affect   3 8 0 0 0
 Vnum     20061
 Keywords basalt boulder trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a heavy basalt boulder~
 Long     A massive stone that fell from the cavern ceiling.~
 WFlags   take~
@@ -1193,6 +1215,7 @@ Rarity   0
 Vnum     20062
 Keywords dark iron buckler armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Buckler~
 Long     A small, sturdy shield used by the city dragoons.~
 WFlags   take shield~
@@ -1206,6 +1229,7 @@ Affect   2 10 0 0 0
 Vnum     20063
 Keywords bloodhound tooth trophy~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a jagged bloodhound tooth~
 Long     A long, curved canine tooth taken from a beast.~
 WFlags   take~
@@ -1218,6 +1242,7 @@ Rarity   0
 Vnum     20064
 Keywords obsidian gauntlets hands~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Obsidian Gauntlets~
 Long     Gauntlets reinforced with sharp plates of volcanic glass.~
 WFlags   take hands~
@@ -1232,6 +1257,7 @@ Affect   13 8 0 0 0
 Vnum     20065
 Keywords shadow-vial treasure hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a vial of Shadow-Residue~
 Long     A small glass vial containing a swirling cloud of purple gas.~
 WFlags   take hold~
@@ -1245,6 +1271,7 @@ Affect   14 15 0 0 0
 Vnum     20066
 Keywords iron golem gear trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a massive iron gear~
 Long     A heavy, grease-covered gear taken from a war golem.~
 WFlags   take~
@@ -1257,6 +1284,7 @@ Rarity   1
 Vnum     20067
 Keywords dark iron ledger treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a production ledger~
 Long     A book detailing the city's iron and thorium outputs.~
 WFlags   take~
@@ -1269,6 +1297,7 @@ Rarity   1
 Vnum     20068
 Keywords blackforge tongs tool~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a pair of Blackforge Tongs~
 Long     Heavy iron tongs used for handling molten metal.~
 WFlags   take wield~
@@ -1281,6 +1310,7 @@ Rarity   0
 Vnum     20069
 Keywords lava-root food~
 Type     food~
+Continent    Eastern Kingdoms~
 Short    a handful of roasted lava-roots~
 Long     A spicy, crunchy root that thrives near the magma rivers.~
 WFlags   take~
@@ -1293,6 +1323,7 @@ Rarity   0
 Vnum     20070
 Keywords shadowforge lantern hold~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a Shadowforge Lantern~
 Long     A heavy iron lantern that burns with a permanent blue flame.~
 WFlags   take hold~
@@ -1305,6 +1336,7 @@ Rarity   1
 Vnum     20071
 Keywords reaver's greaves legs armor~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a pair of Dark Iron Greaves~
 Long     Heavy plate leggings built for enduring the city's heat.~
 WFlags   take legs~
@@ -1318,6 +1350,7 @@ Affect   5 12 0 0 0
 Vnum     20072
 Keywords thaurissan's robe body~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    a replica Thaurissan Robe~
 Long     Fine silken robes mimicking those of the Emperor.~
 WFlags   take body~
@@ -1331,6 +1364,7 @@ Affect   3 10 0 0 0
 Vnum     20073
 Keywords anvilrage ring rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    an Anvilrage Officer's Ring~
 Long     A bronze ring featuring a miniature iron anvil.~
 WFlags   take finger~
@@ -1344,6 +1378,7 @@ Affect   1 6 0 0 0
 Vnum     20074
 Keywords dark iron dagger weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Dark Iron Dirk~
 Long     A short, heavy dagger made of serrated black steel.~
 WFlags   take wield~
@@ -1357,6 +1392,7 @@ Affect   2 8 0 0 0
 Vnum     20075
 Keywords molten obsidian treasure~
 Type     treasure~
+Continent    Eastern Kingdoms~
 Short    a piece of Molten Obsidian~
 Long     A stone that looks like glass but flows like water.~
 WFlags   take hold~
@@ -1370,6 +1406,7 @@ Affect   13 10 0 0 0
 Vnum     20076
 Keywords gorgon's eye rune~
 Type     rune~
+Continent    Eastern Kingdoms~
 Short    a Gorgon's Eye Amulet~
 Long     A stone amulet that protects against the heat of the forge.~
 WFlags   take neck~
@@ -1383,6 +1420,7 @@ Affect   14 15 0 0 0
 Vnum     20077
 Keywords blackforge coal trash~
 Type     trash~
+Continent    Eastern Kingdoms~
 Short    a lump of Blackforge Coal~
 Long     A heavy piece of coal that burns twice as hot as normal fuel.~
 WFlags   take~
@@ -1395,6 +1433,7 @@ Rarity   0
 Vnum     20078
 Keywords medic's sash waist~
 Type     armor~
+Continent    Eastern Kingdoms~
 Short    an Anvilrage Medic's Sash~
 Long     A red and white cloth belt filled with small herb pouches.~
 WFlags   take waist~
@@ -1408,6 +1447,7 @@ Affect   4 8 0 0 0
 Vnum     20079
 Keywords emperor's scepter weapon~
 Type     weapon~
+Continent    Eastern Kingdoms~
 Short    a Ceremonial Palace Scepter~
 Long     A tall staff of gold and dark iron, used in royal parades.~
 WFlags   take wield~
@@ -2214,6 +2254,7 @@ Sector   inside~
 Flags    indoors~
 Desc     A small room for storing powder and ammunition. 
 Dragoons are often seen here resupplying.
+~
 #EXIT
 Direction north~
 ToRoom    20120
