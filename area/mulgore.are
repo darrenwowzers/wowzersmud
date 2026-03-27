@@ -395,7 +395,7 @@ Speaking   common~
 Vnum     25500
 Keywords plainstrider meat raw food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    some Plainstrider Meat~
 Long     A chunk of raw, lean plainstrider meat has been left here.~
 WFlags   take hold~
@@ -407,7 +407,7 @@ Stats    1 5 1 0 0
 Vnum     25501
 Keywords swoop quill sharp feather~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a sharp Swoop Quill~
 Long     A stiff, surprisingly sharp feather from a plains swoop lies here.~
 WFlags   take hold~
@@ -419,7 +419,7 @@ Stats    1 10 1 0 0
 Vnum     25502
 Keywords cougar pelt cloak fur armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Cougar Pelt Cloak~
 Long     A warm, soft cloak fashioned from the pelt of a mountain cougar.~
 WFlags   take neck~
@@ -431,7 +431,7 @@ Stats    3 40 4 0 0
 Vnum     25503
 Keywords venture pickaxe goblin tool weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Venture Co. Pickaxe~
 Long     A sturdy iron pickaxe with the Venture Trading Co. stamp on the handle.~
 WFlags   take wield~
@@ -443,7 +443,7 @@ Stats    5 30 3 0 0
 Vnum     25504
 Keywords venture workboots leather armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    Venture Co. Workboots~
 Long     A pair of thick, heavy leather boots favored by goblin miners.~
 WFlags   take feet~
@@ -455,7 +455,7 @@ Stats    4 50 5 0 0
 Vnum     25505
 Keywords bristleback belt hide armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Bristleback Belt~
 Long     A crude belt made of stiff hide and quillboar bristles.~
 WFlags   take waist~
@@ -467,7 +467,7 @@ Stats    2 30 3 0 0
 Vnum     25506
 Keywords bloodsear staff spiked wood weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Bloodsear's Spiked Staff~
 Long     A heavy wooden staff reinforced with brutal iron spikes rests here.~
 WFlags   take wield~
@@ -479,7 +479,7 @@ Stats    7 80 8 0 0
 Vnum     25507
 Keywords windfury harpy feather blue~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Windfury Feather~
 Long     A beautiful, vibrant blue feather pulsing with faint wind magic.~
 WFlags   take hold~
@@ -491,7 +491,7 @@ Stats    1 20 2 0 0
 Vnum     25508
 Keywords arrachea horn offhand shield~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    the Horn of Arra'chea~
 Long     A massive, incredibly hard kodo horn fashioned into an offhand buckler.~
 WFlags   take shield~
@@ -503,7 +503,7 @@ Stats    6 100 10 0 0
 Vnum     25509
 Keywords palemane club wood bone weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Palemane Club~
 Long     A crude club made from a large bone lashed to a piece of driftwood.~
 WFlags   take wield~
@@ -515,7 +515,7 @@ Stats    4 25 2 0 0
 Vnum     25510
 Keywords tauren water flask skin drink~
 Type     drinkcon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Tauren Waterskin~
 Long     A stitched leather waterskin filled with cool, refreshing well water.~
 WFlags   take hold~
@@ -527,7 +527,7 @@ Stats    2 15 1 0 0
 Vnum     25511
 Keywords kodo hide bracers leather armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    Kodo Hide Bracers~
 Long     A pair of thick, durable wrist guards made of cured kodo hide.~
 WFlags   take wrist~
@@ -539,7 +539,7 @@ Stats    2 40 4 0 0
 Vnum     25512
 Keywords earthcaller totem wooden glowing light~
 Type     light~
-Continent    Kalimdor~
+Continent    1~
 Short    an Earthcaller's Totem~
 Long     A small, carved wooden totem glows with a gentle, soothing amber light.~
 WFlags   take hold~
@@ -551,7 +551,7 @@ Stats    2 30 3 0 0
 Vnum     25513
 Keywords bloodhoof warblade sword iron weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Bloodhoof Warblade~
 Long     A masterfully forged, wide-bladed iron sword bearing the Bloodhoof crest.~
 WFlags   take wield~
@@ -563,7 +563,7 @@ Stats    8 120 12 0 0
 Vnum     25514
 Keywords prairie flower yellow herb food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a Prairie Flower~
 Long     A bright yellow flower, known for its mild healing properties, grows here.~
 WFlags   take hold~

@@ -391,7 +391,7 @@ Speaking   elven~
 Vnum     11800
 Keywords sentinel glaive weapon three-bladed~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a three-bladed Sentinel Glaive~
 Long     A razor-sharp, circular moonglaive rests on the ground.~
 WFlags   take wield~
@@ -403,7 +403,7 @@ Stats    15 800 80 0 0
 Vnum     11801
 Keywords nightsaber saddle leather light~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a light Nightsaber saddle~
 Long     A perfectly crafted, lightweight leather saddle has been left here.~
 WFlags   take body~
@@ -415,7 +415,7 @@ Stats    8 300 30 0 0
 Vnum     11802
 Keywords priestess robes white silver moon~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    white Priestess Robes~
 Long     A flowing set of white and silver silk robes lies here.~
 WFlags   take body~
@@ -427,7 +427,7 @@ Stats    2 400 40 0 0
 Vnum     11803
 Keywords darnassus tabard purple tree~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Darnassus tabard~
 Long     A purple tabard bearing the World Tree crest rests here.~
 WFlags   take body~
@@ -439,7 +439,7 @@ Stats    1 10 1 0 0
 Vnum     11804
 Keywords moonwell water vial potion healing~
 Type     potion~
-Continent    Kalimdor~
+Continent    1~
 Short    a vial of Moonwell Water~
 Long     A glass vial filled with glowing, restorative Moonwell water sits here.~
 WFlags   take hold~
@@ -452,7 +452,7 @@ Spells   'heal' 'NONE' 'NONE'
 Vnum     11805
 Keywords moonberry juice drink purple~
 Type     drinkcon~
-Continent    Kalimdor~
+Continent    1~
 Short    a flask of Moonberry Juice~
 Long     A flask filled with sweet, highly restorative purple juice is here.~
 WFlags   take hold~
@@ -464,7 +464,7 @@ Stats    2 20 2 0 0
 Vnum     11806
 Keywords teldrassil apple food red fruit~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a ripe Teldrassil Apple~
 Long     A massive, perfectly red apple fallen from the World Tree rests here.~
 WFlags   take hold~
@@ -476,7 +476,7 @@ Stats    1 5 1 0 0
 Vnum     11807
 Keywords sentinel bow recurve yew weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Sentinel's Recurve Bow~
 Long     A beautifully carved recurve bow strung with strong sinew lies here.~
 WFlags   take wield~
@@ -488,7 +488,7 @@ Stats    10 500 50 0 0
 Vnum     11808
 Keywords druidic staff claw wooden~
 Type     staff~
-Continent    Kalimdor~
+Continent    1~
 Short    the Staff of the Claw~
 Long     A heavy wooden staff carved to resemble a bear's paw rests here.~
 WFlags   take wield~
@@ -500,7 +500,7 @@ Stats    12 600 60 0 0
 Vnum     11809
 Keywords strongbox ancient bank container~
 Type     container~
-Continent    Kalimdor~
+Continent    1~
 Short    an ancient root strongbox~
 Long     A heavy container made of living roots is secured to the floor.~
 WFlags   none~
@@ -512,7 +512,7 @@ Stats    100 0 0 0 0
 Vnum     11810
 Keywords hippogryph feather glowing treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a glowing Hippogryph feather~
 Long     A long, brightly colored feather crackling with natural magic is here.~
 WFlags   take hold~
@@ -524,7 +524,7 @@ Stats    1 50 5 0 0
 Vnum     11811
 Keywords woven ivy ring green armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a woven Ivy Ring~
 Long     A small ring made of intertwined, living ivy vines rests in the grass.~
 WFlags   take finger~
@@ -536,7 +536,7 @@ Stats    1 200 20 0 0
 Vnum     11812
 Keywords ceremonial moon headdress silver armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Ceremonial Moon Headdress~
 Long     A silver circlet topped with a glowing crescent moon lies here.~
 WFlags   take head~
@@ -548,7 +548,7 @@ Stats    3 400 40 0 0
 Vnum     11813
 Keywords moonblade dagger rogue sharp curved~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a curved Moonblade Dagger~
 Long     A wickedly sharp dagger that curves like a crescent moon is here.~
 WFlags   take wield~
@@ -560,7 +560,7 @@ Stats    5 600 60 0 0
 Vnum     11814
 Keywords ancient bark shield heavy wooden armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    an Ancient Bark Shield~
 Long     A massive, nearly unbreakable shield made of Teldrassil bark rests here.~
 WFlags   take shield~

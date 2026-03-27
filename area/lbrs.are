@@ -682,7 +682,7 @@ Attribs    10 24 14 35 20 10 10
 Vnum     20530
 Keywords plate shaman king body~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Plate of the Shaman King~
 Long     Heavy bronze plate armor featuring a fanned serpent crest.~
 WFlags   take body~
@@ -698,7 +698,7 @@ Affect   17 -25 0 0 0
 Vnum     20531
 Keywords omokk's girth waist~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Omokk's Girth~
 Long     A massive leather belt reinforced with heavy iron plates.~
 WFlags   take waist~
@@ -713,7 +713,7 @@ Affect   5 15 0 0 0
 Vnum     20532
 Keywords voone's vice-grip hands~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Voone's Vice-Grip~
 Long     Gauntlets made of thick troll-hide and reinforced with bone.~
 WFlags   take hands~
@@ -728,7 +728,7 @@ Affect   12 10 0 0 0
 Vnum     20533
 Keywords smolderweb's eye treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Smolderweb's Eye~
 Long     A massive, multi-faceted spider eye that glows with an inner light.~
 WFlags   take hold~
@@ -742,7 +742,7 @@ Affect   14 20 0 0 0
 Vnum     20534
 Keywords rosewine circle ring rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Rosewine Circle~
 Long     A gold ring featuring a small, blood-red gemstone.~
 WFlags   take finger~
@@ -756,7 +756,7 @@ Affect   4 10 0 0 0
 Vnum     20535
 Keywords hand power jewelry hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Hand of Power~
 Long     A small iron hand that grants the bearer increased magical focus.~
 WFlags   take hold~
@@ -771,7 +771,7 @@ Affect   14 25 0 0 0
 Vnum     20536
 Keywords talisman evasion rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Talisman of Evasion~
 Long     A silver pendant that seems to slightly blur the wearer's image.~
 WFlags   take neck~
@@ -785,7 +785,7 @@ Affect   2 15 0 0 0
 Vnum     20537
 Keywords wyrmthalak's battle-axe weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Wyrmthalak's Battle-Axe~
 Long     A massive, two-handed axe with a blade of solid obsidian.~
 WFlags   take wield~
@@ -800,7 +800,7 @@ Affect   13 20 0 0 0
 Vnum     20538
 Keywords bloodaxe medallion rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Bloodaxe Medallion~
 Long     A heavy iron medallion marked with the seal of the Bloodaxe legion.~
 WFlags   take neck~
@@ -814,7 +814,7 @@ Affect   1 8 0 0 0
 Vnum     20539
 Keywords spirestone mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Spirestone Ogre Mace~
 Long     A crude, heavy log with a head made of reinforced iron.~
 WFlags   take wield~
@@ -828,7 +828,7 @@ Affect   1 10 0 0 0
 Vnum     20540
 Keywords smolderthorn mojo treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a jar of Smolderthorn Mojo~
 Long     A ceramic jar filled with a bubbling, dark purple liquid.~
 WFlags   take hold~
@@ -842,7 +842,7 @@ Affect   4 8 0 0 0
 Vnum     20541
 Keywords firebrand leggings legs~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Firebrand Scaled Leggings~
 Long     Leggings reinforced with the scales of a volcanic lizard.~
 WFlags   take legs~
@@ -856,7 +856,7 @@ Affect   5 12 0 0 0
 Vnum     20542
 Keywords scarshield shield armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Scarshield Kite Shield~
 Long     A heavy iron shield etched with the crest of a dragon.~
 WFlags   take shield~
@@ -870,7 +870,7 @@ Affect   5 15 0 0 0
 Vnum     20543
 Keywords blackhand slayer boots feet~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Blackhand Slayers~
 Long     Boots made of thick orc-hide and reinforced with steel studs.~
 WFlags   take feet~
@@ -884,7 +884,7 @@ Affect   2 12 0 0 0
 Vnum     20544
 Keywords truncheon five thunders mace~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Truncheon of Five Thunders~
 Long     A perfectly balanced mace that hums with elemental energy.~
 WFlags   take wield~
@@ -899,7 +899,7 @@ Affect   13 10 0 0 0
 Vnum     20545
 Keywords riphook weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Riphook~
 Long     A jagged polearm with a hook designed for pulling riders down.~
 WFlags   take wield~
@@ -914,7 +914,7 @@ Affect   12 20 0 0 0
 Vnum     20546
 Keywords heart mountain treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Heart of the Mountain~
 Long     A glowing ruby that pulses with the heartbeat of Blackrock.~
 WFlags   take hold~
@@ -928,7 +928,7 @@ Affect   5 25 0 0 0
 Vnum     20547
 Keywords gem command treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Gem of Command~
 Long     A dark emerald that grants the bearer increased authority.~
 WFlags   take hold~
@@ -942,7 +942,7 @@ Affect   3 20 0 0 0
 Vnum     20548
 Keywords seal ascension ring rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Seal of Ascension~
 Long     A ring that hums with the frequency of the high spire.~
 WFlags   take finger~
@@ -957,7 +957,7 @@ Affect   14 20 0 0 0
 Vnum     20549
 Keywords rough bronze key~
 Type     key~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a rough bronze key~
 Long     A simple key required to navigate the Spire's back gates.~
 WFlags   take~
@@ -970,7 +970,7 @@ Rarity   1
 Vnum     20550
 Keywords spider silk loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a spool of Spire Silk~
 Long     Durable thread taken from the Spire's spiders.~
 WFlags   take~
@@ -983,7 +983,7 @@ Rarity   1
 Vnum     20551
 Keywords ogre bone trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a heavy ogre bone~
 Long     A thick, bleached bone taken from a Spirestone ogre.~
 WFlags   take~
@@ -996,7 +996,7 @@ Rarity   0
 Vnum     20552
 Keywords orcish rations food~
 Type     food~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a slab of dried orcish meat~
 Long     Tough, salty meat that provides lasting sustenance.~
 WFlags   take~
@@ -1009,7 +1009,7 @@ Rarity   0
 Vnum     20553
 Keywords troll blood treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Troll Blood~
 Long     A glass vial containing thick, dark red blood.~
 WFlags   take hold~
@@ -1023,7 +1023,7 @@ Affect   5 8 0 0 0
 Vnum     20554
 Keywords spire dust trash~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a handful of spire dust~
 Long     Fine grey dust that seems to coat everything in the Spire.~
 WFlags   take~
@@ -1036,7 +1036,7 @@ Rarity   0
 Vnum     20555
 Keywords blackrock ore mineral~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a chunk of Blackrock Ore~
 Long     A heavy, black stone with a metallic luster.~
 WFlags   take~
@@ -1049,7 +1049,7 @@ Rarity   1
 Vnum     20556
 Keywords dragonbreath chili food~
 Type     food~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bowl of Dragonbreath Chili~
 Long     A steaming bowl of chili that smells incredibly spicy.~
 WFlags   take~
@@ -1062,7 +1062,7 @@ Rarity   0
 Vnum     20557
 Keywords heavy runecloth loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bolt of Heavy Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1075,7 +1075,7 @@ Rarity   1
 Vnum     20558
 Keywords polished obsidian treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a piece of Polished Obsidian~
 Long     A stone that looks like glass but is as hard as iron.~
 WFlags   take~
@@ -1088,7 +1088,7 @@ Rarity   2
 Vnum     20559
 Keywords ash-stained map treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an ash-stained map~
 Long     A document detailing the tactical positions of the Spire army.~
 WFlags   take~

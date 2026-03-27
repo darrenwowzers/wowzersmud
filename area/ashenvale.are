@@ -506,7 +506,7 @@ Speaking   common~
 Vnum     28000
 Keywords warsong saw blade weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a serrated Warsong saw blade~
 Long     A jagged, blood-stained saw blade from a shredder lies here.~
 WFlags   take wield~
@@ -518,7 +518,7 @@ Stats    8 120 2 0 0
 Vnum     28001
 Keywords silvermoon bow elven weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Silvermoon longbow~
 Long     A finely crafted elven bow pulsing with moonlight rests here.~
 WFlags   take wield~
@@ -530,7 +530,7 @@ Stats    4 200 2 0 0
 Vnum     28002
 Keywords moonwell water vial~
 Type     potion~
-Continent    Kalimdor~
+Continent    1~
 Short    a vial of Moonwell water
 Long     A small crystal vial filled with glowing blue water sits here.~
 WFlags   take hold~
@@ -542,7 +542,7 @@ Stats    1 100 1 0 0
 Vnum     28003
 Keywords ashenvale mushroom food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a glowing Ashenvale mushroom~
 Long     A blue-capped mushroom emits a soft, comforting light.~
 WFlags   take hold~
@@ -554,7 +554,7 @@ Stats    1 10 1 0 0
 Vnum     28004
 Keywords sentinel buckler leaf armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a leaf-shaped Sentinel buckler~
 Long     A light but incredibly tough shield made of magically hardened wood.~
 WFlags   take shield~
@@ -566,7 +566,7 @@ Stats    5 150 2 0 0
 Vnum     28005
 Keywords warsong axe jagged weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a jagged Warsong axe~
 Long     A heavy, brutal orcish axe with the Warsong insignia lies here.~
 WFlags   take wield~
@@ -578,7 +578,7 @@ Stats    10 140 2 0 0
 Vnum     28006
 Keywords bear fur cloak green~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a mossy bear fur cloak~
 Long     A thick, green-tinted fur cloak that smells of pine needles.~
 WFlags   take neck~
@@ -590,7 +590,7 @@ Stats    4 80 1 0 0
 Vnum     28007
 Keywords murloc scale vest armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a slimy murloc scale vest~
 Long     A vest made of iridescent murloc scales that offers decent protection.~
 WFlags   take body~
@@ -602,7 +602,7 @@ Stats    6 90 2 0 0
 Vnum     28008
 Keywords naga trident weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a coral-encrusted naga trident~
 Long     A wicked three-pronged spear made of deep-sea coral sits here.~
 WFlags   take wield~
@@ -614,7 +614,7 @@ Stats    7 180 2 0 0
 Vnum     28009
 Keywords ancient heart wood treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    the Heart of an Ancient~
 Long     A large, fossilized piece of wood that still pulses with faint energy.~
 WFlags   take hold~
@@ -626,7 +626,7 @@ Stats    5 500 1 0 0
 Vnum     28010
 Keywords tigerseye ring silver jewel~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short     a silver tigerseye ring~
 Long     A silver ring set with a polished tigerseye stone.~
 WFlags   take finger~
@@ -638,7 +638,7 @@ Stats    1 300 1 0 0
 Vnum     28011
 Keywords goblin oil canister~
 Type     drinkcon~
-Continent    Kalimdor~
+Continent    1~
 Short    a canister of goblin oil~
 Long     A metal canister filled with thick, black, flammable oil.~
 WFlags   take hold~
@@ -650,7 +650,7 @@ Stats    3 40 1 0 0
 Vnum     28012
 Keywords elven silk robe blue~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a starry elven silk robe~
 Long     A flowing blue robe that seems to contain a miniature galaxy.~
 WFlags   take body~
@@ -662,7 +662,7 @@ Stats    2 250 1 0 0
 Vnum     28013
 Keywords furbolg totem wooden~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a carved furbolg totem~
 Long     A wooden totem carved to resemble a roaring bear.~
 WFlags   take hold~
@@ -674,7 +674,7 @@ Stats    2 100 1 0 0
 Vnum     28014
 Keywords wolf tooth necklace~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a necklace of wolf teeth~
 Long     A string of sharp teeth taken from the Ghostpaw pack.~
 WFlags   take neck~
@@ -686,7 +686,7 @@ Stats    1 50 1 0 0
 Vnum     28015
 Keywords ashenvale map parchment~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a detailed map of Ashenvale~
 Long     A roll of parchment showing the major paths and outposts of the forest.~
 WFlags   take hold~
@@ -698,7 +698,7 @@ Stats    1 20 1 0 0
 Vnum     28016
 Keywords jagged shard stone weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a jagged shadowshard~
 Long     A sharp, floating piece of elemental stone that can be used as a dagger.~
 WFlags   take wield~
@@ -710,7 +710,7 @@ Stats    3 80 1 0 0
 Vnum     28017
 Keywords dryad spear light wood weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a polished dryad spear~
 Long     A spear made of white wood, decorated with autumn leaves.~
 WFlags   take wield~
@@ -722,7 +722,7 @@ Stats    5 110 2 0 0
 Vnum     28018
 Keywords thick leather boots~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a pair of thick leather boots~
 Long     Sturdy boots designed for trekking through dense undergrowth.~
 WFlags   take feet~
@@ -734,7 +734,7 @@ Stats    3 60 1 0 0
 Vnum     28019
 Keywords glowing moss bundle~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a bundle of glowing moss~
 Long     A handful of moss that provides a soft green illumination.~
 WFlags   take hold~
@@ -746,7 +746,7 @@ Stats    1 15 1 0 0
 Vnum     28020
 Keywords portal shimmering~
 Type     portal~
-Continent    Kalimdor~
+Continent    1~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Blackfathom Deeps stands before you.~
 Flags    glow~

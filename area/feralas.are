@@ -4,7 +4,7 @@ Version      1
 Name         Feralas~
 Author       Feenom~
 Type         0
-Continent    Kalimdor~
+Continent    1~
 WeatherX     0
 WeatherY     0
 Ranges       40 50 0 60
@@ -632,7 +632,7 @@ Saves      0 0 0 0 0
 Vnum     37026
 Keywords feathermoon tabard~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Feathermoon Tabard~
 Long     A silver and purple tabard featuring the night elven moon.~
 WFlags   take about~
@@ -646,7 +646,7 @@ AffectData   'acidshot' 8 0 0 0
 Vnum     37027
 Keywords camp mojache tabard~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Camp Mojache Tabard~
 Long     A brown and green tabard featuring the tauren totem.~
 WFlags   take about~
@@ -660,7 +660,7 @@ AffectData   'acidshot' 8 0 0 0
 Vnum     37028
 Keywords gordunni bracers wrist~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a pair of Gordunni Bracers~
 Long     Heavy, oversized iron bracers taken from a dead ogre.~
 WFlags   take wrist~
@@ -674,7 +674,7 @@ AffectData   'acetum primus' 6 0 0 0
 Vnum     37029
 Keywords sungrass herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a sprig of Sungrass~
 Long     A vibrant, golden herb that grows in the sun-drenched clearings.~
 WFlags   take hold~
@@ -687,7 +687,7 @@ AffectData   'acidshot' 10 0 0 0
 Vnum     37030
 Keywords purple lotus herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Purple Lotus~
 Long     A beautiful, dark purple flower that grows near the ancient ruins.~
 WFlags   take hold~
@@ -701,7 +701,7 @@ AffectData   'acid breath' 12 0 0 0
 Vnum     37031
 Keywords woodpaw spear weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Woodpaw Spear~
 Long     A jagged, bone-tipped spear used by the eastern gnolls.~
 WFlags   take wield~
@@ -715,7 +715,7 @@ AffectData   'acetum primus' 4 0 0 0
 Vnum     37032
 Keywords gorilla pelt fur~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a thick gorilla pelt~
 Long     A heavy, silver-tipped pelt taken from a Feralas ape.~
 WFlags   take~
@@ -727,7 +727,7 @@ Stats    10 150 1 0 0
 Vnum     37033
 Keywords warpstalker eye treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a shimmering warpstalker eye~
 Long     A translucent eye that seems to shift in color as you look at it.~
 WFlags   take hold~
@@ -741,7 +741,7 @@ AffectData   'backstab' 15 0 0 0
 Vnum     37034
 Keywords feathermoon bow weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Feathermoon Longbow~
 Long     A finely crafted bow of silverwood and moonlight.~
 WFlags   take wield~
@@ -755,7 +755,7 @@ AffectData   'acid blast' 10 0 0 0
 Vnum     37035
 Keywords mojache totem mace weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Mojache Ritual Totem~
 Long     A heavy log carved with the spirits of the jungle.~
 WFlags   take wield~
@@ -769,7 +769,7 @@ AffectData   'acetum primus' 12 0 0 0
 Vnum     37036
 Keywords dreamfoil herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a bunch of Dreamfoil~
 Long     A silvery, thin-leaved herb that smells of the Emerald Dream.~
 WFlags   take hold~
@@ -783,7 +783,7 @@ AffectData   'acid breath' 15 0 0 0
 Vnum     37037
 Keywords golden sansam herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Golden Sansam~
 Long     A thick, golden root prized for its life-giving properties.~
 WFlags   take hold~
@@ -797,7 +797,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     37038
 Keywords zukk'ash mandible trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a sharp Zukk'ash mandible~
 Long     A jagged chitinous claw taken from a silithid worker.~
 WFlags   take~
@@ -810,7 +810,7 @@ Stats    2 50 1 0 0
 Vnum     37039
 Keywords ironfur claw trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a heavy ironfur claw~
 Long     A thick, curved claw taken from an ironfur bear.~
 WFlags   take~
@@ -822,7 +822,7 @@ Stats    1 80 1 0 0
 Vnum     37040
 Keywords grimtotem badge rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Grimtotem Badge~
 Long     A small, iron medallion marking clan status.~
 WFlags   take neck~
@@ -836,7 +836,7 @@ AffectData   'acetum primus' 4 0 0 0
 Vnum     37041
 Keywords cobalt shard treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a glowing cobalt shard~
 Long     A piece of magical cobalt, humming with arcane energy.~
 WFlags   take hold~
@@ -850,7 +850,7 @@ AffectData   'acid breath' 8 0 0 0
 Vnum     37042
 Keywords feralas water treasure hold~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a vial of Feralas Spring Water~
 Long     A crystal vial containing pure, cool spring water.~
 WFlags   take hold~
@@ -862,7 +862,7 @@ Stats    1 50 1 0 0
 Vnum     37043
 Keywords mountain giant stone trash~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a piece of ancient stone~
 Long     A moss-covered stone taken from a mountain giant.~
 WFlags   take~
@@ -875,7 +875,7 @@ Stats    10 1 1 0 0
 Vnum     37044
 Keywords scalding essence treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Scalding Essence~
 Long     A swirling cloud of hot steam contained in a glass jar.~
 WFlags   take hold~
@@ -889,7 +889,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     37045
 Keywords gordunni ring rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Gordunni Signet Ring~
 Long     A massive, crude ring that could fit around a human's wrist.~
 WFlags   take finger~
@@ -903,7 +903,7 @@ AffectData   'acidshot' 12 0 0 0
 Vnum     37046
 Keywords sprite darter wing trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a delicate darter wing~
 Long     A thin, iridescent wing taken from a sprite darter.~
 WFlags   take~
@@ -915,7 +915,7 @@ Stats    1 5 1 0 0
 Vnum     37047
 Keywords ghost-walker fur leggings~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    Ghost-walker Fur Leggings~
 Long     Leggings made from the white fur of the rarest wolves.~
 WFlags   take legs~
@@ -930,7 +930,7 @@ AffectData   'acidshot' 10 0 0 0
 Vnum     37048
 Keywords ruins key~
 Type     key~
-Continent    Kalimdor~
+Continent    1~
 Short    a tarnished ruins key~
 Long     A small, bronze key used to unlock chests in Isildien.~
 WFlags   take~
@@ -943,7 +943,7 @@ Stats    1 0 1 0 0
 Vnum     37049
 Keywords feralas jungle-fruit food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a ripe jungle fruit~
 Long     A sweet-smelling fruit with a bright red rind.~
 WFlags   take~
@@ -955,7 +955,7 @@ Stats    1 15 1 0 0
 Vnum     37050
 Keywords obsidian skull trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a miniature obsidian skull~
 Long     A small skull carved from solid obsidian, found in the hive.~
 WFlags   take~
@@ -968,7 +968,7 @@ Stats    2 100 1 0 0
 Vnum     37051
 Keywords observer's focus staff~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Cho'Rush's Observer Focus~
 Long     A tall staff topped with a large, unblinking arcane eye.~
 WFlags   take wield~
@@ -983,7 +983,7 @@ AffectData   'acidmist' 10 0 0 0
 Vnum     37052
 Keywords portal shimmering~
 Type     portal~
-Continent    Kalimdor~
+Continent    1~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Dire Maul stands before you.~
 Flags    glow~

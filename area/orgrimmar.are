@@ -4,7 +4,7 @@ Version      1
 Name         Orgrimmar~
 Author       Feenom~
 Type         2
-Continent    Kalimdor~
+Continent    1~
 WeatherX     0
 WeatherY     0
 Ranges       1 50 0 60
@@ -951,7 +951,7 @@ Saves      0 0 0 0 0
 Vnum     11200
 Keywords battleaxe axe orcish grunt iron~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a heavy iron battleaxe~
 Long     A heavy, blood-stained iron battleaxe rests in the dust.~
 WFlags   take wield~
@@ -963,7 +963,7 @@ Stats    10 500 50 0 0
 Vnum     11201
 Keywords pauldrons spiked grunt armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    spiked grunt pauldrons~
 Long     A pair of heavy, spiked shoulder plates have been discarded here.~
 WFlags   take~
@@ -975,7 +975,7 @@ Stats    15 1000 100 0 0
 Vnum     11202
 Keywords roasted boar leg meat food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a roasted boar leg~
 Long     A massive, greasy roasted boar leg sits here, smelling delicious.~
 WFlags   take hold~
@@ -987,7 +987,7 @@ Stats    2 10 1 0 0
 Vnum     11203
 Keywords jug boars blood drink~
 Type     drinkcon~
-Continent    Kalimdor~
+Continent    1~
 Short    a jug of Boar's Blood~
 Long     A crude clay jug filled with a thick, red liquid sits here.~
 WFlags   take hold~
@@ -999,7 +999,7 @@ Stats    3 15 2 0 0
 Vnum     11204
 Keywords shield hide kodo heavy~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a heavy kodo hide shield~
 Long     A thick shield made of stretched kodo hide lies in the dirt.~
 WFlags   take shield~
@@ -1011,7 +1011,7 @@ Stats    10 800 80 0 0
 Vnum     11205
 Keywords mace iron spiked heavy~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a spiked iron mace~
 Long     A brutal looking spiked iron mace has been dropped here.~
 WFlags   take wield~
@@ -1023,7 +1023,7 @@ Stats    12 600 60 0 0
 Vnum     11206
 Keywords strongbox iron heavy bank container~
 Type     container~
-Continent    Kalimdor~
+Continent    1~
 Short    a heavy iron strongbox~
 Long     A massive, incredibly heavy iron strongbox sits secured to the floor.~
 Values   500 13 0 0 0 0
@@ -1034,7 +1034,7 @@ Stats    100 0 0 0 0
 Vnum     11207
 Keywords tabard orgrimmar red black horde~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    an Orgrimmar tabard~
 Long     A red and black tabard bearing the symbol of the Horde is here.~
 WFlags   take body~
@@ -1046,7 +1046,7 @@ Stats    1 10 1 0 0
 Vnum     11208
 Keywords pick pickaxe mining peon wooden~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a wooden mining pick~
 Long     A well-worn wooden mining pick lies abandoned on the ground.~
 WFlags   take wield~
@@ -1058,7 +1058,7 @@ Stats    4 50 5 0 0
 Vnum     11209
 Keywords chair rough wooden stool~
 Type     furniture~
-Continent    Kalimdor~
+Continent    1~
 Short    a rough wooden chair~
 Long     A sturdy, roughly hewn wooden chair sits near the wall.~
 WFlags   take~
@@ -1070,7 +1070,7 @@ Stats    20 0 0 0 0
 Vnum     11210
 Keywords skewer meat mystery food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a skewer of mystery meat~
 Long     A greasy skewer loaded with unidentifiable, spicy meat sits here.~
 WFlags   take hold~
@@ -1082,7 +1082,7 @@ Stats    1 5 1 0 0
 Vnum     11211
 Keywords grimoire void dark warlock book~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Grimoire of the Void~
 Long     A heavy, shadow-infused grimoire lies discarded in the dust.~
 WFlags   take hold~
@@ -1094,7 +1094,7 @@ Stats    5 500 50 0 0
 Vnum     11212
 Keywords cured rugged leather piece hide~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a piece of cured rugged leather~
 Long     A perfectly tanned piece of rugged leather has been left here.~
 WFlags   take hold~
@@ -1106,7 +1106,7 @@ Stats    2 100 10 0 0
 Vnum     11213
 Keywords potion green glowing vial elixir~
 Type     potion~
-Continent    Kalimdor~
+Continent    1~
 Short    a glowing green potion~
 Long     A glass vial filled with a bubbling, glowing green liquid sits here.~
 WFlags   take hold~
@@ -1119,7 +1119,7 @@ Spells   'cure poison' 'NONE' 'NONE'
 Vnum     11214
 Keywords cowl shadow dark rogue leather~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a dark shadow cowl~
 Long     A hood of pitch-black leather rests here, absorbing the light.~
 WFlags   take head~
@@ -1131,7 +1131,7 @@ Stats    2 200 20 0 0
 Vnum     11215
 Keywords knife skinning bone sharp~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a jagged bone skinning knife~
 Long     A razor-sharp skinning knife carved from bone has been dropped.~
 WFlags   take wield~
@@ -1143,7 +1143,7 @@ Stats    2 50 5 0 0
 Vnum     11216
 Keywords cables jumper goblin engineering~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    goblin jumper cables~
 Long     A set of frayed wires and copper clamps spark menacingly on the ground.~
 WFlags   take hold~
@@ -1155,7 +1155,7 @@ Stats    3 300 30 0 0
 Vnum     11217
 Keywords bolt silk cloth red~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a bolt of red silk cloth~
 Long     A folded bolt of crimson silk cloth rests here.~
 WFlags   take hold~
@@ -1167,7 +1167,7 @@ Stats    1 80 8 0 0
 Vnum     11218
 Keywords mask voodoo troll wooden~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a wooden voodoo mask~
 Long     A brightly painted, frightening wooden troll mask lies here.~
 WFlags   take head~
@@ -1179,7 +1179,7 @@ Stats    3 150 15 0 0
 Vnum     11219
 Keywords cauldron iron bubbling cooking~
 Type     furniture~
-Continent    Kalimdor~
+Continent    1~
 Short    a massive bubbling cauldron~
 Long     A massive black iron cauldron bubbles furiously over an open flame.~
 Values   0 0 0 0 0 0
@@ -1190,7 +1190,7 @@ Stats    100 0 0 0 0
 Vnum     11220
 Keywords spear jandi jagged troll hunter~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a jagged troll spear~
 Long     A spear with a wickedly curved obsidian head lies here.~
 WFlags   take wield~
@@ -1202,7 +1202,7 @@ Stats    6 400 40 0 0
 Vnum     11221
 Keywords pole fishing sturdy wooden~
 Type     staff~
-Continent    Kalimdor~
+Continent    1~
 Short    a sturdy wooden fishing pole~
 Long     A long, flexible wooden pole rests against a rock.~
 WFlags   take wield~
@@ -1215,7 +1215,7 @@ Spells   'reserved'
 Vnum     11222
 Keywords herb peacebloom fresh flower~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a fresh peacebloom flower~
 Long     A small, fragrant white flower has been dropped here.~
 WFlags   take hold~
@@ -1227,7 +1227,7 @@ Stats    1 5 1 0 0
 Vnum     11223
 Keywords totem earth carved wooden shaman~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a carved earth totem~
 Long     A heavy wooden totem carved with the symbol of earth sits here.~
 WFlags   take hold~
@@ -1239,7 +1239,7 @@ Stats    5 500 50 0 0
 Vnum     11224
 Keywords meat chunk raw kodo food~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a raw chunk of kodo meat~
 Long     A large, bloody slab of raw kodo meat is here.~
 WFlags   take hold~
@@ -1251,7 +1251,7 @@ Stats    5 5 1 0 0
 Vnum     11225
 Keywords buckler iron rusted fighter~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a rusted iron buckler~
 Long     A small, dented iron buckler lies discarded in the dust.~
 WFlags   take shield~
@@ -1263,7 +1263,7 @@ Stats    8 150 15 0 0
 Vnum     11226
 Keywords bow hunting yew wood hunter~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a yew wood hunting bow~
 Long     A simple but well-crafted yew wood bow rests here.~
 WFlags   take wield~
@@ -1275,7 +1275,7 @@ Stats    4 300 30 0 0
 Vnum     11227
 Keywords kodo saddle leather heavy~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a heavy kodo saddle~
 Long     A massive leather saddle designed for a kodo is here.~
 WFlags   take body~
@@ -1287,7 +1287,7 @@ Stats    30 500 50 0 0
 Vnum     11228
 Keywords drum kodo hide war~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a kodo hide war drum~
 Long     A large drum made of kodo hide sits waiting for a beat.~
 WFlags   take hold~
@@ -1299,7 +1299,7 @@ Stats    10 100 10 0 0
 Vnum     11229
 Keywords banner horde red torn~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a torn Horde banner~
 Long     A ragged red banner with the black Horde symbol flutters here.~
 WFlags   take hold~
@@ -1311,7 +1311,7 @@ Stats    2 10 1 0 0
 Vnum     11230
 Keywords doomhammer replica massive hammer~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a massive black iron hammer~
 Long     A massive, soot-blackened iron hammer lies here, heavy with power.~
 WFlags   take wield~
@@ -1323,7 +1323,7 @@ Stats    20 2000 200 0 0
 Vnum     11231
 Keywords robe elder fur ceremonial~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    ceremonial elder robes~
 Long     A set of robes made from thick kodo fur and feathers sits here.~
 WFlags   take body~
@@ -1335,7 +1335,7 @@ Stats    10 800 80 0 0
 Vnum     11232
 Keywords tobacco pouch thunder bluff~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a pouch of Thunder Bluff tobacco~
 Long     A small leather pouch smells of rich, earthy tobacco.~
 WFlags   take hold~
@@ -1347,7 +1347,7 @@ Stats    1 20 2 0 0
 Vnum     11233
 Keywords staff wisdom wooden gnarled~
 Type     staff~
-Continent    Kalimdor~
+Continent    1~
 Short    a gnarled wooden staff~
 Long     A staff of ancient wood, carved with eagle feathers, leans here.~
 WFlags   take wield~
@@ -1360,7 +1360,7 @@ Spells   'aqua breath'
 Vnum     11234
 Keywords potion intellect blue vial~
 Type     potion~
-Continent    Kalimdor~
+Continent    1~
 Short    a sapphire intellect potion~
 Long     A small vial of swirling blue liquid glows on the ground.~
 WFlags   take hold~
@@ -1373,7 +1373,7 @@ Spells   'bless' 'NONE' 'NONE'
 Vnum     11235
 Keywords scroll wisdom ancient parchment~
 Type     scroll~
-Continent    Kalimdor~
+Continent    1~
 Short    an ancient scroll of wisdom~
 Long     A yellowed parchment tied with a leather thong lies here.~
 WFlags   take hold~
@@ -1386,7 +1386,7 @@ Spells   'identify' 'NONE' 'NONE'
 Vnum     11236
 Keywords bomb goblin explosive small~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a small goblin bomb~
 Long     A round metal sphere with a short fuse sits precariously here.~
 WFlags   take hold~
@@ -1398,7 +1398,7 @@ Stats    5 100 10 0 0
 Vnum     11237
 Keywords incense stick sweet smelling~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a stick of sweet incense~
 Long     A thin stick of incense sends a curl of blue smoke into the air.~
 WFlags   take hold~
@@ -1410,7 +1410,7 @@ Stats    1 5 1 0 0
 Vnum     11238
 Keywords chair throne wooden massive~
 Type     furniture~
-Continent    Kalimdor~
+Continent    1~
 Short    the Warchief's Throne~
 Long     A massive throne made of dark iron and kodo bone dominates the room.~
 Values   0 0 0 0 0 0
@@ -1421,7 +1421,7 @@ Stats    500 0 0 0 0
 Vnum     11239
 Keywords banner tauren green white~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a green and white Tauren banner~
 Long     A banner depicting the stylized hawk of the Tauren flutters here.~
 WFlags   take hold~
@@ -1433,7 +1433,7 @@ Stats    2 10 1 0 0
 Vnum     11240
 Keywords portal shimmering~
 Type     portal~
-Continent    Kalimdor~
+Continent    1~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Ragefire Chasm stands before you.~
 Flags    glow~

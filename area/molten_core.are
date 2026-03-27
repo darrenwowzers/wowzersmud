@@ -4,7 +4,7 @@ Version      1
 Name         Molten Core~
 Author       Feenom~
 Type         0
-Continent    Eastern Kingdoms~
+Continent    2~
 WeatherX     0
 WeatherY     0
 Ranges       60 60 0 60
@@ -550,7 +550,7 @@ Saves      0 0 0 0 0
 Vnum     41600
 Keywords sulfuras hand ragnaros mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Sulfuras, Hand of Ragnaros~
 Long     A gargantuan hammer of burning orange metal, the weight of a mountain.~
 WFlags   take wield~
@@ -566,7 +566,7 @@ AffectData   'berserk' 20 0 0 0
 Vnum     41601
 Keywords eye sulfuras legendary treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Eye of Sulfuras~
 Long     A massive, glowing orange crystal that pulses with pure fire.~
 WFlags   take hold~
@@ -579,7 +579,7 @@ Stats    10 250000 60 0 0
 Vnum     41602
 Keywords binding windseeker legendary treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Binding of the Windseeker~
 Long     A heavy iron shackle that hums with the power of the air.~
 WFlags   take hold~
@@ -592,7 +592,7 @@ Stats    5 250000 60 0 0
 Vnum     41603
 Keywords perdition's blade dagger weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Perdition's Blade~
 Long     A glowing red dagger that leaves a trail of ash in the air.~
 WFlags   take wield~
@@ -607,7 +607,7 @@ AffectData   'armor' 30 0 0 0
 Vnum     41604
 Keywords spinal reaper axe weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Spinal Reaper~
 Long     A massive two-handed axe with a blade carved from a giant's bone.~
 WFlags   take wield~
@@ -622,7 +622,7 @@ AffectData   'astral walk' 25 0 0 0
 Vnum     41605
 Keywords bonereaver's edge sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Bonereaver's Edge~
 Long     A jagged greatsword that seems to hunger for the blood of giants.~
 WFlags   take wield~
@@ -637,7 +637,7 @@ AffectData   'astral walk' 30 0 0 0
 Vnum     41606
 Keywords obsidian edged blade dagger~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Obsidian Edged Blade~
 Long     A sleek black sword with a razor-sharp volcanic edge.~
 WFlags   take wield~
@@ -651,7 +651,7 @@ AffectData   'armor' 20 0 0 0
 Vnum     41607
 Keywords giantstalker breastplate body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Giantstalker's Breastplate~
 Long     Heavy mail armor fashioned from the scales of a core hound.~
 WFlags   take body~
@@ -666,7 +666,7 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     41608
 Keywords felheart robes body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Felheart Robes~
 Long     Dark purple robes embroidered with the sigil of a demon.~
 WFlags   take body~
@@ -681,7 +681,7 @@ AffectData   'backstab' 20 0 0 0
 Vnum     41609
 Keywords cenarion vestments body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Cenarion Vestments~
 Long     Robes of living bark and glowing emerald leaves.~
 WFlags   take body~
@@ -696,7 +696,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     41610
 Keywords earthshatter mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Earthshatter~
 Long     A heavy stone mace that hums with the power of the deep earth.~
 WFlags   take wield~
@@ -710,7 +710,7 @@ AffectData   'acetum primus' 15 0 0 0
 Vnum     41611
 Keywords core leather gloves hands~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Core Leather Gloves~
 Long     Gloves made from the fire-resistant hide of a core hound.~
 WFlags   take hands~
@@ -725,7 +725,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     41612
 Keywords essence fire treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Essence of Fire~
 Long     A swirling cloud of orange flame contained in a glass jar.~
 WFlags   take hold~
@@ -738,7 +738,7 @@ Stats    1 1500 55 0 0
 Vnum     41613
 Keywords core of earth treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Core of Earth~
 Long     A heavy, pulsing stone taken from a molten giant.~
 WFlags   take hold~
@@ -751,7 +751,7 @@ Stats    5 1200 55 0 0
 Vnum     41614
 Keywords dark iron bar mineral~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a solid Black Iron Bar~
 Long     A rectangular bar of refined Dark Iron metal.~
 WFlags   take~
@@ -764,7 +764,7 @@ Stats    10 2500 58 0 0
 Vnum     41615
 Keywords blood of the mountain treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Blood of the Mountain~
 Long     A glowing red liquid that is extremely hot to the touch.~
 WFlags   take hold~
@@ -778,7 +778,7 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     41616
 Keywords molten core hound tooth trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a massive core hound tooth~
 Long     A long, jagged canine tooth that still smokes.~
 WFlags   take~
@@ -791,7 +791,7 @@ Stats    2 500 1 0 0
 Vnum     41617
 Keywords fiery plate gauntlets hands~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Fiery Plate Gauntlets~
 Long     Plate gauntlets that glow with an internal heat.~
 WFlags   take hands~
@@ -806,7 +806,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     41618
 Keywords staff dominance weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Staff of Dominance~
 Long     A tall staff topped with a large, swirling red gem.~
 WFlags   take wield~
@@ -821,7 +821,7 @@ AffectData   'backstab' 25 0 0 0
 Vnum     41619
 Keywords drillborer disk shield armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Drillborer Disk~
 Long     A heavy rotating shield reinforced with obsidian spikes.~
 WFlags   take shield~
@@ -836,7 +836,7 @@ AffectData   'acetum primus' 15 0 0 0
 Vnum     41620
 Keywords fire-etched belt waist armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Fire-etched Girdle~
 Long     A heavy iron belt etched with runes of flame.~
 WFlags   take waist~

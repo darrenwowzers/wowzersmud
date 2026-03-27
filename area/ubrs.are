@@ -1106,7 +1106,7 @@ Attribs    18 24 16 4 12 6 6
 Vnum     40050
 Keywords felstriker dagger weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Felstriker~
 Long     A wicked dagger that seems to vibrate with unnatural speed.~
 WFlags   take wield~
@@ -1122,7 +1122,7 @@ Affect   13 25 0 0 0
 Vnum     40051
 Keywords blackblade shahram sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Blackblade of Shahram~
 Long     A massive, two-handed sword etched with glowing shadow-runes.~
 WFlags   take wield~
@@ -1138,7 +1138,7 @@ Affect   14 25 0 0 0
 Vnum     40052
 Keywords draconic avenger polearm weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Draconic Avenger~
 Long     A long polearm with a head made of solid dragon-bone.~
 WFlags   take wield~
@@ -1154,7 +1154,7 @@ Affect   13 15 0 0 0
 Vnum     40053
 Keywords breastplate chromatic flight armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Breastplate of the Chromatic Flight~
 Long     Heavy plate armor featuring the shifting scales of a chromatic dragon.~
 WFlags   take body~
@@ -1170,7 +1170,7 @@ Affect   14 20 0 0 0
 Vnum     40054
 Keywords blackhand medallion jewelry necklace~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Blackhand Medallion~
 Long     A heavy iron medallion marked with the seal of the Dark Horde.~
 WFlags   take neck~
@@ -1185,7 +1185,7 @@ Affect   5 15 0 0 0
 Vnum     40055
 Keywords dal'rend sacred charge sword~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Dal'Rend's Sacred Charge~
 Long     A perfectly balanced elven longsword featuring the crest of the Spire.~
 WFlags   take wield~
@@ -1200,7 +1200,7 @@ Affect   13 15 0 0 0
 Vnum     40056
 Keywords dal'rend tribal guardian sword~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Dal'Rend's Tribal Guardian~
 Long     A short, curved sword with a hilt of braided orc-leather.~
 WFlags   take wield~
@@ -1215,7 +1215,7 @@ Affect   17 -15 0 0 0
 Vnum     40057
 Keywords truncheon five thunders mace~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Truncheon of Five Thunders~
 Long     A mace that hums with elemental energy and pulses with lightning.~
 WFlags   take wield~
@@ -1230,7 +1230,7 @@ Affect   13 10 0 0 0
 Vnum     40058
 Keywords finkle skinner dagger tool~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Finkle's Skinner~
 Long     A small, razor-sharp dagger specifically designed for skinning beasts.~
 WFlags   take wield~
@@ -1244,7 +1244,7 @@ Affect   12 15 0 0 0
 Vnum     40059
 Keywords ace beasts treasure card~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Ace of Beasts~
 Long     A large playing card depicting a core hound of legend.~
 WFlags   take~
@@ -1258,7 +1258,7 @@ Affect   13 25 0 0 0
 Vnum     40060
 Keywords black dragonscale trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Black Dragonscale~
 Long     A thick obsidian scale that is warm to the touch.~
 WFlags   take~
@@ -1271,7 +1271,7 @@ Rarity   1
 Vnum     40061
 Keywords chromatic whelp scale trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Chromatic Whelp Scale~
 Long     A small scale that shifts through all the colors of the rainbow.~
 WFlags   take~
@@ -1284,7 +1284,7 @@ Rarity   2
 Vnum     40062
 Keywords blackhand legionnaire plate armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a piece of Blackhand Legionnaire Plate~
 Long     Heavy plates of obsidian-stained steel, built for the front lines.~
 WFlags   take body~
@@ -1299,7 +1299,7 @@ Affect   17 -20 0 0 0
 Vnum     40063
 Keywords bloodaxe signet ring rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Bloodaxe Signet Ring~
 Long     A gold ring featuring the fanned anvil of the Dark Horde.~
 WFlags   take finger~
@@ -1314,7 +1314,7 @@ Affect   4 12 0 0 0
 Vnum     40064
 Keywords dragon-hide gauntlets hands armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Dragon-hide Gauntlets~
 Long     Gauntlets made of thick dragon-leather and reinforced with bone.~
 WFlags   take hands~
@@ -1329,7 +1329,7 @@ Affect   13 8 0 0 0
 Vnum     40065
 Keywords spire shadow-essence treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Shadow-Essence~
 Long     A small glass vial containing a swirling cloud of purple gas.~
 WFlags   take hold~
@@ -1343,7 +1343,7 @@ Affect   14 15 0 0 0
 Vnum     40066
 Keywords blackrock ore mineral~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a chunk of Blackrock Ore~
 Long     A heavy, unrefined piece of black rock that pulses with heat.~
 WFlags   take~
@@ -1356,7 +1356,7 @@ Rarity   0
 Vnum     40067
 Keywords dragon-breath chili food~
 Type     food~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bowl of Dragon-breath Chili~
 Long     A steaming bowl of chili that smells incredibly spicy.~
 WFlags   take~
@@ -1369,7 +1369,7 @@ Rarity   0
 Vnum     40068
 Keywords black-iron bar mineral~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a solid Black Iron Bar~
 Long     A heavy, rectangular bar of refined Dark Iron metal.~
 WFlags   take~
@@ -1382,7 +1382,7 @@ Rarity   1
 Vnum     40069
 Keywords halycon pelt fur trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a thick white worg pelt~
 Long     A heavy white pelt taken from the wolf-mother Halycon.~
 WFlags   take~
@@ -1395,7 +1395,7 @@ Rarity   2
 Vnum     40070
 Keywords blackhand rifle weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Blackhand Long-musket~
 Long     A rifle made of blackened steel and polished mahogany.~
 WFlags   take wield~
@@ -1409,7 +1409,7 @@ Affect   2 15 0 0 0
 Vnum     40071
 Keywords obsidian mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Dark Horde Obsidian Mace~
 Long     A mace with a head of solid, razor-sharp volcanic glass.~
 WFlags   take wield~
@@ -1423,7 +1423,7 @@ Affect   1 15 0 0 0
 Vnum     40072
 Keywords firebrand leggings legs armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Firebrand Leggings~
 Long     Plate leggings reinforced with magical frost-shards.~
 WFlags   take legs~
@@ -1438,7 +1438,7 @@ Affect   17 -20 0 0 0
 Vnum     40073
 Keywords beaststalker belt waist armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Beaststalker's Belt~
 Long     A sturdy leather belt reinforced with chromatic dragonscales.~
 WFlags   take waist~
@@ -1452,7 +1452,7 @@ Affect   2 15 0 0 0
 Vnum     40074
 Keywords shadowcraft gloves hands armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Shadowcraft Gloves~
 Long     Dark leather gloves that grant increased arcane dexterity.~
 WFlags   take hands~
@@ -1466,7 +1466,7 @@ Affect   13 12 0 0 0
 Vnum     40075
 Keywords lightforge bracers wrist armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Lightforge Bracers~
 Long     Heavy iron wristguards that glow with a soft blue light.~
 WFlags   take wrist~
@@ -1480,7 +1480,7 @@ Affect   4 12 0 0 0
 Vnum     40076
 Keywords magister's robe body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Magister's Robe~
 Long     Fine silken robes of a deep royal purple, embroidered with silver.~
 WFlags   take body~
@@ -1495,7 +1495,7 @@ Affect   14 15 0 0 0
 Vnum     40077
 Keywords devout sandals feet armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Devout Sandals~
 Long     Cloth sandals reinforced with silver thread.~
 WFlags   take feet~
@@ -1509,7 +1509,7 @@ Affect   4 15 0 0 0
 Vnum     40078
 Keywords dreadmist mantle shoulders armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Dreadmist Mantle~
 Long     Shoulder plates of blackened iron, smelling of shadow-smoke.~
 WFlags   take about~
@@ -1524,7 +1524,7 @@ Affect   14 12 0 0 0
 Vnum     40079
 Keywords wildheart kilt legs armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Wildheart Kilt~
 Long     Leggings made of bark and reinforced with forest spirits.~
 WFlags   take legs~
@@ -1539,7 +1539,7 @@ Affect   5 15 0 0 0
 Vnum     40080
 Keywords dragonspire polearm weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Dragonspire~
 Long     A long spear tipped with a sharpened obsidian dragon-claw.~
 WFlags   take wield~
@@ -1554,7 +1554,7 @@ Affect   12 20 0 0 0
 Vnum     40081
 Keywords seal ascension ring rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Seal of Ascension~
 Long     A heavy platinum ring that hums with the power of the high peaks.~
 WFlags   take finger~
@@ -1569,7 +1569,7 @@ Affect   14 25 0 0 0
 Vnum     40082
 Keywords draconic focus hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Shimmering Draconic Focus~
 Long     A crystal sphere containing a miniature magical storm.~
 WFlags   take hold~
@@ -1583,7 +1583,7 @@ Affect   14 20 0 0 0
 Vnum     40083
 Keywords black-powder pouch trash~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pouch of Black-powder~
 Long     A small leather pouch filled with explosive charcoal dust.~
 WFlags   take~
@@ -1596,7 +1596,7 @@ Rarity   0
 Vnum     40084
 Keywords dragon-bone tooth trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a jagged dragon-tooth~
 Long     A long, sharp tooth taken from a black dragonspawn.~
 WFlags   take~
@@ -1609,7 +1609,7 @@ Rarity   1
 Vnum     40085
 Keywords runecloth bolt loot treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1622,7 +1622,7 @@ Rarity   1
 Vnum     40086
 Keywords soul shard hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Dark Soul Shard~
 Long     A small purple crystal that contains a flickering soul.~
 WFlags   take hold~
@@ -1636,7 +1636,7 @@ Affect   14 10 0 0 0
 Vnum     40087
 Keywords blackrock ore mineral~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a chunk of Blackrock Ore~
 Long     A heavy black stone with a metallic luster.~
 WFlags   take~
@@ -1649,7 +1649,7 @@ Rarity   1
 Vnum     40088
 Keywords dense stone trash~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a heavy dense stone~
 Long     A very heavy stone often found in thorium deposits.~
 WFlags   take~
@@ -1662,7 +1662,7 @@ Rarity   0
 Vnum     40089
 Keywords thorium bar mineral treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a solid Thorium Bar~
 Long     A heavy bar of refined, shimmering green thorium.~
 WFlags   take~
@@ -1675,7 +1675,7 @@ Rarity   1
 Vnum     40090
 Keywords truesilver bar mineral treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a solid Truesilver Bar~
 Long     A bar of white-hot, brilliant truesilver metal.~
 WFlags   take~
@@ -1688,7 +1688,7 @@ Rarity   2
 Vnum     40091
 Keywords spire spider silk loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a spool of Spire Silk~
 Long     Durable thread taken from the Spire's spiders.~
 WFlags   take~
@@ -1701,7 +1701,7 @@ Rarity   1
 Vnum     40092
 Keywords worg tooth trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a sharp worg tooth~
 Long     A long, curved canine tooth taken from a worg.~
 WFlags   take~
@@ -1714,7 +1714,7 @@ Rarity   0
 Vnum     40093
 Keywords ogre rib trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a massive ogre rib~
 Long     A thick, bleached bone taken from a Gordok mercenary.~
 WFlags   take~
@@ -1727,7 +1727,7 @@ Rarity   0
 Vnum     40094
 Keywords shadow-fire essence treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Shadow-fire Essence~
 Long     A glass vial containing a swirling cloud of purple and orange smoke.~
 WFlags   take hold~
@@ -1741,7 +1741,7 @@ Affect   13 15 0 0 0
 Vnum     40095
 Keywords chromatic orb treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Chromatic Orb~
 Long     A small sphere that shifts through all colors of the rainbow.~
 WFlags   take hold~
@@ -1755,7 +1755,7 @@ Affect   14 25 0 0 0
 Vnum     40096
 Keywords blackhand shield armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Blackhand Bulwark~
 Long     A massive kite shield etched with the red fist of the legion.~
 WFlags   take shield~
@@ -1770,7 +1770,7 @@ Affect   1 15 0 0 0
 Vnum     40097
 Keywords drakkisath's cape about armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Drakkisath's Royal Cape~
 Long     A long obsidian cape embroidered with silver dragon-motifs.~
 WFlags   take about~
@@ -1785,7 +1785,7 @@ Affect   13 15 0 0 0
 Vnum     40098
 Keywords iron-guard mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Iron-guard Mace~
 Long     A heavy steel mace designed for crushing plate armor.~
 WFlags   take wield~
@@ -1799,7 +1799,7 @@ Affect   1 10 0 0 0
 Vnum     40099
 Keywords assassins's belt waist armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Blackhand Assassin's Belt~
 Long     A fine leather belt with numerous small pockets for poisons.~
 WFlags   take waist~

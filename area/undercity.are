@@ -787,7 +787,7 @@ Speaking   gutterspeak~
 Vnum     11600
 Keywords sword lordaeron rusted~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a rusted Lordaeron longsword~
 Long     A notched and rusted longsword from a fallen kingdom lies here.~
 WFlags   take wield~
@@ -799,7 +799,7 @@ Stats    8 200 20 0 0
 Vnum     11601
 Keywords potion blight green vial~
 Type     potion~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of the New Blight~
 Long     A vial filled with a swirling, neon-green liquid glows faintly.~
 WFlags   take hold~
@@ -812,7 +812,7 @@ Spells   'poison' 'NONE' 'NONE'
 Vnum     11602
 Keywords cockroach jar glass~
 Type     food~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a jar of twitching cockroaches~
 Long     A glass jar filled with live, scuttling cockroaches sits here.~
 WFlags   take hold~
@@ -824,7 +824,7 @@ Stats    1 5 1 0 0
 Vnum     11603
 Keywords shield iron cold skull~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a cold iron skull shield~
 Long     A heavy iron shield embossed with a screaming skull lies here.~
 WFlags   take shield~
@@ -836,7 +836,7 @@ Stats    15 1200 120 0 0
 Vnum     11604
 Keywords robe shadow silk dark~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    dark shadow robes~
 Long     A set of tattered, dark silk robes rests on the stone.~
 WFlags   take body~
@@ -848,7 +848,7 @@ Stats    2 300 30 0 0
 Vnum     11605
 Keywords coin lordaeron gold tarnished~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a tarnished Lordaeron gold coin~
 Long     A single gold coin from the old kingdom lies in the dust.~
 WFlags   take~
@@ -860,7 +860,7 @@ Stats    1 100 0 0 0
 Vnum     11606
 Keywords cleaver meat butcher~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a heavy meat cleaver~
 Long     A massive, blood-stained meat cleaver has been left behind.~
 WFlags   take wield~
@@ -872,7 +872,7 @@ Stats    12 400 40 0 0
 Vnum     11607
 Keywords tabard forsaken purple black~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Forsaken tabard~
 Long     A purple and black tabard with the mask of Sylvanas is here.~
 WFlags   take body~
@@ -884,7 +884,7 @@ Stats    1 10 1 0 0
 Vnum     11608
 Keywords key iron undercity gates~
 Type     key~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an iron Undercity key~
 Long     A heavy iron key with a rusted ring lies on the floor.~
 WFlags   take~
@@ -896,7 +896,7 @@ Stats    1 0 0 0 0
 Vnum     11609
 Keywords coffin wood empty~
 Type     furniture~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an empty wooden coffin~
 Long     An open wooden coffin lined with tattered silk sits in the corner.~
 WFlags   none~
@@ -908,7 +908,7 @@ Stats    100 0 0 0 0
 Vnum     11610
 Keywords orb shadow glowing dark~
 Type     light~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a glowing shadow orb~
 Long     A glass orb swirling with dark, purple shadows sits here.~
 WFlags   take hold~
@@ -920,7 +920,7 @@ Stats    2 50 5 0 0
 Vnum     11611
 Keywords wand frost tipped ice crystal~
 Type     wand~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a frost-tipped wand~
 Long     A polished bone wand tipped with a never-melting ice crystal lies here.~
 WFlags   take hold~
@@ -933,7 +933,7 @@ Spells   'chill touch'
 Vnum     11612
 Keywords grimoire binding dark demonology~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Grimoire of Dark Binding~
 Long     A thick, heavy book bound in questionable leather rests on the floor.~
 WFlags   take hold~
@@ -945,7 +945,7 @@ Stats    5 500 50 0 0
 Vnum     11613
 Keywords robe mageweave purple dark~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    dark mageweave robes~
 Long     A folded set of high-quality dark mageweave robes has been left here.~
 WFlags   take body~
@@ -957,7 +957,7 @@ Stats    2 400 40 0 0
 Vnum     11614
 Keywords dagger assassin jagged poisoned~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a jagged assassin's dagger~
 Long     A wicked dagger with a dark, venomous stain on the blade lies here.~
 WFlags   take wield~
@@ -969,7 +969,7 @@ Stats    4 600 60 0 0
 Vnum     11615
 Keywords broadsword dark iron heavy~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a heavy dark iron broadsword~
 Long     A brutally heavy broadsword forged from dark iron rests in the dirt.~
 WFlags   take wield~
@@ -981,7 +981,7 @@ Stats    15 800 80 0 0
 Vnum     11616
 Keywords spaulders steel black spiked~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    black steel spaulders~
 Long     A pair of spiked black steel shoulder guards have been dropped here.~
 WFlags   take shoulders~
@@ -993,7 +993,7 @@ Stats    10 500 50 0 0
 Vnum     11617
 Keywords vial poison blinding rogue~
 Type     potion~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of blinding poison~
 Long     A small glass vial filled with a powdery, stinging substance sits here.~
 WFlags   take hold~
@@ -1006,7 +1006,7 @@ Spells   'blindness' 'NONE' 'NONE'
 Vnum     11618
 Keywords shield kite deathguard tall~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a tall Deathguard's kite shield~
 Long     A massive, tower-like kite shield bearing the Forsaken crest is here.~
 WFlags   take shield~
@@ -1018,7 +1018,7 @@ Stats    18 1000 100 0 0
 Vnum     11619
 Keywords ring silver runed magic~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a runed silver ring~
 Long     A tarnished silver ring inscribed with arcane runes sparkles faintly.~
 WFlags   take finger~
@@ -1030,7 +1030,7 @@ Stats    1 800 80 0 0
 Vnum     11620
 Keywords black arrow sylvanas dark~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Black Arrow~
 Long     A perfectly straight arrow radiating dark, necrotic energy lies here.~
 WFlags   take wield~
@@ -1042,7 +1042,7 @@ Stats    25 2000 200 0 0
 Vnum     11621
 Keywords dreadlord blade varimathras heavy sword~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a massive Dreadlord's blade~
 Long     An impossibly heavy, jagged demonic sword has been left here.~
 WFlags   take wield~
@@ -1054,7 +1054,7 @@ Stats    20 1500 150 0 0
 Vnum     11622
 Keywords royal banshee silk robes purple~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Royal Banshee Silk robes~
 Long     A set of flowing, deep purple silk robes rests on the stone.~
 WFlags   take body~
@@ -1066,7 +1066,7 @@ Stats    15 1000 100 0 0
 Vnum     11623
 Keywords dark ranger longbow recurve~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Dark Ranger's longbow~
 Long     A masterfully carved black yew longbow sits unstrung here.~
 WFlags   take wield~
@@ -1078,7 +1078,7 @@ Stats    12 800 80 0 0
 Vnum     11624
 Keywords decrepit throne stone dark lady~
 Type     furniture~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Throne of the Dark Lady~
 Long     A tall, imposing throne carved from dark stone dominates the room.~
 WFlags   none~
@@ -1090,7 +1090,7 @@ Stats    500 0 0 0 0
 Vnum     11625
 Keywords vial royal blood potion red~
 Type     potion~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Royal Blood~
 Long     A glass vial filled with incredibly dark, thick blood sits here.~
 WFlags   take hold~
@@ -1103,7 +1103,7 @@ Spells   'heal' 'NONE' 'NONE'
 Vnum     11626
 Keywords iron manacles chains rusted~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    heavy iron manacles~
 Long     A set of heavy, rusted iron manacles are bolted to the wall.~
 WFlags   take hold~
@@ -1115,7 +1115,7 @@ Stats    10 50 5 0 0
 Vnum     11627
 Keywords forsaken battle standard flag~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Forsaken Battle Standard~
 Long     A tall pole bearing the shattered mask emblem of the Forsaken stands here.~
 WFlags   take hold~
@@ -1127,7 +1127,7 @@ Stats    5 200 20 0 0
 Vnum     11628
 Keywords obsidian vault key dark stone~
 Type     key~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an obsidian vault key~
 Long     A heavy key carved entirely out of smooth black obsidian lies here.~
 WFlags   take~
@@ -1139,7 +1139,7 @@ Stats    1 0 0 0 0
 Vnum     11629
 Keywords chilling signet ring cold silver~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a chilling silver signet~
 Long     A silver ring that is unnaturally cold to the touch glints in the dark.~
 WFlags   take finger~
@@ -1151,7 +1151,7 @@ Stats    5 600 60 0 0
 Vnum     11630
 Keywords portal shimmering~
 Type     portal~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a shimmering portal~
 Long     A shimmering portal leading to the Scarlet Monastery stands before you.~
 Flags    glow~

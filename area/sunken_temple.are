@@ -595,7 +595,7 @@ Attribs    10 24 14 30 18 10 10
 Vnum     19526
 Keywords kilt jammal'an legs armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Kilt of Jammal'an~
 Long     Fine silken leggings embroidered with the feathers of a serpent.~
 WFlags   take legs~
@@ -610,7 +610,7 @@ Affect   4 15 0 0 0
 Vnum     19527
 Keywords eranikus's tooth dagger weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Eranikus's Tooth~
 Long     A jagged, translucent green dagger carved from a dragon's tooth.~
 WFlags   take wield~
@@ -625,7 +625,7 @@ Affect   13 10 0 0 0
 Vnum     19528
 Keywords heart hakkar treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Essence of Hakkar~
 Long     A pulsing sphere of deep red energy that smells of blood.~
 WFlags   take hold~
@@ -641,7 +641,7 @@ Affect   13 15 0 0 0
 Vnum     19529
 Keywords dragonspire polearm weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Dragonspire~
 Long     A long spear tipped with a sharpened dragonscale.~
 WFlags   take wield~
@@ -656,7 +656,7 @@ Affect   12 15 0 0 0
 Vnum     19530
 Keywords blade prophecy sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Blade of Prophecy~
 Long     A curved elven blade etched with Atal'ai runes.~
 WFlags   take wield~
@@ -671,7 +671,7 @@ Affect   14 15 0 0 0
 Vnum     19531
 Keywords atal'ai breastplate body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Atal'ai Breastplate~
 Long     Heavy bronze plate armor featuring the fanned crest of a serpent.~
 WFlags   take body~
@@ -686,7 +686,7 @@ Affect   17 -20 0 0 0
 Vnum     19532
 Keywords dragonclaw ring rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Dragonclaw Signet~
 Long     A ring made of solid obsidian, carved in the shape of a claw.~
 WFlags   take finger~
@@ -701,7 +701,7 @@ Affect   13 8 0 0 0
 Vnum     19533
 Keywords staff nightmare weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Staff of the Nightmare~
 Long     A tall staff of blackened wood that hums with green energy.~
 WFlags   take wield~
@@ -716,7 +716,7 @@ Affect   4 15 0 0 0
 Vnum     19534
 Keywords voodoo fetish treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Atal'ai Voodoo Fetish~
 Long     A small, shriveled hand clutching a bone needle.~
 WFlags   take hold~
@@ -730,7 +730,7 @@ Affect   14 12 0 0 0
 Vnum     19535
 Keywords serpent shield armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Serpent Shield~
 Long     A heavy kite shield featuring the golden image of Hakkar.~
 WFlags   take shield~
@@ -745,7 +745,7 @@ Affect   5 15 0 0 0
 Vnum     19536
 Keywords dreamfoil herb~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
@@ -759,7 +759,7 @@ Affect   3 10 0 0 0
 Vnum     19537
 Keywords ghost mushroom treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a glowing Ghost Mushroom~
 Long     A translucent mushroom found only in damp, dark places.~
 WFlags   take hold~
@@ -773,7 +773,7 @@ Affect   3 12 0 0 0
 Vnum     19538
 Keywords atal'ai medallion rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Atal'ai Medallion~
 Long     A heavy iron medallion marked with the Blood God's seal.~
 WFlags   take neck~
@@ -787,7 +787,7 @@ Affect   4 10 0 0 0
 Vnum     19539
 Keywords dragon-hide belt waist~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Dragon-hide Belt~
 Long     A sturdy leather belt reinforced with emerald dragonscales.~
 WFlags   take waist~
@@ -801,7 +801,7 @@ Affect   5 10 0 0 0
 Vnum     19540
 Keywords atal'ai skull trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a mummified troll skull~
 Long     A dark, shriveled skull painted with bright sacrificial dyes.~
 WFlags   take~
@@ -814,7 +814,7 @@ Rarity   1
 Vnum     19541
 Keywords sacrificial dagger weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Atal'ai Sacrificial Dagger~
 Long     A bone-handled dagger with a blade of obsidian.~
 WFlags   take wield~
@@ -828,7 +828,7 @@ Affect   13 5 0 0 0
 Vnum     19542
 Keywords vial dragon blood treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Green Dragon Blood~
 Long     A glass vial containing thick, glowing emerald fluid.~
 WFlags   take hold~
@@ -842,7 +842,7 @@ Affect   13 12 0 0 0
 Vnum     19543
 Keywords ancient stone tablet treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Ancient Atal'ai Tablet~
 Long     A heavy stone tablet detailing the summoning of Hakkar.~
 WFlags   take~
@@ -856,7 +856,7 @@ Affect   4 15 0 0 0
 Vnum     19544
 Keywords mist-shrouded boots feet~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Mist-shrouded Boots~
 Long     Boots that seem to slightly fade in and out of focus.~
 WFlags   take feet~
@@ -870,7 +870,7 @@ Affect   2 15 0 0 0
 Vnum     19545
 Keywords nightmare essence hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a shard of Nightmare Essence~
 Long     A jagged crystal of dark green energy.~
 WFlags   take hold~
@@ -884,7 +884,7 @@ Affect   14 20 0 0 0
 Vnum     19546
 Keywords temple stone trash~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a mossy temple stone~
 Long     A heavy square of masonry fallen from the temple ceiling.~
 WFlags   take~
@@ -897,7 +897,7 @@ Rarity   0
 Vnum     19547
 Keywords atal'ai feathers loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a handful of Atal'ai feathers~
 Long     Bright, colorful feathers used in troll ritual clothing.~
 WFlags   take~
@@ -910,7 +910,7 @@ Rarity   1
 Vnum     19548
 Keywords dragonscale loot~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a thick dragonscale~
 Long     A large, heavy scale taken from a green dragonspawn.~
 WFlags   take~
@@ -923,7 +923,7 @@ Rarity   1
 Vnum     19549
 Keywords bone-trident weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Atal'ai Bone-Trident~
 Long     A long spear tipped with the three-pronged jaw of a beast.~
 WFlags   take wield~
@@ -937,7 +937,7 @@ Affect   1 8 0 0 0
 Vnum     19550
 Keywords snake venom flask~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a flask of Corrosive Venom~
 Long     A glass jar containing bubbling, purple snake venom.~
 WFlags   take hold~
@@ -951,7 +951,7 @@ Affect   13 8 0 0 0
 Vnum     19551
 Keywords soul-stealer sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Soul-stealer Broadsword~
 Long     A massive black blade that pulses with an unholy light.~
 WFlags   take wield~

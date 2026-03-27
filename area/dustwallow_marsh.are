@@ -603,7 +603,7 @@ Attribs    22 8 18 6 6 15 15
 Vnum     37526
 Keywords murloc eye trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a bulging murloc eye~
 Long     A large, glassy eye taken from a Mirefin murloc.~
 WFlags   take~
@@ -616,7 +616,7 @@ Rarity   0
 Vnum     37527
 Keywords stranglekelp herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a bundle of Stranglekelp~
 Long     A vibrant green seaweed found along the marsh coasts.~
 WFlags   take hold~
@@ -630,7 +630,7 @@ Affect   5 5 0 0 0
 Vnum     37528
 Keywords crocolisk skin hide~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a mottled crocolisk hide~
 Long     A thick, scaly skin taken from a marsh crocolisk.~
 WFlags   take~
@@ -643,7 +643,7 @@ Rarity   1
 Vnum     37529
 Keywords theramore tabard about~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Theramore Tabard~
 Long     A blue and white tabard featuring the anchor of Kul Tiras.~
 WFlags   take about~
@@ -657,7 +657,7 @@ Affect   5 6 0 0 0
 Vnum     37530
 Keywords brackenwall tabard about~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Brackenwall Tabard~
 Long     A brown cloth tabard featuring a crude ogre fist.~
 WFlags   take about~
@@ -671,7 +671,7 @@ Affect   1 4 0 0 0
 Vnum     37531
 Keywords black dragonscale trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a Black Dragonscale~
 Long     A thick, obsidian scale that is warm to the touch.~
 WFlags   take~
@@ -684,7 +684,7 @@ Rarity   1
 Vnum     37532
 Keywords muddy shovel tool~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a muddy explorer's shovel~
 Long     A heavy-duty shovel used for excavating swamp ruins.~
 WFlags   take wield~
@@ -697,7 +697,7 @@ Rarity   0
 Vnum     37533
 Keywords stagnant water drink~
 Type     drinkcon~
-Continent    Kalimdor~
+Continent    1~
 Short    a flask of stagnant water~
 Long     A leather flask containing murky, slightly foul water.~
 WFlags   take~
@@ -710,7 +710,7 @@ Rarity   0
 Vnum     37534
 Keywords tortoise shell shield~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Mudrock Shell Shield~
 Long     A massive, heavy shield fashioned from a turtle shell.~
 WFlags   take shield~
@@ -724,7 +724,7 @@ Affect   5 10 0 0 0
 Vnum     37535
 Keywords mirefin trident weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Mirefin Bone-Trident~
 Long     A long trident tipped with sharpened fish vertebrae.~
 WFlags   take wield~
@@ -738,7 +738,7 @@ Affect   2 6 0 0 0
 Vnum     37536
 Keywords kingsblood herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a sprig of Kingsblood~
 Long     A bright green herb with small, purple flowers.~
 WFlags   take hold~
@@ -752,7 +752,7 @@ Affect   1 4 0 0 0
 Vnum     37537
 Keywords dragon-hide boots feet~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a pair of Dragon-hide Boots~
 Long     Durable boots made from the hide of black dragonspawn.~
 WFlags   take feet~
@@ -766,7 +766,7 @@ Affect   5 8 0 0 0
 Vnum     37538
 Keywords proudmoore signet ring~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a replica Proudmoore Signet~
 Long     A silver ring engraved with a high-quality anchor crest.~
 WFlags   take finger~
@@ -780,7 +780,7 @@ Affect   3 10 0 0 0
 Vnum     37539
 Keywords ogre totem mace weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Brackenwall Ritual Totem~
 Long     A heavy log carved with crude faces and swamp-moss.~
 WFlags   take wield~
@@ -794,7 +794,7 @@ Affect   1 10 0 0 0
 Vnum     37540
 Keywords spider silk rope~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a coil of Darkmist Silk~
 Long     A durable rope made of woven spider silk.~
 WFlags   take~
@@ -807,7 +807,7 @@ Rarity   1
 Vnum     37541
 Keywords bog bean treasure~
 Type     food~
-Continent    Kalimdor~
+Continent    1~
 Short    a handful of Bog Beans~
 Long     Small, edible beans found on certain swamp plants.~
 WFlags   take~
@@ -820,7 +820,7 @@ Rarity   0
 Vnum     37542
 Keywords moss-covered bracers wrist~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a pair of mossy bracers~
 Long     Leather bracers completely covered in thick green moss.~
 WFlags   take wrist~
@@ -834,7 +834,7 @@ Affect   5 4 0 0 0
 Vnum     37543
 Keywords rusty cutlass weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a rusty marine cutlass~
 Long     A short, curved sword caked in sea-salt and rust.~
 WFlags   take wield~
@@ -847,7 +847,7 @@ Rarity   0
 Vnum     37544
 Keywords swamp gas flask~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a flask of Marsh Gas~
 Long     A glass jar containing a swirling, yellowish vapor.~
 WFlags   take hold~
@@ -861,7 +861,7 @@ Affect   13 10 0 0 0
 Vnum     37545
 Keywords raptor claw trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a sharp bloodfen claw~
 Long     A long, curved talon taken from a marsh raptor.~
 WFlags   take~
@@ -874,7 +874,7 @@ Rarity   0
 Vnum     37546
 Keywords saltwater pearl treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a large Saltwater Pearl~
 Long     A beautiful, shimmering pearl found in a giant oyster.~
 WFlags   take~
@@ -887,7 +887,7 @@ Rarity   2
 Vnum     37547
 Keywords tabetha's wand weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Tabetha's Spare Wand~
 Long     A simple wooden wand that hums with arcane energy.~
 WFlags   take wield~
@@ -901,7 +901,7 @@ Affect   3 12 0 0 0
 Vnum     37548
 Keywords mok'morokk's grog drink~
 Type     drinkcon~
-Continent    Kalimdor~
+Continent    1~
 Short    a jug of Mok'Morokk's Grog~
 Long     A large ceramic jug containing an incredibly potent liquid.~
 WFlags   take~
@@ -914,7 +914,7 @@ Rarity   1
 Vnum     37549
 Keywords grimtotem necklace rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Grimtotem Bone Necklace~
 Long     A necklace made of bird skulls and polished teeth.~
 WFlags   take neck~
@@ -928,7 +928,7 @@ Affect   1 6 0 0 0
 Vnum     37550
 Keywords obsidian fragment treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    an Obsidian Fragment~
 Long     A sharp shard of black glass, glowing with internal heat.~
 WFlags   take hold~
@@ -942,7 +942,7 @@ Affect   13 8 0 0 0
 Vnum     37551
 Keywords onyxian essence treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a vial of Onyxian Essence~
 Long     A swirling cloud of black and orange energy in a vial.~
 WFlags   take hold~

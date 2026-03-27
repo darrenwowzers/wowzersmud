@@ -4,7 +4,7 @@ Version      1
 Name         Temple of Ahn'Qiraj~
 Author       Feenom~
 Type         5
-Continent    Kalimdor~
+Continent    1~
 WeatherX     0
 WeatherY     0
 Ranges       60 60 0 60
@@ -1040,7 +1040,7 @@ Saves      0 0 0 0 0
 Vnum     43100
 Keywords scepter false prophet weapon staff~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    the Scepter of the False Prophet~
 Long     A tall staff of white stone topped with a single, unblinking red eye.~
 WFlags   take wield~
@@ -1056,7 +1056,7 @@ AffectData   'armor' 20 0 0 0
 Vnum     43101
 Keywords dark edge insanity axe weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    the Dark Edge of Insanity~
 Long     A massive two-handed axe with a blade of shifting obsidian and teeth.~
 WFlags   take wield~
@@ -1072,7 +1072,7 @@ AffectData   'berserk' 15 0 0 0
 Vnum     43102
 Keywords regalia qiraji highlord hold treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    the Qiraji Bindings of Command~
 Long     Ornate obsidian shackles used to focus the power of a Highlord.~
 WFlags   take hold~
@@ -1086,7 +1086,7 @@ AffectData   'astral walk' 25 0 0 0
 Vnum     43103
 Keywords death's sting dagger weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Death's Sting~
 Long     A wicked dagger carved from the stinger of a silithid queen.~
 WFlags   take wield~
@@ -1101,7 +1101,7 @@ AffectData   'armor' 30 0 0 0
 Vnum     43104
 Keywords jaded crystal ring rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Jaded Crystal Signet~
 Long     A ring made of solid red crystal that hums with madness.~
 WFlags   take finger~
@@ -1116,7 +1116,7 @@ AffectData   'backstab' 20 0 0 0
 Vnum     43105
 Keywords mantle steller shoulders armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    the Mantle of Steller Fury~
 Long     Heavy plate shoulderguards reinforced with jackal-head motifs.~
 WFlags   take about~
@@ -1131,7 +1131,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     43106
 Keywords obsidian stone coin treasure currency~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    an Obsidian Qiraji Coin~
 Long     An ancient coin featuring the visage of the Old God.~
 WFlags   take~
@@ -1144,7 +1144,7 @@ Stats    1 1500 1 0 0
 Vnum     43107
 Keywords red qiraji bijou treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Red Qiraji Bijou~
 Long     A faceted red gemstone that pulses with blood magic.~
 WFlags   take~
@@ -1157,7 +1157,7 @@ Stats    1 3500 60 0 0
 Vnum     43108
 Keywords desert skitterer pelt fur trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a thick skitterer pelt~
 Long     A magnificent pale-white pelt taken from a desert spider.~
 WFlags   take~
@@ -1170,7 +1170,7 @@ Stats    10 2500 1 0 0
 Vnum     43109
 Keywords fang huhuran dagger weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Huhuran's Stinger~
 Long     A long jagged dagger dripping with a permanent green venom.~
 WFlags   take wield~
@@ -1185,7 +1185,7 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     43110
 Keywords sartura's might mace weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Sartura's Might~
 Long     A heavy stone mace that vibrates with the speed of a storm.~
 WFlags   take wield~
@@ -1200,7 +1200,7 @@ AffectData   'berserk' 10 0 0 0
 Vnum     43111
 Keywords kalimdor's revenge sword weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    Kalimdor's Revenge~
 Long     A massive greatsword with a blade of pure white stone.~
 WFlags   take wield~
@@ -1215,7 +1215,7 @@ AffectData   'armor' 25 0 0 0
 Vnum     43112
 Keywords belt endless agonie waist armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    the Belt of Endless Agonie~
 Long     A leather belt reinforced with the teeth of silithid.~
 WFlags   take waist~
@@ -1230,7 +1230,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     43113
 Keywords gloves annihilation hands armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    the Gloves of Annihilation~
 Long     Plate gauntlets that seem to absorb all incoming light.~
 WFlags   take hands~
@@ -1245,7 +1245,7 @@ AffectData   'berserk' 12 0 0 0
 Vnum     43114
 Keywords cloak clarity about armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    the Cloak of Clarity~
 Long     A fine silken cloak that grants the wearer mental focus.~
 WFlags   take about~
@@ -1260,7 +1260,7 @@ AffectData   'backstab' 15 0 0 0
 Vnum     43115
 Keywords qiraji shield armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    the Qiraji Bulwark~
 Long     A massive shield reinforced with elementium and obsidian.~
 WFlags   take shield~
@@ -1275,7 +1275,7 @@ AffectData   'acetum primus' 15 0 0 0
 Vnum     43116
 Keywords crystal power hold treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Shimmering Power Crystal~
 Long     A large red crystal that pulses with the heartbeat of an Old God.~
 WFlags   take hold~
@@ -1289,7 +1289,7 @@ AffectData   'astral walk' 12 0 0 0
 Vnum     43117
 Keywords eye c'thun treasure hold~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    the Eye of C'Thun~
 Long     A massive unblinking eye that follows your every movement.~
 WFlags   take hold~
@@ -1304,7 +1304,7 @@ AffectData   'backstab' 50 0 0 0
 Vnum     43118
 Keywords elementium bar mineral treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a solid Elementium Bar~
 Long     A heavy bar of refined elementium, the rarest metal in Azeroth.~
 WFlags   take~
@@ -1317,7 +1317,7 @@ Stats    15 15000 60 0 0
 Vnum     43119
 Keywords qiraji artifact loot~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    an Ancient Qiraji Artifact~
 Long     A strange mechanical device made of obsidian and bone.~
 WFlags   take~
@@ -1330,7 +1330,7 @@ Stats    10 8500 60 0 0
 Vnum     43120
 Keywords sand-dusted goggles head armor~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a pair of sand-dusted goggles~
 Long     Goggles with dark lenses designed to block the desert glare.~
 WFlags   take head~

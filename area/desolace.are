@@ -573,7 +573,7 @@ Attribs    26 8 22 12 16 15 15
 Vnum     35025
 Keywords centaur ear trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a severed centaur ear~
 Long     A bloody, pointed ear taken as proof of a centaur's death.~
 WFlags   take~
@@ -586,7 +586,7 @@ Rarity   0
 Vnum     35026
 Keywords ghost mushroom herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Ghost Mushroom~
 Long     A translucent, glowing mushroom found only in dark, damp places.~
 WFlags   take hold~
@@ -600,7 +600,7 @@ Affect   3 6 0 0 0
 Vnum     35027
 Keywords gromsblood herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a sprig of Gromsblood~
 Long     A dark, leafy herb that smells faintly of demonic energy.~
 WFlags   take hold~
@@ -614,7 +614,7 @@ Affect   1 8 0 0 0
 Vnum     35028
 Keywords mithril ore mineral~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a chunk of Mithril Ore~
 Long     A heavy, shimmering piece of bluish-white metal.~
 WFlags   take~
@@ -627,7 +627,7 @@ Rarity   1
 Vnum     35029
 Keywords kodo bone trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a weathered kodo bone~
 Long     A heavy, bleached bone from one of the massive kodos.~
 WFlags   take~
@@ -640,7 +640,7 @@ Rarity   0
 Vnum     35030
 Keywords burning blade medallion rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Burning Blade Medallion~
 Long     An iron medallion etched with a weeping, flaming eye.~
 WFlags   take neck~
@@ -654,7 +654,7 @@ Affect   4 8 0 0 0
 Vnum     35031
 Keywords satyr horn trophy~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a curved satyr horn~
 Long     A sharp, blackened horn taken from a slain Hatefury satyr.~
 WFlags   take~
@@ -667,7 +667,7 @@ Rarity   0
 Vnum     35032
 Keywords slitherblade trident weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Slitherblade Trident~
 Long     A long, rusted trident used by the coastal naga.~
 WFlags   take wield~
@@ -681,7 +681,7 @@ Affect   1 4 0 0 0
 Vnum     35033
 Keywords basilisk eye treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a crystalline basilisk eye~
 Long     A hard, glassy eye that seems to reflect light in strange ways.~
 WFlags   take hold~
@@ -695,7 +695,7 @@ Affect   14 10 0 0 0
 Vnum     35034
 Keywords shadowprey spear weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Shadowprey Spear~
 Long     A well-crafted spear tipped with a sharpened softshell turtle bone.~
 WFlags   take wield~
@@ -709,7 +709,7 @@ Affect   2 6 0 0 0
 Vnum     35035
 Keywords alliance tabard about~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    an Alliance Tabard~
 Long     A blue cloth tabard featuring the gold lion of Stormwind.~
 WFlags   take about~
@@ -722,7 +722,7 @@ Rarity   0
 Vnum     35036
 Keywords horde tabard about~
 Type     armor~
-Continent    Kalimdor~
+Continent    1~
 Short    a Horde Tabard~
 Long     A red cloth tabard featuring the black seal of the Horde.~
 WFlags   take about~
@@ -735,7 +735,7 @@ Rarity   0
 Vnum     35037
 Keywords kodo kombulator treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    the Kodo Kombulator~
 Long     A complex goblin device with many spinning dials and hums.~
 WFlags   take hold~
@@ -748,7 +748,7 @@ Rarity   2
 Vnum     35038
 Keywords rackmore's log treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    Ulysses Rackmore's Log~
 Long     A water-damaged book detailing a lost shipwreck and treasure.~
 WFlags   take~
@@ -761,7 +761,7 @@ Rarity   1
 Vnum     35039
 Keywords silver key~
 Type     key~
-Continent    Kalimdor~
+Continent    1~
 Short    a small silver key~
 Long     A delicate silver key found among the coastal wreckage.~
 WFlags   take~
@@ -774,7 +774,7 @@ Rarity   1
 Vnum     35040
 Keywords gold key~
 Type     key~
-Continent    Kalimdor~
+Continent    1~
 Short    a small gold key~
 Long     A heavy gold key used to unlock a sailor's chest.~
 WFlags   take~
@@ -787,7 +787,7 @@ Rarity   1
 Vnum     35041
 Keywords sceptre light staff weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    the Sceptre of Light~
 Long     A shimmering naga sceptre used to focus magical energy.~
 WFlags   take wield~
@@ -801,7 +801,7 @@ Affect   3 10 0 0 0
 Vnum     35042
 Keywords magram clan badge rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Magram Clan Badge~
 Long     A crude medallion made of bone and leather, marking clan ally status.~
 WFlags   take neck~
@@ -815,7 +815,7 @@ Affect   5 8 0 0 0
 Vnum     35043
 Keywords gelkis clan badge rune~
 Type     rune~
-Continent    Kalimdor~
+Continent    1~
 Short    a Gelkis Clan Badge~
 Long     A crude medallion made of stone and vines, marking clan ally status.~
 WFlags   take neck~
@@ -829,7 +829,7 @@ Affect   5 8 0 0 0
 Vnum     35044
 Keywords flayed demon skin treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a piece of flayed demon skin~
 Long     A patch of rough, reddish-purple skin covered in glowing runes.~
 WFlags   take~
@@ -842,7 +842,7 @@ Rarity   1
 Vnum     35045
 Keywords doomwarder blade sword weapon~
 Type     weapon~
-Continent    Kalimdor~
+Continent    1~
 Short    a Doomwarder's Blade~
 Long     A massive, jagged iron blade that pulses with green fel fire.~
 WFlags   take wield~
@@ -856,7 +856,7 @@ Affect   1 10 0 0 0
 Vnum     35046
 Keywords stranglekelp herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a bundle of Stranglekelp~
 Long     Vibrant green seaweed found along the coastal reefs.~
 WFlags   take hold~
@@ -869,7 +869,7 @@ Rarity   0
 Vnum     35047
 Keywords wild steelbloom herb~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a Wild Steelbloom~
 Long     A sharp, metallic-colored flower that grows on rocky outcrops.~
 WFlags   take hold~
@@ -882,7 +882,7 @@ Rarity   0
 Vnum     35048
 Keywords heavy silken thread treasure~
 Type     treasure~
-Continent    Kalimdor~
+Continent    1~
 Short    a spool of heavy silken thread~
 Long     A spool of durable thread used for high-level tailoring.~
 WFlags   take~
@@ -895,7 +895,7 @@ Rarity   1
 Vnum     35049
 Keywords desolace sand trash~
 Type     trash~
-Continent    Kalimdor~
+Continent    1~
 Short    a handful of grey sand~
 Long     Coarse, grey sand that seems to get everywhere.~
 WFlags   take~
@@ -908,7 +908,7 @@ Rarity   0
 Vnum     35050
 Keywords portal shimmering~
 Type     portal~
-Continent    Kalimdor~
+Continent    1~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Maraudon stands before you.~
 Flags    glow~

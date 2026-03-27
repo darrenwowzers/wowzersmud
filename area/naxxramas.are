@@ -4,7 +4,7 @@ Version      1
 Name         Naxxramas~
 Author       Feenom~
 Type         5
-Continent    Eastern Kingdoms~
+Continent    2~
 WeatherX     0
 WeatherY     0
 Ranges       60 60 0 60
@@ -1064,7 +1064,7 @@ Saves      0 0 0 0 0
 Vnum     43600
 Keywords hungering cold sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Hungering Cold~
 Long     A perfectly balanced scimitar that glows with a lethal blue frost.~
 WFlags   take wield~
@@ -1080,7 +1080,7 @@ AffectData   'armor' 25 0 0 0
 Vnum     43601
 Keywords frostmourne replica sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Corrupted Ashbringer~
 Long     The legendary blade of the Mograine, now dripping with shadow energy.~
 WFlags   take wield~
@@ -1096,7 +1096,7 @@ AffectData   'berserk' 15 0 0 0
 Vnum     43602
 Keywords phylactery kel'thuzad treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Phylactery of Kel'Thuzad~
 Long     A small golden jar containing the life essence of the Archlich.~
 WFlags   take hold~
@@ -1111,7 +1111,7 @@ AffectData   'backstab' 50 0 0 0
 Vnum     43603
 Keywords splinter atiesh weapon staff~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Splinter of Atiesh~
 Long     A fragment of the legendary staff of the Guardian, Medivh.~
 WFlags   take hold~
@@ -1126,7 +1126,7 @@ AffectData   'backstab' 25 0 0 0
 Vnum     43604
 Keywords bonescythe breastplate body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Bonescythe Breastplate~
 Long     Fine leather armor reinforced with the chitin of crypt lords.~
 WFlags   take body~
@@ -1141,7 +1141,7 @@ AffectData   'astral walk' 20 0 0 0
 Vnum     43605
 Keywords dreadnaught helmet head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Dreadnaught Helmet~
 Long     A massive steel helm featuring the cold eyes of a skull.~
 WFlags   take head~
@@ -1156,7 +1156,7 @@ AffectData   'acidshot' 20 0 0 0
 Vnum     43606
 Keywords plaguebloom bunch herb~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bunch of Plaguebloom~
 Long     A cluster of grey, diseased-looking flowers with a sweet scent.~
 WFlags   take hold~
@@ -1170,7 +1170,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     43607
 Keywords mountain silversage herb~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bunch of Mountain Silversage~
 Long     Elegant silvery leaves found on the high peaks of the necropolis.~
 WFlags   take hold~
@@ -1184,7 +1184,7 @@ AffectData   'acid blast' 15 0 0 0
 Vnum     43608
 Keywords maexxna's fang dagger weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Maexxna's Fang~
 Long     A jagged dagger carved from the tooth of a giant spider.~
 WFlags   take wield~
@@ -1199,7 +1199,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     43609
 Keywords razuvious's mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Girdle of Razuvious~
 Long     A heavy plate belt granted to the master's finest students.~
 WFlags   take waist~
@@ -1214,7 +1214,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     43610
 Keywords heigan's ring jewelry finger~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Heigan's Signet Ring~
 Long     A silver ring featuring a large, weeping green gemstone.~
 WFlags   take finger~
@@ -1229,7 +1229,7 @@ AffectData   'backstab' 20 0 0 0
 Vnum     43611
 Keywords patchwerk's rib trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a massive skeletal rib~
 Long     A bone as long as a spear, taken from a stitched giant.~
 WFlags   take~
@@ -1242,7 +1242,7 @@ Stats    10 1500 1 0 0
 Vnum     43612
 Keywords necrotic essence treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a shard of Necrotic Essence~
 Long     A dark crystal that pulses with the heartbeat of the Scourge.~
 WFlags   take hold~
@@ -1256,7 +1256,7 @@ AffectData   'backstab' 25 0 0 0
 Vnum     43613
 Keywords thaddius's core hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Core of Thaddius~
 Long     A massive glass sphere crackling with blue electricity.~
 WFlags   take hold~
@@ -1271,7 +1271,7 @@ AffectData   'armor' 30 0 0 0
 Vnum     43614
 Keywords cloak spectral shadow about armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Cloak of Spectral Shadows~
 Long     A translucent cape that seems to absorb all incoming light.~
 WFlags   take about~
@@ -1286,7 +1286,7 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     43615
 Keywords shield lightforge armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Lightforge Bulwark~
 Long     A massive shield of white gold that radiates a holy light.~
 WFlags   take shield~
@@ -1301,7 +1301,7 @@ AffectData   'acetum primus' 15 0 0 0
 Vnum     43616
 Keywords ghost mushroom treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a glowing Ghost Mushroom~
 Long     A translucent mushroom that pulses with a cold green light.~
 WFlags   take hold~
@@ -1314,7 +1314,7 @@ AffectData   'acid breath' 12 0 0 0
 Vnum     43617
 Keywords dreamfoil bundle herb~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
@@ -1328,7 +1328,7 @@ AffectData   'acid breath' 12 0 0 0
 Vnum     43618
 Keywords gromsblood sprig herb~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a sprig of Gromsblood~
 Long     A dark leafy herb that smells faintly of demons.~
 WFlags   take hold~
@@ -1342,7 +1342,7 @@ AffectData   'acetum primus' 12 0 0 0
 Vnum     43619
 Keywords frozen shard treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Shard of Eternal Frost~
 Long     A crystal that radiates intense cold, taken from a frostwyrm.~
 WFlags   take hold~
@@ -1356,7 +1356,7 @@ AffectData   'astral walk' 12 0 0 0
 Vnum     43620
 Keywords runecloth bolt loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1369,7 +1369,7 @@ Stats    1 1200 55 0 0
 Vnum     43621
 Keywords soul shard hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Dark Soul Shard~
 Long     A small purple crystal that contains a flickering soul.~
 WFlags   take hold~
@@ -1383,7 +1383,7 @@ AffectData   'backstab' 20 0 0 0
 Vnum     43622
 Keywords icy weapon enchantment loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Icy Weapon Enchantment~
 Long     A glowing blue liquid used to coat blades with frost.~
 WFlags   take~
@@ -1396,7 +1396,7 @@ Stats    1 4500 60 0 0
 Vnum     43623
 Keywords desecrated bindings treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a set of Desecrated Bindings~
 Long     Dark iron shackles required for the creation of T3 armor.~
 WFlags   take~
@@ -1409,7 +1409,7 @@ Stats    5 8500 60 0 0
 Vnum     43624
 Keywords spectral silk bolt loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bolt of Spectral Silk~
 Long     Fine, translucent cloth taken from Highborne ghosts.~
 WFlags   take~
@@ -1422,7 +1422,7 @@ Stats    1 2500 60 0 0
 Vnum     43625
 Keywords plague meat food~
 Type     food~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a slab of plagued meat~
 Long     Rotting meat that provides an unholy burst of energy.~
 WFlags   take~
@@ -1434,7 +1434,7 @@ Stats    5 25 1 0 0
 Vnum     43626
 Keywords frozen scale trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a massive frozen dragonscale~
 Long     A thick white scale taken from the frostwyrm Sapphiron.~
 WFlags   take~
@@ -1447,7 +1447,7 @@ Stats    1 15000 1 0 0
 Vnum     43627
 Keywords naxxramas rat tail trophy~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a shriveled rat tail~
 Long     A dark tail taken from a necropolis rat.~
 WFlags   take~
@@ -1459,7 +1459,7 @@ Stats    1 10 1 0 0
 Vnum     43628
 Keywords mossy stone trash~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a mossy temple stone~
 Long     A heavy square of masonry fallen from the ceiling.~
 WFlags   take~
@@ -1471,7 +1471,7 @@ Stats    10 1 1 0 0
 Vnum     43629
 Keywords frost-vial treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Frost-Residue~
 Long     A small glass vial containing a swirling cloud of blue gas.~
 WFlags   take hold~
@@ -1485,7 +1485,7 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     43630
 Keywords hungering cold sword blade~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Hungering Cold~
 Long     A long scimitar carved from permanent ice and shadow.~
 WFlags   take wield~
@@ -1500,7 +1500,7 @@ AffectData   'armor' 25 0 0 0
 Vnum     43631
 Keywords frost-etched belt waist armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Frost-etched Girdle~
 Long     A heavy iron belt etched with runes of frost.~
 WFlags   take waist~
@@ -1515,7 +1515,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     43632
 Keywords gauntlets wrath hands armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Gauntlets of Wrath~
 Long     Heavy plate gauntlets featuring the red fist of Blackhand.~
 WFlags   take hands~
@@ -1530,7 +1530,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     43633
 Keywords staff shadow-frost weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Staff of Shadow-frost~
 Long     A staff of blackened wood that hums with icy energy.~
 WFlags   take wield~
@@ -1545,7 +1545,7 @@ AffectData   'backstab' 25 0 0 0
 Vnum     43634
 Keywords bone mace weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Bone-handled War-mace~
 Long     A heavy stone mace decorated with skeletal remains.~
 WFlags   take wield~
@@ -1559,7 +1559,7 @@ AffectData   'acetum primus' 12 0 0 0
 Vnum     43635
 Keywords shadow-vial treasure hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Shadow-Residue~
 Long     A small glass vial containing a swirling cloud of purple gas.~
 WFlags   take hold~
@@ -1573,7 +1573,7 @@ AffectData   'backstab' 15 0 0 0
 Vnum     43636
 Keywords runecloth loot treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1586,7 +1586,7 @@ Stats    1 1200 55 0 0
 Vnum     43637
 Keywords scourge stone corrupt treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Corrupt Scourgestone~
 Long     A jagged green stone marked with the seal of the Scourge.~
 WFlags   take~
@@ -1599,7 +1599,7 @@ Stats    1 150 55 0 0
 Vnum     43638
 Keywords tribal mask head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Thuzadin Tribal Mask~
 Long     A wooden mask painted with the image of a screaming lich.~
 WFlags   take head~
@@ -1613,7 +1613,7 @@ AffectData   'acid breath' 10 0 0 0
 Vnum     43639
 Keywords cleaver bone-handled weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Bone-handled Cleaver~
 Long     A massive heavy sword used by the necropolis butchers.~
 WFlags   take wield~

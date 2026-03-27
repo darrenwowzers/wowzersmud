@@ -4,7 +4,7 @@ Version      1
 Name         Stormwind~
 Author       Feenom~
 Type         1
-Continent    Eastern Kingdoms~
+Continent    2~
 WeatherX     0
 WeatherY     0
 Ranges       1 50 0 60
@@ -541,7 +541,7 @@ Saves      0 0 0 0 0
 Vnum     11002
 Keywords wine glass dalaran red~
 Type     drinkcon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a glass of Dalaran Red wine~
 Long     A half-empty glass of dark red wine sits here.~
 WFlags   take hold~
@@ -553,7 +553,7 @@ Stats    1 5 1 0 0
 Vnum     11003
 Keywords staff glowing mage~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a glowing mage staff~
 Long     A staff radiating faint arcane energy leans against the wall.~
 WFlags   take wield~
@@ -565,7 +565,7 @@ Stats    5 500 50 0 0
 Vnum     11004
 Keywords grimoire dark book~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a dark, leather-bound grimoire~
 Long     A dark grimoire bound in strange leather hums with chaotic energy.~
 WFlags   take hold~
@@ -577,7 +577,7 @@ Stats    3 1000 100 0 0
 Vnum     11005
 Keywords holy symbol light silver~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a silver symbol of the Light~
 Long     A polished silver symbol of the Holy Light has been dropped here.~
 WFlags   take neck~
@@ -589,7 +589,7 @@ Stats    1 50 5 0 0
 Vnum     11006
 Keywords hammer shadowbreaker massive two-handed~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a massive, two-handed holy hammer~
 Long     A massive paladin's hammer rests heavily on the ground.~
 WFlags   take wield~
@@ -601,7 +601,7 @@ Stats    20 1000 100 0 0
 Vnum     11007
 Keywords donation box wooden~
 Type     container~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a wooden donation box~
 Long     A sturdy wooden donation box sits here, requesting alms for the orphans.~
 Values   100 0 0 0 0 0
@@ -612,7 +612,7 @@ Stats    50 0 0 0 0
 Vnum     11008
 Keywords heavy steel hammer blacksmithing~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a heavy steel blacksmithing hammer~
 Long     A heavy steel blacksmithing hammer rests near the forge.~
 WFlags   take wield~
@@ -624,7 +624,7 @@ Stats    8 800 80 0 0
 Vnum     11009
 Keywords pint thunderbrew stout dark ale~
 Type     drinkcon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pint of Thunderbrew Stout~
 Long     A frothy, overflowing pint of dark stout has been left here.~
 WFlags   take hold~
@@ -636,7 +636,7 @@ Stats    2 10 2 0 0
 Vnum     11010
 Keywords shield iron heavy dwarven~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a heavy dwarven iron shield~
 Long     A thick iron shield bearing the crest of Ironforge lies here.~
 WFlags   take shield~
@@ -648,7 +648,7 @@ Stats    15 1500 150 0 0
 Vnum     11011
 Keywords dagger si7 steel sharp rogue~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an SI:7 issue steel dagger~
 Long     A perfectly balanced, razor-sharp steel dagger has been dropped here.~
 WFlags   take wield~
@@ -660,7 +660,7 @@ Stats    5 500 50 0 0
 Vnum     11012
 Keywords ale pig whistle mug~
 Type     drinkcon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a mug of Pig and Whistle Ale~
 Long     A greasy wooden mug filled with cheap, potent ale sits here.~
 WFlags   take hold~
@@ -672,7 +672,7 @@ Stats    1 5 1 0 0
 Vnum     11013
 Keywords cowl shadow leather dark~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a dark leather shadow cowl~
 Long     A hood of dark, supple leather lies discarded in the shadows.~
 WFlags   take head~
@@ -684,7 +684,7 @@ Stats    2 150 15 0 0
 Vnum     11014
 Keywords halberd royal golden elite~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a golden Royal Halberd~
 Long     A masterfully forged halberd of gold and steel leans against the wall.~
 WFlags   take wield~
@@ -696,7 +696,7 @@ Stats    20 2000 200 0 0
 Vnum     11015
 Keywords amulet onyx dragon black~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    an Onyx Dragon amulet~
 Long     A warm, black amulet shaped like a dragon scale has been dropped here.~
 WFlags   take neck~
@@ -708,7 +708,7 @@ Stats    10 5000 500 0 0
 Vnum     11016
 Keywords tapestry banner lion stormwind grand~
 Type     furniture~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a grand Stormwind Lion tapestry~
 Long     A massive tapestry bearing the golden lion of Stormwind hangs here.~
 Values   0 0 0 0 0 0
@@ -719,7 +719,7 @@ Stats    50 0 0 0 0
 Vnum     11017
 Keywords petal flower peacebloom white~
 Type     trash~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a white peacebloom petal~
 Long     A pure white petal from a peacebloom flower rests on the stone.~
 WFlags   take hold~
@@ -731,7 +731,7 @@ Stats    1 0 0 0 0
 Vnum     11018
 Keywords portal shimmering~
 Type     portal~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a shimmering portal~
 Long     a shimmering portal leading to The Stockades stands before you.~
 Flags    glow~

@@ -4,7 +4,7 @@ Version      1
 Name         Stratholme~
 Author       Feenom~
 Type         0
-Continent    Eastern Kingdoms~
+Continent    2~
 WeatherX     0
 WeatherY     0
 Ranges       55 60 0 60
@@ -950,7 +950,7 @@ Saves      0 0 0 0 0
 Vnum     22040
 Keywords reins deathcharger mount mountable~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Deathcharger's Reins~
 Long     A pair of skeletal reins that pulse with cold blue energy.~
 WFlags   take~
@@ -963,7 +963,7 @@ Stats    1 100000 60 0 0
 Vnum     22041
 Keywords runeblade baron rivendare sword~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Runeblade of Baron Rivendare~
 Long     A massive, two-handed sword etched with glowing unholy runes.~
 WFlags   take wield~
@@ -979,7 +979,7 @@ AffectData   'armor' 20 0 0 0
 Vnum     22042
 Keywords crown tyranny head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Crown of Tyranny~
 Long     A jagged iron crown that radiates an aura of dread.~
 WFlags   take head~
@@ -995,7 +995,7 @@ AffectData   'berserk' 10 0 0 0
 Vnum     22043
 Keywords book dead hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Book of the Dead~
 Long     A heavy tome bound in bone and shriveled human skin.~
 WFlags   take hold~
@@ -1010,7 +1010,7 @@ AffectData   'acidmist' 20 0 0 0
 Vnum     22044
 Keywords piccolo flaming fire trinket hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Piccolo of the Flaming Fire~
 Long     A golden flute that compels those who hear it to dance.~
 WFlags   take hold~
@@ -1023,7 +1023,7 @@ Stats    1 12000 58 0 0
 Vnum     22045
 Keywords postmaster tunic body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Postmaster's Tunic~
 Long     A blue cloth tunic with gold trim, surprisingly comfortable.~
 WFlags   take body~
@@ -1038,7 +1038,7 @@ AffectData   'backstab' 10 0 0 0
 Vnum     22046
 Keywords cannonball runner trinket hold~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Cannonball Runner~
 Long     A small mechanical device that summons a miniature cannon.~
 WFlags   take hold~
@@ -1051,7 +1051,7 @@ Stats    1 6500 57 0 0
 Vnum     22047
 Keywords archivist cape about armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Archivist's Cape~
 Long     A long red cape embroidered with gold thread.~
 WFlags   take about~
@@ -1065,7 +1065,7 @@ AffectData   'acid breath' 12 0 0 0
 Vnum     22048
 Keywords balnazzar hide cloak about armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Balnazzar's Hide~
 Long     A heavy, leathery cloak made from the skin of a dreadlord.~
 WFlags   take about~
@@ -1080,7 +1080,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     22049
 Keywords maleki footwraps feet armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Maleki's Footwraps~
 Long     Cloth wraps that feel permanently frozen to the touch.~
 WFlags   take feet~
@@ -1094,7 +1094,7 @@ AffectData   'backstab' 20 0 0 0
 Vnum     22050
 Keywords anastari heirloom necklace rune~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    Anastari's Heirloom~
 Long     A silver necklace featuring a large, weeping gemstone.~
 WFlags   take neck~
@@ -1108,7 +1108,7 @@ AffectData   'backstab' 15 0 0 0
 Vnum     22051
 Keywords tome knowledge hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Tome of Knowledge~
 Long     A leather-bound book containing ancient Lordaeron history.~
 WFlags   take hold~
@@ -1122,7 +1122,7 @@ AffectData   'acid breath' 10 0 0 0
 Vnum     22052
 Keywords breastplate scarlet crusade armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Breastplate of the Scarlet Crusade~
 Long     Heavy plate armor lacquered in a bright crimson finish.~
 WFlags   take body~
@@ -1137,7 +1137,7 @@ AffectData   'benefic aura' -20 0 0 0
 Vnum     22053
 Keywords gauntlets sea hands armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Gauntlets of the Sea~
 Long     Mail gauntlets that shimmer with a soft blue light.~
 WFlags   take hands~
@@ -1151,7 +1151,7 @@ AffectData   'acidmist' 12 0 0 0
 Vnum     22054
 Keywords stratholme holy water treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a flask of Stratholme Holy Water~
 Long     A glass vial containing blessed water that glows faintly.~
 WFlags   take hold~
@@ -1164,7 +1164,7 @@ Stats    1 500 55 0 0
 Vnum     22055
 Keywords righteous orb treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Righteous Orb~
 Long     A small, brilliant sphere of pure holy energy.~
 WFlags   take~
@@ -1177,7 +1177,7 @@ Stats    1 4500 60 0 0
 Vnum     22056
 Keywords skull damned hold treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Skull of the Damned~
 Long     A blackened humanoid skull that whispers of shadow.~
 WFlags   take hold~
@@ -1191,7 +1191,7 @@ AffectData   'backstab' 10 0 0 0
 Vnum     22057
 Keywords ancient bone key~
 Type     key~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Ancient Bone Key~
 Long     A large, heavy key required to navigate the undead side.~
 WFlags   take~
@@ -1204,7 +1204,7 @@ Stats    1 0 1 0 0
 Vnum     22058
 Keywords scarlet key~
 Type     key~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Scarlet Key~
 Long     A simple iron key marked with the Scarlet Crusade flame.~
 WFlags   take~
@@ -1217,7 +1217,7 @@ Stats    1 0 1 0 0
 Vnum     22059
 Keywords medallion faith jewelry necklace~
 Type     rune~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Medallion of Faith~
 Long     A silver medallion granted to the city's highest priests.~
 WFlags   take neck~
@@ -1231,7 +1231,7 @@ AffectData   'acidmist' 15 0 0 0
 Vnum     22060
 Keywords gauntlets valor hands armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Gauntlets of Valor~
 Long     Steel gauntlets featuring the crest of Lordaeron.~
 WFlags   take hands~
@@ -1245,7 +1245,7 @@ AffectData   'acetum primus' 10 0 0 0
 Vnum     22061
 Keywords belt archmage waist armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Belt of the Archmage~
 Long     A fine silken belt woven with arcane thread.~
 WFlags   take waist~
@@ -1259,7 +1259,7 @@ AffectData   'acid breath' 12 0 0 0
 Vnum     22062
 Keywords pauldrons elements shoulders armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Pauldrons of the Elements~
 Long     Shoulder plates that seem to vibrate with natural power.~
 WFlags   take about~
@@ -1274,7 +1274,7 @@ AffectData   'acidshot' 10 0 0 0
 Vnum     22063
 Keywords wildheart boots feet armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Wildheart Boots~
 Long     Boots made of durable leather and reinforced with bark.~
 WFlags   take feet~
@@ -1288,7 +1288,7 @@ AffectData   'acid blast' 10 0 0 0
 Vnum     22064
 Keywords magister gloves hands armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a pair of Magister's Gloves~
 Long     Fine silken gloves that grant increased arcane dexterity.~
 WFlags   take hands~
@@ -1302,7 +1302,7 @@ AffectData   'acid breath' 10 0 0 0
 Vnum     22065
 Keywords devout skirt legs armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Devout Skirt~
 Long     Cloth leggings embroidered with symbols of the Light.~
 WFlags   take legs~
@@ -1316,7 +1316,7 @@ AffectData   'acidmist' 10 0 0 0
 Vnum     22066
 Keywords beaststalker cap head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Beaststalker's Cap~
 Long     A hood fashioned from the pelt of a rare Plagueland wolf.~
 WFlags   take head~
@@ -1330,7 +1330,7 @@ AffectData   'acid blast' 12 0 0 0
 Vnum     22067
 Keywords dreadmist mask head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Dreadmist Mask~
 Long     A dark purple hood that smells faintly of shadow-smoke.~
 WFlags   take head~
@@ -1345,7 +1345,7 @@ AffectData   'backstab' 10 0 0 0
 Vnum     22068
 Keywords lightforge breastplate body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Lightforge Breastplate~
 Long     Massive plate armor that glows with an inner light.~
 WFlags   take body~
@@ -1360,7 +1360,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     22069
 Keywords shadowcraft tunic body armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Shadowcraft Tunic~
 Long     Dark leather armor that seems to absorb the surrounding light.~
 WFlags   take body~
@@ -1375,7 +1375,7 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     22070
 Keywords crimson felt hat head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Crimson Felt Hat~
 Long     A stylish red hat that grants increased magical power.~
 WFlags   take head~
@@ -1389,7 +1389,7 @@ AffectData   'acid breath' 15 0 0 0
 Vnum     22071
 Keywords mask unforgiven head armor~
 Type     armor~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Mask of the Unforgiven~
 Long     A white leather mask that grants the bearer uncanny aim.~
 WFlags   take head~
@@ -1403,7 +1403,7 @@ AffectData   'armor' 15 0 0 0
 Vnum     22072
 Keywords coldsteel bill polearm weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Coldsteel Bill~
 Long     A long polearm with a head made of permanent ice-chiseled steel.~
 WFlags   take wield~
@@ -1418,7 +1418,7 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     22073
 Keywords hammer grand crusader weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Hammer of the Grand Crusader~
 Long     A massive mace blessed by the highest order of the Crusade.~
 WFlags   take wield~
@@ -1433,7 +1433,7 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     22074
 Keywords skullforge reaver sword weapon~
 Type     weapon~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    the Skullforge Reaver~
 Long     A heavy steel blade that seems to feed on the blood of its victims.~
 WFlags   take wield~
@@ -1448,7 +1448,7 @@ AffectData   'armor' 10 0 0 0
 Vnum     22075
 Keywords grimoire necromancy treasure loot~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Grimoire of Necromancy~
 Long     A book filled with advanced spells for raising the dead.~
 WFlags   take~
@@ -1461,7 +1461,7 @@ Stats    5 2500 55 0 0
 Vnum     22076
 Keywords runecloth bolt loot treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1474,7 +1474,7 @@ Stats    1 1200 55 0 0
 Vnum     22077
 Keywords scourge stone corrupt treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Corrupt Scourgestone~
 Long     A jagged green stone marked with the seal of the Scourge.~
 WFlags   take~
@@ -1487,7 +1487,7 @@ Stats    1 150 55 0 0
 Vnum     22078
 Keywords oil undeath loot treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a vial of Essential Oil of Undeath~
 Long     A thick, black oil used in the creation of powerful abominations.~
 WFlags   take~
@@ -1500,7 +1500,7 @@ Stats    1 1500 58 0 0
 Vnum     22079
 Keywords plagueland fern loot treasure~
 Type     treasure~
-Continent    Eastern Kingdoms~
+Continent    2~
 Short    a Plagueland Fern~
 Long     A grey, diseased plant used in high-level alchemy.~
 WFlags   take~
