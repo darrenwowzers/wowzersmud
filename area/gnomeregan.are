@@ -666,7 +666,6 @@ Saves      0 0 0 0 0
 Vnum     14500
 Keywords wrench irradiated glowing tool~
 Type     weapon~
-Continent    2~
 Short    an irradiated wrench~
 Long     A wrench glowing with radiation lies here.~
 WFlags   take wield~
@@ -678,7 +677,6 @@ Stats    25 100 25 0 0
 Vnum     14501
 Keywords blaster gnomish cobbled weapon~
 Type     weapon~
-Continent    2~
 Short    a cobbled blaster pistol~
 Long     A crudely assembled blaster pistol lies here, sparking occasionally.~
 WFlags   take wield~
@@ -690,7 +688,6 @@ Stats    30 150 30 0 0
 Vnum     14502
 Keywords axe trogg caverndeep stone~
 Type     weapon~
-Continent    2~
 Short    a Caverndeep trogg axe~
 Long     A crude stone axe lies here.~
 WFlags   take wield~
@@ -702,7 +699,6 @@ Stats    28 120 28 0 0
 Vnum     14503
 Keywords club grubbis massive metal~
 Type     weapon~
-Continent    2~
 Short    Grubbis's Pounding Mace~
 Long     A massive club studded with metal scraps lies here.~
 WFlags   take wield~
@@ -714,7 +710,6 @@ Stats    50 500 50 0 0
 Vnum     14504
 Keywords rod electrocutioner charged~
 Type     weapon~
-Continent    2~
 Short    the Electrocutioner's Leg~
 Long     A metal rod crackling with electricity lies here.~
 WFlags   take wield~
@@ -726,7 +721,6 @@ Stats    55 600 55 0 0
 Vnum     14505
 Keywords fist pummeler manual~
 Type     weapon~
-Continent    2~
 Short    Manual Crowd Pummeler~
 Long     A massive mechanical fist lies here.~
 WFlags   take wield~
@@ -738,7 +732,6 @@ Stats    55 650 55 0 0
 Vnum     14506
 Keywords wrench thermaplugg mekgineer~
 Type     weapon~
-Continent    2~
 Short    Thermaplugg's Wrench~
 Long     An oversized wrench crackling with energy lies here.~
 WFlags   take wield~
@@ -750,7 +743,6 @@ Stats    60 1000 60 0 0
 Vnum     14507
 Keywords goggles gnomish engineering green~
 Type     armor~
-Continent    2~
 Short    a pair of green-tinted goggles~
 Long     A pair of gnomish engineering goggles lies here.~
 WFlags   take head~
@@ -762,7 +754,6 @@ Stats    30 200 30 0 0
 Vnum     14508
 Keywords vest mechanic leather reinforced~
 Type     armor~
-Continent    2~
 Short    a reinforced mechanic's vest~
 Long     A reinforced leather vest with metal plates lies here.~
 WFlags   take body~
@@ -774,7 +765,6 @@ Stats    35 250 35 0 0
 Vnum     14509
 Keywords gloves insulated rubber thick~
 Type     armor~
-Continent    2~
 Short    a pair of insulated gloves~
 Long     A pair of thick rubber gloves lies here.~
 WFlags   take hands~
@@ -786,7 +776,6 @@ Stats    25 150 25 0 0
 Vnum     14510
 Keywords boots magnetic gnomish~
 Type     armor~
-Continent    2~
 Short    a pair of magnetic boots~
 Long     A pair of boots with magnetic soles lies here.~
 WFlags   take feet~
@@ -798,7 +787,6 @@ Stats    28 180 28 0 0
 Vnum     14511
 Keywords cloak radiation lead-lined~
 Type     armor~
-Continent    2~
 Short    a lead-lined cloak~
 Long     A heavy cloak lined with protective lead lies here.~
 WFlags   take about~
@@ -810,7 +798,6 @@ Stats    40 300 40 0 0
 Vnum     14512
 Keywords shield salvaged metal plate~
 Type     armor~
-Continent    2~
 Short    a salvaged metal shield~
 Long     A shield made from salvaged metal plates lies here.~
 WFlags   take shield~
@@ -822,7 +809,6 @@ Stats    35 220 35 0 0
 Vnum     14513
 Keywords ring circuit board gnomish~
 Type     armor~
-Continent    2~
 Short    a circuit board ring~
 Long     A ring made from a tiny circuit board lies here.~
 WFlags   take finger~
@@ -834,7 +820,6 @@ Stats    20 150 20 0 0
 Vnum     14514
 Keywords core power small glowing~
 Type     treasure~
-Continent    2~
 Short    a small power core~
 Long     A small glowing power core lies here.~
 WFlags   take hold~
@@ -846,7 +831,6 @@ Stats    10 200 10 0 0
 Vnum     14515
 Keywords gear gnomish precision brass~
 Type     trash~
-Continent    2~
 Short    a precision brass gear~
 Long     A finely crafted brass gear lies here.~
 WFlags   take~
@@ -858,7 +842,6 @@ Stats    5 50 5 0 0
 Vnum     14516
 Keywords wire copper coil~
 Type     trash~
-Continent    2~
 Short    a coil of copper wire~
 Long     A coil of copper wire lies here.~
 WFlags   take~
@@ -870,7 +853,6 @@ Stats    3 25 3 0 0
 Vnum     14517
 Keywords schematic blueprint gnomish~
 Type     trash~
-Continent    2~
 Short    a gnomish schematic~
 Long     A rolled-up schematic covered in complex diagrams lies here.~
 WFlags   take~
@@ -882,7 +864,6 @@ Stats    1 75 1 0 0
 Vnum     14518
 Keywords container radioactive waste barrel~
 Type     container~
-Continent    2~
 Short    a barrel of radioactive waste~
 Long     A corroded barrel leaking green sludge sits here.~
 WFlags   take~
@@ -894,7 +875,6 @@ Stats    20 10 20 0 0
 Vnum     14519
 Keywords rations gnomish emergency sealed~
 Type     food~
-Continent    2~
 Short    a sealed ration pack~
 Long     A sealed gnomish emergency ration pack lies here.~
 WFlags   take~
@@ -906,7 +886,6 @@ Stats    5 30 5 0 0
 Vnum     14520
 Keywords water purified bottle clean~
 Type     trash~
-Continent    2~
 Short    a bottle of purified water~
 Long     A bottle of precious purified water lies here.~
 WFlags   take hold~
@@ -918,7 +897,6 @@ Stats    5 40 5 0 0
 Vnum     14521
 Keywords key security brass gnomeregan~
 Type     key~
-Continent    2~
 Short    a Gnomeregan security key~
 Long     A brass security key lies here.~
 WFlags   take hold~
@@ -930,7 +908,6 @@ Stats    1 100 1 0 0
 Vnum     14522
 Keywords lantern gnomish powered electric~
 Type     light~
-Continent    2~
 Short    a gnomish electric lantern~
 Long     A small electric lantern lies here, still glowing.~
 WFlags   take hold~
@@ -942,7 +919,6 @@ Stats    8 60 8 0 0
 Vnum     14523
 Keywords toolbox engineer gnomish~
 Type     container~
-Continent    2~
 Short    an engineer's toolbox~
 Long     A battered gnomish toolbox lies here.~
 WFlags   take hold~
@@ -954,7 +930,6 @@ Stats    10 80 10 0 0
 Vnum     14524
 Keywords badge thermaplugg insignia~
 Type     treasure~
-Continent    2~
 Short    Thermaplugg's Insignia~
 Long     A badge bearing Thermaplugg's personal insignia lies here.~
 WFlags   take hold~
@@ -966,7 +941,6 @@ Stats    1 500 1 0 0
 Vnum     14525
 Keywords sample slime irradiated vial~
 Type     trash~
-Continent    2~
 Short    a vial of irradiated slime~
 Long     A sealed vial containing glowing slime lies here.~
 WFlags   take hold~
@@ -978,7 +952,6 @@ Stats    1 35 1 0 0
 Vnum     14526
 Keywords portal shimmering~
 Type     portal~
-Continent    2~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Gnomeregan stands before you.~
 Flags    glow~

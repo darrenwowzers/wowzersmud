@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Eastern Plaguelands~
+Continent    2~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -609,7 +610,6 @@ Attribs    12 18 18 35 30 25 25
 Vnum     38526
 Keywords scourge stone corrupt~
 Type     treasure~
-Continent    2~
 Short    a Corrupt Scourgestone~
 Long     A jagged, dark stone that pulses with a cold, necrotic light.~
 WFlags   take~
@@ -622,7 +622,6 @@ Rarity   1
 Vnum     38527
 Keywords plaguebloom herb~
 Type     treasure~
-Continent    2~
 Short    a bunch of Plaguebloom~
 Long     A cluster of grey, diseased-looking flowers with a heavy scent.~
 WFlags   take hold~
@@ -636,7 +635,6 @@ Affect   5 15 0 0 0
 Vnum     38528
 Keywords mountain silversage herb~
 Type     treasure~
-Continent    2~
 Short    a bunch of Mountain Silversage~
 Long     Elegant silvery leaves that grow in high, rocky crevices.~
 WFlags   take hold~
@@ -650,7 +648,6 @@ Affect   2 12 0 0 0
 Vnum     38529
 Keywords holy water flask~
 Type     treasure~
-Continent    2~
 Short    a flask of Stratholme Holy Water~
 Long     A glass vial containing clear, blessed water that glows faintly.~
 WFlags   take hold~
@@ -663,7 +660,6 @@ Rarity   1
 Vnum     38530
 Keywords tyr'hand signet ring~
 Type     rune~
-Continent    2~
 Short    a Tyr's Hand Signet Ring~
 Long     A heavy gold ring featuring the fist-and-sword of the Crusade.~
 WFlags   take finger~
@@ -677,7 +673,6 @@ Affect   5 12 0 0 0
 Vnum     38531
 Keywords lights hope medallion~
 Type     rune~
-Continent    2~
 Short    a Light's Hope Medallion~
 Long     A silver medallion marking the bearer as a hero of the Dawn.~
 WFlags   take neck~
@@ -692,7 +687,6 @@ Affect   4 10 0 0 0
 Vnum     38532
 Keywords blightcaller bow weapon~
 Type     weapon~
-Continent    2~
 Short    the Blightcaller's Longbow~
 Long     A bow of dark, polished wood that hums with shadowy energy.~
 WFlags   take wield~
@@ -707,7 +701,6 @@ Affect   12 10 0 0 0
 Vnum     38533
 Keywords fordring hammer mace weapon~
 Type     weapon~
-Continent    2~
 Short    Fordring's Old Warhammer~
 Long     A simple but perfectly balanced hammer, heavy with the Light.~
 WFlags   take wield~
@@ -722,7 +715,6 @@ Affect   5 15 0 0 0
 Vnum     38534
 Keywords scourgebane oil~
 Type     treasure~
-Continent    2~
 Short    a vial of Scourgebane Oil~
 Long     A thick, golden oil used to coat blades before a battle.~
 WFlags   take~
@@ -735,7 +727,6 @@ Rarity   1
 Vnum     38535
 Keywords fungal flesh trash~
 Type     trash~
-Continent    2~
 Short    a piece of fungal flesh~
 Long     A spongy, grey piece of organic material taken from a monstrosity.~
 WFlags   take~
@@ -748,7 +739,6 @@ Rarity   0
 Vnum     38536
 Keywords ectoplasmic residue trash~
 Type     trash~
-Continent    2~
 Short    a glowing ectoplasmic residue~
 Long     A shimmering, translucent substance left behind by a ghost.~
 WFlags   take~
@@ -761,7 +751,6 @@ Rarity   1
 Vnum     38537
 Keywords crypt fiend mandible trophy~
 Type     trash~
-Continent    2~
 Short    a Crypt Fiend mandible~
 Long     A large, jagged pincer taken from a crypt fiend.~
 WFlags   take~
@@ -774,7 +763,6 @@ Rarity   1
 Vnum     38538
 Keywords scarlet shield armor~
 Type     armor~
-Continent    2~
 Short    a Scarlet Defender's Shield~
 Long     A heavy kite shield featuring the white flame of the Crusade.~
 WFlags   take shield~
@@ -789,7 +777,6 @@ Affect   5 10 0 0 0
 Vnum     38539
 Keywords argent shield armor~
 Type     armor~
-Continent    2~
 Short    an Argent Dawn Shield~
 Long     A heavy kite shield featuring the silver sunburst.~
 WFlags   take shield~
@@ -803,7 +790,6 @@ Affect   5 15 0 0 0
 Vnum     38540
 Keywords plaguelands broadsword weapon~
 Type     weapon~
-Continent    2~
 Short    a Plaguelands Broadsword~
 Long     A heavy steel blade that has been notched and repaired many times.~
 WFlags   take wield~
@@ -817,7 +803,6 @@ Affect   1 6 0 0 0
 Vnum     38541
 Keywords tome divinity treasure~
 Type     treasure~
-Continent    2~
 Short    the Tome of Divinity~
 Long     A leather-bound book that radiates a calming, warm light.~
 WFlags   take hold~
@@ -831,7 +816,6 @@ Affect   4 15 0 0 0
 Vnum     38542
 Keywords bat wing tattered trophy~
 Type     trash~
-Continent    2~
 Short    a tattered bat wing~
 Long     A large, leathery wing taken from a frenzied bat.~
 WFlags   take~
@@ -844,7 +828,6 @@ Rarity   0
 Vnum     38543
 Keywords rotten paw trophy~
 Type     trash~
-Continent    2~
 Short    a rotten plaguehound paw~
 Long     A skeletal paw that still has traces of shriveled skin.~
 WFlags   take~
@@ -857,7 +840,6 @@ Rarity   0
 Vnum     38544
 Keywords soul shard corrupted treasure~
 Type     treasure~
-Continent    2~
 Short    a Corrupted Soul Shard~
 Long     A small purple crystal that contains a flickering dark soul.~
 WFlags   take hold~
@@ -871,7 +853,6 @@ Affect   14 10 0 0 0
 Vnum     38545
 Keywords holy essence vial treasure~
 Type     treasure~
-Continent    2~
 Short    a vial of Holy Essence~
 Long     A crystal vial filled with concentrated divine energy.~
 WFlags   take hold~
@@ -885,7 +866,6 @@ Affect   3 12 0 0 0
 Vnum     38546
 Keywords dark iron scraps trash~
 Type     trash~
-Continent    2~
 Short    a pile of dark iron scraps~
 Long     Several rusted bits of dark iron metal.~
 WFlags   take~
@@ -898,7 +878,6 @@ Rarity   1
 Vnum     38547
 Keywords thorium ore mineral~
 Type     treasure~
-Continent    2~
 Short    a chunk of Thorium Ore~
 Long     A heavy, shimmering green stone with a metallic luster.~
 WFlags   take~
@@ -911,7 +890,6 @@ Rarity   1
 Vnum     38548
 Keywords dense stone trash~
 Type     trash~
-Continent    2~
 Short    a heavy dense stone~
 Long     A very heavy stone often found in thorium deposits.~
 WFlags   take~
@@ -924,7 +902,6 @@ Rarity   0
 Vnum     38549
 Keywords runecloth bolt loot~
 Type     treasure~
-Continent    2~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -937,7 +914,6 @@ Rarity   1
 Vnum     38550
 Keywords stratholme service key~
 Type     key~
-Continent    2~
 Short    the Service Entrance Key~
 Long     A large, soot-stained key used to unlock the side gates of Stratholme.~
 WFlags   take~
@@ -950,7 +926,6 @@ Rarity   2
 Vnum     38551
 Keywords naxxramas attunement ring rune~
 Type     rune~
-Continent    2~
 Short    an Argent Dawn Attunement Ring~
 Long     A ring that hums with a frequency designed to bypass necropolis wards.~
 WFlags   take finger~
@@ -964,7 +939,6 @@ Affect   13 15 0 0 0
 Vnum     38552
 Keywords portal shimmering stratholme~
 Type     portal~
-Continent    2~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Stratholme stands before you.~
 Flags    glow~
@@ -976,7 +950,6 @@ Stats    1 0 0 0 0
 Vnum     38553
 Keywords portal shimmering naxx naxxaramas~
 Type     portal~
-Continent    2~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Naxxaramas stands before you.~
 Flags    glow~

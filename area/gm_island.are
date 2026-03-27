@@ -537,7 +537,6 @@ Saves      0 0 0 0 0
 Vnum     91050
 Keywords staff god administrator weapon~
 Type     weapon~
-Continent    3~
 Short    the Staff of the Creator~
 Long     A tall staff of pure light and elementium, humming with the MUD's power.~
 WFlags   take wield~
@@ -555,7 +554,6 @@ AffectData   'astral walk' 100 0 0 0
 Vnum     91051
 Keywords tabard administrator staff~
 Type     armor~
-Continent    3~
 Short    the Administrator's Tabard~
 Long     A heavy silk tabard featuring a golden sunburst on a field of white.~
 WFlags   take about~
@@ -570,7 +568,6 @@ AffectData   'acidshot' 50 0 0 0
 Vnum     91052
 Keywords key all doors gm~
 Type     key~
-Continent    3~
 Short    the Key of All Doors~
 Long     A skeleton key made of shimmering chronal-dust.~
 WFlags   take~
@@ -583,7 +580,6 @@ Stats    1 0 1 0 0
 Vnum     91053
 Keywords developer coffee potion drink~
 Type     trash~
-Continent    3~
 Short    a mug of Developer's Fuel~
 Long     A dark, steaming liquid that provides an absolute burst of energy.~
 WFlags   take~
@@ -596,7 +592,6 @@ Stats    1 0 1 0 0
 Vnum     91054
 Keywords wand teleportation portal~
 Type     weapon~
-Continent    3~
 Short    the Wand of Instant Portals~
 Long     A short crystalline wand used to instantly travel to player locations.~
 WFlags   take wield~
@@ -610,7 +605,6 @@ AffectData   'backstab' 50 0 0 0
 Vnum     91055
 Keywords blueprints world building~
 Type     treasure~
-Continent    3~
 Short    a stack of World Blueprints~
 Long     Detailed drawings of every room and hallway in the world.~
 WFlags   take hold~
@@ -624,7 +618,6 @@ AffectData   'armor' 25 0 0 0
 Vnum     91056
 Keywords code-scroll logic treasure~
 Type     treasure~
-Continent    3~
 Short    a Scroll of Core Logic~
 Long     A parchment covered in C-code that pulses with a blue light.~
 WFlags   take hold~
@@ -638,7 +631,6 @@ AffectData   'backstab' 25 0 0 0
 Vnum     91057
 Keywords disciplinary whip weapon~
 Type     weapon~
-Continent    3~
 Short    the Lash of Obedience~
 Long     A shadow-wreathed whip used to enforce the rules.~
 WFlags   take wield~
@@ -653,7 +645,6 @@ AffectData   'astral walk' 25 0 0 0
 Vnum     91058
 Keywords ring architect jewelry~
 Type     trash~
-Continent    3~
 Short    the Architect's Signet~
 Long     A ring made of elementium, pulsing with the MUD's heartbeat.~
 WFlags   take finger~
@@ -668,7 +659,6 @@ AffectData   'acidmist' 20 0 0 0
 Vnum     91059
 Keywords pen quest creation~
 Type     weapon~
-Continent    3~
 Short    the Pen of Eternal Quests~
 Long     A golden quill that never runs out of ink, used to write history.~
 WFlags   take hold~
@@ -682,7 +672,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     91060
 Keywords test-blade sword weapon~
 Type     weapon~
-Continent    3~
 Short    a Standard-Issue Test Blade~
 Long     A perfectly average longsword used for damage calibration.~
 WFlags   take wield~
@@ -695,7 +684,6 @@ Stats    15 0 60 0 0
 Vnum     91061
 Keywords test-robes body armor~
 Type     armor~
-Continent    3~
 Short    a suit of Test-Subject Robes~
 Long     Simple white robes used during combat testing sessions.~
 WFlags   take body~
@@ -708,7 +696,6 @@ Stats    5 0 60 0 0
 Vnum     91062
 Keywords spectral silk cloth~
 Type     treasure~
-Continent    3~
 Short    a bolt of Spectral Silk~
 Long     Translucent, cool fabric taken from the guidance spirits.~
 WFlags   take~
@@ -721,7 +708,6 @@ Stats    1 500 60 0 0
 Vnum     91063
 Keywords mechanical part gear trash~
 Type     trash~
-Continent    3~
 Short    a humming Titan gear~
 Long     A heavy gold gear that still vibrates with internal power.~
 WFlags   take~
@@ -734,7 +720,6 @@ Stats    5 100 1 0 0
 Vnum     91064
 Keywords mana-soup food~
 Type     food~
-Continent    3~
 Short    a bowl of Sparking Mana-soup~
 Long     A bowl of soup that gives off small, harmless blue sparks.~
 WFlags   take~
@@ -747,7 +732,6 @@ Stats    1 50 1 0 0
 Vnum     91065
 Keywords golden feather trophy~
 Type     trash~
-Continent    3~
 Short    a Golden Messenger Feather~
 Long     A sharp, metallic feather fallen from a messenger bird.~
 WFlags   take~
@@ -760,7 +744,6 @@ Stats    1 150 1 0 0
 Vnum     91066
 Keywords ink-well quest treasure~
 Type     treasure~
-Continent    3~
 Short    a bottomless Obsidian Ink-well~
 Long     A stone jar filled with ink that seems to contain the night sky.~
 WFlags   take hold~
@@ -773,7 +756,6 @@ Stats    5 1200 60 0 0
 Vnum     91067
 Keywords level masonry tool~
 Type     weapon~
-Continent    3~
 Short    a Titan Builder's Level~
 Long     A perfectly straight rod of elementium used for zone alignment.~
 WFlags   take wield~
@@ -786,7 +768,6 @@ Stats    10 500 60 0 0
 Vnum     91068
 Keywords mana-essence vial treasure~
 Type     treasure~
-Continent    3~
 Short    a vial of Liquid Knowledge~
 Long     A glass vial containing a swirling cloud of blue information.~
 WFlags   take hold~
@@ -800,7 +781,6 @@ AffectData   'backstab' 20 0 0 0
 Vnum     91069
 Keywords staff cloak about armor~
 Type     armor~
-Continent    3~
 Short    a Cloak of the Arch-Builder~
 Long     A long green cloak that allows the wearer to pass through walls.~
 WFlags   take about~
@@ -814,7 +794,6 @@ AffectData   'acid blast' 20 0 0 0
 Vnum     91070
 Keywords staff mace weapon~
 Type     weapon~
-Continent    3~
 Short    the Hammer of Hard-Coded Law~
 Long     A massive heavy mace that hums with the frequency of a server-reboot.~
 WFlags   take wield~
@@ -829,7 +808,6 @@ AffectData   'astral walk' 40 0 0 0
 Vnum     91071
 Keywords test-shield armor~
 Type     armor~
-Continent    3~
 Short    a Standard-Issue Test Shield~
 Long     A perfectly weighted kite shield used for block-testing.~
 WFlags   take shield~
@@ -842,7 +820,6 @@ Stats    35 0 60 0 0
 Vnum     91072
 Keywords gauntlets logic hands armor~
 Type     armor~
-Continent    3~
 Short    a pair of Logic-Threaded Gauntlets~
 Long     Silver gloves that grant the wearer uncanny typing speed.~
 WFlags   take hands~
@@ -856,7 +833,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     91073
 Keywords potion rule-breaker drink~
 Type     trash~
-Continent    3~
 Short    a bottle of Silence-Serum~
 Long     A glass bottle containing a thick, dark liquid.~
 WFlags   take~
@@ -869,7 +845,6 @@ Stats    1 150 1 0 0
 Vnum     91074
 Keywords medal staff jewelry~
 Type     trash~
-Continent    3~
 Short    the Medal of the Devoted Dev~
 Long     A platinum medal given to those who survive a major patch.~
 WFlags   take neck~

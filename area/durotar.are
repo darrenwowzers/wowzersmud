@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Durotar~
+Continent    1~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -395,7 +396,6 @@ Speaking   orcish~
 Vnum     25000
 Keywords roasted boar meat food chunk~
 Type     food~
-Continent    1~
 Short    a chunk of Roasted Boar Meat~
 Long     A charred, highly satisfying chunk of boar meat sits in the dirt.~
 WFlags   take hold~
@@ -407,7 +407,6 @@ Stats    1 5 1 0 0
 Vnum     25001
 Keywords scorpid worker tail stinger venom~
 Type     treasure~
-Continent    1~
 Short    a Scorpid Worker Tail~
 Long     A severed scorpid tail, still dripping with a weak poison, is here.~
 WFlags   take hold~
@@ -419,7 +418,6 @@ Stats    1 10 1 0 0
 Vnum     25002
 Keywords cactus apple surprise fruit sweet~
 Type     food~
-Continent    1~
 Short    a Cactus Apple Surprise~
 Long     A remarkably sweet piece of fruit harvested from the harsh desert cacti.~
 WFlags   take hold~
@@ -431,7 +429,6 @@ Stats    1 15 1 0 0
 Vnum     25003
 Keywords vile familiar horn tiny demon~
 Type     treasure~
-Continent    1~
 Short    a Vile Familiar Horn~
 Long     A tiny, curved demon horn radiates a faint, unpleasant heat.~
 WFlags   take hold~
@@ -443,7 +440,6 @@ Stats    1 20 2 0 0
 Vnum     25004
 Keywords sarkoth pincer dagger weapon curved~
 Type     weapon~
-Continent    1~
 Short    Sarkoth's Pincer~
 Long     An unusually massive scorpid pincer has been fashioned into a dagger.~
 WFlags   take wield~
@@ -455,7 +451,6 @@ Stats    2 50 5 0 0
 Vnum     25005
 Keywords tiragarde halberd polearm human weapon~
 Type     weapon~
-Continent    1~
 Short    a Tiragarde Halberd~
 Long     A standard-issue Kul Tiras marine halberd lies abandoned here.~
 WFlags   take wield~
@@ -467,7 +462,6 @@ Stats    6 80 8 0 0
 Vnum     25006
 Keywords marine chainmail armor green steel~
 Type     armor~
-Continent    1~
 Short    Marine Chainmail~
 Long     A sturdy suit of sea-green chainmail worn by Kul Tiras forces.~
 WFlags   take body~
@@ -479,7 +473,6 @@ Stats    8 120 12 0 0
 Vnum     25007
 Keywords lieutenant brass key metal shiny~
 Type     key~
-Continent    1~
 Short    a Lieutenant's Brass Key~
 Long     A shiny brass key with the anchor crest of Kul Tiras stamped on it.~
 WFlags   take hold~
@@ -491,7 +484,6 @@ Stats    1 10 1 0 0
 Vnum     25008
 Keywords sen'jin voodoo totem carved wood~
 Type     light~
-Continent    1~
 Short    a Sen'jin Voodoo Totem~
 Long     A small, carved wooden totem glows with a faint, comforting blue light.~
 WFlags   take hold~
@@ -503,7 +495,6 @@ Stats    2 40 4 0 0
 Vnum     25009
 Keywords hexxer wand bone magic crooked~
 Type     wand~
-Continent    1~
 Short    a Hexxer's Wand~
 Long     A crooked wand made of carved bone thrums with dark magic.~
 WFlags   take hold~
@@ -516,7 +507,6 @@ Spells   'weaken'
 Vnum     25010
 Keywords zalazane skull shrunken head magic~
 Type     treasure~
-Continent    1~
 Short    Zalazane's Shrunken Skull~
 Long     A deeply unsettling, shrunken troll skull crackles with erratic voodoo.~
 WFlags   take hold~
@@ -528,7 +518,6 @@ Stats    2 200 20 0 0
 Vnum     25011
 Keywords durotar tiger hide striped pelt armor~
 Type     armor~
-Continent    1~
 Short    a Durotar Tiger Hide~
 Long     A beautiful, striped tiger pelt fashioned into a durable cloak.~
 WFlags   take neck~
@@ -540,7 +529,6 @@ Stats    4 80 8 0 0
 Vnum     25012
 Keywords cultist dark robes black cloth armor~
 Type     armor~
-Continent    1~
 Short    Cultist's Dark Robes~
 Long     Thick black robes smelling faintly of brimstone have been left here.~
 WFlags   take body~
@@ -552,7 +540,6 @@ Stats    3 60 6 0 0
 Vnum     25013
 Keywords void stone glowing purple rock gazz'uz~
 Type     armor~
-Continent    1~
 Short    the Void Stone~
 Long     A smooth, purple stone pulses with dark, corrupting energy here.~
 WFlags   take hold~
@@ -564,7 +551,6 @@ Stats    2 250 25 0 0
 Vnum     25014
 Keywords peon pickaxe rusted iron tool weapon~
 Type     weapon~
-Continent    1~
 Short    an Orcish Peon Pickaxe~
 Long     A heavily worn iron pickaxe used for breaking the hard Durotar rock.~
 WFlags   take wield~

@@ -1060,7 +1060,6 @@ Saves      0 0 0 0 0
 Vnum     42100
 Keywords ashkandi greatsword brotherhood weapon~
 Type     weapon~
-Continent    2~
 Short    Ashkandi, Greatsword of the Brotherhood~
 Long     A massive greatsword with a hilt of gold and a blade that pulses with power.~
 WFlags   take wield~
@@ -1076,7 +1075,6 @@ AffectData   'astral walk' 30 0 0 0
 Vnum     42101
 Keywords neltharion's tear jewelry hold~
 Type     treasure~
-Continent    2~
 Short    Neltharion's Tear~
 Long     A dark, crystalline teardrop that hums with ancient arcane sorrow.~
 WFlags   take hold~
@@ -1091,7 +1089,6 @@ AffectData   'backstab' 50 0 0 0
 Vnum     42102
 Keywords mish'undare circlet head armor~
 Type     armor~
-Continent    2~
 Short    Mish'undare, Circlet of the Mind Flayer~
 Long     A crown of blackened iron set with a single, unblinking red eye.~
 WFlags   take head~
@@ -1106,7 +1103,6 @@ AffectData   'backstab' 25 0 0 0
 Vnum     42103
 Keywords staff shadow flame weapon~
 Type     weapon~
-Continent    2~
 Short    the Staff of Shadow Flame~
 Long     A tall staff of obsidian that bleeds dark fire from its tip.~
 WFlags   take wield~
@@ -1121,7 +1117,6 @@ AffectData   'backstab' 30 0 0 0
 Vnum     42104
 Keywords maladath runed blade sword weapon~
 Type     weapon~
-Continent    2~
 Short    Maladath, Runed Blade of the Black Flight~
 Long     A perfectly balanced scimitar etched with draconic runes.~
 WFlags   take wield~
@@ -1136,7 +1131,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     42105
 Keywords chromatically tempered sword weapon~
 Type     weapon~
-Continent    2~
 Short    the Chromatically Tempered Sword~
 Long     A sword that shifts colors in the light, forged in dragon-blood.~
 WFlags   take wield~
@@ -1151,7 +1145,6 @@ AffectData   'astral walk' 20 0 0 0
 Vnum     42106
 Keywords breastplate wrath body armor~
 Type     armor~
-Continent    2~
 Short    the Breastplate of Wrath~
 Long     Heavy plate armor etched with the red fist of the Blackhand.~
 WFlags   take body~
@@ -1166,7 +1159,6 @@ AffectData   'acidshot' 20 0 0 0
 Vnum     42107
 Keywords ten storms breastplate body armor~
 Type     armor~
-Continent    2~
 Short    the Breastplate of Ten Storms~
 Long     Heavy mail armor that crackles with static electricity.~
 WFlags   take body~
@@ -1181,7 +1173,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     42108
 Keywords stormrage raiment body armor~
 Type     armor~
-Continent    2~
 Short    the Stormrage Raiment~
 Long     Robes woven from the leaves of a world tree, glowing with life.~
 WFlags   take body~
@@ -1196,7 +1187,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     42109
 Keywords transcendence robes body armor~
 Type     armor~
-Continent    2~
 Short    the Robes of Transcendence~
 Long     Shimmering white robes that radiate an aura of peace.~
 WFlags   take body~
@@ -1211,7 +1201,6 @@ AffectData   'backstab' 20 0 0 0
 Vnum     42110
 Keywords nemesis robes body armor~
 Type     armor~
-Continent    2~
 Short    the Nemesis Robes~
 Long     Dark purple robes that smell of brimstone and the void.~
 WFlags   take body~
@@ -1226,7 +1215,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     42111
 Keywords dragonstalker's breastplate body armor~
 Type     armor~
-Continent    2~
 Short    the Dragonstalker's Breastplate~
 Long     Scale mail armor fashioned from the hide of Nefarian himself.~
 WFlags   take body~
@@ -1241,7 +1229,6 @@ AffectData   'armor' 15 0 0 0
 Vnum     42112
 Keywords netherwind robes body armor~
 Type     armor~
-Continent    2~
 Short    the Netherwind Robes~
 Long     Crystalline robes that hum with unstable arcane force.~
 WFlags   take body~
@@ -1256,7 +1243,6 @@ AffectData   'armor' 20 0 0 0
 Vnum     42113
 Keywords shadowcraft tunic body armor~
 Type     armor~
-Continent    2~
 Short    the Shadowcraft Tunic~
 Long     Dark leather armor that seems to absorb the surrounding light.~
 WFlags   take body~
@@ -1271,7 +1257,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     42114
 Keywords lightforge breastplate body armor~
 Type     armor~
-Continent    2~
 Short    the Lightforge Breastplate~
 Long     Massive plate armor that glows with an inner light.~
 WFlags   take body~
@@ -1286,7 +1271,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     42115
 Keywords elementium bar mineral treasure~
 Type     treasure~
-Continent    2~
 Short    a solid Elementium Bar~
 Long     A heavy bar of refined elementium, the rarest metal in Azeroth.~
 WFlags   take~
@@ -1299,7 +1283,6 @@ Stats    15 15000 60 0 0
 Vnum     42116
 Keywords blackwing laboratory beaker trash~
 Type     trash~
-Continent    2~
 Short    a stained laboratory beaker~
 Long     A glass beaker filled with a mysterious purple residue.~
 WFlags   take~
@@ -1311,7 +1294,6 @@ Stats    1 25 1 0 0
 Vnum     42117
 Keywords dragon scale black trophy~
 Type     trash~
-Continent    2~
 Short    a Black Dragonscale~
 Long     A thick obsidian scale that is warm to the touch.~
 WFlags   take~
@@ -1324,7 +1306,6 @@ Stats    1 500 1 0 0
 Vnum     42118
 Keywords hourglass sand hold treasure~
 Type     treasure~
-Continent    2~
 Short    an Hourglass of Sand~
 Long     A small hourglass filled with shimmering, bronze sand.~
 WFlags   take hold~
@@ -1337,7 +1318,6 @@ Stats    1 4500 58 0 0
 Vnum     42119
 Keywords cloak draconic fire about armor~
 Type     armor~
-Continent    2~
 Short    the Cloak of Draconic Fire~
 Long     A heavy red cloak that protects the wearer from extreme heat.~
 WFlags   take about~
@@ -1351,7 +1331,6 @@ AffectData   'astral walk' 25 0 0 0
 Vnum     42120
 Keywords lifegiving gem hold treasure~
 Type     treasure~
-Continent    2~
 Short    the Lifegiving Gem~
 Long     A vibrant green gemstone that pulses with life-energy.~
 WFlags   take hold~

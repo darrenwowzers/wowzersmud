@@ -860,7 +860,6 @@ Saves      0 0 0 0 0
 Vnum     42600
 Keywords sting desert swell mace weapon~
 Type     weapon~
-Continent    1~
 Short    the Sting of the Desert Swell~
 Long     A heavy stone mace that pulses with the rhythmic thrum of the hive.~
 WFlags   take wield~
@@ -876,7 +875,6 @@ AffectData   'armor' 20 0 0 0
 Vnum     42601
 Keywords hand justice jewelry hold~
 Type     treasure~
-Continent    1~
 Short    the Hand of Justice~
 Long     A small iron hand that grants the bearer uncanny timing.~
 WFlags   take hold~
@@ -891,7 +889,6 @@ AffectData   'berserk' 10 0 0 0
 Vnum     42602
 Keywords signet unscarred ring rune~
 Type     rune~
-Continent    1~
 Short    the Signet of the Unscarred~
 Long     A massive gold ring featuring the unblinking eye of Ossirian.~
 WFlags   take finger~
@@ -906,7 +903,6 @@ AffectData   'acidmist' 20 0 0 0
 Vnum     42603
 Keywords robes royal crown body armor~
 Type     armor~
-Continent    1~
 Short    the Robes of the Royal Crown~
 Long     Fine silken robes of the deepest purple, embroidered with gold.~
 WFlags   take body~
@@ -921,7 +917,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     42604
 Keywords qiraji sacred blade sword weapon~
 Type     weapon~
-Continent    1~
 Short    a Qiraji Sacred Blade~
 Long     A curved sword made of solid obsidian and bone.~
 WFlags   take wield~
@@ -936,7 +931,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     42605
 Keywords hammer grace weapon~
 Type     weapon~
-Continent    1~
 Short    the Hammer of Grace~
 Long     A perfectly balanced smithing hammer that pulses with light.~
 WFlags   take wield~
@@ -950,7 +944,6 @@ AffectData   'acidmist' 15 0 0 0
 Vnum     42606
 Keywords obsidian stone coin currency~
 Type     treasure~
-Continent    1~
 Short    an Obsidian Gold Coin~
 Long     An ancient Qiraji coin featuring a multi-eyed face.~
 WFlags   take~
@@ -963,7 +956,6 @@ Stats    1 500 1 0 0
 Vnum     42607
 Keywords red qiraji bijou treasure~
 Type     treasure~
-Continent    1~
 Short    a Red Qiraji Bijou~
 Long     A faceted red gemstone that pulses with blood magic.~
 WFlags   take~
@@ -976,7 +968,6 @@ Stats    1 2500 60 0 0
 Vnum     42608
 Keywords desert skitterer pelt fur trophy~
 Type     trash~
-Continent    1~
 Short    a thick skitterer pelt~
 Long     A magnificent pale-white pelt taken from a desert spider.~
 WFlags   take~
@@ -989,7 +980,6 @@ Stats    10 1500 1 0 0
 Vnum     42609
 Keywords fang kurinnaxx weapon dagger~
 Type     weapon~
-Continent    1~
 Short    the Fang of Kurinnaxx~
 Long     A jagged dagger carved from a sand-reaver's tooth.~
 WFlags   take wield~
@@ -1004,7 +994,6 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     42610
 Keywords rajaxx's crusher mace weapon~
 Type     weapon~
-Continent    1~
 Short    Rajaxx's Crusher~
 Long     A heavy stone mace designed to shatter shields and bone.~
 WFlags   take wield~
@@ -1018,7 +1007,6 @@ AffectData   'acetum primus' 15 0 0 0
 Vnum     42611
 Keywords moam's eye jewelry neck~
 Type     rune~
-Continent    1~
 Short    Moam's Eye~
 Long     A necklace featuring a large, multi-faceted obsidian eye.~
 WFlags   take neck~
@@ -1032,7 +1020,6 @@ AffectData   'backstab' 20 0 0 0
 Vnum     42612
 Keywords buru's girth belt waist armor~
 Type     armor~
-Continent    1~
 Short    Buru's Girth~
 Long     A massive leather belt reinforced with chitinous plates.~
 WFlags   take waist~
@@ -1047,7 +1034,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     42613
 Keywords ayamiss's hood head armor~
 Type     armor~
-Continent    1~
 Short    Ayamiss's Hood of the Stinger~
 Long     A light mesh hood that grants uncanny peripheral vision.~
 WFlags   take head~
@@ -1062,7 +1048,6 @@ AffectData   'armor' 15 0 0 0
 Vnum     42614
 Keywords halberd smiting weapon~
 Type     weapon~
-Continent    1~
 Short    the Halberd of Smiting~
 Long     A massive polearm that glows with a golden light.~
 WFlags   take wield~
@@ -1077,7 +1062,6 @@ AffectData   'acidshot' 20 0 0 0
 Vnum     42615
 Keywords aegis qiraji shield armor~
 Type     armor~
-Continent    1~
 Short    the Aegis of the Qiraji~
 Long     A heavy stone shield reinforced with obsidian and bone.~
 WFlags   take shield~
@@ -1091,7 +1075,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     42616
 Keywords blood-petal bloom treasure hold~
 Type     treasure~
-Continent    1~
 Short    a Blood-petal Bloom~
 Long     A vibrant red flower that stays fresh for an eternity.~
 WFlags   take hold~
@@ -1104,7 +1087,6 @@ AffectData   'acidshot' 8 0 0 0
 Vnum     42617
 Keywords dreamfoil bundle herb treasure~
 Type     treasure~
-Continent    1~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
@@ -1118,7 +1100,6 @@ AffectData   'acid breath' 12 0 0 0
 Vnum     42618
 Keywords gromsblood sprig herb treasure~
 Type     treasure~
-Continent    1~
 Short    a sprig of Gromsblood~
 Long     A dark leafy herb that smells faintly of demons.~
 WFlags   take hold~
@@ -1132,7 +1113,6 @@ AffectData   'acetum primus' 12 0 0 0
 Vnum     42619
 Keywords sungrass bunch herb treasure~
 Type     treasure~
-Continent    1~
 Short    a bunch of Sungrass~
 Long     Vibrant golden leaves that grow in the sun.~
 WFlags   take hold~
@@ -1145,7 +1125,6 @@ AffectData   'acidshot' 10 0 0 0
 Vnum     42620
 Keywords mountain silversage bunch herb~
 Type     treasure~
-Continent    1~
 Short    a bunch of Mountain Silversage~
 Long     Elegant silvery leaves found on the high cliffs.~
 WFlags   take hold~
@@ -1159,7 +1138,6 @@ AffectData   'acid blast' 15 0 0 0
 Vnum     42621
 Keywords qiraji signet ring rune~
 Type     rune~
-Continent    1~
 Short    a Qiraji Signet Ring~
 Long     A gold ring featuring the sigil of the Shifting Sands.~
 WFlags   take finger~
@@ -1174,7 +1152,6 @@ AffectData   'acidmist' 12 0 0 0
 Vnum     42622
 Keywords reavery claw trophy~
 Type     trash~
-Continent    1~
 Short    a sharp reaver claw~
 Long     A long, curved talon taken from a sand-reaver.~
 WFlags   take~
@@ -1187,7 +1164,6 @@ Stats    2 150 1 0 0
 Vnum     42623
 Keywords voodoo fetish treasure hold~
 Type     treasure~
-Continent    1~
 Short    an Ancient Qiraji Fetish~
 Long     A small, shriveled hand clutching an obsidian needle.~
 WFlags   take hold~
@@ -1201,7 +1177,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     42624
 Keywords spectral silk bolt loot~
 Type     treasure~
-Continent    1~
 Short    a bolt of Spectral Silk~
 Long     Fine, translucent cloth taken from Qiraji ghosts.~
 WFlags   take~
@@ -1214,7 +1189,6 @@ Stats    1 2500 60 0 0
 Vnum     42625
 Keywords desert root food~
 Type     food~
-Continent    1~
 Short    a bundle of desert-roots~
 Long     Tough, fibrous roots that provide excellent nourishment.~
 WFlags   take~
@@ -1226,7 +1200,6 @@ Stats    1 25 1 0 0
 Vnum     42626
 Keywords bloodvine treasure loot~
 Type     treasure~
-Continent    1~
 Short    a length of Bloodvine~
 Long     A rare, deep red vine used in high-level tailoring.~
 WFlags   take~
@@ -1239,7 +1212,6 @@ Stats    1 15000 62 0 0
 Vnum     42627
 Keywords murloc eye trophy~
 Type     trash~
-Continent    1~
 Short    a bulging murloc eye~
 Long     A large, glassy eye taken from a city murloc.~
 WFlags   take~
@@ -1251,7 +1223,6 @@ Stats    1 25 1 0 0
 Vnum     42628
 Keywords mossy temple stone trash~
 Type     trash~
-Continent    1~
 Short    a mossy temple stone~
 Long     A heavy square of masonry fallen from a ziggurat.~
 WFlags   take~
@@ -1263,7 +1234,6 @@ Stats    10 1 1 0 0
 Vnum     42629
 Keywords spider venom flask treasure~
 Type     treasure~
-Continent    1~
 Short    a flask of Corrosive Venom~
 Long     A glass jar containing bubbling, purple spider venom.~
 WFlags   take hold~
@@ -1277,7 +1247,6 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     42630
 Keywords fang ossirian dagger weapon~
 Type     weapon~
-Continent    1~
 Short    the Fang of Ossirian~
 Long     A long dagger carved from the tooth of a winged sentinel.~
 WFlags   take wield~
@@ -1292,7 +1261,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     42631
 Keywords sand-soaked cowl head armor~
 Type     armor~
-Continent    1~
 Short    the Sand-soaked Cowl~
 Long     A dark purple hood that smells of copper and dust.~
 WFlags   take head~
@@ -1307,7 +1275,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     42632
 Keywords gauntlets might hands armor~
 Type     armor~
-Continent    1~
 Short    a pair of Gauntlets of Might~
 Long     Heavy plate gauntlets featuring the crest of Lordaeron.~
 WFlags   take hands~
@@ -1322,7 +1289,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     42633
 Keywords staff shadow-fire weapon~
 Type     weapon~
-Continent    1~
 Short    the Staff of Shadow-fire~
 Long     A staff of blackened wood that hums with chaotic energy.~
 WFlags   take wield~
@@ -1337,7 +1303,6 @@ AffectData   'backstab' 20 0 0 0
 Vnum     42634
 Keywords qiraji ritual mace weapon~
 Type     weapon~
-Continent    1~
 Short    a Qiraji Ritual Mace~
 Long     A heavy stone mace decorated with colorful feathers.~
 WFlags   take wield~
@@ -1351,7 +1316,6 @@ AffectData   'acetum primus' 12 0 0 0
 Vnum     42635
 Keywords shadow-vial treasure hold~
 Type     treasure~
-Continent    1~
 Short    a vial of Shadow-Residue~
 Long     A small glass vial containing a swirling cloud of purple gas.~
 WFlags   take hold~
@@ -1365,7 +1329,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     42636
 Keywords runecloth bolt treasure loot~
 Type     treasure~
-Continent    1~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1378,7 +1341,6 @@ Stats    1 1200 55 0 0
 Vnum     42637
 Keywords scourge stone corrupt treasure~
 Type     treasure~
-Continent    1~
 Short    a Corrupt Scourgestone~
 Long     A jagged green stone marked with the seal of the Scourge.~
 WFlags   take~
@@ -1391,7 +1353,6 @@ Stats    1 150 55 0 0
 Vnum     42638
 Keywords tribal mask head armor~
 Type     armor~
-Continent    1~
 Short    a Qiraji Tribal Mask~
 Long     A wooden mask painted with the image of a screaming insect.~
 WFlags   take head~
@@ -1405,7 +1366,6 @@ AffectData   'acid breath' 10 0 0 0
 Vnum     42639
 Keywords bone-handled cleaver weapon~
 Type     weapon~
-Continent    1~
 Short    a Bone-handled Cleaver~
 Long     A massive heavy sword used by the city butchers.~
 WFlags   take wield~

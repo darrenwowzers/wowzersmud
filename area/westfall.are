@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Westfall~
+Continent    2~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -392,7 +393,6 @@ Speaking   common~
 Vnum     12501
 Keywords westfall stew hearty bowl food~
 Type     food~
-Continent    2~
 Short    a bowl of Westfall Stew~
 Long     A hearty, steaming bowl of famous Westfall Stew smells amazing.~
 WFlags   take hold~
@@ -404,7 +404,6 @@ Stats    1 15 1 0 0
 Vnum     12502
 Keywords goretusk liver bloody raw~
 Type     food~
-Continent    2~
 Short    a raw Goretusk Liver~
 Long     A massive, bloody liver harvested from a Goretusk lies here.~
 WFlags   take hold~
@@ -416,7 +415,6 @@ Stats    2 5 1 0 0
 Vnum     12503
 Keywords flask oil mechanical harvest~
 Type     potion~
-Continent    2~
 Short    a flask of mechanical oil~
 Long     A glass flask filled with thick, black mechanical oil is here.~
 WFlags   take hold~
@@ -429,7 +427,6 @@ Spells   'cure light' 'NONE' 'NONE'
 Vnum     12504
 Keywords rusted harvest scythe weapon curved~
 Type     weapon~
-Continent    2~
 Short    a rusted Harvest Scythe~
 Long     A long wooden scythe with a heavily rusted, curved blade is here.~
 WFlags   take wield~
@@ -441,7 +438,6 @@ Stats    5 80 8 0 0
 Vnum     12505
 Keywords shield wooden sentinel hill militia~
 Type     armor~
-Continent    2~
 Short    a Sentinel Hill Shield~
 Long     A sturdy wooden shield bearing the emblem of the People's Militia.~
 WFlags   take shield~
@@ -453,7 +449,6 @@ Stats    6 150 15 0 0
 Vnum     12506
 Keywords orders gryan scroll parchment~
 Type     scroll~
-Continent    2~
 Short    Gryan Stoutmantle's Orders~
 Long     A rolled parchment sealed with the crest of the People's Militia.~
 WFlags   take hold~
@@ -466,7 +461,6 @@ Spells   'bless' 'NONE' 'NONE'
 Vnum     12507
 Keywords murloc eye slimy fish~
 Type     treasure~
-Continent    2~
 Short    a slimy Murloc Eye~
 Long     A disturbingly large, slimy murloc eye stares blankly from the dirt.~
 WFlags   take hold~
@@ -478,7 +472,6 @@ Stats    1 10 1 0 0
 Vnum     12508
 Keywords coastrunner blade jagged spear murloc~
 Type     weapon~
-Continent    2~
 Short    a Coastrunner's Blade~
 Long     A crude spear tipped with a jagged piece of coral lies here.~
 WFlags   take wield~
@@ -490,7 +483,6 @@ Stats    4 120 12 0 0
 Vnum     12509
 Keywords dusty boots leather brown farm~
 Type     armor~
-Continent    2~
 Short    a pair of Dusty Leather Boots~
 Long     A highly practical, very dusty pair of brown leather boots sit here.~
 WFlags   take feet~
@@ -502,7 +494,6 @@ Stats    2 50 5 0 0
 Vnum     12510
 Keywords farm pitchfork iron wooden~
 Type     weapon~
-Continent    2~
 Short    a heavy iron Pitchfork~
 Long     An agricultural pitchfork repurposed as a deadly thrusting weapon.~
 WFlags   take wield~
@@ -514,7 +505,6 @@ Stats    4 70 7 0 0
 Vnum     12511
 Keywords sack oats grain food~
 Type     food~
-Continent    2~
 Short    a sack of Westfall Oats~
 Long     A heavy burlap sack filled to the brim with harvested oats is here.~
 WFlags   take hold~
@@ -526,7 +516,6 @@ Stats    10 50 5 0 0
 Vnum     12512
 Keywords defias mage robe red silk~
 Type     armor~
-Continent    2~
 Short    a Defias Mage Robe~
 Long     A high-quality, bright red silk robe favored by Pillagers lies here.~
 WFlags   take body~
@@ -538,7 +527,6 @@ Stats    3 200 20 0 0
 Vnum     12513
 Keywords handful oats horse food~
 Type     food~
-Continent    2~
 Short    a handful of oats~
 Long     Some scattered oats have been spilled on the ground here.~
 WFlags   take hold~
@@ -550,7 +538,6 @@ Stats    1 1 0 0 0
 Vnum     12514
 Keywords gnoll paw furry severed~
 Type     treasure~
-Continent    2~
 Short    a severed Gnoll Paw~
 Long     A furry, clawed gnoll paw rests in the dust.~
 WFlags   take hold~
@@ -562,7 +549,6 @@ Stats    1 15 1 0 0
 Vnum     12515
 Keywords torch sentinel hill burning wood~
 Type     light~
-Continent    2~
 Short    a Sentinel Hill Torch~
 Long     A thick branch wrapped in oil-soaked cloth burns brightly here.~
 WFlags   take hold~
@@ -574,7 +560,6 @@ Stats    2 20 2 0 0
 Vnum     12516
 Keywords portal shimmering~
 Type     portal~
-Continent    2~
 Short    a shimmering portal~
 Long     a shimmering portal leading to The Deadmines stands before you.~
 Flags    glow~

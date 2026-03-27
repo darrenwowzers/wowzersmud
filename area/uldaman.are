@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Uldaman~
+Continent    2~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -469,7 +470,6 @@ Attribs    14 20 12 8 8 6 6
 Vnum     17020
 Keywords Archaedas stone hand mace weapon~
 Type     weapon~
-Continent    2~
 Short    Archaedas's Stone Hand~
 Long     A heavy mace shaped like the fist of a Titan watcher.~
 WFlags   take wield~
@@ -484,7 +484,6 @@ Affect -1 -1 10 5 0
 Vnum     17021
 Keywords rockpounder mace two-handed weapon~
 Type     weapon~
-Continent    2~
 Short    the Rockpounder~
 Long     A massive, two-handed stone mallet used to pulverize granite.~
 WFlags   take wield~
@@ -499,7 +498,6 @@ Affect -1 -1 8 5 0
 Vnum     17022
 Keywords discs norgannon treasure hold~
 Type     treasure~
-Continent    2~
 Short    the Discs of Norgannon~
 Long     A set of shimmering, platinum discs engraved with celestial data.~
 WFlags   take hold~
@@ -514,7 +512,6 @@ Affect -1 -1 10 4 0
 Vnum     17023
 Keywords ironaya bracers wrist armor~
 Type     armor~
-Continent    2~
 Short    Ironaya's Bracers~
 Long     Polished stone bracers that feel remarkably light.~
 WFlags   take wrist~
@@ -529,7 +526,6 @@ Affect -1 -1 6 5 0
 Vnum     17024
 Keywords galgann firehammer mace weapon~
 Type     weapon~
-Continent    2~
 Short    Galgann's Firehammer~
 Long     A dark iron mace that pulses with the heat of the forge.~
 WFlags   take wield~
@@ -544,7 +540,6 @@ Affect -1 -1 8 3 0
 Vnum     17025
 Keywords grimlok tribal scepter mace weapon~
 Type     weapon~
-Continent    2~
 Short    Grimlok's Tribal Scepter~
 Long     A scepter adorned with scavenged Titan wires and trogg bones.~
 WFlags   take wield~
@@ -559,7 +554,6 @@ Affect -1 -1 5 2 0
 Vnum     17026
 Keywords revelosh armguards wrist armor~
 Type     armor~
-Continent    2~
 Short    Revelosh's Armguards~
 Long     Stone-studded leather armguards worn by the trogg chieftain.~
 WFlags   take wrist~
@@ -573,7 +567,6 @@ Affect -1 -1 8 5 0
 Vnum     17027
 Keywords shaft tsol staff weapon~
 Type     weapon~
-Continent    2~
 Short    the Shaft of Tsol~
 Long     A long, metallic shaft used in the Map Chamber ritual.~
 WFlags   take wield~
@@ -587,7 +580,6 @@ Affect -1 -1 6 3 0
 Vnum     17028
 Keywords gni'kiv medallion necklace rune~
 Type     rune~
-Continent    2~
 Short    the Gni'kiv Medallion~
 Long     A circular medallion made of a strange, non-reflective alloy.~
 WFlags   take neck~
@@ -601,7 +593,6 @@ Affect -1 -1 6 4 0
 Vnum     17029
 Keywords shadowforge excavator pick axe weapon~
 Type     weapon~
-Continent    2~
 Short    a Shadowforge Excavator~
 Long     A Dark Iron pickaxe designed for both mining and murder.~
 WFlags   take wield~
@@ -615,7 +606,6 @@ Affect -1 -1 5 1 0
 Vnum     17030
 Keywords earthen leather shoulders armor~
 Type     armor~
-Continent    2~
 Short    Earthen Leather Shoulders~
 Long     Shoulder guards made of thick kodo hide reinforced with stone.~
 WFlags   take body~
@@ -629,7 +619,6 @@ Affect -1 -1 6 5 0
 Vnum     17031
 Keywords stonevault bonebreaker mace weapon~
 Type     weapon~
-Continent    2~
 Short    a Stonevault Bonebreaker~
 Long     A crude club made from a fossilized beast femur.~
 WFlags   take wield~
@@ -643,7 +632,6 @@ Affect -1 -1 4 1 0
 Vnum     17032
 Keywords obsidian shard dagger weapon~
 Type     weapon~
-Continent    2~
 Short    an Uldaman Obsidian Shard~
 Long     A jagged dagger knapped from volcanic glass found in the vaults.~
 WFlags   take wield~
@@ -657,7 +645,6 @@ Affect -1 -1 10 2 0
 Vnum     17033
 Keywords papyrus norgannon treasure hold~
 Type     treasure~
-Continent    2~
 Short    a Papyrus of Norgannon~
 Long     A brittle sheet of ancient parchment covered in Titan blueprints.~
 WFlags   take hold~
@@ -671,7 +658,6 @@ Affect -1 -1 8 3 0
 Vnum     17034
 Keywords digger shovel mace weapon~
 Type     weapon~
-Continent    2~
 Short    a Stonevault Digger's Shovel~
 Long     A rusted, heavy-duty shovel caked in dry earth.~
 WFlags   take wield~
@@ -684,7 +670,6 @@ Rarity   0
 Vnum     17035
 Keywords titan power core treasure~
 Type     treasure~
-Continent    2~
 Short    a Titan Power Core~
 Long     A humming, crystalline sphere that generates a low hum.~
 WFlags   take~
@@ -697,7 +682,6 @@ Rarity   1
 Vnum     17036
 Keywords scorpid sting dagger weapon~
 Type     weapon~
-Continent    2~
 Short    a Scorpid Sting Digger~
 Long     A dagger made from a large, venomous scorpid stinger.~
 WFlags   take wield~
@@ -711,7 +695,6 @@ Affect -1 -1 4 2 0
 Vnum     17037
 Keywords shadowforge surveyor lens treasure hold~
 Type     treasure~
-Continent    2~
 Short    a Shadowforge Surveyor's Lens~
 Long     A brass-rimmed lens used to detect structural weaknesses.~
 WFlags   take hold~
@@ -725,7 +708,6 @@ Affect -1 -1 5 3 0
 Vnum     17038
 Keywords crude trogg idol treasure hold~
 Type     treasure~
-Continent    2~
 Short    a Crude Trogg Idol~
 Long     A small, ugly statue of a trogg made from mud and bone.~
 WFlags   take hold~
@@ -739,7 +721,6 @@ Affect -1 -1 4 4 0
 Vnum     17039
 Keywords restored golem heart treasure~
 Type     treasure~
-Continent    2~
 Short    a Restored Golem Heart~
 Long     The core of a vault warder, sparking with renewed energy.~
 WFlags   take~

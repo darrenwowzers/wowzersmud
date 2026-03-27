@@ -485,7 +485,6 @@ Saves      0 0 0 0 0
 Vnum     12900
 Keywords red bandana defias mask~
 Type     armor~
-Continent    2~
 Short    a Red Defias Bandana~
 Long     A blood-red bandana rests here, abandoned by a rogue.~
 WFlags   take head~
@@ -497,7 +496,6 @@ Stats    10 50 5 0 0
 Vnum     12901
 Keywords pickaxe rusted mining miner pick~
 Type     weapon~
-Continent    2~
 Short    a rusted mining pick~
 Long     A heavy, dull mining pick has been dropped on the cavern floor.~
 WFlags   take wield~
@@ -509,7 +507,6 @@ Stats    15 80 8 0 0
 Vnum     12902
 Keywords rhahk'zor hammer maul heavy ogre~
 Type     weapon~
-Continent    2~
 Short    Rhahk'Zor's Hammer~
 Long     A massive, splintered tree trunk banded with iron lies here.~
 WFlags   take wield~
@@ -521,7 +518,6 @@ Stats    20 500 50 0 0
 Vnum     12903
 Keywords taskmaster whip leather~
 Type     weapon~
-Continent    2~
 Short    a taskmaster's whip~
 Long     A cruel leather whip tipped with metal barbs is coiled here.~
 WFlags   take wield~
@@ -533,7 +529,6 @@ Stats    8 100 10 0 0
 Vnum     12904
 Keywords buzz saw circular shredder blade sneed~
 Type     weapon~
-Continent    2~
 Short    a Buzz Saw Blade~
 Long     A massive, bloody circular saw blade rests here.~
 WFlags   take wield~
@@ -545,7 +540,6 @@ Stats    18 800 80 0 0
 Vnum     12905
 Keywords boots heavy iron defias~
 Type     armor~
-Continent    2~
 Short    Heavy Defias Boots~
 Long     A pair of heavy, iron-toed leather boots sit here.~
 WFlags   take feet~
@@ -557,7 +551,6 @@ Stats    12 200 20 0 0
 Vnum     12906
 Keywords hammer smelting glowing gilnid~
 Type     weapon~
-Continent    2~
 Short    a glowing smelting hammer~
 Long     A heavy blacksmith's hammer, glowing white-hot at the head, rests here.~
 WFlags   take wield~
@@ -569,7 +562,6 @@ Stats    18 800 80 0 0
 Vnum     12907
 Keywords barrel powder blasting defias~
 Type     treasure~
-Continent    2~
 Short    a barrel of blasting powder~
 Long     A wooden barrel marked with a skull and crossbones is here, smelling of sulfur.~
 WFlags   take hold~
@@ -581,7 +573,6 @@ Stats    10 500 50 0 0
 Vnum     12908
 Keywords ring gilnid gold golden~
 Type     armor~
-Continent    2~
 Short    Gilnid's Golden Ring~
 Long     A heavy, ostentatious golden ring has been dropped in the dirt.~
 WFlags   take finger~
@@ -593,7 +584,6 @@ Stats    2 600 60 0 0
 Vnum     12909
 Keywords cannonball iron heavy round~
 Type     treasure~
-Continent    2~
 Short    a heavy iron cannonball~
 Long     A perfectly round, incredibly heavy iron cannonball sits in a pile.~
 WFlags   take hold~
@@ -605,7 +595,6 @@ Stats    25 100 10 0 0
 Vnum     12910
 Keywords smite mighty hammer massive~
 Type     weapon~
-Continent    2~
 Short    Smite's Mighty Hammer~
 Long     A truly massive, incredibly heavy iron hammer lies here.~
 WFlags   take wield~
@@ -617,7 +606,6 @@ Stats    20 1000 100 0 0
 Vnum     12911
 Keywords emberstone staff glowing red~
 Type     staff~
-Continent    2~
 Short    the Emberstone Staff~
 Long     A long wooden staff topped with a glowing, red-hot emberstone is here.~
 WFlags   take wield~
@@ -630,7 +618,6 @@ Spells   'aqua breath'
 Vnum     12912
 Keywords cookie stirring rod wooden club~
 Type     weapon~
-Continent    2~
 Short    Cookie's Stirring Rod~
 Long     A massive, soup-stained wooden rod lies discarded on the ground.~
 WFlags   take wield~
@@ -642,7 +629,6 @@ Stats    8 300 30 0 0
 Vnum     12913
 Keywords corsair overshirt silk blue~
 Type     armor~
-Continent    2~
 Short    a Corsair's Overshirt~
 Long     A finely woven blue silk pirate's shirt has been left here.~
 WFlags   take body~
@@ -654,7 +640,6 @@ Stats    5 400 40 0 0
 Vnum     12914
 Keywords cruel barb sword curved jagged~
 Type     weapon~
-Continent    2~
 Short    the Cruel Barb~
 Long     A wickedly curved sword with a jagged, tearing edge rests here.~
 WFlags   take wield~
@@ -666,7 +651,6 @@ Stats    12 800 80 0 0
 Vnum     12915
 Keywords cape brotherhood black cloak defias~
 Type     armor~
-Continent    2~
 Short    the Cape of the Brotherhood~
 Long     A dark, flowing black cape bearing the symbol of the Defias lies here.~
 WFlags   take neck~
@@ -678,7 +662,6 @@ Stats    4 500 50 0 0
 Vnum     12916
 Keywords blackened defias armor leather dark~
 Type     armor~
-Continent    2~
 Short    Blackened Defias Armor~
 Long     A suit of dark, incredibly tough boiled leather armor rests here.~
 WFlags   take body~
@@ -690,7 +673,6 @@ Stats    10 900 90 0 0
 Vnum     12917
 Keywords head vancleef severed edwin~
 Type     treasure~
-Continent    2~
 Short    the Head of Edwin VanCleef~
 Long     The severed head of the Defias Kingpin stares blankly from the dirt.~
 WFlags   take hold~
@@ -702,7 +684,6 @@ Stats    5 100 10 0 0
 Vnum     12918
 Keywords unsent letter parchment folded sealed~
 Type     scroll~
-Continent    2~
 Short    an unsent letter~
 Long     A sealed, folded parchment sits here, detailing plans to burn Stormwind.~
 WFlags   take hold~
@@ -715,7 +696,6 @@ Spells   'identify' 'NONE' 'NONE'
 Vnum     12919
 Keywords pirate rum bottle glass drink~
 Type     drinkcon~
-Continent    2~
 Short    a bottle of pirate's rum~
 Long     A dark glass bottle filled with potent, spiced rum is here.~
 WFlags   take hold~

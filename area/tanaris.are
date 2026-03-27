@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Tanaris~
+Continent    1~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -380,7 +381,6 @@ Speaking   common~
 Vnum     33000
 Keywords noggenfogger elixir potion drinkable~
 Type     potion~
-Continent    1~
 Short    a Noggenfogger Elixir~
 Long     A small vial filled with a bubbling, neon-green liquid.~
 WFlags   take hold~
@@ -392,7 +392,6 @@ Stats    1 200 1 0 0
 Vnum     33001
 Keywords wastewander water pouch drinkcon~
 Type     drinkcon~
-Continent    1~
 Short    a Wastewander water pouch~
 Long     A tightly stitched leather pouch designed to prevent evaporation.~
 WFlags   take hold~
@@ -404,7 +403,6 @@ Stats    1 50 1 0 0
 Vnum     33002
 Keywords gadgetzan wrench heavy mace weapon~
 Type     weapon~
-Continent    1~
 Short    a heavy Gadgetzan wrench~
 Long     An oversized steel wrench, perfect for fixing pipes or breaking jaws.~
 WFlags   take wield~
@@ -416,7 +414,6 @@ Stats    10 300 3 0 0
 Vnum     33003
 Keywords sandfury mask tiki face armor~
 Type     armor~
-Continent    1~
 Short    a wooden Sandfury mask~
 Long     A brightly painted wooden mask used in troll rituals.~
 WFlags   take head~
@@ -428,7 +425,6 @@ Stats    4 150 2 0 0
 Vnum     33004
 Keywords dunemaul club heavy tree weapon~
 Type     weapon~
-Continent    1~
 Short    a massive Dunemaul club~
 Long     A petrified tree trunk used as a bludgeon by the desert ogres.~
 WFlags   take wield~
@@ -440,7 +436,6 @@ Stats    20 400 4 0 0
 Vnum     33005
 Keywords fire roc feather glowing treasure~
 Type     treasure~
-Continent    1~
 Short    a glowing fire roc feather~
 Long     A massive feather that still radiates intense heat.~
 WFlags   take hold~
@@ -452,7 +447,6 @@ Stats    1 100 1 0 0
 Vnum     33006
 Keywords southsea cutlass sword weapon~
 Type     weapon~
-Continent    1~
 Short    a Southsea cutlass~
 Long     A curved sword stained with salt and dried blood.~
 WFlags   take wield~
@@ -464,7 +458,6 @@ Stats    6 250 3 0 0
 Vnum     33007
 Keywords blisterpaw hyena fang treasure~
 Type     treasure~
-Continent    1~
 Short    a blisterpaw hyena fang~
 Long     A jagged, yellowed tooth from a desert scavenger.~
 WFlags   take hold~
@@ -476,7 +469,6 @@ Stats    1 30 1 0 0
 Vnum     33008
 Keywords silithid carapace shield bug armor~
 Type     armor~
-Continent    1~
 Short    a silithid carapace shield~
 Long     A shield fashioned from the incredibly hard shell of a silithid bug.~
 WFlags   take shield~
@@ -488,7 +480,6 @@ Stats    15 350 4 0 0
 Vnum     33009
 Keywords glasshide basilisk scale pants armor~
 Type     armor~
-Continent    1~
 Short    glasshide scale pants~
 Long     A pair of leggings that shimmer like polished glass.~
 WFlags   take legs~
@@ -500,7 +491,6 @@ Stats    7 280 3 0 0
 Vnum     33010
 Keywords pirates rum bottle drinkcon~
 Type     drinkcon~
-Continent    1~
 Short    a bottle of Southsea rum~
 Long     A dark glass bottle smelling strongly of harsh alcohol and molasses.~
 WFlags   take hold~
@@ -512,7 +502,6 @@ Stats    2 40 1 0 0
 Vnum     33011
 Keywords desert sun hat wide brim armor~
 Type     armor~
-Continent    1~
 Short    a wide-brimmed desert sun hat~
 Long     A sturdy canvas hat designed to keep the brutal Tanaris sun off your neck.~
 WFlags   take head~
@@ -524,7 +513,6 @@ Stats    2 80 1 0 0
 Vnum     33012
 Keywords gadgetzan supply crate container~
 Type     container~
-Continent    1~
 Short    a Gadgetzan supply crate~
 Long     A sturdy wooden box stamped with the logo of the Steamwheedle Cartel.~
 WFlags   none~
@@ -536,7 +524,6 @@ Stats    20 0 0 0 0
 Vnum     33013
 Keywords scimitar sands curved sword weapon~
 Type     weapon~
-Continent    1~
 Short    the Scimitar of the Sands~
 Long     A masterfully crafted curved blade that seems to cut through the hot air.~
 WFlags   take wield~
@@ -548,7 +535,6 @@ Stats    8 500 4 0 0
 Vnum     33014
 Keywords troll mojo vial potion~
 Type     potion~
-Continent    1~
 Short    a vial of troll mojo~
 Long     A vial filled with a strange, pulsing blue liquid used in voodoo magic.~
 WFlags   take hold~
@@ -560,7 +546,6 @@ Stats    1 150 1 0 0
 Vnum     33015
 Keywords portal shimmering~
 Type     portal~
-Continent    1~
 Short    a shimmering portal~
 Long     a shimmering portal leading to Zul'Farrak stands before you.~
 Flags    glow~

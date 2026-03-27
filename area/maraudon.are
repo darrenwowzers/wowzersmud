@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Maraudon~
+Continent    1~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -590,7 +591,6 @@ Attribs    18 12 20 30 25 20 20
 Vnum     19200
 Keywords noxxion's shackles wrist~
 Type     armor~
-Continent    1~
 Short    Noxxion's Shackles~
 Long     A pair of heavy iron wristguards dripping with green slime.~
 WFlags   take wrist~
@@ -605,7 +605,6 @@ Affect   17 -10 0 0 0
 Vnum     19201
 Keywords blade eternal darkness dagger weapon~
 Type     weapon~
-Continent    1~
 Short    the Blade of Eternal Darkness~
 Long     A wicked dagger that seems to swallow the light around it.~
 WFlags   take wield~
@@ -620,7 +619,6 @@ Affect   14 25 0 0 0
 Vnum     19202
 Keywords satyr's lash whip weapon~
 Type     weapon~
-Continent    1~
 Short    the Satyr's Lash~
 Long     A long, stinging whip made from the tail of a demon.~
 WFlags   take wield~
@@ -634,7 +632,6 @@ Affect   2 12 0 0 0
 Vnum     19203
 Keywords mark of celebras rune~
 Type     rune~
-Continent    1~
 Short    the Mark of Celebras~
 Long     A wooden medallion etched with the leaves of a world tree.~
 WFlags   take neck~
@@ -649,7 +646,6 @@ Affect   4 10 0 0 0
 Vnum     19204
 Keywords megashot rifle weapon~
 Type     weapon~
-Continent    1~
 Short    Gizlock's Hyper-Precise Megashot~
 Long     A complex goblin rifle with far too many scopes and dials.~
 WFlags   take wield~
@@ -663,7 +659,6 @@ Affect   12 15 0 0 0
 Vnum     19205
 Keywords landslide's heart treasure hold~
 Type     treasure~
-Continent    1~
 Short    the Heart of Landslide~
 Long     A massive ruby that pulses with the rhythm of the earth.~
 WFlags   take hold~
@@ -678,7 +673,6 @@ Affect   5 15 0 0 0
 Vnum     19206
 Keywords scepter celebras key~
 Type     key~
-Continent    1~
 Short    the Scepter of Celebras~
 Long     A staff of living wood that hums with primal energy.~
 WFlags   take hold~
@@ -691,7 +685,6 @@ Rarity   2
 Vnum     19207
 Keywords gemstone maraudon treasure~
 Type     treasure~
-Continent    1~
 Short    a Shimmering Maraudon Gemstone~
 Long     A large, multi-faceted crystal found in the cave walls.~
 WFlags   take~
@@ -704,7 +697,6 @@ Rarity   0
 Vnum     19208
 Keywords centaur ear trophy~
 Type     trash~
-Continent    1~
 Short    a severed centaur ear~
 Long     A pale, pointed ear taken as proof of a centaur's death.~
 WFlags   take~
@@ -717,7 +709,6 @@ Rarity   0
 Vnum     19209
 Keywords princess crown head~
 Type     armor~
-Continent    1~
 Short    the Crown of the Earth Princess~
 Long     A jagged circlet of rock and crystal.~
 WFlags   take head~
@@ -732,7 +723,6 @@ Affect   5 12 0 0 0
 Vnum     19210
 Keywords rotgrip's scale trophy~
 Type     trash~
-Continent    1~
 Short    a decaying hydra scale~
 Long     A thick, slimy scale that reeks of the swamp.~
 WFlags   take~
@@ -745,7 +735,6 @@ Rarity   1
 Vnum     19211
 Keywords moss-covered boots feet~
 Type     armor~
-Continent    1~
 Short    a pair of Deepmoss Treaders~
 Long     Boots woven from durable spider silk and forest moss.~
 WFlags   take feet~
@@ -759,7 +748,6 @@ Affect   2 8 0 0 0
 Vnum     19212
 Keywords crystal-shard dagger weapon~
 Type     weapon~
-Continent    1~
 Short    a Jagged Crystal Dagger~
 Long     A blade made from a single, razor-sharp orange crystal.~
 WFlags   take wield~
@@ -773,7 +761,6 @@ Affect   13 5 0 0 0
 Vnum     19213
 Keywords venom-sac trophy~
 Type     trash~
-Continent    1~
 Short    a pulsating venom sac~
 Long     A small, leather-like bag filled with corrosive fluid.~
 WFlags   take~
@@ -786,7 +773,6 @@ Rarity   0
 Vnum     19214
 Keywords ghost mushroom treasure~
 Type     treasure~
-Continent    1~
 Short    a translucent Ghost Mushroom~
 Long     A mushroom that seems to exist partially in the spirit world.~
 WFlags   take hold~
@@ -800,7 +786,6 @@ Affect   3 6 0 0 0
 Vnum     19215
 Keywords stone-fist mace weapon~
 Type     weapon~
-Continent    1~
 Short    a Stone-fist Warhammer~
 Long     A heavy hammer with a head carved in the shape of a fist.~
 WFlags   take wield~
@@ -814,7 +799,6 @@ Affect   1 10 0 0 0
 Vnum     19216
 Keywords vyletongue's sash waist~
 Type     armor~
-Continent    1~
 Short    Vyletongue's Silk Sash~
 Long     A fine purple belt embroidered with demonic runes.~
 WFlags   take waist~
@@ -829,7 +813,6 @@ Affect   14 10 0 0 0
 Vnum     19217
 Keywords blood-petal bloom treasure~
 Type     treasure~
-Continent    1~
 Short    a Blood-petal Bloom~
 Long     A vibrant red flower that stays fresh long after being picked.~
 WFlags   take hold~
@@ -843,7 +826,6 @@ Affect   5 5 0 0 0
 Vnum     19218
 Keywords shadowshard amulet rune~
 Type     rune~
-Continent    1~
 Short    a Shadowshard Amulet~
 Long     A dark crystal pendant that feels cold to the touch.~
 WFlags   take neck~
@@ -857,7 +839,6 @@ Affect   14 10 0 0 0
 Vnum     19219
 Keywords subterranean hide body~
 Type     armor~
-Continent    1~
 Short    a piece of Subterranean Hide~
 Long     Tough, pale leather taken from a cave-dwelling beast.~
 WFlags   take body~
@@ -871,7 +852,6 @@ Affect   5 8 0 0 0
 Vnum     19220
 Keywords gizlock's wrench tool~
 Type     weapon~
-Continent    1~
 Short    Gizlock's Oversized Wrench~
 Long     A massive heavy wrench used more for bludgeoning than fixing.~
 WFlags   take wield~
@@ -885,7 +865,6 @@ Affect   1 4 0 0 0
 Vnum     19221
 Keywords fungal robe body~
 Type     armor~
-Continent    1~
 Short    a Shambler's Fungal Robe~
 Long     Robes fashioned from overlapping layers of dry mushroom skin.~
 WFlags   take body~
@@ -900,7 +879,6 @@ Affect   5 8 0 0 0
 Vnum     19222
 Keywords primordial sludge treasure~
 Type     treasure~
-Continent    1~
 Short    a vial of Primordial Sludge~
 Long     A glass jar containing an ancient, bubbling green liquid.~
 WFlags   take hold~
@@ -914,7 +892,6 @@ Affect   13 10 0 0 0
 Vnum     19223
 Keywords keeper's staff weapon~
 Type     weapon~
-Continent    1~
 Short    an Ancient Keeper's Staff~
 Long     A staff of white wood that glows with a soft, natural light.~
 WFlags   take wield~
@@ -928,7 +905,6 @@ Affect   3 15 0 0 0
 Vnum     19224
 Keywords serrated claw trophy~
 Type     trash~
-Continent    1~
 Short    a serrated flayer claw~
 Long     A sharp, curved claw used for rending flesh.~
 WFlags   take~
@@ -941,7 +917,6 @@ Rarity   0
 Vnum     19225
 Keywords Zaetar's focus hold~
 Type     treasure~
-Continent    1~
 Short    Zaetar's Spirit Focus~
 Long     A crystal sphere containing a swirling vortex of leaves.~
 WFlags   take hold~

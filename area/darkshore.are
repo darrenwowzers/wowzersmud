@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Darkshore~
+Continent    1~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -386,7 +387,6 @@ Speaking   common~
 Vnum     27000
 Keywords auberdine moon-glaive weapon~
 Type     weapon~
-Continent    1~
 Short    a gleaming moon-glaive~
 Long     A three-bladed throwing weapon made of enchanted silver lies here.~
 WFlags   take wield~
@@ -398,7 +398,6 @@ Stats    6 250 2 0 0
 Vnum     27001
 Keywords soggy boots leather~
 Type     armor~
-Continent    1~
 Short    a pair of soggy leather boots~
 Long     Sturdy boots that have seen too much time in the Darkshore rain.~
 WFlags   take feet~
@@ -410,7 +409,6 @@ Stats    4 40 1 0 0
 Vnum     27002
 Keywords naga trident coral weapon~
 Type     weapon~
-Continent    1~
 Short    a barbed naga trident~
 Long     A heavy spear made of sharpened coral and bone rests here.~
 WFlags   take wield~
@@ -422,7 +420,6 @@ Stats    8 120 2 0 0
 Vnum     27003
 Keywords ameth'aran scroll ancient~
 Type     treasure~
-Continent    1~
 Short    a water-damaged Highborne scroll~
 Long     A roll of parchment that somehow survived the city's destruction.~
 WFlags   take hold~
@@ -434,7 +431,6 @@ Stats    1 300 1 0 0
 Vnum     27004
 Keywords crab shell shield buckler~
 Type     armor~
-Continent    1~
 Short    a giant crab shell buckler~
 Long     A shield fashioned from the thick carapace of a reef crab.~
 WFlags   take shield~
@@ -446,7 +442,6 @@ Stats    10 150 2 0 0
 Vnum     27005
 Keywords glow-cap mushroom food~
 Type     food~
-Continent    1~
 Short    a glowing thistle-cap~
 Long     A small, neon-green mushroom that pulses with a strange light.~
 WFlags   take hold~
@@ -458,7 +453,6 @@ Stats    1 15 1 0 0
 Vnum     27006
 Keywords moonstalker fang necklace~
 Type     rune~
-Continent    1~
 Short    a necklace of moonstalker fangs~
 Long     A leather cord strung with several sharp, curved feline teeth.~
 WFlags   take neck~
@@ -470,7 +464,6 @@ Stats    1 50 1 0 0
 Vnum     27007
 Keywords rusted gnome wrench mace weapon~
 Type     weapon~
-Continent    1~
 Short    a rusted oversized wrench~
 Long     A massive tool dropped by a gnome explorer, now used as a club.~
 WFlags   take wield~
@@ -482,7 +475,6 @@ Stats    8 40 1 0 0
 Vnum     27008
 Keywords vial moonwell water~
 Type     potion~
-Continent    1~
 Short    a vial of Auberdine moonwell water~
 Long     A crystal vial filled with glowing, restorative liquid.~
 WFlags   take hold~
@@ -494,7 +486,6 @@ Stats    1 100 1 0 0
 Vnum     27009
 Keywords darkshore kelp wrap food~
 Type     food~
-Continent    1~
 Short    a roll of dried Darkshore kelp~
 Long     Salted and dried seaweed that serves as a basic traveling ration.~
 WFlags   take hold~
@@ -506,7 +497,6 @@ Stats    1 5 1 0 0
 Vnum     27010
 Keywords ameth'aran ring silver~
 Type     rune~
-Continent    1~
 Short    a tarnished silver signet ring~
 Long     A ring bearing the crest of the ancient city of Ameth'Aran.~
 WFlags   take finger~
@@ -518,7 +508,6 @@ Stats    1 400 1 0 0
 Vnum     27011
 Keywords furbolg ritual totem~
 Type     treasure~
-Continent    1~
 Short    a carved Blackwood totem~
 Long     A wooden totem carved to resemble a twisted, howling bear.~
 WFlags   take hold~
@@ -530,7 +519,6 @@ Stats    3 80 1 0 0
 Vnum     27012
 Keywords crocolisk skin vest armor~
 Type     armor~
-Continent    1~
 Short    a crocolisk skin vest~
 Long     A vest made of thick, bumpy reptile hide. It's very water-resistant.~
 WFlags   take body~
@@ -542,7 +530,6 @@ Stats    7 180 2 0 0
 Vnum     27013
 Keywords strider feather quill~
 Type     trash~
-Continent    1~
 Short    a long forest strider feather~
 Long     A vibrant green and blue feather that would make a fine quill.~
 WFlags   take hold~
@@ -554,7 +541,6 @@ Stats    1 10 1 0 0
 Vnum     27014
 Keywords empty clam shell~
 Type     trash~
-Continent    1~
 Short    an enormous empty clam shell~
 Long     A shell large enough to be used as a basin or a very heavy bowl.~
 WFlags   take hold~

@@ -2,6 +2,7 @@
 #AREADATA
 Version      1
 Name         Scholomance~
+Continent    2~
 Author       Feenom~
 WeatherX     0
 WeatherY     0
@@ -897,7 +898,6 @@ Attribs    10 24 14 32 20 10 10
 Vnum     21540
 Keywords headmaster's charge staff weapon~
 Type     weapon~
-Continent    2~
 Short    the Headmaster's Charge~
 Long     A tall staff topped with a large, glowing skull that radiates power.~
 WFlags   take wield~
@@ -913,7 +913,6 @@ Affect   12 20 0 0 0
 Vnum     21541
 Keywords alanna's embrace robe body armor~
 Type     armor~
-Continent    2~
 Short    Alanna's Embrace~
 Long     Fine silken robes of a deep royal purple, embroidered with silver.~
 WFlags   take body~
@@ -929,7 +928,6 @@ Affect   14 25 0 0 0
 Vnum     21542
 Keywords barov family sword weapon~
 Type     weapon~
-Continent    2~
 Short    the Barov Family Sword~
 Long     A perfectly balanced longsword featuring the crest of Caer Darrow.~
 WFlags   take wield~
@@ -944,7 +942,6 @@ Affect   13 15 0 0 0
 Vnum     21543
 Keywords staff metanoia weapon~
 Type     weapon~
-Continent    2~
 Short    the Staff of Metanoia~
 Long     A staff of blackened wood that hums with shadowy energy.~
 WFlags   take wield~
@@ -959,7 +956,6 @@ Affect   14 20 0 0 0
 Vnum     21544
 Keywords kirtonos's collar neck rune~
 Type     rune~
-Continent    2~
 Short    Kirtonos's Spiked Collar~
 Long     A heavy iron collar taken from a blood-drinking gargoyle.~
 WFlags   take neck~
@@ -974,7 +970,6 @@ Affect   5 15 0 0 0
 Vnum     21545
 Keywords icebane leggings legs armor~
 Type     armor~
-Continent    2~
 Short    a pair of Icebane Leggings~
 Long     Plate leggings reinforced with magical frost-shards.~
 WFlags   take legs~
@@ -989,7 +984,6 @@ Affect   17 -20 0 0 0
 Vnum     21546
 Keywords bone-link armor body armor~
 Type     armor~
-Continent    2~
 Short    the Bone-link Armor~
 Long     Heavy mail fashioned from overlapping layers of polished bone.~
 WFlags   take body~
@@ -1004,7 +998,6 @@ Affect   5 12 0 0 0
 Vnum     21547
 Keywords polkelt's signet ring rune~
 Type     rune~
-Continent    2~
 Short    Polkelt's Signet Ring~
 Long     A gold ring featuring the unblinking eye of a scholar.~
 WFlags   take finger~
@@ -1018,7 +1011,6 @@ Affect   3 12 0 0 0
 Vnum     21548
 Keywords blood-stained apron body armor~
 Type     armor~
-Continent    2~
 Short    Krastinov's Bloody Apron~
 Long     A thick leather apron that is permanently stained with blood.~
 WFlags   take body~
@@ -1032,7 +1024,6 @@ Affect   1 15 0 0 0
 Vnum     21549
 Keywords spectral silk cape about~
 Type     armor~
-Continent    2~
 Short    a Spectral Silk Cape~
 Long     A translucent cape that feels cold to the touch.~
 WFlags   take about~
@@ -1046,7 +1037,6 @@ Affect   2 12 0 0 0
 Vnum     21550
 Keywords viewless barov key~
 Type     key~
-Continent    2~
 Short    the Viewing Room Key~
 Long     A heavy iron key marked with the initials of the Barov family.~
 WFlags   take~
@@ -1059,7 +1049,6 @@ Rarity   2
 Vnum     21551
 Keywords scourge stone corrupt~
 Type     treasure~
-Continent    2~
 Short    a Corrupt Scourgestone~
 Long     A jagged green stone marked with the seal of the Scourge.~
 WFlags   take~
@@ -1072,7 +1061,6 @@ Rarity   1
 Vnum     21552
 Keywords plaguebloom herb~
 Type     treasure~
-Continent    2~
 Short    a bunch of Plaguebloom~
 Long     A cluster of grey, diseased-looking flowers with a sweet scent.~
 WFlags   take hold~
@@ -1086,7 +1074,6 @@ Affect   5 15 0 0 0
 Vnum     21553
 Keywords dreamfoil herb~
 Type     treasure~
-Continent    2~
 Short    a bundle of Dreamfoil~
 Long     Silvery leaves that smell of the Emerald Dream.~
 WFlags   take hold~
@@ -1100,7 +1087,6 @@ Affect   3 10 0 0 0
 Vnum     21554
 Keywords mountain silversage herb~
 Type     treasure~
-Continent    2~
 Short    a bunch of Mountain Silversage~
 Long     Elegant silvery leaves found on the academy's high ridges.~
 WFlags   take hold~
@@ -1114,7 +1100,6 @@ Affect   2 12 0 0 0
 Vnum     21555
 Keywords ghost mushroom treasure~
 Type     treasure~
-Continent    2~
 Short    a glowing Ghost Mushroom~
 Long     A translucent mushroom that pulses with a cold green light.~
 WFlags   take hold~
@@ -1128,7 +1113,6 @@ Affect   3 12 0 0 0
 Vnum     21556
 Keywords sacrificial dagger weapon~
 Type     weapon~
-Continent    2~
 Short    a Scholomance Sacrificial Dagger~
 Long     A dagger with a bone handle and a blade of obsidian.~
 WFlags   take wield~
@@ -1142,7 +1126,6 @@ Affect   13 8 0 0 0
 Vnum     21557
 Keywords acolyte's hood head armor~
 Type     armor~
-Continent    2~
 Short    a Death's Head Hood~
 Long     A dark purple hood that obscures the wearer's features.~
 WFlags   take head~
@@ -1156,7 +1139,6 @@ Affect   3 10 0 0 0
 Vnum     21558
 Keywords necrotic essence treasure hold~
 Type     treasure~
-Continent    2~
 Short    a shard of Necrotic Essence~
 Long     A dark crystal that pulses with the heartbeat of the Scourge.~
 WFlags   take hold~
@@ -1170,7 +1152,6 @@ Affect   14 20 0 0 0
 Vnum     21559
 Keywords academy shield armor~
 Type     armor~
-Continent    2~
 Short    the Academy Kite Shield~
 Long     A heavy shield featuring the image of a burning book.~
 WFlags   take shield~
@@ -1184,7 +1165,6 @@ Affect   5 15 0 0 0
 Vnum     21560
 Keywords polkelt's book hold~
 Type     treasure~
-Continent    2~
 Short    Polkelt's Forbidden Book~
 Long     A heavy tome bound in shriveled human skin.~
 WFlags   take hold~
@@ -1199,7 +1179,6 @@ Affect   4 15 0 0 0
 Vnum     21561
 Keywords alchemy beaker trash~
 Type     trash~
-Continent    2~
 Short    a stained alchemy beaker~
 Long     A glass beaker filled with a mysterious purple residue.~
 WFlags   take~
@@ -1212,7 +1191,6 @@ Rarity   0
 Vnum     21562
 Keywords spectral dust trash~
 Type     trash~
-Continent    2~
 Short    a handful of spectral dust~
 Long     Fine shimmering dust that feels uncomfortably cold.~
 WFlags   take~
@@ -1225,7 +1203,6 @@ Rarity   1
 Vnum     21563
 Keywords bones trash~
 Type     trash~
-Continent    2~
 Short    a pile of bleached bones~
 Long     A collection of assorted humanoid bones.~
 WFlags   take~
@@ -1238,7 +1215,6 @@ Rarity   0
 Vnum     21564
 Keywords rattlegore's rib trophy~
 Type     trash~
-Continent    2~
 Short    a massive skeletal rib~
 Long     A bone as long as a spear, taken from a skeletal giant.~
 WFlags   take~
@@ -1251,7 +1227,6 @@ Rarity   1
 Vnum     21565
 Keywords shadow-hide boots feet armor~
 Type     armor~
-Continent    2~
 Short    a pair of Shadow-hide Boots~
 Long     Durable boots made from the leather of a demonic beast.~
 WFlags   take feet~
@@ -1265,7 +1240,6 @@ Affect   2 15 0 0 0
 Vnum     21566
 Keywords barov's bracers wrist~
 Type     armor~
-Continent    2~
 Short    a pair of Barovian Bracers~
 Long     Fine steel wristguards engraved with silver flowers.~
 WFlags   take wrist~
@@ -1279,7 +1253,6 @@ Affect   5 12 0 0 0
 Vnum     21567
 Keywords malicia's needle weapon~
 Type     weapon~
-Continent    2~
 Short    Malicia's Poisoned Needle~
 Long     A long, thin rapier that still drips with toxic fluid.~
 WFlags   take wield~
@@ -1294,7 +1267,6 @@ Affect   13 10 0 0 0
 Vnum     21568
 Keywords ectoplasmic fluid flask treasure~
 Type     treasure~
-Continent    2~
 Short    a flask of Ectoplasmic Fluid~
 Long     A glass jar containing a swirling green liquid.~
 WFlags   take hold~
@@ -1308,7 +1280,6 @@ Affect   13 10 0 0 0
 Vnum     21569
 Keywords runecloth bolt loot~
 Type     treasure~
-Continent    2~
 Short    a bolt of Runecloth~
 Long     Fine cloth woven with protective arcane runes.~
 WFlags   take~
@@ -1321,7 +1292,6 @@ Rarity   1
 Vnum     21570
 Keywords frozen core treasure hold~
 Type     treasure~
-Continent    2~
 Short    a Frozen Lich Core~
 Long     A crystal that radiates intense cold, taken from Frostwhisper.~
 WFlags   take hold~
@@ -1336,7 +1306,6 @@ Affect   14 20 0 0 0
 Vnum     21571
 Keywords darkness shard treasure~
 Type     treasure~
-Continent    2~
 Short    a Shard of pure Darkness~
 Long     A piece of shadow turned into physical form.~
 WFlags   take hold~
@@ -1350,7 +1319,6 @@ Affect   14 25 0 0 0
 Vnum     21572
 Keywords master's ring rune~
 Type     rune~
-Continent    2~
 Short    the Headmaster's Signet~
 Long     A platinum ring featuring a large, glowing red eye.~
 WFlags   take finger~
@@ -1365,7 +1333,6 @@ Affect   4 20 0 0 0
 Vnum     21573
 Keywords krastinov's bag hold~
 Type     treasure~
-Continent    2~
 Short    a Bag of Dissected Parts~
 Long     A heavy leather bag that squelches when moved.~
 WFlags   take hold~
@@ -1378,7 +1345,6 @@ Rarity   1
 Vnum     21574
 Keywords spectral lamp hold~
 Type     treasure~
-Continent    2~
 Short    a Caer Darrow Spirit-Lamp~
 Long     An ornate silver lamp that burns with a blue flame.~
 WFlags   take hold~
@@ -1391,7 +1357,6 @@ Rarity   1
 Vnum     21575
 Keywords barov family seal rune~
 Type     rune~
-Continent    2~
 Short    the Barov Family Seal~
 Long     A silver medallion marked with the family's three-rose crest.~
 WFlags   take neck~
@@ -1406,7 +1371,6 @@ Affect   5 10 0 0 0
 Vnum     21576
 Keywords mace smiting weapon~
 Type     weapon~
-Continent    2~
 Short    the Mace of Smiting~
 Long     A heavy hammer that glows with a righteous light.~
 WFlags   take wield~
@@ -1421,7 +1385,6 @@ Affect   5 15 0 0 0
 Vnum     21577
 Keywords ravenian's tooth trophy~
 Type     trash~
-Continent    2~
 Short    a jagged Ravenian tooth~
 Long     A sharp, shriveled tooth taken from a massive ghoul.~
 WFlags   take~
@@ -1434,7 +1397,6 @@ Rarity   0
 Vnum     21578
 Keywords dark-ritual robe body armor~
 Type     armor~
-Continent    2~
 Short    the Robes of Dark Ritual~
 Long     Heavy silken robes used in the summoning of Hakkar.~
 WFlags   take body~
@@ -1449,7 +1411,6 @@ Affect   14 15 0 0 0
 Vnum     21579
 Keywords skeleton bone-staff weapon~
 Type     weapon~
-Continent    2~
 Short    a Bone-staff of the Academy~
 Long     A staff made of fused humanoid vertebrae, humming with power.~
 WFlags   take wield~

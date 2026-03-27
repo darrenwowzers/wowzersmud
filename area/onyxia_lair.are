@@ -844,7 +844,6 @@ Saves      0 0 0 0 0
 Vnum     41100
 Keywords onyxia's head trophy quest~
 Type     trash~
-Continent    1~
 Short    the Head of Onyxia~
 Long     The massive, severed head of the Broodmother, dripping with hot blood.~
 WFlags   take~
@@ -857,7 +856,6 @@ Stats    50 0 60 0 0
 Vnum     41101
 Keywords shard scale jewelry neck~
 Type     rune~
-Continent    1~
 Short    the Shard of the Scale~
 Long     A glowing shard of obsidian that pulses with draconic heat.~
 WFlags   take neck~
@@ -872,7 +870,6 @@ AffectData   'berserk style' 15 0 0 0
 Vnum     41102
 Keywords deathbringer sword weapon~
 Type     weapon~
-Continent    1~
 Short    the Deathbringer~
 Long     A heavy steel sword with a hilt of braided dragon-leather.~
 WFlags   take wield~
@@ -887,7 +884,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     41103
 Keywords judgemnt crown head armor~
 Type     armor~
-Continent    1~
 Short    the Crown of Judgement~
 Long     A magnificent gold crown wreathed in holy flame.~
 WFlags   take head~
@@ -902,7 +898,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     41104
 Keywords bloodfang hood head armor~
 Type     armor~
-Continent    1~
 Short    the Bloodfang Hood~
 Long     A dark leather hood that seems to bleed from the shadows.~
 WFlags   take head~
@@ -917,7 +912,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     41105
 Keywords dragonstalker helm head armor~
 Type     armor~
-Continent    1~
 Short    the Dragonstalker's Helm~
 Long     A helm fashioned from the skull of a black drake.~
 WFlags   take head~
@@ -932,7 +926,6 @@ AffectData   'armor' 25 0 0 0
 Vnum     41106
 Keywords stormrage cover head armor~
 Type     armor~
-Continent    1~
 Short    the Stormrage Cover~
 Long     A circlet of living wood and emerald leaves.~
 WFlags   take head~
@@ -947,7 +940,6 @@ AffectData   'acidshot' 15 0 0 0
 Vnum     41107
 Keywords transcendence halo head armor~
 Type     armor~
-Continent    1~
 Short    the Halo of Transcendence~
 Long     A shimmering circle of pure light that floats above the head.~
 WFlags   take head~
@@ -962,7 +954,6 @@ AffectData   'backstab' 20 0 0 0
 Vnum     41108
 Keywords nemesis skullcap head armor~
 Type     armor~
-Continent    1~
 Short    the Nemesis Skullcap~
 Long     A blackened iron helm featuring demonic horns.~
 WFlags   take head~
@@ -977,7 +968,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     41109
 Keywords netherwind crown head armor~
 Type     armor~
-Continent    1~
 Short    the Netherwind Crown~
 Long     A crystalline crown that hums with unstable arcane energy.~
 WFlags   take head~
@@ -992,7 +982,6 @@ AffectData   'armor' 15 0 0 0
 Vnum     41110
 Keywords ten storms helmet head armor~
 Type     armor~
-Continent    1~
 Short    the Helmet of Ten Storms~
 Long     Heavy mail headpiece depicting a raging lightning storm.~
 WFlags   take head~
@@ -1007,7 +996,6 @@ AffectData   'backstab' 15 0 0 0
 Vnum     41111
 Keywords dragon-hide bag hold~
 Type     treasure~
-Continent    1~
 Short    Onyxia's Hide Backpack~
 Long     A massive backpack made from the durable skin of the Broodmother.~
 WFlags   take hold~
@@ -1020,7 +1008,6 @@ Stats    15 15000 60 0 0
 Vnum     41112
 Keywords black dragonscale trophy~
 Type     trash~
-Continent    1~
 Short    a Black Dragonscale~
 Long     A thick obsidian scale that is warm to the touch.~
 WFlags   take~
@@ -1033,7 +1020,6 @@ Stats    1 500 1 0 0
 Vnum     41113
 Keywords volcanic ash pouch~
 Type     trash~
-Continent    1~
 Short    a pouch of Volcanic Ash~
 Long     A small leather pouch filled with fine grey powder.~
 WFlags   take~
@@ -1045,7 +1031,6 @@ Stats    1 50 1 0 0
 Vnum     41114
 Keywords molten rock stone~
 Type     trash~
-Continent    1~
 Short    a piece of molten rock~
 Long     A stone that is still glowing with orange heat.~
 WFlags   take~
@@ -1057,7 +1042,6 @@ Stats    10 1 1 0 0
 Vnum     41115
 Keywords dragon blood flask treasure~
 Type     treasure~
-Continent    1~
 Short    a flask of Dragon Blood~
 Long     A glass vial containing thick, glowing red dragon blood.~
 WFlags   take hold~
@@ -1071,7 +1055,6 @@ AffectData   'astral walk' 15 0 0 0
 Vnum     41116
 Keywords obsidian mace weapon~
 Type     weapon~
-Continent    1~
 Short    an Obsidian War-mace~
 Long     A heavy mace with a head of solid, razor-sharp black glass.~
 WFlags   take wield~
@@ -1085,7 +1068,6 @@ AffectData   'acetum primus' 15 0 0 0
 Vnum     41117
 Keywords fireguard's heart treasure hold~
 Type     treasure~
-Continent    1~
 Short    the Heart of a Fireguard~
 Long     A small, glowing coal that never turns to ash.~
 WFlags   take hold~
@@ -1099,7 +1081,6 @@ AffectData   'astral walk' 10 0 0 0
 Vnum     41118
 Keywords black-iron bar mineral~
 Type     treasure~
-Continent    1~
 Short    a solid Black Iron Bar~
 Long     A heavy, rectangular bar of refined Dark Iron metal.~
 WFlags   take~
@@ -1112,7 +1093,6 @@ Stats    10 1500 60 0 0
 Vnum     41119
 Keywords dragon-bone tooth trophy~
 Type     trash~
-Continent    1~
 Short    a jagged dragon-tooth~
 Long     A long, sharp tooth taken from a black dragonspawn.~
 WFlags   take~
@@ -1125,7 +1105,6 @@ Stats    2 250 1 0 0
 Vnum     41120
 Keywords runecloth bolt loot~
 Type     treasure~
-Continent    1~
 Short    a bolt of Runecloth~
 Long     Durable cloth woven with protective arcane runes.~
 WFlags   take~

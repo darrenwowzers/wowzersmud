@@ -651,7 +651,6 @@ Saves      0 0 0 0 0
 Vnum     14000
 Keywords rifle ironforge dwarven~
 Type     weapon~
-Continent    2~
 Short    an Ironforge rifle~
 Long     A finely crafted dwarven rifle lies here.~
 WFlags   take wield~
@@ -663,7 +662,6 @@ Stats    25 200 25 0 0
 Vnum     14001
 Keywords hammer war dwarven~
 Type     weapon~
-Continent    2~
 Short    a dwarven warhammer~
 Long     A heavy dwarven warhammer rests here.~
 WFlags   take wield~
@@ -675,7 +673,6 @@ Stats    20 150 20 0 0
 Vnum     14002
 Keywords axe battle dwarven~
 Type     weapon~
-Continent    2~
 Short    a dwarven battleaxe~
 Long     A gleaming dwarven battleaxe lies here.~
 WFlags   take wield~
@@ -687,7 +684,6 @@ Stats    22 175 22 0 0
 Vnum     14003
 Keywords shield bronze dwarven~
 Type     armor~
-Continent    2~
 Short    a bronze dwarven shield~
 Long     A sturdy bronze shield with dwarven runes lies here.~
 WFlags   take shield~
@@ -699,7 +695,6 @@ Stats    15 100 15 0 0
 Vnum     14004
 Keywords helm ram horned~
 Type     armor~
-Continent    2~
 Short    a ram-horned helm~
 Long     A helm adorned with curling ram horns lies here.~
 WFlags   take head~
@@ -711,7 +706,6 @@ Stats    18 120 18 0 0
 Vnum     14005
 Keywords breastplate plate dwarven~
 Type     armor~
-Continent    2~
 Short    a dwarven plate breastplate~
 Long     A heavy dwarven breastplate lies here.~
 WFlags   take body~
@@ -723,7 +717,6 @@ Stats    25 200 25 0 0
 Vnum     14006
 Keywords gauntlets mail dwarven~
 Type     armor~
-Continent    2~
 Short    a pair of dwarven mail gauntlets~
 Long     A pair of finely wrought mail gauntlets lies here.~
 WFlags   take hands~
@@ -735,7 +728,6 @@ Stats    12 80 12 0 0
 Vnum     14007
 Keywords boots iron dwarven~
 Type     armor~
-Continent    2~
 Short    a pair of iron-shod boots~
 Long     A pair of heavy iron-shod boots lies here.~
 WFlags   take feet~
@@ -747,7 +739,6 @@ Stats    14 90 14 0 0
 Vnum     14008
 Keywords ale thunderbrew mug~
 Type     drinkcon~
-Continent    2~
 Short    a mug of Thunderbrew Ale~
 Long     A frothy mug of legendary Thunderbrew Ale sits here.~
 WFlags   take hold~
@@ -759,7 +750,6 @@ Stats    1 8 1 0 0
 Vnum     14009
 Keywords stout barleybrew dark~
 Type     drinkcon~
-Continent    2~
 Short    a tankard of Barleybrew Stout~
 Long     A tankard of rich, dark Barleybrew Stout sits here.~
 WFlags   take hold~
@@ -771,7 +761,6 @@ Stats    1 6 1 0 0
 Vnum     14010
 Keywords bread hearty loaf~
 Type     food~
-Continent    2~
 Short    a loaf of hearty dwarven bread~
 Long     A dense loaf of dwarven bread sits here.~
 WFlags   take~
@@ -783,7 +772,6 @@ Stats    1 5 1 0 0
 Vnum     14011
 Keywords cheese sharp aged~
 Type     food~
-Continent    2~
 Short    a wheel of aged dwarven cheese~
 Long     A wheel of sharp, aged cheese sits here.~
 WFlags   take~
@@ -795,7 +783,6 @@ Stats    1 8 1 0 0
 Vnum     14012
 Keywords sausage spiced links~
 Type     food~
-Continent    2~
 Short    a string of spiced sausages~
 Long     A string of delicious spiced sausages hangs here.~
 WFlags   take~
@@ -807,7 +794,6 @@ Stats    1 6 1 0 0
 Vnum     14013
 Keywords roast boar platter~
 Type     food~
-Continent    2~
 Short    a platter of roast boar~
 Long     A platter heaped with roast boar sits here.~
 WFlags   take~
@@ -819,7 +805,6 @@ Stats    2 12 2 0 0
 Vnum     14014
 Keywords pickaxe mining mithril~
 Type     weapon~
-Continent    2~
 Short    a mithril mining pickaxe~
 Long     A mithril-headed pickaxe lies here.~
 WFlags   take wield~
@@ -831,7 +816,6 @@ Stats    15 100 15 0 0
 Vnum     14015
 Keywords ore iron chunk~
 Type     treasure~
-Continent    2~
 Short    a chunk of iron ore~
 Long     A heavy chunk of iron ore lies here.~
 WFlags   take~
@@ -843,7 +827,6 @@ Stats    3 15 3 0 0
 Vnum     14016
 Keywords ore copper chunk~
 Type     treasure~
-Continent    2~
 Short    a chunk of copper ore~
 Long     A chunk of copper ore lies here.~
 WFlags   take~
@@ -855,7 +838,6 @@ Stats    2 10 2 0 0
 Vnum     14017
 Keywords ore gold nugget~
 Type     treasure~
-Continent    2~
 Short    a gold nugget~
 Long     A gleaming gold nugget lies here.~
 WFlags   take~
@@ -867,7 +849,6 @@ Stats    1 100 1 0 0
 Vnum     14018
 Keywords gem ruby cut~
 Type     treasure~
-Continent    2~
 Short    a cut ruby~
 Long     A brilliant cut ruby glitters here.~
 WFlags   take~
@@ -879,7 +860,6 @@ Stats    1 150 1 0 0
 Vnum     14019
 Keywords gem sapphire cut~
 Type     treasure~
-Continent    2~
 Short    a cut sapphire~
 Long     A deep blue sapphire lies here.~
 WFlags   take~
@@ -891,7 +871,6 @@ Stats    1 125 1 0 0
 Vnum     14020
 Keywords artifact titan relic~
 Type     treasure~
-Continent    2~
 Short    a Titan artifact fragment~
 Long     A mysterious fragment of Titan origin lies here.~
 WFlags   take hold~
@@ -903,7 +882,6 @@ Stats    1 500 1 0 0
 Vnum     14021
 Keywords cloak mountaineer brown~
 Type     armor~
-Continent    2~
 Short    a brown mountaineer's cloak~
 Long     A thick brown mountaineer's cloak lies here.~
 WFlags   take about~
@@ -915,7 +893,6 @@ Stats    10 60 10 0 0
 Vnum     14022
 Keywords goggles engineering gnomish~
 Type     armor~
-Continent    2~
 Short    a pair of gnomish engineering goggles~
 Long     A pair of complicated-looking goggles lies here.~
 WFlags   take head~
@@ -927,7 +904,6 @@ Stats    8 75 8 0 0
 Vnum     14023
 Keywords toolbox gnomish engineer~
 Type     container~
-Continent    2~
 Short    a gnomish toolbox~
 Long     A dented gnomish toolbox sits here.~
 WFlags   take hold~
@@ -939,7 +915,6 @@ Stats    5 40 5 0 0
 Vnum     14024
 Keywords lantern dwarven brass~
 Type     light~
-Continent    2~
 Short    a brass dwarven lantern~
 Long     A well-crafted brass lantern sits here.~
 WFlags   take hold~
@@ -951,7 +926,6 @@ Stats    3 25 3 0 0
 Vnum     14025
 Keywords ring signet bronzebeard~
 Type     armor~
-Continent    2~
 Short    a Bronzebeard signet ring~
 Long     A heavy gold signet ring lies here.~
 WFlags   take finger~
