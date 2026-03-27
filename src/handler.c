@@ -17,6 +17,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <time.h> /* Wowzers Mud: Needed for ctime in Limbo Logger --Hansth */
 #include "mud.h"
 
 extern int top_exit;
@@ -2746,6 +2747,60 @@ void extract_char( CHAR_DATA * ch, bool fPull )
    if( !fPull )
    {
       location = NULL;
+
+     char_from_room( ch );
+
+   if( !fPull )
+   {
+      location = NULL;
+
+      /* ============================================
+         Wowzers Mud: Limbo Logger --Hansth
+         ============================================ */
+      if ( IS_NPC( ch ) )
+      {
+         FILE *fp;
+         char log_buf[MAX_STRING_LENGTH];
+         char *strtime = ctime( &current_time );
+         strtime[strlen(strtime)-1] = '\0'; /* Remove newline --Hansth */
+         
+         if ( (fp = fopen( "../log/limbo.log", "a" )) != NULL )
+         {
+            sprintf( log_buf, "[%s] Mob [%d] %s sent to limbo from Room [%d].\n",
+                     strtime, 
+                     ch->pIndexData ? ch->pIndexData->vnum : 0, 
+                     ch->short_descr,
+                     ch->was_in_room ? ch->was_in_room->vnum : 0 );
+            fprintf( fp, "%s", log_buf );
+            fclose( fp );
+         }
+      }
+
+      if( !IS_NPC( ch ) && ch->pcdata->clan )
+         location = get_room_index( ch->pcdata->clan->recall );
+
+      if( !location )
+         location = get_room_index( ROOM_VNUM_ALTAR );
+
+      if( !location )
+         location = get_room_index( 1 );
+
+      char_to_room( ch, location );
+      /*
+       * Make things a little fancier           -Thoric
+       */
+      if( ( wch = get_char_room( ch, "healer" ) ) != NULL )
+      {
+         act( AT_MAGIC, "$n mutters a few incantations, waves $s hands and points $s finger.", wch, NULL, NULL, TO_ROOM );
+         act( AT_MAGIC, "$n appears from some strange swirling mists!", ch, NULL, NULL, TO_ROOM );
+         snprintf( buf, MAX_STRING_LENGTH, "Welcome back to the land of the living, %s", capitalize( ch->name ) );
+         do_say( wch, buf );
+      }
+      else
+         act( AT_MAGIC, "$n appears from some strange swirling mists!", ch, NULL, NULL, TO_ROOM );
+      ch->position = POS_RESTING;
+      return;
+   }
 
       if( !IS_NPC( ch ) && ch->pcdata->clan )
          location = get_room_index( ch->pcdata->clan->recall );

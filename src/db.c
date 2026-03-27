@@ -7784,6 +7784,10 @@ void fread_fuss_areadata( FILE * fp, AREA_DATA * tarea )
             KEY( "Spelllimit", tarea->spelllimit, fread_number( fp ) );
             break;
 
+         case 'T':
+            KEY( "Type", tarea->type, fread_number( fp ) ); /* Wowzers MUD Area Classifications --Hansth */
+            break;
+
          case 'V':
             KEY( "Version", tarea->version, fread_number( fp ) );
             break;
@@ -8371,26 +8375,92 @@ void do_vnums( CHAR_DATA* ch, const char* argument )
    show_vnums( ch, low, high, TRUE, TRUE, " *", "" );
 }
 
-/*
- * Shows installed areas, sorted.  Mark unloaded areas with an X
- */
+/* ============================================
+   Wowzers Mud: MMO Zones Interface --Hansth
+   ============================================ */
 void do_zones( CHAR_DATA* ch, const char* argument )
 {
+   AREA_DATA *pArea;
    char arg1[MAX_INPUT_LENGTH];
    char arg2[MAX_INPUT_LENGTH];
    int low, high;
+   char continent_name[50];
+   char area_color[10];
+   const char *area_type;
+   int loaded_count = 0;
+   int listed_count = 0;
 
    argument = one_argument( argument, arg1 );
    argument = one_argument( argument, arg2 );
    low = 1;
    high = MAX_VNUM;
+   
    if( arg1[0] != '\0' )
    {
       low = atoi( arg1 );
       if( arg2[0] != '\0' )
          high = atoi( arg2 );
    }
-   show_vnums( ch, low, high, FALSE, TRUE, "", " X" );
+
+   set_pager_color( AT_PLAIN, ch );
+   send_to_pager( "&z+----------------------------------------------------------------------------------------------------------+\r\n", ch );
+   send_to_pager( "&z| &WContinent          &z| &WArea Type &z| &WZone File                 &z| &WRooms         &z| &WObjs          &z| &WMobs          &z|\r\n", ch );
+   send_to_pager( "&z+----------------------------------------------------------------------------------------------------------+&w\r\n", ch );
+
+   /* We use first_area_name to sort them alphabetically --Hansth */
+   for( pArea = first_area_name; pArea; pArea = pArea->next_sort_name )
+   {
+      /* Filter by requested VNUM range --Hansth */
+      if ( pArea->hi_r_vnum < low || pArea->low_r_vnum > high )
+         continue;
+
+      listed_count++;
+      if ( IS_SET( pArea->status, AREA_LOADED ) )
+         loaded_count++;
+
+      /* Assign Continent String and Color --Hansth */
+      switch ( pArea->continent )
+      {
+          case CONTINENT_KALIMDOR:  
+              sprintf( continent_name, "&O%-18s", "Kalimdor" ); 
+              sprintf( area_color, "&O" );
+              break;
+          case CONTINENT_EASTERN: 
+              sprintf( continent_name, "&B%-18s", "Eastern Kingdoms" ); 
+              sprintf( area_color, "&B" );
+              break;
+          case CONTINENT_INSTANCE:
+              sprintf( continent_name, "&P%-18s", "Instance" );
+              sprintf( area_color, "&P" );
+              break;
+          default:
+              sprintf( continent_name, "&w%-18s", "Unknown" );
+              sprintf( area_color, "&w" );
+              break;
+      }
+
+      /* Wowzers MUD: Area Classifications --Hansth */
+      switch( pArea->type )
+      {
+         case AREA_ALLIANCE: area_type = "&BAlliance &z"; break;
+         case AREA_HORDE:    area_type = "&RHorde    &z"; break;
+         case AREA_NEUTRAL:  area_type = "&GNeutral  &z"; break;
+         case AREA_DUNGEON:  area_type = "&cDungeon  &z"; break;
+         case AREA_RAID:     area_type = "&PRaid     &z"; break;
+         case AREA_OFFLIMITS: area_type= "&COfflimit &z"; break;
+         case AREA_LEVELING:
+         default:            area_type = "&YLeveling &z"; break;
+      }
+
+      /* Custom WoW-style display layout for Builders --Hansth */
+      pager_printf( ch, "&z| %s &z| %s &z| %s%-25s &z| &G%5d - %-5d &z| &G%5d - %-5d &z| &G%5d - %-5d &z|\r\n",
+                    continent_name, area_type, area_color, pArea->filename,
+                    pArea->low_r_vnum, pArea->hi_r_vnum,
+                    pArea->low_o_vnum, pArea->hi_o_vnum,
+                    pArea->low_m_vnum, pArea->hi_m_vnum );
+   }
+   send_to_pager( "&z+----------------------------------------------------------------------------------------------------------+&w\r\n", ch );
+   pager_printf( ch, "&WAreas listed: &G%d  &WLoaded: &G%d&w\r\n", listed_count, loaded_count );
 }
 
 /*

@@ -4526,30 +4526,18 @@ void do_credits( CHAR_DATA* ch, const char* argument )
 
 extern int top_area;
 
-/*
- * New do_areas, written by Fireblade, last modified - 4/27/97
- *
- *   Syntax: area            ->      lists areas in alphanumeric order
- *           area <a>        ->      lists areas with soft max less than
- *                                                    parameter a
- *           area <a> <b>    ->      lists areas with soft max bewteen
- *                                                    numbers a and b
- *           area old        ->      list areas in order loaded
- *
- */
+/* ============================================
+   Wowzers Mud: MMO Area Interface -Hansth
+   ============================================ */
 void do_areas( CHAR_DATA* ch, const char* argument )
 {
-   const char *header_string1 = "\r\n   Type   |   Author  |          Area" "                     | " "Recommended |  Enforced\r\n";
-   const char *header_string2 = "----------+---------------" "---+----" "---------+-----------\r\n";
-   const char *print_string = "%-12s | %-36s | %4d - %-4d | %3d - " "%-3d \r\n";
-
    AREA_DATA *pArea;
    int lower_bound = 0;
    int upper_bound = MAX_LEVEL + 1;
-   /*
-    * make sure is to init. > max area level 
-    */
    char arg[MAX_STRING_LENGTH];
+   char continent_name[50];
+   char area_color[10];
+   const char *area_type;
 
    argument = one_argument( argument, arg );
 
@@ -4557,27 +4545,8 @@ void do_areas( CHAR_DATA* ch, const char* argument )
    {
       if( !is_number( arg ) )
       {
-         if( !strcmp( arg, "old" ) )
-         {
-            set_pager_color( AT_PLAIN, ch );
-            send_to_pager( header_string1, ch );
-            send_to_pager( header_string2, ch );
-            for( pArea = first_area; pArea; pArea = pArea->next )
-            {
-               if( IS_SET( pArea->flags, AFLAG_HIDDEN ) ) /* Blod, 2000 */
-                  continue;
-
-               pager_printf( ch, print_string,
-                             pArea->author, pArea->name,
-                             pArea->low_soft_range, pArea->hi_soft_range, pArea->low_hard_range, pArea->hi_hard_range );
-            }
-            return;
-         }
-         else
-         {
-            send_to_char( "Area may only be followed by numbers, or 'old'.\r\n", ch );
-            return;
-         }
+         send_to_char( "Area may only be followed by numbers.\r\n", ch );
+         return;
       }
 
       upper_bound = atoi( arg );
@@ -4612,39 +4581,59 @@ void do_areas( CHAR_DATA* ch, const char* argument )
    }
 
    set_pager_color( AT_PLAIN, ch );
-   send_to_pager( header_string1, ch );
-   send_to_pager( header_string2, ch );
+   send_to_pager( "&z+---------------------------------------------------------------------------------------+\r\n", ch );
+   send_to_pager( "&z| &WLevel Range &z| &WContinent          &z| &WArea Type  &z| &WZone Name                             &z|\r\n", ch );
+   send_to_pager( "&z+---------------------------------------------------------------------------------------+&w\r\n", ch );
 
    for( pArea = first_area_name; pArea; pArea = pArea->next_sort_name )
    {
-      if( IS_SET( pArea->flags, AFLAG_HIDDEN ) ) /* Blod, 2000 */
+      /* Hide unlinked/hidden areas from players --Hansth */
+      if( IS_SET( pArea->flags, AFLAG_HIDDEN ) && !IS_IMMORTAL(ch) )
          continue;
 
-if( pArea->hi_soft_range >= lower_bound && pArea->low_soft_range <= upper_bound )
+      if( pArea->hi_soft_range >= lower_bound && pArea->low_soft_range <= upper_bound )
       {
-         const char *area_type;
-
-         /* Wowzers MUD Area Classifications --Hansth */
-         switch( pArea->type )
+         /* Assign Continent String and Color --Hansth */
+         switch ( pArea->continent )
          {
-            case AREA_ALLIANCE: area_type = "&B[Alliance]&D"; break;
-            case AREA_HORDE:    area_type = "&R[ Horde  ]&D"; break;
-            case AREA_NEUTRAL:  area_type = "&G[Neutral ]&D"; break;
-            case AREA_DUNGEON:  area_type = "&c[Dungeon ]&D"; break;
-            case AREA_RAID:     area_type = "&P[  Raid  ]&D"; break;
-            case AREA_OFFLIMITS: area_type= "&C[Offlimit]&D"; break;
-            case AREA_LEVELING:
-            default:            area_type = "&Y[Leveling]&D"; break;
+             case CONTINENT_KALIMDOR:  
+                 sprintf( continent_name, "&O%-18s", "Kalimdor" ); 
+                 sprintf( area_color, "&O" );
+                 break;
+             case CONTINENT_EASTERN: 
+                 sprintf( continent_name, "&B%-18s", "Eastern Kingdoms" ); 
+                 sprintf( area_color, "&B" );
+                 break;
+             case CONTINENT_INSTANCE:
+                 sprintf( continent_name, "&P%-18s", "Instance" );
+                 sprintf( area_color, "&P" );
+                 break;
+             default:
+                 sprintf( continent_name, "&w%-18s", "Unknown" );
+                 sprintf( area_color, "&w" );
+                 break;
          }
 
-         /* Custom WoW-style display layout */
-         pager_printf( ch, "%s %-12s %-26s %3d-%-3d  %3d-%-3d\r\n",
-                       area_type, pArea->author, pArea->name,
-                       pArea->low_soft_range, pArea->hi_soft_range, 
-                       pArea->low_hard_range, pArea->hi_hard_range );
-      }
+         /* Wowzers MUD: Area Classifications --Hansth */
+         switch( pArea->type )
+         {
+            case AREA_ALLIANCE: area_type = "&BAlliance  &z"; break;
+            case AREA_HORDE:    area_type = "&RHorde     &z"; break;
+            case AREA_NEUTRAL:  area_type = "&GNeutral   &z"; break;
+            case AREA_DUNGEON:  area_type = "&cDungeon   &z"; break;
+            case AREA_RAID:     area_type = "&PRaid      &z"; break;
+            case AREA_OFFLIMITS: area_type= "&COfflimit  &z"; break;
+            case AREA_LEVELING:
+            default:            area_type = "&YLeveling  &z"; break;
+         }
 
+         /* Custom WoW-style display layout --Hansth */
+         pager_printf( ch, "&z|  &G%3d - %3d  &z| %s &z| %s &z| %s%-37s &z|\r\n",
+                       pArea->low_soft_range, pArea->hi_soft_range, 
+                       continent_name, area_type, area_color, pArea->name );
+      }
    }
+   send_to_pager( "&z+---------------------------------------------------------------------------------------+&w\r\n", ch );
 }
 
 void do_afk( CHAR_DATA* ch, const char* argument )

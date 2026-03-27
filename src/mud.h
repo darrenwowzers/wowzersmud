@@ -2257,6 +2257,14 @@ typedef enum
    AREA_LEVELING, AREA_ALLIANCE, AREA_HORDE, AREA_NEUTRAL, AREA_DUNGEON, AREA_RAID, AREA_OFFLIMITS
 } area_types;
 
+/* ============================================
+   Wowzers Mud: Continents -Hansth
+   ============================================ */
+#define CONTINENT_UNKNOWN           0
+#define CONTINENT_KALIMDOR          1
+#define CONTINENT_EASTERN         2
+#define CONTINENT_INSTANCE          3
+
 /* Area flags - Narn Mar/96 */
 #define AFLAG_NOPKILL         BV00
 #define AFLAG_FREEKILL        BV01
@@ -2957,6 +2965,10 @@ struct area_data
    const char *filename;
    const char *author;  /* Scryn */
    const char *resetmsg;   /* Rennard */
+   /* ============================================
+      Wowzers Mud: Continent Tracking -Hansth
+      ============================================ */
+   short continent;
    const char *credits; /* Edmond */
    int flags;
    int low_r_vnum;
