@@ -6741,6 +6741,8 @@ void fwrite_area_header( FILE * fpout, AREA_DATA * tarea, bool install )
    fprintf( fpout, "Version      %d\n", tarea->version );
    fprintf( fpout, "Name         %s~\n", tarea->name );
    fprintf( fpout, "Author       %s~\n", tarea->author );
+   fprintf( fpout, "Type         %d\n", tarea->type ); /* Wowzers MUD Area Classifications --Hansth */
+   fprintf( fpout, "Continent    %d\n", tarea->continent ); /* Wowzers Mud Continent --Hansth */
    fprintf( fpout, "WeatherX     %d\n", tarea->weatherx );
    fprintf( fpout, "WeatherY     %d\n", tarea->weathery );
    if( tarea->credits && tarea->credits[0] != '\0' )
@@ -7540,6 +7542,55 @@ void do_aset( CHAR_DATA* ch, const char* argument )
       STRFREE( tarea->author );
       tarea->author = STRALLOC( argument );
       send_to_char( "Done.\r\n", ch );
+      return;
+   }
+
+/* Wowzers MUD Area Classifications --Hansth */
+   if( !str_cmp( arg2, "type" ) )
+   {
+      if( !argument || argument[0] == '\0' )
+      {
+         send_to_char( "Usage: aset <area> type <leveling|alliance|horde|neutral|dungeon|raid>\r\n", ch );
+         return;
+      }
+      
+      if( !str_cmp( argument, "leveling" ) )      tarea->type = AREA_LEVELING;
+      else if( !str_cmp( argument, "alliance" ) ) tarea->type = AREA_ALLIANCE;
+      else if( !str_cmp( argument, "horde" ) )    tarea->type = AREA_HORDE;
+      else if( !str_cmp( argument, "neutral" ) )  tarea->type = AREA_NEUTRAL;
+      else if( !str_cmp( argument, "dungeon" ) )  tarea->type = AREA_DUNGEON;
+      else if( !str_cmp( argument, "offlimits" ) ) tarea->type = AREA_OFFLIMITS;
+      else if( !str_cmp( argument, "raid" ) )     tarea->type = AREA_RAID;
+      else
+      {
+         send_to_char( "Invalid area type. Valid types are: leveling, alliance, horde, neutral, dungeon, raid.\r\n", ch );
+         return;
+      }
+      send_to_char( "Area type set.\r\n", ch );
+      return;
+   }
+
+   /* ============================================
+      Wowzers Mud: ASET Continent Tracking --Hansth
+      ============================================ */
+   if( !str_cmp( arg2, "continent" ) )
+   {
+      if( !argument || argument[0] == '\0' )
+      {
+         send_to_char( "Usage: aset <area> continent <kalimdor|eastern|instance|unknown>\r\n", ch );
+         return;
+      }
+      
+      if( !str_cmp( argument, "kalimdor" ) )      tarea->continent = CONTINENT_KALIMDOR;
+      else if( !str_cmp( argument, "eastern" ) )  tarea->continent = CONTINENT_EASTERN;
+      else if( !str_cmp( argument, "instance" ) ) tarea->continent = CONTINENT_INSTANCE;
+      else if( !str_cmp( argument, "unknown" ) )  tarea->continent = CONTINENT_UNKNOWN;
+      else
+      {
+         send_to_char( "Invalid continent. Valid options are: kalimdor, eastern, instance, unknown.\r\n", ch );
+         return;
+      }
+      send_to_char( "Area continent set.\r\n", ch );
       return;
    }
 

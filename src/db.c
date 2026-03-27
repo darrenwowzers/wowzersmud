@@ -819,6 +819,7 @@ AREA_DATA *load_area( FILE * fp, int aversion )
    pArea->filename = strdup( strArea );
    pArea->age = 15;
    pArea->nplayer = 0;
+   pArea->continent = CONTINENT_UNKNOWN; /* Wowzers Mud Continent --Hansth */
    pArea->low_r_vnum = 0;
    pArea->low_o_vnum = 0;
    pArea->low_m_vnum = 0;
@@ -7715,6 +7716,7 @@ void fread_fuss_areadata( FILE * fp, AREA_DATA * tarea )
             break;
 
          case 'C':
+            KEY( "Continent", tarea->continent, fread_number( fp ) ); /* Wowzers Mud --Hansth */
             KEY( "Credits", tarea->credits, fread_string( fp ) );
             break;
 
