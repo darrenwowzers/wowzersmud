@@ -8430,9 +8430,9 @@ void do_zones( CHAR_DATA* ch, const char* argument )
               sprintf( continent_name, "&B%-18s", "Eastern Kingdoms" ); 
               sprintf( area_color, "&B" );
               break;
-          case CONTINENT_INSTANCE:
-              sprintf( continent_name, "&P%-18s", "Instance" );
-              sprintf( area_color, "&P" );
+          case CONTINENT_PVP:
+              sprintf( continent_name, "&O%-18s", "Pvp" );
+              sprintf( area_color, "&O" );
               break;
           default:
               sprintf( continent_name, "&w%-18s", "Unknown" );

@@ -2254,7 +2254,7 @@ struct timer_data
 /* Wowzers MUD Area Classifications --Hansth */
 typedef enum
 {
-   AREA_LEVELING, AREA_ALLIANCE, AREA_HORDE, AREA_NEUTRAL, AREA_DUNGEON, AREA_RAID, AREA_OFFLIMITS
+   AREA_LEVELING, AREA_ALLIANCE, AREA_HORDE, AREA_PVP, AREA_DUNGEON, AREA_RAID, AREA_OFFLIMITS
 } area_types;
 
 /* ============================================
@@ -2262,8 +2262,8 @@ typedef enum
    ============================================ */
 #define CONTINENT_UNKNOWN           0
 #define CONTINENT_KALIMDOR          1
-#define CONTINENT_EASTERN         2
-#define CONTINENT_INSTANCE          3
+#define CONTINENT_EASTERN           2
+#define CONTINENT_PVP               3
 
 /* Area flags - Narn Mar/96 */
 #define AFLAG_NOPKILL         BV00

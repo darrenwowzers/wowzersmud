@@ -4602,8 +4602,8 @@ void do_areas( CHAR_DATA* ch, const char* argument )
              case CONTINENT_EASTERN: 
                  sprintf( continent_name, "&B%-18s", "Eastern Kingdoms" ); 
                  break;
-             case CONTINENT_INSTANCE:
-                 sprintf( continent_name, "&P%-18s", "Instance" );
+             case CONTINENT_PVP:
+                 sprintf( continent_name, "&P%-18s", "PVP" );
                  break;
              default:
                  sprintf( continent_name, "&w%-18s", "Unknown" );
@@ -4615,7 +4615,7 @@ void do_areas( CHAR_DATA* ch, const char* argument )
          {
             case AREA_ALLIANCE: area_type = "&BAlliance  &z"; sprintf( area_color, "&B" ); break;
             case AREA_HORDE:    area_type = "&RHorde     &z"; sprintf( area_color, "&R" ); break;
-            case AREA_NEUTRAL:  area_type = "&GNeutral   &z"; sprintf( area_color, "&G" ); break;
+            case AREA_PVP:      area_type = "&OPVP       &z"; sprintf( area_color, "&O" ); break;
             case AREA_DUNGEON:  area_type = "&cDungeon   &z"; sprintf( area_color, "&c" ); break;
             case AREA_RAID:     area_type = "&PRaid      &z"; sprintf( area_color, "&P" ); break;
             case AREA_OFFLIMITS: area_type= "&COfflimit  &z"; sprintf( area_color, "&C" ); break;

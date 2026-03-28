@@ -7557,13 +7557,13 @@ void do_aset( CHAR_DATA* ch, const char* argument )
       if( !str_cmp( argument, "leveling" ) )      tarea->type = AREA_LEVELING;
       else if( !str_cmp( argument, "alliance" ) ) tarea->type = AREA_ALLIANCE;
       else if( !str_cmp( argument, "horde" ) )    tarea->type = AREA_HORDE;
-      else if( !str_cmp( argument, "neutral" ) )  tarea->type = AREA_NEUTRAL;
+      else if( !str_cmp( argument, "pvp" ) )  tarea->type = AREA_PVP;
       else if( !str_cmp( argument, "dungeon" ) )  tarea->type = AREA_DUNGEON;
       else if( !str_cmp( argument, "offlimits" ) ) tarea->type = AREA_OFFLIMITS;
       else if( !str_cmp( argument, "raid" ) )     tarea->type = AREA_RAID;
       else
       {
-         send_to_char( "Invalid area type. Valid types are: leveling, alliance, horde, neutral, dungeon, raid.\r\n", ch );
+         send_to_char( "Invalid area type. Valid types are: leveling, alliance, horde, pvp, dungeon, raid.\r\n", ch );
          return;
       }
       send_to_char( "Area type set.\r\n", ch );
@@ -7583,11 +7583,11 @@ void do_aset( CHAR_DATA* ch, const char* argument )
       
       if( !str_cmp( argument, "kalimdor" ) )      tarea->continent = CONTINENT_KALIMDOR;
       else if( !str_cmp( argument, "eastern" ) )  tarea->continent = CONTINENT_EASTERN;
-      else if( !str_cmp( argument, "instance" ) ) tarea->continent = CONTINENT_INSTANCE;
+      else if( !str_cmp( argument, "pvp" ) ) tarea->continent = CONTINENT_PVP;
       else if( !str_cmp( argument, "unknown" ) )  tarea->continent = CONTINENT_UNKNOWN;
       else
       {
-         send_to_char( "Invalid continent. Valid options are: kalimdor, eastern, instance, unknown.\r\n", ch );
+         send_to_char( "Invalid continent. Valid options are: kalimdor, eastern, pvp, instance, unknown.\r\n", ch );
          return;
       }
       send_to_char( "Area continent set.\r\n", ch );
