@@ -4597,34 +4597,30 @@ void do_areas( CHAR_DATA* ch, const char* argument )
          switch ( pArea->continent )
          {
              case CONTINENT_KALIMDOR:  
-                 sprintf( continent_name, "&O%-18s", "Kalimdor" ); 
-                 sprintf( area_color, "&O" );
+                 sprintf( continent_name, "&R%-18s", "Kalimdor" ); 
                  break;
              case CONTINENT_EASTERN: 
                  sprintf( continent_name, "&B%-18s", "Eastern Kingdoms" ); 
-                 sprintf( area_color, "&B" );
                  break;
              case CONTINENT_INSTANCE:
                  sprintf( continent_name, "&P%-18s", "Instance" );
-                 sprintf( area_color, "&P" );
                  break;
              default:
                  sprintf( continent_name, "&w%-18s", "Unknown" );
-                 sprintf( area_color, "&w" );
                  break;
          }
 
          /* Wowzers MUD: Area Classifications --Hansth */
          switch( pArea->type )
          {
-            case AREA_ALLIANCE: area_type = "&BAlliance  &z"; break;
-            case AREA_HORDE:    area_type = "&RHorde     &z"; break;
-            case AREA_NEUTRAL:  area_type = "&GNeutral   &z"; break;
-            case AREA_DUNGEON:  area_type = "&cDungeon   &z"; break;
-            case AREA_RAID:     area_type = "&PRaid      &z"; break;
-            case AREA_OFFLIMITS: area_type= "&COfflimit  &z"; break;
+            case AREA_ALLIANCE: area_type = "&BAlliance  &z"; sprintf( area_color, "&B" ); break;
+            case AREA_HORDE:    area_type = "&RHorde     &z"; sprintf( area_color, "&R" ); break;
+            case AREA_NEUTRAL:  area_type = "&GNeutral   &z"; sprintf( area_color, "&G" ); break;
+            case AREA_DUNGEON:  area_type = "&cDungeon   &z"; sprintf( area_color, "&c" ); break;
+            case AREA_RAID:     area_type = "&PRaid      &z"; sprintf( area_color, "&P" ); break;
+            case AREA_OFFLIMITS: area_type= "&COfflimit  &z"; sprintf( area_color, "&C" ); break;
             case AREA_LEVELING:
-            default:            area_type = "&YLeveling  &z"; break;
+            default:            area_type = "&YLeveling  &z"; sprintf( area_color, "&Y" ); break;
          }
 
          /* Custom WoW-style display layout --Hansth */
